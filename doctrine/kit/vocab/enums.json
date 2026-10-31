@@ -1,0 +1,119 @@
+{
+  "vocab": "enums",
+  "version": "1.0",
+  "note": "Closed value lists for feed contract v2. Each value has a one-line meaning; basis names the doctrine or standard it follows.",
+  "kind": {
+    "basis": "ICD 203 standard 3 (distinguish information from judgment)",
+    "values": {
+      "observation": "Something measured or reported, with no judgment about what it means.",
+      "assessment": "A judgment about what is happening now or what it means.",
+      "forecast": "A judgment about what will happen, with a resolution rule Verdict can score."
+    }
+  },
+  "tier": {
+    "basis": "Grabo; NATO indicators versus indications; JP 2-0 warning",
+    "values": {
+      "routine": "Measured and inside the baseline.",
+      "anomaly": "Measured and outside the baseline. A measurement, not a warning.",
+      "warning": "Judged. Carries likelihood, confidence, alternatives and what would change it."
+    }
+  },
+  "msg_type": {
+    "basis": "CAP 1.2 msgType (Alert, Update, Cancel, Error)",
+    "values": {
+      "new": "First issue of this item.",
+      "update": "Replaces the item named in supersedes.",
+      "cancel": "Withdraws the item named in supersedes.",
+      "error": "Corrects a mistaken issue named in supersedes."
+    }
+  },
+  "status": {
+    "basis": "CAP 1.2 status",
+    "values": {
+      "actual": "Live output.",
+      "exercise": "Part of a training range or replay.",
+      "test": "Pipeline test; never shown as live.",
+      "draft": "Not yet released."
+    }
+  },
+  "human_review": {
+    "basis": "ICD 505 labelling idea, applied to automated output",
+    "values": {
+      "none": "Fully automated, rule-based; no person looked at it before release.",
+      "sampled": "A person reviews a sample of items from this method version.",
+      "full": "A person reviewed this item before release."
+    }
+  },
+  "indicator_state": {
+    "basis": "Grabo; Tom's rule that missing data never means quiet",
+    "values": {
+      "present": "The indicator's condition is met in this period.",
+      "absent": "Data arrived and the condition is not met.",
+      "no_data": "Data did not arrive or did not cover enough of the area. Drawn grey; never read as absent."
+    }
+  },
+  "direction": {
+    "basis": "CIA Tradecraft Primer (2009) indicators and signposts",
+    "values": {
+      "supports": "Evidence for the hypothesis.",
+      "refutes": "Evidence against the hypothesis.",
+      "neutral": "Recorded but not diagnostic."
+    }
+  },
+  "change_from_prior": {
+    "basis": "ICD 203 standard 7 (explain change or consistency)",
+    "values": {
+      "new": "No prior judgment.",
+      "raised": "Likelihood or level went up.",
+      "lowered": "Likelihood or level went down.",
+      "unchanged": "Same as the prior judgment.",
+      "changed": "Changed in a way that is not up or down (scope, place, wording).",
+      "withdrawn": "The prior judgment no longer stands."
+    }
+  },
+  "status_class": {
+    "basis": "Watchfloor two-source rule; Berkeley Protocol",
+    "values": {
+      "assessed": "Reached by this suite's own method from measurements or several independent sources.",
+      "reported": "Reported by an independent outlet or agency; not measured by the suite.",
+      "claimed": "A single-source or party claim. Drawn hollow; never moves a ladder on its own."
+    }
+  },
+  "precision_class": {
+    "basis": "Suite convention for map drawing",
+    "values": {
+      "point": "Location as published, to about 1 km.",
+      "approximate": "Location known to about 10-50 km.",
+      "area": "A published polygon or the suite's own grid cell.",
+      "admin1": "Province or state only.",
+      "country": "Country only.",
+      "none": "No location (for example a software vulnerability). Drawn off-map."
+    }
+  },
+  "product_category": {
+    "basis": "JP 2-0 intelligence products by purpose, adapted",
+    "values": {
+      "warning": "Warning notice: event-driven and rare.",
+      "current": "Current summary: daily.",
+      "estimative": "Estimate or outlook: probabilistic and scored by Verdict.",
+      "baseline": "Baseline or profile page (general military intelligence-like).",
+      "technical": "Technical note (scientific and technical intelligence-like)."
+    }
+  },
+  "us_person_data": {
+    "basis": "A label, not a restriction (Tom, 30 Oct 2026). The programs are not bound by EO 12333; a consumer that is (for example a government user) filters on this field and strips what its own rules require. EO 12333 section 3.5(k) counts US citizens, permanent residents and US-incorporated companies as US persons.",
+    "values": {
+      "none": "Names no person or organization (counts, measurements, places).",
+      "organizations": "Names organizations, which may include US companies or other US organizations.",
+      "individuals": "Names or identifies individuals, who may be US persons (it may name organizations too)."
+    }
+  },
+  "ease_of_faking": {
+    "basis": "Heuer, Psychology of Intelligence Analysis, ch. 8",
+    "values": {
+      "low": "Hard to fake (physical measurement from several sensors).",
+      "medium": "Possible to fake with effort (single sensor, official statement).",
+      "high": "Easy to fake (social media post, unverified image, single claim)."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "vocab": "frameworks",
+  "version": "1.0",
+  "note": "Doctrinal taxonomies used as tags. Cite released doctrine only: JP 3-04 (2022) is not public; its aspects are confirmed through the 2023 DoD Strategy for Operations in the Information Environment (SOIE) glossary and the 2018 Joint Concept for Operating in the Information Environment.",
+  "ie_aspect": {
+    "basis": "Joint Concept for Operating in the Information Environment (2018); SOIE (2023) glossary quoting JP 3-04",
+    "values": {
+      "informational": "Information itself: content, data, networks that carry it.",
+      "physical": "Physical means and places: infrastructure, sensors, terrain, spectrum.",
+      "human": "How people and groups perceive, decide and act."
+    },
+    "crosswalk": {
+      "cognitive": "human",
+      "virtual": "informational",
+      "physical": "physical",
+      "informational": "informational"
+    },
+    "crosswalk_note": "Old JP 3-13 dimension tags (physical, informational, cognitive) and NATO AJP-10's virtual map onto the current aspects."
+  },
+  "pmesii_pt": {
+    "basis": "FM 3-0 (2022) operational variables; JP 2-01.3 (2014) uses PMESII",
+    "values": {
+      "political": "Political",
+      "military": "Military",
+      "economic": "Economic",
+      "social": "Social",
+      "information": "Information",
+      "infrastructure": "Infrastructure",
+      "physical_environment": "Physical environment",
+      "time": "Time"
+    }
+  },
+  "ascope": {
+    "basis": "JP 3-57 civil considerations; FM 3-0",
+    "values": {
+      "areas": "Areas",
+      "structures": "Structures",
+      "capabilities": "Capabilities",
+      "organizations": "Organizations",
+      "people": "People (as populations and groups; never individuals)",
+      "events": "Events"
+    }
+  },
+  "continuum": {
+    "basis": "Competition continuum (JP 1, JP 3-0; Joint Concept for Competing, 2023)",
+    "values": {
+      "cooperation": "Cooperation",
+      "competition": "Competition below armed conflict",
+      "armed_conflict": "Armed conflict"
+    }
+  }
+}

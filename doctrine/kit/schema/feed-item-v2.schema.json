@@ -1,0 +1,639 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theintelligence.company/schema/feed-item-v2.schema.json",
+  "title": "The Intelligence Company feed item, contract v2",
+  "description": "Properties of one GeoJSON Feature (or one flat item). Conditional rules (judgments need probability, confidence, alternatives and change; forecasts need a resolution rule; every item needs a geometry or a visual) are enforced by the kit's tradecraft linter.",
+  "type": "object",
+  "required": [
+    "contract",
+    "id",
+    "program",
+    "title",
+    "kind",
+    "tier",
+    "status",
+    "msg_type",
+    "human_review",
+    "us_person_data",
+    "status_class",
+    "data_as_of",
+    "published_at",
+    "countries",
+    "method_version",
+    "sources"
+  ],
+  "properties": {
+    "contract": {
+      "const": "tic-feed/2"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "program": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What happened, one line."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Bottom line up front; required for judgments."
+    },
+    "kind": {
+      "enum": [
+        "assessment",
+        "forecast",
+        "observation"
+      ],
+      "description": "ICD 203 standard 3 (distinguish information from judgment)"
+    },
+    "tier": {
+      "enum": [
+        "anomaly",
+        "routine",
+        "warning"
+      ],
+      "description": "Grabo; NATO indicators versus indications; JP 2-0 warning"
+    },
+    "status": {
+      "enum": [
+        "actual",
+        "draft",
+        "exercise",
+        "test"
+      ],
+      "description": "CAP 1.2 status"
+    },
+    "msg_type": {
+      "enum": [
+        "cancel",
+        "error",
+        "new",
+        "update"
+      ],
+      "description": "CAP 1.2 msgType (Alert, Update, Cancel, Error)"
+    },
+    "human_review": {
+      "enum": [
+        "full",
+        "none",
+        "sampled"
+      ],
+      "description": "ICD 505 labelling idea, applied to automated output"
+    },
+    "status_class": {
+      "enum": [
+        "assessed",
+        "claimed",
+        "reported"
+      ],
+      "description": "Watchfloor two-source rule; Berkeley Protocol"
+    },
+    "precision_class": {
+      "enum": [
+        "admin1",
+        "approximate",
+        "area",
+        "country",
+        "none",
+        "point"
+      ],
+      "description": "Suite convention for map drawing"
+    },
+    "product_category": {
+      "enum": [
+        "baseline",
+        "current",
+        "estimative",
+        "technical",
+        "warning"
+      ],
+      "description": "JP 2-0 intelligence products by purpose, adapted"
+    },
+    "us_person_data": {
+      "enum": [
+        "individuals",
+        "none",
+        "organizations"
+      ],
+      "description": "A label, not a restriction (Tom, 30 Oct 2026). The programs are not bound by EO 12333; a consumer that is (for example a government user) filters on this field and strips what its own rules require. EO 12333 section 3.5(k) counts US citizens, permanent residents and US-incorporated companies as US persons."
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "data_as_of": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+      "description": "When the information was true (UTC)."
+    },
+    "published_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+      "description": "When this item was published (UTC)."
+    },
+    "valid_until": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "coverage_fraction": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "baseline_ref": {
+      "type": "object",
+      "required": [
+        "id",
+        "window",
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "fixed",
+            "rolling",
+            "both"
+          ]
+        }
+      }
+    },
+    "method_version": {
+      "type": "string"
+    },
+    "requirement_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warning_problem_id": {
+      "type": "string"
+    },
+    "hypothesis_id": {
+      "type": "string"
+    },
+    "indicator_id": {
+      "type": "string"
+    },
+    "direction": {
+      "enum": [
+        "neutral",
+        "refutes",
+        "supports"
+      ],
+      "description": "CIA Tradecraft Primer (2009) indicators and signposts"
+    },
+    "indicator_state": {
+      "enum": [
+        "absent",
+        "no_data",
+        "present"
+      ],
+      "description": "Grabo; Tom's rule that missing data never means quiet"
+    },
+    "probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Stored number; the source of truth."
+    },
+    "likelihood_term": {
+      "enum": [
+        "almost_no_chance",
+        "very_unlikely",
+        "unlikely",
+        "roughly_even_chance",
+        "likely",
+        "very_likely",
+        "almost_certain"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "confidence_basis": {
+      "type": "object"
+    },
+    "change_from_prior": {
+      "enum": [
+        "changed",
+        "lowered",
+        "new",
+        "raised",
+        "unchanged",
+        "withdrawn"
+      ],
+      "description": "ICD 203 standard 7 (explain change or consistency)"
+    },
+    "change_reason": {
+      "type": "string"
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "hypothesis",
+          "tell_apart"
+        ]
+      }
+    },
+    "resolution": {
+      "type": "object",
+      "required": [
+        "rule",
+        "source",
+        "resolve_by"
+      ]
+    },
+    "evidence_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "archive_url": {
+      "type": "string"
+    },
+    "visual": {
+      "type": "object",
+      "required": [
+        "type",
+        "url"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "publisher",
+          "licence"
+        ],
+        "properties": {
+          "grade": {
+            "type": "string",
+            "pattern": "^[A-F][1-6]$"
+          },
+          "author": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "outlet": {
+            "type": "string"
+          },
+          "source_type": {
+            "type": "string"
+          },
+          "descriptor": {
+            "type": "string"
+          },
+          "lineage_id": {
+            "type": "string"
+          },
+          "independence_group": {
+            "type": "string"
+          },
+          "owner": {
+            "enum": [
+              "individual",
+              "intergovernmental",
+              "ngo",
+              "private",
+              "public",
+              "state",
+              "unknown"
+            ],
+            "description": "Watchfloor's source catalog (owner field, 27 Oct 2026). Public means publicly funded with editorial independence; state means controlled or directed by a government."
+          },
+          "perspective": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The program's source group: the perspective the source speaks from (e.g. russian_state), so coverage splits by side. Labels go in the feed header's perspectives map."
+          },
+          "accessed_at": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+          },
+          "published_at": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+          }
+        }
+      }
+    },
+    "actors": {
+      "type": "array",
+      "description": "How feed items characterise entities and sides (Tom, 31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "role",
+          "status_class"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "affected",
+              "civilians",
+              "party",
+              "responsible",
+              "supporter",
+              "third_party",
+              "unknown"
+            ],
+            "description": "UCDP's primary and secondary warring parties (support to a party); the civilian and party distinction of international humanitarian law (Additional Protocol I, arts. 43 and 50); attribution as a judgment that needs its evidence (ODNI, A Guide to Cyber Attribution, 2018)"
+          },
+          "actor_type": {
+            "enum": [
+              "armed_forces",
+              "armed_group",
+              "company",
+              "criminal_group",
+              "government",
+              "individual",
+              "intergovernmental",
+              "media",
+              "ngo",
+              "political_group",
+              "population",
+              "security_service",
+              "unknown"
+            ],
+            "description": "Adapted from ACLED's actor types and the STIX 2.1 identity classes"
+          },
+          "side": {
+            "type": "string",
+            "description": "The party, named as the sources name it. Required for party and supporter; never a judgment of friend or foe."
+          },
+          "function": {
+            "type": "string",
+            "description": "What a third party does: mediator, monitor, aid."
+          },
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "status_class": {
+            "enum": [
+              "assessed",
+              "claimed",
+              "reported"
+            ],
+            "description": "Watchfloor two-source rule; Berkeley Protocol"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "ids from this item's sources[] that the characterisation rests on."
+          },
+          "designations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "by",
+                "label"
+              ],
+              "properties": {
+                "by": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": "Government designations, quoted as published (e.g. a sanctions listing)."
+          },
+          "ref": {
+            "type": "string",
+            "description": "A stable id for the actor, e.g. wikidata:Q12345."
+          }
+        }
+      }
+    },
+    "ie_aspect": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "human",
+          "informational",
+          "physical"
+        ]
+      }
+    },
+    "pmesii_pt": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "economic",
+          "information",
+          "infrastructure",
+          "military",
+          "physical_environment",
+          "political",
+          "social",
+          "time"
+        ]
+      }
+    },
+    "ascope": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "areas",
+          "capabilities",
+          "events",
+          "organizations",
+          "people",
+          "structures"
+        ]
+      }
+    },
+    "continuum": {
+      "enum": [
+        "armed_conflict",
+        "competition",
+        "cooperation"
+      ]
+    },
+    "ncf": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "conduct_elections",
+          "develop_maintain_public_works",
+          "distribute_electricity",
+          "educate_and_train",
+          "enforce_law",
+          "explore_extract_fuels",
+          "generate_electricity",
+          "maintain_medical_records",
+          "maintain_supply_chains",
+          "manage_hazardous_materials",
+          "manage_wastewater",
+          "manufacture_equipment",
+          "operate_core_network",
+          "operate_government",
+          "perform_cyber_incident_management",
+          "prepare_for_manage_emergencies",
+          "preserve_constitutional_rights",
+          "produce_chemicals",
+          "protect_sensitive_information",
+          "provide_agricultural_products",
+          "provide_cable_access_network",
+          "provide_capital_markets",
+          "provide_consumer_banking",
+          "provide_defense_materiel",
+          "provide_food_products",
+          "provide_funding_liquidity",
+          "provide_housing",
+          "provide_identity_management",
+          "provide_insurance",
+          "provide_internet_content_services",
+          "provide_internet_routing",
+          "provide_it_products",
+          "provide_maintain_infrastructure",
+          "provide_medical_care",
+          "provide_metals_materials",
+          "provide_payment_clearing_settlement",
+          "provide_pnt",
+          "provide_public_safety",
+          "provide_radio_broadcast_access",
+          "provide_satellite_access",
+          "provide_wholesale_funding",
+          "provide_wireless_access",
+          "provide_wireline_access",
+          "refine_process_fuels",
+          "research_and_development",
+          "store_fuel_maintain_reserves",
+          "supply_water",
+          "support_community_health",
+          "transmit_electricity",
+          "transport_by_air",
+          "transport_by_mass_transit",
+          "transport_by_pipeline",
+          "transport_by_rail",
+          "transport_by_road",
+          "transport_by_vessel"
+        ]
+      }
+    },
+    "sector": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "chemical",
+          "commercial_facilities",
+          "communications",
+          "critical_manufacturing",
+          "dams",
+          "defense_industrial_base",
+          "emergency_services",
+          "energy",
+          "financial_services",
+          "food_and_agriculture",
+          "government_services_and_facilities",
+          "healthcare_and_public_health",
+          "information_technology",
+          "nuclear_reactors_materials_waste",
+          "transportation_systems",
+          "water_and_wastewater"
+        ]
+      },
+      "description": "Derived from ncf through vocab/infrastructure.json."
+    },
+    "lifeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "communications",
+              "energy",
+              "food_hydration_shelter",
+              "hazardous_materials",
+              "health_and_medical",
+              "safety_and_security",
+              "transportation",
+              "water_systems"
+            ]
+          },
+          "status": {
+            "enum": [
+              "baseline",
+              "minimal",
+              "moderate",
+              "significant",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "response_stage": {
+      "enum": [
+        "cems:activated",
+        "cems:closed",
+        "easa_czib:active",
+        "easa_czib:expired",
+        "gdacs:green",
+        "gdacs:orange",
+        "gdacs:red",
+        "ifrc:dref",
+        "ifrc:emergency_appeal",
+        "pager:green",
+        "pager:orange",
+        "pager:red",
+        "pager:yellow",
+        "state_post_posture:authorized_departure",
+        "state_post_posture:normal",
+        "state_post_posture:ordered_departure",
+        "state_post_posture:suspended_operations",
+        "state_travel_advisory:level_1",
+        "state_travel_advisory:level_2",
+        "state_travel_advisory:level_3",
+        "state_travel_advisory:level_4"
+      ]
+    },
+    "disarm_technique": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+      }
+    }
+  }
+}

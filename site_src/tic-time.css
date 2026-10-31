@@ -1,0 +1,21 @@
+/*! tic-time.css v1.2 · pairs with tic-time.js · uses a site's own colour variables when it has them */
+.tic-time-btn { font: inherit; font-size: 13px; cursor: pointer; padding: 5px 10px; border-radius: 6px;
+  border: 1px solid var(--line, rgba(127,127,127,.4)); background: transparent; color: inherit; white-space: nowrap; }
+.tic-time-dialog { max-width: min(420px, calc(100vw - 32px)); width: 100%; border: 1px solid var(--line, #ccd);
+  border-radius: 10px; padding: 18px 20px; background: var(--panel, #fff); color: var(--ink, #111); font: inherit; }
+.tic-time-dialog::backdrop { background: rgba(0,0,0,.45); }
+.tic-time-dialog h2 { margin: 0 0 12px; font-size: 18px; }
+.tic-time-row { margin: 0 0 12px; }
+.tic-time-row label { display: inline-flex; align-items: center; gap: 6px; margin-right: 12px; }
+.tic-time-dialog select, .tic-time-dialog input[type=text] { font: inherit; max-width: 100%; padding: 5px 8px;
+  border: 1px solid var(--line, #ccd); border-radius: 6px; background: var(--bg, #fff); color: inherit; }
+.tic-time-dialog fieldset { border: 1px solid var(--line, #ccd); border-radius: 8px; padding: 8px 12px; }
+.tic-time-dialog legend { font-size: 13px; color: var(--muted, #666); padding: 0 4px; }
+.tic-time-preview { font-weight: 600; margin: 4px 0 8px; }
+.tic-time-msg { color: var(--alarm, #b3261e); min-height: 1em; margin: 0 0 8px; font-size: 13px; }
+.tic-time-actions { display: flex; gap: 8px; justify-content: flex-end; margin: 0; }
+.tic-time-actions button { font: inherit; padding: 6px 12px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--line, #ccd); background: var(--panel, #fff); color: inherit; }
+.tic-time-actions .tic-time-done { background: var(--accent, #1f4fa3); border-color: var(--accent, #1f4fa3); color: #fff; }
+.tic-time-note { font-size: 12px; color: var(--muted, #666); margin: 10px 0 0; }
+[hidden].tic-time-other { display: none; }

@@ -1,0 +1,89 @@
+{
+  "vocab": "icd203",
+  "version": "1.0",
+  "claim": "Aligned with ICD 203, 206 and 208 principles. The directives bind Intelligence Community elements only; this suite is not one, so it never claims compliance.",
+  "source": "https://archive.dni.gov/files/documents/ICD/ICD-203.pdf",
+  "verified": "Checked 30 Oct 2026: the operative text is the 2 Jan 2015 directive. The 12 Jun 2023 technical amendment adds annual analyst training only; the likelihood table and the standards are unchanged.",
+  "analytic_standards": [
+    "Objective",
+    "Independent of political consideration",
+    "Timely",
+    "Based on all available sources of intelligence information",
+    "Implements and exhibits the analytic tradecraft standards"
+  ],
+  "tradecraft_standards": [
+    {
+      "n": 1,
+      "id": "sources",
+      "title": "Properly describes quality and credibility of underlying sources, data, and methodologies",
+      "checks": "sources[] with publisher, licence, access time and descriptor; method_version; coverage_fraction"
+    },
+    {
+      "n": 2,
+      "id": "uncertainty",
+      "title": "Properly expresses and explains uncertainties associated with major analytic judgments",
+      "checks": "judgments carry probability, its ICD 203 term, confidence and confidence_basis; anomalies carry baseline_ref"
+    },
+    {
+      "n": 3,
+      "id": "distinguish",
+      "title": "Properly distinguishes between underlying intelligence information and analysts' assumptions and judgments",
+      "checks": "kind and tier are consistent (observation versus judgment); status_class set"
+    },
+    {
+      "n": 4,
+      "id": "alternatives",
+      "title": "Incorporates analysis of alternatives",
+      "checks": "judgments list alternatives[], each with the indicator that would tell it apart"
+    },
+    {
+      "n": 5,
+      "id": "relevance",
+      "title": "Demonstrates customer relevance and addresses implications",
+      "checks": "requirement_ids[] or warning_problem_id link the item to a written requirement"
+    },
+    {
+      "n": 6,
+      "id": "argumentation",
+      "title": "Uses clear and logical argumentation",
+      "checks": "title, and a summary for judgments; indicator links complete (hypothesis, direction, state)"
+    },
+    {
+      "n": 7,
+      "id": "change",
+      "title": "Explains change to or consistency of analytic judgments",
+      "checks": "change_from_prior, and change_reason when it changed; supersedes for updates and cancels"
+    },
+    {
+      "n": 8,
+      "id": "accuracy",
+      "title": "Makes accurate judgments and assessments",
+      "checks": "forecasts carry a resolution rule and valid_until so Verdict can score them"
+    },
+    {
+      "n": 9,
+      "id": "visual",
+      "title": "Incorporates effective visual information where appropriate",
+      "checks": "every item has a geometry or a visual (the suite's visual-first rule)"
+    }
+  ],
+  "no_mixing_rule": "ICD 203 D.6.e(2)(b): products must not combine a confidence level and a degree of likelihood in one sentence.",
+  "sourcing": {
+    "standard": "ICS 206-01, Citation and Reference for Publicly Available Information, Commercially Available Information, and Open Source Intelligence (2 Dec 2024; supersedes 26 Sep 2017)",
+    "url": "https://archive.dni.gov/files/documents/ICD/ICS-206-01.pdf",
+    "icd206_amendment": "18 Dec 2025: PAI, CAI and OSINT are sourced per ICS 206-01",
+    "fields": [
+      "author or originator",
+      "unambiguous identifier",
+      "title",
+      "publication date (or access date when the posting date is unknown)",
+      "source type",
+      "site or outlet name",
+      "URL",
+      "date of access",
+      "source descriptor (credibility, bias, quality, reliability, validity, evaluated or not, collector, tool or database used, third-party provenance)"
+    ],
+    "retention": "Keep a record of a dynamic web source for at least one year.",
+    "note": "Classification fields do not apply: the suite publishes public information only and never uses markings."
+  }
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elements: natural hazards as the authorities report them</title>
+<meta name="description" content="USGS earthquakes with PAGER impact alerts, GDACS multi-hazard alerts, NOAA hurricane center storms and Copernicus EMS disaster-mapping activations on one map. A project of The Intelligence Company.">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tic-time.css">
+<script src="tic-time.js"></script>
+<script src="vendor/leaflet/leaflet.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div class="brand"><strong>Elements</strong><span class="muted">The Intelligence Company</span></div>
+    <nav class="top-nav">
+      <a href="https://theintelligence.company/">All programs</a>
+      <a href="data/feed.geojson">Feed</a>
+      <a href="https://github.com/metacog-osint/elements">Code and data</a>
+      <span id="time-settings"></span>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Earthquakes, cyclones, floods, droughts and disaster mapping, as the issuing authorities report them.</h1>
+    <p class="lede">USGS earthquakes with their PAGER impact alert, GDACS multi-hazard alerts, NOAA National Hurricane
+      Center storms and Copernicus EMS rapid-mapping activations, collected every hour.</p>
+  </section>
+
+  <section class="mapcard" aria-label="Map">
+    <div class="map-tools">
+      <fieldset class="layers" aria-label="Layers">
+        <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
+        <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
+        <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
+        <label><input type="checkbox" data-layer="cems" checked> Copernicus EMS activations</label>
+      </fieldset>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div id="map" role="region" aria-label="Map of natural-hazard alerts"></div>
+  </section>
+
+  <section class="card" aria-labelledby="alerts-h">
+    <h2 id="alerts-h">Alerts above the bottom rung</h2>
+    <p class="muted small">PAGER yellow or worse, and GDACS orange or red. Both are model estimates of impact, issued
+      within minutes and revised as reports arrive. A GDACS alert is the highest the event has reached.</p>
+    <div id="alerts"></div>
+  </section>
+
+  <div class="two">
+    <section class="card" aria-labelledby="quakes-h">
+      <h2 id="quakes-h">Largest earthquakes, past 7 days</h2>
+      <div id="mags"></div>
+      <div id="quakes"></div>
+    </section>
+    <section class="card" aria-labelledby="tc-h">
+      <h2 id="tc-h">Tropical cyclones, past 14 days</h2>
+      <p class="muted small">GDACS covers every ocean basin; the National Hurricane Center covers the Atlantic and eastern
+        Pacific.</p>
+      <div id="cyclones"></div>
+    </section>
+  </div>
+
+  <div class="two">
+    <section class="card" aria-labelledby="cems-h">
+      <h2 id="cems-h">Copernicus EMS activations</h2>
+      <p class="muted small">An authority asked the EU to map a disaster from satellite imagery. Open activations, and
+        any from the last 60 days.</p>
+      <div id="cems"></div>
+    </section>
+    <section class="card" aria-labelledby="gd-h">
+      <h2 id="gd-h">GDACS alerts by hazard, past 14 days</h2>
+      <p class="muted small">Green earthquakes are left to USGS, and green wildfires (hundreds a fortnight) are not
+        collected.</p>
+      <div id="gdacs"></div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="health-h">
+    <h2 id="health-h">Sources</h2>
+    <div id="health"></div>
+    <p class="small muted">USGS and NOAA content is US public domain. GDACS alerts: Global Disaster Alert and Coordination
+      System, a joint initiative of the European Commission Joint Research Centre and UN OCHA, used with attribution.
+      Copernicus Emergency Management Service, © European Union. Country outlines: Natural Earth (public domain). Map
+      drawn with Leaflet (BSD 2-Clause).</p>
+    <p class="small muted">Not yet covered: fires (NASA FIRMS), volcano alert levels (USGS and the Smithsonian), US
+      weather warnings, and radiation monitoring.</p>
+  </section>
+</main>
+
+<footer class="wrap foot small muted">
+  <p>A project of The Intelligence Company. Collected <time id="asof" data-tic="datetime"></time>. Elements reports what
+    each authority published; it adds no judgment of its own. Each event is drawn at the point its source gives;
+    cyclones, floods and droughts reach well beyond it.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

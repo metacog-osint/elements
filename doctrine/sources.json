@@ -1,0 +1,19 @@
+{
+  "program": "elements",
+  "register": "this file",
+  "sources": [
+    {"id": "usgs-earthquakes", "name": "USGS earthquake summary feed (M4.5+, past week)", "licence": "US public domain", "use": "ingest"},
+    {"id": "gdacs", "name": "GDACS event list API", "licence": "GDACS terms: reuse with attribution (not re-checked)", "use": "ingest"},
+    {"id": "nhc", "name": "NOAA NHC CurrentStorms.json", "licence": "US public domain", "use": "ingest"},
+    {"id": "copernicus-ems", "name": "Copernicus EMS rapid-mapping activations", "licence": "Copernicus: free and open, with attribution", "use": "ingest"},
+    {"id": "nasa-firms", "name": "NASA FIRMS active fires", "licence": "NASA open data (needs a free MAP_KEY)", "use": "later"}
+  ],
+  "extra": {
+    "usgs-earthquakes": {"grade": "A1", "independence_group": "usgs", "ease_of_faking": "low", "cadence_s": 300,
+      "descriptor": "Origin, magnitude, PAGER alert", "probe": {"url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", "expect": "json"}},
+    "gdacs": {"grade": "A2", "independence_group": "gdacs", "ease_of_faking": "low", "cadence_s": 3600, "descriptor": "Multi-hazard automated alerts"},
+    "nhc": {"grade": "A1", "independence_group": "noaa", "ease_of_faking": "low", "cadence_s": 10800, "descriptor": "Active tropical cyclones",
+      "probe": {"url": "https://www.nhc.noaa.gov/CurrentStorms.json", "expect": "json"}},
+    "copernicus-ems": {"grade": "A1", "independence_group": "copernicus", "ease_of_faking": "low", "cadence_s": 86400, "descriptor": "Rapid-mapping activations"}
+  }
+}

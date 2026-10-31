@@ -1,0 +1,55 @@
+{
+  "vocab": "confidence",
+  "version": "1.0",
+  "label": "Rule-based, not statistical",
+  "basis": "Factors follow the National Intelligence Council's estimative-language section (ICA 2021: timeliness, consistency and extent of reporting, argumentation, expertise, assumptions, gaps) grouped under the UK's three factors (information base, analytical rigour, complexity and volatility). The thresholds are this suite's own design.",
+  "sources": {
+    "nic_2021": "https://archive.dni.gov/files/ODNI/documents/assessments/ICA-declass-16MAR21.pdf",
+    "uk": "https://www.gov.uk/government/publications/explaining-uncertainty-in-uk-intelligence-assessment/explaining-uncertainty-in-uk-intelligence-assessment"
+  },
+  "levels": [
+    { "id": "low", "rank": 0, "term": "Low",
+      "meaning": "Information is scant, questionable, fragmented or old, or rests on one line of evidence; the judgment could change sharply." },
+    { "id": "moderate", "rank": 1, "term": "Moderate",
+      "meaning": "Two or more independent lines of evidence agree, with gaps, caveats or assumptions that keep it short of high." },
+    { "id": "high", "rank": 2, "term": "High",
+      "meaning": "Three or more independent lines agree, few gaps or assumptions, low deception potential, alternatives examined, and a method with a scored track record. Not a certainty." }
+  ],
+  "defaults": {
+    "stale_factor": 2.0,
+    "coverage_floor": 0.5,
+    "moderate_min_lines": 2,
+    "high_min_lines": 3,
+    "high_min_alternatives": 1,
+    "max_high_horizon_days": 90
+  },
+  "rules": [
+    { "id": "timeliness", "uk_factor": "information_base", "nic_element": "Timeliness",
+      "input": "data_age_s against expected_cadence_s",
+      "rule": "Older than stale_factor x the expected cadence caps confidence at Low." },
+    { "id": "extent", "uk_factor": "information_base", "nic_element": "Extent of reporting",
+      "input": "coverage_fraction",
+      "rule": "Below coverage_floor marks the row degraded and caps confidence at Low." },
+    { "id": "consistency", "uk_factor": "information_base", "nic_element": "Consistency",
+      "input": "independent_lines (distinct independence groups that agree), contradicted",
+      "rule": "Moderate needs moderate_min_lines independent lines; High needs high_min_lines and no contradicting line." },
+    { "id": "source_quality", "uk_factor": "information_base", "nic_element": "Source quality",
+      "input": "Admiralty grades of the sources",
+      "rule": "Any reliability E or F, or credibility 5 or 6, caps confidence at Moderate." },
+    { "id": "argumentation", "uk_factor": "analytical_rigour", "nic_element": "Argumentation, alternatives",
+      "input": "alternatives examined and rejected",
+      "rule": "High needs at least high_min_alternatives alternative examined and rejected." },
+    { "id": "expertise", "uk_factor": "analytical_rigour", "nic_element": "Depth of expertise",
+      "input": "method_scored (Verdict holds a scored record for this method version)",
+      "rule": "No High until the method version has a scored record." },
+    { "id": "assumptions", "uk_factor": "analytical_rigour", "nic_element": "Reliance on assumptions",
+      "input": "worst status of linked assumptions",
+      "rule": "Strained caps confidence at Moderate. Broken blocks publication." },
+    { "id": "deception", "uk_factor": "complexity_volatility", "nic_element": "Deception potential",
+      "input": "ease_of_faking (low, medium, high)",
+      "rule": "High ease of faking caps confidence at Moderate." },
+    { "id": "horizon", "uk_factor": "complexity_volatility", "nic_element": "Forecast horizon",
+      "input": "horizon_days",
+      "rule": "No High beyond max_high_horizon_days." }
+  ]
+}

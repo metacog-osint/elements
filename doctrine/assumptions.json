@@ -1,0 +1,13 @@
+{
+  "program": "elements",
+  "assumptions": [
+    {"id": "EL-AS-1", "text": "Automated impact alerts (PAGER, GDACS) are a fair first estimate of impact.",
+     "test": {"type": "manual", "rule": "Compare with Copernicus activations and ReliefWeb reports as they come in"},
+     "status": "untested", "note": "Both are model estimates published within minutes and revised; wildfire alerts are especially numerous.",
+     "reviewed": "2026-10-31", "linked": ["EL-IND-1", "EL-IND-2"]},
+    {"id": "EL-AS-2", "text": "An event's point locates its country.",
+     "test": {"type": "auto", "rule": "The kit's country lookup on the event point"},
+     "status": "holds", "note": "Offshore events get no country; cyclones, droughts and floods reach beyond their point.",
+     "reviewed": "2026-10-31", "linked": []}
+  ]
+}
