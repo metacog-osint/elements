@@ -1,0 +1,29 @@
+{
+  "program": "elements",
+  "indicator_rule": "Indicators meet Gentry's test. Lists stay flat (Grabo). Automated alerts (PAGER, GDACS) are estimates that are revised; a revision is recorded, never hidden.",
+  "emerging_concerns": "A hazard with an orange or red alert in a country no program watches goes to Watchfloor's review queue.",
+  "indicators": [
+    {"id": "EL-IND-1", "text": "USGS PAGER alert of yellow or worse", "series": "USGS earthquakes", "rule": "alert is yellow, orange or red",
+     "baseline": "PAGER green", "gentry": {"predictive": true, "diagnostic": true, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-2", "text": "GDACS alert of orange or red", "series": "GDACS", "rule": "alertlevel orange or red",
+     "baseline": "GDACS green", "gentry": {"predictive": true, "diagnostic": false, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-3", "text": "Copernicus EMS activation", "series": "Copernicus EMS", "rule": "a new activation in the area",
+     "baseline": "none (an event)", "gentry": {"predictive": false, "diagnostic": true, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-4", "text": "An automated alert is lowered or withdrawn on revision", "series": "USGS and GDACS updates",
+     "rule": "a later update lowers the alert", "baseline": "the first alert",
+     "gentry": {"predictive": false, "diagnostic": true, "unambiguous": true, "collectable": true}}
+  ],
+  "warning_problems": [
+    {"id": "EL-WP-1", "title": "A natural hazard becomes a disaster (anywhere)", "frozen": "2026-10-31",
+     "watch_condition": {"current": "set per event from EL-IND-1 to EL-IND-3", "levels": ["normal", "elevated", "disaster"]},
+     "issue_on_change": "Issue a notice when an event's alert rises or an activation opens; stay silent while it holds.",
+     "deactivation": "Back to normal when the alerts are lowered and any activation closes.",
+     "hypotheses": [
+       {"id": "EL-WP-1-H1", "statement": "Major human impact (deaths, displacement, lifelines down)",
+        "emerging": ["EL-IND-1", "EL-IND-2", "EL-IND-3"], "not_emerging": ["EL-IND-4"]},
+       {"id": "EL-WP-1-H2", "statement": "A large hazard with limited impact (remote, prepared or offshore)",
+        "emerging": ["EL-IND-2"], "not_emerging": ["EL-IND-3"]},
+       {"id": "EL-WP-1-H3", "statement": "Artefact: an automated estimate later revised down", "emerging": ["EL-IND-4"], "not_emerging": []}
+     ]}
+  ]
+}

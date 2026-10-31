@@ -1,0 +1,161 @@
+{
+  "vocab": "grading",
+  "version": "1.0",
+  "admiralty": {
+    "basis": "NATO Admiralty system (STANAG 2511 / AJP-2.1; US FM 2-22.3 appendix B). Reliability and credibility are graded separately.",
+    "reliability": {
+      "A": "Completely reliable",
+      "B": "Usually reliable",
+      "C": "Fairly reliable",
+      "D": "Not usually reliable",
+      "E": "Unreliable",
+      "F": "Reliability cannot be judged"
+    },
+    "credibility": {
+      "1": "Confirmed by other sources",
+      "2": "Probably true",
+      "3": "Possibly true",
+      "4": "Doubtful",
+      "5": "Improbable",
+      "6": "Truth cannot be judged"
+    }
+  },
+  "response_stage": {
+    "note": "Each ladder keeps its own words. Values are written 'ladder:value'. 'severity' (0-4) places every rung on the suite's one lightness ramp; it is never shown instead of the ladder's own word.",
+    "ladders": {
+      "pager": {
+        "name": "USGS PAGER earthquake alert",
+        "source": "https://earthquake.usgs.gov/data/pager/",
+        "values": {
+          "green": {
+            "severity": 0,
+            "meaning": "No response needed (estimated fatalities 0; losses under US$1M)."
+          },
+          "yellow": {
+            "severity": 2,
+            "meaning": "Local or regional response (fatalities 1-99; losses US$1M-100M)."
+          },
+          "orange": {
+            "severity": 3,
+            "meaning": "National response (fatalities 100-999; losses US$100M-1B)."
+          },
+          "red": {
+            "severity": 4,
+            "meaning": "International response (fatalities 1,000+; losses US$1B+)."
+          }
+        }
+      },
+      "gdacs": {
+        "name": "GDACS alert level",
+        "source": "https://www.gdacs.org/",
+        "values": {
+          "green": {
+            "severity": 0,
+            "meaning": "Low humanitarian impact expected."
+          },
+          "orange": {
+            "severity": 3,
+            "meaning": "Moderate impact; international assistance may be needed."
+          },
+          "red": {
+            "severity": 4,
+            "meaning": "Severe impact; international assistance likely needed."
+          }
+        }
+      },
+      "cems": {
+        "name": "Copernicus Emergency Management Service rapid mapping",
+        "source": "https://emergency.copernicus.eu/",
+        "values": {
+          "activated": {
+            "severity": 3,
+            "meaning": "Rapid mapping activated for the event."
+          },
+          "closed": {
+            "severity": 1,
+            "meaning": "Activation closed."
+          }
+        }
+      },
+      "ifrc": {
+        "name": "IFRC GO response",
+        "source": "https://go.ifrc.org/",
+        "values": {
+          "dref": {
+            "severity": 2,
+            "meaning": "Disaster Response Emergency Fund allocation."
+          },
+          "emergency_appeal": {
+            "severity": 3,
+            "meaning": "Emergency Appeal launched."
+          }
+        }
+      },
+      "easa_czib": {
+        "name": "EASA Conflict Zone Information Bulletin",
+        "source": "https://www.easa.europa.eu/en/domains/air-operations/czibs",
+        "values": {
+          "active": {
+            "severity": 3,
+            "meaning": "Bulletin in force for the airspace."
+          },
+          "expired": {
+            "severity": 0,
+            "meaning": "Bulletin lapsed or withdrawn."
+          }
+        }
+      },
+      "state_travel_advisory": {
+        "name": "US State Department Travel Advisory level",
+        "source": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+        "values": {
+          "level_1": {
+            "severity": 0,
+            "meaning": "Exercise normal precautions."
+          },
+          "level_2": {
+            "severity": 1,
+            "meaning": "Exercise increased caution."
+          },
+          "level_3": {
+            "severity": 2,
+            "meaning": "Reconsider travel."
+          },
+          "level_4": {
+            "severity": 4,
+            "meaning": "Do not travel."
+          }
+        }
+      },
+      "state_post_posture": {
+        "name": "US embassy or consulate staffing posture",
+        "source": "https://travel.state.gov/",
+        "values": {
+          "normal": {
+            "severity": 0,
+            "meaning": "Normal operations."
+          },
+          "authorized_departure": {
+            "severity": 2,
+            "meaning": "Non-emergency staff and family members may leave at government expense."
+          },
+          "ordered_departure": {
+            "severity": 3,
+            "meaning": "Non-emergency staff and family members are ordered to leave."
+          },
+          "suspended_operations": {
+            "severity": 4,
+            "meaning": "The post has suspended operations."
+          }
+        }
+      }
+    },
+    "severity_scale": {
+      "0": "none",
+      "1": "local",
+      "2": "regional",
+      "3": "national",
+      "4": "international or most severe"
+    }
+  }
+}

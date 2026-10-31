@@ -1,0 +1,135 @@
+{
+  "vocab": "likelihood",
+  "version": "1.0",
+  "store": "Store the number (0 to 1) as the source of truth. Show the ICD 203 term with its band. Put the UK term in a tooltip. Kent is for reference only.",
+  "boundary_rule": "Band edges overlap in ICD 203 (01-05, 05-20, ...). The kit resolves them symmetrically about 0.5: p < 0.05 almost no chance; 0.05 <= p < 0.20 very unlikely; 0.20 <= p < 0.45 unlikely; 0.45 <= p <= 0.55 roughly even chance; 0.55 < p <= 0.80 likely; 0.80 < p <= 0.95 very likely; p > 0.95 almost certain.",
+  "never_with_confidence": "ICD 203 does not allow a likelihood term and a confidence level in the same sentence. Show them as separate chips.",
+  "sources": {
+    "icd203": "https://archive.dni.gov/files/documents/ICD/ICD-203.pdf",
+    "uk": "https://www.gov.uk/government/publications/explaining-uncertainty-in-uk-intelligence-assessment/explaining-uncertainty-in-uk-intelligence-assessment",
+    "kent": "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf"
+  },
+  "verified": "Checked 30 Oct 2026: the operative text is the 2 Jan 2015 directive. The 12 Jun 2023 technical amendment adds annual analyst training only; the likelihood table and the standards are unchanged.",
+  "terms": [
+    {
+      "id": "almost_no_chance",
+      "step": 0,
+      "term": "Almost no chance",
+      "synonym": "Remote",
+      "lower": 0.01,
+      "upper": 0.05,
+      "band_label": "01-05%",
+      "uk": {
+        "term": "Remote chance",
+        "band_label": ">0-~5%"
+      },
+      "kent": {
+        "term": "Almost certainly not",
+        "band_label": "7% +/-5"
+      }
+    },
+    {
+      "id": "very_unlikely",
+      "step": 1,
+      "term": "Very unlikely",
+      "synonym": "Highly improbable",
+      "lower": 0.05,
+      "upper": 0.2,
+      "band_label": "05-20%",
+      "uk": {
+        "term": "Highly unlikely",
+        "band_label": "~10-~20%"
+      },
+      "kent": {
+        "term": "(between 'almost certainly not' and 'probably not')",
+        "band_label": "7-30%"
+      }
+    },
+    {
+      "id": "unlikely",
+      "step": 2,
+      "term": "Unlikely",
+      "synonym": "Improbable",
+      "lower": 0.2,
+      "upper": 0.45,
+      "band_label": "20-45%",
+      "uk": {
+        "term": "Unlikely",
+        "band_label": "~25-~35%"
+      },
+      "kent": {
+        "term": "Probably not",
+        "band_label": "30% +/-10"
+      }
+    },
+    {
+      "id": "roughly_even_chance",
+      "step": 3,
+      "term": "Roughly even chance",
+      "synonym": "Roughly even odds",
+      "lower": 0.45,
+      "upper": 0.55,
+      "band_label": "45-55%",
+      "uk": {
+        "term": "Realistic possibility (no exact equivalent)",
+        "band_label": "~40-<50%"
+      },
+      "kent": {
+        "term": "Chances about even",
+        "band_label": "50% +/-10"
+      }
+    },
+    {
+      "id": "likely",
+      "step": 4,
+      "term": "Likely",
+      "synonym": "Probable",
+      "lower": 0.55,
+      "upper": 0.8,
+      "band_label": "55-80%",
+      "uk": {
+        "term": "Likely or probable",
+        "band_label": "~55-~75%"
+      },
+      "kent": {
+        "term": "Probable",
+        "band_label": "75% +/-12"
+      }
+    },
+    {
+      "id": "very_likely",
+      "step": 5,
+      "term": "Very likely",
+      "synonym": "Highly probable",
+      "lower": 0.8,
+      "upper": 0.95,
+      "band_label": "80-95%",
+      "uk": {
+        "term": "Highly likely",
+        "band_label": "~80-~90%"
+      },
+      "kent": {
+        "term": "(between 'probable' and 'almost certain')",
+        "band_label": "75-93%"
+      }
+    },
+    {
+      "id": "almost_certain",
+      "step": 6,
+      "term": "Almost certain",
+      "synonym": "Nearly certain",
+      "lower": 0.95,
+      "upper": 0.99,
+      "band_label": "95-99%",
+      "uk": {
+        "term": "Almost certain",
+        "band_label": "~95-<100%"
+      },
+      "kent": {
+        "term": "Almost certain",
+        "band_label": "93% +/-6"
+      }
+    }
+  ],
+  "mixing_rows": "ICD 203 strongly encourages analysts not to mix terms from different rows; a product that does needs a disclaimer. The kit shows one row's term only."
+}

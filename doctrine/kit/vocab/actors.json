@@ -1,0 +1,55 @@
+{
+  "vocab": "actors",
+  "version": "1.0",
+  "note": "How feed items characterise entities and sides (Tom, 31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
+  "never": ["friendly", "friend", "hostile", "enemy", "adversary", "opposing force", "opfor", "red force", "blue force", "bad actor", "threat actor"],
+  "roles": {
+    "basis": "UCDP's primary and secondary warring parties (support to a party); the civilian and party distinction of international humanitarian law (Additional Protocol I, arts. 43 and 50); attribution as a judgment that needs its evidence (ODNI, A Guide to Cyber Attribution, 2018)",
+    "values": {
+      "party": { "label": "Party", "frame": "unknown", "side": "required",
+        "meaning": "A party to the conflict or dispute the item describes. side names which party." },
+      "supporter": { "label": "Supporter", "frame": "unknown", "side": "required",
+        "meaning": "Backs a party (troops, arms, money, basing or diplomacy) without being a party itself. side names the party it backs." },
+      "responsible": { "label": "Held responsible", "frame": "unknown", "side": "optional",
+        "meaning": "The actor the cited sources hold responsible for the action in this item, or that claims it. Needs source_ids; when the suite itself makes the attribution (status_class assessed), the item must be a judgment." },
+      "affected": { "label": "Affected", "frame": "neutral", "side": "optional",
+        "meaning": "The organization, group or place hit by the action: a ransomware victim, an airport losing GPS, a struck port." },
+      "civilians": { "label": "Civilians", "frame": "neutral", "side": "optional",
+        "meaning": "Non-combatants in an armed conflict, as a population or group, never named individuals. side may say whose territory or population." },
+      "third_party": { "label": "Third party", "frame": "neutral", "side": "none",
+        "meaning": "Involved but on no side: a mediator, monitor, observer, or aid or emergency responder. function says which." },
+      "unknown": { "label": "Role unknown", "frame": "unknown", "side": "optional",
+        "meaning": "Named in the sources, but its part in the event is not established." }
+    }
+  },
+  "types": {
+    "basis": "Adapted from ACLED's actor types and the STIX 2.1 identity classes",
+    "values": {
+      "government": { "label": "Government", "meaning": "A state's government or civilian institutions." },
+      "armed_forces": { "label": "Armed forces", "meaning": "A state's armed forces or other state military bodies." },
+      "security_service": { "label": "Security service", "meaning": "A state's intelligence, police, border or other security services." },
+      "armed_group": { "label": "Armed group", "meaning": "An organized armed group outside a state's forces (militia, insurgency). Any government designation goes in designations[], quoted." },
+      "criminal_group": { "label": "Criminal group", "meaning": "Organized crime, including criminal cyber groups such as ransomware operators." },
+      "political_group": { "label": "Political group", "meaning": "A party, movement or protest organization." },
+      "company": { "label": "Company", "meaning": "A private or state-owned company." },
+      "intergovernmental": { "label": "Intergovernmental", "meaning": "A body of several states: UN agencies, NATO, the AU, EU institutions." },
+      "ngo": { "label": "NGO", "meaning": "A non-governmental organization." },
+      "media": { "label": "Media", "meaning": "A news outlet, broadcaster or channel, as an actor rather than a source." },
+      "population": { "label": "Population", "meaning": "People as a population or group. Never a named individual." },
+      "individual": { "label": "Individual", "meaning": "A named or identifiable person. The item's us_person_data must then be 'individuals'." },
+      "unknown": { "label": "Unknown", "meaning": "Kind of entity not established." }
+    }
+  },
+  "source_owner": {
+    "basis": "Watchfloor's source catalog (owner field, 27 Oct 2026). Public means publicly funded with editorial independence; state means controlled or directed by a government.",
+    "values": {
+      "state": "State or state-affiliated: controlled or directed by a government.",
+      "public": "Public service: publicly funded, editorially independent.",
+      "private": "Privately owned outlet or company.",
+      "intergovernmental": "A body of several states.",
+      "ngo": "A non-governmental organization.",
+      "individual": "A person: a blogger, channel or researcher publishing in their own name.",
+      "unknown": "Ownership not established."
+    }
+  }
+}

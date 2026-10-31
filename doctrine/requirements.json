@@ -1,0 +1,18 @@
+{
+  "program": "elements",
+  "customer": "Public readers, responders, analysts, Verdict and COP. Written by the program owner.",
+  "reviewed": "2026-10-31",
+  "review_by": "2027-01-31",
+  "requirements": [
+    {"id": "EL-SQ-1", "type": "standing", "question": "Where is a natural hazard hurting people or infrastructure now, and how big is it?"},
+    {"id": "EL-PIR-1", "type": "pir", "parent": "EL-SQ-1", "question": "Which earthquakes this week carry a USGS PAGER alert of yellow or worse?",
+     "series": ["USGS earthquakes M4.5+ (PAGER alert)"], "warning_problems": ["EL-WP-1"]},
+    {"id": "EL-PIR-2", "type": "pir", "parent": "EL-SQ-1", "question": "Which hazards does GDACS rate orange or red, and where?",
+     "series": ["GDACS alerts: earthquakes, tropical cyclones, floods, volcanoes, droughts, wildfires"], "warning_problems": ["EL-WP-1"]},
+    {"id": "EL-PIR-3", "type": "pir", "parent": "EL-SQ-1", "question": "Which tropical cyclones are active in the Atlantic and eastern Pacific?",
+     "series": ["NOAA NHC active storms"], "warning_problems": ["EL-WP-1"]},
+    {"id": "EL-PIR-4", "type": "pir", "parent": "EL-SQ-1", "question": "Where has an authority asked the EU to map a disaster?",
+     "series": ["Copernicus EMS rapid-mapping activations"], "warning_problems": ["EL-WP-1"]},
+    {"id": "EL-EEI-1", "type": "eei", "parent": "EL-PIR-1", "question": "Is each source answering (data/health.json)?", "series": ["source health"]}
+  ]
+}
