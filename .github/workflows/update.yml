@@ -1,7 +1,7 @@
 name: update
 # Hourly: collect every source, commit data/ when its content changed, build site/ and publish it to GitHub Pages
 # (https://metacog-osint.github.io/elements/). A failing source keeps its last good data; nothing here fails the run
-# except a broken build. Free: public repo, no secrets.
+# except a broken build. Free: public repo. One optional secret, FIRMS_MAP_KEY (a free NASA key).
 on:
   schedule:
     - cron: "35 * * * *"
@@ -29,6 +29,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Collect
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}  # optional: without it, FIRMS's public files are read instead
         run: python tools/elements.py collect
       - name: Commit data when its content changed
         run: |

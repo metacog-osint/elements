@@ -12,7 +12,7 @@ import json
 import re
 from datetime import datetime, timedelta, timezone
 
-from .common import fetch_or_none, now_utc  # first: puts the doctrine kit on sys.path
+from .common import country_at, fetch_or_none, iso, now_utc  # first: puts the doctrine kit on sys.path
 from tic_doctrine import geo  # noqa: E402
 
 USGS_URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson"
@@ -44,7 +44,7 @@ def _naive_utc(s) -> str | None:
 
 
 def country_of(lon: float, lat: float) -> list[str]:
-    cc = geo.country_at(lat, lon)
+    cc = country_at(lat, lon)
     return [cc] if cc else []
 
 
@@ -170,7 +170,7 @@ def name_to_iso(name: str) -> str | None:
         _NAMES.update({"czech republic": "CZ", "czechia": "CZ", "bosnia and herzegovina": "BA", "united kingdom": "GB",
                        "democratic republic of the congo": "CD", "republic of the congo": "CG", "türkiye": "TR",
                        "turkey": "TR", "north macedonia": "MK", "russia": "RU", "south sudan": "SS"})
-    return _NAMES.get((name or "").strip().lower())
+    return iso(_NAMES.get((name or "").strip().lower()))
 
 
 def parse_cems(doc: dict) -> list[dict]:
@@ -199,7 +199,9 @@ def collect_cems(old, fetch=fetch_or_none):
 
 
 def collect_all(prev: dict, when: str | None = None) -> dict:
-    """{'usgs': (records, err), ...}"""
+    """{'usgs': (records, err), ...}; FIRMS gives one payload of cells rather than a list of records."""
+    from . import firms
     now = datetime.now(timezone.utc)
     return {"usgs": collect_usgs(prev.get("usgs")), "gdacs": collect_gdacs(prev.get("gdacs"), now),
-            "nhc": collect_nhc(prev.get("nhc")), "cems": collect_cems(prev.get("cems")), "when": when or now_utc()}
+            "nhc": collect_nhc(prev.get("nhc")), "cems": collect_cems(prev.get("cems")),
+            "firms": firms.collect_firms(prev.get("firms"), now), "when": when or now_utc()}

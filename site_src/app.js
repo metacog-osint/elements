@@ -1,5 +1,6 @@
 /* Elements map page. Reads data/feed.geojson (the program's tic-feed/2 feed, built by tools/elements.py),
- * data/health.json and geo/world.json (Natural Earth outlines). Text is inserted as text, never HTML. Times go
+ * data/fires.json (FIRMS detections in half-degree cells), data/health.json and geo/world.json (Natural Earth
+ * outlines). Text is inserted as text, never HTML. Times go
  * through the shared TicTime module. */
 (function () {
   "use strict";
@@ -38,16 +39,45 @@
     .setView([18, 20], 2);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA NHC · Copernicus EMS");
+  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA NHC · Copernicus EMS · NASA FIRMS");
   var layers = {};
 
   function quakeRadius(m) { return Math.max(3, 3 + (m - 4.5) * 2.6); }
+  var FIRE_BREAKS = [[100, "100+"], [20, "20–99"], [5, "5–19"], [1, "1–4"]];
+  function fireStep(n) { return n >= 100 ? 4 : n >= 20 ? 3 : n >= 5 ? 2 : 1; }
+  function num(n) { return Number(n).toLocaleString("en-US"); }
 
-  function draw(world, feats) {
-    L.geoJSON(world, { interactive: false,
+  function draw(world, feats, fires) {
+    // Land goes in its own pane below the overlays: Leaflet stacks any SVG above any canvas in a pane, and the fire
+    // canvas has to sit above the land.
+    map.createPane("land").style.zIndex = 350;
+    L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
     var by = { usgs: [], gdacs: [], nhc: [], cems: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
+
+    // Fire cells, thousands of them, as dots on a canvas under every other layer. A half-degree cell is about a pixel
+    // wide at world zoom, so each dot has a minimum size and grows with zoom to fill its cell.
+    layers.firms = L.layerGroup();
+    var fireCanvas = L.canvas({ padding: 0.5 });
+    var fireColors = [null, css("--f1"), css("--f2"), css("--f3"), css("--f4")];
+    var MIN_R = [0, 1.6, 2.1, 2.7, 3.3];
+    var names = (fires && fires.names) || {}, cellDeg = (fires && fires.cell_deg) || 0.5, dots = [];
+    function fireRadius(step) { return Math.max(MIN_R[step], 0.47 * cellDeg * 256 * Math.pow(2, map.getZoom()) / 360); }
+    ((fires && fires.cells) || []).slice().sort(function (a, b) { return a[2] - b[2]; }).forEach(function (c) {
+      var step = fireStep(c[2]);
+      var dot = L.circleMarker([c[1], c[0]], { renderer: fireCanvas, stroke: false, radius: fireRadius(step),
+        fillColor: fireColors[step], fillOpacity: 0.9 });
+      dot.fireStep = step;
+      dots.push(dot);
+      dot
+        .bindTooltip(tip(num(c[2]) + " fire and heat detections" + (c[3] ? " (" + num(c[3]) + " high confidence)" : "")
+          + "\nRadiative power " + num(c[4]) + " MW in all, largest " + num(c[5]) + " MW"
+          + "\n" + (c[7] ? names[c[7]] || c[7] : "At sea or unassigned") + "\nLatest " + when(c[6])), { sticky: true })
+        .addTo(layers.firms);
+    });
+    layers.firms.addTo(map);
+    map.on("zoomend", function () { dots.forEach(function (d) { d.setRadius(fireRadius(d.fireStep)); }); });
 
     // Smaller quakes first so the large ones sit on top.
     layers.usgs = L.layerGroup();
@@ -113,18 +143,20 @@
     });
 
     function sw(cls, style, label) { return h("span", null, [h("span", { "class": cls, style: style }), label]); }
-    document.getElementById("legend").replaceChildren(
+    var fireKey = [h("span", { "class": "lg-h" }, ["Fire and heat detections per cell:"])].concat(FIRE_BREAKS.slice().reverse().map(function (b) {
+      return sw("dt", "background:" + fireColors[fireStep(b[0])] + ";box-shadow:none", b[1]); }));
+    document.getElementById("legend").replaceChildren.apply(document.getElementById("legend"), fireKey.concat([
       h("span", { "class": "lg-h" }, ["Alert:"]),
       sw("dt", "background:" + css("--a-green"), "green"), sw("dt", "background:" + css("--a-yellow"), "yellow"),
       sw("dt", "background:" + css("--a-orange"), "orange"), sw("dt", "background:" + css("--a-red"), "red"),
       sw("dt", "background:" + css("--unrated") + ";opacity:.6", "no PAGER alert"),
       h("span", null, ["Circle size: magnitude"]),
       h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
-      sw("ring", "", "Copernicus activation"));
+      sw("ring", "", "Copernicus activation")]));
   }
 
-  function lists(feats, health, generated) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [] };
+  function lists(feats, health, generated, fires) {
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
     var hot = feats.map(function (f) { return f.properties; }).filter(function (p) { return p.tier === "anomaly"; })
@@ -184,8 +216,25 @@
       return [(HAZ[k] || [0, cap(k)])[1], grid[k].green || "—", grid[k].orange || "—", grid[k].red || "—"]; }), { 1: 1, 2: 1, 3: 1 })
       : empty("GDACS listed no alerts in the past 14 days."));
 
+    var fz = by.firms.slice().sort(function (x, y) { return y.measures.detections - x.measures.detections; });
+    var fsum = document.getElementById("fires-sum");
+    if (fires && fires.cells && fires.cells.length) {
+      var via = Object.keys(fires.via || {}).map(function (k) { return fires.via[k]; });
+      fsum.replaceChildren(num(fires.detections) + " detections in " + num(fires.cells.length) + " half-degree cells, "
+        + when(fires.window[0]) + " to " + when(fires.window[1]) + "; newest " + when(fires.newest)
+        + (via.indexOf("public files") >= 0 ? " (FIRMS public files, about three hours behind)" : " (FIRMS API)") + ".");
+    } else {
+      fsum.replaceChildren("No FIRMS data in this build.");
+    }
+    document.getElementById("fires").replaceChildren(fz.length ? table(["Country", "Detections", "High confidence", "Radiative power (MW)"],
+      fz.slice(0, 15).map(function (p) {
+        var m = p.measures;
+        return [m.country_name, num(m.detections), num(m.high_confidence), num(Math.round(m.frp_sum_mw))]; }), { 1: 1, 2: 1, 3: 1 })
+      : empty("No country had 10 or more detections in the past 24 hours."));
+
     var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
-      nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping" };
+      nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
+      "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;
@@ -196,12 +245,15 @@
   }
 
   T.mountSettings(document.getElementById("time-settings"));
-  Promise.all(["geo/world.json", "data/feed.geojson", "data/health.json"].map(function (u) {
+  function get(u) {
     return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(u + " " + r.status); return r.json(); });
-  })).then(function (x) {
-    draw(x[0], x[1].features);
-    lists(x[1].features, x[2], x[1].generated_at);
-    T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at); });
+  }
+  // The fire cells are optional: without them the rest of the page still draws.
+  Promise.all([get("geo/world.json"), get("data/feed.geojson"), get("data/health.json"),
+    get("data/fires.json").catch(function () { return null; })]).then(function (x) {
+    draw(x[0], x[1].features, x[3]);
+    lists(x[1].features, x[2], x[1].generated_at, x[3]);
+    T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });
   }).catch(function (e) {
     document.getElementById("map").replaceChildren(h("p", { "class": "empty", style: "padding:16px" }, ["The data could not be loaded (" + e.message + ")."]));
   });

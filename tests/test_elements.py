@@ -1,15 +1,17 @@
-"""Offline tests for Elements. Run as a plain script or with unittest. Fixtures copy the live formats seen on
+"""Offline tests for Elements (no network; FIRMS_MAP_KEY is set only inside tests, to a dummy value). Run as a plain script or with unittest. Fixtures copy the live formats seen on
 31 Oct 2026, including the awkward cases (GDACS's empty body when nothing matches, its cyclone stage label paired with
 the event's maximum wind, floods that carry "Magnitude 0", drought names that list every country)."""
 import json
+import os
 import sys
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, sources  # noqa: E402
+from elements import feed, firms, sources  # noqa: E402
 from tic_doctrine import contract, registers  # noqa: E402
 
 NOW = datetime(2026, 10, 31, 22, 0, tzinfo=timezone.utc)
@@ -196,6 +198,129 @@ class Feed(unittest.TestCase):
         again = feed.build(dataset(), NOW)
         self.assertEqual(json.dumps(self.fc, sort_keys=True), json.dumps(again, sort_keys=True))
         self.assertEqual(self.fc["generated_at"], FETCHED)
+
+
+FIRMS_HEAD = "latitude,longitude,bright_ti4,scan,track,acq_date,acq_time,satellite,confidence,version,bright_ti5,frp,daynight\n"
+
+
+def firms_csv(rows, conf_style="word"):
+    word = {"n": "nominal", "h": "high", "l": "low"}
+    lines = [f"{lat},{lon},330,0.4,0.5,{day},{tm},N20,{word[c] if conf_style == 'word' else c},2.0NRT,290,{frp},D"
+             for lat, lon, day, tm, c, frp in rows]
+    return (FIRMS_HEAD + "\n".join(lines) + "\n").encode()
+
+
+BRAZIL = [(-10.2 - i * 0.01, -55.3 - i * 0.01, "2026-10-31", "1530", "h" if i == 0 else "n", 10.0 + i) for i in range(12)]
+FIRE_ROWS = BRAZIL + [
+    (-10.25, -55.35, "2026-10-31", "1532", "l", 99.0),   # low confidence: dropped
+    (-10.2, -55.3, "2026-10-30", "0100", "n", 5.0),      # outside the 24 hours, still counted for 30 Oct
+    (23.7, 121.0, "2026-10-31", "45", "n", 3.0),         # Taiwan; acq_time without leading zeros
+    (0.0, -30.0, "2026-10-31", "1200", "n", 1.0),        # mid-Atlantic: no country
+]
+KEY = "0123456789abcdef0123456789abcdef"
+
+
+def firms_fetch(answers, seen):
+    """answers: {'api': body or None, 'public': body or None, 'status': body}; seen collects the URLs asked for."""
+    def fetch(url, timeout=40, max_bytes=None):
+        seen.append(url)
+        kind = "status" if "mapkey_status" in url else "api" if "/api/area/" in url else "public"
+        body = answers.get(kind)
+        return (body, None) if body is not None else (None, "HTTP 503")
+    return fetch
+
+
+class Firms(unittest.TestCase):
+    def test_parse_both_confidence_styles(self):
+        for style in ("word", "letter"):
+            dets = firms.parse(firms_csv(FIRE_ROWS, style))
+            self.assertEqual(len(dets), len(FIRE_ROWS) - 1, style)  # the low one is dropped
+            self.assertTrue(dets[0][3])                              # high confidence
+        tw = [x for x in firms.parse(firms_csv(FIRE_ROWS)) if x[1] == 23.7][0]
+        self.assertEqual(tw[2], datetime(2026, 10, 31, 0, 45, tzinfo=timezone.utc))
+
+    def test_aggregate(self):
+        a = firms.aggregate(firms.parse(firms_csv(FIRE_ROWS)), NOW)
+        self.assertEqual(a["window"], ["2026-10-30T22:00:00Z", "2026-10-31T22:00:00Z"])
+        self.assertEqual(a["detections"], 14)                     # 12 Brazil + Taiwan + Atlantic
+        by_cc = {}
+        for c in a["cells"]:
+            by_cc[c[7]] = by_cc.get(c[7], 0) + c[2]
+        self.assertEqual(by_cc, {"BR": 12, "TW": 1, None: 1})
+        self.assertEqual(a["daily"]["2026-10-30"], {"BR": 1})
+        self.assertEqual(a["daily"]["2026-10-31"], {"BR": 12, "TW": 1})
+        br = max(a["cells"], key=lambda c: c[2])
+        self.assertEqual((br[3], br[5]), (1, 21.0))               # one high-confidence; largest FRP 21 MW
+        self.assertTrue(all(c[0] % 0.5 == 0.25 for c in a["cells"]))  # cell centres
+
+    def test_no_key_reads_public_files(self):
+        seen = []
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": ""}):
+            p, err = firms.collect_firms(None, NOW, firms_fetch({"public": firms_csv(FIRE_ROWS)}, seen))
+        self.assertIsNone(err)
+        self.assertEqual(set(p["via"].values()), {"public files"})
+        self.assertTrue(all("/data/active_fire/" in u for u in seen))
+        self.assertEqual(len(seen), 3)
+
+    def test_key_uses_api_and_never_leaks(self):
+        seen = []
+        status = json.dumps({"transaction_limit": 5000, "current_transactions": 6, "secret_echo": KEY}).encode()
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": KEY}):
+            p, err = firms.collect_firms(None, NOW, firms_fetch({"api": firms_csv(FIRE_ROWS, "letter"), "status": status}, seen))
+        self.assertIsNone(err)
+        self.assertEqual(set(p["via"].values()), {"api"})
+        self.assertTrue(seen[0].endswith(f"/api/area/csv/{KEY}/VIIRS_NOAA20_NRT/world/2"))
+        self.assertEqual(p["key_status"], {"transaction_limit": 5000, "current_transactions": 6})
+        self.assertNotIn(KEY, json.dumps(p))
+        self.assertIn("key used 6 of 5000 transactions", firms.summary(p))
+
+    def test_api_failure_falls_back_without_leaking(self):
+        seen = []
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": KEY}):
+            p, err = firms.collect_firms(None, NOW, firms_fetch({"api": b"Invalid MAP_KEY " + KEY.encode(),
+                                                                 "public": firms_csv(FIRE_ROWS)}, seen))
+        self.assertEqual(set(p["via"].values()), {"public files"})
+        self.assertIn("answer was not CSV", err)
+        self.assertNotIn(KEY, err + json.dumps(p))
+
+    def test_bad_key_is_not_sent(self):
+        seen = []
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": "not-a-key/../x"}):
+            p, err = firms.collect_firms(None, NOW, firms_fetch({"public": firms_csv(FIRE_ROWS)}, seen))
+        self.assertFalse(any("/api/" in u for u in seen))
+        self.assertIn("not a 32-character key", err)
+
+    def test_all_fail_keeps_old(self):
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": ""}):
+            p, err = firms.collect_firms({"cells": ["old"]}, NOW, firms_fetch({}, []))
+        self.assertEqual(p, {"cells": ["old"]})
+        self.assertIn("HTTP 503", err)
+
+    def test_history_keeps_complete_days_only(self):
+        a = firms.aggregate(firms.parse(firms_csv(FIRE_ROWS)), NOW)
+        h = firms.update_history({"days": {"2026-10-29": {"BR": 3}}}, a, "2026-10-31")
+        self.assertEqual(list(h["days"]), ["2026-10-29", "2026-10-30"])  # 31 Oct is today: still filling
+        self.assertEqual(h["days"]["2026-10-30"], {"BR": 1})
+
+    def test_feed_items(self):
+        a = firms.aggregate(firms.parse(firms_csv(FIRE_ROWS)), NOW)
+        d = dataset()
+        d["firms"] = {"records": a, "fetched_at": FETCHED}
+        fc = feed.build(d, NOW)
+        self.assertEqual(fc["dropped"], [])
+        fire = {f["properties"]["id"]: f["properties"] for f in fc["features"] if f["properties"]["id"].startswith("elements:firms:")}
+        self.assertEqual(list(fire), ["elements:firms:BR"])        # Taiwan has 1 detection, under the minimum of 10
+        p = fire["elements:firms:BR"]
+        self.assertEqual(p["title"], "12 fire and heat detections in Brazil, past 24 hours (VIIRS)")
+        self.assertEqual((p["precision_class"], p["tier"], p["countries"]), ("country", "routine", ["BR"]))
+        self.assertEqual(p["data_as_of"], "2026-10-31T15:30:00Z")
+
+    def test_country_names_and_taiwan(self):
+        from elements.common import country_at, country_name
+        self.assertEqual(country_at(23.7, 121.0), "TW")
+        self.assertEqual(country_name("TW"), "Taiwan")
+        self.assertEqual(country_name("SS"), "South Sudan")
+        self.assertEqual(country_name("BR"), "Brazil")
 
 
 class Registers(unittest.TestCase):
