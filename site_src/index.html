@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Elements: natural hazards as the authorities report them</title>
-<meta name="description" content="USGS earthquakes with PAGER impact alerts, GDACS multi-hazard alerts, NOAA hurricane center storms and Copernicus EMS disaster-mapping activations on one map. A project of The Intelligence Company.">
+<meta name="description" content="USGS earthquakes with PAGER impact alerts, GDACS multi-hazard alerts, NOAA hurricane center storms, Copernicus EMS disaster-mapping activations and NASA FIRMS fire detections on one map. A project of The Intelligence Company.">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="tic-time.css">
@@ -26,14 +26,16 @@
 
 <main class="wrap">
   <section class="hero">
-    <h1>Earthquakes, cyclones, floods, droughts and disaster mapping, as the issuing authorities report them.</h1>
+    <h1>Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
     <p class="lede">USGS earthquakes with their PAGER impact alert, GDACS multi-hazard alerts, NOAA National Hurricane
-      Center storms and Copernicus EMS rapid-mapping activations, collected every hour.</p>
+      Center storms, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire detections, collected every
+      hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
     <div class="map-tools">
       <fieldset class="layers" aria-label="Layers">
+        <label><input type="checkbox" data-layer="firms" checked> Fire and heat detections (NASA FIRMS)</label>
         <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
         <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
@@ -80,15 +82,26 @@
     </section>
   </div>
 
+  <section class="card" aria-labelledby="fires-h">
+    <h2 id="fires-h">Fire and heat detections by country, past 24 hours</h2>
+    <p class="muted small" id="fires-sum"></p>
+    <p class="muted small">VIIRS on NOAA-20, NOAA-21 and Suomi-NPP, nominal and high confidence. These are detections,
+      not fires: a fire is counted again on each overpass, and gas flares, volcanoes and industrial heat sources are
+      detected too. Each half-degree cell is counted to the country at its centre of detections. Radiative power (fire
+      radiative power, in megawatts) is a rough measure of how much is burning.</p>
+    <div id="fires"></div>
+  </section>
+
   <section class="card" aria-labelledby="health-h">
     <h2 id="health-h">Sources</h2>
     <div id="health"></div>
     <p class="small muted">USGS and NOAA content is US public domain. GDACS alerts: Global Disaster Alert and Coordination
       System, a joint initiative of the European Commission Joint Research Centre and UN OCHA, used with attribution.
-      Copernicus Emergency Management Service, © European Union. Country outlines: Natural Earth (public domain). Map
-      drawn with Leaflet (BSD 2-Clause).</p>
-    <p class="small muted">Not yet covered: fires (NASA FIRMS), volcano alert levels (USGS and the Smithsonian), US
-      weather warnings, and radiation monitoring.</p>
+      Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
+      operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
+      Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
+    <p class="small muted">Not yet covered: volcano alert levels (USGS and the Smithsonian), US weather warnings, and
+      radiation monitoring.</p>
   </section>
 </main>
 

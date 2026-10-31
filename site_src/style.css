@@ -1,11 +1,13 @@
 /* Alert colours follow the issuers' own green-yellow-orange-red scales (USGS PAGER, GDACS); every use also carries the
- * word, in tooltips, badges and tables. Checked with the dataviz validator against the land colour in both modes. */
+ * word, in tooltips, badges and tables. Fire detections use their own magenta ramp (--f1 to --f4) so they never read as
+ * an alert. Checked with the dataviz validator against the land colour in both modes. */
 :root {
   --bg: #f6f7f9; --panel: #ffffff; --ink: #14181f; --muted: #5b6573; --line: #d9dee5; --soft: #eef1f5;
   --sea: #dfe8f1; --land: #f4f2ee; --border: #b7bec8; --link: #1f5fbf;
   --a-green: #2b8a3e; --a-yellow: #f0c419; --a-orange: #f76707; --a-red: #9b1c1c; --unrated: #7b8794;
   --on-green: #ffffff; --on-orange: #14181f; --on-red: #ffffff;
-  --cems: #6d28d9; --nhc: #14181f; --mark-edge: rgba(20, 24, 31, .55); --bar: #3b5b85;
+  --f1: #f06fa0; --f2: #d6338a; --f3: #a3136f; --f4: #5f0a4a;
+  --cems: #0b7285; --nhc: #14181f; --mark-edge: rgba(20, 24, 31, .55); --bar: #3b5b85;
   --radius: 10px; --gap: 16px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color-scheme: light;
 }
@@ -14,7 +16,8 @@
     --sea: #0d1b2a; --land: #232a33; --border: #4a5562; --link: #6aa3ff;
     --a-green: #40c057; --a-yellow: #fcc419; --a-orange: #fd7e14; --a-red: #e8364f; --unrated: #8b97a6;
     --on-green: #0f1318; --on-orange: #0f1318; --on-red: #0f1318;
-    --cems: #b197fc; --nhc: #f3f4f6; --mark-edge: rgba(0, 0, 0, .6); --bar: #7fa6d9; color-scheme: dark; }
+    --f1: #a33a78; --f2: #cf4596; --f3: #f06cb4; --f4: #ffb3dd;
+    --cems: #3bc9db; --nhc: #f3f4f6; --mark-edge: rgba(0, 0, 0, .6); --bar: #7fa6d9; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.5; }
@@ -36,11 +39,12 @@ a { color: var(--link); }
 .legend { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--muted); }
 .legend .lg-h { color: var(--ink); }
 .legend .dt { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; box-shadow: 0 0 0 1px var(--mark-edge); vertical-align: -1px; }
+.legend .sq { display: inline-block; width: 11px; height: 11px; margin-right: 4px; vertical-align: -1px; }
 .legend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--cems); margin-right: 4px; vertical-align: -2px; }
 .legend .lg-icon { display: inline-block; width: 26px; margin-right: 4px; }
 #map { height: min(62vh, 560px); min-height: 340px; background: var(--sea); }
 .leaflet-container { background: var(--sea); font: inherit; }
-.leaflet-tooltip { font-size: 13px; max-width: 320px; white-space: normal; }
+.leaflet-tooltip { font-size: 13px; width: max-content; max-width: min(320px, 80vw); white-space: normal; }
 .tip { white-space: pre-line; }
 .gd-icon { border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
   background: var(--unrated); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }

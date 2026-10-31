@@ -1,6 +1,6 @@
 # Elements
 
-**Earthquakes, cyclones, floods, droughts and disaster mapping, as the issuing authorities report them, on one map.**
+**Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them, on one map.**
 Map: https://metacog-osint.github.io/elements/ · Feed: https://metacog-osint.github.io/elements/data/feed.geojson
 
 Elements collects natural-hazard alerts every hour, straight from the authorities that issue them:
@@ -11,6 +11,7 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
+| NASA FIRMS (VIIRS on NOAA-20, NOAA-21 and Suomi-NPP), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
 
 ## How it reads the sources
 
@@ -22,6 +23,10 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 - A GDACS alert is the highest the event has reached; the latest episode's alert is kept beside it. For cyclones,
   GDACS pairs the storm's latest stage with the event's maximum wind, so Elements gives the wind alone.
 - Copernicus activations are shown when open or less than 60 days old.
+- FIRMS gives detections, not fires: a fire is counted on every overpass, and gas flares, volcanoes and industrial
+  heat are detected too. With the free key (`FIRMS_MAP_KEY`, an Actions secret) Elements uses the FIRMS API, which
+  adds real-time detections; without it, FIRMS's public files, about three hours behind. Each country's daily count
+  is kept in `data/firms_daily.json` to build a baseline; the hourly cells are not committed.
 - Each event is drawn at the point its source gives, and its country is the one that point falls in (offshore events
   have none). Cyclones, floods and droughts reach well beyond their point.
 
@@ -29,14 +34,13 @@ Everything Elements publishes is a measurement of what an authority said, in The
 v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is published. Method:
 `doctrine/method.md`.
 
-Not yet covered: fires (NASA FIRMS, which needs a free key), volcano alert levels (USGS and the Smithsonian), US
-weather warnings, and radiation monitoring.
+Not yet covered: volcano alert levels (USGS and the Smithsonian), US weather warnings, and radiation monitoring.
 
 ## Running it
 
 ```
 python tools/elements.py collect   # fetch every source into data/ (a failing source keeps its last good data)
-python tools/elements.py build     # write site/ (map page, feed.geojson, health.json)
+python tools/elements.py build     # write site/ (map page, feed.geojson, fires.json, health.json)
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
 ```

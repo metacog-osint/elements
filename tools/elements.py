@@ -12,12 +12,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, sources  # noqa: E402
-from elements.common import health, load, now_utc, save  # noqa: E402
+from elements import feed, firms, sources  # noqa: E402
+from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, registers  # noqa: E402
 
 SRC, OUT = ROOT / "site_src", ROOT / "site"
-LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems"}
+LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms"}
 
 
 def collect() -> dict:
@@ -29,8 +29,17 @@ def collect() -> dict:
         records, err = got[k]
         if records is not prev[k]:
             save(f"{k}.json", {"records": records})
-        health(src, not err or bool(records), err or f"{len(records)} records", when)
-        summary[k] = err or f"{len(records)} records"
+        detail = firms.summary(records) if k == "firms" else f"{len(records)} records"
+        if err:
+            detail = f"{detail} ({err})" if records else err
+        health(src, not err or bool(records), detail, when)
+        summary[k] = detail
+    fp = got["firms"][0]
+    if fp is not prev["firms"] and fp.get("daily"):
+        old = load("firms_daily.json", {})
+        new = firms.update_history(old, fp, when[:10])
+        if new != old:
+            save("firms_daily.json", new)  # committed: the baseline for fire anomalies (data/firms.json is not)
     return summary
 
 
@@ -50,6 +59,11 @@ def build() -> dict:
     (OUT / "data" / "feed.geojson").write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "health.json").write_text(json.dumps(d["health"], indent=1) + "\n", encoding="utf-8", newline="\n")
+    fp = d["firms"]["records"] or {}
+    fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via")}
+    fires["names"] = {cc: country_name(cc) for cc in sorted({c[7] for c in fp.get("cells") or [] if c[7]})}
+    (OUT / "data" / "fires.json").write_text(json.dumps(fires, ensure_ascii=False, separators=(",", ":")) + "\n",
+                                             encoding="utf-8", newline="\n")
     return fc
 
 

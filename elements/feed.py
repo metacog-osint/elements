@@ -5,7 +5,7 @@ doctrine kit's linter or is dropped and listed."""
 import re
 from datetime import datetime, timedelta, timezone
 
-from .common import ROOT  # first: puts the doctrine kit on sys.path
+from .common import ROOT, country_name, country_point  # first: puts the doctrine kit on sys.path
 from tic_doctrine import CONTRACT, contract, registers  # noqa: E402
 
 METHOD = "elements-feed-1.0"
@@ -25,7 +25,12 @@ SRC = {
              "url": "https://rapidmapping.emergency.copernicus.eu/", "licence": "Copernicus: free and open, with attribution (© European Union)",
              "grade": "A1", "independence_group": "copernicus", "source_type": "official activation",
              "descriptor": "Rapid-mapping activation: an authority asked the EU to map a disaster"},
+    "firms": {"id": "nasa-firms", "publisher": "NASA FIRMS (LANCE, Earth Science Data and Information System)",
+              "url": "https://firms.modaps.eosdis.nasa.gov/", "licence": "NASA open data, with acknowledgement of LANCE FIRMS",
+              "grade": "A2", "independence_group": "nasa", "source_type": "satellite detection",
+              "descriptor": "VIIRS active fire and thermal-anomaly detections (NOAA-20, NOAA-21, Suomi-NPP)"},
 }
+FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
 PAGER_RANK = {"green": 0, "yellow": 1, "orange": 2, "red": 3}
 TC_NAMES = {"TD": "Tropical depression", "TS": "Tropical storm", "HU": "Hurricane", "STD": "Subtropical depression",
             "STS": "Subtropical storm", "PTC": "Potential tropical cyclone", "PT": "Post-tropical cyclone"}
@@ -119,14 +124,49 @@ def build(d: dict, now: datetime | None = None) -> dict:
             p.update({"precision_class": "none", "visual": {"type": "page", "url": link}})
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
+    fp = (d.get("firms") or {}).get("records") or {}
+    f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    by_cc = {}
+    for lon, lat, n, high, frp, mx, latest, cc in fp.get("cells") or []:
+        if not cc:
+            continue
+        a = by_cc.setdefault(cc, {"n": 0, "high": 0, "frp": 0.0, "max": 0.0, "latest": "", "cells": 0, "sx": 0.0, "sy": 0.0})
+        a["n"] += n
+        a["high"] += high
+        a["frp"] += frp
+        a["max"] = max(a["max"], mx)
+        a["latest"] = max(a["latest"], latest)
+        a["cells"] += 1
+        a["sx"] += lon * n
+        a["sy"] += lat * n
+    window = fp.get("window") or [None, None]
+    for cc, a in sorted(by_cc.items()):
+        if a["n"] < FIRE_MIN:
+            continue
+        name = country_name(cc)
+        lp = country_point(cc)  # [lat, lon]; the detections' centre when the kit has no label point
+        g = _pt(lp[1], lp[0]) if lp else _pt(round(a["sx"] / a["n"], 2), round(a["sy"] / a["n"], 2))
+        p = {**_base(f), "id": f"elements:firms:{cc}",
+             "title": f"{a['n']:,} fire and heat detections in {name}, past 24 hours (VIIRS)",
+             "tier": "routine", "data_as_of": a["latest"].replace("Z", ":00Z"), "countries": [cc],
+             "precision_class": "country", "requirement_ids": ["EL-PIR-5"],
+             "sources": [{**SRC["firms"], "accessed_at": f}], "link": "https://firms.modaps.eosdis.nasa.gov/map/",
+             "measures": {"country_name": name, "detections": a["n"], "high_confidence": a["high"],
+                          "frp_sum_mw": round(a["frp"], 1), "frp_max_mw": round(a["max"], 1), "cells": a["cells"],
+                          "cell_deg": fp.get("cell_deg"), "window_start": window[0], "window_end": window[1],
+                          "note": "Detections, not fires: each overpass counts, and gas flares and other heat sources are included"}}
+        feats.append({"type": "Feature", "geometry": g, "properties": p})
+
     regs = registers.ids(ROOT / "doctrine")
     kept, dropped = [], []
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([d[k].get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems")] + [""]) or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms")] + [""]) \
+        or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
-            "licence": "Elements code MIT; USGS and NOAA content US public domain; GDACS and Copernicus content with attribution",
-            "attribution": "Elements, The Intelligence Company. Sources: USGS, GDACS, NOAA NHC, Copernicus EMS (© European Union).",
+            "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content with attribution",
+            "attribution": "Elements, The Intelligence Company. Sources: USGS, GDACS, NOAA NHC, Copernicus EMS (© European Union), "
+                           "NASA FIRMS (LANCE, operated by NASA's Earth Science Data and Information System).",
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
             "dropped": dropped, "features": kept}
