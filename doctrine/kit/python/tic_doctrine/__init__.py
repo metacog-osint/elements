@@ -4,5 +4,5 @@ likelihood and confidence modules, the tradecraft linter and source health check
 Standard library only, Python 3.12 or later.
 """
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 CONTRACT = "tic-feed/2"

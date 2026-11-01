@@ -1,7 +1,8 @@
 """Which countries does a point or shape fall in? (geo/countries.json, Natural Earth, public domain)
 
 Coarse by design (rings thinned to about 5 km): use it to tag items, not to draw borders. Points at sea return no
-country; maritime zones need their own layer.
+country; maritime zones need their own layer. Codes are ISO 3166-1 alpha-2 (Taiwan is TW, Kosovo XK), as the feed
+contract requires, and names are full names ("South Sudan", not "S. Sudan").
 """
 
 import json
@@ -9,11 +10,25 @@ from functools import cache
 from pathlib import Path
 
 FILE = Path(__file__).resolve().parents[2] / "geo" / "countries.json"
+POINTS = Path(__file__).resolve().parents[2] / "geo" / "points.json"
 
 
 @cache
 def _countries():
     return json.loads(FILE.read_text(encoding="utf-8"))["countries"]
+
+
+@cache
+def _names():
+    out = {}
+    for c in _countries():
+        out.setdefault(c["cc"], c["name"])
+    return out
+
+
+@cache
+def _points():
+    return json.loads(POINTS.read_text(encoding="utf-8"))["points"]
 
 
 def _in_ring(x, y, ring):
@@ -45,12 +60,9 @@ def countries_in(points) -> list[str]:
 
 def point(cc: str):
     """[lat, lon] label point inside the country (ISO alpha-2), or None. Natural Earth LABEL_Y/LABEL_X."""
-    path = Path(__file__).resolve().parents[2] / "geo" / "points.json"
-    return json.loads(path.read_text(encoding="utf-8"))["points"].get(str(cc or "").upper())
+    return _points().get(str(cc or "").upper())
 
 
 def name(cc: str) -> str | None:
-    for c in _countries():
-        if c["cc"] == cc:
-            return c["name"]
-    return None
+    """Full country name for an ISO alpha-2 code ("SS" -> "South Sudan"), or None."""
+    return _names().get(str(cc or "").upper())
