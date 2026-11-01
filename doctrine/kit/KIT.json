@@ -1,19 +1,19 @@
 {
   "kit": "tic-doctrine",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "files": {
     "tic.py": "4d0ef7f2acf83275a08614d12d652a77531eb4cc1b81672d9d7c7ea7ce2a270a",
     "vocab/actors.json": "edfb7317b5313e9a3f329c7dc2a39ec20cc631e459cf588f3218fa21fd3e80ea",
     "vocab/confidence.json": "390fe08bb00441ec4f3951426eaec0c60583732e4bd43d593700410da16421ec",
     "vocab/enums.json": "aa1f1c1783817846d66824d85223076d3159234e4c65aa5f226ad0859ef9dfa9",
     "vocab/frameworks.json": "6852d8b78f50aa09f8cb0e987e92c818f67007851f3cce2cf1feb922a3a90812",
-    "vocab/grading.json": "bf31e2774aa6dc0b977c61ca0048a9051d8fd2631cb579646f7d0edb0eb9d820",
+    "vocab/grading.json": "f2e5b80cdd02df7e550437ec0b73feebddf1cbae5ce33cda57404a931f22c9bf",
     "vocab/icd203.json": "9f85ffe9632e8f413e8c937af15d870c6882a4b87b94604296e80e3d2f063af7",
     "vocab/infrastructure.json": "da63be252f65e21e5041f33e97913f3fd93935d44a9610f13256c35b123fd193",
     "vocab/likelihood.json": "4d47a87701a20adbee0ee910eae6581f74ac46f9bd6bf3f26671660b2cabfd9b",
     "geo/countries.json": "0d1f348855871ac26c98f64d01c0fc342f8b917cb16ece80fb7d9e3add236396",
     "geo/points.json": "369b66ee628c6753d43b114770875cb27a2008da200b58bf76932a50b3cff994",
-    "python/tic_doctrine/__init__.py": "a786283fe1dd215382e5341719d204c081eceff0ebc27dffea072ead47f27891",
+    "python/tic_doctrine/__init__.py": "cef7813fa7aae9f16b61f87a44e17185e7dee3d417a14cccae98058b5ef1b867",
     "python/tic_doctrine/confidence.py": "a15beea576a41944bcd996cf5124005fbecba0b6f38a549e9f8121467e0c9bd8",
     "python/tic_doctrine/contract.py": "ea5b8bb83e55ed5d2ce900f31513c513563707243474dab823c72e97b04888be",
     "python/tic_doctrine/geo.py": "07ce1320e0947609dadd431359399adbcc0e045cf14ee242941c5ac58fe805bd",
@@ -23,13 +23,13 @@
     "python/tic_doctrine/registers.py": "c2f59668b904a78273a02df22628e96d9d385c96308ba6c7e719beb5ebe39593",
     "python/tic_doctrine/vocab.py": "b5a93bf85125b5e4e190bb5fd905b19a2750b206a70b63ce165b921f4f8525b1",
     "python/tic_doctrine/withhold.py": "cde726f561ec01545a0875fc1d798c8ad25964af4b09ad661471aded557b6b11",
-    "js/tic-doctrine.js": "2b1165017c17d2f0bfc7bf8120f3cdb67c425705afbb95636f55aad7821669c7",
-    "schema/feed-item-v2.schema.json": "e3c1a2302c15354efc9658f6093727916fa7edaf7abfcdac568034eca3cd043d",
+    "js/tic-doctrine.js": "5d124dfbabdb74053a2a390577cfd4b9a06fb25631123ad25d97e4306ff66763",
+    "schema/feed-item-v2.schema.json": "fd4ed36a3f38f983c6db9c05e080a673edd6fd616b98b501df94fa3780cd86f2",
     "docs/confidence-rubric.md": "5ae48dec23a0596ad9c60f03e8db865d553dab9339daf3b6023a41c83db4d8de",
     "docs/feed-contract-v2.md": "f04a32c36433abd075110ab32aa63f39fc87f35c8e14a1793ccd91a5b600622e",
     "docs/language-key.md": "8dafebd7a7bfc0013fc5025fb071e1317afa0ebdeff4385a1d88d83cbf7979ac",
     "docs/sources-and-withholding.md": "5be5cd5e845a1766088624e09b7f20809fce5999b8ce4f5e42ed1b44eb69b124",
     "LICENSE": "e2fcdaa349fa37ea67fca3787f04878a0579a8fcdcc7f5db615fe15d3f5cf6d7",
-    "README.md": "458a18bf0587cb79afb859ccd2f51fee0810737666ebddfb19074cc433aec615"
+    "README.md": "f37a6c25bf77a69ccd017e4daef8bb48dd7e268d836addd3609d6ce56e520e59"
   }
 }
