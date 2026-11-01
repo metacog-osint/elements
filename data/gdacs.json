@@ -128,7 +128,7 @@
    "severity_unit": "",
    "from": "2026-10-26T01:00:00Z",
    "to": "2026-10-28T01:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Peru",
    "severity": "Magnitude 0 ",
    "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=1&eventtype=FL",
@@ -151,7 +151,7 @@
    "severity_unit": "",
    "from": "2026-10-26T01:00:00Z",
    "to": "2026-10-28T01:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Egypt",
    "severity": "Magnitude 0 ",
    "report": "https://www.gdacs.org/report.aspx?eventid=1104264&episodeid=1&eventtype=FL",
@@ -276,7 +276,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 10,
+   "episode": 6,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -288,9 +288,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=10&eventtype=FL",
-   "lon": 99.381,
-   "lat": 2.192,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
+   "lon": 97.025,
+   "lat": 4.369,
    "countries": [
     "ID"
    ]
@@ -377,7 +377,7 @@
    "severity_unit": "",
    "from": "2026-10-22T01:00:00Z",
    "to": "2026-10-28T01:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Argentina",
    "severity": "Magnitude 0 ",
    "report": "https://www.gdacs.org/report.aspx?eventid=1104250&episodeid=4&eventtype=FL",
@@ -601,7 +601,7 @@
    "severity_unit": "",
    "from": "2026-10-18T01:00:00Z",
    "to": "2026-10-28T01:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Thailand",
    "severity": "Magnitude 0 ",
    "report": "https://www.gdacs.org/report.aspx?eventid=1104241&episodeid=3&eventtype=FL",
@@ -766,29 +766,6 @@
    "lat": 5.992,
    "countries": [
     "MY"
-   ]
-  },
-  {
-   "id": "FL-1104236",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in El Salvador",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-15T01:00:00Z",
-   "to": "2026-10-17T01:00:00Z",
-   "current": false,
-   "country": "El Salvador",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104236&episodeid=1&eventtype=FL",
-   "lon": -88.883,
-   "lat": 13.731,
-   "countries": [
-    "SV"
    ]
   },
   {
@@ -1007,7 +984,7 @@
    "severity_unit": "",
    "from": "2026-09-15T01:00:00Z",
    "to": "2026-10-28T01:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
    "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=11&eventtype=FL",
