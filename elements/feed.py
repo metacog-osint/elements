@@ -33,6 +33,12 @@ SRC = {
 SRC["usgs_volcano"] = {"id": "usgs-volcanoes", "publisher": "USGS Volcano Hazards Program", "licence": "US public domain",
                        "grade": "A1", "independence_group": "usgs", "source_type": "official alert",
                        "descriptor": "Volcano alert level and aviation colour code from the responsible USGS observatory"}
+SRC["nws"] = {"id": "nws-alerts", "publisher": "NOAA National Weather Service", "url": "https://www.weather.gov/",
+              "licence": "US public domain", "grade": "A1", "independence_group": "noaa", "source_type": "official warning",
+              "descriptor": "CAP alert (warning, watch or advisory) rated Severe or Extreme, from api.weather.gov"}
+SRC["spc"] = {"id": "spc-outlook", "publisher": "NOAA Storm Prediction Center", "url": "https://www.spc.noaa.gov/",
+              "licence": "US public domain", "grade": "A1", "independence_group": "noaa", "source_type": "official forecast",
+              "descriptor": "Day 1 categorical convective outlook (risk of organised severe thunderstorms)"}
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
 
 
@@ -42,9 +48,10 @@ def _slug(s: str) -> str:
 
 def _volcano_items(d: dict, now: datetime) -> list[dict]:
     """USGS elevated volcanoes. Every one is an anomaly against NORMAL. The response_stage needs the kit's usgs_volcano
-    ladder (kit 0.3.1); with an older kit the items go out without it."""
+    ladder (kit 0.3.2); with an older kit, or for UNASSIGNED (no ground-based alert level, which the ladder has no rung
+    for), the items go out without it."""
     from .volcanoes import change
-    has_ladder = "usgs_volcano" in vocab.ladders()
+    rungs = (vocab.ladders().get("usgs_volcano") or {}).get("values") or {}
     out = []
     f = (d.get("usgs_volcano") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     for v in (d.get("usgs_volcano") or {}).get("records") or []:
@@ -54,7 +61,8 @@ def _volcano_items(d: dict, now: datetime) -> list[dict]:
         prev = f"{(v.get('prev_alert') or '').title()}/{(v.get('prev_color') or '').title()}"
         was = ("previously unassigned" if (v.get("prev_alert") or "UNASSIGNED") == "UNASSIGNED"
                else f"{moved} from {prev}" if moved else None)
-        title = (f"{v['name']}: USGS volcano alert {v['alert'].title()}, aviation code {(v.get('color') or 'none').title()}"
+        ground = ("no ground-based alert level" if v["alert"] == "UNASSIGNED" else f"USGS volcano alert {v['alert'].title()}")
+        title = (f"{v['name']}: {ground}, aviation code {(v.get('color') or 'none').title()}"
                  + (f" ({was})" if was else ""))
         p = {**_base(f), "id": f"elements:usgs-volcano:{v['vnum'] or _slug(v['name'])}", "title": title,
              "tier": "anomaly", "data_as_of": v.get("sent") or f, "countries": v["countries"],
@@ -67,9 +75,62 @@ def _volcano_items(d: dict, now: datetime) -> list[dict]:
                           "previous_alert_level": v.get("prev_alert"), "previous_aviation_color": v.get("prev_color"),
                           "change": moved, "observatory": v.get("observatory_name"), "nvews_threat": v.get("threat"),
                           "synopsis": v.get("synopsis")}}
-        if has_ladder:
+        if v["alert"].lower() in rungs:
             p["response_stage"] = f"usgs_volcano:{v['alert'].lower()}"
         out.append({"type": "Feature", "geometry": _pt(v.get("lon"), v.get("lat")), "properties": p})
+    return out
+
+
+def _area_text(areas: list[str], limit: int = 80) -> str:
+    text = "; ".join(areas)
+    if len(text) <= limit:
+        return text
+    cut = text[:limit - 12].rsplit(";", 1)[0]
+    return f"{cut} and {len(areas) - cut.count(';') - 1} more areas"
+
+
+def _weather_items(d: dict, now: datetime) -> list[dict]:
+    """NWS Severe and Extreme alerts (Extreme is an anomaly against the CAP severity scale) and SPC Day 1 risk areas
+    (Moderate and High are anomalies against SPC's categorical scale). Neither scale is a kit ladder yet, so these
+    items carry no response_stage."""
+    from .weather import SPC_PAGE
+    out = []
+    f = (d.get("nws") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for e in (d.get("nws") or {}).get("records") or []:
+        p = {**_base(f), "id": f"elements:nws:{e['id']}",
+             "title": f"{e['event']} for {_area_text(e['areas'])} ({e['sender']})",
+             "tier": "anomaly" if e["severity"] == "Extreme" else "routine", "data_as_of": e.get("sent") or f,
+             "valid_until": e.get("ends"), "countries": e["countries"], "requirement_ids": ["EL-PIR-7"],
+             "sources": [{**SRC["nws"], "url": e.get("url") or SRC["nws"]["url"], "accessed_at": f}], "link": e.get("url"),
+             "measures": {"event": e["event"], "severity": e["severity"], "urgency": e.get("urgency"),
+                          "certainty": e.get("certainty"), "office": e.get("sender"), "areas": e["areas"],
+                          "counties": e["counties"], "onset": e.get("onset"), "ends": e.get("ends"), "vtec": e["id"]}}
+        if e["severity"] == "Extreme":
+            p["baseline_ref"] = {"id": "cap-severity", "type": "fixed", "version": "1",
+                                 "window": "CAP severity: Minor, Moderate, Severe, Extreme"}
+        if e.get("geometry"):
+            g, p["precision_class"] = e["geometry"], "area"
+        elif e.get("points"):
+            g = {"type": "MultiPoint", "coordinates": e["points"]}
+            p["precision_class"] = "approximate"   # each county's Census internal point
+        else:
+            g = None
+            p.update({"precision_class": "none", "visual": {"type": "page", "url": e.get("url") or SRC["nws"]["url"]}})
+        out.append({"type": "Feature", "geometry": g, "properties": p})
+    f = (d.get("spc") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for r in (d.get("spc") or {}).get("records") or []:
+        hot = r["level"] >= 4
+        p = {**_base(f), "id": f"elements:spc:day1:{r['label'].lower()}",
+             "title": f"SPC Day 1 convective outlook: {r['name']} (level {r['level']} of 5)",
+             "tier": "anomaly" if hot else "routine", "data_as_of": r.get("issued") or f, "valid_until": r.get("expires"),
+             "countries": ["US"], "requirement_ids": ["EL-PIR-7"], "precision_class": "area",
+             "sources": [{**SRC["spc"], "url": SPC_PAGE, "accessed_at": f}], "link": SPC_PAGE,
+             "measures": {"category": r["label"], "name": r["name"], "level": r["level"], "valid": r.get("valid"),
+                          "expires": r.get("expires"), "fill": r.get("fill")}}
+        if hot:
+            p["baseline_ref"] = {"id": "spc-categorical", "type": "fixed", "version": "1",
+                                 "window": "SPC categorical risk: Marginal, Slight, Enhanced, Moderate, High"}
+        out.append({"type": "Feature", "geometry": r.get("geometry"), "properties": p})
     return out
 
 
@@ -167,6 +228,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
     feats += _volcano_items(d, now)
+    feats += _weather_items(d, now)
 
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -206,7 +268,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
             "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content with attribution",

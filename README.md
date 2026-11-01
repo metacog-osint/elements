@@ -9,6 +9,8 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 |---|---|---|
 | USGS earthquake summary feed (M4.5+, past 7 days) | Origin, magnitude, depth and the PAGER impact alert | US public domain |
 | USGS Volcano Hazards Program, elevated volcanoes | Alert level and aviation colour code for US volcanoes above Normal, with the change and the observatory's synopsis | US public domain |
+| NOAA National Weather Service alerts (api.weather.gov) | Warnings and watches rated Severe or Extreme, by polygon or county | US public domain |
+| NOAA Storm Prediction Center Day 1 convective outlook | Risk areas from Marginal to High | US public domain |
 | GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
@@ -36,7 +38,7 @@ v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is 
 `doctrine/method.md`.
 
 Not yet covered: volcanoes outside the US beyond GDACS's alerts (the Smithsonian's daily report refuses automated
-readers), US weather warnings, and radiation monitoring.
+readers) and radiation monitoring.
 
 ## Running it
 
@@ -46,6 +48,8 @@ python tools/elements.py build     # write site/ (map page, feed.geojson, fires.
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
 python tests/test_volcanoes.py
+python tests/test_weather.py
+python tools/build_counties.py   # refresh catalog/us_counties.json from the Census Gazetteer (yearly)
 ```
 
 Standard-library Python only. `update.yml` runs hourly: collect, commit `data/` when its content changed, build and

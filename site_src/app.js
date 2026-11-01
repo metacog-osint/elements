@@ -36,11 +36,13 @@
 
   // Wheel zoom stays off until the reader clicks the map, so scrolling the page never gets trapped in it.
   // The opening view fits the whole world's width, so the Pacific (Alaska, Hawaii, the Aleutian and Tonga trenches) is in view.
+  // Fitted by width only: the map is wide and short, so fitting latitudes too would shrink the world.
+  var openZoom = Math.max(1, Math.floor(Math.log2((document.getElementById("map").clientWidth || 768) / 256) * 4) / 4);
   var map = L.map("map", { worldCopyJump: true, minZoom: 1, maxZoom: 8, zoomSnap: 0.25, scrollWheelZoom: false })
-    .fitBounds([[-55, -180], [75, 180]]);
+    .setView([25, 0], openZoom);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA NHC · Copernicus EMS · NASA FIRMS");
+  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA · Copernicus EMS · NASA FIRMS");
   // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
 
@@ -55,7 +57,7 @@
     map.createPane("land").style.zIndex = 350;
     L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
 
     // Fire cells, thousands of them, as dots on a canvas under every other layer. A half-degree cell is about a pixel
@@ -127,6 +129,26 @@
     });
     layers.nhc.addTo(map);
 
+    // US weather: SPC risk areas in SPC's own colours, then NWS warnings (an outline where the warning has its own
+    // polygon, a dot at each county otherwise), orange for Severe and red for Extreme.
+    layers.weather = L.layerGroup();
+    by.spc.forEach(function (f) {
+      if (!f.geometry) return;
+      var m = f.properties.measures, col = m.fill || css("--a-orange");
+      L.geoJSON(f, { style: { color: col, weight: 1.2, fillColor: col, fillOpacity: 0.28 } })
+        .bindTooltip(tip(f.properties.title + "\nValid until " + when(m.expires)), { sticky: true }).addTo(layers.weather);
+    });
+    by.nws.forEach(function (f) {
+      if (!f.geometry) return;
+      var p = f.properties, m = p.measures, col = m.severity === "Extreme" ? css("--a-red") : css("--a-orange");
+      var text = p.title + "\nUntil " + when(m.ends) + (m.areas.length > 1 ? "\n" + m.areas.length + " areas" : "");
+      L.geoJSON(f, {
+        style: { color: col, weight: 1.6, fillColor: col, fillOpacity: 0.15 },
+        pointToLayer: function (pt, ll) { return L.circleMarker(ll, { radius: 3.5, weight: 1.2, color: col, fillColor: col, fillOpacity: 0.45 }); }
+      }).bindTooltip(tip(text), { sticky: true }).addTo(layers.weather);
+    });
+    layers.weather.addTo(map);
+
     layers.volcano = L.layerGroup();
     by["usgs-volcano"].forEach(function (f) {
       if (!f.geometry) return;
@@ -168,16 +190,20 @@
       h("span", null, ["Circle size: magnitude"]),
       h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
       h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
+      h("span", null, [h("span", { "class": "wx" }), "US weather warning"]),
       sw("ring", "", "Copernicus activation")]));
   }
 
   function lists(feats, health, generated, fires) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
     // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
     function alertOf(p) {
-      if (lane({ properties: p }) === "usgs-volcano") return [(p.measures.aviation_color || "").toLowerCase(), "USGS volcano alert"];
+      var ln = lane({ properties: p });
+      if (ln === "usgs-volcano") return [(p.measures.aviation_color || "").toLowerCase(), "USGS volcano alert"];
+      if (ln === "nws") return [p.measures.severity === "Extreme" ? "red" : "orange", "NWS, " + p.measures.severity.toLowerCase()];
+      if (ln === "spc") return [p.measures.level >= 5 ? "red" : "orange", "SPC outlook"];
       var st = (p.response_stage || ":").split(":");
       return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
     }
@@ -204,6 +230,19 @@
         return [link(p.link, m.name), badge((m.aviation_color || "").toLowerCase(), cap(m.alert_level.toLowerCase()) + " / " + cap((m.aviation_color || "").toLowerCase())),
           was, when(p.data_as_of)]; }), { 3: 1 })
       : empty("No US volcano is above Normal / Green."));
+
+    var spc = by.spc.slice().sort(function (x, y) { return y.measures.level - x.measures.level; });
+    document.getElementById("spc").replaceChildren(spc.length
+      ? "SPC Day 1 convective outlook: " + spc.map(function (p) { return p.measures.name + " (" + p.measures.level + " of 5)"; }).join(", ")
+        + ", valid until " + when(spc[0].measures.expires) + "."
+      : "SPC Day 1 convective outlook: no risk area today (general thunderstorms at most).");
+    var wx = by.nws.slice().sort(function (x, y) {
+      return (x.measures.severity === "Extreme" ? 0 : 1) - (y.measures.severity === "Extreme" ? 0 : 1)
+        || x.measures.event.localeCompare(y.measures.event) || (x.measures.ends || "").localeCompare(y.measures.ends || ""); });
+    document.getElementById("nws").replaceChildren(wx.length ? table(["Warning or watch", "Where", "Until", "Office"], wx.map(function (p) {
+      var m = p.measures, where = m.areas.length > 3 ? m.areas.slice(0, 3).join("; ") + " and " + (m.areas.length - 3) + " more" : m.areas.join("; ");
+      return [m.severity === "Extreme" ? badge("red", m.event) : m.event, where, when(m.ends), (m.office || "").replace(/^NWS /, "")]; }), { 2: 1 })
+      : empty("No Severe or Extreme NWS warning or watch is in force."));
 
     var bands = [["4.5–4.9", 4.5, 5], ["5.0–5.9", 5, 6], ["6.0–6.9", 6, 7], ["7.0 and above", 7, 99]];
     var counts = bands.map(function (b) { return by.usgs.filter(function (p) { var m = p.measures.magnitude; return m >= b[1] && m < b[2]; }).length; });
@@ -268,7 +307,8 @@
 
     var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
-      "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)" };
+      "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
+      "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;

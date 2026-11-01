@@ -85,6 +85,17 @@ class Feed(unittest.TestCase):
         self.assertTrue(all(p["tier"] == "anomaly" and p["baseline_ref"]["id"] == "usgs-volcano-normal" for p in it.values()))
         self.assertEqual(it["Kilauea"]["id"], "elements:usgs-volcano:332010")
 
+    def test_unassigned_alert_with_raised_colour(self):
+        """A satellite-only volcano can have no ground-based alert level and still a raised aviation colour."""
+        rec = volcanoes.parse_usgs([v("Gareloi", "311070", "avo", "UNASSIGNED", "YELLOW", "UNASSIGNED", "UNASSIGNED", 51.79, -178.79)])
+        d = {k: {"records": [], "fetched_at": FETCHED} for k in ("usgs", "gdacs", "nhc", "cems")}
+        d["usgs_volcano"] = {"records": rec, "fetched_at": FETCHED}
+        fc = feed.build(d, NOW)
+        self.assertEqual(fc["dropped"], [])
+        p = self.items(fc)["Gareloi"]
+        self.assertEqual(p["title"], "Gareloi: no ground-based alert level, aviation code Yellow (previously unassigned)")
+        self.assertNotIn("response_stage", p)
+
     def test_response_stage_follows_the_kit(self):
         has = "usgs_volcano" in vocab.ladders()
         it = self.items(self.build())

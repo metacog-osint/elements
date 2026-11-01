@@ -28,8 +28,8 @@
   <section class="hero">
     <h1>Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
     <p class="lede">USGS earthquakes with their PAGER impact alert, USGS volcano alerts, GDACS multi-hazard alerts, NOAA
-      National Hurricane Center storms, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire detections,
-      collected every hour.</p>
+      hurricane, weather-warning and severe-storm products, Copernicus EMS rapid-mapping activations and NASA FIRMS
+      satellite fire detections, collected every hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
@@ -38,6 +38,7 @@
         <label><input type="checkbox" data-layer="firms" checked> Fire and heat detections (NASA FIRMS)</label>
         <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
         <label><input type="checkbox" data-layer="volcano" checked> US volcano alerts</label>
+        <label><input type="checkbox" data-layer="weather" checked> US weather warnings</label>
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
         <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
         <label><input type="checkbox" data-layer="cems" checked> Copernicus EMS activations</label>
@@ -62,6 +63,15 @@
       volcano alerts appear above. The Smithsonian's daily eruption report is not used: its site refuses automated
       readers.</p>
     <div id="volcanoes"></div>
+  </section>
+
+  <section class="card" aria-labelledby="nws-h">
+    <h2 id="nws-h">US weather warnings and watches, Severe or Extreme</h2>
+    <p class="muted small" id="spc"></p>
+    <p class="muted small">National Weather Service alerts rated Severe or Extreme on the alert standard's four-step
+      scale (Minor, Moderate, Severe, Extreme). Storm-based warnings are drawn as the area NWS drew; the rest as a dot at
+      each county they name.</p>
+    <div id="nws"></div>
   </section>
 
   <div class="two">
@@ -111,8 +121,8 @@
       Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
       operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
       Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
-    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, US weather warnings, and
-      radiation monitoring.</p>
+    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, and radiation monitoring.
+      NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
   </section>
 </main>
 

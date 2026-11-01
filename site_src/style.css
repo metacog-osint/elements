@@ -40,6 +40,8 @@ a { color: var(--link); }
 .legend .lg-h { color: var(--ink); }
 .legend .dt { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; box-shadow: 0 0 0 1px var(--mark-edge); vertical-align: -1px; }
 .legend .sq { display: inline-block; width: 11px; height: 11px; margin-right: 4px; vertical-align: -1px; }
+.legend .wx { display: inline-block; width: 12px; height: 10px; border: 1.6px solid var(--a-orange); margin-right: 4px;
+  vertical-align: -1px; background: color-mix(in srgb, var(--a-orange) 15%, transparent); }
 .legend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--cems); margin-right: 4px; vertical-align: -2px; }
 .legend .lg-icon { display: inline-block; width: 26px; margin-right: 4px; }
 #map { height: min(62vh, 560px); min-height: 340px; background: var(--sea); }
