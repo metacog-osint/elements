@@ -18,7 +18,7 @@ from tic_doctrine import contract, registers  # noqa: E402
 
 SRC, OUT = ROOT / "site_src", ROOT / "site"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
-         "usgs_volcano": "usgs-volcanoes"}
+         "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook"}
 
 
 def collect() -> dict:

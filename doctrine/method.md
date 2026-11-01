@@ -39,6 +39,14 @@ bot protection that refuses scripted clients, and Elements does not work around 
 but was two weeks behind its web page on 31 Oct 2026. Until GVP grants access, GDACS's volcano alerts cover volcanoes
 outside the US.
 
+## US weather
+National Weather Service alerts rated Severe or Extreme on CAP's four-step severity scale, merged by VTEC event so an
+event issued in several segments is one item. Storm-based warnings keep the polygon NWS drew; county-based alerts
+are placed at each named county's Census internal point (`catalog/us_counties.json`), and marine zones without
+either link to the alert instead. Extreme is an anomaly against the CAP scale. The Storm Prediction Center's Day 1
+categorical outlook gives one item per risk area from Marginal to High; Moderate and High are anomalies. Neither
+scale is a kit ladder yet, so these items carry no response stage.
+
 ## Not yet covered
-Volcanoes outside the US beyond GDACS's alerts, US weather warnings, and the US nuclear and radiation lane. A
+Volcanoes outside the US beyond GDACS's alerts, and the US nuclear and radiation lane. A
 missing source turns its layer grey ("no data"), never quiet.

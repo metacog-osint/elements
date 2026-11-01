@@ -43,6 +43,18 @@
    "name": "Smithsonian GVP Daily Volcanic Activity Report",
    "licence": "Smithsonian terms: personal, educational and non-commercial use with credit and a link",
    "use": "not used: the site's bot protection refuses scripted clients (31 Oct 2026); ask GVP for access"
+  },
+  {
+   "id": "nws-alerts",
+   "name": "NWS active alerts (api.weather.gov), Severe and Extreme, placed by polygon or Census county internal points",
+   "licence": "US public domain",
+   "use": "ingest"
+  },
+  {
+   "id": "spc-outlook",
+   "name": "SPC Day 1 categorical convective outlook (GeoJSON)",
+   "licence": "US public domain",
+   "use": "ingest"
   }
  ],
  "extra": {
@@ -97,6 +109,28 @@
    "descriptor": "Alert level and aviation colour code for US volcanoes",
    "probe": {
     "url": "https://volcanoes.usgs.gov/vsc/api/volcanoApi/elevated",
+    "expect": "json"
+   }
+  },
+  "nws-alerts": {
+   "grade": "A1",
+   "independence_group": "noaa",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Severe and Extreme US weather warnings and watches",
+   "probe": {
+    "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert,update",
+    "expect": "json"
+   }
+  },
+  "spc-outlook": {
+   "grade": "A1",
+   "independence_group": "noaa",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Risk of organised severe thunderstorms, today",
+   "probe": {
+    "url": "https://www.spc.noaa.gov/products/outlook/day1otlk_cat.lyr.geojson",
     "expect": "json"
    }
   }

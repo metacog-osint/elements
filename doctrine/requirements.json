@@ -82,6 +82,19 @@
    ]
   },
   {
+   "id": "EL-PIR-7",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "Where in the US are Severe or Extreme weather warnings and watches in force, and where does SPC forecast organised severe storms today?",
+   "series": [
+    "NWS alerts rated Severe or Extreme",
+    "SPC Day 1 categorical convective outlook"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
    "id": "EL-EEI-1",
    "type": "eei",
    "parent": "EL-PIR-1",

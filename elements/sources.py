@@ -200,10 +200,11 @@ def collect_cems(old, fetch=fetch_or_none):
 
 def collect_all(prev: dict, when: str | None = None) -> dict:
     """{'usgs': (records, err), ...}; FIRMS gives one payload of cells rather than a list of records."""
-    from . import firms, volcanoes
+    from . import firms, volcanoes, weather
     now = datetime.now(timezone.utc)
     return {"usgs": collect_usgs(prev.get("usgs")), "gdacs": collect_gdacs(prev.get("gdacs"), now),
             "nhc": collect_nhc(prev.get("nhc")), "cems": collect_cems(prev.get("cems")),
             "firms": firms.collect_firms(prev.get("firms"), now),
             "usgs_volcano": volcanoes.collect_usgs(prev.get("usgs_volcano")),
+            "nws": weather.collect_nws(prev.get("nws")), "spc": weather.collect_spc(prev.get("spc")),
             "when": when or now_utc()}
