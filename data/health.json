@@ -1,44 +1,58 @@
 {
  "usgs-earthquakes": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
-  "detail": "141 records"
+  "checked_at": "2026-11-01T02:56:13Z",
+  "detail": "139 records"
  },
  "gdacs": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
-  "detail": "55 records"
+  "checked_at": "2026-11-01T02:56:13Z",
+  "detail": "56 records"
  },
  "nhc": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
+  "checked_at": "2026-11-01T02:56:13Z",
   "detail": "0 records"
  },
  "copernicus-ems": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
+  "checked_at": "2026-11-01T02:56:13Z",
   "detail": "50 records"
  },
  "nasa-firms": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": "2026-11-01T01:24:20Z",
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
-  "detail": "117,841 detections in 7,718 cells via api; key used 216 of 5000 transactions"
+  "checked_at": "2026-11-01T02:56:13Z",
+  "detail": "118,264 detections in 7,758 cells via api; key used 216 of 5000 transactions"
  },
  "usgs-volcanoes": {
-  "last_ok": "2026-11-01T02:23:24Z",
+  "last_ok": "2026-11-01T02:56:13Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T02:23:24Z",
+  "checked_at": "2026-11-01T02:56:13Z",
   "detail": "4 records"
+ },
+ "nws-alerts": {
+  "last_ok": "2026-11-01T02:56:13Z",
+  "last_error": null,
+  "failures": 0,
+  "checked_at": "2026-11-01T02:56:13Z",
+  "detail": "31 records"
+ },
+ "spc-outlook": {
+  "last_ok": "2026-11-01T02:56:13Z",
+  "last_error": null,
+  "failures": 0,
+  "checked_at": "2026-11-01T02:56:13Z",
+  "detail": "0 records"
  }
 }
