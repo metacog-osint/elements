@@ -21,7 +21,7 @@ is [`schema/feed-item-v2.schema.json`](../schema/feed-item-v2.schema.json); the 
 | `tier` | routine or anomaly (measured), warning (judged) | Grabo; NATO indicators versus indications |
 | `status`, `msg_type`, `supersedes`, `valid_until` | actual/exercise/test/draft; new/update/cancel/error; the item replaced; expiry | CAP 1.2 |
 | `human_review` | none, sampled or full | ICD 505 labelling idea |
-| `us_person_data` | none, organizations or individuals: a label, so a consumer bound by EO 12333 can filter; never a reason to leave data out | suite rule (Tom, 30 Oct 2026) |
+| `us_person_data` | none, organizations or individuals: a label, so a consumer bound by US-person rules (a government user, for example) can filter; never a reason to leave data out | suite rule (Tom, 30 Oct 2026) |
 | `status_class` | assessed, reported or claimed (claims draw hollow and move nothing alone) | Watchfloor two-source rule |
 | `data_as_of`, `published_at` | when it was true; when we published it (UTC, ending in Z) | ICD 206 |
 | `countries` | ISO 3166-1 alpha-2 codes, `[]` for none | |
