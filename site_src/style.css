@@ -58,6 +58,11 @@ a { color: var(--link); }
 .vo-icon.a-yellow { background: var(--a-yellow); } .vo-icon.a-orange { background: var(--a-orange); }
 .vo-icon.a-red { background: var(--a-red); }
 .legend .lg-vo { display: inline-block; width: 13px; height: 11px; margin-right: 4px; vertical-align: -1px; }
+.ts-icon { border-radius: 9px; font-size: 10px; font-weight: 700; line-height: 18px; text-align: center; letter-spacing: .03em;
+  background: var(--ink); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
+.ts-icon.a-orange { background: var(--a-orange); color: var(--on-orange); } .ts-icon.a-red { background: var(--a-red); color: var(--on-red); }
+.legend .lg-ts { display: inline-block; width: 30px; margin-right: 4px; }
+.dmsw { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; border: 1px solid var(--mark-edge); }
 .nhc-icon { border-radius: 50%; background: var(--nhc); color: var(--panel); font-size: 10px; font-weight: 700;
   line-height: 26px; text-align: center; box-shadow: 0 0 0 2px var(--panel); }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-bottom: var(--gap); }

@@ -11,6 +11,8 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | USGS Volcano Hazards Program, elevated volcanoes | Alert level and aviation colour code for US volcanoes above Normal, with the change and the observatory's synopsis | US public domain |
 | NOAA National Weather Service alerts (api.weather.gov) | Warnings and watches rated Severe or Extreme, by polygon or county | US public domain |
 | NOAA Storm Prediction Center Day 1 convective outlook | Risk areas from Marginal to High | US public domain |
+| NOAA tsunami warning centres (NTWC, PTWC): Atom feeds and CAP messages | Tsunami messages from the last 7 days, with the earthquake's preliminary magnitude | US public domain |
+| US Drought Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) | Weekly share of the US in each drought category, and the map | No licence stated (not verified); credited |
 | GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
@@ -38,7 +40,7 @@ v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is 
 `doctrine/method.md`.
 
 Not yet covered: volcanoes outside the US beyond GDACS's alerts (the Smithsonian's daily report refuses automated
-readers) and radiation monitoring.
+readers) and radiation monitoring (EPA RadNet offers only whole-year files per city).
 
 ## Running it
 
@@ -49,6 +51,7 @@ python tools/elements.py check     # the feed passes the doctrine kit's linter; 
 python tests/test_elements.py
 python tests/test_volcanoes.py
 python tests/test_weather.py
+python tests/test_tsunami_drought.py
 python tools/build_counties.py   # refresh catalog/us_counties.json from the Census Gazetteer (yearly)
 ```
 

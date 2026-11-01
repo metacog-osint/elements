@@ -51,14 +51,29 @@
   function fireStep(n) { return n >= 100 ? 4 : n >= 20 ? 3 : n >= 5 ? 2 : 1; }
   function num(n) { return Number(n).toLocaleString("en-US"); }
 
-  function draw(world, feats, fires) {
+  // US Drought Monitor's own category colours (D0 to D4), from its metadata page.
+  var DM_COLORS = ["#ffff00", "#fcd37f", "#ffaa00", "#e60000", "#730000"];
+  var DM_NAMES = ["Abnormally dry", "Moderate drought", "Severe drought", "Extreme drought", "Exceptional drought"];
+  var TSU = { information: "information statement", threat: "threat message", watch: "watch", advisory: "advisory", warning: "warning" };
+
+  function draw(world, feats, fires, drought) {
     // Land goes in its own pane below the overlays: Leaflet stacks any SVG above any canvas in a pane, and the fire
     // canvas has to sit above the land.
     map.createPane("land").style.zIndex = 350;
     L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
+
+    // Drought areas sit in their own pane just above the land, under everything else. Off until switched on: they
+    // cover a third of the US.
+    map.createPane("drought").style.zIndex = 360;
+    layers.drought = L.layerGroup();
+    ((drought && drought.polygons) || []).forEach(function (p) {
+      L.geoJSON({ type: "Feature", geometry: { type: "MultiPolygon", coordinates: p.coordinates }, properties: {} },
+        { pane: "drought", interactive: false, style: { stroke: false, fillColor: DM_COLORS[p.dm], fillOpacity: 0.55 } })
+        .addTo(layers.drought);
+    });
 
     // Fire cells, thousands of them, as dots on a canvas under every other layer. A half-degree cell is about a pixel
     // wide at world zoom, so each dot has a minimum size and grows with zoom to fill its cell.
@@ -149,6 +164,20 @@
     });
     layers.weather.addTo(map);
 
+    layers.tsunami = L.layerGroup();
+    by.tsunami.forEach(function (f) {
+      if (!f.geometry) return;
+      var p = f.properties, m = p.measures, c = f.geometry.coordinates;
+      var cls = m.level === "warning" ? "a-red" : m.level === "information" ? "a-none" : "a-orange";
+      L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 500,
+        icon: L.divIcon({ className: "ts-icon " + cls, html: "", iconSize: [30, 18] }) })
+        .bindTooltip(tip(p.title + "\n" + m.centre + ", " + when(p.data_as_of) + (m.headline ? "\n" + m.headline : "")
+          + (m.origin_note ? "\n" + m.origin_note : "")))
+        .on("add", function (ev) { ev.target.getElement().textContent = "TSU"; })
+        .addTo(layers.tsunami);
+    });
+    layers.tsunami.addTo(map);
+
     layers.volcano = L.layerGroup();
     by["usgs-volcano"].forEach(function (f) {
       if (!f.geometry) return;
@@ -173,6 +202,8 @@
     layers.cems.addTo(map);
 
     document.querySelectorAll(".layers input").forEach(function (box) {
+      var l0 = layers[box.getAttribute("data-layer")];
+      if (l0 && !box.checked && map.hasLayer(l0)) map.removeLayer(l0);
       box.addEventListener("change", function () {
         var l = layers[box.getAttribute("data-layer")];
         if (box.checked) l.addTo(map); else map.removeLayer(l);
@@ -191,11 +222,12 @@
       h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
       h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
       h("span", null, [h("span", { "class": "wx" }), "US weather warning"]),
+      h("span", null, [h("span", { "class": "ts-icon a-none lg-ts" }, ["TSU"]), "tsunami message"]),
       sw("ring", "", "Copernicus activation")]));
   }
 
   function lists(feats, health, generated, fires) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
     // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
@@ -204,6 +236,7 @@
       if (ln === "usgs-volcano") return [(p.measures.aviation_color || "").toLowerCase(), "USGS volcano alert"];
       if (ln === "nws") return [p.measures.severity === "Extreme" ? "red" : "orange", "NWS, " + p.measures.severity.toLowerCase()];
       if (ln === "spc") return [p.measures.level >= 5 ? "red" : "orange", "SPC outlook"];
+      if (ln === "tsunami") return [p.measures.level === "warning" ? "red" : "orange", "NOAA tsunami centre"];
       var st = (p.response_stage || ":").split(":");
       return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
     }
@@ -243,6 +276,27 @@
       var m = p.measures, where = m.areas.length > 3 ? m.areas.slice(0, 3).join("; ") + " and " + (m.areas.length - 3) + " more" : m.areas.join("; ");
       return [m.severity === "Extreme" ? badge("red", m.event) : m.event, where, when(m.ends), (m.office || "").replace(/^NWS /, "")]; }), { 2: 1 })
       : empty("No Severe or Extreme NWS warning or watch is in force."));
+
+    var ts = by.tsunami.slice().sort(function (x, y) { return (y.data_as_of || "").localeCompare(x.data_as_of || ""); });
+    document.getElementById("tsunami").replaceChildren(ts.length ? table(["Message", "Earthquake", "Sent"], ts.map(function (p) {
+      var m = p.measures;
+      return [link(p.link, cap(TSU[m.level] || m.level) + " (" + m.centre.replace(" Tsunami Warning Center", "") + ")"),
+        (m.magnitude != null ? "M" + m.magnitude.toFixed(1) + " " : "") + (m.location || "—"), when(p.data_as_of)]; }), { 2: 1 })
+      : empty("No tsunami message from NOAA's two warning centres in the past 7 days."));
+
+    var dm = by.usdm[0];
+    if (dm) {
+      var w = dm.measures, pw = w.previous_week;
+      var md = w.map_date.split("-"), mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      document.getElementById("drought-sum").replaceChildren("Week of " + Number(md[2]) + " " + mon[Number(md[1]) - 1] + " " + md[0]
+        + " (maps are valid on Tuesday and released on Thursday).");
+      document.getElementById("drought").replaceChildren(table(["Category", "Share of the US", "Change in a week"], [0, 1, 2, 3, 4].map(function (i) {
+        var k = "d" + i, ch = pw ? w[k] - pw[k] : null;
+        return [h("span", null, [h("span", { "class": "dmsw", style: "background:" + DM_COLORS[i] }), "D" + i + " " + DM_NAMES[i] + " or worse"]),
+          w[k].toFixed(1) + "%", ch == null ? "—" : Math.abs(ch) < 0.05 ? "no change" : (ch > 0 ? "+" : "") + ch.toFixed(1) + " points"]; }), { 1: 1, 2: 1 }));
+    } else {
+      document.getElementById("drought").replaceChildren(empty("No Drought Monitor data in this build."));
+    }
 
     var bands = [["4.5–4.9", 4.5, 5], ["5.0–5.9", 5, 6], ["6.0–6.9", 6, 7], ["7.0 and above", 7, 99]];
     var counts = bands.map(function (b) { return by.usgs.filter(function (p) { var m = p.measures.magnitude; return m >= b[1] && m < b[2]; }).length; });
@@ -308,7 +362,8 @@
     var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
       "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
-      "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook" };
+      "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook",
+      "noaa-tsunami": "NOAA tsunami warning centres", "us-drought-monitor": "US Drought Monitor (weekly)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;
@@ -324,8 +379,8 @@
   }
   // The fire cells are optional: without them the rest of the page still draws.
   Promise.all([get("geo/world.json"), get("data/feed.geojson"), get("data/health.json"),
-    get("data/fires.json").catch(function () { return null; })]).then(function (x) {
-    draw(x[0], x[1].features, x[3]);
+    get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; })]).then(function (x) {
+    draw(x[0], x[1].features, x[3], x[4]);
     lists(x[1].features, x[2], x[1].generated_at, x[3]);
     T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });
   }).catch(function (e) {

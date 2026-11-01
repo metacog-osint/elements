@@ -18,7 +18,13 @@ from tic_doctrine import contract, registers  # noqa: E402
 
 SRC, OUT = ROOT / "site_src", ROOT / "site"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
-         "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook"}
+         "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
+         "usdm": "us-drought-monitor"}
+
+
+def drought_summary(rec) -> str:
+    w = (rec or {}).get("weeks") or [] if isinstance(rec, dict) else []
+    return f"week of {w[0]['map_date']}: {w[0]['d1']}% in drought, map of {rec.get('map_date') or 'no week'}" if w else "no data"
 
 
 def collect() -> dict:
@@ -30,7 +36,8 @@ def collect() -> dict:
         records, err = got[k]
         if records is not prev[k]:
             save(f"{k}.json", {"records": records})
-        detail = firms.summary(records) if k == "firms" else f"{len(records)} records"
+        detail = (firms.summary(records) if k == "firms" else drought_summary(records) if k == "usdm"
+                  else f"{len(records)} records")
         if err:
             detail = f"{detail} ({err})" if records else err
         health(src, not err or bool(records), detail, when)
@@ -63,6 +70,11 @@ def build() -> dict:
     fp = d["firms"]["records"] or {}
     fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via")}
     fires["names"] = {cc: country_name(cc) for cc in sorted({c[7] for c in fp.get("cells") or [] if c[7]})}
+    dr = d["usdm"]["records"] or {}
+    drought = {"map_date": dr.get("map_date") if isinstance(dr, dict) else None,
+               "polygons": dr.get("polygons") or [] if isinstance(dr, dict) else []}
+    (OUT / "data" / "drought.json").write_text(json.dumps(drought, separators=(",", ":")) + "\n",
+                                               encoding="utf-8", newline="\n")
     (OUT / "data" / "fires.json").write_text(json.dumps(fires, ensure_ascii=False, separators=(",", ":")) + "\n",
                                              encoding="utf-8", newline="\n")
     return fc

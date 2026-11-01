@@ -95,6 +95,30 @@
    ]
   },
   {
+   "id": "EL-PIR-8",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "Has a NOAA tsunami warning centre issued a tsunami message in the past week, and at what level?",
+   "series": [
+    "NOAA NTWC and PTWC tsunami messages (CAP)"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
+   "id": "EL-PIR-9",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "How much of the US is in drought this week, and is it growing?",
+   "series": [
+    "US Drought Monitor weekly statistics and map"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
    "id": "EL-EEI-1",
    "type": "eei",
    "parent": "EL-PIR-1",
