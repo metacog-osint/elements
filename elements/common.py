@@ -71,37 +71,24 @@ def save(name: str, obj) -> None:
                              encoding="utf-8", newline="\n")
 
 
-# The kit's country file (Natural Earth) codes Taiwan "CN-TW" and abbreviates some names ("S. Sudan"). Until the kit
-# fixes both, Elements normalises them here.
-_NE_CODE = {"TW": "CN-TW"}
-_FULL_NAMES = {
-    "TW": "Taiwan", "SS": "South Sudan", "CD": "Democratic Republic of the Congo", "CF": "Central African Republic",
-    "GQ": "Equatorial Guinea", "DO": "Dominican Republic", "BA": "Bosnia and Herzegovina", "EH": "Western Sahara",
-    "SB": "Solomon Islands", "MH": "Marshall Islands", "MP": "Northern Mariana Islands", "VI": "US Virgin Islands",
-    "GS": "South Georgia and the South Sandwich Islands", "IO": "British Indian Ocean Territory", "PN": "Pitcairn Islands",
-    "FK": "Falkland Islands", "KY": "Cayman Islands", "VG": "British Virgin Islands", "TC": "Turks and Caicos Islands",
-    "VC": "Saint Vincent and the Grenadines", "KN": "Saint Kitts and Nevis", "CK": "Cook Islands",
-    "PM": "Saint Pierre and Miquelon", "WF": "Wallis and Futuna", "PF": "French Polynesia",
-    "TF": "French Southern and Antarctic Lands", "FO": "Faroe Islands", "HM": "Heard Island and McDonald Islands",
-    "AG": "Antigua and Barbuda", "AU": "Australia"}
-
-
+# Country helpers: thin wrappers over the doctrine kit, which from 0.3.1 gives ISO 3166-1 alpha-2 codes (Taiwan TW)
+# and full names ("South Sudan").
 def iso(cc: str | None) -> str | None:
-    """A kit country code as ISO 3166-1 alpha-2."""
-    return {v: k for k, v in _NE_CODE.items()}.get(cc, cc) if cc else None
+    """A kit country code, or None for an empty one. Kit codes are already ISO 3166-1 alpha-2."""
+    return cc or None
 
 
 def country_at(lat: float, lon: float) -> str | None:
-    return iso(geo.country_at(lat, lon))
+    return geo.country_at(lat, lon)
 
 
 def country_name(cc: str) -> str:
-    return _FULL_NAMES.get(cc) or geo.name(_NE_CODE.get(cc, cc)) or cc
+    return geo.name(cc) or cc
 
 
 def country_point(cc: str):
     """[lat, lon] label point, or None."""
-    return geo.point(cc) or geo.point(_NE_CODE.get(cc, cc))
+    return geo.point(cc)
 
 
 def health(source: str, ok: bool, detail: str = "", when: str | None = None) -> None:
