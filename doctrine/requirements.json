@@ -70,6 +70,18 @@
    ]
   },
   {
+   "id": "EL-PIR-6",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "Which US volcanoes are at an elevated alert, and has any alert changed?",
+   "series": [
+    "USGS volcano alert levels and aviation colour codes"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
    "id": "EL-EEI-1",
    "type": "eei",
    "parent": "EL-PIR-1",

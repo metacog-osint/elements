@@ -35,11 +35,13 @@
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
 
   // Wheel zoom stays off until the reader clicks the map, so scrolling the page never gets trapped in it.
-  var map = L.map("map", { worldCopyJump: true, minZoom: 1, maxZoom: 8, zoomSnap: 0.5, scrollWheelZoom: false })
-    .setView([18, 20], 2);
+  // The opening view fits the whole world's width, so the Pacific (Alaska, Hawaii, the Aleutian and Tonga trenches) is in view.
+  var map = L.map("map", { worldCopyJump: true, minZoom: 1, maxZoom: 8, zoomSnap: 0.25, scrollWheelZoom: false })
+    .fitBounds([[-55, -180], [75, 180]]);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA NHC · Copernicus EMS · NASA FIRMS");
+  // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
 
   function quakeRadius(m) { return Math.max(3, 3 + (m - 4.5) * 2.6); }
@@ -53,7 +55,7 @@
     map.createPane("land").style.zIndex = 350;
     L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
 
     // Fire cells, thousands of them, as dots on a canvas under every other layer. A half-degree cell is about a pixel
@@ -125,6 +127,19 @@
     });
     layers.nhc.addTo(map);
 
+    layers.volcano = L.layerGroup();
+    by["usgs-volcano"].forEach(function (f) {
+      if (!f.geometry) return;
+      var p = f.properties, m = p.measures, c = f.geometry.coordinates;
+      var col = (m.aviation_color || "").toLowerCase();
+      L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 400,
+        icon: L.divIcon({ className: "vo-icon a-" + (col || "none"), html: "", iconSize: [18, 16] }) })
+        .bindTooltip(tip(p.title + "\n" + (m.synopsis || "") + "\n" + (m.observatory || "USGS") + ", " + when(p.data_as_of)
+          + (m.nvews_threat ? "\nUSGS threat ranking: " + m.nvews_threat : "")))
+        .addTo(layers.volcano);
+    });
+    layers.volcano.addTo(map);
+
     layers.cems = L.layerGroup();
     by.cems.forEach(function (f) {
       if (!f.geometry) return;
@@ -152,24 +167,43 @@
       sw("dt", "background:" + css("--unrated") + ";opacity:.6", "no PAGER alert"),
       h("span", null, ["Circle size: magnitude"]),
       h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
+      h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
       sw("ring", "", "Copernicus activation")]));
   }
 
   function lists(feats, health, generated, fires) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
+    // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
+    function alertOf(p) {
+      if (lane({ properties: p }) === "usgs-volcano") return [(p.measures.aviation_color || "").toLowerCase(), "USGS volcano alert"];
+      var st = (p.response_stage || ":").split(":");
+      return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
+    }
     var hot = feats.map(function (f) { return f.properties; }).filter(function (p) { return p.tier === "anomaly"; })
       .sort(function (x, y) {
-        var rx = RANK[(x.response_stage || "").split(":")[1]] || 0, ry = RANK[(y.response_stage || "").split(":")[1]] || 0;
+        var rx = RANK[alertOf(x)[0]] || 0, ry = RANK[alertOf(y)[0]] || 0;
         return ry - rx || (y.data_as_of || "").localeCompare(x.data_as_of || "");
       });
     document.getElementById("alerts").replaceChildren(hot.length ? table(["Alert", "Event"], hot.map(function (p) {
-      var st = (p.response_stage || ":").split(":");
+      var st = [null, alertOf(p)[0]];
       var what = p.title.replace(/^GDACS \w+ alert: /, "");
-      var src = st[0] === "pager" ? "USGS PAGER" : "GDACS";
+      var src = alertOf(p)[1];
       return [badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])]; }))
-      : empty("No PAGER alert of yellow or worse, and no GDACS orange or red alert, in the collection window."));
+      : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, and no US volcano above Normal."));
+
+    var vo = by["usgs-volcano"].slice().sort(function (x, y) {
+      return (RANK[(y.measures.aviation_color || "").toLowerCase()] || 0) - (RANK[(x.measures.aviation_color || "").toLowerCase()] || 0)
+        || x.measures.name.localeCompare(y.measures.name); });
+    document.getElementById("volcanoes").replaceChildren(vo.length ? table(["Volcano", "Alert / aviation code", "Change", "Notice"],
+      vo.map(function (p) {
+        var m = p.measures, prevA = m.previous_alert_level;
+        var was = !prevA || prevA === "UNASSIGNED" ? "previously unassigned"
+          : m.change ? m.change + " from " + cap(prevA.toLowerCase()) + " / " + cap((m.previous_aviation_color || "").toLowerCase()) : "—";
+        return [link(p.link, m.name), badge((m.aviation_color || "").toLowerCase(), cap(m.alert_level.toLowerCase()) + " / " + cap((m.aviation_color || "").toLowerCase())),
+          was, when(p.data_as_of)]; }), { 3: 1 })
+      : empty("No US volcano is above Normal / Green."));
 
     var bands = [["4.5–4.9", 4.5, 5], ["5.0–5.9", 5, 6], ["6.0–6.9", 6, 7], ["7.0 and above", 7, 99]];
     var counts = bands.map(function (b) { return by.usgs.filter(function (p) { var m = p.measures.magnitude; return m >= b[1] && m < b[2]; }).length; });
@@ -234,7 +268,7 @@
 
     var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
-      "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)" };
+      "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;

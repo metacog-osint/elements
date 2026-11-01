@@ -6,7 +6,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 from .common import ROOT, country_name, country_point  # first: puts the doctrine kit on sys.path
-from tic_doctrine import CONTRACT, contract, registers  # noqa: E402
+from tic_doctrine import CONTRACT, contract, registers, vocab  # noqa: E402
 
 METHOD = "elements-feed-1.0"
 CEMS_DAYS = 60
@@ -30,7 +30,49 @@ SRC = {
               "grade": "A2", "independence_group": "nasa", "source_type": "satellite detection",
               "descriptor": "VIIRS active fire and thermal-anomaly detections (NOAA-20, NOAA-21, Suomi-NPP)"},
 }
+SRC["usgs_volcano"] = {"id": "usgs-volcanoes", "publisher": "USGS Volcano Hazards Program", "licence": "US public domain",
+                       "grade": "A1", "independence_group": "usgs", "source_type": "official alert",
+                       "descriptor": "Volcano alert level and aviation colour code from the responsible USGS observatory"}
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
+
+
+def _slug(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", (s or "").lower()).strip("_") or "unknown"
+
+
+def _volcano_items(d: dict, now: datetime) -> list[dict]:
+    """USGS elevated volcanoes. Every one is an anomaly against NORMAL. The response_stage needs the kit's usgs_volcano
+    ladder (kit 0.3.1); with an older kit the items go out without it."""
+    from .volcanoes import change
+    has_ladder = "usgs_volcano" in vocab.ladders()
+    out = []
+    f = (d.get("usgs_volcano") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for v in (d.get("usgs_volcano") or {}).get("records") or []:
+        if not v.get("alert"):
+            continue
+        moved = change(v)
+        prev = f"{(v.get('prev_alert') or '').title()}/{(v.get('prev_color') or '').title()}"
+        was = ("previously unassigned" if (v.get("prev_alert") or "UNASSIGNED") == "UNASSIGNED"
+               else f"{moved} from {prev}" if moved else None)
+        title = (f"{v['name']}: USGS volcano alert {v['alert'].title()}, aviation code {(v.get('color') or 'none').title()}"
+                 + (f" ({was})" if was else ""))
+        p = {**_base(f), "id": f"elements:usgs-volcano:{v['vnum'] or _slug(v['name'])}", "title": title,
+             "tier": "anomaly", "data_as_of": v.get("sent") or f, "countries": v["countries"],
+             "requirement_ids": ["EL-PIR-6"],
+             "baseline_ref": {"id": "usgs-volcano-normal", "type": "fixed", "version": "1",
+                              "window": "USGS volcano alert levels: NORMAL, ADVISORY, WATCH, WARNING (NORMAL is background)"},
+             "sources": [{**SRC["usgs_volcano"], "url": v.get("url") or "https://volcanoes.usgs.gov/", "accessed_at": f}],
+             "link": v.get("url"),
+             "measures": {"name": v["name"], "vnum": v["vnum"], "alert_level": v["alert"], "aviation_color": v.get("color"),
+                          "previous_alert_level": v.get("prev_alert"), "previous_aviation_color": v.get("prev_color"),
+                          "change": moved, "observatory": v.get("observatory_name"), "nvews_threat": v.get("threat"),
+                          "synopsis": v.get("synopsis")}}
+        if has_ladder:
+            p["response_stage"] = f"usgs_volcano:{v['alert'].lower()}"
+        out.append({"type": "Feature", "geometry": _pt(v.get("lon"), v.get("lat")), "properties": p})
+    return out
+
+
 PAGER_RANK = {"green": 0, "yellow": 1, "orange": 2, "red": 3}
 TC_NAMES = {"TD": "Tropical depression", "TS": "Tropical storm", "HU": "Hurricane", "STD": "Subtropical depression",
             "STS": "Subtropical storm", "PTC": "Potential tropical cyclone", "PT": "Post-tropical cyclone"}
@@ -124,6 +166,8 @@ def build(d: dict, now: datetime | None = None) -> dict:
             p.update({"precision_class": "none", "visual": {"type": "page", "url": link}})
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
+    feats += _volcano_items(d, now)
+
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     by_cc = {}
@@ -162,7 +206,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
             "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content with attribution",

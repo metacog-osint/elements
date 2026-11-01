@@ -29,6 +29,16 @@ Fire items carry no anomaly tier yet: there is no baseline. `data/firms_daily.js
 per complete UTC day from 31 Oct 2026, so a baseline can be set once enough history exists. FIRMS's archive could
 supply a seasonal one sooner.
 
+## Volcanoes
+USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
+level and the responsible observatory's synopsis. Each is an anomaly against Normal. The kit's `usgs_volcano` ladder
+(kit 0.3.1) gives the response stage; with an older kit the items go out without one.
+
+The Smithsonian Global Volcanism Program's daily report would cover the rest of the world, but its site sits behind
+bot protection that refuses scripted clients, and Elements does not work around that. Its weekly RSS feed answers
+but was two weeks behind its web page on 31 Oct 2026. Until GVP grants access, GDACS's volcano alerts cover volcanoes
+outside the US.
+
 ## Not yet covered
-Volcano alert levels from USGS and the Smithsonian, US weather warnings, and the US nuclear and radiation lane. A
+Volcanoes outside the US beyond GDACS's alerts, US weather warnings, and the US nuclear and radiation lane. A
 missing source turns its layer grey ("no data"), never quiet.

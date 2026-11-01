@@ -168,7 +168,7 @@ def name_to_iso(name: str) -> str | None:
         p = Path(geo.__file__).resolve().parents[2] / "geo" / "countries.json"
         _NAMES = {c["name"].lower(): c["cc"] for c in json.loads(p.read_text(encoding="utf-8"))["countries"] if c.get("name")}
         _NAMES.update({"czech republic": "CZ", "czechia": "CZ", "bosnia and herzegovina": "BA", "united kingdom": "GB",
-                       "democratic republic of the congo": "CD", "republic of the congo": "CG", "türkiye": "TR",
+                       "democratic republic of the congo": "CD", "republic of the congo": "CG", "congo": "CG", "türkiye": "TR",
                        "turkey": "TR", "north macedonia": "MK", "russia": "RU", "south sudan": "SS"})
     return iso(_NAMES.get((name or "").strip().lower()))
 
@@ -200,8 +200,10 @@ def collect_cems(old, fetch=fetch_or_none):
 
 def collect_all(prev: dict, when: str | None = None) -> dict:
     """{'usgs': (records, err), ...}; FIRMS gives one payload of cells rather than a list of records."""
-    from . import firms
+    from . import firms, volcanoes
     now = datetime.now(timezone.utc)
     return {"usgs": collect_usgs(prev.get("usgs")), "gdacs": collect_gdacs(prev.get("gdacs"), now),
             "nhc": collect_nhc(prev.get("nhc")), "cems": collect_cems(prev.get("cems")),
-            "firms": firms.collect_firms(prev.get("firms"), now), "when": when or now_utc()}
+            "firms": firms.collect_firms(prev.get("firms"), now),
+            "usgs_volcano": volcanoes.collect_usgs(prev.get("usgs_volcano")),
+            "when": when or now_utc()}

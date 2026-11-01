@@ -1,13 +1,14 @@
 # Elements
 
-**Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them, on one map.**
-Map: https://metacog-osint.github.io/elements/ · Feed: https://metacog-osint.github.io/elements/data/feed.geojson
+**Earthquakes, volcanoes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them, on one map.**
+Map: https://elements.theintelligence.company/ · Feed: https://elements.theintelligence.company/data/feed.geojson
 
 Elements collects natural-hazard alerts every hour, straight from the authorities that issue them:
 
 | Source | What it gives | Licence |
 |---|---|---|
 | USGS earthquake summary feed (M4.5+, past 7 days) | Origin, magnitude, depth and the PAGER impact alert | US public domain |
+| USGS Volcano Hazards Program, elevated volcanoes | Alert level and aviation colour code for US volcanoes above Normal, with the change and the observatory's synopsis | US public domain |
 | GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
@@ -34,7 +35,8 @@ Everything Elements publishes is a measurement of what an authority said, in The
 v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is published. Method:
 `doctrine/method.md`.
 
-Not yet covered: volcano alert levels (USGS and the Smithsonian), US weather warnings, and radiation monitoring.
+Not yet covered: volcanoes outside the US beyond GDACS's alerts (the Smithsonian's daily report refuses automated
+readers), US weather warnings, and radiation monitoring.
 
 ## Running it
 
@@ -43,6 +45,7 @@ python tools/elements.py collect   # fetch every source into data/ (a failing so
 python tools/elements.py build     # write site/ (map page, feed.geojson, fires.json, health.json)
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
+python tests/test_volcanoes.py
 ```
 
 Standard-library Python only. `update.yml` runs hourly: collect, commit `data/` when its content changed, build and
