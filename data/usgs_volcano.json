@@ -1,0 +1,84 @@
+{
+ "records": [
+  {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "WATCH",
+   "prev_color": "ORANGE",
+   "sent": "2026-10-31T20:36:30Z",
+   "changed": "2026-10-17T19:59:31Z",
+   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining is now Nov. 3-10, 2026.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-10-31T18:50:39+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "vnum": "311120",
+   "name": "Great Sitkin",
+   "observatory": "avo",
+   "observatory_name": "Alaska Volcano Observatory",
+   "alert": "WATCH",
+   "color": "ORANGE",
+   "prev_alert": "ADVISORY",
+   "prev_color": "YELLOW",
+   "sent": "2026-10-31T18:26:13Z",
+   "changed": "2021-07-23T22:25:55Z",
+   "synopsis": "AVO Great Sitkin ORANGE/WATCH - Slow eruption of lava within the summit crater continues.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-AVO-2026-10-31T18:23:27+00:00",
+   "threat": "High Threat",
+   "lat": 52.0765,
+   "lon": -176.1109,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "vnum": "311360",
+   "name": "Shishaldin",
+   "observatory": "avo",
+   "observatory_name": "Alaska Volcano Observatory",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "NORMAL",
+   "prev_color": "GREEN",
+   "sent": "2026-10-31T18:26:13Z",
+   "changed": "2025-08-25T19:48:35Z",
+   "synopsis": "AVO Shishaldin YELLOW/ADVISORY - Low-level unrest continues.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-AVO-2026-10-31T18:23:27+00:00",
+   "threat": "High Threat",
+   "lat": 54.7554,
+   "lon": -163.9711,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "vnum": "284141",
+   "name": "Ahyi Seamount",
+   "observatory": "nmi",
+   "observatory_name": "USGS, Northern Mariana Islands",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "UNASSIGNED",
+   "prev_color": "UNASSIGNED",
+   "sent": "2026-10-29T23:23:07Z",
+   "changed": "2026-07-16T00:13:50Z",
+   "synopsis": "NMI Ahyi Seamount YELLOW/ADVISORY - No signs of unrest in satellite data; no significant geophysical signals.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-NMI-2026-10-29T23:21:48+00:00",
+   "threat": "Very Low Threat",
+   "lat": 20.437,
+   "lon": 145.03,
+   "countries": [
+    "MP"
+   ]
+  }
+ ]
+}
