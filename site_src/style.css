@@ -51,6 +51,11 @@ a { color: var(--link); }
 .gd-icon.a-green { background: var(--a-green); color: var(--on-green); font-size: 9px; line-height: 14px; opacity: .85; }
 .gd-icon.a-orange { background: var(--a-orange); color: var(--on-orange); }
 .gd-icon.a-red { background: var(--a-red); color: var(--on-red); }
+.vo-icon { clip-path: polygon(50% 0, 100% 100%, 0 100%); background: var(--unrated);
+  filter: drop-shadow(0 0 1px var(--panel)) drop-shadow(0 0 1px var(--panel)); }
+.vo-icon.a-yellow { background: var(--a-yellow); } .vo-icon.a-orange { background: var(--a-orange); }
+.vo-icon.a-red { background: var(--a-red); }
+.legend .lg-vo { display: inline-block; width: 13px; height: 11px; margin-right: 4px; vertical-align: -1px; }
 .nhc-icon { border-radius: 50%; background: var(--nhc); color: var(--panel); font-size: 10px; font-weight: 700;
   line-height: 26px; text-align: center; box-shadow: 0 0 0 2px var(--panel); }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-bottom: var(--gap); }

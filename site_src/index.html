@@ -27,9 +27,9 @@
 <main class="wrap">
   <section class="hero">
     <h1>Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
-    <p class="lede">USGS earthquakes with their PAGER impact alert, GDACS multi-hazard alerts, NOAA National Hurricane
-      Center storms, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire detections, collected every
-      hour.</p>
+    <p class="lede">USGS earthquakes with their PAGER impact alert, USGS volcano alerts, GDACS multi-hazard alerts, NOAA
+      National Hurricane Center storms, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire detections,
+      collected every hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
@@ -37,6 +37,7 @@
       <fieldset class="layers" aria-label="Layers">
         <label><input type="checkbox" data-layer="firms" checked> Fire and heat detections (NASA FIRMS)</label>
         <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
+        <label><input type="checkbox" data-layer="volcano" checked> US volcano alerts</label>
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
         <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
         <label><input type="checkbox" data-layer="cems" checked> Copernicus EMS activations</label>
@@ -48,9 +49,19 @@
 
   <section class="card" aria-labelledby="alerts-h">
     <h2 id="alerts-h">Alerts above the bottom rung</h2>
-    <p class="muted small">PAGER yellow or worse, and GDACS orange or red. Both are model estimates of impact, issued
-      within minutes and revised as reports arrive. A GDACS alert is the highest the event has reached.</p>
+    <p class="muted small">PAGER yellow or worse, GDACS orange or red, and any US volcano above Normal. PAGER and GDACS
+      are model estimates of impact, issued within minutes and revised as reports arrive; a GDACS alert is the highest the
+      event has reached. Volcano alerts are set by the responsible USGS observatory.</p>
     <div id="alerts"></div>
+  </section>
+
+  <section class="card" aria-labelledby="volc-h">
+    <h2 id="volc-h">US volcanoes above Normal</h2>
+    <p class="muted small">The USGS volcano alert level (Normal, Advisory, Watch, Warning) speaks to people on the
+      ground; the aviation colour code (Green, Yellow, Orange, Red) to aircraft. Outside the US, GDACS's orange and red
+      volcano alerts appear above. The Smithsonian's daily eruption report is not used: its site refuses automated
+      readers.</p>
+    <div id="volcanoes"></div>
   </section>
 
   <div class="two">
@@ -100,7 +111,7 @@
       Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
       operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
       Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
-    <p class="small muted">Not yet covered: volcano alert levels (USGS and the Smithsonian), US weather warnings, and
+    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, US weather warnings, and
       radiation monitoring.</p>
   </section>
 </main>

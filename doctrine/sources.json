@@ -31,6 +31,18 @@
    "name": "NASA FIRMS area API (VIIRS NOAA-20, NOAA-21, Suomi-NPP), public files as fallback",
    "licence": "NASA open data, with acknowledgement of LANCE FIRMS",
    "use": "ingest"
+  },
+  {
+   "id": "usgs-volcanoes",
+   "name": "USGS Volcano Hazards Program, elevated volcanoes (vsc/api/volcanoApi/elevated)",
+   "licence": "US public domain",
+   "use": "ingest"
+  },
+  {
+   "id": "gvp-daily",
+   "name": "Smithsonian GVP Daily Volcanic Activity Report",
+   "licence": "Smithsonian terms: personal, educational and non-commercial use with credit and a link",
+   "use": "not used: the site's bot protection refuses scripted clients (31 Oct 2026); ask GVP for access"
   }
  ],
  "extra": {
@@ -76,6 +88,17 @@
    "ease_of_faking": "low",
    "cadence_s": 3600,
    "descriptor": "Active fire and thermal-anomaly detections; includes gas flares and industrial heat"
+  },
+  "usgs-volcanoes": {
+   "grade": "A1",
+   "independence_group": "usgs",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Alert level and aviation colour code for US volcanoes",
+   "probe": {
+    "url": "https://volcanoes.usgs.gov/vsc/api/volcanoApi/elevated",
+    "expect": "json"
+   }
   }
  }
 }
