@@ -1,73 +1,6 @@
 {
  "records": [
   {
-   "id": "KLCH.FF.W.0077.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Lake Charles LA",
-   "areas": [
-    "Acadia, LA",
-    "Jefferson Davis, LA"
-   ],
-   "counties": [
-    "22001",
-    "22053"
-   ],
-   "sent": "2026-11-01T12:34:00Z",
-   "onset": "2026-11-01T12:34:00Z",
-   "ends": "2026-11-01T15:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23f9a31ed2efeb1de909ceb100e76d15a991fdca.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.67,
-       30.17
-      ],
-      [
-       -92.67,
-       30.34
-      ],
-      [
-       -92.55,
-       30.34
-      ],
-      [
-       -92.55,
-       30.15
-      ],
-      [
-       -92.66,
-       30.15
-      ],
-      [
-       -92.67,
-       30.17
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.411,
-     30.2915
-    ],
-    [
-     -92.8162,
-     30.2695
-    ]
-   ],
-   "lon": -92.628,
-   "lat": 30.22,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTAE.FF.W.0054.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -203,71 +136,6 @@
    ],
    "lon": -111.586,
    "lat": 33.936,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTAE.FF.W.0053.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Tallahassee FL",
-   "areas": [
-    "Bay, FL"
-   ],
-   "counties": [
-    "12005"
-   ],
-   "sent": "2026-11-01T14:36:00Z",
-   "onset": "2026-11-01T14:36:00Z",
-   "ends": "2026-11-01T15:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.958d2fe221898264f65fde7a33fd2c1f107a5042.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -85.84,
-       30.32
-      ],
-      [
-       -85.71,
-       30.15
-      ],
-      [
-       -85.59,
-       30.16
-      ],
-      [
-       -85.61,
-       30.33
-      ],
-      [
-       -85.71,
-       30.44
-      ],
-      [
-       -85.84,
-       30.44
-      ],
-      [
-       -85.84,
-       30.32
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -85.5344,
-     30.1591
-    ]
-   ],
-   "lon": -85.734,
-   "lat": 30.309,
    "countries": [
     "US"
    ]
@@ -715,6 +583,257 @@
    ],
    "lon": -111.731,
    "lat": 34.642,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTAE.FF.W.0055.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Tallahassee FL",
+   "areas": [
+    "Bay, FL"
+   ],
+   "counties": [
+    "12005"
+   ],
+   "sent": "2026-11-01T15:41:00Z",
+   "onset": "2026-11-01T15:41:00Z",
+   "ends": "2026-11-01T17:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac647063353e108074d6580b5220054cb0fd08e5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -85.75,
+       30.2
+      ],
+      [
+       -85.66,
+       30.27
+      ],
+      [
+       -85.52,
+       30.16
+      ],
+      [
+       -85.59,
+       30.1
+      ],
+      [
+       -85.72,
+       30.13
+      ],
+      [
+       -85.75,
+       30.2
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -85.5344,
+     30.1591
+    ]
+   ],
+   "lon": -85.665,
+   "lat": 30.177,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FF.W.0205.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-01T15:54:00Z",
+   "onset": "2026-11-01T15:54:00Z",
+   "ends": "2026-11-01T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf431db692f68a6aafeafcd48de1e635c40b62d1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.79,
+       34.76
+      ],
+      [
+       -111.81,
+       34.73
+      ],
+      [
+       -111.82,
+       34.71
+      ],
+      [
+       -111.83,
+       34.68
+      ],
+      [
+       -111.84,
+       34.66
+      ],
+      [
+       -111.84,
+       34.62
+      ],
+      [
+       -111.82,
+       34.62
+      ],
+      [
+       -111.81,
+       34.63
+      ],
+      [
+       -111.79,
+       34.67
+      ],
+      [
+       -111.73,
+       34.69
+      ],
+      [
+       -111.69,
+       34.74
+      ],
+      [
+       -111.7,
+       34.79
+      ],
+      [
+       -111.77,
+       34.8
+      ],
+      [
+       -111.79,
+       34.76
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.788,
+   "lat": 34.704,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FF.W.0206.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Gila, AZ"
+   ],
+   "counties": [
+    "04007"
+   ],
+   "sent": "2026-11-01T15:56:00Z",
+   "onset": "2026-11-01T15:56:00Z",
+   "ends": "2026-11-01T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ac596d8d7fe15382a5b310dcd3aec774ff40107.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.05,
+       33.88
+      ],
+      [
+       -110.87,
+       33.88
+      ],
+      [
+       -110.8,
+       33.77
+      ],
+      [
+       -110.79,
+       33.65
+      ],
+      [
+       -110.81,
+       33.67
+      ],
+      [
+       -110.83,
+       33.69
+      ],
+      [
+       -110.85,
+       33.68
+      ],
+      [
+       -110.9,
+       33.76
+      ],
+      [
+       -110.93,
+       33.72
+      ],
+      [
+       -110.9,
+       33.65
+      ],
+      [
+       -110.92,
+       33.64
+      ],
+      [
+       -110.98,
+       33.75
+      ],
+      [
+       -110.99,
+       33.76
+      ],
+      [
+       -110.99,
+       33.84
+      ],
+      [
+       -111.05,
+       33.88
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -110.8119,
+     33.7896
+    ]
+   ],
+   "lon": -110.911,
+   "lat": 33.748,
    "countries": [
     "US"
    ]
@@ -2885,6 +3004,140 @@
    ]
   },
   {
+   "id": "KFGZ.FA.W.0026.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ"
+   ],
+   "counties": [
+    "04005"
+   ],
+   "sent": "2026-11-01T15:26:00Z",
+   "onset": "2026-11-01T15:26:00Z",
+   "ends": "2026-11-02T03:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e8d6eb7c9b9bdcacb12f578eb929039fcfbd13e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.79,
+       35.19
+      ],
+      [
+       -111.69,
+       35.08
+      ],
+      [
+       -111.46,
+       35.29
+      ],
+      [
+       -111.5,
+       35.35
+      ],
+      [
+       -111.53,
+       35.36
+      ],
+      [
+       -111.59,
+       35.3
+      ],
+      [
+       -111.79,
+       35.19
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ]
+   ],
+   "lon": -111.621,
+   "lat": 35.251,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0027.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ"
+   ],
+   "counties": [
+    "04005"
+   ],
+   "sent": "2026-11-01T15:33:00Z",
+   "onset": "2026-11-01T15:33:00Z",
+   "ends": "2026-11-02T03:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afe5e1531efd46f803b98a9a20be71c8dadaef7b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.69,
+       35.08
+      ],
+      [
+       -111.7,
+       34.9
+      ],
+      [
+       -111.61,
+       34.87
+      ],
+      [
+       -111.41,
+       34.83
+      ],
+      [
+       -111.41,
+       35.08
+      ],
+      [
+       -111.46,
+       35.3
+      ],
+      [
+       -111.59,
+       35.17
+      ],
+      [
+       -111.69,
+       35.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ]
+   ],
+   "lon": -111.57,
+   "lat": 35.039,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KGJT.FA.A.0011.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -3290,11 +3543,6 @@
    "certainty": "Possible",
    "sender": "NWS Tucson AZ",
    "areas": [
-    "Western Pima County Including Ajo/Organ Pipe Cactus National Monument",
-    "Upper San Pedro River Valley including Sierra Vista/Benson",
-    "Eastern Cochise County Below 5000 Feet including Douglas/Willcox",
-    "Chiricahua Mountains including Chiricahua National Monument",
-    "Dragoon/Mule/Huachuca and Santa Rita Mountains including Bisbee/Canelo Hills/Madera Canyon",
     "Tohono O'odham Nation including Sells",
     "Upper Santa Cruz River and Altar Valleys including Nogales",
     "Tucson Metro Area including Tucson/Green Valley/Marana/Vail",
@@ -3304,7 +3552,12 @@
     "White Mountains of Graham and Greenlee Counties including Hannagan Meadow",
     "Galiuro and Pinaleno Mountains including Mount Graham",
     "Santa Catalina and Rincon Mountains including Mount Lemmon/Summerhaven",
-    "Baboquivari Mountains including Kitt Peak"
+    "Baboquivari Mountains including Kitt Peak",
+    "Western Pima County Including Ajo/Organ Pipe Cactus National Monument",
+    "Upper San Pedro River Valley including Sierra Vista/Benson",
+    "Eastern Cochise County Below 5000 Feet including Douglas/Willcox",
+    "Chiricahua Mountains including Chiricahua National Monument",
+    "Dragoon/Mule/Huachuca and Santa Rita Mountains including Bisbee/Canelo Hills/Madera Canyon"
    ],
    "counties": [
     "04003",
@@ -3317,7 +3570,7 @@
    "sent": "2026-11-01T11:10:00Z",
    "onset": "2026-11-01T11:10:00Z",
    "ends": "2026-11-02T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f077cfca52e65873306a8db771a903b627c01f5d.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f077cfca52e65873306a8db771a903b627c01f5d.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3793,6 +4046,188 @@
    ]
   },
   {
+   "id": "KTAE.MA.W.0467.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Tallahassee FL",
+   "areas": [
+    "Coastal waters from Okaloosa-Walton County Line to Mexico Beach out 20 NM",
+    "Coastal Waters from Mexico Beach to Apalachicola out 20 NM",
+    "Waters from Okaloosa-Walton County Line to Mexico Beach from 20 to 60 NM",
+    "Waters from Mexico Beach to Apalachicola FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "77751",
+    "77752",
+    "77770",
+    "77772"
+   ],
+   "sent": "2026-11-01T15:32:00Z",
+   "onset": "2026-11-01T15:32:00Z",
+   "ends": "2026-11-01T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4421bb32e6f29f24ad96adbd3f015fdc4a65d0a0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -85.45,
+       29.53
+      ],
+      [
+       -85.72,
+       29.33
+      ],
+      [
+       -85.9,
+       29.32
+      ],
+      [
+       -85.9,
+       29.66
+      ],
+      [
+       -85.79,
+       29.68
+      ],
+      [
+       -85.74,
+       29.71
+      ],
+      [
+       -85.62,
+       29.79
+      ],
+      [
+       -85.45,
+       29.53
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -85.696,
+   "lat": 29.569,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0332.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Lake Okeechobee"
+   ],
+   "counties": [
+    "75610"
+   ],
+   "sent": "2026-11-01T15:46:00Z",
+   "onset": "2026-11-01T15:46:00Z",
+   "ends": "2026-11-01T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60c5cb980df5ccc75c09624f91e59ded90a358e5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.71,
+       27.16
+      ],
+      [
+       -80.66,
+       27.11
+      ],
+      [
+       -80.61,
+       26.96
+      ],
+      [
+       -80.59,
+       26.96
+      ],
+      [
+       -80.59,
+       26.89
+      ],
+      [
+       -80.66,
+       26.8
+      ],
+      [
+       -80.66,
+       26.74
+      ],
+      [
+       -80.74,
+       26.66
+      ],
+      [
+       -80.84,
+       26.68
+      ],
+      [
+       -81,
+       26.79
+      ],
+      [
+       -81.11,
+       26.83
+      ],
+      [
+       -81.15,
+       26.89
+      ],
+      [
+       -81.15,
+       26.93
+      ],
+      [
+       -81.12,
+       26.99
+      ],
+      [
+       -80.91,
+       27.17
+      ],
+      [
+       -80.88,
+       27.17
+      ],
+      [
+       -80.87,
+       27.14
+      ],
+      [
+       -80.84,
+       27.19
+      ],
+      [
+       -80.8,
+       27.21
+      ],
+      [
+       -80.71,
+       27.16
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.83,
+   "lat": 26.971,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KTAE.MA.W.0466.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -3807,179 +4242,37 @@
     "77751",
     "77770"
    ],
-   "sent": "2026-11-01T14:45:00Z",
-   "onset": "2026-11-01T14:45:00Z",
+   "sent": "2026-11-01T15:53:00Z",
+   "onset": "2026-11-01T15:53:00Z",
    "ends": "2026-11-01T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0734b22cbfdb0ee2b3463071ec4d63e567e5b11.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.445b35b321801922e38f2159519a10da13555a68.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -85.59,
-       29.96
-      ],
-      [
-       -85.56,
-       29.8
+       -85.64,
+       29.78
       ],
       [
        -85.71,
        29.61
       ],
       [
-       -85.91,
-       29.75
+       -85.8,
+       29.68
       ],
       [
-       -85.85,
-       29.83
-      ],
-      [
-       -85.85,
-       29.96
-      ],
-      [
-       -85.59,
-       29.96
+       -85.64,
+       29.78
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -85.723,
-   "lat": 29.839,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0357.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel"
-   ],
-   "counties": [
-    "77034"
-   ],
-   "sent": "2026-11-01T15:15:00Z",
-   "onset": "2026-11-01T15:15:00Z",
-   "ends": "2026-11-01T15:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14a81299de891c59e29e605bb922db3714deff13.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -83.18,
-       24.95
-      ],
-      [
-       -83.13,
-       25.02
-      ],
-      [
-       -82.95,
-       25.02
-      ],
-      [
-       -82.87,
-       24.95
-      ],
-      [
-       -83.1,
-       24.8
-      ],
-      [
-       -83.19,
-       24.93
-      ],
-      [
-       -83.18,
-       24.95
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -83.086,
-   "lat": 24.946,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0331.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75630",
-    "75651"
-   ],
-   "sent": "2026-11-01T15:20:00Z",
-   "onset": "2026-11-01T15:20:00Z",
-   "ends": "2026-11-01T15:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b2898ce8c50827023f1bb11bdd6d0117f501fd1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.04,
-       25.52
-      ],
-      [
-       -80.33,
-       25.62
-      ],
-      [
-       -80.3,
-       25.7
-      ],
-      [
-       -80.22,
-       25.77
-      ],
-      [
-       -80.21,
-       25.87
-      ],
-      [
-       -80.16,
-       25.91
-      ],
-      [
-       -80.16,
-       25.98
-      ],
-      [
-       -79.94,
-       25.96
-      ],
-      [
-       -80.04,
-       25.52
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.156,
-   "lat": 25.761,
+   "lon": -85.697,
+   "lat": 29.712,
    "countries": [
     "US"
    ]
