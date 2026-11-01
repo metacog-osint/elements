@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "TC-1001346",
+   "type": "TC",
+   "kind": "tropical cyclone",
+   "episode": 1,
+   "name": "Tropical Cyclone FOUR-26",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 92.592,
+   "severity_unit": "km/h",
+   "from": "2026-11-01T00:00:00Z",
+   "to": "2026-11-01T00:00:00Z",
+   "current": true,
+   "country": "India",
+   "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=1&eventtype=TC",
+   "lon": 86.6,
+   "lat": 11.6,
+   "countries": []
+  },
+  {
    "id": "FL-1104265",
    "type": "FL",
    "kind": "flood",
