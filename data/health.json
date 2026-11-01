@@ -1,37 +1,44 @@
 {
  "usgs-earthquakes": {
-  "last_ok": "2026-11-01T01:24:20Z",
+  "last_ok": "2026-11-01T02:23:24Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T01:24:20Z",
-  "detail": "143 records"
+  "checked_at": "2026-11-01T02:23:24Z",
+  "detail": "141 records"
  },
  "gdacs": {
-  "last_ok": "2026-11-01T01:24:20Z",
+  "last_ok": "2026-11-01T02:23:24Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T01:24:20Z",
+  "checked_at": "2026-11-01T02:23:24Z",
   "detail": "55 records"
  },
  "nhc": {
-  "last_ok": "2026-11-01T01:24:20Z",
+  "last_ok": "2026-11-01T02:23:24Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T01:24:20Z",
+  "checked_at": "2026-11-01T02:23:24Z",
   "detail": "0 records"
  },
  "copernicus-ems": {
-  "last_ok": "2026-11-01T01:24:20Z",
+  "last_ok": "2026-11-01T02:23:24Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-01T01:24:20Z",
+  "checked_at": "2026-11-01T02:23:24Z",
   "detail": "50 records"
  },
  "nasa-firms": {
-  "last_ok": "2026-10-31T22:33:35Z",
+  "last_ok": "2026-11-01T02:23:24Z",
   "last_error": "2026-11-01T01:24:20Z",
-  "failures": 1,
-  "checked_at": "2026-11-01T01:24:20Z",
-  "detail": "VIIRS_NOAA20_NRT API: network: OSError; VIIRS_NOAA20_NRT public file: network: OSError; VIIRS_NOAA21_NRT API: network: OSError; VIIRS_NOAA21_NRT public file: network: OSError; VIIRS_SNPP_NRT API: network: OSError; VIIRS_SNPP_NRT public file: network: OSError"
+  "failures": 0,
+  "checked_at": "2026-11-01T02:23:24Z",
+  "detail": "117,841 detections in 7,718 cells via api; key used 216 of 5000 transactions"
+ },
+ "usgs-volcanoes": {
+  "last_ok": "2026-11-01T02:23:24Z",
+  "last_error": null,
+  "failures": 0,
+  "checked_at": "2026-11-01T02:23:24Z",
+  "detail": "4 records"
  }
 }

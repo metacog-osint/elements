@@ -1,6 +1,23 @@
 {
  "records": [
   {
+   "id": "us7000tuly",
+   "mag": 4.5,
+   "place": "55 km SSW of Ollagüe, Chile",
+   "time": "2026-11-01T01:24:52Z",
+   "updated": "2026-11-01T02:13:56Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuly",
+   "depth_km": 120.4,
+   "lon": -68.435,
+   "lat": -21.698,
+   "countries": [
+    "CL"
+   ]
+  },
+  {
    "id": "us7000tule",
    "mag": 4.8,
    "place": "199 km NW of Port-Olry, Vanuatu",
@@ -35,7 +52,7 @@
    "mag": 6.0,
    "place": "58 km SSE of Shima, Japan",
    "time": "2026-10-31T22:15:02Z",
-   "updated": "2026-11-01T00:22:39Z",
+   "updated": "2026-11-01T02:02:40Z",
    "alert": "green",
    "tsunami": false,
    "sig": 559,
@@ -2164,51 +2181,6 @@
    "depth_km": 116.0,
    "lon": 167.304,
    "lat": -14.996,
-   "countries": []
-  },
-  {
-   "id": "us6000u4r9",
-   "mag": 6.5,
-   "place": "Bonin Islands, Japan region",
-   "time": "2026-10-25T02:09:23Z",
-   "updated": "2026-10-29T02:12:55Z",
-   "alert": "green",
-   "tsunami": true,
-   "sig": 650,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9",
-   "depth_km": 492.4,
-   "lon": 139.618,
-   "lat": 27.795,
-   "countries": []
-  },
-  {
-   "id": "us6000u4r7",
-   "mag": 5.1,
-   "place": "161 km WNW of Port-Olry, Vanuatu",
-   "time": "2026-10-25T02:06:10Z",
-   "updated": "2026-10-25T02:44:45Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 400,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r7",
-   "depth_km": 10.0,
-   "lon": 165.703,
-   "lat": -14.454,
-   "countries": []
-  },
-  {
-   "id": "us6000u4r3",
-   "mag": 5.1,
-   "place": "166 km WNW of Port-Olry, Vanuatu",
-   "time": "2026-10-25T01:46:23Z",
-   "updated": "2026-10-25T02:06:04Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 400,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r3",
-   "depth_km": 10.0,
-   "lon": 165.686,
-   "lat": -14.385,
    "countries": []
   }
  ]
