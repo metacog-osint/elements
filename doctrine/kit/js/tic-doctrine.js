@@ -1231,6 +1231,27 @@ export const VOCAB = {
         }
       }
     },
+    "usgs_volcano": {
+      "name": "USGS Volcano Alert Level",
+      "values": {
+        "normal": {
+          "severity": 0,
+          "meaning": "Typical background, non-eruptive state; or activity has ceased and the volcano has returned to that state."
+        },
+        "advisory": {
+          "severity": 1,
+          "meaning": "Signs of elevated unrest above known background; or activity has decreased significantly but is watched for renewed increase."
+        },
+        "watch": {
+          "severity": 2,
+          "meaning": "Heightened or escalating unrest with increased potential of eruption, timeframe uncertain; or an eruption under way that poses limited hazards."
+        },
+        "warning": {
+          "severity": 4,
+          "meaning": "Hazardous eruption imminent, under way or suspected."
+        }
+      }
+    },
     "gdacs": {
       "name": "GDACS alert level",
       "values": {
