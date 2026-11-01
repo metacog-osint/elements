@@ -20,6 +20,7 @@ SRC, OUT = ROOT / "site_src", ROOT / "site"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
          "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
          "usdm": "us-drought-monitor"}
+COMPACT = {"usdm", "firms"}   # mostly coordinates: indenting them would triple their size
 
 
 def drought_summary(rec) -> str:
@@ -35,7 +36,7 @@ def collect() -> dict:
     for k, src in LANES.items():
         records, err = got[k]
         if records is not prev[k]:
-            save(f"{k}.json", {"records": records})
+            save(f"{k}.json", {"records": records}, compact=k in COMPACT)
         detail = (firms.summary(records) if k == "firms" else drought_summary(records) if k == "usdm"
                   else f"{len(records)} records")
         if err:

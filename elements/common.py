@@ -65,10 +65,11 @@ def load(name: str, default=None):
     return json.loads(p.read_text(encoding="utf-8"))
 
 
-def save(name: str, obj) -> None:
+def save(name: str, obj, compact: bool = False) -> None:
+    """Indented by default, so data/ diffs read well; compact for files that are mostly coordinates."""
     DATA.mkdir(exist_ok=True)
-    (DATA / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=False) + "\n",
-                             encoding="utf-8", newline="\n")
+    text = json.dumps(obj, ensure_ascii=False, separators=(",", ":")) if compact else json.dumps(obj, indent=1, ensure_ascii=False)
+    (DATA / name).write_text(text + "\n", encoding="utf-8", newline="\n")
 
 
 # Country helpers: thin wrappers over the doctrine kit, which from 0.3.1 gives ISO 3166-1 alpha-2 codes (Taiwan TW)

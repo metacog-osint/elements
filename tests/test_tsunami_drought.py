@@ -165,6 +165,26 @@ class Drought(unittest.TestCase):
         rec2, err2 = drought.collect({"weeks": ["old"]}, NOW, drought_fetch(None, None, []))
         self.assertEqual(rec2, {"weeks": ["old"]})
 
+    def test_stored_compactly(self):
+        """The drought file is mostly coordinates, so it is saved without indentation."""
+        import importlib.util
+        import tempfile
+        from unittest.mock import patch
+        from elements import common
+        spec = importlib.util.spec_from_file_location("elements_cli", ROOT / "tools" / "elements.py")
+        cli = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(cli)
+        self.assertIn("usdm", cli.COMPACT)
+        rec, _ = drought.collect({}, NOW, drought_fetch(STATS, MAP, []))
+        with tempfile.TemporaryDirectory() as tmp, patch.object(common, "DATA", Path(tmp)):
+            common.save("usdm.json", {"records": rec}, compact=True)
+            common.save("pretty.json", {"records": rec})
+            compact = (Path(tmp) / "usdm.json").read_text(encoding="utf-8")
+            pretty = (Path(tmp) / "pretty.json").read_text(encoding="utf-8")
+        self.assertEqual(compact.count("\n"), 1)
+        self.assertEqual(json.loads(compact), json.loads(pretty))
+        self.assertLess(len(compact), len(pretty) / 2)
+
     def test_feed_item(self):
         rec, _ = drought.collect({}, NOW, drought_fetch(STATS, MAP, []))
         d = {k: {"records": [], "fetched_at": FETCHED} for k in ("usgs", "gdacs", "nhc", "cems")}
