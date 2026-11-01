@@ -11,8 +11,8 @@ out only sources whose terms forbid republishing.
 
 ## Public information only
 
-We use publicly available information only. We are not a US government body and are not bound by Executive Order
-12333's limits on information about US persons, so we do not strip it. Every item we publish carries a label saying
+We use publicly available information only. We are not a US government body and are not bound by the US intelligence
+community's limits on information about US persons, so we do not strip it. Every item we publish carries a label saying
 whether it names organizations or individuals (`us_person_data`), so a reader who is bound by those rules can filter
 for themselves. Where a source's terms forbid re-identifying people, we follow the terms and skip that data.
 
