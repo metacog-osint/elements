@@ -1,0 +1,42 @@
+{
+ "records": [
+  {
+   "id": "PTWC-20261024T020900Z",
+   "centre": "PTWC",
+   "msg_type": "Alert",
+   "sent": "2026-10-25T02:27:01Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "",
+   "location": "BONIN ISLANDS  JAPAN REGION",
+   "magnitude": 7.0,
+   "magnitude_type": "Mwp",
+   "origin": "2026-10-24T02:09:00Z",
+   "depth_km": 473.0,
+   "lat": 28.0,
+   "lon": 139.9,
+   "countries": [],
+   "url": "https://www.tsunami.gov/events/PHEB/2026/10/24/26297050/1/WEGM42/PHEBCAP.xml"
+  },
+  {
+   "id": "NTWC-20261025T020924Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-10-25T02:26:53Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement for Alaska, British Columbia, Washington, Oregon, and California.",
+   "location": "in the Bonin Islands, Japan region",
+   "magnitude": 7.0,
+   "magnitude_type": "Mwp",
+   "origin": "2026-10-25T02:09:24Z",
+   "depth_km": 473.0,
+   "lat": 28.0,
+   "lon": 139.9,
+   "countries": [],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/10/25/tnfxzn/1/WEAK53/PAAQCAP.xml"
+  }
+ ]
+}
