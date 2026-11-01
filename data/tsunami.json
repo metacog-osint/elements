@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "NTWC-20261101T113021Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-01T11:32:59Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "45 miles NE of Homer, Alaska",
+   "magnitude": 4.2,
+   "magnitude_type": "Ml",
+   "origin": "2026-11-01T11:30:21Z",
+   "depth_km": 66.0,
+   "lat": 60.222,
+   "lon": -150.941,
+   "countries": [
+    "US"
+   ],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/01/tntmml/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "PTWC-20261024T020900Z",
    "centre": "PTWC",
    "msg_type": "Alert",
