@@ -55,6 +55,24 @@
    "name": "SPC Day 1 categorical convective outlook (GeoJSON)",
    "licence": "US public domain",
    "use": "ingest"
+  },
+  {
+   "id": "noaa-tsunami",
+   "name": "NOAA NTWC and PTWC Atom feeds and CAP messages (tsunami.gov)",
+   "licence": "US public domain",
+   "use": "ingest"
+  },
+  {
+   "id": "us-drought-monitor",
+   "name": "US Drought Monitor statistics service and current map (droughtmonitor.unl.edu)",
+   "licence": "No licence stated (not verified); credit NDMC-UNL, USDA and NOAA",
+   "use": "ingest"
+  },
+  {
+   "id": "epa-radnet",
+   "name": "EPA RadNet near-real-time air monitoring",
+   "licence": "US public domain",
+   "use": "not used: only whole-year CSV files per city (about 750 KB each, ~140 cities); no latest-reading endpoint found (31 Oct 2026)"
   }
  ],
  "extra": {
@@ -133,6 +151,24 @@
     "url": "https://www.spc.noaa.gov/products/outlook/day1otlk_cat.lyr.geojson",
     "expect": "json"
    }
+  },
+  "noaa-tsunami": {
+   "grade": "A1",
+   "independence_group": "noaa",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Tsunami messages from the two US warning centres",
+   "probe": {
+    "url": "https://www.tsunami.gov/events/xml/PAAQAtom.xml",
+    "expect": "xml"
+   }
+  },
+  "us-drought-monitor": {
+   "grade": "A2",
+   "independence_group": "usdm",
+   "ease_of_faking": "low",
+   "cadence_s": 604800,
+   "descriptor": "Weekly US drought categories"
   }
  }
 }

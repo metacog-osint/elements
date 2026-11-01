@@ -47,6 +47,19 @@ either link to the alert instead. Extreme is an anomaly against the CAP scale. T
 categorical outlook gives one item per risk area from Marginal to High; Moderate and High are anomalies. Neither
 scale is a kit ladder yet, so these items carry no response stage.
 
+## Tsunami messages
+The two NOAA warning centres (NTWC in Alaska, PTWC in Hawaii) each publish their latest message as an Atom feed linking
+a CAP file. Elements keeps every message for 30 days, one per centre and earthquake (a later message replaces an
+earlier one), and publishes those from the last 7 days. Anything above an information statement is an anomaly. Items
+are dated by when the message was sent; when a message gives an origin time more than 6 hours earlier, the item says
+the centre's date may be wrong (PTWC's message for the 25 Oct 2026 Bonin Islands earthquake gave 24 Oct).
+
+## US drought
+The US Drought Monitor's weekly statistics give one national item: the cumulative share of the US in each category.
+The map is fetched only when a new week appears and is snapped to a 0.05-degree grid for display. The Drought Monitor
+states no licence; Elements credits its three producers. No baseline yet: week-on-week change is reported, not judged.
+
 ## Not yet covered
-Volcanoes outside the US beyond GDACS's alerts, and the US nuclear and radiation lane. A
+Volcanoes outside the US beyond GDACS's alerts, and radiation: EPA RadNet offers only whole-year CSV files per city
+(about 750 KB each, some 140 cities), and Elements will not pull that much every hour. A
 missing source turns its layer grey ("no data"), never quiet.

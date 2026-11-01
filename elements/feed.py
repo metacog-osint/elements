@@ -39,7 +39,89 @@ SRC["nws"] = {"id": "nws-alerts", "publisher": "NOAA National Weather Service", 
 SRC["spc"] = {"id": "spc-outlook", "publisher": "NOAA Storm Prediction Center", "url": "https://www.spc.noaa.gov/",
               "licence": "US public domain", "grade": "A1", "independence_group": "noaa", "source_type": "official forecast",
               "descriptor": "Day 1 categorical convective outlook (risk of organised severe thunderstorms)"}
+SRC["tsunami"] = {"id": "noaa-tsunami", "publisher": "NOAA tsunami warning centres (NTWC, PTWC)", "url": "https://www.tsunami.gov/",
+                  "licence": "US public domain", "grade": "A1", "independence_group": "noaa", "source_type": "official warning",
+                  "descriptor": "Tsunami message (CAP): information statement, threat message, watch, advisory or warning"}
+SRC["usdm"] = {"id": "us-drought-monitor", "publisher": "US Drought Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA)",
+               "url": "https://droughtmonitor.unl.edu/", "licence": "Credit NDMC, USDA and NOAA (no licence stated; not verified)",
+               "grade": "A2", "independence_group": "usdm", "source_type": "expert assessment",
+               "descriptor": "Weekly drought categories D0 to D4, percent of US area (cumulative)"}
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
+TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
+                 "advisory": "advisory", "warning": "warning"}
+MONTHS3 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def _day(iso: str) -> str:
+    y, m, d = iso[:10].split("-")
+    return f"{int(d)} {MONTHS3[int(m) - 1]} {y}"
+
+
+def _tidy_place(s: str) -> str:
+    s = " ".join((s or "").split())
+    return s.title() if s.isupper() else s
+
+
+def _tsunami_items(d: dict, now: datetime) -> list[dict]:
+    """Messages from the last 7 days, one per centre and earthquake. Anything above an information statement is an
+    anomaly against the warning centres' own scale."""
+    from .tsunami import CENTRE_NAMES, SHOW_DAYS
+    out = []
+    f = (d.get("tsunami") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    since = (now - timedelta(days=SHOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for r in (d.get("tsunami") or {}).get("records") or []:
+        if (r.get("sent") or "") < since:
+            continue
+        hot = r["level"] != "information"
+        mag = f"preliminary M{r['magnitude']:.1f} " if r.get("magnitude") is not None else ""
+        place = _tidy_place(r.get("location"))
+        late = None
+        if r.get("origin") and r.get("sent"):
+            gap = (datetime.fromisoformat(r["sent"].replace("Z", "+00:00"))
+                   - datetime.fromisoformat(r["origin"].replace("Z", "+00:00"))).total_seconds() / 3600
+            if gap > 6:
+                late = f"The message gives an origin {gap:.0f} hours before it was sent; the centre's date may be wrong."
+        p = {**_base(f), "id": f"elements:tsunami:{r['id']}",
+             "title": f"Tsunami {TSUNAMI_WORDS.get(r['level'], r['level'])} ({r['centre']}): {mag}{place}".strip(),
+             "tier": "anomaly" if hot else "routine", "data_as_of": r.get("sent") or f, "countries": r.get("countries") or [],
+             "requirement_ids": ["EL-PIR-8"], "sources": [{**SRC["tsunami"], "url": r.get("url") or SRC["tsunami"]["url"], "accessed_at": f}],
+             "link": r.get("url"),
+             "measures": {"centre": CENTRE_NAMES.get(r["centre"], r["centre"]), "event": r.get("event"), "level": r["level"],
+                          "message_type": r.get("msg_type"), "severity": r.get("severity"), "headline": r.get("headline"),
+                          "location": place, "magnitude": r.get("magnitude"), "magnitude_type": r.get("magnitude_type"),
+                          "origin": r.get("origin"), "depth_km": r.get("depth_km"), "origin_note": late}}
+        if hot:
+            p["baseline_ref"] = {"id": "tsunami-message-levels", "type": "fixed", "version": "1",
+                                 "window": "NOAA tsunami messages: information statement, threat message, watch, advisory, warning"}
+        g = _pt(r.get("lon"), r.get("lat"))
+        if g is None:
+            p.update({"precision_class": "none", "visual": {"type": "page", "url": r.get("url") or SRC["tsunami"]["url"]}})
+        out.append({"type": "Feature", "geometry": g, "properties": p})
+    return out
+
+
+def _drought_item(d: dict, now: datetime) -> list[dict]:
+    rec = (d.get("usdm") or {}).get("records") or {}
+    weeks = rec.get("weeks") or [] if isinstance(rec, dict) else []
+    if not weeks:
+        return []
+    w, prev = weeks[0], (weeks[1] if len(weeks) > 1 else None)
+    f = (d.get("usdm") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    lp = country_point("US")
+    p = {**_base(f), "id": "elements:usdm:us",
+         "title": (f"US Drought Monitor, week of {_day(w['map_date'])}: {w['d1']:.1f}% of the US in drought, "
+                   f"{w['d2']:.1f}% severe or worse"),
+         "tier": "routine", "data_as_of": f"{w['map_date']}T12:00:00Z", "valid_until": f"{w['valid_end']}T12:00:00Z" if w.get("valid_end") else None,
+         "countries": ["US"], "precision_class": "country", "requirement_ids": ["EL-PIR-9"],
+         "sources": [{**SRC["usdm"], "accessed_at": f}], "link": SRC["usdm"]["url"],
+         "measures": {"map_date": w["map_date"], "valid_end": w.get("valid_end"), "cumulative_percent_area": True,
+                      **{k: w[k] for k in ("d0", "d1", "d2", "d3", "d4")},
+                      "previous_week": {k: prev[k] for k in ("map_date", "d0", "d1", "d2", "d3", "d4")} if prev else None,
+                      "change_d1": round(w["d1"] - prev["d1"], 2) if prev else None,
+                      "change_d2": round(w["d2"] - prev["d2"], 2) if prev else None}}
+    if p["valid_until"] is None:
+        p.pop("valid_until")
+    return [{"type": "Feature", "geometry": _pt(lp[1], lp[0]) if lp else None, "properties": p}]
 
 
 def _slug(s: str) -> str:
@@ -229,6 +311,8 @@ def build(d: dict, now: datetime | None = None) -> dict:
 
     feats += _volcano_items(d, now)
     feats += _weather_items(d, now)
+    feats += _tsunami_items(d, now)
+    feats += _drought_item(d, now)
 
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -268,7 +352,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
             "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content with attribution",

@@ -28,8 +28,8 @@
   <section class="hero">
     <h1>Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
     <p class="lede">USGS earthquakes with their PAGER impact alert, USGS volcano alerts, GDACS multi-hazard alerts, NOAA
-      hurricane, weather-warning and severe-storm products, Copernicus EMS rapid-mapping activations and NASA FIRMS
-      satellite fire detections, collected every hour.</p>
+      hurricane, weather-warning, severe-storm and tsunami products, the US Drought Monitor, Copernicus EMS rapid-mapping
+      activations and NASA FIRMS satellite fire detections, collected every hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
@@ -39,6 +39,8 @@
         <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
         <label><input type="checkbox" data-layer="volcano" checked> US volcano alerts</label>
         <label><input type="checkbox" data-layer="weather" checked> US weather warnings</label>
+        <label><input type="checkbox" data-layer="tsunami" checked> Tsunami messages</label>
+        <label><input type="checkbox" data-layer="drought"> US drought</label>
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
         <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
         <label><input type="checkbox" data-layer="cems" checked> Copernicus EMS activations</label>
@@ -73,6 +75,23 @@
       each county they name.</p>
     <div id="nws"></div>
   </section>
+
+  <div class="two">
+    <section class="card" aria-labelledby="tsu-h">
+      <h2 id="tsu-h">Tsunami messages, past 7 days</h2>
+      <p class="muted small">From NOAA's National Tsunami Warning Center (Alaska; the US and Canadian coasts) and Pacific
+        Tsunami Warning Center (Hawaii; the Pacific and Caribbean). An information statement means an earthquake was
+        assessed and no tsunami threat is expected for the centre's coasts.</p>
+      <div id="tsunami"></div>
+    </section>
+    <section class="card" aria-labelledby="dm-h">
+      <h2 id="dm-h">US drought this week</h2>
+      <p class="muted small" id="drought-sum"></p>
+      <p class="muted small">US Drought Monitor categories as a share of the US, including Alaska, Hawaii and Puerto
+        Rico. Shares are cumulative: D2 counts everything in D2, D3 or D4. Switch on "US drought" to see the map.</p>
+      <div id="drought"></div>
+    </section>
+  </div>
 
   <div class="two">
     <section class="card" aria-labelledby="quakes-h">
@@ -121,7 +140,10 @@
       Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
       operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
       Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
-    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, and radiation monitoring.
+    <p class="small muted">The US Drought Monitor is produced jointly by the National Drought Mitigation Center at the
+      University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC.</p>
+    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, and radiation monitoring (EPA
+      RadNet publishes only whole-year files per city).
       NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
   </section>
 </main>
