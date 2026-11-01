@@ -1,0 +1,72 @@
+/*! tic-nav.css v1.1 · pairs with tic-nav.js (canonical copy in D:\Projects\theintelligence-company\site\shared\).
+    House navy bar on every program site; the panel follows the viewer's light or dark setting. Everything is scoped
+    to .tic-house so a site's own styles (Tailwind's reset included) don't need changing. */
+.tic-house {
+  --tn-bg: #14202E; --tn-ink: #EEF1F6; --tn-line: rgba(238, 241, 246, .35); --tn-acc: #E3A83B;
+  --tn-panel: #FFFFFF; --tn-pink: #14202E; --tn-pmut: #555F6D; --tn-rule: #D8D3C8; --tn-hover: #F3F1EC;
+  --tn-live: #1E6B3A; --tn-beta: #8A5A00;
+  position: relative; z-index: 10000; background: var(--tn-bg); /* v1.1: above site headers' own stacking */ color: var(--tn-ink);
+  /* v1.1: undo a site's generic nav rules (Watchfloor styles every <nav> as a flex row) */
+  display: block; width: auto; height: auto; min-height: 0; margin: 0; padding: 0; border: 0; box-shadow: none;
+  font: 400 13px/1.4 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  text-align: left; letter-spacing: normal;
+}
+@media (prefers-color-scheme: dark) {
+  .tic-house { --tn-panel: #161E2A; --tn-pink: #E8ECF2; --tn-pmut: #9AA5B5; --tn-rule: #2A3546; --tn-hover: #1F2A3A;
+    --tn-live: #7FD49A; --tn-beta: #F0C36B; }
+}
+.tic-house *, .tic-house *::before, .tic-house *::after { box-sizing: border-box; }
+.tic-house p, .tic-house ul { margin: 0; padding: 0; }
+.tic-house ul { list-style: none; }
+.tic-house a { color: inherit; text-decoration: none; }
+.tic-house :focus-visible { outline: 2px solid var(--tn-acc); outline-offset: 2px; }
+
+.tic-house-in { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; min-height: 34px; display: flex;
+  align-items: center; justify-content: space-between; gap: 12px; }
+.tic-house-home { font-weight: 500; padding: 7px 0; white-space: nowrap; }
+.tic-house-home:hover { color: var(--tn-acc); }
+.tic-house-arrow { margin-right: 2px; }
+.tic-house-btn { appearance: none; -webkit-appearance: none; margin: 0; background: transparent; color: inherit;
+  border: 1px solid var(--tn-line); border-radius: 4px; font: inherit; font-weight: 500; line-height: 1.3;
+  padding: 3px 10px; cursor: pointer; white-space: nowrap; }
+.tic-house-btn:hover, .tic-house-btn[aria-expanded="true"] { border-color: var(--tn-acc); color: var(--tn-acc); }
+.tic-house-caret { font-size: 10px; margin-left: 2px; }
+
+.tic-house-panel { position: absolute; top: 100%; right: max(16px, calc((100% - 1200px) / 2 + 16px));
+  width: min(780px, calc(100% - 32px)); margin-top: 6px; padding: 12px; background: var(--tn-panel);
+  color: var(--tn-pink); border: 1px solid var(--tn-rule); border-radius: 6px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .28); max-height: calc(100vh - 56px); overflow: auto; }
+.tic-house-panel[hidden] { display: none; }
+.tic-house-cols { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 12px; }
+.tic-house-group { margin: 6px 8px 4px; font-size: 11px; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--tn-pmut); }
+.tic-house-ul { margin-bottom: 8px; }
+.tic-house-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1px 10px; align-items: baseline;
+  padding: 7px 8px; border-radius: 4px; }
+.tic-house-item:hover, .tic-house-item:focus-visible, .tic-house-item.on { background: var(--tn-hover); }
+.tic-house-name { font-size: 14px; font-weight: 600; }
+.tic-house-here { margin-left: 8px; font-size: 11px; font-weight: 500; color: var(--tn-acc); }
+.tic-house-st { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+.tic-house-st.st-live { color: var(--tn-live); }
+.tic-house-st.st-beta { color: var(--tn-beta); }
+.tic-house-st.st-invite { color: var(--tn-pmut); }
+.tic-house-label { grid-column: 1 / -1; font-size: 12px; color: var(--tn-pmut); }
+.tic-house-short { grid-column: 1 / -1; display: none; font-size: 12px; color: var(--tn-pmut); }
+.tic-house-detail { border-left: 1px solid var(--tn-rule); padding: 10px 6px 10px 16px; align-self: start;
+  position: sticky; top: 0; }
+.tic-house-dname { font-size: 17px; font-weight: 600; margin-bottom: 2px; }
+.tic-house-dmeta { font-size: 12px; color: var(--tn-pmut); margin-bottom: 10px; }
+.tic-house-dlong { font-size: 13px; line-height: 1.55; }
+.tic-house-all { display: block; margin: 2px 8px 0; padding-top: 8px; border-top: 1px solid var(--tn-rule);
+  font-size: 12px; color: var(--tn-pmut); }
+.tic-house-all:hover { color: var(--tn-pink); }
+.tic-house-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+  clip-path: inset(50%); white-space: nowrap; }
+
+@media print { .tic-house { display: none !important; } } /* site navigation never prints */
+@media (max-width: 640px) {
+  .tic-house-panel { left: 8px; right: 8px; width: auto; }
+  .tic-house-cols { grid-template-columns: 1fr; }
+  .tic-house-detail { display: none; } /* no hover on phones: each program shows its label and one line instead */
+  .tic-house-short { display: block; }
+}
