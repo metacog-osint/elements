@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "WATCH",
+   "color": "ORANGE",
+   "prev_alert": "ADVISORY",
+   "prev_color": "YELLOW",
+   "sent": "2026-11-03T00:06:36Z",
+   "changed": "2026-11-03T00:06:36Z",
+   "synopsis": "HVO Kilauea ORANGE/WATCH - Precursory low-level eruptive activity before episode 56 of the ongoing Halemaʻumaʻu eruption began around 11:43 a.m. HST on Monday, November 2.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-02T22:41:59+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "311120",
    "name": "Great Sitkin",
    "observatory": "avo",
@@ -16,26 +36,6 @@
    "threat": "High Threat",
    "lat": 52.0765,
    "lon": -176.1109,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "vnum": "332010",
-   "name": "Kilauea",
-   "observatory": "hvo",
-   "observatory_name": "Hawaiian Volcano Observatory",
-   "alert": "ADVISORY",
-   "color": "YELLOW",
-   "prev_alert": "WATCH",
-   "prev_color": "ORANGE",
-   "sent": "2026-11-02T19:18:49Z",
-   "changed": "2026-10-17T19:59:31Z",
-   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining is Nov. 4-7, 2026.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-02T18:33:15+00:00",
-   "threat": "Very High Threat",
-   "lat": 19.421,
-   "lon": -155.287,
    "countries": [
     "US"
    ]
