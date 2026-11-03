@@ -1,6 +1,801 @@
 {
  "records": [
   {
+   "id": "KICT.TO.A.0701.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Wichita KS",
+   "areas": [
+    "Barton, KS",
+    "Butler, KS",
+    "Chase, KS",
+    "Cowley, KS",
+    "Ellsworth, KS",
+    "Harper, KS",
+    "Harvey, KS",
+    "Kingman, KS",
+    "Lincoln, KS",
+    "McPherson, KS",
+    "Marion, KS",
+    "Reno, KS",
+    "Rice, KS",
+    "Russell, KS",
+    "Saline, KS",
+    "Sedgwick, KS",
+    "Sumner, KS"
+   ],
+   "counties": [
+    "20009",
+    "20015",
+    "20017",
+    "20035",
+    "20053",
+    "20077",
+    "20079",
+    "20095",
+    "20105",
+    "20113",
+    "20115",
+    "20155",
+    "20159",
+    "20167",
+    "20169",
+    "20173",
+    "20191"
+   ],
+   "sent": "2026-11-02T22:03:00Z",
+   "onset": "2026-11-02T22:03:00Z",
+   "ends": "2026-11-03T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bfebbfc7ca8db43092b73467ff1aa7b7e1ea979b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.7678,
+     38.4812
+    ],
+    [
+     -96.8388,
+     37.7736
+    ],
+    [
+     -96.594,
+     38.2995
+    ],
+    [
+     -96.8372,
+     37.2345
+    ],
+    [
+     -98.2054,
+     38.7008
+    ],
+    [
+     -98.0666,
+     37.1882
+    ],
+    [
+     -97.4367,
+     38.0501
+    ],
+    [
+     -98.1445,
+     37.553
+    ],
+    [
+     -98.2144,
+     39.0472
+    ],
+    [
+     -97.6475,
+     38.3958
+    ],
+    [
+     -97.1028,
+     38.3596
+    ],
+    [
+     -98.0783,
+     37.9482
+    ],
+    [
+     -98.2014,
+     38.3472
+    ],
+    [
+     -98.7709,
+     38.916
+    ],
+    [
+     -97.6515,
+     38.7918
+    ],
+    [
+     -97.4611,
+     37.681
+    ],
+    [
+     -97.4934,
+     37.2367
+    ]
+   ],
+   "lon": -97.736,
+   "lat": 38.118,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.TO.A.0701.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Alfalfa, OK",
+    "Blaine, OK",
+    "Caddo, OK",
+    "Canadian, OK",
+    "Carter, OK",
+    "Cleveland, OK",
+    "Comanche, OK",
+    "Cotton, OK",
+    "Custer, OK",
+    "Dewey, OK",
+    "Garfield, OK",
+    "Garvin, OK",
+    "Grady, OK",
+    "Grant, OK",
+    "Jackson, OK",
+    "Jefferson, OK",
+    "Kay, OK",
+    "Kingfisher, OK",
+    "Kiowa, OK",
+    "Lincoln, OK",
+    "Logan, OK",
+    "Love, OK",
+    "McClain, OK",
+    "Major, OK",
+    "Murray, OK",
+    "Noble, OK",
+    "Oklahoma, OK",
+    "Payne, OK",
+    "Pottawatomie, OK",
+    "Stephens, OK",
+    "Tillman, OK",
+    "Washita, OK",
+    "Archer, TX",
+    "Baylor, TX",
+    "Clay, TX",
+    "Foard, TX",
+    "Hardeman, TX",
+    "Knox, TX",
+    "Wichita, TX",
+    "Wilbarger, TX"
+   ],
+   "counties": [
+    "40003",
+    "40011",
+    "40015",
+    "40017",
+    "40019",
+    "40027",
+    "40031",
+    "40033",
+    "40039",
+    "40043",
+    "40047",
+    "40049",
+    "40051",
+    "40053",
+    "40065",
+    "40067",
+    "40071",
+    "40073",
+    "40075",
+    "40081",
+    "40083",
+    "40085",
+    "40087",
+    "40093",
+    "40099",
+    "40103",
+    "40109",
+    "40119",
+    "40125",
+    "40137",
+    "40141",
+    "40149",
+    "48009",
+    "48023",
+    "48077",
+    "48155",
+    "48197",
+    "48275",
+    "48485",
+    "48487"
+   ],
+   "sent": "2026-11-02T23:02:00Z",
+   "onset": "2026-11-02T23:02:00Z",
+   "ends": "2026-11-03T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db38a0ecb785c72fd13f9ba6f09b3125af530b0f.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.3234,
+     36.7297
+    ],
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -97.9799,
+     35.5434
+    ],
+    [
+     -97.2879,
+     34.2518
+    ],
+    [
+     -97.3231,
+     35.2064
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -99.0144,
+     35.978
+    ],
+    [
+     -97.7887,
+     36.3781
+    ],
+    [
+     -97.3127,
+     34.7094
+    ],
+    [
+     -97.8869,
+     35.0211
+    ],
+    [
+     -97.7882,
+     36.7883
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -97.8389,
+     34.1051
+    ],
+    [
+     -97.1439,
+     36.8149
+    ],
+    [
+     -97.9346,
+     35.9494
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -96.8814,
+     35.7031
+    ],
+    [
+     -97.451,
+     35.9143
+    ],
+    [
+     -97.2451,
+     33.9578
+    ],
+    [
+     -97.4498,
+     35.0164
+    ],
+    [
+     -98.542,
+     36.3131
+    ],
+    [
+     -97.0716,
+     34.4858
+    ],
+    [
+     -97.2363,
+     36.3849
+    ],
+    [
+     -97.4094,
+     35.5546
+    ],
+    [
+     -96.9753,
+     36.0792
+    ],
+    [
+     -96.957,
+     35.2114
+    ],
+    [
+     -97.8556,
+     34.4814
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.9923,
+     35.2899
+    ],
+    [
+     -98.6873,
+     33.6163
+    ],
+    [
+     -99.2082,
+     33.6188
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -99.8168,
+     33.9633
+    ],
+    [
+     -99.7457,
+     34.2899
+    ],
+    [
+     -99.7304,
+     33.6119
+    ],
+    [
+     -98.708,
+     33.9882
+    ],
+    [
+     -99.2424,
+     34.0849
+    ]
+   ],
+   "lon": -98.176,
+   "lat": 35.059,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDDC.TO.A.0701.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Dodge City KS",
+   "areas": [
+    "Barber, KS",
+    "Pratt, KS",
+    "Stafford, KS"
+   ],
+   "counties": [
+    "20007",
+    "20151",
+    "20185"
+   ],
+   "sent": "2026-11-02T23:22:00Z",
+   "onset": "2026-11-02T23:22:00Z",
+   "ends": "2026-11-03T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ccf97cbb23f568d32f074b6c2bb6f9b8b49be625.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.6851,
+     37.2229
+    ],
+    [
+     -98.7401,
+     37.6476
+    ],
+    [
+     -98.7199,
+     38.0356
+    ]
+   ],
+   "lon": -98.715,
+   "lat": 37.635,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFWD.TO.A.0702.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Fort Worth TX",
+   "areas": [
+    "Comanche, TX",
+    "Cooke, TX",
+    "Eastland, TX",
+    "Erath, TX",
+    "Hood, TX",
+    "Jack, TX",
+    "Montague, TX",
+    "Palo Pinto, TX",
+    "Parker, TX",
+    "Stephens, TX",
+    "Wise, TX",
+    "Young, TX"
+   ],
+   "counties": [
+    "48093",
+    "48097",
+    "48133",
+    "48143",
+    "48221",
+    "48237",
+    "48337",
+    "48363",
+    "48367",
+    "48429",
+    "48497",
+    "48503"
+   ],
+   "sent": "2026-11-02T23:50:00Z",
+   "onset": "2026-11-02T23:50:00Z",
+   "ends": "2026-11-03T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f18d03a8f33c4047ad9deba7776e342072d7011.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.5496,
+     31.9516
+    ],
+    [
+     -97.2103,
+     33.6392
+    ],
+    [
+     -98.8366,
+     32.3246
+    ],
+    [
+     -98.2183,
+     32.2362
+    ],
+    [
+     -97.8317,
+     32.4301
+    ],
+    [
+     -98.1711,
+     33.2323
+    ],
+    [
+     -97.725,
+     33.6784
+    ],
+    [
+     -98.318,
+     32.7522
+    ],
+    [
+     -97.8059,
+     32.7771
+    ],
+    [
+     -98.8393,
+     32.7381
+    ],
+    [
+     -97.653,
+     33.2193
+    ],
+    [
+     -98.6784,
+     33.1588
+    ]
+   ],
+   "lon": -98.153,
+   "lat": 32.845,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSJT.TO.A.0702.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS San Angelo TX",
+   "areas": [
+    "Brown, TX",
+    "Callahan, TX",
+    "Coke, TX",
+    "Coleman, TX",
+    "Concho, TX",
+    "Haskell, TX",
+    "Irion, TX",
+    "Jones, TX",
+    "Nolan, TX",
+    "Runnels, TX",
+    "Shackelford, TX",
+    "Sterling, TX",
+    "Taylor, TX",
+    "Throckmorton, TX",
+    "Tom Green, TX"
+   ],
+   "counties": [
+    "48049",
+    "48059",
+    "48081",
+    "48083",
+    "48095",
+    "48207",
+    "48235",
+    "48253",
+    "48353",
+    "48399",
+    "48417",
+    "48431",
+    "48441",
+    "48447",
+    "48451"
+   ],
+   "sent": "2026-11-02T23:53:00Z",
+   "onset": "2026-11-02T23:53:00Z",
+   "ends": "2026-11-03T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5175aa4931aacec66267e1258346e7874b5d00d4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.9985,
+     31.7641
+    ],
+    [
+     -99.3722,
+     32.2931
+    ],
+    [
+     -100.6352,
+     31.8771
+    ],
+    [
+     -99.3466,
+     31.9142
+    ],
+    [
+     -99.8636,
+     31.3189
+    ],
+    [
+     -99.7308,
+     33.176
+    ],
+    [
+     -100.9813,
+     31.3034
+    ],
+    [
+     -99.8744,
+     32.7437
+    ],
+    [
+     -100.4181,
+     32.3123
+    ],
+    [
+     -99.9827,
+     31.8451
+    ],
+    [
+     -99.347,
+     32.7438
+    ],
+    [
+     -101.0549,
+     31.8358
+    ],
+    [
+     -99.8904,
+     32.2971
+    ],
+    [
+     -99.2058,
+     33.1707
+    ],
+    [
+     -100.4642,
+     31.3976
+    ]
+   ],
+   "lon": -99.944,
+   "lat": 32.133,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FF.W.0010.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Palm Beach, FL"
+   ],
+   "counties": [
+    "12099"
+   ],
+   "sent": "2026-11-02T22:27:00Z",
+   "onset": "2026-11-02T22:27:00Z",
+   "ends": "2026-11-03T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e486ff04db9ff7655e951f99fce7d71b647b15e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.05,
+       26.4
+      ],
+      [
+       -80.19,
+       26.41
+      ],
+      [
+       -80.17,
+       26.78
+      ],
+      [
+       -80,
+       26.79
+      ],
+      [
+       -80.05,
+       26.4
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4484,
+     26.6491
+    ]
+   ],
+   "lon": -80.092,
+   "lat": 26.556,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FF.W.0022.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Indian River, FL",
+    "St. Lucie, FL"
+   ],
+   "counties": [
+    "12061",
+    "12111"
+   ],
+   "sent": "2026-11-02T22:46:00Z",
+   "onset": "2026-11-02T22:46:00Z",
+   "ends": "2026-11-03T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f693ff141ad2b125582963d2ce4da3a2c139761.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.67,
+       27.46
+      ],
+      [
+       -80.68,
+       27.63
+      ],
+      [
+       -80.52,
+       27.73
+      ],
+      [
+       -80.33,
+       27.65
+      ],
+      [
+       -80.31,
+       27.58
+      ],
+      [
+       -80.3,
+       27.58
+      ],
+      [
+       -80.29,
+       27.57
+      ],
+      [
+       -80.27,
+       27.5
+      ],
+      [
+       -80.26,
+       27.49
+      ],
+      [
+       -80.26,
+       27.48
+      ],
+      [
+       -80.2,
+       27.32
+      ],
+      [
+       -80.67,
+       27.46
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.5748,
+     27.7005
+    ],
+    [
+     -80.4435,
+     27.3798
+    ]
+   ],
+   "lon": -80.397,
+   "lat": 27.537,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KFGZ.FF.W.0216.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -15,10 +810,10 @@
     "04005",
     "04017"
    ],
-   "sent": "2026-11-02T14:43:00Z",
-   "onset": "2026-11-02T14:43:00Z",
-   "ends": "2026-11-02T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2631ba0442a4dc828405681f375c818d66157c0c.001.1",
+   "sent": "2026-11-02T23:50:00Z",
+   "onset": "2026-11-02T23:50:00Z",
+   "ends": "2026-11-03T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7606f26b7f2da516e80b2a865429b0b95faa4ab9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -96,89 +891,47 @@
    ]
   },
   {
-   "id": "KMLB.FF.W.0017.2026",
+   "id": "KMFL.FF.W.0011.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
+   "sender": "NWS Miami FL",
    "areas": [
-    "Indian River, FL",
-    "Martin, FL",
-    "St. Lucie, FL"
+    "Broward, FL",
+    "Palm Beach, FL"
    ],
    "counties": [
-    "12061",
-    "12085",
-    "12111"
+    "12011",
+    "12099"
    ],
-   "sent": "2026-11-02T15:41:00Z",
-   "onset": "2026-11-02T15:41:00Z",
-   "ends": "2026-11-02T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a966746a7d035584b2d72b40f412e27dc4867a33.001.1",
+   "sent": "2026-11-02T23:56:00Z",
+   "onset": "2026-11-02T23:56:00Z",
+   "ends": "2026-11-03T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27b3c6bdfe53c8da900afcd79cce076af423a53b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.55,
-       27.53
+       -80.2,
+       26.28
       ],
       [
-       -80.52,
-       27.66
+       -80.19,
+       26.41
       ],
       [
-       -80.34,
-       27.71
+       -80.04,
+       26.4
       ],
       [
-       -80.31,
-       27.58
+       -80.06,
+       26.26
       ],
       [
-       -80.3,
-       27.58
-      ],
-      [
-       -80.29,
-       27.57
-      ],
-      [
-       -80.27,
-       27.5
-      ],
-      [
-       -80.26,
-       27.49
-      ],
-      [
-       -80.26,
-       27.48
-      ],
-      [
-       -80.18,
-       27.27
-      ],
-      [
-       -80.17,
-       27.26
-      ],
-      [
-       -80.14,
-       27.21
-      ],
-      [
-       -80.13,
-       27.18
-      ],
-      [
-       -80.43,
-       27.22
-      ],
-      [
-       -80.55,
-       27.53
+       -80.2,
+       26.28
       ]
      ]
     ]
@@ -186,387 +939,16 @@
    "vtec": true,
    "points": [
     [
-     -80.5748,
-     27.7005
+     -80.4767,
+     26.1935
     ],
     [
-     -80.3982,
-     27.0836
-    ],
-    [
-     -80.4435,
-     27.3798
+     -80.4484,
+     26.6491
     ]
    ],
-   "lon": -80.313,
-   "lat": 27.451,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FF.W.0005.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL",
-    "Hardee, FL",
-    "Highlands, FL"
-   ],
-   "counties": [
-    "12027",
-    "12049",
-    "12055"
-   ],
-   "sent": "2026-11-02T15:45:00Z",
-   "onset": "2026-11-02T15:45:00Z",
-   "ends": "2026-11-02T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44f4e30556181eaba3b035fab4820c2f4ef72a8d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.97,
-       27.18
-      ],
-      [
-       -81.95,
-       27.42
-      ],
-      [
-       -81.81,
-       27.6
-      ],
-      [
-       -81.52,
-       27.64
-      ],
-      [
-       -81.37,
-       27.63
-      ],
-      [
-       -81.23,
-       27.45
-      ],
-      [
-       -81.06,
-       27.27
-      ],
-      [
-       -81.18,
-       27.22
-      ],
-      [
-       -81.36,
-       27.16
-      ],
-      [
-       -81.56,
-       27.26
-      ],
-      [
-       -81.64,
-       27.25
-      ],
-      [
-       -81.8,
-       27.16
-      ],
-      [
-       -81.97,
-       27.18
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ],
-    [
-     -81.8216,
-     27.4928
-    ],
-    [
-     -81.3424,
-     27.3411
-    ]
-   ],
-   "lon": -81.571,
-   "lat": 27.34,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FF.W.0018.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "St. Lucie, FL"
-   ],
-   "counties": [
-    "12111"
-   ],
-   "sent": "2026-11-02T16:12:00Z",
-   "onset": "2026-11-02T16:12:00Z",
-   "ends": "2026-11-02T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.353cef90c7494adbea3b1fed6cea6183edbe0f76.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.49,
-       27.49
-      ],
-      [
-       -80.33,
-       27.52
-      ],
-      [
-       -80.26,
-       27.31
-      ],
-      [
-       -80.35,
-       27.28
-      ],
-      [
-       -80.46,
-       27.35
-      ],
-      [
-       -80.48,
-       27.4
-      ],
-      [
-       -80.49,
-       27.49
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.4435,
-     27.3798
-    ]
-   ],
-   "lon": -80.409,
-   "lat": 27.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FF.W.0016.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-02T16:35:00Z",
-   "onset": "2026-11-02T16:35:00Z",
-   "ends": "2026-11-02T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac7dba1599b43eb454c506dae8000ef9b572c2d6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.85,
-       28.11
-      ],
-      [
-       -80.59,
-       28.1
-      ],
-      [
-       -80.51,
-       28.05
-      ],
-      [
-       -80.46,
-       27.95
-      ],
-      [
-       -80.43,
-       27.88
-      ],
-      [
-       -80.7,
-       27.91
-      ],
-      [
-       -80.85,
-       28.04
-      ],
-      [
-       -80.85,
-       28.11
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.655,
-   "lat": 28.019,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FF.W.0020.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-02T16:59:00Z",
-   "onset": "2026-11-02T16:59:00Z",
-   "ends": "2026-11-02T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1e4f24ac28fbc5eed95d63140004ff4e3c8e9ea.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.73,
-       28.21
-      ],
-      [
-       -80.57,
-       28.23
-      ],
-      [
-       -80.57,
-       28.19
-      ],
-      [
-       -80.52,
-       28.07
-      ],
-      [
-       -80.73,
-       28.1
-      ],
-      [
-       -80.73,
-       28.21
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.642,
-   "lat": 28.168,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FF.W.0019.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL",
-    "Indian River, FL"
-   ],
-   "counties": [
-    "12009",
-    "12061"
-   ],
-   "sent": "2026-11-02T17:10:00Z",
-   "onset": "2026-11-02T17:10:00Z",
-   "ends": "2026-11-02T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e276a8b03d8b81b78903d8303c79ff57c348991.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.51,
-       27.73
-      ],
-      [
-       -80.65,
-       27.91
-      ],
-      [
-       -80.43,
-       27.89
-      ],
-      [
-       -80.41,
-       27.87
-      ],
-      [
-       -80.36,
-       27.75
-      ],
-      [
-       -80.35,
-       27.73
-      ],
-      [
-       -80.51,
-       27.73
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ],
-    [
-     -80.5748,
-     27.7005
-    ]
-   ],
-   "lon": -80.46,
-   "lat": 27.801,
+   "lon": -80.138,
+   "lat": 26.326,
    "countries": [
     "US"
    ]
@@ -969,819 +1351,6 @@
    ]
   },
   {
-   "id": "KGJT.FA.W.0029.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Archuleta, CO",
-    "Dolores, CO",
-    "La Plata, CO",
-    "Montezuma, CO",
-    "San Miguel, CO",
-    "San Juan, UT"
-   ],
-   "counties": [
-    "08007",
-    "08033",
-    "08067",
-    "08083",
-    "08113",
-    "49037"
-   ],
-   "sent": "2026-11-01T23:08:00Z",
-   "onset": "2026-11-01T23:08:00Z",
-   "ends": "2026-11-02T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.616c4025c42723c2fe6d8b10282486a4525dd113.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -109.04,
-       37.59
-      ],
-      [
-       -108.9,
-       37.99
-      ],
-      [
-       -108.26,
-       37.24
-      ],
-      [
-       -108.31,
-       37.21
-      ],
-      [
-       -107.79,
-       37.5
-      ],
-      [
-       -107.84,
-       37.36
-      ],
-      [
-       -107.43,
-       37.09
-      ],
-      [
-       -107.44,
-       37.15
-      ],
-      [
-       -107.35,
-       37.37
-      ],
-      [
-       -107.12,
-       37.16
-      ],
-      [
-       -106.92,
-       37.35
-      ],
-      [
-       -106.86,
-       37.17
-      ],
-      [
-       -107.07,
-       37
-      ],
-      [
-       -110.91,
-       37
-      ],
-      [
-       -110.65,
-       37.24
-      ],
-      [
-       -110.55,
-       37.05
-      ],
-      [
-       -110.21,
-       37.32
-      ],
-      [
-       -109.96,
-       37.19
-      ],
-      [
-       -109.67,
-       37.73
-      ],
-      [
-       -109.28,
-       37.82
-      ],
-      [
-       -109.04,
-       37.59
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -107.0509,
-     37.2024
-    ],
-    [
-     -108.5062,
-     37.7338
-    ],
-    [
-     -107.8397,
-     37.2874
-    ],
-    [
-     -108.5958,
-     37.338
-    ],
-    [
-     -108.4273,
-     38.0093
-    ],
-    [
-     -109.7916,
-     37.6026
-    ]
-   ],
-   "lon": -108.6,
-   "lat": 37.339,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FA.W.0021.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Conejos, CO"
-   ],
-   "counties": [
-    "08021"
-   ],
-   "sent": "2026-11-01T23:11:00Z",
-   "onset": "2026-11-01T23:11:00Z",
-   "ends": "2026-11-02T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6bdcad09d7929c655ae25a4a0c0235afc0975ee9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.68,
-       37.4
-      ],
-      [
-       -106.26,
-       37.4
-      ],
-      [
-       -106.22,
-       37.15
-      ],
-      [
-       -106.2,
-       37
-      ],
-      [
-       -106.47,
-       37
-      ],
-      [
-       -106.59,
-       37.14
-      ],
-      [
-       -106.6,
-       37.2
-      ],
-      [
-       -106.68,
-       37.23
-      ],
-      [
-       -106.68,
-       37.4
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -106.1764,
-     37.2134
-    ]
-   ],
-   "lon": -106.487,
-   "lat": 37.213,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FA.W.0022.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Conejos, CO"
-   ],
-   "counties": [
-    "08021"
-   ],
-   "sent": "2026-11-01T23:16:00Z",
-   "onset": "2026-11-01T23:16:00Z",
-   "ends": "2026-11-02T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc7dc32149559b6690b7b7764bf9f5250586db02.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.25,
-       37.4
-      ],
-      [
-       -106.03,
-       37.32
-      ],
-      [
-       -105.75,
-       37.33
-      ],
-      [
-       -105.77,
-       37.12
-      ],
-      [
-       -105.91,
-       37
-      ],
-      [
-       -106.2,
-       37
-      ],
-      [
-       -106.25,
-       37.4
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -106.1764,
-     37.2134
-    ]
-   ],
-   "lon": -106.023,
-   "lat": 37.224,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FA.W.0023.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Mineral, CO",
-    "Rio Grande, CO"
-   ],
-   "counties": [
-    "08079",
-    "08105"
-   ],
-   "sent": "2026-11-01T23:37:00Z",
-   "onset": "2026-11-01T23:37:00Z",
-   "ends": "2026-11-02T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1fe13ce206a35627c94a6be4c4adad3c2e93d4f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.69,
-       37.42
-      ],
-      [
-       -106.87,
-       37.58
-      ],
-      [
-       -106.69,
-       37.71
-      ],
-      [
-       -106.46,
-       37.72
-      ],
-      [
-       -106.46,
-       37.65
-      ],
-      [
-       -106.69,
-       37.42
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -107.0032,
-     37.5491
-    ],
-    [
-     -106.4531,
-     37.4859
-    ]
-   ],
-   "lon": -106.643,
-   "lat": 37.583,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FA.W.0024.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Alamosa, CO",
-    "Rio Grande, CO"
-   ],
-   "counties": [
-    "08003",
-    "08105"
-   ],
-   "sent": "2026-11-02T02:26:00Z",
-   "onset": "2026-11-02T02:26:00Z",
-   "ends": "2026-11-03T02:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8381198fb91f2cdc89afc94409f49a58e0647b23.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.27,
-       37.62
-      ],
-      [
-       -106.21,
-       37.67
-      ],
-      [
-       -105.97,
-       37.59
-      ],
-      [
-       -106.01,
-       37.52
-      ],
-      [
-       -106.16,
-       37.57
-      ],
-      [
-       -106.27,
-       37.62
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -105.788,
-     37.5684
-    ],
-    [
-     -106.4531,
-     37.4859
-    ]
-   ],
-   "lon": -106.148,
-   "lat": 37.598,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0033.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T04:01:00Z",
-   "onset": "2026-11-02T04:01:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ae8a8a1349ff78719d5ebeeab70bc3e68d592f7.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.98,
-       33.6
-      ],
-      [
-       -111.95,
-       33.58
-      ],
-      [
-       -111.9,
-       33.54
-      ],
-      [
-       -111.9,
-       33.49
-      ],
-      [
-       -111.91,
-       33.47
-      ],
-      [
-       -111.91,
-       33.43
-      ],
-      [
-       -111.92,
-       33.43
-      ],
-      [
-       -111.92,
-       33.54
-      ],
-      [
-       -111.98,
-       33.58
-      ],
-      [
-       -112,
-       33.6
-      ],
-      [
-       -111.98,
-       33.6
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.941,
-   "lat": 33.533,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0034.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T04:21:00Z",
-   "onset": "2026-11-02T04:21:00Z",
-   "ends": "2026-11-02T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3325ea78948a04e9dc4d591e1376568c552b8de.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -112.24,
-       33.73
-      ],
-      [
-       -112.24,
-       33.66
-      ],
-      [
-       -112.27,
-       33.6
-      ],
-      [
-       -112.3,
-       33.51
-      ],
-      [
-       -112.32,
-       33.49
-      ],
-      [
-       -112.34,
-       33.46
-      ],
-      [
-       -112.34,
-       33.43
-      ],
-      [
-       -112.37,
-       33.39
-      ],
-      [
-       -112.35,
-       33.39
-      ],
-      [
-       -112.33,
-       33.42
-      ],
-      [
-       -112.31,
-       33.48
-      ],
-      [
-       -112.28,
-       33.49
-      ],
-      [
-       -112.26,
-       33.56
-      ],
-      [
-       -112.21,
-       33.65
-      ],
-      [
-       -112.21,
-       33.71
-      ],
-      [
-       -112.22,
-       33.73
-      ],
-      [
-       -112.24,
-       33.73
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -112.284,
-   "lat": 33.555,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FA.W.0024.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T04:59:00Z",
-   "onset": "2026-11-02T04:59:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1d118ff8aaa9fd562bdb1ce7583454080247177.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -107.54,
-       36.85
-      ],
-      [
-       -107.56,
-       36.86
-      ],
-      [
-       -107.62,
-       36.8
-      ],
-      [
-       -107.63,
-       36
-      ],
-      [
-       -109.05,
-       36
-      ],
-      [
-       -109.05,
-       37
-      ],
-      [
-       -107.42,
-       37
-      ],
-      [
-       -107.46,
-       36.96
-      ],
-      [
-       -107.45,
-       36.91
-      ],
-      [
-       -107.54,
-       36.85
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -107.832,
-   "lat": 36.723,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0038.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04017"
-   ],
-   "sent": "2026-11-02T07:04:00Z",
-   "onset": "2026-11-02T07:04:00Z",
-   "ends": "2026-11-03T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ced42dec74ef98073e3067917a6f634a9fc69b9e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -110.74,
-       35.12
-      ],
-      [
-       -111.05,
-       35.34
-      ],
-      [
-       -111.02,
-       35.36
-      ],
-      [
-       -110.97,
-       35.31
-      ],
-      [
-       -110.85,
-       35.3
-      ],
-      [
-       -110.64,
-       35.19
-      ],
-      [
-       -110.61,
-       35.11
-      ],
-      [
-       -110.64,
-       35.05
-      ],
-      [
-       -110.62,
-       35.01
-      ],
-      [
-       -110.53,
-       34.97
-      ],
-      [
-       -110.35,
-       34.97
-      ],
-      [
-       -110.24,
-       34.91
-      ],
-      [
-       -110.11,
-       34.91
-      ],
-      [
-       -110.04,
-       34.86
-      ],
-      [
-       -110.02,
-       34.75
-      ],
-      [
-       -110.06,
-       34.76
-      ],
-      [
-       -110.14,
-       34.88
-      ],
-      [
-       -110.27,
-       34.88
-      ],
-      [
-       -110.38,
-       34.94
-      ],
-      [
-       -110.64,
-       34.96
-      ],
-      [
-       -110.74,
-       35.12
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -110.508,
-   "lat": 35.033,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFGZ.FA.W.0028.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1876,1096 +1445,6 @@
    ],
    "lon": -111.878,
    "lat": 34.52,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0027.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T08:35:00Z",
-   "onset": "2026-11-02T08:35:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed5bd1e7f2c907b116b75412890acfcf7f1f0874.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -107.69,
-       36.81
-      ],
-      [
-       -107.68,
-       36.8
-      ],
-      [
-       -107.83,
-       36.69
-      ],
-      [
-       -108.02,
-       36.69
-      ],
-      [
-       -108,
-       36.71
-      ],
-      [
-       -107.85,
-       36.73
-      ],
-      [
-       -107.69,
-       36.81
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -107.823,
-   "lat": 36.749,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Gila, AZ",
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04007",
-    "04013"
-   ],
-   "sent": "2026-11-02T09:03:00Z",
-   "onset": "2026-11-02T09:03:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9038eae3daafd275abeedf04970f8ea857a58b76.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -110.8,
-       33.68
-      ],
-      [
-       -110.77,
-       33.64
-      ],
-      [
-       -110.92,
-       33.6
-      ],
-      [
-       -110.96,
-       33.61
-      ],
-      [
-       -111,
-       33.63
-      ],
-      [
-       -110.98,
-       33.66
-      ],
-      [
-       -110.8,
-       33.68
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -110.8119,
-     33.7896
-    ],
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -110.89,
-   "lat": 33.643,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTWC.FA.W.0020.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tucson AZ",
-   "areas": [
-    "Pima, AZ",
-    "Pinal, AZ"
-   ],
-   "counties": [
-    "04019",
-    "04021"
-   ],
-   "sent": "2026-11-02T10:05:00Z",
-   "onset": "2026-11-02T10:05:00Z",
-   "ends": "2026-11-03T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.769df4198268d0203ac6877657015e80dff2cd27.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.31,
-       32.46
-      ],
-      [
-       -111.36,
-       32.51
-      ],
-      [
-       -111.5,
-       32.55
-      ],
-      [
-       -111.68,
-       32.58
-      ],
-      [
-       -111.69,
-       32.61
-      ],
-      [
-       -111.67,
-       32.63
-      ],
-      [
-       -111.49,
-       32.59
-      ],
-      [
-       -111.38,
-       32.55
-      ],
-      [
-       -111.35,
-       32.53
-      ],
-      [
-       -111.3,
-       32.49
-      ],
-      [
-       -111.24,
-       32.45
-      ],
-      [
-       -111.24,
-       32.42
-      ],
-      [
-       -111.31,
-       32.46
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7837,
-     32.128
-    ],
-    [
-     -111.3663,
-     32.9185
-    ]
-   ],
-   "lon": -111.425,
-   "lat": 32.525,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTWC.FL.W.0004.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tucson AZ",
-   "areas": [
-    "Graham, AZ"
-   ],
-   "counties": [
-    "04009"
-   ],
-   "sent": "2026-11-02T10:54:00Z",
-   "onset": "2026-11-02T10:54:00Z",
-   "ends": "2026-11-03T09:52:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89df3ac94c4d4ed4ca56736e20964b7214fd9a6e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -109.34,
-       32.95
-      ],
-      [
-       -109.67,
-       32.76
-      ],
-      [
-       -110,
-       33
-      ],
-      [
-       -109.94,
-       33.07
-      ],
-      [
-       -109.65,
-       32.86
-      ],
-      [
-       -109.4,
-       32.99
-      ],
-      [
-       -109.34,
-       32.95
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.8783,
-     32.9318
-    ]
-   ],
-   "lon": -109.62,
-   "lat": 32.94,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0038.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T12:04:00Z",
-   "onset": "2026-11-02T12:04:00Z",
-   "ends": "2026-11-03T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fd556ead1d33a20150e8c29fbc93391a1b98dc5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.95,
-       33.43
-      ],
-      [
-       -111.98,
-       33.43
-      ],
-      [
-       -112.03,
-       33.41
-      ],
-      [
-       -112.08,
-       33.42
-      ],
-      [
-       -112.1,
-       33.41
-      ],
-      [
-       -112.2,
-       33.39
-      ],
-      [
-       -112.26,
-       33.38
-      ],
-      [
-       -112.26,
-       33.39
-      ],
-      [
-       -112.16,
-       33.41
-      ],
-      [
-       -112.14,
-       33.42
-      ],
-      [
-       -112.13,
-       33.41
-      ],
-      [
-       -112.07,
-       33.43
-      ],
-      [
-       -112.03,
-       33.42
-      ],
-      [
-       -112,
-       33.43
-      ],
-      [
-       -111.98,
-       33.44
-      ],
-      [
-       -111.95,
-       33.44
-      ],
-      [
-       -111.95,
-       33.43
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -112.075,
-   "lat": 33.417,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0026.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ"
-   ],
-   "counties": [
-    "04005"
-   ],
-   "sent": "2026-11-02T12:10:00Z",
-   "onset": "2026-11-02T12:10:00Z",
-   "ends": "2026-11-02T18:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95db724f4c2d3065c90c3261c85ffa697db9ec64.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.73,
-       35.13
-      ],
-      [
-       -111.75,
-       35.17
-      ],
-      [
-       -111.73,
-       35.21
-      ],
-      [
-       -111.64,
-       35.27
-      ],
-      [
-       -111.59,
-       35.28
-      ],
-      [
-       -111.57,
-       35.32
-      ],
-      [
-       -111.55,
-       35.34
-      ],
-      [
-       -111.53,
-       35.34
-      ],
-      [
-       -111.52,
-       35.31
-      ],
-      [
-       -111.48,
-       35.29
-      ],
-      [
-       -111.48,
-       35.28
-      ],
-      [
-       -111.69,
-       35.08
-      ],
-      [
-       -111.73,
-       35.12
-      ],
-      [
-       -111.73,
-       35.13
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ]
-   ],
-   "lon": -111.623,
-   "lat": 35.234,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0039.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04025"
-   ],
-   "sent": "2026-11-02T12:29:00Z",
-   "onset": "2026-11-02T12:29:00Z",
-   "ends": "2026-11-02T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d4de74f2f686812b33a7c1157f337bce212f5eb.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -112.5,
-       34.91
-      ],
-      [
-       -112.53,
-       34.87
-      ],
-      [
-       -112.44,
-       34.84
-      ],
-      [
-       -112.35,
-       34.85
-      ],
-      [
-       -112.25,
-       34.87
-      ],
-      [
-       -112.08,
-       34.86
-      ],
-      [
-       -112.06,
-       34.87
-      ],
-      [
-       -112.14,
-       34.91
-      ],
-      [
-       -112.28,
-       34.94
-      ],
-      [
-       -112.43,
-       34.89
-      ],
-      [
-       -112.5,
-       34.91
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -112.324,
-   "lat": 34.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0037.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04025"
-   ],
-   "sent": "2026-11-02T12:39:00Z",
-   "onset": "2026-11-02T12:39:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54b70028859766d0342951d5a05ac77e55b69d81.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.77,
-       34.82
-      ],
-      [
-       -111.87,
-       34.78
-      ],
-      [
-       -111.9,
-       34.72
-      ],
-      [
-       -111.89,
-       34.68
-      ],
-      [
-       -111.93,
-       34.67
-      ],
-      [
-       -111.94,
-       34.7
-      ],
-      [
-       -111.92,
-       34.79
-      ],
-      [
-       -111.9,
-       34.81
-      ],
-      [
-       -111.83,
-       34.83
-      ],
-      [
-       -111.75,
-       34.89
-      ],
-      [
-       -111.75,
-       34.92
-      ],
-      [
-       -111.77,
-       34.95
-      ],
-      [
-       -111.73,
-       35.08
-      ],
-      [
-       -111.71,
-       35.1
-      ],
-      [
-       -111.69,
-       35.08
-      ],
-      [
-       -111.71,
-       35.07
-      ],
-      [
-       -111.71,
-       35.04
-      ],
-      [
-       -111.74,
-       34.95
-      ],
-      [
-       -111.71,
-       34.91
-      ],
-      [
-       -111.72,
-       34.89
-      ],
-      [
-       -111.77,
-       34.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.796,
-   "lat": 34.881,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0025.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Apache, AZ",
-    "Gila, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04001",
-    "04007",
-    "04017"
-   ],
-   "sent": "2026-11-02T12:58:00Z",
-   "onset": "2026-11-02T12:58:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a845a2d258aab537261348f1ace22f83c7749823.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -110.49,
-       33.83
-      ],
-      [
-       -110.42,
-       34.02
-      ],
-      [
-       -110.13,
-       34.38
-      ],
-      [
-       -109.84,
-       34.43
-      ],
-      [
-       -109.71,
-       34.19
-      ],
-      [
-       -110.23,
-       33.76
-      ],
-      [
-       -110.28,
-       33.79
-      ],
-      [
-       -110.33,
-       33.83
-      ],
-      [
-       -110.39,
-       33.83
-      ],
-      [
-       -110.42,
-       33.82
-      ],
-      [
-       -110.47,
-       33.82
-      ],
-      [
-       -110.49,
-       33.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.4902,
-     35.3851
-    ],
-    [
-     -110.8119,
-     33.7896
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -110.267,
-   "lat": 33.961,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0040.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ"
-   ],
-   "counties": [
-    "04005"
-   ],
-   "sent": "2026-11-02T13:46:00Z",
-   "onset": "2026-11-02T13:46:00Z",
-   "ends": "2026-11-02T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61dc9389b8bac9879f71f56951dc96ec3c48fcc6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.43,
-       35.93
-      ],
-      [
-       -111.43,
-       35.99
-      ],
-      [
-       -111.37,
-       36.08
-      ],
-      [
-       -111.27,
-       36.11
-      ],
-      [
-       -111.16,
-       36.12
-      ],
-      [
-       -111.09,
-       36.15
-      ],
-      [
-       -110.97,
-       36.17
-      ],
-      [
-       -110.77,
-       36.17
-      ],
-      [
-       -110.77,
-       36.14
-      ],
-      [
-       -110.97,
-       36.14
-      ],
-      [
-       -111.08,
-       36.13
-      ],
-      [
-       -111.15,
-       36.1
-      ],
-      [
-       -111.27,
-       36.09
-      ],
-      [
-       -111.35,
-       36.06
-      ],
-      [
-       -111.41,
-       35.98
-      ],
-      [
-       -111.41,
-       35.92
-      ],
-      [
-       -111.44,
-       35.88
-      ],
-      [
-       -111.45,
-       35.89
-      ],
-      [
-       -111.43,
-       35.93
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ]
-   ],
-   "lon": -111.222,
-   "lat": 36.052,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0032.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Apache, AZ",
-    "Coconino, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04001",
-    "04005",
-    "04017"
-   ],
-   "sent": "2026-11-02T13:54:00Z",
-   "onset": "2026-11-02T13:54:00Z",
-   "ends": "2026-11-02T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.641304da10f960826a75fbd18136729bc75c8385.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.33,
-       35.42
-      ],
-      [
-       -110.4,
-       36.18
-      ],
-      [
-       -109.64,
-       36.06
-      ],
-      [
-       -109.35,
-       35.87
-      ],
-      [
-       -109.84,
-       34.43
-      ],
-      [
-       -110.13,
-       34.38
-      ],
-      [
-       -110.46,
-       34.44
-      ],
-      [
-       -110.48,
-       34.48
-      ],
-      [
-       -110.35,
-       34.97
-      ],
-      [
-       -110.53,
-       34.97
-      ],
-      [
-       -110.62,
-       35.01
-      ],
-      [
-       -110.64,
-       35.05
-      ],
-      [
-       -110.61,
-       35.11
-      ],
-      [
-       -110.64,
-       35.19
-      ],
-      [
-       -110.85,
-       35.3
-      ],
-      [
-       -110.97,
-       35.31
-      ],
-      [
-       -111.02,
-       35.36
-      ],
-      [
-       -111.33,
-       35.42
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.4902,
-     35.3851
-    ],
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -110.511,
-   "lat": 35.164,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-02T14:16:00Z",
-   "onset": "2026-11-03T00:00:00Z",
-   "ends": "2026-11-03T04:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58dd720ed5308d3920e673c5bbdb984ac9e51c7d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
    "countries": [
     "US"
    ]
@@ -3215,381 +1694,6 @@
    ]
   },
   {
-   "id": "KTBW.FL.W.0015.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL"
-   ],
-   "counties": [
-    "12027"
-   ],
-   "sent": "2026-11-02T14:36:00Z",
-   "onset": "2026-11-02T20:04:00Z",
-   "ends": "2026-11-03T02:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ed8380e60dbed3448dcb73e4234d38f52fd4b3f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.79,
-       27.35
-      ],
-      [
-       -81.89,
-       27.14
-      ],
-      [
-       -81.97,
-       27.04
-      ],
-      [
-       -82.02,
-       27.04
-      ],
-      [
-       -81.86,
-       27.35
-      ],
-      [
-       -81.79,
-       27.35
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ]
-   ],
-   "lon": -81.887,
-   "lat": 27.212,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0023.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Gila, AZ",
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04007",
-    "04025"
-   ],
-   "sent": "2026-11-02T14:49:00Z",
-   "onset": "2026-11-02T14:49:00Z",
-   "ends": "2026-11-02T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b6dcc099174c21fcafbd5c9d6f44298d105d903.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.67,
-       34.28
-      ],
-      [
-       -111.63,
-       34.42
-      ],
-      [
-       -111.5,
-       34.48
-      ],
-      [
-       -111.28,
-       34.47
-      ],
-      [
-       -111.05,
-       34.42
-      ],
-      [
-       -110.94,
-       34.32
-      ],
-      [
-       -110.85,
-       34.31
-      ],
-      [
-       -110.87,
-       34.28
-      ],
-      [
-       -110.9,
-       34.26
-      ],
-      [
-       -110.98,
-       34.18
-      ],
-      [
-       -111.1,
-       34.18
-      ],
-      [
-       -111.23,
-       34.08
-      ],
-      [
-       -111.26,
-       33.91
-      ],
-      [
-       -111.27,
-       33.9
-      ],
-      [
-       -111.29,
-       33.91
-      ],
-      [
-       -111.32,
-       33.93
-      ],
-      [
-       -111.45,
-       34.18
-      ],
-      [
-       -111.6,
-       34.22
-      ],
-      [
-       -111.67,
-       34.28
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -110.8119,
-     33.7896
-    ],
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.256,
-   "lat": 34.211,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-02T14:52:00Z",
-   "onset": "2026-11-03T00:00:00Z",
-   "ends": "2026-11-03T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c29ec5f9aa85b05e79122d99f833cd59e7cdd1f1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0036.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Apache, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04001",
-    "04017"
-   ],
-   "sent": "2026-11-02T14:53:00Z",
-   "onset": "2026-11-02T14:53:00Z",
-   "ends": "2026-11-02T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.006bab22735aa960eed26401d06671d4858ec610.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -110.4,
-       36.18
-      ],
-      [
-       -109.99,
-       37
-      ],
-      [
-       -109.05,
-       37
-      ],
-      [
-       -109.05,
-       35.28
-      ],
-      [
-       -109.61,
-       35.09
-      ],
-      [
-       -109.35,
-       35.87
-      ],
-      [
-       -109.64,
-       36.06
-      ],
-      [
-       -110.4,
-       36.18
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.4902,
-     35.3851
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -109.686,
-   "lat": 36.083,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0008.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-02T14:57:00Z",
-   "onset": "2026-11-04T12:00:00Z",
-   "ends": "2026-11-03T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33a2afb0b69af99a05f18a9756bb79142a6e9329.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0039.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -3800,701 +1904,6 @@
    ]
   },
   {
-   "id": "KFGZ.FA.W.0021.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04025"
-   ],
-   "sent": "2026-11-02T14:58:00Z",
-   "onset": "2026-11-02T14:58:00Z",
-   "ends": "2026-11-02T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a055a919aa6170b3c58076a11281692a7319b77.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.5,
-       34.67
-      ],
-      [
-       -111.69,
-       34.65
-      ],
-      [
-       -111.85,
-       34.59
-      ],
-      [
-       -111.86,
-       34.59
-      ],
-      [
-       -111.87,
-       34.65
-      ],
-      [
-       -111.81,
-       34.71
-      ],
-      [
-       -111.79,
-       34.78
-      ],
-      [
-       -111.62,
-       34.87
-      ],
-      [
-       -111.41,
-       34.83
-      ],
-      [
-       -111.41,
-       34.76
-      ],
-      [
-       -111.5,
-       34.67
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.665,
-   "lat": 34.706,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0005.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-02T15:00:00Z",
-   "onset": "2026-11-02T15:00:00Z",
-   "ends": "2026-11-03T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9cce608db81982a62904d2ebda2eeab6a8df22d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0027.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ"
-   ],
-   "counties": [
-    "04005"
-   ],
-   "sent": "2026-11-02T15:02:00Z",
-   "onset": "2026-11-02T15:02:00Z",
-   "ends": "2026-11-02T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ced62c2fbd3a094028655e397f9be648f18575fe.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.69,
-       35.08
-      ],
-      [
-       -111.7,
-       34.9
-      ],
-      [
-       -111.61,
-       34.87
-      ],
-      [
-       -111.41,
-       34.83
-      ],
-      [
-       -111.41,
-       35.08
-      ],
-      [
-       -111.46,
-       35.3
-      ],
-      [
-       -111.59,
-       35.17
-      ],
-      [
-       -111.69,
-       35.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ]
-   ],
-   "lon": -111.57,
-   "lat": 35.039,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-02T15:07:00Z",
-   "onset": "2026-11-02T15:07:00Z",
-   "ends": "2026-11-03T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec317b9486e571e57082f1a859faa28220b37152.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0023.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Rio Arriba, NM"
-   ],
-   "counties": [
-    "35039"
-   ],
-   "sent": "2026-11-02T15:23:00Z",
-   "onset": "2026-11-02T15:23:00Z",
-   "ends": "2026-11-03T03:46:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ceb9cb9aa2a9f0aa447bb4b2e5658f6f0244d4fa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.03,
-       36.38
-      ],
-      [
-       -106.02,
-       36.21
-      ],
-      [
-       -106.14,
-       36.1
-      ],
-      [
-       -106.15,
-       36.12
-      ],
-      [
-       -106.08,
-       36.25
-      ],
-      [
-       -106.07,
-       36.38
-      ],
-      [
-       -106.03,
-       36.38
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -106.694,
-     36.5097
-    ]
-   ],
-   "lon": -106.074,
-   "lat": 36.26,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0022.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Rio Arriba, NM"
-   ],
-   "counties": [
-    "35039"
-   ],
-   "sent": "2026-11-02T15:25:00Z",
-   "onset": "2026-11-02T15:25:00Z",
-   "ends": "2026-11-03T16:48:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55f32df27a51392a4722c56fbe83840bba72ef97.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.15,
-       36.08
-      ],
-      [
-       -106.11,
-       36.1
-      ],
-      [
-       -106.07,
-       36.06
-      ],
-      [
-       -106.1,
-       36.03
-      ],
-      [
-       -106.15,
-       36.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -106.694,
-     36.5097
-    ]
-   ],
-   "lon": -106.116,
-   "lat": 36.07,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0024.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Sandoval, NM"
-   ],
-   "counties": [
-    "35043"
-   ],
-   "sent": "2026-11-02T15:30:00Z",
-   "onset": "2026-11-02T15:30:00Z",
-   "ends": "2026-11-03T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ef44ed472b87048715a4d1428126ece41bcd289.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.58,
-       35.84
-      ],
-      [
-       -106.7,
-       35.61
-      ],
-      [
-       -106.75,
-       35.53
-      ],
-      [
-       -106.79,
-       35.55
-      ],
-      [
-       -106.75,
-       35.62
-      ],
-      [
-       -106.8,
-       35.81
-      ],
-      [
-       -106.66,
-       35.91
-      ],
-      [
-       -106.58,
-       35.84
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -106.8831,
-     35.6851
-    ]
-   ],
-   "lon": -106.701,
-   "lat": 35.714,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0037.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Gila, AZ"
-   ],
-   "counties": [
-    "04007"
-   ],
-   "sent": "2026-11-02T15:33:00Z",
-   "onset": "2026-11-02T15:33:00Z",
-   "ends": "2026-11-02T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95b948149bdb6f533fb1dee368f120ff45c37195.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.04,
-       33.47
-      ],
-      [
-       -111.01,
-       33.59
-      ],
-      [
-       -111.02,
-       33.66
-      ],
-      [
-       -110.99,
-       33.66
-      ],
-      [
-       -110.99,
-       33.65
-      ],
-      [
-       -111,
-       33.63
-      ],
-      [
-       -110.99,
-       33.63
-      ],
-      [
-       -110.99,
-       33.62
-      ],
-      [
-       -110.98,
-       33.6
-      ],
-      [
-       -110.97,
-       33.54
-      ],
-      [
-       -110.97,
-       33.47
-      ],
-      [
-       -111,
-       33.4
-      ],
-      [
-       -111.04,
-       33.47
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -110.8119,
-     33.7896
-    ]
-   ],
-   "lon": -110.999,
-   "lat": 33.568,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FA.W.0029.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Apache, AZ",
-    "Gila, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04001",
-    "04007",
-    "04017"
-   ],
-   "sent": "2026-11-02T15:34:00Z",
-   "onset": "2026-11-02T15:34:00Z",
-   "ends": "2026-11-02T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.855e2610224715a00c01668f33ecc31fbf615751.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -110.23,
-       33.76
-      ],
-      [
-       -109.71,
-       34.19
-      ],
-      [
-       -109.84,
-       34.43
-      ],
-      [
-       -109.61,
-       35.09
-      ],
-      [
-       -109.05,
-       35.28
-      ],
-      [
-       -109.05,
-       33.78
-      ],
-      [
-       -109.35,
-       33.78
-      ],
-      [
-       -109.35,
-       33.73
-      ],
-      [
-       -109.47,
-       33.7
-      ],
-      [
-       -109.48,
-       33.66
-      ],
-      [
-       -109.53,
-       33.62
-      ],
-      [
-       -109.56,
-       33.63
-      ],
-      [
-       -109.66,
-       33.58
-      ],
-      [
-       -109.77,
-       33.48
-      ],
-      [
-       -109.81,
-       33.49
-      ],
-      [
-       -109.82,
-       33.53
-      ],
-      [
-       -109.88,
-       33.57
-      ],
-      [
-       -110,
-       33.58
-      ],
-      [
-       -110,
-       33.61
-      ],
-      [
-       -110.05,
-       33.61
-      ],
-      [
-       -110.23,
-       33.76
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.4902,
-     35.3851
-    ],
-    [
-     -110.8119,
-     33.7896
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -109.688,
-   "lat": 33.85,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLCH.FL.W.0047.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -4551,574 +1960,6 @@
    ],
    "lon": -93.148,
    "lat": 30.302,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0027.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T16:06:00Z",
-   "onset": "2026-11-02T16:06:00Z",
-   "ends": "2026-11-02T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.467273cf55ed8f3693f449faf9661d4b266d3c7f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -112,
-       33.82
-      ],
-      [
-       -112.04,
-       33.77
-      ],
-      [
-       -112.06,
-       33.75
-      ],
-      [
-       -112.06,
-       33.72
-      ],
-      [
-       -112.07,
-       33.71
-      ],
-      [
-       -112.03,
-       33.71
-      ],
-      [
-       -112.03,
-       33.73
-      ],
-      [
-       -111.99,
-       33.79
-      ],
-      [
-       -111.96,
-       33.81
-      ],
-      [
-       -112,
-       33.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -112.024,
-   "lat": 33.763,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGJT.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "La Plata, CO"
-   ],
-   "counties": [
-    "08067"
-   ],
-   "sent": "2026-11-02T16:15:00Z",
-   "onset": "2026-11-02T16:15:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95edc9cb2498d65f024da004702376f2a0286bf5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -108,
-       37.27
-      ],
-      [
-       -108.16,
-       37.11
-      ],
-      [
-       -108.16,
-       37.01
-      ],
-      [
-       -108.21,
-       37.01
-      ],
-      [
-       -108.21,
-       37.13
-      ],
-      [
-       -108.05,
-       37.27
-      ],
-      [
-       -108,
-       37.27
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -107.8397,
-     37.2874
-    ]
-   ],
-   "lon": -108.113,
-   "lat": 37.153,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0019.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T16:26:00Z",
-   "onset": "2026-11-02T16:26:00Z",
-   "ends": "2026-11-04T01:38:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dcb1fc142447f24b13f17b5434b51db8b1deca.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -107.84,
-       37
-      ],
-      [
-       -107.82,
-       36.91
-      ],
-      [
-       -108.17,
-       36.71
-      ],
-      [
-       -108.22,
-       36.73
-      ],
-      [
-       -107.91,
-       36.94
-      ],
-      [
-       -107.88,
-       37
-      ],
-      [
-       -107.84,
-       37
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -107.954,
-   "lat": 36.899,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0021.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T16:27:00Z",
-   "onset": "2026-11-02T16:27:00Z",
-   "ends": "2026-11-04T16:16:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d2ac21d05a696629d95f29911ffcf5dd123d9c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -107.86,
-       37
-      ],
-      [
-       -107.84,
-       36.91
-      ],
-      [
-       -108.19,
-       36.71
-      ],
-      [
-       -108.22,
-       36.72
-      ],
-      [
-       -107.91,
-       36.94
-      ],
-      [
-       -107.87,
-       37
-      ],
-      [
-       -107.86,
-       37
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -107.964,
-   "lat": 36.897,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0020.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T16:29:00Z",
-   "onset": "2026-11-02T16:29:00Z",
-   "ends": "2026-11-03T18:56:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cec95454a8d17f3f03ebb96bc316248648894e80.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -108.17,
-       37
-      ],
-      [
-       -108.15,
-       36.89
-      ],
-      [
-       -108.23,
-       36.73
-      ],
-      [
-       -108.28,
-       36.74
-      ],
-      [
-       -108.23,
-       36.89
-      ],
-      [
-       -108.2,
-       37
-      ],
-      [
-       -108.17,
-       37
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -108.204,
-   "lat": 36.893,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0026.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T16:31:00Z",
-   "onset": "2026-11-02T16:31:00Z",
-   "ends": "2026-11-04T09:50:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0657db7d7d259c3e8332054b0487146e8f86e1d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -107.81,
-       36.68
-      ],
-      [
-       -108.08,
-       36.66
-      ],
-      [
-       -108.68,
-       36.75
-      ],
-      [
-       -108.66,
-       36.79
-      ],
-      [
-       -107.83,
-       36.72
-      ],
-      [
-       -107.81,
-       36.68
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -108.145,
-   "lat": 36.713,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0014.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T16:31:00Z",
-   "onset": "2026-11-02T16:31:00Z",
-   "ends": "2026-11-02T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46fbc7380b8a1763799ae848ee3220fe3c5036bc.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.73,
-       33.49
-      ],
-      [
-       -111.8,
-       33.48
-      ],
-      [
-       -111.86,
-       33.45
-      ],
-      [
-       -111.87,
-       33.44
-      ],
-      [
-       -111.89,
-       33.43
-      ],
-      [
-       -111.91,
-       33.43
-      ],
-      [
-       -111.91,
-       33.44
-      ],
-      [
-       -111.89,
-       33.44
-      ],
-      [
-       -111.86,
-       33.46
-      ],
-      [
-       -111.84,
-       33.47
-      ],
-      [
-       -111.81,
-       33.49
-      ],
-      [
-       -111.8,
-       33.5
-      ],
-      [
-       -111.78,
-       33.5
-      ],
-      [
-       -111.75,
-       33.49
-      ],
-      [
-       -111.7,
-       33.52
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.69,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.804,
-   "lat": 33.476,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FL.W.0025.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "San Juan, NM"
-   ],
-   "counties": [
-    "35045"
-   ],
-   "sent": "2026-11-02T16:32:00Z",
-   "onset": "2026-11-02T16:32:00Z",
-   "ends": "2026-11-04T21:34:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.356b50e33c002bbfd0720dbf47d6f20978ad94bf.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -108.68,
-       36.75
-      ],
-      [
-       -108.93,
-       36.87
-      ],
-      [
-       -109.04,
-       36.98
-      ],
-      [
-       -108.98,
-       37
-      ],
-      [
-       -108.66,
-       36.79
-      ],
-      [
-       -108.68,
-       36.75
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.3246,
-     36.5116
-    ]
-   ],
-   "lon": -108.828,
-   "lat": 36.857,
    "countries": [
     "US"
    ]
@@ -5310,6 +2151,538 @@
    ]
   },
   {
+   "id": "KGJT.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Grand Junction CO",
+   "areas": [
+    "La Plata, CO"
+   ],
+   "counties": [
+    "08067"
+   ],
+   "sent": "2026-11-02T17:43:00Z",
+   "onset": "2026-11-02T17:43:00Z",
+   "ends": "2026-11-03T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9aedf8087334065a34725fcd7cbfd80f83b82d1a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -108,
+       37.27
+      ],
+      [
+       -108.16,
+       37.11
+      ],
+      [
+       -108.16,
+       37.01
+      ],
+      [
+       -108.21,
+       37.01
+      ],
+      [
+       -108.21,
+       37.13
+      ],
+      [
+       -108.05,
+       37.27
+      ],
+      [
+       -108,
+       37.27
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -107.8397,
+     37.2874
+    ]
+   ],
+   "lon": -108.113,
+   "lat": 37.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0034.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-02T17:43:00Z",
+   "onset": "2026-11-02T17:43:00Z",
+   "ends": "2026-11-03T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c71caba3189ede0657a3e45ac0ed30b8d5c4954f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -112.24,
+       33.73
+      ],
+      [
+       -112.24,
+       33.66
+      ],
+      [
+       -112.27,
+       33.6
+      ],
+      [
+       -112.3,
+       33.51
+      ],
+      [
+       -112.32,
+       33.49
+      ],
+      [
+       -112.34,
+       33.46
+      ],
+      [
+       -112.34,
+       33.43
+      ],
+      [
+       -112.37,
+       33.39
+      ],
+      [
+       -112.35,
+       33.39
+      ],
+      [
+       -112.33,
+       33.42
+      ],
+      [
+       -112.31,
+       33.48
+      ],
+      [
+       -112.28,
+       33.49
+      ],
+      [
+       -112.26,
+       33.56
+      ],
+      [
+       -112.21,
+       33.65
+      ],
+      [
+       -112.21,
+       33.71
+      ],
+      [
+       -112.22,
+       33.73
+      ],
+      [
+       -112.24,
+       33.73
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -112.284,
+   "lat": 33.555,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTWC.FA.W.0020.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Tucson AZ",
+   "areas": [
+    "Pima, AZ",
+    "Pinal, AZ"
+   ],
+   "counties": [
+    "04019",
+    "04021"
+   ],
+   "sent": "2026-11-02T17:52:00Z",
+   "onset": "2026-11-02T17:52:00Z",
+   "ends": "2026-11-03T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b2ad60a53ba54e590ea231ebbc1268c8dc4428e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.31,
+       32.46
+      ],
+      [
+       -111.36,
+       32.51
+      ],
+      [
+       -111.5,
+       32.55
+      ],
+      [
+       -111.68,
+       32.58
+      ],
+      [
+       -111.69,
+       32.61
+      ],
+      [
+       -111.67,
+       32.63
+      ],
+      [
+       -111.49,
+       32.59
+      ],
+      [
+       -111.38,
+       32.55
+      ],
+      [
+       -111.35,
+       32.53
+      ],
+      [
+       -111.3,
+       32.49
+      ],
+      [
+       -111.24,
+       32.45
+      ],
+      [
+       -111.24,
+       32.42
+      ],
+      [
+       -111.31,
+       32.46
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7837,
+     32.128
+    ],
+    [
+     -111.3663,
+     32.9185
+    ]
+   ],
+   "lon": -111.425,
+   "lat": 32.525,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTWC.FL.W.0004.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tucson AZ",
+   "areas": [
+    "Graham, AZ"
+   ],
+   "counties": [
+    "04009"
+   ],
+   "sent": "2026-11-02T18:10:00Z",
+   "onset": "2026-11-02T18:10:00Z",
+   "ends": "2026-11-03T22:33:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.979fceef82a929a8dc0fa3ff87a5b0237559a19a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -109.34,
+       32.95
+      ],
+      [
+       -109.67,
+       32.76
+      ],
+      [
+       -110,
+       33
+      ],
+      [
+       -109.94,
+       33.07
+      ],
+      [
+       -109.65,
+       32.86
+      ],
+      [
+       -109.4,
+       32.99
+      ],
+      [
+       -109.34,
+       32.95
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -109.8783,
+     32.9318
+    ]
+   ],
+   "lon": -109.62,
+   "lat": 32.94,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0026.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ"
+   ],
+   "counties": [
+    "04005"
+   ],
+   "sent": "2026-11-02T18:16:00Z",
+   "onset": "2026-11-02T18:16:00Z",
+   "ends": "2026-11-03T06:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66d75097172f35eb1964ff16ea2b7f29dd955788.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.73,
+       35.13
+      ],
+      [
+       -111.75,
+       35.17
+      ],
+      [
+       -111.73,
+       35.21
+      ],
+      [
+       -111.64,
+       35.27
+      ],
+      [
+       -111.59,
+       35.28
+      ],
+      [
+       -111.57,
+       35.32
+      ],
+      [
+       -111.55,
+       35.34
+      ],
+      [
+       -111.53,
+       35.34
+      ],
+      [
+       -111.52,
+       35.31
+      ],
+      [
+       -111.48,
+       35.29
+      ],
+      [
+       -111.48,
+       35.28
+      ],
+      [
+       -111.69,
+       35.08
+      ],
+      [
+       -111.73,
+       35.12
+      ],
+      [
+       -111.73,
+       35.13
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ]
+   ],
+   "lon": -111.623,
+   "lat": 35.234,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0014.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-02T18:30:00Z",
+   "onset": "2026-11-02T18:30:00Z",
+   "ends": "2026-11-05T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a51bf332bda763571c8443d2f19cdfd0cce140f3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.73,
+       33.49
+      ],
+      [
+       -111.8,
+       33.48
+      ],
+      [
+       -111.86,
+       33.45
+      ],
+      [
+       -111.87,
+       33.44
+      ],
+      [
+       -111.89,
+       33.43
+      ],
+      [
+       -111.91,
+       33.43
+      ],
+      [
+       -111.91,
+       33.44
+      ],
+      [
+       -111.89,
+       33.44
+      ],
+      [
+       -111.86,
+       33.46
+      ],
+      [
+       -111.84,
+       33.47
+      ],
+      [
+       -111.81,
+       33.49
+      ],
+      [
+       -111.8,
+       33.5
+      ],
+      [
+       -111.78,
+       33.5
+      ],
+      [
+       -111.75,
+       33.49
+      ],
+      [
+       -111.7,
+       33.52
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.69,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.804,
+   "lat": 33.476,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPSR.FA.W.0015.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -5322,10 +2695,10 @@
    "counties": [
     "04007"
    ],
-   "sent": "2026-11-02T16:49:00Z",
-   "onset": "2026-11-02T16:49:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ee8a45825e7e49de87993db10d53e9e8118bea6.001.1",
+   "sent": "2026-11-02T18:35:00Z",
+   "onset": "2026-11-02T18:35:00Z",
+   "ends": "2026-11-03T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5614bec1927b0e56af0b73758798384788953a2.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -5375,11 +2748,129 @@
    ]
   },
   {
-   "id": "KMLB.FA.W.0003.2026",
+   "id": "KTBW.FL.W.0019.2026",
    "event": "Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "Hillsborough, FL"
+   ],
+   "counties": [
+    "12057"
+   ],
+   "sent": "2026-11-02T19:03:00Z",
+   "onset": "2026-11-03T05:27:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.084eca1b0bb2aeb594d21d3665629541b2e852d3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.18,
+       27.87
+      ],
+      [
+       -82.28,
+       27.84
+      ],
+      [
+       -82.28,
+       27.89
+      ],
+      [
+       -82.18,
+       27.92
+      ],
+      [
+       -82.18,
+       27.87
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -82.38,
+     27.8932
+    ]
+   ],
+   "lon": -82.22,
+   "lat": 27.878,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.FL.W.0015.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "DeSoto, FL"
+   ],
+   "counties": [
+    "12027"
+   ],
+   "sent": "2026-11-02T19:06:00Z",
+   "onset": "2026-11-02T21:15:00Z",
+   "ends": "2026-11-03T07:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f5675b325dc0603bf1d88f9bdcaf5817e13e01.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.79,
+       27.35
+      ],
+      [
+       -81.89,
+       27.14
+      ],
+      [
+       -81.97,
+       27.04
+      ],
+      [
+       -82.02,
+       27.04
+      ],
+      [
+       -81.86,
+       27.35
+      ],
+      [
+       -81.79,
+       27.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.8063,
+     27.1906
+    ]
+   ],
+   "lon": -81.887,
+   "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Melbourne FL",
    "areas": [
     "Brevard, FL"
@@ -5387,69 +2878,33 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-02T16:50:00Z",
-   "onset": "2026-11-02T16:50:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e33c0807061103d6379c2a29dd26e4e999fa269a.001.1",
+   "sent": "2026-11-02T19:15:00Z",
+   "onset": "2026-11-02T19:15:00Z",
+   "ends": "2026-11-03T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46fe17c50ca3866332ebe19381a45115c766a171.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.88,
-       28.7
+       -80.99,
+       28.54
       ],
       [
-       -80.64,
-       28.7
+       -80.9,
+       28.55
       ],
       [
-       -80.6,
-       28.66
+       -80.8,
+       28.35
       ],
       [
-       -80.56,
-       28.6
+       -80.72,
+       28.05
       ],
       [
-       -80.5,
-       28.47
-      ],
-      [
-       -80.51,
-       28.44
-      ],
-      [
-       -80.56,
-       28.39
-      ],
-      [
-       -80.58,
-       28.31
-      ],
-      [
-       -80.57,
-       28.19
-      ],
-      [
-       -80.54,
-       28.14
-      ],
-      [
-       -80.55,
-       28.09
-      ],
-      [
-       -80.85,
-       28.11
-      ],
-      [
-       -80.88,
-       28.63
-      ],
-      [
-       -80.88,
-       28.7
+       -80.99,
+       28.54
       ]
      ]
     ]
@@ -5461,8 +2916,1457 @@
      28.2983
     ]
    ],
-   "lon": -80.65,
-   "lat": 28.438,
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-02T19:20:00Z",
+   "onset": "2026-11-03T03:00:00Z",
+   "ends": "2026-11-03T04:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38ca8894885b58d3942b74c084f7b981a52715ba.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0023.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Rio Arriba, NM"
+   ],
+   "counties": [
+    "35039"
+   ],
+   "sent": "2026-11-02T19:30:00Z",
+   "onset": "2026-11-02T19:30:00Z",
+   "ends": "2026-11-03T14:34:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.909e5fe571fc193fe0a8aafa80e9d6c25af3bac0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.03,
+       36.38
+      ],
+      [
+       -106.02,
+       36.21
+      ],
+      [
+       -106.14,
+       36.1
+      ],
+      [
+       -106.15,
+       36.12
+      ],
+      [
+       -106.08,
+       36.25
+      ],
+      [
+       -106.07,
+       36.38
+      ],
+      [
+       -106.03,
+       36.38
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -106.694,
+     36.5097
+    ]
+   ],
+   "lon": -106.074,
+   "lat": 36.26,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0008.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-02T19:30:00Z",
+   "onset": "2026-11-04T12:00:00Z",
+   "ends": "2026-11-03T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.985199f82ccaea47682106597ada1ec6d118df75.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KGJT.FA.W.0030.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Grand Junction CO",
+   "areas": [
+    "Montezuma, CO",
+    "San Juan, UT"
+   ],
+   "counties": [
+    "08083",
+    "49037"
+   ],
+   "sent": "2026-11-02T19:31:00Z",
+   "onset": "2026-11-02T19:31:00Z",
+   "ends": "2026-11-06T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00b8de8d3d582a70415755093091fe5b78bb2bcf.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -109.01,
+       37
+      ],
+      [
+       -109.09,
+       37
+      ],
+      [
+       -109.14,
+       37.11
+      ],
+      [
+       -109.29,
+       37.22
+      ],
+      [
+       -109.55,
+       37.25
+      ],
+      [
+       -109.86,
+       37.11
+      ],
+      [
+       -109.95,
+       37.15
+      ],
+      [
+       -109.92,
+       37.19
+      ],
+      [
+       -109.87,
+       37.2
+      ],
+      [
+       -109.66,
+       37.26
+      ],
+      [
+       -109.56,
+       37.3
+      ],
+      [
+       -109.42,
+       37.3
+      ],
+      [
+       -109.21,
+       37.25
+      ],
+      [
+       -109.11,
+       37.18
+      ],
+      [
+       -109.01,
+       37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.5958,
+     37.338
+    ],
+    [
+     -109.7916,
+     37.6026
+    ]
+   ],
+   "lon": -109.443,
+   "lat": 37.168,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0022.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Rio Arriba, NM"
+   ],
+   "counties": [
+    "35039"
+   ],
+   "sent": "2026-11-02T19:35:00Z",
+   "onset": "2026-11-02T19:35:00Z",
+   "ends": "2026-11-03T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2acd89c12ad50eff589eaeb3d95a8a4e038007c1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.15,
+       36.08
+      ],
+      [
+       -106.11,
+       36.1
+      ],
+      [
+       -106.07,
+       36.06
+      ],
+      [
+       -106.1,
+       36.03
+      ],
+      [
+       -106.15,
+       36.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -106.694,
+     36.5097
+    ]
+   ],
+   "lon": -106.116,
+   "lat": 36.07,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0005.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-02T19:40:00Z",
+   "onset": "2026-11-02T19:40:00Z",
+   "ends": "2026-11-03T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f638a950626253771b41abd7739389da5f163f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0032.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Apache, AZ",
+    "Coconino, AZ",
+    "Navajo, AZ"
+   ],
+   "counties": [
+    "04001",
+    "04005",
+    "04017"
+   ],
+   "sent": "2026-11-02T19:41:00Z",
+   "onset": "2026-11-02T19:41:00Z",
+   "ends": "2026-11-03T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc9ff534631bb608fab78c6fb873d9022d21871c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.33,
+       35.42
+      ],
+      [
+       -110.4,
+       36.18
+      ],
+      [
+       -109.64,
+       36.06
+      ],
+      [
+       -109.35,
+       35.87
+      ],
+      [
+       -109.84,
+       34.43
+      ],
+      [
+       -110.13,
+       34.38
+      ],
+      [
+       -110.46,
+       34.44
+      ],
+      [
+       -110.48,
+       34.48
+      ],
+      [
+       -110.35,
+       34.97
+      ],
+      [
+       -110.53,
+       34.97
+      ],
+      [
+       -110.62,
+       35.01
+      ],
+      [
+       -110.64,
+       35.05
+      ],
+      [
+       -110.61,
+       35.11
+      ],
+      [
+       -110.64,
+       35.19
+      ],
+      [
+       -110.85,
+       35.3
+      ],
+      [
+       -110.97,
+       35.31
+      ],
+      [
+       -111.02,
+       35.36
+      ],
+      [
+       -111.33,
+       35.42
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -109.4902,
+     35.3851
+    ],
+    [
+     -111.7737,
+     35.8297
+    ],
+    [
+     -110.321,
+     35.3908
+    ]
+   ],
+   "lon": -110.511,
+   "lat": 35.164,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTWC.FA.W.0021.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tucson AZ",
+   "areas": [
+    "Pima, AZ"
+   ],
+   "counties": [
+    "04019"
+   ],
+   "sent": "2026-11-02T19:49:00Z",
+   "onset": "2026-11-02T19:49:00Z",
+   "ends": "2026-11-03T19:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d92cac51cb77b411f692d2fc0d020c48beeecda9.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -112.39,
+       31.83
+      ],
+      [
+       -112.37,
+       31.95
+      ],
+      [
+       -112.36,
+       31.97
+      ],
+      [
+       -112.33,
+       31.98
+      ],
+      [
+       -112.25,
+       31.97
+      ],
+      [
+       -112.11,
+       31.89
+      ],
+      [
+       -112.05,
+       31.85
+      ],
+      [
+       -112.05,
+       31.84
+      ],
+      [
+       -112.06,
+       31.84
+      ],
+      [
+       -112.11,
+       31.86
+      ],
+      [
+       -112.2,
+       31.91
+      ],
+      [
+       -112.29,
+       31.95
+      ],
+      [
+       -112.33,
+       31.95
+      ],
+      [
+       -112.35,
+       31.9
+      ],
+      [
+       -112.36,
+       31.83
+      ],
+      [
+       -112.41,
+       31.75
+      ],
+      [
+       -112.43,
+       31.76
+      ],
+      [
+       -112.39,
+       31.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7837,
+     32.128
+    ]
+   ],
+   "lon": -112.269,
+   "lat": 31.881,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-02T19:50:00Z",
+   "onset": "2026-11-02T19:50:00Z",
+   "ends": "2026-11-03T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ef5e30e54315aa6aa5d98a6b49241930aee1f0a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FA.W.0024.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Alamosa, CO",
+    "Rio Grande, CO"
+   ],
+   "counties": [
+    "08003",
+    "08105"
+   ],
+   "sent": "2026-11-02T19:52:00Z",
+   "onset": "2026-11-02T19:52:00Z",
+   "ends": "2026-11-03T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da4d217834c7088518767dad11bd998f6f765b61.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.27,
+       37.62
+      ],
+      [
+       -106.21,
+       37.67
+      ],
+      [
+       -105.97,
+       37.59
+      ],
+      [
+       -106.01,
+       37.52
+      ],
+      [
+       -106.16,
+       37.57
+      ],
+      [
+       -106.27,
+       37.62
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -105.788,
+     37.5684
+    ],
+    [
+     -106.4531,
+     37.4859
+    ]
+   ],
+   "lon": -106.148,
+   "lat": 37.598,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.FA.W.0001.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "DeSoto, FL",
+    "Hardee, FL",
+    "Highlands, FL"
+   ],
+   "counties": [
+    "12027",
+    "12049",
+    "12055"
+   ],
+   "sent": "2026-11-02T20:29:00Z",
+   "onset": "2026-11-02T20:29:00Z",
+   "ends": "2026-11-03T05:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.199be8d5208ec6fe36d44b08c66695f643c225d8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.04,
+       27.19
+      ],
+      [
+       -82.03,
+       27.36
+      ],
+      [
+       -81.83,
+       27.64
+      ],
+      [
+       -81.17,
+       27.62
+      ],
+      [
+       -81.16,
+       27.57
+      ],
+      [
+       -81.2,
+       27.55
+      ],
+      [
+       -81.2,
+       27.49
+      ],
+      [
+       -81.12,
+       27.39
+      ],
+      [
+       -81.03,
+       27.36
+      ],
+      [
+       -80.98,
+       27.23
+      ],
+      [
+       -80.94,
+       27.21
+      ],
+      [
+       -81.25,
+       27.19
+      ],
+      [
+       -81.36,
+       27.03
+      ],
+      [
+       -81.55,
+       27.03
+      ],
+      [
+       -81.58,
+       27.17
+      ],
+      [
+       -81.62,
+       27.16
+      ],
+      [
+       -81.65,
+       27.06
+      ],
+      [
+       -81.71,
+       27.06
+      ],
+      [
+       -81.82,
+       27.16
+      ],
+      [
+       -82,
+       27.12
+      ],
+      [
+       -82.04,
+       27.19
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.8063,
+     27.1906
+    ],
+    [
+     -81.8216,
+     27.4928
+    ],
+    [
+     -81.3424,
+     27.3411
+    ]
+   ],
+   "lon": -81.49,
+   "lat": 27.275,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FA.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL",
+    "Indian River, FL"
+   ],
+   "counties": [
+    "12009",
+    "12061"
+   ],
+   "sent": "2026-11-02T20:36:00Z",
+   "onset": "2026-11-02T20:36:00Z",
+   "ends": "2026-11-03T02:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07a5bd5894a0d4236767e748ab3eb463987e987c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.85,
+       28.11
+      ],
+      [
+       -80.52,
+       28.09
+      ],
+      [
+       -80.43,
+       27.89
+      ],
+      [
+       -80.41,
+       27.87
+      ],
+      [
+       -80.36,
+       27.75
+      ],
+      [
+       -80.35,
+       27.73
+      ],
+      [
+       -80.51,
+       27.73
+      ],
+      [
+       -80.65,
+       27.9
+      ],
+      [
+       -80.7,
+       27.91
+      ],
+      [
+       -80.85,
+       28.04
+      ],
+      [
+       -80.85,
+       28.11
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ],
+    [
+     -80.5748,
+     27.7005
+    ]
+   ],
+   "lon": -80.589,
+   "lat": 27.921,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0037.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Gila, AZ"
+   ],
+   "counties": [
+    "04007"
+   ],
+   "sent": "2026-11-02T20:37:00Z",
+   "onset": "2026-11-02T20:37:00Z",
+   "ends": "2026-11-03T01:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.288b4d606985c471f03314ae64f391689b93622e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.02,
+       33.49
+      ],
+      [
+       -111.01,
+       33.59
+      ],
+      [
+       -111.02,
+       33.66
+      ],
+      [
+       -110.99,
+       33.66
+      ],
+      [
+       -110.99,
+       33.65
+      ],
+      [
+       -111,
+       33.63
+      ],
+      [
+       -110.99,
+       33.63
+      ],
+      [
+       -110.99,
+       33.62
+      ],
+      [
+       -110.98,
+       33.6
+      ],
+      [
+       -110.97,
+       33.54
+      ],
+      [
+       -110.98,
+       33.48
+      ],
+      [
+       -111.02,
+       33.49
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -110.8119,
+     33.7896
+    ]
+   ],
+   "lon": -110.997,
+   "lat": 33.587,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0036.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Apache, AZ",
+    "Navajo, AZ"
+   ],
+   "counties": [
+    "04001",
+    "04017"
+   ],
+   "sent": "2026-11-02T20:38:00Z",
+   "onset": "2026-11-02T20:38:00Z",
+   "ends": "2026-11-03T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dd86a994e62525c5deb535f493bebaf27e2a840.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -110.4,
+       36.18
+      ],
+      [
+       -109.99,
+       37
+      ],
+      [
+       -109.05,
+       37
+      ],
+      [
+       -109.05,
+       35.28
+      ],
+      [
+       -109.61,
+       35.09
+      ],
+      [
+       -109.35,
+       35.87
+      ],
+      [
+       -109.64,
+       36.06
+      ],
+      [
+       -110.4,
+       36.18
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -109.4902,
+     35.3851
+    ],
+    [
+     -110.321,
+     35.3908
+    ]
+   ],
+   "lon": -109.686,
+   "lat": 36.083,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0041.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-02T20:49:00Z",
+   "onset": "2026-11-02T20:49:00Z",
+   "ends": "2026-11-07T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.060805f29c9626b63d8994768a131ef30c300fe1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -112.32,
+       33.37
+      ],
+      [
+       -112.38,
+       33.37
+      ],
+      [
+       -112.74,
+       33.3
+      ],
+      [
+       -112.75,
+       33.23
+      ],
+      [
+       -112.69,
+       33.2
+      ],
+      [
+       -112.67,
+       33
+      ],
+      [
+       -112.74,
+       32.97
+      ],
+      [
+       -112.98,
+       33.02
+      ],
+      [
+       -113.03,
+       33.07
+      ],
+      [
+       -113.01,
+       33.08
+      ],
+      [
+       -112.85,
+       33.06
+      ],
+      [
+       -112.77,
+       33.03
+      ],
+      [
+       -112.71,
+       33.05
+      ],
+      [
+       -112.74,
+       33.18
+      ],
+      [
+       -112.78,
+       33.21
+      ],
+      [
+       -112.79,
+       33.32
+      ],
+      [
+       -112.7,
+       33.33
+      ],
+      [
+       -112.4,
+       33.41
+      ],
+      [
+       -112.35,
+       33.39
+      ],
+      [
+       -112.26,
+       33.39
+      ],
+      [
+       -112.32,
+       33.37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -112.666,
+   "lat": 33.207,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0038.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-02T20:49:00Z",
+   "onset": "2026-11-02T20:49:00Z",
+   "ends": "2026-11-06T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d182f5c225296be7d49c65f0f4201305d52d286.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.95,
+       33.43
+      ],
+      [
+       -111.98,
+       33.43
+      ],
+      [
+       -112.03,
+       33.41
+      ],
+      [
+       -112.08,
+       33.42
+      ],
+      [
+       -112.1,
+       33.41
+      ],
+      [
+       -112.2,
+       33.39
+      ],
+      [
+       -112.26,
+       33.38
+      ],
+      [
+       -112.26,
+       33.39
+      ],
+      [
+       -112.16,
+       33.41
+      ],
+      [
+       -112.14,
+       33.42
+      ],
+      [
+       -112.13,
+       33.41
+      ],
+      [
+       -112.07,
+       33.43
+      ],
+      [
+       -112.03,
+       33.42
+      ],
+      [
+       -112,
+       33.43
+      ],
+      [
+       -111.98,
+       33.44
+      ],
+      [
+       -111.95,
+       33.44
+      ],
+      [
+       -111.95,
+       33.43
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -112.075,
+   "lat": 33.417,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0039.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-02T21:15:00Z",
+   "onset": "2026-11-02T21:15:00Z",
+   "ends": "2026-11-03T03:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfea2fddc4887c16ebb311e1beb98f0436cc0a3c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -112.5,
+       34.91
+      ],
+      [
+       -112.53,
+       34.87
+      ],
+      [
+       -112.44,
+       34.84
+      ],
+      [
+       -112.35,
+       34.85
+      ],
+      [
+       -112.25,
+       34.87
+      ],
+      [
+       -112.08,
+       34.86
+      ],
+      [
+       -112.06,
+       34.87
+      ],
+      [
+       -112.14,
+       34.91
+      ],
+      [
+       -112.28,
+       34.94
+      ],
+      [
+       -112.43,
+       34.89
+      ],
+      [
+       -112.5,
+       34.91
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -112.324,
+   "lat": 34.884,
    "countries": [
     "US"
    ]
@@ -5480,10 +4384,10 @@
    "counties": [
     "35039"
    ],
-   "sent": "2026-11-02T16:51:00Z",
-   "onset": "2026-11-02T16:51:00Z",
-   "ends": "2026-11-02T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f56c8de572e3ad81a0d9519f96fb072498a8b0c.001.1",
+   "sent": "2026-11-02T21:55:00Z",
+   "onset": "2026-11-02T21:55:00Z",
+   "ends": "2026-11-03T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f4c383c2a5ea26300d9bac7361a71a04fb4f120.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -5585,648 +4489,85 @@
    ]
   },
   {
-   "id": "KVEF.FA.W.0006.2026",
+   "id": "KMLB.FA.W.0005.2026",
    "event": "Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Las Vegas NV",
-   "areas": [
-    "Mohave, AZ"
-   ],
-   "counties": [
-    "04015"
-   ],
-   "sent": "2026-11-02T17:01:00Z",
-   "onset": "2026-11-02T17:01:00Z",
-   "ends": "2026-11-02T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9ee7682a21ae7fba9be48c07a3388d422963e40.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -113.55,
-       34.3
-      ],
-      [
-       -113.68,
-       34.47
-      ],
-      [
-       -113.63,
-       34.56
-      ],
-      [
-       -113.61,
-       34.62
-      ],
-      [
-       -113.68,
-       34.85
-      ],
-      [
-       -113.7,
-       35.03
-      ],
-      [
-       -113.65,
-       35.21
-      ],
-      [
-       -113.58,
-       35.22
-      ],
-      [
-       -113.49,
-       35.15
-      ],
-      [
-       -113.57,
-       35.03
-      ],
-      [
-       -113.47,
-       34.62
-      ],
-      [
-       -113.54,
-       34.5
-      ],
-      [
-       -113.42,
-       34.3
-      ],
-      [
-       -113.53,
-       34.31
-      ],
-      [
-       -113.55,
-       34.3
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -113.7497,
-     35.7177
-    ]
-   ],
-   "lon": -113.577,
-   "lat": 34.698,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0035.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-02T17:07:00Z",
-   "onset": "2026-11-02T17:07:00Z",
-   "ends": "2026-11-02T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8c332c46dbd92af6555eb1facaaf3443c29ef56.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -112.16,
-       33.95
-      ],
-      [
-       -112.11,
-       33.94
-      ],
-      [
-       -112.14,
-       33.88
-      ],
-      [
-       -112.2,
-       33.78
-      ],
-      [
-       -112.22,
-       33.73
-      ],
-      [
-       -112.24,
-       33.73
-      ],
-      [
-       -112.25,
-       33.77
-      ],
-      [
-       -112.23,
-       33.83
-      ],
-      [
-       -112.18,
-       33.87
-      ],
-      [
-       -112.16,
-       33.92
-      ],
-      [
-       -112.16,
-       33.95
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -112.186,
-   "lat": 33.85,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGJT.FA.A.0011.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Southwest San Juan Mountains",
-    "Four Corners/Upper Dolores River",
-    "Animas River Basin",
-    "San Juan River Basin",
-    "Southeast Utah",
-    "La Sal and Abajo Mountains",
-    "Canyonlands/Natural Bridges"
-   ],
-   "counties": [
-    "08007",
-    "08033",
-    "08053",
-    "08067",
-    "08083",
-    "08111",
-    "08113",
-    "49019",
-    "49037"
-   ],
-   "sent": "2026-11-01T04:37:00Z",
-   "onset": "2026-11-01T12:00:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28dceea107844d87e801d5ba537294d1bcbe9f7e.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -107.0509,
-     37.2024
-    ],
-    [
-     -108.5062,
-     37.7338
-    ],
-    [
-     -107.384,
-     37.8115
-    ],
-    [
-     -107.8397,
-     37.2874
-    ],
-    [
-     -108.5958,
-     37.338
-    ],
-    [
-     -107.6703,
-     37.781
-    ],
-    [
-     -108.4273,
-     38.0093
-    ],
-    [
-     -109.5734,
-     38.9743
-    ],
-    [
-     -109.7916,
-     37.6026
-    ]
-   ],
-   "lon": -108.315,
-   "lat": 37.749,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
    "sender": "NWS Melbourne FL",
    "areas": [
-    "Inland Volusia",
-    "Northern Lake County",
-    "Orange",
-    "Seminole",
-    "Osceola",
-    "Okeechobee",
-    "Coastal Volusia",
-    "Southern Lake County",
-    "Coastal Indian River",
-    "Coastal St. Lucie",
-    "Coastal Martin",
-    "Inland Northern Brevard",
-    "Inland Indian River",
-    "Inland St. Lucie",
-    "Inland Martin",
-    "Mainland Northern Brevard",
-    "Northern Brevard Barrier Islands",
-    "Inland Southern Brevard",
-    "Mainland Southern Brevard",
-    "Southern Brevard Barrier Islands"
+    "Martin, FL",
+    "St. Lucie, FL"
    ],
    "counties": [
-    "12009",
-    "12061",
-    "12069",
     "12085",
-    "12093",
-    "12095",
-    "12097",
-    "12111",
-    "12117",
-    "12127"
+    "12111"
    ],
-   "sent": "2026-11-02T04:09:00Z",
-   "onset": "2026-11-02T04:09:00Z",
-   "ends": "2026-11-03T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2c270961ae506c66262159e4946611664f737ea.001.1",
-   "geometry": null,
+   "sent": "2026-11-02T22:15:00Z",
+   "onset": "2026-11-02T22:15:00Z",
+   "ends": "2026-11-03T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cedd0a8a190db8a4b81e0c23f905d4cfa7892f4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.51,
+       27.25
+      ],
+      [
+       -80.39,
+       27
+      ],
+      [
+       -80.23,
+       27.06
+      ],
+      [
+       -80.3,
+       27.22
+      ],
+      [
+       -80.51,
+       27.25
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [
-    [
-     -80.7003,
-     28.2983
-    ],
-    [
-     -80.5748,
-     27.7005
-    ],
-    [
-     -81.7123,
-     28.7641
-    ],
     [
      -80.3982,
      27.0836
     ],
     [
-     -80.8874,
-     27.3856
-    ],
-    [
-     -81.3233,
-     28.5144
-    ],
-    [
-     -81.1393,
-     28.059
-    ],
-    [
      -80.4435,
      27.3798
-    ],
-    [
-     -81.132,
-     28.6901
-    ],
-    [
-     -81.1618,
-     29.0578
     ]
    ],
-   "lon": -80.947,
-   "lat": 28.093,
+   "lon": -80.388,
+   "lat": 27.156,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KMFL.FA.A.0002.2026",
-   "event": "Flood Watch",
+   "id": "KPUB.FL.W.0008.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal Collier County",
-    "Inland Collier County",
-    "Mainland Monroe",
-    "Glades",
-    "Hendry",
-    "Inland Palm Beach County",
-    "Metro Palm Beach County",
-    "Inland Broward County",
-    "Metro Broward County",
-    "Inland Miami-Dade County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County",
-    "Far South Miami-Dade County"
-   ],
-   "counties": [
-    "12011",
-    "12021",
-    "12043",
-    "12051",
-    "12086",
-    "12087",
-    "12099"
-   ],
-   "sent": "2026-11-02T04:59:00Z",
-   "onset": "2026-11-02T04:59:00Z",
-   "ends": "2026-11-03T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f07e60623d00938b46403a238fbab7e9c79145a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -81.401,
-     26.1188
-    ],
-    [
-     -81.1908,
-     26.9548
-    ],
-    [
-     -81.1521,
-     26.54
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -81.0226,
-     25.5861
-    ],
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.885,
-   "lat": 26.237,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.FA.A.0029.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Northwest Plateau",
-    "Chuska Mountains",
-    "Far Northwest Highlands",
-    "Northwest Highlands",
-    "West Central Plateau",
-    "West Central Mountains",
-    "West Central Highlands",
-    "Southwest Mountains",
-    "San Francisco River Valley",
-    "Tusas Mountains Including Chama",
-    "Jemez Mountains"
-   ],
-   "counties": [
-    "35001",
-    "35003",
-    "35006",
-    "35028",
-    "35031",
-    "35039",
-    "35043",
-    "35045",
-    "35053",
-    "35055",
-    "35061"
-   ],
-   "sent": "2026-11-02T07:54:00Z",
-   "onset": "2026-11-02T07:54:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1de3bcee59a3911bd7c81831b16e6053be8440f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -106.6691,
-     35.0536
-    ],
-    [
-     -108.3919,
-     33.9016
-    ],
-    [
-     -107.9927,
-     34.9283
-    ],
-    [
-     -106.308,
-     35.87
-    ],
-    [
-     -108.2533,
-     35.5841
-    ],
-    [
-     -106.694,
-     36.5097
-    ],
-    [
-     -106.8831,
-     35.6851
-    ],
-    [
-     -108.3246,
-     36.5116
-    ],
-    [
-     -106.9391,
-     33.9917
-    ],
-    [
-     -105.6389,
-     36.5772
-    ],
-    [
-     -106.8066,
-     34.7168
-    ]
-   ],
-   "lon": -107.173,
-   "lat": 35.394,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FA.A.0010.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Pueblo CO",
    "areas": [
-    "Del Norte Vicinity/Northern San Luis Valley Below 8500 Ft",
-    "Alamosa  Vicinity/Central San Luis Valley Below 8500 Ft",
-    "Southern San Luis Valley",
-    "Upper Rio Grande Valley/Eastern San Juan Mountains Below 10000 Ft",
-    "Eastern San Juan Mountains Above 10000 Ft"
+    "Alamosa, CO"
    ],
    "counties": [
-    "08003",
-    "08021",
-    "08023",
-    "08079",
-    "08105",
-    "08109"
+    "08003"
    ],
-   "sent": "2026-11-02T13:14:00Z",
-   "onset": "2026-11-02T13:14:00Z",
-   "ends": "2026-11-04T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6499198bfeb3e5888538271cdeb42f7320e5f04.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.788,
-     37.5684
-    ],
-    [
-     -106.1764,
-     37.2134
-    ],
-    [
-     -105.4289,
-     37.2775
-    ],
-    [
-     -107.0032,
-     37.5491
-    ],
-    [
-     -106.4531,
-     37.4859
-    ],
-    [
-     -106.2347,
-     38.0317
-    ]
-   ],
-   "lon": -106.181,
-   "lat": 37.521,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "Highlands",
-    "Polk",
-    "Hardee",
-    "DeSoto"
-   ],
-   "counties": [
-    "12027",
-    "12049",
-    "12055",
-    "12105"
-   ],
-   "sent": "2026-11-02T13:15:00Z",
-   "onset": "2026-11-02T13:15:00Z",
-   "ends": "2026-11-02T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.759d07f2ac30dcd3a1e31784372cbf4cef34add1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ],
-    [
-     -81.8216,
-     27.4928
-    ],
-    [
-     -81.3424,
-     27.3411
-    ],
-    [
-     -81.6943,
-     27.9549
-    ]
-   ],
-   "lon": -81.666,
-   "lat": 27.495,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.FL.A.0002.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Alamosa  Vicinity/Central San Luis Valley Below 8500 Ft"
-   ],
-   "counties": [
-    "08003",
-    "08105"
-   ],
-   "sent": "2026-11-02T14:21:00Z",
-   "onset": "2026-11-04T21:20:00Z",
-   "ends": "2026-11-06T06:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39e48bfa9f531d07f4b0ba1a7d1f2b72b6af2f13.001.1",
+   "sent": "2026-11-02T22:29:00Z",
+   "onset": "2026-11-04T21:45:00Z",
+   "ends": "2026-11-06T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f77eed9d842c708a5a3d2e5d0c786d35cd12c2c0.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -6267,14 +4608,1035 @@
     [
      -105.788,
      37.5684
+    ]
+   ],
+   "lon": -105.921,
+   "lat": 37.517,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0040.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ"
+   ],
+   "counties": [
+    "04005"
+   ],
+   "sent": "2026-11-02T22:30:00Z",
+   "onset": "2026-11-02T22:30:00Z",
+   "ends": "2026-11-03T08:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12cd6f16302729d4135d8082f861400406a8aa72.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.44,
+       35.88
+      ],
+      [
+       -111.45,
+       35.89
+      ],
+      [
+       -111.43,
+       35.93
+      ],
+      [
+       -111.43,
+       35.99
+      ],
+      [
+       -111.37,
+       36.08
+      ],
+      [
+       -111.27,
+       36.11
+      ],
+      [
+       -111.16,
+       36.12
+      ],
+      [
+       -111.09,
+       36.15
+      ],
+      [
+       -110.97,
+       36.17
+      ],
+      [
+       -110.77,
+       36.17
+      ],
+      [
+       -110.77,
+       36.14
+      ],
+      [
+       -110.97,
+       36.14
+      ],
+      [
+       -111.08,
+       36.13
+      ],
+      [
+       -111.15,
+       36.1
+      ],
+      [
+       -111.27,
+       36.09
+      ],
+      [
+       -111.35,
+       36.06
+      ],
+      [
+       -111.41,
+       35.98
+      ],
+      [
+       -111.41,
+       35.92
+      ],
+      [
+       -111.44,
+       35.88
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ]
+   ],
+   "lon": -111.223,
+   "lat": 36.049,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FA.W.0023.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Mineral, CO",
+    "Rio Grande, CO"
+   ],
+   "counties": [
+    "08079",
+    "08105"
+   ],
+   "sent": "2026-11-02T22:35:00Z",
+   "onset": "2026-11-02T22:35:00Z",
+   "ends": "2026-11-03T01:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a61f66acbae6a53e7cc6d8a791a6f5e1d9e0690e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.87,
+       37.58
+      ],
+      [
+       -106.69,
+       37.42
+      ],
+      [
+       -106.46,
+       37.65
+      ],
+      [
+       -106.46,
+       37.72
+      ],
+      [
+       -106.69,
+       37.71
+      ],
+      [
+       -106.87,
+       37.58
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -107.0032,
+     37.5491
     ],
     [
      -106.4531,
      37.4859
     ]
    ],
-   "lon": -105.921,
-   "lat": 37.517,
+   "lon": -106.673,
+   "lat": 37.61,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FA.W.0025.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Conejos, CO"
+   ],
+   "counties": [
+    "08021"
+   ],
+   "sent": "2026-11-02T22:47:00Z",
+   "onset": "2026-11-02T22:47:00Z",
+   "ends": "2026-11-03T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aac508d852d6aadc0ffc543722b1bf27c1ab74d4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.51,
+       37.28
+      ],
+      [
+       -106.45,
+       37.32
+      ],
+      [
+       -106.36,
+       37.19
+      ],
+      [
+       -106.17,
+       37.07
+      ],
+      [
+       -106.17,
+       37.02
+      ],
+      [
+       -106.28,
+       37.02
+      ],
+      [
+       -106.45,
+       37.14
+      ],
+      [
+       -106.51,
+       37.28
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -106.1764,
+     37.2134
+    ]
+   ],
+   "lon": -106.362,
+   "lat": 37.165,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FA.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-02T22:51:00Z",
+   "onset": "2026-11-02T22:51:00Z",
+   "ends": "2026-11-03T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1ead2969ba9e85cf3775b0d5243405038977644.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.58,
+       28.3
+      ],
+      [
+       -80.57,
+       28.19
+      ],
+      [
+       -80.54,
+       28.13
+      ],
+      [
+       -80.55,
+       28.09
+      ],
+      [
+       -80.85,
+       28.11
+      ],
+      [
+       -80.86,
+       28.3
+      ],
+      [
+       -80.58,
+       28.3
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.647,
+   "lat": 28.203,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FA.W.0026.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Alamosa, CO",
+    "Conejos, CO",
+    "Costilla, CO"
+   ],
+   "counties": [
+    "08003",
+    "08021",
+    "08023"
+   ],
+   "sent": "2026-11-02T22:53:00Z",
+   "onset": "2026-11-02T22:53:00Z",
+   "ends": "2026-11-04T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b092e67b29472df648ea32d2432f2eb9c230c8e2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.17,
+       37.07
+      ],
+      [
+       -105.98,
+       37.19
+      ],
+      [
+       -105.88,
+       37.38
+      ],
+      [
+       -105.82,
+       37.49
+      ],
+      [
+       -105.71,
+       37.39
+      ],
+      [
+       -105.7,
+       37.27
+      ],
+      [
+       -105.8,
+       37.25
+      ],
+      [
+       -105.91,
+       37.01
+      ],
+      [
+       -106.17,
+       37.02
+      ],
+      [
+       -106.17,
+       37.07
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -105.788,
+     37.5684
+    ],
+    [
+     -106.1764,
+     37.2134
+    ],
+    [
+     -105.4289,
+     37.2775
+    ]
+   ],
+   "lon": -105.931,
+   "lat": 37.214,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0021.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T23:19:00Z",
+   "onset": "2026-11-02T23:19:00Z",
+   "ends": "2026-11-04T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8aeefdc1e816ea67c4d81d781d70e4cd00831b9.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -107.86,
+       37
+      ],
+      [
+       -107.84,
+       36.91
+      ],
+      [
+       -108.19,
+       36.71
+      ],
+      [
+       -108.22,
+       36.72
+      ],
+      [
+       -107.91,
+       36.94
+      ],
+      [
+       -107.87,
+       37
+      ],
+      [
+       -107.86,
+       37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -107.964,
+   "lat": 36.897,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0019.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T23:28:00Z",
+   "onset": "2026-11-02T23:28:00Z",
+   "ends": "2026-11-04T03:36:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e03222ae0e3ca1c6db4b2efc8bdae5a202d11f6.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -107.84,
+       37
+      ],
+      [
+       -107.82,
+       36.91
+      ],
+      [
+       -108.17,
+       36.71
+      ],
+      [
+       -108.22,
+       36.73
+      ],
+      [
+       -107.91,
+       36.94
+      ],
+      [
+       -107.88,
+       37
+      ],
+      [
+       -107.84,
+       37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -107.954,
+   "lat": 36.899,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0026.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T23:32:00Z",
+   "onset": "2026-11-02T23:32:00Z",
+   "ends": "2026-11-04T12:43:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c012a598114d193771ebe1a21de78b14fee1a679.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -107.81,
+       36.68
+      ],
+      [
+       -108.08,
+       36.66
+      ],
+      [
+       -108.68,
+       36.75
+      ],
+      [
+       -108.66,
+       36.79
+      ],
+      [
+       -107.83,
+       36.72
+      ],
+      [
+       -107.81,
+       36.68
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -108.145,
+   "lat": 36.713,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FA.W.0004.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Indian River, FL",
+    "Martin, FL",
+    "St. Lucie, FL"
+   ],
+   "counties": [
+    "12061",
+    "12085",
+    "12111"
+   ],
+   "sent": "2026-11-02T23:33:00Z",
+   "onset": "2026-11-02T23:33:00Z",
+   "ends": "2026-11-03T01:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70ed8a12b9534c6484add75e0ded724faea347c4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.55,
+       27.53
+      ],
+      [
+       -80.52,
+       27.66
+      ],
+      [
+       -80.34,
+       27.71
+      ],
+      [
+       -80.31,
+       27.58
+      ],
+      [
+       -80.3,
+       27.58
+      ],
+      [
+       -80.29,
+       27.57
+      ],
+      [
+       -80.27,
+       27.5
+      ],
+      [
+       -80.26,
+       27.49
+      ],
+      [
+       -80.26,
+       27.48
+      ],
+      [
+       -80.18,
+       27.27
+      ],
+      [
+       -80.17,
+       27.26
+      ],
+      [
+       -80.14,
+       27.21
+      ],
+      [
+       -80.13,
+       27.18
+      ],
+      [
+       -80.13,
+       27.17
+      ],
+      [
+       -80.43,
+       27.22
+      ],
+      [
+       -80.55,
+       27.53
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.5748,
+     27.7005
+    ],
+    [
+     -80.3982,
+     27.0836
+    ],
+    [
+     -80.4435,
+     27.3798
+    ]
+   ],
+   "lon": -80.302,
+   "lat": 27.434,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0020.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T23:37:00Z",
+   "onset": "2026-11-02T23:37:00Z",
+   "ends": "2026-11-03T15:20:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf8d6f07b4eee1699a407c318e8c982493316c26.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -108.17,
+       37
+      ],
+      [
+       -108.15,
+       36.89
+      ],
+      [
+       -108.23,
+       36.73
+      ],
+      [
+       -108.28,
+       36.74
+      ],
+      [
+       -108.23,
+       36.89
+      ],
+      [
+       -108.2,
+       37
+      ],
+      [
+       -108.17,
+       37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -108.204,
+   "lat": 36.893,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0038.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ",
+    "Navajo, AZ"
+   ],
+   "counties": [
+    "04005",
+    "04017"
+   ],
+   "sent": "2026-11-02T23:44:00Z",
+   "onset": "2026-11-02T23:44:00Z",
+   "ends": "2026-11-03T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98ddbdecb0dc06fe7dfdc4a5a9e7890e2d5e7f05.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -110.74,
+       35.12
+      ],
+      [
+       -111.05,
+       35.34
+      ],
+      [
+       -111.02,
+       35.36
+      ],
+      [
+       -110.97,
+       35.31
+      ],
+      [
+       -110.85,
+       35.3
+      ],
+      [
+       -110.64,
+       35.19
+      ],
+      [
+       -110.61,
+       35.11
+      ],
+      [
+       -110.64,
+       35.05
+      ],
+      [
+       -110.62,
+       35.01
+      ],
+      [
+       -110.53,
+       34.97
+      ],
+      [
+       -110.35,
+       34.97
+      ],
+      [
+       -110.24,
+       34.91
+      ],
+      [
+       -110.11,
+       34.91
+      ],
+      [
+       -110.04,
+       34.86
+      ],
+      [
+       -110.02,
+       34.75
+      ],
+      [
+       -110.06,
+       34.76
+      ],
+      [
+       -110.14,
+       34.88
+      ],
+      [
+       -110.27,
+       34.88
+      ],
+      [
+       -110.38,
+       34.94
+      ],
+      [
+       -110.64,
+       34.96
+      ],
+      [
+       -110.74,
+       35.12
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ],
+    [
+     -110.321,
+     35.3908
+    ]
+   ],
+   "lon": -110.508,
+   "lat": 35.033,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0032.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Rio Arriba, NM"
+   ],
+   "counties": [
+    "35039"
+   ],
+   "sent": "2026-11-02T23:48:00Z",
+   "onset": "2026-11-02T23:48:00Z",
+   "ends": "2026-11-04T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.160077f7372b88465ae5c59207cfb905c2a71f1a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -106.71,
+       36.56
+      ],
+      [
+       -106.67,
+       36.39
+      ],
+      [
+       -106.57,
+       36.33
+      ],
+      [
+       -106.61,
+       36.29
+      ],
+      [
+       -106.71,
+       36.35
+      ],
+      [
+       -106.77,
+       36.55
+      ],
+      [
+       -106.71,
+       36.56
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -106.694,
+     36.5097
+    ]
+   ],
+   "lon": -106.679,
+   "lat": 36.433,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FL.W.0025.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T23:54:00Z",
+   "onset": "2026-11-02T23:54:00Z",
+   "ends": "2026-11-05T00:49:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b045e8735728bbdf1353cec7d48c91bb486ae4e4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -108.68,
+       36.75
+      ],
+      [
+       -108.93,
+       36.87
+      ],
+      [
+       -109.04,
+       36.98
+      ],
+      [
+       -108.98,
+       37
+      ],
+      [
+       -108.66,
+       36.79
+      ],
+      [
+       -108.68,
+       36.75
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -108.828,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
@@ -6607,146 +5969,104 @@
    ]
   },
   {
-   "id": "KEPZ.HW.W.0007.2026",
-   "event": "High Wind Warning",
+   "id": "KMLB.FA.A.0003.2026",
+   "event": "Flood Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS El Paso Tx/Santa Teresa NM",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Melbourne FL",
    "areas": [
-    "Sacramento Mountains Above 7500 Feet",
-    "East Slopes Sacramento Mountains Below 7500 Feet"
+    "Inland Volusia",
+    "Okeechobee",
+    "Coastal Volusia",
+    "Coastal Indian River",
+    "Coastal St. Lucie",
+    "Coastal Martin",
+    "Inland Northern Brevard",
+    "Inland Indian River",
+    "Inland St. Lucie",
+    "Inland Martin",
+    "Mainland Northern Brevard",
+    "Northern Brevard Barrier Islands",
+    "Inland Southern Brevard",
+    "Mainland Southern Brevard",
+    "Southern Brevard Barrier Islands"
    ],
    "counties": [
-    "35035"
+    "12009",
+    "12061",
+    "12085",
+    "12093",
+    "12111",
+    "12127"
    ],
-   "sent": "2026-11-02T10:30:00Z",
-   "onset": "2026-11-02T10:30:00Z",
-   "ends": "2026-11-02T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f03480f131d2ff401b3065f12557c910f75bb19.001.1",
+   "sent": "2026-11-02T18:37:00Z",
+   "onset": "2026-11-02T18:37:00Z",
+   "ends": "2026-11-03T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f9ab229bb871cb475159ccd676055c9332e21ca.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -105.7513,
-     32.6156
+     -80.7003,
+     28.2983
+    ],
+    [
+     -80.5748,
+     27.7005
+    ],
+    [
+     -80.3982,
+     27.0836
+    ],
+    [
+     -80.8874,
+     27.3856
+    ],
+    [
+     -80.4435,
+     27.3798
+    ],
+    [
+     -81.1618,
+     29.0578
     ]
    ],
-   "lon": -105.751,
-   "lat": 32.616,
+   "lon": -80.694,
+   "lat": 27.818,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KUNR.HW.W.0009.2026",
-   "event": "High Wind Warning",
+   "id": "KMFL.FA.A.0002.2026",
+   "event": "Flood Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Miami FL",
    "areas": [
-    "Rapid City",
-    "Custer Co Plains",
-    "Pennington Co Plains",
-    "Northern Oglala Lakota",
-    "Sturgis/Piedmont Foothills",
-    "Southern Meade Co Plains",
-    "Hermosa Foothills",
-    "Southern Foothills",
-    "Western Fall River",
-    "Eastern Fall River"
+    "Inland Palm Beach County",
+    "Metro Palm Beach County",
+    "Coastal Palm Beach County"
    ],
    "counties": [
-    "46033",
-    "46047",
-    "46093",
-    "46102",
-    "46103"
+    "12099"
    ],
-   "sent": "2026-11-02T11:24:00Z",
-   "onset": "2026-11-02T16:00:00Z",
-   "ends": "2026-11-03T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44c92c25106825fe53ebef4bc1248e5da237548f.001.1",
+   "sent": "2026-11-02T23:21:00Z",
+   "onset": "2026-11-02T23:21:00Z",
+   "ends": "2026-11-03T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8b54d737751fd07c89d548c6d970fa898cf10fd.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -103.4622,
-     43.6849
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.5615,
-     43.3334
-    ],
-    [
-     -102.8238,
-     44.0023
+     -80.4484,
+     26.6491
     ]
    ],
-   "lon": -103.015,
-   "lat": 43.77,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.HW.W.0012.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "South Central Mountains",
-    "Central Highlands",
-    "Guadalupe County"
-   ],
-   "counties": [
-    "35019",
-    "35027",
-    "35047",
-    "35049",
-    "35057"
-   ],
-   "sent": "2026-11-02T11:52:00Z",
-   "onset": "2026-11-02T11:52:00Z",
-   "ends": "2026-11-03T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6149ceb22d48d3f18ce3e97748610d5e8bedc16.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.7849,
-     34.8697
-    ],
-    [
-     -105.4498,
-     33.7408
-    ],
-    [
-     -104.8035,
-     35.4769
-    ],
-    [
-     -105.964,
-     35.5145
-    ],
-    [
-     -105.8906,
-     34.555
-    ]
-   ],
-   "lon": -105.379,
-   "lat": 34.831,
+   "lon": -80.448,
+   "lat": 26.649,
    "countries": [
     "US"
    ]
@@ -6790,117 +6110,505 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0342.2026",
-   "event": "Special Marine Warning",
+   "id": "KABQ.HW.W.0012.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Miami FL",
+   "sender": "NWS Albuquerque NM",
    "areas": [
-    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM"
+    "South Central Mountains",
+    "Central Highlands",
+    "Guadalupe County"
    ],
    "counties": [
-    "77657"
+    "35019",
+    "35027",
+    "35047",
+    "35049",
+    "35057"
    ],
-   "sent": "2026-11-02T16:41:00Z",
-   "onset": "2026-11-02T16:41:00Z",
-   "ends": "2026-11-02T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc128cf560d31e5e4c90f048f27986de950947ef.001.1",
+   "sent": "2026-11-02T17:52:00Z",
+   "onset": "2026-11-02T17:52:00Z",
+   "ends": "2026-11-03T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8900659f35ec04f1e90c3f3446839e4904db2d0.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.7849,
+     34.8697
+    ],
+    [
+     -105.4498,
+     33.7408
+    ],
+    [
+     -104.8035,
+     35.4769
+    ],
+    [
+     -105.964,
+     35.5145
+    ],
+    [
+     -105.8906,
+     34.555
+    ]
+   ],
+   "lon": -105.379,
+   "lat": 34.831,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0009.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Southern Foothills",
+    "Western Fall River",
+    "Eastern Fall River",
+    "Rapid City",
+    "Custer Co Plains",
+    "Pennington Co Plains",
+    "Northern Oglala Lakota",
+    "Sturgis/Piedmont Foothills",
+    "Southern Meade Co Plains",
+    "Hermosa Foothills"
+   ],
+   "counties": [
+    "46033",
+    "46047",
+    "46093",
+    "46102",
+    "46103"
+   ],
+   "sent": "2026-11-02T19:52:00Z",
+   "onset": "2026-11-02T19:52:00Z",
+   "ends": "2026-11-03T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.159dc2068ba72142bb1be9743fa9ab52e2e0a544.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.4622,
+     43.6849
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.5615,
+     43.3334
+    ],
+    [
+     -102.8238,
+     44.0023
+    ]
+   ],
+   "lon": -103.015,
+   "lat": 43.77,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.0999.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Caddo, OK",
+    "Kiowa, OK",
+    "Washita, OK"
+   ],
+   "counties": [
+    "40015",
+    "40075",
+    "40149"
+   ],
+   "sent": "2026-11-02T23:27:00Z",
+   "onset": "2026-11-02T23:27:00Z",
+   "ends": "2026-11-03T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19986ebe4bad8ff1246450e7035aa8b636457694.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.52,
-       25.18
+       -99.07,
+       34.93
       ],
       [
-       -81.53,
-       25.37
+       -98.98,
+       35.2
       ],
       [
-       -81.61,
-       25.44
+       -98.42,
+       35.42
       ],
       [
-       -81,
-       25.54
+       -98.5,
+       35.08
       ],
       [
-       -81.01,
-       25.5
-      ],
-      [
-       -81.07,
-       25.51
-      ],
-      [
-       -81.08,
-       25.47
-      ],
-      [
-       -81.01,
-       25.45
-      ],
-      [
-       -80.94,
-       25.48
-      ],
-      [
-       -80.91,
-       25.46
-      ],
-      [
-       -80.94,
-       25.39
-      ],
-      [
-       -80.98,
-       25.38
-      ],
-      [
-       -80.89,
-       25.35
-      ],
-      [
-       -80.87,
-       25.25
-      ],
-      [
-       -80.9,
-       25.19
-      ],
-      [
-       -81.03,
-       25.19
-      ],
-      [
-       -81.13,
-       25.28
-      ],
-      [
-       -81.13,
-       25.23
-      ],
-      [
-       -81.04,
-       25.14
-      ],
-      [
-       -81.49,
-       25.1
-      ],
-      [
-       -81.52,
-       25.18
+       -99.07,
+       34.93
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [],
-   "lon": -81.124,
-   "lat": 25.337,
+   "points": [
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -98.9923,
+     35.2899
+    ]
+   ],
+   "lon": -98.808,
+   "lat": 35.112,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.1000.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Blaine, OK",
+    "Caddo, OK",
+    "Canadian, OK",
+    "Kingfisher, OK"
+   ],
+   "counties": [
+    "40011",
+    "40015",
+    "40017",
+    "40073"
+   ],
+   "sent": "2026-11-02T23:36:00Z",
+   "onset": "2026-11-02T23:36:00Z",
+   "ends": "2026-11-03T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.011bd04a44bb18ebc25aaeb6f893a1b9b3f60a46.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.08,
+       35.52
+      ],
+      [
+       -98.62,
+       35.34
+      ],
+      [
+       -98.62,
+       35.55
+      ],
+      [
+       -98.6,
+       35.63
+      ],
+      [
+       -98.04,
+       35.85
+      ],
+      [
+       -98.08,
+       35.52
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -97.9799,
+     35.5434
+    ],
+    [
+     -97.9346,
+     35.9494
+    ]
+   ],
+   "lon": -98.34,
+   "lat": 35.568,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.1001.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Comanche, OK",
+    "Kiowa, OK"
+   ],
+   "counties": [
+    "40031",
+    "40075"
+   ],
+   "sent": "2026-11-02T23:52:00Z",
+   "onset": "2026-11-02T23:52:00Z",
+   "ends": "2026-11-03T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.912ec0a3076fb5f1e1ed31dd7ac71311718dc555.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -99.03,
+       34.96
+      ],
+      [
+       -98.62,
+       35.05
+      ],
+      [
+       -98.62,
+       34.85
+      ],
+      [
+       -98.63,
+       34.75
+      ],
+      [
+       -99.08,
+       34.74
+      ],
+      [
+       -99.03,
+       34.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.9816,
+     34.9215
+    ]
+   ],
+   "lon": -98.835,
+   "lat": 34.885,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.0998.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Cotton, OK",
+    "Tillman, OK",
+    "Clay, TX",
+    "Wichita, TX"
+   ],
+   "counties": [
+    "40033",
+    "40141",
+    "48077",
+    "48485"
+   ],
+   "sent": "2026-11-02T23:54:00Z",
+   "onset": "2026-11-02T23:54:00Z",
+   "ends": "2026-11-03T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6da2087fa476d61f223350b6c8aa000552efcb3f.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.95,
+       33.92
+      ],
+      [
+       -98.66,
+       34.13
+      ],
+      [
+       -98.72,
+       34.3
+      ],
+      [
+       -98.3,
+       34.39
+      ],
+      [
+       -98.26,
+       34.33
+      ],
+      [
+       -98.43,
+       33.84
+      ],
+      [
+       -98.75,
+       33.83
+      ],
+      [
+       -98.95,
+       33.83
+      ],
+      [
+       -98.95,
+       33.92
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -98.708,
+     33.9882
+    ]
+   ],
+   "lon": -98.663,
+   "lat": 34.054,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.1002.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Cotton, OK",
+    "Clay, TX",
+    "Wichita, TX"
+   ],
+   "counties": [
+    "40033",
+    "48077",
+    "48485"
+   ],
+   "sent": "2026-11-02T23:59:00Z",
+   "onset": "2026-11-02T23:59:00Z",
+   "ends": "2026-11-03T00:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34140c6e32b1542b31f2a7e44a6d3d2cd5c3bc01.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.95,
+       33.9
+      ],
+      [
+       -98.6,
+       34.07
+      ],
+      [
+       -98.55,
+       34.34
+      ],
+      [
+       -98.14,
+       34.42
+      ],
+      [
+       -98.14,
+       34.1
+      ],
+      [
+       -98.43,
+       33.84
+      ],
+      [
+       -98.75,
+       33.83
+      ],
+      [
+       -98.95,
+       33.84
+      ],
+      [
+       -98.95,
+       33.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -98.708,
+     33.9882
+    ]
+   ],
+   "lon": -98.607,
+   "lat": 34.027,
    "countries": [
     "US"
    ]
@@ -7161,124 +6869,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGJT.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Northwestern San Juan Mountains",
-    "Southwest San Juan Mountains"
-   ],
-   "counties": [
-    "08007",
-    "08033",
-    "08051",
-    "08053",
-    "08067",
-    "08083",
-    "08085",
-    "08091",
-    "08111",
-    "08113"
-   ],
-   "sent": "2026-11-02T02:52:00Z",
-   "onset": "2026-11-02T02:52:00Z",
-   "ends": "2026-11-02T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b284c983150236c87728b60844c957442b4b55be.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -107.0509,
-     37.2024
-    ],
-    [
-     -108.5062,
-     37.7338
-    ],
-    [
-     -107.0569,
-     38.6705
-    ],
-    [
-     -107.384,
-     37.8115
-    ],
-    [
-     -107.8397,
-     37.2874
-    ],
-    [
-     -108.5958,
-     37.338
-    ],
-    [
-     -108.2663,
-     38.4075
-    ],
-    [
-     -107.7885,
-     38.1547
-    ],
-    [
-     -107.6703,
-     37.781
-    ],
-    [
-     -108.4273,
-     38.0093
-    ]
-   ],
-   "lon": -107.859,
-   "lat": 37.84,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Eastern San Juan Mountains Above 10000 Ft"
-   ],
-   "counties": [
-    "08021",
-    "08079",
-    "08105"
-   ],
-   "sent": "2026-11-02T10:38:00Z",
-   "onset": "2026-11-02T10:38:00Z",
-   "ends": "2026-11-02T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73e00f04c0d38244888300879b18131d33016053.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -106.1764,
-     37.2134
-    ],
-    [
-     -107.0032,
-     37.5491
-    ],
-    [
-     -106.4531,
-     37.4859
-    ]
-   ],
-   "lon": -106.544,
-   "lat": 37.416,
    "countries": [
     "US"
    ]
