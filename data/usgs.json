@@ -1,6 +1,36 @@
 {
  "records": [
   {
+   "id": "us7000tv03",
+   "mag": 4.6,
+   "place": "226 km NW of Port-Olry, Vanuatu",
+   "time": "2026-11-02T20:54:25Z",
+   "updated": "2026-11-02T21:11:25Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv03",
+   "depth_km": 10.0,
+   "lon": 165.394,
+   "lat": -13.807,
+   "countries": []
+  },
+  {
+   "id": "us7000tuzd",
+   "mag": 4.5,
+   "place": "168 km SE of San Jose Village, Northern Mariana Islands",
+   "time": "2026-11-02T19:59:04Z",
+   "updated": "2026-11-02T20:18:25Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuzd",
+   "depth_km": 10.0,
+   "lon": 146.611,
+   "lat": 13.795,
+   "countries": []
+  },
+  {
    "id": "us7000tuxy",
    "mag": 5.3,
    "place": "81 km SSE of Palekastro, Greece",
@@ -1015,7 +1045,7 @@
    "mag": 5.0,
    "place": "143 km S of False Pass, Alaska",
    "time": "2026-10-29T20:14:32Z",
-   "updated": "2026-11-01T20:24:39Z",
+   "updated": "2026-11-02T20:24:40Z",
    "alert": null,
    "tsunami": false,
    "sig": 385,
@@ -1710,7 +1740,7 @@
    "mag": 5.4,
    "place": "193 km WSW of Merizo Village, Guam",
    "time": "2026-10-27T23:14:17Z",
-   "updated": "2026-11-01T23:24:24Z",
+   "updated": "2026-11-02T23:24:25Z",
    "alert": "green",
    "tsunami": false,
    "sig": 449,
@@ -1999,134 +2029,6 @@
    "lon": 141.625,
    "lat": 37.387,
    "countries": []
-  },
-  {
-   "id": "us7000ttd3",
-   "mag": 4.5,
-   "place": "98 km NNW of Tobelo, Indonesia",
-   "time": "2026-10-26T22:52:22Z",
-   "updated": "2026-10-27T00:14:15Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttd3",
-   "depth_km": 88.7,
-   "lon": 127.737,
-   "lat": 2.578,
-   "countries": []
-  },
-  {
-   "id": "us7000ttd1",
-   "mag": 4.5,
-   "place": "96 km ENE of Pamandzi, Mayotte",
-   "time": "2026-10-26T22:33:48Z",
-   "updated": "2026-10-27T17:10:10Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttd1",
-   "depth_km": 10.0,
-   "lon": 46.083,
-   "lat": -12.428,
-   "countries": []
-  },
-  {
-   "id": "us7000ttci",
-   "mag": 4.7,
-   "place": "98 km S of Encounter Bay, Australia",
-   "time": "2026-10-26T21:18:11Z",
-   "updated": "2026-10-30T09:00:57Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 353,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttci",
-   "depth_km": 10.0,
-   "lon": 138.532,
-   "lat": -36.459,
-   "countries": []
-  },
-  {
-   "id": "us7000ttc8",
-   "mag": 4.6,
-   "place": "20 km NNW of La Ligua, Chile",
-   "time": "2026-10-26T20:52:11Z",
-   "updated": "2026-10-28T18:36:15Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttc8",
-   "depth_km": 47.7,
-   "lon": -71.301,
-   "lat": -32.281,
-   "countries": [
-    "CL"
-   ]
-  },
-  {
-   "id": "us7000ttc6",
-   "mag": 4.5,
-   "place": "89 km SSE of Pondaguitan, Philippines",
-   "time": "2026-10-26T20:41:25Z",
-   "updated": "2026-10-26T22:03:05Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttc6",
-   "depth_km": 75.1,
-   "lon": 126.542,
-   "lat": 5.636,
-   "countries": []
-  },
-  {
-   "id": "us7000ttbz",
-   "mag": 4.7,
-   "place": "7 km SE of Coquimbo, Chile",
-   "time": "2026-10-26T20:20:25Z",
-   "updated": "2026-10-29T21:57:40Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttbz",
-   "depth_km": 61.1,
-   "lon": -71.28,
-   "lat": -30.003,
-   "countries": [
-    "CL"
-   ]
-  },
-  {
-   "id": "us7000ttbh",
-   "mag": 4.9,
-   "place": "100 km E of La Tirana, Chile",
-   "time": "2026-10-26T19:36:16Z",
-   "updated": "2026-10-27T16:25:54Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 370,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttbh",
-   "depth_km": 119.5,
-   "lon": -68.69,
-   "lat": -20.344,
-   "countries": [
-    "BO"
-   ]
-  },
-  {
-   "id": "us7000ttb5",
-   "mag": 4.5,
-   "place": "74 km SE of Rasht, Tajikistan",
-   "time": "2026-10-26T18:07:04Z",
-   "updated": "2026-10-26T18:29:32Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttb5",
-   "depth_km": 47.3,
-   "lon": 71.076,
-   "lat": 38.644,
-   "countries": [
-    "TJ"
-   ]
   }
  ]
 }
