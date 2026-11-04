@@ -1,14 +1,63 @@
 {
  "records": [
   {
+   "id": "us7000tvuv",
+   "mag": 4.6,
+   "place": "Fiji region",
+   "time": "2026-11-04T00:32:59Z",
+   "updated": "2026-11-04T01:23:06Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvuv",
+   "depth_km": 556.5,
+   "lon": -177.505,
+   "lat": -19.269,
+   "countries": []
+  },
+  {
+   "id": "us7000tvu9",
+   "mag": 4.5,
+   "place": "99 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+   "time": "2026-11-03T22:50:33Z",
+   "updated": "2026-11-04T00:32:14Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvu9",
+   "depth_km": 10.0,
+   "lon": 73.373,
+   "lat": 39.294,
+   "countries": [
+    "TJ"
+   ]
+  },
+  {
+   "id": "us7000tvtj",
+   "mag": 5.2,
+   "place": "91 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+   "time": "2026-11-03T21:34:08Z",
+   "updated": "2026-11-03T22:07:00Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 416,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvtj",
+   "depth_km": 10.0,
+   "lon": 73.302,
+   "lat": 39.362,
+   "countries": [
+    "TJ"
+   ]
+  },
+  {
    "id": "ci41572064",
    "mag": 4.9,
    "place": "9 km N of Delta, B.C., MX",
    "time": "2026-11-03T18:27:31Z",
-   "updated": "2026-11-03T20:57:59Z",
+   "updated": "2026-11-04T00:37:39Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 525,
+   "sig": 534,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572064",
    "depth_km": 15.6,
    "lon": -115.18,
@@ -97,10 +146,10 @@
    "mag": 5.4,
    "place": "24 km NNW of Rioblanco, Colombia",
    "time": "2026-11-03T09:13:14Z",
-   "updated": "2026-11-03T20:02:17Z",
+   "updated": "2026-11-04T01:27:57Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 510,
+   "sig": 511,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
    "depth_km": 10.0,
    "lon": -75.72,
@@ -1857,53 +1906,6 @@
    "depth_km": 10.0,
    "lon": 165.389,
    "lat": -13.895,
-   "countries": []
-  },
-  {
-   "id": "us7000ttlc",
-   "mag": 5.2,
-   "place": "6 km NW of Balangonan, Philippines",
-   "time": "2026-10-28T01:11:54Z",
-   "updated": "2026-10-29T04:20:28Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 418,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttlc",
-   "depth_km": 45.9,
-   "lon": 125.305,
-   "lat": 5.608,
-   "countries": []
-  },
-  {
-   "id": "us7000ttkk",
-   "mag": 5.1,
-   "place": "7 km N of Balangonan, Philippines",
-   "time": "2026-10-27T23:43:51Z",
-   "updated": "2026-10-29T04:22:04Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 403,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttkk",
-   "depth_km": 57.8,
-   "lon": 125.354,
-   "lat": 5.64,
-   "countries": [
-    "PH"
-   ]
-  },
-  {
-   "id": "us7000ttke",
-   "mag": 5.4,
-   "place": "193 km WSW of Merizo Village, Guam",
-   "time": "2026-10-27T23:14:17Z",
-   "updated": "2026-11-02T23:24:25Z",
-   "alert": "green",
-   "tsunami": false,
-   "sig": 449,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttke",
-   "depth_km": 101.0,
-   "lon": 142.994,
-   "lat": 12.668,
    "countries": []
   }
  ]
