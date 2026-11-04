@@ -1,6 +1,23 @@
 {
  "records": [
   {
+   "id": "us7000tw3k",
+   "mag": 4.5,
+   "place": "2 km W of Chinandega, Nicaragua",
+   "time": "2026-11-04T19:55:26Z",
+   "updated": "2026-11-04T20:26:42Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3k",
+   "depth_km": 159.0,
+   "lon": -87.154,
+   "lat": 12.631,
+   "countries": [
+    "NI"
+   ]
+  },
+  {
    "id": "us7000tvwj",
    "mag": 5.0,
    "place": "207 km ESE of Sarangani, Philippines",
@@ -69,7 +86,7 @@
    "mag": 4.9,
    "place": "9 km N of Delta, B.C., MX",
    "time": "2026-11-03T18:27:31Z",
-   "updated": "2026-11-04T17:08:08Z",
+   "updated": "2026-11-04T19:31:04Z",
    "alert": "green",
    "tsunami": false,
    "sig": 540,
@@ -161,10 +178,10 @@
    "mag": 5.4,
    "place": "24 km NNW of Rioblanco, Colombia",
    "time": "2026-11-03T09:13:14Z",
-   "updated": "2026-11-04T17:21:01Z",
+   "updated": "2026-11-04T20:46:12Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 511,
+   "sig": 512,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
    "depth_km": 10.0,
    "lon": -75.72,
@@ -1265,7 +1282,7 @@
    "mag": 5.0,
    "place": "143 km S of False Pass, Alaska",
    "time": "2026-10-29T20:14:32Z",
-   "updated": "2026-11-03T20:24:37Z",
+   "updated": "2026-11-04T20:24:37Z",
    "alert": null,
    "tsunami": false,
    "sig": 385,
@@ -1582,68 +1599,6 @@
    "lon": 130.396,
    "lat": -6.323,
    "countries": []
-  },
-  {
-   "id": "us7000tttl",
-   "mag": 5.3,
-   "place": "161 km WNW of Tobelo, Indonesia",
-   "time": "2026-10-28T19:56:47Z",
-   "updated": "2026-10-30T15:37:15Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 432,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tttl",
-   "depth_km": 35.0,
-   "lon": 126.743,
-   "lat": 2.434,
-   "countries": []
-  },
-  {
-   "id": "us7000ttth",
-   "mag": 5.2,
-   "place": "Reykjanes Ridge",
-   "time": "2026-10-28T19:45:32Z",
-   "updated": "2026-10-30T15:47:28Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 416,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttth",
-   "depth_km": 10.0,
-   "lon": -32.106,
-   "lat": 58.106,
-   "countries": []
-  },
-  {
-   "id": "us7000ttt4",
-   "mag": 4.7,
-   "place": "Reykjanes Ridge",
-   "time": "2026-10-28T18:44:30Z",
-   "updated": "2026-10-28T22:07:08Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttt4",
-   "depth_km": 10.0,
-   "lon": -32.202,
-   "lat": 57.961,
-   "countries": []
-  },
-  {
-   "id": "us7000ttt2",
-   "mag": 4.7,
-   "place": "6 km N of Asahi, Japan",
-   "time": "2026-10-28T18:32:23Z",
-   "updated": "2026-10-29T02:04:08Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttt2",
-   "depth_km": 41.5,
-   "lon": 140.646,
-   "lat": 35.776,
-   "countries": [
-    "JP"
-   ]
   }
  ]
 }
