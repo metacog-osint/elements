@@ -2,9 +2,13 @@ name: update
 # Hourly: collect every source, commit data/ when its content changed, build site/ and publish it to GitHub Pages
 # (https://elements.theintelligence.company/). A failing source keeps its last good data; nothing here fails the run
 # except a broken build. Free: public repo. One optional secret, FIRMS_MAP_KEY (a free NASA key).
+#
+# GitHub delays and drops scheduled runs under load: from 1 to 4 Nov 2026 a single hourly trigger ran about once every
+# six hours. So the schedule fires four times an hour and the gate job skips the run when the site was deployed less
+# than 45 minutes ago (a skipped run deploys nothing, so it can't hold the next one back).
 on:
   schedule:
-    - cron: "35 * * * *"
+    - cron: "5,20,35,50 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -17,7 +21,29 @@ concurrency:
   group: update
   cancel-in-progress: false
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      deployments: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - id: check
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=1" --jq '.[0].created_at // empty' || true)
+          if [ -n "$last" ] && [ $(( $(date -u +%s) - $(date -u -d "$last" +%s) )) -lt 2700 ]; then
+            echo "skip=yes" >> "$GITHUB_OUTPUT"
+            echo "Site deployed at $last, under 45 minutes ago: skipping this run."
+          else
+            echo "Last deployment: ${last:-none found}. Running."
+          fi
   update:
+    needs: gate
+    if: needs.gate.outputs.skip != 'yes'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment:
@@ -39,7 +65,15 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data
             git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push -q origin HEAD:main
+            # GitHub sometimes refuses a push (an error 500 on 4 Nov 2026). Retry; if it still fails, carry on so this
+            # run's data is still built and deployed, and the next run commits it.
+            pushed=no
+            for i in 1 2 3; do
+              if git push -q origin HEAD:main; then pushed=yes; break; fi
+              echo "::warning::data push attempt $i failed"
+              sleep $((i * 15)); git pull -q --rebase origin main || true
+            done
+            [ "$pushed" = yes ] || echo "::warning::data not committed this run; the site is still deployed"
           else
             echo "no content change"
           fi
