@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "WATCH",
+   "color": "ORANGE",
+   "prev_alert": "ADVISORY",
+   "prev_color": "YELLOW",
+   "sent": "2026-11-05T19:22:47Z",
+   "changed": "2026-11-03T00:06:36Z",
+   "synopsis": "HVO Kilauea ORANGE/WATCH - Sporadic lava flows have continued from the north vent over the past day. High fountaining remains a possibility today or anytime within the next few days.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-05T18:36:49+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "311120",
    "name": "Great Sitkin",
    "observatory": "avo",
@@ -16,26 +36,6 @@
    "threat": "High Threat",
    "lat": 52.0765,
    "lon": -176.1109,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "vnum": "332010",
-   "name": "Kilauea",
-   "observatory": "hvo",
-   "observatory_name": "Hawaiian Volcano Observatory",
-   "alert": "WATCH",
-   "color": "ORANGE",
-   "prev_alert": "ADVISORY",
-   "prev_color": "YELLOW",
-   "sent": "2026-11-04T20:03:18Z",
-   "changed": "2026-11-03T00:06:36Z",
-   "synopsis": "HVO Kilauea ORANGE/WATCH - Intermittent lava flows have continued from the north vent over the past day. High fountaining remains a possibility today or anytime within the next few days.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-04T18:24:28+00:00",
-   "threat": "Very High Threat",
-   "lat": 19.421,
-   "lon": -155.287,
    "countries": [
     "US"
    ]
