@@ -169,95 +169,6 @@
    ]
   },
   {
-   "id": "KPUB.FA.W.0026.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Alamosa, CO",
-    "Conejos, CO",
-    "Costilla, CO"
-   ],
-   "counties": [
-    "08003",
-    "08021",
-    "08023"
-   ],
-   "sent": "2026-11-02T22:53:00Z",
-   "onset": "2026-11-02T22:53:00Z",
-   "ends": "2026-11-04T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b092e67b29472df648ea32d2432f2eb9c230c8e2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -106.17,
-       37.07
-      ],
-      [
-       -105.98,
-       37.19
-      ],
-      [
-       -105.88,
-       37.38
-      ],
-      [
-       -105.82,
-       37.49
-      ],
-      [
-       -105.71,
-       37.39
-      ],
-      [
-       -105.7,
-       37.27
-      ],
-      [
-       -105.8,
-       37.25
-      ],
-      [
-       -105.91,
-       37.01
-      ],
-      [
-       -106.17,
-       37.02
-      ],
-      [
-       -106.17,
-       37.07
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -105.788,
-     37.5684
-    ],
-    [
-     -106.1764,
-     37.2134
-    ],
-    [
-     -105.4289,
-     37.2775
-    ]
-   ],
-   "lon": -105.931,
-   "lat": 37.214,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.FA.W.0017.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -379,67 +290,6 @@
    ]
   },
   {
-   "id": "KLCH.FL.W.0047.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Lake Charles LA",
-   "areas": [
-    "Calcasieu, LA"
-   ],
-   "counties": [
-    "22019"
-   ],
-   "sent": "2026-11-04T06:00:00Z",
-   "onset": "2026-11-04T06:00:00Z",
-   "ends": "2026-11-07T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28ebe7f737b1446b3ee22b983168e24a83a47da1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -93.14,
-       30.38
-      ],
-      [
-       -93.03,
-       30.31
-      ],
-      [
-       -93.08,
-       30.25
-      ],
-      [
-       -93.21,
-       30.19
-      ],
-      [
-       -93.29,
-       30.3
-      ],
-      [
-       -93.14,
-       30.38
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -93.358,
-     30.2296
-    ]
-   ],
-   "lon": -93.148,
-   "lat": 30.302,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFGZ.FA.W.0040.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -548,189 +398,6 @@
    ],
    "lon": -111.223,
    "lat": 36.049,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FL.W.0017.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL"
-   ],
-   "counties": [
-    "12027"
-   ],
-   "sent": "2026-11-04T13:13:00Z",
-   "onset": "2026-11-04T13:13:00Z",
-   "ends": "2026-11-05T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8b19f6dc6b80231c051af992d4cd44af663e98c.004.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.94,
-       27.26
-      ],
-      [
-       -81.98,
-       27.08
-      ],
-      [
-       -82.02,
-       27.08
-      ],
-      [
-       -82.01,
-       27.26
-      ],
-      [
-       -81.94,
-       27.26
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ]
-   ],
-   "lon": -81.978,
-   "lat": 27.188,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FL.W.0015.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL"
-   ],
-   "counties": [
-    "12027"
-   ],
-   "sent": "2026-11-04T13:13:00Z",
-   "onset": "2026-11-04T13:13:00Z",
-   "ends": "2026-11-05T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8b19f6dc6b80231c051af992d4cd44af663e98c.005.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.79,
-       27.35
-      ],
-      [
-       -81.89,
-       27.14
-      ],
-      [
-       -81.97,
-       27.04
-      ],
-      [
-       -82.02,
-       27.04
-      ],
-      [
-       -81.86,
-       27.35
-      ],
-      [
-       -81.79,
-       27.35
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ]
-   ],
-   "lon": -81.887,
-   "lat": 27.212,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FL.W.0016.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "Manatee, FL"
-   ],
-   "counties": [
-    "12081"
-   ],
-   "sent": "2026-11-04T13:13:00Z",
-   "onset": "2026-11-04T13:13:00Z",
-   "ends": "2026-11-04T21:58:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8b19f6dc6b80231c051af992d4cd44af663e98c.003.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.17,
-       27.46
-      ],
-      [
-       -82.24,
-       27.43
-      ],
-      [
-       -82.33,
-       27.45
-      ],
-      [
-       -82.33,
-       27.52
-      ],
-      [
-       -82.24,
-       27.51
-      ],
-      [
-       -82.24,
-       27.53
-      ],
-      [
-       -82.17,
-       27.46
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -82.3931,
-     27.4756
-    ]
-   ],
-   "lon": -82.246,
-   "lat": 27.48,
    "countries": [
     "US"
    ]
@@ -845,63 +512,6 @@
    ],
    "lon": -81.804,
    "lat": 27.512,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGJT.FL.W.0004.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Montezuma, CO"
-   ],
-   "counties": [
-    "08083"
-   ],
-   "sent": "2026-11-04T13:35:00Z",
-   "onset": "2026-11-04T13:35:00Z",
-   "ends": "2026-11-04T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.336a54bcd0d2c78cf9df240d8b4fcb4532eead1e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -108.17,
-       37.4
-      ],
-      [
-       -108.35,
-       37.15
-      ],
-      [
-       -108.39,
-       37.19
-      ],
-      [
-       -108.26,
-       37.45
-      ],
-      [
-       -108.17,
-       37.4
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -108.5958,
-     37.338
-    ]
-   ],
-   "lon": -108.268,
-   "lat": 37.318,
    "countries": [
     "US"
    ]
@@ -1074,107 +684,6 @@
    ],
    "lon": -80.88,
    "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0039.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-04T14:21:00Z",
-   "onset": "2026-11-04T14:21:00Z",
-   "ends": "2026-11-04T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76634abc484fce25803fae21d573969feeca2441.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.53,
-       33.57
-      ],
-      [
-       -111.53,
-       33.56
-      ],
-      [
-       -111.56,
-       33.54
-      ],
-      [
-       -111.58,
-       33.55
-      ],
-      [
-       -111.6,
-       33.54
-      ],
-      [
-       -111.62,
-       33.55
-      ],
-      [
-       -111.65,
-       33.54
-      ],
-      [
-       -111.67,
-       33.51
-      ],
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.68,
-       33.53
-      ],
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.62,
-       33.56
-      ],
-      [
-       -111.54,
-       33.56
-      ],
-      [
-       -111.54,
-       33.57
-      ],
-      [
-       -111.53,
-       33.57
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.606,
-   "lat": 33.546,
    "countries": [
     "US"
    ]
@@ -1572,69 +1081,6 @@
    ]
   },
   {
-   "id": "KEAX.FL.W.0218.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Daviess, MO",
-    "Gentry, MO"
-   ],
-   "counties": [
-    "29061",
-    "29075"
-   ],
-   "sent": "2026-11-04T14:43:00Z",
-   "onset": "2026-11-04T14:43:00Z",
-   "ends": "2026-11-06T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9efcd9610381b2347c4e8b5c008719ace31df24e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94,
-       40.04
-      ],
-      [
-       -94.1,
-       39.96
-      ],
-      [
-       -94.45,
-       40.14
-      ],
-      [
-       -94.33,
-       40.2
-      ],
-      [
-       -94,
-       40.04
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -93.9701,
-     39.9628
-    ],
-    [
-     -94.4053,
-     40.2081
-    ]
-   ],
-   "lon": -94.176,
-   "lat": 40.076,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEAX.FL.W.0217.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1691,132 +1137,6 @@
    ],
    "lon": -94.718,
    "lat": 39.607,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEAX.FL.W.0221.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Daviess, MO",
-    "Livingston, MO"
-   ],
-   "counties": [
-    "29061",
-    "29117"
-   ],
-   "sent": "2026-11-04T14:43:00Z",
-   "onset": "2026-11-04T20:00:00Z",
-   "ends": "2026-11-06T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9efcd9610381b2347c4e8b5c008719ace31df24e.005.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94.1,
-       39.96
-      ],
-      [
-       -93.99,
-       40.04
-      ],
-      [
-       -93.63,
-       39.83
-      ],
-      [
-       -93.67,
-       39.74
-      ],
-      [
-       -94.1,
-       39.96
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -93.9701,
-     39.9628
-    ],
-    [
-     -93.5482,
-     39.7786
-    ]
-   ],
-   "lon": -93.898,
-   "lat": 39.906,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEAX.FL.W.0220.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Linn, MO",
-    "Livingston, MO"
-   ],
-   "counties": [
-    "29115",
-    "29117"
-   ],
-   "sent": "2026-11-04T14:43:00Z",
-   "onset": "2026-11-04T21:28:00Z",
-   "ends": "2026-11-07T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9efcd9610381b2347c4e8b5c008719ace31df24e.006.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -93.63,
-       39.83
-      ],
-      [
-       -93.43,
-       39.78
-      ],
-      [
-       -93.43,
-       39.67
-      ],
-      [
-       -93.67,
-       39.74
-      ],
-      [
-       -93.63,
-       39.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -93.108,
-     39.8644
-    ],
-    [
-     -93.5482,
-     39.7786
-    ]
-   ],
-   "lon": -93.558,
-   "lat": 39.77,
    "countries": [
     "US"
    ]
@@ -1880,85 +1200,6 @@
    ],
    "lon": -94.81,
    "lat": 39.986,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEAX.FL.W.0219.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Carroll, MO",
-    "Chariton, MO",
-    "Linn, MO",
-    "Livingston, MO"
-   ],
-   "counties": [
-    "29033",
-    "29041",
-    "29115",
-    "29117"
-   ],
-   "sent": "2026-11-04T14:43:00Z",
-   "onset": "2026-11-05T03:06:00Z",
-   "ends": "2026-11-08T11:22:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9efcd9610381b2347c4e8b5c008719ace31df24e.007.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -93.43,
-       39.67
-      ],
-      [
-       -93.43,
-       39.78
-      ],
-      [
-       -93.27,
-       39.7
-      ],
-      [
-       -93.21,
-       39.53
-      ],
-      [
-       -93.3,
-       39.51
-      ],
-      [
-       -93.43,
-       39.67
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -93.5002,
-     39.4274
-    ],
-    [
-     -92.9616,
-     39.518
-    ],
-    [
-     -93.108,
-     39.8644
-    ],
-    [
-     -93.5482,
-     39.7786
-    ]
-   ],
-   "lon": -93.345,
-   "lat": 39.643,
    "countries": [
     "US"
    ]
@@ -2728,6 +1969,477 @@
    ]
   },
   {
+   "id": "KLCH.FL.W.0048.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Lake Charles LA",
+   "areas": [
+    "Calcasieu, LA"
+   ],
+   "counties": [
+    "22019"
+   ],
+   "sent": "2026-11-04T22:30:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.baf7ac93f9d018913bb468aed080da7777c824c3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.09,
+       30.36
+      ],
+      [
+       -93.03,
+       30.29
+      ],
+      [
+       -93.28,
+       30.14
+      ],
+      [
+       -93.35,
+       30.17
+      ],
+      [
+       -93.32,
+       30.35
+      ],
+      [
+       -93.09,
+       30.36
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.358,
+     30.2296
+    ]
+   ],
+   "lon": -93.193,
+   "lat": 30.278,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FA.W.0028.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Alamosa, CO",
+    "Conejos, CO",
+    "Costilla, CO"
+   ],
+   "counties": [
+    "08003",
+    "08021",
+    "08023"
+   ],
+   "sent": "2026-11-04T22:44:00Z",
+   "onset": "2026-11-04T22:44:00Z",
+   "ends": "2026-11-05T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4fc0ec36acae796600191f045615af67b09e6afa.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.98,
+       37.19
+      ],
+      [
+       -105.86,
+       37.42
+      ],
+      [
+       -105.82,
+       37.49
+      ],
+      [
+       -105.71,
+       37.39
+      ],
+      [
+       -105.7,
+       37.27
+      ],
+      [
+       -105.8,
+       37.25
+      ],
+      [
+       -105.88,
+       37.07
+      ],
+      [
+       -105.98,
+       37.19
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -105.788,
+     37.5684
+    ],
+    [
+     -106.1764,
+     37.2134
+    ],
+    [
+     -105.4289,
+     37.2775
+    ]
+   ],
+   "lon": -105.841,
+   "lat": 37.284,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLCH.FL.W.0047.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Lake Charles LA",
+   "areas": [
+    "Calcasieu, LA"
+   ],
+   "counties": [
+    "22019"
+   ],
+   "sent": "2026-11-04T22:50:00Z",
+   "onset": "2026-11-04T22:50:00Z",
+   "ends": "2026-11-07T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ecdbd45af9345f0fd47459d536c2861e4e7f1d4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.14,
+       30.38
+      ],
+      [
+       -93.03,
+       30.31
+      ],
+      [
+       -93.08,
+       30.25
+      ],
+      [
+       -93.21,
+       30.19
+      ],
+      [
+       -93.29,
+       30.3
+      ],
+      [
+       -93.14,
+       30.38
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.358,
+     30.2296
+    ]
+   ],
+   "lon": -93.148,
+   "lat": 30.302,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEAX.FL.W.0221.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Daviess, MO",
+    "Livingston, MO"
+   ],
+   "counties": [
+    "29061",
+    "29117"
+   ],
+   "sent": "2026-11-05T01:17:00Z",
+   "onset": "2026-11-05T01:17:00Z",
+   "ends": "2026-11-06T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9387b0187945b26af56a3f517f79ffce687efaf5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -94.1,
+       39.96
+      ],
+      [
+       -93.99,
+       40.04
+      ],
+      [
+       -93.63,
+       39.83
+      ],
+      [
+       -93.67,
+       39.74
+      ],
+      [
+       -94.1,
+       39.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.9701,
+     39.9628
+    ],
+    [
+     -93.5482,
+     39.7786
+    ]
+   ],
+   "lon": -93.898,
+   "lat": 39.906,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEAX.FL.W.0219.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Carroll, MO",
+    "Chariton, MO",
+    "Linn, MO",
+    "Livingston, MO"
+   ],
+   "counties": [
+    "29033",
+    "29041",
+    "29115",
+    "29117"
+   ],
+   "sent": "2026-11-05T01:17:00Z",
+   "onset": "2026-11-05T01:20:00Z",
+   "ends": "2026-11-08T10:50:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9387b0187945b26af56a3f517f79ffce687efaf5.004.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.43,
+       39.67
+      ],
+      [
+       -93.43,
+       39.78
+      ],
+      [
+       -93.27,
+       39.7
+      ],
+      [
+       -93.21,
+       39.53
+      ],
+      [
+       -93.3,
+       39.51
+      ],
+      [
+       -93.43,
+       39.67
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.5002,
+     39.4274
+    ],
+    [
+     -92.9616,
+     39.518
+    ],
+    [
+     -93.108,
+     39.8644
+    ],
+    [
+     -93.5482,
+     39.7786
+    ]
+   ],
+   "lon": -93.345,
+   "lat": 39.643,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEAX.FL.W.0218.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Daviess, MO",
+    "Gentry, MO"
+   ],
+   "counties": [
+    "29061",
+    "29075"
+   ],
+   "sent": "2026-11-05T01:17:00Z",
+   "onset": "2026-11-05T01:17:00Z",
+   "ends": "2026-11-06T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9387b0187945b26af56a3f517f79ffce687efaf5.003.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -94,
+       40.04
+      ],
+      [
+       -94.1,
+       39.96
+      ],
+      [
+       -94.45,
+       40.14
+      ],
+      [
+       -94.33,
+       40.2
+      ],
+      [
+       -94,
+       40.04
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.9701,
+     39.9628
+    ],
+    [
+     -94.4053,
+     40.2081
+    ]
+   ],
+   "lon": -94.176,
+   "lat": 40.076,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEAX.FL.W.0220.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Linn, MO",
+    "Livingston, MO"
+   ],
+   "counties": [
+    "29115",
+    "29117"
+   ],
+   "sent": "2026-11-05T01:17:00Z",
+   "onset": "2026-11-05T01:17:00Z",
+   "ends": "2026-11-07T07:20:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9387b0187945b26af56a3f517f79ffce687efaf5.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.63,
+       39.83
+      ],
+      [
+       -93.43,
+       39.78
+      ],
+      [
+       -93.43,
+       39.67
+      ],
+      [
+       -93.67,
+       39.74
+      ],
+      [
+       -93.63,
+       39.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -93.108,
+     39.8644
+    ],
+    [
+     -93.5482,
+     39.7786
+    ]
+   ],
+   "lon": -93.558,
+   "lat": 39.77,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5785.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2858,25 +2570,77 @@
    ]
   },
   {
-   "id": "PAJK.HW.A.0009.2026",
-   "event": "High Wind Watch",
+   "id": "PAFG.UP.W.7266.2026",
+   "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-05T00:45:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f35e944801f0b57d9afc9b10d7c9889ce08d8de.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9416.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island from 15 to 80 NM"
+   ],
+   "counties": [
+    "58860"
+   ],
+   "sent": "2026-11-05T00:48:00Z",
+   "onset": "2026-11-05T00:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.768a691620d866a7f3e80251bbb3b90cc7a04ccb.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.HW.W.0013.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Juneau AK",
    "areas": [
-    "Prince of Wales Island",
+    "Annette Island",
     "Ketchikan Gateway Borough",
-    "Annette Island"
+    "Prince of Wales Island"
    ],
    "counties": [
     "02130",
     "02198"
    ],
-   "sent": "2026-11-04T17:29:00Z",
+   "sent": "2026-11-04T23:54:00Z",
    "onset": "2026-11-05T18:00:00Z",
-   "ends": "2026-11-06T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00dcb04997b2b82ac71a1a07be57d36f7f04b748.003.1",
+   "ends": "2026-11-06T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e725d92c1b3037fcc9cae3647633979214e7eb6.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2964,6 +2728,170 @@
    "onset": "2026-11-05T02:00:00Z",
    "ends": "2026-11-05T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5782eea46cb902a835bac8178f962cfa2857cb2.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.7987.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Decision to Cape Edgecumbe out to 15 NM"
+   ],
+   "counties": [
+    "58642"
+   ],
+   "sent": "2026-11-04T23:19:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5ac3875853a7e89af8dd7c6c9a547fc5bb50ce.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.7986.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision from 15 to 90 NM"
+   ],
+   "counties": [
+    "58661"
+   ],
+   "sent": "2026-11-04T23:19:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5ac3875853a7e89af8dd7c6c9a547fc5bb50ce.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.7988.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+   ],
+   "counties": [
+    "58662"
+   ],
+   "sent": "2026-11-04T23:19:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5ac3875853a7e89af8dd7c6c9a547fc5bb50ce.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.7985.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision out to 15 NM"
+   ],
+   "counties": [
+    "58641"
+   ],
+   "sent": "2026-11-04T23:19:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5ac3875853a7e89af8dd7c6c9a547fc5bb50ce.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.9653.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Clarence Strait"
+   ],
+   "counties": [
+    "58036"
+   ],
+   "sent": "2026-11-04T23:19:00Z",
+   "onset": "2026-11-05T14:00:00Z",
+   "ends": "2026-11-06T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7227e752369f5e4f42e366222203d48d97b691cb.012.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0018.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Clarence Strait",
+    "Cape Decision to Cape Edgecumbe out to 15 NM",
+    "Dixon Entrance to Cape Decision out to 15 NM",
+    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+   ],
+   "counties": [
+    "58036",
+    "58641",
+    "58642",
+    "58661",
+    "58662"
+   ],
+   "sent": "2026-11-04T23:20:00Z",
+   "onset": "2026-11-05T21:00:00Z",
+   "ends": "2026-11-06T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.830ec6fd490c350ec8bbe1df975d9d5c09425de4.001.4",
    "geometry": null,
    "vtec": true,
    "points": [],
