@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.1 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.2 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -47,7 +47,7 @@
     { id: "elements", name: "Elements", href: "https://elements.theintelligence.company", status: "beta", group: "layers",
       label: "Land and maritime · natural hazards",
       short: "Natural hazards as the authorities report them.",
-      long: "Natural hazards as the authorities report them: earthquakes with impact alerts, volcano alert levels, satellite fire detections, multi-hazard alerts, hurricane-center storms and disaster mapping on one map." },
+      long: "Natural hazards as the authorities report them, on one map. Worldwide: earthquakes with impact alerts, satellite fire detections, GDACS multi-hazard alerts and Copernicus disaster mapping. Regional: hurricane-center storms, and tsunami messages for North America, the Pacific and the Caribbean. US only for now: weather warnings, severe-storm outlooks, drought and volcano alert levels. Global weather is planned." },
     { id: "propertycast", name: "PropertyCast", href: "https://propertycast.theintelligence.company", status: "live", group: "tools",
       label: "Weather · one property",
       short: "A hyperlocal forecast that checks itself every hour.",
@@ -183,6 +183,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.1", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.2", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
