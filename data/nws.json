@@ -104,71 +104,6 @@
    ]
   },
   {
-   "id": "KPUB.FL.W.0008.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Alamosa, CO"
-   ],
-   "counties": [
-    "08003"
-   ],
-   "sent": "2026-11-02T22:29:00Z",
-   "onset": "2026-11-04T21:45:00Z",
-   "ends": "2026-11-06T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f77eed9d842c708a5a3d2e5d0c786d35cd12c2c0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -105.97,
-       37.59
-      ],
-      [
-       -105.89,
-       37.54
-      ],
-      [
-       -105.82,
-       37.49
-      ],
-      [
-       -105.86,
-       37.42
-      ],
-      [
-       -105.93,
-       37.47
-      ],
-      [
-       -106.01,
-       37.52
-      ],
-      [
-       -105.97,
-       37.59
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -105.788,
-     37.5684
-    ]
-   ],
-   "lon": -105.921,
-   "lat": 37.517,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.FA.W.0017.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1971,63 +1906,6 @@
    ]
   },
   {
-   "id": "KTBW.FL.W.0017.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL"
-   ],
-   "counties": [
-    "12027"
-   ],
-   "sent": "2026-11-05T15:58:00Z",
-   "onset": "2026-11-05T15:58:00Z",
-   "ends": "2026-11-07T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e96b9a3b5f056374f293a703d5d39936f0441d89.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.94,
-       27.26
-      ],
-      [
-       -81.98,
-       27.08
-      ],
-      [
-       -82.02,
-       27.08
-      ],
-      [
-       -82.01,
-       27.26
-      ],
-      [
-       -81.94,
-       27.26
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ]
-   ],
-   "lon": -81.978,
-   "lat": 27.188,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTBW.FL.W.0015.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2089,53 +1967,45 @@
    ]
   },
   {
-   "id": "KPUB.FL.W.0009.2026",
+   "id": "KTBW.FL.W.0017.2026",
    "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tampa Bay Ruskin FL",
    "areas": [
-    "Bent, CO"
+    "DeSoto, FL"
    ],
    "counties": [
-    "08011"
+    "12027"
    ],
-   "sent": "2026-11-05T16:02:00Z",
-   "onset": "2026-11-05T16:28:00Z",
-   "ends": "2026-11-06T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d50cbee5fc3fce5f801eeaf9fdf7b1f020469f7a.001.1",
+   "sent": "2026-11-05T15:58:00Z",
+   "onset": "2026-11-05T15:58:00Z",
+   "ends": "2026-11-07T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e96b9a3b5f056374f293a703d5d39936f0441d89.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -103.27,
-       38.03
+       -81.94,
+       27.26
       ],
       [
-       -103.23,
-       38.07
+       -81.98,
+       27.08
       ],
       [
-       -103.19,
-       38.1
+       -82.02,
+       27.08
       ],
       [
-       -103.13,
-       38.05
+       -82.01,
+       27.26
       ],
       [
-       -103.17,
-       38.01
-      ],
-      [
-       -103.21,
-       37.98
-      ],
-      [
-       -103.27,
-       38.03
+       -81.94,
+       27.26
       ]
      ]
     ]
@@ -2143,81 +2013,12 @@
    "vtec": true,
    "points": [
     [
-     -103.0776,
-     37.9319
+     -81.8063,
+     27.1906
     ]
    ],
-   "lon": -103.21,
-   "lat": 38.039,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMRX.FA.W.0002.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Morristown TN",
-   "areas": [
-    "Polk, TN"
-   ],
-   "counties": [
-    "47139"
-   ],
-   "sent": "2026-11-05T16:07:00Z",
-   "onset": "2026-11-05T16:07:00Z",
-   "ends": "2026-11-05T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0b430134170e79ce0d50ef9754262b84185f755.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -84.44,
-       34.99
-      ],
-      [
-       -84.47,
-       35.02
-      ],
-      [
-       -84.55,
-       35.06
-      ],
-      [
-       -84.59,
-       35.11
-      ],
-      [
-       -84.49,
-       35.1
-      ],
-      [
-       -84.38,
-       35.02
-      ],
-      [
-       -84.36,
-       34.99
-      ],
-      [
-       -84.44,
-       34.99
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -84.5411,
-     35.1094
-    ]
-   ],
-   "lon": -84.465,
-   "lat": 35.035,
+   "lon": -81.978,
+   "lat": 27.188,
    "countries": [
     "US"
    ]
@@ -2469,6 +2270,136 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FL.W.0008.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Alamosa, CO"
+   ],
+   "counties": [
+    "08003"
+   ],
+   "sent": "2026-11-05T17:23:00Z",
+   "onset": "2026-11-05T17:23:00Z",
+   "ends": "2026-11-06T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.318fbc53b8d3f265d936127bb7aea93cf0269c79.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.97,
+       37.59
+      ],
+      [
+       -105.89,
+       37.54
+      ],
+      [
+       -105.82,
+       37.49
+      ],
+      [
+       -105.86,
+       37.42
+      ],
+      [
+       -105.93,
+       37.47
+      ],
+      [
+       -106.01,
+       37.52
+      ],
+      [
+       -105.97,
+       37.59
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -105.788,
+     37.5684
+    ]
+   ],
+   "lon": -105.921,
+   "lat": 37.517,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Bent, CO"
+   ],
+   "counties": [
+    "08011"
+   ],
+   "sent": "2026-11-05T17:26:00Z",
+   "onset": "2026-11-05T17:26:00Z",
+   "ends": "2026-11-07T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d708061581d1a9e313e91c5c0c8867a6d15b3920.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -103.27,
+       38.03
+      ],
+      [
+       -103.23,
+       38.07
+      ],
+      [
+       -103.19,
+       38.1
+      ],
+      [
+       -103.13,
+       38.05
+      ],
+      [
+       -103.17,
+       38.01
+      ],
+      [
+       -103.21,
+       37.98
+      ],
+      [
+       -103.27,
+       38.03
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -103.0776,
+     37.9319
+    ]
+   ],
+   "lon": -103.21,
+   "lat": 38.039,
    "countries": [
     "US"
    ]
@@ -2793,17 +2724,20 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera"
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains"
    ],
    "counties": [
     "30035",
+    "30049",
     "30073",
+    "30099",
     "30101"
    ],
-   "sent": "2026-11-05T06:06:00Z",
+   "sent": "2026-11-05T17:38:00Z",
    "onset": "2026-11-06T19:00:00Z",
    "ends": "2026-11-07T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.348bf38e7d6b0bcf4a129b163861ec91ad9da127.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f0b02912432c81159b5899533515da05452ada.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2812,16 +2746,78 @@
      48.7057
     ],
     [
+     -112.3829,
+     47.1221
+    ],
+    [
      -112.2208,
      48.2286
+    ],
+    [
+     -112.2817,
+     47.819
     ],
     [
      -111.7335,
      48.6451
     ]
    ],
-   "lon": -112.315,
-   "lat": 48.526,
+   "lon": -112.322,
+   "lat": 48.104,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.A.0033.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "East Glacier Park Region",
+    "Northern High Plains",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains"
+   ],
+   "counties": [
+    "30035",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-05T17:38:00Z",
+   "onset": "2026-11-08T15:00:00Z",
+   "ends": "2026-11-09T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f0b02912432c81159b5899533515da05452ada.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -112.322,
+   "lat": 48.104,
    "countries": [
     "US"
    ]
@@ -2990,8 +2986,8 @@
    "certainty": "Observed",
    "sender": "NWS Juneau AK",
    "areas": [
-    "Cape Decision to Cape Edgecumbe out to 15 NM",
     "Dixon Entrance to Cape Decision out to 15 NM",
+    "Cape Decision to Cape Edgecumbe out to 15 NM",
     "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
     "Dixon Entrance to Cape Decision from 15 to 90 NM",
     "Clarence Strait"
@@ -3003,10 +2999,10 @@
     "58661",
     "58662"
    ],
-   "sent": "2026-11-05T14:51:00Z",
+   "sent": "2026-11-05T17:38:00Z",
    "onset": "2026-11-05T18:00:00Z",
    "ends": "2026-11-06T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b4a74ba8c31e59baf1ad1320cb0c4a4c438d083.002.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d86dab644826b9612b64b8f316d510cdbc722b6.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
