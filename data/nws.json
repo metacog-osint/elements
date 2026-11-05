@@ -2024,152 +2024,6 @@
    ]
   },
   {
-   "id": "KFFC.FA.W.0001.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Peachtree City GA",
-   "areas": [
-    "Fannin, GA"
-   ],
-   "counties": [
-    "13111"
-   ],
-   "sent": "2026-11-05T16:10:00Z",
-   "onset": "2026-11-05T16:10:00Z",
-   "ends": "2026-11-05T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53fd12a47fee994dae252987b88b10702d3ed9f5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -84.36,
-       34.99
-      ],
-      [
-       -84.34,
-       34.98
-      ],
-      [
-       -84.26,
-       34.9
-      ],
-      [
-       -84.35,
-       34.88
-      ],
-      [
-       -84.43,
-       34.93
-      ],
-      [
-       -84.43,
-       34.96
-      ],
-      [
-       -84.44,
-       34.99
-      ],
-      [
-       -84.36,
-       34.99
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -84.3173,
-     34.8665
-    ]
-   ],
-   "lon": -84.371,
-   "lat": 34.953,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMRX.FA.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Morristown TN",
-   "areas": [
-    "Bradley, TN",
-    "McMinn, TN",
-    "Polk, TN"
-   ],
-   "counties": [
-    "47011",
-    "47107",
-    "47139"
-   ],
-   "sent": "2026-11-05T16:16:00Z",
-   "onset": "2026-11-05T16:16:00Z",
-   "ends": "2026-11-05T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa0f57ccfbcde9a096b8f328cf607506e2d6679c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -84.82,
-       35.29
-      ],
-      [
-       -84.75,
-       35.36
-      ],
-      [
-       -84.64,
-       35.24
-      ],
-      [
-       -84.63,
-       35.11
-      ],
-      [
-       -84.69,
-       35.07
-      ],
-      [
-       -84.72,
-       35.2
-      ],
-      [
-       -84.82,
-       35.29
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -84.8594,
-     35.1539
-    ],
-    [
-     -84.6199,
-     35.4245
-    ],
-    [
-     -84.5411,
-     35.1094
-    ]
-   ],
-   "lon": -84.724,
-   "lat": 35.223,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KDVN.FL.W.0092.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2400,6 +2254,83 @@
    ],
    "lon": -103.21,
    "lat": 38.039,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMRX.FA.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Morristown TN",
+   "areas": [
+    "Bradley, TN",
+    "McMinn, TN",
+    "Polk, TN"
+   ],
+   "counties": [
+    "47011",
+    "47107",
+    "47139"
+   ],
+   "sent": "2026-11-05T18:59:00Z",
+   "onset": "2026-11-05T18:59:00Z",
+   "ends": "2026-11-05T21:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8c3011f042cb7e3f784050684a5c02b391ff463.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -84.69,
+       35.07
+      ],
+      [
+       -84.63,
+       35.11
+      ],
+      [
+       -84.64,
+       35.24
+      ],
+      [
+       -84.75,
+       35.36
+      ],
+      [
+       -84.82,
+       35.29
+      ],
+      [
+       -84.72,
+       35.2
+      ],
+      [
+       -84.69,
+       35.07
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -84.8594,
+     35.1539
+    ],
+    [
+     -84.6199,
+     35.4245
+    ],
+    [
+     -84.5411,
+     35.1094
+    ]
+   ],
+   "lon": -84.706,
+   "lat": 35.191,
    "countries": [
     "US"
    ]
