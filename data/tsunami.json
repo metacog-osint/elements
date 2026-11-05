@@ -1,6 +1,25 @@
 {
  "records": [
   {
+   "id": "NTWC-20261105T045604Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-05T05:01:47Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "75 miles SW of Eureka, California",
+   "magnitude": 4.5,
+   "magnitude_type": "Ml",
+   "origin": "2026-11-05T04:56:04Z",
+   "depth_km": 13.0,
+   "lat": 40.396,
+   "lon": -125.484,
+   "countries": [],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/05/to0j1g/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "NTWC-20261101T113021Z",
    "centre": "NTWC",
    "msg_type": "Alert",
