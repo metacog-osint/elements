@@ -119,6 +119,18 @@
    ]
   },
   {
+   "id": "EL-PIR-11",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "Where in Europe are national weather services warning of dangerous weather (MeteoAlarm orange or red), and how widespread are their warnings?",
+   "series": [
+    "MeteoAlarm warnings from 39 national weather services (yellow, orange, red)"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
    "id": "EL-EEI-1",
    "type": "eei",
    "parent": "EL-PIR-1",

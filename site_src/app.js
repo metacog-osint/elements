@@ -42,7 +42,7 @@
     .setView([25, 0], openZoom);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA · Copernicus EMS · NASA FIRMS");
+  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA · MeteoAlarm · Copernicus EMS · NASA FIRMS");
   // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
 
@@ -56,7 +56,9 @@
   var DM_NAMES = ["Abnormally dry", "Moderate drought", "Severe drought", "Extreme drought", "Exceptional drought"];
   var TSU = { information: "information statement", threat: "threat message", watch: "watch", advisory: "advisory", warning: "warning" };
 
-  function draw(world, feats, fires, drought) {
+  function areaList(a) { return a.length > 3 ? a.slice(0, 3).join("; ") + " and " + (a.length - 3) + " more" : a.join("; "); }
+
+  function draw(world, feats, fires, drought, euwx) {
     // Land goes in its own pane below the overlays: Leaflet stacks any SVG above any canvas in a pane, and the fire
     // canvas has to sit above the land.
     map.createPane("land").style.zIndex = 350;
@@ -164,6 +166,24 @@
     });
     layers.weather.addTo(map);
 
+    // European warnings (MeteoAlarm), every level from yellow to red, yellow first so the worse sit on top: the
+    // polygon a service drew, or a dot at each region a warning names.
+    layers.euwx = L.layerGroup();
+    ((euwx && euwx.warnings) || []).forEach(function (w) {
+      var col = css("--a-" + w.colour), lvl = w.level || 2;
+      var text = cap(w.colour) + " " + w.type + " warning (" + ((euwx.names || {})[w.country] || w.country) + ")\n"
+        + areaList(w.areas || []) + "\n" + (w.sender || "") + "\nFrom " + when(w.onset) + " until " + when(w.expires)
+        + (w.credit ? "\n" + w.credit : "");
+      var shape = w.polygons && w.polygons.length ? { type: "MultiPolygon", coordinates: w.polygons }
+        : { type: "MultiPoint", coordinates: w.points || [] };
+      L.geoJSON({ type: "Feature", geometry: shape, properties: {} }, {
+        style: { color: col, weight: 1.4, fillColor: col, fillOpacity: 0.18 },
+        pointToLayer: function (pt, ll) {
+          return L.circleMarker(ll, { radius: 2 + lvl, weight: 1, color: css("--mark-edge"), fillColor: col, fillOpacity: 0.85 }); }
+      }).bindTooltip(tip(text), { sticky: true }).addTo(layers.euwx);
+    });
+    layers.euwx.addTo(map);
+
     layers.tsunami = L.layerGroup();
     by.tsunami.forEach(function (f) {
       if (!f.geometry) return;
@@ -222,12 +242,13 @@
       h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
       h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
       h("span", null, [h("span", { "class": "wx" }), "US weather warning"]),
+      h("span", null, [h("span", { "class": "eu" }), "European weather warning (dot per region)"]),
       h("span", null, [h("span", { "class": "ts-icon a-none lg-ts" }, ["TSU"]), "tsunami message"]),
       sw("ring", "", "Copernicus activation")]));
   }
 
   function lists(feats, health, generated, fires) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
     // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
@@ -237,6 +258,7 @@
       if (ln === "nws") return [p.measures.severity === "Extreme" ? "red" : "orange", "NWS, " + p.measures.severity.toLowerCase()];
       if (ln === "spc") return [p.measures.level >= 5 ? "red" : "orange", "SPC outlook"];
       if (ln === "tsunami") return [p.measures.level === "warning" ? "red" : "orange", "NOAA tsunami centre"];
+      if (ln === "meteoalarm") return [p.measures.awareness_level, (p.measures.issuer || "National weather service") + " via MeteoAlarm"];
       var st = (p.response_stage || ":").split(":");
       return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
     }
@@ -250,7 +272,7 @@
       var what = p.title.replace(/^GDACS \w+ alert: /, "");
       var src = alertOf(p)[1];
       return [badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])]; }))
-      : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, and no US volcano above Normal."));
+      : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, and no Extreme US or red European weather warning."));
 
     var vo = by["usgs-volcano"].slice().sort(function (x, y) {
       return (RANK[(y.measures.aviation_color || "").toLowerCase()] || 0) - (RANK[(x.measures.aviation_color || "").toLowerCase()] || 0)
@@ -276,6 +298,32 @@
       var m = p.measures, where = m.areas.length > 3 ? m.areas.slice(0, 3).join("; ") + " and " + (m.areas.length - 3) + " more" : m.areas.join("; ");
       return [m.severity === "Extreme" ? badge("red", m.event) : m.event, where, when(m.ends), (m.office || "").replace(/^NWS /, "")]; }), { 2: 1 })
       : empty("No Severe or Extreme NWS warning or watch is in force."));
+
+    // Europe: orange and red warnings one by one, then every country with a warning in force.
+    var euCountry = by.meteoalarm.filter(function (p) { return /:in-force$/.test(p.id); })
+      .sort(function (x, y) { var a = x.measures, b = y.measures;
+        return (b.red - a.red) || (b.orange - a.orange) || (b.warnings - a.warnings) || a.country_name.localeCompare(b.country_name); });
+    var euHot = by.meteoalarm.filter(function (p) { return !/:in-force$/.test(p.id); })
+      .sort(function (x, y) { return y.measures.level - x.measures.level || (x.measures.onset || "").localeCompare(y.measures.onset || ""); });
+    var euN = euCountry.reduce(function (t, p) { ["warnings", "yellow", "orange", "red"].forEach(function (k) { t[k] += p.measures[k] || 0; }); return t; },
+      { warnings: 0, yellow: 0, orange: 0, red: 0 });
+    var parts = ["red", "orange", "yellow"].filter(function (k) { return euN[k]; }).map(function (k) { return num(euN[k]) + " " + k; });
+    document.getElementById("eu-sum").replaceChildren(euCountry.length
+      ? num(euN.warnings) + " warning" + (euN.warnings === 1 ? "" : "s") + " in force in " + euCountry.length + " of MeteoAlarm's 39 countries: " + parts.join(", ") + "."
+      : "No yellow, orange or red warning is in force in MeteoAlarm's 39 countries, or MeteoAlarm could not be read (see Sources).");
+    document.getElementById("eu-warn").replaceChildren(euHot.length ? table(["Level", "Warning", "Where", "From", "Until"], euHot.map(function (p) {
+      var m = p.measures;
+      return [badge(m.awareness_level, cap(m.awareness_level)), h("span", null, [link(p.link, cap(m.awareness_type)),
+        h("span", { "class": "sub" }, [(m.issuer || "") + (m.credit ? " · " + m.credit : "")])]), areaList(m.areas || []), when(m.onset), when(m.expires)]; }), { 3: 1, 4: 1 })
+      : empty("No orange or red warning is in force in Europe."));
+    var euCc = document.getElementById("eu-cc");
+    if (euCountry.length) {
+      euCc.replaceChildren(table(["Country", "Red", "Orange", "Yellow", "Most for"], euCountry.map(function (p) {
+        var m = p.measures, top = Object.keys(m.by_type || {})[0];
+        return [m.country_name, m.red || "—", m.orange || "—", m.yellow || "—", top ? top + " (" + m.by_type[top] + ")" : "—"]; }), { 1: 1, 2: 1, 3: 1 }));
+    } else {
+      euCc.replaceChildren();
+    }
 
     var ts = by.tsunami.slice().sort(function (x, y) { return (y.data_as_of || "").localeCompare(x.data_as_of || ""); });
     document.getElementById("tsunami").replaceChildren(ts.length ? table(["Message", "Earthquake", "Sent"], ts.map(function (p) {
@@ -363,7 +411,8 @@
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
       "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
       "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook",
-      "noaa-tsunami": "NOAA tsunami warning centres", "us-drought-monitor": "US Drought Monitor (weekly)" };
+      "noaa-tsunami": "NOAA tsunami warning centres", "us-drought-monitor": "US Drought Monitor (weekly)",
+      meteoalarm: "MeteoAlarm warnings (39 European countries)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;
@@ -379,8 +428,9 @@
   }
   // The fire cells are optional: without them the rest of the page still draws.
   Promise.all([get("geo/world.json"), get("data/feed.geojson"), get("data/health.json"),
-    get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; })]).then(function (x) {
-    draw(x[0], x[1].features, x[3], x[4]);
+    get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; }),
+    get("data/meteoalarm.json").catch(function () { return null; })]).then(function (x) {
+    draw(x[0], x[1].features, x[3], x[4], x[5]);
     lists(x[1].features, x[2], x[1].generated_at, x[3]);
     T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });
   }).catch(function (e) {

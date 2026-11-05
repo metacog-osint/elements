@@ -73,6 +73,24 @@
    "name": "EPA RadNet near-real-time air monitoring",
    "licence": "US public domain",
    "use": "not used: only whole-year CSV files per city (about 750 KB each, ~140 cities); no latest-reading endpoint found (31 Oct 2026)"
+  },
+  {
+   "id": "meteoalarm",
+   "name": "MeteoAlarm warnings, one CAP JSON file per country (feeds.meteoalarm.org/api/v1/warnings/feeds-{country}), 39 countries",
+   "licence": "CC BY 4.0 (stated on feeds.meteoalarm.org); data provided by EUMETNET members",
+   "use": "ingest"
+  },
+  {
+   "id": "meteoalarm-geocodes",
+   "name": "MeteoAlarm geocodes file (gitlab.com/meteoalarm-pm-group/documents), one point per region kept in catalog/meteoalarm_areas.json",
+   "licence": "No licence stated (not verified); MeteoAlarm material, credited; outlines not kept",
+   "use": "ingest"
+  },
+  {
+   "id": "wmo-swic",
+   "name": "WMO Severe Weather Information Centre 3.0 (severeweather.wmo.int), worldwide CAP warnings and tropical cyclones",
+   "licence": "WMO website terms: personal, non-commercial use, no redistribution or compilation (wmo.int/copyright, 20 Mar 2025)",
+   "use": "not used: terms bar republishing (5 Nov 2026); each warning's copyright stays with its issuing service; ask WMO"
   }
  ],
  "extra": {
@@ -169,6 +187,17 @@
    "ease_of_faking": "low",
    "cadence_s": 604800,
    "descriptor": "Weekly US drought categories"
+  },
+  "meteoalarm": {
+   "grade": "A1",
+   "independence_group": "eumetnet",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Official national weather warnings, MeteoAlarm awareness levels yellow to red",
+   "probe": {
+    "url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-germany",
+    "expect": "json"
+   }
   }
  }
 }

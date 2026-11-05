@@ -46,6 +46,10 @@ SRC["usdm"] = {"id": "us-drought-monitor", "publisher": "US Drought Monitor (NDM
                "url": "https://droughtmonitor.unl.edu/", "licence": "Credit NDMC, USDA and NOAA (no licence stated; not verified)",
                "grade": "A2", "independence_group": "usdm", "source_type": "expert assessment",
                "descriptor": "Weekly drought categories D0 to D4, percent of US area (cumulative)"}
+SRC["meteoalarm"] = {"id": "meteoalarm", "publisher": "MeteoAlarm (EUMETNET), from its members' national weather services",
+                     "url": "https://meteoalarm.org/", "licence": "CC BY 4.0 (feeds.meteoalarm.org)", "grade": "A1",
+                     "independence_group": "eumetnet", "source_type": "official warning",
+                     "descriptor": "National weather service warning (CAP) with MeteoAlarm's awareness level and type"}
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
                  "advisory": "advisory", "warning": "warning"}
@@ -216,6 +220,72 @@ def _weather_items(d: dict, now: datetime) -> list[dict]:
     return out
 
 
+def _meteoalarm_items(d: dict, now: datetime) -> list[dict]:
+    """European warnings (MeteoAlarm). One item per orange or red warning, placed by its own polygon or its regions'
+    points; red (very dangerous) is an anomaly against MeteoAlarm's awareness levels, as Extreme is for NWS. Yellow
+    warnings, hundreds on an ordinary day, are counted in one item per country; every level is on the map
+    (meteoalarm.json). Not a kit ladder yet, so no response_stage."""
+    from .meteoalarm import PAGE
+    out = []
+    f = (d.get("meteoalarm") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    live = [r for r in (d.get("meteoalarm") or {}).get("records") or [] if (r.get("expires") or "") > stamp]
+    for r in live:
+        if r["level"] < 3:
+            continue
+        red = r["level"] == 4
+        src = {**SRC["meteoalarm"], "publisher": f"{r['sender'] or 'National weather service'} via MeteoAlarm (EUMETNET)",
+               "url": r.get("web") or PAGE, "accessed_at": f}
+        p = {**_base(f), "id": f"elements:meteoalarm:{r['country'].lower()}:{r['id']}",
+             "title": f"{r['colour'].title()} {r['type']} warning for {_area_text(r['areas'])} ({r['sender']})",
+             "tier": "anomaly" if red else "routine", "data_as_of": r.get("sent") or f, "valid_until": r["expires"],
+             "countries": [r["country"]], "requirement_ids": ["EL-PIR-11"], "sources": [src], "link": r.get("web") or PAGE,
+             "precision_class": r["precision"],
+             "measures": {"awareness_level": r["colour"], "level": r["level"], "awareness_type": r["type"],
+                          "event": r.get("event"), "headline": r.get("headline"), "issuer": r["sender"],
+                          "severity": r.get("severity"), "urgency": r.get("urgency"), "certainty": r.get("certainty"),
+                          "onset": r.get("onset"), "expires": r["expires"], "areas": r["areas"], "placed": r.get("placed"),
+                          "credit": r.get("credit"), "cap_identifier": r.get("identifier")}}
+        if red:
+            p["baseline_ref"] = {"id": "meteoalarm-awareness", "type": "fixed", "version": "1",
+                                 "window": "MeteoAlarm awareness levels: green, yellow, orange, red (very dangerous)"}
+        if r.get("polygons"):
+            g = {"type": "MultiPolygon", "coordinates": r["polygons"]}
+        elif r.get("points"):
+            g = {"type": "MultiPoint", "coordinates": r["points"]}
+        else:
+            g = None
+            p.update({"precision_class": "none", "visual": {"type": "page", "url": r.get("web") or PAGE}})
+        out.append({"type": "Feature", "geometry": g, "properties": p})
+    by_cc = {}
+    for r in live:
+        by_cc.setdefault(r["country"], []).append(r)
+    for cc, rs in sorted(by_cc.items()):
+        n = {c: sum(1 for r in rs if r["colour"] == c) for c in ("yellow", "orange", "red")}
+        kinds = {}
+        for r in rs:
+            kinds[r["type"]] = kinds.get(r["type"], 0) + 1
+        top = sorted(kinds.items(), key=lambda kv: (-kv[1], kv[0]))
+        name = country_name(cc)
+        lp = country_point(cc)
+        counts = ", ".join(f"{n[c]} {c}" for c in ("red", "orange", "yellow") if n[c])
+        p = {**_base(f), "id": f"elements:meteoalarm:{cc.lower()}:in-force",
+             "title": f"{len(rs)} weather warning{'s' if len(rs) != 1 else ''} in force in {name} ({counts}), most for "
+                      f"{top[0][0]} (MeteoAlarm)",
+             "tier": "routine", "data_as_of": max(r.get("sent") or f for r in rs), "countries": [cc],
+             "precision_class": "country", "requirement_ids": ["EL-PIR-11"],
+             "sources": [{**SRC["meteoalarm"], "url": PAGE, "accessed_at": f}], "link": PAGE,
+             "measures": {"country_name": name, "warnings": len(rs), **n, "by_type": dict(top),
+                          "issuers": sorted({r["sender"] for r in rs if r["sender"]}),
+                          "note": "Every warning not yet expired, including those that start later; green messages are not counted"}}
+        if lp:
+            out.append({"type": "Feature", "geometry": _pt(lp[1], lp[0]), "properties": p})
+        else:
+            p.update({"precision_class": "none", "visual": {"type": "page", "url": PAGE}})
+            out.append({"type": "Feature", "geometry": None, "properties": p})
+    return out
+
+
 PAGER_RANK = {"green": 0, "yellow": 1, "orange": 2, "red": 3}
 TC_NAMES = {"TD": "Tropical depression", "TS": "Tropical storm", "HU": "Hurricane", "STD": "Subtropical depression",
             "STS": "Subtropical storm", "PTC": "Potential tropical cyclone", "PT": "Post-tropical cyclone"}
@@ -313,6 +383,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     feats += _weather_items(d, now)
     feats += _tsunami_items(d, now)
     feats += _drought_item(d, now)
+    feats += _meteoalarm_items(d, now)
 
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -352,11 +423,13 @@ def build(d: dict, now: datetime | None = None) -> dict:
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
-            "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content with attribution",
+            "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
+                       "with attribution; MeteoAlarm content CC BY 4.0",
             "attribution": "Elements, The Intelligence Company. Sources: USGS, GDACS, NOAA NHC, Copernicus EMS (© European Union), "
-                           "NASA FIRMS (LANCE, operated by NASA's Earth Science Data and Information System).",
+                           "NASA FIRMS (LANCE, operated by NASA's Earth Science Data and Information System), "
+                           "MeteoAlarm (EUMETNET) and the national weather services that issue its warnings.",
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
             "dropped": dropped, "features": kept}
