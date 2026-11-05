@@ -1,6 +1,38 @@
 {
  "records": [
   {
+   "id": "us7000tw8r",
+   "mag": 6.1,
+   "place": "Fiji region",
+   "time": "2026-11-05T17:21:45Z",
+   "updated": "2026-11-05T18:01:54Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 572,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r",
+   "depth_km": 540.8,
+   "lon": -178.646,
+   "lat": -21.169,
+   "countries": []
+  },
+  {
+   "id": "us7000tw8p",
+   "mag": 5.0,
+   "place": "130 km NE of Thang, India",
+   "time": "2026-11-05T16:56:25Z",
+   "updated": "2026-11-05T17:13:46Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 385,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8p",
+   "depth_km": 76.9,
+   "lon": 77.94,
+   "lat": 35.632,
+   "countries": [
+    "CN"
+   ]
+  },
+  {
    "id": "us7000tw7b",
    "mag": 4.8,
    "place": "Sea of Okhotsk",
@@ -20,8 +52,8 @@
    "mag": 5.1,
    "place": "19 km NNW of Masumbwe, Tanzania",
    "time": "2026-11-05T09:22:32Z",
-   "updated": "2026-11-05T15:16:32Z",
-   "alert": null,
+   "updated": "2026-11-05T17:55:29Z",
+   "alert": "green",
    "tsunami": false,
    "sig": 410,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw76",
@@ -37,10 +69,10 @@
    "mag": 5.0,
    "place": "111 km W of Petrolia, CA",
    "time": "2026-11-05T04:56:02Z",
-   "updated": "2026-11-05T16:22:57Z",
+   "updated": "2026-11-05T18:36:43Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 428,
+   "sig": 430,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637",
    "depth_km": 10.0,
    "lon": -125.585,
@@ -163,7 +195,7 @@
    "mag": 4.9,
    "place": "9 km N of Delta, B.C., MX",
    "time": "2026-11-03T18:27:31Z",
-   "updated": "2026-11-05T02:25:43Z",
+   "updated": "2026-11-05T18:37:38Z",
    "alert": "green",
    "tsunami": false,
    "sig": 540,
@@ -194,15 +226,15 @@
    "id": "us7000tvie",
    "mag": 5.2,
    "place": "Volcano Islands, Japan region",
-   "time": "2026-11-03T16:48:13Z",
-   "updated": "2026-11-03T17:05:18Z",
+   "time": "2026-11-03T16:48:12Z",
+   "updated": "2026-11-05T16:42:01Z",
    "alert": null,
    "tsunami": false,
    "sig": 416,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvie",
-   "depth_km": 139.5,
-   "lon": 141.673,
-   "lat": 24.144,
+   "depth_km": 129.2,
+   "lon": 141.669,
+   "lat": 24.177,
    "countries": []
   },
   {
@@ -222,17 +254,17 @@
   },
   {
    "id": "us7000tv5i",
-   "mag": 4.9,
+   "mag": 5.0,
    "place": "South Sandwich Islands region",
-   "time": "2026-11-03T13:34:06Z",
-   "updated": "2026-11-03T18:31:26Z",
+   "time": "2026-11-03T13:34:04Z",
+   "updated": "2026-11-05T16:44:27Z",
    "alert": null,
    "tsunami": false,
-   "sig": 369,
+   "sig": 385,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv5i",
-   "depth_km": 152.0,
-   "lon": -26.377,
-   "lat": -58.819,
+   "depth_km": 133.1,
+   "lon": -26.29,
+   "lat": -58.798,
    "countries": []
   },
   {
@@ -360,6 +392,23 @@
    "lon": 146.611,
    "lat": 13.795,
    "countries": []
+  },
+  {
+   "id": "us7000tuyi",
+   "mag": 4.5,
+   "place": "212 km ENE of Nagqu, China",
+   "time": "2026-11-02T18:33:10Z",
+   "updated": "2026-11-05T18:47:40Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuyi",
+   "depth_km": 10.0,
+   "lon": 93.996,
+   "lat": 32.447,
+   "countries": [
+    "CN"
+   ]
   },
   {
    "id": "us7000tuxy",
@@ -1384,21 +1433,6 @@
    "depth_km": 15.6,
    "lon": -163.028,
    "lat": 53.584,
-   "countries": []
-  },
-  {
-   "id": "us7000tu2j",
-   "mag": 4.5,
-   "place": "141 km E of Miyako, Japan",
-   "time": "2026-10-29T17:37:01Z",
-   "updated": "2026-10-29T18:43:48Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu2j",
-   "depth_km": 35.0,
-   "lon": 143.562,
-   "lat": 39.862,
    "countries": []
   }
  ]
