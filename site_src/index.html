@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Elements: natural hazards as the authorities report them</title>
-<meta name="description" content="USGS earthquakes with PAGER impact alerts, GDACS multi-hazard alerts, NOAA hurricane center storms, Copernicus EMS disaster-mapping activations and NASA FIRMS fire detections on one map. A project of The Intelligence Company.">
+<meta name="description" content="USGS earthquakes with PAGER impact alerts, GDACS multi-hazard alerts, NOAA hurricane center storms, European weather warnings from MeteoAlarm, Copernicus EMS disaster-mapping activations and NASA FIRMS fire detections on one map. A project of The Intelligence Company.">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="tic-time.css">
@@ -28,10 +28,11 @@
 
 <main class="wrap">
   <section class="hero">
-    <h1>Earthquakes, cyclones, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
+    <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
     <p class="lede">USGS earthquakes with their PAGER impact alert, USGS volcano alerts, GDACS multi-hazard alerts, NOAA
-      hurricane, weather-warning, severe-storm and tsunami products, the US Drought Monitor, Copernicus EMS rapid-mapping
-      activations and NASA FIRMS satellite fire detections, collected every hour.</p>
+      hurricane, weather-warning, severe-storm and tsunami products, European national weather services' warnings
+      through MeteoAlarm, the US Drought Monitor, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire
+      detections, collected every hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
@@ -41,6 +42,7 @@
         <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
         <label><input type="checkbox" data-layer="volcano" checked> US volcano alerts</label>
         <label><input type="checkbox" data-layer="weather" checked> US weather warnings</label>
+        <label><input type="checkbox" data-layer="euwx" checked> European weather warnings</label>
         <label><input type="checkbox" data-layer="tsunami" checked> Tsunami messages</label>
         <label><input type="checkbox" data-layer="drought"> US drought</label>
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
@@ -54,9 +56,10 @@
 
   <section class="card" aria-labelledby="alerts-h">
     <h2 id="alerts-h">Alerts above the bottom rung</h2>
-    <p class="muted small">PAGER yellow or worse, GDACS orange or red, and any US volcano above Normal. PAGER and GDACS
-      are model estimates of impact, issued within minutes and revised as reports arrive; a GDACS alert is the highest the
-      event has reached. Volcano alerts are set by the responsible USGS observatory.</p>
+    <p class="muted small">PAGER yellow or worse, GDACS orange or red, any US volcano above Normal, and Extreme US or red
+      European weather warnings. PAGER and GDACS are model estimates of impact, issued within minutes and revised as
+      reports arrive; a GDACS alert is the highest the event has reached. Volcano alerts are set by the responsible USGS
+      observatory, weather warnings by the national weather service.</p>
     <div id="alerts"></div>
   </section>
 
@@ -76,6 +79,18 @@
       scale (Minor, Moderate, Severe, Extreme). Storm-based warnings are drawn as the area NWS drew; the rest as a dot at
       each county they name.</p>
     <div id="nws"></div>
+  </section>
+
+  <section class="card" aria-labelledby="eu-h">
+    <h2 id="eu-h">Weather warnings in Europe</h2>
+    <p class="muted small" id="eu-sum"></p>
+    <p class="muted small">Official warnings from the national weather services of 39 countries (the EU, the UK, Norway,
+      Switzerland, the Balkans, Ukraine, Moldova and Israel), gathered by MeteoAlarm. Its levels: yellow, potentially
+      dangerous; orange, dangerous; red, very dangerous (green, no particular awareness, is left out). Warnings that start
+      later today or tomorrow are included. Each is drawn as the polygon its service drew, or as a dot at each region it
+      names.</p>
+    <div id="eu-warn"></div>
+    <div id="eu-cc"></div>
   </section>
 
   <div class="two">
@@ -144,8 +159,12 @@
       Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
     <p class="small muted">The US Drought Monitor is produced jointly by the National Drought Mitigation Center at the
       University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC.</p>
-    <p class="small muted">Not yet covered: volcanoes outside the US beyond GDACS's alerts, and radiation monitoring (EPA
-      RadNet publishes only whole-year files per city).
+    <p class="small muted">European weather warnings: MeteoAlarm (EUMETNET), data provided by EUMETNET members' national
+      weather services, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
+      Region points are derived from MeteoAlarm's geocodes file. A warning that carries its own credit shows it in its
+      tooltip (Deutscher Wetterdienst's areas: © GeoBasis-DE / BKG).</p>
+    <p class="small muted">Not yet covered: weather warnings outside the US and Europe, volcanoes outside the US beyond
+      GDACS's alerts, and radiation monitoring (EPA RadNet publishes only whole-year files per city).
       NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
   </section>
 </main>

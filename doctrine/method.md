@@ -47,6 +47,31 @@ either link to the alert instead. Extreme is an anomaly against the CAP scale. T
 categorical outlook gives one item per risk area from Marginal to High; Moderate and High are anomalies. Neither
 scale is a kit ladder yet, so these items carry no response stage.
 
+## European weather warnings (MeteoAlarm)
+MeteoAlarm (EUMETNET) gathers the official warnings of 39 national weather services and publishes them as CAP, one
+JSON file per country, under CC BY 4.0. Elements reads every file, keeps the actual, public warnings at MeteoAlarm's
+yellow, orange and red awareness levels that have not expired (warnings starting later are included), and reads each
+warning's English text. Green messages ("no particular awareness") and all-clear updates are dropped. MeteoAlarm's
+files already leave out messages a later update replaced; a warning keeps one id across its updates, from the first
+message in its chain of references.
+
+Orange and red warnings are one item each; red (very dangerous) is an anomaly against MeteoAlarm's scale, as Extreme
+is for NWS. Yellow warnings, hundreds on an ordinary day, are counted in one item per country with every warning in
+force; the map shows each one (`meteoalarm.json`). MeteoAlarm's scale is not a kit ladder yet, so no response stage.
+
+Places: a warning area the service drew as a polygon keeps it. Otherwise the area is placed at a point inside its
+MeteoAlarm region (`catalog/meteoalarm_areas.json`, built from MeteoAlarm's geocodes file by
+`tools/build_meteoalarm_areas.py`), found by region code, then by region name within the country (France gives NUTS3
+codes only), and failing both at the country's label point; each item's precision says which. Each warning's own
+credit line (Deutscher Wetterdienst's geometry: © GeoBasis-DE / BKG) is carried through.
+
+A country whose file fails keeps its earlier warnings until they expire. The warnings themselves are not committed to
+`data/` (about 300 KB a run, and they expire within hours); the health line counts them.
+
+Elsewhere in the world no single feed allows reuse: WMO's Severe Weather Information Centre aggregates national CAP
+warnings worldwide, but WMO's website terms allow only personal, non-commercial use, and each warning's copyright
+stays with its issuing service. Other countries are added one by one once their own licence is checked.
+
 ## Tsunami messages
 The two NOAA warning centres (NTWC in Alaska, PTWC in Hawaii) each publish their latest message as an Atom feed linking
 a CAP file. Elements keeps every message for 30 days, one per centre and earthquake (a later message replaces an
@@ -60,6 +85,6 @@ The map is fetched only when a new week appears and is snapped to a 0.05-degree 
 states no licence; Elements credits its three producers. No baseline yet: week-on-week change is reported, not judged.
 
 ## Not yet covered
-Volcanoes outside the US beyond GDACS's alerts, and radiation: EPA RadNet offers only whole-year CSV files per city
+Weather warnings outside the US and Europe, volcanoes outside the US beyond GDACS's alerts, and radiation: EPA RadNet offers only whole-year CSV files per city
 (about 750 KB each, some 140 cities), and Elements will not pull that much every hour. A
 missing source turns its layer grey ("no data"), never quiet.

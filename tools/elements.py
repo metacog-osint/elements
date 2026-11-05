@@ -12,15 +12,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, firms, sources  # noqa: E402
+from elements import feed, firms, meteoalarm, sources  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, registers  # noqa: E402
 
 SRC, OUT = ROOT / "site_src", ROOT / "site"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
          "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
-         "usdm": "us-drought-monitor"}
-COMPACT = {"usdm", "firms"}   # mostly coordinates: indenting them would triple their size
+         "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm"}
+COMPACT = {"usdm", "firms", "meteoalarm"}   # mostly coordinates: indenting them would triple their size
 
 
 def drought_summary(rec) -> str:
@@ -38,7 +38,7 @@ def collect() -> dict:
         if records is not prev[k]:
             save(f"{k}.json", {"records": records}, compact=k in COMPACT)
         detail = (firms.summary(records) if k == "firms" else drought_summary(records) if k == "usdm"
-                  else f"{len(records)} records")
+                  else meteoalarm.summary(records) if k == "meteoalarm" else f"{len(records)} records")
         if err:
             detail = f"{detail} ({err})" if records else err
         health(src, not err or bool(records), detail, when)
@@ -78,7 +78,20 @@ def build() -> dict:
                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "fires.json").write_text(json.dumps(fires, ensure_ascii=False, separators=(",", ":")) + "\n",
                                              encoding="utf-8", newline="\n")
+    (OUT / "data" / "meteoalarm.json").write_text(json.dumps(warnings_map(d["meteoalarm"]), ensure_ascii=False,
+                                                             separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
     return fc
+
+
+def warnings_map(src: dict, now: datetime | None = None) -> dict:
+    """Every MeteoAlarm warning in force, yellow to red, for the map layer (the feed carries orange and red one by
+    one, and yellow as a count per country)."""
+    stamp = (now or datetime.now(timezone.utc)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    keep = ("id", "country", "colour", "level", "type", "sender", "headline", "areas", "onset", "expires", "web",
+            "credit", "precision", "points", "polygons")
+    live = [r for r in src.get("records") or [] if (r.get("expires") or "") > stamp]
+    return {"fetched_at": src.get("fetched_at"), "names": {cc: country_name(cc) for cc in sorted({r["country"] for r in live})},
+            "warnings": [{k: r.get(k) for k in keep} for r in sorted(live, key=lambda r: r["level"])]}
 
 
 def check() -> list[str]:
