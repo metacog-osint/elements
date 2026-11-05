@@ -1,18 +1,33 @@
 {
  "records": [
   {
+   "id": "us7000twaq",
+   "mag": 4.6,
+   "place": "36 km E of Watari, Japan",
+   "time": "2026-11-05T18:05:43Z",
+   "updated": "2026-11-05T21:29:03Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq",
+   "depth_km": 87.4,
+   "lon": 141.264,
+   "lat": 37.993,
+   "countries": []
+  },
+  {
    "id": "us7000tw8r",
    "mag": 6.1,
    "place": "Fiji region",
    "time": "2026-11-05T17:21:45Z",
-   "updated": "2026-11-05T19:28:10Z",
+   "updated": "2026-11-05T21:53:38Z",
    "alert": "green",
    "tsunami": false,
    "sig": 572,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r",
-   "depth_km": 540.8,
-   "lon": -178.646,
-   "lat": -21.169,
+   "depth_km": 535.0,
+   "lon": -178.714,
+   "lat": -21.198,
    "countries": []
   },
   {
@@ -69,10 +84,10 @@
    "mag": 5.0,
    "place": "111 km W of Petrolia, CA",
    "time": "2026-11-05T04:56:02Z",
-   "updated": "2026-11-05T19:08:59Z",
+   "updated": "2026-11-05T21:51:49Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 431,
+   "sig": 432,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637",
    "depth_km": 10.0,
    "lon": -125.585,
@@ -362,6 +377,23 @@
    "lon": 159.738,
    "lat": 53.041,
    "countries": []
+  },
+  {
+   "id": "us7000tuzz",
+   "mag": 4.5,
+   "place": "186 km ENE of Nagqu, China",
+   "time": "2026-11-02T20:54:53Z",
+   "updated": "2026-11-05T21:04:05Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuzz",
+   "depth_km": 10.0,
+   "lon": 93.783,
+   "lat": 32.285,
+   "countries": [
+    "CN"
+   ]
   },
   {
    "id": "us7000tv03",
@@ -997,7 +1029,7 @@
    "mag": 4.5,
    "place": "121 km SE of Atka, Alaska",
    "time": "2026-10-31T18:50:58Z",
-   "updated": "2026-10-31T21:56:14Z",
+   "updated": "2026-11-05T22:12:17Z",
    "alert": null,
    "tsunami": false,
    "sig": 312,
@@ -1356,83 +1388,6 @@
    "depth_km": 10.0,
    "lon": 167.935,
    "lat": -18.132,
-   "countries": []
-  },
-  {
-   "id": "us7000tu4f",
-   "mag": 6.2,
-   "place": "43 km ESE of Port-Olry, Vanuatu",
-   "time": "2026-10-29T21:46:44Z",
-   "updated": "2026-10-30T23:01:54Z",
-   "alert": "green",
-   "tsunami": false,
-   "sig": 594,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4f",
-   "depth_km": 142.8,
-   "lon": 167.452,
-   "lat": -15.189,
-   "countries": []
-  },
-  {
-   "id": "us7000tu4a",
-   "mag": 4.6,
-   "place": "121 km ENE of Shikotan, Russia",
-   "time": "2026-10-29T21:12:36Z",
-   "updated": "2026-10-29T22:47:05Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4a",
-   "depth_km": 35.0,
-   "lon": 148.179,
-   "lat": 44.109,
-   "countries": []
-  },
-  {
-   "id": "us7000tu46",
-   "mag": 4.7,
-   "place": "1 km SSE of Radwanice, Poland",
-   "time": "2026-10-29T21:00:15Z",
-   "updated": "2026-10-29T22:10:12Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu46",
-   "depth_km": 5.0,
-   "lon": 15.952,
-   "lat": 51.561,
-   "countries": [
-    "PL"
-   ]
-  },
-  {
-   "id": "us7000tu3u",
-   "mag": 5.0,
-   "place": "131 km NNW of Tual, Indonesia",
-   "time": "2026-10-29T20:32:11Z",
-   "updated": "2026-10-29T20:54:46Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 385,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3u",
-   "depth_km": 10.0,
-   "lon": 132.492,
-   "lat": -4.47,
-   "countries": []
-  },
-  {
-   "id": "us7000tu3j",
-   "mag": 5.0,
-   "place": "143 km S of False Pass, Alaska",
-   "time": "2026-10-29T20:14:32Z",
-   "updated": "2026-11-04T20:24:37Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 385,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3j",
-   "depth_km": 15.6,
-   "lon": -163.028,
-   "lat": 53.584,
    "countries": []
   }
  ]
