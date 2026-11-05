@@ -1,18 +1,50 @@
 {
  "records": [
   {
+   "id": "us7000tw7b",
+   "mag": 4.8,
+   "place": "Sea of Okhotsk",
+   "time": "2026-11-05T10:09:33Z",
+   "updated": "2026-11-05T10:24:31Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 354,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw7b",
+   "depth_km": 554.4,
+   "lon": 147.753,
+   "lat": 49.259,
+   "countries": []
+  },
+  {
+   "id": "us7000tw76",
+   "mag": 5.1,
+   "place": "19 km NNW of Masumbwe, Tanzania",
+   "time": "2026-11-05T09:22:32Z",
+   "updated": "2026-11-05T15:16:32Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 410,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw76",
+   "depth_km": 10.0,
+   "lon": 32.149,
+   "lat": -3.464,
+   "countries": [
+    "TZ"
+   ]
+  },
+  {
    "id": "nc75462637",
    "mag": 5.0,
-   "place": "114 km W of Petrolia, CA",
-   "time": "2026-11-05T04:56:01Z",
-   "updated": "2026-11-05T07:57:50Z",
+   "place": "111 km W of Petrolia, CA",
+   "time": "2026-11-05T04:56:02Z",
+   "updated": "2026-11-05T16:22:57Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 423,
+   "sig": 428,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637",
-   "depth_km": 2.1,
-   "lon": -125.627,
-   "lat": 40.425,
+   "depth_km": 10.0,
+   "lon": -125.585,
+   "lat": 40.407,
    "countries": []
   },
   {
@@ -28,6 +60,21 @@
    "depth_km": 502.3,
    "lon": 179.88,
    "lat": -25.229,
+   "countries": []
+  },
+  {
+   "id": "us7000tw3n",
+   "mag": 4.5,
+   "place": "South Indian Ocean",
+   "time": "2026-11-04T20:06:06Z",
+   "updated": "2026-11-05T16:31:05Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3n",
+   "depth_km": 10.0,
+   "lon": 88.083,
+   "lat": -1.406,
    "countries": []
   },
   {
@@ -1352,68 +1399,6 @@
    "depth_km": 35.0,
    "lon": 143.562,
    "lat": 39.862,
-   "countries": []
-  },
-  {
-   "id": "us7000ttyw",
-   "mag": 4.7,
-   "place": "6 km SE of Pitaloza Arriba, Panama",
-   "time": "2026-10-29T13:42:57Z",
-   "updated": "2026-10-29T14:19:48Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 341,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyw",
-   "depth_km": 10.0,
-   "lon": -80.631,
-   "lat": 7.592,
-   "countries": [
-    "PA"
-   ]
-  },
-  {
-   "id": "us7000ttyk",
-   "mag": 4.6,
-   "place": "Pulau Pulau Tanimbar, Indonesia",
-   "time": "2026-10-29T11:38:24Z",
-   "updated": "2026-10-29T12:44:43Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyk",
-   "depth_km": 10.0,
-   "lon": 130.022,
-   "lat": -7.529,
-   "countries": []
-  },
-  {
-   "id": "us7000ttyd",
-   "mag": 4.9,
-   "place": "111 km SW of Port-Vila, Vanuatu",
-   "time": "2026-10-29T10:33:22Z",
-   "updated": "2026-10-29T10:55:52Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 369,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyd",
-   "depth_km": 10.0,
-   "lon": 167.626,
-   "lat": -18.498,
-   "countries": []
-  },
-  {
-   "id": "us7000tty7",
-   "mag": 5.1,
-   "place": "218 km NNW of Bamboo Flat, India",
-   "time": "2026-10-29T08:49:42Z",
-   "updated": "2026-10-30T00:51:09Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 400,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tty7",
-   "depth_km": 10.0,
-   "lon": 91.659,
-   "lat": 13.379,
    "countries": []
   }
  ]
