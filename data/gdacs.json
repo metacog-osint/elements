@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "TC-1001347",
+   "type": "TC",
+   "kind": "tropical cyclone",
+   "episode": 1,
+   "name": "Tropical Cyclone THIRTYONE-26",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 185.184,
+   "severity_unit": "km/h",
+   "from": "2026-11-06T06:00:00Z",
+   "to": "2026-11-06T06:00:00Z",
+   "current": true,
+   "country": "Japan",
+   "severity": "Tropical Depression (maximum wind speed of 185 km/h)",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=1&eventtype=TC",
+   "lon": 149.0,
+   "lat": 18.0,
+   "countries": []
+  },
+  {
    "id": "FL-1104267",
    "type": "FL",
    "kind": "flood",
