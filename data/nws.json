@@ -1,113 +1,6 @@
 {
  "records": [
   {
-   "id": "KFGZ.FA.W.0038.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Navajo, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04017"
-   ],
-   "sent": "2026-11-05T12:47:00Z",
-   "onset": "2026-11-05T12:47:00Z",
-   "ends": "2026-11-06T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d5e7e79dd24aa18d92ab4ab3958fb013a69127f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.05,
-       35.34
-      ],
-      [
-       -111.02,
-       35.36
-      ],
-      [
-       -110.97,
-       35.31
-      ],
-      [
-       -110.85,
-       35.3
-      ],
-      [
-       -110.72,
-       35.23
-      ],
-      [
-       -110.67,
-       35.2
-      ],
-      [
-       -110.65,
-       35.19
-      ],
-      [
-       -110.64,
-       35.19
-      ],
-      [
-       -110.62,
-       35.15
-      ],
-      [
-       -110.61,
-       35.11
-      ],
-      [
-       -110.62,
-       35.08
-      ],
-      [
-       -110.65,
-       35.07
-      ],
-      [
-       -110.68,
-       35.07
-      ],
-      [
-       -110.7,
-       35.08
-      ],
-      [
-       -110.74,
-       35.12
-      ],
-      [
-       -111.05,
-       35.34
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -110.321,
-     35.3908
-    ]
-   ],
-   "lon": -110.765,
-   "lat": 35.196,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0041.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1272,105 +1165,6 @@
    ]
   },
   {
-   "id": "KDVN.FL.W.0091.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Benton, IA",
-    "Iowa, IA"
-   ],
-   "counties": [
-    "19011",
-    "19095"
-   ],
-   "sent": "2026-11-06T02:09:00Z",
-   "onset": "2026-11-06T02:09:00Z",
-   "ends": "2026-11-09T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.3,
-       41.89
-      ],
-      [
-       -92.24,
-       41.87
-      ],
-      [
-       -92.2,
-       41.85
-      ],
-      [
-       -92.02,
-       41.81
-      ],
-      [
-       -91.9,
-       41.79
-      ],
-      [
-       -91.85,
-       41.81
-      ],
-      [
-       -91.83,
-       41.81
-      ],
-      [
-       -91.83,
-       41.77
-      ],
-      [
-       -91.98,
-       41.77
-      ],
-      [
-       -92.12,
-       41.81
-      ],
-      [
-       -92.13,
-       41.82
-      ],
-      [
-       -92.28,
-       41.84
-      ],
-      [
-       -92.3,
-       41.85
-      ],
-      [
-       -92.3,
-       41.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.0576,
-     42.0925
-    ],
-    [
-     -92.0591,
-     41.6839
-    ]
-   ],
-   "lon": -92.091,
-   "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KDVN.FL.W.0092.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1471,6 +1265,105 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0091.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Benton, IA",
+    "Iowa, IA"
+   ],
+   "counties": [
+    "19011",
+    "19095"
+   ],
+   "sent": "2026-11-06T02:09:00Z",
+   "onset": "2026-11-06T02:09:00Z",
+   "ends": "2026-11-09T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.3,
+       41.89
+      ],
+      [
+       -92.24,
+       41.87
+      ],
+      [
+       -92.2,
+       41.85
+      ],
+      [
+       -92.02,
+       41.81
+      ],
+      [
+       -91.9,
+       41.79
+      ],
+      [
+       -91.85,
+       41.81
+      ],
+      [
+       -91.83,
+       41.81
+      ],
+      [
+       -91.83,
+       41.77
+      ],
+      [
+       -91.98,
+       41.77
+      ],
+      [
+       -92.12,
+       41.81
+      ],
+      [
+       -92.13,
+       41.82
+      ],
+      [
+       -92.28,
+       41.84
+      ],
+      [
+       -92.3,
+       41.85
+      ],
+      [
+       -92.3,
+       41.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.0576,
+     42.0925
+    ],
+    [
+     -92.0591,
+     41.6839
+    ]
+   ],
+   "lon": -92.091,
+   "lat": 41.827,
    "countries": [
     "US"
    ]
@@ -2373,6 +2266,66 @@
    ]
   },
   {
+   "id": "KCRP.MA.W.0059.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM"
+   ],
+   "counties": [
+    "77255"
+   ],
+   "sent": "2026-11-06T03:29:00Z",
+   "onset": "2026-11-06T03:29:00Z",
+   "ends": "2026-11-06T03:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f089905684ab1b1f734c2fb041d5c359bb7f5f62.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.83,
+       27.86
+      ],
+      [
+       -96.77,
+       27.95
+      ],
+      [
+       -96.57,
+       27.84
+      ],
+      [
+       -96.66,
+       27.74
+      ],
+      [
+       -96.71,
+       27.67
+      ],
+      [
+       -96.81,
+       27.79
+      ],
+      [
+       -96.83,
+       27.86
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.74,
+   "lat": 27.816,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2389,32 +2342,6 @@
    "onset": "2026-11-12T14:00:00Z",
    "ends": "2026-11-13T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9924e39621228cb9f057f4bfe4d02c3eb322b25.012.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.0018.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Clarence Strait"
-   ],
-   "counties": [
-    "58036"
-   ],
-   "sent": "2026-11-05T23:53:00Z",
-   "onset": "2026-11-06T00:00:00Z",
-   "ends": "2026-11-06T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a83c7aa101df688f96a152b44743b3a9c4d451a.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
