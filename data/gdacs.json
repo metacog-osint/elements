@@ -250,6 +250,29 @@
    ]
   },
   {
+   "id": "FL-1104259",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 5,
+   "name": "Flood in Peru",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-10-26T01:00:00Z",
+   "to": "2026-11-06T01:00:00Z",
+   "current": true,
+   "country": "Peru",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=5&eventtype=FL",
+   "lon": -81.006,
+   "lat": -4.155,
+   "countries": [
+    "PE"
+   ]
+  },
+  {
    "id": "FL-1104254",
    "type": "FL",
    "kind": "flood",
@@ -270,29 +293,6 @@
    "lat": 37.164,
    "countries": [
     "TR"
-   ]
-  },
-  {
-   "id": "FL-1104259",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 3,
-   "name": "Flood in Peru",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-03T01:00:00Z",
-   "current": true,
-   "country": "Peru",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=3&eventtype=FL",
-   "lon": -80.46,
-   "lat": -3.571,
-   "countries": [
-    "PE"
    ]
   },
   {
