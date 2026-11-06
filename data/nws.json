@@ -1,81 +1,95 @@
 {
  "records": [
   {
-   "id": "KRAH.TO.W.0025.2026",
+   "id": "KRAH.TO.W.0026.2026",
    "event": "Tornado Warning",
    "severity": "Extreme",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Raleigh NC",
    "areas": [
-    "Sampson, NC"
+    "Sampson, NC",
+    "Wayne, NC"
    ],
    "counties": [
-    "37163"
+    "37163",
+    "37191"
    ],
-   "sent": "2026-11-06T18:20:00Z",
-   "onset": "2026-11-06T18:20:00Z",
-   "ends": "2026-11-06T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a2421e6acc74be8a927f67d52c3b9507c70bef3.001.1",
+   "sent": "2026-11-06T18:53:00Z",
+   "onset": "2026-11-06T18:53:00Z",
+   "ends": "2026-11-06T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc75e0a1f525adf3da64c362e0f4767b33a8d2cf.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -78.26,
-       34.58
+       -77.99,
+       35.18
       ],
       [
-       -78.31,
-       34.61
+       -78.02,
+       35.19
       ],
       [
-       -78.32,
-       34.63
+       -78.04,
+       35.19
       ],
       [
-       -78.31,
-       34.64
+       -78.07,
+       35.18
       ],
       [
-       -78.32,
-       34.65
+       -78.15,
+       35.19
       ],
       [
-       -78.32,
-       34.67
-      ],
-      [
-       -78.35,
-       34.68
-      ],
-      [
-       -78.2,
-       34.74
-      ],
-      [
-       -78.13,
-       34.71
-      ],
-      [
-       -78.11,
-       34.72
-      ],
-      [
-       -78.11,
-       34.71
+       -78.17,
+       35.18
       ],
       [
        -78.16,
-       34.68
+       35.17
       ],
       [
-       -78.25,
-       34.56
+       -78.4,
+       35.23
       ],
       [
-       -78.26,
-       34.58
+       -78.4,
+       35.26
+      ],
+      [
+       -78.3,
+       35.29
+      ],
+      [
+       -78.29,
+       35.31
+      ],
+      [
+       -78.27,
+       35.32
+      ],
+      [
+       -78.24,
+       35.32
+      ],
+      [
+       -78.22,
+       35.34
+      ],
+      [
+       -77.97,
+       35.39
+      ],
+      [
+       -77.97,
+       35.17
+      ],
+      [
+       -77.99,
+       35.18
       ]
      ]
     ]
@@ -85,10 +99,14 @@
     [
      -78.3713,
      34.9893
+    ],
+    [
+     -78.0087,
+     35.3542
     ]
    ],
-   "lon": -78.244,
-   "lat": 34.654,
+   "lon": -78.156,
+   "lat": 35.241,
    "countries": [
     "US"
    ]
@@ -1791,6 +1809,87 @@
    ]
   },
   {
+   "id": "KBOX.FA.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Barnstable, MA"
+   ],
+   "counties": [
+    "25001"
+   ],
+   "sent": "2026-11-06T18:53:00Z",
+   "onset": "2026-11-06T18:53:00Z",
+   "ends": "2026-11-06T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0faac86501bca438641fa0db0f6a74e1876b40b7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -70.69,
+       41.51
+      ],
+      [
+       -70.63,
+       41.75
+      ],
+      [
+       -70.62,
+       41.74
+      ],
+      [
+       -70.62,
+       41.77
+      ],
+      [
+       -70.57,
+       41.79
+      ],
+      [
+       -70.53,
+       41.81
+      ],
+      [
+       -70.19,
+       41.72
+      ],
+      [
+       -70.26,
+       41.61
+      ],
+      [
+       -70.68,
+       41.51
+      ],
+      [
+       -70.68,
+       41.52
+      ],
+      [
+       -70.69,
+       41.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -70.1648,
+     41.7061
+    ]
+   ],
+   "lon": -70.56,
+   "lat": 41.658,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KBOX.FA.A.0006.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -3350,32 +3449,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.2476.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Western US Arctic Offshore"
-   ],
-   "counties": [
-    "58500"
-   ],
-   "sent": "2026-11-06T12:45:00Z",
-   "onset": "2026-11-06T13:00:00Z",
-   "ends": "2026-11-08T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9184.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3392,6 +3465,32 @@
    "onset": "2026-11-06T12:00:00Z",
    "ends": "2026-11-07T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2476.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T13:00:00Z",
+   "ends": "2026-11-08T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3617,48 +3716,6 @@
    ]
   },
   {
-   "id": "KSEW.HW.A.0001.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Grays Harbor County Coast",
-    "Northern Washington Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031"
-   ],
-   "sent": "2026-11-06T17:43:00Z",
-   "onset": "2026-11-07T21:00:00Z",
-   "ends": "2026-11-07T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a42311b9753b002a6c751ff46196adf225a4520e.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ]
-   ],
-   "lon": -123.748,
-   "lat": 47.676,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.HW.A.0001.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3785,6 +3842,48 @@
    ]
   },
   {
+   "id": "KSEW.HW.A.0001.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Grays Harbor County Coast",
+    "Northern Washington Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031"
+   ],
+   "sent": "2026-11-06T18:54:00Z",
+   "onset": "2026-11-07T21:00:00Z",
+   "ends": "2026-11-08T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6c321b1aefd777240a960c061a0b0bedc8576a5.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ]
+   ],
+   "lon": -123.748,
+   "lat": 47.676,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLOX.FW.W.0006.2026",
    "event": "Red Flag Warning",
    "severity": "Severe",
@@ -3825,102 +3924,85 @@
    ]
   },
   {
-   "id": "KRAH.SV.W.0306.2026",
-   "event": "Severe Thunderstorm Warning",
+   "id": "TJSJ.MA.W.0032.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Raleigh NC",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
    "areas": [
-    "Sampson, NC"
+    "Caribbean Waters of Puerto Rico from 10 NM to 17N, including the Coastal Waters of Saint Croix",
+    "Coastal Waters of Southern Puerto Rico out 10 NM",
+    "Mona Passage Southward to 17N"
    ],
    "counties": [
-    "37163"
+    "75733",
+    "75735",
+    "75741"
    ],
-   "sent": "2026-11-06T18:08:00Z",
-   "onset": "2026-11-06T18:08:00Z",
-   "ends": "2026-11-06T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d9269d70f065ad1fd2e420c8bceaa0b5d9c33b8.001.1",
+   "sent": "2026-11-06T18:45:00Z",
+   "onset": "2026-11-06T18:45:00Z",
+   "ends": "2026-11-06T19:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.585057ccbb783abed8196b84c4e77f247d27c6c4.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -78.26,
-       34.58
+       -68,
+       17.03
       ],
       [
-       -78.3,
-       34.6
+       -67.28,
+       17.94
       ],
       [
-       -78.31,
-       34.61
+       -66.98,
+       17.95
       ],
       [
-       -78.31,
-       34.62
+       -66.92,
+       17.92
       ],
       [
-       -78.32,
-       34.63
+       -66.91,
+       17.95
       ],
       [
-       -78.31,
-       34.64
+       -66.45,
+       17.98
       ],
       [
-       -78.32,
-       34.65
+       -66.39,
+       17.94
       ],
       [
-       -78.32,
-       34.67
+       -66.34,
+       17.98
       ],
       [
-       -78.35,
-       34.68
+       -66.29,
+       17.96
       ],
       [
-       -78.2,
-       34.74
+       -66.69,
+       17
       ],
       [
-       -78.13,
-       34.71
+       -68,
+       17
       ],
       [
-       -78.11,
-       34.72
-      ],
-      [
-       -78.11,
-       34.71
-      ],
-      [
-       -78.16,
-       34.68
-      ],
-      [
-       -78.25,
-       34.55
-      ],
-      [
-       -78.26,
-       34.58
+       -68,
+       17.03
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [
-    [
-     -78.3713,
-     34.9893
-    ]
-   ],
-   "lon": -78.251,
-   "lat": 34.648,
+   "points": [],
+   "lon": -67.021,
+   "lat": 17.64,
    "countries": [
     "US"
    ]
