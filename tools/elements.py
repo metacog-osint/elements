@@ -19,7 +19,7 @@ from tic_doctrine import contract, registers  # noqa: E402
 SRC, OUT = ROOT / "site_src", ROOT / "site"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
          "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
-         "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm"}
+         "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm", "emsc": "emsc", "nifc": "nifc-wfigs"}
 COMPACT = {"usdm", "firms", "meteoalarm"}   # mostly coordinates: indenting them would triple their size
 
 
@@ -71,6 +71,10 @@ def build() -> dict:
     fp = d["firms"]["records"] or {}
     fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via")}
     fires["names"] = {cc: country_name(cc) for cc in sorted({c[7] for c in fp.get("cells") or [] if c[7]})}
+    wildfires = {"fires": [{k: w.get(k) for k in ("name", "acres", "contained", "discovered", "updated", "state", "county", "lon", "lat")}
+                           for w in d["nifc"]["records"] or []]}
+    (OUT / "data" / "wildfires.json").write_text(json.dumps(wildfires, ensure_ascii=False, separators=(",", ":")) + "\n",
+                                                 encoding="utf-8", newline="\n")
     dr = d["usdm"]["records"] or {}
     drought = {"map_date": dr.get("map_date") if isinstance(dr, dict) else None,
                "polygons": dr.get("polygons") or [] if isinstance(dr, dict) else []}

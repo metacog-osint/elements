@@ -91,6 +91,18 @@
    "name": "WMO Severe Weather Information Centre 3.0 (severeweather.wmo.int), worldwide CAP warnings and tropical cyclones",
    "licence": "WMO website terms: personal, non-commercial use, no redistribution or compilation (wmo.int/copyright, 20 Mar 2025)",
    "use": "not used: terms bar republishing (5 Nov 2026); each warning's copyright stays with its issuing service; ask WMO"
+  },
+  {
+   "id": "emsc",
+   "name": "EMSC earthquakes (seismicportal.eu FDSN event service, M4.5+, past 7 days)",
+   "licence": "CC BY 4.0",
+   "use": "ingest"
+  },
+  {
+   "id": "nifc-wfigs",
+   "name": "NIFC WFIGS current wildfire incident locations",
+   "licence": "No licence stated (not verified); US interagency incident data, credited",
+   "use": "ingest"
   }
  ],
  "extra": {
@@ -198,6 +210,24 @@
     "url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-germany",
     "expect": "json"
    }
+  },
+  "emsc": {
+   "grade": "A1",
+   "independence_group": "emsc",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "Second earthquake catalogue; a solution carrying NEIC authority is USGS's own",
+   "probe": {
+    "url": "https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minmag=6&limit=1",
+    "expect": "json"
+   }
+  },
+  "nifc-wfigs": {
+   "grade": "A2",
+   "independence_group": "nifc",
+   "ease_of_faking": "low",
+   "cadence_s": 3600,
+   "descriptor": "US wildfire incidents: size and containment"
   }
  }
 }

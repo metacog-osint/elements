@@ -29,17 +29,18 @@
 <main class="wrap">
   <section class="hero">
     <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
-    <p class="lede">USGS earthquakes with their PAGER impact alert, USGS volcano alerts, GDACS multi-hazard alerts, NOAA
-      hurricane, weather-warning, severe-storm and tsunami products, European national weather services' warnings
-      through MeteoAlarm, the US Drought Monitor, Copernicus EMS rapid-mapping activations and NASA FIRMS satellite fire
-      detections, collected every hour.</p>
+    <p class="lede">USGS earthquakes with their PAGER impact alert, checked against EMSC's catalogue, USGS volcano alerts,
+      GDACS multi-hazard alerts, NOAA hurricane, weather-warning, severe-storm and tsunami products, European national
+      weather services' warnings through MeteoAlarm, the US Drought Monitor, US wildfire incidents from NIFC, Copernicus
+      EMS rapid-mapping activations and NASA FIRMS satellite fire detections, collected every hour.</p>
   </section>
 
   <section class="mapcard" aria-label="Map">
     <div class="map-tools">
       <fieldset class="layers" aria-label="Layers">
         <label><input type="checkbox" data-layer="firms" checked> Fire and heat detections (NASA FIRMS)</label>
-        <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS)</label>
+        <label><input type="checkbox" data-layer="usgs" checked> Earthquakes (USGS, EMSC)</label>
+        <label><input type="checkbox" data-layer="nifc" checked> US wildfires</label>
         <label><input type="checkbox" data-layer="volcano" checked> US volcano alerts</label>
         <label><input type="checkbox" data-layer="weather" checked> US weather warnings</label>
         <label><input type="checkbox" data-layer="euwx" checked> European weather warnings</label>
@@ -113,6 +114,7 @@
   <div class="two">
     <section class="card" aria-labelledby="quakes-h">
       <h2 id="quakes-h">Largest earthquakes, past 7 days</h2>
+      <p class="muted small" id="emsc-note"></p>
       <div id="mags"></div>
       <div id="quakes"></div>
     </section>
@@ -149,6 +151,14 @@
     <div id="fires"></div>
   </section>
 
+  <section class="card" aria-labelledby="wf-h">
+    <h2 id="wf-h">US wildfires being fought</h2>
+    <p class="muted small">From the National Interagency Fire Center: wildfires not yet declared out that are either short
+      of full containment or were found in the last 14 days. Prescribed burns are left out. The map shows every one; the
+      feed and this list, those of 100 acres or more.</p>
+    <div id="wildfires"></div>
+  </section>
+
   <section class="card" aria-labelledby="health-h">
     <h2 id="health-h">Sources</h2>
     <div id="health"></div>
@@ -158,7 +168,10 @@
       operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
       Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
     <p class="small muted">The US Drought Monitor is produced jointly by the National Drought Mitigation Center at the
-      University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC.</p>
+      University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC. Earthquakes also
+      from the European-Mediterranean Seismological Centre (EMSC), licensed
+      <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. Wildfire incidents from the
+      National Interagency Fire Center (WFIGS).</p>
     <p class="small muted">European weather warnings: MeteoAlarm (EUMETNET), data provided by EUMETNET members' national
       weather services, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
       Region points are derived from MeteoAlarm's geocodes file. A warning that carries its own credit shows it in its

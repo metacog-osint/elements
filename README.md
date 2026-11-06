@@ -15,6 +15,8 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | MeteoAlarm (EUMETNET): warnings of 39 European national weather services, one CAP JSON file per country | Yellow, orange and red warnings in force, by the service's polygon or a point in each region named | CC BY 4.0; data provided by EUMETNET members |
 | MeteoAlarm geocodes file (region outlines; one point per region kept) | Places warnings that name regions without a polygon | No licence stated (not verified); credited |
 | US Drought Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) | Weekly share of the US in each drought category, and the map | No licence stated (not verified); credited |
+| EMSC event service (seismicportal.eu), M4.5+, past 7 days | A second, independent earthquake catalogue: corroborates USGS events and adds those USGS lists below 4.5 | CC BY 4.0 |
+| NIFC WFIGS current incident locations | US wildfires still being fought or found in the last 14 days: size, containment, county | No licence stated (not verified); credited |
 | GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
@@ -53,13 +55,14 @@ only whole-year files per city).
 
 ```
 python tools/elements.py collect   # fetch every source into data/ (a failing source keeps its last good data)
-python tools/elements.py build     # write site/ (map page, feed.geojson, fires.json, meteoalarm.json, health.json)
+python tools/elements.py build     # write site/ (map page, feed.geojson, fires.json, meteoalarm.json, wildfires.json, health.json)
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
 python tests/test_volcanoes.py
 python tests/test_weather.py
 python tests/test_tsunami_drought.py
 python tests/test_meteoalarm.py
+python tests/test_emsc_nifc.py
 python tools/build_counties.py   # refresh catalog/us_counties.json from the Census Gazetteer (yearly)
 python tools/build_meteoalarm_areas.py   # refresh catalog/meteoalarm_areas.json when MeteoAlarm publishes new geocodes
 ```

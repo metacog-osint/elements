@@ -15,7 +15,8 @@
    "parent": "EL-SQ-1",
    "question": "Which earthquakes this week carry a USGS PAGER alert of yellow or worse?",
    "series": [
-    "USGS earthquakes M4.5+ (PAGER alert)"
+    "USGS earthquakes M4.5+ (PAGER alert)",
+    "EMSC earthquakes M4.5+ (independent second catalogue)"
    ],
    "warning_problems": [
     "EL-WP-1"
@@ -113,6 +114,18 @@
    "question": "How much of the US is in drought this week, and is it growing?",
    "series": [
     "US Drought Monitor weekly statistics and map"
+   ],
+   "warning_problems": [
+    "EL-WP-1"
+   ]
+  },
+  {
+   "id": "EL-PIR-10",
+   "type": "pir",
+   "parent": "EL-SQ-1",
+   "question": "Which US wildfires are still being fought, how large are they, and how contained?",
+   "series": [
+    "NIFC WFIGS current wildfire incidents"
    ],
    "warning_problems": [
     "EL-WP-1"
