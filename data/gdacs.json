@@ -22,6 +22,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104270",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in France",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-05T01:00:00Z",
+   "to": "2026-11-07T01:00:00Z",
+   "current": true,
+   "country": "France",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=1&eventtype=FL",
+   "lon": 4.065,
+   "lat": 43.813,
+   "countries": [
+    "FR"
+   ]
+  },
+  {
    "id": "FL-1104267",
    "type": "FL",
    "kind": "flood",
@@ -699,7 +722,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -707,13 +730,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-07T01:00:00Z",
-   "to": "2026-11-04T01:00:00Z",
+   "to": "2026-11-07T01:00:00Z",
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL",
-   "lon": 15.378,
-   "lat": 41.69,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]
