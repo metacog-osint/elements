@@ -1,125 +1,6 @@
 {
  "records": [
   {
-   "id": "KAKQ.FF.W.0103.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "City of Chesapeake, VA",
-    "City of Norfolk, VA",
-    "City of Portsmouth, VA",
-    "City of Virginia Beach, VA"
-   ],
-   "counties": [
-    "51550",
-    "51710",
-    "51740",
-    "51810"
-   ],
-   "sent": "2026-11-06T18:31:00Z",
-   "onset": "2026-11-06T18:31:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc2febecce0d2eec819488a3d1d1ee0c097b3533.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.43,
-       36.86
-      ],
-      [
-       -76.42,
-       36.87
-      ],
-      [
-       -76.41,
-       36.87
-      ],
-      [
-       -76.41,
-       36.89
-      ],
-      [
-       -76.36,
-       36.94
-      ],
-      [
-       -76.3,
-       36.96
-      ],
-      [
-       -76.23,
-       36.95
-      ],
-      [
-       -76.2,
-       36.91
-      ],
-      [
-       -76.17,
-       36.88
-      ],
-      [
-       -76.17,
-       36.84
-      ],
-      [
-       -76.2,
-       36.81
-      ],
-      [
-       -76.26,
-       36.77
-      ],
-      [
-       -76.36,
-       36.74
-      ],
-      [
-       -76.44,
-       36.76
-      ],
-      [
-       -76.46,
-       36.8
-      ],
-      [
-       -76.43,
-       36.86
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -76.3018,
-     36.6794
-    ],
-    [
-     -76.2446,
-     36.923
-    ],
-    [
-     -76.357,
-     36.8593
-    ],
-    [
-     -76.0291,
-     36.7795
-    ]
-   ],
-   "lon": -76.328,
-   "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0041.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -236,101 +117,6 @@
    ],
    "lon": -112.666,
    "lat": 33.207,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGID.FA.W.0020.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hastings NE",
-   "areas": [
-    "Fillmore, NE",
-    "York, NE"
-   ],
-   "counties": [
-    "31059",
-    "31185"
-   ],
-   "sent": "2026-11-06T13:25:00Z",
-   "onset": "2026-11-06T13:25:00Z",
-   "ends": "2026-11-07T01:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08044501215d585b540dad800a12d33d4c28a0be.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.82,
-       40.63
-      ],
-      [
-       -97.82,
-       40.74
-      ],
-      [
-       -97.79,
-       40.74
-      ],
-      [
-       -97.69,
-       40.7
-      ],
-      [
-       -97.62,
-       40.72
-      ],
-      [
-       -97.59,
-       40.76
-      ],
-      [
-       -97.37,
-       40.8
-      ],
-      [
-       -97.37,
-       40.78
-      ],
-      [
-       -97.4,
-       40.76
-      ],
-      [
-       -97.56,
-       40.74
-      ],
-      [
-       -97.64,
-       40.67
-      ],
-      [
-       -97.69,
-       40.67
-      ],
-      [
-       -97.82,
-       40.63
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -97.5967,
-     40.525
-    ],
-    [
-     -97.5967,
-     40.8731
-    ]
-   ],
-   "lon": -97.629,
-   "lat": 40.718,
    "countries": [
     "US"
    ]
@@ -628,67 +414,6 @@
    ],
    "lon": -81.266,
    "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.FL.W.0015.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "DeSoto, FL"
-   ],
-   "counties": [
-    "12027"
-   ],
-   "sent": "2026-11-06T14:38:00Z",
-   "onset": "2026-11-06T14:38:00Z",
-   "ends": "2026-11-07T02:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b76889751655bc4b98c7e9fa41108a696cccaf0e.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.79,
-       27.35
-      ],
-      [
-       -81.89,
-       27.14
-      ],
-      [
-       -81.97,
-       27.04
-      ],
-      [
-       -82.02,
-       27.04
-      ],
-      [
-       -81.86,
-       27.35
-      ],
-      [
-       -81.79,
-       27.35
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.8063,
-     27.1906
-    ]
-   ],
-   "lon": -81.887,
-   "lat": 27.212,
    "countries": [
     "US"
    ]
@@ -1152,87 +877,6 @@
    ]
   },
   {
-   "id": "KBOX.FA.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Barnstable, MA"
-   ],
-   "counties": [
-    "25001"
-   ],
-   "sent": "2026-11-06T18:53:00Z",
-   "onset": "2026-11-06T18:53:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0faac86501bca438641fa0db0f6a74e1876b40b7.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -70.69,
-       41.51
-      ],
-      [
-       -70.63,
-       41.75
-      ],
-      [
-       -70.62,
-       41.74
-      ],
-      [
-       -70.62,
-       41.77
-      ],
-      [
-       -70.57,
-       41.79
-      ],
-      [
-       -70.53,
-       41.81
-      ],
-      [
-       -70.19,
-       41.72
-      ],
-      [
-       -70.26,
-       41.61
-      ],
-      [
-       -70.68,
-       41.51
-      ],
-      [
-       -70.68,
-       41.52
-      ],
-      [
-       -70.69,
-       41.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -70.1648,
-     41.7061
-    ]
-   ],
-   "lon": -70.56,
-   "lat": 41.658,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBOX.FA.W.0008.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1574,6 +1218,67 @@
    ],
    "lon": -111.671,
    "lat": 33.527,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.FL.W.0015.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "DeSoto, FL"
+   ],
+   "counties": [
+    "12027"
+   ],
+   "sent": "2026-11-06T20:36:00Z",
+   "onset": "2026-11-06T20:36:00Z",
+   "ends": "2026-11-07T08:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1a35cd181ab62832249193eb3a31606292d86db.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.79,
+       27.35
+      ],
+      [
+       -81.89,
+       27.14
+      ],
+      [
+       -81.97,
+       27.04
+      ],
+      [
+       -82.02,
+       27.04
+      ],
+      [
+       -81.86,
+       27.35
+      ],
+      [
+       -81.79,
+       27.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.8063,
+     27.1906
+    ]
+   ],
+   "lon": -81.887,
+   "lat": 27.212,
    "countries": [
     "US"
    ]
@@ -3138,32 +2843,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9184.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-06T12:45:00Z",
-   "onset": "2026-11-06T12:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2476.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3180,6 +2859,32 @@
    "onset": "2026-11-06T13:00:00Z",
    "ends": "2026-11-08T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9184.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3613,63 +3318,6 @@
    ]
   },
   {
-   "id": "KTWC.SV.W.0340.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Tucson AZ",
-   "areas": [
-    "Cochise, AZ"
-   ],
-   "counties": [
-    "04003"
-   ],
-   "sent": "2026-11-06T20:33:00Z",
-   "onset": "2026-11-06T20:33:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b4ab9717499a7818fa4b1c6b9314ffcde8b8030.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -109.83,
-       31.96
-      ],
-      [
-       -109.95,
-       32.09
-      ],
-      [
-       -109.6,
-       32.34
-      ],
-      [
-       -109.44,
-       32.13
-      ],
-      [
-       -109.83,
-       31.96
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -109.7752,
-     31.8401
-    ]
-   ],
-   "lon": -109.73,
-   "lat": 32.096,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3696,15 +3344,15 @@
    ]
   },
   {
-   "id": "KPQR.SR.A.0001.2026",
-   "event": "Storm Watch",
+   "id": "KPQR.SR.W.0002.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
     "Columbia River Bar",
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
     "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm"
    ],
    "counties": [
@@ -3712,10 +3360,10 @@
     "57251",
     "57271"
    ],
-   "sent": "2026-11-06T07:32:00Z",
+   "sent": "2026-11-06T20:42:00Z",
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a62f4346e97b915feed6c4c4263525eb4d88d2f7.001.4",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.441d21d9673f11397970f7c73f212c4e48e6f404.005.4",
    "geometry": null,
    "vtec": true,
    "points": [],
