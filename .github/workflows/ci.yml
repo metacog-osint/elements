@@ -15,6 +15,6 @@ jobs:
       - name: Doctrine kit copy and registers (tic-doctrine)
         run: python doctrine/kit/tic.py kitcheck && python doctrine/kit/tic.py registers doctrine
       - name: Tests
-        run: python tests/test_elements.py && python tests/test_volcanoes.py && python tests/test_weather.py && python tests/test_tsunami_drought.py && python tests/test_meteoalarm.py
+        run: python tests/test_elements.py && python tests/test_volcanoes.py && python tests/test_weather.py && python tests/test_tsunami_drought.py && python tests/test_meteoalarm.py && python tests/test_emsc_nifc.py
       - name: Feed from the committed data passes the kit's linter
         run: python tools/elements.py check

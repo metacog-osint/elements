@@ -84,6 +84,20 @@ The US Drought Monitor's weekly statistics give one national item: the cumulativ
 The map is fetched only when a new week appears and is snapped to a 0.05-degree grid for display. The Drought Monitor
 states no licence; Elements credits its three producers. No baseline yet: week-on-week change is reported, not judged.
 
+## Earthquakes from two catalogues
+EMSC's catalogue is matched to USGS's: the same earthquake if the origin times are within 90 seconds and the epicentres
+within 150 km, closest in time first, each event used once. A match counts as independent corroboration, and adds EMSC
+as a second source, only when EMSC's solution comes from another agency: EMSC sometimes carries USGS's own (authority
+NEIC), and then the match is recorded but not counted. An EMSC earthquake with no USGS match becomes its own item; one
+carrying NEIC's solution is left to USGS's feed. A missing match is not an error by either agency, since their
+magnitudes differ and the 4.5 cut-off splits events between them.
+
+## US wildfires
+NIFC's WFIGS service lists current incidents, including prescribed burns and fires contained months ago. Elements keeps
+wildfires not declared out that are either short of full containment or were discovered in the last 14 days. Fires of
+100 acres or more get a feed item; the map shows them all. FIRMS shows heat seen from space; NIFC names the fires and
+says how far they are contained.
+
 ## Not yet covered
 Weather warnings outside the US and Europe, volcanoes outside the US beyond GDACS's alerts, and radiation: EPA RadNet offers only whole-year CSV files per city
 (about 750 KB each, some 140 cities), and Elements will not pull that much every hour. A

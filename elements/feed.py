@@ -50,6 +50,15 @@ SRC["meteoalarm"] = {"id": "meteoalarm", "publisher": "MeteoAlarm (EUMETNET), fr
                      "url": "https://meteoalarm.org/", "licence": "CC BY 4.0 (feeds.meteoalarm.org)", "grade": "A1",
                      "independence_group": "eumetnet", "source_type": "official warning",
                      "descriptor": "National weather service warning (CAP) with MeteoAlarm's awareness level and type"}
+SRC["emsc"] = {"id": "emsc", "publisher": "European-Mediterranean Seismological Centre (EMSC)", "url": "https://www.seismicportal.eu/",
+               "licence": "CC BY 4.0", "grade": "A1", "independence_group": "emsc", "source_type": "official measurement",
+               "descriptor": "Earthquake origin and magnitude (seismicportal.eu FDSN event service)"}
+SRC["nifc"] = {"id": "nifc-wfigs", "publisher": "National Interagency Fire Center (WFIGS)", "url": "https://data-nifc.opendata.arcgis.com/",
+               "licence": "No licence stated (not verified); US interagency incident data, credited", "grade": "A2",
+               "independence_group": "nifc", "source_type": "official incident report",
+               "descriptor": "Wildfire incident: size, containment, county and state"}
+NEIC = "NEIC"        # USGS's National Earthquake Information Center: an EMSC event carrying its solution is not independent
+FIRE_ACRES_MIN = 100  # a wildfire needs this size to get a feed item (the map shows every one)
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
                  "advisory": "advisory", "warning": "warning"}
@@ -101,6 +110,27 @@ def _tsunami_items(d: dict, now: datetime) -> list[dict]:
         if g is None:
             p.update({"precision_class": "none", "visual": {"type": "page", "url": r.get("url") or SRC["tsunami"]["url"]}})
         out.append({"type": "Feature", "geometry": g, "properties": p})
+    return out
+
+
+def _wildfire_items(d: dict, now: datetime) -> list[dict]:
+    """NIFC wildfires of 100 acres or more that are still being fought or are new."""
+    out = []
+    f = (d.get("nifc") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for w in (d.get("nifc") or {}).get("records") or []:
+        if w["acres"] < FIRE_ACRES_MIN:
+            continue
+        name = w["name"] if w["name"].lower().endswith(("fire", "complex")) else f"{w['name']} Fire"
+        where = ", ".join(x for x in (f"{w['county']} County" if w.get("county") else None, w.get("state")) if x)
+        held = f"{w['contained']}% contained" if w.get("contained") is not None else "containment not reported"
+        p = {**_base(f), "id": f"elements:nifc:{(w['id'] or '').strip('{}').lower()}",
+             "title": f"{name}, {where}: {w['acres']:,.0f} acres, {held} (NIFC)",
+             "tier": "routine", "data_as_of": w.get("updated") or w.get("discovered") or f, "countries": ["US"],
+             "requirement_ids": ["EL-PIR-10"], "sources": [{**SRC["nifc"], "accessed_at": f}], "link": SRC["nifc"]["url"],
+             "measures": {"name": w["name"], "acres": w["acres"], "percent_contained": w.get("contained"),
+                          "discovered": w.get("discovered"), "state": w.get("state"), "county": w.get("county"),
+                          "cause": w.get("cause"), "complexity": w.get("complexity")}}
+        out.append({"type": "Feature", "geometry": _pt(w["lon"], w["lat"]), "properties": p})
     return out
 
 
@@ -306,8 +336,12 @@ def build(d: dict, now: datetime | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}"""
     now = now or datetime.now(timezone.utc)
     feats = []
+    from .emsc import match
     f = d["usgs"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    for q in d["usgs"].get("records") or []:
+    fe = (d.get("emsc") or {}).get("fetched_at") or f
+    usgs_recs, emsc_recs = d["usgs"].get("records") or [], (d.get("emsc") or {}).get("records") or []
+    pairs = match(usgs_recs, emsc_recs)
+    for q in usgs_recs:
         alert = q.get("alert")
         hot = alert and PAGER_RANK.get(alert, 0) >= 1
         p = {**_base(f), "id": f"elements:usgs:{q['id']}", "title": f"M{q['mag']} earthquake, {q['place']}".rstrip(", "),
@@ -320,7 +354,25 @@ def build(d: dict, now: datetime | None = None) -> dict:
         if hot:
             p["baseline_ref"] = {"id": "pager-green", "window": "USGS PAGER alert scale (green: little or no impact)",
                                  "type": "fixed", "version": "1"}
+        e = pairs.get(q["id"])
+        if e:
+            independent = (e.get("authority") or "").upper() != NEIC
+            p["measures"]["emsc"] = {"magnitude": e["mag"], "magnitude_type": e.get("magtype"), "authority": e.get("authority"),
+                                     "independent": independent, "id": e["id"]}
+            if independent:   # a second, independent catalogue reports the same earthquake
+                p["sources"].append({**SRC["emsc"], "url": e["url"], "accessed_at": fe})
         feats.append({"type": "Feature", "geometry": _pt(q["lon"], q["lat"]), "properties": p})
+
+    matched = {e["id"] for e in pairs.values()}
+    for e in emsc_recs:
+        if e["id"] in matched or (e.get("authority") or "").upper() == NEIC:
+            continue   # a NEIC solution is USGS's own; USGS's feed carries it
+        p = {**_base(fe), "id": f"elements:emsc:{e['id']}", "title": f"M{e['mag']} earthquake, {e['region']} (EMSC)",
+             "tier": "routine", "data_as_of": e.get("time") or fe, "countries": e["countries"], "requirement_ids": ["EL-PIR-1"],
+             "sources": [{**SRC["emsc"], "url": e["url"], "accessed_at": fe}], "link": e["url"],
+             "measures": {"magnitude": e["mag"], "magnitude_type": e.get("magtype"), "place": e["region"],
+                          "depth_km": e.get("depth_km"), "authority": e.get("authority"), "usgs_match": False}}
+        feats.append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
 
     f = d["gdacs"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     for e in d["gdacs"].get("records") or []:
@@ -384,6 +436,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     feats += _tsunami_items(d, now)
     feats += _drought_item(d, now)
     feats += _meteoalarm_items(d, now)
+    feats += _wildfire_items(d, now)
 
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -423,13 +476,17 @@ def build(d: dict, now: datetime | None = None) -> dict:
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm", "emsc", "nifc")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
             "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
-                       "with attribution; MeteoAlarm content CC BY 4.0",
-            "attribution": "Elements, The Intelligence Company. Sources: USGS, GDACS, NOAA NHC, Copernicus EMS (© European Union), "
+                       "with attribution; MeteoAlarm and EMSC content CC BY 4.0; US Drought Monitor and NIFC WFIGS state "
+                       "no licence and are credited",
+            "attribution": "Elements, The Intelligence Company. Sources: USGS, EMSC (European-Mediterranean Seismological Centre), "
+                           "GDACS, NOAA NHC, Copernicus EMS (© European Union), "
                            "NASA FIRMS (LANCE, operated by NASA's Earth Science Data and Information System), "
-                           "MeteoAlarm (EUMETNET) and the national weather services that issue its warnings.",
+                           "MeteoAlarm (EUMETNET) and the national weather services that issue its warnings, the US Drought "
+                           "Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) and the National Interagency Fire "
+                           "Center (WFIGS).",
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
             "dropped": dropped, "features": kept}

@@ -7,6 +7,7 @@
   --a-green: #2b8a3e; --a-yellow: #f0c419; --a-orange: #f76707; --a-red: #9b1c1c; --unrated: #7b8794;
   --on-green: #ffffff; --on-orange: #14181f; --on-red: #ffffff;
   --f1: #f06fa0; --f2: #d6338a; --f3: #a3136f; --f4: #5f0a4a;
+  --wildfire: #9a3412;
   --cems: #0b7285; --nhc: #14181f; --mark-edge: rgba(20, 24, 31, .55); --bar: #3b5b85;
   --radius: 10px; --gap: 16px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color-scheme: light;
@@ -17,6 +18,7 @@
     --a-green: #40c057; --a-yellow: #fcc419; --a-orange: #fd7e14; --a-red: #e8364f; --unrated: #8b97a6;
     --on-green: #0f1318; --on-orange: #0f1318; --on-red: #0f1318;
     --f1: #a33a78; --f2: #cf4596; --f3: #f06cb4; --f4: #ffb3dd;
+    --wildfire: #fdba74;
     --cems: #3bc9db; --nhc: #f3f4f6; --mark-edge: rgba(0, 0, 0, .6); --bar: #7fa6d9; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
@@ -45,6 +47,8 @@ a { color: var(--link); }
 .legend .eu { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: 0;
   background: var(--a-yellow); box-shadow: 0 0 0 1px var(--mark-edge); }
 #eu-cc table { margin-top: 12px; }
+.legend .dash-ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1.5px dashed var(--unrated);
+  margin-right: 4px; vertical-align: -2px; }
 .legend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--cems); margin-right: 4px; vertical-align: -2px; }
 .legend .lg-icon { display: inline-block; width: 26px; margin-right: 4px; }
 #map { height: min(62vh, 560px); min-height: 340px; background: var(--sea); }

@@ -42,7 +42,7 @@
     .setView([25, 0], openZoom);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Natural Earth · USGS · GDACS · NOAA · MeteoAlarm · Copernicus EMS · NASA FIRMS");
+  map.attributionControl.addAttribution("Natural Earth · USGS · EMSC · GDACS · NOAA · NIFC · MeteoAlarm · Copernicus EMS · NASA FIRMS");
   // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
 
@@ -58,13 +58,13 @@
 
   function areaList(a) { return a.length > 3 ? a.slice(0, 3).join("; ") + " and " + (a.length - 3) + " more" : a.join("; "); }
 
-  function draw(world, feats, fires, drought, euwx) {
+  function draw(world, feats, fires, drought, euwx, nifcAll) {
     // Land goes in its own pane below the overlays: Leaflet stacks any SVG above any canvas in a pane, and the fire
     // canvas has to sit above the land.
     map.createPane("land").style.zIndex = 350;
     L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], emsc: [], nifc: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
 
     // Drought areas sit in their own pane just above the land, under everything else. Off until switched on: they
@@ -110,10 +110,35 @@
           fillColor: alertColor(m.pager), fillOpacity: m.pager ? 0.9 : 0.55 })
           .bindTooltip(tip(f.properties.title + "\n" + when(f.properties.data_as_of) + (m.depth_km != null ? ", depth " + m.depth_km + " km" : "")
             + (m.pager ? "\nPAGER " + m.pager : "\nNo PAGER alert issued")
+            + (m.emsc ? (m.emsc.independent ? "\nAlso in EMSC's catalogue: M" + m.emsc.magnitude.toFixed(1) + " (" + m.emsc.authority + ")"
+              : "\nEMSC carries USGS's own solution (not independent)") : "\nNot matched in EMSC's catalogue")
             + (m.tsunami_flag ? "\nUSGS tsunami flag set (a large ocean event; it does not mean a tsunami occurred)" : "")))
           .addTo(layers.usgs);
       });
+    // EMSC earthquakes with no USGS match: hollow, dashed circles in the same layer.
+    by.emsc.forEach(function (f) {
+      if (!f.geometry) return;
+      var m = f.properties.measures, c = f.geometry.coordinates;
+      L.circleMarker([c[1], c[0]], { radius: quakeRadius(m.magnitude), weight: 1.4, color: css("--unrated"), dashArray: "3 2",
+        fill: true, fillOpacity: 0 })
+        .bindTooltip(tip(f.properties.title + "\n" + when(f.properties.data_as_of) + (m.depth_km != null ? ", depth " + m.depth_km + " km" : "")
+          + "\nSolution: " + (m.authority || "EMSC") + ". Not in USGS's M4.5+ list (the two catalogues' magnitudes differ)."))
+        .addTo(layers.usgs);
+    });
     layers.usgs.addTo(map);
+
+    // US wildfires being fought (NIFC), sized by acres.
+    layers.nifc = L.layerGroup();
+    (nifcAll || []).forEach(function (w) {
+      var r = Math.max(2.5, Math.min(14, 1.6 * Math.log10(Math.max(w.acres, 1)) + 1));
+      L.circleMarker([w.lat, w.lon], { radius: r, weight: 1.2, color: css("--wildfire"), fillColor: css("--wildfire"), fillOpacity: 0.35 })
+        .bindTooltip(tip(w.name + " (NIFC)\n" + Number(w.acres).toLocaleString("en-US") + " acres"
+          + (w.contained != null ? ", " + w.contained + "% contained" : ", containment not reported")
+          + "\n" + [w.county ? w.county + " County" : null, w.state].filter(Boolean).join(", ")
+          + (w.discovered ? "\nDiscovered " + when(w.discovered) : "")))
+        .addTo(layers.nifc);
+    });
+    layers.nifc.addTo(map);
 
     layers.gdacs = L.layerGroup();
     function gdAlert(f) { return (f.properties.response_stage || ":").split(":")[1]; }
@@ -243,12 +268,15 @@
       h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
       h("span", null, [h("span", { "class": "wx" }), "US weather warning"]),
       h("span", null, [h("span", { "class": "eu" }), "European weather warning (dot per region)"]),
+      sw("dt", "background:" + css("--wildfire") + ";opacity:.7", "US wildfire"),
+      h("span", null, [h("span", { "class": "dash-ring" }), "EMSC-only earthquake"]),
       h("span", null, [h("span", { "class": "ts-icon a-none lg-ts" }, ["TSU"]), "tsunami message"]),
       sw("ring", "", "Copernicus activation")]));
   }
 
   function lists(feats, health, generated, fires) {
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [],
+      emsc: [], nifc: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
 
     // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
@@ -358,6 +386,20 @@
       var m = p.measures;
       return [m.magnitude.toFixed(1), link(p.link, m.place || "—"), when(p.data_as_of), m.pager ? badge(m.pager) : "—"]; }), { 0: 1, 2: 1 })
       : empty("No earthquakes of magnitude 4.5 or more in the past 7 days."));
+    var both = by.usgs.filter(function (p) { return p.measures.emsc && p.measures.emsc.independent; }).length;
+    var copy = by.usgs.filter(function (p) { return p.measures.emsc && !p.measures.emsc.independent; }).length;
+    document.getElementById("emsc-note").replaceChildren(by.usgs.length
+      ? both + " of " + by.usgs.length + " USGS earthquakes are confirmed by EMSC's independent catalogue"
+        + (copy ? "; for " + copy + " more, EMSC carries USGS's own solution" : "") + ". "
+        + (by.emsc.length ? by.emsc.length + " earthquake" + (by.emsc.length === 1 ? "" : "s") + " of M4.5 or more appear only in EMSC's catalogue (dashed on the map)." : "")
+      : "");
+
+    var wf = by.nifc.slice().sort(function (x, y) { return y.measures.acres - x.measures.acres; });
+    document.getElementById("wildfires").replaceChildren(wf.length ? table(["Fire", "Where", "Acres", "Contained", "Updated"], wf.slice(0, 15).map(function (p) {
+      var m = p.measures;
+      return [m.name, [m.county ? m.county + " County" : null, m.state].filter(Boolean).join(", "),
+        Number(m.acres).toLocaleString("en-US"), m.percent_contained != null ? m.percent_contained + "%" : "—", when(p.data_as_of)]; }), { 2: 1, 3: 1, 4: 1 })
+      : empty("No US wildfire of 100 acres or more is being fought."));
 
     var tcs = by.gdacs.filter(function (p) { return p.measures.hazard_code === "TC"; })
       .sort(function (x, y) { return (y.measures.to || "").localeCompare(x.measures.to || ""); });
@@ -412,7 +454,8 @@
       "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
       "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook",
       "noaa-tsunami": "NOAA tsunami warning centres", "us-drought-monitor": "US Drought Monitor (weekly)",
-      meteoalarm: "MeteoAlarm warnings (39 European countries)" };
+      meteoalarm: "MeteoAlarm warnings (39 European countries)", emsc: "EMSC earthquakes (M4.5+, past 7 days)",
+      "nifc-wfigs": "NIFC wildfire incidents (WFIGS)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;
@@ -429,8 +472,9 @@
   // The fire cells are optional: without them the rest of the page still draws.
   Promise.all([get("geo/world.json"), get("data/feed.geojson"), get("data/health.json"),
     get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; }),
-    get("data/meteoalarm.json").catch(function () { return null; })]).then(function (x) {
-    draw(x[0], x[1].features, x[3], x[4], x[5]);
+    get("data/meteoalarm.json").catch(function () { return null; }),
+    get("data/wildfires.json").catch(function () { return null; })]).then(function (x) {
+    draw(x[0], x[1].features, x[3], x[4], x[5], x[6] && x[6].fires);
     lists(x[1].features, x[2], x[1].generated_at, x[3]);
     T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });
   }).catch(function (e) {
