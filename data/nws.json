@@ -120,334 +120,6 @@
    ]
   },
   {
-   "id": "KPUB.FA.W.0029.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Alamosa, CO",
-    "Conejos, CO",
-    "Costilla, CO"
-   ],
-   "counties": [
-    "08003",
-    "08021",
-    "08023"
-   ],
-   "sent": "2026-11-05T22:58:00Z",
-   "onset": "2026-11-05T22:58:00Z",
-   "ends": "2026-11-06T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3cd4f13218d5ae50b4c6ef29992cf8e3315eaa7.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -105.82,
-       37.49
-      ],
-      [
-       -105.71,
-       37.39
-      ],
-      [
-       -105.7,
-       37.27
-      ],
-      [
-       -105.79,
-       37.25
-      ],
-      [
-       -105.8,
-       37.37
-      ],
-      [
-       -105.86,
-       37.42
-      ],
-      [
-       -105.82,
-       37.49
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -105.788,
-     37.5684
-    ],
-    [
-     -106.1764,
-     37.2134
-    ],
-    [
-     -105.4289,
-     37.2775
-    ]
-   ],
-   "lon": -105.786,
-   "lat": 37.383,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0040.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-06T04:21:00Z",
-   "onset": "2026-11-06T04:21:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfbc39dc8580dc4228f68d2f737414c7040dcade.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.67,
-       33.56
-      ],
-      [
-       -111.69,
-       33.61
-      ],
-      [
-       -111.68,
-       33.65
-      ],
-      [
-       -111.65,
-       33.65
-      ],
-      [
-       -111.65,
-       33.62
-      ],
-      [
-       -111.66,
-       33.57
-      ],
-      [
-       -111.65,
-       33.55
-      ],
-      [
-       -111.67,
-       33.55
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.666,
-   "lat": 33.59,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0042.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-06T04:26:00Z",
-   "onset": "2026-11-06T04:26:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51d99800ffa54a6c994fdeac4d74afad3317a08c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.67,
-       33.51
-      ],
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.68,
-       33.53
-      ],
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.65,
-       33.55
-      ],
-      [
-       -111.65,
-       33.54
-      ],
-      [
-       -111.67,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.671,
-   "lat": 33.527,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0014.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-06T04:37:00Z",
-   "onset": "2026-11-06T04:37:00Z",
-   "ends": "2026-11-06T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ee781afc2297186f891d56c13c4eddf57dc5e0a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.73,
-       33.49
-      ],
-      [
-       -111.8,
-       33.48
-      ],
-      [
-       -111.86,
-       33.45
-      ],
-      [
-       -111.87,
-       33.44
-      ],
-      [
-       -111.89,
-       33.43
-      ],
-      [
-       -111.91,
-       33.43
-      ],
-      [
-       -111.91,
-       33.44
-      ],
-      [
-       -111.89,
-       33.44
-      ],
-      [
-       -111.86,
-       33.46
-      ],
-      [
-       -111.84,
-       33.47
-      ],
-      [
-       -111.81,
-       33.49
-      ],
-      [
-       -111.8,
-       33.5
-      ],
-      [
-       -111.78,
-       33.5
-      ],
-      [
-       -111.75,
-       33.49
-      ],
-      [
-       -111.7,
-       33.52
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.69,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.804,
-   "lat": 33.476,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0041.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1656,6 +1328,257 @@
    ]
   },
   {
+   "id": "KPSR.FA.W.0040.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-06T20:21:00Z",
+   "onset": "2026-11-06T20:21:00Z",
+   "ends": "2026-11-07T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.752ecc156844906dfef80006a37935124476f0f7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.65,
+       33.55
+      ],
+      [
+       -111.67,
+       33.55
+      ],
+      [
+       -111.67,
+       33.56
+      ],
+      [
+       -111.69,
+       33.61
+      ],
+      [
+       -111.68,
+       33.65
+      ],
+      [
+       -111.65,
+       33.65
+      ],
+      [
+       -111.65,
+       33.62
+      ],
+      [
+       -111.66,
+       33.57
+      ],
+      [
+       -111.65,
+       33.55
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.663,
+   "lat": 33.59,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0014.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-06T20:28:00Z",
+   "onset": "2026-11-06T20:28:00Z",
+   "ends": "2026-11-07T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dfa66b6c4a5af201080073feaa2609e3e226234f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.73,
+       33.49
+      ],
+      [
+       -111.8,
+       33.48
+      ],
+      [
+       -111.86,
+       33.45
+      ],
+      [
+       -111.87,
+       33.44
+      ],
+      [
+       -111.89,
+       33.43
+      ],
+      [
+       -111.91,
+       33.43
+      ],
+      [
+       -111.91,
+       33.44
+      ],
+      [
+       -111.89,
+       33.44
+      ],
+      [
+       -111.86,
+       33.46
+      ],
+      [
+       -111.84,
+       33.47
+      ],
+      [
+       -111.81,
+       33.49
+      ],
+      [
+       -111.8,
+       33.5
+      ],
+      [
+       -111.78,
+       33.5
+      ],
+      [
+       -111.75,
+       33.49
+      ],
+      [
+       -111.7,
+       33.52
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.69,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.804,
+   "lat": 33.476,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0042.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-06T20:29:00Z",
+   "onset": "2026-11-06T20:29:00Z",
+   "ends": "2026-11-07T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d25b1cb3a490ac7e6ff2e16615d8d5af0a29456.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.67,
+       33.51
+      ],
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.68,
+       33.53
+      ],
+      [
+       -111.67,
+       33.55
+      ],
+      [
+       -111.65,
+       33.55
+      ],
+      [
+       -111.65,
+       33.54
+      ],
+      [
+       -111.67,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.671,
+   "lat": 33.527,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KAKQ.FA.A.0006.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1920,115 +1843,6 @@
    ],
    "lon": -71.123,
    "lat": 41.714,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSGF.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Springfield MO",
-   "areas": [
-    "Benton",
-    "Morgan",
-    "Miller",
-    "Maries",
-    "Camden",
-    "Pulaski",
-    "Phelps",
-    "Laclede",
-    "Texas",
-    "Dent",
-    "Wright",
-    "Howell",
-    "Shannon",
-    "Oregon"
-   ],
-   "counties": [
-    "29015",
-    "29029",
-    "29065",
-    "29091",
-    "29105",
-    "29125",
-    "29131",
-    "29141",
-    "29149",
-    "29161",
-    "29169",
-    "29203",
-    "29215",
-    "29229"
-   ],
-   "sent": "2026-11-06T06:24:00Z",
-   "onset": "2026-11-07T06:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.535598fa3a9e832211569877b6c300a40e6c9adf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.2879,
-     38.301
-    ],
-    [
-     -92.7653,
-     38.0265
-    ],
-    [
-     -91.4897,
-     37.6031
-    ],
-    [
-     -91.8874,
-     36.7744
-    ],
-    [
-     -92.5948,
-     37.6597
-    ],
-    [
-     -91.9236,
-     38.1626
-    ],
-    [
-     -92.4299,
-     38.2167
-    ],
-    [
-     -92.8748,
-     38.4208
-    ],
-    [
-     -91.4018,
-     36.6853
-    ],
-    [
-     -91.7904,
-     37.8663
-    ],
-    [
-     -92.207,
-     37.8248
-    ],
-    [
-     -91.3913,
-     37.1525
-    ],
-    [
-     -91.9645,
-     37.3143
-    ],
-    [
-     -92.48,
-     37.2676
-    ]
-   ],
-   "lon": -92.178,
-   "lat": 37.663,
    "countries": [
     "US"
    ]
@@ -2578,6 +2392,115 @@
    ],
    "lon": -90.82,
    "lat": 38.819,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSGF.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Springfield MO",
+   "areas": [
+    "Benton",
+    "Morgan",
+    "Miller",
+    "Maries",
+    "Camden",
+    "Pulaski",
+    "Phelps",
+    "Laclede",
+    "Texas",
+    "Dent",
+    "Wright",
+    "Howell",
+    "Shannon",
+    "Oregon"
+   ],
+   "counties": [
+    "29015",
+    "29029",
+    "29065",
+    "29091",
+    "29105",
+    "29125",
+    "29131",
+    "29141",
+    "29149",
+    "29161",
+    "29169",
+    "29203",
+    "29215",
+    "29229"
+   ],
+   "sent": "2026-11-06T20:33:00Z",
+   "onset": "2026-11-07T06:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a88870a85dab1f806dc4be2b83e89ef112a50a7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.2879,
+     38.301
+    ],
+    [
+     -92.7653,
+     38.0265
+    ],
+    [
+     -91.4897,
+     37.6031
+    ],
+    [
+     -91.8874,
+     36.7744
+    ],
+    [
+     -92.5948,
+     37.6597
+    ],
+    [
+     -91.9236,
+     38.1626
+    ],
+    [
+     -92.4299,
+     38.2167
+    ],
+    [
+     -92.8748,
+     38.4208
+    ],
+    [
+     -91.4018,
+     36.6853
+    ],
+    [
+     -91.7904,
+     37.8663
+    ],
+    [
+     -92.207,
+     37.8248
+    ],
+    [
+     -91.3913,
+     37.1525
+    ],
+    [
+     -91.9645,
+     37.3143
+    ],
+    [
+     -92.48,
+     37.2676
+    ]
+   ],
+   "lon": -92.178,
+   "lat": 37.663,
    "countries": [
     "US"
    ]
@@ -3685,6 +3608,63 @@
    ],
    "lon": -118.697,
    "lat": 34.278,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTWC.SV.W.0340.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tucson AZ",
+   "areas": [
+    "Cochise, AZ"
+   ],
+   "counties": [
+    "04003"
+   ],
+   "sent": "2026-11-06T20:33:00Z",
+   "onset": "2026-11-06T20:33:00Z",
+   "ends": "2026-11-06T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b4ab9717499a7818fa4b1c6b9314ffcde8b8030.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -109.83,
+       31.96
+      ],
+      [
+       -109.95,
+       32.09
+      ],
+      [
+       -109.6,
+       32.34
+      ],
+      [
+       -109.44,
+       32.13
+      ],
+      [
+       -109.83,
+       31.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -109.7752,
+     31.8401
+    ]
+   ],
+   "lon": -109.73,
+   "lat": 32.096,
    "countries": [
     "US"
    ]
