@@ -1746,6 +1746,185 @@
    ]
   },
   {
+   "id": "KAKQ.FA.A.0006.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Northampton",
+    "Hertford",
+    "Gates",
+    "Pasquotank",
+    "Camden",
+    "Western Currituck",
+    "Bertie",
+    "Chowan",
+    "Perquimans",
+    "Eastern Currituck",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "Southampton",
+    "Chesapeake",
+    "Virginia Beach",
+    "Northampton",
+    "York",
+    "Newport News",
+    "Hampton/Poquoson",
+    "Isle of Wight",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth"
+   ],
+   "counties": [
+    "37015",
+    "37029",
+    "37041",
+    "37053",
+    "37073",
+    "37091",
+    "37131",
+    "37139",
+    "37143",
+    "51081",
+    "51093",
+    "51131",
+    "51175",
+    "51181",
+    "51183",
+    "51199",
+    "51550",
+    "51595",
+    "51620",
+    "51650",
+    "51700",
+    "51710",
+    "51735",
+    "51740",
+    "51800",
+    "51810"
+   ],
+   "sent": "2026-11-06T17:06:00Z",
+   "onset": "2026-11-06T17:06:00Z",
+   "ends": "2026-11-07T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6d43a1452375fd55ee0f2458a0f9ceb117e37f6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9624,
+     36.059
+    ],
+    [
+     -76.1625,
+     36.3423
+    ],
+    [
+     -76.6028,
+     36.129
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -76.7024,
+     36.4421
+    ],
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -76.2607,
+     36.2652
+    ],
+    [
+     -76.4032,
+     36.1809
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -76.7076,
+     36.9014
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -76.3955,
+     37.2209
+    ],
+    [
+     -76.3018,
+     36.6794
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -76.2973,
+     37.048
+    ],
+    [
+     -76.522,
+     37.0761
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -76.3035,
+     37.1284
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -76.6348,
+     36.6972
+    ],
+    [
+     -76.0291,
+     36.7795
+    ]
+   ],
+   "lon": -76.631,
+   "lat": 36.693,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KSGF.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3036,32 +3215,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.2476.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Western US Arctic Offshore"
-   ],
-   "counties": [
-    "58500"
-   ],
-   "sent": "2026-11-06T12:45:00Z",
-   "onset": "2026-11-06T13:00:00Z",
-   "ends": "2026-11-08T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9184.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3078,6 +3231,32 @@
    "onset": "2026-11-06T12:00:00Z",
    "ends": "2026-11-07T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2476.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T13:00:00Z",
+   "ends": "2026-11-08T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3267,6 +3446,37 @@
    ],
    "lon": -112.322,
    "lat": 48.104,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KGGW.HW.W.0017.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Glasgow MT",
+   "areas": [
+    "Southwest Phillips"
+   ],
+   "counties": [
+    "30071"
+   ],
+   "sent": "2026-11-06T17:25:00Z",
+   "onset": "2026-11-07T07:00:00Z",
+   "ends": "2026-11-07T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab960bca4f696aa569759c79f74e3b78e1cf5ac9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -107.9289,
+     48.2501
+    ]
+   ],
+   "lon": -107.929,
+   "lat": 48.25,
    "countries": [
     "US"
    ]
