@@ -478,29 +478,6 @@
    ]
   },
   {
-   "id": "EQ-1573141",
-   "type": "EQ",
-   "kind": "earthquake",
-   "episode": 1741837,
-   "name": "Earthquake in China",
-   "alert": "orange",
-   "score": 2,
-   "latest_alert": "orange",
-   "severity_value": 7.0,
-   "severity_unit": "M",
-   "from": "2026-10-22T14:33:40Z",
-   "to": "2026-10-22T14:33:40Z",
-   "current": false,
-   "country": "China",
-   "severity": "Magnitude 7M, Depth:18km",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
-   "lon": 93.78,
-   "lat": 32.38,
-   "countries": [
-    "CN"
-   ]
-  },
-  {
    "id": "FL-1104250",
    "type": "FL",
    "kind": "flood",
@@ -545,27 +522,6 @@
    "countries": [
     "AU"
    ]
-  },
-  {
-   "id": "TC-1001342",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 5,
-   "name": "Tropical Cyclone JOSEPHINE-26",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 120.3696,
-   "severity_unit": "km/h",
-   "from": "2026-10-21T21:00:00Z",
-   "to": "2026-10-22T21:00:00Z",
-   "current": false,
-   "country": "United States, Canada, Saint Pierre and Miquelon",
-   "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=5&eventtype=TC",
-   "lon": -65.8,
-   "lat": 40.0,
-   "countries": []
   },
   {
    "id": "TC-1001341",
