@@ -880,67 +880,6 @@
    ]
   },
   {
-   "id": "KEAX.FL.W.0217.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Buchanan, MO"
-   ],
-   "counties": [
-    "29021"
-   ],
-   "sent": "2026-11-06T02:35:00Z",
-   "onset": "2026-11-06T02:35:00Z",
-   "ends": "2026-11-08T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.859c9062422a02029285ae40c5f608332dcd7224.003.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94.8,
-       39.77
-      ],
-      [
-       -94.71,
-       39.77
-      ],
-      [
-       -94.64,
-       39.51
-      ],
-      [
-       -94.64,
-       39.41
-      ],
-      [
-       -94.72,
-       39.41
-      ],
-      [
-       -94.8,
-       39.77
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -94.8082,
-     39.6604
-    ]
-   ],
-   "lon": -94.718,
-   "lat": 39.607,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEAX.FL.W.0219.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1625,6 +1564,67 @@
    ]
   },
   {
+   "id": "KEAX.FL.W.0217.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Buchanan, MO"
+   ],
+   "counties": [
+    "29021"
+   ],
+   "sent": "2026-11-06T05:46:00Z",
+   "onset": "2026-11-06T05:46:00Z",
+   "ends": "2026-11-08T01:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f80ce6bb58eba144fddb7d9cd6b398399865edfc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -94.8,
+       39.77
+      ],
+      [
+       -94.71,
+       39.77
+      ],
+      [
+       -94.64,
+       39.51
+      ],
+      [
+       -94.64,
+       39.41
+      ],
+      [
+       -94.72,
+       39.41
+      ],
+      [
+       -94.8,
+       39.77
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -94.8082,
+     39.6604
+    ]
+   ],
+   "lon": -94.718,
+   "lat": 39.607,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KBOX.FA.A.0006.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1660,10 +1660,10 @@
     "44007",
     "44009"
    ],
-   "sent": "2026-11-05T16:37:00Z",
+   "sent": "2026-11-06T05:54:00Z",
    "onset": "2026-11-06T09:00:00Z",
    "ends": "2026-11-07T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1843c66f4017da99c9bcb8d115cf25eb6023f0a3.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcc6c94aeaa277185072b5089f6e27464f018324.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
