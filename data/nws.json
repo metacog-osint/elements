@@ -1,69 +1,6 @@
 {
  "records": [
   {
-   "id": "KPHI.FF.W.0159.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Monmouth, NJ",
-    "Ocean, NJ"
-   ],
-   "counties": [
-    "34025",
-    "34029"
-   ],
-   "sent": "2026-11-06T14:14:00Z",
-   "onset": "2026-11-06T14:14:00Z",
-   "ends": "2026-11-06T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6280c16f86d5d9123eb7d44c553e929f6c218f6e.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.17,
-       39.95
-      ],
-      [
-       -74.1,
-       40.27
-      ],
-      [
-       -73.96,
-       40.32
-      ],
-      [
-       -74.04,
-       39.98
-      ],
-      [
-       -74.17,
-       39.95
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ]
-   ],
-   "lon": -74.088,
-   "lat": 40.094,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRAH.FF.W.0042.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -312,111 +249,6 @@
    ],
    "lon": -92.091,
    "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KDVN.FL.W.0092.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Keokuk, IA"
-   ],
-   "counties": [
-    "19107"
-   ],
-   "sent": "2026-11-06T02:09:00Z",
-   "onset": "2026-11-06T21:00:00Z",
-   "ends": "2026-11-07T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.04,
-       41.25
-      ],
-      [
-       -92.13,
-       41.28
-      ],
-      [
-       -92.17,
-       41.29
-      ],
-      [
-       -92.2,
-       41.3
-      ],
-      [
-       -92.25,
-       41.27
-      ],
-      [
-       -92.4,
-       41.31
-      ],
-      [
-       -92.4,
-       41.33
-      ],
-      [
-       -92.33,
-       41.32
-      ],
-      [
-       -92.26,
-       41.3
-      ],
-      [
-       -92.23,
-       41.31
-      ],
-      [
-       -92.17,
-       41.31
-      ],
-      [
-       -92.14,
-       41.32
-      ],
-      [
-       -92.12,
-       41.32
-      ],
-      [
-       -92.1,
-       41.3
-      ],
-      [
-       -92.08,
-       41.3
-      ],
-      [
-       -92.01,
-       41.26
-      ],
-      [
-       -92.04,
-       41.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.1677,
-     41.3312
-    ]
-   ],
-   "lon": -92.181,
-   "lat": 41.295,
    "countries": [
     "US"
    ]
@@ -1557,6 +1389,111 @@
    ],
    "lon": -94.803,
    "lat": 39.337,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0092.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Keokuk, IA"
+   ],
+   "counties": [
+    "19107"
+   ],
+   "sent": "2026-11-06T15:55:00Z",
+   "onset": "2026-11-07T00:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1346acd26017b9a99b26e86dd7add3dddc5e44c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.04,
+       41.25
+      ],
+      [
+       -92.13,
+       41.28
+      ],
+      [
+       -92.17,
+       41.29
+      ],
+      [
+       -92.2,
+       41.3
+      ],
+      [
+       -92.25,
+       41.27
+      ],
+      [
+       -92.4,
+       41.31
+      ],
+      [
+       -92.4,
+       41.33
+      ],
+      [
+       -92.33,
+       41.32
+      ],
+      [
+       -92.26,
+       41.3
+      ],
+      [
+       -92.23,
+       41.31
+      ],
+      [
+       -92.17,
+       41.31
+      ],
+      [
+       -92.14,
+       41.32
+      ],
+      [
+       -92.12,
+       41.32
+      ],
+      [
+       -92.1,
+       41.3
+      ],
+      [
+       -92.08,
+       41.3
+      ],
+      [
+       -92.01,
+       41.26
+      ],
+      [
+       -92.04,
+       41.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.1677,
+     41.3312
+    ]
+   ],
+   "lon": -92.181,
+   "lat": 41.295,
    "countries": [
     "US"
    ]
@@ -2942,32 +2879,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9184.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-06T12:45:00Z",
-   "onset": "2026-11-06T12:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2476.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2984,6 +2895,32 @@
    "onset": "2026-11-06T13:00:00Z",
    "ends": "2026-11-08T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9184.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3350,10 +3287,10 @@
     "57173",
     "57176"
    ],
-   "sent": "2026-11-06T08:30:00Z",
+   "sent": "2026-11-06T15:42:00Z",
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e975b94de18fd577d155bbeb5cff4f126d29004.004.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f657bd21e5bccb9728b3fc80f9004ed72fcd1f80.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],
