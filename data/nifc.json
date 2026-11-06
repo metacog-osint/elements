@@ -62,7 +62,7 @@
    "acres": 13604.0,
    "contained": 91,
    "discovered": "2026-08-22T21:28:00Z",
-   "updated": "2026-11-06T19:27:35Z",
+   "updated": "2026-11-06T22:59:52Z",
    "state": "OR",
    "county": "Baker",
    "cause": "Natural",
@@ -776,13 +776,13 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-06T21:31:01Z",
-   "updated": "2026-11-06T21:37:50Z",
+   "updated": "2026-11-06T22:58:57Z",
    "state": "AR",
    "county": "Clark",
    "cause": null,
    "complexity": null,
-   "lon": -93.3513,
-   "lat": 34.1284
+   "lon": -93.3434,
+   "lat": 34.1308
   },
   {
    "id": "{F774C2D1-0266-4E7F-B6AC-AFF2765B896E}",
@@ -825,6 +825,20 @@
    "complexity": null,
    "lon": -123.6872,
    "lat": 45.2663
+  },
+  {
+   "id": "{971FAF5C-56EE-48A4-8F74-8051205F1D6E}",
+   "name": "Kelso",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-10-05T22:04:20Z",
+   "updated": "2026-11-06T22:46:08Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.2395,
+   "lat": 35.638
   },
   {
    "id": "{C7A749A3-C56A-4A15-96DC-7B711CA79A30}",
@@ -1049,6 +1063,34 @@
    "complexity": null,
    "lon": -121.5273,
    "lat": 42.4206
+  },
+  {
+   "id": "{5FDDDCB5-5F69-485F-9FAB-93A81D28E6F7}",
+   "name": "Fiddler",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-07-30T23:04:25Z",
+   "updated": "2026-11-06T22:59:54Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.7907,
+   "lat": 35.3714
+  },
+  {
+   "id": "{64EE6B98-C32B-41CA-8820-27A438F48CEB}",
+   "name": "Short",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-08-01T17:01:04Z",
+   "updated": "2026-11-06T22:58:19Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.8686,
+   "lat": 35.7055
   },
   {
    "id": "{1EC2C220-E0DA-4412-BB60-DEF40AB92D06}",
@@ -1331,6 +1373,20 @@
    "lat": 41.3176
   },
   {
+   "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
+   "name": "Field",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-04-11T18:08:00Z",
+   "updated": "2026-11-06T22:55:57Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.042,
+   "lat": 35.4926
+  },
+  {
    "id": "{465BF3FC-717D-4476-994A-D6931A7317A4}",
    "name": "Nfca #69",
    "acres": 0.0,
@@ -1457,18 +1513,60 @@
    "lat": 44.0529
   },
   {
-   "id": "{A40C92D8-4BA1-4B94-9300-2D401D5AEAB4}",
-   "name": "HORSETAIL/SHU Assist",
+   "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
+   "name": "Petroleum",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-07-22T11:02:08Z",
-   "updated": "2026-11-03T23:00:24Z",
+   "discovered": "2026-06-28T21:39:00Z",
+   "updated": "2026-11-06T22:50:17Z",
    "state": "CA",
-   "county": "Trinity",
+   "county": "Kern",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -123.2001,
-   "lat": 40.5564
+   "lon": -119.4012,
+   "lat": 35.1115
+  },
+  {
+   "id": "{EEB1F0D9-DF1E-4634-937E-88C65646BDFD}",
+   "name": "North",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-07-13T23:21:00Z",
+   "updated": "2026-11-06T22:51:02Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.49,
+   "lat": 35.1575
+  },
+  {
+   "id": "{742A0314-0859-456A-AA4C-33CA78695981}",
+   "name": "Crown",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-07-14T14:22:00Z",
+   "updated": "2026-11-06T22:56:41Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.0432,
+   "lat": 35.5775
+  },
+  {
+   "id": "{3C3D99AF-62EE-4051-A0DD-CD0D4B78A472}",
+   "name": "Crocker",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-07-24T22:10:00Z",
+   "updated": "2026-11-06T22:51:43Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.615,
+   "lat": 35.2167
   },
   {
    "id": "{C4219663-2EFB-428A-BCC7-BA405CFC03ED}",
@@ -1497,6 +1595,20 @@
    "complexity": null,
    "lon": -123.4783,
    "lat": 43.2806
+  },
+  {
+   "id": "{9DB428E9-BEE4-4517-922C-BE84BABD764A}",
+   "name": "Mtz/Bdc/45A",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-08-22T06:42:19Z",
+   "updated": "2026-11-06T22:59:12Z",
+   "state": "CA",
+   "county": "San Bernardino",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.3971,
+   "lat": 35.7491
   },
   {
    "id": "{D7071462-1AAF-43FA-893A-FE1B5EE5D2AA}",
@@ -1583,6 +1695,20 @@
    "lat": 42.898
   },
   {
+   "id": "{FDBBA9E8-CADA-400A-A6A5-491BE728E42B}",
+   "name": "Gran",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-09-20T20:27:00Z",
+   "updated": "2026-11-06T22:55:18Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.02,
+   "lat": 35.4783
+  },
+  {
    "id": "{F788B436-7B4F-4D33-BC3E-1DFE3147B92A}",
    "name": "No Mans",
    "acres": 0.0,
@@ -1595,6 +1721,20 @@
    "complexity": null,
    "lon": -89.9028,
    "lat": 46.2816
+  },
+  {
+   "id": "{0619F74B-6F31-437C-91A6-918D2F36BC34}",
+   "name": "Carrier",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-11T16:26:00Z",
+   "updated": "2026-11-06T22:54:40Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.05,
+   "lat": 35.48
   },
   {
    "id": "{C7733251-D111-43A3-811B-393DA42DBA9D}",
