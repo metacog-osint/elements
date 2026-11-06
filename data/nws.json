@@ -1,75 +1,6 @@
 {
  "records": [
   {
-   "id": "KPHI.FF.W.0159.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ",
-    "Monmouth, NJ",
-    "Ocean, NJ"
-   ],
-   "counties": [
-    "34005",
-    "34025",
-    "34029"
-   ],
-   "sent": "2026-11-06T11:59:00Z",
-   "onset": "2026-11-06T11:59:00Z",
-   "ends": "2026-11-06T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c22ccff3abe97ba764f93076303f08c6d6808cf.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.04,
-       39.98
-      ],
-      [
-       -74.48,
-       39.88
-      ],
-      [
-       -74.7,
-       40.05
-      ],
-      [
-       -73.96,
-       40.32
-      ],
-      [
-       -74.04,
-       39.98
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ]
-   ],
-   "lon": -74.244,
-   "lat": 40.042,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.FF.W.0158.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -142,6 +73,75 @@
    ],
    "lon": -75.083,
    "lat": 39.78,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0159.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Burlington, NJ",
+    "Monmouth, NJ",
+    "Ocean, NJ"
+   ],
+   "counties": [
+    "34005",
+    "34025",
+    "34029"
+   ],
+   "sent": "2026-11-06T12:43:00Z",
+   "onset": "2026-11-06T12:43:00Z",
+   "ends": "2026-11-06T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9b7ecb9749be93e04882f0737e96344dba8e66.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.7,
+       40.05
+      ],
+      [
+       -74.48,
+       39.88
+      ],
+      [
+       -74.04,
+       39.98
+      ],
+      [
+       -73.96,
+       40.32
+      ],
+      [
+       -74.7,
+       40.05
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ]
+   ],
+   "lon": -74.376,
+   "lat": 40.056,
    "countries": [
     "US"
    ]
@@ -639,105 +639,6 @@
    ]
   },
   {
-   "id": "KDVN.FL.W.0091.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Benton, IA",
-    "Iowa, IA"
-   ],
-   "counties": [
-    "19011",
-    "19095"
-   ],
-   "sent": "2026-11-06T02:09:00Z",
-   "onset": "2026-11-06T02:09:00Z",
-   "ends": "2026-11-09T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.3,
-       41.89
-      ],
-      [
-       -92.24,
-       41.87
-      ],
-      [
-       -92.2,
-       41.85
-      ],
-      [
-       -92.02,
-       41.81
-      ],
-      [
-       -91.9,
-       41.79
-      ],
-      [
-       -91.85,
-       41.81
-      ],
-      [
-       -91.83,
-       41.81
-      ],
-      [
-       -91.83,
-       41.77
-      ],
-      [
-       -91.98,
-       41.77
-      ],
-      [
-       -92.12,
-       41.81
-      ],
-      [
-       -92.13,
-       41.82
-      ],
-      [
-       -92.28,
-       41.84
-      ],
-      [
-       -92.3,
-       41.85
-      ],
-      [
-       -92.3,
-       41.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.0576,
-     42.0925
-    ],
-    [
-     -92.0591,
-     41.6839
-    ]
-   ],
-   "lon": -92.091,
-   "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KDVN.FL.W.0092.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -838,6 +739,105 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0091.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Benton, IA",
+    "Iowa, IA"
+   ],
+   "counties": [
+    "19011",
+    "19095"
+   ],
+   "sent": "2026-11-06T02:09:00Z",
+   "onset": "2026-11-06T02:09:00Z",
+   "ends": "2026-11-09T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.3,
+       41.89
+      ],
+      [
+       -92.24,
+       41.87
+      ],
+      [
+       -92.2,
+       41.85
+      ],
+      [
+       -92.02,
+       41.81
+      ],
+      [
+       -91.9,
+       41.79
+      ],
+      [
+       -91.85,
+       41.81
+      ],
+      [
+       -91.83,
+       41.81
+      ],
+      [
+       -91.83,
+       41.77
+      ],
+      [
+       -91.98,
+       41.77
+      ],
+      [
+       -92.12,
+       41.81
+      ],
+      [
+       -92.13,
+       41.82
+      ],
+      [
+       -92.28,
+       41.84
+      ],
+      [
+       -92.3,
+       41.85
+      ],
+      [
+       -92.3,
+       41.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.0576,
+     42.0925
+    ],
+    [
+     -92.0591,
+     41.6839
+    ]
+   ],
+   "lon": -92.091,
+   "lat": 41.827,
    "countries": [
     "US"
    ]
@@ -3156,6 +3156,240 @@
    "onset": "2026-11-06T14:00:00Z",
    "ends": "2026-11-07T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1ef543e8a96eefce26dbad4aa6503df30a2abd4.004.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9187.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9183.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island out to 15 NM"
+   ],
+   "counties": [
+    "58814"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2476.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T13:00:00Z",
+   "ends": "2026-11-08T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9184.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9179.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9190.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point from 15 to 75 NM"
+   ],
+   "counties": [
+    "58861"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9189.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island from 15 to 80 NM"
+   ],
+   "counties": [
+    "58860"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9185.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9181.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett out to 15 NM"
+   ],
+   "counties": [
+    "58813"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
