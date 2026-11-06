@@ -252,148 +252,6 @@
    ]
   },
   {
-   "id": "KPSR.FA.W.0042.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-05T19:36:00Z",
-   "onset": "2026-11-05T19:36:00Z",
-   "ends": "2026-11-06T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e31a6665cee0d8b7f9802cb47ab19989db97f0db.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.67,
-       33.51
-      ],
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.68,
-       33.53
-      ],
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.65,
-       33.55
-      ],
-      [
-       -111.65,
-       33.54
-      ],
-      [
-       -111.67,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.671,
-   "lat": 33.527,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0040.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-05T19:38:00Z",
-   "onset": "2026-11-05T19:38:00Z",
-   "ends": "2026-11-06T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e581f1bbd1460af7409d5eaafb33fbfb1c2162e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.65,
-       33.55
-      ],
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.67,
-       33.56
-      ],
-      [
-       -111.69,
-       33.61
-      ],
-      [
-       -111.68,
-       33.65
-      ],
-      [
-       -111.65,
-       33.65
-      ],
-      [
-       -111.65,
-       33.62
-      ],
-      [
-       -111.66,
-       33.57
-      ],
-      [
-       -111.65,
-       33.55
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.663,
-   "lat": 33.59,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0014.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1165,105 +1023,6 @@
    ]
   },
   {
-   "id": "KDVN.FL.W.0091.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Benton, IA",
-    "Iowa, IA"
-   ],
-   "counties": [
-    "19011",
-    "19095"
-   ],
-   "sent": "2026-11-06T02:09:00Z",
-   "onset": "2026-11-06T02:09:00Z",
-   "ends": "2026-11-09T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.3,
-       41.89
-      ],
-      [
-       -92.24,
-       41.87
-      ],
-      [
-       -92.2,
-       41.85
-      ],
-      [
-       -92.02,
-       41.81
-      ],
-      [
-       -91.9,
-       41.79
-      ],
-      [
-       -91.85,
-       41.81
-      ],
-      [
-       -91.83,
-       41.81
-      ],
-      [
-       -91.83,
-       41.77
-      ],
-      [
-       -91.98,
-       41.77
-      ],
-      [
-       -92.12,
-       41.81
-      ],
-      [
-       -92.13,
-       41.82
-      ],
-      [
-       -92.28,
-       41.84
-      ],
-      [
-       -92.3,
-       41.85
-      ],
-      [
-       -92.3,
-       41.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.0576,
-     42.0925
-    ],
-    [
-     -92.0591,
-     41.6839
-    ]
-   ],
-   "lon": -92.091,
-   "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KDVN.FL.W.0092.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1364,6 +1123,105 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0091.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Benton, IA",
+    "Iowa, IA"
+   ],
+   "counties": [
+    "19011",
+    "19095"
+   ],
+   "sent": "2026-11-06T02:09:00Z",
+   "onset": "2026-11-06T02:09:00Z",
+   "ends": "2026-11-09T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fe2fd029e2e75cebada64a2d7b5ed6f2c5671a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.3,
+       41.89
+      ],
+      [
+       -92.24,
+       41.87
+      ],
+      [
+       -92.2,
+       41.85
+      ],
+      [
+       -92.02,
+       41.81
+      ],
+      [
+       -91.9,
+       41.79
+      ],
+      [
+       -91.85,
+       41.81
+      ],
+      [
+       -91.83,
+       41.81
+      ],
+      [
+       -91.83,
+       41.77
+      ],
+      [
+       -91.98,
+       41.77
+      ],
+      [
+       -92.12,
+       41.81
+      ],
+      [
+       -92.13,
+       41.82
+      ],
+      [
+       -92.28,
+       41.84
+      ],
+      [
+       -92.3,
+       41.85
+      ],
+      [
+       -92.3,
+       41.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.0576,
+     42.0925
+    ],
+    [
+     -92.0591,
+     41.6839
+    ]
+   ],
+   "lon": -92.091,
+   "lat": 41.827,
    "countries": [
     "US"
    ]
@@ -1685,6 +1543,148 @@
    ],
    "lon": -93.558,
    "lat": 39.77,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0040.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-06T04:21:00Z",
+   "onset": "2026-11-06T04:21:00Z",
+   "ends": "2026-11-06T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfbc39dc8580dc4228f68d2f737414c7040dcade.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.67,
+       33.55
+      ],
+      [
+       -111.67,
+       33.56
+      ],
+      [
+       -111.69,
+       33.61
+      ],
+      [
+       -111.68,
+       33.65
+      ],
+      [
+       -111.65,
+       33.65
+      ],
+      [
+       -111.65,
+       33.62
+      ],
+      [
+       -111.66,
+       33.57
+      ],
+      [
+       -111.65,
+       33.55
+      ],
+      [
+       -111.67,
+       33.55
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.666,
+   "lat": 33.59,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0042.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-06T04:26:00Z",
+   "onset": "2026-11-06T04:26:00Z",
+   "ends": "2026-11-06T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51d99800ffa54a6c994fdeac4d74afad3317a08c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.67,
+       33.51
+      ],
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.68,
+       33.53
+      ],
+      [
+       -111.67,
+       33.55
+      ],
+      [
+       -111.65,
+       33.55
+      ],
+      [
+       -111.65,
+       33.54
+      ],
+      [
+       -111.67,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.671,
+   "lat": 33.527,
    "countries": [
     "US"
    ]

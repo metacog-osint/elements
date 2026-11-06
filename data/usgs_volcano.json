@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "WATCH",
+   "color": "ORANGE",
+   "prev_alert": "ADVISORY",
+   "prev_color": "YELLOW",
+   "sent": "2026-11-06T04:21:58Z",
+   "changed": "2026-11-03T00:06:36Z",
+   "synopsis": "HVO Kilauea ORANGE/WATCH - Episode 56 of the ongoing Halemaʻumaʻu eruption ended abruptly at 6:01 P.M. HST on November 5, 2026.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-06T04:05:40+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "284141",
    "name": "Ahyi Seamount",
    "observatory": "nmi",
@@ -18,26 +38,6 @@
    "lon": 145.03,
    "countries": [
     "MP"
-   ]
-  },
-  {
-   "vnum": "332010",
-   "name": "Kilauea",
-   "observatory": "hvo",
-   "observatory_name": "Hawaiian Volcano Observatory",
-   "alert": "WATCH",
-   "color": "ORANGE",
-   "prev_alert": "ADVISORY",
-   "prev_color": "YELLOW",
-   "sent": "2026-11-06T00:34:07Z",
-   "changed": "2026-11-03T00:06:36Z",
-   "synopsis": "HVO Kilauea ORANGE/WATCH - Episode 56 of the ongoing Halemaʻumaʻu eruption continues at 2:15 PM HST on November 5, 2026. Fountain heights have reached about 660 feet (200 meters).",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-05T23:42:45+00:00",
-   "threat": "Very High Threat",
-   "lat": 19.421,
-   "lon": -155.287,
-   "countries": [
-    "US"
    ]
   },
   {
