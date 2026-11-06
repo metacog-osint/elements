@@ -78,6 +78,163 @@
    ]
   },
   {
+   "id": "TJSJ.FF.W.0037.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Cabo Rojo, PR",
+    "Hormigueros, PR",
+    "Lajas, PR",
+    "Las Marias, PR",
+    "Maricao, PR",
+    "Mayaguez, PR",
+    "San German, PR"
+   ],
+   "counties": [
+    "72023",
+    "72067",
+    "72079",
+    "72083",
+    "72093",
+    "72097",
+    "72125"
+   ],
+   "sent": "2026-11-06T16:55:00Z",
+   "onset": "2026-11-06T16:55:00Z",
+   "ends": "2026-11-06T19:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43352a25f68467367b6f5f4b4d25b2b55775a904.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -67.15,
+       18.2
+      ],
+      [
+       -67.19,
+       18.27
+      ],
+      [
+       -67.12,
+       18.24
+      ],
+      [
+       -67.04,
+       18.28
+      ],
+      [
+       -66.95,
+       18.27
+      ],
+      [
+       -66.91,
+       18.25
+      ],
+      [
+       -66.9,
+       18.19
+      ],
+      [
+       -66.84,
+       18.17
+      ],
+      [
+       -66.86,
+       18.14
+      ],
+      [
+       -66.97,
+       18.15
+      ],
+      [
+       -66.98,
+       17.96
+      ],
+      [
+       -67.02,
+       17.98
+      ],
+      [
+       -67.1,
+       17.95
+      ],
+      [
+       -67.21,
+       17.95
+      ],
+      [
+       -67.21,
+       18
+      ],
+      [
+       -67.17,
+       18.01
+      ],
+      [
+       -67.2,
+       18.03
+      ],
+      [
+       -67.2,
+       18.09
+      ],
+      [
+       -67.17,
+       18.12
+      ],
+      [
+       -67.19,
+       18.17
+      ],
+      [
+       -67.15,
+       18.2
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -67.1809,
+     17.9971
+    ],
+    [
+     -67.1162,
+     18.1347
+    ],
+    [
+     -67.0401,
+     17.9785
+    ],
+    [
+     -66.9776,
+     18.2276
+    ],
+    [
+     -66.9355,
+     18.174
+    ],
+    [
+     -67.8863,
+     18.0839
+    ],
+    [
+     -67.0373,
+     18.1078
+    ]
+   ],
+   "lon": -67.073,
+   "lat": 18.125,
+   "countries": [
+    "PR"
+   ]
+  },
+  {
    "id": "KPUB.FA.W.0029.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1589,133 +1746,6 @@
    ]
   },
   {
-   "id": "KPAH.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Jefferson",
-    "Wayne",
-    "Perry",
-    "Franklin",
-    "Hamilton",
-    "Jackson",
-    "Williamson",
-    "Saline",
-    "Union",
-    "Perry",
-    "Bollinger",
-    "Cape Girardeau",
-    "Wayne",
-    "Carter",
-    "Ripley",
-    "Butler",
-    "Stoddard"
-   ],
-   "counties": [
-    "17055",
-    "17065",
-    "17077",
-    "17081",
-    "17145",
-    "17165",
-    "17181",
-    "17191",
-    "17199",
-    "29017",
-    "29023",
-    "29031",
-    "29035",
-    "29157",
-    "29181",
-    "29207",
-    "29223"
-   ],
-   "sent": "2026-11-06T06:11:00Z",
-   "onset": "2026-11-07T05:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -88.9263,
-     37.9919
-    ],
-    [
-     -88.539,
-     38.0852
-    ],
-    [
-     -89.3812,
-     37.7861
-    ],
-    [
-     -88.9242,
-     38.3008
-    ],
-    [
-     -89.3685,
-     38.0844
-    ],
-    [
-     -88.545,
-     37.7515
-    ],
-    [
-     -89.2446,
-     37.4857
-    ],
-    [
-     -88.4324,
-     38.4319
-    ],
-    [
-     -88.93,
-     37.7304
-    ],
-    [
-     -90.0246,
-     37.3184
-    ],
-    [
-     -90.4031,
-     36.7152
-    ],
-    [
-     -89.6857,
-     37.3841
-    ],
-    [
-     -90.9457,
-     36.9449
-    ],
-    [
-     -89.8021,
-     37.7111
-    ],
-    [
-     -90.8748,
-     36.6502
-    ],
-    [
-     -89.9475,
-     36.8516
-    ],
-    [
-     -90.4539,
-     37.1111
-    ]
-   ],
-   "lon": -89.555,
-   "lat": 37.549,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGF.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2247,6 +2277,133 @@
    ]
   },
   {
+   "id": "KPAH.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Jefferson",
+    "Wayne",
+    "Perry",
+    "Franklin",
+    "Hamilton",
+    "Jackson",
+    "Williamson",
+    "Saline",
+    "Union",
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau",
+    "Wayne",
+    "Carter",
+    "Ripley",
+    "Butler",
+    "Stoddard"
+   ],
+   "counties": [
+    "17055",
+    "17065",
+    "17077",
+    "17081",
+    "17145",
+    "17165",
+    "17181",
+    "17191",
+    "17199",
+    "29017",
+    "29023",
+    "29031",
+    "29035",
+    "29157",
+    "29181",
+    "29207",
+    "29223"
+   ],
+   "sent": "2026-11-06T16:56:00Z",
+   "onset": "2026-11-07T05:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bc5751b5d33fbb2240ee5798f295e7a72329869.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -88.9263,
+     37.9919
+    ],
+    [
+     -88.539,
+     38.0852
+    ],
+    [
+     -89.3812,
+     37.7861
+    ],
+    [
+     -88.9242,
+     38.3008
+    ],
+    [
+     -89.3685,
+     38.0844
+    ],
+    [
+     -88.545,
+     37.7515
+    ],
+    [
+     -89.2446,
+     37.4857
+    ],
+    [
+     -88.4324,
+     38.4319
+    ],
+    [
+     -88.93,
+     37.7304
+    ],
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -90.4031,
+     36.7152
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -90.9457,
+     36.9449
+    ],
+    [
+     -89.8021,
+     37.7111
+    ],
+    [
+     -90.8748,
+     36.6502
+    ],
+    [
+     -89.9475,
+     36.8516
+    ],
+    [
+     -90.4539,
+     37.1111
+    ]
+   ],
+   "lon": -89.555,
+   "lat": 37.549,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPAH.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -2254,6 +2411,23 @@
    "certainty": "Possible",
    "sender": "NWS Paducah KY",
    "areas": [
+    "Jefferson",
+    "Wayne",
+    "Perry",
+    "Franklin",
+    "Hamilton",
+    "Jackson",
+    "Williamson",
+    "Saline",
+    "Union",
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau",
+    "Wayne",
+    "Carter",
+    "Ripley",
+    "Butler",
+    "Stoddard",
     "Edwards",
     "Wabash",
     "White",
@@ -2283,7 +2457,6 @@
     "Lyon",
     "Trigg",
     "Caldwell",
-    "Union",
     "Webster",
     "Hopkins",
     "Christian",
@@ -2294,23 +2467,7 @@
     "Todd",
     "Scott",
     "Mississippi",
-    "New Madrid",
-    "Jefferson",
-    "Wayne",
-    "Perry",
-    "Franklin",
-    "Hamilton",
-    "Jackson",
-    "Williamson",
-    "Saline",
-    "Perry",
-    "Bollinger",
-    "Cape Girardeau",
-    "Wayne",
-    "Carter",
-    "Ripley",
-    "Butler",
-    "Stoddard"
+    "New Madrid"
    ],
    "counties": [
     "17003",
@@ -2372,10 +2529,10 @@
     "29207",
     "29223"
    ],
-   "sent": "2026-11-06T06:11:00Z",
+   "sent": "2026-11-06T16:56:00Z",
    "onset": "2026-11-08T05:00:00Z",
    "ends": "2026-11-08T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bc5751b5d33fbb2240ee5798f295e7a72329869.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
