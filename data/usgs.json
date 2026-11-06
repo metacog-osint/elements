@@ -5,7 +5,7 @@
    "mag": 6.1,
    "place": "144 km SE of Hasaki, Japan",
    "time": "2026-11-06T10:39:27Z",
-   "updated": "2026-11-06T12:29:21Z",
+   "updated": "2026-11-06T12:45:07Z",
    "alert": "green",
    "tsunami": false,
    "sig": 581,
@@ -452,6 +452,21 @@
    "countries": [
     "PG"
    ]
+  },
+  {
+   "id": "us7000twgy",
+   "mag": 4.5,
+   "place": "261 km E of Port Mathurin, Mauritius",
+   "time": "2026-11-03T06:02:38Z",
+   "updated": "2026-11-06T12:37:52Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twgy",
+   "depth_km": 10.0,
+   "lon": 65.889,
+   "lat": -20.007,
+   "countries": []
   },
   {
    "id": "us7000tv3q",
@@ -1375,21 +1390,6 @@
    "depth_km": 42.8,
    "lon": 142.475,
    "lat": 40.48,
-   "countries": []
-  },
-  {
-   "id": "us7000tumn",
-   "mag": 4.7,
-   "place": "148 km NW of Port-Olry, Vanuatu",
-   "time": "2026-10-30T12:40:57Z",
-   "updated": "2026-11-01T04:56:50Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tumn",
-   "depth_km": 10.0,
-   "lon": 165.96,
-   "lat": -14.255,
    "countries": []
   }
  ]
