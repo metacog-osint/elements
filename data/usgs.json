@@ -1,6 +1,83 @@
 {
  "records": [
   {
+   "id": "us7000tweq",
+   "mag": 4.7,
+   "place": "139 km SSE of False Pass, Alaska",
+   "time": "2026-11-06T02:35:25Z",
+   "updated": "2026-11-06T02:45:12Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 340,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweq",
+   "depth_km": 28.0,
+   "lon": -162.95,
+   "lat": 53.635,
+   "countries": []
+  },
+  {
+   "id": "us7000tweb",
+   "mag": 4.6,
+   "place": "58 km WNW of Isangel, Vanuatu",
+   "time": "2026-11-06T01:37:39Z",
+   "updated": "2026-11-06T01:53:40Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweb",
+   "depth_km": 83.3,
+   "lon": 168.753,
+   "lat": -19.365,
+   "countries": []
+  },
+  {
+   "id": "us7000twdd",
+   "mag": 4.6,
+   "place": "96 km NNW of Lae, Papua New Guinea",
+   "time": "2026-11-06T00:02:25Z",
+   "updated": "2026-11-06T00:36:04Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twdd",
+   "depth_km": 97.8,
+   "lon": 146.662,
+   "lat": -5.917,
+   "countries": [
+    "PG"
+   ]
+  },
+  {
+   "id": "us7000twd4",
+   "mag": 4.6,
+   "place": "147 km SSE of False Pass, Alaska",
+   "time": "2026-11-05T23:04:57Z",
+   "updated": "2026-11-06T01:10:30Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twd4",
+   "depth_km": 16.1,
+   "lon": -162.95,
+   "lat": 53.553,
+   "countries": []
+  },
+  {
+   "id": "us7000twcy",
+   "mag": 4.6,
+   "place": "south of the Fiji Islands",
+   "time": "2026-11-05T22:34:48Z",
+   "updated": "2026-11-05T22:53:48Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twcy",
+   "depth_km": 523.4,
+   "lon": 179.939,
+   "lat": -23.532,
+   "countries": []
+  },
+  {
    "id": "us7000twaq",
    "mag": 4.6,
    "place": "36 km E of Watari, Japan",
@@ -84,7 +161,7 @@
    "mag": 5.0,
    "place": "111 km W of Petrolia, CA",
    "time": "2026-11-05T04:56:02Z",
-   "updated": "2026-11-05T21:51:49Z",
+   "updated": "2026-11-06T00:02:44Z",
    "alert": "green",
    "tsunami": false,
    "sig": 432,
@@ -1373,21 +1450,6 @@
    "depth_km": 116.3,
    "lon": 148.315,
    "lat": -5.814,
-   "countries": []
-  },
-  {
-   "id": "us7000tu4z",
-   "mag": 4.6,
-   "place": "59 km SW of Port-Vila, Vanuatu",
-   "time": "2026-10-29T23:04:49Z",
-   "updated": "2026-10-30T01:29:16Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4z",
-   "depth_km": 10.0,
-   "lon": 167.935,
-   "lat": -18.132,
    "countries": []
   }
  ]
