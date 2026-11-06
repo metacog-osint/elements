@@ -477,20 +477,6 @@
    "lat": 40.9714
   },
   {
-   "id": "{BF18BE90-F1CB-406D-9936-38F9EF0C9D2E}",
-   "name": "Harv",
-   "acres": 60.3,
-   "contained": null,
-   "discovered": "2026-07-28T18:48:00Z",
-   "updated": "2026-10-29T16:41:15Z",
-   "state": "SD",
-   "county": "Stanley",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -100.84,
-   "lat": 44.5656
-  },
-  {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
    "name": "Valle",
    "acres": 60.0,
@@ -701,20 +687,6 @@
    "lat": 45.0617
   },
   {
-   "id": "{EDFB5A95-C063-4E3C-AAF3-A3A5860317BF}",
-   "name": "Wildcat",
-   "acres": 2.6,
-   "contained": null,
-   "discovered": "2026-10-15T17:00:00Z",
-   "updated": "2026-11-03T16:26:41Z",
-   "state": "WI",
-   "county": "Vilas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.8687,
-   "lat": 45.9591
-  },
-  {
    "id": "{46104F67-A396-49CB-9EEA-FE58D455961D}",
    "name": "Warehouse",
    "acres": 2.0,
@@ -825,6 +797,20 @@
    "complexity": null,
    "lon": -90.9643,
    "lat": 44.0852
+  },
+  {
+   "id": "{1903CB4F-950D-4EAA-9D4E-1182BB592D22}",
+   "name": "Mark Ridge Road",
+   "acres": 1.0,
+   "contained": 100,
+   "discovered": "2026-10-30T21:17:00Z",
+   "updated": "2026-11-06T16:38:55Z",
+   "state": "KY",
+   "county": "Breckinridge",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -86.3166,
+   "lat": 37.7338
   },
   {
    "id": "{ED9C150B-CF72-463D-BE41-131369FAE5FA}",
@@ -2029,6 +2015,20 @@
    "complexity": null,
    "lon": -118.1607,
    "lat": 34.6749
+  },
+  {
+   "id": "{3B1399A5-CE3B-4AA0-A942-4DD3709FE0A1}",
+   "name": "Mateo",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-06T16:52:12Z",
+   "updated": "2026-11-06T16:53:42Z",
+   "state": "CA",
+   "county": "San Mateo",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.3863,
+   "lat": 37.4921
   }
  ]
 }
