@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000twg9",
+   "mag": 6.1,
+   "place": "156 km SE of Hasaki, Japan",
+   "time": "2026-11-06T10:39:24Z",
+   "updated": "2026-11-06T11:05:22Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 573,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+   "depth_km": 10.0,
+   "lon": 142.243,
+   "lat": 34.924,
+   "countries": []
+  },
+  {
    "id": "us7000twfu",
    "mag": 4.5,
    "place": "87 km N of Isangel, Vanuatu",
@@ -112,7 +127,7 @@
    "mag": 4.6,
    "place": "36 km E of Watari, Japan",
    "time": "2026-11-05T18:05:43Z",
-   "updated": "2026-11-06T04:03:54Z",
+   "updated": "2026-11-06T10:49:52Z",
    "alert": null,
    "tsunami": false,
    "sig": 326,
@@ -1375,21 +1390,6 @@
    "depth_km": 10.0,
    "lon": 165.96,
    "lat": -14.255,
-   "countries": []
-  },
-  {
-   "id": "us7000tu7m",
-   "mag": 4.7,
-   "place": "42 km SE of Sykiá, Greece",
-   "time": "2026-10-30T10:45:03Z",
-   "updated": "2026-10-30T11:37:34Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7m",
-   "depth_km": 10.0,
-   "lon": 24.228,
-   "lat": 39.731,
    "countries": []
   }
  ]
