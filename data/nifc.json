@@ -771,20 +771,6 @@
    "lat": 34.26
   },
   {
-   "id": "{80E9F429-6C3C-4B61-BED1-F38B3533B318}",
-   "name": "Pike 200175",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-06T18:00:45Z",
-   "updated": "2026-11-06T18:05:03Z",
-   "state": "AR",
-   "county": "Pike",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.4766,
-   "lat": 34.0143
-  },
-  {
    "id": "{C291A37C-38B0-486C-8C8F-423D540B7814}",
    "name": "Bradley 100356",
    "acres": 1.0,
@@ -797,6 +783,20 @@
    "complexity": null,
    "lon": -92.0979,
    "lat": 33.5151
+  },
+  {
+   "id": "{7E5E3560-2149-47C3-A63F-AA0FB87BDC7C}",
+   "name": "Ouachita 400342",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-06T20:40:22Z",
+   "updated": "2026-11-06T20:50:11Z",
+   "state": "AR",
+   "county": "Ouachita",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.9651,
+   "lat": 33.5252
   },
   {
    "id": "{2B7D2354-D2BC-4E92-920A-22E6C8A1131C}",
@@ -881,20 +881,6 @@
    "complexity": null,
    "lon": -89.3817,
    "lat": 46.1246
-  },
-  {
-   "id": "{83B01573-0002-4018-A16C-5582363CFD01}",
-   "name": "Cobb Road",
-   "acres": 0.4,
-   "contained": 100,
-   "discovered": "2026-10-30T19:30:00Z",
-   "updated": "2026-11-03T21:03:32Z",
-   "state": "PA",
-   "county": "Pike",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -74.9122,
-   "lat": 41.34
   },
   {
    "id": "{64F0E6AF-9484-4106-87D1-DACE4C582F85}",
@@ -1040,9 +1026,9 @@
    "id": "{8384B07F-FC3B-42DA-BFB8-D57131BDE555}",
    "name": "Collins Cemetery",
    "acres": 0.2,
-   "contained": 0,
+   "contained": 60,
    "discovered": "2026-11-06T18:54:00Z",
-   "updated": "2026-11-06T20:23:01Z",
+   "updated": "2026-11-06T20:56:09Z",
    "state": "KY",
    "county": "Johnson",
    "cause": "Human",
@@ -1275,18 +1261,18 @@
    "lat": 43.7565
   },
   {
-   "id": "{72E40143-2E3A-49AF-939D-FCAC59349FA1}",
-   "name": "No Page",
+   "id": "{65369459-33A5-4236-B489-9B87660E40F8}",
+   "name": "Mm 76",
    "acres": 0.1,
    "contained": null,
-   "discovered": "2026-10-28T20:10:00Z",
-   "updated": "2026-11-03T20:21:57Z",
+   "discovered": "2026-10-27T15:30:00Z",
+   "updated": "2026-11-06T21:00:07Z",
    "state": "WI",
-   "county": "Wood",
+   "county": "Juneau",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.8555,
-   "lat": 44.264
+   "lon": -89.9372,
+   "lat": 43.7419
   },
   {
    "id": "{9BC69021-9028-4339-9FDF-524760278CAE}",
@@ -1877,20 +1863,6 @@
    "lat": 34.3104
   },
   {
-   "id": "{E96CC8A7-D122-49AB-8C21-792DBC6577FB}",
-   "name": "Lac-397823",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-03T20:09:00Z",
-   "updated": "2026-11-03T20:09:11Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1924,
-   "lat": 34.0312
-  },
-  {
    "id": "{5419EAE3-17D3-4DD0-AE9F-DEDB5FE69412}",
    "name": "Lac-398360",
    "acres": 0.0,
@@ -2071,6 +2043,34 @@
    "complexity": null,
    "lon": -121.3008,
    "lat": 39.5541
+  },
+  {
+   "id": "{70AEE76D-831F-46B0-B921-35E1B99E4BDB}",
+   "name": "Guys",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-06T20:53:39Z",
+   "updated": "2026-11-06T20:54:33Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.5964,
+   "lat": 41.6107
+  },
+  {
+   "id": "{E5C37255-21DD-445E-8F37-5E18AAAA59E8}",
+   "name": "Lime Kiln Rd Nccfd88",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-06T20:56:30Z",
+   "updated": "2026-11-06T21:01:02Z",
+   "state": "CA",
+   "county": "Nevada",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.0896,
+   "lat": 39.103
   }
  ]
 }
