@@ -678,7 +678,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -690,9 +690,9 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL",
-   "lon": 15.378,
-   "lat": 41.69,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]
@@ -724,7 +724,7 @@
    "id": "FL-1104216",
    "type": "FL",
    "kind": "flood",
-   "episode": 9,
+   "episode": 11,
    "name": "Flood in Brazil",
    "alert": "green",
    "score": 1,
@@ -732,13 +732,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-01T01:00:00Z",
-   "to": "2026-11-01T01:00:00Z",
-   "current": false,
+   "to": "2026-11-06T01:00:00Z",
+   "current": true,
    "country": "Brazil",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=9&eventtype=FL",
-   "lon": -43.038,
-   "lat": -21.732,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=11&eventtype=FL",
+   "lon": -49.644,
+   "lat": -27.216,
    "countries": [
     "BR"
    ]
@@ -883,7 +883,7 @@
    "id": "FL-1103888",
    "type": "FL",
    "kind": "flood",
-   "episode": 119,
+   "episode": 113,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -895,9 +895,9 @@
    "current": true,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=119&eventtype=FL",
-   "lon": -108.19,
-   "lat": 36.928,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=113&eventtype=FL",
+   "lon": -108.305,
+   "lat": 36.476,
    "countries": [
     "US"
    ]
