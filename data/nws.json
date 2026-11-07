@@ -1,133 +1,6 @@
 {
  "records": [
   {
-   "id": "KFGZ.FF.W.0218.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04025"
-   ],
-   "sent": "2026-11-07T05:25:00Z",
-   "onset": "2026-11-07T05:25:00Z",
-   "ends": "2026-11-07T08:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5379b941b49e69cd76a86f94346214f1ab7c4b74.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.54,
-       34.55
-      ],
-      [
-       -111.59,
-       34.56
-      ],
-      [
-       -111.64,
-       34.52
-      ],
-      [
-       -111.68,
-       34.53
-      ],
-      [
-       -111.7,
-       34.53
-      ],
-      [
-       -111.72,
-       34.51
-      ],
-      [
-       -111.75,
-       34.51
-      ],
-      [
-       -111.76,
-       34.5
-      ],
-      [
-       -111.77,
-       34.51
-      ],
-      [
-       -111.81,
-       34.51
-      ],
-      [
-       -111.83,
-       34.5
-      ],
-      [
-       -111.81,
-       34.53
-      ],
-      [
-       -111.74,
-       34.52
-      ],
-      [
-       -111.72,
-       34.54
-      ],
-      [
-       -111.64,
-       34.54
-      ],
-      [
-       -111.61,
-       34.57
-      ],
-      [
-       -111.54,
-       34.57
-      ],
-      [
-       -111.53,
-       34.58
-      ],
-      [
-       -111.52,
-       34.57
-      ],
-      [
-       -111.52,
-       34.56
-      ],
-      [
-       -111.54,
-       34.55
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.665,
-   "lat": 34.536,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEAX.FL.W.0223.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1790,127 +1663,6 @@
    ]
   },
   {
-   "id": "KEAX.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Mercer",
-    "Putnam",
-    "Schuyler",
-    "Grundy",
-    "Sullivan",
-    "Adair",
-    "Livingston",
-    "Linn",
-    "Macon",
-    "Carroll",
-    "Chariton",
-    "Randolph",
-    "Saline",
-    "Howard",
-    "Pettis",
-    "Cooper"
-   ],
-   "counties": [
-    "29001",
-    "29033",
-    "29041",
-    "29053",
-    "29079",
-    "29089",
-    "29115",
-    "29117",
-    "29121",
-    "29129",
-    "29159",
-    "29171",
-    "29175",
-    "29195",
-    "29197",
-    "29211"
-   ],
-   "sent": "2026-11-06T21:27:00Z",
-   "onset": "2026-11-07T06:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f82cb9f9a2ecad9522ad16131b88b6de977b5ca.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -92.6036,
-     40.1907
-    ],
-    [
-     -93.5002,
-     39.4274
-    ],
-    [
-     -92.9616,
-     39.518
-    ],
-    [
-     -92.8101,
-     38.8471
-    ],
-    [
-     -93.5651,
-     40.1125
-    ],
-    [
-     -92.6959,
-     39.1434
-    ],
-    [
-     -93.108,
-     39.8644
-    ],
-    [
-     -93.5482,
-     39.7786
-    ],
-    [
-     -92.5643,
-     39.8298
-    ],
-    [
-     -93.5676,
-     40.4214
-    ],
-    [
-     -93.2852,
-     38.7274
-    ],
-    [
-     -93.0145,
-     40.4786
-    ],
-    [
-     -92.493,
-     39.4392
-    ],
-    [
-     -93.2042,
-     39.1358
-    ],
-    [
-     -92.519,
-     40.4694
-    ],
-    [
-     -93.1098,
-     40.2096
-    ]
-   ],
-   "lon": -93.034,
-   "lat": 39.725,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRLX.FZ.W.0014.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3314,6 +3066,127 @@
    ]
   },
   {
+   "id": "KEAX.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Kansas City/Pleasant Hill MO",
+   "areas": [
+    "Mercer",
+    "Putnam",
+    "Schuyler",
+    "Grundy",
+    "Sullivan",
+    "Adair",
+    "Livingston",
+    "Linn",
+    "Macon",
+    "Carroll",
+    "Chariton",
+    "Randolph",
+    "Saline",
+    "Howard",
+    "Pettis",
+    "Cooper"
+   ],
+   "counties": [
+    "29001",
+    "29033",
+    "29041",
+    "29053",
+    "29079",
+    "29089",
+    "29115",
+    "29117",
+    "29121",
+    "29129",
+    "29159",
+    "29171",
+    "29175",
+    "29195",
+    "29197",
+    "29211"
+   ],
+   "sent": "2026-11-07T07:38:00Z",
+   "onset": "2026-11-07T07:38:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9147c312e339693a0e1951e97a33cd65e7258b13.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -92.6036,
+     40.1907
+    ],
+    [
+     -93.5002,
+     39.4274
+    ],
+    [
+     -92.9616,
+     39.518
+    ],
+    [
+     -92.8101,
+     38.8471
+    ],
+    [
+     -93.5651,
+     40.1125
+    ],
+    [
+     -92.6959,
+     39.1434
+    ],
+    [
+     -93.108,
+     39.8644
+    ],
+    [
+     -93.5482,
+     39.7786
+    ],
+    [
+     -92.5643,
+     39.8298
+    ],
+    [
+     -93.5676,
+     40.4214
+    ],
+    [
+     -93.2852,
+     38.7274
+    ],
+    [
+     -93.0145,
+     40.4786
+    ],
+    [
+     -92.493,
+     39.4392
+    ],
+    [
+     -93.2042,
+     39.1358
+    ],
+    [
+     -92.519,
+     40.4694
+    ],
+    [
+     -93.1098,
+     40.2096
+    ]
+   ],
+   "lon": -93.034,
+   "lat": 39.725,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9187.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3937,10 +3810,10 @@
     "41057",
     "53049"
    ],
-   "sent": "2026-11-07T07:31:00Z",
+   "sent": "2026-11-07T07:57:00Z",
    "onset": "2026-11-07T23:00:00Z",
    "ends": "2026-11-08T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1908f291b4af4adb9d1ec6702d745fbede84b805.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ddf36544eab518ffcbc30bc21c3a8c888392e880.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4120,36 +3993,6 @@
    ]
   },
   {
-   "id": "KPQR.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Columbia River Bar"
-   ],
-   "counties": [
-    "57210",
-    "57251",
-    "57271"
-   ],
-   "sent": "2026-11-07T01:36:00Z",
-   "onset": "2026-11-07T18:00:00Z",
-   "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.SR.W.0002.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -4176,6 +4019,40 @@
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fc3d84d495ce60ce77ea790816039082e0cbbe3.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Columbia River Bar"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57271",
+    "57272"
+   ],
+   "sent": "2026-11-07T07:55:00Z",
+   "onset": "2026-11-07T18:00:00Z",
+   "ends": "2026-11-08T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c131e48a9b1be3dbcb5038d8b6215483e488233.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
