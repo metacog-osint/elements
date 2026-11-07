@@ -1,124 +1,6 @@
 {
  "records": [
   {
-   "id": "KEAX.FL.W.0223.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Platte, MO"
-   ],
-   "counties": [
-    "29165"
-   ],
-   "sent": "2026-11-06T15:27:00Z",
-   "onset": "2026-11-06T15:27:00Z",
-   "ends": "2026-11-08T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca97fe0cd961bb72df89f195b559fd186655b818.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94.74,
-       39.41
-      ],
-      [
-       -94.64,
-       39.41
-      ],
-      [
-       -94.76,
-       39.35
-      ],
-      [
-       -94.79,
-       39.39
-      ],
-      [
-       -94.74,
-       39.41
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -94.7615,
-     39.3787
-    ]
-   ],
-   "lon": -94.734,
-   "lat": 39.394,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEAX.FL.W.0224.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Kansas City/Pleasant Hill MO",
-   "areas": [
-    "Platte, MO"
-   ],
-   "counties": [
-    "29165"
-   ],
-   "sent": "2026-11-06T15:27:00Z",
-   "onset": "2026-11-06T15:27:00Z",
-   "ends": "2026-11-08T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca97fe0cd961bb72df89f195b559fd186655b818.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94.79,
-       39.39
-      ],
-      [
-       -94.76,
-       39.35
-      ],
-      [
-       -94.81,
-       39.27
-      ],
-      [
-       -94.84,
-       39.29
-      ],
-      [
-       -94.83,
-       39.33
-      ],
-      [
-       -94.79,
-       39.39
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -94.7615,
-     39.3787
-    ]
-   ],
-   "lon": -94.803,
-   "lat": 39.337,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0014.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1248,284 +1130,6 @@
    ],
    "lon": -97.979,
    "lat": 28.075,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSGF.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Springfield MO",
-   "areas": [
-    "Benton",
-    "Morgan",
-    "Miller",
-    "Maries",
-    "Camden",
-    "Pulaski",
-    "Phelps",
-    "Laclede",
-    "Texas",
-    "Dent",
-    "Wright",
-    "Howell",
-    "Shannon",
-    "Oregon"
-   ],
-   "counties": [
-    "29015",
-    "29029",
-    "29065",
-    "29091",
-    "29105",
-    "29125",
-    "29131",
-    "29141",
-    "29149",
-    "29161",
-    "29169",
-    "29203",
-    "29215",
-    "29229"
-   ],
-   "sent": "2026-11-06T20:33:00Z",
-   "onset": "2026-11-07T06:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a88870a85dab1f806dc4be2b83e89ef112a50a7.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.2879,
-     38.301
-    ],
-    [
-     -92.7653,
-     38.0265
-    ],
-    [
-     -91.4897,
-     37.6031
-    ],
-    [
-     -91.8874,
-     36.7744
-    ],
-    [
-     -92.5948,
-     37.6597
-    ],
-    [
-     -91.9236,
-     38.1626
-    ],
-    [
-     -92.4299,
-     38.2167
-    ],
-    [
-     -92.8748,
-     38.4208
-    ],
-    [
-     -91.4018,
-     36.6853
-    ],
-    [
-     -91.7904,
-     37.8663
-    ],
-    [
-     -92.207,
-     37.8248
-    ],
-    [
-     -91.3913,
-     37.1525
-    ],
-    [
-     -91.9645,
-     37.3143
-    ],
-    [
-     -92.48,
-     37.2676
-    ]
-   ],
-   "lon": -92.178,
-   "lat": 37.663,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILN.FZ.W.0006.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wilmington OH",
-   "areas": [
-    "Ripley",
-    "Dearborn",
-    "Ohio",
-    "Switzerland",
-    "Carroll",
-    "Gallatin",
-    "Boone",
-    "Kenton",
-    "Campbell",
-    "Owen",
-    "Grant",
-    "Pendleton",
-    "Bracken",
-    "Robertson",
-    "Mason",
-    "Lewis",
-    "Ross",
-    "Hamilton",
-    "Clermont",
-    "Brown",
-    "Highland",
-    "Adams",
-    "Pike",
-    "Scioto"
-   ],
-   "counties": [
-    "18029",
-    "18115",
-    "18137",
-    "18155",
-    "21015",
-    "21023",
-    "21037",
-    "21041",
-    "21077",
-    "21081",
-    "21117",
-    "21135",
-    "21161",
-    "21187",
-    "21191",
-    "21201",
-    "39001",
-    "39015",
-    "39025",
-    "39061",
-    "39071",
-    "39131",
-    "39141",
-    "39145"
-   ],
-   "sent": "2026-11-07T04:38:00Z",
-   "onset": "2026-11-08T05:00:00Z",
-   "ends": "2026-11-08T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a008dec84b9b3b12257dc12be93c6a63f00277d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -84.9759,
-     39.1409
-    ],
-    [
-     -84.9643,
-     38.9405
-    ],
-    [
-     -85.2605,
-     39.1002
-    ],
-    [
-     -85.0297,
-     38.8259
-    ],
-    [
-     -84.7364,
-     38.9589
-    ],
-    [
-     -84.1152,
-     38.6804
-    ],
-    [
-     -84.3796,
-     38.947
-    ],
-    [
-     -85.124,
-     38.6684
-    ],
-    [
-     -84.8651,
-     38.7557
-    ],
-    [
-     -84.6259,
-     38.6492
-    ],
-    [
-     -84.5334,
-     38.9305
-    ],
-    [
-     -83.3701,
-     38.535
-    ],
-    [
-     -83.8281,
-     38.5941
-    ],
-    [
-     -84.8416,
-     38.4994
-    ],
-    [
-     -84.3519,
-     38.6963
-    ],
-    [
-     -84.0642,
-     38.5135
-    ],
-    [
-     -83.4781,
-     38.8345
-    ],
-    [
-     -83.8668,
-     38.9314
-    ],
-    [
-     -84.1495,
-     39.0521
-    ],
-    [
-     -84.5442,
-     39.1969
-    ],
-    [
-     -83.6014,
-     39.1844
-    ],
-    [
-     -83.0529,
-     39.0713
-    ],
-    [
-     -83.0595,
-     39.3239
-    ],
-    [
-     -82.9987,
-     38.8149
-    ]
-   ],
-   "lon": -84.242,
-   "lat": 38.869,
    "countries": [
     "US"
    ]
@@ -3187,6 +2791,175 @@
    ]
   },
   {
+   "id": "KILN.FZ.W.0006.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wilmington OH",
+   "areas": [
+    "Ripley",
+    "Dearborn",
+    "Ohio",
+    "Switzerland",
+    "Carroll",
+    "Gallatin",
+    "Boone",
+    "Kenton",
+    "Campbell",
+    "Owen",
+    "Grant",
+    "Pendleton",
+    "Bracken",
+    "Robertson",
+    "Mason",
+    "Lewis",
+    "Ross",
+    "Hamilton",
+    "Clermont",
+    "Brown",
+    "Highland",
+    "Adams",
+    "Pike",
+    "Scioto"
+   ],
+   "counties": [
+    "18029",
+    "18115",
+    "18137",
+    "18155",
+    "21015",
+    "21023",
+    "21037",
+    "21041",
+    "21077",
+    "21081",
+    "21117",
+    "21135",
+    "21161",
+    "21187",
+    "21191",
+    "21201",
+    "39001",
+    "39015",
+    "39025",
+    "39061",
+    "39071",
+    "39131",
+    "39141",
+    "39145"
+   ],
+   "sent": "2026-11-07T12:31:00Z",
+   "onset": "2026-11-08T05:00:00Z",
+   "ends": "2026-11-08T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7485c31262abef18545bb568bd0dff8c9fb2d30.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -84.9759,
+     39.1409
+    ],
+    [
+     -84.9643,
+     38.9405
+    ],
+    [
+     -85.2605,
+     39.1002
+    ],
+    [
+     -85.0297,
+     38.8259
+    ],
+    [
+     -84.7364,
+     38.9589
+    ],
+    [
+     -84.1152,
+     38.6804
+    ],
+    [
+     -84.3796,
+     38.947
+    ],
+    [
+     -85.124,
+     38.6684
+    ],
+    [
+     -84.8651,
+     38.7557
+    ],
+    [
+     -84.6259,
+     38.6492
+    ],
+    [
+     -84.5334,
+     38.9305
+    ],
+    [
+     -83.3701,
+     38.535
+    ],
+    [
+     -83.8281,
+     38.5941
+    ],
+    [
+     -84.8416,
+     38.4994
+    ],
+    [
+     -84.3519,
+     38.6963
+    ],
+    [
+     -84.0642,
+     38.5135
+    ],
+    [
+     -83.4781,
+     38.8345
+    ],
+    [
+     -83.8668,
+     38.9314
+    ],
+    [
+     -84.1495,
+     39.0521
+    ],
+    [
+     -84.5442,
+     39.1969
+    ],
+    [
+     -83.6014,
+     39.1844
+    ],
+    [
+     -83.0529,
+     39.0713
+    ],
+    [
+     -83.0595,
+     39.3239
+    ],
+    [
+     -82.9987,
+     38.8149
+    ]
+   ],
+   "lon": -84.242,
+   "lat": 38.869,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9187.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3736,11 +3509,11 @@
    "certainty": "Likely",
    "sender": "NWS Great Falls MT",
    "areas": [
+    "Eastern Toole and Liberty",
     "East Glacier Park Region",
     "Northern High Plains",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "Eastern Toole and Liberty"
+    "Southern High Plains"
    ],
    "counties": [
     "30035",
@@ -3753,7 +3526,7 @@
    "sent": "2026-11-07T09:53:00Z",
    "onset": "2026-11-07T09:53:00Z",
    "ends": "2026-11-07T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41ef7891ef4d95a35773c5fe1f5c5f06bc2e2b46.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41ef7891ef4d95a35773c5fe1f5c5f06bc2e2b46.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
