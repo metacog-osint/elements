@@ -701,6 +701,34 @@
    "lat": 34.26
   },
   {
+   "id": "{ED567C4A-64D8-4684-9330-1A89549D8BD5}",
+   "name": "Sandman",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-07T19:04:00Z",
+   "updated": "2026-11-07T20:26:16Z",
+   "state": "ID",
+   "county": "Ada",
+   "cause": "Human",
+   "complexity": "Type 4 Incident",
+   "lon": -116.2133,
+   "lat": 43.3651
+  },
+  {
+   "id": "{54A86623-9A75-46A0-ADE4-C628F9E4DEB0}",
+   "name": "Redemeyer",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-07T19:58:50Z",
+   "updated": "2026-11-07T20:10:30Z",
+   "state": "CA",
+   "county": "Mendocino",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.1874,
+   "lat": 39.1752
+  },
+  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -755,6 +783,20 @@
    "complexity": null,
    "lon": -69.9694,
    "lat": 41.7411
+  },
+  {
+   "id": "{236C4FA9-001A-43EE-B3BF-E576D2423F72}",
+   "name": "Tahoe",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-07T20:05:34Z",
+   "updated": "2026-11-07T20:13:13Z",
+   "state": "CA",
+   "county": "Shasta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.9826,
+   "lat": 40.5042
   },
   {
    "id": "{8274A2B1-69EF-4558-8A22-DE4EBDF13DA8}",
@@ -867,6 +909,20 @@
    "complexity": null,
    "lon": -72.7039,
    "lat": 42.2611
+  },
+  {
+   "id": "{E8976597-58D8-40C9-91D1-882EF99A5ADC}",
+   "name": "Bombing Range 10",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-07T19:44:03Z",
+   "updated": "2026-11-07T20:26:27Z",
+   "state": "FL",
+   "county": "Marion",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -81.7155,
+   "lat": 29.119
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1765,46 +1821,60 @@
    "lat": 34.0052
   },
   {
-   "id": "{FED68175-0481-45F0-9411-59BF5C4D4E37}",
-   "name": "Hollow",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T19:54:05Z",
-   "updated": "2026-11-07T19:55:14Z",
-   "state": "CA",
-   "county": "El Dorado",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.6599,
-   "lat": 38.7338
-  },
-  {
-   "id": "{54A86623-9A75-46A0-ADE4-C628F9E4DEB0}",
-   "name": "Redemeyer",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T19:58:50Z",
-   "updated": "2026-11-07T20:01:02Z",
-   "state": "CA",
-   "county": "Mendocino",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.1874,
-   "lat": 39.1752
-  },
-  {
    "id": "{66DA89A8-AF54-4185-8270-2F6A01AA7EFD}",
    "name": "Old",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-07T20:00:44Z",
-   "updated": "2026-11-07T20:02:41Z",
+   "updated": "2026-11-07T20:08:48Z",
    "state": "CA",
    "county": "Shasta",
    "cause": "Undetermined",
    "complexity": null,
    "lon": -122.2785,
    "lat": 40.6493
+  },
+  {
+   "id": "{95598C9E-193F-4FB0-8605-8A8F64C15FCF}",
+   "name": "Cody",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:14:49Z",
+   "updated": "2026-11-07T20:16:01Z",
+   "state": "CA",
+   "county": "Modoc",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7423,
+   "lat": 41.3172
+  },
+  {
+   "id": "{FC8ABAA1-90EE-4876-92CB-F94FBF0EC50E}",
+   "name": "Taylor",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:23:33Z",
+   "updated": "2026-11-07T20:24:53Z",
+   "state": "CA",
+   "county": "Placer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.1692,
+   "lat": 38.8449
+  },
+  {
+   "id": "{03EFF988-6F10-466A-B6AB-0A53C9427077}",
+   "name": "Feather",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:24:21Z",
+   "updated": "2026-11-07T20:25:19Z",
+   "state": "CA",
+   "county": "Butte",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.4456,
+   "lat": 39.4795
   }
  ]
 }
