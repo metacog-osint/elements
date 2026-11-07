@@ -1,16 +1,32 @@
 {
  "records": [
   {
+   "id": "20261107_0000186",
+   "mag": 4.9,
+   "magtype": "mb",
+   "time": "2026-11-07T15:22:50Z",
+   "updated": "2026-11-07T15:42:36Z",
+   "region": "Namibia",
+   "depth_km": 8.0,
+   "authority": "NEIC",
+   "lat": -19.74,
+   "lon": 14.647,
+   "countries": [
+    "NA"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000186"
+  },
+  {
    "id": "20261107_0000184",
    "mag": 4.5,
    "magtype": "mb",
    "time": "2026-11-07T15:05:44Z",
-   "updated": "2026-11-07T15:23:50Z",
+   "updated": "2026-11-07T15:48:56Z",
    "region": "Fiji Region",
-   "depth_km": 570.8,
-   "authority": "GFZ",
-   "lat": -20.844,
-   "lon": -178.528,
+   "depth_km": 574.0,
+   "authority": "EMSC",
+   "lat": -20.814,
+   "lon": -178.499,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000184"
   },
@@ -1359,22 +1375,6 @@
    "lon": -172.793,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261031_0000247"
-  },
-  {
-   "id": "20261031_0000203",
-   "mag": 5.2,
-   "magtype": "mw",
-   "time": "2026-10-31T15:50:18Z",
-   "updated": "2026-11-04T07:35:03Z",
-   "region": "Panama",
-   "depth_km": 9.1,
-   "authority": "EMSC",
-   "lat": 7.518,
-   "lon": -80.281,
-   "countries": [
-    "PA"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261031_0000203"
   }
  ]
 }
