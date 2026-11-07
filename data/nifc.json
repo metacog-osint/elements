@@ -603,6 +603,20 @@
    "lat": 43.6901
   },
   {
+   "id": "{0FAD6A96-CB44-404E-84C0-7065947FFD0A}",
+   "name": "Anderson",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:03:00Z",
+   "updated": "2026-11-07T20:55:49Z",
+   "state": "ID",
+   "county": "Ada",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -116.2017,
+   "lat": 43.2979
+  },
+  {
    "id": "{46104F67-A396-49CB-9EEA-FE58D455961D}",
    "name": "Warehouse",
    "acres": 2.0,
@@ -659,6 +673,20 @@
    "lat": 41.6133
   },
   {
+   "id": "{66DA89A8-AF54-4185-8270-2F6A01AA7EFD}",
+   "name": "Old",
+   "acres": 1.2,
+   "contained": null,
+   "discovered": "2026-11-07T20:00:44Z",
+   "updated": "2026-11-07T20:52:51Z",
+   "state": "CA",
+   "county": "Shasta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2785,
+   "lat": 40.6493
+  },
+  {
    "id": "{0E4D21E4-C9CB-4F43-9909-DC35177F4A8B}",
    "name": "Cambridge",
    "acres": 1.0,
@@ -706,13 +734,13 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-07T19:04:00Z",
-   "updated": "2026-11-07T20:26:16Z",
+   "updated": "2026-11-07T20:37:05Z",
    "state": "ID",
    "county": "Ada",
    "cause": "Human",
    "complexity": "Type 4 Incident",
-   "lon": -116.2133,
-   "lat": 43.3651
+   "lon": -116.2146,
+   "lat": 43.3655
   },
   {
    "id": "{54A86623-9A75-46A0-ADE4-C628F9E4DEB0}",
@@ -916,13 +944,27 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-07T19:44:03Z",
-   "updated": "2026-11-07T20:26:27Z",
+   "updated": "2026-11-07T20:46:11Z",
    "state": "FL",
    "county": "Marion",
    "cause": "Undetermined",
    "complexity": null,
    "lon": -81.7155,
-   "lat": 29.119
+   "lat": 29.1179
+  },
+  {
+   "id": "{30BB4D35-ADF1-4C85-966C-F6456E0D9FE9}",
+   "name": "Bonham",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-07T20:48:27Z",
+   "updated": "2026-11-07T20:58:05Z",
+   "state": "CA",
+   "county": "Lake",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.5897,
+   "lat": 38.9221
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1135,20 +1177,6 @@
    "lat": 42.3028
   },
   {
-   "id": "{578D9BF1-4CF0-4EFA-9D9F-0CE15CB1F788}",
-   "name": "Fd140042",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-04T20:00:00Z",
-   "updated": "2026-11-04T20:20:00Z",
-   "state": "MA",
-   "county": "Middlesex",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -71.4075,
-   "lat": 42.2774
-  },
-  {
    "id": "{9FFB8948-0349-4D0A-A97E-9697C8160062}",
    "name": "Mtz/Bdc/Rancho",
    "acres": 0.1,
@@ -1203,6 +1231,20 @@
    "complexity": null,
    "lon": -123.5266,
    "lat": 41.3176
+  },
+  {
+   "id": "{B28B1951-8E27-4D0E-9730-C7E9C7C2B760}",
+   "name": "0927",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-07T19:06:36Z",
+   "updated": "2026-11-07T20:45:13Z",
+   "state": "OR",
+   "county": "Jefferson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.3802,
+   "lat": 44.5421
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1821,20 +1863,6 @@
    "lat": 34.0052
   },
   {
-   "id": "{66DA89A8-AF54-4185-8270-2F6A01AA7EFD}",
-   "name": "Old",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T20:00:44Z",
-   "updated": "2026-11-07T20:08:48Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.2785,
-   "lat": 40.6493
-  },
-  {
    "id": "{95598C9E-193F-4FB0-8605-8A8F64C15FCF}",
    "name": "Cody",
    "acres": 0.0,
@@ -1861,20 +1889,6 @@
    "complexity": null,
    "lon": -121.1692,
    "lat": 38.8449
-  },
-  {
-   "id": "{03EFF988-6F10-466A-B6AB-0A53C9427077}",
-   "name": "Feather",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T20:24:21Z",
-   "updated": "2026-11-07T20:25:19Z",
-   "state": "CA",
-   "county": "Butte",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -121.4456,
-   "lat": 39.4795
   }
  ]
 }
