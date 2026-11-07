@@ -3022,10 +3022,10 @@
     "41057",
     "53049"
    ],
-   "sent": "2026-11-07T14:07:00Z",
+   "sent": "2026-11-07T17:50:00Z",
    "onset": "2026-11-07T23:00:00Z",
    "ends": "2026-11-08T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f8cdf6d60ae602260f548bc0dd66950d1392445.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dcc0bf72ec4efc8df3deaad1bf4c64317e06e3d.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3068,10 +3068,10 @@
     "30099",
     "30101"
    ],
-   "sent": "2026-11-07T14:37:00Z",
-   "onset": "2026-11-08T16:00:00Z",
+   "sent": "2026-11-07T18:00:00Z",
+   "onset": "2026-11-08T12:00:00Z",
    "ends": "2026-11-09T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48bc46af95dadeaf6bb34d53062e199c27f8ce11.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e04d854751ece3708d0977378d86e8ed3b5b68d0.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3110,20 +3110,23 @@
    "certainty": "Possible",
    "sender": "NWS Great Falls MT",
    "areas": [
+    "Judith Basin County and Judith Gap",
+    "Eastern Toole and Liberty",
     "Hill County",
-    "Cascade County below 5000ft",
-    "Eastern Toole and Liberty"
+    "Cascade County below 5000ft"
    ],
    "counties": [
     "30013",
+    "30027",
     "30041",
+    "30045",
     "30051",
     "30101"
    ],
-   "sent": "2026-11-07T14:37:00Z",
+   "sent": "2026-11-07T18:00:00Z",
    "onset": "2026-11-08T15:00:00Z",
    "ends": "2026-11-09T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48bc46af95dadeaf6bb34d53062e199c27f8ce11.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e04d854751ece3708d0977378d86e8ed3b5b68d0.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3132,8 +3135,16 @@
      47.3166
     ],
     [
+     -109.233,
+     47.2218
+    ],
+    [
      -110.1063,
      48.632
+    ],
+    [
+     -110.3053,
+     47.0326
     ],
     [
      -111.0369,
@@ -3144,8 +3155,8 @@
      48.6451
     ]
    ],
-   "lon": -111.057,
-   "lat": 48.288,
+   "lon": -110.628,
+   "lat": 47.901,
    "countries": [
     "US"
    ]
