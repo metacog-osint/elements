@@ -1,10 +1,10 @@
-/*! tic-nav.css v1.1 · pairs with tic-nav.js (canonical copy in D:\Projects\theintelligence-company\site\shared\).
+/*! tic-nav.css v1.2 · pairs with tic-nav.js (canonical copy in D:\Projects\theintelligence-company\site\shared\).
     House navy bar on every program site; the panel follows the viewer's light or dark setting. Everything is scoped
     to .tic-house so a site's own styles (Tailwind's reset included) don't need changing. */
 .tic-house {
   --tn-bg: #14202E; --tn-ink: #EEF1F6; --tn-line: rgba(238, 241, 246, .35); --tn-acc: #E3A83B;
   --tn-panel: #FFFFFF; --tn-pink: #14202E; --tn-pmut: #555F6D; --tn-rule: #D8D3C8; --tn-hover: #F3F1EC;
-  --tn-live: #1E6B3A; --tn-beta: #8A5A00;
+  --tn-live: #1E6B3A; --tn-beta: #8A5A00; --tn-here: #8F5509; /* v1.2: amber text on the light panel read 1.9:1 */
   position: relative; z-index: 10000; background: var(--tn-bg); /* v1.1: above site headers' own stacking */ color: var(--tn-ink);
   /* v1.1: undo a site's generic nav rules (Watchfloor styles every <nav> as a flex row) */
   display: block; width: auto; height: auto; min-height: 0; margin: 0; padding: 0; border: 0; box-shadow: none;
@@ -13,7 +13,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .tic-house { --tn-panel: #161E2A; --tn-pink: #E8ECF2; --tn-pmut: #9AA5B5; --tn-rule: #2A3546; --tn-hover: #1F2A3A;
-    --tn-live: #7FD49A; --tn-beta: #F0C36B; }
+    --tn-live: #7FD49A; --tn-beta: #F0C36B; --tn-here: #E3A83B; }
 }
 .tic-house *, .tic-house *::before, .tic-house *::after { box-sizing: border-box; }
 .tic-house p, .tic-house ul { margin: 0; padding: 0; }
@@ -45,7 +45,7 @@
   padding: 7px 8px; border-radius: 4px; }
 .tic-house-item:hover, .tic-house-item:focus-visible, .tic-house-item.on { background: var(--tn-hover); }
 .tic-house-name { font-size: 14px; font-weight: 600; }
-.tic-house-here { margin-left: 8px; font-size: 11px; font-weight: 500; color: var(--tn-acc); }
+.tic-house-here { margin-left: 8px; font-size: 11px; font-weight: 500; color: var(--tn-here); }
 .tic-house-st { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
 .tic-house-st.st-live { color: var(--tn-live); }
 .tic-house-st.st-beta { color: var(--tn-beta); }
