@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "TC-1001349",
+   "type": "TC",
+   "kind": "tropical cyclone",
+   "episode": 1,
+   "name": "Tropical Cyclone 02-20262027-27",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 73.888,
+   "severity_unit": "km/h",
+   "from": "2026-11-07T06:00:00Z",
+   "to": "2026-11-07T06:00:00Z",
+   "current": true,
+   "country": "Madagascar",
+   "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001349&episodeid=1&eventtype=TC",
+   "lon": 54.06,
+   "lat": -13.45,
+   "countries": []
+  },
+  {
    "id": "TC-1001348",
    "type": "TC",
    "kind": "tropical cyclone",
