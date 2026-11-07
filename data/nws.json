@@ -227,127 +227,6 @@
    ]
   },
   {
-   "id": "KPSR.FA.W.0041.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-06T04:46:00Z",
-   "onset": "2026-11-06T04:46:00Z",
-   "ends": "2026-11-07T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ccbd1f80bb875569df7af76cd7921b744d6a477d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -112.32,
-       33.37
-      ],
-      [
-       -112.38,
-       33.37
-      ],
-      [
-       -112.74,
-       33.3
-      ],
-      [
-       -112.75,
-       33.23
-      ],
-      [
-       -112.69,
-       33.2
-      ],
-      [
-       -112.67,
-       33
-      ],
-      [
-       -112.74,
-       32.97
-      ],
-      [
-       -112.98,
-       33.02
-      ],
-      [
-       -113.03,
-       33.07
-      ],
-      [
-       -113.01,
-       33.08
-      ],
-      [
-       -112.85,
-       33.06
-      ],
-      [
-       -112.77,
-       33.03
-      ],
-      [
-       -112.71,
-       33.05
-      ],
-      [
-       -112.74,
-       33.18
-      ],
-      [
-       -112.78,
-       33.21
-      ],
-      [
-       -112.79,
-       33.32
-      ],
-      [
-       -112.7,
-       33.33
-      ],
-      [
-       -112.4,
-       33.41
-      ],
-      [
-       -112.35,
-       33.39
-      ],
-      [
-       -112.26,
-       33.39
-      ],
-      [
-       -112.32,
-       33.37
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -112.666,
-   "lat": 33.207,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEAX.FL.W.0219.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1154,77 +1033,6 @@
    ]
   },
   {
-   "id": "KBOX.FA.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Bristol, MA",
-    "Plymouth, MA"
-   ],
-   "counties": [
-    "25005",
-    "25023"
-   ],
-   "sent": "2026-11-07T01:39:00Z",
-   "onset": "2026-11-07T01:39:00Z",
-   "ends": "2026-11-07T03:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ff424da2e6a8cd3434de63391ec77bd4a2403a5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -70.87,
-       41.62
-      ],
-      [
-       -71.02,
-       41.63
-      ],
-      [
-       -70.98,
-       41.75
-      ],
-      [
-       -70.89,
-       41.81
-      ],
-      [
-       -70.54,
-       41.84
-      ],
-      [
-       -70.67,
-       41.77
-      ],
-      [
-       -70.87,
-       41.62
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -71.0889,
-     41.7486
-    ],
-    [
-     -70.7419,
-     41.9872
-    ]
-   ],
-   "lon": -70.834,
-   "lat": 41.72,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KDVN.FL.W.0091.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1424,6 +1232,127 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0041.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-07T04:03:00Z",
+   "onset": "2026-11-07T04:03:00Z",
+   "ends": "2026-11-07T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c1824128fe2d31010dd1eb5f3e481c4113b0810.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -112.32,
+       33.37
+      ],
+      [
+       -112.38,
+       33.37
+      ],
+      [
+       -112.74,
+       33.3
+      ],
+      [
+       -112.75,
+       33.23
+      ],
+      [
+       -112.69,
+       33.2
+      ],
+      [
+       -112.67,
+       33
+      ],
+      [
+       -112.74,
+       32.97
+      ],
+      [
+       -112.98,
+       33.02
+      ],
+      [
+       -113.03,
+       33.07
+      ],
+      [
+       -113.01,
+       33.08
+      ],
+      [
+       -112.85,
+       33.06
+      ],
+      [
+       -112.77,
+       33.03
+      ],
+      [
+       -112.71,
+       33.05
+      ],
+      [
+       -112.74,
+       33.18
+      ],
+      [
+       -112.78,
+       33.21
+      ],
+      [
+       -112.79,
+       33.32
+      ],
+      [
+       -112.7,
+       33.33
+      ],
+      [
+       -112.4,
+       33.41
+      ],
+      [
+       -112.35,
+       33.39
+      ],
+      [
+       -112.26,
+       33.39
+      ],
+      [
+       -112.32,
+       33.37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -112.666,
+   "lat": 33.207,
    "countries": [
     "US"
    ]
@@ -3489,9 +3418,9 @@
    "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
+    "Columbia River Bar",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Columbia River Bar"
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm"
    ],
    "counties": [
     "57210",
@@ -3501,7 +3430,7 @@
    "sent": "2026-11-07T01:36:00Z",
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.003.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],
