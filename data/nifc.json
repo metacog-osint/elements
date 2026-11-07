@@ -421,20 +421,6 @@
    "lat": 17.9913
   },
   {
-   "id": "{FBBB63AD-B428-4205-BEE2-609E66548C21}",
-   "name": "Tracy Run",
-   "acres": 67.3,
-   "contained": null,
-   "discovered": "2026-11-04T20:36:08Z",
-   "updated": "2026-11-05T21:04:52Z",
-   "state": "PA",
-   "county": "Warren",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -78.9275,
-   "lat": 41.9631
-  },
-  {
    "id": "{6D3296D2-0797-49EC-8782-D319A0F241B2}",
    "name": "Gorge Road",
    "acres": 61.0,
@@ -1009,20 +995,6 @@
    "lat": 43.3482
   },
   {
-   "id": "{354CF4F6-7A07-40FA-8D1E-C0D426ABA3CD}",
-   "name": "Fur Ct",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-10T23:15:00Z",
-   "updated": "2026-11-04T19:29:09Z",
-   "state": "WI",
-   "county": "Adams",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.6623,
-   "lat": 43.7409
-  },
-  {
    "id": "{84C1DCA8-299B-42AF-859B-8FA404A1DD9F}",
    "name": "Fur Dr",
    "acres": 0.1,
@@ -1373,20 +1345,6 @@
    "lat": 35.2167
   },
   {
-   "id": "{2B10D58D-487E-4AF0-9787-BAA7EAB1F918}",
-   "name": "Cleveland Hill Rd",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-08-09T02:52:00Z",
-   "updated": "2026-11-04T19:34:30Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -123.4783,
-   "lat": 43.2806
-  },
-  {
    "id": "{9DB428E9-BEE4-4517-922C-BE84BABD764A}",
    "name": "Mtz/Bdc/45A",
    "acres": 0.0,
@@ -1541,62 +1499,6 @@
    "lat": 42.2877
   },
   {
-   "id": "{9BE886D6-9089-49C2-995E-5F9EDA07CE61}",
-   "name": "Wibu 4",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-25T16:15:00Z",
-   "updated": "2026-11-04T19:30:12Z",
-   "state": "WI",
-   "county": "Columbia",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.4075,
-   "lat": 43.3378
-  },
-  {
-   "id": "{5624F6FE-16F0-4550-9AE7-2A1855E8E238}",
-   "name": "Wibu 3",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-25T16:15:00Z",
-   "updated": "2026-11-04T19:30:02Z",
-   "state": "WI",
-   "county": "Columbia",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.4052,
-   "lat": 43.3378
-  },
-  {
-   "id": "{1CB071F0-435F-42E6-8B43-24C25D39272C}",
-   "name": "Wibu 6",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-25T16:15:00Z",
-   "updated": "2026-11-04T19:30:29Z",
-   "state": "WI",
-   "county": "Columbia",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.4471,
-   "lat": 43.3377
-  },
-  {
-   "id": "{9ED89724-55A9-4800-A320-BC1711D87936}",
-   "name": "Wibu 5",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-25T16:15:00Z",
-   "updated": "2026-11-04T19:30:21Z",
-   "state": "WI",
-   "county": "Columbia",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.4145,
-   "lat": 43.3378
-  },
-  {
    "id": "{C59E2988-C794-4395-84E9-4AAAB58AA738}",
    "name": "Par",
    "acres": 0.0,
@@ -1609,34 +1511,6 @@
    "complexity": null,
    "lon": -90.9171,
    "lat": 45.0387
-  },
-  {
-   "id": "{FFC16A92-2726-44F0-A46F-627CCB4AD1DC}",
-   "name": "Ericson",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-04T16:03:19Z",
-   "updated": "2026-11-04T19:09:51Z",
-   "state": "CA",
-   "county": "Mendocino",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.075,
-   "lat": 39.4847
-  },
-  {
-   "id": "{4C913F30-31D0-4750-ABCE-B6E7D82DA9E9}",
-   "name": "Lac-399041",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-04T19:18:04Z",
-   "updated": "2026-11-04T19:18:20Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.9312,
-   "lat": 33.9958
   },
   {
    "id": "{33E7BB6E-F4F9-4548-BFD6-C34298527A03}",
@@ -1889,6 +1763,48 @@
    "complexity": null,
    "lon": -117.9584,
    "lat": 34.0052
+  },
+  {
+   "id": "{FED68175-0481-45F0-9411-59BF5C4D4E37}",
+   "name": "Hollow",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T19:54:05Z",
+   "updated": "2026-11-07T19:55:14Z",
+   "state": "CA",
+   "county": "El Dorado",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.6599,
+   "lat": 38.7338
+  },
+  {
+   "id": "{54A86623-9A75-46A0-ADE4-C628F9E4DEB0}",
+   "name": "Redemeyer",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T19:58:50Z",
+   "updated": "2026-11-07T20:01:02Z",
+   "state": "CA",
+   "county": "Mendocino",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.1874,
+   "lat": 39.1752
+  },
+  {
+   "id": "{66DA89A8-AF54-4185-8270-2F6A01AA7EFD}",
+   "name": "Old",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:00:44Z",
+   "updated": "2026-11-07T20:02:41Z",
+   "state": "CA",
+   "county": "Shasta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2785,
+   "lat": 40.6493
   }
  ]
 }
