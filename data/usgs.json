@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000twrq",
+   "mag": 5.5,
+   "place": "74 km NE of Hasaki, Japan",
+   "time": "2026-11-07T11:07:43Z",
+   "updated": "2026-11-07T11:33:53Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 466,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+   "depth_km": 31.7,
+   "lon": 141.44,
+   "lat": 36.188,
+   "countries": []
+  },
+  {
    "id": "us7000twqw",
    "mag": 4.6,
    "place": "South Sandwich Islands region",
@@ -1298,21 +1313,6 @@
    "depth_km": 10.0,
    "lon": 170.407,
    "lat": -22.8,
-   "countries": []
-  },
-  {
-   "id": "us7000tuif",
-   "mag": 5.0,
-   "place": "196 km NW of Port-Olry, Vanuatu",
-   "time": "2026-10-31T11:31:12Z",
-   "updated": "2026-10-31T11:47:21Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 385,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuif",
-   "depth_km": 10.0,
-   "lon": 165.676,
-   "lat": -13.907,
    "countries": []
   }
  ]
