@@ -3228,42 +3228,6 @@
    ]
   },
   {
-   "id": "KSEW.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156",
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-07T16:35:00Z",
-   "onset": "2026-11-07T18:00:00Z",
-   "ends": "2026-11-08T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f0f568f1bdbe1d88864e4c0f2b1249fa467faa8.008.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0002.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3288,6 +3252,68 @@
    "onset": "2026-11-07T20:23:00Z",
    "ends": "2026-11-08T12:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c34a426809be330124673a2250fc36b22cffebeb.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156",
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-07T22:39:00Z",
+   "onset": "2026-11-07T22:39:00Z",
+   "ends": "2026-11-08T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57be4ed0ffd4df4c1d9bbabf8c6ffe3d0703abff.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.9422.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Gulf of Alaska South of 57 Degrees North and East of 144 W"
+   ],
+   "counties": [
+    "58312"
+   ],
+   "sent": "2026-11-07T23:05:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.558a347a91bdbc90f3866c976da9b5af70d47479.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
