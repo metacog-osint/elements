@@ -1,115 +1,6 @@
 {
  "records": [
   {
-   "id": "KPSR.FA.W.0014.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-06T23:28:00Z",
-   "onset": "2026-11-06T23:28:00Z",
-   "ends": "2026-11-07T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea08cc7c1053a2428f3307a848bc247188f286fb.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.73,
-       33.49
-      ],
-      [
-       -111.8,
-       33.48
-      ],
-      [
-       -111.86,
-       33.45
-      ],
-      [
-       -111.87,
-       33.44
-      ],
-      [
-       -111.89,
-       33.43
-      ],
-      [
-       -111.91,
-       33.43
-      ],
-      [
-       -111.91,
-       33.44
-      ],
-      [
-       -111.89,
-       33.44
-      ],
-      [
-       -111.86,
-       33.46
-      ],
-      [
-       -111.84,
-       33.47
-      ],
-      [
-       -111.81,
-       33.49
-      ],
-      [
-       -111.8,
-       33.5
-      ],
-      [
-       -111.78,
-       33.5
-      ],
-      [
-       -111.75,
-       33.49
-      ],
-      [
-       -111.7,
-       33.52
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.69,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.804,
-   "lat": 33.476,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -869,6 +760,176 @@
    ],
    "lon": -92.181,
    "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.FL.W.0015.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "DeSoto, FL"
+   ],
+   "counties": [
+    "12027"
+   ],
+   "sent": "2026-11-07T14:11:00Z",
+   "onset": "2026-11-07T14:11:00Z",
+   "ends": "2026-11-08T02:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.401e587c483ec4effed338fad93e6ace3405f8a4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.79,
+       27.35
+      ],
+      [
+       -81.89,
+       27.14
+      ],
+      [
+       -81.97,
+       27.04
+      ],
+      [
+       -82.02,
+       27.04
+      ],
+      [
+       -81.86,
+       27.35
+      ],
+      [
+       -81.79,
+       27.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.8063,
+     27.1906
+    ]
+   ],
+   "lon": -81.887,
+   "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0014.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-07T14:20:00Z",
+   "onset": "2026-11-07T14:20:00Z",
+   "ends": "2026-11-09T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eee9080cfdc6b4aac8a092f7fbbe17137dd793ca.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.73,
+       33.49
+      ],
+      [
+       -111.8,
+       33.48
+      ],
+      [
+       -111.86,
+       33.45
+      ],
+      [
+       -111.87,
+       33.44
+      ],
+      [
+       -111.89,
+       33.43
+      ],
+      [
+       -111.91,
+       33.43
+      ],
+      [
+       -111.91,
+       33.44
+      ],
+      [
+       -111.89,
+       33.44
+      ],
+      [
+       -111.86,
+       33.46
+      ],
+      [
+       -111.84,
+       33.47
+      ],
+      [
+       -111.81,
+       33.49
+      ],
+      [
+       -111.8,
+       33.5
+      ],
+      [
+       -111.78,
+       33.5
+      ],
+      [
+       -111.75,
+       33.49
+      ],
+      [
+       -111.7,
+       33.52
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.69,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.804,
+   "lat": 33.476,
    "countries": [
     "US"
    ]
@@ -2901,49 +2962,6 @@
    ]
   },
   {
-   "id": "KPQR.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Clatsop County Coast",
-    "Tillamook County Coast",
-    "South Washington Coast"
-   ],
-   "counties": [
-    "41007",
-    "41057",
-    "53049"
-   ],
-   "sent": "2026-11-07T07:57:00Z",
-   "onset": "2026-11-07T23:00:00Z",
-   "ends": "2026-11-08T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ddf36544eab518ffcbc30bc21c3a8c888392e880.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.705,
-     46.0245
-    ],
-    [
-     -123.7593,
-     45.4559
-    ],
-    [
-     -123.7824,
-     46.5566
-    ]
-   ],
-   "lon": -123.749,
-   "lat": 46.012,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.W.0036.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3095,6 +3113,49 @@
    ],
    "lon": -123.748,
    "lat": 47.676,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Clatsop County Coast",
+    "Tillamook County Coast",
+    "South Washington Coast"
+   ],
+   "counties": [
+    "41007",
+    "41057",
+    "53049"
+   ],
+   "sent": "2026-11-07T14:07:00Z",
+   "onset": "2026-11-07T23:00:00Z",
+   "ends": "2026-11-08T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f8cdf6d60ae602260f548bc0dd66950d1392445.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.705,
+     46.0245
+    ],
+    [
+     -123.7593,
+     45.4559
+    ],
+    [
+     -123.7824,
+     46.5566
+    ]
+   ],
+   "lon": -123.749,
+   "lat": 46.012,
    "countries": [
     "US"
    ]
