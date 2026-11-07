@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000twu1",
+   "mag": 4.7,
+   "place": "43 km ESE of Ambon, Indonesia",
+   "time": "2026-11-07T20:55:38Z",
+   "updated": "2026-11-07T21:19:02Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 340,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+   "depth_km": 136.7,
+   "lon": 128.512,
+   "lat": -3.905,
+   "countries": []
+  },
+  {
    "id": "us7000twtv",
    "mag": 4.5,
    "place": "65 km WSW of Masachapa, Nicaragua",
@@ -35,10 +50,10 @@
    "mag": 5.5,
    "place": "10 km NW of Hamakita, Japan",
    "time": "2026-11-07T16:04:35Z",
-   "updated": "2026-11-07T20:48:37Z",
+   "updated": "2026-11-07T21:35:24Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 492,
+   "sig": 494,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
    "depth_km": 38.1,
    "lon": 137.691,
@@ -1376,23 +1391,6 @@
    "lon": 136.985,
    "lat": 33.822,
    "countries": []
-  },
-  {
-   "id": "us7000tukm",
-   "mag": 5.0,
-   "place": "115 km SE of Bushehr, Iran",
-   "time": "2026-10-31T21:20:39Z",
-   "updated": "2026-10-31T21:35:56Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 385,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tukm",
-   "depth_km": 10.0,
-   "lon": 51.508,
-   "lat": 28.114,
-   "countries": [
-    "IR"
-   ]
   }
  ]
 }
