@@ -743,6 +743,20 @@
    "lat": 34.9837
   },
   {
+   "id": "{AA20C1BE-27B6-4470-815D-BD07AD9A00F4}",
+   "name": "Bradley 357",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-07T22:02:05Z",
+   "updated": "2026-11-07T22:07:35Z",
+   "state": "AR",
+   "county": "Bradley",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.1731,
+   "lat": 33.3502
+  },
+  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -1835,20 +1849,6 @@
    "lat": 34.0052
   },
   {
-   "id": "{2BD2C186-C335-4859-96AD-232E8C0D4281}",
-   "name": "Deschutes",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T21:13:07Z",
-   "updated": "2026-11-07T21:22:45Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.2403,
-   "lat": 40.5331
-  },
-  {
    "id": "{C76B9A3E-8ED4-486F-BB76-4C18E0DED73F}",
    "name": "Lac-403165",
    "acres": 0.0,
@@ -1903,6 +1903,34 @@
    "complexity": null,
    "lon": -117.7783,
    "lat": 34.073
+  },
+  {
+   "id": "{97F46DA6-3F30-4F44-8996-8E5B71B0FF8F}",
+   "name": "Raintree",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T22:02:02Z",
+   "updated": "2026-11-07T22:27:59Z",
+   "state": "CA",
+   "county": "Nevada",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.1919,
+   "lat": 39.2185
+  },
+  {
+   "id": "{F753983A-4BAC-4EE7-A1DF-976DEC072DD4}",
+   "name": "Lac-403235",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T22:09:43Z",
+   "updated": "2026-11-07T22:13:25Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1815,
+   "lat": 33.9415
   }
  ]
 }
