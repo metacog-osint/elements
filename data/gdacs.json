@@ -9,7 +9,7 @@
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
-   "severity_value": 73.888,
+   "severity_value": 73.888416,
    "severity_unit": "km/h",
    "from": "2026-11-07T06:00:00Z",
    "to": "2026-11-07T06:00:00Z",
@@ -315,6 +315,29 @@
    ]
   },
   {
+   "id": "FL-1104254",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 7,
+   "name": "Flood in Türkiye",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-10-26T01:00:00Z",
+   "to": "2026-11-06T01:00:00Z",
+   "current": true,
+   "country": "Türkiye",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104254&episodeid=7&eventtype=FL",
+   "lon": 36.075,
+   "lat": 36.345,
+   "countries": [
+    "TR"
+   ]
+  },
+  {
    "id": "FL-1104259",
    "type": "FL",
    "kind": "flood",
@@ -335,29 +358,6 @@
    "lat": -4.155,
    "countries": [
     "PE"
-   ]
-  },
-  {
-   "id": "FL-1104254",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 6,
-   "name": "Flood in Türkiye",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-03T01:00:00Z",
-   "current": false,
-   "country": "Türkiye",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104254&episodeid=6&eventtype=FL",
-   "lon": 28.262,
-   "lat": 37.164,
-   "countries": [
-    "TR"
    ]
   },
   {
@@ -743,7 +743,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -755,9 +755,9 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL",
-   "lon": 15.378,
-   "lat": 41.69,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]

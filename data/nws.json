@@ -3921,43 +3921,32 @@
    ]
   },
   {
-   "id": "KPQR.HW.A.0001.2026",
-   "event": "High Wind Watch",
+   "id": "KPQR.HW.W.0002.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Portland OR",
    "areas": [
     "Clatsop County Coast",
     "Tillamook County Coast",
-    "Central Coast of Oregon",
     "South Washington Coast"
    ],
    "counties": [
     "41007",
-    "41039",
-    "41041",
     "41057",
     "53049"
    ],
-   "sent": "2026-11-06T17:46:00Z",
-   "onset": "2026-11-07T21:00:00Z",
-   "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.909c1990fe9691a53e2b9cf6732809468c1a77c1.001.1",
+   "sent": "2026-11-07T07:31:00Z",
+   "onset": "2026-11-07T23:00:00Z",
+   "ends": "2026-11-08T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1908f291b4af4adb9d1ec6702d745fbede84b805.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
     [
      -123.705,
      46.0245
-    ],
-    [
-     -122.8976,
-     43.9283
-    ],
-    [
-     -123.9112,
-     44.6411
     ],
     [
      -123.7593,
@@ -3968,8 +3957,8 @@
      46.5566
     ]
    ],
-   "lon": -123.611,
-   "lat": 45.321,
+   "lon": -123.749,
+   "lat": 46.012,
    "countries": [
     "US"
    ]
@@ -4138,9 +4127,9 @@
    "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
-    "Columbia River Bar",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm"
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Columbia River Bar"
    ],
    "counties": [
     "57210",
@@ -4150,7 +4139,7 @@
    "sent": "2026-11-07T01:36:00Z",
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.004.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
