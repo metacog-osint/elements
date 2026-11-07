@@ -142,10 +142,10 @@
     "25005",
     "25023"
    ],
-   "sent": "2026-11-07T01:54:00Z",
-   "onset": "2026-11-07T01:54:00Z",
+   "sent": "2026-11-07T02:14:00Z",
+   "onset": "2026-11-07T02:14:00Z",
    "ends": "2026-11-07T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56af79ec0319b4877e7f0316b98c2318805594ba.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58d55b9dbeab9018ab3a037f7c64a6f686f4bf87.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1519,6 +1519,116 @@
    ]
   },
   {
+   "id": "KCRP.FA.A.0005.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "La Salle",
+    "McMullen",
+    "Live Oak",
+    "Bee",
+    "Goliad",
+    "Webb",
+    "Duval",
+    "Jim Wells",
+    "Inland Kleberg",
+    "Inland Nueces",
+    "Inland San Patricio",
+    "Coastal Aransas",
+    "Inland Refugio",
+    "Coastal Kleberg",
+    "Coastal Nueces",
+    "Coastal San Patricio",
+    "Aransas Islands",
+    "Coastal Refugio",
+    "Kleberg Islands",
+    "Nueces Islands"
+   ],
+   "counties": [
+    "48007",
+    "48025",
+    "48131",
+    "48175",
+    "48249",
+    "48273",
+    "48283",
+    "48297",
+    "48311",
+    "48355",
+    "48391",
+    "48409",
+    "48479"
+   ],
+   "sent": "2026-11-07T02:17:00Z",
+   "onset": "2026-11-07T18:00:00Z",
+   "ends": "2026-11-09T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52b47af078f7c8e4a87006184e64b537a0daf3e0.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.9675,
+     28.1226
+    ],
+    [
+     -97.7426,
+     28.4161
+    ],
+    [
+     -98.4974,
+     27.6811
+    ],
+    [
+     -97.4304,
+     28.6607
+    ],
+    [
+     -98.0908,
+     27.7335
+    ],
+    [
+     -97.6606,
+     27.4387
+    ],
+    [
+     -99.0968,
+     28.3511
+    ],
+    [
+     -98.1269,
+     28.3515
+    ],
+    [
+     -98.5789,
+     28.3849
+    ],
+    [
+     -97.5163,
+     27.74
+    ],
+    [
+     -97.1625,
+     28.3221
+    ],
+    [
+     -97.5172,
+     28.0118
+    ],
+    [
+     -99.3408,
+     27.7608
+    ]
+   ],
+   "lon": -97.979,
+   "lat": 28.075,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPAH.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2601,32 +2711,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9184.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-06T12:45:00Z",
-   "onset": "2026-11-06T12:00:00Z",
-   "ends": "2026-11-07T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2476.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2643,6 +2727,32 @@
    "onset": "2026-11-06T13:00:00Z",
    "ends": "2026-11-08T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4883e215bbf6b414267be5454cddc77b55aff721.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9184.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-06T12:45:00Z",
+   "onset": "2026-11-06T12:00:00Z",
+   "ends": "2026-11-07T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89d34481af7fe4d9a0745d590bfc7b980384ee1.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3379,9 +3489,9 @@
    "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
+    "Columbia River Bar",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Columbia River Bar"
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm"
    ],
    "counties": [
     "57210",
@@ -3391,7 +3501,7 @@
    "sent": "2026-11-07T01:36:00Z",
    "onset": "2026-11-07T18:00:00Z",
    "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.003.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38f7ffda134811d91390f02f35f78e5e2044cdbc.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],
