@@ -463,6 +463,20 @@
    "lat": 34.0994
   },
   {
+   "id": "{B28B1951-8E27-4D0E-9730-C7E9C7C2B760}",
+   "name": "0927 Prospect",
+   "acres": 40.0,
+   "contained": null,
+   "discovered": "2026-11-07T19:06:36Z",
+   "updated": "2026-11-07T21:35:05Z",
+   "state": "OR",
+   "county": "Jefferson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.3802,
+   "lat": 44.5421
+  },
+  {
    "id": "{4D678004-E2B3-442C-8D39-DBFFB2C96FCD}",
    "name": "TP Oak",
    "acres": 33.0,
@@ -575,6 +589,34 @@
    "lat": 45.3608
   },
   {
+   "id": "{95598C9E-193F-4FB0-8605-8A8F64C15FCF}",
+   "name": "Cody",
+   "acres": 5.0,
+   "contained": null,
+   "discovered": "2026-11-07T20:14:49Z",
+   "updated": "2026-11-07T21:08:09Z",
+   "state": "CA",
+   "county": "Modoc",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7423,
+   "lat": 41.3172
+  },
+  {
+   "id": "{9BF9F6C4-FDD9-49C9-A96B-1EE5F0795014}",
+   "name": "Cass 9876",
+   "acres": 4.0,
+   "contained": 0,
+   "discovered": "2026-11-07T20:07:00Z",
+   "updated": "2026-11-07T21:11:21Z",
+   "state": "TX",
+   "county": "Cass",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.5286,
+   "lat": 33.0114
+  },
+  {
    "id": "{6ACB72B6-B60F-4102-96C5-6631A44AC5B5}",
    "name": "County Z 1",
    "acres": 3.3,
@@ -608,10 +650,10 @@
    "acres": 3.0,
    "contained": null,
    "discovered": "2026-11-07T20:03:00Z",
-   "updated": "2026-11-07T20:55:49Z",
+   "updated": "2026-11-07T21:08:16Z",
    "state": "ID",
    "county": "Ada",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": "Type 4 Incident",
    "lon": -116.2017,
    "lat": 43.2979
@@ -755,6 +797,20 @@
    "complexity": null,
    "lon": -123.1874,
    "lat": 39.1752
+  },
+  {
+   "id": "{F1538D48-8335-4479-920B-245B85E70423}",
+   "name": "Faulkner 223",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-07T21:24:51Z",
+   "updated": "2026-11-07T21:32:44Z",
+   "state": "AR",
+   "county": "Faulkner",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.4014,
+   "lat": 34.9837
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -951,6 +1007,20 @@
    "complexity": null,
    "lon": -81.7155,
    "lat": 29.1179
+  },
+  {
+   "id": "{FC8ABAA1-90EE-4876-92CB-F94FBF0EC50E}",
+   "name": "Taylor",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-07T20:23:33Z",
+   "updated": "2026-11-07T21:25:16Z",
+   "state": "CA",
+   "county": "Placer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.1692,
+   "lat": 38.8449
   },
   {
    "id": "{30BB4D35-ADF1-4C85-966C-F6456E0D9FE9}",
@@ -1231,20 +1301,6 @@
    "complexity": null,
    "lon": -123.5266,
    "lat": 41.3176
-  },
-  {
-   "id": "{B28B1951-8E27-4D0E-9730-C7E9C7C2B760}",
-   "name": "0927",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-07T19:06:36Z",
-   "updated": "2026-11-07T20:45:13Z",
-   "state": "OR",
-   "county": "Jefferson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -121.3802,
-   "lat": 44.5421
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1863,32 +1919,74 @@
    "lat": 34.0052
   },
   {
-   "id": "{95598C9E-193F-4FB0-8605-8A8F64C15FCF}",
-   "name": "Cody",
+   "id": "{2BD2C186-C335-4859-96AD-232E8C0D4281}",
+   "name": "Deschutes",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-07T20:14:49Z",
-   "updated": "2026-11-07T20:16:01Z",
+   "discovered": "2026-11-07T21:13:07Z",
+   "updated": "2026-11-07T21:22:45Z",
    "state": "CA",
-   "county": "Modoc",
+   "county": "Shasta",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -120.7423,
-   "lat": 41.3172
+   "lon": -122.2403,
+   "lat": 40.5331
   },
   {
-   "id": "{FC8ABAA1-90EE-4876-92CB-F94FBF0EC50E}",
-   "name": "Taylor",
+   "id": "{C76B9A3E-8ED4-486F-BB76-4C18E0DED73F}",
+   "name": "Lac-403165",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-07T20:23:33Z",
-   "updated": "2026-11-07T20:24:53Z",
+   "discovered": "2026-11-07T21:14:59Z",
+   "updated": "2026-11-07T21:21:34Z",
    "state": "CA",
-   "county": "Placer",
+   "county": "Los Angeles",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -121.1692,
-   "lat": 38.8449
+   "lon": -118.3091,
+   "lat": 33.924
+  },
+  {
+   "id": "{E8AFECDD-9A0C-414A-9F96-D7FC4F3DBF52}",
+   "name": "Eagle",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T21:18:19Z",
+   "updated": "2026-11-07T21:20:22Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2245,
+   "lat": 41.882
+  },
+  {
+   "id": "{AF8F4A47-CB4E-490F-B638-6AB9A735132F}",
+   "name": "Dusty",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T21:26:28Z",
+   "updated": "2026-11-07T21:35:20Z",
+   "state": "CA",
+   "county": "Amador",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.5887,
+   "lat": 38.4241
+  },
+  {
+   "id": "{67F635D3-E32A-41A7-98EA-02574E65FCAB}",
+   "name": "Bar",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T21:28:29Z",
+   "updated": "2026-11-07T21:31:36Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.5393,
+   "lat": 34.4247
   }
  ]
 }
