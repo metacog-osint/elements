@@ -62,139 +62,6 @@
    ]
   },
   {
-   "id": "TJSJ.FF.W.0039.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Gurabo, PR",
-    "Juncos, PR",
-    "Las Piedras, PR"
-   ],
-   "counties": [
-    "72063",
-    "72077",
-    "72085"
-   ],
-   "sent": "2026-11-08T18:55:00Z",
-   "onset": "2026-11-08T18:55:00Z",
-   "ends": "2026-11-08T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.961086c8f17634cb563618d728129578bb78d567.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -65.95,
-       18.23
-      ],
-      [
-       -65.98,
-       18.23
-      ],
-      [
-       -65.99,
-       18.21
-      ],
-      [
-       -66.01,
-       18.22
-      ],
-      [
-       -66.01,
-       18.28
-      ],
-      [
-       -66.03,
-       18.3
-      ],
-      [
-       -65.97,
-       18.31
-      ],
-      [
-       -65.94,
-       18.28
-      ],
-      [
-       -65.88,
-       18.25
-      ],
-      [
-       -65.85,
-       18.25
-      ],
-      [
-       -65.84,
-       18.27
-      ],
-      [
-       -65.82,
-       18.27
-      ],
-      [
-       -65.83,
-       18.19
-      ],
-      [
-       -65.86,
-       18.17
-      ],
-      [
-       -65.86,
-       18.14
-      ],
-      [
-       -65.88,
-       18.12
-      ],
-      [
-       -65.9,
-       18.13
-      ],
-      [
-       -65.93,
-       18.12
-      ],
-      [
-       -65.93,
-       18.2
-      ],
-      [
-       -65.95,
-       18.21
-      ],
-      [
-       -65.95,
-       18.23
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -65.9812,
-     18.2726
-    ],
-    [
-     -65.9085,
-     18.2241
-    ],
-    [
-     -65.8712,
-     18.1872
-    ]
-   ],
-   "lon": -65.922,
-   "lat": 18.22,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KCRP.FF.W.0045.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -3016,12 +2883,12 @@
    "sender": "NWS Juneau AK",
    "areas": [
     "Dixon Entrance to Cape Decision from 15 to 90 NM",
-    "Cape Fairweather to Icy Cape from 15 to 80 NM",
     "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
     "Dixon Entrance to Cape Decision out to 15 NM",
-    "Cape Decision to Cape Edgecumbe out to 15 NM",
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
     "Cape Spencer to Cape Fairweather from 15 to 85 NM",
-    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
+    "Cape Fairweather to Icy Cape from 15 to 80 NM",
+    "Cape Decision to Cape Edgecumbe out to 15 NM"
    ],
    "counties": [
     "58641",
@@ -3032,10 +2899,10 @@
     "58664",
     "58671"
    ],
-   "sent": "2026-11-08T12:51:00Z",
+   "sent": "2026-11-08T20:59:00Z",
    "onset": "2026-11-09T09:00:00Z",
    "ends": "2026-11-10T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f86e319c8a295bf007a47bbbe8e523f137fa6e.004.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.997ce5c723edca8c62e1f923165d8b44ca119547.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3060,10 +2927,10 @@
     "58643",
     "58672"
    ],
-   "sent": "2026-11-08T12:51:00Z",
+   "sent": "2026-11-08T20:59:00Z",
    "onset": "2026-11-09T18:00:00Z",
    "ends": "2026-11-10T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f86e319c8a295bf007a47bbbe8e523f137fa6e.007.4",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.997ce5c723edca8c62e1f923165d8b44ca119547.005.4",
    "geometry": null,
    "vtec": true,
    "points": [],
