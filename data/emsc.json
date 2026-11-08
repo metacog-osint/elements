@@ -1,6 +1,22 @@
 {
  "records": [
   {
+   "id": "20261108_0000137",
+   "mag": 5.1,
+   "magtype": "ml",
+   "time": "2026-11-08T11:58:32Z",
+   "updated": "2026-11-08T12:05:08Z",
+   "region": "Tarapaca, Chile",
+   "depth_km": 58.5,
+   "authority": "EMSC",
+   "lat": -19.668,
+   "lon": -69.976,
+   "countries": [
+    "CL"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261108_0000137"
+  },
+  {
    "id": "20261108_0000113",
    "mag": 4.7,
    "magtype": "mb",
@@ -1315,34 +1331,6 @@
    "lon": 165.62,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261101_0000142"
-  },
-  {
-   "id": "20261101_0000139",
-   "mag": 4.8,
-   "magtype": "mb",
-   "time": "2026-11-01T11:56:50Z",
-   "updated": "2026-11-01T16:27:33Z",
-   "region": "Vanuatu",
-   "depth_km": 2.1,
-   "authority": "EMSC",
-   "lat": -14.099,
-   "lon": 165.898,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261101_0000139"
-  },
-  {
-   "id": "20261101_0000135",
-   "mag": 6.0,
-   "magtype": "mw",
-   "time": "2026-11-01T11:47:03Z",
-   "updated": "2026-11-01T16:27:18Z",
-   "region": "Vanuatu",
-   "depth_km": 1.1,
-   "authority": "EMSC",
-   "lat": -14.163,
-   "lon": 165.811,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261101_0000135"
   }
  ]
 }
