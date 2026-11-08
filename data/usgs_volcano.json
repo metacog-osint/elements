@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "WATCH",
+   "prev_color": "ORANGE",
+   "sent": "2026-11-08T19:29:37Z",
+   "changed": "2026-11-07T00:50:08Z",
+   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea is currently paused after episode 56 fountaining ended on November 5. The summit is reinflating and the next episode of lava fountaining is likely several weeks away.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-08T19:01:15+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "311120",
    "name": "Great Sitkin",
    "observatory": "avo",
@@ -16,26 +36,6 @@
    "threat": "High Threat",
    "lat": 52.0765,
    "lon": -176.1109,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "vnum": "332010",
-   "name": "Kilauea",
-   "observatory": "hvo",
-   "observatory_name": "Hawaiian Volcano Observatory",
-   "alert": "ADVISORY",
-   "color": "YELLOW",
-   "prev_alert": "WATCH",
-   "prev_color": "ORANGE",
-   "sent": "2026-11-07T18:24:50Z",
-   "changed": "2026-11-07T00:50:08Z",
-   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea is currently paused after episode 56 fountaining ended on November 5. The summit is reinflating and the next episode of lava fountaining is likely several weeks away.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-07T17:46:41+00:00",
-   "threat": "Very High Threat",
-   "lat": 19.421,
-   "lon": -155.287,
    "countries": [
     "US"
    ]
