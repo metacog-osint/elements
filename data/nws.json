@@ -231,210 +231,6 @@
    ]
   },
   {
-   "id": "KDVN.FL.W.0092.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Keokuk, IA"
-   ],
-   "counties": [
-    "19107"
-   ],
-   "sent": "2026-11-07T15:56:00Z",
-   "onset": "2026-11-07T15:56:00Z",
-   "ends": "2026-11-08T18:17:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bebdfd9653a3f61a32caed1d7f3458147c179a1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.04,
-       41.25
-      ],
-      [
-       -92.13,
-       41.28
-      ],
-      [
-       -92.17,
-       41.29
-      ],
-      [
-       -92.2,
-       41.3
-      ],
-      [
-       -92.25,
-       41.27
-      ],
-      [
-       -92.4,
-       41.31
-      ],
-      [
-       -92.4,
-       41.33
-      ],
-      [
-       -92.33,
-       41.32
-      ],
-      [
-       -92.26,
-       41.3
-      ],
-      [
-       -92.23,
-       41.31
-      ],
-      [
-       -92.17,
-       41.31
-      ],
-      [
-       -92.14,
-       41.32
-      ],
-      [
-       -92.12,
-       41.32
-      ],
-      [
-       -92.1,
-       41.3
-      ],
-      [
-       -92.08,
-       41.3
-      ],
-      [
-       -92.01,
-       41.26
-      ],
-      [
-       -92.04,
-       41.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.1677,
-     41.3312
-    ]
-   ],
-   "lon": -92.181,
-   "lat": 41.295,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KDVN.FL.W.0091.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Benton, IA",
-    "Iowa, IA"
-   ],
-   "counties": [
-    "19011",
-    "19095"
-   ],
-   "sent": "2026-11-07T15:56:00Z",
-   "onset": "2026-11-07T15:56:00Z",
-   "ends": "2026-11-10T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bebdfd9653a3f61a32caed1d7f3458147c179a1.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.3,
-       41.89
-      ],
-      [
-       -92.24,
-       41.87
-      ],
-      [
-       -92.2,
-       41.85
-      ],
-      [
-       -92.02,
-       41.81
-      ],
-      [
-       -91.9,
-       41.79
-      ],
-      [
-       -91.85,
-       41.81
-      ],
-      [
-       -91.83,
-       41.81
-      ],
-      [
-       -91.83,
-       41.77
-      ],
-      [
-       -91.98,
-       41.77
-      ],
-      [
-       -92.12,
-       41.81
-      ],
-      [
-       -92.13,
-       41.82
-      ],
-      [
-       -92.28,
-       41.84
-      ],
-      [
-       -92.3,
-       41.85
-      ],
-      [
-       -92.3,
-       41.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.0576,
-     42.0925
-    ],
-    [
-     -92.0591,
-     41.6839
-    ]
-   ],
-   "lon": -92.091,
-   "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0042.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -930,6 +726,210 @@
    ],
    "lon": -81.887,
    "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0092.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Keokuk, IA"
+   ],
+   "counties": [
+    "19107"
+   ],
+   "sent": "2026-11-08T03:24:00Z",
+   "onset": "2026-11-08T03:24:00Z",
+   "ends": "2026-11-09T05:25:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8272784b0178f0d907bc159a759599abae66e35.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.04,
+       41.25
+      ],
+      [
+       -92.13,
+       41.28
+      ],
+      [
+       -92.17,
+       41.29
+      ],
+      [
+       -92.2,
+       41.3
+      ],
+      [
+       -92.25,
+       41.27
+      ],
+      [
+       -92.4,
+       41.31
+      ],
+      [
+       -92.4,
+       41.33
+      ],
+      [
+       -92.33,
+       41.32
+      ],
+      [
+       -92.26,
+       41.3
+      ],
+      [
+       -92.23,
+       41.31
+      ],
+      [
+       -92.17,
+       41.31
+      ],
+      [
+       -92.14,
+       41.32
+      ],
+      [
+       -92.12,
+       41.32
+      ],
+      [
+       -92.1,
+       41.3
+      ],
+      [
+       -92.08,
+       41.3
+      ],
+      [
+       -92.01,
+       41.26
+      ],
+      [
+       -92.04,
+       41.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.1677,
+     41.3312
+    ]
+   ],
+   "lon": -92.181,
+   "lat": 41.295,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0091.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Benton, IA",
+    "Iowa, IA"
+   ],
+   "counties": [
+    "19011",
+    "19095"
+   ],
+   "sent": "2026-11-08T03:24:00Z",
+   "onset": "2026-11-08T03:24:00Z",
+   "ends": "2026-11-10T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8272784b0178f0d907bc159a759599abae66e35.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.3,
+       41.89
+      ],
+      [
+       -92.24,
+       41.87
+      ],
+      [
+       -92.2,
+       41.85
+      ],
+      [
+       -92.02,
+       41.81
+      ],
+      [
+       -91.9,
+       41.79
+      ],
+      [
+       -91.85,
+       41.81
+      ],
+      [
+       -91.83,
+       41.81
+      ],
+      [
+       -91.83,
+       41.77
+      ],
+      [
+       -91.98,
+       41.77
+      ],
+      [
+       -92.12,
+       41.81
+      ],
+      [
+       -92.13,
+       41.82
+      ],
+      [
+       -92.28,
+       41.84
+      ],
+      [
+       -92.3,
+       41.85
+      ],
+      [
+       -92.3,
+       41.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.0576,
+     42.0925
+    ],
+    [
+     -92.0591,
+     41.6839
+    ]
+   ],
+   "lon": -92.091,
+   "lat": 41.827,
    "countries": [
     "US"
    ]
@@ -2021,73 +2021,6 @@
    ]
   },
   {
-   "id": "KLWX.FZ.W.0010.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Nelson",
-    "Albemarle",
-    "Greene",
-    "Madison",
-    "Orange",
-    "Culpeper",
-    "Southern Fauquier"
-   ],
-   "counties": [
-    "51047",
-    "51061",
-    "51079",
-    "51113",
-    "51125",
-    "51137",
-    "51540"
-   ],
-   "sent": "2026-11-07T19:29:00Z",
-   "onset": "2026-11-08T05:00:00Z",
-   "ends": "2026-11-08T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f53e62b2c542fc9d15a61c3522c73b1664170e78.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -77.9565,
-     38.4859
-    ],
-    [
-     -77.8215,
-     38.7441
-    ],
-    [
-     -78.4702,
-     38.298
-    ],
-    [
-     -78.277,
-     38.4121
-    ],
-    [
-     -78.8834,
-     37.7891
-    ],
-    [
-     -78.0111,
-     38.2493
-    ],
-    [
-     -78.4854,
-     38.0377
-    ]
-   ],
-   "lon": -78.272,
-   "lat": 38.288,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJKL.FZ.W.0008.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2439,6 +2372,73 @@
    ],
    "lon": -82.143,
    "lat": 38.051,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.FZ.W.0010.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Nelson",
+    "Albemarle",
+    "Greene",
+    "Madison",
+    "Orange",
+    "Culpeper",
+    "Southern Fauquier"
+   ],
+   "counties": [
+    "51047",
+    "51061",
+    "51079",
+    "51113",
+    "51125",
+    "51137",
+    "51540"
+   ],
+   "sent": "2026-11-08T03:13:00Z",
+   "onset": "2026-11-08T05:00:00Z",
+   "ends": "2026-11-08T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63248f6037f2c3db9c49f646b73399a4b105d17e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -77.9565,
+     38.4859
+    ],
+    [
+     -77.8215,
+     38.7441
+    ],
+    [
+     -78.4702,
+     38.298
+    ],
+    [
+     -78.277,
+     38.4121
+    ],
+    [
+     -78.8834,
+     37.7891
+    ],
+    [
+     -78.0111,
+     38.2493
+    ],
+    [
+     -78.4854,
+     38.0377
+    ]
+   ],
+   "lon": -78.272,
+   "lat": 38.288,
    "countries": [
     "US"
    ]
