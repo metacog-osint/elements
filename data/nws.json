@@ -1877,139 +1877,6 @@
    ]
   },
   {
-   "id": "KRLX.FZ.W.0014.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston WV",
-   "areas": [
-    "Greenup",
-    "Carter",
-    "Boyd",
-    "Lawrence",
-    "Lawrence",
-    "Dickenson",
-    "Buchanan",
-    "Wayne",
-    "Cabell",
-    "Lincoln",
-    "Putnam",
-    "Kanawha",
-    "Mingo",
-    "Logan",
-    "Boone",
-    "Clay",
-    "McDowell",
-    "Wyoming"
-   ],
-   "counties": [
-    "21019",
-    "21043",
-    "21089",
-    "21127",
-    "39087",
-    "51027",
-    "51051",
-    "54005",
-    "54011",
-    "54015",
-    "54039",
-    "54043",
-    "54045",
-    "54047",
-    "54059",
-    "54079",
-    "54099",
-    "54109"
-   ],
-   "sent": "2026-11-07T21:37:00Z",
-   "onset": "2026-11-08T05:00:00Z",
-   "ends": "2026-11-08T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7217107e2c2ebb9c414b137481fdf926d1571335.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.6814,
-     38.36
-    ],
-    [
-     -83.039,
-     38.3141
-    ],
-    [
-     -82.9338,
-     38.5636
-    ],
-    [
-     -82.7383,
-     38.0745
-    ],
-    [
-     -82.5172,
-     38.6039
-    ],
-    [
-     -82.0382,
-     37.2681
-    ],
-    [
-     -82.3492,
-     37.1367
-    ],
-    [
-     -81.7135,
-     38.0228
-    ],
-    [
-     -82.2434,
-     38.4196
-    ],
-    [
-     -81.0819,
-     38.4598
-    ],
-    [
-     -81.5235,
-     38.3281
-    ],
-    [
-     -82.0776,
-     38.1718
-    ],
-    [
-     -81.9409,
-     37.8306
-    ],
-    [
-     -81.6582,
-     37.3828
-    ],
-    [
-     -82.159,
-     37.7212
-    ],
-    [
-     -81.9061,
-     38.5105
-    ],
-    [
-     -82.4227,
-     38.1436
-    ],
-    [
-     -81.549,
-     37.6037
-    ]
-   ],
-   "lon": -82.143,
-   "lat": 38.051,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.FZ.W.0010.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2445,6 +2312,139 @@
    ],
    "lon": -88.586,
    "lat": 37.429,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRLX.FZ.W.0014.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston WV",
+   "areas": [
+    "Greenup",
+    "Carter",
+    "Boyd",
+    "Lawrence",
+    "Lawrence",
+    "Dickenson",
+    "Buchanan",
+    "Wayne",
+    "Cabell",
+    "Lincoln",
+    "Putnam",
+    "Kanawha",
+    "Mingo",
+    "Logan",
+    "Boone",
+    "Clay",
+    "McDowell",
+    "Wyoming"
+   ],
+   "counties": [
+    "21019",
+    "21043",
+    "21089",
+    "21127",
+    "39087",
+    "51027",
+    "51051",
+    "54005",
+    "54011",
+    "54015",
+    "54039",
+    "54043",
+    "54045",
+    "54047",
+    "54059",
+    "54079",
+    "54099",
+    "54109"
+   ],
+   "sent": "2026-11-08T05:22:00Z",
+   "onset": "2026-11-08T05:22:00Z",
+   "ends": "2026-11-08T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60b9275132ee53fd7ed6c1540f008856fc92cfa7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.6814,
+     38.36
+    ],
+    [
+     -83.039,
+     38.3141
+    ],
+    [
+     -82.9338,
+     38.5636
+    ],
+    [
+     -82.7383,
+     38.0745
+    ],
+    [
+     -82.5172,
+     38.6039
+    ],
+    [
+     -82.0382,
+     37.2681
+    ],
+    [
+     -82.3492,
+     37.1367
+    ],
+    [
+     -81.7135,
+     38.0228
+    ],
+    [
+     -82.2434,
+     38.4196
+    ],
+    [
+     -81.0819,
+     38.4598
+    ],
+    [
+     -81.5235,
+     38.3281
+    ],
+    [
+     -82.0776,
+     38.1718
+    ],
+    [
+     -81.9409,
+     37.8306
+    ],
+    [
+     -81.6582,
+     37.3828
+    ],
+    [
+     -82.159,
+     37.7212
+    ],
+    [
+     -81.9061,
+     38.5105
+    ],
+    [
+     -82.4227,
+     38.1436
+    ],
+    [
+     -81.549,
+     37.6037
+    ]
+   ],
+   "lon": -82.143,
+   "lat": 38.051,
    "countries": [
     "US"
    ]
@@ -2996,60 +2996,6 @@
    ]
   },
   {
-   "id": "KTFX.HW.W.0037.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "East Glacier Park Region",
-    "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
-   ],
-   "counties": [
-    "30035",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-07T18:00:00Z",
-   "onset": "2026-11-08T12:00:00Z",
-   "ends": "2026-11-09T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e04d854751ece3708d0977378d86e8ed3b5b68d0.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -112.322,
-   "lat": 48.104,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3135,40 +3081,66 @@
    ]
   },
   {
-   "id": "KTFX.HW.A.0033.2026",
-   "event": "High Wind Watch",
+   "id": "KTFX.HW.W.0037.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Great Falls MT",
    "areas": [
-    "Judith Basin County and Judith Gap",
     "Eastern Toole and Liberty",
     "Hill County",
-    "Cascade County below 5000ft"
+    "Cascade County below 5000ft",
+    "Judith Basin County and Judith Gap",
+    "East Glacier Park Region",
+    "Northern High Plains",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "Northern Blaine County",
+    "Eastern Pondera and Eastern Teton",
+    "Western and Central Chouteau County",
+    "Bears Paw Mountains and Southern Blaine"
    ],
    "counties": [
+    "30005",
     "30013",
+    "30015",
     "30027",
+    "30035",
     "30041",
     "30045",
+    "30049",
     "30051",
+    "30073",
+    "30099",
     "30101"
    ],
-   "sent": "2026-11-07T18:00:00Z",
+   "sent": "2026-11-08T05:21:00Z",
    "onset": "2026-11-08T15:00:00Z",
    "ends": "2026-11-09T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e04d854751ece3708d0977378d86e8ed3b5b68d0.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ecbd2b473ac798ea3ba194ae1a54c9210e6c9498.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
+    [
+     -108.9676,
+     48.4283
+    ],
     [
      -111.3503,
      47.3166
     ],
     [
+     -110.4362,
+     47.8868
+    ],
+    [
      -109.233,
      47.2218
+    ],
+    [
+     -112.9905,
+     48.7057
     ],
     [
      -110.1063,
@@ -3179,16 +3151,28 @@
      47.0326
     ],
     [
+     -112.3829,
+     47.1221
+    ],
+    [
      -111.0369,
      48.5597
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
     ],
     [
      -111.7335,
      48.6451
     ]
    ],
-   "lon": -110.628,
-   "lat": 47.901,
+   "lon": -111.087,
+   "lat": 47.967,
    "countries": [
     "US"
    ]
