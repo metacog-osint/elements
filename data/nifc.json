@@ -785,20 +785,6 @@
    "lat": 35.638
   },
   {
-   "id": "{C7A749A3-C56A-4A15-96DC-7B711CA79A30}",
-   "name": "Horseshoe Lane",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-04T23:45:00Z",
-   "updated": "2026-11-05T00:16:56Z",
-   "state": "MA",
-   "county": "Barnstable",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -69.9694,
-   "lat": 41.7411
-  },
-  {
    "id": "{8274A2B1-69EF-4558-8A22-DE4EBDF13DA8}",
    "name": "Lune Island",
    "acres": 0.4,
@@ -811,6 +797,20 @@
    "complexity": null,
    "lon": -89.3817,
    "lat": 46.1246
+  },
+  {
+   "id": "{2FB88AE6-594F-4231-B24D-0A054968ADFD}",
+   "name": "0928",
+   "acres": 0.3,
+   "contained": null,
+   "discovered": "2026-11-07T23:30:43Z",
+   "updated": "2026-11-08T00:50:13Z",
+   "state": "OR",
+   "county": "Klamath",
+   "cause": "Human",
+   "complexity": "Type 1 Incident",
+   "lon": -121.768,
+   "lat": 43.4541
   },
   {
    "id": "{5E173886-1DBE-4A4F-89D8-0713FF546257}",
@@ -867,20 +867,6 @@
    "complexity": null,
    "lon": -122.8581,
    "lat": 44.3036
-  },
-  {
-   "id": "{FCEEE318-0DB4-4BC9-B942-67CA8A94B1B5}",
-   "name": "Singing Waters Rd",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-09-09T00:13:00Z",
-   "updated": "2026-11-05T00:25:22Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -123.3191,
-   "lat": 43.2953
   },
   {
    "id": "{6D0B1B42-037B-48D3-BDFD-49BC3E274997}",
@@ -1177,40 +1163,12 @@
    "lat": 41.3176
   },
   {
-   "id": "{C6650525-F23A-4E26-B3C1-516879852C22}",
-   "name": "Lyons Canyon",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-07T20:58:19Z",
-   "updated": "2026-11-07T23:07:39Z",
-   "state": "OR",
-   "county": "Union",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.0934,
-   "lat": 45.4955
-  },
-  {
-   "id": "{24276FE2-6EB6-4FAA-ACE0-D16EAA009391}",
-   "name": "Blue Knoll",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-07T23:19:20Z",
-   "updated": "2026-11-07T23:59:02Z",
-   "state": "CA",
-   "county": "Plumas",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.9007,
-   "lat": 40.1438
-  },
-  {
    "id": "{4643A88A-5303-4AC8-9869-4E45D05DAACF}",
-   "name": "Bucks Bar Cir Oak_Hill",
+   "name": "Bucks",
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-07T23:36:50Z",
-   "updated": "2026-11-08T00:05:00Z",
+   "updated": "2026-11-08T00:48:17Z",
    "state": "CA",
    "county": "El Dorado",
    "cause": "Undetermined",
@@ -1429,20 +1387,6 @@
    "lat": 35.7491
   },
   {
-   "id": "{BC1FDEDB-C1BC-45D5-8602-DB7AB69727DF}",
-   "name": "Elk Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-02T16:51:00Z",
-   "updated": "2026-11-05T00:10:57Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -122.8707,
-   "lat": 42.8623
-  },
-  {
    "id": "{92F98826-06AE-4C44-B0E6-4BC05B56F468}",
    "name": "Snell Rd",
    "acres": 0.0,
@@ -1457,20 +1401,6 @@
    "lat": 43.6654
   },
   {
-   "id": "{0288D6DC-BB29-4A16-BB53-6A51F8B82DDD}",
-   "name": "Gravel Pit Lane",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-06T10:50:00Z",
-   "updated": "2026-11-05T00:12:46Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -123.4107,
-   "lat": 42.925
-  },
-  {
    "id": "{A59718D1-2554-48F3-9877-8EFF11B98FAD}",
    "name": "Bonetti",
    "acres": 0.0,
@@ -1483,20 +1413,6 @@
    "complexity": null,
    "lon": -120.5075,
    "lat": 38.7101
-  },
-  {
-   "id": "{93B00D7A-5556-43B5-A888-4599B74CE39F}",
-   "name": "Canyon Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-07T22:46:00Z",
-   "updated": "2026-11-05T00:24:07Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -123.2589,
-   "lat": 42.898
   },
   {
    "id": "{FDBBA9E8-CADA-400A-A6A5-491BE728E42B}",
@@ -1931,6 +1847,34 @@
    "complexity": null,
    "lon": -118.3093,
    "lat": 33.9239
+  },
+  {
+   "id": "{6AB658F5-DA3F-4EB5-B315-391C2648AF5E}",
+   "name": "Lac-403445",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T00:49:13Z",
+   "updated": "2026-11-08T00:49:42Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.7867,
+   "lat": 34.1199
+  },
+  {
+   "id": "{285CD6CB-644A-479F-825E-0E86253811F1}",
+   "name": "Eastman",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T00:58:15Z",
+   "updated": "2026-11-08T00:59:30Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.6627,
+   "lat": 41.6889
   }
  ]
 }
