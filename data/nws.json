@@ -874,6 +874,67 @@
    ]
   },
   {
+   "id": "KTBW.FL.W.0015.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "DeSoto, FL"
+   ],
+   "counties": [
+    "12027"
+   ],
+   "sent": "2026-11-08T02:53:00Z",
+   "onset": "2026-11-08T02:53:00Z",
+   "ends": "2026-11-08T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fff665d634bdba38b7ab5666c03015aee6e406d0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.79,
+       27.35
+      ],
+      [
+       -81.89,
+       27.14
+      ],
+      [
+       -81.97,
+       27.04
+      ],
+      [
+       -82.02,
+       27.04
+      ],
+      [
+       -81.86,
+       27.35
+      ],
+      [
+       -81.79,
+       27.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.8063,
+     27.1906
+    ]
+   ],
+   "lon": -81.887,
+   "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KBRO.FA.A.0003.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -3142,10 +3203,10 @@
     "02198",
     "02220"
    ],
-   "sent": "2026-11-08T00:25:00Z",
+   "sent": "2026-11-08T02:37:00Z",
    "onset": "2026-11-09T09:00:00Z",
    "ends": "2026-11-10T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1c4b96922312dae28f1af51fe399e0c1db26a08.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbf5ec4d23805e09e65dd2f150f05967f7b2a2f6.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
