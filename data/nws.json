@@ -3162,6 +3162,44 @@
    ]
   },
   {
+   "id": "PAJK.HW.A.0010.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "City and Borough of Sitka",
+    "Western Kupreanof and Kuiu Island",
+    "Prince of Wales Island"
+   ],
+   "counties": [
+    "02198",
+    "02220"
+   ],
+   "sent": "2026-11-08T00:25:00Z",
+   "onset": "2026-11-09T09:00:00Z",
+   "ends": "2026-11-10T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1c4b96922312dae28f1af51fe399e0c1db26a08.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -133.1624,
+     55.6828
+    ],
+    [
+     -135.3674,
+     57.1932
+    ]
+   ],
+   "lon": -134.265,
+   "lat": 56.438,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLOX.FW.W.0006.2026",
    "event": "Red Flag Warning",
    "severity": "Severe",
@@ -3371,6 +3409,43 @@
    "points": [],
    "lon": null,
    "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.WS.A.0009.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Municipality of Skagway",
+    "Haines Borough and Klukwan"
+   ],
+   "counties": [
+    "02100",
+    "02230"
+   ],
+   "sent": "2026-11-08T00:23:00Z",
+   "onset": "2026-11-09T09:00:00Z",
+   "ends": "2026-11-10T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cbd7ceba79012c67210b1f3e5f49d3f3f0ea9d81.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -135.5758,
+     59.0984
+    ],
+    [
+     -135.3383,
+     59.5604
+    ]
+   ],
+   "lon": -135.457,
+   "lat": 59.329,
    "countries": [
     "US"
    ]
