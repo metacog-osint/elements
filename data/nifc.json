@@ -158,9 +158,9 @@
    "id": "{DC4342D9-B479-44F1-906C-8ABD42E1F59C}",
    "name": "Sisi",
    "acres": 4816.0,
-   "contained": 60,
+   "contained": 65,
    "discovered": "2026-08-14T18:03:23Z",
-   "updated": "2026-11-07T01:54:32Z",
+   "updated": "2026-11-08T01:48:33Z",
    "state": "WA",
    "county": "Chelan",
    "cause": "Natural",
@@ -797,20 +797,6 @@
    "complexity": null,
    "lon": -89.3817,
    "lat": 46.1246
-  },
-  {
-   "id": "{2FB88AE6-594F-4231-B24D-0A054968ADFD}",
-   "name": "0928",
-   "acres": 0.3,
-   "contained": null,
-   "discovered": "2026-11-07T23:30:43Z",
-   "updated": "2026-11-08T00:50:13Z",
-   "state": "OR",
-   "county": "Klamath",
-   "cause": "Human",
-   "complexity": "Type 1 Incident",
-   "lon": -121.768,
-   "lat": 43.4541
   },
   {
    "id": "{5E173886-1DBE-4A4F-89D8-0713FF546257}",
@@ -1861,6 +1847,20 @@
    "complexity": null,
    "lon": -118.3713,
    "lat": 33.965
+  },
+  {
+   "id": "{1EF4FBD9-883F-4710-85A7-BBBA60CAAC0A}",
+   "name": "Box",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T01:46:21Z",
+   "updated": "2026-11-08T01:57:13Z",
+   "state": "CA",
+   "county": "Riverside",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.3009,
+   "lat": 33.9487
   }
  ]
 }
