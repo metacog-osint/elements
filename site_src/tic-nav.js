@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.4 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.5 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -44,6 +44,10 @@
       label: "Air · hazard notices",
       short: "Where authorities warn people away.",
       long: "Where authorities warn people away: State Department travel advisories and embassy departure status, EASA conflict-zone bulletins for airspace, and NGA navigational warnings at sea." },
+    { id: "vis", name: "Vis", href: "https://vis.theintelligence.company", status: "beta", group: "layers",
+      label: "Air · operational weather",
+      short: "Operational weather and night light for each watched conflict zone.",
+      long: "Operational weather and illumination for Watchfloor's conflict zones: how likely wind, poor visibility, heavy rain or snow, icing, extreme heat or cold, or low cloud are to reach indicative limits at named airfields and ports over the next 7 days, from the NOAA and ECMWF ensembles, with each night's moonlight and darkness. Updated twice a day; not an official forecast." },
     { id: "elements", name: "Elements", href: "https://elements.theintelligence.company", status: "beta", group: "layers",
       label: "Land and maritime · natural hazards",
       short: "Natural hazards as the authorities report them.",
@@ -183,6 +187,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.4", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.5", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
