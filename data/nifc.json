@@ -258,11 +258,11 @@
    "acres": 243.0,
    "contained": null,
    "discovered": "2026-11-07T19:06:00Z",
-   "updated": "2026-11-08T20:45:41Z",
+   "updated": "2026-11-08T21:37:23Z",
    "state": "OR",
    "county": "Jefferson",
    "cause": "Undetermined",
-   "complexity": null,
+   "complexity": "Type 4 Incident",
    "lon": -121.3803,
    "lat": 44.5395
   },
@@ -687,6 +687,20 @@
    "lat": 40.4394
   },
   {
+   "id": "{5CF315AE-B491-4EF3-A0F8-6629E6FC69E5}",
+   "name": "Keith",
+   "acres": 0.8,
+   "contained": null,
+   "discovered": "2026-11-08T21:15:15Z",
+   "updated": "2026-11-08T21:59:56Z",
+   "state": "CA",
+   "county": "Shasta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2688,
+   "lat": 40.6494
+  },
+  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -713,20 +727,6 @@
    "complexity": null,
    "lon": -118.2395,
    "lat": 35.638
-  },
-  {
-   "id": "{3846D093-68AC-43B7-AEC1-418A080BC092}",
-   "name": "Newtown Branch Road",
-   "acres": 0.5,
-   "contained": 0,
-   "discovered": "2026-11-08T20:15:00Z",
-   "updated": "2026-11-08T21:12:58Z",
-   "state": "KY",
-   "county": "Bell",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.5507,
-   "lat": 36.8211
   },
   {
    "id": "{8274A2B1-69EF-4558-8A22-DE4EBDF13DA8}",
@@ -902,7 +902,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-06T18:57:00Z",
-   "updated": "2026-11-06T19:32:07Z",
+   "updated": "2026-11-08T21:57:13Z",
    "state": "CA",
    "county": "Humboldt",
    "cause": "Undetermined",
@@ -1049,20 +1049,6 @@
    "complexity": null,
    "lon": -119.02,
    "lat": 35.4783
-  },
-  {
-   "id": "{F788B436-7B4F-4D33-BC3E-1DFE3147B92A}",
-   "name": "No Mans",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-07T13:00:00Z",
-   "updated": "2026-11-05T21:38:45Z",
-   "state": "WI",
-   "county": "Vilas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.9028,
-   "lat": 46.2816
   },
   {
    "id": "{0619F74B-6F31-437C-91A6-918D2F36BC34}",
@@ -1434,12 +1420,12 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-08T02:22:53Z",
-   "updated": "2026-11-08T03:38:45Z",
+   "updated": "2026-11-08T21:45:55Z",
    "state": "CA",
    "county": "El Dorado",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -120.851,
+   "lon": -120.8511,
    "lat": 38.6993
   },
   {
@@ -1511,20 +1497,6 @@
    "complexity": null,
    "lon": -120.4742,
    "lat": 38.1541
-  },
-  {
-   "id": "{5CF315AE-B491-4EF3-A0F8-6629E6FC69E5}",
-   "name": "Keith",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-08T21:15:15Z",
-   "updated": "2026-11-08T21:17:58Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.2688,
-   "lat": 40.6494
   }
  ]
 }
