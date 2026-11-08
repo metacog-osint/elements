@@ -2996,49 +2996,6 @@
    ]
   },
   {
-   "id": "KPQR.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Clatsop County Coast",
-    "Tillamook County Coast",
-    "South Washington Coast"
-   ],
-   "counties": [
-    "41007",
-    "41057",
-    "53049"
-   ],
-   "sent": "2026-11-07T19:50:00Z",
-   "onset": "2026-11-07T23:00:00Z",
-   "ends": "2026-11-08T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd1a6de0ae49ceeee0518f68fd58714237060118.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.705,
-     46.0245
-    ],
-    [
-     -123.7593,
-     45.4559
-    ],
-    [
-     -123.7824,
-     46.5566
-    ]
-   ],
-   "lon": -123.749,
-   "lat": 46.012,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3276,42 +3233,6 @@
    ]
   },
   {
-   "id": "KSEW.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156",
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-07T22:39:00Z",
-   "onset": "2026-11-07T22:39:00Z",
-   "ends": "2026-11-08T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57be4ed0ffd4df4c1d9bbabf8c6ffe3d0703abff.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAJK.SR.W.9422.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3380,6 +3301,206 @@
    "onset": "2026-11-09T02:00:00Z",
    "ends": "2026-11-09T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b646d4ee9368655c668961068a1e659a9b86ffa.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156",
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-08T06:36:00Z",
+   "onset": "2026-11-08T06:36:00Z",
+   "ends": "2026-11-08T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ffb7d23f0c1a00b880b0b99a25560157aee1c271.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0019.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
+    "Cape Fairweather to Icy Cape from 15 to 80 NM",
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
+   ],
+   "counties": [
+    "58661",
+    "58662",
+    "58663",
+    "58664",
+    "58671"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-09T09:00:00Z",
+   "ends": "2026-11-09T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b3d3b305ec1f6c845320807dbed2d9b971adbfa.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1910.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+   ],
+   "counties": [
+    "58662"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-08T14:00:00Z",
+   "ends": "2026-11-09T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1916.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Fairweather to Icy Cape from 15 to 80 NM"
+   ],
+   "counties": [
+    "58671"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-08T14:00:00Z",
+   "ends": "2026-11-09T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.011.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1914.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
+   ],
+   "counties": [
+    "58664"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-08T14:00:00Z",
+   "ends": "2026-11-09T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1912.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
+   ],
+   "counties": [
+    "58663"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-08T14:00:00Z",
+   "ends": "2026-11-09T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1908.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision from 15 to 90 NM"
+   ],
+   "counties": [
+    "58661"
+   ],
+   "sent": "2026-11-08T06:52:00Z",
+   "onset": "2026-11-08T14:00:00Z",
+   "ends": "2026-11-09T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
