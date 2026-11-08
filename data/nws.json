@@ -183,6 +183,67 @@
    ]
   },
   {
+   "id": "KCRP.FF.W.0043.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Kleberg, TX"
+   ],
+   "counties": [
+    "48273"
+   ],
+   "sent": "2026-11-08T16:35:00Z",
+   "onset": "2026-11-08T16:35:00Z",
+   "ends": "2026-11-08T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5b351caccb96c5288ae5348f10abd6056a8a2d2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.09,
+       27.39
+      ],
+      [
+       -97.83,
+       27.56
+      ],
+      [
+       -97.62,
+       27.52
+      ],
+      [
+       -97.77,
+       27.34
+      ],
+      [
+       -97.96,
+       27.27
+      ],
+      [
+       -98.09,
+       27.39
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -97.6606,
+     27.4387
+    ]
+   ],
+   "lon": -97.893,
+   "lat": 27.412,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KDVN.FL.W.0092.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1055,6 +1116,128 @@
    ],
    "lon": -81.106,
    "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0008.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-08T16:06:00Z",
+   "onset": "2026-11-08T16:06:00Z",
+   "ends": "2026-11-09T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e046561b9270f6ab1420ed35ba5dc689f9c4cde0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.FL.W.0028.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Nueces, TX"
+   ],
+   "counties": [
+    "48355"
+   ],
+   "sent": "2026-11-08T16:28:00Z",
+   "onset": "2026-11-11T04:40:00Z",
+   "ends": "2026-11-12T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b59cf796a3cce969c18eb98e7e9530771850c93d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -97.74,
+       27.78
+      ],
+      [
+       -97.69,
+       27.85
+      ],
+      [
+       -97.41,
+       27.71
+      ],
+      [
+       -97.36,
+       27.73
+      ],
+      [
+       -97.26,
+       27.69
+      ],
+      [
+       -97.37,
+       27.6
+      ],
+      [
+       -97.74,
+       27.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -97.5163,
+     27.74
+    ]
+   ],
+   "lon": -97.51,
+   "lat": 27.734,
    "countries": [
     "US"
    ]
