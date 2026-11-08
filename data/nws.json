@@ -935,49 +935,6 @@
    ]
   },
   {
-   "id": "KBRO.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Zapata",
-    "Jim Hogg",
-    "Brooks"
-   ],
-   "counties": [
-    "48047",
-    "48247",
-    "48505"
-   ],
-   "sent": "2026-11-07T17:34:00Z",
-   "onset": "2026-11-08T00:00:00Z",
-   "ends": "2026-11-09T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.000e63d734b9faefc28e32108e5329a6e5049139.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.2153,
-     27.035
-    ],
-    [
-     -98.7476,
-     27.0532
-    ],
-    [
-     -99.1826,
-     26.997
-    ]
-   ],
-   "lon": -98.715,
-   "lat": 27.028,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCRP.FA.A.0005.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1083,6 +1040,55 @@
    ],
    "lon": -97.979,
    "lat": 28.075,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBRO.FA.A.0003.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Zapata",
+    "Jim Hogg",
+    "Brooks",
+    "Starr"
+   ],
+   "counties": [
+    "48047",
+    "48247",
+    "48427",
+    "48505"
+   ],
+   "sent": "2026-11-08T03:50:00Z",
+   "onset": "2026-11-08T03:50:00Z",
+   "ends": "2026-11-09T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a22212e9b8c208dab51c4278c5a521384981dcdb.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.2153,
+     27.035
+    ],
+    [
+     -98.7476,
+     27.0532
+    ],
+    [
+     -98.7402,
+     26.5309
+    ],
+    [
+     -99.1826,
+     26.997
+    ]
+   ],
+   "lon": -98.721,
+   "lat": 26.904,
    "countries": [
     "US"
    ]
