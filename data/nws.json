@@ -3546,6 +3546,53 @@
    "countries": [
     "US"
    ]
+  },
+  {
+   "id": "PAFC.WS.A.0012.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "East Turnagain Arm",
+    "Portage",
+    "Southern Kenai Mtns",
+    "Interior Kenai Peninsula",
+    "Turnagain Pass",
+    "West Prince William Sound & Whittier",
+    "Thompson Pass"
+   ],
+   "counties": [
+    "02020",
+    "02063",
+    "02122"
+   ],
+   "sent": "2026-11-08T07:13:00Z",
+   "onset": "2026-11-09T18:00:00Z",
+   "ends": "2026-11-11T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6d11c4f95e6f74cf9d24c9799da536377bc28e5.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -149.2843,
+     61.1743
+    ],
+    [
+     -146.2031,
+     60.4885
+    ],
+    [
+     -152.3223,
+     60.3667
+    ]
+   ],
+   "lon": -149.27,
+   "lat": 60.677,
+   "countries": [
+    "US"
+   ]
   }
  ]
 }
