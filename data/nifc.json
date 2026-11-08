@@ -561,16 +561,30 @@
    "lat": 45.3608
   },
   {
+   "id": "{1E61F997-8CFD-4189-A2B4-2A779D6A4195}",
+   "name": "Summit",
+   "acres": 8.0,
+   "contained": null,
+   "discovered": "2026-11-08T22:25:49Z",
+   "updated": "2026-11-08T23:10:24Z",
+   "state": "CA",
+   "county": "Calaveras",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.3718,
+   "lat": 38.2792
+  },
+  {
    "id": "{753A0715-EC89-4A91-B0D4-3101308D8622}",
    "name": "LON - Mill Creek",
    "acres": 6.3,
    "contained": null,
    "discovered": "2026-11-08T20:14:33Z",
-   "updated": "2026-11-08T22:45:36Z",
+   "updated": "2026-11-08T23:27:55Z",
    "state": "KY",
    "county": "Jackson",
    "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
+   "complexity": "Type 4 Incident",
    "lon": -83.9902,
    "lat": 37.3845
   },
@@ -601,20 +615,6 @@
    "complexity": null,
    "lon": -89.4178,
    "lat": 44.9937
-  },
-  {
-   "id": "{586AFEF3-178F-4CF6-9C88-1CE6758D7B46}",
-   "name": "Olinda",
-   "acres": 2.9,
-   "contained": null,
-   "discovered": "2026-11-08T20:33:23Z",
-   "updated": "2026-11-08T22:59:05Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.4172,
-   "lat": 40.4408
   },
   {
    "id": "{B4566A5F-D3B6-4B9D-802D-E5FAAE08DEB6}",
@@ -685,20 +685,6 @@
    "complexity": null,
    "lon": -92.1731,
    "lat": 33.3502
-  },
-  {
-   "id": "{5CF315AE-B491-4EF3-A0F8-6629E6FC69E5}",
-   "name": "Keith",
-   "acres": 0.8,
-   "contained": null,
-   "discovered": "2026-11-08T21:15:15Z",
-   "updated": "2026-11-08T21:59:56Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.2688,
-   "lat": 40.6494
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -953,18 +939,18 @@
    "lat": 39.4835
   },
   {
-   "id": "{5A83A310-9829-466A-A4EF-5878F7BA0244}",
-   "name": "Wayne - Downing Hollow Road",
+   "id": "{E2C1D474-4263-4D80-B8AA-9B55F978E71C}",
+   "name": "Rusk 9882",
    "acres": 0.1,
    "contained": 0,
-   "discovered": "2026-11-08T22:05:00Z",
-   "updated": "2026-11-08T22:53:33Z",
-   "state": "TN",
-   "county": "Wayne",
+   "discovered": "2026-11-08T20:59:00Z",
+   "updated": "2026-11-08T23:21:56Z",
+   "state": "TX",
+   "county": "Rusk",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -87.8094,
-   "lat": 35.2111
+   "lon": -94.4873,
+   "lat": 31.8935
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1499,34 +1485,6 @@
    "lat": 33.877
   },
   {
-   "id": "{1E61F997-8CFD-4189-A2B4-2A779D6A4195}",
-   "name": "Summit",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-08T22:25:49Z",
-   "updated": "2026-11-08T22:27:01Z",
-   "state": "CA",
-   "county": "Calaveras",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.3718,
-   "lat": 38.2792
-  },
-  {
-   "id": "{CA73BD47-A00D-4A7B-A479-A2126D904B6E}",
-   "name": "Mountaineer",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-08T22:29:02Z",
-   "updated": "2026-11-08T22:32:22Z",
-   "state": "CA",
-   "county": "Nevada",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -121.0956,
-   "lat": 39.232
-  },
-  {
    "id": "{A8B1AF14-139E-4F7E-AB69-765991160579}",
    "name": "Lac-404642",
    "acres": 0.0,
@@ -1539,6 +1497,34 @@
    "complexity": null,
    "lon": -117.7891,
    "lat": 34.0613
+  },
+  {
+   "id": "{024A25D5-05F0-44AE-A33F-963663D9953D}",
+   "name": "Golden",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T23:07:04Z",
+   "updated": "2026-11-08T23:11:43Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.6868,
+   "lat": 34.5703
+  },
+  {
+   "id": "{E67759BB-10D6-40A9-ADD6-3C79927539B4}",
+   "name": "Range",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T23:21:10Z",
+   "updated": "2026-11-08T23:23:35Z",
+   "state": "CA",
+   "county": "Fresno",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7004,
+   "lat": 36.575
   }
  ]
 }
