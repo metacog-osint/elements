@@ -1,6 +1,51 @@
 {
  "records": [
   {
+   "id": "us7000twus",
+   "mag": 5.1,
+   "place": "91 km ENE of Hihifo, Tonga",
+   "time": "2026-11-07T23:27:09Z",
+   "updated": "2026-11-07T23:44:30Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 400,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twus",
+   "depth_km": 10.0,
+   "lon": -172.985,
+   "lat": -15.684,
+   "countries": []
+  },
+  {
+   "id": "us7000twur",
+   "mag": 4.9,
+   "place": "41 km WSW of Gadung, Philippines",
+   "time": "2026-11-07T23:25:35Z",
+   "updated": "2026-11-07T23:41:08Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur",
+   "depth_km": 607.0,
+   "lon": 123.654,
+   "lat": 6.706,
+   "countries": []
+  },
+  {
+   "id": "us7000twun",
+   "mag": 5.9,
+   "place": "central Mid-Atlantic Ridge",
+   "time": "2026-11-07T23:17:06Z",
+   "updated": "2026-11-07T23:40:24Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 536,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun",
+   "depth_km": 10.0,
+   "lon": -36.973,
+   "lat": 7.341,
+   "countries": []
+  },
+  {
    "id": "us7000twu1",
    "mag": 4.7,
    "place": "43 km ESE of Ambon, Indonesia",
@@ -50,10 +95,10 @@
    "mag": 5.5,
    "place": "10 km NW of Hamakita, Japan",
    "time": "2026-11-07T16:04:35Z",
-   "updated": "2026-11-07T22:28:44Z",
+   "updated": "2026-11-07T23:45:03Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 497,
+   "sig": 498,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
    "depth_km": 38.1,
    "lon": 137.691,
@@ -687,10 +732,10 @@
    "mag": 5.4,
    "place": "24 km NNW of Rioblanco, Colombia",
    "time": "2026-11-03T09:13:14Z",
-   "updated": "2026-11-04T20:46:12Z",
+   "updated": "2026-11-07T23:50:55Z",
    "alert": "green",
    "tsunami": false,
-   "sig": 512,
+   "sig": 513,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
    "depth_km": 10.0,
    "lon": -75.72,
@@ -1346,21 +1391,6 @@
    "countries": [
     "CL"
    ]
-  },
-  {
-   "id": "us7000tule",
-   "mag": 4.8,
-   "place": "199 km NW of Port-Olry, Vanuatu",
-   "time": "2026-10-31T23:57:55Z",
-   "updated": "2026-11-01T00:17:06Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 354,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tule",
-   "depth_km": 10.0,
-   "lon": 165.663,
-   "lat": -13.875,
-   "countries": []
   }
  ]
 }
