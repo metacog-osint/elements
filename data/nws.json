@@ -2996,48 +2996,6 @@
    ]
   },
   {
-   "id": "KSEW.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031"
-   ],
-   "sent": "2026-11-08T01:01:00Z",
-   "onset": "2026-11-08T01:01:00Z",
-   "ends": "2026-11-08T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.782cbf94326134e4f6cb57d3d8ec50b6d049c8cc.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ]
-   ],
-   "lon": -123.748,
-   "lat": 47.676,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.W.0037.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3485,14 +3443,14 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
-    "Thompson Pass",
-    "Ernestine",
     "East Turnagain Arm",
     "Portage",
     "Southern Kenai Mtns",
     "Interior Kenai Peninsula",
     "Turnagain Pass",
-    "West Prince William Sound & Whittier"
+    "West Prince William Sound & Whittier",
+    "Ernestine",
+    "Thompson Pass"
    ],
    "counties": [
     "02020",
@@ -3500,10 +3458,10 @@
     "02066",
     "02122"
    ],
-   "sent": "2026-11-08T07:58:00Z",
+   "sent": "2026-11-08T09:20:00Z",
    "onset": "2026-11-09T19:00:00Z",
    "ends": "2026-11-11T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e72abed92611b31064175799499bda118a22d91.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d9a13932cad6fd60de71e0d7314bc794419a41a.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
