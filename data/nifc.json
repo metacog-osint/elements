@@ -687,18 +687,18 @@
    "lat": 33.3502
   },
   {
-   "id": "{DB3F8FBD-BCE7-4A6D-B7C1-022007B99EF6}",
-   "name": "Clark 286",
+   "id": "{D2A48F82-D53B-44AF-A241-105426913F46}",
+   "name": "Upper Mash Fork",
    "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-08T17:51:15Z",
-   "updated": "2026-11-08T18:00:13Z",
-   "state": "AR",
-   "county": "Clark",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.1726,
-   "lat": 33.9734
+   "contained": 0,
+   "discovered": "2026-11-08T18:02:00Z",
+   "updated": "2026-11-08T18:10:15Z",
+   "state": "KY",
+   "county": "Magoffin",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.9764,
+   "lat": 37.7674
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -1567,6 +1567,20 @@
    "complexity": null,
    "lon": -118.371,
    "lat": 33.9666
+  },
+  {
+   "id": "{FD3F73B2-ABCD-4A95-B503-9AFCBEB20B0D}",
+   "name": "Lac-404310",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T18:08:30Z",
+   "updated": "2026-11-08T18:08:53Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1426,
+   "lat": 33.877
   }
  ]
 }
