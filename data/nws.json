@@ -1,91 +1,6 @@
 {
  "records": [
   {
-   "id": "KCRP.FF.W.0045.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "Duval, TX",
-    "Jim Wells, TX",
-    "Kleberg, TX"
-   ],
-   "counties": [
-    "48131",
-    "48249",
-    "48273"
-   ],
-   "sent": "2026-11-08T19:23:00Z",
-   "onset": "2026-11-08T19:23:00Z",
-   "ends": "2026-11-08T22:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2171bc9d72a35fe8e257f7f8a0d09f9a1e3d7c2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -98.27,
-       27.54
-      ],
-      [
-       -97.84,
-       27.55
-      ],
-      [
-       -97.64,
-       27.53
-      ],
-      [
-       -97.63,
-       27.52
-      ],
-      [
-       -97.72,
-       27.27
-      ],
-      [
-       -97.78,
-       27.28
-      ],
-      [
-       -97.82,
-       27.27
-      ],
-      [
-       -98.26,
-       27.26
-      ],
-      [
-       -98.27,
-       27.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -98.4974,
-     27.6811
-    ],
-    [
-     -98.0908,
-     27.7335
-    ],
-    [
-     -97.6606,
-     27.4387
-    ]
-   ],
-   "lon": -97.914,
-   "lat": 27.418,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEWX.FF.W.0108.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -1261,10 +1176,10 @@
     "48409",
     "48479"
    ],
-   "sent": "2026-11-08T06:34:00Z",
-   "onset": "2026-11-08T06:34:00Z",
+   "sent": "2026-11-08T22:08:00Z",
+   "onset": "2026-11-08T22:08:00Z",
    "ends": "2026-11-09T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ee09162c04104a71f42c64a78674b1a756d3fde.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12dfa2d2f55a2b1ab298d00568235fa2467e2572.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1997,39 +1912,32 @@
    ]
   },
   {
-   "id": "PAJK.HW.A.0010.2026",
-   "event": "High Wind Watch",
+   "id": "PAJK.HW.W.0014.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Juneau AK",
    "areas": [
-    "City and Borough of Sitka",
-    "Western Kupreanof and Kuiu Island",
     "Prince of Wales Island"
    ],
    "counties": [
-    "02198",
-    "02220"
+    "02198"
    ],
-   "sent": "2026-11-08T15:19:00Z",
-   "onset": "2026-11-09T09:00:00Z",
-   "ends": "2026-11-10T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b00f03e9f782a5e6500f4aae508fc0aaf11dab4a.001.1",
+   "sent": "2026-11-08T22:24:00Z",
+   "onset": "2026-11-09T13:00:00Z",
+   "ends": "2026-11-10T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c9c1e92a7ea56ae93d9cf960c9e04974205e076.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
     [
      -133.1624,
      55.6828
-    ],
-    [
-     -135.3674,
-     57.1932
     ]
    ],
-   "lon": -134.265,
-   "lat": 56.438,
+   "lon": -133.162,
+   "lat": 55.683,
    "countries": [
     "US"
    ]
