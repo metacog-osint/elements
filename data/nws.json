@@ -1,67 +1,6 @@
 {
  "records": [
   {
-   "id": "KCRP.FF.W.0044.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "Kleberg, TX"
-   ],
-   "counties": [
-    "48273"
-   ],
-   "sent": "2026-11-08T18:36:00Z",
-   "onset": "2026-11-08T18:36:00Z",
-   "ends": "2026-11-08T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.516b2a9713fbc415dc708e4cda499218d4dc6780.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.54,
-       27.28
-      ],
-      [
-       -97.27,
-       27.58
-      ],
-      [
-       -97.22,
-       27.55
-      ],
-      [
-       -97.31,
-       27.38
-      ],
-      [
-       -97.35,
-       27.28
-      ],
-      [
-       -97.54,
-       27.28
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -97.6606,
-     27.4387
-    ]
-   ],
-   "lon": -97.372,
-   "lat": 27.392,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCRP.FF.W.0045.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -2941,59 +2880,6 @@
    ]
   },
   {
-   "id": "PAFC.WS.A.0012.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "East Turnagain Arm",
-    "Portage",
-    "Southern Kenai Mtns",
-    "Interior Kenai Peninsula",
-    "Turnagain Pass",
-    "West Prince William Sound & Whittier",
-    "Ernestine",
-    "Thompson Pass"
-   ],
-   "counties": [
-    "02020",
-    "02063",
-    "02066",
-    "02122"
-   ],
-   "sent": "2026-11-08T09:20:00Z",
-   "onset": "2026-11-09T19:00:00Z",
-   "ends": "2026-11-11T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d9a13932cad6fd60de71e0d7314bc794419a41a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -149.2843,
-     61.1743
-    ],
-    [
-     -146.2031,
-     60.4885
-    ],
-    [
-     -143.9222,
-     62.0345
-    ],
-    [
-     -152.3223,
-     60.3667
-    ]
-   ],
-   "lon": -147.933,
-   "lat": 61.016,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAJK.WS.A.0009.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -3026,6 +2912,59 @@
    ],
    "lon": -135.457,
    "lat": 59.329,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.WS.A.0012.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Ernestine",
+    "East Turnagain Arm",
+    "Portage",
+    "Southern Kenai Mtns",
+    "Interior Kenai Peninsula",
+    "Turnagain Pass",
+    "West Prince William Sound & Whittier",
+    "Thompson Pass"
+   ],
+   "counties": [
+    "02020",
+    "02063",
+    "02066",
+    "02122"
+   ],
+   "sent": "2026-11-08T21:26:00Z",
+   "onset": "2026-11-09T19:00:00Z",
+   "ends": "2026-11-11T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c320e6d3b099419dbf6e2ab5f5b46968f772389a.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -149.2843,
+     61.1743
+    ],
+    [
+     -146.2031,
+     60.4885
+    ],
+    [
+     -143.9222,
+     62.0345
+    ],
+    [
+     -152.3223,
+     60.3667
+    ]
+   ],
+   "lon": -147.933,
+   "lat": 61.016,
    "countries": [
     "US"
    ]
