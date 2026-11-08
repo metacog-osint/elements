@@ -2348,73 +2348,6 @@
    ]
   },
   {
-   "id": "KLWX.FZ.W.0010.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Nelson",
-    "Albemarle",
-    "Greene",
-    "Madison",
-    "Orange",
-    "Culpeper",
-    "Southern Fauquier"
-   ],
-   "counties": [
-    "51047",
-    "51061",
-    "51079",
-    "51113",
-    "51125",
-    "51137",
-    "51540"
-   ],
-   "sent": "2026-11-08T10:13:00Z",
-   "onset": "2026-11-08T10:13:00Z",
-   "ends": "2026-11-08T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f8ed200ca91e7a85349546abcd36748e8d38c74.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -77.9565,
-     38.4859
-    ],
-    [
-     -77.8215,
-     38.7441
-    ],
-    [
-     -78.4702,
-     38.298
-    ],
-    [
-     -78.277,
-     38.4121
-    ],
-    [
-     -78.8834,
-     37.7891
-    ],
-    [
-     -78.0111,
-     38.2493
-    ],
-    [
-     -78.4854,
-     38.0377
-    ]
-   ],
-   "lon": -78.272,
-   "lat": 38.288,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJKL.FZ.W.0008.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3184,6 +3117,318 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.3559.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T13:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adbab6f4bf670770dd82640f5489cd2d29a5d5b4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5343.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island out to 15 NM"
+   ],
+   "counties": [
+    "58814"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5347.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Thompson to Cape Beaufort from 15 to 85 NM"
+   ],
+   "counties": [
+    "58857"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.006.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5350.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island from 15 to 80 NM"
+   ],
+   "counties": [
+    "58860"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5352.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point from 15 to 75 NM"
+   ],
+   "counties": [
+    "58861"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5349.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5342.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5341.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Thompson to Cape Beaufort out to 15 NM"
+   ],
+   "counties": [
+    "58811"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5345.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.5348.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-08T12:45:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6194913b9ceef296fd8d638aaef9f57e4a10635.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9584.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Krusenstern to Cape Thompson out to 15 NM"
+   ],
+   "counties": [
+    "58810"
+   ],
+   "sent": "2026-11-08T12:46:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31bcf0cfed0f55aa5658284a15eb33983e190da0.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9583.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Motherwood Point to Cape Krusenstern out to 10 NM"
+   ],
+   "counties": [
+    "58809"
+   ],
+   "sent": "2026-11-08T12:46:00Z",
+   "onset": "2026-11-08T12:00:00Z",
+   "ends": "2026-11-09T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31bcf0cfed0f55aa5658284a15eb33983e190da0.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KTFX.HW.W.0037.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3543,40 +3788,6 @@
    "onset": "2026-11-08T14:00:00Z",
    "ends": "2026-11-09T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea957661ee7c145e78bc9a52f7a0cfdeacd30f50.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.0019.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision from 15 to 90 NM",
-    "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
-    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
-    "Cape Fairweather to Icy Cape from 15 to 80 NM",
-    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
-   ],
-   "counties": [
-    "58661",
-    "58662",
-    "58663",
-    "58664",
-    "58671"
-   ],
-   "sent": "2026-11-08T08:39:00Z",
-   "onset": "2026-11-09T09:00:00Z",
-   "ends": "2026-11-09T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b01c046386729ca01b0b8d0a68a0b1c2fdbef48e.004.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3993,6 +4204,72 @@
    "onset": "2026-11-09T02:00:00Z",
    "ends": "2026-11-10T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.595fa66918b062ea1ea0ef0ae0a40b4c491ea6fe.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0019.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Fairweather to Icy Cape from 15 to 80 NM",
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
+    "Dixon Entrance to Cape Decision out to 15 NM",
+    "Cape Decision to Cape Edgecumbe out to 15 NM",
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM",
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
+   ],
+   "counties": [
+    "58641",
+    "58642",
+    "58661",
+    "58662",
+    "58663",
+    "58664",
+    "58671"
+   ],
+   "sent": "2026-11-08T12:51:00Z",
+   "onset": "2026-11-09T09:00:00Z",
+   "ends": "2026-11-10T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f86e319c8a295bf007a47bbbe8e523f137fa6e.004.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0020.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Icy Cape to Cape Suckling from 15 to 80 NM",
+    "Cape Edgecumbe to Cape Spencer out to 15 NM"
+   ],
+   "counties": [
+    "58643",
+    "58672"
+   ],
+   "sent": "2026-11-08T12:51:00Z",
+   "onset": "2026-11-09T18:00:00Z",
+   "ends": "2026-11-10T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f86e319c8a295bf007a47bbbe8e523f137fa6e.007.4",
    "geometry": null,
    "vtec": true,
    "points": [],
