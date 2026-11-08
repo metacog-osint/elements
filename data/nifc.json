@@ -939,20 +939,6 @@
    "lat": 38.8449
   },
   {
-   "id": "{30BB4D35-ADF1-4C85-966C-F6456E0D9FE9}",
-   "name": "Bonham",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-07T20:48:27Z",
-   "updated": "2026-11-07T20:58:05Z",
-   "state": "CA",
-   "county": "Lake",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.5897,
-   "lat": 38.9221
-  },
-  {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
    "name": "Cold Wind",
    "acres": 0.1,
@@ -1205,6 +1191,20 @@
    "lat": 45.4955
   },
   {
+   "id": "{24276FE2-6EB6-4FAA-ACE0-D16EAA009391}",
+   "name": "Blue Knoll",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-07T23:19:20Z",
+   "updated": "2026-11-07T23:59:02Z",
+   "state": "CA",
+   "county": "Plumas",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.9007,
+   "lat": 40.1438
+  },
+  {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
    "name": "Field",
    "acres": 0.0,
@@ -1413,20 +1413,6 @@
    "complexity": null,
    "lon": -117.3971,
    "lat": 35.7491
-  },
-  {
-   "id": "{D7071462-1AAF-43FA-893A-FE1B5EE5D2AA}",
-   "name": "North Gazley",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-08-23T02:18:00Z",
-   "updated": "2026-11-04T23:57:58Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.2679,
-   "lat": 42.943
   },
   {
    "id": "{BC1FDEDB-C1BC-45D5-8602-DB7AB69727DF}",
@@ -1728,7 +1714,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-07T10:07:41Z",
-   "updated": "2026-11-07T12:09:07Z",
+   "updated": "2026-11-07T23:42:18Z",
    "state": "CA",
    "county": "Los Angeles",
    "cause": "Undetermined",
@@ -1889,6 +1875,48 @@
    "complexity": null,
    "lon": -120.6383,
    "lat": 40.3652
+  },
+  {
+   "id": "{354272ED-23EB-4F93-8A3F-5D2745DA3C6B}",
+   "name": "Lac-403366",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T23:41:25Z",
+   "updated": "2026-11-07T23:42:36Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1477,
+   "lat": 34.6092
+  },
+  {
+   "id": "{DB4671F9-3C90-4FDB-B341-7FCB01939962}",
+   "name": "Valley",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T23:48:53Z",
+   "updated": "2026-11-07T23:54:49Z",
+   "state": "CA",
+   "county": "Lassen",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.1835,
+   "lat": 40.8937
+  },
+  {
+   "id": "{22A3619D-EE73-4DBE-B6DE-EA1C7D57EAAC}",
+   "name": "Lac-403382",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T23:51:49Z",
+   "updated": "2026-11-07T23:52:05Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.3093,
+   "lat": 33.9239
   }
  ]
 }
