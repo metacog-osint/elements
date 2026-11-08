@@ -687,6 +687,20 @@
    "lat": 33.3502
   },
   {
+   "id": "{DB3F8FBD-BCE7-4A6D-B7C1-022007B99EF6}",
+   "name": "Clark 286",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-08T17:51:15Z",
+   "updated": "2026-11-08T18:00:13Z",
+   "state": "AR",
+   "county": "Clark",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.1726,
+   "lat": 33.9734
+  },
+  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -699,20 +713,6 @@
    "complexity": null,
    "lon": -91.0012,
    "lat": 47.4906
-  },
-  {
-   "id": "{001EC2F4-BD5B-44D8-B88F-C5C6AFDFAF81}",
-   "name": "Nestucca Fire",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-05-11T20:18:00Z",
-   "updated": "2026-11-05T17:23:32Z",
-   "state": "OR",
-   "county": "Tillamook",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -123.6872,
-   "lat": 45.2663
   },
   {
    "id": "{971FAF5C-56EE-48A4-8F74-8051205F1D6E}",
@@ -755,20 +755,6 @@
    "complexity": "Type 5 Incident",
    "lon": -104.4068,
    "lat": 35.0328
-  },
-  {
-   "id": "{1F95A5C8-AE2B-4479-B048-E551D23C31BD}",
-   "name": "Rowell",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-05-24T00:00:00Z",
-   "updated": "2026-11-05T17:05:34Z",
-   "state": "OR",
-   "county": "Polk",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -123.4822,
-   "lat": 44.9911
   },
   {
    "id": "{5D95508D-C441-4E70-B379-FAB587595BF0}",
@@ -944,7 +930,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-05T22:58:00Z",
-   "updated": "2026-11-05T23:16:40Z",
+   "updated": "2026-11-08T17:38:32Z",
    "state": "CA",
    "county": "Inyo",
    "cause": "Undetermined",
@@ -995,18 +981,18 @@
    "lat": 38.6534
   },
   {
-   "id": "{360E3DFC-6CE1-449A-816B-715D7C341404}",
-   "name": "Wall",
+   "id": "{47F906C6-8F68-4CF4-9A78-9DF406863941}",
+   "name": "Allegheny Drive",
    "acres": 0.1,
    "contained": null,
-   "discovered": "2026-11-08T15:12:13Z",
-   "updated": "2026-11-08T16:59:28Z",
-   "state": "OR",
-   "county": "Morrow",
-   "cause": "Human",
+   "discovered": "2026-11-08T02:00:00Z",
+   "updated": "2026-11-08T17:38:14Z",
+   "state": "WV",
+   "county": "Pendleton",
+   "cause": "Undetermined",
    "complexity": null,
-   "lon": -119.6575,
-   "lat": 45.0311
+   "lon": -79.422,
+   "lat": 38.845
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1119,20 +1105,6 @@
    "complexity": null,
    "lon": -123.4061,
    "lat": 43.6654
-  },
-  {
-   "id": "{A59718D1-2554-48F3-9877-8EFF11B98FAD}",
-   "name": "Bonetti",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-06T23:09:26Z",
-   "updated": "2026-11-05T17:51:54Z",
-   "state": "CA",
-   "county": "El Dorado",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.5075,
-   "lat": 38.7101
   },
   {
    "id": "{FDBBA9E8-CADA-400A-A6A5-491BE728E42B}",
@@ -1276,11 +1248,11 @@
   },
   {
    "id": "{4A04289A-869F-42AF-B8B5-1AEC4B875C89}",
-   "name": "Vf/Drd",
+   "name": "Motorhome",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-06T23:34:17Z",
-   "updated": "2026-11-08T17:30:45Z",
+   "updated": "2026-11-08T17:41:04Z",
    "state": "CA",
    "county": "San Diego",
    "cause": "Undetermined",
@@ -1469,6 +1441,20 @@
    "complexity": null,
    "lon": -118.1815,
    "lat": 33.9415
+  },
+  {
+   "id": "{26A0F465-691D-42AA-A064-63A7CAEC9D03}",
+   "name": "Blm-38-3-26.1",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T22:46:00Z",
+   "updated": "2026-11-08T17:48:59Z",
+   "state": "OR",
+   "county": "Jackson",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.0185,
+   "lat": 42.2164
   },
   {
    "id": "{354272ED-23EB-4F93-8A3F-5D2745DA3C6B}",
