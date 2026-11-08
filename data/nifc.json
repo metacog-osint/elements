@@ -365,20 +365,6 @@
    "lat": 47.2932
   },
   {
-   "id": "{68C21E93-A992-48BA-8396-543BDE95DA5B}",
-   "name": "A G Taylor Lane",
-   "acres": 118.0,
-   "contained": 100,
-   "discovered": "2026-10-25T21:23:00Z",
-   "updated": "2026-11-02T22:21:09Z",
-   "state": "AL",
-   "county": "Washington",
-   "cause": "Undetermined",
-   "complexity": "Type 3 Incident",
-   "lon": -88.2689,
-   "lat": 31.3158
-  },
-  {
    "id": "{37A21A77-B905-40D5-A951-78029EF4D29D}",
    "name": "Hewitt Lane Fire",
    "acres": 109.0,
@@ -727,6 +713,20 @@
    "complexity": null,
    "lon": -118.2395,
    "lat": 35.638
+  },
+  {
+   "id": "{3846D093-68AC-43B7-AEC1-418A080BC092}",
+   "name": "Newtown Branch Road",
+   "acres": 0.5,
+   "contained": 0,
+   "discovered": "2026-11-08T20:15:00Z",
+   "updated": "2026-11-08T21:12:58Z",
+   "state": "KY",
+   "county": "Bell",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.5507,
+   "lat": 36.8211
   },
   {
    "id": "{8274A2B1-69EF-4558-8A22-DE4EBDF13DA8}",
@@ -1497,6 +1497,34 @@
    "complexity": null,
    "lon": -118.1426,
    "lat": 33.877
+  },
+  {
+   "id": "{E882A4EC-1DC5-4E9C-B567-A6639A686A85}",
+   "name": "Mercer",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T21:05:16Z",
+   "updated": "2026-11-08T21:06:08Z",
+   "state": "CA",
+   "county": "Calaveras",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.4742,
+   "lat": 38.1541
+  },
+  {
+   "id": "{5CF315AE-B491-4EF3-A0F8-6629E6FC69E5}",
+   "name": "Keith",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T21:15:15Z",
+   "updated": "2026-11-08T21:17:58Z",
+   "state": "CA",
+   "county": "Shasta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2688,
+   "lat": 40.6494
   }
  ]
 }
