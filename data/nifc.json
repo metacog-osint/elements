@@ -356,10 +356,10 @@
    "acres": 150.0,
    "contained": null,
    "discovered": "2026-11-08T18:55:29Z",
-   "updated": "2026-11-09T20:45:30Z",
+   "updated": "2026-11-09T21:42:49Z",
    "state": "NV",
    "county": "Nye",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -117.3876,
    "lat": 38.7622
@@ -447,6 +447,20 @@
    "complexity": null,
    "lon": -67.0033,
    "lat": 18.017
+  },
+  {
+   "id": "{0D34F4B5-58CD-4D86-AC2A-26EDE61DA62A}",
+   "name": "Birney Road",
+   "acres": 48.0,
+   "contained": null,
+   "discovered": "2026-09-13T20:44:20Z",
+   "updated": "2026-11-09T21:55:36Z",
+   "state": "MT",
+   "county": "Rosebud",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -106.3354,
+   "lat": 45.5206
   },
   {
    "id": "{4D678004-E2B3-442C-8D39-DBFFB2C96FCD}",
@@ -687,6 +701,20 @@
    "lat": 41.6133
   },
   {
+   "id": "{B6D5663D-C122-4021-ABAE-FD5814CC51B6}",
+   "name": "Ashland Flats",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-10-02T01:28:00Z",
+   "updated": "2026-11-09T21:44:35Z",
+   "state": "MT",
+   "county": "Rosebud",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -106.364,
+   "lat": 45.6135
+  },
+  {
    "id": "{80D21FFC-6637-41A7-8210-528778F963E6}",
    "name": "Birch",
    "acres": 1.0,
@@ -743,18 +771,18 @@
    "lat": 45.5571
   },
   {
-   "id": "{D5D63C4E-4FF2-46F6-B5B4-2FC78B84B207}",
-   "name": "3 C",
-   "acres": 0.5,
-   "contained": 0,
-   "discovered": "2026-11-09T20:25:00Z",
-   "updated": "2026-11-09T21:13:59Z",
-   "state": "KY",
-   "county": "Whitley",
+   "id": "{0AC089C1-52EB-45C7-BADA-31790A389C64}",
+   "name": "Hill",
+   "acres": 0.3,
+   "contained": null,
+   "discovered": "2026-10-24T15:10:00Z",
+   "updated": "2026-11-09T21:38:25Z",
+   "state": "WI",
+   "county": "Vilas",
    "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -84.3089,
-   "lat": 36.6813
+   "complexity": null,
+   "lon": -89.9544,
+   "lat": 45.9723
   },
   {
    "id": "{9E4A604F-271D-447F-90DE-3567D103AB82}",
@@ -1168,13 +1196,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-09T21:07:00Z",
-   "updated": "2026-11-09T21:19:26Z",
+   "updated": "2026-11-09T22:01:06Z",
    "state": "WA",
    "county": "Ferry",
    "cause": "Undetermined",
-   "complexity": null,
+   "complexity": "Type 5 Incident",
    "lon": -118.6607,
-   "lat": 48.4035
+   "lat": 48.4061
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1920,17 +1948,45 @@
   },
   {
    "id": "{4E5B3F30-A12B-4BBC-A165-4CB10B1B19CA}",
-   "name": "Rainbow6/Sdu",
+   "name": "Sdu/Rainbow6",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-09T20:26:34Z",
-   "updated": "2026-11-09T20:28:30Z",
+   "updated": "2026-11-09T21:49:43Z",
    "state": "CA",
    "county": "San Diego",
    "cause": "Undetermined",
    "complexity": null,
    "lon": -117.1453,
    "lat": 33.4212
+  },
+  {
+   "id": "{CE74C987-2EB8-4193-B1FF-13CE6682D6DB}",
+   "name": "Big Branch",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T21:18:38Z",
+   "updated": "2026-11-09T21:43:35Z",
+   "state": "LA",
+   "county": "Vernon",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.1096,
+   "lat": 30.9677
+  },
+  {
+   "id": "{A0344629-2913-4971-BFAA-E1C3764055FD}",
+   "name": "Airport",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T21:42:05Z",
+   "updated": "2026-11-09T21:47:05Z",
+   "state": "CA",
+   "county": "Lassen",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.0401,
+   "lat": 40.3039
   }
  ]
 }
