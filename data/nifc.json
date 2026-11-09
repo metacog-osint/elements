@@ -687,6 +687,20 @@
    "lat": 33.3502
   },
   {
+   "id": "{39146EDB-EB06-4BE3-B01A-FE4120A2F82C}",
+   "name": "Bath County - 7173 Kentucky 36",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-08T23:33:00Z",
+   "updated": "2026-11-09T00:24:14Z",
+   "state": "KY",
+   "county": "Bath",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6884,
+   "lat": 38.0797
+  },
+  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -741,6 +755,20 @@
    "complexity": null,
    "lon": -81.7155,
    "lat": 29.1179
+  },
+  {
+   "id": "{CBF50DBB-F687-4F2F-B55D-E63CFE4BAD73}",
+   "name": "Glen",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-08T23:53:12Z",
+   "updated": "2026-11-09T00:25:17Z",
+   "state": "CA",
+   "county": "Solano",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.9966,
+   "lat": 38.4344
   },
   {
    "id": "{5FDDDCB5-5F69-485F-9FAB-93A81D28E6F7}",
@@ -881,20 +909,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.1805,
    "lat": 39.4835
-  },
-  {
-   "id": "{E2C1D474-4263-4D80-B8AA-9B55F978E71C}",
-   "name": "Rusk 9882",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-08T20:59:00Z",
-   "updated": "2026-11-09T00:01:06Z",
-   "state": "TX",
-   "county": "Rusk",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.4873,
-   "lat": 31.8935
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1191,6 +1205,20 @@
    "lat": 33.9443
   },
   {
+   "id": "{A32A8D3F-48A5-4C0F-BE9D-85AA5A059538}",
+   "name": "Tcu Summit",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T18:22:00Z",
+   "updated": "2026-11-09T00:16:36Z",
+   "state": "CA",
+   "county": "Calaveras",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.3717,
+   "lat": 38.2792
+  },
+  {
    "id": "{DBC89479-2A6A-4E8E-B428-479C6ED9B74A}",
    "name": "Lac-403013",
    "acres": 0.0,
@@ -1457,18 +1485,32 @@
    "lat": 36.575
   },
   {
-   "id": "{CBF50DBB-F687-4F2F-B55D-E63CFE4BAD73}",
-   "name": "Glen",
+   "id": "{AD930F26-56CD-4C75-B2EC-740396932A5F}",
+   "name": "Mission 7",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-08T23:53:12Z",
-   "updated": "2026-11-08T23:54:01Z",
+   "discovered": "2026-11-08T23:43:34Z",
+   "updated": "2026-11-09T00:03:48Z",
    "state": "CA",
-   "county": "Solano",
+   "county": "San Diego",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -121.9966,
-   "lat": 38.4344
+   "lon": -117.1745,
+   "lat": 33.3871
+  },
+  {
+   "id": "{D506C1C3-F1B9-44DF-9376-3F73351C4046}",
+   "name": "Illegal Burning In Wildland",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T00:13:48Z",
+   "updated": "2026-11-09T00:22:53Z",
+   "state": "CA",
+   "county": "Fresno",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.6665,
+   "lat": 36.6564
   }
  ]
 }
