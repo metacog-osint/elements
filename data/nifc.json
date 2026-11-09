@@ -552,7 +552,7 @@
    "acres": 6.3,
    "contained": null,
    "discovered": "2026-11-08T20:14:33Z",
-   "updated": "2026-11-09T13:25:12Z",
+   "updated": "2026-11-09T16:25:21Z",
    "state": "KY",
    "county": "Jackson",
    "cause": "Undetermined",
@@ -855,6 +855,48 @@
    "lat": 38.845
   },
   {
+   "id": "{4E0C3F92-9312-4E3E-A52D-B56E7A85986A}",
+   "name": "Outskirts",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-08T06:00:00Z",
+   "updated": "2026-11-09T16:08:37Z",
+   "state": "WI",
+   "county": "Juneau",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.1402,
+   "lat": 43.8797
+  },
+  {
+   "id": "{A9CC18A4-226D-4A55-8662-6B5B0771FED2}",
+   "name": "Marion",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-08T06:00:00Z",
+   "updated": "2026-11-09T16:44:35Z",
+   "state": "WI",
+   "county": "Juneau",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.9334,
+   "lat": 43.8223
+  },
+  {
+   "id": "{4B115178-1EFF-49A0-87A4-E3B7BBBE70B8}",
+   "name": "Oso",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T16:09:31Z",
+   "updated": "2026-11-09T16:33:07Z",
+   "state": "CA",
+   "county": "El Dorado",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7432,
+   "lat": 38.9308
+  },
+  {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
    "name": "Field",
    "acres": 0.0,
@@ -965,6 +1007,20 @@
    "complexity": null,
    "lon": -119.05,
    "lat": 35.48
+  },
+  {
+   "id": "{C4D5D680-2D9A-4D9E-A343-6D674DCD815E}",
+   "name": "County M",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-23T18:30:00Z",
+   "updated": "2026-11-09T16:11:58Z",
+   "state": "WI",
+   "county": "Rusk",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.7159,
+   "lat": 45.3947
   },
   {
    "id": "{2CE81552-C8B9-4213-A0AB-A274FB6C230E}",
@@ -1469,6 +1525,20 @@
    "complexity": null,
    "lon": -118.135,
    "lat": 34.6877
+  },
+  {
+   "id": "{0B8894D0-0E7D-41AC-AD5B-617397323D9B}",
+   "name": "Largo",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T16:40:12Z",
+   "updated": "2026-11-09T16:44:29Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.7651,
+   "lat": 34.4695
   }
  ]
 }
