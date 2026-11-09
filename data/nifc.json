@@ -645,6 +645,20 @@
    "lat": 37.4951
   },
   {
+   "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
+   "name": "Parkers Branch",
+   "acres": 3.0,
+   "contained": 0,
+   "discovered": "2026-11-09T21:00:00Z",
+   "updated": "2026-11-09T22:22:06Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7163,
+   "lat": 36.9464
+  },
+  {
    "id": "{AF4A6D5E-C38E-4C7F-BB57-621013549BC9}",
    "name": "Corn",
    "acres": 1.8,
@@ -657,6 +671,20 @@
    "complexity": null,
    "lon": -92.6601,
    "lat": 45.7163
+  },
+  {
+   "id": "{0F3FDDE8-D21E-46B5-A17D-1C64D42D8870}",
+   "name": "McClung Ridge",
+   "acres": 1.6,
+   "contained": null,
+   "discovered": "2026-11-09T18:58:31Z",
+   "updated": "2026-11-09T22:07:47Z",
+   "state": "VA",
+   "county": "Bath",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -79.7044,
+   "lat": 38.0601
   },
   {
    "id": "{DD402E58-3B57-4DF0-90C4-A0CBD5DE05AA}",
@@ -811,6 +839,20 @@
    "complexity": null,
    "lon": -81.7155,
    "lat": 29.1179
+  },
+  {
+   "id": "{A0344629-2913-4971-BFAA-E1C3764055FD}",
+   "name": "Airport",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-09T21:42:05Z",
+   "updated": "2026-11-09T22:13:53Z",
+   "state": "CA",
+   "county": "Lassen",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.0401,
+   "lat": 40.3039
   },
   {
    "id": "{C53C9C74-D1E5-4012-8995-1DC3D72CC922}",
@@ -1037,6 +1079,20 @@
    "lat": 43.7981
   },
   {
+   "id": "{40356C61-61B0-4CEC-B9D6-1AADA8A573BA}",
+   "name": "Camper",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-10-30T16:40:00Z",
+   "updated": "2026-11-09T22:21:15Z",
+   "state": "WI",
+   "county": "Juneau",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.115,
+   "lat": 44.1306
+  },
+  {
    "id": "{3304612F-20EE-4047-BE37-FB41DE2EC4F0}",
    "name": "Brown",
    "acres": 0.1,
@@ -1196,12 +1252,12 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-09T21:07:00Z",
-   "updated": "2026-11-09T22:01:06Z",
+   "updated": "2026-11-09T22:01:30Z",
    "state": "WA",
    "county": "Ferry",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -118.6607,
+   "lon": -118.6634,
    "lat": 48.4061
   },
   {
@@ -1329,6 +1385,20 @@
    "complexity": "Type 5 Incident",
    "lon": -89.1075,
    "lat": 37.7343
+  },
+  {
+   "id": "{CB3BE869-9DD2-440F-974C-731274168D13}",
+   "name": "Curtis Creek",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-03T22:33:00Z",
+   "updated": "2026-11-09T22:28:06Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.1698,
+   "lat": 43.6602
   },
   {
    "id": "{0619F74B-6F31-437C-91A6-918D2F36BC34}",
@@ -1966,27 +2036,27 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-09T21:18:38Z",
-   "updated": "2026-11-09T21:43:35Z",
+   "updated": "2026-11-09T22:27:26Z",
    "state": "LA",
    "county": "Vernon",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -93.1096,
    "lat": 30.9677
   },
   {
-   "id": "{A0344629-2913-4971-BFAA-E1C3764055FD}",
-   "name": "Airport",
+   "id": "{663C9B10-835D-4F30-B613-8EFFC7975189}",
+   "name": "Garlock",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-09T21:42:05Z",
-   "updated": "2026-11-09T21:47:05Z",
+   "discovered": "2026-11-09T22:26:28Z",
+   "updated": "2026-11-09T22:30:05Z",
    "state": "CA",
-   "county": "Lassen",
+   "county": "Kern",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -121.0401,
-   "lat": 40.3039
+   "lon": -117.7567,
+   "lat": 35.423
   }
  ]
 }
