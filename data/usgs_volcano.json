@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "311120",
+   "name": "Great Sitkin",
+   "observatory": "avo",
+   "observatory_name": "Alaska Volcano Observatory",
+   "alert": "WATCH",
+   "color": "ORANGE",
+   "prev_alert": "ADVISORY",
+   "prev_color": "YELLOW",
+   "sent": "2026-11-09T21:09:11Z",
+   "changed": "2021-07-23T22:25:55Z",
+   "synopsis": "AVO Great Sitkin ORANGE/WATCH - Slow eruption of lava likely continues; moving to Weekly Updates only",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-AVO-2026-11-09T20:51:49+00:00",
+   "threat": "High Threat",
+   "lat": 52.0765,
+   "lon": -176.1109,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "332010",
    "name": "Kilauea",
    "observatory": "hvo",
@@ -16,26 +36,6 @@
    "threat": "Very High Threat",
    "lat": 19.421,
    "lon": -155.287,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "vnum": "311120",
-   "name": "Great Sitkin",
-   "observatory": "avo",
-   "observatory_name": "Alaska Volcano Observatory",
-   "alert": "WATCH",
-   "color": "ORANGE",
-   "prev_alert": "ADVISORY",
-   "prev_color": "YELLOW",
-   "sent": "2026-11-08T20:36:04Z",
-   "changed": "2021-07-23T22:25:55Z",
-   "synopsis": "AVO Great Sitkin ORANGE/WATCH - Slow eruption of lava within the summit crater continues.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-AVO-2026-11-08T20:35:22+00:00",
-   "threat": "High Threat",
-   "lat": 52.0765,
-   "lon": -176.1109,
    "countries": [
     "US"
    ]
