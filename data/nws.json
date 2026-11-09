@@ -1,103 +1,6 @@
 {
  "records": [
   {
-   "id": "KEWX.FF.W.0108.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Edwards, TX",
-    "Kinney, TX",
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48137",
-    "48271",
-    "48465"
-   ],
-   "sent": "2026-11-09T01:46:00Z",
-   "onset": "2026-11-09T01:46:00Z",
-   "ends": "2026-11-09T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7678805471a91ed0e23873125a2b98f0b41caa49.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -100.79,
-       30.29
-      ],
-      [
-       -100.22,
-       30.29
-      ],
-      [
-       -99.85,
-       30.29
-      ],
-      [
-       -100.12,
-       29.93
-      ],
-      [
-       -100.32,
-       29.64
-      ],
-      [
-       -100.34,
-       29.59
-      ],
-      [
-       -100.38,
-       29.53
-      ],
-      [
-       -100.42,
-       29.52
-      ],
-      [
-       -100.49,
-       29.51
-      ],
-      [
-       -100.9,
-       29.52
-      ],
-      [
-       -101.15,
-       29.72
-      ],
-      [
-       -100.79,
-       30.29
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -100.3074,
-     29.9859
-    ],
-    [
-     -100.4177,
-     29.3471
-    ],
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -100.481,
-   "lat": 29.843,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0041.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1764,10 +1667,10 @@
    "counties": [
     "02198"
    ],
-   "sent": "2026-11-08T22:24:00Z",
+   "sent": "2026-11-09T05:56:00Z",
    "onset": "2026-11-09T13:00:00Z",
    "ends": "2026-11-10T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c9c1e92a7ea56ae93d9cf960c9e04974205e076.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13a5d9b1d9babbaa92650843e7d65392cfafc030.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2959,10 +2862,10 @@
    "counties": [
     "02100"
    ],
-   "sent": "2026-11-08T22:01:00Z",
+   "sent": "2026-11-09T05:45:00Z",
    "onset": "2026-11-09T12:00:00Z",
    "ends": "2026-11-10T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04240b64754defdc73dd2ac03b8534e5828c6d1c.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c5aa684015e2482176680fb5cf33ba6fb211e5a.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
