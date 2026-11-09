@@ -1,14 +1,29 @@
 {
  "records": [
   {
+   "id": "us7000tx1i",
+   "mag": 4.6,
+   "place": "69 km ESE of Takahagi, Japan",
+   "time": "2026-11-09T05:01:53Z",
+   "updated": "2026-11-09T05:31:19Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1i",
+   "depth_km": 35.0,
+   "lon": 141.448,
+   "lat": 36.494,
+   "countries": []
+  },
+  {
    "id": "us7000tx1f",
    "mag": 5.7,
    "place": "106 km ENE of Hasaki, Japan",
    "time": "2026-11-09T04:52:51Z",
-   "updated": "2026-11-09T05:02:56Z",
-   "alert": null,
+   "updated": "2026-11-09T05:34:06Z",
+   "alert": "green",
    "tsunami": false,
-   "sig": 500,
+   "sig": 502,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
    "depth_km": 24.2,
    "lon": 141.83,
@@ -713,7 +728,7 @@
    "mag": 5.0,
    "place": "111 km W of Petrolia, CA",
    "time": "2026-11-05T04:56:02Z",
-   "updated": "2026-11-08T05:06:18Z",
+   "updated": "2026-11-09T05:06:11Z",
    "alert": "green",
    "tsunami": false,
    "sig": 434,
@@ -1224,21 +1239,6 @@
    "countries": [
     "ID"
    ]
-  },
-  {
-   "id": "us7000tuu0",
-   "mag": 4.9,
-   "place": "175 km WNW of Panguna, Papua New Guinea",
-   "time": "2026-11-02T05:19:50Z",
-   "updated": "2026-11-02T05:46:19Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 370,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuu0",
-   "depth_km": 87.9,
-   "lon": 154.088,
-   "lat": -5.563,
-   "countries": []
   }
  ]
 }
