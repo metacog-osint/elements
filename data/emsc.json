@@ -1,6 +1,20 @@
 {
  "records": [
   {
+   "id": "20261109_0000217",
+   "mag": 4.9,
+   "magtype": "mb",
+   "time": "2026-11-09T15:04:33Z",
+   "updated": "2026-11-09T15:23:23Z",
+   "region": "Mid-Indian Ridge",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -28.186,
+   "lon": 74.371,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261109_0000217"
+  },
+  {
    "id": "20261109_0000171",
    "mag": 4.7,
    "magtype": "mw",
@@ -1271,36 +1285,6 @@
    "lon": 26.513,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261102_0000220"
-  },
-  {
-   "id": "20261102_0000204",
-   "mag": 4.7,
-   "magtype": "mb",
-   "time": "2026-11-02T15:35:12Z",
-   "updated": "2026-11-03T07:44:28Z",
-   "region": "Xizang-Qinghai Border Region",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": 32.349,
-   "lon": 93.766,
-   "countries": [
-    "CN"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261102_0000204"
-  },
-  {
-   "id": "20261102_0000203",
-   "mag": 5.1,
-   "magtype": "mb",
-   "time": "2026-11-02T15:28:14Z",
-   "updated": "2026-11-03T07:44:07Z",
-   "region": "Near Coast Of Central Peru",
-   "depth_km": 70.0,
-   "authority": "EMSC",
-   "lat": -10.134,
-   "lon": -78.499,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261102_0000203"
   }
  ]
 }
