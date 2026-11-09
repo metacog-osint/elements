@@ -114,6 +114,27 @@
    ]
   },
   {
+   "id": "FL-1104276",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Portugal",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-07T01:00:00Z",
+   "to": "2026-11-09T01:00:00Z",
+   "current": true,
+   "country": "Portugal",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=1&eventtype=FL",
+   "lon": -16.89,
+   "lat": 32.647,
+   "countries": []
+  },
+  {
    "id": "TC-1001348",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -747,7 +768,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -759,9 +780,9 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL",
-   "lon": 15.378,
-   "lat": 41.69,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]
@@ -931,7 +952,7 @@
    "id": "FL-1103888",
    "type": "FL",
    "kind": "flood",
-   "episode": 119,
+   "episode": 113,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -943,9 +964,9 @@
    "current": true,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=119&eventtype=FL",
-   "lon": -108.19,
-   "lat": 36.928,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=113&eventtype=FL",
+   "lon": -108.305,
+   "lat": 36.476,
    "countries": [
     "US"
    ]
