@@ -470,170 +470,6 @@
    ]
   },
   {
-   "id": "KDVN.FL.W.0091.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Quad Cities IA IL",
-   "areas": [
-    "Benton, IA",
-    "Iowa, IA"
-   ],
-   "counties": [
-    "19011",
-    "19095"
-   ],
-   "sent": "2026-11-08T15:22:00Z",
-   "onset": "2026-11-08T15:22:00Z",
-   "ends": "2026-11-10T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59a9e684aab296160a491111bdae66764172e2d0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.3,
-       41.89
-      ],
-      [
-       -92.24,
-       41.87
-      ],
-      [
-       -92.2,
-       41.85
-      ],
-      [
-       -92.02,
-       41.81
-      ],
-      [
-       -91.9,
-       41.79
-      ],
-      [
-       -91.85,
-       41.81
-      ],
-      [
-       -91.83,
-       41.81
-      ],
-      [
-       -91.83,
-       41.77
-      ],
-      [
-       -91.98,
-       41.77
-      ],
-      [
-       -92.12,
-       41.81
-      ],
-      [
-       -92.13,
-       41.82
-      ],
-      [
-       -92.28,
-       41.84
-      ],
-      [
-       -92.3,
-       41.85
-      ],
-      [
-       -92.3,
-       41.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.0576,
-     42.0925
-    ],
-    [
-     -92.0591,
-     41.6839
-    ]
-   ],
-   "lon": -92.091,
-   "lat": 41.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCRP.FL.W.0028.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "Nueces, TX"
-   ],
-   "counties": [
-    "48355"
-   ],
-   "sent": "2026-11-08T18:00:00Z",
-   "onset": "2026-11-11T04:40:00Z",
-   "ends": "2026-11-12T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec75e47265cb1e79ec30a0ea3e2a57d37133caad.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.74,
-       27.78
-      ],
-      [
-       -97.69,
-       27.85
-      ],
-      [
-       -97.41,
-       27.71
-      ],
-      [
-       -97.36,
-       27.73
-      ],
-      [
-       -97.26,
-       27.69
-      ],
-      [
-       -97.37,
-       27.6
-      ],
-      [
-       -97.74,
-       27.78
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -97.5163,
-     27.74
-    ]
-   ],
-   "lon": -97.51,
-   "lat": 27.734,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -987,6 +823,170 @@
    ],
    "lon": -81.887,
    "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.FL.W.0028.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Nueces, TX"
+   ],
+   "counties": [
+    "48355"
+   ],
+   "sent": "2026-11-09T02:11:00Z",
+   "onset": "2026-11-09T13:12:00Z",
+   "ends": "2026-11-11T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06e3bc1cddebea0842f00846127e150c5fe3cacf.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -97.74,
+       27.78
+      ],
+      [
+       -97.69,
+       27.85
+      ],
+      [
+       -97.41,
+       27.71
+      ],
+      [
+       -97.36,
+       27.73
+      ],
+      [
+       -97.26,
+       27.69
+      ],
+      [
+       -97.37,
+       27.6
+      ],
+      [
+       -97.74,
+       27.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -97.5163,
+     27.74
+    ]
+   ],
+   "lon": -97.51,
+   "lat": 27.734,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.FL.W.0091.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Benton, IA",
+    "Iowa, IA"
+   ],
+   "counties": [
+    "19011",
+    "19095"
+   ],
+   "sent": "2026-11-09T02:32:00Z",
+   "onset": "2026-11-09T02:32:00Z",
+   "ends": "2026-11-10T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f09e43cacc6f4cfba8f24c7b3de8480d1beb9313.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.3,
+       41.89
+      ],
+      [
+       -92.24,
+       41.87
+      ],
+      [
+       -92.2,
+       41.85
+      ],
+      [
+       -92.02,
+       41.81
+      ],
+      [
+       -91.9,
+       41.79
+      ],
+      [
+       -91.85,
+       41.81
+      ],
+      [
+       -91.83,
+       41.81
+      ],
+      [
+       -91.83,
+       41.77
+      ],
+      [
+       -91.98,
+       41.77
+      ],
+      [
+       -92.12,
+       41.81
+      ],
+      [
+       -92.13,
+       41.82
+      ],
+      [
+       -92.28,
+       41.84
+      ],
+      [
+       -92.3,
+       41.85
+      ],
+      [
+       -92.3,
+       41.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.0576,
+     42.0925
+    ],
+    [
+     -92.0591,
+     41.6839
+    ]
+   ],
+   "lon": -92.091,
+   "lat": 41.827,
    "countries": [
     "US"
    ]
@@ -1778,60 +1778,6 @@
    ],
    "lon": -133.162,
    "lat": 55.683,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTFX.HW.W.0037.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "East Glacier Park Region",
-    "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
-   ],
-   "counties": [
-    "30035",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-09T00:59:00Z",
-   "onset": "2026-11-09T00:59:00Z",
-   "ends": "2026-11-09T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bdf37fe64451efb584f33165211bc885b2350f6.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -112.322,
-   "lat": 48.104,
    "countries": [
     "US"
    ]
@@ -2936,16 +2882,16 @@
    "certainty": "Observed",
    "sender": "NWS Juneau AK",
    "areas": [
-    "Cape Fairweather to Icy Cape out to 15 NM",
-    "Icy Cape to Cape Suckling out to 15 NM",
-    "Cape Spencer to Cape Fairweather from 15 to 85 NM",
     "Cape Spencer to Cape Fairweather out to 15 NM",
-    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
     "Cape Decision to Cape Edgecumbe out to 15 NM",
-    "Cape Fairweather to Icy Cape from 15 to 80 NM",
-    "Dixon Entrance to Cape Decision out to 15 NM",
+    "Icy Cape to Cape Suckling out to 15 NM",
     "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
-    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+    "Cape Fairweather to Icy Cape from 15 to 80 NM",
+    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM",
+    "Dixon Entrance to Cape Decision out to 15 NM",
+    "Cape Fairweather to Icy Cape out to 15 NM"
    ],
    "counties": [
     "58641",
@@ -2959,10 +2905,10 @@
     "58664",
     "58671"
    ],
-   "sent": "2026-11-09T00:27:00Z",
+   "sent": "2026-11-09T02:48:00Z",
    "onset": "2026-11-10T03:00:00Z",
    "ends": "2026-11-10T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7f54a7991522601e22a16a56374f724a4ffa711.001.5",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21f05589f2ef81159ca9c2e8caefdd5b9e114163.002.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2987,10 +2933,10 @@
     "58643",
     "58672"
    ],
-   "sent": "2026-11-09T00:27:00Z",
+   "sent": "2026-11-09T02:48:00Z",
    "onset": "2026-11-09T18:00:00Z",
    "ends": "2026-11-10T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7f54a7991522601e22a16a56374f724a4ffa711.003.4",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21f05589f2ef81159ca9c2e8caefdd5b9e114163.001.4",
    "geometry": null,
    "vtec": true,
    "points": [],
