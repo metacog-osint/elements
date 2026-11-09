@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000tx1f",
+   "mag": 5.7,
+   "place": "106 km ENE of Hasaki, Japan",
+   "time": "2026-11-09T04:52:51Z",
+   "updated": "2026-11-09T05:02:56Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 500,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
+   "depth_km": 24.2,
+   "lon": 141.83,
+   "lat": 36.247,
+   "countries": []
+  },
+  {
    "id": "us7000tx16",
    "mag": 6.4,
    "place": "30 km WSW of Lata, Solomon Islands",
@@ -32,17 +47,17 @@
   },
   {
    "id": "us7000tx0f",
-   "mag": 5.3,
+   "mag": 5.1,
    "place": "south of the Fiji Islands",
    "time": "2026-11-09T00:46:59Z",
-   "updated": "2026-11-09T01:03:16Z",
+   "updated": "2026-11-09T04:38:23Z",
    "alert": null,
    "tsunami": false,
-   "sig": 432,
+   "sig": 400,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0f",
-   "depth_km": 538.4,
-   "lon": 179.105,
-   "lat": -23.627,
+   "depth_km": 535.5,
+   "lon": 179.212,
+   "lat": -23.677,
    "countries": []
   },
   {
@@ -1223,21 +1238,6 @@
    "depth_km": 87.9,
    "lon": 154.088,
    "lat": -5.563,
-   "countries": []
-  },
-  {
-   "id": "us7000tutv",
-   "mag": 4.6,
-   "place": "201 km NE of Kuril’sk, Russia",
-   "time": "2026-11-02T04:45:48Z",
-   "updated": "2026-11-02T05:11:20Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tutv",
-   "depth_km": 10.0,
-   "lon": 149.579,
-   "lat": 46.602,
    "countries": []
   }
  ]
