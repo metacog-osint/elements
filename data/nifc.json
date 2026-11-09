@@ -197,6 +197,20 @@
    "lat": 30.4953
   },
   {
+   "id": "{00E9A0D0-6F9B-4D5C-A70D-CA175233C444}",
+   "name": "Jones",
+   "acres": 1459.0,
+   "contained": 0,
+   "discovered": "2026-06-27T09:32:00Z",
+   "updated": "2026-11-09T16:49:38Z",
+   "state": "UT",
+   "county": "Grand",
+   "cause": "Natural",
+   "complexity": "Type 4 Incident",
+   "lon": -109.0738,
+   "lat": 39.0712
+  },
+  {
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
    "name": "Wild River",
    "acres": 821.0,
@@ -547,6 +561,20 @@
    "lat": 45.3608
   },
   {
+   "id": "{9952CEF1-6171-4523-89A5-590662F69CBE}",
+   "name": "Ash Lick Fork",
+   "acres": 10.0,
+   "contained": 0,
+   "discovered": "2026-11-09T12:59:00Z",
+   "updated": "2026-11-09T16:53:52Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.2168,
+   "lat": 37.4727
+  },
+  {
    "id": "{753A0715-EC89-4A91-B0D4-3101308D8622}",
    "name": "LON - Mill Creek",
    "acres": 6.3,
@@ -601,20 +629,6 @@
    "complexity": null,
    "lon": -122.5958,
    "lat": 41.6133
-  },
-  {
-   "id": "{1903CB4F-950D-4EAA-9D4E-1182BB592D22}",
-   "name": "Mark Ridge Road",
-   "acres": 1.0,
-   "contained": 100,
-   "discovered": "2026-10-30T21:17:00Z",
-   "updated": "2026-11-06T16:38:55Z",
-   "state": "KY",
-   "county": "Breckinridge",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -86.3166,
-   "lat": 37.7338
   },
   {
    "id": "{AA20C1BE-27B6-4470-815D-BD07AD9A00F4}",
@@ -699,6 +713,20 @@
    "complexity": null,
    "lon": -81.7155,
    "lat": 29.1179
+  },
+  {
+   "id": "{C53C9C74-D1E5-4012-8995-1DC3D72CC922}",
+   "name": "Hwy 53 Substation",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-05-25T00:55:00Z",
+   "updated": "2026-11-09T16:56:10Z",
+   "state": "MN",
+   "county": "St. Louis",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -92.5639,
+   "lat": 47.525
   },
   {
    "id": "{5FDDDCB5-5F69-485F-9FAB-93A81D28E6F7}",
@@ -881,20 +909,6 @@
    "complexity": null,
    "lon": -89.9334,
    "lat": 43.8223
-  },
-  {
-   "id": "{4B115178-1EFF-49A0-87A4-E3B7BBBE70B8}",
-   "name": "Oso",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-09T16:09:31Z",
-   "updated": "2026-11-09T16:33:07Z",
-   "state": "CA",
-   "county": "El Dorado",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.7432,
-   "lat": 38.9308
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1448,7 +1462,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-08T23:07:04Z",
-   "updated": "2026-11-08T23:11:43Z",
+   "updated": "2026-11-09T16:53:22Z",
    "state": "CA",
    "county": "Los Angeles",
    "cause": "Undetermined",
