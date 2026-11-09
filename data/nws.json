@@ -32,6 +32,143 @@
    ]
   },
   {
+   "id": "TJSJ.FF.W.0041.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Aguas Buenas, PR",
+    "Caguas, PR",
+    "Guaynabo, PR",
+    "San Juan, PR",
+    "Trujillo Alto, PR"
+   ],
+   "counties": [
+    "72007",
+    "72025",
+    "72061",
+    "72127",
+    "72139"
+   ],
+   "sent": "2026-11-09T19:27:00Z",
+   "onset": "2026-11-09T19:27:00Z",
+   "ends": "2026-11-09T21:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5b6de696b58552f0d69a49491a8acc123546495.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -66.15,
+       18.28
+      ],
+      [
+       -66.14,
+       18.28
+      ],
+      [
+       -66.14,
+       18.31
+      ],
+      [
+       -66.13,
+       18.31
+      ],
+      [
+       -66.14,
+       18.32
+      ],
+      [
+       -66.14,
+       18.33
+      ],
+      [
+       -66.13,
+       18.34
+      ],
+      [
+       -66.14,
+       18.36
+      ],
+      [
+       -66.1,
+       18.4
+      ],
+      [
+       -66.02,
+       18.39
+      ],
+      [
+       -66.01,
+       18.31
+      ],
+      [
+       -66.03,
+       18.3
+      ],
+      [
+       -66.03,
+       18.29
+      ],
+      [
+       -66.01,
+       18.28
+      ],
+      [
+       -66.01,
+       18.24
+      ],
+      [
+       -66.04,
+       18.22
+      ],
+      [
+       -66.1,
+       18.23
+      ],
+      [
+       -66.15,
+       18.26
+      ],
+      [
+       -66.15,
+       18.28
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -66.1285,
+     18.2565
+    ],
+    [
+     -66.051,
+     18.2111
+    ],
+    [
+     -66.1141,
+     18.3444
+    ],
+    [
+     -66.0691,
+     18.4222
+    ],
+    [
+     -66.0038,
+     18.3354
+    ]
+   ],
+   "lon": -66.093,
+   "lat": 18.302,
+   "countries": [
+    "PR"
+   ]
+  },
+  {
    "id": "KTBW.FL.W.0015.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -655,6 +792,71 @@
    ]
   },
   {
+   "id": "KEWX.FL.W.0062.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Llano, TX"
+   ],
+   "counties": [
+    "48299"
+   ],
+   "sent": "2026-11-09T19:13:00Z",
+   "onset": "2026-11-10T06:40:00Z",
+   "ends": "2026-11-11T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a61b93708ec2a3e7684e863eec56c1de7d96ddd.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.96,
+       30.67
+      ],
+      [
+       -98.96,
+       30.75
+      ],
+      [
+       -98.52,
+       30.79
+      ],
+      [
+       -98.24,
+       30.58
+      ],
+      [
+       -98.29,
+       30.49
+      ],
+      [
+       -98.55,
+       30.66
+      ],
+      [
+       -98.96,
+       30.67
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.6847,
+     30.7076
+    ]
+   ],
+   "lon": -98.64,
+   "lat": 30.659,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.3559.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1149,22 +1351,22 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.3176.2026",
+   "id": "PAFG.UP.W.3173.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "Cape Thompson to Cape Beaufort from 15 to 85 NM"
+    "Flaxman Island to Demarcation Point out to 15 NM"
    ],
    "counties": [
-    "58857"
+    "58815"
    ],
    "sent": "2026-11-09T12:45:00Z",
    "onset": "2026-11-09T12:00:00Z",
    "ends": "2026-11-10T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6a3e6ec427cd6d6fb1a8f8ae250694e03187e31.006.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6a3e6ec427cd6d6fb1a8f8ae250694e03187e31.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1201,22 +1403,22 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.3173.2026",
+   "id": "PAFG.UP.W.3176.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
+    "Cape Thompson to Cape Beaufort from 15 to 85 NM"
    ],
    "counties": [
-    "58815"
+    "58857"
    ],
    "sent": "2026-11-09T12:45:00Z",
    "onset": "2026-11-09T12:00:00Z",
    "ends": "2026-11-10T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6a3e6ec427cd6d6fb1a8f8ae250694e03187e31.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6a3e6ec427cd6d6fb1a8f8ae250694e03187e31.006.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2558,32 +2760,6 @@
    ]
   },
   {
-   "id": "PAJK.SR.W.1962.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58311"
-   ],
-   "sent": "2026-11-09T13:28:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.740756c4273988fb4de6e6bdc87e5e5112690d12.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAJK.SR.W.1963.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2600,6 +2776,32 @@
    "onset": "2026-11-09T14:00:00Z",
    "ends": "2026-11-10T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.740756c4273988fb4de6e6bdc87e5e5112690d12.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.1962.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
+   ],
+   "counties": [
+    "58311"
+   ],
+   "sent": "2026-11-09T13:28:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.740756c4273988fb4de6e6bdc87e5e5112690d12.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
