@@ -566,13 +566,13 @@
    "acres": 6.5,
    "contained": null,
    "discovered": "2026-11-08T22:25:49Z",
-   "updated": "2026-11-09T00:47:02Z",
+   "updated": "2026-11-09T01:57:55Z",
    "state": "CA",
    "county": "Calaveras",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -120.3718,
-   "lat": 38.2792
+   "lon": -120.37,
+   "lat": 38.2769
   },
   {
    "id": "{753A0715-EC89-4A91-B0D4-3101308D8622}",
@@ -671,20 +671,6 @@
    "complexity": null,
    "lon": -92.1731,
    "lat": 33.3502
-  },
-  {
-   "id": "{39146EDB-EB06-4BE3-B01A-FE4120A2F82C}",
-   "name": "Highway 36",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-08T23:33:00Z",
-   "updated": "2026-11-09T00:36:13Z",
-   "state": "KY",
-   "county": "Bath",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6917,
-   "lat": 38.0821
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -1441,6 +1427,34 @@
    "complexity": null,
    "lon": -118.1123,
    "lat": 34.7188
+  },
+  {
+   "id": "{CBA42755-B366-4D1C-81F8-904A5641268F}",
+   "name": "Glen",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T01:31:20Z",
+   "updated": "2026-11-09T01:32:33Z",
+   "state": "CA",
+   "county": "Yuba",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.2814,
+   "lat": 39.4467
+  },
+  {
+   "id": "{FF783207-ACCB-4B73-BC52-553969B7C3E9}",
+   "name": "Lac-404865",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T01:37:08Z",
+   "updated": "2026-11-09T01:37:31Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1342,
+   "lat": 34.6829
   }
  ]
 }
