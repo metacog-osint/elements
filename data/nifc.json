@@ -645,34 +645,6 @@
    "lat": 33.3502
   },
   {
-   "id": "{C298910C-6A35-4927-B238-4788B4D88F33}",
-   "name": "Polk 176",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-09T14:50:10Z",
-   "updated": "2026-11-09T15:16:06Z",
-   "state": "AR",
-   "county": "Polk",
-   "cause": null,
-   "complexity": null,
-   "lon": -94.3068,
-   "lat": 34.3941
-  },
-  {
-   "id": "{C46BC4AA-AE5C-48E4-8E9B-49D67266F8A2}",
-   "name": "Sizemore Mountain",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-09T15:05:00Z",
-   "updated": "2026-11-09T15:08:26Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.7785,
-   "lat": 37.4421
-  },
-  {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
    "name": "Sugarloaf",
    "acres": 0.5,
@@ -727,6 +699,62 @@
    "complexity": null,
    "lon": -92.5639,
    "lat": 47.525
+  },
+  {
+   "id": "{E2D3836F-3780-49DA-A3E8-4552595D81DC}",
+   "name": "Transformer",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-05-28T03:00:00Z",
+   "updated": "2026-11-09T17:01:59Z",
+   "state": "MN",
+   "county": "Itasca",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -93.7657,
+   "lat": 47.3269
+  },
+  {
+   "id": "{8A8489EB-81A0-43B1-B091-DB3C69CECC44}",
+   "name": "Mesabi",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-06-03T17:11:51Z",
+   "updated": "2026-11-09T17:05:56Z",
+   "state": "MN",
+   "county": "Itasca",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.2468,
+   "lat": 47.363
+  },
+  {
+   "id": "{390693B4-ECB8-4FCD-AE88-0856546D6FBE}",
+   "name": "South Shore Drive",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-07-12T17:30:26Z",
+   "updated": "2026-11-09T17:16:01Z",
+   "state": "MN",
+   "county": "Cook",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.3954,
+   "lat": 47.819
+  },
+  {
+   "id": "{A601A560-FBFA-413C-BF2A-931715B759E4}",
+   "name": "Poplar Lake",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-07-14T22:37:13Z",
+   "updated": "2026-11-09T17:19:14Z",
+   "state": "MN",
+   "county": "Cook",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -90.5322,
+   "lat": 48.0538
   },
   {
    "id": "{5FDDDCB5-5F69-485F-9FAB-93A81D28E6F7}",
@@ -911,6 +939,20 @@
    "lat": 43.8223
   },
   {
+   "id": "{B5921DEA-CBAE-48C6-AE0C-635E8B68CDBA}",
+   "name": "Lazy",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-08T17:45:17Z",
+   "updated": "2026-11-09T17:09:47Z",
+   "state": "ND",
+   "county": "Sioux",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -100.6363,
+   "lat": 46.0956
+  },
+  {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
    "name": "Field",
    "acres": 0.0,
@@ -923,6 +965,20 @@
    "complexity": null,
    "lon": -119.042,
    "lat": 35.4926
+  },
+  {
+   "id": "{4406F18E-0F76-4002-AD8E-9CF5D0BBED6A}",
+   "name": "Black Mesa Trail OK",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-05-16T18:00:00Z",
+   "updated": "2026-11-09T17:19:59Z",
+   "state": "OK",
+   "county": "Cimarron",
+   "cause": null,
+   "complexity": null,
+   "lon": -103.0017,
+   "lat": 36.9718
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
@@ -1161,6 +1217,20 @@
    "complexity": null,
    "lon": -118.358,
    "lat": 34.295
+  },
+  {
+   "id": "{BA22BE3F-5DA8-4D39-92B1-FADEBECD3AC2}",
+   "name": "Mile Rock 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T12:45:26Z",
+   "updated": "2026-11-09T17:24:49Z",
+   "state": "CA",
+   "county": "San Francisco",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -122.5066,
+   "lat": 37.7868
   },
   {
    "id": "{351755B9-FE34-470F-B05E-42CA55A2CC12}",
@@ -1441,6 +1511,20 @@
    "complexity": null,
    "lon": -118.1426,
    "lat": 33.877
+  },
+  {
+   "id": "{A808C855-A3CA-4454-9477-28947E88272D}",
+   "name": "Kidder",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T19:01:50Z",
+   "updated": "2026-11-09T17:14:43Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.9606,
+   "lat": 41.5327
   },
   {
    "id": "{A8B1AF14-139E-4F7E-AB69-765991160579}",
