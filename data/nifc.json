@@ -202,7 +202,7 @@
    "acres": 1459.0,
    "contained": 0,
    "discovered": "2026-06-27T09:32:00Z",
-   "updated": "2026-11-09T16:49:38Z",
+   "updated": "2026-11-09T18:28:16Z",
    "state": "UT",
    "county": "Grand",
    "cause": "Natural",
@@ -440,7 +440,7 @@
    "acres": 45.0,
    "contained": 10,
    "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-09T15:13:32Z",
+   "updated": "2026-11-09T18:01:05Z",
    "state": "TN",
    "county": "Campbell",
    "cause": "Undetermined",
@@ -629,20 +629,6 @@
    "complexity": null,
    "lon": -122.5958,
    "lat": 41.6133
-  },
-  {
-   "id": "{AA20C1BE-27B6-4470-815D-BD07AD9A00F4}",
-   "name": "Bradley 357",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-07T22:02:05Z",
-   "updated": "2026-11-07T22:07:35Z",
-   "state": "AR",
-   "county": "Bradley",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.1731,
-   "lat": 33.3502
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -925,6 +911,20 @@
    "lat": 42.5881
   },
   {
+   "id": "{12DEB9E3-DAC3-491C-A38F-75DF0FCA439E}",
+   "name": "Flora Pit",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-07T19:00:00Z",
+   "updated": "2026-11-09T18:16:00Z",
+   "state": "WA",
+   "county": "Spokane",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -117.1818,
+   "lat": 47.6758
+  },
+  {
    "id": "{4643A88A-5303-4AC8-9869-4E45D05DAACF}",
    "name": "Bucks",
    "acres": 0.1,
@@ -1007,6 +1007,20 @@
    "complexity": null,
    "lon": -117.3691,
    "lat": 38.7159
+  },
+  {
+   "id": "{0AFDD9C2-1033-4F8C-A6E1-D85B81338592}",
+   "name": "East Meadow",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T17:52:19Z",
+   "updated": "2026-11-09T18:06:10Z",
+   "state": "CA",
+   "county": "Sierra",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.5323,
+   "lat": 39.4931
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1665,20 +1679,6 @@
    "complexity": null,
    "lon": -117.7651,
    "lat": 34.4695
-  },
-  {
-   "id": "{54AF1B8D-9FF9-46C7-A73A-5538C82FB803}",
-   "name": "South",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-09T17:58:53Z",
-   "updated": "2026-11-09T18:00:30Z",
-   "state": "CA",
-   "county": "El Dorado",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.5166,
-   "lat": 38.6442
   }
  ]
 }
