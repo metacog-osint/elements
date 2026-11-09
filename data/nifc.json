@@ -454,13 +454,13 @@
    "acres": 45.0,
    "contained": 10,
    "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-09T13:40:26Z",
+   "updated": "2026-11-09T15:13:32Z",
    "state": "TN",
    "county": "Campbell",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
    "lon": -84.2379,
-   "lat": 36.4969
+   "lat": 36.4466
   },
   {
    "id": "{4D678004-E2B3-442C-8D39-DBFFB2C96FCD}",
@@ -510,7 +510,7 @@
    "acres": 21.9,
    "contained": null,
    "discovered": "2026-10-06T17:00:00Z",
-   "updated": "2026-11-05T18:42:06Z",
+   "updated": "2026-11-09T15:04:40Z",
    "state": "WI",
    "county": "Ashland",
    "cause": "Human",
@@ -594,10 +594,10 @@
    "acres": 5.0,
    "contained": null,
    "discovered": "2026-11-07T23:46:31Z",
-   "updated": "2026-11-09T14:46:41Z",
+   "updated": "2026-11-09T15:03:08Z",
    "state": "OR",
    "county": "Union",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -118.6862,
    "lat": 45.344
@@ -643,6 +643,34 @@
    "complexity": null,
    "lon": -92.1731,
    "lat": 33.3502
+  },
+  {
+   "id": "{C298910C-6A35-4927-B238-4788B4D88F33}",
+   "name": "Polk 176",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-09T14:50:10Z",
+   "updated": "2026-11-09T15:16:06Z",
+   "state": "AR",
+   "county": "Polk",
+   "cause": null,
+   "complexity": null,
+   "lon": -94.3068,
+   "lat": 34.3941
+  },
+  {
+   "id": "{C46BC4AA-AE5C-48E4-8E9B-49D67266F8A2}",
+   "name": "Sizemore Mountain",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-09T15:05:00Z",
+   "updated": "2026-11-09T15:08:26Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.7785,
+   "lat": 37.4421
   },
   {
    "id": "{72964B73-E35E-47DD-897A-7D2D4D7637D0}",
@@ -713,6 +741,20 @@
    "complexity": null,
    "lon": -117.8686,
    "lat": 35.7055
+  },
+  {
+   "id": "{8FD9149A-4A7A-4934-807A-45C6873DF416}",
+   "name": "Island Lake",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-10-20T21:00:00Z",
+   "updated": "2026-11-09T15:06:03Z",
+   "state": "WI",
+   "county": "Rusk",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -91.3985,
+   "lat": 45.3139
   },
   {
    "id": "{74FA7FBB-8B06-4B70-BBF6-0B3F089BD860}",
@@ -839,20 +881,6 @@
    "complexity": null,
    "lon": -79.422,
    "lat": 38.845
-  },
-  {
-   "id": "{450E80EE-A20E-4507-B23B-B22034077902}",
-   "name": "Long Run",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-08T18:30:00Z",
-   "updated": "2026-11-08T22:23:19Z",
-   "state": "OH",
-   "county": "Hocking",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.1805,
-   "lat": 39.4835
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
