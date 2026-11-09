@@ -91,6 +91,29 @@
    ]
   },
   {
+   "id": "FL-1104275",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Venezuela",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-07T01:00:00Z",
+   "to": "2026-11-09T01:00:00Z",
+   "current": true,
+   "country": "Venezuela",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104275&episodeid=1&eventtype=FL",
+   "lon": -67.919,
+   "lat": 10.176,
+   "countries": [
+    "VE"
+   ]
+  },
+  {
    "id": "TC-1001348",
    "type": "TC",
    "kind": "tropical cyclone",

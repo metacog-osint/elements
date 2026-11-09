@@ -523,75 +523,6 @@
    ]
   },
   {
-   "id": "KPSR.FA.W.0042.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ"
-   ],
-   "counties": [
-    "04013"
-   ],
-   "sent": "2026-11-09T06:42:00Z",
-   "onset": "2026-11-09T06:42:00Z",
-   "ends": "2026-11-09T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8715d9d56514af829d46df662033b3bd86e07443.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.67,
-       33.51
-      ],
-      [
-       -111.69,
-       33.51
-      ],
-      [
-       -111.69,
-       33.52
-      ],
-      [
-       -111.68,
-       33.53
-      ],
-      [
-       -111.67,
-       33.55
-      ],
-      [
-       -111.65,
-       33.55
-      ],
-      [
-       -111.65,
-       33.54
-      ],
-      [
-       -111.67,
-       33.51
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ]
-   ],
-   "lon": -111.671,
-   "lat": 33.527,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0041.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -708,6 +639,75 @@
    ],
    "lon": -112.666,
    "lat": 33.207,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0042.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ"
+   ],
+   "counties": [
+    "04013"
+   ],
+   "sent": "2026-11-09T06:42:00Z",
+   "onset": "2026-11-09T06:42:00Z",
+   "ends": "2026-11-09T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8715d9d56514af829d46df662033b3bd86e07443.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.67,
+       33.51
+      ],
+      [
+       -111.69,
+       33.51
+      ],
+      [
+       -111.69,
+       33.52
+      ],
+      [
+       -111.68,
+       33.53
+      ],
+      [
+       -111.67,
+       33.55
+      ],
+      [
+       -111.65,
+       33.55
+      ],
+      [
+       -111.65,
+       33.54
+      ],
+      [
+       -111.67,
+       33.51
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ]
+   ],
+   "lon": -111.671,
+   "lat": 33.527,
    "countries": [
     "US"
    ]
