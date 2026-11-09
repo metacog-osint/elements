@@ -197,20 +197,6 @@
    "lat": 30.4953
   },
   {
-   "id": "{00E9A0D0-6F9B-4D5C-A70D-CA175233C444}",
-   "name": "Jones",
-   "acres": 1459.0,
-   "contained": 0,
-   "discovered": "2026-06-27T09:32:00Z",
-   "updated": "2026-11-09T18:28:16Z",
-   "state": "UT",
-   "county": "Grand",
-   "cause": "Natural",
-   "complexity": "Type 4 Incident",
-   "lon": -109.0738,
-   "lat": 39.0712
-  },
-  {
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
    "name": "Wild River",
    "acres": 821.0,
@@ -365,6 +351,20 @@
    "lat": 47.2932
   },
   {
+   "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
+   "name": "Campbell - Glassman Way",
+   "acres": 115.0,
+   "contained": 40,
+   "discovered": "2026-11-08T21:52:22Z",
+   "updated": "2026-11-09T19:13:52Z",
+   "state": "TN",
+   "county": "Campbell",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.2379,
+   "lat": 36.4466
+  },
+  {
    "id": "{37A21A77-B905-40D5-A951-78029EF4D29D}",
    "name": "Hewitt Lane Fire",
    "acres": 109.0,
@@ -433,20 +433,6 @@
    "complexity": null,
    "lon": -67.0033,
    "lat": 18.017
-  },
-  {
-   "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
-   "name": "Campbell - Glassman Way",
-   "acres": 45.0,
-   "contained": 10,
-   "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-09T18:01:05Z",
-   "state": "TN",
-   "county": "Campbell",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.2379,
-   "lat": 36.4466
   },
   {
    "id": "{4D678004-E2B3-442C-8D39-DBFFB2C96FCD}",
@@ -575,20 +561,6 @@
    "lat": 37.4727
   },
   {
-   "id": "{753A0715-EC89-4A91-B0D4-3101308D8622}",
-   "name": "LON - Mill Creek",
-   "acres": 6.3,
-   "contained": null,
-   "discovered": "2026-11-08T20:14:33Z",
-   "updated": "2026-11-09T16:25:21Z",
-   "state": "KY",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -83.9903,
-   "lat": 37.3844
-  },
-  {
    "id": "{516FCDD1-F16E-42EC-9003-4BDD0661E2C8}",
    "name": "Rock Lake",
    "acres": 5.0,
@@ -617,6 +589,34 @@
    "lat": 45.344
   },
   {
+   "id": "{AF4A6D5E-C38E-4C7F-BB57-621013549BC9}",
+   "name": "Corn",
+   "acres": 1.8,
+   "contained": null,
+   "discovered": "2026-10-22T19:00:00Z",
+   "updated": "2026-11-09T19:13:33Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.6601,
+   "lat": 45.7163
+  },
+  {
+   "id": "{DD402E58-3B57-4DF0-90C4-A0CBD5DE05AA}",
+   "name": "Springbrook",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-10-16T01:00:00Z",
+   "updated": "2026-11-09T19:04:59Z",
+   "state": "WI",
+   "county": "Marathon",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -89.2341,
+   "lat": 45.0997
+  },
+  {
    "id": "{70AEE76D-831F-46B0-B921-35E1B99E4BDB}",
    "name": "Guys",
    "acres": 1.3,
@@ -629,6 +629,20 @@
    "complexity": null,
    "lon": -122.5958,
    "lat": 41.6133
+  },
+  {
+   "id": "{80D21FFC-6637-41A7-8210-528778F963E6}",
+   "name": "Birch",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-10-10T18:56:00Z",
+   "updated": "2026-11-09T19:31:06Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.3892,
+   "lat": 45.9343
   },
   {
    "id": "{971FAF5C-56EE-48A4-8F74-8051205F1D6E}",
@@ -1000,13 +1014,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-08T18:55:29Z",
-   "updated": "2026-11-09T17:56:06Z",
+   "updated": "2026-11-09T19:02:57Z",
    "state": "NV",
    "county": "Nye",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -117.3691,
-   "lat": 38.7159
+   "lon": -117.3876,
+   "lat": 38.7622
   },
   {
    "id": "{0AFDD9C2-1033-4F8C-A6E1-D85B81338592}",
@@ -1021,6 +1035,20 @@
    "complexity": null,
    "lon": -120.5323,
    "lat": 39.4931
+  },
+  {
+   "id": "{26DF8D87-4FCC-4067-88CB-D0316A61E448}",
+   "name": "Adams Key",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T19:24:19Z",
+   "updated": "2026-11-09T19:30:19Z",
+   "state": "FL",
+   "county": "Miami-Dade",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -80.2341,
+   "lat": 25.3979
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1147,6 +1175,20 @@
    "complexity": null,
    "lon": -119.05,
    "lat": 35.48
+  },
+  {
+   "id": "{3FF73312-74D5-48DE-B090-099DD8FC59E1}",
+   "name": "South Shore",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-21T20:30:00Z",
+   "updated": "2026-11-09T19:02:22Z",
+   "state": "WI",
+   "county": "Oconto",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.4435,
+   "lat": 45.1158
   },
   {
    "id": "{C4D5D680-2D9A-4D9E-A343-6D674DCD815E}",
