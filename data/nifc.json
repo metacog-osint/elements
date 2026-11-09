@@ -519,6 +519,20 @@
    "lat": 46.3074
   },
   {
+   "id": "{5D0C1958-59C9-4C6F-A16E-2CD5D6D117F8}",
+   "name": "Rickett Hollow",
+   "acres": 20.0,
+   "contained": 0,
+   "discovered": "2026-11-09T20:47:00Z",
+   "updated": "2026-11-09T23:30:44Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.0476,
+   "lat": 36.6976
+  },
+  {
    "id": "{12710FCE-D5BD-47F0-99C6-200375386775}",
    "name": "IUA Forty Eight Range 2 ZH 1",
    "acres": 15.0,
@@ -578,9 +592,9 @@
    "id": "{9952CEF1-6171-4523-89A5-590662F69CBE}",
    "name": "Ash Lick Fork",
    "acres": 10.0,
-   "contained": 50,
+   "contained": 100,
    "discovered": "2026-11-09T12:59:00Z",
-   "updated": "2026-11-09T21:03:02Z",
+   "updated": "2026-11-09T23:11:42Z",
    "state": "KY",
    "county": "Pike",
    "cause": "Undetermined",
@@ -771,6 +785,20 @@
    "lat": 45.5571
   },
   {
+   "id": "{142C6905-24BA-46A9-93C5-AA944CF732B4}",
+   "name": "Bluch",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-09T19:33:15Z",
+   "updated": "2026-11-09T23:22:45Z",
+   "state": "OR",
+   "county": "Union",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.6907,
+   "lat": 45.4026
+  },
+  {
    "id": "{0AC089C1-52EB-45C7-BADA-31790A389C64}",
    "name": "Hill",
    "acres": 0.3,
@@ -790,13 +818,13 @@
    "acres": 0.3,
    "contained": null,
    "discovered": "2026-11-09T21:42:05Z",
-   "updated": "2026-11-09T22:37:13Z",
+   "updated": "2026-11-09T23:04:20Z",
    "state": "CA",
    "county": "Lassen",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -121.0401,
-   "lat": 40.3039
+   "lon": -121.0329,
+   "lat": 40.3086
   },
   {
    "id": "{9E4A604F-271D-447F-90DE-3567D103AB82}",
@@ -1189,6 +1217,34 @@
    "complexity": "Type 5 Incident",
    "lon": -84.4027,
    "lat": 30.032
+  },
+  {
+   "id": "{3E138EAF-6DDA-47D5-94CF-E96F7FEA696B}",
+   "name": "Moonrise",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T21:24:35Z",
+   "updated": "2026-11-09T23:23:10Z",
+   "state": "OR",
+   "county": "Union",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.6986,
+   "lat": 45.3813
+  },
+  {
+   "id": "{DF8A6FCC-1480-4638-A093-3EFFE58E9378}",
+   "name": "Wee Lambie",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T23:09:34Z",
+   "updated": "2026-11-09T23:15:21Z",
+   "state": "OR",
+   "county": "Morrow",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.3652,
+   "lat": 45.1207
   },
   {
    "id": "{4406F18E-0F76-4002-AD8E-9CF5D0BBED6A}",
@@ -1836,11 +1892,11 @@
   },
   {
    "id": "{4E5B3F30-A12B-4BBC-A165-4CB10B1B19CA}",
-   "name": "Sdu/Rainbow6",
+   "name": "Mtz/Sdu/Rainbow6",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-09T20:26:34Z",
-   "updated": "2026-11-09T21:49:43Z",
+   "updated": "2026-11-09T23:22:51Z",
    "state": "CA",
    "county": "San Diego",
    "cause": "Undetermined",
@@ -1875,6 +1931,34 @@
    "complexity": null,
    "lon": -117.7567,
    "lat": 35.423
+  },
+  {
+   "id": "{DB43389A-9A5F-4A94-B026-EE22C07E4E24}",
+   "name": "Lac-406080",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T23:11:05Z",
+   "updated": "2026-11-09T23:11:27Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1299,
+   "lat": 34.6311
+  },
+  {
+   "id": "{D877DD8C-04F2-4F02-B11A-35ED69D5E83C}",
+   "name": "Sylva",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T23:28:53Z",
+   "updated": "2026-11-09T23:31:02Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.3609,
+   "lat": 41.7935
   }
  ]
 }
