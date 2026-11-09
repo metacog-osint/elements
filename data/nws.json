@@ -2573,72 +2573,6 @@
    ]
   },
   {
-   "id": "PAJK.SR.W.0019.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision from 15 to 90 NM",
-    "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
-    "Dixon Entrance to Cape Decision out to 15 NM",
-    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
-    "Cape Spencer to Cape Fairweather from 15 to 85 NM",
-    "Cape Fairweather to Icy Cape from 15 to 80 NM",
-    "Cape Decision to Cape Edgecumbe out to 15 NM"
-   ],
-   "counties": [
-    "58641",
-    "58642",
-    "58661",
-    "58662",
-    "58663",
-    "58664",
-    "58671"
-   ],
-   "sent": "2026-11-08T20:59:00Z",
-   "onset": "2026-11-09T09:00:00Z",
-   "ends": "2026-11-10T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.997ce5c723edca8c62e1f923165d8b44ca119547.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.0020.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Icy Cape to Cape Suckling from 15 to 80 NM",
-    "Cape Edgecumbe to Cape Spencer out to 15 NM"
-   ],
-   "counties": [
-    "58643",
-    "58672"
-   ],
-   "sent": "2026-11-08T20:59:00Z",
-   "onset": "2026-11-09T18:00:00Z",
-   "ends": "2026-11-10T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.997ce5c723edca8c62e1f923165d8b44ca119547.005.4",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.5100.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2837,6 +2771,442 @@
    "onset": "2026-11-09T14:00:00Z",
    "ends": "2026-11-10T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9f86b1873aac07241d6d5c1399d3d8f2aeaf51a.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.8777.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
+   ],
+   "counties": [
+    "58311"
+   ],
+   "sent": "2026-11-09T00:15:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7866f8fc293d07fc053c65a366f86d962d7177ae.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.8778.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Gulf of Alaska South of 57 Degrees North and East of 144 W"
+   ],
+   "counties": [
+    "58312"
+   ],
+   "sent": "2026-11-09T00:15:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7866f8fc293d07fc053c65a366f86d962d7177ae.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3641.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Edgecumbe to Cape Spencer out to 15 NM"
+   ],
+   "counties": [
+    "58643"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3640.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+   ],
+   "counties": [
+    "58662"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3639.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Decision to Cape Edgecumbe out to 15 NM"
+   ],
+   "counties": [
+    "58642"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3644.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
+   ],
+   "counties": [
+    "58664"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3638.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision from 15 to 90 NM"
+   ],
+   "counties": [
+    "58661"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T00:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3642.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
+   ],
+   "counties": [
+    "58663"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3646.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Fairweather to Icy Cape from 15 to 80 NM"
+   ],
+   "counties": [
+    "58671"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T02:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.011.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3648.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Icy Cape to Cape Suckling from 15 to 80 NM"
+   ],
+   "counties": [
+    "58672"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.013.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3647.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Icy Cape to Cape Suckling out to 15 NM"
+   ],
+   "counties": [
+    "58652"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.012.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3645.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Fairweather to Icy Cape out to 15 NM"
+   ],
+   "counties": [
+    "58651"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3643.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Spencer to Cape Fairweather out to 15 NM"
+   ],
+   "counties": [
+    "58644"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.3637.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Dixon Entrance to Cape Decision out to 15 NM"
+   ],
+   "counties": [
+    "58641"
+   ],
+   "sent": "2026-11-09T00:17:00Z",
+   "onset": "2026-11-09T14:00:00Z",
+   "ends": "2026-11-10T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0019.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Cape Fairweather to Icy Cape out to 15 NM",
+    "Icy Cape to Cape Suckling out to 15 NM",
+    "Cape Spencer to Cape Fairweather from 15 to 85 NM",
+    "Cape Spencer to Cape Fairweather out to 15 NM",
+    "Dixon Entrance to Cape Decision from 15 to 90 NM",
+    "Cape Decision to Cape Edgecumbe out to 15 NM",
+    "Cape Fairweather to Icy Cape from 15 to 80 NM",
+    "Dixon Entrance to Cape Decision out to 15 NM",
+    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
+    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
+   ],
+   "counties": [
+    "58641",
+    "58642",
+    "58644",
+    "58651",
+    "58652",
+    "58661",
+    "58662",
+    "58663",
+    "58664",
+    "58671"
+   ],
+   "sent": "2026-11-09T00:27:00Z",
+   "onset": "2026-11-10T03:00:00Z",
+   "ends": "2026-11-10T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7f54a7991522601e22a16a56374f724a4ffa711.001.5",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAJK.SR.W.0020.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Juneau AK",
+   "areas": [
+    "Icy Cape to Cape Suckling from 15 to 80 NM",
+    "Cape Edgecumbe to Cape Spencer out to 15 NM"
+   ],
+   "counties": [
+    "58643",
+    "58672"
+   ],
+   "sent": "2026-11-09T00:27:00Z",
+   "onset": "2026-11-09T18:00:00Z",
+   "ends": "2026-11-10T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7f54a7991522601e22a16a56374f724a4ffa711.003.4",
    "geometry": null,
    "vtec": true,
    "points": [],
