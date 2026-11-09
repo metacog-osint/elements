@@ -518,52 +518,6 @@
    ]
   },
   {
-   "id": "FL-1104258",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Ireland",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-24T01:00:00Z",
-   "to": "2026-10-25T01:00:00Z",
-   "current": false,
-   "country": "Ireland",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104258&episodeid=1&eventtype=FL",
-   "lon": -7.952,
-   "lat": 54.921,
-   "countries": [
-    "IE"
-   ]
-  },
-  {
-   "id": "FL-1104247",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Islamic Republic of Iran",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-23T01:00:00Z",
-   "to": "2026-10-25T01:00:00Z",
-   "current": false,
-   "country": "Islamic Republic of Iran",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104247&episodeid=1&eventtype=FL",
-   "lon": 44.697,
-   "lat": 38.11,
-   "countries": [
-    "IR"
-   ]
-  },
-  {
    "id": "FL-1104250",
    "type": "FL",
    "kind": "flood",
@@ -673,27 +627,6 @@
    "countries": [
     "MY"
    ]
-  },
-  {
-   "id": "TC-1001338",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 46,
-   "name": "Tropical Cyclone CHAMPI-26",
-   "alert": "red",
-   "score": 3,
-   "latest_alert": "green",
-   "severity_value": 296.2944,
-   "severity_unit": "km/h",
-   "from": "2026-10-14T12:00:00Z",
-   "to": "2026-10-25T18:00:00Z",
-   "current": false,
-   "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
-   "severity": "Tropical Storm (maximum wind speed of 296 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC",
-   "lon": 127.4,
-   "lat": 31.2,
-   "countries": []
   },
   {
    "id": "FL-1104220",
