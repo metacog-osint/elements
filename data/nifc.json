@@ -158,9 +158,9 @@
    "id": "{DC4342D9-B479-44F1-906C-8ABD42E1F59C}",
    "name": "Sisi",
    "acres": 4816.0,
-   "contained": 65,
+   "contained": 75,
    "discovered": "2026-08-14T18:03:23Z",
-   "updated": "2026-11-08T01:48:33Z",
+   "updated": "2026-11-09T16:00:23Z",
    "state": "WA",
    "county": "Chelan",
    "cause": "Natural",
@@ -337,20 +337,6 @@
    "lat": 46.1356
   },
   {
-   "id": "{F730DA34-5687-4805-8559-1020D03E52B0}",
-   "name": "CR 99 Mingo",
-   "acres": 176.0,
-   "contained": 100,
-   "discovered": "2026-10-26T16:00:00Z",
-   "updated": "2026-10-27T20:07:32Z",
-   "state": "MS",
-   "county": "Tishomingo",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -88.1567,
-   "lat": 34.645
-  },
-  {
    "id": "{8601A0E4-089B-4B9A-8088-6E9BD7EA1309}",
    "name": "Black Rock 2",
    "acres": 160.0,
@@ -433,20 +419,6 @@
    "complexity": null,
    "lon": -67.0033,
    "lat": 18.017
-  },
-  {
-   "id": "{406734A4-BE3E-48FB-B5FD-227C8318A12B}",
-   "name": "Green",
-   "acres": 55.0,
-   "contained": null,
-   "discovered": "2026-07-28T00:42:00Z",
-   "updated": "2026-11-01T15:45:11Z",
-   "state": "CA",
-   "county": "San Bernardino",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.0233,
-   "lat": 34.0994
   },
   {
    "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
@@ -587,6 +559,20 @@
    "complexity": "Type 4 Incident",
    "lon": -83.9903,
    "lat": 37.3844
+  },
+  {
+   "id": "{516FCDD1-F16E-42EC-9003-4BDD0661E2C8}",
+   "name": "Rock Lake",
+   "acres": 5.0,
+   "contained": null,
+   "discovered": "2026-05-14T00:12:00Z",
+   "updated": "2026-11-09T15:56:48Z",
+   "state": "MN",
+   "county": "Aitkin",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.3998,
+   "lat": 46.6227
   },
   {
    "id": "{FFD1AEBF-97A4-4EDB-9353-B8C354257F18}",
@@ -825,20 +811,6 @@
    "complexity": null,
    "lon": -117.9013,
    "lat": 35.9041
-  },
-  {
-   "id": "{3C0B1ECD-33D9-46E9-994B-81835F002031}",
-   "name": "Hwy24SBC",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-06T00:15:00Z",
-   "updated": "2026-11-06T15:15:48Z",
-   "state": "ND",
-   "county": "Sioux",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -100.6824,
-   "lat": 46.0868
   },
   {
    "id": "{D37431C9-C9B5-4D4F-8CDB-B237ED06FB6E}",
@@ -1483,6 +1455,20 @@
    "complexity": null,
    "lon": -117.8498,
    "lat": 34.0157
+  },
+  {
+   "id": "{8B5042BC-C3C5-4652-AD9C-0140A88B962F}",
+   "name": "Lac-405512",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T15:51:53Z",
+   "updated": "2026-11-09T15:52:21Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.135,
+   "lat": 34.6877
   }
  ]
 }
