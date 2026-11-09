@@ -729,34 +729,6 @@
    "lat": 46.1246
   },
   {
-   "id": "{5E173886-1DBE-4A4F-89D8-0713FF546257}",
-   "name": "89 Ford",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-03-19T23:00:00Z",
-   "updated": "2026-11-05T23:59:51Z",
-   "state": "NM",
-   "county": "Guadalupe",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -104.4068,
-   "lat": 35.0328
-  },
-  {
-   "id": "{5D95508D-C441-4E70-B379-FAB587595BF0}",
-   "name": "Olympia",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-07-05T04:15:00Z",
-   "updated": "2026-11-06T00:05:30Z",
-   "state": "NM",
-   "county": "San Miguel",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -105.2048,
-   "lat": 35.5671
-  },
-  {
    "id": "{E8976597-58D8-40C9-91D1-882EF99A5ADC}",
    "name": "Bombing Range 10",
    "acres": 0.2,
@@ -769,34 +741,6 @@
    "complexity": null,
    "lon": -81.7155,
    "lat": 29.1179
-  },
-  {
-   "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
-   "name": "Cold Wind",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-03-27T12:30:00Z",
-   "updated": "2026-11-06T00:01:10Z",
-   "state": "NM",
-   "county": "Quay",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -103.3365,
-   "lat": 34.9499
-  },
-  {
-   "id": "{1B79F877-BD71-4E33-BC5A-2F8E5EBCB30C}",
-   "name": "Sena",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-05-20T15:28:01Z",
-   "updated": "2026-11-06T00:04:04Z",
-   "state": "NM",
-   "county": "San Miguel",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -105.3929,
-   "lat": 35.2494
   },
   {
    "id": "{5FDDDCB5-5F69-485F-9FAB-93A81D28E6F7}",
@@ -944,7 +888,7 @@
    "acres": 0.1,
    "contained": 0,
    "discovered": "2026-11-08T20:59:00Z",
-   "updated": "2026-11-08T23:21:56Z",
+   "updated": "2026-11-09T00:01:06Z",
    "state": "TX",
    "county": "Rusk",
    "cause": "Undetermined",
@@ -1077,20 +1021,6 @@
    "complexity": null,
    "lon": -119.05,
    "lat": 35.48
-  },
-  {
-   "id": "{110CFC10-761F-4FF5-84D8-9608B8F8F45A}",
-   "name": "Ewe Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-05T22:39:00Z",
-   "updated": "2026-11-05T23:50:35Z",
-   "state": "OR",
-   "county": "Josephine",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.4561,
-   "lat": 42.479
   },
   {
    "id": "{B0908E47-15F1-43BA-AD0B-AE14444D19FD}",
@@ -1525,6 +1455,20 @@
    "complexity": null,
    "lon": -120.7004,
    "lat": 36.575
+  },
+  {
+   "id": "{CBF50DBB-F687-4F2F-B55D-E63CFE4BAD73}",
+   "name": "Glen",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T23:53:12Z",
+   "updated": "2026-11-08T23:54:01Z",
+   "state": "CA",
+   "county": "Solano",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.9966,
+   "lat": 38.4344
   }
  ]
 }
