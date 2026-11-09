@@ -43,20 +43,6 @@
    "lat": 45.707
   },
   {
-   "id": "{2ED6C776-D2C7-49E5-8004-27CEA40D5D79}",
-   "name": "Gold Mountain",
-   "acres": 39747.0,
-   "contained": 92,
-   "discovered": "2026-06-27T23:33:00Z",
-   "updated": "2026-10-27T17:22:10Z",
-   "state": "CO",
-   "county": "Ouray",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -107.6821,
-   "lat": 38.0516
-  },
-  {
    "id": "{55C74279-0C6B-4CF7-BF16-731E6A8FB5F9}",
    "name": "McCully",
    "acres": 13604.0,
@@ -125,6 +111,20 @@
    "complexity": "Type 4 Incident",
    "lon": -106.4403,
    "lat": 39.2336
+  },
+  {
+   "id": "{48A23460-97E0-47B3-BDA1-BE5B747A0B24}",
+   "name": "Elk",
+   "acres": 7257.0,
+   "contained": 90,
+   "discovered": "2026-07-09T15:46:12Z",
+   "updated": "2026-11-09T20:27:42Z",
+   "state": "CO",
+   "county": "Hinsdale",
+   "cause": "Natural",
+   "complexity": "Type 4 Incident",
+   "lon": -107.3548,
+   "lat": 38.1242
   },
   {
    "id": "{8C9CB7A0-936C-4A64-AAEF-67A10E597A66}",
@@ -659,6 +659,20 @@
    "lat": 45.9343
   },
   {
+   "id": "{F0EE7368-8F2F-463F-8B12-1DEB594DB253}",
+   "name": "Blacklick Branch Road",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-09T19:20:00Z",
+   "updated": "2026-11-09T20:26:41Z",
+   "state": "KY",
+   "county": "Bell",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.5516,
+   "lat": 36.7243
+  },
+  {
    "id": "{971FAF5C-56EE-48A4-8F74-8051205F1D6E}",
    "name": "Kelso",
    "acres": 0.5,
@@ -1051,20 +1065,6 @@
    "lat": 38.7622
   },
   {
-   "id": "{0AFDD9C2-1033-4F8C-A6E1-D85B81338592}",
-   "name": "East Meadow",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-09T17:52:19Z",
-   "updated": "2026-11-09T18:06:10Z",
-   "state": "CA",
-   "county": "Sierra",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.5323,
-   "lat": 39.4931
-  },
-  {
    "id": "{26DF8D87-4FCC-4067-88CB-D0316A61E448}",
    "name": "Adams Key",
    "acres": 0.1,
@@ -1077,6 +1077,20 @@
    "complexity": null,
    "lon": -80.2341,
    "lat": 25.3979
+  },
+  {
+   "id": "{C4F4D51C-546C-4E49-B6CF-E73DFB412DE9}",
+   "name": "Lake Avenue N 0549",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-09T20:21:00Z",
+   "updated": "2026-11-09T20:25:21Z",
+   "state": "FL",
+   "county": "Wakulla",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.4027,
+   "lat": 30.032
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1189,6 +1203,20 @@
    "complexity": null,
    "lon": -119.02,
    "lat": 35.4783
+  },
+  {
+   "id": "{D5B58A1E-0A52-4CB5-B484-889D46474AD6}",
+   "name": "Blake",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-09-21T15:53:15Z",
+   "updated": "2026-11-09T20:10:22Z",
+   "state": "IL",
+   "county": "Williamson",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -89.1075,
+   "lat": 37.7343
   },
   {
    "id": "{0619F74B-6F31-437C-91A6-918D2F36BC34}",
@@ -1723,6 +1751,48 @@
    "lat": 34.6829
   },
   {
+   "id": "{A7A0E931-81C8-4022-9E0E-6BA4CB8D6F86}",
+   "name": "Knot",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T06:00:00Z",
+   "updated": "2026-11-09T20:24:36Z",
+   "state": "WI",
+   "county": "Monroe",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4944,
+   "lat": 43.962
+  },
+  {
+   "id": "{4188D76C-D079-4C26-8182-CB0F77DA2163}",
+   "name": "Knee",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T06:00:00Z",
+   "updated": "2026-11-09T20:24:51Z",
+   "state": "WI",
+   "county": "Monroe",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4944,
+   "lat": 43.962
+  },
+  {
+   "id": "{AB8DA46B-F91D-49CA-9B13-186081461A2A}",
+   "name": "abc",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T06:00:00Z",
+   "updated": "2026-11-09T20:27:16Z",
+   "state": "WI",
+   "county": "Waupaca",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.8746,
+   "lat": 44.5181
+  },
+  {
    "id": "{AB374480-0EAD-42A1-91D6-D59DB27E853E}",
    "name": "Lac-405228",
    "acres": 0.0,
@@ -1763,6 +1833,34 @@
    "complexity": null,
    "lon": -117.7651,
    "lat": 34.4695
+  },
+  {
+   "id": "{CC1D44CC-1DC7-4325-9146-ED5D77F46522}",
+   "name": "Iowa",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T19:57:16Z",
+   "updated": "2026-11-09T20:10:17Z",
+   "state": "CA",
+   "county": "Placer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.8424,
+   "lat": 39.1158
+  },
+  {
+   "id": "{4E5B3F30-A12B-4BBC-A165-4CB10B1B19CA}",
+   "name": "Rainbow6/Sdu",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T20:26:34Z",
+   "updated": "2026-11-09T20:28:30Z",
+   "state": "CA",
+   "county": "San Diego",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.1453,
+   "lat": 33.4212
   }
  ]
 }
