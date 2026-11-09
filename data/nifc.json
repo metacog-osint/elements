@@ -102,13 +102,13 @@
    "id": "{DFA477F2-305C-49CA-B82E-2AF072AB55F8}",
    "name": "Three Queens",
    "acres": 9575.0,
-   "contained": 90,
+   "contained": 95,
    "discovered": "2026-07-16T04:28:00Z",
-   "updated": "2026-10-30T00:23:04Z",
+   "updated": "2026-11-09T17:49:07Z",
    "state": "WA",
    "county": "Kittitas",
    "cause": "Natural",
-   "complexity": "Type 3 Incident",
+   "complexity": "Type 4 Incident",
    "lon": -121.2613,
    "lat": 47.414
   },
@@ -172,9 +172,9 @@
    "id": "{E70E0FBE-8DD6-4E75-BCE8-8E5B9672A3C4}",
    "name": "King",
    "acres": 3427.0,
-   "contained": 72,
+   "contained": 95,
    "discovered": "2026-08-19T23:09:24Z",
-   "updated": "2026-10-30T00:25:11Z",
+   "updated": "2026-11-09T17:47:38Z",
    "state": "WA",
    "county": "Kittitas",
    "cause": "Undetermined",
@@ -673,6 +673,20 @@
    "lat": 35.638
   },
   {
+   "id": "{9E4A604F-271D-447F-90DE-3567D103AB82}",
+   "name": "Tame Fish 2",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-10-11T00:30:00Z",
+   "updated": "2026-11-09T17:42:05Z",
+   "state": "MN",
+   "county": "Aitkin",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.7498,
+   "lat": 46.3999
+  },
+  {
    "id": "{E8976597-58D8-40C9-91D1-882EF99A5ADC}",
    "name": "Bombing Range 10",
    "acres": 0.2,
@@ -785,6 +799,20 @@
    "lat": 35.7055
   },
   {
+   "id": "{4C699E34-8F26-45CA-A3F2-2487F3D0389A}",
+   "name": "Long Lake Rd",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-10-10T21:20:00Z",
+   "updated": "2026-11-09T17:41:18Z",
+   "state": "MN",
+   "county": "Aitkin",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.6424,
+   "lat": 46.4355
+  },
+  {
    "id": "{8FD9149A-4A7A-4934-807A-45C6873DF416}",
    "name": "Island Lake",
    "acres": 0.1,
@@ -883,6 +911,20 @@
    "lat": 41.3176
   },
   {
+   "id": "{5DBA7F94-AA1C-4462-A23E-DE5B34484A79}",
+   "name": "Ma #19",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-07T02:30:19Z",
+   "updated": "2026-11-09T17:34:34Z",
+   "state": "OR",
+   "county": "Klamath",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.7168,
+   "lat": 42.5881
+  },
+  {
    "id": "{4643A88A-5303-4AC8-9869-4E45D05DAACF}",
    "name": "Bucks",
    "acres": 0.1,
@@ -951,6 +993,20 @@
    "complexity": null,
    "lon": -100.6363,
    "lat": 46.0956
+  },
+  {
+   "id": "{773B1F66-3B5F-46DD-9628-37A1B00A59BB}",
+   "name": "Peavine",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-08T18:55:29Z",
+   "updated": "2026-11-09T17:56:06Z",
+   "state": "NV",
+   "county": "Nye",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.3691,
+   "lat": 38.7159
   },
   {
    "id": "{BCD661B7-BEA7-44A8-BEB8-A8BDB962929C}",
@@ -1119,34 +1175,6 @@
    "complexity": null,
    "lon": -88.1419,
    "lat": 45.6967
-  },
-  {
-   "id": "{C6B89AA6-9426-4836-9F11-9692E22EFD69}",
-   "name": "Lac-401562",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-06T17:30:28Z",
-   "updated": "2026-11-06T17:30:59Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.077,
-   "lat": 34.7337
-  },
-  {
-   "id": "{7320BFA3-B4B5-4600-8737-217C2F7999CF}",
-   "name": "Lac-401583",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-06T17:45:04Z",
-   "updated": "2026-11-06T17:45:31Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1689,
-   "lat": 33.9108
   },
   {
    "id": "{4A04289A-869F-42AF-B8B5-1AEC4B875C89}",
@@ -1637,6 +1665,20 @@
    "complexity": null,
    "lon": -117.7651,
    "lat": 34.4695
+  },
+  {
+   "id": "{54AF1B8D-9FF9-46C7-A73A-5538C82FB803}",
+   "name": "South",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T17:58:53Z",
+   "updated": "2026-11-09T18:00:30Z",
+   "state": "CA",
+   "county": "El Dorado",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.5166,
+   "lat": 38.6442
   }
  ]
 }
