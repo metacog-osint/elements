@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104277",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Argentina",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-08T01:00:00Z",
+   "to": "2026-11-10T01:00:00Z",
+   "current": true,
+   "country": "Argentina",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104277&episodeid=1&eventtype=FL",
+   "lon": -60.566,
+   "lat": -31.711,
+   "countries": [
+    "AR"
+   ]
+  },
+  {
    "id": "TC-1001349",
    "type": "TC",
    "kind": "tropical cyclone",
