@@ -394,120 +394,6 @@
    ]
   },
   {
-   "id": "KSJT.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Angelo TX",
-   "areas": [
-    "Kimble, TX"
-   ],
-   "counties": [
-    "48267"
-   ],
-   "sent": "2026-11-09T23:09:00Z",
-   "onset": "2026-11-09T23:09:00Z",
-   "ends": "2026-11-10T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb9fea71d6327049f94d10e7ac837addeba1eede.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -99.96,
-       30.54
-      ],
-      [
-       -99.49,
-       30.7
-      ],
-      [
-       -99.49,
-       30.5
-      ],
-      [
-       -99.84,
-       30.39
-      ],
-      [
-       -99.96,
-       30.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -99.7464,
-     30.4795
-    ]
-   ],
-   "lon": -99.748,
-   "lat": 30.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSJT.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Angelo TX",
-   "areas": [
-    "Mason, TX"
-   ],
-   "counties": [
-    "48319"
-   ],
-   "sent": "2026-11-09T23:11:00Z",
-   "onset": "2026-11-10T06:46:00Z",
-   "ends": "2026-11-10T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e79f59bfb2bd5b63e22a1f2a5aa3e57f93729d5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -99.48,
-       30.7
-      ],
-      [
-       -98.97,
-       30.74
-      ],
-      [
-       -98.97,
-       30.64
-      ],
-      [
-       -99.48,
-       30.57
-      ],
-      [
-       -99.48,
-       30.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -99.2373,
-     30.7039
-    ]
-   ],
-   "lon": -99.276,
-   "lat": 30.67,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -866,313 +752,115 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.3559.2026",
-   "event": "Heavy Freezing Spray Warning",
+   "id": "KSJT.FL.W.0009.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS San Angelo TX",
    "areas": [
-    "Western US Arctic Offshore"
+    "Kimble, TX"
    ],
    "counties": [
-    "58500"
+    "48267"
    ],
-   "sent": "2026-11-08T12:45:00Z",
-   "onset": "2026-11-08T13:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adbab6f4bf670770dd82640f5489cd2d29a5d5b4.001.1",
-   "geometry": null,
+   "sent": "2026-11-10T01:45:00Z",
+   "onset": "2026-11-10T01:45:00Z",
+   "ends": "2026-11-10T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5de0bbd660060fa7234aa713fa78d60533fce61a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -99.96,
+       30.54
+      ],
+      [
+       -99.49,
+       30.7
+      ],
+      [
+       -99.49,
+       30.5
+      ],
+      [
+       -99.84,
+       30.39
+      ],
+      [
+       -99.96,
+       30.54
+      ]
+     ]
+    ]
+   },
    "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
+   "points": [
+    [
+     -99.7464,
+     30.4795
+    ]
+   ],
+   "lon": -99.748,
+   "lat": 30.534,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "PAFG.UP.W.4645.2026",
-   "event": "Heavy Freezing Spray Warning",
+   "id": "KSJT.FL.W.0010.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS San Angelo TX",
    "areas": [
-    "Western US Arctic Offshore"
+    "Mason, TX"
    ],
    "counties": [
-    "58500"
+    "48319"
    ],
-   "sent": "2026-11-09T00:45:00Z",
-   "onset": "2026-11-09T01:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2be8831540ce416517ced011339c9493889e204.001.1",
-   "geometry": null,
+   "sent": "2026-11-10T01:45:00Z",
+   "onset": "2026-11-10T06:40:00Z",
+   "ends": "2026-11-10T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ef2bc89aeb7e5cb43f3581460cabf97f95b11ca.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -99.48,
+       30.7
+      ],
+      [
+       -98.97,
+       30.74
+      ],
+      [
+       -98.97,
+       30.64
+      ],
+      [
+       -99.48,
+       30.57
+      ],
+      [
+       -99.48,
+       30.7
+      ]
+     ]
+    ]
+   },
    "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1592.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett out to 15 NM"
+   "points": [
+    [
+     -99.2373,
+     30.7039
+    ]
    ],
-   "counties": [
-    "58813"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1590.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1589.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Thompson to Cape Beaufort out to 15 NM"
-   ],
-   "counties": [
-    "58811"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1593.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1599.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1595.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1601.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1602.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58860"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1604.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point from 15 to 75 NM"
-   ],
-   "counties": [
-    "58861"
-   ],
-   "sent": "2026-11-09T00:48:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31b39b13783f0237492e9aedd5fc83438896574c.010.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6957.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Motherwood Point to Cape Krusenstern out to 10 NM"
-   ],
-   "counties": [
-    "58809"
-   ],
-   "sent": "2026-11-09T00:49:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f6db4d1086eeb37124c151cd6ed24a19fc8c510.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
+   "lon": -99.276,
+   "lat": 30.67,
    "countries": [
     "US"
    ]
@@ -1911,448 +1599,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.2346.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gore Point to Marmot Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58733"
-   ],
-   "sent": "2026-11-08T12:09:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff589301331ee47637f585fd58d1abda67cbe9d4.017.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.2335.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Cape Suckling to Cape Cleare from 15 to 75 NM"
-   ],
-   "counties": [
-    "58712"
-   ],
-   "sent": "2026-11-08T12:09:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff589301331ee47637f585fd58d1abda67cbe9d4.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.2333.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Cape Suckling to Gravel Point out to 15 NM"
-   ],
-   "counties": [
-    "58710"
-   ],
-   "sent": "2026-11-08T12:09:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff589301331ee47637f585fd58d1abda67cbe9d4.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.2337.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Cape Cleare to Gore Point from 15 to 75 NM"
-   ],
-   "counties": [
-    "58716"
-   ],
-   "sent": "2026-11-08T12:09:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff589301331ee47637f585fd58d1abda67cbe9d4.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.2257.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gulf of Alaska Offshore North of 57N and West of 144W"
-   ],
-   "counties": [
-    "58351"
-   ],
-   "sent": "2026-11-08T12:09:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.155d813f8ae5fee08762cdc56f5cf608967b04db.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4535.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
-   ],
-   "counties": [
-    "58664"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4530.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Decision to Cape Edgecumbe out to 15 NM"
-   ],
-   "counties": [
-    "58642"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4533.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
-   ],
-   "counties": [
-    "58663"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4532.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Edgecumbe to Cape Spencer out to 15 NM"
-   ],
-   "counties": [
-    "58643"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4528.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision out to 15 NM"
-   ],
-   "counties": [
-    "58641"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4538.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Fairweather to Icy Cape from 15 to 80 NM"
-   ],
-   "counties": [
-    "58671"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.011.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4529.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision from 15 to 90 NM"
-   ],
-   "counties": [
-    "58661"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4541.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Icy Cape to Cape Suckling from 15 to 80 NM"
-   ],
-   "counties": [
-    "58672"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.013.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.4531.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
-   ],
-   "counties": [
-    "58662"
-   ],
-   "sent": "2026-11-08T12:29:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbb445d696a4a74b720fdbfc032d0d20e24e168.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.2958.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska South of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58312"
-   ],
-   "sent": "2026-11-08T12:30:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.595fa66918b062ea1ea0ef0ae0a40b4c491ea6fe.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.2957.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58311"
-   ],
-   "sent": "2026-11-08T12:30:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.595fa66918b062ea1ea0ef0ae0a40b4c491ea6fe.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.5100.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gulf of Alaska Offshore North of 57N and West of 144W"
-   ],
-   "counties": [
-    "58351"
-   ],
-   "sent": "2026-11-08T23:55:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3917cf6b8c0378dab9f825eaf0813b91f7ca53aa.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1889.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2457,32 +1703,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.1896.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gore Point to Marmot Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58733"
-   ],
-   "sent": "2026-11-08T23:56:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9f86b1873aac07241d6d5c1399d3d8f2aeaf51a.017.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1888.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2509,422 +1729,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.1886.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Cape Cleare to Gore Point from 15 to 75 NM"
-   ],
-   "counties": [
-    "58716"
-   ],
-   "sent": "2026-11-08T23:56:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9f86b1873aac07241d6d5c1399d3d8f2aeaf51a.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.8777.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58311"
-   ],
-   "sent": "2026-11-09T00:15:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7866f8fc293d07fc053c65a366f86d962d7177ae.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.8778.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska South of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58312"
-   ],
-   "sent": "2026-11-09T00:15:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7866f8fc293d07fc053c65a366f86d962d7177ae.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3641.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Edgecumbe to Cape Spencer out to 15 NM"
-   ],
-   "counties": [
-    "58643"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3640.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Decision to Cape Edgecumbe from 15 to 80 NM"
-   ],
-   "counties": [
-    "58662"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3639.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Decision to Cape Edgecumbe out to 15 NM"
-   ],
-   "counties": [
-    "58642"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3644.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Spencer to Cape Fairweather from 15 to 85 NM"
-   ],
-   "counties": [
-    "58664"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3638.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision from 15 to 90 NM"
-   ],
-   "counties": [
-    "58661"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T00:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3642.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Edgecumbe to Cape Spencer from 15 to 80 NM"
-   ],
-   "counties": [
-    "58663"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3646.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Fairweather to Icy Cape from 15 to 80 NM"
-   ],
-   "counties": [
-    "58671"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T02:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.011.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3648.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Icy Cape to Cape Suckling from 15 to 80 NM"
-   ],
-   "counties": [
-    "58672"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.013.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3647.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Icy Cape to Cape Suckling out to 15 NM"
-   ],
-   "counties": [
-    "58652"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.012.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3645.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Fairweather to Icy Cape out to 15 NM"
-   ],
-   "counties": [
-    "58651"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.010.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3643.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Cape Spencer to Cape Fairweather out to 15 NM"
-   ],
-   "counties": [
-    "58644"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.3637.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Dixon Entrance to Cape Decision out to 15 NM"
-   ],
-   "counties": [
-    "58641"
-   ],
-   "sent": "2026-11-09T00:17:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9091f22a03a900a52576752f6fe0d65d98d7f4b0.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.9407.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gulf of Alaska Offshore North of 57N and West of 144W"
-   ],
-   "counties": [
-    "58351"
-   ],
-   "sent": "2026-11-09T12:40:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d547cc994d2f6a8783d1de64184e5ba142305b8f.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1377.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2941,32 +1745,6 @@
    "onset": "2026-11-10T02:00:00Z",
    "ends": "2026-11-10T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c70017498979844d3596980c95f655d559c2680d.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.1374.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Cape Cleare to Gore Point from 15 to 75 NM"
-   ],
-   "counties": [
-    "58716"
-   ],
-   "sent": "2026-11-09T13:19:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c70017498979844d3596980c95f655d559c2680d.006.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3055,32 +1833,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.1384.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Gore Point to Marmot Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58733"
-   ],
-   "sent": "2026-11-09T13:19:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c70017498979844d3596980c95f655d559c2680d.017.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1370.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3097,58 +1849,6 @@
    "onset": "2026-11-09T13:00:00Z",
    "ends": "2026-11-10T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c70017498979844d3596980c95f655d559c2680d.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.1962.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska North of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58311"
-   ],
-   "sent": "2026-11-09T13:28:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.740756c4273988fb4de6e6bdc87e5e5112690d12.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAJK.SR.W.1963.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Juneau AK",
-   "areas": [
-    "Gulf of Alaska South of 57 Degrees North and East of 144 W"
-   ],
-   "counties": [
-    "58312"
-   ],
-   "sent": "2026-11-09T13:28:00Z",
-   "onset": "2026-11-09T14:00:00Z",
-   "ends": "2026-11-10T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.740756c4273988fb4de6e6bdc87e5e5112690d12.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
