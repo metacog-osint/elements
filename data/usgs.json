@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000tx8z",
+   "mag": 4.6,
+   "place": "65 km SW of Lata, Solomon Islands",
+   "time": "2026-11-10T04:30:17Z",
+   "updated": "2026-11-10T05:31:51Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8z",
+   "depth_km": 10.0,
+   "lon": 165.338,
+   "lat": -11.111,
+   "countries": []
+  },
+  {
    "id": "us7000tx8s",
    "mag": 5.2,
    "place": "19 km WSW of Lata, Solomon Islands",
@@ -993,7 +1008,7 @@
    "mag": 5.0,
    "place": "111 km W of Petrolia, CA",
    "time": "2026-11-05T04:56:02Z",
-   "updated": "2026-11-09T05:06:11Z",
+   "updated": "2026-11-10T05:06:14Z",
    "alert": "green",
    "tsunami": false,
    "sig": 434,
@@ -1299,23 +1314,6 @@
    "lon": 140.648,
    "lat": 35.659,
    "countries": []
-  },
-  {
-   "id": "us7000tv3l",
-   "mag": 4.5,
-   "place": "31 km E of Mawlaik, Burma (Myanmar)",
-   "time": "2026-11-03T05:23:44Z",
-   "updated": "2026-11-03T09:51:31Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv3l",
-   "depth_km": 116.4,
-   "lon": 94.709,
-   "lat": 23.602,
-   "countries": [
-    "MM"
-   ]
   }
  ]
 }
