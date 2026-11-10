@@ -1036,32 +1036,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.7457.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett out to 15 NM"
-   ],
-   "counties": [
-    "58813"
-   ],
-   "sent": "2026-11-10T00:48:00Z",
-   "onset": "2026-11-10T00:00:00Z",
-   "ends": "2026-11-11T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.7459.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1078,6 +1052,32 @@
    "onset": "2026-11-10T00:00:00Z",
    "ends": "2026-11-11T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7457.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett out to 15 NM"
+   ],
+   "counties": [
+    "58813"
+   ],
+   "sent": "2026-11-10T00:48:00Z",
+   "onset": "2026-11-10T00:00:00Z",
+   "ends": "2026-11-11T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1483,97 +1483,59 @@
    ]
   },
   {
-   "id": "KCRP.MA.W.0065.2026",
+   "id": "KHGX.MA.W.0084.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Corpus Christi TX",
+   "sender": "NWS Houston/Galveston TX",
    "areas": [
-    "San Antonio, Mesquite, and Espiritu Santo Bays",
-    "Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM",
-    "Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM"
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
+    "Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM"
    ],
    "counties": [
-    "77237",
-    "77255",
-    "77275"
+    "77350",
+    "77370"
    ],
-   "sent": "2026-11-10T15:58:00Z",
-   "onset": "2026-11-10T15:58:00Z",
-   "ends": "2026-11-10T16:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4faff79092fbae057a12726e116417e7300386e7.001.1",
+   "sent": "2026-11-10T16:31:00Z",
+   "onset": "2026-11-10T16:31:00Z",
+   "ends": "2026-11-10T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b119e7e0cde76a8454f0e7dc8a61bd523cf7b4e1.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.67,
-       28.35
+       -95.9,
+       27.97
       ],
       [
-       -96.38,
+       -96.04,
+       28.1
+      ],
+      [
+       -96.08,
+       28.32
+      ],
+      [
+       -95.48,
        28.41
       ],
       [
-       -96.37,
-       28.4
+       -95.44,
+       27.94
       ],
       [
-       -96.38,
-       28.4
-      ],
-      [
-       -96.39,
-       28.4
-      ],
-      [
-       -96.38,
-       28.39
-      ],
-      [
-       -96.38,
-       28.38
-      ],
-      [
-       -96.37,
-       28.39
-      ],
-      [
-       -96.36,
-       28.38
-      ],
-      [
-       -96.1,
-       28.15
-      ],
-      [
-       -95.98,
-       28.04
-      ],
-      [
-       -95.95,
-       28.02
-      ],
-      [
-       -95.91,
-       27.98
-      ],
-      [
-       -96.34,
-       27.96
-      ],
-      [
-       -96.67,
-       28.35
+       -95.9,
+       27.97
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.309,
-   "lat": 28.267,
+   "lon": -95.807,
+   "lat": 28.118,
    "countries": [
     "US"
    ]
