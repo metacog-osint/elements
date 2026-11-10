@@ -533,6 +533,20 @@
    "lat": 36.6976
   },
   {
+   "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
+   "name": "Parkers Branch",
+   "acres": 20.0,
+   "contained": 60,
+   "discovered": "2026-11-09T21:00:00Z",
+   "updated": "2026-11-10T01:23:27Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7163,
+   "lat": 36.9464
+  },
+  {
    "id": "{12710FCE-D5BD-47F0-99C6-200375386775}",
    "name": "IUA Forty Eight Range 2 ZH 1",
    "acres": 15.0,
@@ -589,20 +603,6 @@
    "lat": 45.3608
   },
   {
-   "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
-   "name": "Parkers Branch",
-   "acres": 10.0,
-   "contained": 50,
-   "discovered": "2026-11-09T21:00:00Z",
-   "updated": "2026-11-09T23:40:07Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.7163,
-   "lat": 36.9464
-  },
-  {
    "id": "{516FCDD1-F16E-42EC-9003-4BDD0661E2C8}",
    "name": "Rock Lake",
    "acres": 5.0,
@@ -629,6 +629,20 @@
    "complexity": null,
    "lon": -118.6862,
    "lat": 45.344
+  },
+  {
+   "id": "{DA311CB0-A017-4925-B608-DA524F77F50D}",
+   "name": "Belles Fork Road",
+   "acres": 5.0,
+   "contained": 20,
+   "discovered": "2026-11-09T22:49:00Z",
+   "updated": "2026-11-10T01:23:29Z",
+   "state": "KY",
+   "county": "Clay",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6706,
+   "lat": 37.1089
   },
   {
    "id": "{7869AA5D-4751-4BBA-B0FC-221F36C6248B}",
@@ -671,20 +685,6 @@
    "complexity": "Type 4 Incident",
    "lon": -85.1528,
    "lat": 33.8053
-  },
-  {
-   "id": "{DA311CB0-A017-4925-B608-DA524F77F50D}",
-   "name": "Belles Fork Road",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-09T22:49:00Z",
-   "updated": "2026-11-10T00:12:40Z",
-   "state": "KY",
-   "county": "Clay",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6675,
-   "lat": 37.1088
   },
   {
    "id": "{AF4A6D5E-C38E-4C7F-BB57-621013549BC9}",
@@ -1959,6 +1959,34 @@
    "complexity": null,
    "lon": -118.2861,
    "lat": 33.8609
+  },
+  {
+   "id": "{BC481514-7F6E-4A2C-859A-CAD050DB71B9}",
+   "name": "Chester Dump North_Plumas_Co",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-10T01:14:49Z",
+   "updated": "2026-11-10T01:17:23Z",
+   "state": "CA",
+   "county": "Plumas",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.1435,
+   "lat": 40.3066
+  },
+  {
+   "id": "{ABFE5E0C-1AD9-4E2A-A56C-0E10CA8A76F9}",
+   "name": "Antelope",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-10T01:19:53Z",
+   "updated": "2026-11-10T01:22:17Z",
+   "state": "CA",
+   "county": "San Benito",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.8317,
+   "lat": 36.596
   }
  ]
 }
