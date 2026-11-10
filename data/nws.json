@@ -1505,6 +1505,37 @@
    ]
   },
   {
+   "id": "PAFC.HW.W.0014.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Cordova"
+   ],
+   "counties": [
+    "02063"
+   ],
+   "sent": "2026-11-10T11:21:00Z",
+   "onset": "2026-11-10T11:21:00Z",
+   "ends": "2026-11-10T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.291c42b1294b8794f782285af4bb937a0fd99f65.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -146.2031,
+     60.4885
+    ]
+   ],
+   "lon": -146.203,
+   "lat": 60.489,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
