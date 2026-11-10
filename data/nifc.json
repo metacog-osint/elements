@@ -62,7 +62,7 @@
    "acres": 12888.0,
    "contained": 98,
    "discovered": "2026-08-09T17:12:59Z",
-   "updated": "2026-11-06T23:02:08Z",
+   "updated": "2026-11-10T01:00:52Z",
    "state": "OR",
    "county": "Clackamas",
    "cause": "Human",
@@ -200,9 +200,9 @@
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
    "name": "Wild River",
    "acres": 821.0,
-   "contained": 29,
+   "contained": 53,
    "discovered": "2026-11-01T17:15:00Z",
-   "updated": "2026-11-08T22:49:25Z",
+   "updated": "2026-11-10T00:52:57Z",
    "state": "NH",
    "county": "Coos",
    "cause": "Undetermined",
@@ -1945,6 +1945,20 @@
    "complexity": null,
    "lon": -118.1476,
    "lat": 34.6311
+  },
+  {
+   "id": "{A4A16A8D-4E7B-41EC-B4F5-E523DD4BACA8}",
+   "name": "Lac-406202",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-10T00:47:03Z",
+   "updated": "2026-11-10T00:47:14Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.2861,
+   "lat": 33.8609
   }
  ]
 }
