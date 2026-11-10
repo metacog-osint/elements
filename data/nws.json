@@ -1,38 +1,6 @@
 {
  "records": [
   {
-   "id": "PAFG.BZ.W.0036.2026",
-   "event": "Blizzard Warning",
-   "severity": "Extreme",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-09T20:55:00Z",
-   "onset": "2026-11-10T06:00:00Z",
-   "ends": "2026-11-11T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43cf0d18524494a13b7991b6d7f1755db5e080de.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.BZ.W.0014.2026",
    "event": "Blizzard Warning",
    "severity": "Extreme",
@@ -59,6 +27,38 @@
    ],
    "lon": -146.203,
    "lat": 60.489,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.BZ.W.0036.2026",
+   "event": "Blizzard Warning",
+   "severity": "Extreme",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Central Beaufort Sea Coast",
+    "Eastern Beaufort Sea Coast"
+   ],
+   "counties": [
+    "02185"
+   ],
+   "sent": "2026-11-10T04:33:00Z",
+   "onset": "2026-11-10T06:00:00Z",
+   "ends": "2026-11-11T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b05241c6d9536a8eadf3867be3f8dc45faca8ab.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -153.4728,
+     69.4493
+    ]
+   ],
+   "lon": -153.473,
+   "lat": 69.449,
    "countries": [
     "US"
    ]
