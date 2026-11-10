@@ -1483,6 +1483,92 @@
    ]
   },
   {
+   "id": "KCRP.MA.W.0066.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Waters from Baffin Bay to Port Aransas from 20 to 60 NM",
+    "Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM"
+   ],
+   "counties": [
+    "77270",
+    "77275"
+   ],
+   "sent": "2026-11-10T17:43:00Z",
+   "onset": "2026-11-10T17:43:00Z",
+   "ends": "2026-11-10T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b64473de0e67dce88dc2adc2f011b5b5962485c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.57,
+       27.37
+      ],
+      [
+       -95.88,
+       27.96
+      ],
+      [
+       -95.67,
+       27.77
+      ],
+      [
+       -95.69,
+       27.54
+      ],
+      [
+       -95.81,
+       27.47
+      ],
+      [
+       -95.83,
+       27.46
+      ],
+      [
+       -95.9,
+       27.43
+      ],
+      [
+       -95.96,
+       27.4
+      ],
+      [
+       -96.02,
+       27.36
+      ],
+      [
+       -96.04,
+       27.33
+      ],
+      [
+       -96.14,
+       27.27
+      ],
+      [
+       -96.36,
+       27.23
+      ],
+      [
+       -96.57,
+       27.37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.034,
+   "lat": 27.458,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
