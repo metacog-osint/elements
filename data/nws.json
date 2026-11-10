@@ -159,136 +159,6 @@
    ]
   },
   {
-   "id": "KEWX.FL.W.0061.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-10T12:35:00Z",
-   "onset": "2026-11-10T12:35:00Z",
-   "ends": "2026-11-11T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9aeccf8a83301cf876f909b5fe6fc545c6b7d0fa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.03,
-       29.68
-      ],
-      [
-       -100.95,
-       29.71
-      ],
-      [
-       -100.89,
-       29.66
-      ],
-      [
-       -100.92,
-       29.56
-      ],
-      [
-       -101,
-       29.53
-      ],
-      [
-       -100.97,
-       29.63
-      ],
-      [
-       -101.03,
-       29.68
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -100.97,
-   "lat": 29.636,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEWX.FL.W.0063.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-10T12:45:00Z",
-   "onset": "2026-11-10T13:00:00Z",
-   "ends": "2026-11-11T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.509c57983dc72fc2098d5291b2c791c517f9bf56.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.15,
-       30.1
-      ],
-      [
-       -101.07,
-       30.1
-      ],
-      [
-       -101.14,
-       30.03
-      ],
-      [
-       -101.1,
-       29.96
-      ],
-      [
-       -101.18,
-       29.96
-      ],
-      [
-       -101.22,
-       30.03
-      ],
-      [
-       -101.15,
-       30.1
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -101.144,
-   "lat": 30.04,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0008.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -870,6 +740,136 @@
    ],
    "lon": -111.801,
    "lat": 33.477,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEWX.FL.W.0064.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Val Verde, TX"
+   ],
+   "counties": [
+    "48465"
+   ],
+   "sent": "2026-11-10T15:49:00Z",
+   "onset": "2026-11-10T15:49:00Z",
+   "ends": "2026-11-11T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2674399585ab2aaaa4688004ee3b0c51e4287c3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -101.18,
+       29.96
+      ],
+      [
+       -101.1,
+       29.96
+      ],
+      [
+       -100.97,
+       29.89
+      ],
+      [
+       -100.95,
+       29.71
+      ],
+      [
+       -101.03,
+       29.68
+      ],
+      [
+       -101.05,
+       29.86
+      ],
+      [
+       -101.18,
+       29.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -101.1433,
+     29.8753
+    ]
+   ],
+   "lon": -101.066,
+   "lat": 29.86,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEWX.FL.W.0061.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Val Verde, TX"
+   ],
+   "counties": [
+    "48465"
+   ],
+   "sent": "2026-11-10T15:49:00Z",
+   "onset": "2026-11-10T15:49:00Z",
+   "ends": "2026-11-11T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee6ba6f5a2015d1a5ca3ab94ccc25e90ab8c0bf5.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -101.03,
+       29.68
+      ],
+      [
+       -100.95,
+       29.71
+      ],
+      [
+       -100.89,
+       29.66
+      ],
+      [
+       -100.92,
+       29.56
+      ],
+      [
+       -101,
+       29.53
+      ],
+      [
+       -100.97,
+       29.63
+      ],
+      [
+       -101.03,
+       29.68
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -101.1433,
+     29.8753
+    ]
+   ],
+   "lon": -100.97,
+   "lat": 29.636,
    "countries": [
     "US"
    ]
@@ -1483,83 +1483,53 @@
    ]
   },
   {
-   "id": "KCRP.MA.W.0064.2026",
+   "id": "KCRP.MA.W.0065.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Corpus Christi TX",
    "areas": [
-    "Copano, Aransas, and Redfish Bays",
     "San Antonio, Mesquite, and Espiritu Santo Bays",
     "Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM",
     "Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM"
    ],
    "counties": [
-    "77236",
     "77237",
     "77255",
     "77275"
    ],
-   "sent": "2026-11-10T15:09:00Z",
-   "onset": "2026-11-10T15:09:00Z",
-   "ends": "2026-11-10T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb2821934bb7b72242cf77b31abf3ee85deb985c.001.1",
+   "sent": "2026-11-10T15:58:00Z",
+   "onset": "2026-11-10T15:58:00Z",
+   "ends": "2026-11-10T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4faff79092fbae057a12726e116417e7300386e7.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.95,
-       28.18
+       -96.67,
+       28.35
       ],
       [
-       -96.53,
-       28.71
-      ],
-      [
-       -96.43,
-       28.7
-      ],
-      [
-       -96.41,
-       28.73
-      ],
-      [
-       -96.41,
-       28.69
-      ],
-      [
-       -96.42,
-       28.68
-      ],
-      [
-       -96.32,
-       28.68
-      ],
-      [
-       -96.32,
-       28.64
-      ],
-      [
-       -96.52,
-       28.56
-      ],
-      [
-       -96.51,
-       28.53
-      ],
-      [
-       -96.41,
-       28.46
+       -96.38,
+       28.41
       ],
       [
        -96.37,
        28.4
       ],
       [
+       -96.38,
+       28.4
+      ],
+      [
        -96.39,
        28.4
+      ],
+      [
+       -96.38,
+       28.39
       ],
       [
        -96.38,
@@ -1570,24 +1540,40 @@
        28.39
       ],
       [
-       -95.93,
-       28
+       -96.36,
+       28.38
       ],
       [
-       -96.79,
-       27.91
+       -96.1,
+       28.15
       ],
       [
-       -96.95,
-       28.18
+       -95.98,
+       28.04
+      ],
+      [
+       -95.95,
+       28.02
+      ],
+      [
+       -95.91,
+       27.98
+      ],
+      [
+       -96.34,
+       27.96
+      ],
+      [
+       -96.67,
+       28.35
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.467,
-   "lat": 28.457,
+   "lon": -96.309,
+   "lat": 28.267,
    "countries": [
     "US"
    ]
