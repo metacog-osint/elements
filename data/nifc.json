@@ -146,7 +146,7 @@
    "acres": 4887.0,
    "contained": 97,
    "discovered": "2026-07-04T22:01:00Z",
-   "updated": "2026-11-06T19:20:09Z",
+   "updated": "2026-11-10T17:21:23Z",
    "state": "OR",
    "county": "Umatilla",
    "cause": "Human",
@@ -370,7 +370,7 @@
    "acres": 115.0,
    "contained": 65,
    "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-10T14:30:09Z",
+   "updated": "2026-11-10T17:29:57Z",
    "state": "TN",
    "county": "Campbell",
    "cause": "Undetermined",
@@ -477,6 +477,20 @@
    "lat": 45.5206
   },
   {
+   "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
+   "name": "Parkers Branch",
+   "acres": 35.0,
+   "contained": 90,
+   "discovered": "2026-11-09T21:00:00Z",
+   "updated": "2026-11-10T17:23:12Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7163,
+   "lat": 36.9464
+  },
+  {
    "id": "{4D678004-E2B3-442C-8D39-DBFFB2C96FCD}",
    "name": "TP Oak",
    "acres": 33.0,
@@ -489,20 +503,6 @@
    "complexity": "Type 4 Incident",
    "lon": -93.9123,
    "lat": 29.7111
-  },
-  {
-   "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
-   "name": "Parkers Branch",
-   "acres": 30.0,
-   "contained": 80,
-   "discovered": "2026-11-09T21:00:00Z",
-   "updated": "2026-11-10T03:39:50Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.7163,
-   "lat": 36.9464
   },
   {
    "id": "{CFB4E00B-21CA-4B3B-9260-88C97466032B}",
@@ -545,20 +545,6 @@
    "complexity": null,
    "lon": -99.2228,
    "lat": 47.9011
-  },
-  {
-   "id": "{E4ADFECB-21C8-4240-BE50-3920090FF77C}",
-   "name": "South Street",
-   "acres": 11.7,
-   "contained": null,
-   "discovered": "2026-02-07T01:16:33Z",
-   "updated": "2026-11-02T17:25:16Z",
-   "state": "UT",
-   "county": "Utah",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -111.7532,
-   "lat": 40.1326
   },
   {
    "id": "{9B559405-5612-4CD3-B016-C5EC030A83BC}",
@@ -643,6 +629,20 @@
    "complexity": "Type 4 Incident",
    "lon": -85.1528,
    "lat": 33.8053
+  },
+  {
+   "id": "{D2DE2D16-65C5-48B2-84CC-543B01202956}",
+   "name": "Mud Creek",
+   "acres": 2.0,
+   "contained": null,
+   "discovered": "2026-08-28T00:12:34Z",
+   "updated": "2026-11-10T17:35:04Z",
+   "state": "MT",
+   "county": "Wheatland",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -109.5251,
+   "lat": 46.2922
   },
   {
    "id": "{AF4A6D5E-C38E-4C7F-BB57-621013549BC9}",
@@ -1224,10 +1224,10 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-10T16:08:40Z",
-   "updated": "2026-11-10T17:01:36Z",
+   "updated": "2026-11-10T17:44:10Z",
    "state": "OR",
    "county": "Douglas",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -122.3728,
    "lat": 43.0198
@@ -1385,20 +1385,6 @@
    "complexity": null,
    "lon": -122.5066,
    "lat": 37.7868
-  },
-  {
-   "id": "{876F3B17-0BE4-4DB4-B58E-A85748772445}",
-   "name": "Lac-402958",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T18:02:25Z",
-   "updated": "2026-11-07T18:03:02Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.3255,
-   "lat": 33.9443
   },
   {
    "id": "{A32A8D3F-48A5-4C0F-BE9D-85AA5A059538}",
