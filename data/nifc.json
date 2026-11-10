@@ -158,13 +158,13 @@
    "id": "{DC4342D9-B479-44F1-906C-8ABD42E1F59C}",
    "name": "Sisi",
    "acres": 4816.0,
-   "contained": 75,
+   "contained": 90,
    "discovered": "2026-08-14T18:03:23Z",
-   "updated": "2026-11-09T16:00:23Z",
+   "updated": "2026-11-10T03:07:03Z",
    "state": "WA",
    "county": "Chelan",
    "cause": "Natural",
-   "complexity": "Type 4 Incident",
+   "complexity": "Type 5 Incident",
    "lon": -120.8307,
    "lat": 48.3467
   },
@@ -1917,6 +1917,20 @@
    "complexity": null,
    "lon": -118.1662,
    "lat": 34.7188
+  },
+  {
+   "id": "{7D7856BD-6A2C-4156-A9E5-790F03FE04C8}",
+   "name": "Garrett",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-10T03:28:03Z",
+   "updated": "2026-11-10T03:29:19Z",
+   "state": "CA",
+   "county": "Placer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.8581,
+   "lat": 39.1605
   }
  ]
 }
