@@ -45,10 +45,10 @@
    "counties": [
     "02063"
    ],
-   "sent": "2026-11-10T08:19:00Z",
-   "onset": "2026-11-10T08:19:00Z",
+   "sent": "2026-11-10T09:06:00Z",
+   "onset": "2026-11-10T09:06:00Z",
    "ends": "2026-11-10T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bdb5d74778557fc8f7faf5b923dca80dd881b48c.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cf94126c465decc6147e9313b69b6de1bfca6b2.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1599,6 +1599,64 @@
    ],
    "lon": -150.027,
    "lat": 63.682,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.MA.W.0062.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Corpus Christi and Nueces Bays",
+    "Copano, Aransas, and Redfish Bays",
+    "Coastal waters from Baffin Bay to Port Aransas out 20 NM",
+    "Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM"
+   ],
+   "counties": [
+    "77232",
+    "77236",
+    "77250",
+    "77255"
+   ],
+   "sent": "2026-11-10T09:26:00Z",
+   "onset": "2026-11-10T09:26:00Z",
+   "ends": "2026-11-10T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d2a9b6db6306d5c29f67334026e2830a881c520.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -97.27,
+       27.8
+      ],
+      [
+       -96.97,
+       28.14
+      ],
+      [
+       -96.71,
+       27.82
+      ],
+      [
+       -97.2,
+       27.72
+      ],
+      [
+       -97.27,
+       27.8
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -97.084,
+   "lat": 27.856,
    "countries": [
     "US"
    ]
