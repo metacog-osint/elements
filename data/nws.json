@@ -1600,6 +1600,37 @@
    "countries": [
     "US"
    ]
+  },
+  {
+   "id": "KVEF.WS.A.0004.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Las Vegas NV",
+   "areas": [
+    "Eastern Sierra Slopes of Inyo County"
+   ],
+   "counties": [
+    "06027"
+   ],
+   "sent": "2026-11-11T08:15:00Z",
+   "onset": "2026-11-13T21:00:00Z",
+   "ends": "2026-11-15T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e432ea1f537befaa91cc7c1184b929facbd6b754.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.4042,
+     36.5622
+    ]
+   ],
+   "lon": -117.404,
+   "lat": 36.562,
+   "countries": [
+    "US"
+   ]
   }
  ]
 }
