@@ -786,6 +786,71 @@
    ]
   },
   {
+   "id": "KEWX.FL.W.0065.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Val Verde, TX"
+   ],
+   "counties": [
+    "48465"
+   ],
+   "sent": "2026-11-11T04:33:00Z",
+   "onset": "2026-11-11T05:00:00Z",
+   "ends": "2026-11-11T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9360ce98f35b5e5460bc4994d1a8f59c5ab36665.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -101.15,
+       30.1
+      ],
+      [
+       -101.07,
+       30.1
+      ],
+      [
+       -101.14,
+       30.03
+      ],
+      [
+       -101.1,
+       29.96
+      ],
+      [
+       -101.18,
+       29.96
+      ],
+      [
+       -101.22,
+       30.03
+      ],
+      [
+       -101.15,
+       30.1
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -101.1433,
+     29.8753
+    ]
+   ],
+   "lon": -101.144,
+   "lat": 30.04,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.1991.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
