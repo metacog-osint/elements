@@ -1121,6 +1121,55 @@
    ]
   },
   {
+   "id": "KMFR.HW.A.0001.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast",
+    "Central Douglas County",
+    "Eastern Curry County and Josephine County"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019",
+    "41033"
+   ],
+   "sent": "2026-11-11T21:05:00Z",
+   "onset": "2026-11-13T06:00:00Z",
+   "ends": "2026-11-13T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b2da1eb23252f563255f7a9793bd6bc698dab9e.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ],
+    [
+     -123.5716,
+     42.387
+    ]
+   ],
+   "lon": -123.758,
+   "lat": 42.831,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
