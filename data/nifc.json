@@ -239,6 +239,20 @@
    "lat": 46.5936
   },
   {
+   "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
+   "name": "Campbell - Glassman Way",
+   "acres": 380.0,
+   "contained": 65,
+   "discovered": "2026-11-08T21:52:22Z",
+   "updated": "2026-11-11T16:05:32Z",
+   "state": "TN",
+   "county": "Campbell",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.2379,
+   "lat": 36.4466
+  },
+  {
    "id": "{BC57E87F-C0D0-42A9-8726-FAC7FA75468D}",
    "name": "Cherry Plain",
    "acres": 251.0,
@@ -251,20 +265,6 @@
    "complexity": "Type 4 Incident",
    "lon": -73.3051,
    "lat": 42.6415
-  },
-  {
-   "id": "{B28B1951-8E27-4D0E-9730-C7E9C7C2B760}",
-   "name": "0927 Prospect",
-   "acres": 243.0,
-   "contained": null,
-   "discovered": "2026-11-07T19:06:00Z",
-   "updated": "2026-11-08T21:37:23Z",
-   "state": "OR",
-   "county": "Jefferson",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -121.3803,
-   "lat": 44.5395
   },
   {
    "id": "{699987B0-910A-4530-9A66-3FE66B303DC5}",
@@ -349,20 +349,6 @@
    "complexity": null,
    "lon": -117.3876,
    "lat": 38.7622
-  },
-  {
-   "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
-   "name": "Campbell - Glassman Way",
-   "acres": 140.0,
-   "contained": 65,
-   "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-11T02:03:24Z",
-   "state": "TN",
-   "county": "Campbell",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.2379,
-   "lat": 36.4466
   },
   {
    "id": "{37A21A77-B905-40D5-A951-78029EF4D29D}",
@@ -634,9 +620,9 @@
    "id": "{03A77432-0A06-48F1-901B-F7F6768FC8EB}",
    "name": "Lumpkins Lane",
    "acres": 5.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-11T14:03:00Z",
-   "updated": "2026-11-11T14:14:24Z",
+   "updated": "2026-11-11T15:59:50Z",
    "state": "KY",
    "county": "Knott",
    "cause": "Undetermined",
@@ -1541,20 +1527,6 @@
    "lat": 33.877
   },
   {
-   "id": "{A808C855-A3CA-4454-9477-28947E88272D}",
-   "name": "Kidder",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-08T19:01:50Z",
-   "updated": "2026-11-09T17:14:43Z",
-   "state": "CA",
-   "county": "Siskiyou",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.9606,
-   "lat": 41.5327
-  },
-  {
    "id": "{A8B1AF14-139E-4F7E-AB69-765991160579}",
    "name": "Lac-404642",
    "acres": 0.0,
@@ -1917,6 +1889,20 @@
    "complexity": null,
    "lon": -117.7327,
    "lat": 34.0591
+  },
+  {
+   "id": "{FA4C97BB-FC3A-4A2C-BBFD-E52FDBEACF54}",
+   "name": "Lac-408190",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-11T16:02:46Z",
+   "updated": "2026-11-11T16:03:21Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1123,
+   "lat": 34.7188
   }
  ]
 }
