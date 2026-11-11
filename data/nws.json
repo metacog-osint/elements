@@ -1,64 +1,34 @@
 {
  "records": [
   {
-   "id": "KIND.TO.W.0082.2026",
-   "event": "Tornado Warning",
+   "id": "PAFG.BZ.W.0037.2026",
+   "event": "Blizzard Warning",
    "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Indianapolis IN",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
    "areas": [
-    "Clay, IN",
-    "Vigo, IN"
+    "Central Beaufort Sea Coast",
+    "Eastern Beaufort Sea Coast",
+    "Northern Arctic Coast"
    ],
    "counties": [
-    "18021",
-    "18167"
+    "02185"
    ],
-   "sent": "2026-11-11T22:27:00Z",
-   "onset": "2026-11-11T22:27:00Z",
-   "ends": "2026-11-11T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e694e40f0b9102fe1b62a89fc0df74b84b8da289.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.37,
-       39.34
-      ],
-      [
-       -87.36,
-       39.4
-      ],
-      [
-       -87.05,
-       39.4
-      ],
-      [
-       -87.07,
-       39.27
-      ],
-      [
-       -87.37,
-       39.34
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-11T23:00:00Z",
+   "onset": "2026-11-11T23:00:00Z",
+   "ends": "2026-11-14T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9439f4146f95e6108504c25474f0684867493bb.002.2",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -87.1159,
-     39.3939
-    ],
-    [
-     -87.391,
-     39.4309
+     -153.4728,
+     69.4493
     ]
    ],
-   "lon": -87.244,
-   "lat": 39.35,
+   "lon": -153.473,
+   "lat": 69.449,
    "countries": [
     "US"
    ]
@@ -1168,136 +1138,59 @@
    ]
   },
   {
-   "id": "KIND.SV.W.0359.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Indianapolis IN",
-   "areas": [
-    "Vigo, IN"
-   ],
-   "counties": [
-    "18167"
-   ],
-   "sent": "2026-11-11T22:24:00Z",
-   "onset": "2026-11-11T22:24:00Z",
-   "ends": "2026-11-11T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8974d197ae07deac4064c01b3fbbbdef1f9de3aa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.39,
-       39.34
-      ],
-      [
-       -87.38,
-       39.44
-      ],
-      [
-       -87.26,
-       39.46
-      ],
-      [
-       -87.28,
-       39.31
-      ],
-      [
-       -87.39,
-       39.34
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -87.391,
-     39.4309
-    ]
-   ],
-   "lon": -87.34,
-   "lat": 39.378,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPAH.SV.W.0368.2026",
+   "id": "KPAH.SV.W.0370.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Paducah KY",
    "areas": [
-    "White, IL",
     "Gibson, IN",
-    "Posey, IN"
+    "Posey, IN",
+    "Spencer, IN",
+    "Vanderburgh, IN",
+    "Warrick, IN"
    ],
    "counties": [
-    "17193",
     "18051",
-    "18129"
+    "18129",
+    "18147",
+    "18163",
+    "18173"
    ],
-   "sent": "2026-11-11T22:28:00Z",
-   "onset": "2026-11-11T22:28:00Z",
-   "ends": "2026-11-11T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b16e3970d721664d049abb2e30b2d267b202876d.002.1",
+   "sent": "2026-11-11T22:52:00Z",
+   "onset": "2026-11-11T22:52:00Z",
+   "ends": "2026-11-11T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29926b5d664bc0adda3bd8310467282fadd377fa.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.97,
-       38.08
+       -87.84,
+       38.1
       ],
       [
-       -88.08,
-       38.18
+       -87.81,
+       38.2
       ],
       [
-       -88.03,
-       38.25
+       -87.12,
+       38.17
       ],
       [
-       -87.97,
-       38.24
+       -87.21,
+       37.93
       ],
       [
-       -87.68,
-       38.22
-      ],
-      [
-       -87.71,
-       38.15
-      ],
-      [
-       -87.74,
-       38.06
-      ],
-      [
-       -87.74,
-       38.05
-      ],
-      [
-       -87.75,
-       38.02
-      ],
-      [
-       -87.97,
-       38.08
+       -87.84,
+       38.1
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [
-    [
-     -88.1786,
-     38.0873
-    ],
     [
      -87.5805,
      38.3174
@@ -1305,16 +1198,28 @@
     [
      -87.8687,
      38.0276
+    ],
+    [
+     -87.0104,
+     38.0097
+    ],
+    [
+     -87.5862,
+     38.0201
+    ],
+    [
+     -87.272,
+     38.0977
     ]
    ],
-   "lon": -87.864,
-   "lat": 38.133,
+   "lon": -87.564,
+   "lat": 38.1,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KPAH.SV.W.0369.2026",
+   "id": "KPAH.SV.W.0371.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1328,41 +1233,41 @@
     "18051",
     "18125"
    ],
-   "sent": "2026-11-11T22:32:00Z",
-   "onset": "2026-11-11T22:32:00Z",
-   "ends": "2026-11-11T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f40897f7d7099a3e8571d7dc350494673c12fcee.001.1",
+   "sent": "2026-11-11T23:03:00Z",
+   "onset": "2026-11-11T23:03:00Z",
+   "ends": "2026-11-11T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab00c7e553dc4d24c60c7c33fc18ffb037202175.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.55,
-       38.43
+       -87.43,
+       38.4
+      ],
+      [
+       -87.08,
+       38.52
+      ],
+      [
+       -87.09,
+       38.51
+      ],
+      [
+       -87.07,
+       38.51
+      ],
+      [
+       -87.07,
+       38.25
       ],
       [
        -87.44,
-       38.45
+       38.27
       ],
       [
-       -87.26,
-       38.45
-      ],
-      [
-       -87.22,
-       38.39
-      ],
-      [
-       -87.33,
-       38.31
-      ],
-      [
-       -87.57,
-       38.37
-      ],
-      [
-       -87.55,
-       38.43
+       -87.43,
+       38.4
       ]
      ]
     ]
@@ -1378,83 +1283,8 @@
      38.398
     ]
    ],
-   "lon": -87.417,
-   "lat": 38.404,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KIND.SV.W.0360.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Indianapolis IN",
-   "areas": [
-    "Clay, IN",
-    "Owen, IN",
-    "Putnam, IN",
-    "Vigo, IN"
-   ],
-   "counties": [
-    "18021",
-    "18119",
-    "18133",
-    "18167"
-   ],
-   "sent": "2026-11-11T22:33:00Z",
-   "onset": "2026-11-11T22:33:00Z",
-   "ends": "2026-11-11T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a7cd9b295fa94d825309505edede64b9fa7154a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.32,
-       39.45
-      ],
-      [
-       -86.9,
-       39.5
-      ],
-      [
-       -86.92,
-       39.26
-      ],
-      [
-       -87.33,
-       39.32
-      ],
-      [
-       -87.32,
-       39.45
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -87.1159,
-     39.3939
-    ],
-    [
-     -86.8388,
-     39.3173
-    ],
-    [
-     -86.8534,
-     39.6655
-    ],
-    [
-     -87.391,
-     39.4309
-    ]
-   ],
-   "lon": -87.158,
-   "lat": 39.396,
+   "lon": -87.23,
+   "lat": 38.409,
    "countries": [
     "US"
    ]
@@ -1558,199 +1388,6 @@
    ],
    "lon": -87.445,
    "lat": 37.817,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KIND.SV.A.0704.2026",
-   "event": "Severe Thunderstorm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Indianapolis IN",
-   "areas": [
-    "Bartholomew, IN",
-    "Boone, IN",
-    "Brown, IN",
-    "Clay, IN",
-    "Daviess, IN",
-    "Decatur, IN",
-    "Greene, IN",
-    "Hamilton, IN",
-    "Hancock, IN",
-    "Hendricks, IN",
-    "Jackson, IN",
-    "Jennings, IN",
-    "Johnson, IN",
-    "Knox, IN",
-    "Lawrence, IN",
-    "Marion, IN",
-    "Martin, IN",
-    "Monroe, IN",
-    "Montgomery, IN",
-    "Morgan, IN",
-    "Owen, IN",
-    "Parke, IN",
-    "Putnam, IN",
-    "Rush, IN",
-    "Shelby, IN",
-    "Sullivan, IN",
-    "Vermillion, IN",
-    "Vigo, IN"
-   ],
-   "counties": [
-    "18005",
-    "18011",
-    "18013",
-    "18021",
-    "18027",
-    "18031",
-    "18055",
-    "18057",
-    "18059",
-    "18063",
-    "18071",
-    "18079",
-    "18081",
-    "18083",
-    "18093",
-    "18097",
-    "18101",
-    "18105",
-    "18107",
-    "18109",
-    "18119",
-    "18121",
-    "18133",
-    "18139",
-    "18145",
-    "18153",
-    "18165",
-    "18167"
-   ],
-   "sent": "2026-11-11T21:44:00Z",
-   "onset": "2026-11-11T21:44:00Z",
-   "ends": "2026-11-12T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.405817094980de3be3108f82629f57be480a1248.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -85.898,
-     39.2058
-    ],
-    [
-     -86.469,
-     40.0509
-    ],
-    [
-     -86.2301,
-     39.1951
-    ],
-    [
-     -87.1159,
-     39.3939
-    ],
-    [
-     -87.0769,
-     38.6961
-    ],
-    [
-     -85.4998,
-     39.306
-    ],
-    [
-     -87.0048,
-     39.0471
-    ],
-    [
-     -86.0217,
-     40.0535
-    ],
-    [
-     -85.7732,
-     39.8225
-    ],
-    [
-     -86.5099,
-     39.769
-    ],
-    [
-     -86.0425,
-     38.912
-    ],
-    [
-     -85.6281,
-     38.9962
-    ],
-    [
-     -86.0943,
-     39.4961
-    ],
-    [
-     -87.4204,
-     38.6884
-    ],
-    [
-     -86.4878,
-     38.8398
-    ],
-    [
-     -86.1358,
-     39.783
-    ],
-    [
-     -86.8018,
-     38.7053
-    ],
-    [
-     -86.5233,
-     39.1607
-    ],
-    [
-     -86.8927,
-     40.0403
-    ],
-    [
-     -86.4475,
-     39.4826
-    ],
-    [
-     -86.8388,
-     39.3173
-    ],
-    [
-     -87.197,
-     39.7743
-    ],
-    [
-     -86.8534,
-     39.6655
-    ],
-    [
-     -85.4665,
-     39.6224
-    ],
-    [
-     -85.7922,
-     39.5241
-    ],
-    [
-     -87.4158,
-     39.0892
-    ],
-    [
-     -87.4621,
-     39.854
-    ],
-    [
-     -87.391,
-     39.4309
-    ]
-   ],
-   "lon": -86.518,
-   "lat": 39.39,
    "countries": [
     "US"
    ]
@@ -1866,6 +1503,175 @@
    ],
    "lon": -86.354,
    "lat": 38.086,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KIND.SV.A.0704.2026",
+   "event": "Severe Thunderstorm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Indianapolis IN",
+   "areas": [
+    "Bartholomew, IN",
+    "Boone, IN",
+    "Brown, IN",
+    "Clay, IN",
+    "Daviess, IN",
+    "Decatur, IN",
+    "Greene, IN",
+    "Hamilton, IN",
+    "Hancock, IN",
+    "Hendricks, IN",
+    "Jackson, IN",
+    "Jennings, IN",
+    "Johnson, IN",
+    "Knox, IN",
+    "Lawrence, IN",
+    "Marion, IN",
+    "Martin, IN",
+    "Monroe, IN",
+    "Morgan, IN",
+    "Owen, IN",
+    "Putnam, IN",
+    "Rush, IN",
+    "Shelby, IN",
+    "Sullivan, IN"
+   ],
+   "counties": [
+    "18005",
+    "18011",
+    "18013",
+    "18021",
+    "18027",
+    "18031",
+    "18055",
+    "18057",
+    "18059",
+    "18063",
+    "18071",
+    "18079",
+    "18081",
+    "18083",
+    "18093",
+    "18097",
+    "18101",
+    "18105",
+    "18109",
+    "18119",
+    "18133",
+    "18139",
+    "18145",
+    "18153"
+   ],
+   "sent": "2026-11-11T23:02:00Z",
+   "onset": "2026-11-11T23:02:00Z",
+   "ends": "2026-11-12T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9fd6c0dd4b80a63731bc8dbf18a21078124849a.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -85.898,
+     39.2058
+    ],
+    [
+     -86.469,
+     40.0509
+    ],
+    [
+     -86.2301,
+     39.1951
+    ],
+    [
+     -87.1159,
+     39.3939
+    ],
+    [
+     -87.0769,
+     38.6961
+    ],
+    [
+     -85.4998,
+     39.306
+    ],
+    [
+     -87.0048,
+     39.0471
+    ],
+    [
+     -86.0217,
+     40.0535
+    ],
+    [
+     -85.7732,
+     39.8225
+    ],
+    [
+     -86.5099,
+     39.769
+    ],
+    [
+     -86.0425,
+     38.912
+    ],
+    [
+     -85.6281,
+     38.9962
+    ],
+    [
+     -86.0943,
+     39.4961
+    ],
+    [
+     -87.4204,
+     38.6884
+    ],
+    [
+     -86.4878,
+     38.8398
+    ],
+    [
+     -86.1358,
+     39.783
+    ],
+    [
+     -86.8018,
+     38.7053
+    ],
+    [
+     -86.5233,
+     39.1607
+    ],
+    [
+     -86.4475,
+     39.4826
+    ],
+    [
+     -86.8388,
+     39.3173
+    ],
+    [
+     -86.8534,
+     39.6655
+    ],
+    [
+     -85.4665,
+     39.6224
+    ],
+    [
+     -85.7922,
+     39.5241
+    ],
+    [
+     -87.4158,
+     39.0892
+    ]
+   ],
+   "lon": -86.398,
+   "lat": 39.326,
    "countries": [
     "US"
    ]
