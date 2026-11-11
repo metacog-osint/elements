@@ -1,6 +1,69 @@
 {
  "records": [
   {
+   "id": "KIND.TO.W.0082.2026",
+   "event": "Tornado Warning",
+   "severity": "Extreme",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Indianapolis IN",
+   "areas": [
+    "Clay, IN",
+    "Vigo, IN"
+   ],
+   "counties": [
+    "18021",
+    "18167"
+   ],
+   "sent": "2026-11-11T22:27:00Z",
+   "onset": "2026-11-11T22:27:00Z",
+   "ends": "2026-11-11T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e694e40f0b9102fe1b62a89fc0df74b84b8da289.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.37,
+       39.34
+      ],
+      [
+       -87.36,
+       39.4
+      ],
+      [
+       -87.05,
+       39.4
+      ],
+      [
+       -87.07,
+       39.27
+      ],
+      [
+       -87.37,
+       39.34
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -87.1159,
+     39.3939
+    ],
+    [
+     -87.391,
+     39.4309
+    ]
+   ],
+   "lon": -87.244,
+   "lat": 39.35,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FL.W.0008.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1105,55 +1168,45 @@
    ]
   },
   {
-   "id": "KPAH.SV.W.0368.2026",
+   "id": "KIND.SV.W.0359.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
-   "sender": "NWS Paducah KY",
+   "sender": "NWS Indianapolis IN",
    "areas": [
-    "Edwards, IL",
-    "Wabash, IL",
-    "Wayne, IL",
-    "White, IL",
-    "Gibson, IN",
-    "Posey, IN"
+    "Vigo, IN"
    ],
    "counties": [
-    "17047",
-    "17185",
-    "17191",
-    "17193",
-    "18051",
-    "18129"
+    "18167"
    ],
-   "sent": "2026-11-11T21:56:00Z",
-   "onset": "2026-11-11T21:56:00Z",
+   "sent": "2026-11-11T22:24:00Z",
+   "onset": "2026-11-11T22:24:00Z",
    "ends": "2026-11-11T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eddb737c444541aa952e6bc0be7cbef7c18d086d.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8974d197ae07deac4064c01b3fbbbdef1f9de3aa.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -88.3,
-       38.19
+       -87.39,
+       39.34
       ],
       [
-       -88.26,
-       38.29
+       -87.38,
+       39.44
       ],
       [
-       -87.66,
-       38.27
+       -87.26,
+       39.46
       ],
       [
-       -87.76,
-       38
+       -87.28,
+       39.31
       ],
       [
-       -88.3,
-       38.19
+       -87.39,
+       39.34
       ]
      ]
     ]
@@ -1161,17 +1214,86 @@
    "vtec": true,
    "points": [
     [
-     -88.0479,
-     38.4171
-    ],
-    [
-     -87.8392,
-     38.4458
-    ],
-    [
-     -88.4324,
-     38.4319
-    ],
+     -87.391,
+     39.4309
+    ]
+   ],
+   "lon": -87.34,
+   "lat": 39.378,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.SV.W.0368.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "White, IL",
+    "Gibson, IN",
+    "Posey, IN"
+   ],
+   "counties": [
+    "17193",
+    "18051",
+    "18129"
+   ],
+   "sent": "2026-11-11T22:28:00Z",
+   "onset": "2026-11-11T22:28:00Z",
+   "ends": "2026-11-11T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b16e3970d721664d049abb2e30b2d267b202876d.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.97,
+       38.08
+      ],
+      [
+       -88.08,
+       38.18
+      ],
+      [
+       -88.03,
+       38.25
+      ],
+      [
+       -87.97,
+       38.24
+      ],
+      [
+       -87.68,
+       38.22
+      ],
+      [
+       -87.71,
+       38.15
+      ],
+      [
+       -87.74,
+       38.06
+      ],
+      [
+       -87.74,
+       38.05
+      ],
+      [
+       -87.75,
+       38.02
+      ],
+      [
+       -87.97,
+       38.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
     [
      -88.1786,
      38.0873
@@ -1185,122 +1307,154 @@
      38.0276
     ]
    ],
-   "lon": -88.056,
-   "lat": 38.188,
+   "lon": -87.864,
+   "lat": 38.133,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KIND.SV.W.0359.2026",
+   "id": "KPAH.SV.W.0369.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Gibson, IN",
+    "Pike, IN"
+   ],
+   "counties": [
+    "18051",
+    "18125"
+   ],
+   "sent": "2026-11-11T22:32:00Z",
+   "onset": "2026-11-11T22:32:00Z",
+   "ends": "2026-11-11T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f40897f7d7099a3e8571d7dc350494673c12fcee.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.55,
+       38.43
+      ],
+      [
+       -87.44,
+       38.45
+      ],
+      [
+       -87.26,
+       38.45
+      ],
+      [
+       -87.22,
+       38.39
+      ],
+      [
+       -87.33,
+       38.31
+      ],
+      [
+       -87.57,
+       38.37
+      ],
+      [
+       -87.55,
+       38.43
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -87.5805,
+     38.3174
+    ],
+    [
+     -87.2325,
+     38.398
+    ]
+   ],
+   "lon": -87.417,
+   "lat": 38.404,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KIND.SV.W.0360.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Indianapolis IN",
    "areas": [
+    "Clay, IN",
+    "Owen, IN",
+    "Putnam, IN",
     "Vigo, IN"
    ],
    "counties": [
+    "18021",
+    "18119",
+    "18133",
     "18167"
    ],
-   "sent": "2026-11-11T21:56:00Z",
-   "onset": "2026-11-11T21:56:00Z",
-   "ends": "2026-11-11T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa108104e01ed04dc5121fea5a6b18c32dfe1f1e.001.1",
+   "sent": "2026-11-11T22:33:00Z",
+   "onset": "2026-11-11T22:33:00Z",
+   "ends": "2026-11-11T23:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a7cd9b295fa94d825309505edede64b9fa7154a.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.53,
-       39.33
+       -87.32,
+       39.45
       ],
       [
-       -87.53,
-       39.47
+       -86.9,
+       39.5
       ],
       [
-       -87.26,
-       39.52
+       -86.92,
+       39.26
       ],
       [
-       -87.28,
-       39.29
+       -87.33,
+       39.32
       ],
       [
-       -87.53,
-       39.33
+       -87.32,
+       39.45
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [
+    [
+     -87.1159,
+     39.3939
+    ],
+    [
+     -86.8388,
+     39.3173
+    ],
+    [
+     -86.8534,
+     39.6655
+    ],
     [
      -87.391,
      39.4309
     ]
    ],
-   "lon": -87.426,
-   "lat": 39.388,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILX.SV.W.0383.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Lincoln IL",
-   "areas": [
-    "Clark, IL"
-   ],
-   "counties": [
-    "17023"
-   ],
-   "sent": "2026-11-11T21:57:00Z",
-   "onset": "2026-11-11T21:57:00Z",
-   "ends": "2026-11-11T22:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.499901a85bcb62aad24f2e6d66701e997dd9d65f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.59,
-       39.36
-      ],
-      [
-       -87.59,
-       39.44
-      ],
-      [
-       -87.53,
-       39.45
-      ],
-      [
-       -87.53,
-       39.35
-      ],
-      [
-       -87.59,
-       39.36
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -87.7917,
-     39.3323
-    ]
-   ],
-   "lon": -87.566,
-   "lat": 39.392,
+   "lon": -87.158,
+   "lat": 39.396,
    "countries": [
     "US"
    ]
