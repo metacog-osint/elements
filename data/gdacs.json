@@ -45,6 +45,27 @@
    "countries": []
   },
   {
+   "id": "FL-1104276",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 2,
+   "name": "Flood in Portugal",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-07T01:00:00Z",
+   "to": "2026-11-12T01:00:00Z",
+   "current": true,
+   "country": "Portugal",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=2&eventtype=FL",
+   "lon": -15.867,
+   "lat": 30.146,
+   "countries": []
+  },
+  {
    "id": "FL-1104272",
    "type": "FL",
    "kind": "flood",
@@ -137,27 +158,6 @@
    ]
   },
   {
-   "id": "FL-1104276",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Portugal",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-07T01:00:00Z",
-   "to": "2026-11-09T01:00:00Z",
-   "current": true,
-   "country": "Portugal",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=1&eventtype=FL",
-   "lon": -16.89,
-   "lat": 32.647,
-   "countries": []
-  },
-  {
    "id": "TC-1001348",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -246,6 +246,29 @@
    ]
   },
   {
+   "id": "FL-1104278",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Angola",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-04T01:00:00Z",
+   "to": "2026-11-08T01:00:00Z",
+   "current": true,
+   "country": "Angola",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104278&episodeid=1&eventtype=FL",
+   "lon": 13.244,
+   "lat": -8.827,
+   "countries": [
+    "AO"
+   ]
+  },
+  {
    "id": "FL-1104267",
    "type": "FL",
    "kind": "flood",
@@ -265,6 +288,29 @@
    "lon": 28.168,
    "lat": 43.405,
    "countries": []
+  },
+  {
+   "id": "FL-1104269",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 3,
+   "name": "Flood in Democratic Republic of Congo",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-01T01:00:00Z",
+   "to": "2026-11-11T01:00:00Z",
+   "current": true,
+   "country": "Democratic Republic of Congo",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104269&episodeid=3&eventtype=FL",
+   "lon": 19.366,
+   "lat": 3.028,
+   "countries": [
+    "CD"
+   ]
   },
   {
    "id": "FL-1104268",
@@ -290,29 +336,6 @@
    ]
   },
   {
-   "id": "FL-1104269",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Democratic Republic of Congo",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-01T01:00:00Z",
-   "to": "2026-11-03T01:00:00Z",
-   "current": false,
-   "country": "Democratic Republic of Congo",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104269&episodeid=1&eventtype=FL",
-   "lon": 25.918,
-   "lat": -2.949,
-   "countries": [
-    "CD"
-   ]
-  },
-  {
    "id": "TC-1001346",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -333,6 +356,29 @@
    "lat": 15.8,
    "countries": [
     "IN"
+   ]
+  },
+  {
+   "id": "FL-1104279",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Uganda",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-10-31T01:00:00Z",
+   "to": "2026-11-03T01:00:00Z",
+   "current": false,
+   "country": "Uganda",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104279&episodeid=1&eventtype=FL",
+   "lon": 31.793,
+   "lat": 3.366,
+   "countries": [
+    "UG"
    ]
   },
   {
@@ -724,7 +770,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 19,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -736,9 +782,9 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=19&eventtype=FL",
-   "lon": 10.289,
-   "lat": 43.996,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]
