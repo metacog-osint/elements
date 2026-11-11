@@ -1,6 +1,25 @@
 {
  "records": [
   {
+   "id": "NTWC-20261111T014531Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-11T01:51:32Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "65 miles SW of Port Alice, British Columbia",
+   "magnitude": 4.7,
+   "magnitude_type": "Ml",
+   "origin": "2026-11-11T01:45:31Z",
+   "depth_km": 12.0,
+   "lat": 49.293,
+   "lon": -127.676,
+   "countries": [],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/11/tobe7v/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "PTWC-20261108T063017Z",
    "centre": "PTWC",
    "msg_type": "Alert",
