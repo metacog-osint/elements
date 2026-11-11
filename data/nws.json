@@ -1293,7 +1293,44 @@
    ]
   },
   {
-   "id": "KHGX.MA.W.0086.2026",
+   "id": "KREV.HW.A.0003.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Surprise Valley California",
+    "Northern Washoe County"
+   ],
+   "counties": [
+    "06049",
+    "32031"
+   ],
+   "sent": "2026-11-11T09:04:00Z",
+   "onset": "2026-11-13T18:00:00Z",
+   "ends": "2026-11-14T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.febf73a57340cd3b6f415b2a87160c98c0f36083.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.7184,
+     41.5929
+    ],
+    [
+     -119.6633,
+     40.7313
+    ]
+   ],
+   "lon": -120.191,
+   "lat": 41.162,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHGX.MA.W.0087.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1307,57 +1344,49 @@
     "77370",
     "77375"
    ],
-   "sent": "2026-11-11T08:04:00Z",
-   "onset": "2026-11-11T08:04:00Z",
-   "ends": "2026-11-11T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a388e2da7801512b54f9e875c2686f623f85568.001.1",
+   "sent": "2026-11-11T09:00:00Z",
+   "onset": "2026-11-11T09:00:00Z",
+   "ends": "2026-11-11T10:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de8ba39b3821e8b193bf024688ce616f307522c8.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -94.47,
-       28.24
-      ],
-      [
        -94.6,
        28.18
       ],
       [
-       -94.65,
-       28.14
+       -94.77,
+       28.04
       ],
       [
-       -95.11,
-       28.08
-      ],
-      [
-       -95.41,
+       -95.21,
        28.11
       ],
       [
-       -95.51,
-       28.3
+       -95.23,
+       28.41
       ],
       [
-       -94.47,
-       28.64
+       -94.21,
+       28.77
       ],
       [
-       -94.35,
-       28.32
+       -94.09,
+       28.48
       ],
       [
-       -94.47,
-       28.24
+       -94.6,
+       28.18
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -94.782,
-   "lat": 28.25,
+   "lon": -94.673,
+   "lat": 28.31,
    "countries": [
     "US"
    ]
