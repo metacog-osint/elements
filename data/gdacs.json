@@ -45,11 +45,11 @@
    "countries": []
   },
   {
-   "id": "FL-1104272",
+   "id": "FL-1104276",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Iraq",
+   "name": "Flood in Portugal",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -58,21 +58,19 @@
    "from": "2026-11-07T01:00:00Z",
    "to": "2026-11-09T01:00:00Z",
    "current": true,
-   "country": "Iraq",
+   "country": "Portugal",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104272&episodeid=1&eventtype=FL",
-   "lon": 44.009,
-   "lat": 36.191,
-   "countries": [
-    "IQ"
-   ]
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=1&eventtype=FL",
+   "lon": -16.89,
+   "lat": 32.647,
+   "countries": []
   },
   {
-   "id": "FL-1104273",
+   "id": "FL-1104275",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Israel",
+   "name": "Flood in Venezuela",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -81,13 +79,13 @@
    "from": "2026-11-07T01:00:00Z",
    "to": "2026-11-09T01:00:00Z",
    "current": true,
-   "country": "Israel",
+   "country": "Venezuela",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104273&episodeid=1&eventtype=FL",
-   "lon": 34.857,
-   "lat": 32.329,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104275&episodeid=1&eventtype=FL",
+   "lon": -67.919,
+   "lat": 10.176,
    "countries": [
-    "IL"
+    "VE"
    ]
   },
   {
@@ -114,11 +112,11 @@
    ]
   },
   {
-   "id": "FL-1104275",
+   "id": "FL-1104273",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Venezuela",
+   "name": "Flood in Israel",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -127,21 +125,21 @@
    "from": "2026-11-07T01:00:00Z",
    "to": "2026-11-09T01:00:00Z",
    "current": true,
-   "country": "Venezuela",
+   "country": "Israel",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104275&episodeid=1&eventtype=FL",
-   "lon": -67.919,
-   "lat": 10.176,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104273&episodeid=1&eventtype=FL",
+   "lon": 34.857,
+   "lat": 32.329,
    "countries": [
-    "VE"
+    "IL"
    ]
   },
   {
-   "id": "FL-1104276",
+   "id": "FL-1104272",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Portugal",
+   "name": "Flood in Iraq",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -150,18 +148,20 @@
    "from": "2026-11-07T01:00:00Z",
    "to": "2026-11-09T01:00:00Z",
    "current": true,
-   "country": "Portugal",
+   "country": "Iraq",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=1&eventtype=FL",
-   "lon": -16.89,
-   "lat": 32.647,
-   "countries": []
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104272&episodeid=1&eventtype=FL",
+   "lon": 44.009,
+   "lat": 36.191,
+   "countries": [
+    "IQ"
+   ]
   },
   {
    "id": "TC-1001348",
    "type": "TC",
    "kind": "tropical cyclone",
-   "episode": 18,
+   "episode": 19,
    "name": "Tropical Cyclone PENA-26",
    "alert": "green",
    "score": 1,
@@ -169,13 +169,13 @@
    "severity_value": 92.592,
    "severity_unit": "km/h",
    "from": "2026-11-06T21:00:00Z",
-   "to": "2026-11-11T03:00:00Z",
+   "to": "2026-11-11T09:00:00Z",
    "current": true,
    "country": "",
    "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=18&eventtype=TC",
-   "lon": -166.0,
-   "lat": 10.5,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=19&eventtype=TC",
+   "lon": -166.7,
+   "lat": 10.1,
    "countries": []
   },
   {
@@ -267,29 +267,6 @@
    "countries": []
   },
   {
-   "id": "FL-1104268",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Spain",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-01T01:00:00Z",
-   "to": "2026-11-03T01:00:00Z",
-   "current": false,
-   "country": "Spain",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104268&episodeid=1&eventtype=FL",
-   "lon": -16.621,
-   "lat": 28.294,
-   "countries": [
-    "ES"
-   ]
-  },
-  {
    "id": "FL-1104269",
    "type": "FL",
    "kind": "flood",
@@ -310,6 +287,29 @@
    "lat": -2.949,
    "countries": [
     "CD"
+   ]
+  },
+  {
+   "id": "FL-1104268",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Spain",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-01T01:00:00Z",
+   "to": "2026-11-03T01:00:00Z",
+   "current": false,
+   "country": "Spain",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104268&episodeid=1&eventtype=FL",
+   "lon": -16.621,
+   "lat": 28.294,
+   "countries": [
+    "ES"
    ]
   },
   {
@@ -405,11 +405,11 @@
    ]
   },
   {
-   "id": "FL-1104260",
+   "id": "FL-1104263",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Romania",
+   "name": "Flood in Syria",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -418,13 +418,13 @@
    "from": "2026-10-27T01:00:00Z",
    "to": "2026-10-29T01:00:00Z",
    "current": false,
-   "country": "Romania",
+   "country": "Syria",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104260&episodeid=1&eventtype=FL",
-   "lon": 28.292,
-   "lat": 44.268,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104263&episodeid=1&eventtype=FL",
+   "lon": 39.015,
+   "lat": 35.963,
    "countries": [
-    "RO"
+    "SY"
    ]
   },
   {
@@ -451,11 +451,11 @@
    ]
   },
   {
-   "id": "FL-1104263",
+   "id": "FL-1104260",
    "type": "FL",
    "kind": "flood",
    "episode": 1,
-   "name": "Flood in Syria",
+   "name": "Flood in Romania",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
@@ -464,36 +464,13 @@
    "from": "2026-10-27T01:00:00Z",
    "to": "2026-10-29T01:00:00Z",
    "current": false,
-   "country": "Syria",
+   "country": "Romania",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104263&episodeid=1&eventtype=FL",
-   "lon": 39.015,
-   "lat": 35.963,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104260&episodeid=1&eventtype=FL",
+   "lon": 28.292,
+   "lat": 44.268,
    "countries": [
-    "SY"
-   ]
-  },
-  {
-   "id": "FL-1104254",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 7,
-   "name": "Flood in Türkiye",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-06T01:00:00Z",
-   "current": false,
-   "country": "Türkiye",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104254&episodeid=7&eventtype=FL",
-   "lon": 36.075,
-   "lat": 36.345,
-   "countries": [
-    "TR"
+    "RO"
    ]
   },
   {
@@ -517,6 +494,29 @@
    "lat": -4.155,
    "countries": [
     "PE"
+   ]
+  },
+  {
+   "id": "FL-1104254",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 7,
+   "name": "Flood in Türkiye",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-10-26T01:00:00Z",
+   "to": "2026-11-06T01:00:00Z",
+   "current": false,
+   "country": "Türkiye",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104254&episodeid=7&eventtype=FL",
+   "lon": 36.075,
+   "lat": 36.345,
+   "countries": [
+    "TR"
    ]
   },
   {
@@ -1020,29 +1020,6 @@
    ]
   },
   {
-   "id": "DR-1023877",
-   "type": "DR",
-   "kind": "drought",
-   "episode": 13,
-   "name": "Drought in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 1552123.0,
-   "severity_unit": "km2",
-   "from": "2022-09-21T00:00:00Z",
-   "to": "2026-11-09T00:00:00Z",
-   "current": false,
-   "country": "Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-   "severity": "Minor impact for agricultural drought in 1552123 km2",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1023877&episodeid=13&eventtype=DR",
-   "lon": -66.675,
-   "lat": 7.108,
-   "countries": [
-    "VE"
-   ]
-  },
-  {
    "id": "DR-1015915",
    "type": "DR",
    "kind": "drought",
@@ -1063,6 +1040,29 @@
    "lat": -11.151,
    "countries": [
     "BR"
+   ]
+  },
+  {
+   "id": "DR-1023877",
+   "type": "DR",
+   "kind": "drought",
+   "episode": 13,
+   "name": "Drought in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 1552123.0,
+   "severity_unit": "km2",
+   "from": "2022-09-21T00:00:00Z",
+   "to": "2026-11-09T00:00:00Z",
+   "current": false,
+   "country": "Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+   "severity": "Minor impact for agricultural drought in 1552123 km2",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1023877&episodeid=13&eventtype=DR",
+   "lon": -66.675,
+   "lat": 7.108,
+   "countries": [
+    "VE"
    ]
   }
  ]
