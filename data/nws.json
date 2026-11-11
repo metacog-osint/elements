@@ -265,136 +265,6 @@
    ]
   },
   {
-   "id": "KEWX.FL.W.0064.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-10T19:09:00Z",
-   "onset": "2026-11-10T19:09:00Z",
-   "ends": "2026-11-11T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f59c24f132a651e14d4ac67c5f0ef903b334f9a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.18,
-       29.96
-      ],
-      [
-       -101.1,
-       29.96
-      ],
-      [
-       -100.97,
-       29.89
-      ],
-      [
-       -100.95,
-       29.71
-      ],
-      [
-       -101.03,
-       29.68
-      ],
-      [
-       -101.05,
-       29.86
-      ],
-      [
-       -101.18,
-       29.96
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -101.066,
-   "lat": 29.86,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEWX.FL.W.0061.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-10T19:09:00Z",
-   "onset": "2026-11-10T19:09:00Z",
-   "ends": "2026-11-11T07:33:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f59c24f132a651e14d4ac67c5f0ef903b334f9a.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.03,
-       29.68
-      ],
-      [
-       -100.95,
-       29.71
-      ],
-      [
-       -100.89,
-       29.66
-      ],
-      [
-       -100.92,
-       29.56
-      ],
-      [
-       -101,
-       29.53
-      ],
-      [
-       -100.97,
-       29.63
-      ],
-      [
-       -101.03,
-       29.68
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -100.97,
-   "lat": 29.636,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEWX.FL.W.0062.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -818,6 +688,71 @@
    ]
   },
   {
+   "id": "KEWX.FL.W.0064.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Val Verde, TX"
+   ],
+   "counties": [
+    "48465"
+   ],
+   "sent": "2026-11-11T01:08:00Z",
+   "onset": "2026-11-11T01:08:00Z",
+   "ends": "2026-11-12T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2ff25da3a9c89eb22325daaf2dbf7d3e8a4c798.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -101.18,
+       29.96
+      ],
+      [
+       -101.1,
+       29.96
+      ],
+      [
+       -100.97,
+       29.89
+      ],
+      [
+       -100.95,
+       29.71
+      ],
+      [
+       -101.03,
+       29.68
+      ],
+      [
+       -101.05,
+       29.86
+      ],
+      [
+       -101.18,
+       29.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -101.1433,
+     29.8753
+    ]
+   ],
+   "lon": -101.066,
+   "lat": 29.86,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KSEW.FA.A.0010.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -979,32 +914,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.7459.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-10T00:48:00Z",
-   "onset": "2026-11-10T00:00:00Z",
-   "ends": "2026-11-11T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.7457.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1021,6 +930,32 @@
    "onset": "2026-11-10T00:00:00Z",
    "ends": "2026-11-11T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7459.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island out to 15 NM"
+   ],
+   "counties": [
+    "58814"
+   ],
+   "sent": "2026-11-10T00:48:00Z",
+   "onset": "2026-11-10T00:00:00Z",
+   "ends": "2026-11-11T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1655,62 +1590,6 @@
    ]
   },
   {
-   "id": "KHNX.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Yosemite NP outside of the valley",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP"
-   ],
-   "counties": [
-    "06019",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-10T17:30:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-17T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9546df513f9df135046fbc8b643ade53af657d3b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.612,
-   "lat": 37.159,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KREV.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -1863,6 +1742,62 @@
    ],
    "lon": -120.77,
    "lat": 39.3,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP"
+   ],
+   "counties": [
+    "06019",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-11T01:31:00Z",
+   "onset": "2026-11-14T00:00:00Z",
+   "ends": "2026-11-17T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee59ab5326570c4e742c5e6ad50825209be4b03.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.612,
+   "lat": 37.159,
    "countries": [
     "US"
    ]
