@@ -1138,53 +1138,51 @@
    ]
   },
   {
-   "id": "KPAH.SV.W.0370.2026",
+   "id": "KLMK.SV.W.0243.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
-   "sender": "NWS Paducah KY",
+   "sender": "NWS Louisville KY",
    "areas": [
-    "Gibson, IN",
-    "Posey, IN",
-    "Spencer, IN",
-    "Vanderburgh, IN",
-    "Warrick, IN"
+    "Crawford, IN",
+    "Perry, IN"
    ],
    "counties": [
-    "18051",
-    "18129",
-    "18147",
-    "18163",
-    "18173"
+    "18025",
+    "18123"
    ],
-   "sent": "2026-11-11T22:52:00Z",
-   "onset": "2026-11-11T22:52:00Z",
-   "ends": "2026-11-11T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29926b5d664bc0adda3bd8310467282fadd377fa.001.1",
+   "sent": "2026-11-11T23:19:00Z",
+   "onset": "2026-11-11T23:19:00Z",
+   "ends": "2026-11-11T23:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcb7ddab4726cc32f47796f00344bcee1f044e6d.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.84,
-       38.1
+       -86.68,
+       38.37
       ],
       [
-       -87.81,
+       -86.38,
+       38.38
+      ],
+      [
+       -86.41,
        38.2
       ],
       [
-       -87.12,
-       38.17
+       -86.69,
+       38.25
       ],
       [
-       -87.21,
-       37.93
+       -86.68,
+       38.25
       ],
       [
-       -87.84,
-       38.1
+       -86.68,
+       38.37
       ]
      ]
     ]
@@ -1192,13 +1190,126 @@
    "vtec": true,
    "points": [
     [
-     -87.5805,
-     38.3174
+     -86.4409,
+     38.2894
     ],
     [
-     -87.8687,
-     38.0276
-    ],
+     -86.6265,
+     38.0814
+    ]
+   ],
+   "lon": -86.587,
+   "lat": 38.303,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.SV.W.0372.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Spencer, IN",
+    "Vanderburgh, IN",
+    "Warrick, IN",
+    "Daviess, KY",
+    "Henderson, KY"
+   ],
+   "counties": [
+    "18147",
+    "18163",
+    "18173",
+    "21059",
+    "21101"
+   ],
+   "sent": "2026-11-11T23:30:00Z",
+   "onset": "2026-11-11T23:30:00Z",
+   "ends": "2026-11-12T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b56548c9a91d9a3c30806a8bbe02c814aa9d7497.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.54,
+       38.14
+      ],
+      [
+       -86.8,
+       38.13
+      ],
+      [
+       -86.8,
+       38.11
+      ],
+      [
+       -86.77,
+       38.09
+      ],
+      [
+       -86.79,
+       38.04
+      ],
+      [
+       -86.77,
+       38
+      ],
+      [
+       -86.8,
+       38.02
+      ],
+      [
+       -86.92,
+       37.94
+      ],
+      [
+       -86.98,
+       37.93
+      ],
+      [
+       -86.99,
+       37.9
+      ],
+      [
+       -86.98,
+       37.89
+      ],
+      [
+       -86.91,
+       37.9
+      ],
+      [
+       -86.92,
+       37.89
+      ],
+      [
+       -86.91,
+       37.87
+      ],
+      [
+       -86.85,
+       37.83
+      ],
+      [
+       -86.91,
+       37.86
+      ],
+      [
+       -87.57,
+       37.93
+      ],
+      [
+       -87.54,
+       38.14
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
     [
      -87.0104,
      38.0097
@@ -1210,81 +1321,18 @@
     [
      -87.272,
      38.0977
-    ]
-   ],
-   "lon": -87.564,
-   "lat": 38.1,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPAH.SV.W.0371.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Gibson, IN",
-    "Pike, IN"
-   ],
-   "counties": [
-    "18051",
-    "18125"
-   ],
-   "sent": "2026-11-11T23:03:00Z",
-   "onset": "2026-11-11T23:03:00Z",
-   "ends": "2026-11-11T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab00c7e553dc4d24c60c7c33fc18ffb037202175.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.43,
-       38.4
-      ],
-      [
-       -87.08,
-       38.52
-      ],
-      [
-       -87.09,
-       38.51
-      ],
-      [
-       -87.07,
-       38.51
-      ],
-      [
-       -87.07,
-       38.25
-      ],
-      [
-       -87.44,
-       38.27
-      ],
-      [
-       -87.43,
-       38.4
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -87.5805,
-     38.3174
     ],
     [
-     -87.2325,
-     38.398
+     -87.0871,
+     37.7317
+    ],
+    [
+     -87.5726,
+     37.7925
     ]
    ],
-   "lon": -87.23,
-   "lat": 38.409,
+   "lon": -86.986,
+   "lat": 37.978,
    "countries": [
     "US"
    ]

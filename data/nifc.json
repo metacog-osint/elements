@@ -242,9 +242,9 @@
    "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
    "name": "Campbell - Glassman Way",
    "acres": 380.0,
-   "contained": 65,
+   "contained": 85,
    "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-11T16:05:32Z",
+   "updated": "2026-11-11T23:08:19Z",
    "state": "TN",
    "county": "Campbell",
    "cause": "Undetermined",
@@ -342,7 +342,7 @@
    "acres": 157.0,
    "contained": null,
    "discovered": "2026-11-11T17:48:16Z",
-   "updated": "2026-11-11T22:51:33Z",
+   "updated": "2026-11-11T23:10:24Z",
    "state": "OR",
    "county": "Umatilla",
    "cause": "Undetermined",
@@ -391,20 +391,6 @@
    "complexity": null,
    "lon": -107.6783,
    "lat": 45.6517
-  },
-  {
-   "id": "{9388C3E5-A696-47EF-9755-E0C68FF206A9}",
-   "name": "Clark 289",
-   "acres": 100.0,
-   "contained": null,
-   "discovered": "2026-11-11T16:31:08Z",
-   "updated": "2026-11-11T18:56:49Z",
-   "state": "AR",
-   "county": "Clark",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.0517,
-   "lat": 34.0189
   },
   {
    "id": "{68283E6E-6298-4C38-9CF1-BEF4AD459031}",
@@ -505,6 +491,20 @@
    "lat": 45.5206
   },
   {
+   "id": "{A573CA6F-2FD5-4C84-9D7B-77138FC509E3}",
+   "name": "Hwy 194",
+   "acres": 40.0,
+   "contained": 60,
+   "discovered": "2026-11-11T20:15:00Z",
+   "updated": "2026-11-11T23:04:00Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.1785,
+   "lat": 37.4415
+  },
+  {
    "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
    "name": "Parkers Branch",
    "acres": 35.0,
@@ -603,6 +603,34 @@
    "lat": 44.6844
   },
   {
+   "id": "{511EEE43-7D20-4B02-AAD6-88C05EB88954}",
+   "name": "Smith Bend #2",
+   "acres": 10.0,
+   "contained": 60,
+   "discovered": "2026-11-11T21:05:00Z",
+   "updated": "2026-11-11T23:12:03Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.0043,
+   "lat": 36.7588
+  },
+  {
+   "id": "{EACF44CC-7B5E-45BA-A217-0416E47D72F9}",
+   "name": "Highway 988",
+   "acres": 7.0,
+   "contained": 50,
+   "discovered": "2026-11-11T19:45:00Z",
+   "updated": "2026-11-11T23:18:58Z",
+   "state": "KY",
+   "county": "Bell",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6535,
+   "lat": 36.651
+  },
+  {
    "id": "{0486B60F-4C26-4E7E-80FB-D4E7C2F6E436}",
    "name": "Cinder",
    "acres": 6.2,
@@ -615,6 +643,20 @@
    "complexity": null,
    "lon": -89.4073,
    "lat": 45.4675
+  },
+  {
+   "id": "{64416AB0-29AA-442B-87F7-53E824E6AA26}",
+   "name": "Bosco Tipple Road 2",
+   "acres": 6.0,
+   "contained": 100,
+   "discovered": "2026-11-11T20:05:00Z",
+   "updated": "2026-11-11T23:01:07Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.8444,
+   "lat": 37.4947
   },
   {
    "id": "{516FCDD1-F16E-42EC-9003-4BDD0661E2C8}",
@@ -659,32 +701,18 @@
    "lat": 34.5447
   },
   {
-   "id": "{EACF44CC-7B5E-45BA-A217-0416E47D72F9}",
-   "name": "Highway 988",
+   "id": "{C8B30EDD-1CBF-40A9-91A7-F8B34556F1CD}",
+   "name": "229 Pine Springs Road",
    "acres": 5.0,
    "contained": 0,
-   "discovered": "2026-11-11T19:45:00Z",
-   "updated": "2026-11-11T21:38:54Z",
+   "discovered": "2026-11-11T22:02:00Z",
+   "updated": "2026-11-11T23:02:50Z",
    "state": "KY",
-   "county": "Bell",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6535,
-   "lat": 36.651
-  },
-  {
-   "id": "{511EEE43-7D20-4B02-AAD6-88C05EB88954}",
-   "name": "Smith Bend #2",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-11T21:05:00Z",
-   "updated": "2026-11-11T22:28:36Z",
-   "state": "KY",
-   "county": "Whitley",
+   "county": "Carter",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -84.0043,
-   "lat": 36.7588
+   "lon": -83.0762,
+   "lat": 38.2349
   },
   {
    "id": "{7869AA5D-4751-4BBA-B0FC-221F36C6248B}",
@@ -869,18 +897,18 @@
    "lat": 35.0099
   },
   {
-   "id": "{C8B30EDD-1CBF-40A9-91A7-F8B34556F1CD}",
-   "name": "229 Pine Springs Road",
+   "id": "{6BED5254-28A6-4051-90CD-F1431AA1E05F}",
+   "name": "Lawrence County - 1622 Morgans Creek Road",
    "acres": 1.0,
    "contained": 0,
-   "discovered": "2026-11-11T22:02:00Z",
-   "updated": "2026-11-11T22:44:33Z",
+   "discovered": "2026-11-11T21:51:00Z",
+   "updated": "2026-11-11T22:59:28Z",
    "state": "KY",
-   "county": "Carter",
+   "county": "Lawrence",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -83.0762,
-   "lat": 38.2349
+   "lon": -82.7262,
+   "lat": 38.1433
   },
   {
    "id": "{CBD9BB23-B11B-4D4C-B223-4DB49C5B0038}",
@@ -895,6 +923,34 @@
    "complexity": null,
    "lon": -92.5365,
    "lat": 34.5632
+  },
+  {
+   "id": "{81663270-87CD-47FD-9D03-FA16AD84EDB4}",
+   "name": "Jefferson 359",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-11T22:33:27Z",
+   "updated": "2026-11-11T22:54:05Z",
+   "state": "AR",
+   "county": "Jefferson",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.0287,
+   "lat": 34.3781
+  },
+  {
+   "id": "{71FE5F63-7CD6-46B1-A7E8-55A5FAEC77C1}",
+   "name": "White 226",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-11T22:56:07Z",
+   "updated": "2026-11-11T23:14:26Z",
+   "state": "AR",
+   "county": "White",
+   "cause": null,
+   "complexity": null,
+   "lon": -91.9566,
+   "lat": 35.069
   },
   {
    "id": "{0F0F19CA-C7F8-4924-8E0D-E5B8AA3A2EDD}",
