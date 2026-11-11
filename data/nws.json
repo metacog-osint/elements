@@ -298,136 +298,6 @@
    ]
   },
   {
-   "id": "KEWX.FL.W.0064.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-11T01:08:00Z",
-   "onset": "2026-11-11T01:08:00Z",
-   "ends": "2026-11-12T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2ff25da3a9c89eb22325daaf2dbf7d3e8a4c798.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.18,
-       29.96
-      ],
-      [
-       -101.1,
-       29.96
-      ],
-      [
-       -100.97,
-       29.89
-      ],
-      [
-       -100.95,
-       29.71
-      ],
-      [
-       -101.03,
-       29.68
-      ],
-      [
-       -101.05,
-       29.86
-      ],
-      [
-       -101.18,
-       29.96
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -101.066,
-   "lat": 29.86,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEWX.FL.W.0065.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Val Verde, TX"
-   ],
-   "counties": [
-    "48465"
-   ],
-   "sent": "2026-11-11T04:33:00Z",
-   "onset": "2026-11-11T05:00:00Z",
-   "ends": "2026-11-11T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9360ce98f35b5e5460bc4994d1a8f59c5ab36665.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -101.15,
-       30.1
-      ],
-      [
-       -101.07,
-       30.1
-      ],
-      [
-       -101.14,
-       30.03
-      ],
-      [
-       -101.1,
-       29.96
-      ],
-      [
-       -101.18,
-       29.96
-      ],
-      [
-       -101.22,
-       30.03
-      ],
-      [
-       -101.15,
-       30.1
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -101.1433,
-     29.8753
-    ]
-   ],
-   "lon": -101.144,
-   "lat": 30.04,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.FL.W.0036.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -846,6 +716,71 @@
    ],
    "lon": -81.402,
    "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEWX.FL.W.0064.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Val Verde, TX"
+   ],
+   "counties": [
+    "48465"
+   ],
+   "sent": "2026-11-11T14:33:00Z",
+   "onset": "2026-11-11T14:33:00Z",
+   "ends": "2026-11-12T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27c4a3005b47304126e42a25d6cb6d3b48d027c6.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -101.18,
+       29.96
+      ],
+      [
+       -101.1,
+       29.96
+      ],
+      [
+       -100.97,
+       29.89
+      ],
+      [
+       -100.95,
+       29.71
+      ],
+      [
+       -101.03,
+       29.68
+      ],
+      [
+       -101.05,
+       29.86
+      ],
+      [
+       -101.18,
+       29.96
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -101.1433,
+     29.8753
+    ]
+   ],
+   "lon": -101.066,
+   "lat": 29.86,
    "countries": [
     "US"
    ]
@@ -1370,10 +1305,10 @@
     "17161",
     "19163"
    ],
-   "sent": "2026-11-11T13:59:00Z",
-   "onset": "2026-11-11T13:59:00Z",
+   "sent": "2026-11-11T14:11:00Z",
+   "onset": "2026-11-11T14:11:00Z",
    "ends": "2026-11-11T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7e2edd9a6d4bfdf86b08edb359ec35c225d1e4c.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a431a569cec2f531652f6399f911503f31651c2d.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1430,6 +1365,172 @@
    ],
    "lon": -90.393,
    "lat": 41.647,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.SV.W.0294.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Bureau, IL",
+    "Henry, IL",
+    "Rock Island, IL",
+    "Whiteside, IL",
+    "Scott, IA"
+   ],
+   "counties": [
+    "17011",
+    "17073",
+    "17161",
+    "17195",
+    "19163"
+   ],
+   "sent": "2026-11-11T14:30:00Z",
+   "onset": "2026-11-11T14:30:00Z",
+   "ends": "2026-11-11T15:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24ab47850b4ac6f1a455633f2aef3ea04f5f9db5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -90.4,
+       41.56
+      ],
+      [
+       -90.43,
+       41.72
+      ],
+      [
+       -89.63,
+       41.79
+      ],
+      [
+       -89.63,
+       41.58
+      ],
+      [
+       -90.4,
+       41.56
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -89.5284,
+     41.4013
+    ],
+    [
+     -90.1308,
+     41.35
+    ],
+    [
+     -90.5721,
+     41.4684
+    ],
+    [
+     -89.911,
+     41.7507
+    ],
+    [
+     -90.6223,
+     41.6421
+    ]
+   ],
+   "lon": -90.098,
+   "lat": 41.642,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDVN.SV.W.0293.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Quad Cities IA IL",
+   "areas": [
+    "Henry, IL"
+   ],
+   "counties": [
+    "17073"
+   ],
+   "sent": "2026-11-11T14:32:00Z",
+   "onset": "2026-11-11T14:32:00Z",
+   "ends": "2026-11-11T15:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ff19ed61514e4871a6fb28fe6e63c69bac711d0.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -89.92,
+       41.37
+      ],
+      [
+       -90.43,
+       41.44
+      ],
+      [
+       -90.43,
+       41.46
+      ],
+      [
+       -90.41,
+       41.46
+      ],
+      [
+       -90.38,
+       41.48
+      ],
+      [
+       -90.36,
+       41.51
+      ],
+      [
+       -90.31,
+       41.51
+      ],
+      [
+       -90.3,
+       41.52
+      ],
+      [
+       -90.25,
+       41.52
+      ],
+      [
+       -90.21,
+       41.54
+      ],
+      [
+       -89.89,
+       41.52
+      ],
+      [
+       -89.92,
+       41.37
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -90.1308,
+     41.35
+    ]
+   ],
+   "lon": -90.234,
+   "lat": 41.475,
    "countries": [
     "US"
    ]
