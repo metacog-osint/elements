@@ -1105,6 +1105,618 @@
    ]
   },
   {
+   "id": "KPAH.SV.W.0368.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Edwards, IL",
+    "Wabash, IL",
+    "Wayne, IL",
+    "White, IL",
+    "Gibson, IN",
+    "Posey, IN"
+   ],
+   "counties": [
+    "17047",
+    "17185",
+    "17191",
+    "17193",
+    "18051",
+    "18129"
+   ],
+   "sent": "2026-11-11T21:56:00Z",
+   "onset": "2026-11-11T21:56:00Z",
+   "ends": "2026-11-11T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eddb737c444541aa952e6bc0be7cbef7c18d086d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -88.3,
+       38.19
+      ],
+      [
+       -88.26,
+       38.29
+      ],
+      [
+       -87.66,
+       38.27
+      ],
+      [
+       -87.76,
+       38
+      ],
+      [
+       -88.3,
+       38.19
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -88.0479,
+     38.4171
+    ],
+    [
+     -87.8392,
+     38.4458
+    ],
+    [
+     -88.4324,
+     38.4319
+    ],
+    [
+     -88.1786,
+     38.0873
+    ],
+    [
+     -87.5805,
+     38.3174
+    ],
+    [
+     -87.8687,
+     38.0276
+    ]
+   ],
+   "lon": -88.056,
+   "lat": 38.188,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KIND.SV.W.0359.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Indianapolis IN",
+   "areas": [
+    "Vigo, IN"
+   ],
+   "counties": [
+    "18167"
+   ],
+   "sent": "2026-11-11T21:56:00Z",
+   "onset": "2026-11-11T21:56:00Z",
+   "ends": "2026-11-11T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa108104e01ed04dc5121fea5a6b18c32dfe1f1e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.53,
+       39.33
+      ],
+      [
+       -87.53,
+       39.47
+      ],
+      [
+       -87.26,
+       39.52
+      ],
+      [
+       -87.28,
+       39.29
+      ],
+      [
+       -87.53,
+       39.33
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -87.391,
+     39.4309
+    ]
+   ],
+   "lon": -87.426,
+   "lat": 39.388,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILX.SV.W.0383.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Lincoln IL",
+   "areas": [
+    "Clark, IL"
+   ],
+   "counties": [
+    "17023"
+   ],
+   "sent": "2026-11-11T21:57:00Z",
+   "onset": "2026-11-11T21:57:00Z",
+   "ends": "2026-11-11T22:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.499901a85bcb62aad24f2e6d66701e997dd9d65f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.59,
+       39.36
+      ],
+      [
+       -87.59,
+       39.44
+      ],
+      [
+       -87.53,
+       39.45
+      ],
+      [
+       -87.53,
+       39.35
+      ],
+      [
+       -87.59,
+       39.36
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -87.7917,
+     39.3323
+    ]
+   ],
+   "lon": -87.566,
+   "lat": 39.392,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.SV.A.0704.2026",
+   "event": "Severe Thunderstorm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Gibson, IN",
+    "Pike, IN",
+    "Posey, IN",
+    "Spencer, IN",
+    "Vanderburgh, IN",
+    "Warrick, IN",
+    "Daviess, KY",
+    "Henderson, KY",
+    "Hopkins, KY",
+    "McLean, KY",
+    "Muhlenberg, KY",
+    "Union, KY",
+    "Webster, KY"
+   ],
+   "counties": [
+    "18051",
+    "18125",
+    "18129",
+    "18147",
+    "18163",
+    "18173",
+    "21059",
+    "21101",
+    "21107",
+    "21149",
+    "21177",
+    "21225",
+    "21233"
+   ],
+   "sent": "2026-11-11T21:43:00Z",
+   "onset": "2026-11-11T21:43:00Z",
+   "ends": "2026-11-12T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7969483454771c86c1b4bb541a60e7961c74a7f4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -87.5805,
+     38.3174
+    ],
+    [
+     -87.2325,
+     38.398
+    ],
+    [
+     -87.8687,
+     38.0276
+    ],
+    [
+     -87.0104,
+     38.0097
+    ],
+    [
+     -87.5862,
+     38.0201
+    ],
+    [
+     -87.272,
+     38.0977
+    ],
+    [
+     -87.0871,
+     37.7317
+    ],
+    [
+     -87.5726,
+     37.7925
+    ],
+    [
+     -87.5422,
+     37.3111
+    ],
+    [
+     -87.2656,
+     37.5267
+    ],
+    [
+     -87.1341,
+     37.2138
+    ],
+    [
+     -87.9517,
+     37.658
+    ],
+    [
+     -87.6852,
+     37.5204
+    ]
+   ],
+   "lon": -87.445,
+   "lat": 37.817,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KIND.SV.A.0704.2026",
+   "event": "Severe Thunderstorm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Indianapolis IN",
+   "areas": [
+    "Bartholomew, IN",
+    "Boone, IN",
+    "Brown, IN",
+    "Clay, IN",
+    "Daviess, IN",
+    "Decatur, IN",
+    "Greene, IN",
+    "Hamilton, IN",
+    "Hancock, IN",
+    "Hendricks, IN",
+    "Jackson, IN",
+    "Jennings, IN",
+    "Johnson, IN",
+    "Knox, IN",
+    "Lawrence, IN",
+    "Marion, IN",
+    "Martin, IN",
+    "Monroe, IN",
+    "Montgomery, IN",
+    "Morgan, IN",
+    "Owen, IN",
+    "Parke, IN",
+    "Putnam, IN",
+    "Rush, IN",
+    "Shelby, IN",
+    "Sullivan, IN",
+    "Vermillion, IN",
+    "Vigo, IN"
+   ],
+   "counties": [
+    "18005",
+    "18011",
+    "18013",
+    "18021",
+    "18027",
+    "18031",
+    "18055",
+    "18057",
+    "18059",
+    "18063",
+    "18071",
+    "18079",
+    "18081",
+    "18083",
+    "18093",
+    "18097",
+    "18101",
+    "18105",
+    "18107",
+    "18109",
+    "18119",
+    "18121",
+    "18133",
+    "18139",
+    "18145",
+    "18153",
+    "18165",
+    "18167"
+   ],
+   "sent": "2026-11-11T21:44:00Z",
+   "onset": "2026-11-11T21:44:00Z",
+   "ends": "2026-11-12T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.405817094980de3be3108f82629f57be480a1248.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -85.898,
+     39.2058
+    ],
+    [
+     -86.469,
+     40.0509
+    ],
+    [
+     -86.2301,
+     39.1951
+    ],
+    [
+     -87.1159,
+     39.3939
+    ],
+    [
+     -87.0769,
+     38.6961
+    ],
+    [
+     -85.4998,
+     39.306
+    ],
+    [
+     -87.0048,
+     39.0471
+    ],
+    [
+     -86.0217,
+     40.0535
+    ],
+    [
+     -85.7732,
+     39.8225
+    ],
+    [
+     -86.5099,
+     39.769
+    ],
+    [
+     -86.0425,
+     38.912
+    ],
+    [
+     -85.6281,
+     38.9962
+    ],
+    [
+     -86.0943,
+     39.4961
+    ],
+    [
+     -87.4204,
+     38.6884
+    ],
+    [
+     -86.4878,
+     38.8398
+    ],
+    [
+     -86.1358,
+     39.783
+    ],
+    [
+     -86.8018,
+     38.7053
+    ],
+    [
+     -86.5233,
+     39.1607
+    ],
+    [
+     -86.8927,
+     40.0403
+    ],
+    [
+     -86.4475,
+     39.4826
+    ],
+    [
+     -86.8388,
+     39.3173
+    ],
+    [
+     -87.197,
+     39.7743
+    ],
+    [
+     -86.8534,
+     39.6655
+    ],
+    [
+     -85.4665,
+     39.6224
+    ],
+    [
+     -85.7922,
+     39.5241
+    ],
+    [
+     -87.4158,
+     39.0892
+    ],
+    [
+     -87.4621,
+     39.854
+    ],
+    [
+     -87.391,
+     39.4309
+    ]
+   ],
+   "lon": -86.518,
+   "lat": 39.39,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLMK.SV.A.0704.2026",
+   "event": "Severe Thunderstorm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Louisville KY",
+   "areas": [
+    "Clark, IN",
+    "Crawford, IN",
+    "Dubois, IN",
+    "Floyd, IN",
+    "Harrison, IN",
+    "Orange, IN",
+    "Perry, IN",
+    "Scott, IN",
+    "Washington, IN",
+    "Breckinridge, KY",
+    "Butler, KY",
+    "Grayson, KY",
+    "Hancock, KY",
+    "Meade, KY",
+    "Ohio, KY"
+   ],
+   "counties": [
+    "18019",
+    "18025",
+    "18037",
+    "18043",
+    "18061",
+    "18117",
+    "18123",
+    "18143",
+    "18175",
+    "21027",
+    "21031",
+    "21085",
+    "21091",
+    "21163",
+    "21183"
+   ],
+   "sent": "2026-11-11T21:44:00Z",
+   "onset": "2026-11-11T21:44:00Z",
+   "ends": "2026-11-12T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d803997d18cc33d42b9c6fae026e8943e3c42571.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -85.7111,
+     38.4762
+    ],
+    [
+     -86.4409,
+     38.2894
+    ],
+    [
+     -86.8734,
+     38.3733
+    ],
+    [
+     -85.9118,
+     38.3181
+    ],
+    [
+     -86.1038,
+     38.1865
+    ],
+    [
+     -86.4893,
+     38.5474
+    ],
+    [
+     -86.6265,
+     38.0814
+    ],
+    [
+     -85.7519,
+     38.6794
+    ],
+    [
+     -86.1055,
+     38.601
+    ],
+    [
+     -86.4329,
+     37.778
+    ],
+    [
+     -86.6825,
+     37.207
+    ],
+    [
+     -86.344,
+     37.4586
+    ],
+    [
+     -86.7928,
+     37.8433
+    ],
+    [
+     -86.2009,
+     37.9675
+    ],
+    [
+     -86.8449,
+     37.4779
+    ]
+   ],
+   "lon": -86.354,
+   "lat": 38.086,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1126,74 +1738,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KREV.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Mono",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06051",
-    "06057",
-    "06061",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-10T18:37:00Z",
-   "onset": "2026-11-13T21:00:00Z",
-   "ends": "2026-11-14T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f79b58c610923076b618e58db88f6bb3528bf376.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -119.965,
-   "lat": 39.059,
    "countries": [
     "US"
    ]
@@ -1370,6 +1914,74 @@
    ],
    "lon": -117.404,
    "lat": 36.562,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Mono",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06051",
+    "06057",
+    "06061",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-11T21:43:00Z",
+   "onset": "2026-11-13T21:00:00Z",
+   "ends": "2026-11-14T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e935aa027929e4bd7dfcbc12ee08bfb1e3c2017.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -119.965,
+   "lat": 39.059,
    "countries": [
     "US"
    ]
