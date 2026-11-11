@@ -789,8 +789,8 @@
    "id": "KSEW.FL.W.0036.2026",
    "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Seattle WA",
    "areas": [
     "Mason, WA"
@@ -798,10 +798,10 @@
    "counties": [
     "53045"
    ],
-   "sent": "2026-11-11T06:02:00Z",
-   "onset": "2026-11-11T06:02:00Z",
-   "ends": "2026-11-12T00:01:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4835cee124b4d700dba373eb190cec114e85bf46.001.1",
+   "sent": "2026-11-11T11:39:00Z",
+   "onset": "2026-11-11T11:39:00Z",
+   "ends": "2026-11-12T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.568116e40631edf6192c77720da3efcfc4cbe192.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
