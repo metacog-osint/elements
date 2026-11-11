@@ -2,15 +2,15 @@
  "records": [
   {
    "id": "20261111_0000268",
-   "mag": 5.1,
-   "magtype": "m",
-   "time": "2026-11-11T19:21:19Z",
-   "updated": "2026-11-11T19:31:40Z",
-   "region": "Los Lagos, Chile",
-   "depth_km": 35.0,
-   "authority": "EMSC",
-   "lat": -41.575,
-   "lon": -73.71,
+   "mag": 5.0,
+   "magtype": "mb",
+   "time": "2026-11-11T19:21:17Z",
+   "updated": "2026-11-11T19:36:51Z",
+   "region": "Offshore Los Lagos, Chile",
+   "depth_km": 34.9,
+   "authority": "NEIC",
+   "lat": -41.523,
+   "lon": -74.176,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000268"
   },
@@ -1455,36 +1455,6 @@
    "lon": 179.809,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261104_0000300"
-  },
-  {
-   "id": "20261104_0000352",
-   "mag": 4.5,
-   "magtype": "mb",
-   "time": "2026-11-04T20:06:07Z",
-   "updated": "2026-11-06T08:17:08Z",
-   "region": "South Indian Ocean",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": -1.43,
-   "lon": 88.064,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261104_0000352"
-  },
-  {
-   "id": "20261104_0000274",
-   "mag": 4.5,
-   "magtype": "mb",
-   "time": "2026-11-04T19:55:26Z",
-   "updated": "2026-11-05T07:27:22Z",
-   "region": "Near Coast Of Nicaragua",
-   "depth_km": 158.4,
-   "authority": "EMSC",
-   "lat": 12.636,
-   "lon": -87.138,
-   "countries": [
-    "NI"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261104_0000274"
   }
  ]
 }
