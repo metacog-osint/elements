@@ -34,6 +34,157 @@
    ]
   },
   {
+   "id": "KPHI.TO.A.0705.2026",
+   "event": "Tornado Watch",
+   "severity": "Extreme",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "New Castle, DE",
+    "Burlington, NJ",
+    "Camden, NJ",
+    "Gloucester, NJ",
+    "Hunterdon, NJ",
+    "Mercer, NJ",
+    "Middlesex, NJ",
+    "Monmouth, NJ",
+    "Ocean, NJ",
+    "Salem, NJ",
+    "Somerset, NJ",
+    "Warren, NJ",
+    "Berks, PA",
+    "Bucks, PA",
+    "Chester, PA",
+    "Delaware, PA",
+    "Lehigh, PA",
+    "Montgomery, PA",
+    "Northampton, PA",
+    "Philadelphia, PA",
+    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM"
+   ],
+   "counties": [
+    "10003",
+    "34005",
+    "34007",
+    "34015",
+    "34019",
+    "34021",
+    "34023",
+    "34025",
+    "34029",
+    "34033",
+    "34035",
+    "34041",
+    "42011",
+    "42017",
+    "42029",
+    "42045",
+    "42077",
+    "42091",
+    "42095",
+    "42101",
+    "73430",
+    "73450",
+    "73451"
+   ],
+   "sent": "2026-11-12T17:50:00Z",
+   "onset": "2026-11-12T17:50:00Z",
+   "ends": "2026-11-13T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e009bb0d6cfac945bc2559b637657642fa09988.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -74.912,
+     40.5653
+    ],
+    [
+     -74.7037,
+     40.2825
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -74.6199,
+     40.5655
+    ],
+    [
+     -75.0095,
+     40.8535
+    ],
+    [
+     -75.9269,
+     40.414
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.7498,
+     39.974
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.5906,
+     40.6142
+    ],
+    [
+     -75.3702,
+     40.21
+    ],
+    [
+     -75.3074,
+     40.7528
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.071,
+   "lat": 40.182,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPHI.FF.W.0160.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -1698,6 +1849,85 @@
    ]
   },
   {
+   "id": "KMOB.FZ.A.0001.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Choctaw",
+    "Washington",
+    "Clarke",
+    "Wilcox",
+    "Monroe",
+    "Conecuh",
+    "Butler",
+    "Crenshaw",
+    "Wayne"
+   ],
+   "counties": [
+    "01013",
+    "01023",
+    "01025",
+    "01035",
+    "01041",
+    "01099",
+    "01129",
+    "01131",
+    "28153"
+   ],
+   "sent": "2026-11-12T17:53:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fe072bc9fae4638acf29b75e33faeaf744cbc09.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.682,
+     31.7517
+    ],
+    [
+     -88.2489,
+     31.991
+    ],
+    [
+     -87.8186,
+     31.6855
+    ],
+    [
+     -86.9887,
+     31.4309
+    ],
+    [
+     -86.32,
+     31.7303
+    ],
+    [
+     -87.3833,
+     31.5804
+    ],
+    [
+     -88.2124,
+     31.4085
+    ],
+    [
+     -87.3049,
+     31.9901
+    ],
+    [
+     -88.6782,
+     31.6425
+    ]
+   ],
+   "lon": -87.515,
+   "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.4678.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2225,6 +2455,83 @@
    ]
   },
   {
+   "id": "KCTP.SV.W.0360.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS State College PA",
+   "areas": [
+    "Lancaster, PA"
+   ],
+   "counties": [
+    "42071"
+   ],
+   "sent": "2026-11-12T17:41:00Z",
+   "onset": "2026-11-12T17:41:00Z",
+   "ends": "2026-11-12T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d443a8149d349b6e1c8860323d2ae336c1a8406a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.15,
+       40.13
+      ],
+      [
+       -76,
+       40.22
+      ],
+      [
+       -75.87,
+       40.14
+      ],
+      [
+       -75.94,
+       40.11
+      ],
+      [
+       -75.94,
+       40.08
+      ],
+      [
+       -75.93,
+       40.04
+      ],
+      [
+       -75.94,
+       40.04
+      ],
+      [
+       -75.97,
+       39.99
+      ],
+      [
+       -76.02,
+       39.97
+      ],
+      [
+       -76.15,
+       40.13
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -76.2502,
+     40.042
+    ]
+   ],
+   "lon": -75.991,
+   "lat": 40.085,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPHI.SV.W.0378.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
@@ -2239,10 +2546,10 @@
     "10003",
     "42029"
    ],
-   "sent": "2026-11-12T17:34:00Z",
-   "onset": "2026-11-12T17:34:00Z",
+   "sent": "2026-11-12T17:49:00Z",
+   "onset": "2026-11-12T17:49:00Z",
    "ends": "2026-11-12T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.591a6697de9506d90e7389ada74137087c8e2de2.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26b9eede66199f125830004b8685768fa23ce14d.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2254,6 +2561,10 @@
       [
        -75.59,
        39.87
+      ],
+      [
+       -75.6,
+       39.86
       ],
       [
        -75.59,
@@ -2284,12 +2595,12 @@
        39.72
       ],
       [
-       -76.02,
+       -75.89,
        39.72
       ],
       [
-       -76.04,
-       39.78
+       -75.94,
+       39.84
       ],
       [
        -75.69,
@@ -2309,64 +2620,90 @@
      39.974
     ]
    ],
-   "lon": -75.688,
-   "lat": 39.782,
+   "lon": -75.663,
+   "lat": 39.793,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KLWX.SV.W.0527.2026",
+   "id": "KPHI.SV.W.0379.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
-   "sender": "NWS Baltimore MD/Washington DC",
+   "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Cecil, MD"
+    "Berks, PA",
+    "Chester, PA"
    ],
    "counties": [
-    "24015"
+    "42011",
+    "42029"
    ],
-   "sent": "2026-11-12T17:35:00Z",
-   "onset": "2026-11-12T17:35:00Z",
-   "ends": "2026-11-12T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5c3d2f7ee4bf68370a183a8749a87db02224cf7.001.1",
+   "sent": "2026-11-12T17:54:00Z",
+   "onset": "2026-11-12T17:54:00Z",
+   "ends": "2026-11-12T18:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c88c5ff5968fd37f72c5a52ef375ee8f241f4557.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -75.79,
-       39.72
+       -75.8,
+       40.46
       ],
       [
-       -75.79,
-       39.6
+       -75.65,
+       40.3
       ],
       [
-       -75.78,
-       39.6
+       -75.69,
+       40.24
       ],
       [
-       -75.78,
-       39.59
+       -75.65,
+       40.24
+      ],
+      [
+       -75.61,
+       40.22
+      ],
+      [
+       -75.6,
+       40.24
+      ],
+      [
+       -75.54,
+       40.17
+      ],
+      [
+       -75.95,
+       40
+      ],
+      [
+       -75.96,
+       40.01
+      ],
+      [
+       -75.93,
+       40.04
+      ],
+      [
+       -75.94,
+       40.11
       ],
       [
        -75.88,
-       39.52
+       40.14
       ],
       [
-       -75.89,
-       39.52
+       -76.06,
+       40.26
       ],
       [
-       -76.01,
-       39.72
-      ],
-      [
-       -75.79,
-       39.72
+       -75.8,
+       40.46
       ]
      ]
     ]
@@ -2374,18 +2711,22 @@
    "vtec": true,
    "points": [
     [
-     -75.9416,
-     39.5624
+     -75.9269,
+     40.414
+    ],
+    [
+     -75.7498,
+     39.974
     ]
    ],
-   "lon": -75.839,
-   "lat": 39.624,
+   "lon": -75.79,
+   "lat": 40.206,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KOKX.MA.W.0103.2026",
+   "id": "KOKX.MA.W.0104.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2399,33 +2740,17 @@
     "73338",
     "73355"
    ],
-   "sent": "2026-11-12T17:13:00Z",
-   "onset": "2026-11-12T17:13:00Z",
-   "ends": "2026-11-12T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6f2d55c718c4108df5f29aaa3c34b2ed82730c2.001.1",
+   "sent": "2026-11-12T17:55:00Z",
+   "onset": "2026-11-12T17:55:00Z",
+   "ends": "2026-11-12T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed6716f9dcfd9681e59bb798cfbd30df2346e5a4.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -74,
-       40.72
-      ],
-      [
        -73.99,
-       40.72
-      ],
-      [
-       -73.98,
-       40.71
-      ],
-      [
-       -74.02,
-       40.62
-      ],
-      [
-       -73.98,
-       40.59
+       40.6
       ],
       [
        -73.97,
@@ -2440,16 +2765,28 @@
        40.68
       ],
       [
-       -73.76,
-       40.63
+       -73.75,
+       40.62
       ],
       [
-       -73.88,
-       40.38
+       -73.7,
+       40.65
       ],
       [
-       -73.97,
-       40.43
+       -73.67,
+       40.65
+      ],
+      [
+       -73.6,
+       40.62
+      ],
+      [
+       -73.86,
+       40.39
+      ],
+      [
+       -73.99,
+       40.45
       ],
       [
        -74.01,
@@ -2457,43 +2794,95 @@
       ],
       [
        -74.01,
-       40.47
+       40.46
       ],
       [
-       -74,
-       40.45
+       -74.06,
+       40.49
       ],
       [
        -73.99,
-       40.44
-      ],
-      [
-       -73.98,
-       40.4
-      ],
-      [
-       -74,
-       40.41
-      ],
-      [
-       -74.05,
-       40.42
-      ],
-      [
-       -74.11,
-       40.44
-      ],
-      [
-       -74,
-       40.72
+       40.6
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -73.972,
-   "lat": 40.547,
+   "lon": -73.882,
+   "lat": 40.566,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.MA.W.0184.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
+   ],
+   "counties": [
+    "73451",
+    "73480",
+    "73481"
+   ],
+   "sent": "2026-11-12T17:59:00Z",
+   "onset": "2026-11-12T17:59:00Z",
+   "ends": "2026-11-12T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4f7e766655c313fecb51a76e868628f1025c116.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -73.64,
+       39.66
+      ],
+      [
+       -73.8,
+       39.72
+      ],
+      [
+       -73.73,
+       40.01
+      ],
+      [
+       -73.71,
+       40
+      ],
+      [
+       -73.69,
+       40.02
+      ],
+      [
+       -73.7,
+       40.06
+      ],
+      [
+       -73.69,
+       40.08
+      ],
+      [
+       -73.26,
+       39.85
+      ],
+      [
+       -73.64,
+       39.66
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -73.651,
+   "lat": 39.896,
    "countries": [
     "US"
    ]
