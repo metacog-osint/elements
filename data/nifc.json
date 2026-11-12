@@ -577,10 +577,10 @@
   {
    "id": "{23BD6CC6-7651-47BC-8990-0D2AACAD1CB1}",
    "name": "Grannies Branch",
-   "acres": 25.0,
-   "contained": 5,
+   "acres": 35.0,
+   "contained": 90,
    "discovered": "2026-11-11T23:12:00Z",
-   "updated": "2026-11-12T04:36:23Z",
+   "updated": "2026-11-12T17:19:54Z",
    "state": "KY",
    "county": "Clay",
    "cause": "Undetermined",
@@ -629,20 +629,6 @@
    "complexity": null,
    "lon": -99.2228,
    "lat": 47.9011
-  },
-  {
-   "id": "{B014914D-186B-4D90-81A8-CDB127373D21}",
-   "name": "Trace Branch",
-   "acres": 20.0,
-   "contained": 75,
-   "discovered": "2026-11-12T01:18:00Z",
-   "updated": "2026-11-12T06:33:27Z",
-   "state": "KY",
-   "county": "Whitley",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.9751,
-   "lat": 36.6615
   },
   {
    "id": "{6A5D5C31-6937-4229-AA38-5365B43599B7}",
@@ -2127,6 +2113,20 @@
    "complexity": null,
    "lon": -118.1657,
    "lat": 34.6838
+  },
+  {
+   "id": "{25E72A55-7F8E-408D-9C40-10A4AB5F0E50}",
+   "name": "Golden",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T17:06:25Z",
+   "updated": "2026-11-12T17:10:45Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.506,
+   "lat": 34.3411
   }
  ]
 }
