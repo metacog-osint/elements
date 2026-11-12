@@ -603,6 +603,20 @@
    "lat": 47.9011
   },
   {
+   "id": "{B3C83498-8723-4DA6-8B80-070D064C75E6}",
+   "name": "Anderson 9931",
+   "acres": 15.0,
+   "contained": 0,
+   "discovered": "2026-11-12T17:34:00Z",
+   "updated": "2026-11-12T18:53:55Z",
+   "state": "TX",
+   "county": "Anderson",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -95.6168,
+   "lat": 31.914
+  },
+  {
    "id": "{6A5D5C31-6937-4229-AA38-5365B43599B7}",
    "name": "Big Creek",
    "acres": 13.0,
@@ -615,20 +629,6 @@
    "complexity": "Type 4 Incident",
    "lon": -82.0594,
    "lat": 36.5031
-  },
-  {
-   "id": "{9B559405-5612-4CD3-B016-C5EC030A83BC}",
-   "name": "Tower",
-   "acres": 10.6,
-   "contained": null,
-   "discovered": "2026-10-21T20:00:00Z",
-   "updated": "2026-11-04T18:53:21Z",
-   "state": "WI",
-   "county": "Lincoln",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.028,
-   "lat": 45.3608
   },
   {
    "id": "{EACF44CC-7B5E-45BA-A217-0416E47D72F9}",
@@ -811,20 +811,6 @@
    "complexity": null,
    "lon": -92.6601,
    "lat": 45.7163
-  },
-  {
-   "id": "{DD402E58-3B57-4DF0-90C4-A0CBD5DE05AA}",
-   "name": "Springbrook",
-   "acres": 1.5,
-   "contained": null,
-   "discovered": "2026-10-16T01:00:00Z",
-   "updated": "2026-11-09T19:04:59Z",
-   "state": "WI",
-   "county": "Marathon",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -89.2341,
-   "lat": 45.0997
   },
   {
    "id": "{E459F6FD-0D4C-484D-8BE8-5FC3716BD238}",
@@ -1091,34 +1077,6 @@
    "complexity": null,
    "lon": -118.1469,
    "lat": 34.2661
-  },
-  {
-   "id": "{09A75682-B672-4624-9CA1-E816C0D4420D}",
-   "name": "Jack Pine Lane",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-09-28T18:58:20Z",
-   "updated": "2026-11-09T18:55:37Z",
-   "state": "MN",
-   "county": "Pine",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.7501,
-   "lat": 46.3398
-  },
-  {
-   "id": "{DE2AD836-DEAC-4F69-B755-D0BFBFD64146}",
-   "name": "River",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-10T17:46:28Z",
-   "updated": "2026-11-09T18:31:27Z",
-   "state": "WA",
-   "county": "Clallam",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.5064,
-   "lat": 48.0571
   },
   {
    "id": "{D957B4E7-BDFA-4967-9EC6-0DC17134F443}",
@@ -1469,20 +1427,6 @@
    "complexity": null,
    "lon": -123.1698,
    "lat": 43.6602
-  },
-  {
-   "id": "{3FF73312-74D5-48DE-B090-099DD8FC59E1}",
-   "name": "South Shore",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-21T20:30:00Z",
-   "updated": "2026-11-09T19:02:22Z",
-   "state": "WI",
-   "county": "Oconto",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.4435,
-   "lat": 45.1158
   },
   {
    "id": "{1B7FF23E-FAF8-43F2-B26B-555FA9AD63E8}",
@@ -1987,6 +1931,20 @@
    "complexity": null,
    "lon": -118.506,
    "lat": 34.3411
+  },
+  {
+   "id": "{2CC6F8AD-E8BE-4A8F-B035-65324521F3DD}",
+   "name": "Meyer",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T18:06:46Z",
+   "updated": "2026-11-12T18:07:59Z",
+   "state": "CA",
+   "county": "Mendocino",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.3205,
+   "lat": 38.9443
   }
  ]
 }
