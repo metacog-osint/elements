@@ -71,7 +71,7 @@
    "id": "FL-1104276",
    "type": "FL",
    "kind": "flood",
-   "episode": 2,
+   "episode": 3,
    "name": "Flood in Portugal",
    "alert": "green",
    "score": 1,
@@ -83,10 +83,12 @@
    "current": true,
    "country": "Portugal",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=2&eventtype=FL",
-   "lon": -15.867,
-   "lat": 30.146,
-   "countries": []
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=3&eventtype=FL",
+   "lon": -8.151,
+   "lat": 37.245,
+   "countries": [
+    "PT"
+   ]
   },
   {
    "id": "FL-1104275",
@@ -613,7 +615,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 22,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -625,7 +627,7 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL",
    "lon": 97.025,
    "lat": 4.369,
    "countries": [
@@ -707,7 +709,7 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-07T01:00:00Z",
-   "to": "2026-11-12T01:00:00Z",
+   "to": "2026-11-13T01:00:00Z",
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
