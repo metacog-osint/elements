@@ -519,6 +519,37 @@
    ]
   },
   {
+   "id": "KSEW.FA.A.0011.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Mason, WA"
+   ],
+   "counties": [
+    "53045"
+   ],
+   "sent": "2026-11-12T10:12:00Z",
+   "onset": "2026-11-13T12:00:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e61f29d030be3e1b10c772f49aa8f218a71c2b4b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1731,
+     47.3508
+    ]
+   ],
+   "lon": -123.173,
+   "lat": 47.351,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.4678.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1255,10 +1286,10 @@
     "06107",
     "06109"
    ],
-   "sent": "2026-11-12T01:33:00Z",
+   "sent": "2026-11-12T10:33:00Z",
    "onset": "2026-11-14T00:00:00Z",
    "ends": "2026-11-17T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3397a4ea1fd2e9d430d167070c8165f1cfe656c8.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc4942cc7383970a474b19c101a3959c3639ff35.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
