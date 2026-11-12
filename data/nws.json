@@ -309,6 +309,186 @@
    ]
   },
   {
+   "id": "KOKX.FF.W.0062.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Queens, NY"
+   ],
+   "counties": [
+    "36081"
+   ],
+   "sent": "2026-11-12T19:10:00Z",
+   "onset": "2026-11-12T19:10:00Z",
+   "ends": "2026-11-12T22:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7695d2b952dae8b3b70aa0edce6ed8b6b08aed83.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -73.85,
+       40.6
+      ],
+      [
+       -73.84,
+       40.61
+      ],
+      [
+       -73.85,
+       40.61
+      ],
+      [
+       -73.81,
+       40.72
+      ],
+      [
+       -73.73,
+       40.71
+      ],
+      [
+       -73.73,
+       40.65
+      ],
+      [
+       -73.74,
+       40.65
+      ],
+      [
+       -73.74,
+       40.64
+      ],
+      [
+       -73.77,
+       40.63
+      ],
+      [
+       -73.77,
+       40.61
+      ],
+      [
+       -73.74,
+       40.61
+      ],
+      [
+       -73.75,
+       40.59
+      ],
+      [
+       -73.75,
+       40.58
+      ],
+      [
+       -73.87,
+       40.55
+      ],
+      [
+       -73.85,
+       40.6
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -73.8412,
+     40.6547
+    ]
+   ],
+   "lon": -73.786,
+   "lat": 40.624,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0161.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "New Castle, DE",
+    "Gloucester, NJ",
+    "Salem, NJ",
+    "Delaware, PA"
+   ],
+   "counties": [
+    "10003",
+    "34015",
+    "34033",
+    "42045"
+   ],
+   "sent": "2026-11-12T19:26:00Z",
+   "onset": "2026-11-12T19:26:00Z",
+   "ends": "2026-11-12T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a67ff3420943ba1b4c3b2c8d71869d41a6c59bde.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -75.64,
+       39.8
+      ],
+      [
+       -75.45,
+       39.89
+      ],
+      [
+       -75.37,
+       39.92
+      ],
+      [
+       -75.36,
+       39.9
+      ],
+      [
+       -75.31,
+       39.82
+      ],
+      [
+       -75.53,
+       39.71
+      ],
+      [
+       -75.64,
+       39.8
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -75.3988,
+     39.9167
+    ]
+   ],
+   "lon": -75.471,
+   "lat": 39.834,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2429,32 +2609,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.6831.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-12T00:48:00Z",
-   "onset": "2026-11-12T00:00:00Z",
-   "ends": "2026-11-13T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.6844.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2471,6 +2625,32 @@
    "onset": "2026-11-12T00:00:00Z",
    "ends": "2026-11-13T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.009.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.6831.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-12T00:48:00Z",
+   "onset": "2026-11-12T00:00:00Z",
+   "ends": "2026-11-13T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2774,120 +2954,63 @@
    ]
   },
   {
-   "id": "KPHI.SV.W.0381.2026",
+   "id": "KPHI.SV.W.0382.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Berks, PA",
-    "Chester, PA",
-    "Montgomery, PA"
-   ],
-   "counties": [
-    "42011",
-    "42029",
-    "42091"
-   ],
-   "sent": "2026-11-12T18:49:00Z",
-   "onset": "2026-11-12T18:49:00Z",
-   "ends": "2026-11-12T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dee4576c689cbbfa6bdddd753e0e1bf9676b699.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -75.67,
-       40.06
-      ],
-      [
-       -75.77,
-       40.25
-      ],
-      [
-       -75.55,
-       40.39
-      ],
-      [
-       -75.29,
-       40.21
-      ],
-      [
-       -75.67,
-       40.06
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -75.9269,
-     40.414
-    ],
-    [
-     -75.7498,
-     39.974
-    ],
-    [
-     -75.3702,
-     40.21
-    ]
-   ],
-   "lon": -75.59,
-   "lat": 40.194,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.SV.W.0380.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "New Castle, DE",
+    "Camden, NJ",
     "Gloucester, NJ",
-    "Salem, NJ",
-    "Delaware, PA"
+    "Delaware, PA",
+    "Philadelphia, PA"
    ],
    "counties": [
-    "10003",
+    "34007",
     "34015",
-    "34033",
-    "42045"
+    "42045",
+    "42101"
    ],
-   "sent": "2026-11-12T19:01:00Z",
-   "onset": "2026-11-12T19:01:00Z",
-   "ends": "2026-11-12T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92529cbc7b6f1d6a078a296f541bb972a8fcc21d.001.1",
+   "sent": "2026-11-12T19:31:00Z",
+   "onset": "2026-11-12T19:31:00Z",
+   "ends": "2026-11-12T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4a6348785ed49ec6fed0e10a69322476d56c496.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -75.21,
-       39.73
-      ],
-      [
-       -75.5,
-       39.74
-      ],
-      [
-       -75.52,
-       39.83
-      ],
-      [
-       -75.27,
-       39.9
+       -75.28,
+       39.98
       ],
       [
        -75.21,
-       39.73
+       40.01
+      ],
+      [
+       -75.21,
+       40.02
+      ],
+      [
+       -75.19,
+       40.04
+      ],
+      [
+       -74.97,
+       39.79
+      ],
+      [
+       -75.37,
+       39.76
+      ],
+      [
+       -75.42,
+       39.88
+      ],
+      [
+       -75.28,
+       39.98
       ]
      ]
     ]
@@ -2895,88 +3018,24 @@
    "vtec": true,
    "points": [
     [
-     -75.6441,
-     39.5759
+     -74.9612,
+     39.8024
     ],
     [
      -75.1457,
      39.7229
     ],
     [
-     -75.3574,
-     39.5738
-    ],
-    [
      -75.3988,
      39.9167
+    ],
+    [
+     -75.1333,
+     40.0094
     ]
    ],
-   "lon": -75.342,
-   "lat": 39.786,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOKX.MA.W.0105.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM"
-   ],
-   "counties": [
-    "73355"
-   ],
-   "sent": "2026-11-12T18:43:00Z",
-   "onset": "2026-11-12T18:43:00Z",
-   "ends": "2026-11-12T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.673c69e85aa135e3a8c98486a4e776390405e919.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -73.81,
-       40.66
-      ],
-      [
-       -73.75,
-       40.62
-      ],
-      [
-       -73.7,
-       40.65
-      ],
-      [
-       -73.63,
-       40.65
-      ],
-      [
-       -73.62,
-       40.62
-      ],
-      [
-       -73.84,
-       40.52
-      ],
-      [
-       -73.88,
-       40.59
-      ],
-      [
-       -73.81,
-       40.66
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -73.755,
-   "lat": 40.621,
+   "lon": -75.241,
+   "lat": 39.932,
    "countries": [
     "US"
    ]
@@ -3029,58 +3088,6 @@
    "points": [],
    "lon": -72.932,
    "lat": 39.602,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.MA.W.0186.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM"
-   ],
-   "counties": [
-    "73482"
-   ],
-   "sent": "2026-11-12T19:03:00Z",
-   "onset": "2026-11-12T19:03:00Z",
-   "ends": "2026-11-12T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4fe9558876378a42cd14058ee59d37247838a8d4.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -73.27,
-       38.86
-      ],
-      [
-       -73.44,
-       38.91
-      ],
-      [
-       -73.27,
-       39.19
-      ],
-      [
-       -73.05,
-       39.13
-      ],
-      [
-       -73.27,
-       38.86
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -73.26,
-   "lat": 38.99,
    "countries": [
     "US"
    ]
