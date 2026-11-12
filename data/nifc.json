@@ -230,7 +230,7 @@
    "acres": 519.0,
    "contained": null,
    "discovered": "2026-11-12T01:13:47Z",
-   "updated": "2026-11-12T05:22:45Z",
+   "updated": "2026-11-12T15:40:19Z",
    "state": "MS",
    "county": "Perry",
    "cause": "Human",
@@ -337,6 +337,20 @@
    "lat": 45.9831
   },
   {
+   "id": "{EF07006B-67E5-4BDA-99E7-C20C19CF420B}",
+   "name": "Mack's Curve",
+   "acres": 191.0,
+   "contained": 100,
+   "discovered": "2026-11-04T10:30:00Z",
+   "updated": "2026-11-12T15:40:51Z",
+   "state": "PA",
+   "county": "Clinton",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -77.7744,
+   "lat": 41.2703
+  },
+  {
    "id": "{B0D63F9C-031A-4473-AEE8-17B02ECA8A21}",
    "name": "1924",
    "acres": 187.0,
@@ -349,20 +363,6 @@
    "complexity": "Type 4 Incident",
    "lon": -119.0945,
    "lat": 46.1356
-  },
-  {
-   "id": "{EF07006B-67E5-4BDA-99E7-C20C19CF420B}",
-   "name": "Mack's Curve",
-   "acres": 170.0,
-   "contained": 45,
-   "discovered": "2026-11-04T10:30:00Z",
-   "updated": "2026-11-12T15:28:11Z",
-   "state": "PA",
-   "county": "Clinton",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -77.7744,
-   "lat": 41.2703
   },
   {
    "id": "{8601A0E4-089B-4B9A-8088-6E9BD7EA1309}",
@@ -517,20 +517,6 @@
    "complexity": "Type 5 Incident",
    "lon": -84.0476,
    "lat": 36.6976
-  },
-  {
-   "id": "{81663270-87CD-47FD-9D03-FA16AD84EDB4}",
-   "name": "Jefferson 359",
-   "acres": 60.0,
-   "contained": null,
-   "discovered": "2026-11-11T22:33:27Z",
-   "updated": "2026-11-12T04:33:52Z",
-   "state": "AR",
-   "county": "Jefferson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -92.0287,
-   "lat": 34.3781
   },
   {
    "id": "{F462F5FE-95A1-4FE8-B5CB-9EBCC1FC4A1C}",
@@ -701,20 +687,6 @@
    "lat": 45.4675
   },
   {
-   "id": "{516FCDD1-F16E-42EC-9003-4BDD0661E2C8}",
-   "name": "Rock Lake",
-   "acres": 5.0,
-   "contained": null,
-   "discovered": "2026-05-14T00:12:00Z",
-   "updated": "2026-11-09T15:56:48Z",
-   "state": "MN",
-   "county": "Aitkin",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -93.3998,
-   "lat": 46.6227
-  },
-  {
    "id": "{89319649-2C1E-424B-A544-6C998C879745}",
    "name": "Jordan",
    "acres": 5.0,
@@ -730,11 +702,11 @@
   },
   {
    "id": "{B8FB0EA9-604C-4611-B94F-6FF5BFA9F6F3}",
-   "name": "Red - 326",
+   "name": "RED - Jacks Creek",
    "acres": 5.0,
    "contained": null,
    "discovered": "2026-11-12T12:35:00Z",
-   "updated": "2026-11-12T15:23:32Z",
+   "updated": "2026-11-12T15:39:24Z",
    "state": "KY",
    "county": "Leslie",
    "cause": "Human",
@@ -797,6 +769,20 @@
    "complexity": "Type 5 Incident",
    "lon": -83.2095,
    "lat": 35.86
+  },
+  {
+   "id": "{FFA4FECE-BF21-48AD-ADD6-634C02E705D6}",
+   "name": "Rosenkrans",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-12T15:32:00Z",
+   "updated": "2026-11-12T15:37:25Z",
+   "state": "NJ",
+   "county": "Sussex",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -74.9774,
+   "lat": 41.1078
   },
   {
    "id": "{C4FEC712-2D5E-4EA0-9C3B-B44956C0F775}",
@@ -979,6 +965,20 @@
    "complexity": "Type 5 Incident",
    "lon": -89.4264,
    "lat": 32.4742
+  },
+  {
+   "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
+   "name": "Cutoff",
+   "acres": 0.9,
+   "contained": null,
+   "discovered": "2026-11-08T06:00:00Z",
+   "updated": "2026-11-12T15:52:15Z",
+   "state": "WI",
+   "county": "Rusk",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -91.1079,
+   "lat": 45.5257
   },
   {
    "id": "{0F0F19CA-C7F8-4924-8E0D-E5B8AA3A2EDD}",
@@ -1219,20 +1219,6 @@
    "lat": 46.4355
   },
   {
-   "id": "{8FD9149A-4A7A-4934-807A-45C6873DF416}",
-   "name": "Island Lake",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-20T21:00:00Z",
-   "updated": "2026-11-09T15:06:03Z",
-   "state": "WI",
-   "county": "Rusk",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.3985,
-   "lat": 45.3139
-  },
-  {
    "id": "{D957B4E7-BDFA-4967-9EC6-0DC17134F443}",
    "name": "Evergreen",
    "acres": 0.1,
@@ -1266,7 +1252,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-10-26T01:20:00Z",
-   "updated": "2026-11-09T20:46:07Z",
+   "updated": "2026-11-12T15:32:30Z",
    "state": "WI",
    "county": "Adams",
    "cause": "Human",
@@ -1667,6 +1653,20 @@
    "lat": 44.5719
   },
   {
+   "id": "{EA0D973A-846B-4107-9B70-DF771B4FE7BF}",
+   "name": "Hwy V",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-07T06:00:00Z",
+   "updated": "2026-11-12T15:50:39Z",
+   "state": "WI",
+   "county": "Rusk",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.9474,
+   "lat": 45.3645
+  },
+  {
    "id": "{54AB5B13-B2DF-4C20-AF33-35912E675ED1}",
    "name": "Arrow",
    "acres": 0.0,
@@ -1763,20 +1763,6 @@
    "complexity": null,
    "lon": -90.4944,
    "lat": 43.962
-  },
-  {
-   "id": "{8B5042BC-C3C5-4652-AD9C-0140A88B962F}",
-   "name": "Lac-405512",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-09T15:51:53Z",
-   "updated": "2026-11-09T15:52:21Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.135,
-   "lat": 34.6877
   },
   {
    "id": "{0B8894D0-0E7D-41AC-AD5B-617397323D9B}",
@@ -2127,6 +2113,20 @@
    "complexity": null,
    "lon": -118.1607,
    "lat": 34.6749
+  },
+  {
+   "id": "{E8E801D4-0DC4-4FF7-804D-E47A614D9428}",
+   "name": "Lac-409499",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T15:42:50Z",
+   "updated": "2026-11-12T15:43:13Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0117,
+   "lat": 33.9089
   }
  ]
 }
