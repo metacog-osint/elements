@@ -1231,16 +1231,16 @@
    ]
   },
   {
-   "id": "KREV.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
+   "id": "KREV.WS.W.0004.2026",
+   "event": "Winter Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Mono",
     "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area"
+    "Greater Lake Tahoe Area",
+    "Mono"
    ],
    "counties": [
     "06003",
@@ -1252,10 +1252,10 @@
     "32031",
     "32510"
    ],
-   "sent": "2026-11-11T21:43:00Z",
-   "onset": "2026-11-13T21:00:00Z",
+   "sent": "2026-11-12T08:33:00Z",
+   "onset": "2026-11-13T18:00:00Z",
    "ends": "2026-11-14T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e935aa027929e4bd7dfcbc12ee08bfb1e3c2017.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e46de464708a8211a1f979b4629df14bae2f4ab.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
