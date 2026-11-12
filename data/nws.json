@@ -205,69 +205,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-11T13:46:00Z",
-   "onset": "2026-11-11T13:46:00Z",
-   "ends": "2026-11-12T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.565ab76ad642c089ac96855029c39f195a976025.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0005.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -579,6 +516,69 @@
    ],
    "lon": -81.887,
    "lat": 27.212,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-12T01:34:00Z",
+   "onset": "2026-11-12T01:34:00Z",
+   "ends": "2026-11-12T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77e928eff45837bf21c2096869d876897004b858.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
    "countries": [
     "US"
    ]
@@ -1208,32 +1208,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.6831.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-12T00:48:00Z",
-   "onset": "2026-11-12T00:00:00Z",
-   "ends": "2026-11-13T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.6844.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1250,6 +1224,32 @@
    "onset": "2026-11-12T00:00:00Z",
    "ends": "2026-11-13T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.009.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.6831.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-12T00:48:00Z",
+   "onset": "2026-11-12T00:00:00Z",
+   "ends": "2026-11-13T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1346,53 +1346,49 @@
    ]
   },
   {
-   "id": "KLMK.SV.W.0245.2026",
+   "id": "KILN.SV.W.0288.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
-   "sender": "NWS Louisville KY",
+   "sender": "NWS Wilmington OH",
    "areas": [
-    "Perry, IN",
-    "Breckinridge, KY",
-    "Hancock, KY"
+    "Dearborn, IN",
+    "Franklin, IN",
+    "Ripley, IN"
    ],
    "counties": [
-    "18123",
-    "21027",
-    "21091"
+    "18029",
+    "18047",
+    "18137"
    ],
-   "sent": "2026-11-12T00:51:00Z",
-   "onset": "2026-11-12T00:51:00Z",
-   "ends": "2026-11-12T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8e875684835f2128c9e660f8606694d239a4620.001.1",
+   "sent": "2026-11-12T01:11:00Z",
+   "onset": "2026-11-12T01:11:00Z",
+   "ends": "2026-11-12T01:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ea8c60f8dc7cf346bb80f5596076b2e998bab28.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -86.79,
-       37.72
+       -85.25,
+       39.22
       ],
       [
-       -86.74,
-       37.89
+       -85.13,
+       39.36
       ],
       [
-       -86.41,
-       37.87
+       -84.82,
+       39.28
       ],
       [
-       -86.45,
-       37.63
+       -84.91,
+       39.07
       ],
       [
-       -86.71,
-       37.69
-      ],
-      [
-       -86.79,
-       37.72
+       -85.25,
+       39.22
       ]
      ]
     ]
@@ -1400,414 +1396,20 @@
    "vtec": true,
    "points": [
     [
-     -86.6265,
-     38.0814
+     -84.9759,
+     39.1409
     ],
     [
-     -86.4329,
-     37.778
+     -85.067,
+     39.4098
     ],
     [
-     -86.7928,
-     37.8433
+     -85.2605,
+     39.1002
     ]
    ],
-   "lon": -86.648,
-   "lat": 37.753,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLMK.SV.W.0246.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Louisville KY",
-   "areas": [
-    "Hancock, KY",
-    "Ohio, KY"
-   ],
-   "counties": [
-    "21091",
-    "21183"
-   ],
-   "sent": "2026-11-12T00:56:00Z",
-   "onset": "2026-11-12T00:56:00Z",
-   "ends": "2026-11-12T01:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e7ba71bb193c717781b93ce779b7ec59a45ebaf.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -86.92,
-       37.94
-      ],
-      [
-       -86.75,
-       37.91
-      ],
-      [
-       -86.73,
-       37.89
-      ],
-      [
-       -86.7,
-       37.9
-      ],
-      [
-       -86.65,
-       37.89
-      ],
-      [
-       -86.68,
-       37.79
-      ],
-      [
-       -86.67,
-       37.77
-      ],
-      [
-       -86.7,
-       37.66
-      ],
-      [
-       -86.86,
-       37.71
-      ],
-      [
-       -86.82,
-       37.74
-      ],
-      [
-       -86.82,
-       37.79
-      ],
-      [
-       -86.85,
-       37.84
-      ],
-      [
-       -86.89,
-       37.83
-      ],
-      [
-       -86.91,
-       37.84
-      ],
-      [
-       -86.89,
-       37.88
-      ],
-      [
-       -86.92,
-       37.9
-      ],
-      [
-       -86.93,
-       37.91
-      ],
-      [
-       -86.98,
-       37.89
-      ],
-      [
-       -86.97,
-       37.92
-      ],
-      [
-       -86.98,
-       37.93
-      ],
-      [
-       -86.92,
-       37.94
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -86.7928,
-     37.8433
-    ],
-    [
-     -86.8449,
-     37.4779
-    ]
-   ],
-   "lon": -86.835,
-   "lat": 37.851,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPAH.SV.W.0375.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Daviess, KY"
-   ],
-   "counties": [
-    "21059"
-   ],
-   "sent": "2026-11-12T00:58:00Z",
-   "onset": "2026-11-12T00:58:00Z",
-   "ends": "2026-11-12T01:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae9f3572b6b4f30e6124176bfd0dd4e0dd048abc.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.03,
-       37.91
-      ],
-      [
-       -86.98,
-       37.93
-      ],
-      [
-       -86.97,
-       37.92
-      ],
-      [
-       -86.99,
-       37.9
-      ],
-      [
-       -86.98,
-       37.89
-      ],
-      [
-       -86.93,
-       37.91
-      ],
-      [
-       -86.91,
-       37.9
-      ],
-      [
-       -86.92,
-       37.9
-      ],
-      [
-       -86.9,
-       37.88
-      ],
-      [
-       -86.91,
-       37.87
-      ],
-      [
-       -86.91,
-       37.84
-      ],
-      [
-       -86.89,
-       37.83
-      ],
-      [
-       -86.85,
-       37.84
-      ],
-      [
-       -86.82,
-       37.79
-      ],
-      [
-       -86.82,
-       37.74
-      ],
-      [
-       -87.07,
-       37.81
-      ],
-      [
-       -87.05,
-       37.89
-      ],
-      [
-       -87.03,
-       37.91
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -87.0871,
-     37.7317
-    ]
-   ],
-   "lon": -86.942,
-   "lat": 37.87,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLMK.SV.A.0704.2026",
-   "event": "Severe Thunderstorm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Louisville KY",
-   "areas": [
-    "Clark, IN",
-    "Crawford, IN",
-    "Dubois, IN",
-    "Floyd, IN",
-    "Harrison, IN",
-    "Orange, IN",
-    "Perry, IN",
-    "Scott, IN",
-    "Washington, IN",
-    "Breckinridge, KY",
-    "Butler, KY",
-    "Grayson, KY",
-    "Hancock, KY",
-    "Meade, KY",
-    "Ohio, KY"
-   ],
-   "counties": [
-    "18019",
-    "18025",
-    "18037",
-    "18043",
-    "18061",
-    "18117",
-    "18123",
-    "18143",
-    "18175",
-    "21027",
-    "21031",
-    "21085",
-    "21091",
-    "21163",
-    "21183"
-   ],
-   "sent": "2026-11-11T21:44:00Z",
-   "onset": "2026-11-11T21:44:00Z",
-   "ends": "2026-11-12T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d803997d18cc33d42b9c6fae026e8943e3c42571.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -85.7111,
-     38.4762
-    ],
-    [
-     -86.4409,
-     38.2894
-    ],
-    [
-     -86.8734,
-     38.3733
-    ],
-    [
-     -85.9118,
-     38.3181
-    ],
-    [
-     -86.1038,
-     38.1865
-    ],
-    [
-     -86.4893,
-     38.5474
-    ],
-    [
-     -86.6265,
-     38.0814
-    ],
-    [
-     -85.7519,
-     38.6794
-    ],
-    [
-     -86.1055,
-     38.601
-    ],
-    [
-     -86.4329,
-     37.778
-    ],
-    [
-     -86.6825,
-     37.207
-    ],
-    [
-     -86.344,
-     37.4586
-    ],
-    [
-     -86.7928,
-     37.8433
-    ],
-    [
-     -86.2009,
-     37.9675
-    ],
-    [
-     -86.8449,
-     37.4779
-    ]
-   ],
-   "lon": -86.354,
-   "lat": 38.086,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KIND.SV.A.0704.2026",
-   "event": "Severe Thunderstorm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Indianapolis IN",
-   "areas": [
-    "Decatur, IN",
-    "Jackson, IN",
-    "Jennings, IN"
-   ],
-   "counties": [
-    "18031",
-    "18071",
-    "18079"
-   ],
-   "sent": "2026-11-12T00:54:00Z",
-   "onset": "2026-11-12T00:54:00Z",
-   "ends": "2026-11-12T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.468a85cbc48c701ce903a7d76b9ef02fb8bf4ca5.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -85.4998,
-     39.306
-    ],
-    [
-     -86.0425,
-     38.912
-    ],
-    [
-     -85.6281,
-     38.9962
-    ]
-   ],
-   "lon": -85.723,
-   "lat": 39.071,
+   "lon": -85.072,
+   "lat": 39.23,
    "countries": [
     "US"
    ]
@@ -1862,6 +1464,61 @@
    ]
   },
   {
+   "id": "KLMK.SV.A.0704.2026",
+   "event": "Severe Thunderstorm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Louisville KY",
+   "areas": [
+    "Breckinridge, KY",
+    "Butler, KY",
+    "Grayson, KY",
+    "Hancock, KY",
+    "Ohio, KY"
+   ],
+   "counties": [
+    "21027",
+    "21031",
+    "21085",
+    "21091",
+    "21183"
+   ],
+   "sent": "2026-11-12T01:26:00Z",
+   "onset": "2026-11-12T01:26:00Z",
+   "ends": "2026-11-12T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8900d0ce826a27823cdd0dc558347d8101c2ff30.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.4329,
+     37.778
+    ],
+    [
+     -86.6825,
+     37.207
+    ],
+    [
+     -86.344,
+     37.4586
+    ],
+    [
+     -86.7928,
+     37.8433
+    ],
+    [
+     -86.8449,
+     37.4779
+    ]
+   ],
+   "lon": -86.619,
+   "lat": 37.553,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAJK.SR.W.4972.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1883,62 +1540,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHNX.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Yosemite NP outside of the valley",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP"
-   ],
-   "counties": [
-    "06019",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-11T18:21:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-17T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94b854dd7d47002544cf2809f6652be001f50a1d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.612,
-   "lat": 37.159,
    "countries": [
     "US"
    ]
@@ -2127,6 +1728,62 @@
    ],
    "lon": -119.965,
    "lat": 39.059,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP"
+   ],
+   "counties": [
+    "06019",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-12T01:33:00Z",
+   "onset": "2026-11-14T00:00:00Z",
+   "ends": "2026-11-17T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3397a4ea1fd2e9d430d167070c8165f1cfe656c8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.612,
+   "lat": 37.159,
    "countries": [
     "US"
    ]
