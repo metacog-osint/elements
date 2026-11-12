@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104280",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Myanmar",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-10T01:00:00Z",
+   "to": "2026-11-12T01:00:00Z",
+   "current": true,
+   "country": "Myanmar",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104280&episodeid=1&eventtype=FL",
+   "lon": 98.01,
+   "lat": 21.512,
+   "countries": [
+    "MM"
+   ]
+  },
+  {
    "id": "FL-1104277",
    "type": "FL",
    "kind": "flood",
@@ -590,7 +613,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 22,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -602,7 +625,7 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL",
    "lon": 97.025,
    "lat": 4.369,
    "countries": [
@@ -655,7 +678,7 @@
    "id": "FL-1104239",
    "type": "FL",
    "kind": "flood",
-   "episode": 5,
+   "episode": 6,
    "name": "Flood in Malaysia",
    "alert": "green",
    "score": 1,
@@ -663,16 +686,14 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-15T01:00:00Z",
-   "to": "2026-11-07T01:00:00Z",
-   "current": false,
+   "to": "2026-11-10T01:00:00Z",
+   "current": true,
    "country": "Malaysia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=5&eventtype=FL",
-   "lon": 101.0,
-   "lat": 4.0,
-   "countries": [
-    "MY"
-   ]
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=6&eventtype=FL",
+   "lon": 101.304,
+   "lat": 3.208,
+   "countries": []
   },
   {
    "id": "FL-1104220",
