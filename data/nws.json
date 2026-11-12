@@ -34,53 +34,6 @@
    ]
   },
   {
-   "id": "KPHI.TO.A.0705.2026",
-   "event": "Tornado Watch",
-   "severity": "Extreme",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Burlington, NJ",
-    "Monmouth, NJ",
-    "Ocean, NJ"
-   ],
-   "counties": [
-    "34005",
-    "34025",
-    "34029",
-    "73450",
-    "73451"
-   ],
-   "sent": "2026-11-12T22:02:00Z",
-   "onset": "2026-11-12T22:02:00Z",
-   "ends": "2026-11-13T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c48d0143dc0f49a3f4c73bf8a5e300c22b0ede83.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ]
-   ],
-   "lon": -74.358,
-   "lat": 40.009,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -628,6 +581,73 @@
    ],
    "lon": -73.786,
    "lat": 40.624,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0166.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Monmouth, NJ",
+    "Ocean, NJ"
+   ],
+   "counties": [
+    "34025",
+    "34029"
+   ],
+   "sent": "2026-11-12T22:59:00Z",
+   "onset": "2026-11-12T22:59:00Z",
+   "ends": "2026-11-13T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c7526186d280b9aa0f8b476844882022ed2bbf0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.04,
+       40.06
+      ],
+      [
+       -74.17,
+       40.11
+      ],
+      [
+       -74.16,
+       40.12
+      ],
+      [
+       -74.12,
+       40.31
+      ],
+      [
+       -73.97,
+       40.3
+      ],
+      [
+       -74.04,
+       40.06
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ]
+   ],
+   "lon": -74.083,
+   "lat": 40.16,
    "countries": [
     "US"
    ]
@@ -1195,10 +1215,10 @@
    "counties": [
     "53045"
    ],
-   "sent": "2026-11-12T10:12:00Z",
+   "sent": "2026-11-12T22:56:00Z",
    "onset": "2026-11-13T12:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e61f29d030be3e1b10c772f49aa8f218a71c2b4b.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56608a749e18031787f4a307486bc6755bf809e2.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2753,32 +2773,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.6831.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-12T00:48:00Z",
-   "onset": "2026-11-12T00:00:00Z",
-   "ends": "2026-11-13T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.6844.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2795,6 +2789,32 @@
    "onset": "2026-11-12T00:00:00Z",
    "ends": "2026-11-13T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.009.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.6831.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-12T00:48:00Z",
+   "onset": "2026-11-12T00:00:00Z",
+   "ends": "2026-11-13T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3092,82 +3112,7 @@
    ]
   },
   {
-   "id": "KPHI.SV.W.0388.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Monmouth, NJ",
-    "Ocean, NJ"
-   ],
-   "counties": [
-    "34025",
-    "34029"
-   ],
-   "sent": "2026-11-12T22:28:00Z",
-   "onset": "2026-11-12T22:28:00Z",
-   "ends": "2026-11-12T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34b290cf8dd626f1cece7062570fcea6a2c71360.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -73.96,
-       40.3
-      ],
-      [
-       -73.96,
-       40.2
-      ],
-      [
-       -74.04,
-       39.87
-      ],
-      [
-       -74.47,
-       39.92
-      ],
-      [
-       -74.28,
-       40.03
-      ],
-      [
-       -74.21,
-       40.17
-      ],
-      [
-       -74.19,
-       40.31
-      ],
-      [
-       -73.96,
-       40.3
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ]
-   ],
-   "lon": -74.134,
-   "lat": 40.138,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.MA.W.0188.2026",
+   "id": "KPHI.MA.W.0189.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -3175,87 +3120,95 @@
    "sender": "NWS Mount Holly NJ",
    "areas": [
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM"
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
    ],
    "counties": [
     "73450",
-    "73451"
+    "73451",
+    "73480",
+    "73481"
    ],
-   "sent": "2026-11-12T22:02:00Z",
-   "onset": "2026-11-12T22:02:00Z",
-   "ends": "2026-11-12T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5223b1bc38617dba208b838736d682545af931e5.001.1",
+   "sent": "2026-11-12T22:54:00Z",
+   "onset": "2026-11-12T22:54:00Z",
+   "ends": "2026-11-13T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a780d816b260d9585efcee11f4b3f43a0d9e3cb.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -73.65,
-       40.26
-      ],
-      [
-       -73.66,
-       40.2
-      ],
-      [
-       -73.76,
-       39.83
-      ],
-      [
-       -74.23,
-       39.87
-      ],
-      [
-       -74.2,
-       39.9
-      ],
-      [
-       -74.24,
-       39.93
-      ],
-      [
-       -74.25,
-       39.96
-      ],
-      [
-       -74.2,
-       40
-      ],
-      [
-       -74.11,
-       40.21
-      ],
-      [
-       -74.05,
+       -73.64,
        40.25
       ],
       [
-       -74.05,
-       40.27
+       -73.41,
+       39.99
       ],
       [
-       -74.13,
-       40.32
+       -73.53,
+       39.64
       ],
       [
-       -74.13,
-       40.34
+       -74.26,
+       39.72
       ],
       [
-       -73.9,
-       40.4
+       -74.26,
+       39.8
       ],
       [
-       -73.65,
-       40.26
+       -74.17,
+       39.87
+      ],
+      [
+       -74.06,
+       40.03
+      ],
+      [
+       -74.01,
+       40.19
+      ],
+      [
+       -74.06,
+       40.28
+      ],
+      [
+       -74.08,
+       40.41
+      ],
+      [
+       -74.06,
+       40.42
+      ],
+      [
+       -73.98,
+       40.41
+      ],
+      [
+       -73.98,
+       40.42
+      ],
+      [
+       -74,
+       40.42
+      ],
+      [
+       -73.99,
+       40.44
+      ],
+      [
+       -73.64,
+       40.25
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -74.014,
-   "lat": 40.133,
+   "lon": -73.946,
+   "lat": 40.159,
    "countries": [
     "US"
    ]
@@ -3283,6 +3236,34 @@
    "onset": "2026-11-13T00:00:00Z",
    "ends": "2026-11-13T17:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b730c99165e3f5f09522db02df098ac7f8d7b440.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-12T22:55:00Z",
+   "onset": "2026-11-12T23:00:00Z",
+   "ends": "2026-11-13T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6147a4229e5d996c681dbf52bdc54a02495ab9e.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
