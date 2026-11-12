@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000txwp",
+   "mag": 5.8,
+   "place": "148 km NW of Kavieng, Papua New Guinea",
+   "time": "2026-11-12T22:04:06Z",
+   "updated": "2026-11-12T22:28:45Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 518,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+   "depth_km": 10.0,
+   "lon": 149.888,
+   "lat": -1.588,
+   "countries": []
+  },
+  {
    "id": "us7000txvw",
    "mag": 4.9,
    "place": "41 km N of Weining, China",
@@ -1578,21 +1593,6 @@
    "depth_km": 16.1,
    "lon": -162.95,
    "lat": 53.553,
-   "countries": []
-  },
-  {
-   "id": "us7000twcy",
-   "mag": 4.6,
-   "place": "south of the Fiji Islands",
-   "time": "2026-11-05T22:34:48Z",
-   "updated": "2026-11-05T22:53:48Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twcy",
-   "depth_km": 523.4,
-   "lon": 179.939,
-   "lat": -23.532,
    "countries": []
   }
  ]
