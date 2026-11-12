@@ -34,132 +34,6 @@
    ]
   },
   {
-   "id": "KPHI.TO.W.0037.2026",
-   "event": "Tornado Warning",
-   "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ"
-   ],
-   "counties": [
-    "34005"
-   ],
-   "sent": "2026-11-12T20:58:00Z",
-   "onset": "2026-11-12T20:58:00Z",
-   "ends": "2026-11-12T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28e44b652d4d7e152be4e3123d2b14d329cf2285.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.68,
-       40.09
-      ],
-      [
-       -74.71,
-       40.12
-      ],
-      [
-       -74.68,
-       40.16
-      ],
-      [
-       -74.64,
-       40.1
-      ],
-      [
-       -74.68,
-       40.09
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ]
-   ],
-   "lon": -74.678,
-   "lat": 40.112,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.TO.W.0038.2026",
-   "event": "Tornado Warning",
-   "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ",
-    "Mercer, NJ",
-    "Monmouth, NJ"
-   ],
-   "counties": [
-    "34005",
-    "34021",
-    "34025"
-   ],
-   "sent": "2026-11-12T21:03:00Z",
-   "onset": "2026-11-12T21:03:00Z",
-   "ends": "2026-11-12T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8210a33d1878c4be129130b2b294574f6b11dd9f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.66,
-       40.11
-      ],
-      [
-       -74.71,
-       40.14
-      ],
-      [
-       -74.56,
-       40.27
-      ],
-      [
-       -74.45,
-       40.17
-      ],
-      [
-       -74.66,
-       40.11
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.1524,
-     40.287
-    ]
-   ],
-   "lon": -74.608,
-   "lat": 40.16,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.TO.A.0705.2026",
    "event": "Tornado Watch",
    "severity": "Extreme",
@@ -318,318 +192,6 @@
    ],
    "lon": -120.244,
    "lat": 34.962,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FF.W.0161.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "New Castle, DE",
-    "Gloucester, NJ",
-    "Salem, NJ",
-    "Delaware, PA"
-   ],
-   "counties": [
-    "10003",
-    "34015",
-    "34033",
-    "42045"
-   ],
-   "sent": "2026-11-12T19:26:00Z",
-   "onset": "2026-11-12T19:26:00Z",
-   "ends": "2026-11-12T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a67ff3420943ba1b4c3b2c8d71869d41a6c59bde.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -75.64,
-       39.8
-      ],
-      [
-       -75.45,
-       39.89
-      ],
-      [
-       -75.37,
-       39.92
-      ],
-      [
-       -75.36,
-       39.9
-      ],
-      [
-       -75.31,
-       39.82
-      ],
-      [
-       -75.53,
-       39.71
-      ],
-      [
-       -75.64,
-       39.8
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -75.3988,
-     39.9167
-    ]
-   ],
-   "lon": -75.471,
-   "lat": 39.834,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FF.W.0162.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Camden, NJ",
-    "Gloucester, NJ",
-    "Delaware, PA",
-    "Philadelphia, PA"
-   ],
-   "counties": [
-    "34007",
-    "34015",
-    "42045",
-    "42101"
-   ],
-   "sent": "2026-11-12T19:45:00Z",
-   "onset": "2026-11-12T19:45:00Z",
-   "ends": "2026-11-12T23:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0637da8d3d77bb4af3fb20ff20c6f2d3eccff792.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -75.32,
-       39.82
-      ],
-      [
-       -75.38,
-       39.93
-      ],
-      [
-       -75.2,
-       40.01
-      ],
-      [
-       -75.09,
-       39.87
-      ],
-      [
-       -75.3,
-       39.79
-      ],
-      [
-       -75.32,
-       39.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -75.268,
-   "lat": 39.873,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FF.W.0163.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ",
-    "Camden, NJ",
-    "Montgomery, PA",
-    "Philadelphia, PA"
-   ],
-   "counties": [
-    "34005",
-    "34007",
-    "42091",
-    "42101"
-   ],
-   "sent": "2026-11-12T20:01:00Z",
-   "onset": "2026-11-12T20:01:00Z",
-   "ends": "2026-11-13T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b70a6ce4163151d34f10f237c158e67f70d9e0b.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -75.1,
-       39.87
-      ],
-      [
-       -75.24,
-       40.05
-      ],
-      [
-       -75.07,
-       40.1
-      ],
-      [
-       -74.92,
-       39.93
-      ],
-      [
-       -75.1,
-       39.87
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -75.086,
-   "lat": 39.964,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FF.W.0164.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ",
-    "Bucks, PA",
-    "Montgomery, PA",
-    "Philadelphia, PA"
-   ],
-   "counties": [
-    "34005",
-    "42017",
-    "42091",
-    "42101"
-   ],
-   "sent": "2026-11-12T20:27:00Z",
-   "onset": "2026-11-12T20:27:00Z",
-   "ends": "2026-11-13T00:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeee743da1b50865a4520c9956d843caa3f72d66.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.93,
-       39.93
-      ],
-      [
-       -75.15,
-       40.18
-      ],
-      [
-       -74.89,
-       40.29
-      ],
-      [
-       -74.63,
-       40.06
-      ],
-      [
-       -74.93,
-       39.93
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -74.906,
-   "lat": 40.078,
    "countries": [
     "US"
    ]
@@ -802,6 +364,318 @@
    ],
    "lon": -73.786,
    "lat": 40.624,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0161.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "New Castle, DE",
+    "Gloucester, NJ",
+    "Salem, NJ",
+    "Delaware, PA"
+   ],
+   "counties": [
+    "10003",
+    "34015",
+    "34033",
+    "42045"
+   ],
+   "sent": "2026-11-12T21:07:00Z",
+   "onset": "2026-11-12T21:07:00Z",
+   "ends": "2026-11-12T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41c11d2bf80140b99f3f9becbed05ffc1d0f8540.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -75.45,
+       39.89
+      ],
+      [
+       -75.64,
+       39.8
+      ],
+      [
+       -75.53,
+       39.71
+      ],
+      [
+       -75.31,
+       39.82
+      ],
+      [
+       -75.36,
+       39.9
+      ],
+      [
+       -75.37,
+       39.92
+      ],
+      [
+       -75.45,
+       39.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -75.3988,
+     39.9167
+    ]
+   ],
+   "lon": -75.444,
+   "lat": 39.847,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0162.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Camden, NJ",
+    "Gloucester, NJ",
+    "Delaware, PA",
+    "Philadelphia, PA"
+   ],
+   "counties": [
+    "34007",
+    "34015",
+    "42045",
+    "42101"
+   ],
+   "sent": "2026-11-12T21:16:00Z",
+   "onset": "2026-11-12T21:16:00Z",
+   "ends": "2026-11-12T23:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1a6c459c8fe3a519c411f2205b3b77750785c55.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -75.32,
+       39.82
+      ],
+      [
+       -75.38,
+       39.93
+      ],
+      [
+       -75.2,
+       40.01
+      ],
+      [
+       -75.09,
+       39.87
+      ],
+      [
+       -75.3,
+       39.79
+      ],
+      [
+       -75.32,
+       39.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.268,
+   "lat": 39.873,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0163.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Burlington, NJ",
+    "Camden, NJ",
+    "Montgomery, PA",
+    "Philadelphia, PA"
+   ],
+   "counties": [
+    "34005",
+    "34007",
+    "42091",
+    "42101"
+   ],
+   "sent": "2026-11-12T21:20:00Z",
+   "onset": "2026-11-12T21:20:00Z",
+   "ends": "2026-11-13T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00ec8d02970fa8a385a59191079ed08eb0781d17.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -75.07,
+       40.1
+      ],
+      [
+       -74.92,
+       39.93
+      ],
+      [
+       -75.1,
+       39.87
+      ],
+      [
+       -75.24,
+       40.05
+      ],
+      [
+       -75.07,
+       40.1
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.3702,
+     40.21
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.08,
+   "lat": 40.01,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FF.W.0164.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Burlington, NJ",
+    "Bucks, PA",
+    "Montgomery, PA",
+    "Philadelphia, PA"
+   ],
+   "counties": [
+    "34005",
+    "42017",
+    "42091",
+    "42101"
+   ],
+   "sent": "2026-11-12T21:22:00Z",
+   "onset": "2026-11-12T21:22:00Z",
+   "ends": "2026-11-13T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b127a1e25d4662fcdfa857983058ae95e3daa8f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.93,
+       39.93
+      ],
+      [
+       -75.15,
+       40.18
+      ],
+      [
+       -74.89,
+       40.29
+      ],
+      [
+       -74.63,
+       40.06
+      ],
+      [
+       -74.93,
+       39.93
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.3702,
+     40.21
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -74.906,
+   "lat": 40.078,
    "countries": [
     "US"
    ]
@@ -3204,10 +3078,10 @@
     "41015",
     "41019"
    ],
-   "sent": "2026-11-12T14:28:00Z",
+   "sent": "2026-11-12T21:17:00Z",
    "onset": "2026-11-13T06:00:00Z",
    "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6334280d1461fe5677e18975a94b47ecd0e33ade.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebffb93c0c6e2f26fd83fe550c127f48ca76d967.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3235,76 +3109,7 @@
    ]
   },
   {
-   "id": "KPHI.SV.W.0385.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Hunterdon, NJ",
-    "Mercer, NJ",
-    "Bucks, PA"
-   ],
-   "counties": [
-    "34019",
-    "34021",
-    "42017"
-   ],
-   "sent": "2026-11-12T20:49:00Z",
-   "onset": "2026-11-12T20:49:00Z",
-   "ends": "2026-11-12T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89f0795effecc462b455c002d700066a4a4d8a07.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -75.01,
-       40.19
-      ],
-      [
-       -75.1,
-       40.44
-      ],
-      [
-       -74.89,
-       40.62
-      ],
-      [
-       -74.68,
-       40.32
-      ],
-      [
-       -75.01,
-       40.19
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.912,
-     40.5653
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -75.1071,
-     40.3369
-    ]
-   ],
-   "lon": -74.938,
-   "lat": 40.352,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.SV.W.0386.2026",
+   "id": "KPHI.SV.W.0387.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -3313,44 +3118,44 @@
    "areas": [
     "Burlington, NJ",
     "Mercer, NJ",
+    "Middlesex, NJ",
     "Monmouth, NJ",
-    "Ocean, NJ",
-    "Bucks, PA"
+    "Ocean, NJ"
    ],
    "counties": [
     "34005",
     "34021",
+    "34023",
     "34025",
-    "34029",
-    "42017"
+    "34029"
    ],
-   "sent": "2026-11-12T21:04:00Z",
-   "onset": "2026-11-12T21:04:00Z",
-   "ends": "2026-11-12T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aaf21eba2506ec1a8abf5c5934c4c7193f8fb9e.001.1",
+   "sent": "2026-11-12T21:20:00Z",
+   "onset": "2026-11-12T21:20:00Z",
+   "ends": "2026-11-12T22:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d8fde96ce43c960ef77d448c9685d59a50694f3.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -74.69,
-       39.98
+       -74.58,
+       39.99
       ],
       [
-       -74.87,
+       -74.67,
        40.24
       ],
       [
-       -74.63,
-       40.34
+       -74.25,
+       40.41
       ],
       [
-       -74.34,
-       40.07
+       -74.04,
+       40.15
       ],
       [
-       -74.69,
-       39.98
+       -74.58,
+       39.99
       ]
      ]
     ]
@@ -3366,20 +3171,128 @@
      40.2825
     ],
     [
+     -74.4074,
+     40.4396
+    ],
+    [
      -74.1524,
      40.287
     ],
     [
      -74.2589,
      39.8657
-    ],
-    [
-     -75.1071,
-     40.3369
     ]
    ],
-   "lon": -74.644,
-   "lat": 40.122,
+   "lon": -74.424,
+   "lat": 40.156,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOKX.MA.W.0108.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM"
+   ],
+   "counties": [
+    "73380"
+   ],
+   "sent": "2026-11-12T21:07:00Z",
+   "onset": "2026-11-12T21:07:00Z",
+   "ends": "2026-11-12T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f97e682d6308beb2e52f5af248eb9bc2968a66a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -71.37,
+       40.14
+      ],
+      [
+       -72.06,
+       39.91
+      ],
+      [
+       -72.08,
+       39.93
+      ],
+      [
+       -71.53,
+       40.39
+      ],
+      [
+       -71.29,
+       40.19
+      ],
+      [
+       -71.37,
+       40.14
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -71.617,
+   "lat": 40.117,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "TJSJ.MA.W.0035.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Atlantic Waters of Puerto Rico AND USVI from 10 NM to 19.5N"
+   ],
+   "counties": [
+    "75711"
+   ],
+   "sent": "2026-11-12T21:21:00Z",
+   "onset": "2026-11-12T21:21:00Z",
+   "ends": "2026-11-12T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9053451af2b00dea1a22332145668937af8b5c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -67.05,
+       18.78
+      ],
+      [
+       -67.19,
+       18.73
+      ],
+      [
+       -67.46,
+       18.99
+      ],
+      [
+       -67.1,
+       19.12
+      ],
+      [
+       -67.05,
+       18.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -67.17,
+   "lat": 18.88,
    "countries": [
     "US"
    ]
@@ -3407,6 +3320,36 @@
    "onset": "2026-11-13T00:00:00Z",
    "ends": "2026-11-13T17:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b730c99165e3f5f09522db02df098ac7f8d7b440.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.A.0002.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-12T21:18:00Z",
+   "onset": "2026-11-15T00:00:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e744ed7e5aa2a15674903632cabfd9f6b7de464.001.4",
    "geometry": null,
    "vtec": true,
    "points": [],
