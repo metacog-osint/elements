@@ -236,10 +236,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-12T01:34:00Z",
-   "onset": "2026-11-12T01:34:00Z",
-   "ends": "2026-11-12T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77e928eff45837bf21c2096869d876897004b858.001.1",
+   "sent": "2026-11-12T13:06:00Z",
+   "onset": "2026-11-12T13:06:00Z",
+   "ends": "2026-11-13T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0218479c9cb47f9409b0644c9e2600ae039c28c.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -299,10 +299,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-12T01:37:00Z",
-   "onset": "2026-11-12T01:37:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d80cc76de26953027eb02516b3e7ef61718f3119.001.1",
+   "sent": "2026-11-12T13:09:00Z",
+   "onset": "2026-11-12T13:09:00Z",
+   "ends": "2026-11-13T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f269df4480d0d93e8d46f8f5a477cbd2b549d38.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -360,10 +360,10 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-12T01:41:00Z",
-   "onset": "2026-11-12T01:41:00Z",
-   "ends": "2026-11-12T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ba250f1fa1bbd04aa9a9e452de342af9cda64bf.001.1",
+   "sent": "2026-11-12T13:22:00Z",
+   "onset": "2026-11-12T13:22:00Z",
+   "ends": "2026-11-13T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e70869259eab578a2af4f3d82dfadc30b74ea22b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -417,10 +417,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-12T01:45:00Z",
-   "onset": "2026-11-12T01:45:00Z",
-   "ends": "2026-11-12T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74c745e794d1d8e559a07c71e20e072593439e0f.001.1",
+   "sent": "2026-11-12T13:23:00Z",
+   "onset": "2026-11-12T13:23:00Z",
+   "ends": "2026-11-13T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2305617cfc87570d35c0272f7b095ee20824c465.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -474,10 +474,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-12T01:46:00Z",
-   "onset": "2026-11-12T01:46:00Z",
-   "ends": "2026-11-12T17:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.065a9651b2309b6a0d2d51c43465d38a5f378e29.001.1",
+   "sent": "2026-11-12T13:25:00Z",
+   "onset": "2026-11-12T13:25:00Z",
+   "ends": "2026-11-13T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b603af0369d77eaaebc80d33f19d44feb8aaa99b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -914,32 +914,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.6844.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58860"
-   ],
-   "sent": "2026-11-12T00:48:00Z",
-   "onset": "2026-11-12T00:00:00Z",
-   "ends": "2026-11-13T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.009.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.6831.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -956,6 +930,32 @@
    "onset": "2026-11-12T00:00:00Z",
    "ends": "2026-11-13T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.6844.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island from 15 to 80 NM"
+   ],
+   "counties": [
+    "58860"
+   ],
+   "sent": "2026-11-12T00:48:00Z",
+   "onset": "2026-11-12T00:00:00Z",
+   "ends": "2026-11-13T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b76d561a16ac88ed56e120569dfa9f374c059a1.009.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1447,11 +1447,11 @@
    ]
   },
   {
-   "id": "KHNX.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
+   "id": "KHNX.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Hanford CA",
    "areas": [
     "Yosemite NP outside of the valley",
@@ -1459,7 +1459,8 @@
     "Kaiser to Rodgers Ridge",
     "Kings Canyon NP",
     "Grant Grove Area",
-    "Sequoia NP"
+    "Sequoia NP",
+    "San Joaquin River Canyon"
    ],
    "counties": [
     "06019",
@@ -1468,10 +1469,10 @@
     "06107",
     "06109"
    ],
-   "sent": "2026-11-12T10:33:00Z",
+   "sent": "2026-11-12T13:19:00Z",
    "onset": "2026-11-14T00:00:00Z",
    "ends": "2026-11-17T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc4942cc7383970a474b19c101a3959c3639ff35.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ed0a7e6590150d09f7396427da209adbd78a631.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
