@@ -407,6 +407,20 @@
    "lat": 17.9913
   },
   {
+   "id": "{8D12AA23-DA35-42C7-ACB0-7435800F69D2}",
+   "name": "Noe Branch",
+   "acres": 92.0,
+   "contained": 80,
+   "discovered": "2026-11-10T17:58:00Z",
+   "updated": "2026-11-12T00:32:23Z",
+   "state": "KY",
+   "county": "Harlan",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.3265,
+   "lat": 36.7811
+  },
+  {
    "id": "{E454CC69-75B7-4C9E-90E3-9CDB62CACE19}",
    "name": "Kessel",
    "acres": 70.0,
@@ -463,20 +477,6 @@
    "lat": 36.6976
   },
   {
-   "id": "{8D12AA23-DA35-42C7-ACB0-7435800F69D2}",
-   "name": "Noe Branch",
-   "acres": 60.0,
-   "contained": 70,
-   "discovered": "2026-11-10T17:58:00Z",
-   "updated": "2026-11-11T23:38:36Z",
-   "state": "KY",
-   "county": "Harlan",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.3265,
-   "lat": 36.7811
-  },
-  {
    "id": "{0D34F4B5-58CD-4D86-AC2A-26EDE61DA62A}",
    "name": "Birney Road",
    "acres": 48.0,
@@ -503,6 +503,20 @@
    "complexity": "Type 5 Incident",
    "lon": -82.1785,
    "lat": 37.4415
+  },
+  {
+   "id": "{F462F5FE-95A1-4FE8-B5CB-9EBCC1FC4A1C}",
+   "name": "Harris Hollow Lane",
+   "acres": 40.0,
+   "contained": 0,
+   "discovered": "2026-11-11T23:17:00Z",
+   "updated": "2026-11-12T00:31:47Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6871,
+   "lat": 37.3529
   },
   {
    "id": "{F93298F2-D801-46A3-806B-94BB04676467}",
@@ -701,20 +715,6 @@
    "lat": 34.5447
   },
   {
-   "id": "{C8B30EDD-1CBF-40A9-91A7-F8B34556F1CD}",
-   "name": "229 Pine Springs Road",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-11T22:02:00Z",
-   "updated": "2026-11-12T00:16:57Z",
-   "state": "KY",
-   "county": "Carter",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.0762,
-   "lat": 38.2349
-  },
-  {
    "id": "{7869AA5D-4751-4BBA-B0FC-221F36C6248B}",
    "name": "0902 Quail",
    "acres": 4.0,
@@ -911,20 +911,6 @@
    "lat": 32.4742
   },
   {
-   "id": "{6BED5254-28A6-4051-90CD-F1431AA1E05F}",
-   "name": "Lawrence County - 1622 Morgans Creek Road",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-11T21:51:00Z",
-   "updated": "2026-11-12T00:16:22Z",
-   "state": "KY",
-   "county": "Lawrence",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.7262,
-   "lat": 38.1433
-  },
-  {
    "id": "{CBD9BB23-B11B-4D4C-B223-4DB49C5B0038}",
    "name": "Saline 290",
    "acres": 1.0,
@@ -979,20 +965,6 @@
    "complexity": null,
    "lon": -89.9308,
    "lat": 44.0497
-  },
-  {
-   "id": "{B34C0E56-2EA9-46DA-996B-0FDD288F3338}",
-   "name": "Michigan",
-   "acres": 0.6,
-   "contained": null,
-   "discovered": "2026-11-11T20:33:29Z",
-   "updated": "2026-11-11T22:11:38Z",
-   "state": "CA",
-   "county": "Placer",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.7367,
-   "lat": 39.042
   },
   {
    "id": "{0E5C1A6D-D278-4213-B410-176873B8019D}",
@@ -1667,20 +1639,6 @@
    "lat": 37.7868
   },
   {
-   "id": "{A32A8D3F-48A5-4C0F-BE9D-85AA5A059538}",
-   "name": "Tcu Summit",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-07T18:22:00Z",
-   "updated": "2026-11-09T00:16:36Z",
-   "state": "CA",
-   "county": "Calaveras",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.3717,
-   "lat": 38.2792
-  },
-  {
    "id": "{3A805715-FD6B-4A9F-A22F-546FEFDF5E53}",
    "name": "Wonder",
    "acres": 0.0,
@@ -2113,6 +2071,34 @@
    "complexity": null,
    "lon": -118.1103,
    "lat": 34.5152
+  },
+  {
+   "id": "{C94E0A16-7D1F-4E11-BEDE-DAAD3379E681}",
+   "name": "Lac-408845",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T00:36:45Z",
+   "updated": "2026-11-12T00:37:19Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1607,
+   "lat": 34.6749
+  },
+  {
+   "id": "{117FEF3B-0DD5-4A85-8024-77A96EA52D8C}",
+   "name": "Mountain",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T00:49:40Z",
+   "updated": "2026-11-12T00:50:42Z",
+   "state": "CA",
+   "county": "Humboldt",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -124.0095,
+   "lat": 40.0238
   }
  ]
 }
