@@ -566,52 +566,6 @@
    ]
   },
   {
-   "id": "FL-1104264",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Egypt",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-26T01:00:00Z",
-   "to": "2026-10-28T01:00:00Z",
-   "current": false,
-   "country": "Egypt",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104264&episodeid=1&eventtype=FL",
-   "lon": 33.812,
-   "lat": 29.208,
-   "countries": [
-    "EG"
-   ]
-  },
-  {
-   "id": "TC-1001345",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 10,
-   "name": "Tropical Cyclone ARNAB-26",
-   "alert": "red",
-   "score": 3,
-   "latest_alert": "orange",
-   "severity_value": 222.2208,
-   "severity_unit": "km/h",
-   "from": "2026-10-26T00:00:00Z",
-   "to": "2026-10-28T06:00:00Z",
-   "current": false,
-   "country": "India",
-   "severity": "Tropical Storm (maximum wind speed of 222 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
-   "lon": 81.8,
-   "lat": 16.4,
-   "countries": [
-    "IN"
-   ]
-  },
-  {
    "id": "TC-1001343",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -656,29 +610,6 @@
    ]
   },
   {
-   "id": "FL-1104250",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 4,
-   "name": "Flood in Argentina",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-22T01:00:00Z",
-   "to": "2026-10-28T01:00:00Z",
-   "current": false,
-   "country": "Argentina",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104250&episodeid=4&eventtype=FL",
-   "lon": -59.259,
-   "lat": -28.355,
-   "countries": [
-    "AR"
-   ]
-  },
-  {
    "id": "TC-1001341",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -719,29 +650,6 @@
    "lon": 80.166,
    "lat": 15.446,
    "countries": []
-  },
-  {
-   "id": "FL-1104241",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 3,
-   "name": "Flood in Thailand",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-18T01:00:00Z",
-   "to": "2026-10-28T01:00:00Z",
-   "current": false,
-   "country": "Thailand",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104241&episodeid=3&eventtype=FL",
-   "lon": 100.149,
-   "lat": 18.132,
-   "countries": [
-    "TH"
-   ]
   },
   {
    "id": "FL-1104239",
