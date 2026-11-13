@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "PTWC-20261113T163556Z",
+   "centre": "PTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-13T16:43:19Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "",
+   "location": "ABOUT 84 MILES NORTHWEST OF ISLA MONA",
+   "magnitude": 4.9,
+   "magnitude_type": "Mwp",
+   "origin": "2026-11-13T16:35:56Z",
+   "depth_km": 163.0,
+   "lat": 18.6,
+   "lon": -69.1,
+   "countries": [
+    "DO"
+   ],
+   "url": "https://www.tsunami.gov/events/PHEB/2026/11/13/26317050/1/WECA42/PHEBCAP.xml"
+  },
+  {
    "id": "NTWC-20261111T014531Z",
    "centre": "NTWC",
    "msg_type": "Alert",
