@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.8 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.9 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -48,6 +48,10 @@
       label: "Spectrum · GPS interference",
       short: "Where GPS is being jammed or spoofed, mapped every day.",
       long: "Where GPS and other satellite navigation is jammed or spoofed, mapped every day from aircraft and ship position reports, with satellite and space-weather context." },
+    { id: "orbit", name: "Orbit", href: "https://orbit.theintelligence.company", status: "beta", group: "layers",
+      label: "Space · orbital activity",
+      short: "What changed in Earth orbit: launches, scheduled launches, reentries and satellite catalog changes.",
+      long: "What changed in Earth orbit, from public catalogs: orbital launches of the last 7 and 30 days, launches scheduled for the next 14 days, reentries, and changes to the satellite catalog between Orbit's own readings, with objects in orbit counted by owner. From Jonathan McDowell's GCAT (CC BY 4.0) and The Space Devs' Launch Library 2. Measurements and reports only; Orbit adds no judgment. Updated every six hours." },
     { id: "cordon", name: "Cordon", href: "https://cordon.theintelligence.company", status: "beta", group: "layers",
       label: "Air · hazard notices",
       short: "Where authorities warn people away.",
@@ -195,6 +199,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.8", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.9", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
