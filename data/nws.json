@@ -5004,6 +5004,118 @@
    ]
   },
   {
+   "id": "KEKA.MA.W.0027.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
+   ],
+   "counties": [
+    "57450"
+   ],
+   "sent": "2026-11-13T20:34:00Z",
+   "onset": "2026-11-13T20:34:00Z",
+   "ends": "2026-11-13T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14daac957ffc3b1df339845ead67002f581594ae.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -124.4,
+       41.11
+      ],
+      [
+       -124.22,
+       41.25
+      ],
+      [
+       -124.14,
+       41.16
+      ],
+      [
+       -124.15,
+       41.14
+      ],
+      [
+       -124.16,
+       41.14
+      ],
+      [
+       -124.16,
+       41.13
+      ],
+      [
+       -124.17,
+       41.13
+      ],
+      [
+       -124.16,
+       41.12
+      ],
+      [
+       -124.16,
+       41.1
+      ],
+      [
+       -124.15,
+       41.09
+      ],
+      [
+       -124.16,
+       41.09
+      ],
+      [
+       -124.16,
+       41.07
+      ],
+      [
+       -124.15,
+       41.06
+      ],
+      [
+       -124.15,
+       41.05
+      ],
+      [
+       -124.14,
+       41.05
+      ],
+      [
+       -124.11,
+       41.03
+      ],
+      [
+       -124.36,
+       40.97
+      ],
+      [
+       -124.36,
+       40.98
+      ],
+      [
+       -124.39,
+       41.04
+      ],
+      [
+       -124.4,
+       41.11
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -124.213,
+   "lat": 41.091,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5036,32 +5148,26 @@
    ]
   },
   {
-   "id": "KPQR.SR.A.0002.2026",
-   "event": "Storm Watch",
+   "id": "KPQR.SR.W.0003.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
-    "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
     "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
     "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
     "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
    ],
    "counties": [
-    "57251",
-    "57252",
-    "57253",
     "57271",
     "57272",
     "57273"
    ],
-   "sent": "2026-11-13T08:31:00Z",
-   "onset": "2026-11-15T00:00:00Z",
+   "sent": "2026-11-13T20:34:00Z",
+   "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45cecdc37a51afc6a81c7ebf963dbe7f49685e79.001.4",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63aa2e36efb4c509f815f566425018719e4b6c0f.001.4",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5098,6 +5204,38 @@
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcacd040889d6b637fa1691c5d069ab7664816c4.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.A.0002.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
+    "Columbia River Bar"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57253"
+   ],
+   "sent": "2026-11-13T20:34:00Z",
+   "onset": "2026-11-15T00:00:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63aa2e36efb4c509f815f566425018719e4b6c0f.002.3",
    "geometry": null,
    "vtec": true,
    "points": [],
