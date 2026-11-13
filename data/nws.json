@@ -8,9 +8,9 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast"
+    "Eastern Beaufort Sea Coast",
+    "Northern Arctic Coast"
    ],
    "counties": [
     "02185"
@@ -18,7 +18,7 @@
    "sent": "2026-11-13T00:33:00Z",
    "onset": "2026-11-13T00:33:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4336,7 +4336,7 @@
    ]
   },
   {
-   "id": "KLOX.MA.W.0066.2026",
+   "id": "KLOX.MA.W.0067.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -4348,29 +4348,25 @@
    "counties": [
     "57655"
    ],
-   "sent": "2026-11-13T08:15:00Z",
-   "onset": "2026-11-13T08:15:00Z",
-   "ends": "2026-11-13T09:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.158c5aa3d738434b2b47a04a0101f123ae1be74f.001.1",
+   "sent": "2026-11-13T09:14:00Z",
+   "onset": "2026-11-13T09:14:00Z",
+   "ends": "2026-11-13T10:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3770b97b5cb8f089d8d9e82182823fe9a4d85a42.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.19,
+       -118.18,
        33.47
       ],
       [
-       -118.18,
-       33.8
+       -118.17,
+       33.84
       ],
       [
-       -118.09,
-       33.76
-      ],
-      [
-       -118.11,
-       33.75
+       -118.08,
+       33.81
       ],
       [
        -118.11,
@@ -4410,6 +4406,10 @@
       ],
       [
        -117.88,
+       33.67
+      ],
+      [
+       -117.88,
        33.66
       ],
       [
@@ -4433,7 +4433,7 @@
        33.27
       ],
       [
-       -118.19,
+       -118.18,
        33.47
       ]
      ]
@@ -4441,40 +4441,110 @@
    },
    "vtec": true,
    "points": [],
-   "lon": -117.984,
+   "lon": -117.97,
    "lat": 33.612,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KMFR.SR.W.0002.2026",
-   "event": "Storm Warning",
+   "id": "KLOX.MA.W.0068.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
    "areas": [
-    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
-    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+    "Inner waters from Point Mugu to San Mateo Pt. CA including Santa Catalina and Anacapa Islands",
+    "Outer waters from Santa Cruz Island to San Clemente Island to 60 NM offshore including San Nicolas and Santa Barbara Islands"
    ],
    "counties": [
-    "57350",
-    "57356",
-    "57370",
-    "57376"
+    "57655",
+    "57676"
    ],
-   "sent": "2026-11-12T20:48:00Z",
-   "onset": "2026-11-13T00:00:00Z",
-   "ends": "2026-11-13T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b730c99165e3f5f09522db02df098ac7f8d7b440.001.2",
-   "geometry": null,
+   "sent": "2026-11-13T09:19:00Z",
+   "onset": "2026-11-13T09:19:00Z",
+   "ends": "2026-11-13T11:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0831b1a65240cece572ca90526334e8338ea2976.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -119.13,
+       34.08
+      ],
+      [
+       -119.07,
+       34.09
+      ],
+      [
+       -119.09,
+       34.11
+      ],
+      [
+       -119.12,
+       34.1
+      ],
+      [
+       -119.04,
+       34.16
+      ],
+      [
+       -118.79,
+       34.09
+      ],
+      [
+       -118.52,
+       34.1
+      ],
+      [
+       -118.38,
+       34.03
+      ],
+      [
+       -118.08,
+       33.23
+      ],
+      [
+       -118.63,
+       33.04
+      ],
+      [
+       -118.56,
+       33.03
+      ],
+      [
+       -118.61,
+       33.01
+      ],
+      [
+       -118.62,
+       33.03
+      ],
+      [
+       -118.71,
+       33.01
+      ],
+      [
+       -118.97,
+       33.05
+      ],
+      [
+       -119.32,
+       33.69
+      ],
+      [
+       -119.13,
+       34.08
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [],
-   "lon": null,
-   "lat": null,
+   "lon": -118.81,
+   "lat": 33.643,
    "countries": [
     "US"
    ]
@@ -4498,6 +4568,38 @@
    "onset": "2026-11-13T04:21:00Z",
    "ends": "2026-11-13T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d58c86c6352d7d2fe1358c3295bb55e08f189fdd.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
+    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57350",
+    "57356",
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-13T09:22:00Z",
+   "onset": "2026-11-13T09:22:00Z",
+   "ends": "2026-11-13T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8039243904c75ee22961f2e047ef597f28cc5f45.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4633,74 +4735,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Mono",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06051",
-    "06057",
-    "06061",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-12T20:34:00Z",
-   "onset": "2026-11-13T21:00:00Z",
-   "ends": "2026-11-14T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe4e2a4f2d7851a81b4cf9e389172a1c5e9c4da7.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -119.965,
-   "lat": 39.059,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHNX.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -4815,6 +4849,74 @@
    ],
    "lon": -117.404,
    "lat": 36.562,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0004.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Mono"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06051",
+    "06057",
+    "06061",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-13T09:32:00Z",
+   "onset": "2026-11-13T18:00:00Z",
+   "ends": "2026-11-14T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f634a302ebb4dcf89e50291a66ce8ba626a384f.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -119.965,
+   "lat": 39.059,
    "countries": [
     "US"
    ]
