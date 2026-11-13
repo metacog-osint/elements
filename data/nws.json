@@ -8,9 +8,9 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast",
-    "Northern Arctic Coast"
+    "Eastern Beaufort Sea Coast"
    ],
    "counties": [
     "02185"
@@ -18,7 +18,7 @@
    "sent": "2026-11-13T00:33:00Z",
    "onset": "2026-11-13T00:33:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -71,37 +71,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "San Juan County"
-   ],
-   "counties": [
-    "53055"
-   ],
-   "sent": "2026-11-13T02:52:00Z",
-   "onset": "2026-11-13T14:00:00Z",
-   "ends": "2026-11-13T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f15fec456e5cf91e5651defe249076e9b76a6a65.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.104,
-   "lat": 48.507,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -129,6 +98,37 @@
    ],
    "lon": -74.259,
    "lat": 39.866,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "San Juan County"
+   ],
+   "counties": [
+    "53055"
+   ],
+   "sent": "2026-11-13T12:31:00Z",
+   "onset": "2026-11-13T14:00:00Z",
+   "ends": "2026-11-13T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17695bd86e20eb040a5cfdee7c0c44a8628d34a3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.104,
+   "lat": 48.507,
    "countries": [
     "US"
    ]
@@ -4331,120 +4331,6 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSGX.MA.W.0007.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Diego CA",
-   "areas": [
-    "Coastal Waters from San Mateo Point to the Mexican Border and out to 10 nm",
-    "Waters from San Mateo point to the Mexican Border Extending 10 to 60 nm out including San Clemente Island"
-   ],
-   "counties": [
-    "57740",
-    "57745"
-   ],
-   "sent": "2026-11-13T11:45:00Z",
-   "onset": "2026-11-13T11:45:00Z",
-   "ends": "2026-11-13T12:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.714a0dfbf8c0dcb560ccf92f306018e0546db1b3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -117.1,
-       32.59
-      ],
-      [
-       -117.21,
-       32.72
-      ],
-      [
-       -117.23,
-       32.69
-      ],
-      [
-       -117.16,
-       32.65
-      ],
-      [
-       -117.12,
-       32.54
-      ],
-      [
-       -117.92,
-       32.46
-      ],
-      [
-       -118.02,
-       33.24
-      ],
-      [
-       -117.6,
-       33.39
-      ],
-      [
-       -117.52,
-       33.34
-      ],
-      [
-       -117.36,
-       33.17
-      ],
-      [
-       -117.35,
-       33.17
-      ],
-      [
-       -117.26,
-       32.97
-      ],
-      [
-       -117.27,
-       32.97
-      ],
-      [
-       -117.28,
-       32.82
-      ],
-      [
-       -117.24,
-       32.77
-      ],
-      [
-       -117.24,
-       32.67
-      ],
-      [
-       -117.22,
-       32.73
-      ],
-      [
-       -117.13,
-       32.69
-      ],
-      [
-       -117.1,
-       32.6
-      ],
-      [
-       -117.1,
-       32.59
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -117.321,
-   "lat": 32.838,
    "countries": [
     "US"
    ]
