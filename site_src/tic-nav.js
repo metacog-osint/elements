@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.5 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.6 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -36,6 +36,10 @@
       label: "Cyberspace · threat intelligence",
       short: "Ransomware, exploited vulnerabilities and threat indicators.",
       long: "Cyber threat intelligence that records why it believes things: ransomware groups and their leak-site claims, exploited vulnerabilities and advisories, and threat indicators, with the history and every judgment call kept." },
+    { id: "blackout", name: "Blackout", href: "https://blackout.theintelligence.company", status: "beta", group: "layers",
+      label: "Cyberspace · internet outages",
+      short: "Internet outages, censorship and cloud provider incidents, worldwide.",
+      long: "Where the internet goes dark: country outages from Georgia Tech IODA and Cloudflare Radar, censorship measurements from OONI, a watch on the Starlink, Amazon, Microsoft and Google networks and on eleven providers' own status pages, and a hand-compiled register of submarine cable corridors. A drop is called a likely shutdown only when OONI shows blocking in the same country. Updated every four hours." },
     { id: "noisefloor", name: "Noisefloor", href: "https://noisefloor.theintelligence.company", status: "live", group: "layers",
       label: "Spectrum · GPS interference",
       short: "Where GPS is being jammed or spoofed, mapped every day.",
@@ -187,6 +191,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.5", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.6", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
