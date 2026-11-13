@@ -652,230 +652,6 @@
    ]
   },
   {
-   "id": "KTSA.FZ.W.0001.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tulsa OK",
-   "areas": [
-    "Benton",
-    "Carroll",
-    "Washington",
-    "Madison",
-    "Washington",
-    "Nowata",
-    "Craig",
-    "Ottawa",
-    "Rogers",
-    "Mayes",
-    "Delaware",
-    "Cherokee",
-    "Adair",
-    "Western Osage",
-    "Northeast Osage"
-   ],
-   "counties": [
-    "05007",
-    "05015",
-    "05087",
-    "05143",
-    "40001",
-    "40021",
-    "40035",
-    "40041",
-    "40097",
-    "40105",
-    "40113",
-    "40115",
-    "40131",
-    "40147"
-   ],
-   "sent": "2026-11-13T04:34:00Z",
-   "onset": "2026-11-13T06:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d76d4497557e226cbe55c50693a30f89a50d311.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -94.2563,
-     36.3378
-    ],
-    [
-     -93.541,
-     36.3374
-    ],
-    [
-     -93.7241,
-     36.0125
-    ],
-    [
-     -94.2173,
-     35.978
-    ],
-    [
-     -94.651,
-     35.898
-    ],
-    [
-     -94.9968,
-     35.9044
-    ],
-    [
-     -95.2016,
-     36.7639
-    ],
-    [
-     -94.8082,
-     36.3934
-    ],
-    [
-     -95.2356,
-     36.3038
-    ],
-    [
-     -95.6133,
-     36.7896
-    ],
-    [
-     -96.4081,
-     36.6243
-    ],
-    [
-     -94.8027,
-     36.8358
-    ],
-    [
-     -95.6014,
-     36.3778
-    ],
-    [
-     -95.9063,
-     36.7044
-    ]
-   ],
-   "lon": -94.926,
-   "lat": 36.376,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLZK.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Little Rock AR",
-   "areas": [
-    "Marion",
-    "Baxter",
-    "Fulton",
-    "Sharp",
-    "Randolph",
-    "Stone",
-    "Izard",
-    "Independence",
-    "Lawrence",
-    "Cleburne",
-    "Boone County Except Southwest",
-    "Newton County Higher Elevations",
-    "Searcy County Lower Elevations",
-    "Southeast Van Buren County",
-    "Boone County Higher Elevations",
-    "Newton County Lower Elevations",
-    "Northwest Searcy County Higher Elevations",
-    "Van Buren County Higher Elevations",
-    "Eastern, Central, and Southern Searcy County Higher Elevations"
-   ],
-   "counties": [
-    "05005",
-    "05009",
-    "05023",
-    "05049",
-    "05063",
-    "05065",
-    "05075",
-    "05089",
-    "05101",
-    "05121",
-    "05129",
-    "05135",
-    "05137",
-    "05141"
-   ],
-   "sent": "2026-11-13T05:26:00Z",
-   "onset": "2026-11-13T06:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d64742cbbfed9f7d0de85cb729268070073f9e9.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -92.3299,
-     36.2803
-    ],
-    [
-     -93.0792,
-     36.3043
-    ],
-    [
-     -92.0089,
-     35.5936
-    ],
-    [
-     -91.8193,
-     36.3813
-    ],
-    [
-     -91.5599,
-     35.7375
-    ],
-    [
-     -91.9136,
-     36.0949
-    ],
-    [
-     -91.1012,
-     36.0411
-    ],
-    [
-     -92.6786,
-     36.2667
-    ],
-    [
-     -93.2159,
-     35.9107
-    ],
-    [
-     -91.0284,
-     36.3413
-    ],
-    [
-     -92.6959,
-     35.8964
-    ],
-    [
-     -91.4711,
-     36.1734
-    ],
-    [
-     -92.1405,
-     35.857
-    ],
-    [
-     -92.516,
-     35.583
-    ]
-   ],
-   "lon": -92.111,
-   "lat": 36.033,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRAH.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3867,188 +3643,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.6225.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6219.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett out to 15 NM"
-   ],
-   "counties": [
-    "58813"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6221.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6217.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6227.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58860"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.009.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6224.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.6222.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-12T12:45:00Z",
-   "onset": "2026-11-12T12:00:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e4d840ec9f7c43cd2f22cfc31dbab822a74814.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2425.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4576,34 +4170,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm",
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-13T10:56:00Z",
-   "onset": "2026-11-13T10:56:00Z",
-   "ends": "2026-11-13T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14e5f1293f55a1701adfcf1a42c373e4a152faa9.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.A.0002.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -4724,37 +4290,6 @@
    ],
    "lon": -120.77,
    "lat": 39.3,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBGM.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Binghamton NY",
-   "areas": [
-    "Otsego"
-   ],
-   "counties": [
-    "36077"
-   ],
-   "sent": "2026-11-13T05:57:00Z",
-   "onset": "2026-11-13T05:57:00Z",
-   "ends": "2026-11-13T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee24a484e28d122aaa28b189a4cf3ba8f409792f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.0288,
-     42.6298
-    ]
-   ],
-   "lon": -75.029,
-   "lat": 42.63,
    "countries": [
     "US"
    ]
@@ -4911,6 +4446,37 @@
    ],
    "lon": -119.612,
    "lat": 37.159,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBGM.WS.W.0004.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Binghamton NY",
+   "areas": [
+    "Otsego"
+   ],
+   "counties": [
+    "36077"
+   ],
+   "sent": "2026-11-13T13:47:00Z",
+   "onset": "2026-11-13T13:47:00Z",
+   "ends": "2026-11-13T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b92f987caff0875ab1765fb1ecf0f1081e3cd1c4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.0288,
+     42.6298
+    ]
+   ],
+   "lon": -75.029,
+   "lat": 42.63,
    "countries": [
     "US"
    ]
