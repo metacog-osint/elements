@@ -3136,109 +3136,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.A.0002.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-13T06:13:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4711a9d86f78f3a6ff1635320417f1b01db06afa.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.326,
-   "lat": 32.633,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFFC.FZ.A.0003.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3841,6 +3738,109 @@
    ]
   },
   {
+   "id": "KCHS.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Jenkins",
+    "Screven",
+    "Candler",
+    "Bulloch",
+    "Effingham",
+    "Tattnall",
+    "Evans",
+    "Allendale",
+    "Hampton",
+    "Inland Colleton",
+    "Dorchester",
+    "Inland Berkeley",
+    "Inland Jasper"
+   ],
+   "counties": [
+    "13031",
+    "13043",
+    "13103",
+    "13109",
+    "13165",
+    "13251",
+    "13267",
+    "45005",
+    "45015",
+    "45029",
+    "45035",
+    "45049",
+    "45053"
+   ],
+   "sent": "2026-11-13T11:45:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3e48ea67daab39e271770d8879cc4e1eb8d2b64.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.7414,
+     32.3945
+    ],
+    [
+     -82.0713,
+     32.404
+    ],
+    [
+     -81.3434,
+     32.3617
+    ],
+    [
+     -81.8902,
+     32.1531
+    ],
+    [
+     -81.9715,
+     32.7946
+    ],
+    [
+     -81.6176,
+     32.7448
+    ],
+    [
+     -82.0592,
+     32.0438
+    ],
+    [
+     -81.3633,
+     32.9798
+    ],
+    [
+     -79.9537,
+     33.2077
+    ],
+    [
+     -80.6564,
+     32.8494
+    ],
+    [
+     -80.4047,
+     33.0822
+    ],
+    [
+     -81.1438,
+     32.7783
+    ],
+    [
+     -81.0216,
+     32.4306
+    ]
+   ],
+   "lon": -81.326,
+   "lat": 32.633,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.8115.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4350,10 +4350,10 @@
     "57740",
     "57745"
    ],
-   "sent": "2026-11-13T10:29:00Z",
-   "onset": "2026-11-13T10:29:00Z",
+   "sent": "2026-11-13T11:45:00Z",
+   "onset": "2026-11-13T11:45:00Z",
    "ends": "2026-11-13T12:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbc8c858284fdb0a24e598898b67ff0f88c21b50.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.714a0dfbf8c0dcb560ccf92f306018e0546db1b3.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
