@@ -8,17 +8,17 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast",
-    "Northern Arctic Coast"
+    "Eastern Beaufort Sea Coast"
    ],
    "counties": [
     "02185"
    ],
-   "sent": "2026-11-13T15:07:00Z",
-   "onset": "2026-11-13T15:07:00Z",
+   "sent": "2026-11-13T23:33:00Z",
+   "onset": "2026-11-13T23:33:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6eec9f42cdb5caef3f6aec7a167c3c3541551993.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.001fce0540d8c6d16d8dc2781608c99549bca8e6.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3353,185 +3353,6 @@
    ]
   },
   {
-   "id": "KAKQ.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Northampton",
-    "Hertford",
-    "Richmond",
-    "Brunswick",
-    "Dinwiddie",
-    "Prince George",
-    "Charles City",
-    "New Kent",
-    "Greensville",
-    "Sussex",
-    "Surry",
-    "James City",
-    "Southampton",
-    "Eastern Hanover",
-    "Western Chesterfield",
-    "Eastern Chesterfield (Including Col. Heights)",
-    "Western Henrico (Including the City of Richmond)",
-    "Eastern Henrico",
-    "Western King William",
-    "Eastern King William",
-    "Western King and Queen",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex"
-   ],
-   "counties": [
-    "37091",
-    "37131",
-    "51025",
-    "51036",
-    "51041",
-    "51053",
-    "51057",
-    "51081",
-    "51085",
-    "51087",
-    "51095",
-    "51097",
-    "51101",
-    "51127",
-    "51149",
-    "51159",
-    "51175",
-    "51181",
-    "51183",
-    "51570",
-    "51595",
-    "51620",
-    "51670",
-    "51730",
-    "51760",
-    "51830"
-   ],
-   "sent": "2026-11-13T16:47:00Z",
-   "onset": "2026-11-14T08:00:00Z",
-   "ends": "2026-11-14T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ba46ebba66defa3655c7c449098857bff64fa7d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.9816,
-     36.3635
-    ],
-    [
-     -77.3984,
-     36.4218
-    ],
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -77.5858,
-     37.3784
-    ],
-    [
-     -77.6355,
-     37.0735
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -77.5603,
-     36.6803
-    ],
-    [
-     -77.4913,
-     37.7602
-    ],
-    [
-     -77.3003,
-     37.4375
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -77.1038,
-     36.7201
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -77.2597,
-     36.9266
-    ],
-    [
-     -77.3968,
-     37.2617
-    ],
-    [
-     -77.536,
-     36.6962
-    ],
-    [
-     -76.9414,
-     36.684
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -77.476,
-     37.5314
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -77.212,
-   "lat": 37.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.FZ.W.0011.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3910,6 +3731,185 @@
    ],
    "lon": -86.906,
    "lat": 34.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Northampton",
+    "Hertford",
+    "Richmond",
+    "Brunswick",
+    "Dinwiddie",
+    "Prince George",
+    "Charles City",
+    "New Kent",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "James City",
+    "Southampton",
+    "Eastern Hanover",
+    "Western Chesterfield",
+    "Eastern Chesterfield (Including Col. Heights)",
+    "Western Henrico (Including the City of Richmond)",
+    "Eastern Henrico",
+    "Western King William",
+    "Eastern King William",
+    "Western King and Queen",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex"
+   ],
+   "counties": [
+    "37091",
+    "37131",
+    "51025",
+    "51036",
+    "51041",
+    "51053",
+    "51057",
+    "51081",
+    "51085",
+    "51087",
+    "51095",
+    "51097",
+    "51101",
+    "51127",
+    "51149",
+    "51159",
+    "51175",
+    "51181",
+    "51183",
+    "51570",
+    "51595",
+    "51620",
+    "51670",
+    "51730",
+    "51760",
+    "51830"
+   ],
+   "sent": "2026-11-13T23:15:00Z",
+   "onset": "2026-11-14T08:00:00Z",
+   "ends": "2026-11-14T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91bb584cc5889aa6cf81601e302f762adb1b423b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -77.5858,
+     37.3784
+    ],
+    [
+     -77.6355,
+     37.0735
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -77.4913,
+     37.7602
+    ],
+    [
+     -77.3003,
+     37.4375
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -77.3968,
+     37.2617
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -77.476,
+     37.5314
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -77.212,
+   "lat": 37.203,
    "countries": [
     "US"
    ]
