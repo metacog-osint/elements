@@ -271,6 +271,29 @@
    ]
   },
   {
+   "id": "FL-1104282",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Canada",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-05T01:00:00Z",
+   "to": "2026-11-07T01:00:00Z",
+   "current": false,
+   "country": "Canada",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104282&episodeid=1&eventtype=FL",
+   "lon": -122.808,
+   "lat": 50.32,
+   "countries": [
+    "CA"
+   ]
+  },
+  {
    "id": "FL-1104270",
    "type": "FL",
    "kind": "flood",
@@ -502,7 +525,7 @@
    "id": "FL-1104259",
    "type": "FL",
    "kind": "flood",
-   "episode": 5,
+   "episode": 3,
    "name": "Flood in Peru",
    "alert": "green",
    "score": 1,
@@ -514,9 +537,9 @@
    "current": false,
    "country": "Peru",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=5&eventtype=FL",
-   "lon": -81.006,
-   "lat": -4.155,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=3&eventtype=FL",
+   "lon": -80.46,
+   "lat": -3.571,
    "countries": [
     "PE"
    ]
