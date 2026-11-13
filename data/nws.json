@@ -34,43 +34,6 @@
    ]
   },
   {
-   "id": "KLOX.CF.W.0002.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083"
-   ],
-   "sent": "2026-11-13T02:38:00Z",
-   "onset": "2026-11-14T11:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20f63b115ddf5e3203e05514961b1f2b9cb1c088.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ]
-   ],
-   "lon": -120.244,
-   "lat": 34.962,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -129,6 +92,43 @@
    ],
    "lon": -123.104,
    "lat": 48.507,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.CF.W.0002.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "San Luis Obispo County Beaches",
+    "Santa Barbara County Central Coast Beaches"
+   ],
+   "counties": [
+    "06079",
+    "06083"
+   ],
+   "sent": "2026-11-13T16:12:00Z",
+   "onset": "2026-11-14T11:00:00Z",
+   "ends": "2026-11-15T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.082b3f827ff558b13bbd93ae6bc34fa52dcdb8b2.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ]
+   ],
+   "lon": -120.244,
+   "lat": 34.962,
    "countries": [
     "US"
    ]
@@ -700,390 +700,6 @@
    ]
   },
   {
-   "id": "KAKQ.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Northampton",
-    "Hertford",
-    "Richmond",
-    "Brunswick",
-    "Dinwiddie",
-    "Prince George",
-    "Charles City",
-    "New Kent",
-    "Greensville",
-    "Sussex",
-    "Surry",
-    "James City",
-    "Southampton",
-    "Eastern Hanover",
-    "Western Chesterfield",
-    "Eastern Chesterfield (Including Col. Heights)",
-    "Western Henrico (Including the City of Richmond)",
-    "Eastern Henrico",
-    "Western King William",
-    "Eastern King William",
-    "Western King and Queen",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex"
-   ],
-   "counties": [
-    "37091",
-    "37131",
-    "51025",
-    "51036",
-    "51041",
-    "51053",
-    "51057",
-    "51081",
-    "51085",
-    "51087",
-    "51095",
-    "51097",
-    "51101",
-    "51127",
-    "51149",
-    "51159",
-    "51175",
-    "51181",
-    "51183",
-    "51570",
-    "51595",
-    "51620",
-    "51670",
-    "51730",
-    "51760",
-    "51830"
-   ],
-   "sent": "2026-11-13T06:12:00Z",
-   "onset": "2026-11-14T08:00:00Z",
-   "ends": "2026-11-14T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c2b0beeb7bb652daeca408cbe6f077d179f66a2.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.9816,
-     36.3635
-    ],
-    [
-     -77.3984,
-     36.4218
-    ],
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -77.5858,
-     37.3784
-    ],
-    [
-     -77.6355,
-     37.0735
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -77.5603,
-     36.6803
-    ],
-    [
-     -77.4913,
-     37.7602
-    ],
-    [
-     -77.3003,
-     37.4375
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -77.1038,
-     36.7201
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -77.2597,
-     36.9266
-    ],
-    [
-     -77.3968,
-     37.2617
-    ],
-    [
-     -77.536,
-     36.6962
-    ],
-    [
-     -76.9414,
-     36.684
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -77.476,
-     37.5314
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -77.212,
-   "lat": 37.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFFC.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Peachtree City GA",
-   "areas": [
-    "Dade",
-    "Walker",
-    "Catoosa",
-    "Whitfield",
-    "Murray",
-    "Fannin",
-    "Gilmer",
-    "Union",
-    "Towns",
-    "Chattooga",
-    "Gordon",
-    "Pickens",
-    "Dawson",
-    "Lumpkin",
-    "White",
-    "Floyd",
-    "Bartow",
-    "Cherokee",
-    "Forsyth",
-    "Polk",
-    "Paulding",
-    "Cobb",
-    "Haralson",
-    "Carroll",
-    "Douglas",
-    "Heard",
-    "Coweta",
-    "Troup",
-    "Meriwether",
-    "Harris"
-   ],
-   "counties": [
-    "13015",
-    "13045",
-    "13047",
-    "13055",
-    "13057",
-    "13067",
-    "13077",
-    "13083",
-    "13085",
-    "13097",
-    "13111",
-    "13115",
-    "13117",
-    "13123",
-    "13129",
-    "13143",
-    "13145",
-    "13149",
-    "13187",
-    "13199",
-    "13213",
-    "13223",
-    "13227",
-    "13233",
-    "13281",
-    "13285",
-    "13291",
-    "13295",
-    "13311",
-    "13313"
-   ],
-   "sent": "2026-11-13T07:55:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f678f7dc35c8a28f0eeb0efe7c564a4191d10d5.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -84.8382,
-     34.2409
-    ],
-    [
-     -85.0805,
-     33.5822
-    ],
-    [
-     -85.1394,
-     34.9002
-    ],
-    [
-     -85.3453,
-     34.4742
-    ],
-    [
-     -84.4751,
-     34.2443
-    ],
-    [
-     -84.5741,
-     33.9399
-    ],
-    [
-     -84.7621,
-     33.3529
-    ],
-    [
-     -85.5062,
-     34.8524
-    ],
-    [
-     -84.1733,
-     34.4426
-    ],
-    [
-     -84.7673,
-     33.7012
-    ],
-    [
-     -84.3173,
-     34.8665
-    ],
-    [
-     -85.2137,
-     34.2637
-    ],
-    [
-     -84.1274,
-     34.2251
-    ],
-    [
-     -84.4548,
-     34.6905
-    ],
-    [
-     -84.8739,
-     34.5097
-    ],
-    [
-     -85.2201,
-     33.7952
-    ],
-    [
-     -84.9124,
-     32.7315
-    ],
-    [
-     -85.1379,
-     33.2913
-    ],
-    [
-     -83.9989,
-     34.5681
-    ],
-    [
-     -84.6671,
-     33.0293
-    ],
-    [
-     -84.738,
-     34.7971
-    ],
-    [
-     -84.8672,
-     33.921
-    ],
-    [
-     -84.4904,
-     34.4568
-    ],
-    [
-     -85.1883,
-     33.996
-    ],
-    [
-     -83.7323,
-     34.9025
-    ],
-    [
-     -85.0284,
-     33.0345
-    ],
-    [
-     -83.9893,
-     34.8333
-    ],
-    [
-     -85.3055,
-     34.7358
-    ],
-    [
-     -83.743,
-     34.6442
-    ],
-    [
-     -84.9685,
-     34.8017
-    ]
-   ],
-   "lon": -84.721,
-   "lat": 34.194,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHUN.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1261,164 +877,6 @@
    ],
    "lon": -86.906,
    "lat": 34.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMOB.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mobile AL",
-   "areas": [
-    "Choctaw",
-    "Washington",
-    "Clarke",
-    "Wilcox",
-    "Monroe",
-    "Conecuh",
-    "Butler",
-    "Crenshaw",
-    "Wayne"
-   ],
-   "counties": [
-    "01013",
-    "01023",
-    "01025",
-    "01035",
-    "01041",
-    "01099",
-    "01129",
-    "01131",
-    "28153"
-   ],
-   "sent": "2026-11-13T15:29:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.701e05731d128000b330f70fee77e2784cfa530b.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -86.682,
-     31.7517
-    ],
-    [
-     -88.2489,
-     31.991
-    ],
-    [
-     -87.8186,
-     31.6855
-    ],
-    [
-     -86.9887,
-     31.4309
-    ],
-    [
-     -86.32,
-     31.7303
-    ],
-    [
-     -87.3833,
-     31.5804
-    ],
-    [
-     -88.2124,
-     31.4085
-    ],
-    [
-     -87.3049,
-     31.9901
-    ],
-    [
-     -88.6782,
-     31.6425
-    ]
-   ],
-   "lon": -87.515,
-   "lat": 31.69,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMOB.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mobile AL",
-   "areas": [
-    "Choctaw",
-    "Washington",
-    "Clarke",
-    "Wilcox",
-    "Monroe",
-    "Conecuh",
-    "Butler",
-    "Crenshaw",
-    "Wayne"
-   ],
-   "counties": [
-    "01013",
-    "01023",
-    "01025",
-    "01035",
-    "01041",
-    "01099",
-    "01129",
-    "01131",
-    "28153"
-   ],
-   "sent": "2026-11-13T15:29:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.701e05731d128000b330f70fee77e2784cfa530b.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -86.682,
-     31.7517
-    ],
-    [
-     -88.2489,
-     31.991
-    ],
-    [
-     -87.8186,
-     31.6855
-    ],
-    [
-     -86.9887,
-     31.4309
-    ],
-    [
-     -86.32,
-     31.7303
-    ],
-    [
-     -87.3833,
-     31.5804
-    ],
-    [
-     -88.2124,
-     31.4085
-    ],
-    [
-     -87.3049,
-     31.9901
-    ],
-    [
-     -88.6782,
-     31.6425
-    ]
-   ],
-   "lon": -87.515,
-   "lat": 31.69,
    "countries": [
     "US"
    ]
@@ -2417,6 +1875,1697 @@
    ]
   },
   {
+   "id": "KLZK.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Little Rock AR",
+   "areas": [
+    "Marion",
+    "Baxter",
+    "Fulton",
+    "Sharp",
+    "Randolph",
+    "Stone",
+    "Izard",
+    "Independence",
+    "Lawrence",
+    "Cleburne",
+    "Jackson",
+    "Conway",
+    "Faulkner",
+    "White",
+    "Woodruff",
+    "Perry",
+    "Garland",
+    "Saline",
+    "Pulaski",
+    "Lonoke",
+    "Prairie",
+    "Monroe",
+    "Pike",
+    "Clark",
+    "Hot Spring",
+    "Grant",
+    "Jefferson",
+    "Arkansas",
+    "Dallas",
+    "Cleveland",
+    "Lincoln",
+    "Desha",
+    "Ouachita",
+    "Calhoun",
+    "Bradley",
+    "Drew",
+    "Boone County Except Southwest",
+    "Newton County Higher Elevations",
+    "Searcy County Lower Elevations",
+    "Southern Johnson County",
+    "Southern Pope County",
+    "Southeast Van Buren County",
+    "Western and Northern Logan County",
+    "Northern Scott County",
+    "Northwest Yell County",
+    "Polk County Lower Elevations",
+    "Central and Eastern Montgomery County",
+    "Boone County Higher Elevations",
+    "Newton County Lower Elevations",
+    "Northwest Searcy County Higher Elevations",
+    "Johnson County Higher Elevations",
+    "Pope County Higher Elevations",
+    "Van Buren County Higher Elevations",
+    "Southern and Eastern Logan County",
+    "Central and Southern Scott County",
+    "Yell Excluding Northwest",
+    "Northern Polk County Higher Elevations",
+    "Northern Montgomery County Higher Elevations",
+    "Eastern, Central, and Southern Searcy County Higher Elevations",
+    "Southeast Polk County Higher Elevations",
+    "Southwest Montgomery County Higher Elevations"
+   ],
+   "counties": [
+    "05001",
+    "05005",
+    "05009",
+    "05011",
+    "05013",
+    "05019",
+    "05023",
+    "05025",
+    "05029",
+    "05039",
+    "05041",
+    "05043",
+    "05045",
+    "05049",
+    "05051",
+    "05053",
+    "05059",
+    "05063",
+    "05065",
+    "05067",
+    "05069",
+    "05071",
+    "05075",
+    "05079",
+    "05083",
+    "05085",
+    "05089",
+    "05095",
+    "05097",
+    "05101",
+    "05103",
+    "05105",
+    "05109",
+    "05113",
+    "05115",
+    "05117",
+    "05119",
+    "05121",
+    "05125",
+    "05127",
+    "05129",
+    "05135",
+    "05137",
+    "05141",
+    "05145",
+    "05147",
+    "05149"
+   ],
+   "sent": "2026-11-13T16:08:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f3d5f8e0fa2afdc0bc04f2c2cec5e728f4c406b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.3765,
+     34.2896
+    ],
+    [
+     -92.3299,
+     36.2803
+    ],
+    [
+     -93.0792,
+     36.3043
+    ],
+    [
+     -92.1692,
+     33.4665
+    ],
+    [
+     -92.5139,
+     33.5605
+    ],
+    [
+     -93.1762,
+     34.0533
+    ],
+    [
+     -92.0089,
+     35.5936
+    ],
+    [
+     -92.1887,
+     33.8932
+    ],
+    [
+     -92.6892,
+     35.2657
+    ],
+    [
+     -92.654,
+     33.9678
+    ],
+    [
+     -91.2441,
+     33.8288
+    ],
+    [
+     -91.7228,
+     33.5872
+    ],
+    [
+     -92.3369,
+     35.1465
+    ],
+    [
+     -91.8193,
+     36.3813
+    ],
+    [
+     -93.1469,
+     34.5789
+    ],
+    [
+     -92.423,
+     34.2856
+    ],
+    [
+     -92.9441,
+     34.3152
+    ],
+    [
+     -91.5599,
+     35.7375
+    ],
+    [
+     -91.9136,
+     36.0949
+    ],
+    [
+     -91.2232,
+     35.5965
+    ],
+    [
+     -91.9297,
+     34.2772
+    ],
+    [
+     -93.4663,
+     35.5734
+    ],
+    [
+     -91.1012,
+     36.0411
+    ],
+    [
+     -91.7424,
+     33.9564
+    ],
+    [
+     -93.7209,
+     35.2187
+    ],
+    [
+     -91.8941,
+     34.7551
+    ],
+    [
+     -92.6786,
+     36.2667
+    ],
+    [
+     -91.2033,
+     34.6795
+    ],
+    [
+     -93.6642,
+     34.5457
+    ],
+    [
+     -93.2159,
+     35.9107
+    ],
+    [
+     -92.8784,
+     33.5912
+    ],
+    [
+     -92.9269,
+     34.9464
+    ],
+    [
+     -93.6587,
+     34.1582
+    ],
+    [
+     -94.2309,
+     34.491
+    ],
+    [
+     -93.0268,
+     35.4566
+    ],
+    [
+     -91.5536,
+     34.8311
+    ],
+    [
+     -92.313,
+     34.7703
+    ],
+    [
+     -91.0284,
+     36.3413
+    ],
+    [
+     -92.6745,
+     34.6485
+    ],
+    [
+     -94.0636,
+     34.8589
+    ],
+    [
+     -92.6959,
+     35.8964
+    ],
+    [
+     -91.4711,
+     36.1734
+    ],
+    [
+     -92.1405,
+     35.857
+    ],
+    [
+     -92.516,
+     35.583
+    ],
+    [
+     -91.753,
+     35.2551
+    ],
+    [
+     -91.2445,
+     35.1928
+    ],
+    [
+     -93.4083,
+     34.9977
+    ]
+   ],
+   "lon": -92.398,
+   "lat": 34.989,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMOB.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Choctaw",
+    "Washington",
+    "Clarke",
+    "Wilcox",
+    "Monroe",
+    "Conecuh",
+    "Butler",
+    "Crenshaw",
+    "Wayne"
+   ],
+   "counties": [
+    "01013",
+    "01023",
+    "01025",
+    "01035",
+    "01041",
+    "01099",
+    "01129",
+    "01131",
+    "28153"
+   ],
+   "sent": "2026-11-13T16:09:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ebd181252335e7ca236eaec42200283de5fea9.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.682,
+     31.7517
+    ],
+    [
+     -88.2489,
+     31.991
+    ],
+    [
+     -87.8186,
+     31.6855
+    ],
+    [
+     -86.9887,
+     31.4309
+    ],
+    [
+     -86.32,
+     31.7303
+    ],
+    [
+     -87.3833,
+     31.5804
+    ],
+    [
+     -88.2124,
+     31.4085
+    ],
+    [
+     -87.3049,
+     31.9901
+    ],
+    [
+     -88.6782,
+     31.6425
+    ]
+   ],
+   "lon": -87.515,
+   "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMOB.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Choctaw",
+    "Washington",
+    "Clarke",
+    "Wilcox",
+    "Monroe",
+    "Conecuh",
+    "Butler",
+    "Crenshaw",
+    "Wayne"
+   ],
+   "counties": [
+    "01013",
+    "01023",
+    "01025",
+    "01035",
+    "01041",
+    "01099",
+    "01129",
+    "01131",
+    "28153"
+   ],
+   "sent": "2026-11-13T16:09:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ebd181252335e7ca236eaec42200283de5fea9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.682,
+     31.7517
+    ],
+    [
+     -88.2489,
+     31.991
+    ],
+    [
+     -87.8186,
+     31.6855
+    ],
+    [
+     -86.9887,
+     31.4309
+    ],
+    [
+     -86.32,
+     31.7303
+    ],
+    [
+     -87.3833,
+     31.5804
+    ],
+    [
+     -88.2124,
+     31.4085
+    ],
+    [
+     -87.3049,
+     31.9901
+    ],
+    [
+     -88.6782,
+     31.6425
+    ]
+   ],
+   "lon": -87.515,
+   "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFFC.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Peachtree City GA",
+   "areas": [
+    "Dade",
+    "Walker",
+    "Catoosa",
+    "Whitfield",
+    "Murray",
+    "Fannin",
+    "Gilmer",
+    "Union",
+    "Towns",
+    "Chattooga",
+    "Gordon",
+    "Pickens",
+    "Dawson",
+    "Lumpkin",
+    "White",
+    "Floyd",
+    "Bartow",
+    "Cherokee",
+    "Forsyth",
+    "Polk",
+    "Paulding",
+    "Cobb",
+    "Haralson",
+    "Carroll",
+    "Douglas",
+    "Heard",
+    "Coweta",
+    "Troup",
+    "Meriwether",
+    "Harris",
+    "Hall",
+    "Banks",
+    "Jackson",
+    "Madison",
+    "North Fulton",
+    "Gwinnett",
+    "Barrow",
+    "Clarke",
+    "Oconee",
+    "Oglethorpe",
+    "Wilkes",
+    "South Fulton",
+    "DeKalb",
+    "Rockdale",
+    "Walton",
+    "Newton",
+    "Morgan",
+    "Greene",
+    "Taliaferro",
+    "Fayette",
+    "Clayton",
+    "Spalding",
+    "Henry",
+    "Butts",
+    "Jasper",
+    "Putnam",
+    "Hancock",
+    "Warren",
+    "Pike",
+    "Upson",
+    "Lamar",
+    "Monroe",
+    "Jones",
+    "Baldwin",
+    "Washington",
+    "Glascock",
+    "Jefferson",
+    "Talbot",
+    "Taylor",
+    "Crawford",
+    "Bibb",
+    "Twiggs",
+    "Wilkinson",
+    "Johnson",
+    "Emanuel",
+    "Muscogee",
+    "Chattahoochee",
+    "Marion",
+    "Schley",
+    "Macon",
+    "Peach",
+    "Houston",
+    "Bleckley",
+    "Laurens",
+    "Treutlen",
+    "Stewart",
+    "Webster",
+    "Sumter",
+    "Dooly",
+    "Crisp",
+    "Pulaski",
+    "Wilcox",
+    "Dodge",
+    "Telfair",
+    "Wheeler",
+    "Montgomery",
+    "Toombs"
+   ],
+   "counties": [
+    "13009",
+    "13011",
+    "13013",
+    "13015",
+    "13021",
+    "13023",
+    "13035",
+    "13045",
+    "13047",
+    "13053",
+    "13055",
+    "13057",
+    "13059",
+    "13063",
+    "13067",
+    "13077",
+    "13079",
+    "13081",
+    "13083",
+    "13085",
+    "13089",
+    "13091",
+    "13093",
+    "13097",
+    "13107",
+    "13111",
+    "13113",
+    "13115",
+    "13117",
+    "13121",
+    "13123",
+    "13125",
+    "13129",
+    "13133",
+    "13135",
+    "13139",
+    "13141",
+    "13143",
+    "13145",
+    "13149",
+    "13151",
+    "13153",
+    "13157",
+    "13159",
+    "13163",
+    "13167",
+    "13169",
+    "13171",
+    "13175",
+    "13187",
+    "13193",
+    "13195",
+    "13197",
+    "13199",
+    "13207",
+    "13209",
+    "13211",
+    "13213",
+    "13215",
+    "13217",
+    "13219",
+    "13221",
+    "13223",
+    "13225",
+    "13227",
+    "13231",
+    "13233",
+    "13235",
+    "13237",
+    "13247",
+    "13249",
+    "13255",
+    "13259",
+    "13261",
+    "13263",
+    "13265",
+    "13269",
+    "13271",
+    "13279",
+    "13281",
+    "13283",
+    "13285",
+    "13289",
+    "13291",
+    "13293",
+    "13295",
+    "13297",
+    "13301",
+    "13303",
+    "13307",
+    "13309",
+    "13311",
+    "13313",
+    "13315",
+    "13317",
+    "13319"
+   ],
+   "sent": "2026-11-13T16:24:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6aacb016135eaa3187dc54a64315c638f8c386b.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -83.2555,
+     33.0595
+    ],
+    [
+     -83.4984,
+     34.3519
+    ],
+    [
+     -83.7123,
+     33.992
+    ],
+    [
+     -84.8382,
+     34.2409
+    ],
+    [
+     -83.6941,
+     32.809
+    ],
+    [
+     -83.3317,
+     32.4354
+    ],
+    [
+     -83.9582,
+     33.2904
+    ],
+    [
+     -85.0805,
+     33.5822
+    ],
+    [
+     -85.1394,
+     34.9002
+    ],
+    [
+     -84.788,
+     32.3474
+    ],
+    [
+     -85.3453,
+     34.4742
+    ],
+    [
+     -84.4751,
+     34.2443
+    ],
+    [
+     -83.3672,
+     33.9522
+    ],
+    [
+     -84.413,
+     33.5522
+    ],
+    [
+     -84.5741,
+     33.9399
+    ],
+    [
+     -84.7621,
+     33.3529
+    ],
+    [
+     -83.9792,
+     32.7094
+    ],
+    [
+     -83.7565,
+     31.9203
+    ],
+    [
+     -85.5062,
+     34.8524
+    ],
+    [
+     -84.1733,
+     34.4426
+    ],
+    [
+     -84.2263,
+     33.7707
+    ],
+    [
+     -83.1679,
+     32.1644
+    ],
+    [
+     -83.8072,
+     32.152
+    ],
+    [
+     -84.7673,
+     33.7012
+    ],
+    [
+     -82.3002,
+     32.5912
+    ],
+    [
+     -84.3173,
+     34.8665
+    ],
+    [
+     -84.4939,
+     33.4127
+    ],
+    [
+     -85.2137,
+     34.2637
+    ],
+    [
+     -84.1274,
+     34.2251
+    ],
+    [
+     -84.4682,
+     33.79
+    ],
+    [
+     -84.4548,
+     34.6905
+    ],
+    [
+     -82.6069,
+     33.2275
+    ],
+    [
+     -84.8739,
+     34.5097
+    ],
+    [
+     -83.1666,
+     33.5767
+    ],
+    [
+     -84.0257,
+     33.9588
+    ],
+    [
+     -83.8185,
+     34.3176
+    ],
+    [
+     -83.0005,
+     33.2692
+    ],
+    [
+     -85.2201,
+     33.7952
+    ],
+    [
+     -84.9124,
+     32.7315
+    ],
+    [
+     -85.1379,
+     33.2913
+    ],
+    [
+     -84.154,
+     33.4529
+    ],
+    [
+     -83.6623,
+     32.4581
+    ],
+    [
+     -83.5626,
+     34.1309
+    ],
+    [
+     -83.6892,
+     33.317
+    ],
+    [
+     -82.42,
+     33.0582
+    ],
+    [
+     -82.664,
+     32.6946
+    ],
+    [
+     -83.5622,
+     33.0217
+    ],
+    [
+     -84.1467,
+     33.0744
+    ],
+    [
+     -82.9263,
+     32.3932
+    ],
+    [
+     -83.9989,
+     34.5681
+    ],
+    [
+     -84.0512,
+     32.3627
+    ],
+    [
+     -83.2087,
+     34.1275
+    ],
+    [
+     -84.5287,
+     32.3593
+    ],
+    [
+     -84.6671,
+     33.0293
+    ],
+    [
+     -83.9218,
+     33.0188
+    ],
+    [
+     -82.5333,
+     32.1721
+    ],
+    [
+     -83.4994,
+     33.5986
+    ],
+    [
+     -84.738,
+     34.7971
+    ],
+    [
+     -84.8749,
+     32.5102
+    ],
+    [
+     -83.8514,
+     33.5528
+    ],
+    [
+     -83.4377,
+     33.8341
+    ],
+    [
+     -83.0741,
+     33.8668
+    ],
+    [
+     -84.8672,
+     33.921
+    ],
+    [
+     -83.8315,
+     32.5716
+    ],
+    [
+     -84.4904,
+     34.4568
+    ],
+    [
+     -84.3895,
+     33.0811
+    ],
+    [
+     -85.1883,
+     33.996
+    ],
+    [
+     -83.4818,
+     32.2388
+    ],
+    [
+     -83.3718,
+     33.3211
+    ],
+    [
+     -84.0264,
+     33.6521
+    ],
+    [
+     -84.3227,
+     32.2634
+    ],
+    [
+     -84.2849,
+     33.2623
+    ],
+    [
+     -84.8349,
+     32.0732
+    ],
+    [
+     -84.2043,
+     32.0423
+    ],
+    [
+     -84.53,
+     32.7046
+    ],
+    [
+     -82.8753,
+     33.5593
+    ],
+    [
+     -84.2514,
+     32.5547
+    ],
+    [
+     -82.9311,
+     31.9136
+    ],
+    [
+     -82.3306,
+     32.1178
+    ],
+    [
+     -83.7323,
+     34.9025
+    ],
+    [
+     -82.5709,
+     32.4096
+    ],
+    [
+     -85.0284,
+     33.0345
+    ],
+    [
+     -83.4259,
+     32.6658
+    ],
+    [
+     -83.9893,
+     34.8333
+    ],
+    [
+     -84.2923,
+     32.8818
+    ],
+    [
+     -85.3055,
+     34.7358
+    ],
+    [
+     -83.7318,
+     33.7839
+    ],
+    [
+     -82.6757,
+     33.4084
+    ],
+    [
+     -82.7981,
+     32.9718
+    ],
+    [
+     -84.5538,
+     32.0467
+    ],
+    [
+     -82.7338,
+     32.1053
+    ],
+    [
+     -83.743,
+     34.6442
+    ],
+    [
+     -84.9685,
+     34.8017
+    ],
+    [
+     -83.4383,
+     31.9627
+    ],
+    [
+     -82.7479,
+     33.779
+    ],
+    [
+     -83.1755,
+     32.8043
+    ]
+   ],
+   "lon": -83.959,
+   "lat": 33.371,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFFC.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Peachtree City GA",
+   "areas": [
+    "Dade",
+    "Walker",
+    "Catoosa",
+    "Whitfield",
+    "Murray",
+    "Fannin",
+    "Gilmer",
+    "Union",
+    "Towns",
+    "Chattooga",
+    "Gordon",
+    "Pickens",
+    "Dawson",
+    "Lumpkin",
+    "White",
+    "Floyd",
+    "Bartow",
+    "Cherokee",
+    "Forsyth",
+    "Polk",
+    "Paulding",
+    "Cobb",
+    "Haralson",
+    "Carroll",
+    "Douglas",
+    "Heard",
+    "Coweta",
+    "Troup",
+    "Meriwether",
+    "Harris"
+   ],
+   "counties": [
+    "13015",
+    "13045",
+    "13047",
+    "13055",
+    "13057",
+    "13067",
+    "13077",
+    "13083",
+    "13085",
+    "13097",
+    "13111",
+    "13115",
+    "13117",
+    "13123",
+    "13129",
+    "13143",
+    "13145",
+    "13149",
+    "13187",
+    "13199",
+    "13213",
+    "13223",
+    "13227",
+    "13233",
+    "13281",
+    "13285",
+    "13291",
+    "13295",
+    "13311",
+    "13313"
+   ],
+   "sent": "2026-11-13T16:24:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6aacb016135eaa3187dc54a64315c638f8c386b.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -84.8382,
+     34.2409
+    ],
+    [
+     -85.0805,
+     33.5822
+    ],
+    [
+     -85.1394,
+     34.9002
+    ],
+    [
+     -85.3453,
+     34.4742
+    ],
+    [
+     -84.4751,
+     34.2443
+    ],
+    [
+     -84.5741,
+     33.9399
+    ],
+    [
+     -84.7621,
+     33.3529
+    ],
+    [
+     -85.5062,
+     34.8524
+    ],
+    [
+     -84.1733,
+     34.4426
+    ],
+    [
+     -84.7673,
+     33.7012
+    ],
+    [
+     -84.3173,
+     34.8665
+    ],
+    [
+     -85.2137,
+     34.2637
+    ],
+    [
+     -84.1274,
+     34.2251
+    ],
+    [
+     -84.4548,
+     34.6905
+    ],
+    [
+     -84.8739,
+     34.5097
+    ],
+    [
+     -85.2201,
+     33.7952
+    ],
+    [
+     -84.9124,
+     32.7315
+    ],
+    [
+     -85.1379,
+     33.2913
+    ],
+    [
+     -83.9989,
+     34.5681
+    ],
+    [
+     -84.6671,
+     33.0293
+    ],
+    [
+     -84.738,
+     34.7971
+    ],
+    [
+     -84.8672,
+     33.921
+    ],
+    [
+     -84.4904,
+     34.4568
+    ],
+    [
+     -85.1883,
+     33.996
+    ],
+    [
+     -83.7323,
+     34.9025
+    ],
+    [
+     -85.0284,
+     33.0345
+    ],
+    [
+     -83.9893,
+     34.8333
+    ],
+    [
+     -85.3055,
+     34.7358
+    ],
+    [
+     -83.743,
+     34.6442
+    ],
+    [
+     -84.9685,
+     34.8017
+    ]
+   ],
+   "lon": -84.721,
+   "lat": 34.194,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTSA.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tulsa OK",
+   "areas": [
+    "Carroll",
+    "Washington",
+    "Madison",
+    "Northern Crawford",
+    "Northern Franklin",
+    "North and Central Sebastian",
+    "Southern Crawford",
+    "Central and Southern Franklin",
+    "Southern Sebastian",
+    "Washington",
+    "Pawnee",
+    "Tulsa",
+    "Rogers",
+    "Mayes",
+    "Creek",
+    "Okfuskee",
+    "Okmulgee",
+    "Wagoner",
+    "Cherokee",
+    "Adair",
+    "Muskogee",
+    "McIntosh",
+    "Pittsburg",
+    "Haskell",
+    "Latimer",
+    "Western Osage",
+    "Northern Sequoyah",
+    "Northern Le Flore",
+    "Northeast Osage",
+    "Central and Southern Sequoyah",
+    "Central Le Flore",
+    "Southeast Osage",
+    "Southern Le Flore"
+   ],
+   "counties": [
+    "05015",
+    "05033",
+    "05047",
+    "05087",
+    "05131",
+    "05143",
+    "40001",
+    "40021",
+    "40037",
+    "40061",
+    "40077",
+    "40079",
+    "40091",
+    "40097",
+    "40101",
+    "40107",
+    "40111",
+    "40113",
+    "40117",
+    "40121",
+    "40131",
+    "40135",
+    "40143",
+    "40145",
+    "40147"
+   ],
+   "sent": "2026-11-13T16:29:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae42ba47fcaf1510c352217a28d9cec7b70dc6e2.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.541,
+     36.3374
+    ],
+    [
+     -94.2362,
+     35.583
+    ],
+    [
+     -93.8877,
+     35.5086
+    ],
+    [
+     -93.7241,
+     36.0125
+    ],
+    [
+     -94.275,
+     35.197
+    ],
+    [
+     -94.2173,
+     35.978
+    ],
+    [
+     -94.651,
+     35.898
+    ],
+    [
+     -94.9968,
+     35.9044
+    ],
+    [
+     -96.3802,
+     35.9074
+    ],
+    [
+     -95.1096,
+     35.2324
+    ],
+    [
+     -95.2723,
+     34.8751
+    ],
+    [
+     -94.6951,
+     34.8974
+    ],
+    [
+     -95.6718,
+     35.3691
+    ],
+    [
+     -95.2356,
+     36.3038
+    ],
+    [
+     -95.3839,
+     35.6176
+    ],
+    [
+     -96.3278,
+     35.4668
+    ],
+    [
+     -95.9659,
+     35.6435
+    ],
+    [
+     -96.4081,
+     36.6243
+    ],
+    [
+     -96.6967,
+     36.3137
+    ],
+    [
+     -95.7481,
+     34.9255
+    ],
+    [
+     -95.6014,
+     36.3778
+    ],
+    [
+     -94.7508,
+     35.5024
+    ],
+    [
+     -95.9418,
+     36.1203
+    ],
+    [
+     -95.5142,
+     35.9634
+    ],
+    [
+     -95.9063,
+     36.7044
+    ]
+   ],
+   "lon": -95.206,
+   "lat": 35.771,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Northampton",
+    "Hertford",
+    "Richmond",
+    "Brunswick",
+    "Dinwiddie",
+    "Prince George",
+    "Charles City",
+    "New Kent",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "James City",
+    "Southampton",
+    "Eastern Hanover",
+    "Western Chesterfield",
+    "Eastern Chesterfield (Including Col. Heights)",
+    "Western Henrico (Including the City of Richmond)",
+    "Eastern Henrico",
+    "Western King William",
+    "Eastern King William",
+    "Western King and Queen",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex"
+   ],
+   "counties": [
+    "37091",
+    "37131",
+    "51025",
+    "51036",
+    "51041",
+    "51053",
+    "51057",
+    "51081",
+    "51085",
+    "51087",
+    "51095",
+    "51097",
+    "51101",
+    "51127",
+    "51149",
+    "51159",
+    "51175",
+    "51181",
+    "51183",
+    "51570",
+    "51595",
+    "51620",
+    "51670",
+    "51730",
+    "51760",
+    "51830"
+   ],
+   "sent": "2026-11-13T16:30:00Z",
+   "onset": "2026-11-14T08:00:00Z",
+   "ends": "2026-11-14T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e08821d79378ebb4c6426aea0ee5963cd8ae2e1.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -77.5858,
+     37.3784
+    ],
+    [
+     -77.6355,
+     37.0735
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -77.4913,
+     37.7602
+    ],
+    [
+     -77.3003,
+     37.4375
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -77.3968,
+     37.2617
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -77.476,
+     37.5314
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -77.212,
+   "lat": 37.203,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSHV.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Shreveport LA",
+   "areas": [
+    "Nevada",
+    "Union",
+    "Union"
+   ],
+   "counties": [
+    "05099",
+    "05139",
+    "22111"
+   ],
+   "sent": "2026-11-13T16:31:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3e1225268db3f46e5f06a718ce026d3078081e1.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.3051,
+     33.6667
+    ],
+    [
+     -92.5981,
+     33.1682
+    ],
+    [
+     -92.3756,
+     32.8293
+    ]
+   ],
+   "lon": -92.76,
+   "lat": 33.221,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMHX.FZ.A.0002.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -2817,774 +3966,6 @@
    ]
   },
   {
-   "id": "KCAE.FZ.A.0003.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Columbia SC",
-   "areas": [
-    "Lincoln",
-    "McDuffie",
-    "Columbia",
-    "Richmond",
-    "Burke",
-    "Chesterfield",
-    "McCormick",
-    "Newberry",
-    "Fairfield",
-    "Kershaw",
-    "Edgefield",
-    "Saluda",
-    "Lexington",
-    "Richland",
-    "Lee",
-    "Aiken",
-    "Sumter",
-    "Barnwell",
-    "Calhoun",
-    "Clarendon",
-    "Bamberg",
-    "Northern Lancaster",
-    "Southern Lancaster",
-    "Northwestern Orangeburg",
-    "Central Orangeburg",
-    "Southeastern Orangeburg"
-   ],
-   "counties": [
-    "13033",
-    "13073",
-    "13181",
-    "13189",
-    "13245",
-    "45003",
-    "45009",
-    "45011",
-    "45017",
-    "45025",
-    "45027",
-    "45037",
-    "45039",
-    "45055",
-    "45057",
-    "45061",
-    "45063",
-    "45065",
-    "45071",
-    "45075",
-    "45079",
-    "45081",
-    "45085"
-   ],
-   "sent": "2026-11-13T06:00:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ce09b3e23a97eeebbf79e174fb4b8dd59709dd1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.0002,
-     33.0602
-    ],
-    [
-     -82.2496,
-     33.5521
-    ],
-    [
-     -82.4483,
-     33.7922
-    ],
-    [
-     -82.4796,
-     33.4806
-    ],
-    [
-     -82.075,
-     33.3615
-    ],
-    [
-     -81.633,
-     33.55
-    ],
-    [
-     -81.0532,
-     33.203
-    ],
-    [
-     -81.4342,
-     33.2606
-    ],
-    [
-     -80.7803,
-     33.6748
-    ],
-    [
-     -80.1592,
-     34.637
-    ],
-    [
-     -80.2179,
-     33.6647
-    ],
-    [
-     -81.9596,
-     33.7795
-    ],
-    [
-     -81.127,
-     34.3957
-    ],
-    [
-     -80.5909,
-     34.3384
-    ],
-    [
-     -80.7037,
-     34.6868
-    ],
-    [
-     -80.2512,
-     34.1586
-    ],
-    [
-     -81.273,
-     33.8923
-    ],
-    [
-     -82.3162,
-     33.8976
-    ],
-    [
-     -81.5997,
-     34.2899
-    ],
-    [
-     -80.8029,
-     33.4361
-    ],
-    [
-     -80.898,
-     34.0291
-    ],
-    [
-     -81.7279,
-     34.0053
-    ],
-    [
-     -80.3824,
-     33.9161
-    ]
-   ],
-   "lon": -81.311,
-   "lat": 33.829,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFFC.FZ.A.0003.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Peachtree City GA",
-   "areas": [
-    "Dade",
-    "Walker",
-    "Catoosa",
-    "Whitfield",
-    "Murray",
-    "Fannin",
-    "Gilmer",
-    "Union",
-    "Towns",
-    "Chattooga",
-    "Gordon",
-    "Pickens",
-    "Dawson",
-    "Lumpkin",
-    "White",
-    "Floyd",
-    "Bartow",
-    "Cherokee",
-    "Forsyth",
-    "Polk",
-    "Paulding",
-    "Cobb",
-    "Haralson",
-    "Carroll",
-    "Douglas",
-    "Heard",
-    "Coweta",
-    "Troup",
-    "Meriwether",
-    "Harris",
-    "Hall",
-    "Banks",
-    "Jackson",
-    "Madison",
-    "North Fulton",
-    "Gwinnett",
-    "Barrow",
-    "Clarke",
-    "Oconee",
-    "Oglethorpe",
-    "Wilkes",
-    "South Fulton",
-    "DeKalb",
-    "Rockdale",
-    "Walton",
-    "Newton",
-    "Morgan",
-    "Greene",
-    "Taliaferro",
-    "Fayette",
-    "Clayton",
-    "Spalding",
-    "Henry",
-    "Butts",
-    "Jasper",
-    "Putnam",
-    "Hancock",
-    "Warren",
-    "Pike",
-    "Upson",
-    "Lamar",
-    "Monroe",
-    "Jones",
-    "Baldwin",
-    "Washington",
-    "Glascock",
-    "Jefferson",
-    "Talbot",
-    "Taylor",
-    "Crawford",
-    "Bibb",
-    "Twiggs",
-    "Wilkinson",
-    "Johnson",
-    "Emanuel",
-    "Muscogee",
-    "Chattahoochee",
-    "Marion",
-    "Schley",
-    "Macon",
-    "Peach",
-    "Houston",
-    "Bleckley",
-    "Laurens",
-    "Treutlen",
-    "Stewart",
-    "Webster",
-    "Sumter",
-    "Dooly",
-    "Crisp",
-    "Pulaski",
-    "Wilcox",
-    "Dodge",
-    "Telfair",
-    "Wheeler",
-    "Montgomery",
-    "Toombs"
-   ],
-   "counties": [
-    "13009",
-    "13011",
-    "13013",
-    "13015",
-    "13021",
-    "13023",
-    "13035",
-    "13045",
-    "13047",
-    "13053",
-    "13055",
-    "13057",
-    "13059",
-    "13063",
-    "13067",
-    "13077",
-    "13079",
-    "13081",
-    "13083",
-    "13085",
-    "13089",
-    "13091",
-    "13093",
-    "13097",
-    "13107",
-    "13111",
-    "13113",
-    "13115",
-    "13117",
-    "13121",
-    "13123",
-    "13125",
-    "13129",
-    "13133",
-    "13135",
-    "13139",
-    "13141",
-    "13143",
-    "13145",
-    "13149",
-    "13151",
-    "13153",
-    "13157",
-    "13159",
-    "13163",
-    "13167",
-    "13169",
-    "13171",
-    "13175",
-    "13187",
-    "13193",
-    "13195",
-    "13197",
-    "13199",
-    "13207",
-    "13209",
-    "13211",
-    "13213",
-    "13215",
-    "13217",
-    "13219",
-    "13221",
-    "13223",
-    "13225",
-    "13227",
-    "13231",
-    "13233",
-    "13235",
-    "13237",
-    "13247",
-    "13249",
-    "13255",
-    "13259",
-    "13261",
-    "13263",
-    "13265",
-    "13269",
-    "13271",
-    "13279",
-    "13281",
-    "13283",
-    "13285",
-    "13289",
-    "13291",
-    "13293",
-    "13295",
-    "13297",
-    "13301",
-    "13303",
-    "13307",
-    "13309",
-    "13311",
-    "13313",
-    "13315",
-    "13317",
-    "13319"
-   ],
-   "sent": "2026-11-13T07:55:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f678f7dc35c8a28f0eeb0efe7c564a4191d10d5.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -83.2555,
-     33.0595
-    ],
-    [
-     -83.4984,
-     34.3519
-    ],
-    [
-     -83.7123,
-     33.992
-    ],
-    [
-     -84.8382,
-     34.2409
-    ],
-    [
-     -83.6941,
-     32.809
-    ],
-    [
-     -83.3317,
-     32.4354
-    ],
-    [
-     -83.9582,
-     33.2904
-    ],
-    [
-     -85.0805,
-     33.5822
-    ],
-    [
-     -85.1394,
-     34.9002
-    ],
-    [
-     -84.788,
-     32.3474
-    ],
-    [
-     -85.3453,
-     34.4742
-    ],
-    [
-     -84.4751,
-     34.2443
-    ],
-    [
-     -83.3672,
-     33.9522
-    ],
-    [
-     -84.413,
-     33.5522
-    ],
-    [
-     -84.5741,
-     33.9399
-    ],
-    [
-     -84.7621,
-     33.3529
-    ],
-    [
-     -83.9792,
-     32.7094
-    ],
-    [
-     -83.7565,
-     31.9203
-    ],
-    [
-     -85.5062,
-     34.8524
-    ],
-    [
-     -84.1733,
-     34.4426
-    ],
-    [
-     -84.2263,
-     33.7707
-    ],
-    [
-     -83.1679,
-     32.1644
-    ],
-    [
-     -83.8072,
-     32.152
-    ],
-    [
-     -84.7673,
-     33.7012
-    ],
-    [
-     -82.3002,
-     32.5912
-    ],
-    [
-     -84.3173,
-     34.8665
-    ],
-    [
-     -84.4939,
-     33.4127
-    ],
-    [
-     -85.2137,
-     34.2637
-    ],
-    [
-     -84.1274,
-     34.2251
-    ],
-    [
-     -84.4682,
-     33.79
-    ],
-    [
-     -84.4548,
-     34.6905
-    ],
-    [
-     -82.6069,
-     33.2275
-    ],
-    [
-     -84.8739,
-     34.5097
-    ],
-    [
-     -83.1666,
-     33.5767
-    ],
-    [
-     -84.0257,
-     33.9588
-    ],
-    [
-     -83.8185,
-     34.3176
-    ],
-    [
-     -83.0005,
-     33.2692
-    ],
-    [
-     -85.2201,
-     33.7952
-    ],
-    [
-     -84.9124,
-     32.7315
-    ],
-    [
-     -85.1379,
-     33.2913
-    ],
-    [
-     -84.154,
-     33.4529
-    ],
-    [
-     -83.6623,
-     32.4581
-    ],
-    [
-     -83.5626,
-     34.1309
-    ],
-    [
-     -83.6892,
-     33.317
-    ],
-    [
-     -82.42,
-     33.0582
-    ],
-    [
-     -82.664,
-     32.6946
-    ],
-    [
-     -83.5622,
-     33.0217
-    ],
-    [
-     -84.1467,
-     33.0744
-    ],
-    [
-     -82.9263,
-     32.3932
-    ],
-    [
-     -83.9989,
-     34.5681
-    ],
-    [
-     -84.0512,
-     32.3627
-    ],
-    [
-     -83.2087,
-     34.1275
-    ],
-    [
-     -84.5287,
-     32.3593
-    ],
-    [
-     -84.6671,
-     33.0293
-    ],
-    [
-     -83.9218,
-     33.0188
-    ],
-    [
-     -82.5333,
-     32.1721
-    ],
-    [
-     -83.4994,
-     33.5986
-    ],
-    [
-     -84.738,
-     34.7971
-    ],
-    [
-     -84.8749,
-     32.5102
-    ],
-    [
-     -83.8514,
-     33.5528
-    ],
-    [
-     -83.4377,
-     33.8341
-    ],
-    [
-     -83.0741,
-     33.8668
-    ],
-    [
-     -84.8672,
-     33.921
-    ],
-    [
-     -83.8315,
-     32.5716
-    ],
-    [
-     -84.4904,
-     34.4568
-    ],
-    [
-     -84.3895,
-     33.0811
-    ],
-    [
-     -85.1883,
-     33.996
-    ],
-    [
-     -83.4818,
-     32.2388
-    ],
-    [
-     -83.3718,
-     33.3211
-    ],
-    [
-     -84.0264,
-     33.6521
-    ],
-    [
-     -84.3227,
-     32.2634
-    ],
-    [
-     -84.2849,
-     33.2623
-    ],
-    [
-     -84.8349,
-     32.0732
-    ],
-    [
-     -84.2043,
-     32.0423
-    ],
-    [
-     -84.53,
-     32.7046
-    ],
-    [
-     -82.8753,
-     33.5593
-    ],
-    [
-     -84.2514,
-     32.5547
-    ],
-    [
-     -82.9311,
-     31.9136
-    ],
-    [
-     -82.3306,
-     32.1178
-    ],
-    [
-     -83.7323,
-     34.9025
-    ],
-    [
-     -82.5709,
-     32.4096
-    ],
-    [
-     -85.0284,
-     33.0345
-    ],
-    [
-     -83.4259,
-     32.6658
-    ],
-    [
-     -83.9893,
-     34.8333
-    ],
-    [
-     -84.2923,
-     32.8818
-    ],
-    [
-     -85.3055,
-     34.7358
-    ],
-    [
-     -83.7318,
-     33.7839
-    ],
-    [
-     -82.6757,
-     33.4084
-    ],
-    [
-     -82.7981,
-     32.9718
-    ],
-    [
-     -84.5538,
-     32.0467
-    ],
-    [
-     -82.7338,
-     32.1053
-    ],
-    [
-     -83.743,
-     34.6442
-    ],
-    [
-     -84.9685,
-     34.8017
-    ],
-    [
-     -83.4383,
-     31.9627
-    ],
-    [
-     -82.7479,
-     33.779
-    ],
-    [
-     -83.1755,
-     32.8043
-    ]
-   ],
-   "lon": -83.959,
-   "lat": 33.371,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCHS.FZ.A.0002.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3762,6 +4143,172 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCAE.FZ.A.0003.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Columbia SC",
+   "areas": [
+    "Lincoln",
+    "McDuffie",
+    "Columbia",
+    "Richmond",
+    "Burke",
+    "Chesterfield",
+    "McCormick",
+    "Newberry",
+    "Fairfield",
+    "Kershaw",
+    "Edgefield",
+    "Saluda",
+    "Lexington",
+    "Richland",
+    "Lee",
+    "Aiken",
+    "Sumter",
+    "Barnwell",
+    "Calhoun",
+    "Clarendon",
+    "Bamberg",
+    "Northern Lancaster",
+    "Southern Lancaster",
+    "Northwestern Orangeburg",
+    "Central Orangeburg",
+    "Southeastern Orangeburg"
+   ],
+   "counties": [
+    "13033",
+    "13073",
+    "13181",
+    "13189",
+    "13245",
+    "45003",
+    "45009",
+    "45011",
+    "45017",
+    "45025",
+    "45027",
+    "45037",
+    "45039",
+    "45055",
+    "45057",
+    "45061",
+    "45063",
+    "45065",
+    "45071",
+    "45075",
+    "45079",
+    "45081",
+    "45085"
+   ],
+   "sent": "2026-11-13T16:31:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca6fbb366accc08f07498ef20ff97c9d87f20694.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.0002,
+     33.0602
+    ],
+    [
+     -82.2496,
+     33.5521
+    ],
+    [
+     -82.4483,
+     33.7922
+    ],
+    [
+     -82.4796,
+     33.4806
+    ],
+    [
+     -82.075,
+     33.3615
+    ],
+    [
+     -81.633,
+     33.55
+    ],
+    [
+     -81.0532,
+     33.203
+    ],
+    [
+     -81.4342,
+     33.2606
+    ],
+    [
+     -80.7803,
+     33.6748
+    ],
+    [
+     -80.1592,
+     34.637
+    ],
+    [
+     -80.2179,
+     33.6647
+    ],
+    [
+     -81.9596,
+     33.7795
+    ],
+    [
+     -81.127,
+     34.3957
+    ],
+    [
+     -80.5909,
+     34.3384
+    ],
+    [
+     -80.7037,
+     34.6868
+    ],
+    [
+     -80.2512,
+     34.1586
+    ],
+    [
+     -81.273,
+     33.8923
+    ],
+    [
+     -82.3162,
+     33.8976
+    ],
+    [
+     -81.5997,
+     34.2899
+    ],
+    [
+     -80.8029,
+     33.4361
+    ],
+    [
+     -80.898,
+     34.0291
+    ],
+    [
+     -81.7279,
+     34.0053
+    ],
+    [
+     -80.3824,
+     33.9161
+    ]
+   ],
+   "lon": -81.311,
+   "lat": 33.829,
    "countries": [
     "US"
    ]
@@ -4346,6 +4893,42 @@
    "onset": "2026-11-15T00:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45cecdc37a51afc6a81c7ebf963dbe7f49685e79.001.4",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.A.0002.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156",
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-13T16:08:00Z",
+   "onset": "2026-11-14T21:00:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcacd040889d6b637fa1691c5d069ab7664816c4.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
