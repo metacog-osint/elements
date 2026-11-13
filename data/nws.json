@@ -1977,6 +1977,91 @@
    ]
   },
   {
+   "id": "KMHX.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Martin",
+    "Pitt",
+    "Washington",
+    "Greene",
+    "Beaufort",
+    "Duplin",
+    "Lenoir",
+    "Jones",
+    "Northern Craven",
+    "Inland Onslow"
+   ],
+   "counties": [
+    "37013",
+    "37049",
+    "37061",
+    "37079",
+    "37103",
+    "37107",
+    "37117",
+    "37133",
+    "37147",
+    "37187"
+   ],
+   "sent": "2026-11-13T05:02:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c5d81e0e2769a305d84cf6ee6d3cfe3a0b444e2.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -77.9335,
+     34.9344
+    ],
+    [
+     -77.6817,
+     35.482
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.6355,
+     35.2401
+    ],
+    [
+     -77.1196,
+     35.8473
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -77.3727,
+     35.5925
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -77.309,
+   "lat": 35.334,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.8115.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
