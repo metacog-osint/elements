@@ -4973,144 +4973,154 @@
    ]
   },
   {
-   "id": "KMFR.HW.W.0005.2026",
-   "event": "High Wind Warning",
+   "id": "KEKA.SV.W.0005.2026",
+   "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
    "areas": [
-    "Central Siskiyou County"
+    "Humboldt, CA"
    ],
    "counties": [
-    "06093"
+    "06023"
    ],
-   "sent": "2026-11-13T17:49:00Z",
-   "onset": "2026-11-13T17:49:00Z",
-   "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4b2a09807f59c08f896c0654ede473f163b8c71.003.1",
-   "geometry": null,
+   "sent": "2026-11-13T20:53:00Z",
+   "onset": "2026-11-13T20:53:00Z",
+   "ends": "2026-11-13T21:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f2eabe87ee1037b4c91632f60d3b3ac1c49b66b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -124.11,
+       40.1
+      ],
+      [
+       -124.01,
+       40.18
+      ],
+      [
+       -123.9,
+       40.04
+      ],
+      [
+       -124.05,
+       40.02
+      ],
+      [
+       -124.06,
+       40.03
+      ],
+      [
+       -124.07,
+       40.02
+      ],
+      [
+       -124.08,
+       40.03
+      ],
+      [
+       -124.08,
+       40.07
+      ],
+      [
+       -124.11,
+       40.1
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [
     [
-     -122.5333,
-     41.588
+     -123.9262,
+     40.7067
     ]
    ],
-   "lon": -122.533,
-   "lat": 41.588,
+   "lon": -124.052,
+   "lat": 40.066,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KEKA.MA.W.0027.2026",
+   "id": "KEKA.MA.W.0029.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Eureka CA",
    "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
+    "Coastal waters from Cape Mendocino to Pt. Arena CA out 10 nm"
    ],
    "counties": [
-    "57450"
+    "57455"
    ],
-   "sent": "2026-11-13T20:34:00Z",
-   "onset": "2026-11-13T20:34:00Z",
-   "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14daac957ffc3b1df339845ead67002f581594ae.001.1",
+   "sent": "2026-11-13T21:04:00Z",
+   "onset": "2026-11-13T21:04:00Z",
+   "ends": "2026-11-13T21:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b22417890e276d12842b466f9bbb56adc9a3ac0.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -124.4,
-       41.11
+       -124.43,
+       40.25
       ],
       [
-       -124.22,
-       41.25
+       -124.46,
+       40.29
       ],
       [
-       -124.14,
-       41.16
+       -124.38,
+       40.4
       ],
       [
-       -124.15,
-       41.14
+       -124.37,
+       40.39
       ],
       [
-       -124.16,
-       41.14
-      ],
-      [
-       -124.16,
-       41.13
-      ],
-      [
-       -124.17,
-       41.13
-      ],
-      [
-       -124.16,
-       41.12
-      ],
-      [
-       -124.16,
-       41.1
-      ],
-      [
-       -124.15,
-       41.09
-      ],
-      [
-       -124.16,
-       41.09
-      ],
-      [
-       -124.16,
-       41.07
-      ],
-      [
-       -124.15,
-       41.06
-      ],
-      [
-       -124.15,
-       41.05
-      ],
-      [
-       -124.14,
-       41.05
-      ],
-      [
-       -124.11,
-       41.03
+       -124.37,
+       40.37
       ],
       [
        -124.36,
-       40.97
+       40.36
       ],
       [
        -124.36,
-       40.98
+       40.34
       ],
       [
-       -124.39,
-       41.04
+       -124.35,
+       40.33
       ],
       [
-       -124.4,
-       41.11
+       -124.35,
+       40.3
+      ],
+      [
+       -124.36,
+       40.29
+      ],
+      [
+       -124.36,
+       40.28
+      ],
+      [
+       -124.43,
+       40.25
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -124.213,
-   "lat": 41.091,
+   "lon": -124.382,
+   "lat": 40.321,
    "countries": [
     "US"
    ]
@@ -5486,6 +5496,52 @@
    ],
    "lon": -120.77,
    "lat": 39.3,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.WS.A.0014.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Anchorage",
+    "Anchorage Hillside / Eagle River",
+    "East Turnagain Arm",
+    "Portage",
+    "Southern Kachemak Bay",
+    "SW Kenai Peninsula",
+    "NW Kenai Peninsula",
+    "Skilak Lake",
+    "Southern Kenai Mtns",
+    "Interior Kenai Peninsula",
+    "Turnagain Pass"
+   ],
+   "counties": [
+    "02020",
+    "02122"
+   ],
+   "sent": "2026-11-13T20:53:00Z",
+   "onset": "2026-11-15T00:00:00Z",
+   "ends": "2026-11-16T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7741d23b61bc17c4559bc64e2a5a46292e055fa6.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -149.2843,
+     61.1743
+    ],
+    [
+     -152.3223,
+     60.3667
+    ]
+   ],
+   "lon": -150.803,
+   "lat": 60.77,
    "countries": [
     "US"
    ]
