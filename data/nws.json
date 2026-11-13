@@ -8,17 +8,17 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast"
+    "Eastern Beaufort Sea Coast",
+    "Northern Arctic Coast"
    ],
    "counties": [
     "02185"
    ],
-   "sent": "2026-11-13T00:33:00Z",
-   "onset": "2026-11-13T00:33:00Z",
+   "sent": "2026-11-13T15:07:00Z",
+   "onset": "2026-11-13T15:07:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6eec9f42cdb5caef3f6aec7a167c3c3541551993.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -322,240 +322,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-13T01:35:00Z",
-   "onset": "2026-11-13T01:35:00Z",
-   "ends": "2026-11-13T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e89dd6c48550b7bb91b254e4361d17d17c790705.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-13T01:39:00Z",
-   "onset": "2026-11-13T01:39:00Z",
-   "ends": "2026-11-13T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.baf82163ebc7a13c2c2973bb2b498e5f5e98330d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0008.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-13T01:49:00Z",
-   "onset": "2026-11-13T01:49:00Z",
-   "ends": "2026-11-13T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed05b6b397d90a7d16c832f95d8be75f742ff8b.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-13T01:58:00Z",
-   "onset": "2026-11-13T01:58:00Z",
-   "ends": "2026-11-13T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ef59d32457f355844009fc6a804489f4a4901b9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCRP.FL.W.0029.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -616,6 +382,240 @@
    ],
    "lon": -98.599,
    "lat": 28.259,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-13T15:18:00Z",
+   "onset": "2026-11-13T15:18:00Z",
+   "ends": "2026-11-14T16:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c257a163ba9a34435b3a2682162c0d586ebd35d1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-13T15:22:00Z",
+   "onset": "2026-11-13T15:22:00Z",
+   "ends": "2026-11-14T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6b83c77a87f75bec334748b3073f52da8b1dc1d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-13T15:26:00Z",
+   "onset": "2026-11-13T15:26:00Z",
+   "ends": "2026-11-14T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6232d8c56e642bb864ad890573cd4f4d65c1a9f9.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0008.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-13T15:28:00Z",
+   "onset": "2026-11-13T15:28:00Z",
+   "ends": "2026-11-14T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8cd58d3056cb28727f9c22f8d221a5e896bb93ec.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
    "countries": [
     "US"
    ]
@@ -935,524 +935,6 @@
    ],
    "lon": -77.212,
    "lat": 37.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBMX.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Birmingham AL",
-   "areas": [
-    "Marion",
-    "Lamar",
-    "Fayette",
-    "Winston",
-    "Walker",
-    "Blount",
-    "Etowah",
-    "Calhoun",
-    "Cherokee",
-    "Cleburne",
-    "Pickens",
-    "Tuscaloosa",
-    "Jefferson",
-    "Shelby",
-    "St. Clair",
-    "Talladega",
-    "Clay",
-    "Randolph",
-    "Sumter",
-    "Greene",
-    "Hale",
-    "Perry",
-    "Bibb",
-    "Chilton",
-    "Coosa",
-    "Tallapoosa",
-    "Chambers",
-    "Marengo",
-    "Dallas",
-    "Autauga",
-    "Lowndes",
-    "Elmore",
-    "Montgomery",
-    "Macon",
-    "Bullock",
-    "Lee",
-    "Russell",
-    "Pike",
-    "Barbour"
-   ],
-   "counties": [
-    "01001",
-    "01005",
-    "01007",
-    "01009",
-    "01011",
-    "01015",
-    "01017",
-    "01019",
-    "01021",
-    "01027",
-    "01029",
-    "01037",
-    "01047",
-    "01051",
-    "01055",
-    "01057",
-    "01063",
-    "01065",
-    "01073",
-    "01075",
-    "01081",
-    "01085",
-    "01087",
-    "01091",
-    "01093",
-    "01101",
-    "01105",
-    "01107",
-    "01109",
-    "01111",
-    "01113",
-    "01115",
-    "01117",
-    "01119",
-    "01121",
-    "01123",
-    "01125",
-    "01127",
-    "01133"
-   ],
-   "sent": "2026-11-13T07:44:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c11060965b7fe93fc24aaf9ccb3884b2396c86a1.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -86.6464,
-     32.5322
-    ],
-    [
-     -85.4051,
-     31.8703
-    ],
-    [
-     -87.1271,
-     33.0159
-    ],
-    [
-     -86.5664,
-     33.9774
-    ],
-    [
-     -85.7173,
-     32.1018
-    ],
-    [
-     -85.8279,
-     33.7705
-    ],
-    [
-     -85.394,
-     32.9155
-    ],
-    [
-     -85.6542,
-     34.0695
-    ],
-    [
-     -86.7266,
-     32.8541
-    ],
-    [
-     -85.8635,
-     33.2704
-    ],
-    [
-     -85.5161,
-     33.672
-    ],
-    [
-     -86.2435,
-     32.9314
-    ],
-    [
-     -87.1144,
-     32.3335
-    ],
-    [
-     -86.1427,
-     32.5972
-    ],
-    [
-     -86.0343,
-     34.0476
-    ],
-    [
-     -87.7643,
-     33.7162
-    ],
-    [
-     -87.9642,
-     32.8445
-    ],
-    [
-     -87.6231,
-     32.7528
-    ],
-    [
-     -86.8965,
-     33.5534
-    ],
-    [
-     -88.0874,
-     33.7871
-    ],
-    [
-     -85.353,
-     32.6041
-    ],
-    [
-     -86.6506,
-     32.1479
-    ],
-    [
-     -85.6929,
-     32.387
-    ],
-    [
-     -87.7911,
-     32.2476
-    ],
-    [
-     -87.8816,
-     34.1382
-    ],
-    [
-     -86.2045,
-     32.2029
-    ],
-    [
-     -87.2938,
-     32.639
-    ],
-    [
-     -88.0969,
-     33.2968
-    ],
-    [
-     -85.9416,
-     31.7987
-    ],
-    [
-     -85.4641,
-     33.2965
-    ],
-    [
-     -85.187,
-     32.2898
-    ],
-    [
-     -86.3113,
-     33.7195
-    ],
-    [
-     -86.661,
-     33.2669
-    ],
-    [
-     -88.2001,
-     32.5975
-    ],
-    [
-     -86.1759,
-     33.3693
-    ],
-    [
-     -85.7996,
-     32.8633
-    ],
-    [
-     -87.5228,
-     33.2902
-    ],
-    [
-     -87.3011,
-     33.7916
-    ],
-    [
-     -87.3653,
-     34.1546
-    ]
-   ],
-   "lon": -86.595,
-   "lat": 33.044,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBMX.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Birmingham AL",
-   "areas": [
-    "Marion",
-    "Lamar",
-    "Fayette",
-    "Winston",
-    "Walker",
-    "Blount",
-    "Etowah",
-    "Calhoun",
-    "Cherokee",
-    "Cleburne",
-    "Pickens",
-    "Tuscaloosa",
-    "Jefferson",
-    "Shelby",
-    "St. Clair",
-    "Talladega",
-    "Clay",
-    "Randolph",
-    "Sumter",
-    "Greene",
-    "Hale",
-    "Perry",
-    "Bibb",
-    "Chilton",
-    "Coosa",
-    "Tallapoosa",
-    "Chambers",
-    "Marengo",
-    "Dallas",
-    "Autauga",
-    "Lowndes",
-    "Elmore",
-    "Montgomery",
-    "Macon",
-    "Bullock",
-    "Lee",
-    "Russell",
-    "Pike",
-    "Barbour"
-   ],
-   "counties": [
-    "01001",
-    "01005",
-    "01007",
-    "01009",
-    "01011",
-    "01015",
-    "01017",
-    "01019",
-    "01021",
-    "01027",
-    "01029",
-    "01037",
-    "01047",
-    "01051",
-    "01055",
-    "01057",
-    "01063",
-    "01065",
-    "01073",
-    "01075",
-    "01081",
-    "01085",
-    "01087",
-    "01091",
-    "01093",
-    "01101",
-    "01105",
-    "01107",
-    "01109",
-    "01111",
-    "01113",
-    "01115",
-    "01117",
-    "01119",
-    "01121",
-    "01123",
-    "01125",
-    "01127",
-    "01133"
-   ],
-   "sent": "2026-11-13T07:44:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c11060965b7fe93fc24aaf9ccb3884b2396c86a1.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -86.6464,
-     32.5322
-    ],
-    [
-     -85.4051,
-     31.8703
-    ],
-    [
-     -87.1271,
-     33.0159
-    ],
-    [
-     -86.5664,
-     33.9774
-    ],
-    [
-     -85.7173,
-     32.1018
-    ],
-    [
-     -85.8279,
-     33.7705
-    ],
-    [
-     -85.394,
-     32.9155
-    ],
-    [
-     -85.6542,
-     34.0695
-    ],
-    [
-     -86.7266,
-     32.8541
-    ],
-    [
-     -85.8635,
-     33.2704
-    ],
-    [
-     -85.5161,
-     33.672
-    ],
-    [
-     -86.2435,
-     32.9314
-    ],
-    [
-     -87.1144,
-     32.3335
-    ],
-    [
-     -86.1427,
-     32.5972
-    ],
-    [
-     -86.0343,
-     34.0476
-    ],
-    [
-     -87.7643,
-     33.7162
-    ],
-    [
-     -87.9642,
-     32.8445
-    ],
-    [
-     -87.6231,
-     32.7528
-    ],
-    [
-     -86.8965,
-     33.5534
-    ],
-    [
-     -88.0874,
-     33.7871
-    ],
-    [
-     -85.353,
-     32.6041
-    ],
-    [
-     -86.6506,
-     32.1479
-    ],
-    [
-     -85.6929,
-     32.387
-    ],
-    [
-     -87.7911,
-     32.2476
-    ],
-    [
-     -87.8816,
-     34.1382
-    ],
-    [
-     -86.2045,
-     32.2029
-    ],
-    [
-     -87.2938,
-     32.639
-    ],
-    [
-     -88.0969,
-     33.2968
-    ],
-    [
-     -85.9416,
-     31.7987
-    ],
-    [
-     -85.4641,
-     33.2965
-    ],
-    [
-     -85.187,
-     32.2898
-    ],
-    [
-     -86.3113,
-     33.7195
-    ],
-    [
-     -86.661,
-     33.2669
-    ],
-    [
-     -88.2001,
-     32.5975
-    ],
-    [
-     -86.1759,
-     33.3693
-    ],
-    [
-     -85.7996,
-     32.8633
-    ],
-    [
-     -87.5228,
-     33.2902
-    ],
-    [
-     -87.3011,
-     33.7916
-    ],
-    [
-     -87.3653,
-     34.1546
-    ]
-   ],
-   "lon": -86.595,
-   "lat": 33.044,
    "countries": [
     "US"
    ]
@@ -2267,11 +1749,11 @@
    ]
   },
   {
-   "id": "KMOB.FZ.A.0001.2026",
-   "event": "Freeze Watch",
+   "id": "KMOB.FZ.W.0004.2026",
+   "event": "Freeze Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Mobile AL",
    "areas": [
     "Choctaw",
@@ -2295,10 +1777,10 @@
     "01131",
     "28153"
    ],
-   "sent": "2026-11-13T01:16:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1533fa6493dcc73284e810b552e337c43c301d75.001.1",
+   "sent": "2026-11-13T15:29:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.701e05731d128000b330f70fee77e2784cfa530b.001.3",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2341,6 +1823,603 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMOB.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Choctaw",
+    "Washington",
+    "Clarke",
+    "Wilcox",
+    "Monroe",
+    "Conecuh",
+    "Butler",
+    "Crenshaw",
+    "Wayne"
+   ],
+   "counties": [
+    "01013",
+    "01023",
+    "01025",
+    "01035",
+    "01041",
+    "01099",
+    "01129",
+    "01131",
+    "28153"
+   ],
+   "sent": "2026-11-13T15:29:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.701e05731d128000b330f70fee77e2784cfa530b.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.682,
+     31.7517
+    ],
+    [
+     -88.2489,
+     31.991
+    ],
+    [
+     -87.8186,
+     31.6855
+    ],
+    [
+     -86.9887,
+     31.4309
+    ],
+    [
+     -86.32,
+     31.7303
+    ],
+    [
+     -87.3833,
+     31.5804
+    ],
+    [
+     -88.2124,
+     31.4085
+    ],
+    [
+     -87.3049,
+     31.9901
+    ],
+    [
+     -88.6782,
+     31.6425
+    ]
+   ],
+   "lon": -87.515,
+   "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBMX.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Birmingham AL",
+   "areas": [
+    "Marion",
+    "Lamar",
+    "Fayette",
+    "Winston",
+    "Walker",
+    "Blount",
+    "Etowah",
+    "Calhoun",
+    "Cherokee",
+    "Cleburne",
+    "Pickens",
+    "Tuscaloosa",
+    "Jefferson",
+    "Shelby",
+    "St. Clair",
+    "Talladega",
+    "Clay",
+    "Randolph",
+    "Sumter",
+    "Greene",
+    "Hale",
+    "Perry",
+    "Bibb",
+    "Chilton",
+    "Coosa",
+    "Tallapoosa",
+    "Chambers",
+    "Marengo",
+    "Dallas",
+    "Autauga",
+    "Lowndes",
+    "Elmore",
+    "Montgomery",
+    "Macon",
+    "Bullock",
+    "Lee",
+    "Russell",
+    "Pike",
+    "Barbour"
+   ],
+   "counties": [
+    "01001",
+    "01005",
+    "01007",
+    "01009",
+    "01011",
+    "01015",
+    "01017",
+    "01019",
+    "01021",
+    "01027",
+    "01029",
+    "01037",
+    "01047",
+    "01051",
+    "01055",
+    "01057",
+    "01063",
+    "01065",
+    "01073",
+    "01075",
+    "01081",
+    "01085",
+    "01087",
+    "01091",
+    "01093",
+    "01101",
+    "01105",
+    "01107",
+    "01109",
+    "01111",
+    "01113",
+    "01115",
+    "01117",
+    "01119",
+    "01121",
+    "01123",
+    "01125",
+    "01127",
+    "01133"
+   ],
+   "sent": "2026-11-13T15:33:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88def42edce7abae34324bf0b56f7c7f77929b75.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.6464,
+     32.5322
+    ],
+    [
+     -85.4051,
+     31.8703
+    ],
+    [
+     -87.1271,
+     33.0159
+    ],
+    [
+     -86.5664,
+     33.9774
+    ],
+    [
+     -85.7173,
+     32.1018
+    ],
+    [
+     -85.8279,
+     33.7705
+    ],
+    [
+     -85.394,
+     32.9155
+    ],
+    [
+     -85.6542,
+     34.0695
+    ],
+    [
+     -86.7266,
+     32.8541
+    ],
+    [
+     -85.8635,
+     33.2704
+    ],
+    [
+     -85.5161,
+     33.672
+    ],
+    [
+     -86.2435,
+     32.9314
+    ],
+    [
+     -87.1144,
+     32.3335
+    ],
+    [
+     -86.1427,
+     32.5972
+    ],
+    [
+     -86.0343,
+     34.0476
+    ],
+    [
+     -87.7643,
+     33.7162
+    ],
+    [
+     -87.9642,
+     32.8445
+    ],
+    [
+     -87.6231,
+     32.7528
+    ],
+    [
+     -86.8965,
+     33.5534
+    ],
+    [
+     -88.0874,
+     33.7871
+    ],
+    [
+     -85.353,
+     32.6041
+    ],
+    [
+     -86.6506,
+     32.1479
+    ],
+    [
+     -85.6929,
+     32.387
+    ],
+    [
+     -87.7911,
+     32.2476
+    ],
+    [
+     -87.8816,
+     34.1382
+    ],
+    [
+     -86.2045,
+     32.2029
+    ],
+    [
+     -87.2938,
+     32.639
+    ],
+    [
+     -88.0969,
+     33.2968
+    ],
+    [
+     -85.9416,
+     31.7987
+    ],
+    [
+     -85.4641,
+     33.2965
+    ],
+    [
+     -85.187,
+     32.2898
+    ],
+    [
+     -86.3113,
+     33.7195
+    ],
+    [
+     -86.661,
+     33.2669
+    ],
+    [
+     -88.2001,
+     32.5975
+    ],
+    [
+     -86.1759,
+     33.3693
+    ],
+    [
+     -85.7996,
+     32.8633
+    ],
+    [
+     -87.5228,
+     33.2902
+    ],
+    [
+     -87.3011,
+     33.7916
+    ],
+    [
+     -87.3653,
+     34.1546
+    ]
+   ],
+   "lon": -86.595,
+   "lat": 33.044,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBMX.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Birmingham AL",
+   "areas": [
+    "Marion",
+    "Lamar",
+    "Fayette",
+    "Winston",
+    "Walker",
+    "Blount",
+    "Etowah",
+    "Calhoun",
+    "Cherokee",
+    "Cleburne",
+    "Pickens",
+    "Tuscaloosa",
+    "Jefferson",
+    "Shelby",
+    "St. Clair",
+    "Talladega",
+    "Clay",
+    "Randolph",
+    "Sumter",
+    "Greene",
+    "Hale",
+    "Perry",
+    "Bibb",
+    "Chilton",
+    "Coosa",
+    "Tallapoosa",
+    "Chambers",
+    "Marengo",
+    "Dallas",
+    "Autauga",
+    "Lowndes",
+    "Elmore",
+    "Montgomery",
+    "Macon",
+    "Bullock",
+    "Lee",
+    "Russell",
+    "Pike",
+    "Barbour"
+   ],
+   "counties": [
+    "01001",
+    "01005",
+    "01007",
+    "01009",
+    "01011",
+    "01015",
+    "01017",
+    "01019",
+    "01021",
+    "01027",
+    "01029",
+    "01037",
+    "01047",
+    "01051",
+    "01055",
+    "01057",
+    "01063",
+    "01065",
+    "01073",
+    "01075",
+    "01081",
+    "01085",
+    "01087",
+    "01091",
+    "01093",
+    "01101",
+    "01105",
+    "01107",
+    "01109",
+    "01111",
+    "01113",
+    "01115",
+    "01117",
+    "01119",
+    "01121",
+    "01123",
+    "01125",
+    "01127",
+    "01133"
+   ],
+   "sent": "2026-11-13T15:33:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88def42edce7abae34324bf0b56f7c7f77929b75.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.6464,
+     32.5322
+    ],
+    [
+     -85.4051,
+     31.8703
+    ],
+    [
+     -87.1271,
+     33.0159
+    ],
+    [
+     -86.5664,
+     33.9774
+    ],
+    [
+     -85.7173,
+     32.1018
+    ],
+    [
+     -85.8279,
+     33.7705
+    ],
+    [
+     -85.394,
+     32.9155
+    ],
+    [
+     -85.6542,
+     34.0695
+    ],
+    [
+     -86.7266,
+     32.8541
+    ],
+    [
+     -85.8635,
+     33.2704
+    ],
+    [
+     -85.5161,
+     33.672
+    ],
+    [
+     -86.2435,
+     32.9314
+    ],
+    [
+     -87.1144,
+     32.3335
+    ],
+    [
+     -86.1427,
+     32.5972
+    ],
+    [
+     -86.0343,
+     34.0476
+    ],
+    [
+     -87.7643,
+     33.7162
+    ],
+    [
+     -87.9642,
+     32.8445
+    ],
+    [
+     -87.6231,
+     32.7528
+    ],
+    [
+     -86.8965,
+     33.5534
+    ],
+    [
+     -88.0874,
+     33.7871
+    ],
+    [
+     -85.353,
+     32.6041
+    ],
+    [
+     -86.6506,
+     32.1479
+    ],
+    [
+     -85.6929,
+     32.387
+    ],
+    [
+     -87.7911,
+     32.2476
+    ],
+    [
+     -87.8816,
+     34.1382
+    ],
+    [
+     -86.2045,
+     32.2029
+    ],
+    [
+     -87.2938,
+     32.639
+    ],
+    [
+     -88.0969,
+     33.2968
+    ],
+    [
+     -85.9416,
+     31.7987
+    ],
+    [
+     -85.4641,
+     33.2965
+    ],
+    [
+     -85.187,
+     32.2898
+    ],
+    [
+     -86.3113,
+     33.7195
+    ],
+    [
+     -86.661,
+     33.2669
+    ],
+    [
+     -88.2001,
+     32.5975
+    ],
+    [
+     -86.1759,
+     33.3693
+    ],
+    [
+     -85.7996,
+     32.8633
+    ],
+    [
+     -87.5228,
+     33.2902
+    ],
+    [
+     -87.3011,
+     33.7916
+    ],
+    [
+     -87.3653,
+     34.1546
+    ]
+   ],
+   "lon": -86.595,
+   "lat": 33.044,
    "countries": [
     "US"
    ]
@@ -3617,6 +3696,85 @@
    ]
   },
   {
+   "id": "KMOB.FZ.A.0001.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Past",
+   "certainty": "Observed",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Choctaw",
+    "Washington",
+    "Clarke",
+    "Wilcox",
+    "Monroe",
+    "Conecuh",
+    "Butler",
+    "Crenshaw",
+    "Wayne"
+   ],
+   "counties": [
+    "01013",
+    "01023",
+    "01025",
+    "01035",
+    "01041",
+    "01099",
+    "01129",
+    "01131",
+    "28153"
+   ],
+   "sent": "2026-11-13T15:29:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.701e05731d128000b330f70fee77e2784cfa530b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -86.682,
+     31.7517
+    ],
+    [
+     -88.2489,
+     31.991
+    ],
+    [
+     -87.8186,
+     31.6855
+    ],
+    [
+     -86.9887,
+     31.4309
+    ],
+    [
+     -86.32,
+     31.7303
+    ],
+    [
+     -87.3833,
+     31.5804
+    ],
+    [
+     -88.2124,
+     31.4085
+    ],
+    [
+     -87.3049,
+     31.9901
+    ],
+    [
+     -88.6782,
+     31.6425
+    ]
+   ],
+   "lon": -87.515,
+   "lat": 31.69,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.8115.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4059,37 +4217,6 @@
    ]
   },
   {
-   "id": "KEKA.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal Del Norte"
-   ],
-   "counties": [
-    "06015"
-   ],
-   "sent": "2026-11-13T06:24:00Z",
-   "onset": "2026-11-13T08:00:00Z",
-   "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ccba996d6b269f0967cc55b643e18dfdb1688e2.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ]
-   ],
-   "lon": -123.981,
-   "lat": 41.75,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.HW.W.0005.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4133,6 +4260,37 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal Del Norte"
+   ],
+   "counties": [
+    "06015"
+   ],
+   "sent": "2026-11-13T15:17:00Z",
+   "onset": "2026-11-13T15:17:00Z",
+   "ends": "2026-11-13T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.583ef610567defa09a3c5d38739b1ba47269031a.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.981,
+     41.7499
+    ]
+   ],
+   "lon": -123.981,
+   "lat": 41.75,
    "countries": [
     "US"
    ]
