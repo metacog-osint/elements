@@ -183,6 +183,20 @@
    "lat": 30.4953
   },
   {
+   "id": "{9F1892B4-DFA6-490D-BF1F-A8B47350A033}",
+   "name": "Mud",
+   "acres": 1000.0,
+   "contained": null,
+   "discovered": "2026-11-12T18:04:00Z",
+   "updated": "2026-11-13T03:09:53Z",
+   "state": "ID",
+   "county": "Owyhee",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -116.4361,
+   "lat": 42.7412
+  },
+  {
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
    "name": "Wild River",
    "acres": 817.0,
@@ -561,6 +575,20 @@
    "lat": 47.9011
   },
   {
+   "id": "{7794EF27-7497-4FCB-ADFD-029D70A332AE}",
+   "name": "Spring Creek",
+   "acres": 17.3,
+   "contained": null,
+   "discovered": "2026-08-20T21:00:00Z",
+   "updated": "2026-11-12T23:56:32Z",
+   "state": "WA",
+   "county": "Spokane",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -117.7334,
+   "lat": 47.687
+  },
+  {
    "id": "{B3C83498-8723-4DA6-8B80-070D064C75E6}",
    "name": "Anderson 9931",
    "acres": 15.0,
@@ -629,20 +657,6 @@
    "complexity": "Type 4 Incident",
    "lon": -88.2761,
    "lat": 34.5447
-  },
-  {
-   "id": "{57B5833E-13B3-4460-A74F-51CE5F2DA75D}",
-   "name": "Cocke - Deerfoot Road",
-   "acres": 3.0,
-   "contained": 75,
-   "discovered": "2026-11-11T22:39:26Z",
-   "updated": "2026-11-12T04:30:21Z",
-   "state": "TN",
-   "county": "Cocke",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.2095,
-   "lat": 35.86
   },
   {
    "id": "{FFA4FECE-BF21-48AD-ADD6-634C02E705D6}",
@@ -715,6 +729,20 @@
    "lat": 45.3224
   },
   {
+   "id": "{8D7B5B35-5C9B-4C83-A3B2-3C10242DBD4E}",
+   "name": "Wells Creek",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-05-04T16:16:00Z",
+   "updated": "2026-11-12T23:43:20Z",
+   "state": "OR",
+   "county": "Jackson",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -123.0134,
+   "lat": 42.6132
+  },
+  {
    "id": "{D64E6154-4A66-42EF-BADF-6EE185067582}",
    "name": "Emu",
    "acres": 1.1,
@@ -785,6 +813,20 @@
    "lat": 45.5257
   },
   {
+   "id": "{3BD77ADF-A7DB-4207-A30F-21E74A7848F8}",
+   "name": "Kerby Peak",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-02-01T03:22:00Z",
+   "updated": "2026-11-12T23:40:59Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.4527,
+   "lat": 42.2381
+  },
+  {
    "id": "{A437EAED-E31C-420B-9E29-F94DE8C38F45}",
    "name": "2026085",
    "acres": 0.5,
@@ -797,6 +839,34 @@
    "complexity": null,
    "lon": -73.0766,
    "lat": 43.6932
+  },
+  {
+   "id": "{D9B4F79E-462F-4792-B899-BF08CDA99A21}",
+   "name": "Kerbyline",
+   "acres": 0.3,
+   "contained": null,
+   "discovered": "2026-03-18T04:44:00Z",
+   "updated": "2026-11-12T23:42:01Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.6279,
+   "lat": 42.2003
+  },
+  {
+   "id": "{B5755092-C22E-4F0B-81C1-4AD6453E6BAC}",
+   "name": "Paradise Creek",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-05-05T01:47:00Z",
+   "updated": "2026-11-12T23:43:42Z",
+   "state": "OR",
+   "county": "Jackson",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -122.8748,
+   "lat": 42.6825
   },
   {
    "id": "{B152EB82-B8B3-43F8-B2EF-C660AE50529C}",
@@ -825,6 +895,48 @@
    "complexity": "Type 5 Incident",
    "lon": -85.0306,
    "lat": 34.615
+  },
+  {
+   "id": "{90B76B57-BA72-491A-9827-58FA37471233}",
+   "name": "West Fork",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-12T23:19:41Z",
+   "updated": "2026-11-12T23:42:26Z",
+   "state": "OR",
+   "county": "Wallowa",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.2379,
+   "lat": 45.2044
+  },
+  {
+   "id": "{AE1B88E1-84D7-43DB-AF91-8F981F135D68}",
+   "name": "R Fork Quartz Crk",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-02-01T05:00:00Z",
+   "updated": "2026-11-12T23:52:17Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.4684,
+   "lat": 42.6098
+  },
+  {
+   "id": "{905C20C8-2273-4019-8DF1-DB9D3C2F0427}",
+   "name": "Left Fork Foots Crk Rd",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-04-09T20:34:00Z",
+   "updated": "2026-11-12T23:41:37Z",
+   "state": "OR",
+   "county": "Jackson",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -123.1251,
+   "lat": 42.3848
   },
   {
    "id": "{B284DDCB-8351-4AB3-94A2-19468435DC51}",
@@ -1035,6 +1147,76 @@
    "complexity": null,
    "lon": -119.5377,
    "lat": 37.317
+  },
+  {
+   "id": "{F4D9254E-63FF-47F5-A54A-59D9803A7F29}",
+   "name": "Spencer Creek Rd",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-04-05T17:30:00Z",
+   "updated": "2026-11-12T23:42:59Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.362,
+   "lat": 42.2916
+  },
+  {
+   "id": "{C4775D0A-0F60-4700-85D6-7BDCEF8A3641}",
+   "name": "Tartar Gulch Rd",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-04-13T22:41:00Z",
+   "updated": "2026-11-12T23:42:24Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.4974,
+   "lat": 42.1018
+  },
+  {
+   "id": "{BC172E73-817D-4506-A93A-50D6199CE125}",
+   "name": "Kane Creek",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-05-29T10:23:00Z",
+   "updated": "2026-11-12T23:44:15Z",
+   "state": "OR",
+   "county": "Jackson",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.028,
+   "lat": 42.3638
+  },
+  {
+   "id": "{13A5ABB8-FCB9-4828-90F2-27706CC056C0}",
+   "name": "June Dr.",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-08-06T17:58:00Z",
+   "updated": "2026-11-12T23:47:03Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.6314,
+   "lat": 42.1811
+  },
+  {
+   "id": "{38338708-F99B-4B83-869B-CF8E890CAAEC}",
+   "name": "Crickett Ln 375",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-08-15T23:07:00Z",
+   "updated": "2026-11-12T23:54:40Z",
+   "state": "OR",
+   "county": "Josephine",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.6267,
+   "lat": 42.1777
   },
   {
    "id": "{1B7FF23E-FAF8-43F2-B26B-555FA9AD63E8}",
@@ -1329,6 +1511,20 @@
    "complexity": null,
    "lon": -121.2383,
    "lat": 39.38
+  },
+  {
+   "id": "{4D1033E5-0F91-4EC4-BFB4-EDDC3691ADFD}",
+   "name": "Mtz/Bdc/Rancho",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-12T20:51:18Z",
+   "updated": "2026-11-12T23:46:17Z",
+   "state": "CA",
+   "county": "San Bernardino",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.5909,
+   "lat": 34.5582
   }
  ]
 }
