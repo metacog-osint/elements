@@ -225,6 +225,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104271",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 5,
+   "name": "Flood in Vietnam",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-06T01:00:00Z",
+   "to": "2026-11-13T01:00:00Z",
+   "current": true,
+   "country": "Vietnam",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=5&eventtype=FL",
+   "lon": 108.292,
+   "lat": 12.905,
+   "countries": [
+    "VN"
+   ]
+  },
+  {
    "id": "FL-1104283",
    "type": "FL",
    "kind": "flood",
@@ -245,29 +268,6 @@
    "lat": 15.391,
    "countries": [
     "TH"
-   ]
-  },
-  {
-   "id": "FL-1104271",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 2,
-   "name": "Flood in Vietnam",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-06T01:00:00Z",
-   "to": "2026-11-10T01:00:00Z",
-   "current": true,
-   "country": "Vietnam",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=2&eventtype=FL",
-   "lon": 105.482,
-   "lat": 19.978,
-   "countries": [
-    "VN"
    ]
   },
   {
