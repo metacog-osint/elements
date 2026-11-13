@@ -3978,109 +3978,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.A.0002.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-13T11:45:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3e48ea67daab39e271770d8879cc4e1eb8d2b64.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.326,
-   "lat": 32.633,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -4510,6 +4407,188 @@
    ],
    "lon": -79.113,
    "lat": 34.187,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Jenkins",
+    "Screven",
+    "Candler",
+    "Bulloch",
+    "Effingham",
+    "Tattnall",
+    "Evans",
+    "Allendale",
+    "Hampton",
+    "Inland Colleton",
+    "Dorchester",
+    "Inland Berkeley",
+    "Inland Jasper"
+   ],
+   "counties": [
+    "13031",
+    "13043",
+    "13103",
+    "13109",
+    "13165",
+    "13251",
+    "13267",
+    "45005",
+    "45015",
+    "45029",
+    "45035",
+    "45049",
+    "45053"
+   ],
+   "sent": "2026-11-13T18:18:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.122da3372dd9e22fa39c2a3068accdba6ac95ff0.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.7414,
+     32.3945
+    ],
+    [
+     -82.0713,
+     32.404
+    ],
+    [
+     -81.3434,
+     32.3617
+    ],
+    [
+     -81.8902,
+     32.1531
+    ],
+    [
+     -81.9715,
+     32.7946
+    ],
+    [
+     -81.6176,
+     32.7448
+    ],
+    [
+     -82.0592,
+     32.0438
+    ],
+    [
+     -81.3633,
+     32.9798
+    ],
+    [
+     -79.9537,
+     33.2077
+    ],
+    [
+     -80.6564,
+     32.8494
+    ],
+    [
+     -80.4047,
+     33.0822
+    ],
+    [
+     -81.1438,
+     32.7783
+    ],
+    [
+     -81.0216,
+     32.4306
+    ]
+   ],
+   "lon": -81.326,
+   "lat": 32.633,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTAE.FZ.A.0004.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Tallahassee FL",
+   "areas": [
+    "Coffee",
+    "Dale",
+    "Henry",
+    "Quitman",
+    "Clay",
+    "Randolph",
+    "Calhoun",
+    "Terrell",
+    "Early"
+   ],
+   "counties": [
+    "01031",
+    "01045",
+    "01067",
+    "13037",
+    "13061",
+    "13099",
+    "13239",
+    "13243",
+    "13273"
+   ],
+   "sent": "2026-11-13T18:21:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9620c26828597bbe80df6a35ec34c837a2923767.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -85.9896,
+     31.4023
+    ],
+    [
+     -85.6095,
+     31.4307
+    ],
+    [
+     -85.24,
+     31.517
+    ],
+    [
+     -84.6263,
+     31.5213
+    ],
+    [
+     -84.9926,
+     31.6198
+    ],
+    [
+     -84.9067,
+     31.3242
+    ],
+    [
+     -85.0048,
+     31.8629
+    ],
+    [
+     -84.7523,
+     31.7627
+    ],
+    [
+     -84.4394,
+     31.7772
+    ]
+   ],
+   "lon": -85.062,
+   "lat": 31.58,
    "countries": [
     "US"
    ]
