@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.7 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.8 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -40,6 +40,10 @@
       label: "Cyberspace · internet and power outages",
       short: "Where the lights go out and the internet goes dark, worldwide.",
       long: "Where the lights go out and the internet goes dark: country outages from Georgia Tech IODA and Cloudflare Radar, censorship measurements from OONI, BGP hijacks and route leaks from Cloudflare Radar, the Zaporizhzhya nuclear plant's off-site power as the IAEA reports it, US power outages by county and US grid operators' demand against their own forecasts, a watch on the Starlink, Amazon, Microsoft and Google networks and on eleven providers' own status pages, and a hand-compiled register of submarine cable corridors. A drop is called a likely shutdown only when OONI shows blocking in the same country. Updated every four hours." },
+    { id: "headwind", name: "Headwind", href: "https://headwind.theintelligence.company", status: "beta", group: "layers",
+      label: "Systems · economic stress",
+      short: "Currencies, energy and food prices against their own normal range, and sanctions-list changes.",
+      long: "Economic stress as measurements. Currencies, energy prices and food prices are each compared with their own past changes and marked unusual only when far outside them. Changes to the OFAC and UN Security Council sanctions lists and twelve US screening lists are given as counts, with sanctioned vessels named. Also new BIS and OFAC rules from the Federal Register, US import reliance for minerals, and a calendar of coming decisions. Not forecasts and not investment advice." },
     { id: "noisefloor", name: "Noisefloor", href: "https://noisefloor.theintelligence.company", status: "live", group: "layers",
       label: "Spectrum · GPS interference",
       short: "Where GPS is being jammed or spoofed, mapped every day.",
@@ -191,6 +195,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.7", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.8", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
