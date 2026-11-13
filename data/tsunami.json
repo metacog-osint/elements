@@ -1,6 +1,25 @@
 {
  "records": [
   {
+   "id": "NTWC-20261113T232619Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-13T23:30:02Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "65 miles NE of Kodiak City, Alaska",
+   "magnitude": 4.2,
+   "magnitude_type": "Mwp",
+   "origin": "2026-11-13T23:26:19Z",
+   "depth_km": 28.0,
+   "lat": 58.4,
+   "lon": -151.0,
+   "countries": [],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/13/togrrv/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "PTWC-20261113T163556Z",
    "centre": "PTWC",
    "msg_type": "Alert",
