@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000txz3",
+   "mag": 4.9,
+   "place": "southeast of the Loyalty Islands",
+   "time": "2026-11-13T09:55:45Z",
+   "updated": "2026-11-13T10:21:18Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz3",
+   "depth_km": 10.0,
+   "lon": 173.449,
+   "lat": -22.373,
+   "countries": []
+  },
+  {
    "id": "us7000txyr",
    "mag": 4.6,
    "place": "18 km WNW of Río Grande, Panama",
@@ -1643,23 +1658,6 @@
    "lon": 142.118,
    "lat": 34.968,
    "countries": []
-  },
-  {
-   "id": "us7000twg3",
-   "mag": 4.5,
-   "place": "91 km SSW of Vilyuchinsk, Russia",
-   "time": "2026-11-06T10:12:58Z",
-   "updated": "2026-11-09T10:05:05Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg3",
-   "depth_km": 100.9,
-   "lon": 157.985,
-   "lat": 52.154,
-   "countries": [
-    "RU"
-   ]
   }
  ]
 }
