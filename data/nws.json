@@ -8,9 +8,9 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast",
-    "Northern Arctic Coast"
+    "Eastern Beaufort Sea Coast"
    ],
    "counties": [
     "02185"
@@ -18,7 +18,7 @@
    "sent": "2026-11-13T00:33:00Z",
    "onset": "2026-11-13T00:33:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -839,97 +839,6 @@
    ],
    "lon": -94.926,
    "lat": 36.376,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHUN.FZ.A.0002.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Huntsville AL",
-   "areas": [
-    "Lauderdale",
-    "Colbert",
-    "Franklin",
-    "Lawrence",
-    "Limestone",
-    "Madison",
-    "Morgan",
-    "Marshall",
-    "Jackson",
-    "DeKalb",
-    "Cullman"
-   ],
-   "counties": [
-    "01033",
-    "01043",
-    "01049",
-    "01059",
-    "01071",
-    "01077",
-    "01079",
-    "01083",
-    "01089",
-    "01095",
-    "01103"
-   ],
-   "sent": "2026-11-12T16:07:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ba77ecadaab9b9c495c520a009cbc364abc54f1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -87.8015,
-     34.7031
-    ],
-    [
-     -86.8693,
-     34.1319
-    ],
-    [
-     -85.804,
-     34.4609
-    ],
-    [
-     -87.8428,
-     34.442
-    ],
-    [
-     -85.9801,
-     34.7641
-    ],
-    [
-     -87.6511,
-     34.9042
-    ],
-    [
-     -87.3219,
-     34.5298
-    ],
-    [
-     -86.9814,
-     34.8102
-    ],
-    [
-     -86.5511,
-     34.7642
-    ],
-    [
-     -86.3217,
-     34.3096
-    ],
-    [
-     -86.8464,
-     34.4545
-    ]
-   ],
-   "lon": -86.906,
-   "lat": 34.57,
    "countries": [
     "US"
    ]
@@ -1977,6 +1886,97 @@
    ]
   },
   {
+   "id": "KHUN.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Huntsville AL",
+   "areas": [
+    "Lauderdale",
+    "Colbert",
+    "Franklin",
+    "Lawrence",
+    "Limestone",
+    "Madison",
+    "Morgan",
+    "Marshall",
+    "Jackson",
+    "DeKalb",
+    "Cullman"
+   ],
+   "counties": [
+    "01033",
+    "01043",
+    "01049",
+    "01059",
+    "01071",
+    "01077",
+    "01079",
+    "01083",
+    "01089",
+    "01095",
+    "01103"
+   ],
+   "sent": "2026-11-13T03:23:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acafb616108db3048d2cb896fd1160cb1ca755fd.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -87.8015,
+     34.7031
+    ],
+    [
+     -86.8693,
+     34.1319
+    ],
+    [
+     -85.804,
+     34.4609
+    ],
+    [
+     -87.8428,
+     34.442
+    ],
+    [
+     -85.9801,
+     34.7641
+    ],
+    [
+     -87.6511,
+     34.9042
+    ],
+    [
+     -87.3219,
+     34.5298
+    ],
+    [
+     -86.9814,
+     34.8102
+    ],
+    [
+     -86.5511,
+     34.7642
+    ],
+    [
+     -86.3217,
+     34.3096
+    ],
+    [
+     -86.8464,
+     34.4545
+    ]
+   ],
+   "lon": -86.906,
+   "lat": 34.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.8115.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2400,9 +2400,9 @@
    "certainty": "Likely",
    "sender": "NWS Medford OR",
    "areas": [
-    "Central Siskiyou County",
     "South Central Oregon Coast",
-    "Curry County Coast"
+    "Curry County Coast",
+    "Central Siskiyou County"
    ],
    "counties": [
     "06093",
@@ -2413,7 +2413,7 @@
    "sent": "2026-11-12T21:17:00Z",
    "onset": "2026-11-13T06:00:00Z",
    "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebffb93c0c6e2f26fd83fe550c127f48ca76d967.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebffb93c0c6e2f26fd83fe550c127f48ca76d967.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
