@@ -4784,32 +4784,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.2937.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett out to 15 NM"
-   ],
-   "counties": [
-    "58813"
-   ],
-   "sent": "2026-11-13T12:46:00Z",
-   "onset": "2026-11-13T12:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2942.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4826,6 +4800,32 @@
    "onset": "2026-11-13T12:00:00Z",
    "ends": "2026-11-14T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2937.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett out to 15 NM"
+   ],
+   "counties": [
+    "58813"
+   ],
+   "sent": "2026-11-13T12:46:00Z",
+   "onset": "2026-11-13T12:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4879,37 +4879,6 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal Del Norte"
-   ],
-   "counties": [
-    "06015"
-   ],
-   "sent": "2026-11-13T15:17:00Z",
-   "onset": "2026-11-13T15:17:00Z",
-   "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.583ef610567defa09a3c5d38739b1ba47269031a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ]
-   ],
-   "lon": -123.981,
-   "lat": 41.75,
    "countries": [
     "US"
    ]
