@@ -225,6 +225,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104283",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Thailand",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-06T01:00:00Z",
+   "to": "2026-11-11T01:00:00Z",
+   "current": true,
+   "country": "Thailand",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104283&episodeid=1&eventtype=FL",
+   "lon": 99.456,
+   "lat": 15.391,
+   "countries": [
+    "TH"
+   ]
+  },
+  {
    "id": "FL-1104271",
    "type": "FL",
    "kind": "flood",
