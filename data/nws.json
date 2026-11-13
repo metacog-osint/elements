@@ -3857,105 +3857,122 @@
    ]
   },
   {
-   "id": "KILM.FZ.A.0003.2026",
-   "event": "Freeze Watch",
+   "id": "KPHI.FZ.W.0009.2026",
+   "event": "Freeze Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Wilmington NC",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Robeson",
-    "Bladen",
-    "Columbus",
-    "Inland Pender",
-    "Inland Brunswick",
-    "Marlboro",
-    "Darlington",
-    "Dillon",
-    "Florence",
-    "Marion",
-    "Williamsburg",
-    "Inland Georgetown",
-    "Central Horry",
-    "Northern Horry"
+    "New Castle",
+    "Kent",
+    "Inland Sussex",
+    "Kent",
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Salem",
+    "Gloucester",
+    "Camden",
+    "Cumberland",
+    "Cape May",
+    "Delaware",
+    "Eastern Chester",
+    "Eastern Montgomery",
+    "Lower Bucks"
    ],
    "counties": [
-    "37017",
-    "37019",
-    "37047",
-    "37141",
-    "37155",
-    "45031",
-    "45033",
-    "45041",
-    "45043",
-    "45051",
-    "45067",
-    "45069",
-    "45089"
+    "10001",
+    "10003",
+    "10005",
+    "24011",
+    "24029",
+    "24035",
+    "24041",
+    "34007",
+    "34009",
+    "34011",
+    "34015",
+    "34033",
+    "42017",
+    "42029",
+    "42045",
+    "42091"
    ],
-   "sent": "2026-11-13T05:22:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d84ee8c43db467f9eb7d49793e422fdf25b191b.001.1",
+   "sent": "2026-11-13T17:43:00Z",
+   "onset": "2026-11-14T05:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55b9358cb80a823cfce9e2d25bd100ae3bb688af.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -78.5395,
-     34.5919
+     -75.503,
+     39.0971
     ],
     [
-     -78.2278,
-     34.0388
+     -75.6441,
+     39.5759
     ],
     [
-     -78.6393,
-     34.2616
+     -75.337,
+     38.6732
     ],
     [
-     -77.8881,
-     34.5126
+     -75.8317,
+     38.8715
     ],
     [
-     -79.1009,
-     34.6392
+     -76.126,
+     39.2413
     ],
     [
-     -79.9621,
-     34.3322
+     -76.0858,
+     39.047
     ],
     [
-     -79.3752,
-     34.3902
+     -76.1785,
+     38.7483
     ],
     [
-     -79.7102,
-     34.0285
+     -74.9612,
+     39.8024
     ],
     [
-     -79.2963,
-     33.4175
+     -74.8464,
+     39.0858
     ],
     [
-     -78.9767,
-     33.9093
+     -75.1216,
+     39.3284
     ],
     [
-     -79.354,
-     34.0836
+     -75.1457,
+     39.7229
     ],
     [
-     -79.6794,
-     34.6017
+     -75.3574,
+     39.5738
     ],
     [
-     -79.7165,
-     33.6265
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.7498,
+     39.974
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.3702,
+     40.21
     ]
    ],
-   "lon": -79.113,
-   "lat": 34.187,
+   "lon": -75.485,
+   "lat": 39.45,
    "countries": [
     "US"
    ]
@@ -4394,6 +4411,110 @@
    ]
   },
   {
+   "id": "KILM.FZ.A.0003.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Columbus",
+    "Inland Pender",
+    "Inland Brunswick",
+    "Inland Georgetown",
+    "Central Horry",
+    "Northern Horry",
+    "Robeson",
+    "Bladen",
+    "Marlboro",
+    "Darlington",
+    "Dillon",
+    "Florence",
+    "Marion",
+    "Williamsburg"
+   ],
+   "counties": [
+    "37017",
+    "37019",
+    "37047",
+    "37141",
+    "37155",
+    "45031",
+    "45033",
+    "45041",
+    "45043",
+    "45051",
+    "45067",
+    "45069",
+    "45089"
+   ],
+   "sent": "2026-11-13T17:48:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c96cb143ccf9206b1cbf0fe2415dea7e14ef3ed3.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -78.5395,
+     34.5919
+    ],
+    [
+     -78.2278,
+     34.0388
+    ],
+    [
+     -78.6393,
+     34.2616
+    ],
+    [
+     -77.8881,
+     34.5126
+    ],
+    [
+     -79.1009,
+     34.6392
+    ],
+    [
+     -79.9621,
+     34.3322
+    ],
+    [
+     -79.3752,
+     34.3902
+    ],
+    [
+     -79.7102,
+     34.0285
+    ],
+    [
+     -79.2963,
+     33.4175
+    ],
+    [
+     -78.9767,
+     33.9093
+    ],
+    [
+     -79.354,
+     34.0836
+    ],
+    [
+     -79.6794,
+     34.6017
+    ],
+    [
+     -79.7165,
+     33.6265
+    ]
+   ],
+   "lon": -79.113,
+   "lat": 34.187,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.8115.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4784,32 +4905,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.2942.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-13T12:46:00Z",
-   "onset": "2026-11-13T12:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2937.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4836,6 +4931,32 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.2942.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-13T12:46:00Z",
+   "onset": "2026-11-13T12:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.HW.W.0005.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4843,42 +4964,25 @@
    "certainty": "Likely",
    "sender": "NWS Medford OR",
    "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast",
     "Central Siskiyou County"
    ],
    "counties": [
-    "06093",
-    "41011",
-    "41015",
-    "41019"
+    "06093"
    ],
-   "sent": "2026-11-13T10:06:00Z",
-   "onset": "2026-11-13T10:06:00Z",
+   "sent": "2026-11-13T17:49:00Z",
+   "onset": "2026-11-13T17:49:00Z",
    "ends": "2026-11-13T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08fe589c5938bb2599f19a2c6ed4ed38d256e1ab.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4b2a09807f59c08f896c0654ede473f163b8c71.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
      -122.5333,
      41.588
-    ],
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
     ]
    ],
-   "lon": -123.498,
-   "lat": 42.632,
+   "lon": -122.533,
+   "lat": 41.588,
    "countries": [
     "US"
    ]
@@ -5196,37 +5300,6 @@
    ],
    "lon": -119.612,
    "lat": 37.159,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBGM.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Binghamton NY",
-   "areas": [
-    "Otsego"
-   ],
-   "counties": [
-    "36077"
-   ],
-   "sent": "2026-11-13T13:47:00Z",
-   "onset": "2026-11-13T13:47:00Z",
-   "ends": "2026-11-13T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b92f987caff0875ab1765fb1ecf0f1081e3cd1c4.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.0288,
-     42.6298
-    ]
-   ],
-   "lon": -75.029,
-   "lat": 42.63,
    "countries": [
     "US"
    ]
