@@ -15,10 +15,10 @@
    "counties": [
     "02185"
    ],
-   "sent": "2026-11-12T21:54:00Z",
-   "onset": "2026-11-12T21:54:00Z",
+   "sent": "2026-11-13T00:33:00Z",
+   "onset": "2026-11-13T00:33:00Z",
    "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a1e7ca4512f74b79b447c665438d96feae02c96.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaea4f45d822f39dbea817b7f4aac1b21ef430fd.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -97,81 +97,6 @@
    ],
    "lon": -120.244,
    "lat": 34.962,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FF.W.0164.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Burlington, NJ",
-    "Bucks, PA",
-    "Montgomery, PA",
-    "Philadelphia, PA"
-   ],
-   "counties": [
-    "34005",
-    "42017",
-    "42091",
-    "42101"
-   ],
-   "sent": "2026-11-12T21:22:00Z",
-   "onset": "2026-11-12T21:22:00Z",
-   "ends": "2026-11-13T00:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b127a1e25d4662fcdfa857983058ae95e3daa8f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.93,
-       39.93
-      ],
-      [
-       -75.15,
-       40.18
-      ],
-      [
-       -74.89,
-       40.29
-      ],
-      [
-       -74.63,
-       40.06
-      ],
-      [
-       -74.93,
-       39.93
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -74.906,
-   "lat": 40.078,
    "countries": [
     "US"
    ]
@@ -2778,201 +2703,129 @@
    ]
   },
   {
-   "id": "KLWX.MA.W.0284.2026",
+   "id": "KBOX.MA.W.0052.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
+   "sender": "NWS Boston/Norton MA",
    "areas": [
-    "Choptank River to Cambridge MD and the Little Choptank River"
+    "Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out 20 NM",
+    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
+    "Ocean Waters from Provincetown to Nantucket from 20 to 60 NM",
+    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM"
    ],
    "counties": [
-    "73541"
+    "73254",
+    "73255",
+    "73281",
+    "73282"
    ],
-   "sent": "2026-11-12T23:27:00Z",
-   "onset": "2026-11-12T23:27:00Z",
-   "ends": "2026-11-13T00:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8a22d72688549da828eee503d4296f553bdda99.001.1",
+   "sent": "2026-11-13T00:12:00Z",
+   "onset": "2026-11-13T00:12:00Z",
+   "ends": "2026-11-13T01:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a11febafb5c0e6c7b68dc84ffd5562d7508ed5c.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -76.06,
-       38.58
+       -69.62,
+       40.46
       ],
       [
-       -76.16,
-       38.6
+       -69.82,
+       40.54
       ],
       [
-       -76.17,
-       38.63
+       -69.72,
+       41.09
       ],
       [
-       -76.21,
-       38.6
+       -69.21,
+       40.93
       ],
       [
-       -76.24,
-       38.63
-      ],
-      [
-       -76.28,
-       38.61
-      ],
-      [
-       -76.26,
-       38.6
-      ],
-      [
-       -76.28,
-       38.57
-      ],
-      [
-       -76.29,
-       38.58
-      ],
-      [
-       -76.34,
-       38.57
-      ],
-      [
-       -76.31,
-       38.75
-      ],
-      [
-       -76.3,
-       38.74
-      ],
-      [
-       -76.3,
-       38.72
-      ],
-      [
-       -76.27,
-       38.71
-      ],
-      [
-       -76.23,
-       38.76
-      ],
-      [
-       -76.24,
-       38.71
-      ],
-      [
-       -76.21,
-       38.7
-      ],
-      [
-       -76.21,
-       38.68
-      ],
-      [
-       -76.19,
-       38.68
-      ],
-      [
-       -76.05,
-       38.59
-      ],
-      [
-       -76.06,
-       38.58
+       -69.62,
+       40.46
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -76.222,
-   "lat": 38.647,
+   "lon": -69.598,
+   "lat": 40.696,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KPHI.MA.W.0190.2026",
+   "id": "KPHI.MA.W.0191.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
    ],
    "counties": [
-    "73451",
     "73480",
     "73481"
    ],
-   "sent": "2026-11-13T00:03:00Z",
-   "onset": "2026-11-13T00:03:00Z",
-   "ends": "2026-11-13T00:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a80b2fb0856712fcecc1ba73c77776951df96e57.002.1",
+   "sent": "2026-11-13T00:29:00Z",
+   "onset": "2026-11-13T00:29:00Z",
+   "ends": "2026-11-13T01:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30e27b5414444c406321b380976f6ef61108b9ee.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -73.38,
-       39.75
+       -73.22,
+       39.56
       ],
       [
-       -73.42,
-       39.7
+       -73.75,
+       39.61
       ],
       [
-       -73.55,
-       39.54
-      ],
-      [
-       -73.98,
-       39.63
-      ],
-      [
-       -73.85,
-       39.83
-      ],
-      [
-       -73.79,
-       39.97
-      ],
-      [
-       -73.71,
-       39.99
-      ],
-      [
-       -73.4,
-       39.97
-      ],
-      [
-       -73.38,
+       -73.65,
        39.95
       ],
       [
-       -73.35,
-       39.9
+       -73.37,
+       39.94
+      ],
+      [
+       -73.34,
+       39.89
+      ],
+      [
+       -73.32,
+       39.89
       ],
       [
        -73.32,
        39.88
       ],
       [
-       -73.38,
-       39.75
+       -73.1,
+       39.79
+      ],
+      [
+       -73.22,
+       39.56
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -73.543,
-   "lat": 39.822,
+   "lon": -73.366,
+   "lat": 39.786,
    "countries": [
     "US"
    ]
