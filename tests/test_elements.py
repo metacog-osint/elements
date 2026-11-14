@@ -153,6 +153,18 @@ class Feed(unittest.TestCase):
         self.fc = feed.build(dataset(), NOW)
         self.by = {f["properties"]["id"]: f for f in self.fc["features"]}
 
+    def test_a_gdacs_end_date_after_the_fetch_is_not_the_data_time(self):
+        # GDACS gives a running flood a todate of the next day's 01:00; Elements read 1.6 h ahead on 12 Nov 2026.
+        d = dataset()
+        rec = d["gdacs"]["records"][0]
+        rec["to"] = "2026-11-01T01:00:00Z"
+        fc = feed.build(d, NOW)
+        p = next(f["properties"] for f in fc["features"] if f["properties"]["id"] == f"elements:gdacs:{rec['id']}")
+        self.assertEqual(p["data_as_of"], FETCHED)
+        self.assertEqual(p["measures"]["to"], "2026-11-01T01:00:00Z")
+        past = next(f["properties"] for f in self.fc["features"] if f["properties"]["id"] == f"elements:gdacs:{rec['id']}")
+        self.assertEqual(past["data_as_of"], "2026-10-28T06:00:00Z", "an end date before the fetch is kept")
+
     def test_nothing_dropped_and_contract(self):
         self.assertEqual(self.fc["dropped"], [])
         regs = registers.ids(ROOT / "doctrine")
