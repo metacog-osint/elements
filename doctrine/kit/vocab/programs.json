@@ -1,0 +1,137 @@
+{
+  "vocab": "programs",
+  "version": "1.0",
+  "note": "The suite registry (Tom, 1 Nov 2026): every program, its contract-v2 feed, and the datasets it owns. Rule: each dataset is collected once, by the program that owns it; every other program reads the owner's feed (tips, python/tic_doctrine/tips.py) instead of collecting it again. Before adding a collector to a program, check `owns` here. COP's merged snapshot (`bus`) carries every live feed in one file, refreshed every two hours, with stale feeds flagged. fresh_hours and stale_hours match COP's settings. Planned programs list what they will own, so nobody builds it twice in the meantime.",
+  "bus": {
+    "url": "https://cop.theintelligence.company/data/today.geojson",
+    "program": "cop",
+    "refresh_hours": 2,
+    "note": "Items keep their own `program`; COP adds `cop_program` and `cop_stale` (true when that program's feed failed and its last good items were kept)."
+  },
+  "programs": [
+    {
+      "id": "watchfloor", "name": "Watchfloor", "status": "live", "family": "Conflict",
+      "feed": "https://mc-api-odg3xhcd4a-uc.a.run.app/feed", "site": "https://watchfloor.theintelligence.company",
+      "terms": "Watchfloor terms of use", "fresh_hours": 36, "stale_hours": 72, "warning_problem_prefix": "WF-WP",
+      "owns": ["GDELT GKG 2.1 and Events 2.0 raw 15-minute files", "news outlets' own feeds (RSS, Atom)",
+               "Google News searches by zone or topic, and site: searches for outlets GDELT does not carry",
+               "public Telegram channels (front-line, state and milblog)",
+               "planned: Bluesky and Mastodon analyst lists, Substack analysts, YouTube channel uploads, Ukraine loss counters (WarSpotting, General Staff claims), GDELT TV captions"]
+    },
+    {
+      "id": "context", "name": "Context", "status": "live", "family": "Information",
+      "feed": "https://context.theintelligence.company/api/feed", "site": "https://context.theintelligence.company",
+      "terms": "Context terms", "fresh_hours": 18, "stale_hours": 48, "warning_problem_prefix": "CX-WP",
+      "owns": ["GDELT GKG read through BigQuery twice a day (Watchfloor's predecessor; GDELT raw files belong to Watchfloor)"]
+    },
+    {
+      "id": "vigil", "name": "Vigil", "status": "live", "family": "Networks",
+      "feed": "https://vigil.theintelligence.company/api/feed", "site": "https://vigil.theintelligence.company",
+      "terms": "Vigil terms of use", "fresh_hours": 12, "stale_hours": 48, "warning_problem_prefix": "VG-WP",
+      "owns": ["ransomware leak-site claims", "CISA Known Exploited Vulnerabilities", "NVD", "CISA and ICS advisories",
+               "threat actors and APT groups"]
+    },
+    {
+      "id": "noisefloor", "name": "Noisefloor", "status": "live", "family": "Spectrum and space",
+      "feed": "https://noisefloor.theintelligence.company/data/feed.geojson", "site": "https://noisefloor.theintelligence.company",
+      "terms": "ODbL 1.0 for derived data; text CC BY 4.0", "fresh_hours": 36, "stale_hours": 72, "warning_problem_prefix": "NF-WP",
+      "owns": ["ADS-B (adsb.lol) GNSS interference and spoofing areas", "space weather and NAVCEN GPS status context"]
+    },
+    {
+      "id": "elements", "name": "Elements", "status": "live", "family": "Natural hazards",
+      "feed": "https://elements.theintelligence.company/data/feed.geojson", "site": "https://elements.theintelligence.company/",
+      "terms": "Elements code MIT; content per source", "fresh_hours": 12, "stale_hours": 48,
+      "owns": ["USGS earthquakes", "USGS volcano alerts", "GDACS", "Copernicus EMS", "NASA FIRMS fire and heat detections",
+               "NOAA NHC", "planned: NWS and SPC, radiation"]
+    },
+    {
+      "id": "cordon", "name": "Cordon", "status": "live", "family": "Notices and advisories",
+      "feed": "https://cordon.theintelligence.company/data/feed.geojson", "site": "https://cordon.theintelligence.company/",
+      "terms": "Cordon code MIT; content per source", "fresh_hours": 6, "stale_hours": 24,
+      "extra": {"events": "https://cordon.theintelligence.company/data/events.json"},
+      "owns": ["US State Department travel advisories", "US embassy departure status and security alerts",
+               "EASA conflict-zone information bulletins", "NGA navigational warnings (MSI)", "planned: FAA NOTAMs, NAVAREA text"]
+    },
+    {
+      "id": "vis", "name": "Vis", "status": "live", "family": "Weather",
+      "feed": "https://vis.theintelligence.company/data/feed.geojson", "site": "https://vis.theintelligence.company",
+      "terms": "Vis code GNU AGPL-3.0; Open-Meteo ensemble data CC BY 4.0 (free for non-commercial use), carrying NOAA NCEP GEFS (US public domain) and ECMWF open data (CC BY 4.0)",
+      "fresh_hours": 20, "stale_hours": 48, "warning_problem_prefix": "VS-WP",
+      "owns": ["ensemble weather forecasts (Open-Meteo: NOAA GEFS, ECMWF IFS) at named airfields and ports in Watchfloor's zones",
+               "sun and moon illumination at those points (computed)", "planned: scoring against station METARs"]
+    },
+    {
+      "id": "blackout", "name": "Blackout", "status": "live", "family": "Networks",
+      "feed": "https://blackout.theintelligence.company/data/feed.geojson", "site": "https://blackout.theintelligence.company",
+      "terms": "Blackout code MIT; OONI data CC BY-NC-SA 4.0; IODA (Georgia Tech) states no data licence, so it is credited, not relicensed; providers' status feeds quoted and linked; Cloudflare Radar data CC BY-NC 4.0; IAEA Ukraine updates: IAEA content: reuse allowed with acknowledgement of the IAEA as the source and no IAEA endorsement stated or implied (iaea.org/about/terms-of-use, read 13 Nov 2026); Access Now STOP: No licence stated by Access Now for the STOP dataset; credited as the source, counts only (its Creative Commons Attribution notice covers original media material on its website, not data; accessnow.org/trademarks-copyright-and-media-usage, read 13 Nov 2026); Citizen Lab test lists: CC BY-NC-SA 4.0 (\u201cAll data is provided under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\u201d, the repository's README, read 13 Nov 2026); cited as Citizen Lab and Others, URL Testing Lists Intended for Discovering Website Censorship; ODIN: No licence stated by ODIN (Oak Ridge National Laboratory for the US Department of Energy) for its public outage data; credited to ODIN and the reporting utilities (API docs at odin.ornl.gov/v3/api-docs, site and Feb 2026 webinar, read 13 Nov 2026); Census Gazetteer county points: US Government work, public domain; NASA Black Marble: NASA Earth science data: \u201cthere are no restrictions on the use of these data\u201d, citation requested (earthdata.nasa.gov/learn/find-data/near-real-time/citation); near-real-time data provided as is under the LANCE disclaimer (earthdata.nasa.gov/data/projects/lance/disclaimer); both read 13 Nov 2026; EIA-930: U.S. government publications are in the public domain and are not subject to copyright protection (eia.gov/about/copyrights_reuse.php, read 13 Nov 2026); acknowledged as Source: U.S. Energy Information Administration, with the date read; EAGLE-I outage history (base rates): CC BY 4.0 (creativecommons.org/licenses/by/4.0), as the figshare record states (doi:10.6084/m9.figshare.24237376, read 13 Nov 2026); Brelsford et al., Oak Ridge National Laboratory EAGLE-I; reduced by Blackout to state totals and episodes",
+      "fresh_hours": 12, "stale_hours": 48, "warning_problem_prefix": "BO-WP",
+      "owns": ["IODA internet outage signals (BGP, active probing, darknet) by country, and on watched networks (Starlink, Amazon, Microsoft, Google, Google Cloud ASNs)",
+               "OONI censorship measurements by country, with Citizen Lab's URL test lists as context",
+               "Cloudflare Radar outages Cloudflare annotates (with the cause Cloudflare states) and its verified traffic anomalies, by country",
+               "Cloudflare Radar BGP origin hijacks and route leaks, counted by country; the widely seen ones as items",
+               "cloud, software and satellite providers' own status feeds (AWS, Google Cloud, Google Workspace, Azure, Microsoft 365, Apple, Cloudflare, Akamai, Slack, Zoom, Starlink Statuspage)",
+               "power: the Zaporizhzhya NPP's off-site power as the IAEA's numbered updates state it; US county outages at ODIN's reporting utilities; US balancing authorities' demand against their own day-ahead forecasts (EIA-930); NASA Black Marble night lights over watched cities; base rates for US state outages from ORNL EAGLE-I's outage history (2018-2025)",
+               "Access Now's STOP shutdown history by country, as context",
+               "the submarine cable corridor register (hand-compiled; no TeleGeography data ingested)"]
+    },
+    {
+      "id": "headwind", "name": "Headwind", "status": "live", "family": "Economy",
+      "feed": "https://headwind.theintelligence.company/data/feed.geojson", "site": "https://headwind.theintelligence.company",
+      "terms": "Headwind code MIT; ECB reference rates free to reuse with credit; EIA data US public domain; FAO CC BY 4.0; WFP food prices CC BY-IGO; OFAC list, Consolidated Screening List and Federal Register US public domain; UN Security Council list, no licence stated",
+      "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "HW-WP",
+      "extra": {"events": "https://headwind.theintelligence.company/data/events.json"},
+      "owns": ["currency, energy and food prices against their own range",
+               "OFAC and UN sanctions-list changes",
+               "US screening-list changes (trade.gov)",
+               "BIS and OFAC rules (Federal Register)",
+               "US mineral import reliance (USGS)"]
+    },
+    {
+      "id": "orbit", "name": "Orbit", "status": "live", "family": "Spectrum and space",
+      "feed": "https://orbit.theintelligence.company/data/feed.geojson", "site": "https://orbit.theintelligence.company",
+      "terms": "GCAT data CC BY 4.0 (J. McDowell, planet4589.org/space/gcat); Launch Library 2 data from The Space Devs (free access, no licence stated)",
+      "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "OR-WP",
+      "owns": ["orbital launches (GCAT launch list)",
+               "launches scheduled in the next 14 days (Launch Library 2)",
+               "reentries (GCAT)",
+               "satellite catalog changes between Orbit's own readings of GCAT, and objects in orbit by owner code"]
+    },
+    {
+      "id": "launch", "name": "Launch", "status": "live", "family": "Spectrum and space",
+      "feed": "https://launch.theintelligence.company/data/feed.geojson", "site": "https://launch.theintelligence.company",
+      "terms": "FAA TFRs: US Government work. Orbit's items keep their sources' terms (GCAT CC BY 4.0).",
+      "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "LA-WP",
+      "owns": ["FAA space-operations temporary flight restrictions (tfr.faa.gov)",
+               "scheduled launches that coincide with a closure area in time and place, or that GCAT has dated inside its window",
+               "launch and reentry closure history from Tom's launch map, 2023 onward, with per-pad azimuth corridors and recurring drop zones"]
+    },
+    {
+      "id": "verdict", "name": "Verdict", "status": "live", "family": "Scoring",
+      "feed": "https://metacog-osint.github.io/verdict/data/calendar.geojson", "site": "https://metacog-osint.github.io/verdict/",
+      "terms": "Verdict ledger (public)", "fresh_hours": 48, "stale_hours": 168,
+      "owns": ["the forecast ledger and its scores", "the event calendar (dated, resolvable events)"]
+    },
+    {
+      "id": "cop", "name": "COP", "status": "live", "family": "Combined picture",
+      "feed": "https://cop.theintelligence.company/data/today.geojson", "site": "https://cop.theintelligence.company",
+      "terms": "Each item keeps its program's licence", "fresh_hours": 4, "stale_hours": 12,
+      "owns": ["the merged snapshot of every live feed (the bus)", "convergence across programs (planned v1)"]
+    },
+    {"id": "fieldcast", "name": "FieldCast", "status": "planned", "family": "Spectrum and space",
+     "owns": ["GNSS ionospheric disturbance (ROTI) from public base stations", "NANU"]},
+    {"id": "wake", "name": "Wake", "status": "planned", "status_note": "built 1 Nov 2026 with seed (made-up) sample data; not deployed. Set live when it publishes real data at its address", "family": "Maritime", "warning_problem_prefix": "WK-WP",
+     "feed": "https://wake.theintelligence.company/data/feed.geojson", "site": "https://wake.theintelligence.company",
+     "terms": "Wake code MIT; IMF PortWatch public terms; CC BY 4.0 (Digitraffic AIS)", "fresh_hours": 24, "stale_hours": 72,
+     "owns": ["AIS (AISStream) and AIS gaps", "Global Fishing Watch", "IMF PortWatch", "IMB piracy reports"]},
+    {"id": "tempo", "name": "Tempo", "status": "planned", "family": "Military activity",
+     "owns": ["military flights from ADS-B", "exercises and deployments"]},
+    {"id": "readout", "name": "Readout", "status": "planned", "family": "Statements",
+     "owns": ["official statements (ministries, militaries, heads of state)", "UN Security Council votes", "AU communiques"]},
+    {"id": "temper", "name": "Temper", "status": "planned", "family": "Society",
+     "owns": ["unrest", "displacement", "public attention (Wikipedia page views)", "press freedom"]},
+    {"id": "humanitarian", "name": "Humanitarian response (working label)", "status": "planned", "family": "Humanitarian",
+     "owns": ["HDX HAPI", "IFRC GO", "WHO disease outbreak news", "ReliefWeb reports (Watchfloor reads its headlines until this ships)", "IPC food insecurity"]},
+    {"id": "dead-drop", "name": "Dead Drop", "status": "planned", "family": "Dissemination",
+     "owns": ["alerts and digests to analysts (Matrix)"]}
+  ]
+}

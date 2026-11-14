@@ -1457,3 +1457,119 @@ export function indicatorStyle(state) {
     no_data: { label: "No data", fill: "hatched", grey: true },
   }[state] || { label: "No data", fill: "hatched", grey: true };
 }
+
+// ---------- Tips: one program reading another's findings (python/tic_doctrine/tips.py) ----------
+// The same matching rules as the Python module, for pages that draw tips from the bus themselves. Change detection,
+// staleness by the registry and citation stay in Python, where the feeds are built.
+
+function tipPath(item, path) {
+  let cur = item;
+  for (const part of path.split(".")) {
+    if (!cur || typeof cur !== "object" || !(part in cur)) return null;
+    cur = cur[part];
+  }
+  return cur;
+}
+
+function tipCompare(v, op, want) {
+  if (v === null || v === undefined) return false;
+  switch (op) {
+    case "eq": return v === want;
+    case "ne": return v !== want;
+    case "gt": return v > want;
+    case "gte": return v >= want;
+    case "lt": return v < want;
+    case "lte": return v <= want;
+    case "in": return Array.isArray(want) && want.includes(v);
+    case "contains": return (Array.isArray(v) || typeof v === "string") ? v.includes(want) : false;
+    default: return false;
+  }
+}
+
+/** Whether a bus item (feature properties) meets one interest from doctrine/interests.json. */
+export function tipMatches(item, interest) {
+  const program = item.program || item.cop_program;
+  if (!(interest.programs || []).includes(program)) return false;
+  for (const [key, field] of [["tiers", "tier"], ["kinds", "kind"], ["status_class", "status_class"]]) {
+    if (interest[key] && interest[key].length && !interest[key].includes(item[field])) return false;
+  }
+  if (interest.response_stage_prefix && interest.response_stage_prefix.length) {
+    const stage = item.response_stage || "";
+    if (!interest.response_stage_prefix.some((p) => stage.startsWith(p))) return false;
+  }
+  const title = (item.title || "").toLowerCase();
+  if (interest.title_any && interest.title_any.length && !interest.title_any.some((t) => title.includes(t.toLowerCase()))) return false;
+  if ((interest.title_none || []).some((t) => title.includes(t.toLowerCase()))) return false;
+  return (interest.where || []).every((w) => tipCompare(tipPath(item, w.path), w.op, w.value));
+}
+
+function geomBbox(geom) {
+  if (!geom || typeof geom !== "object") return null;
+  const pts = [];
+  function walk(c) {
+    if (!Array.isArray(c) || !c.length) return;
+    if (typeof c[0] === "number" && c.length >= 2) { pts.push([c[0], c[1]]); return; }
+    for (const x of c) walk(x);
+  }
+  if (geom.type === "GeometryCollection") {
+    for (const g of geom.geometries || []) {
+      const b = geomBbox(g);
+      if (b) { pts.push([b[0], b[1]], [b[2], b[3]]); }
+    }
+  } else {
+    walk(geom.coordinates);
+  }
+  if (!pts.length) return null;
+  let w = Infinity, s = Infinity, e = -Infinity, n = -Infinity;
+  for (const [lon, lat] of pts) {
+    if (lon < w) w = lon;
+    if (lon > e) e = lon;
+    if (lat < s) s = lat;
+    if (lat > n) n = lat;
+  }
+  return [w, s, e, n];
+}
+
+function areaBoxes(boxes, a) {
+  const raw = boxes && boxes[a];
+  if (!Array.isArray(raw) || !raw.length) return [];
+  if (raw.length === 4 && typeof raw[0] === "number") return [raw];
+  return raw.filter((b) => Array.isArray(b) && b.length === 4);
+}
+
+function boxesOverlap(a, b) {
+  return a[0] <= b[2] && a[2] >= b[0] && a[1] <= b[3] && a[3] >= b[1];
+}
+
+/** Tips for one program from bus items: [{interest_id, areas, program, item}], never the program's own items. */
+export function tips(items, interestsDoc) {
+  const me = interestsDoc.program;
+  const areas = interestsDoc.areas || {};
+  const boxes = interestsDoc.boxes || {};
+  const out = [];
+  for (const interest of interestsDoc.interests || []) {
+    const wanted = interest.areas && interest.areas.length ? interest.areas : Object.keys(areas);
+    for (const item of items) {
+      const program = item.program || item.cop_program;
+      if (program === me || !tipMatches(item, interest)) continue;
+      const cc = item.countries || [];
+      const ibbox = geomBbox(item._geometry || item.geometry);
+      const inArea = (a) => (areas[a] || []).some((c) => cc.includes(c)) ||
+        (ibbox !== null && areaBoxes(boxes, a).some((b) => boxesOverlap(ibbox, b)));
+      let hit;
+      if (interest.anywhere) hit = wanted.filter(inArea);
+      else {
+        hit = wanted.filter(inArea);
+        if (!hit.length) {
+          if (!cc.length && ibbox === null) hit = interest.global ? [] : null;
+          else if (!wanted.length) hit = [];
+          else hit = null;
+        }
+      }
+      if (hit === null) continue;
+      out.push({ interest_id: interest.id, indicator_id: interest.indicator_id || null, areas: hit, program,
+        stale: Boolean(item.cop_stale), item });
+    }
+  }
+  return out;
+}

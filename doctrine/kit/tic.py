@@ -6,6 +6,8 @@
     python tic.py health doctrine/sources.json [--out doctrine/health.json]
     python tic.py withheld --log private/withheld.jsonl --out site/data/withheld.json
     python tic.py likelihood 0.7
+    python tic.py history <feed.geojson> --dir history [--health health.json] [--ended site/data/ended.geojson]
+    python tic.py tips [doctrine] [--bus URL|file] [--feed URL|file] [--json tips.json]
     python tic.py kitcheck          (in a vendored copy: fail if doctrine/kit was edited by hand)
 """
 
@@ -50,6 +52,10 @@ def main() -> int:
         from tic_doctrine.health import main as run
     elif cmd == "withheld":
         from tic_doctrine.withhold import main as run
+    elif cmd == "history":
+        from tic_doctrine.history import main as run
+    elif cmd == "tips":
+        from tic_doctrine.tips import main as run
     elif cmd == "kitcheck":
         return kitcheck()
     elif cmd == "likelihood":
