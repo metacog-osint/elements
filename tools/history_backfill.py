@@ -2,6 +2,7 @@
 through the same feed builder and the same history step a live run uses. Standard library only.
 
     python tools/history_backfill.py [--rev origin/main] [--force]
+    python tools/history_backfill.py --continue [--rev origin/main]   # only the data commits after backfilled_to
 
 Each data commit stands for one run, at its commit time (the bot commits within a minute of collecting). Limits, said
 in each line's `backfill` member and in the log's README: data/firms.json and data/meteoalarm.json are not in git, so
@@ -63,15 +64,29 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rev", default="origin/main", help="the git revision whose data/ history is replayed")
     ap.add_argument("--force", action="store_true", help="replace an existing history/")
+    ap.add_argument("--continue", dest="cont", action="store_true",
+                    help="keep history/ and replay only the data commits after state.json's backfilled_to")
     a = ap.parse_args(argv)
-    if (HIST / "state.json").exists() and not a.force:
-        print("history/ exists: use --force to rebuild it from scratch")
-        return 2
-    if HIST.exists():
-        shutil.rmtree(HIST)
     lane_map = lanes()
-    commits = [ln.split() for ln in git("log", "--reverse", "--format=%H %cI", a.rev, "--", "data").splitlines()]
-    state, n, skipped, last = {"format": history.FORMAT, "open": {}}, {"new": 0, "changed": 0, "ended": 0}, [], None
+
+    def log(rng):
+        return [ln.split() for ln in git("log", "--reverse", "--format=%H %cI", rng, "--", "data").splitlines()]
+    n, skipped = {"new": 0, "changed": 0, "ended": 0}, []
+    if a.cont:
+        state = history.load_state(HIST)
+        if not state.get("backfilled_to"):
+            print("history/state.json has no backfilled_to: rebuild with --force")
+            return 2
+        commits = log(f"{state['backfilled_to']}..{a.rev}")
+        last = datetime.fromisoformat(state["updated_at"].replace("Z", "+00:00"))
+    else:
+        if (HIST / "state.json").exists() and not a.force:
+            print("history/ exists: use --force to rebuild it from scratch, or --continue to add the newer runs")
+            return 2
+        if HIST.exists():
+            shutil.rmtree(HIST)
+        commits = log(a.rev)
+        state, last = {"format": history.FORMAT, "open": {}}, None
     for sha, when in commits:
         now = datetime.fromisoformat(when).astimezone(timezone.utc).replace(microsecond=0)
         if last and now <= last:
@@ -90,11 +105,14 @@ def main(argv=None) -> int:
         history.append_log(HIST, lines)
         last = now
     history.close_days(HIST, datetime.now(timezone.utc).strftime("%Y-%m-%d"))
-    state["backfilled_to"] = commits[-1][0] if commits else None
+    state["backfilled_to"] = commits[-1][0] if commits else state.get("backfilled_to")
+    state["backfill_skipped"] = state.get("backfill_skipped", 0) + len(skipped)
     history.save_state(HIST, state)
-    (HIST / "README.md").write_text(README.format(first=commits[0][1][:10] if commits else "-",
+    every = log(a.rev)
+    (HIST / "README.md").write_text(README.format(first=every[0][1][:10] if every else "-",
                                                   last=last.strftime("%Y-%m-%dT%H:%M:%SZ") if last else "-",
-                                                  runs=len(commits) - len(skipped)), encoding="utf-8", newline="\n")
+                                                  runs=len(every) - state["backfill_skipped"]),
+                                    encoding="utf-8", newline="\n")
     print(f"{len(commits)} data commits replayed ({len(skipped)} skipped{': ' + ', '.join(skipped[:5]) if skipped else ''}); "
           f"{n['new']} new, {n['changed']} changed, {n['ended']} ended; {len(state['open'])} open at the end")
     return 0
