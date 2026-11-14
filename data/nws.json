@@ -1839,49 +1839,6 @@
    ]
   },
   {
-   "id": "KSHV.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Shreveport LA",
-   "areas": [
-    "Nevada",
-    "Union",
-    "Union"
-   ],
-   "counties": [
-    "05099",
-    "05139",
-    "22111"
-   ],
-   "sent": "2026-11-13T16:31:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3e1225268db3f46e5f06a718ce026d3078081e1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.3051,
-     33.6667
-    ],
-    [
-     -92.5981,
-     33.1682
-    ],
-    [
-     -92.3756,
-     32.8293
-    ]
-   ],
-   "lon": -92.76,
-   "lat": 33.221,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRAH.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3910,6 +3867,49 @@
    ],
    "lon": -89.615,
    "lat": 32.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSHV.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Shreveport LA",
+   "areas": [
+    "Nevada",
+    "Union",
+    "Union"
+   ],
+   "counties": [
+    "05099",
+    "05139",
+    "22111"
+   ],
+   "sent": "2026-11-14T04:15:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47133185d6297cedb11b0d358ac42887a3d5595d.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.3051,
+     33.6667
+    ],
+    [
+     -92.5981,
+     33.1682
+    ],
+    [
+     -92.3756,
+     32.8293
+    ]
+   ],
+   "lon": -92.76,
+   "lat": 33.221,
    "countries": [
     "US"
    ]
