@@ -575,109 +575,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-14T13:02:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b8d10ba0095a58f0890f4dafb782dcc6380a098.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.326,
-   "lat": 32.633,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHUN.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1366,311 +1263,6 @@
    ],
    "lon": -83.959,
    "lat": 33.371,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCAE.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Columbia SC",
-   "areas": [
-    "Lincoln",
-    "McDuffie",
-    "Columbia",
-    "Richmond",
-    "Burke",
-    "Chesterfield",
-    "McCormick",
-    "Newberry",
-    "Fairfield",
-    "Kershaw",
-    "Edgefield",
-    "Saluda",
-    "Lexington",
-    "Richland",
-    "Lee",
-    "Aiken",
-    "Sumter",
-    "Barnwell",
-    "Calhoun",
-    "Clarendon",
-    "Bamberg",
-    "Northern Lancaster",
-    "Southern Lancaster",
-    "Northwestern Orangeburg",
-    "Central Orangeburg",
-    "Southeastern Orangeburg"
-   ],
-   "counties": [
-    "13033",
-    "13073",
-    "13181",
-    "13189",
-    "13245",
-    "45003",
-    "45009",
-    "45011",
-    "45017",
-    "45025",
-    "45027",
-    "45037",
-    "45039",
-    "45055",
-    "45057",
-    "45061",
-    "45063",
-    "45065",
-    "45071",
-    "45075",
-    "45079",
-    "45081",
-    "45085"
-   ],
-   "sent": "2026-11-14T14:42:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.698a1cb178f5bfd367f9a54d5887b00b4162f217.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.0002,
-     33.0602
-    ],
-    [
-     -82.2496,
-     33.5521
-    ],
-    [
-     -82.4483,
-     33.7922
-    ],
-    [
-     -82.4796,
-     33.4806
-    ],
-    [
-     -82.075,
-     33.3615
-    ],
-    [
-     -81.633,
-     33.55
-    ],
-    [
-     -81.0532,
-     33.203
-    ],
-    [
-     -81.4342,
-     33.2606
-    ],
-    [
-     -80.7803,
-     33.6748
-    ],
-    [
-     -80.1592,
-     34.637
-    ],
-    [
-     -80.2179,
-     33.6647
-    ],
-    [
-     -81.9596,
-     33.7795
-    ],
-    [
-     -81.127,
-     34.3957
-    ],
-    [
-     -80.5909,
-     34.3384
-    ],
-    [
-     -80.7037,
-     34.6868
-    ],
-    [
-     -80.2512,
-     34.1586
-    ],
-    [
-     -81.273,
-     33.8923
-    ],
-    [
-     -82.3162,
-     33.8976
-    ],
-    [
-     -81.5997,
-     34.2899
-    ],
-    [
-     -80.8029,
-     33.4361
-    ],
-    [
-     -80.898,
-     34.0291
-    ],
-    [
-     -81.7279,
-     34.0053
-    ],
-    [
-     -80.3824,
-     33.9161
-    ]
-   ],
-   "lon": -81.311,
-   "lat": 33.829,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Durham",
-    "Franklin",
-    "Nash",
-    "Edgecombe",
-    "Chatham",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Montgomery",
-    "Moore",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Anson",
-    "Richmond",
-    "Scotland",
-    "Hoke",
-    "Cumberland",
-    "Sampson"
-   ],
-   "counties": [
-    "37007",
-    "37037",
-    "37051",
-    "37063",
-    "37065",
-    "37069",
-    "37085",
-    "37093",
-    "37101",
-    "37105",
-    "37123",
-    "37125",
-    "37127",
-    "37153",
-    "37163",
-    "37165",
-    "37183",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-14T15:21:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6e661a4631432a9f645dcb8e48ad9f1d5d0db9c.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.1098,
-     34.975
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -79.242,
-     35.0172
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -79.9108,
-     35.3275
-    ],
-    [
-     -79.4927,
-     35.3083
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.7557,
-     35.0046
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -79.4773,
-     34.84
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.852,
-   "lat": 35.443,
    "countries": [
     "US"
    ]
@@ -2446,6 +2038,414 @@
    ]
   },
   {
+   "id": "KRAH.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Durham",
+    "Franklin",
+    "Nash",
+    "Edgecombe",
+    "Chatham",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Montgomery",
+    "Moore",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Anson",
+    "Richmond",
+    "Scotland",
+    "Hoke",
+    "Cumberland",
+    "Sampson"
+   ],
+   "counties": [
+    "37007",
+    "37037",
+    "37051",
+    "37063",
+    "37065",
+    "37069",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37123",
+    "37125",
+    "37127",
+    "37153",
+    "37163",
+    "37165",
+    "37183",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-14T18:16:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f30d61b1b78ac3eba06bf2aec05d224fee9ca3c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.1098,
+     34.975
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.9108,
+     35.3275
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.7557,
+     35.0046
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -79.4773,
+     34.84
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -78.852,
+   "lat": 35.443,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Jenkins",
+    "Screven",
+    "Candler",
+    "Bulloch",
+    "Effingham",
+    "Tattnall",
+    "Evans",
+    "Allendale",
+    "Hampton",
+    "Inland Colleton",
+    "Dorchester",
+    "Inland Berkeley",
+    "Inland Jasper"
+   ],
+   "counties": [
+    "13031",
+    "13043",
+    "13103",
+    "13109",
+    "13165",
+    "13251",
+    "13267",
+    "45005",
+    "45015",
+    "45029",
+    "45035",
+    "45049",
+    "45053"
+   ],
+   "sent": "2026-11-14T18:17:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aed8da366eb3c0e8df650ec0fe35a33708ea73c3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.7414,
+     32.3945
+    ],
+    [
+     -82.0713,
+     32.404
+    ],
+    [
+     -81.3434,
+     32.3617
+    ],
+    [
+     -81.8902,
+     32.1531
+    ],
+    [
+     -81.9715,
+     32.7946
+    ],
+    [
+     -81.6176,
+     32.7448
+    ],
+    [
+     -82.0592,
+     32.0438
+    ],
+    [
+     -81.3633,
+     32.9798
+    ],
+    [
+     -79.9537,
+     33.2077
+    ],
+    [
+     -80.6564,
+     32.8494
+    ],
+    [
+     -80.4047,
+     33.0822
+    ],
+    [
+     -81.1438,
+     32.7783
+    ],
+    [
+     -81.0216,
+     32.4306
+    ]
+   ],
+   "lon": -81.326,
+   "lat": 32.633,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCAE.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Columbia SC",
+   "areas": [
+    "Lincoln",
+    "McDuffie",
+    "Columbia",
+    "Richmond",
+    "Burke",
+    "Chesterfield",
+    "McCormick",
+    "Newberry",
+    "Fairfield",
+    "Kershaw",
+    "Edgefield",
+    "Saluda",
+    "Lexington",
+    "Richland",
+    "Lee",
+    "Aiken",
+    "Sumter",
+    "Barnwell",
+    "Calhoun",
+    "Clarendon",
+    "Bamberg",
+    "Northern Lancaster",
+    "Southern Lancaster",
+    "Northwestern Orangeburg",
+    "Central Orangeburg",
+    "Southeastern Orangeburg"
+   ],
+   "counties": [
+    "13033",
+    "13073",
+    "13181",
+    "13189",
+    "13245",
+    "45003",
+    "45009",
+    "45011",
+    "45017",
+    "45025",
+    "45027",
+    "45037",
+    "45039",
+    "45055",
+    "45057",
+    "45061",
+    "45063",
+    "45065",
+    "45071",
+    "45075",
+    "45079",
+    "45081",
+    "45085"
+   ],
+   "sent": "2026-11-14T18:24:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d2c9e074aba577b576509503e0104bfff6a0595.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.0002,
+     33.0602
+    ],
+    [
+     -82.2496,
+     33.5521
+    ],
+    [
+     -82.4483,
+     33.7922
+    ],
+    [
+     -82.4796,
+     33.4806
+    ],
+    [
+     -82.075,
+     33.3615
+    ],
+    [
+     -81.633,
+     33.55
+    ],
+    [
+     -81.0532,
+     33.203
+    ],
+    [
+     -81.4342,
+     33.2606
+    ],
+    [
+     -80.7803,
+     33.6748
+    ],
+    [
+     -80.1592,
+     34.637
+    ],
+    [
+     -80.2179,
+     33.6647
+    ],
+    [
+     -81.9596,
+     33.7795
+    ],
+    [
+     -81.127,
+     34.3957
+    ],
+    [
+     -80.5909,
+     34.3384
+    ],
+    [
+     -80.7037,
+     34.6868
+    ],
+    [
+     -80.2512,
+     34.1586
+    ],
+    [
+     -81.273,
+     33.8923
+    ],
+    [
+     -82.3162,
+     33.8976
+    ],
+    [
+     -81.5997,
+     34.2899
+    ],
+    [
+     -80.8029,
+     33.4361
+    ],
+    [
+     -80.898,
+     34.0291
+    ],
+    [
+     -81.7279,
+     34.0053
+    ],
+    [
+     -80.3824,
+     33.9161
+    ]
+   ],
+   "lon": -81.311,
+   "lat": 33.829,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9958.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2899,58 +2899,6 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHGX.MA.W.0088.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Houston/Galveston TX",
-   "areas": [
-    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM"
-   ],
-   "counties": [
-    "77350"
-   ],
-   "sent": "2026-11-14T17:53:00Z",
-   "onset": "2026-11-14T17:53:00Z",
-   "ends": "2026-11-14T18:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fab093dade1403aeceabbb5a10a7d512c53f0b82.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -95.63,
-       28.5
-      ],
-      [
-       -95.67,
-       28.37
-      ],
-      [
-       -95.98,
-       28.36
-      ],
-      [
-       -95.9,
-       28.61
-      ],
-      [
-       -95.63,
-       28.5
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -95.762,
-   "lat": 28.468,
    "countries": [
     "US"
    ]
