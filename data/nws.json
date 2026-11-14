@@ -1655,127 +1655,6 @@
    ]
   },
   {
-   "id": "KPHI.FZ.W.0009.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "New Castle",
-    "Kent",
-    "Inland Sussex",
-    "Kent",
-    "Queen Anne's",
-    "Talbot",
-    "Caroline",
-    "Salem",
-    "Gloucester",
-    "Camden",
-    "Cumberland",
-    "Cape May",
-    "Delaware",
-    "Eastern Chester",
-    "Eastern Montgomery",
-    "Lower Bucks"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "24011",
-    "24029",
-    "24035",
-    "24041",
-    "34007",
-    "34009",
-    "34011",
-    "34015",
-    "34033",
-    "42017",
-    "42029",
-    "42045",
-    "42091"
-   ],
-   "sent": "2026-11-13T17:43:00Z",
-   "onset": "2026-11-14T05:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55b9358cb80a823cfce9e2d25bd100ae3bb688af.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -75.8317,
-     38.8715
-    ],
-    [
-     -76.126,
-     39.2413
-    ],
-    [
-     -76.0858,
-     39.047
-    ],
-    [
-     -76.1785,
-     38.7483
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.7498,
-     39.974
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.3702,
-     40.21
-    ]
-   ],
-   "lon": -75.485,
-   "lat": 39.45,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHUN.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -4278,6 +4157,127 @@
    ]
   },
   {
+   "id": "KPHI.FZ.W.0009.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "New Castle",
+    "Kent",
+    "Inland Sussex",
+    "Kent",
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Salem",
+    "Gloucester",
+    "Camden",
+    "Cumberland",
+    "Cape May",
+    "Delaware",
+    "Eastern Chester",
+    "Eastern Montgomery",
+    "Lower Bucks"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "24011",
+    "24029",
+    "24035",
+    "24041",
+    "34007",
+    "34009",
+    "34011",
+    "34015",
+    "34033",
+    "42017",
+    "42029",
+    "42045",
+    "42091"
+   ],
+   "sent": "2026-11-14T05:56:00Z",
+   "onset": "2026-11-14T05:56:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d320662a535e8a6972e27760cfbb1d84742578a.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -75.8317,
+     38.8715
+    ],
+    [
+     -76.126,
+     39.2413
+    ],
+    [
+     -76.0858,
+     39.047
+    ],
+    [
+     -76.1785,
+     38.7483
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.7498,
+     39.974
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.3702,
+     40.21
+    ]
+   ],
+   "lon": -75.485,
+   "lat": 39.45,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -4955,58 +4955,57 @@
    ]
   },
   {
-   "id": "KEPZ.SV.W.0236.2026",
-   "event": "Severe Thunderstorm Warning",
+   "id": "KMHX.MA.W.0404.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS El Paso Tx/Santa Teresa NM",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Otero, NM"
+    "S of Cape Lookout NC to Surf City NC out to 20 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
    ],
    "counties": [
-    "35035"
+    "75158",
+    "75186",
+    "75188"
    ],
-   "sent": "2026-11-14T05:02:00Z",
-   "onset": "2026-11-14T05:02:00Z",
-   "ends": "2026-11-14T05:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c46dec66c20356b6e3a74b0b2ca2c2f221bd688.001.1",
+   "sent": "2026-11-14T05:49:00Z",
+   "onset": "2026-11-14T05:49:00Z",
+   "ends": "2026-11-14T06:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20f8718a1dd59f3e9447aebb2e743e128776543a.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -105.89,
-       32.27
+       -76.5,
+       34.08
       ],
       [
-       -106.06,
-       32.32
+       -76.4,
+       34.29
       ],
       [
-       -105.94,
-       32.69
+       -75.79,
+       34.13
       ],
       [
-       -105.64,
-       32.57
+       -75.9,
+       33.87
       ],
       [
-       -105.89,
-       32.27
+       -76.5,
+       34.08
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [
-    [
-     -105.7513,
-     32.6156
-    ]
-   ],
-   "lon": -105.884,
-   "lat": 32.424,
+   "points": [],
+   "lon": -76.218,
+   "lat": 34.09,
    "countries": [
     "US"
    ]
@@ -5034,36 +5033,6 @@
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35215c18903a88774cfe76a285277b2c33689afa.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0003.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-14T03:44:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89177951efe1c7486d28fd734544d94a883c5d5.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5104,28 +5073,26 @@
    ]
   },
   {
-   "id": "KPQR.SR.A.0002.2026",
-   "event": "Storm Watch",
+   "id": "KPQR.SR.W.0003.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
-    "Columbia River Bar",
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
-    "Coastal waters from Cape Foulweather to Florence OR out 10 nm"
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
    ],
    "counties": [
-    "57210",
-    "57251",
-    "57252",
-    "57253"
+    "57271",
+    "57272",
+    "57273"
    ],
-   "sent": "2026-11-14T03:44:00Z",
-   "onset": "2026-11-15T00:00:00Z",
+   "sent": "2026-11-14T06:00:00Z",
+   "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89177951efe1c7486d28fd734544d94a883c5d5.002.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e65e96431b4d18437d3db743045b2a26544079ec.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5156,6 +5123,38 @@
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc904d50e28103e4d8768d2004b4dce56bd81e8d.002.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.A.0002.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
+    "Columbia River Bar"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57253"
+   ],
+   "sent": "2026-11-14T06:00:00Z",
+   "onset": "2026-11-15T00:00:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e65e96431b4d18437d3db743045b2a26544079ec.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
