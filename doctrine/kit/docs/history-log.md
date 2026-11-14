@@ -57,7 +57,10 @@ Because every line carries the full item, the log alone rebuilds the picture at 
    ```
 
    Pass `--health <file>` when the program keeps a health record in its own file. Without it the command uses the
-   feed's own `health` member. A lane counts as read when its `last_ok` equals its `checked_at`.
+   feed's own `health` member. A lane counts as read when its `last_ok` equals its `checked_at` and, when the entry
+   gives a `state`, that state is `fresh`, `late` or `up` (0.5.1). A program that withholds a source's items while
+   the source still answers must mark that source stale in the record it passes, or the withheld items will be
+   logged as ended.
 3. Commit `history/` from the workflow with the data commit, in a way that does not start another run.
 4. Add the address of `ended.geojson` to the program's entry in COP's `config/programs.json` (`"ended"`).
 

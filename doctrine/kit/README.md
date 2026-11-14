@@ -50,7 +50,8 @@ python doctrine/kit/tic.py tips doctrine --feed <url>     # against one program'
 feed just built with the last run and logs one line per item that is new, changed (tier or response stage) or ended,
 with the full item, to `history/log/YYYY/MM/DD.jsonl` (format `tic-history/1`, first written for Elements). An item
 ends only when its source was read well on that run. The program serves the last 7 days of ended items beside its
-feed as `data/ended.geojson`. Format and adoption steps: `docs/history-log.md`.
+feed as `data/ended.geojson`. Format and adoption steps: `docs/history-log.md`. 0.5.1 (14 Nov 2026): a health entry's own
+`state`, when it gives one, must be fresh, late or up for its items to end (Cordon withholds a stale source's items).
 
 **Tests:** `python tests/test_kit.py`, `python tests/test_history.py` and `node tests/test_js.mjs`.
 
