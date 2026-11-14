@@ -3578,185 +3578,6 @@
    ]
   },
   {
-   "id": "KAKQ.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Northampton",
-    "Hertford",
-    "Richmond",
-    "Brunswick",
-    "Dinwiddie",
-    "Prince George",
-    "Charles City",
-    "New Kent",
-    "Greensville",
-    "Sussex",
-    "Surry",
-    "James City",
-    "Southampton",
-    "Eastern Hanover",
-    "Western Chesterfield",
-    "Eastern Chesterfield (Including Col. Heights)",
-    "Western Henrico (Including the City of Richmond)",
-    "Eastern Henrico",
-    "Western King William",
-    "Eastern King William",
-    "Western King and Queen",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex"
-   ],
-   "counties": [
-    "37091",
-    "37131",
-    "51025",
-    "51036",
-    "51041",
-    "51053",
-    "51057",
-    "51081",
-    "51085",
-    "51087",
-    "51095",
-    "51097",
-    "51101",
-    "51127",
-    "51149",
-    "51159",
-    "51175",
-    "51181",
-    "51183",
-    "51570",
-    "51595",
-    "51620",
-    "51670",
-    "51730",
-    "51760",
-    "51830"
-   ],
-   "sent": "2026-11-13T23:15:00Z",
-   "onset": "2026-11-14T08:00:00Z",
-   "ends": "2026-11-14T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91bb584cc5889aa6cf81601e302f762adb1b423b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.9816,
-     36.3635
-    ],
-    [
-     -77.3984,
-     36.4218
-    ],
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -77.5858,
-     37.3784
-    ],
-    [
-     -77.6355,
-     37.0735
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -77.5603,
-     36.6803
-    ],
-    [
-     -77.4913,
-     37.7602
-    ],
-    [
-     -77.3003,
-     37.4375
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -77.1038,
-     36.7201
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -77.2597,
-     36.9266
-    ],
-    [
-     -77.3968,
-     37.2617
-    ],
-    [
-     -77.536,
-     36.6962
-    ],
-    [
-     -76.9414,
-     36.684
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -77.476,
-     37.5314
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -77.212,
-   "lat": 37.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMOB.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3915,6 +3736,185 @@
    ]
   },
   {
+   "id": "KAKQ.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Northampton",
+    "Hertford",
+    "Richmond",
+    "Brunswick",
+    "Dinwiddie",
+    "Prince George",
+    "Charles City",
+    "New Kent",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "James City",
+    "Southampton",
+    "Eastern Hanover",
+    "Western Chesterfield",
+    "Eastern Chesterfield (Including Col. Heights)",
+    "Western Henrico (Including the City of Richmond)",
+    "Eastern Henrico",
+    "Western King William",
+    "Eastern King William",
+    "Western King and Queen",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex"
+   ],
+   "counties": [
+    "37091",
+    "37131",
+    "51025",
+    "51036",
+    "51041",
+    "51053",
+    "51057",
+    "51081",
+    "51085",
+    "51087",
+    "51095",
+    "51097",
+    "51101",
+    "51127",
+    "51149",
+    "51159",
+    "51175",
+    "51181",
+    "51183",
+    "51570",
+    "51595",
+    "51620",
+    "51670",
+    "51730",
+    "51760",
+    "51830"
+   ],
+   "sent": "2026-11-14T02:58:00Z",
+   "onset": "2026-11-14T08:00:00Z",
+   "ends": "2026-11-14T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b11b88a14ab1d097cd18fefb8f8cef7d474bbcb.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -77.5858,
+     37.3784
+    ],
+    [
+     -77.6355,
+     37.0735
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -77.4913,
+     37.7602
+    ],
+    [
+     -77.3003,
+     37.4375
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -77.3968,
+     37.2617
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -77.476,
+     37.5314
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -77.212,
+   "lat": 37.203,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3989,172 +3989,6 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCAE.FZ.A.0003.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Columbia SC",
-   "areas": [
-    "Lincoln",
-    "McDuffie",
-    "Columbia",
-    "Richmond",
-    "Burke",
-    "Chesterfield",
-    "McCormick",
-    "Newberry",
-    "Fairfield",
-    "Kershaw",
-    "Edgefield",
-    "Saluda",
-    "Lexington",
-    "Richland",
-    "Lee",
-    "Aiken",
-    "Sumter",
-    "Barnwell",
-    "Calhoun",
-    "Clarendon",
-    "Bamberg",
-    "Northern Lancaster",
-    "Southern Lancaster",
-    "Northwestern Orangeburg",
-    "Central Orangeburg",
-    "Southeastern Orangeburg"
-   ],
-   "counties": [
-    "13033",
-    "13073",
-    "13181",
-    "13189",
-    "13245",
-    "45003",
-    "45009",
-    "45011",
-    "45017",
-    "45025",
-    "45027",
-    "45037",
-    "45039",
-    "45055",
-    "45057",
-    "45061",
-    "45063",
-    "45065",
-    "45071",
-    "45075",
-    "45079",
-    "45081",
-    "45085"
-   ],
-   "sent": "2026-11-13T16:31:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca6fbb366accc08f07498ef20ff97c9d87f20694.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.0002,
-     33.0602
-    ],
-    [
-     -82.2496,
-     33.5521
-    ],
-    [
-     -82.4483,
-     33.7922
-    ],
-    [
-     -82.4796,
-     33.4806
-    ],
-    [
-     -82.075,
-     33.3615
-    ],
-    [
-     -81.633,
-     33.55
-    ],
-    [
-     -81.0532,
-     33.203
-    ],
-    [
-     -81.4342,
-     33.2606
-    ],
-    [
-     -80.7803,
-     33.6748
-    ],
-    [
-     -80.1592,
-     34.637
-    ],
-    [
-     -80.2179,
-     33.6647
-    ],
-    [
-     -81.9596,
-     33.7795
-    ],
-    [
-     -81.127,
-     34.3957
-    ],
-    [
-     -80.5909,
-     34.3384
-    ],
-    [
-     -80.7037,
-     34.6868
-    ],
-    [
-     -80.2512,
-     34.1586
-    ],
-    [
-     -81.273,
-     33.8923
-    ],
-    [
-     -82.3162,
-     33.8976
-    ],
-    [
-     -81.5997,
-     34.2899
-    ],
-    [
-     -80.8029,
-     33.4361
-    ],
-    [
-     -80.898,
-     34.0291
-    ],
-    [
-     -81.7279,
-     34.0053
-    ],
-    [
-     -80.3824,
-     33.9161
-    ]
-   ],
-   "lon": -81.311,
-   "lat": 33.829,
    "countries": [
     "US"
    ]
@@ -4526,6 +4360,172 @@
    ],
    "lon": -81.326,
    "lat": 32.633,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCAE.FZ.A.0003.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Columbia SC",
+   "areas": [
+    "Lincoln",
+    "McDuffie",
+    "Columbia",
+    "Richmond",
+    "Burke",
+    "Chesterfield",
+    "McCormick",
+    "Newberry",
+    "Fairfield",
+    "Kershaw",
+    "Edgefield",
+    "Saluda",
+    "Lexington",
+    "Richland",
+    "Lee",
+    "Aiken",
+    "Sumter",
+    "Barnwell",
+    "Calhoun",
+    "Clarendon",
+    "Bamberg",
+    "Northern Lancaster",
+    "Southern Lancaster",
+    "Northwestern Orangeburg",
+    "Central Orangeburg",
+    "Southeastern Orangeburg"
+   ],
+   "counties": [
+    "13033",
+    "13073",
+    "13181",
+    "13189",
+    "13245",
+    "45003",
+    "45009",
+    "45011",
+    "45017",
+    "45025",
+    "45027",
+    "45037",
+    "45039",
+    "45055",
+    "45057",
+    "45061",
+    "45063",
+    "45065",
+    "45071",
+    "45075",
+    "45079",
+    "45081",
+    "45085"
+   ],
+   "sent": "2026-11-14T02:51:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ad6f1b5fbc191f166c5f0bc0f50c50aca92733f.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.0002,
+     33.0602
+    ],
+    [
+     -82.2496,
+     33.5521
+    ],
+    [
+     -82.4483,
+     33.7922
+    ],
+    [
+     -82.4796,
+     33.4806
+    ],
+    [
+     -82.075,
+     33.3615
+    ],
+    [
+     -81.633,
+     33.55
+    ],
+    [
+     -81.0532,
+     33.203
+    ],
+    [
+     -81.4342,
+     33.2606
+    ],
+    [
+     -80.7803,
+     33.6748
+    ],
+    [
+     -80.1592,
+     34.637
+    ],
+    [
+     -80.2179,
+     33.6647
+    ],
+    [
+     -81.9596,
+     33.7795
+    ],
+    [
+     -81.127,
+     34.3957
+    ],
+    [
+     -80.5909,
+     34.3384
+    ],
+    [
+     -80.7037,
+     34.6868
+    ],
+    [
+     -80.2512,
+     34.1586
+    ],
+    [
+     -81.273,
+     33.8923
+    ],
+    [
+     -82.3162,
+     33.8976
+    ],
+    [
+     -81.5997,
+     34.2899
+    ],
+    [
+     -80.8029,
+     33.4361
+    ],
+    [
+     -80.898,
+     34.0291
+    ],
+    [
+     -81.7279,
+     34.0053
+    ],
+    [
+     -80.3824,
+     33.9161
+    ]
+   ],
+   "lon": -81.311,
+   "lat": 33.829,
    "countries": [
     "US"
    ]
@@ -4947,38 +4947,6 @@
    ]
   },
   {
-   "id": "KMFR.SR.W.0003.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57350",
-    "57356",
-    "57370",
-    "57376"
-   ],
-   "sent": "2026-11-13T19:27:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd8cf3d556f0a70feb44917b8067ae8ec5f9731d.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5029,6 +4997,38 @@
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2923887ef5eaa501e5907240227d14a8234d10c5.001.4",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.SR.W.0003.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm",
+    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57350",
+    "57356",
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-14T03:03:00Z",
+   "onset": "2026-11-14T21:00:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35215c18903a88774cfe76a285277b2c33689afa.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
