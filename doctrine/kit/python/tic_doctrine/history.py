@@ -21,7 +21,8 @@ what happened in a window, not what is active.
 
 Which sources were read well. An item ends only when its lane was read successfully on this run. A lane is the item's
 first source id, the key of that source in the program's health record. The health record comes from --health, or
-from the feed's own `health` member; a lane counts as read when its last success is its last check. With no health
+from the feed's own `health` member; a lane counts as read when its last success is its last check and, when the entry
+gives a state of its own, that state is fresh, late or up (a source whose items are withheld as stale ends nothing). With no health
 record at all, every lane counts as read: safe only for a program that keeps a failed source's last items in its
 feed. As a guard, a run whose feed has no items at all, with no health record, ends nothing. An item whose lane the
 health record does not name can never end; the command warns, and --lane-map names source ids as lanes
@@ -97,10 +98,17 @@ def _line(at, change, entry, item, **extra):
             "peak_tier": entry["peak_tier"], "updates": entry["updates"], **extra, "item": item}
 
 
+READ_STATES = ("fresh", "late", "up")              # a health entry's own state, when it gives one
+
+
 def lanes_ok(health: dict) -> set:
-    """Lanes read successfully on the run that wrote this health record (its last success is its last check)."""
+    """Lanes read successfully on the run that wrote this health record: its last success is its last check, and, when
+    the entry gives a state of its own, that state is fresh, late or up. A program that withholds a source's items
+    while the source still answers (Cordon withholds a frozen warning list as "stale") marks it so, and its withheld
+    items stay open instead of ending."""
     return {k for k, v in (health or {}).items()
-            if isinstance(v, dict) and v.get("last_ok") and v.get("last_ok") == v.get("checked_at")}
+            if isinstance(v, dict) and v.get("last_ok") and v.get("last_ok") == v.get("checked_at")
+            and (v.get("state") is None or v.get("state") in READ_STATES)}
 
 
 def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: list | None = None, *,
