@@ -1,0 +1,246 @@
+{
+ "commit": "efb55be479fed00a0f12af2ea507cd6c734bbe9f",
+ "committed_at": "2026-11-02T06:42:24Z",
+ "nws": [
+  {
+   "id": "KABQ.FA.W.0024.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "San Juan, NM"
+   ],
+   "counties": [
+    "35045"
+   ],
+   "sent": "2026-11-02T04:59:00Z",
+   "onset": "2026-11-02T04:59:00Z",
+   "ends": "2026-11-02T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1d118ff8aaa9fd562bdb1ce7583454080247177.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -107.54,
+       36.85
+      ],
+      [
+       -107.56,
+       36.86
+      ],
+      [
+       -107.62,
+       36.8
+      ],
+      [
+       -107.63,
+       36
+      ],
+      [
+       -109.05,
+       36
+      ],
+      [
+       -109.05,
+       37
+      ],
+      [
+       -107.42,
+       37
+      ],
+      [
+       -107.46,
+       36.96
+      ],
+      [
+       -107.45,
+       36.91
+      ],
+      [
+       -107.54,
+       36.85
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -108.3246,
+     36.5116
+    ]
+   ],
+   "lon": -107.832,
+   "lat": 36.723,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.FA.A.0029.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Northwest Plateau",
+    "Chuska Mountains",
+    "Far Northwest Highlands",
+    "Northwest Highlands",
+    "West Central Plateau",
+    "West Central Mountains",
+    "West Central Highlands",
+    "Southwest Mountains",
+    "San Francisco River Valley",
+    "Tusas Mountains Including Chama",
+    "Jemez Mountains"
+   ],
+   "counties": [
+    "35001",
+    "35003",
+    "35006",
+    "35028",
+    "35031",
+    "35039",
+    "35043",
+    "35045",
+    "35053",
+    "35055",
+    "35061"
+   ],
+   "sent": "2026-11-01T21:09:00Z",
+   "onset": "2026-11-01T21:09:00Z",
+   "ends": "2026-11-02T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.128a15ce2d6c00007ef1cef2fc8efca91bc545a1.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -106.6691,
+     35.0536
+    ],
+    [
+     -108.3919,
+     33.9016
+    ],
+    [
+     -107.9927,
+     34.9283
+    ],
+    [
+     -106.308,
+     35.87
+    ],
+    [
+     -108.2533,
+     35.5841
+    ],
+    [
+     -106.694,
+     36.5097
+    ],
+    [
+     -106.8831,
+     35.6851
+    ],
+    [
+     -108.3246,
+     36.5116
+    ],
+    [
+     -106.9391,
+     33.9917
+    ],
+    [
+     -105.6389,
+     36.5772
+    ],
+    [
+     -106.8066,
+     34.7168
+    ]
+   ],
+   "lon": -107.173,
+   "lat": 35.394,
+   "countries": [
+    "US"
+   ]
+  }
+ ],
+ "health": {
+  "usgs-earthquakes": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "139 records"
+  },
+  "gdacs": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "53 records"
+  },
+  "nhc": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "0 records"
+  },
+  "copernicus-ems": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "50 records"
+  },
+  "nasa-firms": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": "2026-11-01T01:24:20Z",
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "103,889 detections in 6,926 cells via api; key used 216 of 5000 transactions"
+  },
+  "usgs-volcanoes": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "4 records"
+  },
+  "nws-alerts": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "98 records"
+  },
+  "spc-outlook": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "2 records"
+  },
+  "noaa-tsunami": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "3 records"
+  },
+  "us-drought-monitor": {
+   "last_ok": "2026-11-02T06:42:14Z",
+   "last_error": null,
+   "failures": 0,
+   "checked_at": "2026-11-02T06:42:14Z",
+   "detail": "week of 2026-10-27: 41.39% in drought, map of 2026-10-27"
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "made_by": "tests/make_history_fixtures.py",
+ "files": {
+  "nws_run_a.json": "data/nws.json (trimmed to ['KABQ.FA.A.0029.2026', 'KABQ.FA.W.0024.2026', 'KABQ.SV.W.0428.2026']) and data/health.json at d0fe9614f5a80a7c186aa9144842b35d91542a86",
+  "nws_run_b.json": "data/nws.json (trimmed to ['KABQ.FA.A.0029.2026', 'KABQ.FA.W.0024.2026', 'KABQ.SV.W.0428.2026']) and data/health.json at efb55be479fed00a0f12af2ea507cd6c734bbe9f",
+  "volcano_raised.json": "data/usgs_volcano.json (vnum 332010) and health at c18b3495631ed877dc5344f6f701602235e5e87b and 8ecb28c9346e67da68d69e34a44a64b8f09e7c88",
+  "health_firms_failed.json": "data/health.json at c135e7f09 (FIRMS failed) and 7e42eb15d25d9d810b9de16026cce56bf2d7c35f (read)",
+  "nws_since.json": "NWS alerts API, start 2026-11-13T00:00:00Z, recorded about 01:45Z 14 Nov; trimmed to the messages of ['KAKQ.FZ.W.0004.2026', 'KFFC.FZ.A.0003.2026', 'KPHI.CF.W.0003.2026', 'KRAH.FZ.A.0002.2026', 'KRAH.FZ.W.0002.2026']",
+  "nws_active_d98bd52.json": "data/nws.json at d98bd52 (14 Nov 01:36Z), trimmed to the same events"
+ },
+ "catchup": {
+  "not_active": [
+   "KPHI.CF.W.0003.2026",
+   "KRAH.FZ.A.0002.2026",
+   "KFFC.FZ.A.0003.2026"
+  ],
+  "active": [
+   "KRAH.FZ.W.0002.2026",
+   "KAKQ.FZ.W.0004.2026"
+  ]
+ }
+}
