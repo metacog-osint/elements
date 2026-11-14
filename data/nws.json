@@ -4955,62 +4955,6 @@
    ]
   },
   {
-   "id": "KMHX.MA.W.0406.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75188"
-   ],
-   "sent": "2026-11-14T07:01:00Z",
-   "onset": "2026-11-14T07:01:00Z",
-   "ends": "2026-11-14T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a845388bd627aa867d2e1533277eda23cadc74c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.53,
-       33.64
-      ],
-      [
-       -76.92,
-       33.92
-      ],
-      [
-       -76.78,
-       34.07
-      ],
-      [
-       -76.18,
-       33.76
-      ],
-      [
-       -76.29,
-       33.62
-      ],
-      [
-       -76.53,
-       33.64
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -76.538,
-   "lat": 33.775,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",

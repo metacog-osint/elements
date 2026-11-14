@@ -1,16 +1,30 @@
 {
  "records": [
   {
+   "id": "20261114_0000096",
+   "mag": 4.6,
+   "magtype": "mb",
+   "time": "2026-11-14T07:02:22Z",
+   "updated": "2026-11-14T07:27:51Z",
+   "region": "Tonga",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -15.089,
+   "lon": -173.446,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261114_0000096"
+  },
+  {
    "id": "20261114_0000088",
-   "mag": 5.6,
-   "magtype": "m",
-   "time": "2026-11-14T06:52:27Z",
-   "updated": "2026-11-14T07:00:55Z",
+   "mag": 5.2,
+   "magtype": "mb",
+   "time": "2026-11-14T06:52:26Z",
+   "updated": "2026-11-14T07:08:12Z",
    "region": "State Of Yap, Micronesia",
    "depth_km": 10.0,
-   "authority": "GFZ",
-   "lat": 9.726,
-   "lon": 147.291,
+   "authority": "NEIC",
+   "lat": 9.703,
+   "lon": 147.363,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261114_0000088"
   },
@@ -1853,6 +1867,20 @@
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000106"
   },
   {
+   "id": "20261107_0000340",
+   "mag": 4.6,
+   "magtype": "mb",
+   "time": "2026-11-07T09:22:42Z",
+   "updated": "2026-11-14T07:30:04Z",
+   "region": "New Britain Region, P.N.G.",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -5.436,
+   "lon": 152.789,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000340"
+  },
+  {
    "id": "20261107_0000312",
    "mag": 4.5,
    "magtype": "mb",
@@ -1865,20 +1893,6 @@
    "lon": -37.075,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000312"
-  },
-  {
-   "id": "20261107_0000073",
-   "mag": 4.6,
-   "magtype": "mb",
-   "time": "2026-11-07T07:14:04Z",
-   "updated": "2026-11-08T16:05:30Z",
-   "region": "South Sandwich Islands Region",
-   "depth_km": 39.0,
-   "authority": "EMSC",
-   "lat": -57.918,
-   "lon": -25.672,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261107_0000073"
   }
  ]
 }
