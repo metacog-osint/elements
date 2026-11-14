@@ -10,7 +10,7 @@ Intelligence Company's historical dataset. Written by `elements/history.py` (for
 - `state.json`: the items open after the last run.
 - The site serves the last 7 days of ended items at `data/ended.geojson`, not drawn on the map and not in the feed.
 
-From 2026-10-31 to 2026-11-14T03:06:38Z the log was rebuilt from this repository's git history of `data/` (421 runs) by
+From 2026-10-31 to 2026-11-14T03:36:30Z the log was rebuilt from this repository's git history of `data/` (422 runs) by
 `tools/history_backfill.py`; those lines carry a `backfill` member. Limits of that part: FIRMS and MeteoAlarm data
 were not in git, so their items start on the first live run; a run that changed no data made no commit; warnings
 issued and ended between two runs are missing (the live catch-up started later); the items were rebuilt with the
