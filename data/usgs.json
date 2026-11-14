@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000ty84",
+   "mag": 5.5,
+   "place": "northern Mid-Atlantic Ridge",
+   "time": "2026-11-14T09:26:13Z",
+   "updated": "2026-11-14T09:48:57Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 465,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty84",
+   "depth_km": 10.0,
+   "lon": -42.635,
+   "lat": 30.122,
+   "countries": []
+  },
+  {
    "id": "us7000ty7h",
    "mag": 4.6,
    "place": "102 km NNE of Hihifo, Tonga",
@@ -1906,21 +1921,6 @@
    "countries": [
     "CL"
    ]
-  },
-  {
-   "id": "us7000twrh",
-   "mag": 4.6,
-   "place": "156 km ESE of Modisi, Indonesia",
-   "time": "2026-11-07T09:47:32Z",
-   "updated": "2026-11-14T07:37:01Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 326,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
-   "depth_km": 36.8,
-   "lon": 125.772,
-   "lat": 0.009,
-   "countries": []
   }
  ]
 }
