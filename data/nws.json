@@ -528,327 +528,6 @@
    ]
   },
   {
-   "id": "KLZK.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Little Rock AR",
-   "areas": [
-    "Marion",
-    "Baxter",
-    "Fulton",
-    "Sharp",
-    "Randolph",
-    "Stone",
-    "Izard",
-    "Independence",
-    "Lawrence",
-    "Cleburne",
-    "Jackson",
-    "Conway",
-    "Faulkner",
-    "White",
-    "Woodruff",
-    "Perry",
-    "Garland",
-    "Saline",
-    "Pulaski",
-    "Lonoke",
-    "Prairie",
-    "Monroe",
-    "Pike",
-    "Clark",
-    "Hot Spring",
-    "Grant",
-    "Jefferson",
-    "Arkansas",
-    "Dallas",
-    "Cleveland",
-    "Lincoln",
-    "Desha",
-    "Ouachita",
-    "Calhoun",
-    "Bradley",
-    "Drew",
-    "Boone County Except Southwest",
-    "Newton County Higher Elevations",
-    "Searcy County Lower Elevations",
-    "Southern Johnson County",
-    "Southern Pope County",
-    "Southeast Van Buren County",
-    "Western and Northern Logan County",
-    "Northern Scott County",
-    "Northwest Yell County",
-    "Polk County Lower Elevations",
-    "Central and Eastern Montgomery County",
-    "Boone County Higher Elevations",
-    "Newton County Lower Elevations",
-    "Northwest Searcy County Higher Elevations",
-    "Johnson County Higher Elevations",
-    "Pope County Higher Elevations",
-    "Van Buren County Higher Elevations",
-    "Southern and Eastern Logan County",
-    "Central and Southern Scott County",
-    "Yell Excluding Northwest",
-    "Northern Polk County Higher Elevations",
-    "Northern Montgomery County Higher Elevations",
-    "Eastern, Central, and Southern Searcy County Higher Elevations",
-    "Southeast Polk County Higher Elevations",
-    "Southwest Montgomery County Higher Elevations"
-   ],
-   "counties": [
-    "05001",
-    "05005",
-    "05009",
-    "05011",
-    "05013",
-    "05019",
-    "05023",
-    "05025",
-    "05029",
-    "05039",
-    "05041",
-    "05043",
-    "05045",
-    "05049",
-    "05051",
-    "05053",
-    "05059",
-    "05063",
-    "05065",
-    "05067",
-    "05069",
-    "05071",
-    "05075",
-    "05079",
-    "05083",
-    "05085",
-    "05089",
-    "05095",
-    "05097",
-    "05101",
-    "05103",
-    "05105",
-    "05109",
-    "05113",
-    "05115",
-    "05117",
-    "05119",
-    "05121",
-    "05125",
-    "05127",
-    "05129",
-    "05135",
-    "05137",
-    "05141",
-    "05145",
-    "05147",
-    "05149"
-   ],
-   "sent": "2026-11-13T16:08:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f3d5f8e0fa2afdc0bc04f2c2cec5e728f4c406b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.3765,
-     34.2896
-    ],
-    [
-     -92.3299,
-     36.2803
-    ],
-    [
-     -93.0792,
-     36.3043
-    ],
-    [
-     -92.1692,
-     33.4665
-    ],
-    [
-     -92.5139,
-     33.5605
-    ],
-    [
-     -93.1762,
-     34.0533
-    ],
-    [
-     -92.0089,
-     35.5936
-    ],
-    [
-     -92.1887,
-     33.8932
-    ],
-    [
-     -92.6892,
-     35.2657
-    ],
-    [
-     -92.654,
-     33.9678
-    ],
-    [
-     -91.2441,
-     33.8288
-    ],
-    [
-     -91.7228,
-     33.5872
-    ],
-    [
-     -92.3369,
-     35.1465
-    ],
-    [
-     -91.8193,
-     36.3813
-    ],
-    [
-     -93.1469,
-     34.5789
-    ],
-    [
-     -92.423,
-     34.2856
-    ],
-    [
-     -92.9441,
-     34.3152
-    ],
-    [
-     -91.5599,
-     35.7375
-    ],
-    [
-     -91.9136,
-     36.0949
-    ],
-    [
-     -91.2232,
-     35.5965
-    ],
-    [
-     -91.9297,
-     34.2772
-    ],
-    [
-     -93.4663,
-     35.5734
-    ],
-    [
-     -91.1012,
-     36.0411
-    ],
-    [
-     -91.7424,
-     33.9564
-    ],
-    [
-     -93.7209,
-     35.2187
-    ],
-    [
-     -91.8941,
-     34.7551
-    ],
-    [
-     -92.6786,
-     36.2667
-    ],
-    [
-     -91.2033,
-     34.6795
-    ],
-    [
-     -93.6642,
-     34.5457
-    ],
-    [
-     -93.2159,
-     35.9107
-    ],
-    [
-     -92.8784,
-     33.5912
-    ],
-    [
-     -92.9269,
-     34.9464
-    ],
-    [
-     -93.6587,
-     34.1582
-    ],
-    [
-     -94.2309,
-     34.491
-    ],
-    [
-     -93.0268,
-     35.4566
-    ],
-    [
-     -91.5536,
-     34.8311
-    ],
-    [
-     -92.313,
-     34.7703
-    ],
-    [
-     -91.0284,
-     36.3413
-    ],
-    [
-     -92.6745,
-     34.6485
-    ],
-    [
-     -94.0636,
-     34.8589
-    ],
-    [
-     -92.6959,
-     35.8964
-    ],
-    [
-     -91.4711,
-     36.1734
-    ],
-    [
-     -92.1405,
-     35.857
-    ],
-    [
-     -92.516,
-     35.583
-    ],
-    [
-     -91.753,
-     35.2551
-    ],
-    [
-     -91.2445,
-     35.1928
-    ],
-    [
-     -93.4083,
-     34.9977
-    ]
-   ],
-   "lon": -92.398,
-   "lat": 34.989,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFFC.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3915,6 +3594,690 @@
    ]
   },
   {
+   "id": "KILM.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Bladen",
+    "Columbus",
+    "Inland Pender",
+    "Inland Brunswick",
+    "Inland Georgetown",
+    "Central Horry",
+    "Northern Horry",
+    "Robeson",
+    "Marlboro",
+    "Darlington",
+    "Dillon",
+    "Florence",
+    "Marion",
+    "Williamsburg"
+   ],
+   "counties": [
+    "37017",
+    "37019",
+    "37047",
+    "37141",
+    "37155",
+    "45031",
+    "45033",
+    "45041",
+    "45043",
+    "45051",
+    "45067",
+    "45069",
+    "45089"
+   ],
+   "sent": "2026-11-14T05:06:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93a6e0c381a4ee514323c39dce4688f47d34e9a8.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -78.5395,
+     34.5919
+    ],
+    [
+     -78.2278,
+     34.0388
+    ],
+    [
+     -78.6393,
+     34.2616
+    ],
+    [
+     -77.8881,
+     34.5126
+    ],
+    [
+     -79.1009,
+     34.6392
+    ],
+    [
+     -79.9621,
+     34.3322
+    ],
+    [
+     -79.3752,
+     34.3902
+    ],
+    [
+     -79.7102,
+     34.0285
+    ],
+    [
+     -79.2963,
+     33.4175
+    ],
+    [
+     -78.9767,
+     33.9093
+    ],
+    [
+     -79.354,
+     34.0836
+    ],
+    [
+     -79.6794,
+     34.6017
+    ],
+    [
+     -79.7165,
+     33.6265
+    ]
+   ],
+   "lon": -79.113,
+   "lat": 34.187,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLZK.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Little Rock AR",
+   "areas": [
+    "Marion",
+    "Baxter",
+    "Fulton",
+    "Sharp",
+    "Randolph",
+    "Stone",
+    "Izard",
+    "Independence",
+    "Lawrence",
+    "Cleburne",
+    "Jackson",
+    "Conway",
+    "Faulkner",
+    "White",
+    "Woodruff",
+    "Perry",
+    "Garland",
+    "Saline",
+    "Pulaski",
+    "Lonoke",
+    "Prairie",
+    "Monroe",
+    "Pike",
+    "Clark",
+    "Hot Spring",
+    "Grant",
+    "Jefferson",
+    "Arkansas",
+    "Dallas",
+    "Cleveland",
+    "Lincoln",
+    "Desha",
+    "Ouachita",
+    "Calhoun",
+    "Bradley",
+    "Drew",
+    "Boone County Except Southwest",
+    "Newton County Higher Elevations",
+    "Searcy County Lower Elevations",
+    "Southern Johnson County",
+    "Southern Pope County",
+    "Southeast Van Buren County",
+    "Western and Northern Logan County",
+    "Northern Scott County",
+    "Northwest Yell County",
+    "Polk County Lower Elevations",
+    "Central and Eastern Montgomery County",
+    "Boone County Higher Elevations",
+    "Newton County Lower Elevations",
+    "Northwest Searcy County Higher Elevations",
+    "Johnson County Higher Elevations",
+    "Pope County Higher Elevations",
+    "Van Buren County Higher Elevations",
+    "Southern and Eastern Logan County",
+    "Central and Southern Scott County",
+    "Yell Excluding Northwest",
+    "Northern Polk County Higher Elevations",
+    "Northern Montgomery County Higher Elevations",
+    "Eastern, Central, and Southern Searcy County Higher Elevations",
+    "Southeast Polk County Higher Elevations",
+    "Southwest Montgomery County Higher Elevations"
+   ],
+   "counties": [
+    "05001",
+    "05005",
+    "05009",
+    "05011",
+    "05013",
+    "05019",
+    "05023",
+    "05025",
+    "05029",
+    "05039",
+    "05041",
+    "05043",
+    "05045",
+    "05049",
+    "05051",
+    "05053",
+    "05059",
+    "05063",
+    "05065",
+    "05067",
+    "05069",
+    "05071",
+    "05075",
+    "05079",
+    "05083",
+    "05085",
+    "05089",
+    "05095",
+    "05097",
+    "05101",
+    "05103",
+    "05105",
+    "05109",
+    "05113",
+    "05115",
+    "05117",
+    "05119",
+    "05121",
+    "05125",
+    "05127",
+    "05129",
+    "05135",
+    "05137",
+    "05141",
+    "05145",
+    "05147",
+    "05149"
+   ],
+   "sent": "2026-11-14T05:08:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.feb013f090118955fba09a2b1ce9292ff9b5bca9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.3765,
+     34.2896
+    ],
+    [
+     -92.3299,
+     36.2803
+    ],
+    [
+     -93.0792,
+     36.3043
+    ],
+    [
+     -92.1692,
+     33.4665
+    ],
+    [
+     -92.5139,
+     33.5605
+    ],
+    [
+     -93.1762,
+     34.0533
+    ],
+    [
+     -92.0089,
+     35.5936
+    ],
+    [
+     -92.1887,
+     33.8932
+    ],
+    [
+     -92.6892,
+     35.2657
+    ],
+    [
+     -92.654,
+     33.9678
+    ],
+    [
+     -91.2441,
+     33.8288
+    ],
+    [
+     -91.7228,
+     33.5872
+    ],
+    [
+     -92.3369,
+     35.1465
+    ],
+    [
+     -91.8193,
+     36.3813
+    ],
+    [
+     -93.1469,
+     34.5789
+    ],
+    [
+     -92.423,
+     34.2856
+    ],
+    [
+     -92.9441,
+     34.3152
+    ],
+    [
+     -91.5599,
+     35.7375
+    ],
+    [
+     -91.9136,
+     36.0949
+    ],
+    [
+     -91.2232,
+     35.5965
+    ],
+    [
+     -91.9297,
+     34.2772
+    ],
+    [
+     -93.4663,
+     35.5734
+    ],
+    [
+     -91.1012,
+     36.0411
+    ],
+    [
+     -91.7424,
+     33.9564
+    ],
+    [
+     -93.7209,
+     35.2187
+    ],
+    [
+     -91.8941,
+     34.7551
+    ],
+    [
+     -92.6786,
+     36.2667
+    ],
+    [
+     -91.2033,
+     34.6795
+    ],
+    [
+     -93.6642,
+     34.5457
+    ],
+    [
+     -93.2159,
+     35.9107
+    ],
+    [
+     -92.8784,
+     33.5912
+    ],
+    [
+     -92.9269,
+     34.9464
+    ],
+    [
+     -93.6587,
+     34.1582
+    ],
+    [
+     -94.2309,
+     34.491
+    ],
+    [
+     -93.0268,
+     35.4566
+    ],
+    [
+     -91.5536,
+     34.8311
+    ],
+    [
+     -92.313,
+     34.7703
+    ],
+    [
+     -91.0284,
+     36.3413
+    ],
+    [
+     -92.6745,
+     34.6485
+    ],
+    [
+     -94.0636,
+     34.8589
+    ],
+    [
+     -92.6959,
+     35.8964
+    ],
+    [
+     -91.4711,
+     36.1734
+    ],
+    [
+     -92.1405,
+     35.857
+    ],
+    [
+     -92.516,
+     35.583
+    ],
+    [
+     -91.753,
+     35.2551
+    ],
+    [
+     -91.2445,
+     35.1928
+    ],
+    [
+     -93.4083,
+     34.9977
+    ]
+   ],
+   "lon": -92.398,
+   "lat": 34.989,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Washington",
+    "Beaufort",
+    "Jones",
+    "Northern Craven",
+    "Southern Craven",
+    "West Carteret",
+    "Inland Onslow",
+    "Coastal Onslow",
+    "Martin",
+    "Pitt",
+    "Greene",
+    "Duplin",
+    "Lenoir"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37061",
+    "37079",
+    "37103",
+    "37107",
+    "37117",
+    "37133",
+    "37147",
+    "37187"
+   ],
+   "sent": "2026-11-14T05:13:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6acb4b1cdf1f2805c35fc7169275754f69f59a9.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -77.9335,
+     34.9344
+    ],
+    [
+     -77.6817,
+     35.482
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.6355,
+     35.2401
+    ],
+    [
+     -77.1196,
+     35.8473
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -77.3727,
+     35.5925
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -77.239,
+   "lat": 35.29,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCAE.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Columbia SC",
+   "areas": [
+    "Lincoln",
+    "McDuffie",
+    "Columbia",
+    "Richmond",
+    "Burke",
+    "Chesterfield",
+    "McCormick",
+    "Newberry",
+    "Fairfield",
+    "Kershaw",
+    "Edgefield",
+    "Saluda",
+    "Lexington",
+    "Richland",
+    "Lee",
+    "Aiken",
+    "Sumter",
+    "Barnwell",
+    "Calhoun",
+    "Clarendon",
+    "Bamberg",
+    "Northern Lancaster",
+    "Southern Lancaster",
+    "Northwestern Orangeburg",
+    "Central Orangeburg",
+    "Southeastern Orangeburg"
+   ],
+   "counties": [
+    "13033",
+    "13073",
+    "13181",
+    "13189",
+    "13245",
+    "45003",
+    "45009",
+    "45011",
+    "45017",
+    "45025",
+    "45027",
+    "45037",
+    "45039",
+    "45055",
+    "45057",
+    "45061",
+    "45063",
+    "45065",
+    "45071",
+    "45075",
+    "45079",
+    "45081",
+    "45085"
+   ],
+   "sent": "2026-11-14T05:23:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e7d98bd59d875f70f2749ee533d8e87cd9b65b9.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.0002,
+     33.0602
+    ],
+    [
+     -82.2496,
+     33.5521
+    ],
+    [
+     -82.4483,
+     33.7922
+    ],
+    [
+     -82.4796,
+     33.4806
+    ],
+    [
+     -82.075,
+     33.3615
+    ],
+    [
+     -81.633,
+     33.55
+    ],
+    [
+     -81.0532,
+     33.203
+    ],
+    [
+     -81.4342,
+     33.2606
+    ],
+    [
+     -80.7803,
+     33.6748
+    ],
+    [
+     -80.1592,
+     34.637
+    ],
+    [
+     -80.2179,
+     33.6647
+    ],
+    [
+     -81.9596,
+     33.7795
+    ],
+    [
+     -81.127,
+     34.3957
+    ],
+    [
+     -80.5909,
+     34.3384
+    ],
+    [
+     -80.7037,
+     34.6868
+    ],
+    [
+     -80.2512,
+     34.1586
+    ],
+    [
+     -81.273,
+     33.8923
+    ],
+    [
+     -82.3162,
+     33.8976
+    ],
+    [
+     -81.5997,
+     34.2899
+    ],
+    [
+     -80.8029,
+     33.4361
+    ],
+    [
+     -80.898,
+     34.0291
+    ],
+    [
+     -81.7279,
+     34.0053
+    ],
+    [
+     -80.3824,
+     33.9161
+    ]
+   ],
+   "lon": -81.311,
+   "lat": 33.829,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3989,110 +4352,6 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILM.FZ.A.0003.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Columbus",
-    "Inland Pender",
-    "Inland Brunswick",
-    "Inland Georgetown",
-    "Central Horry",
-    "Northern Horry",
-    "Robeson",
-    "Bladen",
-    "Marlboro",
-    "Darlington",
-    "Dillon",
-    "Florence",
-    "Marion",
-    "Williamsburg"
-   ],
-   "counties": [
-    "37017",
-    "37019",
-    "37047",
-    "37141",
-    "37155",
-    "45031",
-    "45033",
-    "45041",
-    "45043",
-    "45051",
-    "45067",
-    "45069",
-    "45089"
-   ],
-   "sent": "2026-11-13T17:48:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c96cb143ccf9206b1cbf0fe2415dea7e14ef3ed3.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -78.5395,
-     34.5919
-    ],
-    [
-     -78.2278,
-     34.0388
-    ],
-    [
-     -78.6393,
-     34.2616
-    ],
-    [
-     -77.8881,
-     34.5126
-    ],
-    [
-     -79.1009,
-     34.6392
-    ],
-    [
-     -79.9621,
-     34.3322
-    ],
-    [
-     -79.3752,
-     34.3902
-    ],
-    [
-     -79.7102,
-     34.0285
-    ],
-    [
-     -79.2963,
-     33.4175
-    ],
-    [
-     -78.9767,
-     33.9093
-    ],
-    [
-     -79.354,
-     34.0836
-    ],
-    [
-     -79.6794,
-     34.6017
-    ],
-    [
-     -79.7165,
-     33.6265
-    ]
-   ],
-   "lon": -79.113,
-   "lat": 34.187,
    "countries": [
     "US"
    ]
@@ -4275,265 +4534,6 @@
    ],
    "lon": -81.326,
    "lat": 32.633,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCAE.FZ.A.0003.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Columbia SC",
-   "areas": [
-    "Lincoln",
-    "McDuffie",
-    "Columbia",
-    "Richmond",
-    "Burke",
-    "Chesterfield",
-    "McCormick",
-    "Newberry",
-    "Fairfield",
-    "Kershaw",
-    "Edgefield",
-    "Saluda",
-    "Lexington",
-    "Richland",
-    "Lee",
-    "Aiken",
-    "Sumter",
-    "Barnwell",
-    "Calhoun",
-    "Clarendon",
-    "Bamberg",
-    "Northern Lancaster",
-    "Southern Lancaster",
-    "Northwestern Orangeburg",
-    "Central Orangeburg",
-    "Southeastern Orangeburg"
-   ],
-   "counties": [
-    "13033",
-    "13073",
-    "13181",
-    "13189",
-    "13245",
-    "45003",
-    "45009",
-    "45011",
-    "45017",
-    "45025",
-    "45027",
-    "45037",
-    "45039",
-    "45055",
-    "45057",
-    "45061",
-    "45063",
-    "45065",
-    "45071",
-    "45075",
-    "45079",
-    "45081",
-    "45085"
-   ],
-   "sent": "2026-11-14T02:51:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ad6f1b5fbc191f166c5f0bc0f50c50aca92733f.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.0002,
-     33.0602
-    ],
-    [
-     -82.2496,
-     33.5521
-    ],
-    [
-     -82.4483,
-     33.7922
-    ],
-    [
-     -82.4796,
-     33.4806
-    ],
-    [
-     -82.075,
-     33.3615
-    ],
-    [
-     -81.633,
-     33.55
-    ],
-    [
-     -81.0532,
-     33.203
-    ],
-    [
-     -81.4342,
-     33.2606
-    ],
-    [
-     -80.7803,
-     33.6748
-    ],
-    [
-     -80.1592,
-     34.637
-    ],
-    [
-     -80.2179,
-     33.6647
-    ],
-    [
-     -81.9596,
-     33.7795
-    ],
-    [
-     -81.127,
-     34.3957
-    ],
-    [
-     -80.5909,
-     34.3384
-    ],
-    [
-     -80.7037,
-     34.6868
-    ],
-    [
-     -80.2512,
-     34.1586
-    ],
-    [
-     -81.273,
-     33.8923
-    ],
-    [
-     -82.3162,
-     33.8976
-    ],
-    [
-     -81.5997,
-     34.2899
-    ],
-    [
-     -80.8029,
-     33.4361
-    ],
-    [
-     -80.898,
-     34.0291
-    ],
-    [
-     -81.7279,
-     34.0053
-    ],
-    [
-     -80.3824,
-     33.9161
-    ]
-   ],
-   "lon": -81.311,
-   "lat": 33.829,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.FZ.A.0002.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Martin",
-    "Pitt",
-    "Greene",
-    "Duplin",
-    "Lenoir",
-    "Washington",
-    "Beaufort",
-    "Jones",
-    "Northern Craven",
-    "Inland Onslow",
-    "Southern Craven",
-    "West Carteret",
-    "Coastal Onslow"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37061",
-    "37079",
-    "37103",
-    "37107",
-    "37117",
-    "37133",
-    "37147",
-    "37187"
-   ],
-   "sent": "2026-11-14T04:05:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5058679d1a4f922fe16d8ecfed14ff1a7e5a2e88.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -77.9335,
-     34.9344
-    ],
-    [
-     -77.6817,
-     35.482
-    ],
-    [
-     -77.3562,
-     35.0323
-    ],
-    [
-     -77.6355,
-     35.2401
-    ],
-    [
-     -77.1196,
-     35.8473
-    ],
-    [
-     -77.4995,
-     34.7631
-    ],
-    [
-     -77.3727,
-     35.5925
-    ],
-    [
-     -76.5723,
-     35.8447
-    ]
-   ],
-   "lon": -77.239,
-   "lat": 35.29,
    "countries": [
     "US"
    ]
@@ -5012,36 +5012,6 @@
    ]
   },
   {
-   "id": "KSEW.SR.W.0003.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-13T22:56:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2923887ef5eaa501e5907240227d14a8234d10c5.001.4",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5104,26 +5074,26 @@
    ]
   },
   {
-   "id": "KSEW.SR.A.0002.2026",
-   "event": "Storm Watch",
+   "id": "KSEW.SR.W.0003.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
    ],
    "counties": [
-    "57150",
-    "57153",
-    "57156"
+    "57170",
+    "57173",
+    "57176"
    ],
-   "sent": "2026-11-13T22:56:00Z",
+   "sent": "2026-11-14T05:25:00Z",
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2923887ef5eaa501e5907240227d14a8234d10c5.004.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc904d50e28103e4d8768d2004b4dce56bd81e8d.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5156,6 +5126,36 @@
    "onset": "2026-11-15T00:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d89177951efe1c7486d28fd734544d94a883c5d5.002.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.A.0002.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156"
+   ],
+   "sent": "2026-11-14T05:25:00Z",
+   "onset": "2026-11-14T21:00:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc904d50e28103e4d8768d2004b4dce56bd81e8d.002.3",
    "geometry": null,
    "vtec": true,
    "points": [],
