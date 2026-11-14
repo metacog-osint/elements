@@ -528,188 +528,6 @@
    ]
   },
   {
-   "id": "KHUN.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Huntsville AL",
-   "areas": [
-    "Lauderdale",
-    "Colbert",
-    "Franklin",
-    "Lawrence",
-    "Limestone",
-    "Madison",
-    "Morgan",
-    "Marshall",
-    "Jackson",
-    "DeKalb",
-    "Cullman"
-   ],
-   "counties": [
-    "01033",
-    "01043",
-    "01049",
-    "01059",
-    "01071",
-    "01077",
-    "01079",
-    "01083",
-    "01089",
-    "01095",
-    "01103"
-   ],
-   "sent": "2026-11-13T19:06:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fdcabd2d6bee3ac9f0229d78d47bf3ae050bea.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -87.8015,
-     34.7031
-    ],
-    [
-     -86.8693,
-     34.1319
-    ],
-    [
-     -85.804,
-     34.4609
-    ],
-    [
-     -87.8428,
-     34.442
-    ],
-    [
-     -85.9801,
-     34.7641
-    ],
-    [
-     -87.6511,
-     34.9042
-    ],
-    [
-     -87.3219,
-     34.5298
-    ],
-    [
-     -86.9814,
-     34.8102
-    ],
-    [
-     -86.5511,
-     34.7642
-    ],
-    [
-     -86.3217,
-     34.3096
-    ],
-    [
-     -86.8464,
-     34.4545
-    ]
-   ],
-   "lon": -86.906,
-   "lat": 34.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHUN.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Huntsville AL",
-   "areas": [
-    "Lauderdale",
-    "Colbert",
-    "Franklin",
-    "Lawrence",
-    "Limestone",
-    "Madison",
-    "Morgan",
-    "Marshall",
-    "Jackson",
-    "DeKalb",
-    "Cullman"
-   ],
-   "counties": [
-    "01033",
-    "01043",
-    "01049",
-    "01059",
-    "01071",
-    "01077",
-    "01079",
-    "01083",
-    "01089",
-    "01095",
-    "01103"
-   ],
-   "sent": "2026-11-13T19:06:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fdcabd2d6bee3ac9f0229d78d47bf3ae050bea.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -87.8015,
-     34.7031
-    ],
-    [
-     -86.8693,
-     34.1319
-    ],
-    [
-     -85.804,
-     34.4609
-    ],
-    [
-     -87.8428,
-     34.442
-    ],
-    [
-     -85.9801,
-     34.7641
-    ],
-    [
-     -87.6511,
-     34.9042
-    ],
-    [
-     -87.3219,
-     34.5298
-    ],
-    [
-     -86.9814,
-     34.8102
-    ],
-    [
-     -86.5511,
-     34.7642
-    ],
-    [
-     -86.3217,
-     34.3096
-    ],
-    [
-     -86.8464,
-     34.4545
-    ]
-   ],
-   "lon": -86.906,
-   "lat": 34.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMOB.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2094,217 +1912,6 @@
    ],
    "lon": -81.311,
    "lat": 33.829,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Person",
-    "Granville",
-    "Vance",
-    "Warren",
-    "Halifax",
-    "Forsyth",
-    "Guilford",
-    "Alamance",
-    "Orange",
-    "Durham",
-    "Franklin",
-    "Davidson",
-    "Randolph",
-    "Chatham",
-    "Nash",
-    "Edgecombe",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Stanly",
-    "Montgomery",
-    "Moore",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Anson",
-    "Richmond",
-    "Scotland",
-    "Hoke",
-    "Cumberland",
-    "Sampson"
-   ],
-   "counties": [
-    "37001",
-    "37007",
-    "37037",
-    "37051",
-    "37057",
-    "37063",
-    "37065",
-    "37067",
-    "37069",
-    "37077",
-    "37081",
-    "37083",
-    "37085",
-    "37093",
-    "37101",
-    "37105",
-    "37123",
-    "37125",
-    "37127",
-    "37135",
-    "37145",
-    "37151",
-    "37153",
-    "37163",
-    "37165",
-    "37167",
-    "37181",
-    "37183",
-    "37185",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-14T06:11:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28ce9fbbd6c79f23d8fee27ba390d60540a5ca01.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.4006,
-     36.044
-    ],
-    [
-     -80.1098,
-     34.975
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -80.2071,
-     35.7951
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -80.257,
-     36.1325
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.6576,
-     36.2999
-    ],
-    [
-     -79.7887,
-     36.0791
-    ],
-    [
-     -77.6448,
-     36.2514
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -79.242,
-     35.0172
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -79.9108,
-     35.3275
-    ],
-    [
-     -79.4927,
-     35.3083
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.12,
-     36.0625
-    ],
-    [
-     -78.9737,
-     36.3883
-    ],
-    [
-     -79.8062,
-     35.7099
-    ],
-    [
-     -79.7557,
-     35.0046
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -79.4773,
-     34.84
-    ],
-    [
-     -80.2544,
-     35.3104
-    ],
-    [
-     -78.4054,
-     36.3655
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0999,
-     36.3981
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.994,
-   "lat": 35.686,
    "countries": [
     "US"
    ]
@@ -3971,6 +3578,399 @@
    ]
   },
   {
+   "id": "KRAH.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Person",
+    "Granville",
+    "Vance",
+    "Warren",
+    "Halifax",
+    "Forsyth",
+    "Guilford",
+    "Alamance",
+    "Orange",
+    "Durham",
+    "Franklin",
+    "Davidson",
+    "Randolph",
+    "Chatham",
+    "Nash",
+    "Edgecombe",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Stanly",
+    "Montgomery",
+    "Moore",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Anson",
+    "Richmond",
+    "Scotland",
+    "Hoke",
+    "Cumberland",
+    "Sampson"
+   ],
+   "counties": [
+    "37001",
+    "37007",
+    "37037",
+    "37051",
+    "37057",
+    "37063",
+    "37065",
+    "37067",
+    "37069",
+    "37077",
+    "37081",
+    "37083",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37123",
+    "37125",
+    "37127",
+    "37135",
+    "37145",
+    "37151",
+    "37153",
+    "37163",
+    "37165",
+    "37167",
+    "37181",
+    "37183",
+    "37185",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-14T13:10:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ea5a19d0b24fa41eaf12e4cc0b4292d0f97ef7c.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.4006,
+     36.044
+    ],
+    [
+     -80.1098,
+     34.975
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -80.2071,
+     35.7951
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -80.257,
+     36.1325
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.6576,
+     36.2999
+    ],
+    [
+     -79.7887,
+     36.0791
+    ],
+    [
+     -77.6448,
+     36.2514
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.9108,
+     35.3275
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.12,
+     36.0625
+    ],
+    [
+     -78.9737,
+     36.3883
+    ],
+    [
+     -79.8062,
+     35.7099
+    ],
+    [
+     -79.7557,
+     35.0046
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -79.4773,
+     34.84
+    ],
+    [
+     -80.2544,
+     35.3104
+    ],
+    [
+     -78.4054,
+     36.3655
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0999,
+     36.3981
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -78.994,
+   "lat": 35.686,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHUN.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Huntsville AL",
+   "areas": [
+    "Lauderdale",
+    "Colbert",
+    "Franklin",
+    "Lawrence",
+    "Limestone",
+    "Madison",
+    "Morgan",
+    "Marshall",
+    "Jackson",
+    "DeKalb",
+    "Cullman"
+   ],
+   "counties": [
+    "01033",
+    "01043",
+    "01049",
+    "01059",
+    "01071",
+    "01077",
+    "01079",
+    "01083",
+    "01089",
+    "01095",
+    "01103"
+   ],
+   "sent": "2026-11-14T13:27:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.252a10680f14089bf57320e6c59055cc94a54296.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -87.8015,
+     34.7031
+    ],
+    [
+     -86.8693,
+     34.1319
+    ],
+    [
+     -85.804,
+     34.4609
+    ],
+    [
+     -87.8428,
+     34.442
+    ],
+    [
+     -85.9801,
+     34.7641
+    ],
+    [
+     -87.6511,
+     34.9042
+    ],
+    [
+     -87.3219,
+     34.5298
+    ],
+    [
+     -86.9814,
+     34.8102
+    ],
+    [
+     -86.5511,
+     34.7642
+    ],
+    [
+     -86.3217,
+     34.3096
+    ],
+    [
+     -86.8464,
+     34.4545
+    ]
+   ],
+   "lon": -86.906,
+   "lat": 34.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHUN.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Huntsville AL",
+   "areas": [
+    "Lauderdale",
+    "Colbert",
+    "Franklin",
+    "Lawrence",
+    "Limestone",
+    "Madison",
+    "Morgan",
+    "Marshall",
+    "Jackson",
+    "DeKalb",
+    "Cullman"
+   ],
+   "counties": [
+    "01033",
+    "01043",
+    "01049",
+    "01059",
+    "01071",
+    "01077",
+    "01079",
+    "01083",
+    "01089",
+    "01095",
+    "01103"
+   ],
+   "sent": "2026-11-14T13:27:00Z",
+   "onset": "2026-11-14T13:27:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.252a10680f14089bf57320e6c59055cc94a54296.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -87.8015,
+     34.7031
+    ],
+    [
+     -86.8693,
+     34.1319
+    ],
+    [
+     -85.804,
+     34.4609
+    ],
+    [
+     -87.8428,
+     34.442
+    ],
+    [
+     -85.9801,
+     34.7641
+    ],
+    [
+     -87.6511,
+     34.9042
+    ],
+    [
+     -87.3219,
+     34.5298
+    ],
+    [
+     -86.9814,
+     34.8102
+    ],
+    [
+     -86.5511,
+     34.7642
+    ],
+    [
+     -86.3217,
+     34.3096
+    ],
+    [
+     -86.8464,
+     34.4545
+    ]
+   ],
+   "lon": -86.906,
+   "lat": 34.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -4206,32 +4206,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.2942.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-13T12:46:00Z",
-   "onset": "2026-11-13T12:00:00Z",
-   "ends": "2026-11-14T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.2937.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4248,6 +4222,32 @@
    "onset": "2026-11-13T12:00:00Z",
    "ends": "2026-11-14T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2942.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-13T12:46:00Z",
+   "onset": "2026-11-13T12:00:00Z",
+   "ends": "2026-11-14T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf4788cd547937d8bc6f9deddff9ae75ce83ba6.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
