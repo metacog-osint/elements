@@ -321,6 +321,20 @@ TC_NAMES = {"TD": "Tropical depression", "TS": "Tropical storm", "HU": "Hurrican
             "STS": "Subtropical storm", "PTC": "Potential tropical cyclone", "PT": "Post-tropical cyclone"}
 
 
+def _not_after(when: str, limit: str) -> str:
+    """when, or limit if when is later. GDACS gives a running flood or drought a todate in the future (the next day's
+    01:00) and no time of its latest report, and data cannot be newer than the fetch that read them. Measured 14 Nov
+    2026: every Elements item COP's archive showed dated after its snapshot (3, 6, 11 and 12 Nov; 1.6 to 5.5 h) was a
+    GDACS flood, which is why Elements read "fresh" with a clock 1.6 h ahead on 12 Nov. The event's own from and to
+    stay in measures."""
+    def t(s):
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+    try:
+        return limit if t(when) > t(limit) else when
+    except (TypeError, ValueError):
+        return when
+
+
 def _base(fetched):
     return {"contract": CONTRACT, "program": "elements", "kind": "observation", "status": "actual", "msg_type": "new",
             "human_review": "none", "us_person_data": "none", "status_class": "reported", "method_version": METHOD,
@@ -390,7 +404,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
             sev = re.sub(r"(\d{4,}) km2\b", lambda m: f"{int(m.group(1)):,} km²", sev)
         p = {**_base(f), "id": f"elements:gdacs:{e['id']}",
              "title": f"GDACS {e['alert'] or 'unrated'} alert: {name}" + (f" ({sev})" if sev else ""),
-             "tier": "anomaly" if hot else "routine", "data_as_of": e["to"] or e["from"] or f, "countries": e["countries"],
+             "tier": "anomaly" if hot else "routine", "data_as_of": _not_after(e["to"] or e["from"] or f, f), "countries": e["countries"],
              "requirement_ids": ["EL-PIR-2"], "sources": [{**SRC["gdacs"], "url": e.get("report") or "https://www.gdacs.org/",
                                                            "accessed_at": f}],
              "link": e.get("report"), "measures": {"hazard": e["kind"], "hazard_code": e["type"], "name": e["name"],
