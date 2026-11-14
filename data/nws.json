@@ -678,85 +678,6 @@
    ]
   },
   {
-   "id": "KTAE.FZ.W.0013.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tallahassee FL",
-   "areas": [
-    "Coffee",
-    "Dale",
-    "Henry",
-    "Quitman",
-    "Clay",
-    "Randolph",
-    "Calhoun",
-    "Terrell",
-    "Early"
-   ],
-   "counties": [
-    "01031",
-    "01045",
-    "01067",
-    "13037",
-    "13061",
-    "13099",
-    "13239",
-    "13243",
-    "13273"
-   ],
-   "sent": "2026-11-14T14:02:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a47ab2d34e6fb4385d34784a0a940757c770d2c.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -85.9896,
-     31.4023
-    ],
-    [
-     -85.6095,
-     31.4307
-    ],
-    [
-     -85.24,
-     31.517
-    ],
-    [
-     -84.6263,
-     31.5213
-    ],
-    [
-     -84.9926,
-     31.6198
-    ],
-    [
-     -84.9067,
-     31.3242
-    ],
-    [
-     -85.0048,
-     31.8629
-    ],
-    [
-     -84.7523,
-     31.7627
-    ],
-    [
-     -84.4394,
-     31.7772
-    ]
-   ],
-   "lon": -85.062,
-   "lat": 31.58,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHUN.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2416,6 +2337,115 @@
    ]
   },
   {
+   "id": "KTAE.FZ.W.0013.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tallahassee FL",
+   "areas": [
+    "Dougherty",
+    "Lee",
+    "Miller",
+    "Baker",
+    "Mitchell",
+    "Coffee",
+    "Dale",
+    "Henry",
+    "Quitman",
+    "Clay",
+    "Randolph",
+    "Calhoun",
+    "Terrell",
+    "Early"
+   ],
+   "counties": [
+    "01031",
+    "01045",
+    "01067",
+    "13007",
+    "13037",
+    "13061",
+    "13095",
+    "13099",
+    "13177",
+    "13201",
+    "13205",
+    "13239",
+    "13243",
+    "13273"
+   ],
+   "sent": "2026-11-14T17:49:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3de3ec9923a43c3838185ed8d654938f4829183.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -85.9896,
+     31.4023
+    ],
+    [
+     -85.6095,
+     31.4307
+    ],
+    [
+     -85.24,
+     31.517
+    ],
+    [
+     -84.4549,
+     31.3196
+    ],
+    [
+     -84.6263,
+     31.5213
+    ],
+    [
+     -84.9926,
+     31.6198
+    ],
+    [
+     -84.209,
+     31.5326
+    ],
+    [
+     -84.9067,
+     31.3242
+    ],
+    [
+     -84.1467,
+     31.8184
+    ],
+    [
+     -84.7304,
+     31.1629
+    ],
+    [
+     -84.192,
+     31.229
+    ],
+    [
+     -85.0048,
+     31.8629
+    ],
+    [
+     -84.7523,
+     31.7627
+    ],
+    [
+     -84.4394,
+     31.7772
+    ]
+   ],
+   "lon": -84.807,
+   "lat": 31.52,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9958.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2869,6 +2899,58 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHGX.MA.W.0088.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM"
+   ],
+   "counties": [
+    "77350"
+   ],
+   "sent": "2026-11-14T17:53:00Z",
+   "onset": "2026-11-14T17:53:00Z",
+   "ends": "2026-11-14T18:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fab093dade1403aeceabbb5a10a7d512c53f0b82.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -95.63,
+       28.5
+      ],
+      [
+       -95.67,
+       28.37
+      ],
+      [
+       -95.98,
+       28.36
+      ],
+      [
+       -95.9,
+       28.61
+      ],
+      [
+       -95.63,
+       28.5
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -95.762,
+   "lat": 28.468,
    "countries": [
     "US"
    ]
