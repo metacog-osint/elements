@@ -2937,69 +2937,6 @@
    ]
   },
   {
-   "id": "KLUB.SV.W.0292.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Lubbock TX",
-   "areas": [
-    "Hockley, TX",
-    "Lamb, TX"
-   ],
-   "counties": [
-    "48219",
-    "48279"
-   ],
-   "sent": "2026-11-14T23:00:00Z",
-   "onset": "2026-11-14T23:00:00Z",
-   "ends": "2026-11-14T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1382efee0d580ae202a55b95cd6e79d23271c682.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -102.56,
-       33.65
-      ],
-      [
-       -102.6,
-       33.72
-      ],
-      [
-       -102.37,
-       33.96
-      ],
-      [
-       -102.2,
-       33.74
-      ],
-      [
-       -102.56,
-       33.65
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -102.3434,
-     33.6059
-    ],
-    [
-     -102.348,
-     34.0689
-    ]
-   ],
-   "lon": -102.458,
-   "lat": 33.744,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
