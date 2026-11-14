@@ -2978,6 +2978,32 @@
    "countries": [
     "US"
    ]
+  },
+  {
+   "id": "KEKA.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57470"
+   ],
+   "sent": "2026-11-14T17:08:00Z",
+   "onset": "2026-11-14T20:00:00Z",
+   "ends": "2026-11-15T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ac072ad09733b79bf6a8bc5c1f9a62ac4814458.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
   }
  ]
 }
