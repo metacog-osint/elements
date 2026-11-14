@@ -4994,19 +4994,25 @@
    "certainty": "Observed",
    "sender": "NWS Seattle WA",
    "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
     "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
     "Waters From James Island To Point Grenville 10 To 60 Nm",
     "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
    ],
    "counties": [
+    "57150",
+    "57153",
+    "57156",
     "57170",
     "57173",
     "57176"
    ],
-   "sent": "2026-11-14T05:25:00Z",
-   "onset": "2026-11-14T21:00:00Z",
+   "sent": "2026-11-14T08:49:00Z",
+   "onset": "2026-11-14T22:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc904d50e28103e4d8768d2004b4dce56bd81e8d.001.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c63a8d860fe41cebed0a2c6acafc23ea0ae1a51.007.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5026,64 +5032,7 @@
    "areas": [
     "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
     "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-14T06:00:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e65e96431b4d18437d3db743045b2a26544079ec.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.A.0002.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156"
-   ],
-   "sent": "2026-11-14T05:25:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc904d50e28103e4d8768d2004b4dce56bd81e8d.002.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.A.0002.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Portland OR",
-   "areas": [
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
     "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
     "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
@@ -5093,12 +5042,15 @@
     "57210",
     "57251",
     "57252",
-    "57253"
+    "57253",
+    "57271",
+    "57272",
+    "57273"
    ],
-   "sent": "2026-11-14T06:00:00Z",
-   "onset": "2026-11-15T00:00:00Z",
+   "sent": "2026-11-14T09:01:00Z",
+   "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e65e96431b4d18437d3db743045b2a26544079ec.001.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca099f89c43a528e10692e9d85d49fadb78de47e.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
