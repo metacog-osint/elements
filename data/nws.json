@@ -1656,189 +1656,6 @@
    ]
   },
   {
-   "id": "KTSA.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tulsa OK",
-   "areas": [
-    "Carroll",
-    "Washington",
-    "Madison",
-    "Northern Crawford",
-    "Northern Franklin",
-    "North and Central Sebastian",
-    "Southern Crawford",
-    "Central and Southern Franklin",
-    "Southern Sebastian",
-    "Washington",
-    "Pawnee",
-    "Tulsa",
-    "Rogers",
-    "Mayes",
-    "Creek",
-    "Okfuskee",
-    "Okmulgee",
-    "Wagoner",
-    "Cherokee",
-    "Adair",
-    "Muskogee",
-    "McIntosh",
-    "Pittsburg",
-    "Haskell",
-    "Latimer",
-    "Western Osage",
-    "Northern Sequoyah",
-    "Northern Le Flore",
-    "Northeast Osage",
-    "Central and Southern Sequoyah",
-    "Central Le Flore",
-    "Southeast Osage",
-    "Southern Le Flore"
-   ],
-   "counties": [
-    "05015",
-    "05033",
-    "05047",
-    "05087",
-    "05131",
-    "05143",
-    "40001",
-    "40021",
-    "40037",
-    "40061",
-    "40077",
-    "40079",
-    "40091",
-    "40097",
-    "40101",
-    "40107",
-    "40111",
-    "40113",
-    "40117",
-    "40121",
-    "40131",
-    "40135",
-    "40143",
-    "40145",
-    "40147"
-   ],
-   "sent": "2026-11-13T16:29:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae42ba47fcaf1510c352217a28d9cec7b70dc6e2.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.541,
-     36.3374
-    ],
-    [
-     -94.2362,
-     35.583
-    ],
-    [
-     -93.8877,
-     35.5086
-    ],
-    [
-     -93.7241,
-     36.0125
-    ],
-    [
-     -94.275,
-     35.197
-    ],
-    [
-     -94.2173,
-     35.978
-    ],
-    [
-     -94.651,
-     35.898
-    ],
-    [
-     -94.9968,
-     35.9044
-    ],
-    [
-     -96.3802,
-     35.9074
-    ],
-    [
-     -95.1096,
-     35.2324
-    ],
-    [
-     -95.2723,
-     34.8751
-    ],
-    [
-     -94.6951,
-     34.8974
-    ],
-    [
-     -95.6718,
-     35.3691
-    ],
-    [
-     -95.2356,
-     36.3038
-    ],
-    [
-     -95.3839,
-     35.6176
-    ],
-    [
-     -96.3278,
-     35.4668
-    ],
-    [
-     -95.9659,
-     35.6435
-    ],
-    [
-     -96.4081,
-     36.6243
-    ],
-    [
-     -96.6967,
-     36.3137
-    ],
-    [
-     -95.7481,
-     34.9255
-    ],
-    [
-     -95.6014,
-     36.3778
-    ],
-    [
-     -94.7508,
-     35.5024
-    ],
-    [
-     -95.9418,
-     36.1203
-    ],
-    [
-     -95.5142,
-     35.9634
-    ],
-    [
-     -95.9063,
-     36.7044
-    ]
-   ],
-   "lon": -95.206,
-   "lat": 35.771,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRAH.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3915,6 +3732,189 @@
    ]
   },
   {
+   "id": "KTSA.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Tulsa OK",
+   "areas": [
+    "Carroll",
+    "Washington",
+    "Madison",
+    "Northern Crawford",
+    "Northern Franklin",
+    "North and Central Sebastian",
+    "Southern Crawford",
+    "Central and Southern Franklin",
+    "Southern Sebastian",
+    "Washington",
+    "Pawnee",
+    "Tulsa",
+    "Rogers",
+    "Mayes",
+    "Creek",
+    "Okfuskee",
+    "Okmulgee",
+    "Wagoner",
+    "Cherokee",
+    "Adair",
+    "Muskogee",
+    "McIntosh",
+    "Pittsburg",
+    "Haskell",
+    "Latimer",
+    "Western Osage",
+    "Northern Sequoyah",
+    "Northern Le Flore",
+    "Northeast Osage",
+    "Central and Southern Sequoyah",
+    "Central Le Flore",
+    "Southeast Osage",
+    "Southern Le Flore"
+   ],
+   "counties": [
+    "05015",
+    "05033",
+    "05047",
+    "05087",
+    "05131",
+    "05143",
+    "40001",
+    "40021",
+    "40037",
+    "40061",
+    "40077",
+    "40079",
+    "40091",
+    "40097",
+    "40101",
+    "40107",
+    "40111",
+    "40113",
+    "40117",
+    "40121",
+    "40131",
+    "40135",
+    "40143",
+    "40145",
+    "40147"
+   ],
+   "sent": "2026-11-14T04:59:00Z",
+   "onset": "2026-11-14T06:00:00Z",
+   "ends": "2026-11-14T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e75bb0e9d5c9909c0de33fc1b82a674691561d13.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.541,
+     36.3374
+    ],
+    [
+     -94.2362,
+     35.583
+    ],
+    [
+     -93.8877,
+     35.5086
+    ],
+    [
+     -93.7241,
+     36.0125
+    ],
+    [
+     -94.275,
+     35.197
+    ],
+    [
+     -94.2173,
+     35.978
+    ],
+    [
+     -94.651,
+     35.898
+    ],
+    [
+     -94.9968,
+     35.9044
+    ],
+    [
+     -96.3802,
+     35.9074
+    ],
+    [
+     -95.1096,
+     35.2324
+    ],
+    [
+     -95.2723,
+     34.8751
+    ],
+    [
+     -94.6951,
+     34.8974
+    ],
+    [
+     -95.6718,
+     35.3691
+    ],
+    [
+     -95.2356,
+     36.3038
+    ],
+    [
+     -95.3839,
+     35.6176
+    ],
+    [
+     -96.3278,
+     35.4668
+    ],
+    [
+     -95.9659,
+     35.6435
+    ],
+    [
+     -96.4081,
+     36.6243
+    ],
+    [
+     -96.6967,
+     36.3137
+    ],
+    [
+     -95.7481,
+     34.9255
+    ],
+    [
+     -95.6014,
+     36.3778
+    ],
+    [
+     -94.7508,
+     35.5024
+    ],
+    [
+     -95.9418,
+     36.1203
+    ],
+    [
+     -95.5142,
+     35.9634
+    ],
+    [
+     -95.9063,
+     36.7044
+    ]
+   ],
+   "lon": -95.206,
+   "lat": 35.771,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -4950,6 +4950,63 @@
    "points": [],
    "lon": null,
    "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEPZ.SV.W.0236.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS El Paso Tx/Santa Teresa NM",
+   "areas": [
+    "Otero, NM"
+   ],
+   "counties": [
+    "35035"
+   ],
+   "sent": "2026-11-14T05:02:00Z",
+   "onset": "2026-11-14T05:02:00Z",
+   "ends": "2026-11-14T05:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c46dec66c20356b6e3a74b0b2ca2c2f221bd688.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.89,
+       32.27
+      ],
+      [
+       -106.06,
+       32.32
+      ],
+      [
+       -105.94,
+       32.69
+      ],
+      [
+       -105.64,
+       32.57
+      ],
+      [
+       -105.89,
+       32.27
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -105.7513,
+     32.6156
+    ]
+   ],
+   "lon": -105.884,
+   "lat": 32.424,
    "countries": [
     "US"
    ]
