@@ -509,10 +509,10 @@
    "counties": [
     "53045"
    ],
-   "sent": "2026-11-13T22:42:00Z",
-   "onset": "2026-11-13T22:42:00Z",
+   "sent": "2026-11-14T11:11:00Z",
+   "onset": "2026-11-14T11:11:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aebd24b2f8ea6b8d5eab3053aa92d97d3e387d46.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43bcbd7c3a42ef2c27ec484cd3f1913fd5584085.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -863,86 +863,6 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLWX.FZ.W.0011.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Carroll",
-    "Northern Baltimore",
-    "Cecil",
-    "Charles",
-    "Northwest Howard",
-    "Central and Southeast Howard",
-    "Northwest Harford",
-    "Southeast Harford",
-    "Stafford",
-    "Spotsylvania"
-   ],
-   "counties": [
-    "24005",
-    "24013",
-    "24015",
-    "24017",
-    "24025",
-    "24027",
-    "51177",
-    "51179",
-    "51630"
-   ],
-   "sent": "2026-11-14T03:18:00Z",
-   "onset": "2026-11-14T05:00:00Z",
-   "ends": "2026-11-14T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be0983b3a08805fcc4b27ad2f0d8a9cf94373cd0.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.6166,
-     39.4432
-    ],
-    [
-     -77.0153,
-     39.5633
-    ],
-    [
-     -75.9416,
-     39.5624
-    ],
-    [
-     -77.0154,
-     38.4729
-    ],
-    [
-     -76.2998,
-     39.5374
-    ],
-    [
-     -76.9244,
-     39.2523
-    ],
-    [
-     -77.6572,
-     38.1824
-    ],
-    [
-     -77.458,
-     38.4231
-    ],
-    [
-     -77.4867,
-     38.2993
-    ]
-   ],
-   "lon": -76.935,
-   "lat": 38.971,
    "countries": [
     "US"
    ]
@@ -3090,6 +3010,36 @@
    "certainty": "Likely",
    "sender": "NWS Peachtree City GA",
    "areas": [
+    "Dade",
+    "Walker",
+    "Catoosa",
+    "Whitfield",
+    "Murray",
+    "Fannin",
+    "Gilmer",
+    "Union",
+    "Towns",
+    "Chattooga",
+    "Gordon",
+    "Pickens",
+    "Dawson",
+    "Lumpkin",
+    "White",
+    "Floyd",
+    "Bartow",
+    "Cherokee",
+    "Forsyth",
+    "Polk",
+    "Paulding",
+    "Cobb",
+    "Haralson",
+    "Carroll",
+    "Douglas",
+    "Heard",
+    "Coweta",
+    "Troup",
+    "Meriwether",
+    "Harris",
     "Hall",
     "Banks",
     "Jackson",
@@ -3156,37 +3106,7 @@
     "Telfair",
     "Wheeler",
     "Montgomery",
-    "Toombs",
-    "Dade",
-    "Walker",
-    "Catoosa",
-    "Whitfield",
-    "Murray",
-    "Fannin",
-    "Gilmer",
-    "Union",
-    "Towns",
-    "Chattooga",
-    "Gordon",
-    "Pickens",
-    "Dawson",
-    "Lumpkin",
-    "White",
-    "Floyd",
-    "Bartow",
-    "Cherokee",
-    "Forsyth",
-    "Polk",
-    "Paulding",
-    "Cobb",
-    "Haralson",
-    "Carroll",
-    "Douglas",
-    "Heard",
-    "Coweta",
-    "Troup",
-    "Meriwether",
-    "Harris"
+    "Toombs"
    ],
    "counties": [
     "13009",
@@ -3289,7 +3209,7 @@
    "sent": "2026-11-14T07:44:00Z",
    "onset": "2026-11-15T06:00:00Z",
    "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee59800a9fc645d37a1fd676f76e0a8d61c1be63.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee59800a9fc645d37a1fd676f76e0a8d61c1be63.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
