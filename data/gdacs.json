@@ -548,7 +548,7 @@
    "id": "FL-1104259",
    "type": "FL",
    "kind": "flood",
-   "episode": 3,
+   "episode": 8,
    "name": "Flood in Peru",
    "alert": "green",
    "score": 1,
@@ -556,13 +556,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-06T01:00:00Z",
-   "current": false,
+   "to": "2026-11-11T01:00:00Z",
+   "current": true,
    "country": "Peru",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=3&eventtype=FL",
-   "lon": -80.46,
-   "lat": -3.571,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=8&eventtype=FL",
+   "lon": -80.639,
+   "lat": -3.927,
    "countries": [
     "PE"
    ]
@@ -749,7 +749,7 @@
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
-   "episode": 14,
+   "episode": 17,
    "name": "Flood in Ecuador",
    "alert": "green",
    "score": 1,
@@ -761,9 +761,9 @@
    "current": false,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=14&eventtype=FL",
-   "lon": -89.432,
-   "lat": -0.833,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=17&eventtype=FL",
+   "lon": -79.652,
+   "lat": 0.967,
    "countries": [
     "EC"
    ]
@@ -772,7 +772,7 @@
    "id": "FL-1104099",
    "type": "FL",
    "kind": "flood",
-   "episode": 32,
+   "episode": 33,
    "name": "Flood in Mexico",
    "alert": "green",
    "score": 1,
@@ -784,9 +784,9 @@
    "current": false,
    "country": "Mexico",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=32&eventtype=FL",
-   "lon": -99.017,
-   "lat": 22.017,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=33&eventtype=FL",
+   "lon": -97.507,
+   "lat": 25.881,
    "countries": [
     "MX"
    ]
