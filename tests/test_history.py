@@ -271,6 +271,7 @@ class Workflow(unittest.TestCase):
         self.assertLess(wf.index("tools/elements.py history"), wf.index("git add data history"))
         self.assertLess(wf.index("git add data history"), wf.index("tools/elements.py build"))
         self.assertIn("data/nws_recent.json", (ROOT / ".gitignore").read_text(encoding="utf-8"))
+        self.assertIn("python tools/elements.py history || echo", wf, "a history failure never stops the deploy")
         ci = (ROOT / ".github/workflows/ci.yml").read_text(encoding="utf-8")
         self.assertIn("tests/test_history.py", ci)
 

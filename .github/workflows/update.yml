@@ -60,8 +60,9 @@ jobs:
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}  # optional: without it, FIRMS's public files are read instead
         run: python tools/elements.py collect
+      # A failure here is a gap in the history, never a missed deploy: the run carries on and says so.
       - name: History (log new, changed and ended items against the last run)
-        run: python tools/elements.py history
+        run: python tools/elements.py history || echo "::warning::history step failed; this run is missing from history/"
       - name: Commit data and history when their content changed
         run: |
           if [ -n "$(git status --porcelain -- data history ':!data/health.json' ':!data/nws_recent.json')" ]; then
