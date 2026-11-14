@@ -868,185 +868,6 @@
    ]
   },
   {
-   "id": "KAKQ.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Northampton",
-    "Hertford",
-    "Richmond",
-    "Brunswick",
-    "Dinwiddie",
-    "Prince George",
-    "Charles City",
-    "New Kent",
-    "Greensville",
-    "Sussex",
-    "Surry",
-    "James City",
-    "Southampton",
-    "Eastern Hanover",
-    "Western Chesterfield",
-    "Eastern Chesterfield (Including Col. Heights)",
-    "Western Henrico (Including the City of Richmond)",
-    "Eastern Henrico",
-    "Western King William",
-    "Eastern King William",
-    "Western King and Queen",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex"
-   ],
-   "counties": [
-    "37091",
-    "37131",
-    "51025",
-    "51036",
-    "51041",
-    "51053",
-    "51057",
-    "51081",
-    "51085",
-    "51087",
-    "51095",
-    "51097",
-    "51101",
-    "51127",
-    "51149",
-    "51159",
-    "51175",
-    "51181",
-    "51183",
-    "51570",
-    "51595",
-    "51620",
-    "51670",
-    "51730",
-    "51760",
-    "51830"
-   ],
-   "sent": "2026-11-14T02:58:00Z",
-   "onset": "2026-11-14T08:00:00Z",
-   "ends": "2026-11-14T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b11b88a14ab1d097cd18fefb8f8cef7d474bbcb.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.9816,
-     36.3635
-    ],
-    [
-     -77.3984,
-     36.4218
-    ],
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -77.5858,
-     37.3784
-    ],
-    [
-     -77.6355,
-     37.0735
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -77.5603,
-     36.6803
-    ],
-    [
-     -77.4913,
-     37.7602
-    ],
-    [
-     -77.3003,
-     37.4375
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -77.1038,
-     36.7201
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -77.2597,
-     36.9266
-    ],
-    [
-     -77.3968,
-     37.2617
-    ],
-    [
-     -77.536,
-     36.6962
-    ],
-    [
-     -76.9414,
-     36.684
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -77.476,
-     37.5314
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -77.212,
-   "lat": 37.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.FZ.W.0011.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -4460,6 +4281,185 @@
    ]
   },
   {
+   "id": "KAKQ.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Northampton",
+    "Hertford",
+    "Richmond",
+    "Brunswick",
+    "Dinwiddie",
+    "Prince George",
+    "Charles City",
+    "New Kent",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "James City",
+    "Southampton",
+    "Eastern Hanover",
+    "Western Chesterfield",
+    "Eastern Chesterfield (Including Col. Heights)",
+    "Western Henrico (Including the City of Richmond)",
+    "Eastern Henrico",
+    "Western King William",
+    "Eastern King William",
+    "Western King and Queen",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex"
+   ],
+   "counties": [
+    "37091",
+    "37131",
+    "51025",
+    "51036",
+    "51041",
+    "51053",
+    "51057",
+    "51081",
+    "51085",
+    "51087",
+    "51095",
+    "51097",
+    "51101",
+    "51127",
+    "51149",
+    "51159",
+    "51175",
+    "51181",
+    "51183",
+    "51570",
+    "51595",
+    "51620",
+    "51670",
+    "51730",
+    "51760",
+    "51830"
+   ],
+   "sent": "2026-11-14T09:26:00Z",
+   "onset": "2026-11-14T09:26:00Z",
+   "ends": "2026-11-14T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff627d89184f6620e06f00919942ccad79a1fd44.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -77.5858,
+     37.3784
+    ],
+    [
+     -77.6355,
+     37.0735
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -77.4913,
+     37.7602
+    ],
+    [
+     -77.3003,
+     37.4375
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -77.3968,
+     37.2617
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -77.476,
+     37.5314
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -77.212,
+   "lat": 37.203,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMOB.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -4955,6 +4955,48 @@
    ]
   },
   {
+   "id": "KMFR.HW.W.0006.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-14T09:15:00Z",
+   "onset": "2026-11-14T21:00:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.668cd7488a4539f456e1b69b48e6d856050aba11.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5061,74 +5103,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Mono"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06051",
-    "06057",
-    "06061",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-13T09:32:00Z",
-   "onset": "2026-11-13T18:00:00Z",
-   "ends": "2026-11-14T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f634a302ebb4dcf89e50291a66ce8ba626a384f.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -119.965,
-   "lat": 39.059,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KVEF.WS.W.0004.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -5141,10 +5115,10 @@
    "counties": [
     "06027"
    ],
-   "sent": "2026-11-13T18:31:00Z",
-   "onset": "2026-11-13T21:00:00Z",
+   "sent": "2026-11-14T09:22:00Z",
+   "onset": "2026-11-14T09:22:00Z",
    "ends": "2026-11-15T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1731c825a508a17cf4919c2f0104bff166042a9.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbccc396c1b1bfd034b911becddf4d2411b582cb.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5186,10 +5160,10 @@
     "06103",
     "06109"
    ],
-   "sent": "2026-11-13T20:01:00Z",
-   "onset": "2026-11-13T20:01:00Z",
-   "ends": "2026-11-14T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f6fc957321710bc8dbbaea80c391f6e4ca995c6.001.1",
+   "sent": "2026-11-14T09:26:00Z",
+   "onset": "2026-11-14T09:26:00Z",
+   "ends": "2026-11-14T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02f6d8463f18ad66c73444c601b890a94b4bd8d6.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5271,10 +5245,10 @@
     "06107",
     "06109"
    ],
-   "sent": "2026-11-14T01:35:00Z",
-   "onset": "2026-11-14T01:35:00Z",
+   "sent": "2026-11-14T09:33:00Z",
+   "onset": "2026-11-14T09:33:00Z",
    "ends": "2026-11-17T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.688821c72018eb83ba6c80dfad4f8f83da9f5478.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.776dfb6f4443f39de0bca1c7a4b0e39349844852.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5301,6 +5275,74 @@
    ],
    "lon": -119.612,
    "lat": 37.159,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0004.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Mono",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06051",
+    "06057",
+    "06061",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-14T09:35:00Z",
+   "onset": "2026-11-14T09:35:00Z",
+   "ends": "2026-11-14T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae159eb264c5144ab7032785166845726c7c3112.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -119.965,
+   "lat": 39.059,
    "countries": [
     "US"
    ]
