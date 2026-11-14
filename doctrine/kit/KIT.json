@@ -1,6 +1,6 @@
 {
   "kit": "tic-doctrine",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "files": {
     "tic.py": "ccfaea62931c88063d8bc32d6f3600ab86c7094b58956a7b43b8832a7870b7f5",
     "vocab/actors.json": "edfb7317b5313e9a3f329c7dc2a39ec20cc631e459cf588f3218fa21fd3e80ea",
@@ -14,12 +14,12 @@
     "vocab/programs.json": "bda4265ad3f0d5de9414ff040657fc313594b0cb340b2e0221d1e7a6fe0452f5",
     "geo/countries.json": "0d1f348855871ac26c98f64d01c0fc342f8b917cb16ece80fb7d9e3add236396",
     "geo/points.json": "369b66ee628c6753d43b114770875cb27a2008da200b58bf76932a50b3cff994",
-    "python/tic_doctrine/__init__.py": "83c549b6e358aab4250dc268b141183a86988374742339e16940cb2f51a4855e",
+    "python/tic_doctrine/__init__.py": "f2eaf4fad1b3bc70217dbf34f632bc0a8e647604fcdf071e1b2f862675d3ba11",
     "python/tic_doctrine/confidence.py": "a15beea576a41944bcd996cf5124005fbecba0b6f38a549e9f8121467e0c9bd8",
     "python/tic_doctrine/contract.py": "ea5b8bb83e55ed5d2ce900f31513c513563707243474dab823c72e97b04888be",
     "python/tic_doctrine/geo.py": "32a121d9703fb12aae5ddf47c59a24be404557d9b699bbfad08d38f48ae5dcc5",
     "python/tic_doctrine/health.py": "b188e0954083d604d93fb3d463b275dd9c038808b39c0bc6d50cf1c3dd4d5706",
-    "python/tic_doctrine/history.py": "133b9c380e920e0b8268513235d73c0313e62b270ecf4271d863c4ffdcdff80f",
+    "python/tic_doctrine/history.py": "18a045ed6289e79b54e7e7d0cea6587daeab2850c6277b9eaf12395e7a947a89",
     "python/tic_doctrine/likelihood.py": "fc8c62ff0d8558169b7cbec470e969f5543a2253a78e8159a26968e55a49baff",
     "python/tic_doctrine/lint.py": "4b15add294ba4adde947ade6eea9fa24fdd76d779f22662e962182055dbf23b1",
     "python/tic_doctrine/registers.py": "759353f1a64aad61dd5e0f42f3a0bcba0399aa94ce4aa0f13b5f314ef181c361",
@@ -30,10 +30,10 @@
     "schema/feed-item-v2.schema.json": "d24ae593b1e422749e91d715063767bf7f4003c8567e6a90f60f2c20a5d0bc1b",
     "docs/confidence-rubric.md": "5ae48dec23a0596ad9c60f03e8db865d553dab9339daf3b6023a41c83db4d8de",
     "docs/feed-contract-v2.md": "11a9c15647cfe36dd96505a63e7cba1b36a790d4ceae425433ee02b5fd48fd47",
-    "docs/history-log.md": "7ce787a4ccfc536355cd92addbeef56b8e7f6e609b10f911c42fbcf98368205e",
+    "docs/history-log.md": "eaf6e064ba821c05359dca44dcb90a447644059681874033ad6f8adfa6c589c2",
     "docs/language-key.md": "8dafebd7a7bfc0013fc5025fb071e1317afa0ebdeff4385a1d88d83cbf7979ac",
     "docs/sources-and-withholding.md": "a496c66b68700450facf9d65008b35d5b5a3e72f495b8c9fa886c325fdb767cf",
     "LICENSE": "e2fcdaa349fa37ea67fca3787f04878a0579a8fcdcc7f5db615fe15d3f5cf6d7",
-    "README.md": "0335755cf26157598cbcb66462849e12cb33da3508301a4e13b748c8a895a6c0"
+    "README.md": "cb7184eae279175abc38e0c011efdabe7fe7733241bb7dda7cef6607329cb94e"
   }
 }
