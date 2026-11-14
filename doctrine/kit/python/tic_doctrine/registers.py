@@ -10,6 +10,7 @@ Each program keeps them in its own doctrine/ folder:
   ncf_map.json       event type -> National Critical Functions (deterministic, no AI)
   sources.json       the source register (or a pointer to the program's own register)
   method.md          the method in words
+  interests.json     optional: what the program reads from the other programs (tips.py)
 """
 
 import json
@@ -122,6 +123,14 @@ def check(folder: Path) -> list[str]:
             bad = [f for f in rule.get("ncf", []) if f not in vocab.ncf()]
             if bad:
                 errs.append(f"ncf_map rule {rule.get('match')!r}: unknown functions {bad}")
+
+    interests = _load(folder, "interests.json")  # optional: what this program reads from the others (tips.py)
+    if interests:
+        from . import tips
+        errs += tips.check_interests(interests)
+        for i in interests.get("interests", []):
+            if i.get("indicator_id") and ind is not None and i["indicator_id"] not in ind_ids:
+                errs.append(f"interest {i.get('id')}: indicator_id {i['indicator_id']!r} is not in indicators.json")
 
     if src and "register" not in src:
         for s in src.get("sources", []):
