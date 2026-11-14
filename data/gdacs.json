@@ -476,29 +476,6 @@
    ]
   },
   {
-   "id": "VO-1000153",
-   "type": "VO",
-   "kind": "volcano",
-   "episode": 1,
-   "name": "Eruption Mayon",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-10-30T18:05:00Z",
-   "to": "2026-10-30T18:05:00Z",
-   "current": false,
-   "country": "Philippines",
-   "severity": "",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1000153&episodeid=1&eventtype=VO",
-   "lon": 123.685,
-   "lat": 13.257,
-   "countries": [
-    "PH"
-   ]
-  },
-  {
    "id": "FL-1104266",
    "type": "FL",
    "kind": "flood",
@@ -633,27 +610,6 @@
    "countries": [
     "ID"
    ]
-  },
-  {
-   "id": "TC-1001341",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 35,
-   "name": "Tropical Cyclone VANCE-26",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 138.888,
-   "severity_unit": "km/h",
-   "from": "2026-10-21T15:00:00Z",
-   "to": "2026-10-30T03:00:00Z",
-   "current": false,
-   "country": "México",
-   "severity": "Tropical Depression (maximum wind speed of 139 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=35&eventtype=TC",
-   "lon": -107.7,
-   "lat": 20.7,
-   "countries": []
   },
   {
    "id": "FL-1104248",
