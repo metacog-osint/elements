@@ -8,17 +8,17 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "Northern Arctic Coast",
     "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast"
+    "Eastern Beaufort Sea Coast",
+    "Northern Arctic Coast"
    ],
    "counties": [
     "02185"
    ],
-   "sent": "2026-11-14T13:05:00Z",
-   "onset": "2026-11-14T13:05:00Z",
-   "ends": "2026-11-15T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b31da96fac2527549b9784aecc8d61d8c1f85192.001.1",
+   "sent": "2026-11-14T18:54:00Z",
+   "onset": "2026-11-14T18:54:00Z",
+   "ends": "2026-11-15T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.715e947fc548c5927c9079ce99d69581bba3e1f1.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -466,110 +466,6 @@
    ],
    "lon": -123.173,
    "lat": 47.351,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILM.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Bladen",
-    "Columbus",
-    "Inland Pender",
-    "Inland Brunswick",
-    "Inland Georgetown",
-    "Central Horry",
-    "Northern Horry",
-    "Robeson",
-    "Marlboro",
-    "Darlington",
-    "Dillon",
-    "Florence",
-    "Marion",
-    "Williamsburg"
-   ],
-   "counties": [
-    "37017",
-    "37019",
-    "37047",
-    "37141",
-    "37155",
-    "45031",
-    "45033",
-    "45041",
-    "45043",
-    "45051",
-    "45067",
-    "45069",
-    "45089"
-   ],
-   "sent": "2026-11-14T12:51:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74611a32f722da83bddf68b04dd557fdc827bdba.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -78.5395,
-     34.5919
-    ],
-    [
-     -78.2278,
-     34.0388
-    ],
-    [
-     -78.6393,
-     34.2616
-    ],
-    [
-     -77.8881,
-     34.5126
-    ],
-    [
-     -79.1009,
-     34.6392
-    ],
-    [
-     -79.9621,
-     34.3322
-    ],
-    [
-     -79.3752,
-     34.3902
-    ],
-    [
-     -79.7102,
-     34.0285
-    ],
-    [
-     -79.2963,
-     33.4175
-    ],
-    [
-     -78.9767,
-     33.9093
-    ],
-    [
-     -79.354,
-     34.0836
-    ],
-    [
-     -79.6794,
-     34.6017
-    ],
-    [
-     -79.7165,
-     33.6265
-    ]
-   ],
-   "lon": -79.113,
-   "lat": 34.187,
    "countries": [
     "US"
    ]
@@ -2441,6 +2337,110 @@
    ],
    "lon": -81.311,
    "lat": 33.829,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILM.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Robeson",
+    "Bladen",
+    "Columbus",
+    "Inland Pender",
+    "Inland Brunswick",
+    "Marlboro",
+    "Darlington",
+    "Dillon",
+    "Florence",
+    "Marion",
+    "Williamsburg",
+    "Inland Georgetown",
+    "Central Horry",
+    "Northern Horry"
+   ],
+   "counties": [
+    "37017",
+    "37019",
+    "37047",
+    "37141",
+    "37155",
+    "45031",
+    "45033",
+    "45041",
+    "45043",
+    "45051",
+    "45067",
+    "45069",
+    "45089"
+   ],
+   "sent": "2026-11-14T18:46:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91ad530c199fd2f9d2e98f912c96ce80c56b8b1d.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -78.5395,
+     34.5919
+    ],
+    [
+     -78.2278,
+     34.0388
+    ],
+    [
+     -78.6393,
+     34.2616
+    ],
+    [
+     -77.8881,
+     34.5126
+    ],
+    [
+     -79.1009,
+     34.6392
+    ],
+    [
+     -79.9621,
+     34.3322
+    ],
+    [
+     -79.3752,
+     34.3902
+    ],
+    [
+     -79.7102,
+     34.0285
+    ],
+    [
+     -79.2963,
+     33.4175
+    ],
+    [
+     -78.9767,
+     33.9093
+    ],
+    [
+     -79.354,
+     34.0836
+    ],
+    [
+     -79.6794,
+     34.6017
+    ],
+    [
+     -79.7165,
+     33.6265
+    ]
+   ],
+   "lon": -79.113,
+   "lat": 34.187,
    "countries": [
     "US"
    ]
