@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.9 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.10 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -52,6 +52,10 @@
       label: "Space · orbital activity",
       short: "What changed in Earth orbit: launches, scheduled launches, reentries and satellite catalog changes.",
       long: "What changed in Earth orbit, from public catalogs: orbital launches of the last 7 and 30 days, launches scheduled for the next 14 days, reentries, and changes to the satellite catalog between Orbit's own readings, with objects in orbit counted by owner. From Jonathan McDowell's GCAT (CC BY 4.0) and The Space Devs' Launch Library 2. Measurements and reports only; Orbit adds no judgment. Updated every six hours." },
+    { id: "launch", name: "Launch", href: "https://launch.theintelligence.company", status: "beta", group: "layers",
+      label: "Space · launch closures",
+      short: "Launch and reentry closure areas: what is announced now, which scheduled launches coincide, and each pad's history.",
+      long: "Launch and reentry closure areas from official notices: the FAA's space-operations flight restrictions in force, scheduled launches that coincide with an announced closure area in time, in time and place, or as a launch since dated, a searchable history of closures since 2023 with each notice's own text, and where each pad's closures fall. Worldwide NOTAMs wait on FAA access." },
     { id: "cordon", name: "Cordon", href: "https://cordon.theintelligence.company", status: "beta", group: "layers",
       label: "Air · hazard notices",
       short: "Where authorities warn people away.",
@@ -199,6 +203,6 @@
     if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
   }
 
-  window.TicNav = { version: "1.9", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = { version: "1.10", programs: PROGRAMS.slice(), mount: mount };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();

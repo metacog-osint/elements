@@ -452,10 +452,10 @@
    "counties": [
     "53045"
    ],
-   "sent": "2026-11-14T11:11:00Z",
-   "onset": "2026-11-14T11:11:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43bcbd7c3a42ef2c27ec484cd3f1913fd5584085.001.1",
+   "sent": "2026-11-14T20:05:00Z",
+   "onset": "2026-11-14T20:05:00Z",
+   "ends": "2026-11-15T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2a67fca0e9842b2a6651e5fbb4b1ec49933df34.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -636,55 +636,6 @@
    ],
    "lon": -87.515,
    "lat": 31.69,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.FZ.W.0022.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coffee",
-    "Jeff Davis",
-    "Bacon",
-    "Appling"
-   ],
-   "counties": [
-    "13001",
-    "13005",
-    "13069",
-    "13161"
-   ],
-   "sent": "2026-11-14T15:41:00Z",
-   "onset": "2026-11-15T07:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dc7c3f85af223d2af3c40e454c7db315ab31acf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.2901,
-     31.7397
-    ],
-    [
-     -82.4514,
-     31.5502
-    ],
-    [
-     -82.8449,
-     31.5492
-    ],
-    [
-     -82.6368,
-     31.8116
-    ]
-   ],
-   "lon": -82.556,
-   "lat": 31.663,
    "countries": [
     "US"
    ]
@@ -2446,6 +2397,55 @@
    ]
   },
   {
+   "id": "KJAX.FZ.W.0022.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coffee",
+    "Jeff Davis",
+    "Bacon",
+    "Appling"
+   ],
+   "counties": [
+    "13001",
+    "13005",
+    "13069",
+    "13161"
+   ],
+   "sent": "2026-11-14T20:42:00Z",
+   "onset": "2026-11-15T07:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bede3cbbc8559852385d41970275ef22add6d40.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.2901,
+     31.7397
+    ],
+    [
+     -82.4514,
+     31.5502
+    ],
+    [
+     -82.8449,
+     31.5492
+    ],
+    [
+     -82.6368,
+     31.8116
+    ]
+   ],
+   "lon": -82.556,
+   "lat": 31.663,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9958.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2877,10 +2877,10 @@
     "41015",
     "41019"
    ],
-   "sent": "2026-11-14T09:15:00Z",
+   "sent": "2026-11-14T19:47:00Z",
    "onset": "2026-11-14T21:00:00Z",
    "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.668cd7488a4539f456e1b69b48e6d856050aba11.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb4f467beef9ebf09f600c761aeabc202d310048.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2899,44 +2899,6 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0003.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
-    "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
-    "Columbia River Bar"
-   ],
-   "counties": [
-    "57210",
-    "57251",
-    "57252",
-    "57253",
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-14T09:01:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca099f89c43a528e10692e9d85d49fadb78de47e.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
    "countries": [
     "US"
    ]
@@ -3026,6 +2988,44 @@
    "onset": "2026-11-14T20:00:00Z",
    "ends": "2026-11-15T11:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.590ee57782028bd8fc9d0fe9cd8292896fccd09f.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0003.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Coastal waters from Cape Foulweather to Florence OR out 10 nm",
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
+    "Columbia River Bar"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57253",
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-14T20:38:00Z",
+   "onset": "2026-11-15T00:00:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53bb39f3059c285a5152933f7977392abc7e37dd.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
