@@ -2904,33 +2904,34 @@
    ]
   },
   {
-   "id": "KMFR.SR.W.0003.2026",
-   "event": "Storm Warning",
+   "id": "PAFC.HW.A.0011.2026",
+   "event": "High Wind Watch",
    "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
    "areas": [
-    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
-    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+    "Pribilof Islands",
+    "Shemya and Attu Islands",
+    "Atka and Adak"
    ],
    "counties": [
-    "57350",
-    "57356",
-    "57370",
-    "57376"
+    "02016"
    ],
-   "sent": "2026-11-14T10:08:00Z",
-   "onset": "2026-11-14T21:00:00Z",
-   "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5398e3de02a20599947cb8f6462447c920a381bf.001.2",
+   "sent": "2026-11-14T21:31:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-18T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
    "geometry": null,
    "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
+   "points": [
+    [
+     179.6212,
+     51.949
+    ]
+   ],
+   "lon": 179.621,
+   "lat": 51.949,
    "countries": [
     "US"
    ]
@@ -3026,6 +3027,38 @@
    "onset": "2026-11-15T00:00:00Z",
    "ends": "2026-11-15T12:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53bb39f3059c285a5152933f7977392abc7e37dd.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.SR.W.0003.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Coastal waters from Florence to Cape Blanco OR out 10 nm",
+    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57350",
+    "57356",
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-14T21:24:00Z",
+   "onset": "2026-11-14T21:24:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b833d2a11590e9f43fc749706bb4bc9e0c9492ce.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
