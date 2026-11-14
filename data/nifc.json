@@ -687,20 +687,6 @@
    "lat": 33.2746
   },
   {
-   "id": "{79908D55-7A43-458E-BF95-4B0760B144BD}",
-   "name": "Perry 225",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-11T18:04:51Z",
-   "updated": "2026-11-11T18:18:36Z",
-   "state": "AR",
-   "county": "Perry",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.08,
-   "lat": 35.0099
-  },
-  {
    "id": "{CC1E8D98-BDB5-43BE-AF45-2687E2E4005A}",
    "name": "Hwy 21",
    "acres": 1.0,
@@ -755,6 +741,20 @@
    "complexity": "Type 5 Incident",
    "lon": -94.4064,
    "lat": 32.305
+  },
+  {
+   "id": "{1EAC8F8B-D682-471E-83AD-87A9D0B9956A}",
+   "name": "Faulkner 700230",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-14T18:44:19Z",
+   "updated": "2026-11-14T18:48:46Z",
+   "state": "AR",
+   "county": "Faulkner",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.5028,
+   "lat": 34.9641
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1079,20 +1079,6 @@
    "lat": 30.5139
   },
   {
-   "id": "{26DF8D87-4FCC-4067-88CB-D0316A61E448}",
-   "name": "Adams Key",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-09T19:24:19Z",
-   "updated": "2026-11-11T19:03:31Z",
-   "state": "FL",
-   "county": "Miami-Dade",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -80.2346,
-   "lat": 25.3978
-  },
-  {
    "id": "{7D47F12F-B1F7-40B6-A117-0E92EC226D42}",
    "name": "Hickory Spring",
    "acres": 0.1,
@@ -1147,6 +1133,20 @@
    "complexity": null,
    "lon": -118.5157,
    "lat": 44.0685
+  },
+  {
+   "id": "{8AF7DB49-BB01-4CF2-98ED-E927687EEF06}",
+   "name": "186 Trail",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-14T16:36:00Z",
+   "updated": "2026-11-14T18:37:00Z",
+   "state": "WY",
+   "county": "Sheridan",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -107.3431,
+   "lat": 44.7373
   },
   {
    "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
@@ -1273,34 +1273,6 @@
    "complexity": null,
    "lon": -90.9474,
    "lat": 45.3645
-  },
-  {
-   "id": "{BFE704D2-5150-455C-B194-C260B605A89C}",
-   "name": "abc",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-11T06:00:00Z",
-   "updated": "2026-11-11T18:30:01Z",
-   "state": "WI",
-   "county": "Marquette",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.3092,
-   "lat": 43.7941
-  },
-  {
-   "id": "{20BB01A5-5D1F-49B4-9DD5-CF9A4D283624}",
-   "name": "Niles",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-11T17:54:10Z",
-   "updated": "2026-11-11T18:05:48Z",
-   "state": "CA",
-   "county": "Shasta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.3456,
-   "lat": 40.5147
   },
   {
    "id": "{1C04077D-C7FA-4C8D-AD05-14B78F8129B8}",
