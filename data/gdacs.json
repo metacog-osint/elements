@@ -320,7 +320,7 @@
    "id": "FL-1104270",
    "type": "FL",
    "kind": "flood",
-   "episode": 3,
+   "episode": 4,
    "name": "Flood in France",
    "alert": "green",
    "score": 1,
@@ -328,13 +328,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-04T01:00:00Z",
-   "to": "2026-11-09T01:00:00Z",
-   "current": false,
+   "to": "2026-11-14T01:00:00Z",
+   "current": true,
    "country": "France",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=3&eventtype=FL",
-   "lon": -1.839,
-   "lat": 49.559,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=4&eventtype=FL",
+   "lon": 6.936,
+   "lat": 43.544,
    "countries": [
     "FR"
    ]
@@ -887,7 +887,7 @@
    "id": "FL-1103888",
    "type": "FL",
    "kind": "flood",
-   "episode": 119,
+   "episode": 113,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -899,9 +899,9 @@
    "current": false,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=119&eventtype=FL",
-   "lon": -108.19,
-   "lat": 36.928,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=113&eventtype=FL",
+   "lon": -108.305,
+   "lat": 36.476,
    "countries": [
     "US"
    ]
