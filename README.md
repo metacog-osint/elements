@@ -41,6 +41,22 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
   dropped. A country whose file fails keeps its warnings until they expire; warnings are not committed to `data/`.
 - Each event is drawn at the point its source gives, and its country is the one that point falls in (offshore events
   have none). Cyclones, floods and droughts reach well beyond their point.
+- The feed and the map show what is active now. Nothing is thrown away: every item is kept after it leaves the feed
+  (history, below), and `data/ended.geojson` lists the items that ended in the last 7 days, for readers that ask what
+  happened in a window. NWS's active list drops a warning the moment it runs out, so each run also asks NWS for every
+  Severe and Extreme alert issued since the last run, active or not: a warning issued and ended between two runs is
+  still recorded.
+
+## History
+
+Elements keeps its own historical record, part of The Intelligence Company's historical dataset. Each run compares
+the feed with the items open after the last run and writes one line per change to `history/log/YYYY/MM/DD.jsonl`
+(closed days gzipped once): `new`, `changed` (the tier or alert level moved) and `ended` (left the feed while its
+source was read successfully, so a failed fetch never ends anything). Every line carries the full item as it stood,
+with first and last sighting, end time, end reason, peak tier and the number of updates. `history/state.json` holds
+the items open now. The format (`tic-history/1`) is written for the doctrine kit to adopt for every program. From 31
+Oct to 14 Nov 2026 the log was rebuilt from this repository's git history of `data/` (`tools/history_backfill.py`;
+limits in `history/README.md`).
 
 Everything Elements publishes is a measurement of what an authority said, in The Intelligence Company's feed contract
 v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is published. Method:
@@ -55,7 +71,8 @@ only whole-year files per city).
 
 ```
 python tools/elements.py collect   # fetch every source into data/ (a failing source keeps its last good data)
-python tools/elements.py build     # write site/ (map page, feed.geojson, fires.json, meteoalarm.json, wildfires.json, health.json)
+python tools/elements.py history   # log new, changed and ended items in history/ against the last run
+python tools/elements.py build     # write site/ (map page, feed.geojson, ended.geojson, fires.json, meteoalarm.json, wildfires.json, health.json)
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
 python tests/test_volcanoes.py
@@ -63,6 +80,8 @@ python tests/test_weather.py
 python tests/test_tsunami_drought.py
 python tests/test_meteoalarm.py
 python tests/test_emsc_nifc.py
+python tests/test_history.py
+python tools/history_backfill.py --force   # rebuild history/ from the git history of data/ (before the step goes live)
 python tools/build_counties.py   # refresh catalog/us_counties.json from the Census Gazetteer (yearly)
 python tools/build_meteoalarm_areas.py   # refresh catalog/meteoalarm_areas.json when MeteoAlarm publishes new geocodes
 ```

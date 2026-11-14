@@ -1,7 +1,9 @@
 name: update
-# Hourly: collect every source, commit data/ when its content changed, build site/ and publish it to GitHub Pages
-# (https://elements.theintelligence.company/). A failing source keeps its last good data; nothing here fails the run
-# except a broken build. Free: public repo. One optional secret, FIRMS_MAP_KEY (a free NASA key).
+# Hourly: collect every source, log what changed in history/ (new, changed and ended items: Elements' own historical
+# record, kept after an item leaves the feed), commit data/ and history/ when their content changed, build site/ and
+# publish it to GitHub Pages (https://elements.theintelligence.company/). A failing source keeps its last good data
+# and never ends an item; nothing here fails the run except a broken build. Free: public repo. One optional secret,
+# FIRMS_MAP_KEY (a free NASA key).
 #
 # GitHub delays and drops scheduled runs under load: from 1 to 4 Nov 2026 a single hourly trigger ran about once every
 # six hours. So the schedule fires four times an hour and the gate job skips the run when the site was deployed less
@@ -12,7 +14,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: ["data/**"]
+    paths-ignore: ["data/**", "history/**"]   # the bot's own data and history commits must not start a run
 permissions:
   contents: write
   pages: write
@@ -58,12 +60,14 @@ jobs:
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}  # optional: without it, FIRMS's public files are read instead
         run: python tools/elements.py collect
-      - name: Commit data when its content changed
+      - name: History (log new, changed and ended items against the last run)
+        run: python tools/elements.py history
+      - name: Commit data and history when their content changed
         run: |
-          if [ -n "$(git status --porcelain -- data ':!data/health.json')" ]; then
+          if [ -n "$(git status --porcelain -- data history ':!data/health.json' ':!data/nws_recent.json')" ]; then
             git config user.name "elements-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data
+            git add data history
             git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
             # GitHub sometimes refuses a push (an error 500 on 4 Nov 2026). Retry; if it still fails, carry on so this
             # run's data is still built and deployed, and the next run commits it.

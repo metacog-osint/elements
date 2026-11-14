@@ -1,7 +1,8 @@
 """Elements command line. Standard library only.
 
     python tools/elements.py collect    fetch every source into data/ (a failing source keeps its last data)
-    python tools/elements.py build      write site/ (map page, feed.geojson) from data/
+    python tools/elements.py history    log what changed against the last run in history/ (new, changed, ended)
+    python tools/elements.py build      write site/ (map page, feed.geojson, ended.geojson) from data/ and history/
     python tools/elements.py check      the feed passes the doctrine kit's linter; registers are valid
 """
 import json
@@ -12,11 +13,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, firms, meteoalarm, sources  # noqa: E402
+from elements import feed, firms, history, meteoalarm, sources, weather  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, registers  # noqa: E402
 
-SRC, OUT = ROOT / "site_src", ROOT / "site"
+SRC, OUT, HIST = ROOT / "site_src", ROOT / "site", ROOT / "history"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
          "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
          "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm", "emsc": "emsc", "nifc": "nifc-wfigs"}
@@ -31,7 +32,18 @@ def drought_summary(rec) -> str:
 def collect() -> dict:
     when = now_utc()
     prev = {k: (load(f"{k}.json", {}) or {}).get("records") for k in LANES}
+    nws_last_ok = ((load("health.json", {}) or {}).get(LANES["nws"]) or {}).get("last_ok")
+    # The NWS catch-up: Severe and Extreme alerts issued since the last good read, active or not. The history step
+    # logs the ones no longer active (issued and ended between runs). Read before the active list, so an alert issued
+    # in between is in the active list rather than taken for ended. Its own file, not a health lane.
+    start = weather.catchup_start(nws_last_ok, datetime.now(timezone.utc))
+    caught, caught_err = weather.collect_nws_since(start)
+    caught_at = now_utc()
     got = sources.collect_all(prev, when)
+    # active_error: health counts a lane as read when an error left its last records in place, so the history step
+    # needs to know whether this run's active list is fresh before it calls anything "no longer active".
+    save("nws_recent.json", {"fetched_at": caught_at, "start": start, "error": caught_err,
+                             "active_error": got["nws"][1], "records": caught})
     summary = {}
     for k, src in LANES.items():
         records, err = got[k]
@@ -43,6 +55,7 @@ def collect() -> dict:
             detail = f"{detail} ({err})" if records else err
         health(src, not err or bool(records), detail, when)
         summary[k] = detail
+    summary["nws catch-up"] = caught_err or f"{len(caught)} alerts issued since {start}"
     fp = got["firms"][0]
     if fp is not prev["firms"] and fp.get("daily"):
         old = load("firms_daily.json", {})
@@ -58,9 +71,37 @@ def data() -> dict:
             for k, src in LANES.items()} | {"health": h}
 
 
+def caught_items(d: dict, now: datetime) -> list:
+    """Feed items for NWS alerts the catch-up found that are not active now, linted like the feed. None unless the
+    active read itself succeeded this run (otherwise "not active" would mean "not read")."""
+    rec = load("nws_recent.json", {}) or {}
+    err = rec.get("error") or ""
+    if LANES["nws"] not in history.lanes_ok(d["health"]) or (err and not err.startswith("partial:")) \
+            or rec.get("active_error") or "active_error" not in rec:
+        return []
+    active = {r["id"] for r in d["nws"]["records"] or []}
+    gone = [r for r in rec.get("records") or [] if r.get("id") not in active]
+    items = feed._weather_items({"nws": {"records": gone, "fetched_at": rec.get("fetched_at")}}, now)
+    regs = registers.ids(ROOT / "doctrine")
+    return [x for x in items if not any(sev == "error" for _, sev, _ in contract.check(x, regs))]
+
+
+def log_history(now: datetime | None = None) -> list:
+    """Compare the feed of this run's data with the items open after the last run; append the changes to the log."""
+    now = now or datetime.now(timezone.utc)
+    d = data()
+    fc = feed.build(d, now)
+    state, lines = history.update(history.load_state(HIST), fc, d["health"], now, caught_items(d, now))
+    history.append_log(HIST, lines)
+    history.close_days(HIST, now.strftime("%Y-%m-%d"))
+    history.save_state(HIST, state)
+    return lines
+
+
 def build() -> dict:
     d = data()
-    fc = feed.build(d, datetime.now(timezone.utc))
+    now = datetime.now(timezone.utc)
+    fc = feed.build(d, now)
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(SRC, OUT)
@@ -68,6 +109,9 @@ def build() -> dict:
     (OUT / "data" / "feed.geojson").write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "health.json").write_text(json.dumps(d["health"], indent=1) + "\n", encoding="utf-8", newline="\n")
+    ended = history.ended_collection(HIST, history.load_state(HIST), now)
+    (OUT / "data" / "ended.geojson").write_text(json.dumps(ended, ensure_ascii=False, separators=(",", ":")) + "\n",
+                                                encoding="utf-8", newline="\n")
     fp = d["firms"]["records"] or {}
     fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via")}
     fires["names"] = {cc: country_name(cc) for cc in sorted({c[7] for c in fp.get("cells") or [] if c[7]})}
@@ -113,6 +157,12 @@ def main(argv=None) -> int:
     if cmd == "collect":
         for k, v in collect().items():
             print(f"{k}: {v}")
+        return 0
+    if cmd == "history":
+        lines = log_history()
+        n = {c: sum(1 for x in lines if x["change"] == c) for c in ("new", "changed", "ended")}
+        print(f"history: {n['new']} new, {n['changed']} changed, {n['ended']} ended "
+              f"({sum(1 for x in lines if x.get('seen_live') is False) // 2} caught between runs)")
         return 0
     if cmd == "build":
         fc = build()

@@ -9,11 +9,18 @@ categorical convective outlook. Both US public domain.
   thunderstorm areas are not risk categories and are left out."""
 import json
 import re
+from datetime import datetime, timedelta, timezone
 from functools import lru_cache
 
 from .common import ROOT, fetch_or_none
 
 NWS_URL = "https://api.weather.gov/alerts/active?status=actual&message_type=alert,update"
+# Alerts issued since a time, active or not (NWS keeps about 7 days). The catch-up: a warning issued and ended between
+# two runs never reaches the active list, so each run also asks for everything Severe or Extreme issued since the last.
+NWS_SINCE_URL = ("https://api.weather.gov/alerts?status=actual&message_type=alert,update&severity=Severe,Extreme"
+                 "&limit=500&start={start}")
+CATCHUP_PAGES = 5
+CATCHUP_MAX_H = 72
 SPC_URL = "https://www.spc.noaa.gov/products/outlook/day1otlk_cat.lyr.geojson"
 SPC_PAGE = "https://www.spc.noaa.gov/products/outlook/day1otlk.html"
 KEEP = ("Severe", "Extreme")
@@ -117,6 +124,51 @@ def _collect(url, parse, old, fetch, timeout=60):
 
 def collect_nws(old, fetch=fetch_or_none):
     return _collect(NWS_URL, parse_nws, old, fetch)
+
+
+def catchup_start(last_ok: str | None, now: datetime) -> str:
+    """Where the catch-up starts: an hour before the last good NWS read (alerts can be sent a little before they reach
+    the active list), no further back than CATCHUP_MAX_H hours, and never in the last hour (a fresh start)."""
+    last = _parse(last_ok)
+    start = (last - timedelta(hours=1)) if last else now - timedelta(hours=CATCHUP_MAX_H)
+    start = max(start, now - timedelta(hours=CATCHUP_MAX_H))
+    start = min(start, now - timedelta(hours=1))
+    return start.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _parse(s):
+    try:
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00")).astimezone(timezone.utc) if s else None
+    except ValueError:
+        return None
+
+
+def collect_nws_since(start: str, fetch=fetch_or_none):
+    """(records, error) for Severe and Extreme alerts issued since `start`, active or not, merged by event as
+    parse_nws does. Follows the API's pagination up to CATCHUP_PAGES pages. If the first page fails: ([], error). If a
+    later one fails: the records read so far and an error starting "partial:" (what was read is still good).
+    Nothing else in the run depends on it."""
+    url, feats, pages, partial = NWS_SINCE_URL.format(start=start), [], 0, None
+    while url and pages < CATCHUP_PAGES:
+        body, err = fetch(url, 60)
+        try:
+            doc = json.loads(body) if body is not None else None
+        except ValueError as e:
+            body, err = None, f"parse: {e}"
+        if body is None:
+            if not pages:
+                return [], err
+            partial = f"partial: page {pages + 1}: {err}"
+            break
+        pages += 1
+        got = doc.get("features") or []
+        feats += got
+        nxt = (doc.get("pagination") or {}).get("next")
+        url = nxt if got and nxt and nxt != url else None
+    try:
+        return parse_nws({"features": feats}), partial
+    except (ValueError, KeyError, TypeError, IndexError) as e:
+        return [], f"parse: {type(e).__name__}: {e}"
 
 
 def collect_spc(old, fetch=fetch_or_none):

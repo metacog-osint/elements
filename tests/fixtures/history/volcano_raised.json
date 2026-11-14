@@ -1,0 +1,196 @@
+{
+ "before": {
+  "commit": "c18b3495631ed877dc5344f6f701602235e5e87b",
+  "records": [
+   {
+    "vnum": "332010",
+    "name": "Kilauea",
+    "observatory": "hvo",
+    "observatory_name": "Hawaiian Volcano Observatory",
+    "alert": "ADVISORY",
+    "color": "YELLOW",
+    "prev_alert": "WATCH",
+    "prev_color": "ORANGE",
+    "sent": "2026-11-02T19:18:49Z",
+    "changed": "2026-10-17T19:59:31Z",
+    "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining is Nov. 4-7, 2026.",
+    "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-02T18:33:15+00:00",
+    "threat": "Very High Threat",
+    "lat": 19.421,
+    "lon": -155.287,
+    "countries": [
+     "US"
+    ]
+   }
+  ],
+  "health": {
+   "usgs-earthquakes": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "132 records"
+   },
+   "gdacs": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "52 records"
+   },
+   "nhc": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "0 records"
+   },
+   "copernicus-ems": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "50 records"
+   },
+   "nasa-firms": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": "2026-11-01T01:24:20Z",
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "101,469 detections in 7,120 cells via api; key used 216 of 5000 transactions"
+   },
+   "usgs-volcanoes": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "3 records"
+   },
+   "nws-alerts": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "90 records"
+   },
+   "spc-outlook": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "3 records"
+   },
+   "noaa-tsunami": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "3 records"
+   },
+   "us-drought-monitor": {
+    "last_ok": "2026-11-03T00:00:31Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T00:00:31Z",
+    "detail": "week of 2026-10-27: 41.39% in drought, map of 2026-10-27"
+   }
+  }
+ },
+ "after": {
+  "commit": "8ecb28c9346e67da68d69e34a44a64b8f09e7c88",
+  "records": [
+   {
+    "vnum": "332010",
+    "name": "Kilauea",
+    "observatory": "hvo",
+    "observatory_name": "Hawaiian Volcano Observatory",
+    "alert": "WATCH",
+    "color": "ORANGE",
+    "prev_alert": "ADVISORY",
+    "prev_color": "YELLOW",
+    "sent": "2026-11-03T00:06:36Z",
+    "changed": "2026-11-03T00:06:36Z",
+    "synopsis": "HVO Kilauea ORANGE/WATCH - Precursory low-level eruptive activity before episode 56 of the ongoing Halemaʻumaʻu eruption began around 11:43 a.m. HST on Monday, November 2.",
+    "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-02T22:41:59+00:00",
+    "threat": "Very High Threat",
+    "lat": 19.421,
+    "lon": -155.287,
+    "countries": [
+     "US"
+    ]
+   }
+  ],
+  "health": {
+   "usgs-earthquakes": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "130 records"
+   },
+   "gdacs": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "54 records"
+   },
+   "nhc": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "0 records"
+   },
+   "copernicus-ems": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "50 records"
+   },
+   "nasa-firms": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": "2026-11-01T01:24:20Z",
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "97,982 detections in 6,816 cells via api; key used 216 of 5000 transactions"
+   },
+   "usgs-volcanoes": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "3 records"
+   },
+   "nws-alerts": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "57 records"
+   },
+   "spc-outlook": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "1 records"
+   },
+   "noaa-tsunami": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "3 records"
+   },
+   "us-drought-monitor": {
+    "last_ok": "2026-11-03T07:10:27Z",
+    "last_error": null,
+    "failures": 0,
+    "checked_at": "2026-11-03T07:10:27Z",
+    "detail": "week of 2026-10-27: 41.39% in drought, map of 2026-10-27"
+   }
+  }
+ }
+}
