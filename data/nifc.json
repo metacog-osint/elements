@@ -351,20 +351,6 @@
    "lat": 46.1356
   },
   {
-   "id": "{4C38BA1C-9648-4294-925A-A66F9CA4197B}",
-   "name": "Bridge Creek",
-   "acres": 179.0,
-   "contained": 70,
-   "discovered": "2026-11-11T17:48:16Z",
-   "updated": "2026-11-13T00:57:33Z",
-   "state": "OR",
-   "county": "Umatilla",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -118.8936,
-   "lat": 45.0425
-  },
-  {
    "id": "{8601A0E4-089B-4B9A-8088-6E9BD7EA1309}",
    "name": "Black Rock 2",
    "acres": 160.0,
@@ -615,6 +601,20 @@
    "complexity": null,
    "lon": -122.1345,
    "lat": 48.6042
+  },
+  {
+   "id": "{F67240C2-0F7E-4C54-BC47-70D8579467DF}",
+   "name": "Rusk 9965",
+   "acres": 5.0,
+   "contained": 0,
+   "discovered": "2026-11-14T20:23:00Z",
+   "updated": "2026-11-14T21:30:50Z",
+   "state": "TX",
+   "county": "Rusk",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.9479,
+   "lat": 32.1987
   },
   {
    "id": "{FFA4FECE-BF21-48AD-ADD6-634C02E705D6}",
@@ -1455,6 +1455,20 @@
    "complexity": null,
    "lon": -117.9763,
    "lat": 34.1165
+  },
+  {
+   "id": "{5DC0DE56-FD61-4B8E-A8DB-DF4EF99E85FC}",
+   "name": "Brooks",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-14T21:25:28Z",
+   "updated": "2026-11-14T21:28:25Z",
+   "state": "CA",
+   "county": "Nevada",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.0219,
+   "lat": 39.1744
   }
  ]
 }
