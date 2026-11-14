@@ -71,305 +71,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-14T01:21:00Z",
-   "onset": "2026-11-14T01:21:00Z",
-   "ends": "2026-11-14T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.186f04232826ecc706470a21f19efb20ca82f35f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-14T01:29:00Z",
-   "onset": "2026-11-14T01:29:00Z",
-   "ends": "2026-11-14T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19366c8291f333f4c93ef375be74f1a97bb8bb3d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-14T01:35:00Z",
-   "onset": "2026-11-14T01:35:00Z",
-   "ends": "2026-11-14T17:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de4c98d21a52bd9d35294ade30d67e649afe43a1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0008.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-14T01:40:00Z",
-   "onset": "2026-11-14T01:40:00Z",
-   "ends": "2026-11-14T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50b923a14c5bc8fb76e067870c4de114a2edf28.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCRP.FL.W.0029.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "McMullen, TX"
-   ],
-   "counties": [
-    "48311"
-   ],
-   "sent": "2026-11-14T02:06:00Z",
-   "onset": "2026-11-15T01:12:00Z",
-   "ends": "2026-11-17T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cfa0b70a6989855fa7c22e761815c65c7a1afe4.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -98.8,
-       28.17
-      ],
-      [
-       -98.59,
-       28.36
-      ],
-      [
-       -98.33,
-       28.45
-      ],
-      [
-       -98.33,
-       28.33
-      ],
-      [
-       -98.54,
-       28.26
-      ],
-      [
-       -98.8,
-       28.07
-      ],
-      [
-       -98.8,
-       28.17
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -98.5789,
-     28.3849
-    ]
-   ],
-   "lon": -98.599,
-   "lat": 28.259,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -497,10 +198,252 @@
    ]
   },
   {
-   "id": "KSLC.FA.W.0018.2026",
+   "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-14T14:40:00Z",
+   "onset": "2026-11-14T14:40:00Z",
+   "ends": "2026-11-15T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.857595aa2a45e296dce61da83545908cf13c839f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-14T14:42:00Z",
+   "onset": "2026-11-14T14:42:00Z",
+   "ends": "2026-11-15T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b8a68aad3b0f7423b28caf680ab84bd82eba464.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-14T14:44:00Z",
+   "onset": "2026-11-14T14:44:00Z",
+   "ends": "2026-11-15T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14836443068437129e4b39e457685a5ecd1237e4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.FL.W.0029.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "McMullen, TX"
+   ],
+   "counties": [
+    "48311"
+   ],
+   "sent": "2026-11-14T14:54:00Z",
+   "onset": "2026-11-15T03:00:00Z",
+   "ends": "2026-11-17T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.345324fc558f5c9e6675fb3c22721808d96fc4a3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.8,
+       28.17
+      ],
+      [
+       -98.59,
+       28.36
+      ],
+      [
+       -98.33,
+       28.45
+      ],
+      [
+       -98.33,
+       28.33
+      ],
+      [
+       -98.54,
+       28.26
+      ],
+      [
+       -98.8,
+       28.07
+      ],
+      [
+       -98.8,
+       28.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.5789,
+     28.3849
+    ]
+   ],
+   "lon": -98.599,
+   "lat": 28.259,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.FA.W.0018.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Salt Lake City UT",
    "areas": [
@@ -511,25 +454,37 @@
     "49025",
     "49053"
    ],
-   "sent": "2026-11-14T13:40:00Z",
-   "onset": "2026-11-14T13:40:00Z",
+   "sent": "2026-11-14T15:03:00Z",
+   "onset": "2026-11-14T15:03:00Z",
    "ends": "2026-11-14T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7e94f06cee8ab15164a7f451191744dcac16860.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9097b6cf91a41f8ef9e063a04d591614a27c0b1.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -112.78,
-       37.12
+       -113.36,
+       37.18
       ],
       [
        -113.31,
        37.12
       ],
       [
+       -112.78,
+       37.12
+      ],
+      [
+       -112.78,
+       37.39
+      ],
+      [
+       -113.03,
+       37.41
+      ],
+      [
        -113.36,
-       37.18
+       37.34
       ],
       [
        -113.37,
@@ -537,19 +492,7 @@
       ],
       [
        -113.36,
-       37.34
-      ],
-      [
-       -113.03,
-       37.41
-      ],
-      [
-       -112.78,
-       37.39
-      ],
-      [
-       -112.78,
-       37.12
+       37.18
       ]
      ]
     ]
@@ -565,8 +508,8 @@
      37.2625
     ]
    ],
-   "lon": -113.096,
-   "lat": 37.239,
+   "lon": -113.169,
+   "lat": 37.246,
    "countries": [
     "US"
    ]
@@ -936,719 +879,6 @@
    ],
    "lon": -86.595,
    "lat": 33.044,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSHV.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Shreveport LA",
-   "areas": [
-    "Nevada",
-    "Union",
-    "Union"
-   ],
-   "counties": [
-    "05099",
-    "05139",
-    "22111"
-   ],
-   "sent": "2026-11-14T04:15:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47133185d6297cedb11b0d358ac42887a3d5595d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.3051,
-     33.6667
-    ],
-    [
-     -92.5981,
-     33.1682
-    ],
-    [
-     -92.3756,
-     32.8293
-    ]
-   ],
-   "lon": -92.76,
-   "lat": 33.221,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTSA.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tulsa OK",
-   "areas": [
-    "Carroll",
-    "Washington",
-    "Madison",
-    "Northern Crawford",
-    "Northern Franklin",
-    "North and Central Sebastian",
-    "Southern Crawford",
-    "Central and Southern Franklin",
-    "Southern Sebastian",
-    "Washington",
-    "Pawnee",
-    "Tulsa",
-    "Rogers",
-    "Mayes",
-    "Creek",
-    "Okfuskee",
-    "Okmulgee",
-    "Wagoner",
-    "Cherokee",
-    "Adair",
-    "Muskogee",
-    "McIntosh",
-    "Pittsburg",
-    "Haskell",
-    "Latimer",
-    "Western Osage",
-    "Northern Sequoyah",
-    "Northern Le Flore",
-    "Northeast Osage",
-    "Central and Southern Sequoyah",
-    "Central Le Flore",
-    "Southeast Osage",
-    "Southern Le Flore"
-   ],
-   "counties": [
-    "05015",
-    "05033",
-    "05047",
-    "05087",
-    "05131",
-    "05143",
-    "40001",
-    "40021",
-    "40037",
-    "40061",
-    "40077",
-    "40079",
-    "40091",
-    "40097",
-    "40101",
-    "40107",
-    "40111",
-    "40113",
-    "40117",
-    "40121",
-    "40131",
-    "40135",
-    "40143",
-    "40145",
-    "40147"
-   ],
-   "sent": "2026-11-14T04:59:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e75bb0e9d5c9909c0de33fc1b82a674691561d13.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -93.541,
-     36.3374
-    ],
-    [
-     -94.2362,
-     35.583
-    ],
-    [
-     -93.8877,
-     35.5086
-    ],
-    [
-     -93.7241,
-     36.0125
-    ],
-    [
-     -94.275,
-     35.197
-    ],
-    [
-     -94.2173,
-     35.978
-    ],
-    [
-     -94.651,
-     35.898
-    ],
-    [
-     -94.9968,
-     35.9044
-    ],
-    [
-     -96.3802,
-     35.9074
-    ],
-    [
-     -95.1096,
-     35.2324
-    ],
-    [
-     -95.2723,
-     34.8751
-    ],
-    [
-     -94.6951,
-     34.8974
-    ],
-    [
-     -95.6718,
-     35.3691
-    ],
-    [
-     -95.2356,
-     36.3038
-    ],
-    [
-     -95.3839,
-     35.6176
-    ],
-    [
-     -96.3278,
-     35.4668
-    ],
-    [
-     -95.9659,
-     35.6435
-    ],
-    [
-     -96.4081,
-     36.6243
-    ],
-    [
-     -96.6967,
-     36.3137
-    ],
-    [
-     -95.7481,
-     34.9255
-    ],
-    [
-     -95.6014,
-     36.3778
-    ],
-    [
-     -94.7508,
-     35.5024
-    ],
-    [
-     -95.9418,
-     36.1203
-    ],
-    [
-     -95.5142,
-     35.9634
-    ],
-    [
-     -95.9063,
-     36.7044
-    ]
-   ],
-   "lon": -95.206,
-   "lat": 35.771,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLZK.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Little Rock AR",
-   "areas": [
-    "Marion",
-    "Baxter",
-    "Fulton",
-    "Sharp",
-    "Randolph",
-    "Stone",
-    "Izard",
-    "Independence",
-    "Lawrence",
-    "Cleburne",
-    "Jackson",
-    "Conway",
-    "Faulkner",
-    "White",
-    "Woodruff",
-    "Perry",
-    "Garland",
-    "Saline",
-    "Pulaski",
-    "Lonoke",
-    "Prairie",
-    "Monroe",
-    "Pike",
-    "Clark",
-    "Hot Spring",
-    "Grant",
-    "Jefferson",
-    "Arkansas",
-    "Dallas",
-    "Cleveland",
-    "Lincoln",
-    "Desha",
-    "Ouachita",
-    "Calhoun",
-    "Bradley",
-    "Drew",
-    "Boone County Except Southwest",
-    "Newton County Higher Elevations",
-    "Searcy County Lower Elevations",
-    "Southern Johnson County",
-    "Southern Pope County",
-    "Southeast Van Buren County",
-    "Western and Northern Logan County",
-    "Northern Scott County",
-    "Northwest Yell County",
-    "Polk County Lower Elevations",
-    "Central and Eastern Montgomery County",
-    "Boone County Higher Elevations",
-    "Newton County Lower Elevations",
-    "Northwest Searcy County Higher Elevations",
-    "Johnson County Higher Elevations",
-    "Pope County Higher Elevations",
-    "Van Buren County Higher Elevations",
-    "Southern and Eastern Logan County",
-    "Central and Southern Scott County",
-    "Yell Excluding Northwest",
-    "Northern Polk County Higher Elevations",
-    "Northern Montgomery County Higher Elevations",
-    "Eastern, Central, and Southern Searcy County Higher Elevations",
-    "Southeast Polk County Higher Elevations",
-    "Southwest Montgomery County Higher Elevations"
-   ],
-   "counties": [
-    "05001",
-    "05005",
-    "05009",
-    "05011",
-    "05013",
-    "05019",
-    "05023",
-    "05025",
-    "05029",
-    "05039",
-    "05041",
-    "05043",
-    "05045",
-    "05049",
-    "05051",
-    "05053",
-    "05059",
-    "05063",
-    "05065",
-    "05067",
-    "05069",
-    "05071",
-    "05075",
-    "05079",
-    "05083",
-    "05085",
-    "05089",
-    "05095",
-    "05097",
-    "05101",
-    "05103",
-    "05105",
-    "05109",
-    "05113",
-    "05115",
-    "05117",
-    "05119",
-    "05121",
-    "05125",
-    "05127",
-    "05129",
-    "05135",
-    "05137",
-    "05141",
-    "05145",
-    "05147",
-    "05149"
-   ],
-   "sent": "2026-11-14T05:08:00Z",
-   "onset": "2026-11-14T06:00:00Z",
-   "ends": "2026-11-14T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.feb013f090118955fba09a2b1ce9292ff9b5bca9.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.3765,
-     34.2896
-    ],
-    [
-     -92.3299,
-     36.2803
-    ],
-    [
-     -93.0792,
-     36.3043
-    ],
-    [
-     -92.1692,
-     33.4665
-    ],
-    [
-     -92.5139,
-     33.5605
-    ],
-    [
-     -93.1762,
-     34.0533
-    ],
-    [
-     -92.0089,
-     35.5936
-    ],
-    [
-     -92.1887,
-     33.8932
-    ],
-    [
-     -92.6892,
-     35.2657
-    ],
-    [
-     -92.654,
-     33.9678
-    ],
-    [
-     -91.2441,
-     33.8288
-    ],
-    [
-     -91.7228,
-     33.5872
-    ],
-    [
-     -92.3369,
-     35.1465
-    ],
-    [
-     -91.8193,
-     36.3813
-    ],
-    [
-     -93.1469,
-     34.5789
-    ],
-    [
-     -92.423,
-     34.2856
-    ],
-    [
-     -92.9441,
-     34.3152
-    ],
-    [
-     -91.5599,
-     35.7375
-    ],
-    [
-     -91.9136,
-     36.0949
-    ],
-    [
-     -91.2232,
-     35.5965
-    ],
-    [
-     -91.9297,
-     34.2772
-    ],
-    [
-     -93.4663,
-     35.5734
-    ],
-    [
-     -91.1012,
-     36.0411
-    ],
-    [
-     -91.7424,
-     33.9564
-    ],
-    [
-     -93.7209,
-     35.2187
-    ],
-    [
-     -91.8941,
-     34.7551
-    ],
-    [
-     -92.6786,
-     36.2667
-    ],
-    [
-     -91.2033,
-     34.6795
-    ],
-    [
-     -93.6642,
-     34.5457
-    ],
-    [
-     -93.2159,
-     35.9107
-    ],
-    [
-     -92.8784,
-     33.5912
-    ],
-    [
-     -92.9269,
-     34.9464
-    ],
-    [
-     -93.6587,
-     34.1582
-    ],
-    [
-     -94.2309,
-     34.491
-    ],
-    [
-     -93.0268,
-     35.4566
-    ],
-    [
-     -91.5536,
-     34.8311
-    ],
-    [
-     -92.313,
-     34.7703
-    ],
-    [
-     -91.0284,
-     36.3413
-    ],
-    [
-     -92.6745,
-     34.6485
-    ],
-    [
-     -94.0636,
-     34.8589
-    ],
-    [
-     -92.6959,
-     35.8964
-    ],
-    [
-     -91.4711,
-     36.1734
-    ],
-    [
-     -92.1405,
-     35.857
-    ],
-    [
-     -92.516,
-     35.583
-    ],
-    [
-     -91.753,
-     35.2551
-    ],
-    [
-     -91.2445,
-     35.1928
-    ],
-    [
-     -93.4083,
-     34.9977
-    ]
-   ],
-   "lon": -92.398,
-   "lat": 34.989,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCAE.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Columbia SC",
-   "areas": [
-    "Lincoln",
-    "McDuffie",
-    "Columbia",
-    "Richmond",
-    "Burke",
-    "Chesterfield",
-    "McCormick",
-    "Newberry",
-    "Fairfield",
-    "Kershaw",
-    "Edgefield",
-    "Saluda",
-    "Lexington",
-    "Richland",
-    "Lee",
-    "Aiken",
-    "Sumter",
-    "Barnwell",
-    "Calhoun",
-    "Clarendon",
-    "Bamberg",
-    "Northern Lancaster",
-    "Southern Lancaster",
-    "Northwestern Orangeburg",
-    "Central Orangeburg",
-    "Southeastern Orangeburg"
-   ],
-   "counties": [
-    "13033",
-    "13073",
-    "13181",
-    "13189",
-    "13245",
-    "45003",
-    "45009",
-    "45011",
-    "45017",
-    "45025",
-    "45027",
-    "45037",
-    "45039",
-    "45055",
-    "45057",
-    "45061",
-    "45063",
-    "45065",
-    "45071",
-    "45075",
-    "45079",
-    "45081",
-    "45085"
-   ],
-   "sent": "2026-11-14T05:23:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e7d98bd59d875f70f2749ee533d8e87cd9b65b9.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -82.0002,
-     33.0602
-    ],
-    [
-     -82.2496,
-     33.5521
-    ],
-    [
-     -82.4483,
-     33.7922
-    ],
-    [
-     -82.4796,
-     33.4806
-    ],
-    [
-     -82.075,
-     33.3615
-    ],
-    [
-     -81.633,
-     33.55
-    ],
-    [
-     -81.0532,
-     33.203
-    ],
-    [
-     -81.4342,
-     33.2606
-    ],
-    [
-     -80.7803,
-     33.6748
-    ],
-    [
-     -80.1592,
-     34.637
-    ],
-    [
-     -80.2179,
-     33.6647
-    ],
-    [
-     -81.9596,
-     33.7795
-    ],
-    [
-     -81.127,
-     34.3957
-    ],
-    [
-     -80.5909,
-     34.3384
-    ],
-    [
-     -80.7037,
-     34.6868
-    ],
-    [
-     -80.2512,
-     34.1586
-    ],
-    [
-     -81.273,
-     33.8923
-    ],
-    [
-     -82.3162,
-     33.8976
-    ],
-    [
-     -81.5997,
-     34.2899
-    ],
-    [
-     -80.8029,
-     33.4361
-    ],
-    [
-     -80.898,
-     34.0291
-    ],
-    [
-     -81.7279,
-     34.0053
-    ],
-    [
-     -80.3824,
-     33.9161
-    ]
-   ],
-   "lon": -81.311,
-   "lat": 33.829,
    "countries": [
     "US"
    ]
@@ -3148,6 +2378,172 @@
    ]
   },
   {
+   "id": "KCAE.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Columbia SC",
+   "areas": [
+    "Lincoln",
+    "McDuffie",
+    "Columbia",
+    "Richmond",
+    "Burke",
+    "Chesterfield",
+    "McCormick",
+    "Newberry",
+    "Fairfield",
+    "Kershaw",
+    "Edgefield",
+    "Saluda",
+    "Lexington",
+    "Richland",
+    "Lee",
+    "Aiken",
+    "Sumter",
+    "Barnwell",
+    "Calhoun",
+    "Clarendon",
+    "Bamberg",
+    "Northern Lancaster",
+    "Southern Lancaster",
+    "Northwestern Orangeburg",
+    "Central Orangeburg",
+    "Southeastern Orangeburg"
+   ],
+   "counties": [
+    "13033",
+    "13073",
+    "13181",
+    "13189",
+    "13245",
+    "45003",
+    "45009",
+    "45011",
+    "45017",
+    "45025",
+    "45027",
+    "45037",
+    "45039",
+    "45055",
+    "45057",
+    "45061",
+    "45063",
+    "45065",
+    "45071",
+    "45075",
+    "45079",
+    "45081",
+    "45085"
+   ],
+   "sent": "2026-11-14T14:42:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.698a1cb178f5bfd367f9a54d5887b00b4162f217.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -82.0002,
+     33.0602
+    ],
+    [
+     -82.2496,
+     33.5521
+    ],
+    [
+     -82.4483,
+     33.7922
+    ],
+    [
+     -82.4796,
+     33.4806
+    ],
+    [
+     -82.075,
+     33.3615
+    ],
+    [
+     -81.633,
+     33.55
+    ],
+    [
+     -81.0532,
+     33.203
+    ],
+    [
+     -81.4342,
+     33.2606
+    ],
+    [
+     -80.7803,
+     33.6748
+    ],
+    [
+     -80.1592,
+     34.637
+    ],
+    [
+     -80.2179,
+     33.6647
+    ],
+    [
+     -81.9596,
+     33.7795
+    ],
+    [
+     -81.127,
+     34.3957
+    ],
+    [
+     -80.5909,
+     34.3384
+    ],
+    [
+     -80.7037,
+     34.6868
+    ],
+    [
+     -80.2512,
+     34.1586
+    ],
+    [
+     -81.273,
+     33.8923
+    ],
+    [
+     -82.3162,
+     33.8976
+    ],
+    [
+     -81.5997,
+     34.2899
+    ],
+    [
+     -80.8029,
+     33.4361
+    ],
+    [
+     -80.898,
+     34.0291
+    ],
+    [
+     -81.7279,
+     34.0053
+    ],
+    [
+     -80.3824,
+     33.9161
+    ]
+   ],
+   "lon": -81.311,
+   "lat": 33.829,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9958.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3764,52 +3160,6 @@
    ],
    "lon": -119.612,
    "lat": 37.159,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.WS.A.0014.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Anchorage",
-    "Anchorage Hillside / Eagle River",
-    "East Turnagain Arm",
-    "Portage",
-    "Southern Kachemak Bay",
-    "SW Kenai Peninsula",
-    "NW Kenai Peninsula",
-    "Skilak Lake",
-    "Southern Kenai Mtns",
-    "Interior Kenai Peninsula",
-    "Turnagain Pass"
-   ],
-   "counties": [
-    "02020",
-    "02122"
-   ],
-   "sent": "2026-11-14T06:22:00Z",
-   "onset": "2026-11-15T00:00:00Z",
-   "ends": "2026-11-16T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ad31e7f5382b5c75a633da483e0aa5e6c14a742.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -149.2843,
-     61.1743
-    ],
-    [
-     -152.3223,
-     60.3667
-    ]
-   ],
-   "lon": -150.803,
-   "lat": 60.77,
    "countries": [
     "US"
    ]
