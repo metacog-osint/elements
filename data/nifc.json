@@ -20,7 +20,7 @@
    "acres": 93972.0,
    "contained": 98,
    "discovered": "2026-07-24T02:41:00Z",
-   "updated": "2026-11-02T01:29:22Z",
+   "updated": "2026-11-14T01:29:56Z",
    "state": "OR",
    "county": "Wasco",
    "cause": "Natural",
@@ -62,7 +62,7 @@
    "acres": 12888.0,
    "contained": 98,
    "discovered": "2026-08-09T17:12:59Z",
-   "updated": "2026-11-12T01:37:56Z",
+   "updated": "2026-11-14T01:31:46Z",
    "state": "OR",
    "county": "Clackamas",
    "cause": "Human",
@@ -169,26 +169,12 @@
    "lat": 47.4708
   },
   {
-   "id": "{9F1892B4-DFA6-490D-BF1F-A8B47350A033}",
-   "name": "Mud",
-   "acres": 2096.0,
-   "contained": 50,
-   "discovered": "2026-11-12T18:04:00Z",
-   "updated": "2026-11-13T19:49:19Z",
-   "state": "ID",
-   "county": "Owyhee",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -116.4448,
-   "lat": 42.7129
-  },
-  {
    "id": "{DE469701-A9F7-456E-B0A3-3B15CC8F0C37}",
    "name": "Bee Haven (2) (24-06)",
    "acres": 2060.0,
    "contained": 85,
    "discovered": "2026-10-21T19:40:00Z",
-   "updated": "2026-11-12T04:02:20Z",
+   "updated": "2026-11-14T01:23:43Z",
    "state": "FL",
    "county": "Hamilton",
    "cause": "Natural",
@@ -603,6 +589,20 @@
    "lat": 36.651
   },
   {
+   "id": "{948F016D-CC43-4BED-BBFC-7EF52C940173}",
+   "name": "Black Canyon",
+   "acres": 8.0,
+   "contained": null,
+   "discovered": "2026-11-14T00:56:06Z",
+   "updated": "2026-11-14T01:26:04Z",
+   "state": "OR",
+   "county": "Grant",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -118.5365,
+   "lat": 44.1107
+  },
+  {
    "id": "{0486B60F-4C26-4E7E-80FB-D4E7C2F6E436}",
    "name": "Cinder",
    "acres": 6.2,
@@ -629,6 +629,20 @@
    "complexity": "Type 4 Incident",
    "lon": -88.2761,
    "lat": 34.5447
+  },
+  {
+   "id": "{C0B9725E-0F9F-45DD-B7B0-AE732047BA01}",
+   "name": "Roaring Creek",
+   "acres": 5.0,
+   "contained": null,
+   "discovered": "2026-11-13T22:17:01Z",
+   "updated": "2026-11-14T01:25:20Z",
+   "state": "WA",
+   "county": "Skagit",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.1345,
+   "lat": 48.6042
   },
   {
    "id": "{FFA4FECE-BF21-48AD-ADD6-634C02E705D6}",
