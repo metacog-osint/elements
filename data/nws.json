@@ -2875,17 +2875,17 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
-    "Atka and Adak",
     "Pribilof Islands",
-    "Shemya and Attu Islands"
+    "Shemya and Attu Islands",
+    "Atka and Adak"
    ],
    "counties": [
     "02016"
    ],
    "sent": "2026-11-14T21:31:00Z",
-   "onset": "2026-11-17T09:00:00Z",
+   "onset": "2026-11-17T12:00:00Z",
    "ends": "2026-11-18T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2901,7 +2901,7 @@
    ]
   },
   {
-   "id": "KCRP.MA.W.0069.2026",
+   "id": "KCRP.MA.W.0070.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2913,45 +2913,61 @@
    "counties": [
     "77275"
    ],
-   "sent": "2026-11-15T08:57:00Z",
-   "onset": "2026-11-15T08:57:00Z",
-   "ends": "2026-11-15T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f8bba7d0145dd8be139b8b9fbf7c504b05486ca.001.1",
+   "sent": "2026-11-15T09:59:00Z",
+   "onset": "2026-11-15T09:59:00Z",
+   "ends": "2026-11-15T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.040c0f4610d06fdd9d27398231b4ff0fa99c3af5.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.31,
+       -96.09,
+       27.6
+      ],
+      [
+       -96.11,
+       27.66
+      ],
+      [
+       -96.01,
        27.72
       ],
       [
-       -96.23,
+       -95.61,
        27.72
       ],
       [
-       -96.18,
-       27.83
+       -95.54,
+       27.66
       ],
       [
-       -95.81,
-       27.77
+       -95.58,
+       27.62
       ],
       [
-       -95.99,
-       27.51
+       -95.66,
+       27.56
       ],
       [
-       -96.31,
-       27.72
+       -95.72,
+       27.52
+      ],
+      [
+       -95.79,
+       27.48
+      ],
+      [
+       -96.09,
+       27.6
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.138,
-   "lat": 27.712,
+   "lon": -95.82,
+   "lat": 27.614,
    "countries": [
     "US"
    ]
@@ -2990,10 +3006,10 @@
    "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
+    "Columbia River Bar",
     "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
     "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
     "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
-    "Columbia River Bar",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
     "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
     "Coastal waters from Cape Foulweather to Florence OR out 10 nm"
@@ -3010,7 +3026,7 @@
    "sent": "2026-11-15T08:34:00Z",
    "onset": "2026-11-15T08:34:00Z",
    "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9d111315d10f24ea7236fb367de3767b09ad22e.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9d111315d10f24ea7236fb367de3767b09ad22e.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
