@@ -468,37 +468,6 @@
    ]
   },
   {
-   "id": "KSEW.FA.A.0011.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-14T20:05:00Z",
-   "onset": "2026-11-14T20:05:00Z",
-   "ends": "2026-11-15T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2a67fca0e9842b2a6651e5fbb4b1ec49933df34.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.173,
-   "lat": 47.351,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHUN.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1497,127 +1466,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Long",
-    "Inland Bryan",
-    "Inland Liberty",
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13029",
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13179",
-    "13183",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-14T23:43:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e671884d55064fb6079cdfb51ebbe064c3c8fba.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.4385,
-     32.018
-    ],
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.4579,
-     31.8075
-    ],
-    [
-     -81.7429,
-     31.7496
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.367,
-   "lat": 32.487,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMOB.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2530,6 +2378,127 @@
    ],
    "lon": -81.311,
    "lat": 33.829,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Jenkins",
+    "Screven",
+    "Candler",
+    "Bulloch",
+    "Effingham",
+    "Tattnall",
+    "Evans",
+    "Long",
+    "Inland Bryan",
+    "Inland Liberty",
+    "Allendale",
+    "Hampton",
+    "Inland Colleton",
+    "Dorchester",
+    "Inland Berkeley",
+    "Inland Jasper"
+   ],
+   "counties": [
+    "13029",
+    "13031",
+    "13043",
+    "13103",
+    "13109",
+    "13165",
+    "13179",
+    "13183",
+    "13251",
+    "13267",
+    "45005",
+    "45015",
+    "45029",
+    "45035",
+    "45049",
+    "45053"
+   ],
+   "sent": "2026-11-15T06:11:00Z",
+   "onset": "2026-11-15T06:11:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db30906576569643781b559142f004a251ed8589.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.4385,
+     32.018
+    ],
+    [
+     -81.7414,
+     32.3945
+    ],
+    [
+     -82.0713,
+     32.404
+    ],
+    [
+     -81.3434,
+     32.3617
+    ],
+    [
+     -81.8902,
+     32.1531
+    ],
+    [
+     -81.9715,
+     32.7946
+    ],
+    [
+     -81.4579,
+     31.8075
+    ],
+    [
+     -81.7429,
+     31.7496
+    ],
+    [
+     -81.6176,
+     32.7448
+    ],
+    [
+     -82.0592,
+     32.0438
+    ],
+    [
+     -81.3633,
+     32.9798
+    ],
+    [
+     -79.9537,
+     33.2077
+    ],
+    [
+     -80.6564,
+     32.8494
+    ],
+    [
+     -80.4047,
+     33.0822
+    ],
+    [
+     -81.1438,
+     32.7783
+    ],
+    [
+     -81.0216,
+     32.4306
+    ]
+   ],
+   "lon": -81.367,
+   "lat": 32.487,
    "countries": [
     "US"
    ]
