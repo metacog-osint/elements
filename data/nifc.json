@@ -580,11 +580,11 @@
    "acres": 5.0,
    "contained": null,
    "discovered": "2026-11-15T15:35:44Z",
-   "updated": "2026-11-15T16:27:43Z",
+   "updated": "2026-11-15T17:41:06Z",
    "state": "OK",
    "county": "Le Flore",
    "cause": "Human",
-   "complexity": null,
+   "complexity": "Type 5 Incident",
    "lon": -94.6081,
    "lat": 34.7078
   },
@@ -741,20 +741,6 @@
    "complexity": null,
    "lon": -92.3978,
    "lat": 35.2001
-  },
-  {
-   "id": "{9B1EF98D-67AE-4F24-BD31-3F4480A16869}",
-   "name": "Bradley 100360",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-15T17:03:00Z",
-   "updated": "2026-11-15T17:18:56Z",
-   "state": "AR",
-   "county": "Bradley",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.1794,
-   "lat": 33.4526
   },
   {
    "id": "{D327CBE1-B69D-40AE-BB63-2DC590A05BA9}",
@@ -1457,20 +1443,6 @@
    "lat": 48.4786
   },
   {
-   "id": "{25E72A55-7F8E-408D-9C40-10A4AB5F0E50}",
-   "name": "Golden",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-12T17:06:25Z",
-   "updated": "2026-11-12T17:10:45Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.506,
-   "lat": 34.3411
-  },
-  {
    "id": "{4D1033E5-0F91-4EC4-BFB4-EDDC3691ADFD}",
    "name": "Mtz/Bdc/Rancho",
    "acres": 0.0,
@@ -1805,6 +1777,20 @@
    "complexity": null,
    "lon": -118.0855,
    "lat": 33.9022
+  },
+  {
+   "id": "{C713AFA5-7BEA-42ED-9DB0-14A846D7C347}",
+   "name": "Lac-413469",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-15T17:55:59Z",
+   "updated": "2026-11-15T17:56:33Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1925,
+   "lat": 34.6821
   }
  ]
 }

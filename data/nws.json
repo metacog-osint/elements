@@ -779,32 +779,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.8971.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-15T12:45:00Z",
-   "onset": "2026-11-15T12:00:00Z",
-   "ends": "2026-11-16T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.8974.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -821,6 +795,32 @@
    "onset": "2026-11-15T12:00:00Z",
    "ends": "2026-11-16T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8971.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island out to 15 NM"
+   ],
+   "counties": [
+    "58814"
+   ],
+   "sent": "2026-11-15T12:45:00Z",
+   "onset": "2026-11-15T12:00:00Z",
+   "ends": "2026-11-16T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -915,58 +915,6 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBRO.MA.W.0056.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM"
-   ],
-   "counties": [
-    "77175"
-   ],
-   "sent": "2026-11-15T17:10:00Z",
-   "onset": "2026-11-15T17:10:00Z",
-   "ends": "2026-11-15T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd1003644b97aed6654711d94a958be8f7cc388f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.49,
-       26.79
-      ],
-      [
-       -96.53,
-       26.81
-      ],
-      [
-       -96.43,
-       26.96
-      ],
-      [
-       -96.27,
-       26.89
-      ],
-      [
-       -96.49,
-       26.79
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -96.442,
-   "lat": 26.848,
    "countries": [
     "US"
    ]
