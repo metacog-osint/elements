@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.10 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.12 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  [local path] (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -11,6 +11,20 @@
  *  this is site navigation. Keep PROGRAMS in step with the hub's oe/oe.js and product list.
  *    TicNav.mount(el?)   mounts the bar (done automatically once)
  *    TicNav.programs     the list below
+ *  On the hub itself (v1.11, Tom, 14 Nov 2026: the Programs menu on theintelligence.company too), load it with
+ *  data-home="here": the home link becomes plain text, since the reader is already home.
+ *
+ *  v1.12 (Tom, 14 Nov 2026: "each page's header should freeze as the page scrolls down… If the user chooses to
+ *  minimize the header bar, we should have a button for that, too, on the header"): the bar is fixed to the top of
+ *  the window, with an empty spacer after it holding its place in the page, so it stays put whether it is first in
+ *  <body> or inside #tic-nav. A button at its right end minimizes it to a small tab (the Programs button and a
+ *  button to bring the bar back); the choice is kept like the time settings, in a cookie for the whole
+ *  theintelligence.company domain (else localStorage), so it follows the visitor from site to site.
+ *  While mounted, <html> has the class tic-house-on (and tic-house-minimized when minimized), and tic-nav.css sets
+ *  --tic-house-h on it: 34px for the full bar, 0px minimized. A site whose own header is sticky or fixed at the top
+ *  uses `top: var(--tic-house-h, 0px)` to sit below the bar.
+ *    TicNav.minimized()      true when the bar is minimized
+ *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
  */
 (function () {
   "use strict";
@@ -32,6 +46,10 @@
       label: "Human · press framing",
       short: "How the world's press covers each watched zone and topic.",
       long: "How the world's press covers each watched conflict zone and strategic topic: attention, escalation and framing, refreshed twice a day from GDELT." },
+    { id: "undertow", name: "Undertow", href: "https://undertow.theintelligence.company", status: "beta", group: "layers",
+      label: "Human · influence operations",
+      short: "Covert influence operations that platforms and governments have taken down, at the level of the operation.",
+      long: "Covert influence operations as the platforms and governments that disrupted them report them: Meta's takedown networks, Google's influence-operations bulletins, OpenAI's threat reports, TikTok's reports under the EU Code of Conduct, and the EEAS's named operations. Each gives the origin the publisher assessed, the targets, and the DISARM techniques described, with a STIX 2.1 export. Operations only: no account handles, links or names of individuals." },
     { id: "vigil", name: "Vigil", href: "https://vigil.theintelligence.company", status: "live", group: "layers",
       label: "Cyberspace · threat intelligence",
       short: "Ransomware, exploited vulnerabilities and threat indicators.",
@@ -99,7 +117,32 @@
     return "";
   }
 
-  var mounted = false;
+  // v1.12: minimized or not, kept the way tic-time.js keeps its settings. Written only when the visitor presses the
+  // button, so a visitor who never does gets no cookie and no storage.
+  var KEY = "tic-nav-v1", COOKIE = "tic_nav";
+  function sharedDomain() {
+    return /(^|\.)theintelligence\.company$/.test(location.hostname) ? "theintelligence.company" : null;
+  }
+  function loadMini() {
+    var v = null;
+    try {
+      var m = document.cookie.match(new RegExp("(?:^|; )" + COOKIE + "=([^;]*)"));
+      if (m) v = decodeURIComponent(m[1]);
+    } catch (e) { /* cookies blocked */ }
+    if (!v) { try { v = localStorage.getItem(KEY); } catch (e) { /* storage blocked */ } }
+    return v === "min";
+  }
+  function saveMini(min) {
+    var v = min ? "min" : "full";
+    try { localStorage.setItem(KEY, v); } catch (e) { /* storage blocked */ }
+    try {
+      var d = sharedDomain();
+      document.cookie = COOKIE + "=" + v + "; Path=/; Max-Age=31536000; SameSite=Lax" +
+        (location.protocol === "https:" ? "; Secure" : "") + (d ? "; Domain=" + d : "");
+    } catch (e) { /* cookies blocked */ }
+  }
+
+  var mounted = false, setMini = null;
   function mount(target) {
     if (mounted) return;
     mounted = true;
@@ -107,10 +150,16 @@
     var nav = el("nav", "tic-house");
     nav.setAttribute("aria-label", "The Intelligence Company");
     var inner = el("div", "tic-house-in");
-    var home = el("a", "tic-house-home");
-    home.href = HOME;
-    home.append(el("span", "tic-house-arrow", "←"), " The Intelligence Company");
-    home.firstChild.setAttribute("aria-hidden", "true");
+    var atHome = script && script.getAttribute("data-home") === "here";
+    var home;
+    if (atHome) {
+      home = el("span", "tic-house-home", "The Intelligence Company");
+    } else {
+      home = el("a", "tic-house-home");
+      home.href = HOME;
+      home.append(el("span", "tic-house-arrow", "←"), " The Intelligence Company");
+      home.firstChild.setAttribute("aria-hidden", "true");
+    }
 
     var menu = el("div", "tic-house-menu");
     var btn = el("button", "tic-house-btn");
@@ -169,8 +218,31 @@
     all.href = ALL;
     panel.append(cols, all);
     menu.append(btn, panel);
-    inner.append(home, menu);
+    // v1.12: the minimize button, at the bar's right end. Minimized, the bar shrinks to a tab holding the Programs
+    // button and this button, which brings the bar back. The same button stays focused either way.
+    var tools = el("div", "tic-house-tools");
+    var mini = el("button", "tic-house-toggle");
+    mini.type = "button";
+    mini.append(el("span", "tic-house-chev"), el("span", "tic-house-sr"));
+    mini.firstChild.setAttribute("aria-hidden", "true");
+    tools.append(menu, mini);
+    inner.append(home, tools);
     nav.append(inner);
+    // Holds the bar's place in the page, since the bar itself is fixed to the top of the window.
+    var room = el("div", "tic-house-room");
+    room.setAttribute("aria-hidden", "true");
+
+    var root = document.documentElement;
+    setMini = function (min, remember) {
+      nav.classList.toggle("is-mini", min);
+      root.classList.toggle("tic-house-minimized", min);
+      var word = min ? "Show the house bar" : "Minimize the house bar";
+      mini.lastChild.textContent = word;
+      mini.title = word;
+      if (remember) saveMini(min);
+    };
+    setMini(loadMini(), false);
+    mini.addEventListener("click", function () { setMini(!nav.classList.contains("is-mini"), true); });
 
     function open() {
       panel.hidden = false;
@@ -200,9 +272,15 @@
     });
 
     var slot = target || document.getElementById("tic-nav");
-    if (slot) slot.append(nav); else document.body.insertBefore(nav, document.body.firstChild);
+    if (slot) slot.append(nav, room);
+    else { document.body.insertBefore(room, document.body.firstChild); document.body.insertBefore(nav, room); }
+    root.classList.add("tic-house-on");
   }
 
-  window.TicNav = { version: "1.10", programs: PROGRAMS.slice(), mount: mount };
+  window.TicNav = {
+    version: "1.12", programs: PROGRAMS.slice(), mount: mount,
+    minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
+    minimize: function (min) { if (setMini) setMini(min !== false, true); }
+  };
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", function () { mount(); });
 })();
