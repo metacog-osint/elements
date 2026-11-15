@@ -747,32 +747,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.8974.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-15T12:45:00Z",
-   "onset": "2026-11-15T12:00:00Z",
-   "ends": "2026-11-16T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.8971.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -789,6 +763,32 @@
    "onset": "2026-11-15T12:00:00Z",
    "ends": "2026-11-16T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8974.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-15T12:45:00Z",
+   "onset": "2026-11-15T12:00:00Z",
+   "ends": "2026-11-16T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -920,6 +920,90 @@
    ],
    "lon": -146.623,
    "lat": 63.773,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHGX.MA.W.0089.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Galveston Bay",
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
+    "Coastal waters from High Island to Freeport TX out 20 NM"
+   ],
+   "counties": [
+    "77335",
+    "77350",
+    "77355"
+   ],
+   "sent": "2026-11-15T21:21:00Z",
+   "onset": "2026-11-15T21:21:00Z",
+   "ends": "2026-11-15T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0f51b275c69767eab3fffabe1282bbbe5c512ec.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -95.04,
+       29.03
+      ],
+      [
+       -95.15,
+       28.71
+      ],
+      [
+       -95.51,
+       28.85
+      ],
+      [
+       -95.49,
+       28.85
+      ],
+      [
+       -95.49,
+       28.86
+      ],
+      [
+       -95.48,
+       28.85
+      ],
+      [
+       -95.48,
+       28.86
+      ],
+      [
+       -95.47,
+       28.86
+      ],
+      [
+       -95.47,
+       28.87
+      ],
+      [
+       -95.34,
+       28.93
+      ],
+      [
+       -95.27,
+       29.02
+      ],
+      [
+       -95.04,
+       29.03
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -95.353,
+   "lat": 28.893,
    "countries": [
     "US"
    ]
