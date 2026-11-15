@@ -405,8 +405,8 @@
    "id": "KCRP.FL.W.0029.2026",
    "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Corpus Christi TX",
    "areas": [
     "McMullen, TX"
@@ -414,10 +414,10 @@
    "counties": [
     "48311"
    ],
-   "sent": "2026-11-15T15:47:00Z",
-   "onset": "2026-11-15T15:47:00Z",
-   "ends": "2026-11-18T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40b6170256c15c4006bf8dd75dcb4052240655a5.001.1",
+   "sent": "2026-11-15T19:30:00Z",
+   "onset": "2026-11-15T19:30:00Z",
+   "ends": "2026-11-18T07:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.884a2986aa03c1fa0b7e8fbbfb4797ef2b10d698.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -920,6 +920,67 @@
    ]
   },
   {
+   "id": "KHGX.SV.W.0110.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Matagorda, TX"
+   ],
+   "counties": [
+    "48321"
+   ],
+   "sent": "2026-11-15T19:29:00Z",
+   "onset": "2026-11-15T19:29:00Z",
+   "ends": "2026-11-15T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b643a6aa41feb8cd8bf0f11324e45ddd9a67d624.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.24,
+       28.89
+      ],
+      [
+       -96.16,
+       29.02
+      ],
+      [
+       -95.78,
+       28.98
+      ],
+      [
+       -95.77,
+       28.83
+      ],
+      [
+       -95.91,
+       28.72
+      ],
+      [
+       -96.24,
+       28.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -96.0015,
+     28.7748
+    ]
+   ],
+   "lon": -96.017,
+   "lat": 28.888,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1026,6 +1087,131 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KVEF.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Las Vegas NV",
+   "areas": [
+    "Eastern Sierra Slopes of Inyo County"
+   ],
+   "counties": [
+    "06027"
+   ],
+   "sent": "2026-11-15T19:05:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2afc4270cc663353143c0fc7483aab0519ed8cf.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.4042,
+     36.5622
+    ]
+   ],
+   "lon": -117.404,
+   "lat": 36.562,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.WS.A.0004.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Northeastern Trinity"
+   ],
+   "counties": [
+    "06105"
+   ],
+   "sent": "2026-11-15T19:13:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ab325108a321c0ce4867f3d12204360cdbba996.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1147,
+     40.6479
+    ]
+   ],
+   "lon": -123.115,
+   "lat": 40.648,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.A.0006.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP",
+    "South End of the Upper Sierra"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-15T19:19:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3b56e92f70250f520f4e94e579b3fb12b5d95af.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
