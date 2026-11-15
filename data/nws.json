@@ -973,6 +973,110 @@
    ]
   },
   {
+   "id": "KBRO.MA.W.0049.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM"
+   ],
+   "counties": [
+    "77175"
+   ],
+   "sent": "2026-11-15T15:08:00Z",
+   "onset": "2026-11-15T15:08:00Z",
+   "ends": "2026-11-15T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2465e5824fd9fd0a81259c0360db075c6939a281.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.64,
+       26.71
+      ],
+      [
+       -96.77,
+       26.76
+      ],
+      [
+       -96.7,
+       26.94
+      ],
+      [
+       -96.52,
+       26.88
+      ],
+      [
+       -96.64,
+       26.71
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.654,
+   "lat": 26.8,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBRO.MA.W.0050.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Waters from Port Mansfield TX to the Rio Grande River from 20 to 60 NM"
+   ],
+   "counties": [
+    "77170"
+   ],
+   "sent": "2026-11-15T15:12:00Z",
+   "onset": "2026-11-15T15:12:00Z",
+   "ends": "2026-11-15T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63c6619ecdb41579449cd2dd905a892d0b10cfee.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.65,
+       26.13
+      ],
+      [
+       -96.75,
+       26.14
+      ],
+      [
+       -96.75,
+       26.3
+      ],
+      [
+       -96.6,
+       26.29
+      ],
+      [
+       -96.65,
+       26.13
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.68,
+   "lat": 26.198,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
