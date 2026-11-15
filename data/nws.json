@@ -1988,127 +1988,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Long",
-    "Inland Bryan",
-    "Inland Liberty",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13029",
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13179",
-    "13183",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-15T06:11:00Z",
-   "onset": "2026-11-15T06:11:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db30906576569643781b559142f004a251ed8589.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.4385,
-     32.018
-    ],
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.4579,
-     31.8075
-    ],
-    [
-     -81.7429,
-     31.7496
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.367,
-   "lat": 32.487,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTAE.FZ.W.0013.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2790,32 +2669,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.8971.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-15T12:45:00Z",
-   "onset": "2026-11-15T12:00:00Z",
-   "ends": "2026-11-16T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.8974.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2832,6 +2685,32 @@
    "onset": "2026-11-15T12:00:00Z",
    "ends": "2026-11-16T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8971.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island out to 15 NM"
+   ],
+   "counties": [
+    "58814"
+   ],
+   "sent": "2026-11-15T12:45:00Z",
+   "onset": "2026-11-15T12:00:00Z",
+   "ends": "2026-11-16T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],
