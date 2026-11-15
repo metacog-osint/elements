@@ -305,71 +305,6 @@
    ]
   },
   {
-   "id": "KSEW.FL.W.0037.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-15T14:24:00Z",
-   "onset": "2026-11-15T14:24:00Z",
-   "ends": "2026-11-16T21:26:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47390e6b5be83cf81b242495204991614cb2a0ed.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -123.1,
-       47.33
-      ],
-      [
-       -123.16,
-       47.28
-      ],
-      [
-       -123.33,
-       47.33
-      ],
-      [
-       -123.25,
-       47.34
-      ],
-      [
-       -123.19,
-       47.32
-      ],
-      [
-       -123.15,
-       47.35
-      ],
-      [
-       -123.1,
-       47.33
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.183,
-   "lat": 47.326,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCRP.FL.W.0029.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -430,6 +365,71 @@
    ],
    "lon": -98.599,
    "lat": 28.259,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.FL.W.0037.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Mason, WA"
+   ],
+   "counties": [
+    "53045"
+   ],
+   "sent": "2026-11-15T21:55:00Z",
+   "onset": "2026-11-15T21:55:00Z",
+   "ends": "2026-11-16T19:53:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae1e45e25d8d349e65a031c2561517ece4606c75.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -123.1,
+       47.33
+      ],
+      [
+       -123.16,
+       47.28
+      ],
+      [
+       -123.33,
+       47.33
+      ],
+      [
+       -123.25,
+       47.34
+      ],
+      [
+       -123.19,
+       47.32
+      ],
+      [
+       -123.15,
+       47.35
+      ],
+      [
+       -123.1,
+       47.33
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -123.1731,
+     47.3508
+    ]
+   ],
+   "lon": -123.183,
+   "lat": 47.326,
    "countries": [
     "US"
    ]
@@ -920,90 +920,6 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHGX.MA.W.0089.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Houston/Galveston TX",
-   "areas": [
-    "Galveston Bay",
-    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
-    "Coastal waters from High Island to Freeport TX out 20 NM"
-   ],
-   "counties": [
-    "77335",
-    "77350",
-    "77355"
-   ],
-   "sent": "2026-11-15T21:21:00Z",
-   "onset": "2026-11-15T21:21:00Z",
-   "ends": "2026-11-15T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0f51b275c69767eab3fffabe1282bbbe5c512ec.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -95.04,
-       29.03
-      ],
-      [
-       -95.15,
-       28.71
-      ],
-      [
-       -95.51,
-       28.85
-      ],
-      [
-       -95.49,
-       28.85
-      ],
-      [
-       -95.49,
-       28.86
-      ],
-      [
-       -95.48,
-       28.85
-      ],
-      [
-       -95.48,
-       28.86
-      ],
-      [
-       -95.47,
-       28.86
-      ],
-      [
-       -95.47,
-       28.87
-      ],
-      [
-       -95.34,
-       28.93
-      ],
-      [
-       -95.27,
-       29.02
-      ],
-      [
-       -95.04,
-       29.03
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -95.353,
-   "lat": 28.893,
    "countries": [
     "US"
    ]
