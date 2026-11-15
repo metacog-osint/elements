@@ -525,99 +525,6 @@
    ]
   },
   {
-   "id": "KMHX.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Martin",
-    "Pitt",
-    "Washington",
-    "Greene",
-    "Beaufort",
-    "Duplin",
-    "Lenoir",
-    "Jones",
-    "Northern Craven",
-    "Southern Craven",
-    "West Carteret",
-    "Inland Onslow",
-    "Coastal Onslow"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37061",
-    "37079",
-    "37103",
-    "37107",
-    "37117",
-    "37133",
-    "37147",
-    "37187"
-   ],
-   "sent": "2026-11-14T16:47:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9df48939abd0ea61db66bea531560a477dc07546.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -77.9335,
-     34.9344
-    ],
-    [
-     -77.6817,
-     35.482
-    ],
-    [
-     -77.3562,
-     35.0323
-    ],
-    [
-     -77.6355,
-     35.2401
-    ],
-    [
-     -77.1196,
-     35.8473
-    ],
-    [
-     -77.4995,
-     34.7631
-    ],
-    [
-     -77.3727,
-     35.5925
-    ],
-    [
-     -76.5723,
-     35.8447
-    ]
-   ],
-   "lon": -77.239,
-   "lat": 35.29,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTAE.FZ.W.0013.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2470,6 +2377,99 @@
    ]
   },
   {
+   "id": "KMHX.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Martin",
+    "Pitt",
+    "Washington",
+    "Greene",
+    "Beaufort",
+    "Duplin",
+    "Lenoir",
+    "Jones",
+    "Northern Craven",
+    "Southern Craven",
+    "West Carteret",
+    "Inland Onslow",
+    "Coastal Onslow"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37061",
+    "37079",
+    "37103",
+    "37107",
+    "37117",
+    "37133",
+    "37147",
+    "37187"
+   ],
+   "sent": "2026-11-15T05:01:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df7ce352de05a2394284fb03cabe3a599a2f0139.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -77.9335,
+     34.9344
+    ],
+    [
+     -77.6817,
+     35.482
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.6355,
+     35.2401
+    ],
+    [
+     -77.1196,
+     35.8473
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -77.3727,
+     35.5925
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -77.239,
+   "lat": 35.29,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.3845.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2883,17 +2883,17 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
+    "Atka and Adak",
     "Pribilof Islands",
-    "Shemya and Attu Islands",
-    "Atka and Adak"
+    "Shemya and Attu Islands"
    ],
    "counties": [
     "02016"
    ],
    "sent": "2026-11-14T21:31:00Z",
-   "onset": "2026-11-17T12:00:00Z",
+   "onset": "2026-11-17T09:00:00Z",
    "ends": "2026-11-18T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2931,32 +2931,6 @@
    "onset": "2026-11-14T21:24:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b833d2a11590e9f43fc749706bb4bc9e0c9492ce.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57470"
-   ],
-   "sent": "2026-11-14T22:47:00Z",
-   "onset": "2026-11-14T22:47:00Z",
-   "ends": "2026-11-15T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e28aab1c5399ffae1dac2fe570bf85d87b34b124.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3031,6 +3005,32 @@
    "onset": "2026-11-15T03:03:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03fa3da895a2bddcb4ce1153c75f6dd86aa09df7.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57470"
+   ],
+   "sent": "2026-11-15T04:52:00Z",
+   "onset": "2026-11-15T04:52:00Z",
+   "ends": "2026-11-15T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe714f408da5061d7d67c33864a464fb088d1b6e.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
