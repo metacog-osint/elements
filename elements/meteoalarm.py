@@ -246,6 +246,8 @@ def collect(old, now: datetime | None = None, fetch=fetch_or_none, feeds=None):
     if failed and len(failed) == len(feeds) and not kept:
         return old or [], "every country failed: " + "; ".join(failed[:3])
     kept.sort(key=lambda r: (-r["level"], r["country"] or "", r["onset"] or "", r["id"]))
+    if failed and len(failed) == len(feeds):  # only kept warnings: the source was not read (tools/elements.py)
+        return kept, "every country failed: " + "; ".join(failed[:3])
     return kept, (f"{len(failed)} of {len(feeds)} countries failed: " + "; ".join(failed[:5]) if failed else None)
 
 
