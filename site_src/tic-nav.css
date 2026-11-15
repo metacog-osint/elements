@@ -1,11 +1,21 @@
-/*! tic-nav.css v1.2 · pairs with tic-nav.js (canonical copy in D:\Projects\theintelligence-company\site\shared\).
+/*! tic-nav.css v1.3 · pairs with tic-nav.js (canonical copy in D:\Projects\theintelligence-company\site\shared\).
     House navy bar on every program site; the panel follows the viewer's light or dark setting. Everything is scoped
-    to .tic-house so a site's own styles (Tailwind's reset included) don't need changing. */
+    to .tic-house so a site's own styles (Tailwind's reset included) don't need changing.
+    v1.3 (with tic-nav.js v1.12): the bar is fixed to the top of the window and .tic-house-room holds its place; it
+    minimizes to a tab. --tic-house-h on <html> is the room it takes (34px, or 0px minimized or printed): a site's own
+    sticky or fixed header uses `top: var(--tic-house-h, 0px)` to sit below it. */
+html.tic-house-on { --tic-house-h: 34px; }
+html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
+/* Anchors and focused elements scroll clear of the bar. :where() keeps this weaker than any site's own rule, so a
+   site with its own sticky header sets scroll-padding-top itself (adding var(--tic-house-h, 0px)). */
+:where(html.tic-house-on) { scroll-padding-top: var(--tic-house-h); }
+.tic-house-room { display: block; height: var(--tic-house-h, 34px); margin: 0; padding: 0; border: 0; }
 .tic-house {
   --tn-bg: #14202E; --tn-ink: #EEF1F6; --tn-line: rgba(238, 241, 246, .35); --tn-acc: #E3A83B;
   --tn-panel: #FFFFFF; --tn-pink: #14202E; --tn-pmut: #555F6D; --tn-rule: #D8D3C8; --tn-hover: #F3F1EC;
   --tn-live: #1E6B3A; --tn-beta: #8A5A00; --tn-here: #8F5509; /* v1.2: amber text on the light panel read 1.9:1 */
-  position: relative; z-index: 10000; background: var(--tn-bg); /* v1.1: above site headers' own stacking */ color: var(--tn-ink);
+  position: fixed; top: 0; left: 0; right: 0; /* v1.3: stays at the top while the page scrolls */
+  z-index: 10000; background: var(--tn-bg); /* v1.1: above site headers' own stacking */ color: var(--tn-ink);
   /* v1.1: undo a site's generic nav rules (Watchfloor styles every <nav> as a flex row) */
   display: block; width: auto; height: auto; min-height: 0; margin: 0; padding: 0; border: 0; box-shadow: none;
   font: 400 13px/1.4 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -21,7 +31,7 @@
 .tic-house a { color: inherit; text-decoration: none; }
 .tic-house :focus-visible { outline: 2px solid var(--tn-acc); outline-offset: 2px; }
 
-.tic-house-in { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; min-height: 34px; display: flex;
+.tic-house-in { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; height: 34px; display: flex;
   align-items: center; justify-content: space-between; gap: 12px; }
 .tic-house-home { font-weight: 500; padding: 7px 0; white-space: nowrap; }
 .tic-house-home:hover { color: var(--tn-acc); }
@@ -31,6 +41,25 @@
   padding: 3px 10px; cursor: pointer; white-space: nowrap; }
 .tic-house-btn:hover, .tic-house-btn[aria-expanded="true"] { border-color: var(--tn-acc); color: var(--tn-acc); }
 .tic-house-caret { font-size: 10px; margin-left: 2px; }
+.tic-house-tools { display: flex; align-items: center; gap: 6px; }
+/* v1.3: minimize and restore. A chevron drawn with borders: up for minimize, down for restore. */
+.tic-house-toggle { appearance: none; -webkit-appearance: none; margin: 0; padding: 0; width: 26px; height: 25px;
+  display: inline-flex; align-items: center; justify-content: center; background: transparent; color: inherit;
+  border: 1px solid var(--tn-line); border-radius: 4px; cursor: pointer; }
+.tic-house-toggle:hover { border-color: var(--tn-acc); color: var(--tn-acc); }
+.tic-house-chev { display: block; width: 7px; height: 7px; border: solid currentColor; border-width: 1.5px 0 0 1.5px;
+  transform: translateY(2px) rotate(45deg); }
+.tic-house.is-mini .tic-house-chev { transform: translateY(-2px) rotate(225deg); }
+/* Minimized: only a tab at the top centre shows and takes clicks; the rest of the bar is transparent and lets clicks
+   through. The centre, because the program sites keep their Time button and links at the top right (checked on all
+   sixteen, 14 Nov 2026). The menu opens centred under the tab. */
+.tic-house.is-mini { background: transparent; pointer-events: none; }
+.tic-house.is-mini .tic-house-in { height: auto; justify-content: center; }
+.tic-house.is-mini .tic-house-home { display: none; }
+.tic-house.is-mini .tic-house-tools { pointer-events: auto; background: var(--tn-bg);
+  padding: 2px 6px 4px; border-radius: 0 0 6px 6px;
+  box-shadow: 0 0 0 1px rgba(238, 241, 246, .18), 0 3px 10px rgba(0, 0, 0, .3); }
+.tic-house.is-mini .tic-house-panel { left: 0; right: 0; margin: 6px auto 0; }
 
 .tic-house-panel { position: absolute; top: 100%; right: max(16px, calc((100% - 1200px) / 2 + 16px));
   width: min(780px, calc(100% - 32px)); margin-top: 6px; padding: 12px; background: var(--tn-panel);
@@ -63,10 +92,18 @@
 .tic-house-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
   clip-path: inset(50%); white-space: nowrap; }
 
-@media print { .tic-house { display: none !important; } } /* site navigation never prints */
+@media print { /* site navigation never prints */
+  .tic-house, .tic-house-room { display: none !important; }
+  html.tic-house-on { --tic-house-h: 0px; }
+}
 @media (max-width: 640px) {
   .tic-house-panel { left: 8px; right: 8px; width: auto; }
   .tic-house-cols { grid-template-columns: 1fr; }
   .tic-house-detail { display: none; } /* no hover on phones: each program shows its label and one line instead */
   .tic-house-short { display: block; }
+}
+@media (max-width: 360px) { /* v1.3: the home link, Programs and the minimize button fit on one row down to 320 px */
+  .tic-house-in { padding: 0 10px; gap: 8px; }
+  .tic-house-home { font-size: 12px; }
+  .tic-house-btn { padding: 3px 8px; }
 }
