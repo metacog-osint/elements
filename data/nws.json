@@ -920,59 +920,7 @@
    ]
   },
   {
-   "id": "KBRO.MA.W.0052.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Waters from Port Mansfield TX to the Rio Grande River from 20 to 60 NM"
-   ],
-   "counties": [
-    "77170"
-   ],
-   "sent": "2026-11-15T15:56:00Z",
-   "onset": "2026-11-15T15:56:00Z",
-   "ends": "2026-11-15T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eace8fdbe7eb98ede173877947eb6a20881213fa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.64,
-       26.25
-      ],
-      [
-       -96.73,
-       26.28
-      ],
-      [
-       -96.71,
-       26.4
-      ],
-      [
-       -96.58,
-       26.36
-      ],
-      [
-       -96.64,
-       26.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -96.66,
-   "lat": 26.308,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBRO.MA.W.0053.2026",
+   "id": "KBRO.MA.W.0054.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -984,41 +932,93 @@
    "counties": [
     "77175"
    ],
-   "sent": "2026-11-15T16:02:00Z",
-   "onset": "2026-11-15T16:02:00Z",
-   "ends": "2026-11-15T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a102aead7e1c7b148fb3bdf41137169ddf48be9.001.1",
+   "sent": "2026-11-15T16:39:00Z",
+   "onset": "2026-11-15T16:39:00Z",
+   "ends": "2026-11-15T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.182a6684d36d8a608ad4bcf082d797d881b46b02.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.35,
-       27.1
+       -96.55,
+       26.83
       ],
       [
-       -96.44,
-       26.93
+       -96.61,
+       26.86
       ],
       [
        -96.58,
-       26.97
+       26.94
+      ],
+      [
+       -96.48,
+       26.9
       ],
       [
        -96.55,
-       27.14
-      ],
-      [
-       -96.35,
-       27.1
+       26.83
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.454,
-   "lat": 27.048,
+   "lon": -96.554,
+   "lat": 26.872,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBRO.MA.W.0055.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM"
+   ],
+   "counties": [
+    "77175"
+   ],
+   "sent": "2026-11-15T16:39:00Z",
+   "onset": "2026-11-15T16:39:00Z",
+   "ends": "2026-11-15T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c86f60922028fb8c7041e1f6416d98d679e5b0e3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.55,
+       26.83
+      ],
+      [
+       -96.62,
+       26.86
+      ],
+      [
+       -96.59,
+       26.94
+      ],
+      [
+       -96.48,
+       26.9
+      ],
+      [
+       -96.55,
+       26.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.558,
+   "lat": 26.872,
    "countries": [
     "US"
    ]
