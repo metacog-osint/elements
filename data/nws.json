@@ -2883,17 +2883,17 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
+    "Atka and Adak",
     "Pribilof Islands",
-    "Shemya and Attu Islands",
-    "Atka and Adak"
+    "Shemya and Attu Islands"
    ],
    "counties": [
     "02016"
    ],
    "sent": "2026-11-14T21:31:00Z",
-   "onset": "2026-11-17T12:00:00Z",
+   "onset": "2026-11-17T09:00:00Z",
    "ends": "2026-11-18T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2904,6 +2904,58 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.MA.W.0067.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM"
+   ],
+   "counties": [
+    "77255"
+   ],
+   "sent": "2026-11-15T02:23:00Z",
+   "onset": "2026-11-15T02:23:00Z",
+   "ends": "2026-11-15T03:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.938c1bd261983809dc2103fc70f8f33dcd5b82f3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.96,
+       27.95
+      ],
+      [
+       -96.87,
+       28.05
+      ],
+      [
+       -96.71,
+       28.04
+      ],
+      [
+       -96.75,
+       27.88
+      ],
+      [
+       -96.96,
+       27.95
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.85,
+   "lat": 27.974,
    "countries": [
     "US"
    ]
