@@ -888,6 +888,43 @@
    ]
   },
   {
+   "id": "PAFG.HW.A.0018.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Northern Denali Borough",
+    "Eastern Alaska Range North of Trims Camp"
+   ],
+   "counties": [
+    "02068",
+    "02240"
+   ],
+   "sent": "2026-11-15T20:23:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9f415c815dd944c9c6b0068fdb39cca3643180c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -150.027,
+     63.682
+    ],
+    [
+     -143.2186,
+     63.865
+    ]
+   ],
+   "lon": -146.623,
+   "lat": 63.773,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
