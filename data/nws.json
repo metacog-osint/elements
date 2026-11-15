@@ -1,38 +1,6 @@
 {
  "records": [
   {
-   "id": "PAFG.BZ.W.0037.2026",
-   "event": "Blizzard Warning",
-   "severity": "Extreme",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Central Beaufort Sea Coast",
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-15T15:34:00Z",
-   "onset": "2026-11-15T15:34:00Z",
-   "ends": "2026-11-15T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a231b8c83951c0dcf578286e23f92ddbcc1e01f.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -920,67 +888,6 @@
    ]
   },
   {
-   "id": "KHGX.SV.W.0110.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Houston/Galveston TX",
-   "areas": [
-    "Matagorda, TX"
-   ],
-   "counties": [
-    "48321"
-   ],
-   "sent": "2026-11-15T19:29:00Z",
-   "onset": "2026-11-15T19:29:00Z",
-   "ends": "2026-11-15T20:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b643a6aa41feb8cd8bf0f11324e45ddd9a67d624.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.24,
-       28.89
-      ],
-      [
-       -96.16,
-       29.02
-      ],
-      [
-       -95.78,
-       28.98
-      ],
-      [
-       -95.77,
-       28.83
-      ],
-      [
-       -95.91,
-       28.72
-      ],
-      [
-       -96.24,
-       28.89
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -96.0015,
-     28.7748
-    ]
-   ],
-   "lon": -96.017,
-   "lat": 28.888,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1212,6 +1119,202 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Western Shasta County Mountains Above 3000 ft",
+    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
+    "Tehama County Coast Range Above 3000 ft",
+    "Glenn and Colusa County Coast Range Above 3000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06011",
+    "06017",
+    "06021",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-15T19:40:00Z",
+   "onset": "2026-11-18T06:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71f922528695b39a4563f43fad1d7cb51abeb6a8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -122.2376,
+     39.1777
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -122.4017,
+     39.6025
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -121.032,
+   "lat": 39.336,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.A.0006.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Mono"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-15T19:46:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23e8c17b27c37a4e4af233d3a09666c860908307.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
    "countries": [
     "US"
    ]
