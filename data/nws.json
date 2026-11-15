@@ -2899,6 +2899,84 @@
    "countries": [
     "US"
    ]
+  },
+  {
+   "id": "PAFC.SR.W.7501.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Pacific Side"
+   ],
+   "counties": [
+    "58785"
+   ],
+   "sent": "2026-11-15T12:11:00Z",
+   "onset": "2026-11-16T14:00:00Z",
+   "ends": "2026-11-17T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70373b0c35d514ca2cbf01e745e312076309b556.027.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7503.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kiska to Attu Pacific Side"
+   ],
+   "counties": [
+    "58787"
+   ],
+   "sent": "2026-11-15T12:11:00Z",
+   "onset": "2026-11-16T14:00:00Z",
+   "ends": "2026-11-17T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70373b0c35d514ca2cbf01e745e312076309b556.029.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7500.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Bering Side"
+   ],
+   "counties": [
+    "58784"
+   ],
+   "sent": "2026-11-15T12:11:00Z",
+   "onset": "2026-11-16T14:00:00Z",
+   "ends": "2026-11-17T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70373b0c35d514ca2cbf01e745e312076309b556.026.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
   }
  ]
 }
