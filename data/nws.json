@@ -925,6 +925,90 @@
    ]
   },
   {
+   "id": "KHGX.MA.W.0089.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Galveston Bay",
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
+    "Coastal waters from High Island to Freeport TX out 20 NM"
+   ],
+   "counties": [
+    "77335",
+    "77350",
+    "77355"
+   ],
+   "sent": "2026-11-15T21:21:00Z",
+   "onset": "2026-11-15T21:21:00Z",
+   "ends": "2026-11-15T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0f51b275c69767eab3fffabe1282bbbe5c512ec.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -95.04,
+       29.03
+      ],
+      [
+       -95.15,
+       28.71
+      ],
+      [
+       -95.51,
+       28.85
+      ],
+      [
+       -95.49,
+       28.85
+      ],
+      [
+       -95.49,
+       28.86
+      ],
+      [
+       -95.48,
+       28.85
+      ],
+      [
+       -95.48,
+       28.86
+      ],
+      [
+       -95.47,
+       28.86
+      ],
+      [
+       -95.47,
+       28.87
+      ],
+      [
+       -95.34,
+       28.93
+      ],
+      [
+       -95.27,
+       29.02
+      ],
+      [
+       -95.04,
+       29.03
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -95.353,
+   "lat": 28.893,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
