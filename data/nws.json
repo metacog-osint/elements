@@ -920,66 +920,6 @@
    ]
   },
   {
-   "id": "KBRO.MA.W.0051.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM"
-   ],
-   "counties": [
-    "77175"
-   ],
-   "sent": "2026-11-15T15:31:00Z",
-   "onset": "2026-11-15T15:31:00Z",
-   "ends": "2026-11-15T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63aecded8b79384174b9a3c2e14b32edcf7b95a3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.21,
-       27.08
-      ],
-      [
-       -96.22,
-       27.06
-      ],
-      [
-       -96.22,
-       27.03
-      ],
-      [
-       -96.24,
-       26.94
-      ],
-      [
-       -96.35,
-       26.96
-      ],
-      [
-       -96.34,
-       27.1
-      ],
-      [
-       -96.21,
-       27.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -96.256,
-   "lat": 27.036,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBRO.MA.W.0052.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
