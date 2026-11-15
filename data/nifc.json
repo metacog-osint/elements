@@ -171,16 +171,30 @@
   {
    "id": "{FCD25E2A-053E-46ED-85C1-BA967588B0EC}",
    "name": "Range 47",
-   "acres": 2378.0,
+   "acres": 2378.8,
    "contained": 60,
    "discovered": "2026-11-13T20:02:00Z",
-   "updated": "2026-11-14T03:56:14Z",
+   "updated": "2026-11-15T01:51:36Z",
    "state": "MS",
    "county": "Forrest",
    "cause": "Undetermined",
    "complexity": "Type 4 Incident",
    "lon": -89.1593,
    "lat": 31.0998
+  },
+  {
+   "id": "{E8A8D87D-2B9B-48A5-ACBC-1C55BF382323}",
+   "name": "Range 43 & Range 45",
+   "acres": 2378.0,
+   "contained": null,
+   "discovered": "2026-11-13T19:29:58Z",
+   "updated": "2026-11-15T01:50:35Z",
+   "state": "MS",
+   "county": "Forrest",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.1547,
+   "lat": 31.1168
   },
   {
    "id": "{DE469701-A9F7-456E-B0A3-3B15CC8F0C37}",
@@ -195,6 +209,20 @@
    "complexity": "Type 5 Incident",
    "lon": -82.8578,
    "lat": 30.4953
+  },
+  {
+   "id": "{68BC2BA0-2A4F-4D62-9379-F97D6A7C457F}",
+   "name": "201W",
+   "acres": 900.0,
+   "contained": null,
+   "discovered": "2026-11-13T17:54:00Z",
+   "updated": "2026-11-15T01:55:22Z",
+   "state": "MS",
+   "county": "Perry",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.0798,
+   "lat": 31.1198
   },
   {
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
@@ -1287,34 +1315,6 @@
    "complexity": null,
    "lon": -89.2976,
    "lat": 43.6431
-  },
-  {
-   "id": "{68BC2BA0-2A4F-4D62-9379-F97D6A7C457F}",
-   "name": "201W",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-13T17:54:00Z",
-   "updated": "2026-11-14T23:58:35Z",
-   "state": "MS",
-   "county": "Perry",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.0798,
-   "lat": 31.1198
-  },
-  {
-   "id": "{E8A8D87D-2B9B-48A5-ACBC-1C55BF382323}",
-   "name": "Range 43 & Range 45",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-13T19:29:58Z",
-   "updated": "2026-11-14T17:11:21Z",
-   "state": "MS",
-   "county": "Forrest",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.1547,
-   "lat": 31.1168
   },
   {
    "id": "{91AD129D-4D99-45DC-AF9B-21CA5BA179E3}",
