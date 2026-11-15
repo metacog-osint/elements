@@ -2955,21 +2955,17 @@
    "counties": [
     "77275"
    ],
-   "sent": "2026-11-15T08:02:00Z",
-   "onset": "2026-11-15T08:02:00Z",
+   "sent": "2026-11-15T08:27:00Z",
+   "onset": "2026-11-15T08:27:00Z",
    "ends": "2026-11-15T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b46c2e5686109e355f6df208aa65784e0c2479cd.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25518b55a7fe29f942d3b4d3faeef4642fafd732.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.57,
-       27.83
-      ],
-      [
-       -96.47,
-       27.91
+       -96.41,
+       27.76
       ],
       [
        -96.35,
@@ -2988,16 +2984,16 @@
        27.57
       ],
       [
-       -96.57,
-       27.83
+       -96.41,
+       27.76
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.326,
-   "lat": 27.817,
+   "lon": -96.248,
+   "lat": 27.778,
    "countries": [
     "US"
    ]
@@ -3025,44 +3021,6 @@
    "onset": "2026-11-14T21:24:00Z",
    "ends": "2026-11-15T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b833d2a11590e9f43fc749706bb4bc9e0c9492ce.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0003.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
-    "Columbia River Bar",
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
-    "Coastal waters from Cape Foulweather to Florence OR out 10 nm"
-   ],
-   "counties": [
-    "57210",
-    "57251",
-    "57252",
-    "57253",
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-15T01:05:00Z",
-   "onset": "2026-11-15T01:05:00Z",
-   "ends": "2026-11-15T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed18bb5e9e2621a4dcf8bbc8ed54d4fa0a2fc7c4.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3125,6 +3083,44 @@
    "onset": "2026-11-15T04:52:00Z",
    "ends": "2026-11-15T11:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe714f408da5061d7d67c33864a464fb088d1b6e.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0003.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Columbia River Bar",
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Coastal waters from Cape Foulweather to Florence OR out 10 nm"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57253",
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-15T08:34:00Z",
+   "onset": "2026-11-15T08:34:00Z",
+   "ends": "2026-11-15T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9d111315d10f24ea7236fb367de3767b09ad22e.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
