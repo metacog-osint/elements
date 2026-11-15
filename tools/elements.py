@@ -29,6 +29,19 @@ def drought_summary(rec) -> str:
     return f"week of {w[0]['map_date']}: {w[0]['d1']}% in drought, map of {rec.get('map_date') or 'no week'}" if w else "no data"
 
 
+def read_this_run(records, err, prev_records) -> bool:
+    """Whether a source counts as read in data/health.json (15 Nov 2026). Read: it answered with no error, or with an
+    error that still left records read on this run (one FIRMS satellite, some MeteoAlarm countries, the drought map).
+    Not read: nothing came, or the run kept the last good copy whole (the collector handed back the previous records,
+    or said every country or centre failed). Before this, a kept copy counted as read, so the history step, and COP's
+    ledger from the feed's health block, took the kept items as seen again on every failed run."""
+    if not err:
+        return True
+    if not records or records is prev_records:
+        return False
+    return not str(err).startswith("every ")
+
+
 def collect() -> dict:
     when = now_utc()
     prev = {k: (load(f"{k}.json", {}) or {}).get("records") for k in LANES}
@@ -40,8 +53,9 @@ def collect() -> dict:
     caught, caught_err = weather.collect_nws_since(start)
     caught_at = now_utc()
     got = sources.collect_all(prev, when)
-    # active_error: health counts a lane as read when an error left its last records in place, so the history step
-    # needs to know whether this run's active list is fresh before it calls anything "no longer active".
+    # active_error: health counts a lane as read when an error still left records read on this run (a partial read),
+    # so the history step needs to know whether this run's active list is fresh before it calls anything "no longer
+    # active".
     save("nws_recent.json", {"fetched_at": caught_at, "start": start, "error": caught_err,
                              "active_error": got["nws"][1], "records": caught})
     summary = {}
@@ -53,7 +67,7 @@ def collect() -> dict:
                   else meteoalarm.summary(records) if k == "meteoalarm" else f"{len(records)} records")
         if err:
             detail = f"{detail} ({err})" if records else err
-        health(src, not err or bool(records), detail, when)
+        health(src, read_this_run(records, err, prev[k]), detail, when)
         summary[k] = detail
     summary["nws catch-up"] = caught_err or f"{len(caught)} alerts issued since {start}"
     fp = got["firms"][0]

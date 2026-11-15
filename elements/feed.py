@@ -503,4 +503,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
                            "Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) and the National Interagency Fire "
                            "Center (WFIGS).",
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
+            # The kit's per-source health block, keyed by the source id each item carries (15 Nov 2026): COP's ledger
+            # reads it so that a failed source's kept items neither end nor count as seen again.
+            "health": d.get("health") or {},
             "dropped": dropped, "features": kept}

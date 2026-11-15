@@ -69,7 +69,7 @@ def collect(old, now: datetime | None = None, fetch=fetch_or_none):
     now = now or datetime.now(timezone.utc)
     keep = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     records = {r["id"]: r for r in old or [] if (r.get("sent") or "") >= keep}
-    problems = []
+    problems, answered = [], 0
     for centre, url in CENTRES.items():
         body, err = fetch(url, 40)
         if body is None:
@@ -80,6 +80,7 @@ def collect(old, now: datetime | None = None, fetch=fetch_or_none):
         except ET.ParseError as e:
             problems.append(f"{centre} feed: parse: {e}")
             continue
+        answered += 1
         for link in links:
             cap, err = fetch(link, 40)
             if cap is None:
@@ -95,4 +96,6 @@ def collect(old, now: datetime | None = None, fetch=fetch_or_none):
                 if not prev or (rec["sent"] or "") >= (prev.get("sent") or ""):
                     records[rec["id"]] = rec
     out = sorted(records.values(), key=lambda r: r.get("sent") or "", reverse=True)
+    if not answered:  # only kept messages: the source was not read (tools/elements.py)
+        return out, "every centre failed: " + "; ".join(problems)
     return out, ("; ".join(problems) or None)
