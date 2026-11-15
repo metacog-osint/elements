@@ -1,4 +1,4 @@
-/*! tic-nav.js v1.12 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v1.13 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -25,6 +25,7 @@
  *  uses `top: var(--tic-house-h, 0px)` to sit below the bar.
  *    TicNav.minimized()      true when the bar is minimized
  *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
+ *  v1.13 (15 Nov 2026): Wake (shipping through maritime chokepoints, beta) in the Programs menu.
  */
 (function () {
   "use strict";
@@ -86,6 +87,10 @@
       label: "Land and maritime · natural hazards",
       short: "Natural hazards as the authorities report them.",
       long: "Natural hazards as the authorities report them, on one map. Worldwide: earthquakes from USGS (with impact alerts) and EMSC, satellite fire detections, GDACS multi-hazard alerts and Copernicus disaster mapping. Regional: weather warnings for the US and Europe, hurricane-center storms, and tsunami messages for North America, the Pacific and the Caribbean. US only for now: wildfire incidents, severe-storm outlooks, drought and volcano alert levels. Weather for more of the world is planned." },
+    { id: "wake", name: "Wake", href: "https://wake.theintelligence.company", status: "beta", group: "layers",
+      label: "Land and maritime · shipping chokepoints",
+      short: "Ships crossing the world's maritime chokepoints, week by week, against their own normal.",
+      long: "Vessel transits through 28 maritime chokepoints, from Hormuz and Bab el-Mandeb to Malacca and Panama: IMF PortWatch's daily counts by ship type, as weekly means compared with the 90 days before and the same weeks a year earlier. Updated by hand once a week. Measurements only." },
     { id: "propertycast", name: "PropertyCast", href: "https://propertycast.theintelligence.company", status: "live", group: "tools",
       label: "Weather · one property",
       short: "A hyperlocal forecast that checks itself every hour.",
@@ -278,7 +283,7 @@
   }
 
   window.TicNav = {
-    version: "1.12", programs: PROGRAMS.slice(), mount: mount,
+    version: "1.13", programs: PROGRAMS.slice(), mount: mount,
     minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
     minimize: function (min) { if (setMini) setMini(min !== false, true); }
   };
