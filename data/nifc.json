@@ -729,6 +729,20 @@
    "lat": 35.3029
   },
   {
+   "id": "{3205FD05-A585-4720-BCAE-0B3028FD3698}",
+   "name": "Faulkner 700231",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-15T16:55:10Z",
+   "updated": "2026-11-15T16:59:56Z",
+   "state": "AR",
+   "county": "Faulkner",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.3978,
+   "lat": 35.2001
+  },
+  {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
    "name": "Cutoff",
    "acres": 0.9,
@@ -1107,20 +1121,6 @@
    "lat": 46.4852
   },
   {
-   "id": "{1F929C79-1425-47DB-A6F4-DAC0CD7E1C32}",
-   "name": "Brad-AL",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-08T15:03:05Z",
-   "updated": "2026-11-12T16:23:30Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.7719,
-   "lat": 30.5139
-  },
-  {
    "id": "{E59B9DFF-A92B-477A-AD90-6E34E42C4883}",
    "name": "Pony",
    "acres": 0.1,
@@ -1147,20 +1147,6 @@
    "complexity": null,
    "lon": -117.6986,
    "lat": 45.3813
-  },
-  {
-   "id": "{7D47F12F-B1F7-40B6-A117-0E92EC226D42}",
-   "name": "Hickory Spring",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-10T10:28:00Z",
-   "updated": "2026-11-12T16:44:31Z",
-   "state": "VA",
-   "county": "Augusta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -78.9661,
-   "lat": 37.9239
   },
   {
    "id": "{D08A87EE-C925-4739-9072-B406A4A221B8}",
@@ -1231,6 +1217,20 @@
    "complexity": null,
    "lon": -118.5157,
    "lat": 44.0685
+  },
+  {
+   "id": "{ADB8016F-6E53-4D3F-9832-2E1145C35432}",
+   "name": "0933",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-15T15:40:27Z",
+   "updated": "2026-11-15T16:39:36Z",
+   "state": "OR",
+   "county": "Deschutes",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -121.6116,
+   "lat": 44.3617
   },
   {
    "id": "{F4D9254E-63FF-47F5-A54A-59D9803A7F29}",
@@ -1427,48 +1427,6 @@
    "complexity": null,
    "lon": -112.8036,
    "lat": 48.4786
-  },
-  {
-   "id": "{393D86E0-68C9-444B-8B8F-5C56FF454478}",
-   "name": "Lac-409520",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-12T16:10:24Z",
-   "updated": "2026-11-12T16:10:48Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1259,
-   "lat": 34.6311
-  },
-  {
-   "id": "{E8C24BDF-C9E1-4D49-A1D6-B70969EE882D}",
-   "name": "Lac-409525",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-12T16:16:40Z",
-   "updated": "2026-11-12T16:17:10Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.8717,
-   "lat": 34.003
-  },
-  {
-   "id": "{315FE710-AD3A-432C-BCCC-5B4AD173D010}",
-   "name": "Lac-409534",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-12T16:23:10Z",
-   "updated": "2026-11-12T16:23:25Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1657,
-   "lat": 34.6838
   },
   {
    "id": "{25E72A55-7F8E-408D-9C40-10A4AB5F0E50}",
