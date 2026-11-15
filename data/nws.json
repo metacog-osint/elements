@@ -779,32 +779,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.8974.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-15T12:45:00Z",
-   "onset": "2026-11-15T12:00:00Z",
-   "ends": "2026-11-16T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.8971.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -821,6 +795,32 @@
    "onset": "2026-11-15T12:00:00Z",
    "ends": "2026-11-16T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.004.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8974.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-15T12:45:00Z",
+   "onset": "2026-11-15T12:00:00Z",
+   "ends": "2026-11-16T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80ac70df099a8c7c6bfce2c01c10fb70821febbc.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -920,7 +920,7 @@
    ]
   },
   {
-   "id": "KBRO.MA.W.0054.2026",
+   "id": "KBRO.MA.W.0056.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -932,93 +932,41 @@
    "counties": [
     "77175"
    ],
-   "sent": "2026-11-15T16:39:00Z",
-   "onset": "2026-11-15T16:39:00Z",
-   "ends": "2026-11-15T17:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.182a6684d36d8a608ad4bcf082d797d881b46b02.001.1",
+   "sent": "2026-11-15T17:10:00Z",
+   "onset": "2026-11-15T17:10:00Z",
+   "ends": "2026-11-15T17:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd1003644b97aed6654711d94a958be8f7cc388f.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -96.55,
-       26.83
+       -96.49,
+       26.79
       ],
       [
-       -96.61,
-       26.86
+       -96.53,
+       26.81
       ],
       [
-       -96.58,
-       26.94
+       -96.43,
+       26.96
       ],
       [
-       -96.48,
-       26.9
+       -96.27,
+       26.89
       ],
       [
-       -96.55,
-       26.83
+       -96.49,
+       26.79
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -96.554,
-   "lat": 26.872,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBRO.MA.W.0055.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM"
-   ],
-   "counties": [
-    "77175"
-   ],
-   "sent": "2026-11-15T16:39:00Z",
-   "onset": "2026-11-15T16:39:00Z",
-   "ends": "2026-11-15T17:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c86f60922028fb8c7041e1f6416d98d679e5b0e3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.55,
-       26.83
-      ],
-      [
-       -96.62,
-       26.86
-      ],
-      [
-       -96.59,
-       26.94
-      ],
-      [
-       -96.48,
-       26.9
-      ],
-      [
-       -96.55,
-       26.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -96.558,
-   "lat": 26.872,
+   "lon": -96.442,
+   "lat": 26.848,
    "countries": [
     "US"
    ]
