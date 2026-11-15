@@ -34,43 +34,6 @@
    ]
   },
   {
-   "id": "KLOX.CF.W.0002.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083"
-   ],
-   "sent": "2026-11-14T12:02:00Z",
-   "onset": "2026-11-14T12:02:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23e2632c41b8a812adeaffc0dd96c84ff5e8f0c1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ]
-   ],
-   "lon": -120.244,
-   "lat": 34.962,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1199,145 +1162,6 @@
    ],
    "lon": -84.807,
    "lat": 31.52,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Durham",
-    "Franklin",
-    "Nash",
-    "Edgecombe",
-    "Chatham",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Montgomery",
-    "Moore",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Anson",
-    "Richmond",
-    "Scotland",
-    "Hoke",
-    "Cumberland",
-    "Sampson"
-   ],
-   "counties": [
-    "37007",
-    "37037",
-    "37051",
-    "37063",
-    "37065",
-    "37069",
-    "37085",
-    "37093",
-    "37101",
-    "37105",
-    "37123",
-    "37125",
-    "37127",
-    "37153",
-    "37163",
-    "37165",
-    "37183",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-14T18:16:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f30d61b1b78ac3eba06bf2aec05d224fee9ca3c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.1098,
-     34.975
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -79.242,
-     35.0172
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -79.9108,
-     35.3275
-    ],
-    [
-     -79.4927,
-     35.3083
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.7557,
-     35.0046
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -79.4773,
-     34.84
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.852,
-   "lat": 35.443,
    "countries": [
     "US"
    ]
@@ -2507,235 +2331,140 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9958.2026",
-   "event": "Heavy Freezing Spray Warning",
+   "id": "KRAH.FZ.W.0003.2026",
+   "event": "Freeze Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
+   "sender": "NWS Raleigh NC",
    "areas": [
-    "Western US Arctic Offshore"
+    "Durham",
+    "Franklin",
+    "Nash",
+    "Edgecombe",
+    "Chatham",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Montgomery",
+    "Moore",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Anson",
+    "Richmond",
+    "Scotland",
+    "Hoke",
+    "Cumberland",
+    "Sampson"
    ],
    "counties": [
-    "58500"
+    "37007",
+    "37037",
+    "37051",
+    "37063",
+    "37065",
+    "37069",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37123",
+    "37125",
+    "37127",
+    "37153",
+    "37163",
+    "37165",
+    "37183",
+    "37191",
+    "37195"
    ],
-   "sent": "2026-11-13T12:45:00Z",
-   "onset": "2026-11-13T13:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a23aca068e5b3d78b393fe0ad4b4283b4c0e1658.001.1",
+   "sent": "2026-11-15T02:05:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.438f3238e3cabb65787284fae3ba641263d73e4d.001.1",
    "geometry": null,
    "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2392.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Western US Arctic Offshore"
+   "points": [
+    [
+     -80.1098,
+     34.975
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.9108,
+     35.3275
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.7557,
+     35.0046
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -79.4773,
+     34.84
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
    ],
-   "counties": [
-    "58500"
-   ],
-   "sent": "2026-11-14T00:45:00Z",
-   "onset": "2026-11-14T01:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a543db681ff798c07684a46b6f4d70f1001593f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1655.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin out to 15 NM"
-   ],
-   "counties": [
-    "58812"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1666.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1664.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1657.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett out to 15 NM"
-   ],
-   "counties": [
-    "58813"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1661.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1660.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island out to 15 NM"
-   ],
-   "counties": [
-    "58814"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.1669.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Halkett to Flaxman Island from 15 to 80 NM"
-   ],
-   "counties": [
-    "58860"
-   ],
-   "sent": "2026-11-14T00:48:00Z",
-   "onset": "2026-11-14T00:00:00Z",
-   "ends": "2026-11-15T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebb9ee98971d21fff60de97233494d34280d7f4.009.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
+   "lon": -78.852,
+   "lat": 35.443,
    "countries": [
     "US"
    ]
@@ -3154,17 +2883,17 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
-    "Atka and Adak",
     "Pribilof Islands",
-    "Shemya and Attu Islands"
+    "Shemya and Attu Islands",
+    "Atka and Adak"
    ],
    "counties": [
     "02016"
    ],
    "sent": "2026-11-14T21:31:00Z",
-   "onset": "2026-11-17T09:00:00Z",
+   "onset": "2026-11-17T12:00:00Z",
    "ends": "2026-11-18T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
