@@ -1422,109 +1422,6 @@
    ]
   },
   {
-   "id": "KCHS.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Jenkins",
-    "Screven",
-    "Candler",
-    "Bulloch",
-    "Effingham",
-    "Tattnall",
-    "Evans",
-    "Allendale",
-    "Hampton",
-    "Inland Colleton",
-    "Dorchester",
-    "Inland Berkeley",
-    "Inland Jasper"
-   ],
-   "counties": [
-    "13031",
-    "13043",
-    "13103",
-    "13109",
-    "13165",
-    "13251",
-    "13267",
-    "45005",
-    "45015",
-    "45029",
-    "45035",
-    "45049",
-    "45053"
-   ],
-   "sent": "2026-11-14T18:17:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aed8da366eb3c0e8df650ec0fe35a33708ea73c3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.7414,
-     32.3945
-    ],
-    [
-     -82.0713,
-     32.404
-    ],
-    [
-     -81.3434,
-     32.3617
-    ],
-    [
-     -81.8902,
-     32.1531
-    ],
-    [
-     -81.9715,
-     32.7946
-    ],
-    [
-     -81.6176,
-     32.7448
-    ],
-    [
-     -82.0592,
-     32.0438
-    ],
-    [
-     -81.3633,
-     32.9798
-    ],
-    [
-     -79.9537,
-     33.2077
-    ],
-    [
-     -80.6564,
-     32.8494
-    ],
-    [
-     -80.4047,
-     33.0822
-    ],
-    [
-     -81.1438,
-     32.7783
-    ],
-    [
-     -81.0216,
-     32.4306
-    ]
-   ],
-   "lon": -81.326,
-   "lat": 32.633,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCAE.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2446,6 +2343,170 @@
    ]
   },
   {
+   "id": "KAKQ.FZ.W.0005.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Gates",
+    "Bertie",
+    "Suffolk"
+   ],
+   "counties": [
+    "37015",
+    "37073",
+    "51800"
+   ],
+   "sent": "2026-11-14T23:37:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a68fafa8cae7d92d0d5468726854bc0bdd29f78a.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.9624,
+     36.059
+    ],
+    [
+     -76.7024,
+     36.4421
+    ],
+    [
+     -76.6348,
+     36.6972
+    ]
+   ],
+   "lon": -76.767,
+   "lat": 36.399,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Long",
+    "Inland Bryan",
+    "Inland Liberty",
+    "Jenkins",
+    "Screven",
+    "Candler",
+    "Bulloch",
+    "Effingham",
+    "Tattnall",
+    "Evans",
+    "Allendale",
+    "Hampton",
+    "Inland Colleton",
+    "Dorchester",
+    "Inland Berkeley",
+    "Inland Jasper"
+   ],
+   "counties": [
+    "13029",
+    "13031",
+    "13043",
+    "13103",
+    "13109",
+    "13165",
+    "13179",
+    "13183",
+    "13251",
+    "13267",
+    "45005",
+    "45015",
+    "45029",
+    "45035",
+    "45049",
+    "45053"
+   ],
+   "sent": "2026-11-14T23:43:00Z",
+   "onset": "2026-11-15T06:00:00Z",
+   "ends": "2026-11-15T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e671884d55064fb6079cdfb51ebbe064c3c8fba.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.4385,
+     32.018
+    ],
+    [
+     -81.7414,
+     32.3945
+    ],
+    [
+     -82.0713,
+     32.404
+    ],
+    [
+     -81.3434,
+     32.3617
+    ],
+    [
+     -81.8902,
+     32.1531
+    ],
+    [
+     -81.9715,
+     32.7946
+    ],
+    [
+     -81.4579,
+     31.8075
+    ],
+    [
+     -81.7429,
+     31.7496
+    ],
+    [
+     -81.6176,
+     32.7448
+    ],
+    [
+     -82.0592,
+     32.0438
+    ],
+    [
+     -81.3633,
+     32.9798
+    ],
+    [
+     -79.9537,
+     33.2077
+    ],
+    [
+     -80.6564,
+     32.8494
+    ],
+    [
+     -80.4047,
+     33.0822
+    ],
+    [
+     -81.1438,
+     32.7783
+    ],
+    [
+     -81.0216,
+     32.4306
+    ]
+   ],
+   "lon": -81.367,
+   "lat": 32.487,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.9958.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2911,17 +2972,17 @@
    "certainty": "Possible",
    "sender": "NWS Anchorage AK",
    "areas": [
-    "Atka and Adak",
     "Pribilof Islands",
-    "Shemya and Attu Islands"
+    "Shemya and Attu Islands",
+    "Atka and Adak"
    ],
    "counties": [
     "02016"
    ],
    "sent": "2026-11-14T21:31:00Z",
-   "onset": "2026-11-17T09:00:00Z",
+   "onset": "2026-11-17T12:00:00Z",
    "ends": "2026-11-18T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.680bbf1e781a90a7c7cdbd357b23ea929fc43bd5.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
