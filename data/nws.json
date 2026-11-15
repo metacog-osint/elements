@@ -1436,145 +1436,6 @@
    ]
   },
   {
-   "id": "KRAH.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Durham",
-    "Franklin",
-    "Nash",
-    "Edgecombe",
-    "Chatham",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Montgomery",
-    "Moore",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Anson",
-    "Richmond",
-    "Scotland",
-    "Hoke",
-    "Cumberland",
-    "Sampson"
-   ],
-   "counties": [
-    "37007",
-    "37037",
-    "37051",
-    "37063",
-    "37065",
-    "37069",
-    "37085",
-    "37093",
-    "37101",
-    "37105",
-    "37123",
-    "37125",
-    "37127",
-    "37153",
-    "37163",
-    "37165",
-    "37183",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-15T02:05:00Z",
-   "onset": "2026-11-15T06:00:00Z",
-   "ends": "2026-11-15T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.438f3238e3cabb65787284fae3ba641263d73e4d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.1098,
-     34.975
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -79.242,
-     35.0172
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -79.9108,
-     35.3275
-    ],
-    [
-     -79.4927,
-     35.3083
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.7557,
-     35.0046
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -79.4773,
-     34.84
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.852,
-   "lat": 35.443,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBMX.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2504,6 +2365,145 @@
    ]
   },
   {
+   "id": "KRAH.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Durham",
+    "Franklin",
+    "Nash",
+    "Edgecombe",
+    "Chatham",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Montgomery",
+    "Moore",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Anson",
+    "Richmond",
+    "Scotland",
+    "Hoke",
+    "Cumberland",
+    "Sampson"
+   ],
+   "counties": [
+    "37007",
+    "37037",
+    "37051",
+    "37063",
+    "37065",
+    "37069",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37123",
+    "37125",
+    "37127",
+    "37153",
+    "37163",
+    "37165",
+    "37183",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-15T07:47:00Z",
+   "onset": "2026-11-15T07:47:00Z",
+   "ends": "2026-11-15T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6967e472a886be4415aea3a34d1979cb4d42a2b6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.1098,
+     34.975
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.9108,
+     35.3275
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.7557,
+     35.0046
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -79.4773,
+     34.84
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -78.852,
+   "lat": 35.443,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.3845.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2938,6 +2938,66 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.MA.W.0068.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM"
+   ],
+   "counties": [
+    "77275"
+   ],
+   "sent": "2026-11-15T08:02:00Z",
+   "onset": "2026-11-15T08:02:00Z",
+   "ends": "2026-11-15T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b46c2e5686109e355f6df208aa65784e0c2479cd.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.57,
+       27.83
+      ],
+      [
+       -96.47,
+       27.91
+      ],
+      [
+       -96.35,
+       27.87
+      ],
+      [
+       -96.24,
+       27.9
+      ],
+      [
+       -95.95,
+       27.81
+      ],
+      [
+       -96.13,
+       27.57
+      ],
+      [
+       -96.57,
+       27.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.326,
+   "lat": 27.817,
    "countries": [
     "US"
    ]
