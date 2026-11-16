@@ -1,6 +1,20 @@
 {
  "records": [
   {
+   "id": "20261116_0000058",
+   "mag": 5.4,
+   "magtype": "mw",
+   "time": "2026-11-16T04:24:11Z",
+   "updated": "2026-11-16T04:53:17Z",
+   "region": "Near West Coast Of Honshu, Japan",
+   "depth_km": 273.6,
+   "authority": "NEIC",
+   "lat": 37.366,
+   "lon": 136.744,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261116_0000058"
+  },
+  {
    "id": "20261115_0000272",
    "mag": 4.8,
    "magtype": "mb",
@@ -18,13 +32,13 @@
    "id": "20261115_0000257",
    "mag": 4.9,
    "magtype": "mw",
-   "time": "2026-11-15T21:37:21Z",
-   "updated": "2026-11-15T22:16:29Z",
+   "time": "2026-11-15T21:37:22Z",
+   "updated": "2026-11-16T04:12:57Z",
    "region": "Hindu Kush Region, Afghanistan",
-   "depth_km": 191.4,
-   "authority": "NEIC",
-   "lat": 36.466,
-   "lon": 70.921,
+   "depth_km": 190.0,
+   "authority": "GSRAS",
+   "lat": 36.6,
+   "lon": 70.89,
    "countries": [
     "AF"
    ],
@@ -1735,34 +1749,6 @@
    "lon": 165.64,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261109_0000081"
-  },
-  {
-   "id": "20261109_0000077",
-   "mag": 4.6,
-   "magtype": "mb",
-   "time": "2026-11-09T05:01:53Z",
-   "updated": "2026-11-09T07:45:44Z",
-   "region": "Near East Coast Of Honshu, Japan",
-   "depth_km": 41.0,
-   "authority": "EMSC",
-   "lat": 36.405,
-   "lon": 141.554,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261109_0000077"
-  },
-  {
-   "id": "20261109_0000071",
-   "mag": 5.7,
-   "magtype": "mw",
-   "time": "2026-11-09T04:52:52Z",
-   "updated": "2026-11-09T07:45:29Z",
-   "region": "Near East Coast Of Honshu, Japan",
-   "depth_km": 20.0,
-   "authority": "EMSC",
-   "lat": 36.262,
-   "lon": 141.607,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261109_0000071"
   }
  ]
 }
