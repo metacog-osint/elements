@@ -354,13 +354,13 @@
    "id": "{C185C598-54FD-41B1-8CD6-DB5118BD6093}",
    "name": "Von Hollen",
    "acres": 88.0,
-   "contained": null,
-   "discovered": "2026-11-16T13:11:35Z",
-   "updated": "2026-11-16T20:10:41Z",
+   "contained": 100,
+   "discovered": "2026-11-16T12:30:00Z",
+   "updated": "2026-11-16T22:15:50Z",
    "state": "SC",
    "county": "Berkeley",
    "cause": "Undetermined",
-   "complexity": null,
+   "complexity": "Type 4 Incident",
    "lon": -79.7786,
    "lat": 33.3145
   },
@@ -522,9 +522,9 @@
    "id": "{B9901D2C-B315-4D77-AE7C-2A776CB852E7}",
    "name": "Jasper 9988",
    "acres": 10.0,
-   "contained": 0,
+   "contained": 30,
    "discovered": "2026-11-16T20:04:00Z",
-   "updated": "2026-11-16T21:27:30Z",
+   "updated": "2026-11-16T22:31:21Z",
    "state": "TX",
    "county": "Jasper",
    "cause": "Undetermined",
@@ -589,20 +589,6 @@
    "lat": 48.6042
   },
   {
-   "id": "{786C9418-A52A-4FC8-A45B-E4233A3D2589}",
-   "name": "Brandstrom",
-   "acres": 4.0,
-   "contained": null,
-   "discovered": "2026-11-16T20:06:14Z",
-   "updated": "2026-11-16T21:36:36Z",
-   "state": "WA",
-   "county": "Snohomish",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.2548,
-   "lat": 48.293
-  },
-  {
    "id": "{41F2E57D-FE71-48A6-AAF6-78756F940E9E}",
    "name": "Anderson - Cove Lane",
    "acres": 3.0,
@@ -629,20 +615,6 @@
    "complexity": null,
    "lon": -98.8725,
    "lat": 47.9781
-  },
-  {
-   "id": "{FE079091-06DE-43EB-A8A7-7FFE47A5261C}",
-   "name": "Johnson 242",
-   "acres": 2.0,
-   "contained": null,
-   "discovered": "2026-11-16T21:06:25Z",
-   "updated": "2026-11-16T21:32:48Z",
-   "state": "AR",
-   "county": "Johnson",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.53,
-   "lat": 35.4783
   },
   {
    "id": "{132FCFB1-4451-48DD-B137-CFCEB4237818}",
@@ -678,13 +650,13 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-16T14:12:42Z",
-   "updated": "2026-11-16T21:40:36Z",
+   "updated": "2026-11-16T22:15:22Z",
    "state": "AR",
    "county": "Logan",
    "cause": "Undetermined",
    "complexity": "Type 4 Incident",
-   "lon": -93.4166,
-   "lat": 35.26
+   "lon": -93.434,
+   "lat": 35.22
   },
   {
    "id": "{CC4053D3-B85F-4C1C-9034-4C5159C7E621}",
@@ -734,7 +706,7 @@
    "acres": 0.4,
    "contained": null,
    "discovered": "2026-11-16T19:14:58Z",
-   "updated": "2026-11-16T21:13:36Z",
+   "updated": "2026-11-16T22:27:02Z",
    "state": "FL",
    "county": "Leon",
    "cause": "Human",
@@ -993,6 +965,20 @@
    "complexity": null,
    "lon": -92.7128,
    "lat": 45.6584
+  },
+  {
+   "id": "{098AF7AF-9CF7-4A94-9025-E36570E409A8}",
+   "name": "427 Cc",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-16T19:53:59Z",
+   "updated": "2026-11-16T22:29:55Z",
+   "state": "OR",
+   "county": "Lane",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -123.732,
+   "lat": 44.2402
   },
   {
    "id": "{EB0CC43C-4A10-42B0-A77F-B6DA4D2C7C44}",
