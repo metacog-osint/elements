@@ -161,10 +161,14 @@
       dot.fireStep = step;
       dot._item = { countries: c[7] ? [c[7]] : undefined, geometry: { type: "Point", coordinates: [c[0], c[1]] } };
       dots.push(dot);
+      // A function, so the text is built on hover: building ~6,000 tooltips up front (each formatting a time) held
+      // the first draw for seconds.
       dot
-        .bindTooltip(tip(num(c[2]) + " fire and heat detections" + (c[3] ? " (" + num(c[3]) + " high confidence)" : "")
-          + "\nRadiative power " + num(c[4]) + " MW in all, largest " + num(c[5]) + " MW"
-          + "\n" + (c[7] ? names[c[7]] || c[7] : "At sea or unassigned") + "\nLatest " + when(c[6])), { sticky: true })
+        .bindTooltip(function () {
+          return tip(num(c[2]) + " fire and heat detections" + (c[3] ? " (" + num(c[3]) + " high confidence)" : "")
+            + "\nRadiative power " + num(c[4]) + " MW in all, largest " + num(c[5]) + " MW"
+            + "\n" + (c[7] ? names[c[7]] || c[7] : "At sea or unassigned") + "\nLatest " + when(c[6]));
+        }, { sticky: true })
         .addTo(layers.firms);
     });
     layers.firms.addTo(map);
