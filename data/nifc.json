@@ -253,20 +253,6 @@
    "lat": 31.1301
   },
   {
-   "id": "{72C79978-E923-4463-9FD3-2DD18A6EB9D1}",
-   "name": "Campbell - Glassman Way",
-   "acres": 380.0,
-   "contained": 85,
-   "discovered": "2026-11-08T21:52:22Z",
-   "updated": "2026-11-13T15:02:27Z",
-   "state": "TN",
-   "county": "Campbell",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.2379,
-   "lat": 36.4466
-  },
-  {
    "id": "{9D6CC2E7-471D-40DB-8782-74514E78B5A4}",
    "name": "Hunts Fork",
    "acres": 313.0,
@@ -354,13 +340,13 @@
    "id": "{54A059A8-9CAA-452E-A17A-FEDDB98117C1}",
    "name": "Walker MT West",
    "acres": 132.0,
-   "contained": null,
+   "contained": 75,
    "discovered": "2026-11-15T20:49:04Z",
-   "updated": "2026-11-16T17:16:56Z",
+   "updated": "2026-11-16T19:04:26Z",
    "state": "OK",
    "county": "Le Flore",
    "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
+   "complexity": "Type 4 Incident",
    "lon": -94.5802,
    "lat": 34.8036
   },
@@ -561,20 +547,6 @@
    "lat": 48.6042
   },
   {
-   "id": "{6626AE82-360C-4499-B3D0-0B98C80EB9A0}",
-   "name": "Bowie 9984",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-16T17:08:00Z",
-   "updated": "2026-11-16T18:07:51Z",
-   "state": "TX",
-   "county": "Bowie",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.086,
-   "lat": 33.325
-  },
-  {
    "id": "{48167671-DA04-419C-BE46-19E39754E338}",
    "name": "Oakwood",
    "acres": 3.5,
@@ -587,20 +559,6 @@
    "complexity": "Type 4 Incident",
    "lon": -96.065,
    "lat": 36.4487
-  },
-  {
-   "id": "{A8BFA5EA-5A17-4BD0-8F75-553524E8C979}",
-   "name": "Johnson Fork Road",
-   "acres": 3.0,
-   "contained": 25,
-   "discovered": "2026-11-15T23:52:00Z",
-   "updated": "2026-11-16T18:04:04Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.8313,
-   "lat": 37.6036
   },
   {
    "id": "{20050170-9466-4D7A-83ED-8B75610F1D03}",
@@ -622,7 +580,7 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-16T14:12:42Z",
-   "updated": "2026-11-16T15:25:25Z",
+   "updated": "2026-11-16T19:02:55Z",
    "state": "AR",
    "county": "Logan",
    "cause": "Undetermined",
@@ -643,20 +601,6 @@
    "complexity": null,
    "lon": -93.4308,
    "lat": 35.2186
-  },
-  {
-   "id": "{2FC2F841-01E5-4706-8E93-600E65C06AF3}",
-   "name": "Ditch Creek Saddle",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-12T23:55:00Z",
-   "updated": "2026-11-13T18:16:39Z",
-   "state": "OR",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.1961,
-   "lat": 42.6278
   },
   {
    "id": "{CB502E33-39FD-41C6-AE36-71E5EFE08BB1}",
@@ -713,34 +657,6 @@
    "complexity": null,
    "lon": -71.0375,
    "lat": 41.913
-  },
-  {
-   "id": "{9C335E87-40F9-4578-A14E-A1F4313D9E09}",
-   "name": "Red",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-16T18:30:30Z",
-   "updated": "2026-11-16T18:35:13Z",
-   "state": "MN",
-   "county": "Wadena",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -94.8975,
-   "lat": 46.7774
-  },
-  {
-   "id": "{623CE2A7-DBDA-4306-8E10-739302D04D9A}",
-   "name": "Campbell",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-17T18:47:14Z",
-   "updated": "2026-11-13T18:30:21Z",
-   "state": "CA",
-   "county": "San Diego",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -116.6395,
-   "lat": 32.8318
   },
   {
    "id": "{AAB637A6-8D03-4725-97FA-38E9A32D3D88}",
@@ -937,20 +853,6 @@
    "complexity": null,
    "lon": -89.5571,
    "lat": 44.5481
-  },
-  {
-   "id": "{F130D4EB-76D5-41E6-942F-9E18703FF35D}",
-   "name": "Largo",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-13T18:29:56Z",
-   "updated": "2026-11-13T18:35:14Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.6884,
-   "lat": 34.5701
   },
   {
    "id": "{FD971E48-91C2-4464-9FED-3DA517369890}",
@@ -1163,20 +1065,6 @@
    "lat": 33.9022
   },
   {
-   "id": "{0F220A1F-9A4E-4319-989C-4AB284A8E665}",
-   "name": "Milk River",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-15T16:52:00Z",
-   "updated": "2026-11-16T18:05:16Z",
-   "state": "MT",
-   "county": "Glacier",
-   "cause": null,
-   "complexity": null,
-   "lon": -113.3278,
-   "lat": 48.6547
-  },
-  {
    "id": "{C713AFA5-7BEA-42ED-9DB0-14A846D7C347}",
    "name": "Lac-413469",
    "acres": 0.0,
@@ -1261,6 +1149,20 @@
    "lat": 34.6786
   },
   {
+   "id": "{0F220A1F-9A4E-4319-989C-4AB284A8E665}",
+   "name": "Milk River",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-16T05:00:00Z",
+   "updated": "2026-11-16T18:59:09Z",
+   "state": "MT",
+   "county": "Glacier",
+   "cause": null,
+   "complexity": null,
+   "lon": -113.3278,
+   "lat": 48.6547
+  },
+  {
    "id": "{B7C50B54-D6D7-4B30-991C-E5A2BBFF5895}",
    "name": "Lac-414552",
    "acres": 0.0,
@@ -1273,6 +1175,20 @@
    "complexity": null,
    "lon": -117.9429,
    "lat": 34.1071
+  },
+  {
+   "id": "{9735FC45-79BD-45BD-A206-51B094266365}",
+   "name": "Lac-414824",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-16T19:01:41Z",
+   "updated": "2026-11-16T19:02:48Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.365,
+   "lat": 33.9301
   }
  ]
 }
