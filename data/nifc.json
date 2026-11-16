@@ -575,18 +575,18 @@
    "lat": 48.6042
   },
   {
-   "id": "{48167671-DA04-419C-BE46-19E39754E338}",
-   "name": "Oakwood",
-   "acres": 3.5,
-   "contained": null,
-   "discovered": "2026-11-13T18:56:00Z",
-   "updated": "2026-11-13T20:51:46Z",
-   "state": "OK",
-   "county": "Osage",
+   "id": "{41F2E57D-FE71-48A6-AAF6-78756F940E9E}",
+   "name": "Anderson - Cove Lane",
+   "acres": 3.0,
+   "contained": 0,
+   "discovered": "2026-11-16T18:53:10Z",
+   "updated": "2026-11-16T20:51:10Z",
+   "state": "TN",
+   "county": "Anderson",
    "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -96.065,
-   "lat": 36.4487
+   "complexity": "Type 5 Incident",
+   "lon": -84.3601,
+   "lat": 36.0724
   },
   {
    "id": "{4F81F901-D71B-4377-8131-62AE4D471AAF}",
@@ -729,6 +729,20 @@
    "lat": 45.3289
   },
   {
+   "id": "{C1734E8F-A84A-4F2B-8B43-0D65307FD808}",
+   "name": "Borer",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-10-27T19:46:23Z",
+   "updated": "2026-11-16T20:35:59Z",
+   "state": "AR",
+   "county": "Prairie",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -91.3766,
+   "lat": 34.7883
+  },
+  {
    "id": "{6C4723E8-0BE9-4A85-AFE1-39D2CEBF26AA}",
    "name": "Fd03072",
    "acres": 0.2,
@@ -748,13 +762,27 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-16T06:00:00Z",
-   "updated": "2026-11-16T20:32:52Z",
+   "updated": "2026-11-16T20:58:20Z",
    "state": "WI",
    "county": "Burnett",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -92.7128,
    "lat": 45.6584
+  },
+  {
+   "id": "{8C642F91-D466-4614-97B3-1B48A22BCB4E}",
+   "name": "Old Spanish Trail",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-08-26T18:02:07Z",
+   "updated": "2026-11-16T20:38:51Z",
+   "state": "MS",
+   "county": "Jackson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.6881,
+   "lat": 30.3933
   },
   {
    "id": "{FB06D7A7-AD9C-4C0D-AAA8-EA8BC0CD5434}",
@@ -953,34 +981,6 @@
    "lat": 46.1493
   },
   {
-   "id": "{281798BC-2B41-493B-8C7B-9FE3336F89EB}",
-   "name": "Humbug Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-31T15:00:00Z",
-   "updated": "2026-11-13T21:00:26Z",
-   "state": "OR",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.1257,
-   "lat": 42.2983
-  },
-  {
-   "id": "{110CFC10-761F-4FF5-84D8-9608B8F8F45A}",
-   "name": "Ewe Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-05T22:39:00Z",
-   "updated": "2026-11-13T21:03:36Z",
-   "state": "OR",
-   "county": "Josephine",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -123.4561,
-   "lat": 42.479
-  },
-  {
    "id": "{93793F92-67D1-4A68-A283-386382B116E0}",
    "name": "Bolt",
    "acres": 0.0,
@@ -1035,34 +1035,6 @@
    "complexity": null,
    "lon": -89.5605,
    "lat": 44.5482
-  },
-  {
-   "id": "{91A49E97-F5DF-40E9-A27C-117A9DE1811B}",
-   "name": "Lac-411112",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-13T20:09:52Z",
-   "updated": "2026-11-13T20:10:42Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.7981,
-   "lat": 34.1066
-  },
-  {
-   "id": "{F1F2EFE4-5623-40D5-A168-D86E89286468}",
-   "name": "Lac-411156",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-13T20:43:47Z",
-   "updated": "2026-11-13T20:53:03Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1166,
-   "lat": 34.7012
   },
   {
    "id": "{E921C7DE-FB06-4BAA-AFDD-5FFEA478ED0F}",
