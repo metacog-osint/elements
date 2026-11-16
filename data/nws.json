@@ -1438,69 +1438,6 @@
    ]
   },
   {
-   "id": "KHNX.WS.A.0006.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Yosemite NP outside of the valley",
-    "San Joaquin River Canyon",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP",
-    "South End of the Upper Sierra"
-   ],
-   "counties": [
-    "06019",
-    "06029",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-15T19:19:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3b56e92f70250f520f4e94e579b3fb12b5d95af.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -118.7295,
-     35.3466
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.465,
-   "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSTO.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -1704,19 +1641,19 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
     "Interior Seward Peninsula",
     "Eastern Norton Sound and Nulato Hills",
+    "St Lawrence Island",
+    "Yukon Delta Coast",
+    "Lower Yukon River",
     "Noatak Valley",
     "Kivalina and Red Dog Dock",
     "Lower Kobuk Valley",
     "Baldwin Peninsula",
     "Northern Seward Peninsula",
-    "Shishmaref",
-    "Yukon Delta Coast",
-    "Lower Yukon River"
+    "Shishmaref"
    ],
    "counties": [
     "02158",
@@ -1724,9 +1661,9 @@
     "02188"
    ],
    "sent": "2026-11-15T21:37:00Z",
-   "onset": "2026-11-18T00:00:00Z",
+   "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3e7b88b917cec3937c854d7cba05c9ad6611f2.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3e7b88b917cec3937c854d7cba05c9ad6611f2.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1808,6 +1745,69 @@
    ],
    "lon": -123.115,
    "lat": 40.648,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.A.0006.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP",
+    "South End of the Upper Sierra"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-16T03:32:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.541d133b70ac9864a613dec2f533159874fe9036.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
