@@ -793,74 +793,6 @@
    ]
   },
   {
-   "id": "KMTR.MA.W.0013.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm"
-   ],
-   "counties": [
-    "57545"
-   ],
-   "sent": "2026-11-16T16:22:00Z",
-   "onset": "2026-11-16T16:22:00Z",
-   "ends": "2026-11-16T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c7b2460e03668228d9409faecd95a55405c6867.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.42,
-       37.24
-      ],
-      [
-       -122.58,
-       37.28
-      ],
-      [
-       -122.55,
-       37.46
-      ],
-      [
-       -122.44,
-       37.46
-      ],
-      [
-       -122.44,
-       37.43
-      ],
-      [
-       -122.4,
-       37.36
-      ],
-      [
-       -122.41,
-       37.27
-      ],
-      [
-       -122.41,
-       37.25
-      ],
-      [
-       -122.42,
-       37.24
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.452,
-   "lat": 37.332,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1967,37 +1899,6 @@
    ]
   },
   {
-   "id": "KEKA.WS.A.0004.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Northeastern Trinity"
-   ],
-   "counties": [
-    "06105"
-   ],
-   "sent": "2026-11-16T01:50:00Z",
-   "onset": "2026-11-18T03:00:00Z",
-   "ends": "2026-11-19T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7d864ed02d0f2d7ba920cfbe63871a3b4f4c251.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1147,
-     40.6479
-    ]
-   ],
-   "lon": -123.115,
-   "lat": 40.648,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.WS.A.0036.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -2205,6 +2106,37 @@
    ],
    "lon": -160.153,
    "lat": 60.929,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.WS.A.0004.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Northeastern Trinity"
+   ],
+   "counties": [
+    "06105"
+   ],
+   "sent": "2026-11-16T16:37:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27e456db4b7800e2079c690a9fe8a4c9edfc961e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1147,
+     40.6479
+    ]
+   ],
+   "lon": -123.115,
+   "lat": 40.648,
    "countries": [
     "US"
    ]
