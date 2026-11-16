@@ -1,7 +1,7 @@
 /*! tic-nav.js v2.0 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
- *  [local path] (copy into each site with tic-nav.css; keep the version line).
+ *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
- *  Tom, 1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
+ *  1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
  *  labelled with its primary layer or topic, with a fuller description on mouse-over.
  *
  *  Classic script, no dependencies, CSP-safe (DOM calls only: no inline styles, no HTML strings). Load it at the end
@@ -11,10 +11,10 @@
  *  this is site navigation. Keep PROGRAMS in step with the hub's oe/oe.js and product list.
  *    TicNav.mount(el?)   mounts the bar (done automatically once)
  *    TicNav.programs     the list below
- *  On the hub itself (v1.11, Tom, 14 Nov 2026: the Programs menu on theintelligence.company too), load it with
+ *  On the hub itself (v1.11, 14 Nov 2026: the Programs menu on theintelligence.company too), load it with
  *  data-home="here": the home link becomes plain text, since the reader is already home.
  *
- *  v1.12 (Tom, 14 Nov 2026: "each page's header should freeze as the page scrolls down… If the user chooses to
+ *  v1.12 (14 Nov 2026: "each page's header should freeze as the page scrolls down… If the user chooses to
  *  minimize the header bar, we should have a button for that, too, on the header"): the bar is fixed to the top of
  *  the window, with an empty spacer after it holding its place in the page, so it stays put whether it is first in
  *  <body> or inside #tic-nav. A button at its right end minimizes it to a small tab (the Programs button and a
@@ -30,7 +30,7 @@
  *  v2.0 (15 Nov 2026, from the suite design review): the menu groups programs by their home layer, in the hub
  *  drawing's order (COP first as every layer, then Systems down to Land and maritime, then other tools); each item
  *  shows its topic under its layer's heading. COP's text says what COP is: every layer on one map, so places where
- *  more than one layer reports stand out (Tom, 15 Nov 2026). The panel ends with "See it on COP", which opens COP
+ *  more than one layer reports stand out (15 Nov 2026). The panel ends with "See it on COP", which opens COP
  *  with every layer showing (not filtered to one family: the point is seeing the program beside the others).
  *  Freshness dots: when the menu first opens, the bar reads COP's health check and marks each program on time,
  *  running late or without current data, in words as well as colour. That needs COP's origin in the page's

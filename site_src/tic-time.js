@@ -1,7 +1,7 @@
 /*! tic-time.js v1.4 · The Intelligence Company shared time display · canonical copy:
- *  [local path] (copy this file into each site; keep the version line).
+ *  the hub's site/shared/tic-time.js (copy this file into each site; keep the version line).
  *
- *  House rule (Tom, 27 Oct 2026): store UTC; show times in the viewer's own time zone by default, always naming
+ *  House rule (27 Oct 2026): store UTC; show times in the viewer's own time zone by default, always naming
  *  the zone; every site offers a settings menu for the time zone (automatic, Zulu/UTC, major zones, any IANA zone)
  *  and a 12- or 24-hour clock, saved in the browser. On *.theintelligence.company the choice is also kept in a
  *  cookie for the whole domain, so it follows the visitor from site to site.
