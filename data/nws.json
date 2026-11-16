@@ -435,6 +435,39 @@
    ]
   },
   {
+   "id": "KHNX.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Mojave Desert Slopes",
+    "Indian Wells Valley",
+    "Mojave Desert"
+   ],
+   "counties": [
+    "06029"
+   ],
+   "sent": "2026-11-16T02:08:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-18T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed29f6fdf46e59dae87d5ebbfe68c31c3945bb72.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -118.7295,
+     35.3466
+    ]
+   ],
+   "lon": -118.73,
+   "lat": 35.347,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.7264.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -894,64 +927,6 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHGX.MA.W.0091.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Houston/Galveston TX",
-   "areas": [
-    "Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM",
-    "Waters from High Island to Freeport TX from 20 to 60 NM"
-   ],
-   "counties": [
-    "77370",
-    "77375"
-   ],
-   "sent": "2026-11-16T00:50:00Z",
-   "onset": "2026-11-16T00:50:00Z",
-   "ends": "2026-11-16T02:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c48d3d358c70554975a1f0bb47386f91a5f1e2bf.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -95.81,
-       27.9
-      ],
-      [
-       -94.1,
-       28.79
-      ],
-      [
-       -94.01,
-       28.53
-      ],
-      [
-       -94.96,
-       27.93
-      ],
-      [
-       -95.54,
-       27.66
-      ],
-      [
-       -95.81,
-       27.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -95.038,
-   "lat": 28.118,
    "countries": [
     "US"
    ]
@@ -1729,19 +1704,19 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
     "Interior Seward Peninsula",
     "Eastern Norton Sound and Nulato Hills",
-    "St Lawrence Island",
-    "Yukon Delta Coast",
-    "Lower Yukon River",
     "Noatak Valley",
     "Kivalina and Red Dog Dock",
     "Lower Kobuk Valley",
     "Baldwin Peninsula",
     "Northern Seward Peninsula",
-    "Shishmaref"
+    "Shishmaref",
+    "Yukon Delta Coast",
+    "Lower Yukon River"
    ],
    "counties": [
     "02158",
@@ -1749,9 +1724,9 @@
     "02188"
    ],
    "sent": "2026-11-15T21:37:00Z",
-   "onset": "2026-11-18T12:00:00Z",
+   "onset": "2026-11-18T00:00:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3e7b88b917cec3937c854d7cba05c9ad6611f2.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3e7b88b917cec3937c854d7cba05c9ad6611f2.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
