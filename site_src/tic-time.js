@@ -1,4 +1,4 @@
-/*! tic-time.js v1.3 · The Intelligence Company shared time display · canonical copy:
+/*! tic-time.js v1.4 · The Intelligence Company shared time display · canonical copy:
  *  D:\Projects\theintelligence-company\site\shared\tic-time.js (copy this file into each site; keep the version line).
  *
  *  House rule (Tom, 27 Oct 2026): store UTC; show times in the viewer's own time zone by default, always naming
@@ -16,6 +16,8 @@
  *    TicTime.mountSettings(el)         adds a "Time" button that opens the settings dialog
  *    TicTime.renderAll(root)           fills every <time datetime="..." data-tic="datetime|time|date"> in root;
  *                                      add data-tic-year for the full date (v1.3)
+ *  v1.4: formatters are built once per zone and option set and reused (a new Intl.DateTimeFormat cost about 1 ms a
+ *  call, so pages that format thousands of times drew slowly). Output is unchanged.
  */
 (function () {
   "use strict";
@@ -33,6 +35,13 @@
   ];
   var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   var listeners = [];
+
+  // v1.4: one Intl.DateTimeFormat per locale and option set, reused. Building one is the slow part of formatting.
+  var cache = {};
+  function dtf(locale, o) {
+    var k = (locale || "") + "|" + JSON.stringify(o);
+    return cache[k] || (cache[k] = new Intl.DateTimeFormat(locale, o)); // throws for an unknown zone, as before
+  }
 
   function validZone(z) {
     if (typeof z !== "string" || !z) return false; // Intl accepts timeZone: undefined, so check first (v1.2)
@@ -72,15 +81,18 @@
   }
   function emit() { for (var i = 0; i < listeners.length; i++) { try { listeners[i](settings); } catch (e) { /* listener */ } } }
 
+  var device = null, device12 = null; // the device's zone and clock, read once per page (v1.4)
   function deviceZone() {
-    try { return Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC"; } catch (e) { return "UTC"; }
+    if (device === null) { try { device = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC"; } catch (e) { device = "UTC"; } }
+    return device;
   }
   function zone() { return settings.zone === "auto" ? deviceZone() : settings.zone; }
   function hour12() {
     if (settings.clock === "12") return true;
     if (settings.clock === "24") return false;
     if (zone() === "UTC") return false; // Zulu reads in 24-hour unless the viewer asks otherwise
-    try { return new Intl.DateTimeFormat(undefined, { hour: "numeric" }).resolvedOptions().hour12 !== false; } catch (e) { return true; }
+    if (device12 === null) { try { device12 = new Intl.DateTimeFormat(undefined, { hour: "numeric" }).resolvedOptions().hour12 !== false; } catch (e) { device12 = true; } }
+    return device12;
   }
   function toDate(v) {
     if (v instanceof Date) return v;
@@ -98,7 +110,7 @@
       // v1.3: a full date reads the house way, "31 Oct 2026", whatever the zone or clock.
       var q;
       try {
-        q = new Intl.DateTimeFormat("en-US", { timeZone: z, weekday: "short", day: "numeric", month: "numeric",
+        q = dtf("en-US", { timeZone: z, weekday: "short", day: "numeric", month: "numeric",
           year: "numeric" }).formatToParts(d);
       } catch (e) { return d.toISOString().slice(0, 10); }
       var pick = function (t) { var x = q.filter(function (r) { return r.type === t; })[0]; return x ? x.value : ""; };
@@ -108,7 +120,7 @@
       return full + (z === "UTC" && !h12 ? " " : ", ") + format(d, { date: false, seconds: opts.seconds, zoneName: opts.zoneName });
     }
     if (z === "UTC" && !h12) {
-      var p = new Intl.DateTimeFormat("en-GB", { timeZone: "UTC", weekday: "short", day: "numeric", month: "short",
+      var p = dtf("en-GB", { timeZone: "UTC", weekday: "short", day: "numeric", month: "short",
         hour: "2-digit", minute: "2-digit", second: opts.seconds ? "2-digit" : undefined, hourCycle: "h23" }).formatToParts(d);
       var get = function (t) { var x = p.filter(function (q) { return q.type === t; })[0]; return x ? x.value : ""; };
       var t = get("hour") + ":" + get("minute") + (opts.seconds ? ":" + get("second") : "") + "Z";
@@ -123,13 +135,13 @@
       o.hour = "numeric"; o.minute = "2-digit"; if (opts.seconds) o.second = "2-digit";
       o.hourCycle = h12 ? "h12" : "h23"; if (opts.zoneName !== false) o.timeZoneName = "short";
     }
-    try { return new Intl.DateTimeFormat(undefined, o).format(d); } catch (e) { return d.toISOString(); }
+    try { return dtf(undefined, o).format(d); } catch (e) { return d.toISOString(); }
   }
 
   function zoneLabel() {
     if (zone() === "UTC") return "Zulu (UTC)";
     try {
-      var p = new Intl.DateTimeFormat("en-US", { timeZone: zone(), timeZoneName: "short" }).formatToParts(new Date());
+      var p = dtf("en-US", { timeZone: zone(), timeZoneName: "short" }).formatToParts(new Date());
       var n = p.filter(function (q) { return q.type === "timeZoneName"; })[0];
       return n ? n.value : zone();
     } catch (e) { return zone(); }
@@ -217,6 +229,6 @@
     return btn;
   }
 
-  window.TicTime = { version: "1.3", format: format, zone: zone, zoneLabel: zoneLabel, hour12: hour12, get: function () { return Object.assign({}, settings); },
+  window.TicTime = { version: "1.4", format: format, zone: zone, zoneLabel: zoneLabel, hour12: hour12, get: function () { return Object.assign({}, settings); },
     set: set, onChange: onChange, renderAll: renderAll, mountSettings: mountSettings, zones: ZONES.slice() };
 })();
