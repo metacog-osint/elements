@@ -384,10 +384,10 @@
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-16T09:46:00Z",
+   "sent": "2026-11-16T17:36:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98f8948341a7043225b36066deae1e4e49c24c7f.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fa775a300954ce555c1409ccb28fdb7e907ec15.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -788,6 +788,114 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0014.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Waters from Pigeon Point to Point Pinos 10-60 NM"
+   ],
+   "counties": [
+    "57575"
+   ],
+   "sent": "2026-11-16T17:15:00Z",
+   "onset": "2026-11-16T17:15:00Z",
+   "ends": "2026-11-16T17:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac711480cbc590161abe4b2ac964e083daab9fa5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.42,
+       36.8
+      ],
+      [
+       -122.39,
+       36.87
+      ],
+      [
+       -122.24,
+       36.82
+      ],
+      [
+       -122.23,
+       36.8
+      ],
+      [
+       -122.31,
+       36.72
+      ],
+      [
+       -122.42,
+       36.8
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.335,
+   "lat": 36.802,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0015.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm"
+   ],
+   "counties": [
+    "57560"
+   ],
+   "sent": "2026-11-16T17:17:00Z",
+   "onset": "2026-11-16T17:17:00Z",
+   "ends": "2026-11-16T17:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acb43a17206f277770b91499d51ffdfb07590952.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.19,
+       36.77
+      ],
+      [
+       -122.15,
+       36.81
+      ],
+      [
+       -122.01,
+       36.77
+      ],
+      [
+       -122.08,
+       36.69
+      ],
+      [
+       -122.19,
+       36.77
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.124,
+   "lat": 36.762,
    "countries": [
     "US"
    ]
