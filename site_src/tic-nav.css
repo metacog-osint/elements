@@ -1,9 +1,12 @@
-/*! tic-nav.css v1.3 · pairs with tic-nav.js (canonical copy in [local path]).
+/*! tic-nav.css v2.0 · pairs with tic-nav.js (canonical copy in [local path]).
     House navy bar on every program site; the panel follows the viewer's light or dark setting. Everything is scoped
     to .tic-house so a site's own styles (Tailwind's reset included) don't need changing.
     v1.3 (with tic-nav.js v1.12): the bar is fixed to the top of the window and .tic-house-room holds its place; it
     minimizes to a tab. --tic-house-h on <html> is the room it takes (34px, or 0px minimized or printed): a site's own
-    sticky or fixed header uses `top: var(--tic-house-h, 0px)` to sit below it. */
+    sticky or fixed header uses `top: var(--tic-house-h, 0px)` to sit below it.
+    v2.0 (with tic-nav.js v2.0): the menu's layer groups sit in two columns, each program can carry a freshness dot
+    from COP's health check (always with words: a screen-reader note, and "running late" or "no current data" shown
+    after the topic), and the panel ends with a row of two links and the dots' note. */
 html.tic-house-on { --tic-house-h: 34px; }
 html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 /* Anchors and focused elements scroll clear of the bar. :where() keeps this weaker than any site's own rule, so a
@@ -14,6 +17,7 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
   --tn-bg: #14202E; --tn-ink: #EEF1F6; --tn-line: rgba(238, 241, 246, .35); --tn-acc: #E3A83B;
   --tn-panel: #FFFFFF; --tn-pink: #14202E; --tn-pmut: #555F6D; --tn-rule: #D8D3C8; --tn-hover: #F3F1EC;
   --tn-live: #1E6B3A; --tn-beta: #8A5A00; --tn-here: #8F5509; /* v1.2: amber text on the light panel read 1.9:1 */
+  --tn-ok: #1E7A3C; --tn-late: #B05E00; --tn-none: #6B7380; /* v2.0 freshness dots, 3:1 or more on the panel */
   position: fixed; top: 0; left: 0; right: 0; /* v1.3: stays at the top while the page scrolls */
   z-index: 10000; background: var(--tn-bg); /* v1.1: above site headers' own stacking */ color: var(--tn-ink);
   /* v1.1: undo a site's generic nav rules (Watchfloor styles every <nav> as a flex row) */
@@ -23,7 +27,7 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 }
 @media (prefers-color-scheme: dark) {
   .tic-house { --tn-panel: #161E2A; --tn-pink: #E8ECF2; --tn-pmut: #9AA5B5; --tn-rule: #2A3546; --tn-hover: #1F2A3A;
-    --tn-live: #7FD49A; --tn-beta: #F0C36B; --tn-here: #E3A83B; }
+    --tn-live: #7FD49A; --tn-beta: #F0C36B; --tn-here: #E3A83B; --tn-ok: #6FCB8C; --tn-late: #F0B24B; --tn-none: #8C97A8; }
 }
 .tic-house *, .tic-house *::before, .tic-house *::after { box-sizing: border-box; }
 .tic-house p, .tic-house ul { margin: 0; padding: 0; }
@@ -62,11 +66,14 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 .tic-house.is-mini .tic-house-panel { left: 0; right: 0; margin: 6px auto 0; }
 
 .tic-house-panel { position: absolute; top: 100%; right: max(16px, calc((100% - 1200px) / 2 + 16px));
-  width: min(780px, calc(100% - 32px)); margin-top: 6px; padding: 12px; background: var(--tn-panel);
+  width: min(880px, calc(100% - 32px)); margin-top: 6px; padding: 12px; background: var(--tn-panel);
   color: var(--tn-pink); border: 1px solid var(--tn-rule); border-radius: 6px;
   box-shadow: 0 14px 36px rgba(0, 0, 0, .28); max-height: calc(100vh - 56px); overflow: auto; }
 .tic-house-panel[hidden] { display: none; }
 .tic-house-cols { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 12px; }
+/* v2.0: the layer groups flow down two columns; a group never splits between them. */
+.tic-house-list { columns: 2 220px; column-gap: 10px; }
+.tic-house-g { break-inside: avoid; }
 .tic-house-group { margin: 6px 8px 4px; font-size: 11px; font-weight: 600; letter-spacing: .08em;
   text-transform: uppercase; color: var(--tn-pmut); }
 .tic-house-ul { margin-bottom: 8px; }
@@ -79,6 +86,14 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 .tic-house-st.st-live { color: var(--tn-live); }
 .tic-house-st.st-beta { color: var(--tn-beta); }
 .tic-house-st.st-invite { color: var(--tn-pmut); }
+.tic-house-st { white-space: nowrap; }
+/* v2.0: freshness, from COP's health check. Filled for on time and running late, a ring for no current data. */
+.tic-house-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px;
+  vertical-align: 1px; background: var(--tn-ok); }
+.tic-house-dot.f-late { background: var(--tn-late); }
+.tic-house-dot.f-stale { background: transparent; border: 1.5px solid var(--tn-none); }
+.tic-house-fw.f-late { color: var(--tn-beta); font-weight: 500; }
+.tic-house-fw.f-stale { font-weight: 500; }
 .tic-house-label { grid-column: 1 / -1; font-size: 12px; color: var(--tn-pmut); }
 .tic-house-short { grid-column: 1 / -1; display: none; font-size: 12px; color: var(--tn-pmut); }
 .tic-house-detail { border-left: 1px solid var(--tn-rule); padding: 10px 6px 10px 16px; align-self: start;
@@ -86,9 +101,14 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 .tic-house-dname { font-size: 17px; font-weight: 600; margin-bottom: 2px; }
 .tic-house-dmeta { font-size: 12px; color: var(--tn-pmut); margin-bottom: 10px; }
 .tic-house-dlong { font-size: 13px; line-height: 1.55; }
-.tic-house-all { display: block; margin: 2px 8px 0; padding-top: 8px; border-top: 1px solid var(--tn-rule);
-  font-size: 12px; color: var(--tn-pmut); }
+.tic-house-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; margin: 2px 8px 0;
+  padding-top: 8px; border-top: 1px solid var(--tn-rule); }
+.tic-house-all { font-size: 12px; color: var(--tn-pmut); }
 .tic-house-all:hover { color: var(--tn-pink); }
+.tic-house-cop { font-size: 12px; font-weight: 600; color: var(--tn-pink); }
+.tic-house-cop:hover { color: var(--tn-here); }
+.tic-house-fnote { margin: 6px 8px 0; font-size: 11px; color: var(--tn-pmut); }
+.tic-house-fnote[hidden] { display: none; }
 .tic-house-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
   clip-path: inset(50%); white-space: nowrap; }
 
@@ -99,6 +119,7 @@ html.tic-house-on.tic-house-minimized { --tic-house-h: 0px; }
 @media (max-width: 640px) {
   .tic-house-panel { left: 8px; right: 8px; width: auto; }
   .tic-house-cols { grid-template-columns: 1fr; }
+  .tic-house-list { columns: 1; }
   .tic-house-detail { display: none; } /* no hover on phones: each program shows its label and one line instead */
   .tic-house-short { display: block; }
 }
