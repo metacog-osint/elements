@@ -793,58 +793,6 @@
    ]
   },
   {
-   "id": "KPQR.MA.W.0002.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm"
-   ],
-   "counties": [
-    "57251"
-   ],
-   "sent": "2026-11-16T14:00:00Z",
-   "onset": "2026-11-16T14:00:00Z",
-   "ends": "2026-11-16T14:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28f28524b500d2555e11da0c0767d948fca6a391.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -124.18,
-       46.39
-      ],
-      [
-       -124.24,
-       46.41
-      ],
-      [
-       -124.2,
-       46.54
-      ],
-      [
-       -124.04,
-       46.47
-      ],
-      [
-       -124.18,
-       46.39
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -124.168,
-   "lat": 46.44,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
