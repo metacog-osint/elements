@@ -22,6 +22,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104285",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 2,
+   "name": "Flood in Croatia",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-12T01:00:00Z",
+   "to": "2026-11-14T01:00:00Z",
+   "current": true,
+   "country": "Croatia",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104285&episodeid=2&eventtype=FL",
+   "lon": 14.374,
+   "lat": 45.444,
+   "countries": [
+    "HR"
+   ]
+  },
+  {
    "id": "FL-1104280",
    "type": "FL",
    "kind": "flood",
@@ -364,7 +387,7 @@
    "id": "FL-1104270",
    "type": "FL",
    "kind": "flood",
-   "episode": 4,
+   "episode": 5,
    "name": "Flood in France",
    "alert": "green",
    "score": 1,
@@ -372,16 +395,14 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-04T01:00:00Z",
-   "to": "2026-11-14T01:00:00Z",
+   "to": "2026-11-16T01:00:00Z",
    "current": true,
    "country": "France",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=4&eventtype=FL",
-   "lon": 6.936,
-   "lat": 43.544,
-   "countries": [
-    "FR"
-   ]
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=5&eventtype=FL",
+   "lon": 3.95,
+   "lat": 43.559,
+   "countries": []
   },
   {
    "id": "FL-1104278",
@@ -747,7 +768,7 @@
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
-   "episode": 19,
+   "episode": 17,
    "name": "Flood in Ecuador",
    "alert": "green",
    "score": 1,
@@ -759,9 +780,9 @@
    "current": true,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=19&eventtype=FL",
-   "lon": -79.911,
-   "lat": -2.212,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=17&eventtype=FL",
+   "lon": -79.652,
+   "lat": 0.967,
    "countries": [
     "EC"
    ]
