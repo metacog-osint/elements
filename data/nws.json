@@ -128,63 +128,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-16T14:49:00Z",
-   "onset": "2026-11-16T14:49:00Z",
-   "ends": "2026-11-17T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -243,6 +186,63 @@
    ],
    "lon": -81.536,
    "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-16T14:49:00Z",
+   "onset": "2026-11-16T14:49:00Z",
+   "ends": "2026-11-17T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
    "countries": [
     "US"
    ]
@@ -384,10 +384,10 @@
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-16T17:36:00Z",
+   "sent": "2026-11-16T19:29:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fa775a300954ce555c1409ccb28fdb7e907ec15.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84918212cd0130de8b8deb9302778eb28b0e3e83.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1547,32 +1547,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7174.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Adak to Kiska Pacific Side"
-   ],
-   "counties": [
-    "58785"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-16T13:00:00Z",
-   "ends": "2026-11-17T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7169.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1615,6 +1589,32 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7174.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Pacific Side"
+   ],
+   "counties": [
+    "58785"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-16T13:00:00Z",
+   "ends": "2026-11-17T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1964,6 +1964,69 @@
    ]
   },
   {
+   "id": "KHNX.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP",
+    "South End of the Upper Sierra"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-16T19:27:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cb1e6c006eb1beb1c27bc1703d00498a53b4fc0.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.WS.A.0036.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -2043,69 +2106,6 @@
    ],
    "lon": -117.404,
    "lat": 36.562,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHNX.WS.A.0006.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Yosemite NP outside of the valley",
-    "San Joaquin River Canyon",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP",
-    "South End of the Upper Sierra"
-   ],
-   "counties": [
-    "06019",
-    "06029",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-16T11:40:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.355db2e7b73da6c1192999525b4dab896e3c40cd.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -118.7295,
-     35.3466
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.465,
-   "lat": 36.857,
    "countries": [
     "US"
    ]
