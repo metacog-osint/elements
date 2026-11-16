@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "code": "EMSR936",
+   "name": "Flood in Ecuador",
+   "category": "Flood",
+   "event": "2026-11-12T23:00:00Z",
+   "activated": "2026-11-16T17:02:00Z",
+   "updated": "2026-11-16T17:57:33Z",
+   "closed": false,
+   "products": 0,
+   "countries": [
+    "EC"
+   ],
+   "lon": -79.625,
+   "lat": -2.12
+  },
+  {
    "code": "EMSR935",
    "name": "Flood in Alicante-Valencia Regions, Spain",
    "category": "Flood",
@@ -738,22 +753,6 @@
    ],
    "lon": -67.809,
    "lat": 10.277
-  },
-  {
-   "code": "EMSR883",
-   "name": "Wildfire in Greenland",
-   "category": "Wildfire",
-   "event": "2026-06-15T22:00:00Z",
-   "activated": "2026-06-16T09:08:00Z",
-   "updated": "2026-06-30T09:44:15Z",
-   "closed": true,
-   "products": 2,
-   "countries": [
-    "GL",
-    "DK"
-   ],
-   "lon": -53.405,
-   "lat": 67.121
   }
  ]
 }
