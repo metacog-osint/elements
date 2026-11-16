@@ -864,43 +864,6 @@
    ]
   },
   {
-   "id": "PAFG.HW.A.0018.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Northern Denali Borough",
-    "Eastern Alaska Range North of Trims Camp"
-   ],
-   "counties": [
-    "02068",
-    "02240"
-   ],
-   "sent": "2026-11-15T20:23:00Z",
-   "onset": "2026-11-18T09:00:00Z",
-   "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9f415c815dd944c9c6b0068fdb39cca3643180c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -150.027,
-     63.682
-    ],
-    [
-     -143.2186,
-     63.865
-    ]
-   ],
-   "lon": -146.623,
-   "lat": 63.773,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.HW.A.0011.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -927,6 +890,43 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.HW.A.0018.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Northern Denali Borough",
+    "Eastern Alaska Range North of Trims Camp"
+   ],
+   "counties": [
+    "02068",
+    "02240"
+   ],
+   "sent": "2026-11-16T06:59:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c9c60755059f1de5826296279ed48966d1b5218.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -150.027,
+     63.682
+    ],
+    [
+     -143.2186,
+     63.865
+    ]
+   ],
+   "lon": -146.623,
+   "lat": 63.773,
    "countries": [
     "US"
    ]
@@ -1634,59 +1634,6 @@
    ]
   },
   {
-   "id": "PAFG.WS.A.0036.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Bering Strait Coast",
-    "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula",
-    "Eastern Norton Sound and Nulato Hills",
-    "St Lawrence Island",
-    "Yukon Delta Coast",
-    "Lower Yukon River",
-    "Noatak Valley",
-    "Kivalina and Red Dog Dock",
-    "Lower Kobuk Valley",
-    "Baldwin Peninsula",
-    "Northern Seward Peninsula",
-    "Shishmaref"
-   ],
-   "counties": [
-    "02158",
-    "02180",
-    "02188"
-   ],
-   "sent": "2026-11-15T21:37:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3e7b88b917cec3937c854d7cba05c9ad6611f2.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -163.1902,
-     62.2836
-    ],
-    [
-     -164.1889,
-     64.7837
-    ],
-    [
-     -160.0211,
-     67.0051
-    ]
-   ],
-   "lon": -162.467,
-   "lat": 64.691,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.WS.A.0015.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -1808,6 +1755,59 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.A.0036.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "St Lawrence Island",
+    "Bering Strait Coast",
+    "Southern Seward Peninsula Coast",
+    "Interior Seward Peninsula",
+    "Eastern Norton Sound and Nulato Hills",
+    "Yukon Delta Coast",
+    "Lower Yukon River",
+    "Noatak Valley",
+    "Kivalina and Red Dog Dock",
+    "Lower Kobuk Valley",
+    "Baldwin Peninsula",
+    "Northern Seward Peninsula",
+    "Shishmaref"
+   ],
+   "counties": [
+    "02158",
+    "02180",
+    "02188"
+   ],
+   "sent": "2026-11-16T06:54:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b700d5aac3396697b65f065d622d3d7f143a1bc.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -163.1902,
+     62.2836
+    ],
+    [
+     -164.1889,
+     64.7837
+    ],
+    [
+     -160.0211,
+     67.0051
+    ]
+   ],
+   "lon": -162.467,
+   "lat": 64.691,
    "countries": [
     "US"
    ]
