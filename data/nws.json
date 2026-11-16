@@ -442,17 +442,17 @@
    "certainty": "Possible",
    "sender": "NWS Hanford CA",
    "areas": [
-    "Mojave Desert Slopes",
     "Indian Wells Valley",
-    "Mojave Desert"
+    "Mojave Desert",
+    "Mojave Desert Slopes"
    ],
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-16T02:08:00Z",
+   "sent": "2026-11-16T09:46:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed29f6fdf46e59dae87d5ebbfe68c31c3945bb72.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98f8948341a7043225b36066deae1e4e49c24c7f.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -983,6 +983,37 @@
    ]
   },
   {
+   "id": "KMFR.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Central Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-16T09:36:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43bbfd9166e5a236650c077fed92b32175d02253.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1425,70 +1456,6 @@
    ]
   },
   {
-   "id": "KMFR.WS.A.0008.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Western Siskiyou County",
-    "South Central Siskiyou County",
-    "North Central and Southeast Siskiyou County"
-   ],
-   "counties": [
-    "06093"
-   ],
-   "sent": "2026-11-15T18:22:00Z",
-   "onset": "2026-11-18T03:00:00Z",
-   "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95a8c28c9a3fc2bfafb7daa9b30fc0c37b97fe9a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ]
-   ],
-   "lon": -122.533,
-   "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KVEF.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Las Vegas NV",
-   "areas": [
-    "Eastern Sierra Slopes of Inyo County"
-   ],
-   "counties": [
-    "06027"
-   ],
-   "sent": "2026-11-15T19:05:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2afc4270cc663353143c0fc7483aab0519ed8cf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.4042,
-     36.5622
-    ]
-   ],
-   "lon": -117.404,
-   "lat": 36.562,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSTO.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -1596,90 +1563,6 @@
    ],
    "lon": -121.032,
    "lat": 39.336,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KREV.WS.A.0006.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Lassen-Eastern Plumas-Eastern Sierra Counties",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Mono"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06051",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-15T19:46:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23e8c17b27c37a4e4af233d3a09666c860908307.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.154,
-   "lat": 39.342,
    "countries": [
     "US"
    ]
@@ -1859,6 +1742,154 @@
    ],
    "lon": -162.467,
    "lat": 64.691,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KVEF.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Las Vegas NV",
+   "areas": [
+    "Eastern Sierra Slopes of Inyo County"
+   ],
+   "counties": [
+    "06027"
+   ],
+   "sent": "2026-11-16T09:36:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8feebdce3cffbd078f46be9ec53cbe6a8cea4b6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.4042,
+     36.5622
+    ]
+   ],
+   "lon": -117.404,
+   "lat": 36.562,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.WS.A.0008.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Western Siskiyou County",
+    "South Central Siskiyou County",
+    "North Central and Southeast Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-16T09:49:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec31556fc14756966097890d1a37b3e23bf6c75c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.A.0006.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Mono"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-16T10:05:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5305645f8d54ce6251c0bb355ddeefd17a18f56b.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
    "countries": [
     "US"
    ]
