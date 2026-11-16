@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="tic-time.css">
 <script src="tic-time.js"></script>
+<script src="tic-area.js"></script>
 <link rel="stylesheet" href="tic-nav.css">
 <script src="tic-nav.js" defer data-health="on"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -21,6 +22,7 @@
       <a href="https://theintelligence.company/">All programs</a>
       <a href="data/feed.geojson">Feed</a>
       <a href="https://github.com/metacog-osint/elements">Code and data</a>
+      <span id="area-settings"></span>
       <span id="time-settings"></span>
     </nav>
   </div>
@@ -53,6 +55,7 @@
       <div class="legend" id="legend"></div>
     </div>
     <div id="map" role="region" aria-label="Map of natural-hazard alerts"></div>
+    <p id="area-note" class="muted small" aria-live="polite"></p>
   </section>
 
   <section class="card" aria-labelledby="alerts-h">
