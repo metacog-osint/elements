@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from elements import feed, firms, history, meteoalarm, sources, weather  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
-from tic_doctrine import contract, registers  # noqa: E402
+from tic_doctrine import contract, geo, registers  # noqa: E402
 
 SRC, OUT, HIST = ROOT / "site_src", ROOT / "site", ROOT / "history"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
@@ -112,6 +112,27 @@ def log_history(now: datetime | None = None) -> list:
     return lines
 
 
+def state_boxes(rings: list) -> list[list[float]]:
+    """[west, south, east, north] boxes for a state's rings, one for its rings east of 0 degrees and one for those
+    west of it, so a state across 180 degrees (Alaska) gets two boxes instead of one around the world. (Cordon's.)"""
+    out = {}
+    for ring in rings:
+        xs, ys = [p[0] for p in ring], [p[1] for p in ring]
+        b = [min(xs), min(ys), max(xs), max(ys)]
+        side = "e" if b[0] >= 0 else "w"
+        o = out.get(side)
+        out[side] = b if o is None else [min(o[0], b[0]), min(o[1], b[1]), max(o[2], b[2]), max(o[3], b[3])]
+    return [out[k] for k in sorted(out)]
+
+
+def states_json() -> dict:
+    """The Area menu's states (tic-area.js): code, name and boxes, from the kit's Natural Earth state outlines."""
+    subs = json.loads(geo.SUBDIVISIONS.read_text(encoding="utf-8"))["subdivisions"]
+    return {"source": "doctrine kit geo/subdivisions.json (Natural Earth 1:10m, public domain): code, name and boxes "
+                      "only (one box per side of 180 degrees, so Alaska's Aleutians do not make a box around the world)",
+            "states": [{"code": s["code"], "name": s["name"], "boxes": state_boxes(s["rings"])} for s in subs]}
+
+
 def build() -> dict:
     d = data()
     now = datetime.now(timezone.utc)
@@ -120,6 +141,9 @@ def build() -> dict:
         shutil.rmtree(OUT)
     shutil.copytree(SRC, OUT)
     (OUT / "data").mkdir(exist_ok=True)
+    (OUT / "geo").mkdir(exist_ok=True)
+    (OUT / "geo" / "states.json").write_text(json.dumps(states_json(), separators=(",", ":")) + "\n",
+                                           encoding="utf-8", newline="\n")
     (OUT / "data" / "feed.geojson").write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "health.json").write_text(json.dumps(d["health"], indent=1) + "\n", encoding="utf-8", newline="\n")

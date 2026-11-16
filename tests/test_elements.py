@@ -339,6 +339,20 @@ class Registers(unittest.TestCase):
     def test_registers_valid(self):
         self.assertEqual(registers.check(ROOT / "doctrine"), [])
 
+    def test_area_menu_states(self):
+        # The Area menu (tic-area.js; Tom, 16 Nov 2026): every state with a name and boxes; Alaska gets one box per
+        # side of 180 degrees, so its Aleutians do not make a box around the world.
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("elements_tool", ROOT / "tools" / "elements.py")
+        tool = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(tool)
+        by = {s["code"]: s for s in tool.states_json()["states"]}
+        self.assertTrue({"US-MN", "US-ND", "US-HI", "US-AK", "US-DC"} <= set(by))
+        self.assertEqual(len(by["US-AK"]["boxes"]), 2)
+        w, s, e, n = by["US-HI"]["boxes"][0]
+        self.assertTrue(w < -155.28 < e and s < 19.41 < n)  # Kilauea is in Hawaii's box
+        self.assertTrue(all(len(b) == 4 for st in by.values() for b in st["boxes"]))
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=1)

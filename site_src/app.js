@@ -22,10 +22,11 @@
   // Leaflet inserts a string tooltip as HTML; a text node keeps source text as text.
   function tip(text) { return h("div", { "class": "tip" }, [text]); }
   function link(url, text) { return url ? h("a", { href: url, rel: "noopener" }, [text]) : text; }
+  // A row may carry r.cls ("outside": a place outside the viewer's area, dimmed).
   function table(head, rows, numCols) {
     numCols = numCols || {};
     return h("table", null, [h("thead", null, [h("tr", null, head.map(function (x, i) { return h("th", { "class": numCols[i] ? "num" : null }, [x]); }))]),
-      h("tbody", null, rows.map(function (r) { return h("tr", null, r.map(function (c, i) {
+      h("tbody", null, rows.map(function (r) { return h("tr", { "class": r.cls || null }, r.map(function (c, i) {
         return h("td", { "class": numCols[i] ? "num" : null }, [c]); })); }))]);
   }
   function empty(text) { return h("p", { "class": "empty" }, [text]); }
@@ -55,6 +56,74 @@
   var DM_COLORS = ["#ffff00", "#fcd37f", "#ffaa00", "#e60000", "#730000"];
   var DM_NAMES = ["Abnormally dry", "Moderate drought", "Severe drought", "Extreme drought", "Exceptional drought"];
   var TSU = { information: "information statement", threat: "threat message", watch: "watch", advisory: "advisory", warning: "warning" };
+
+  // "My area" (tic-area.js; Tom, 16 Nov 2026, after Cordon): hazards outside the viewer's area are dimmed on the map
+  // and in the tables, never hidden. An item is judged by the state its feed item names (`subdivisions`), else by its
+  // point or shape. Country tables (Europe by country, fires by country, GDACS by hazard, US drought) are not dimmed.
+  var A = window.TicArea;
+  function inArea(item) { return !A || A.contains(item); }
+  // An NWS warning for marine zones names only marine codes (no land county) and has no shape, so the feed gives it no
+  // `subdivisions`: on this page it is placed in the state of the office that issued it ("NWS Fairbanks AK"), so
+  // Alaska's Arctic warnings stay lit when Alaska is chosen. Every NWS item with a land county or a shape has its own.
+  function subsOf(p) {
+    if (p.subdivisions && p.subdivisions.length) return p.subdivisions;
+    if (lane({ properties: p }) !== "nws") return undefined;
+    var st = / ([A-Z]{2})$/.exec((p.measures || {}).office || "");
+    return st ? ["US-" + st[1]] : undefined;
+  }
+  function tag(lyr, f) {
+    lyr._item = { subdivisions: f.properties.subdivisions, countries: f.properties.countries, geometry: f.geometry };
+    return lyr;
+  }
+  function leaves(group, fn) {
+    group.eachLayer(function (l) { if (l.eachLayer && !l._item) leaves(l, fn); else fn(l); });
+  }
+  function itemOf(l) {
+    if (l._item) return l._item;
+    if (l.feature) return { subdivisions: (l.feature.properties || {}).subdivisions, countries: (l.feature.properties || {}).countries,
+      geometry: l.feature.geometry };
+    if (l.getLatLng) { var ll = l.getLatLng(); return { geometry: { type: "Point", coordinates: [ll.lng, ll.lat] } }; }
+    return null;
+  }
+  function dim(feats) {
+    var all = !A || A.get().kind === "all";
+    Object.keys(layers).forEach(function (k) {
+      if (k === "drought") return;  // national weekly categories, not a place-bound notice
+      leaves(layers[k], function (l) {
+        var ok = all || inArea(itemOf(l));
+        if (l.setStyle) {
+          if (!l._base) l._base = { opacity: l.options.opacity == null ? 1 : l.options.opacity, fillOpacity: l.options.fillOpacity };
+          l.setStyle(ok ? l._base : { opacity: 0.15, fillOpacity: 0.04 });
+        } else if (l.setOpacity) {
+          l.setOpacity(ok ? 1 : 0.22);
+        }
+      });
+    });
+    var note = document.getElementById("area-note");
+    if (all) {
+      note.textContent = "Area: everywhere. Choose one with the Area button at the top to dim hazards elsewhere.";
+      return;
+    }
+    var n = { alert: 0, quake: 0, weather: 0, volcano: 0, fire: 0, cells: 0, other: 0 };
+    feats.forEach(function (f) {
+      var p = f.properties, ln = lane(f);
+      if (ln === "firms" || ln === "usdm" || /:in-force$/.test(p.id)
+        || !inArea({ subdivisions: subsOf(p), countries: p.countries, geometry: f.geometry })) return;
+      if (p.tier === "anomaly") n.alert += 1;
+      if (ln === "usgs" || ln === "emsc") n.quake += 1;
+      else if (ln === "nws" || ln === "spc" || ln === "meteoalarm") n.weather += 1;
+      else if (ln === "usgs-volcano") n.volcano += 1;
+      else if (ln === "nifc") n.fire += 1;
+      else n.other += 1;
+    });
+    if (layers.firms) leaves(layers.firms, function (l) { if (inArea(itemOf(l))) n.cells += 1; });
+    function part(c, one, many) { return c + " " + (c === 1 ? one : many); }
+    note.textContent = "Your area: " + A.label() + ". In it: " + part(n.alert, "alert above the bottom rung", "alerts above the bottom rung") +
+      ", " + part(n.quake, "earthquake", "earthquakes") + ", " + part(n.weather, "weather warning or outlook", "weather warnings or outlooks") +
+      ", " + part(n.volcano, "volcano above Normal", "volcanoes above Normal") + ", " + part(n.fire, "wildfire", "wildfires") +
+      ", " + part(n.other, "other hazard", "other hazards") + " and " + part(n.cells, "fire-detection cell", "fire-detection cells") +
+      ". The rest are dimmed.";
+  }
 
   function areaList(a) { return a.length > 3 ? a.slice(0, 3).join("; ") + " and " + (a.length - 3) + " more" : a.join("; "); }
 
@@ -90,6 +159,7 @@
       var dot = L.circleMarker([c[1], c[0]], { renderer: fireCanvas, stroke: false, radius: fireRadius(step),
         fillColor: fireColors[step], fillOpacity: 0.9 });
       dot.fireStep = step;
+      dot._item = { countries: c[7] ? [c[7]] : undefined, geometry: { type: "Point", coordinates: [c[0], c[1]] } };
       dots.push(dot);
       dot
         .bindTooltip(tip(num(c[2]) + " fire and heat detections" + (c[3] ? " (" + num(c[3]) + " high confidence)" : "")
@@ -106,8 +176,8 @@
       .forEach(function (f) {
         if (!f.geometry) return;
         var m = f.properties.measures, c = f.geometry.coordinates;
-        L.circleMarker([c[1], c[0]], { radius: quakeRadius(m.magnitude), weight: 1, color: css("--mark-edge"),
-          fillColor: alertColor(m.pager), fillOpacity: m.pager ? 0.9 : 0.55 })
+        tag(L.circleMarker([c[1], c[0]], { radius: quakeRadius(m.magnitude), weight: 1, color: css("--mark-edge"),
+          fillColor: alertColor(m.pager), fillOpacity: m.pager ? 0.9 : 0.55 }), f)
           .bindTooltip(tip(f.properties.title + "\n" + when(f.properties.data_as_of) + (m.depth_km != null ? ", depth " + m.depth_km + " km" : "")
             + (m.pager ? "\nPAGER " + m.pager : "\nNo PAGER alert issued")
             + (m.emsc ? (m.emsc.independent ? "\nAlso in EMSC's catalogue: M" + m.emsc.magnitude.toFixed(1) + " (" + m.emsc.authority + ")"
@@ -119,8 +189,8 @@
     by.emsc.forEach(function (f) {
       if (!f.geometry) return;
       var m = f.properties.measures, c = f.geometry.coordinates;
-      L.circleMarker([c[1], c[0]], { radius: quakeRadius(m.magnitude), weight: 1.4, color: css("--unrated"), dashArray: "3 2",
-        fill: true, fillOpacity: 0 })
+      tag(L.circleMarker([c[1], c[0]], { radius: quakeRadius(m.magnitude), weight: 1.4, color: css("--unrated"), dashArray: "3 2",
+        fill: true, fillOpacity: 0 }), f)
         .bindTooltip(tip(f.properties.title + "\n" + when(f.properties.data_as_of) + (m.depth_km != null ? ", depth " + m.depth_km + " km" : "")
           + "\nSolution: " + (m.authority || "EMSC") + ". Not in USGS's M4.5+ list (the two catalogues' magnitudes differ)."))
         .addTo(layers.usgs);
@@ -131,7 +201,10 @@
     layers.nifc = L.layerGroup();
     (nifcAll || []).forEach(function (w) {
       var r = Math.max(2.5, Math.min(14, 1.6 * Math.log10(Math.max(w.acres, 1)) + 1));
-      L.circleMarker([w.lat, w.lon], { radius: r, weight: 1.2, color: css("--wildfire"), fillColor: css("--wildfire"), fillOpacity: 0.35 })
+      var dotw = L.circleMarker([w.lat, w.lon], { radius: r, weight: 1.2, color: css("--wildfire"), fillColor: css("--wildfire"), fillOpacity: 0.35 });
+      dotw._item = { subdivisions: /^[A-Z]{2}$/.test(w.state || "") ? ["US-" + w.state] : undefined,
+        countries: ["US"], geometry: { type: "Point", coordinates: [w.lon, w.lat] } };
+      dotw
         .bindTooltip(tip(w.name + " (NIFC)\n" + Number(w.acres).toLocaleString("en-US") + " acres"
           + (w.contained != null ? ", " + w.contained + "% contained" : ", containment not reported")
           + "\n" + [w.county ? w.county + " County" : null, w.state].filter(Boolean).join(", ")
@@ -149,9 +222,9 @@
         var p = f.properties, m = p.measures, c = f.geometry.coordinates;
         var a = (p.response_stage || "").split(":")[1];
         var code = (HAZ[m.hazard] || ["?"])[0];
-        L.marker([c[1], c[0]], { keyboard: true, title: p.title,
+        tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title,
           zIndexOffset: 100 * (RANK[a] || 0),
-          icon: L.divIcon({ className: "gd-icon a-" + (a || "none"), html: "", iconSize: RANK[a] >= 2 ? [26, 19] : [19, 14] }) })
+          icon: L.divIcon({ className: "gd-icon a-" + (a || "none"), html: "", iconSize: RANK[a] >= 2 ? [26, 19] : [19, 14] }) }), f)
           .bindTooltip(tip(p.title + "\n" + when(m.from) + " to " + when(m.to)
             + (m.latest_alert && m.latest_alert !== a ? "\nLatest episode: " + m.latest_alert : "")))
           .on("add", function (ev) { ev.target.getElement().textContent = code; })
@@ -163,8 +236,8 @@
     by.nhc.forEach(function (f) {
       if (!f.geometry) return;
       var m = f.properties.measures, c = f.geometry.coordinates;
-      L.marker([c[1], c[0]], { keyboard: true, title: f.properties.title,
-        icon: L.divIcon({ className: "nhc-icon", html: "", iconSize: [26, 26] }) })
+      tag(L.marker([c[1], c[0]], { keyboard: true, title: f.properties.title,
+        icon: L.divIcon({ className: "nhc-icon", html: "", iconSize: [26, 26] }) }), f)
         .bindTooltip(tip(f.properties.title + "\nMoving " + (m.movement || "—") + "\nAdvisory " + when(f.properties.data_as_of)))
         .on("add", function (ev) { ev.target.getElement().textContent = m.classification || "TC"; })
         .addTo(layers.nhc);
@@ -214,8 +287,8 @@
       if (!f.geometry) return;
       var p = f.properties, m = p.measures, c = f.geometry.coordinates;
       var cls = m.level === "warning" ? "a-red" : m.level === "information" ? "a-none" : "a-orange";
-      L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 500,
-        icon: L.divIcon({ className: "ts-icon " + cls, html: "", iconSize: [30, 18] }) })
+      tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 500,
+        icon: L.divIcon({ className: "ts-icon " + cls, html: "", iconSize: [30, 18] }) }), f)
         .bindTooltip(tip(p.title + "\n" + m.centre + ", " + when(p.data_as_of) + (m.headline ? "\n" + m.headline : "")
           + (m.origin_note ? "\n" + m.origin_note : "")))
         .on("add", function (ev) { ev.target.getElement().textContent = "TSU"; })
@@ -228,8 +301,8 @@
       if (!f.geometry) return;
       var p = f.properties, m = p.measures, c = f.geometry.coordinates;
       var col = (m.aviation_color || "").toLowerCase();
-      L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 400,
-        icon: L.divIcon({ className: "vo-icon a-" + (col || "none"), html: "", iconSize: [18, 16] }) })
+      tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 400,
+        icon: L.divIcon({ className: "vo-icon a-" + (col || "none"), html: "", iconSize: [18, 16] }) }), f)
         .bindTooltip(tip(p.title + "\n" + (m.synopsis || "") + "\n" + (m.observatory || "USGS") + ", " + when(p.data_as_of)
           + (m.nvews_threat ? "\nUSGS threat ranking: " + m.nvews_threat : "")))
         .addTo(layers.volcano);
@@ -240,7 +313,7 @@
     by.cems.forEach(function (f) {
       if (!f.geometry) return;
       var p = f.properties, m = p.measures, c = f.geometry.coordinates;
-      L.circleMarker([c[1], c[0]], { radius: 7, weight: 2.2, color: css("--cems"), fill: true, fillOpacity: 0, dashArray: m.closed ? "3 3" : null })
+      tag(L.circleMarker([c[1], c[0]], { radius: 7, weight: 2.2, color: css("--cems"), fill: true, fillOpacity: 0, dashArray: m.closed ? "3 3" : null }), f)
         .bindTooltip(tip(p.title + "\n" + (m.category || "") + ", activated " + when(m.activated) + (m.closed ? " (closed)" : " (open)")))
         .addTo(layers.cems);
     });
@@ -278,6 +351,13 @@
     var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [],
       emsc: [], nifc: [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
+    var geomOf = {};
+    feats.forEach(function (f) { geomOf[f.properties.id] = f.geometry; });
+    function mark(row, p) {
+      if (A && A.get().kind !== "all" && !inArea({ subdivisions: subsOf(p), countries: p.countries, geometry: geomOf[p.id] }))
+        row.cls = "outside";
+      return row;
+    }
 
     // Each alert in its own issuer's words: PAGER and GDACS colours, and the USGS aviation colour code for volcanoes.
     function alertOf(p) {
@@ -299,7 +379,7 @@
       var st = [null, alertOf(p)[0]];
       var what = p.title.replace(/^GDACS \w+ alert: /, "");
       var src = alertOf(p)[1];
-      return [badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])]; }))
+      return mark([badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])], p); }))
       : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, and no Extreme US or red European weather warning."));
 
     var vo = by["usgs-volcano"].slice().sort(function (x, y) {
@@ -310,8 +390,8 @@
         var m = p.measures, prevA = m.previous_alert_level;
         var was = !prevA || prevA === "UNASSIGNED" ? "previously unassigned"
           : m.change ? m.change + " from " + cap(prevA.toLowerCase()) + " / " + cap((m.previous_aviation_color || "").toLowerCase()) : "—";
-        return [link(p.link, m.name), badge((m.aviation_color || "").toLowerCase(), cap(m.alert_level.toLowerCase()) + " / " + cap((m.aviation_color || "").toLowerCase())),
-          was, when(p.data_as_of)]; }), { 3: 1 })
+        return mark([link(p.link, m.name), badge((m.aviation_color || "").toLowerCase(), cap(m.alert_level.toLowerCase()) + " / " + cap((m.aviation_color || "").toLowerCase())),
+          was, when(p.data_as_of)], p); }), { 3: 1 })
       : empty("No US volcano is above Normal / Green."));
 
     var spc = by.spc.slice().sort(function (x, y) { return y.measures.level - x.measures.level; });
@@ -324,7 +404,7 @@
         || x.measures.event.localeCompare(y.measures.event) || (x.measures.ends || "").localeCompare(y.measures.ends || ""); });
     document.getElementById("nws").replaceChildren(wx.length ? table(["Warning or watch", "Where", "Until", "Office"], wx.map(function (p) {
       var m = p.measures, where = m.areas.length > 3 ? m.areas.slice(0, 3).join("; ") + " and " + (m.areas.length - 3) + " more" : m.areas.join("; ");
-      return [m.severity === "Extreme" ? badge("red", m.event) : m.event, where, when(m.ends), (m.office || "").replace(/^NWS /, "")]; }), { 2: 1 })
+      return mark([m.severity === "Extreme" ? badge("red", m.event) : m.event, where, when(m.ends), (m.office || "").replace(/^NWS /, "")], p); }), { 2: 1 })
       : empty("No Severe or Extreme NWS warning or watch is in force."));
 
     // Europe: orange and red warnings one by one, then every country with a warning in force.
@@ -341,8 +421,8 @@
       : "No yellow, orange or red warning is in force in MeteoAlarm's 39 countries, or MeteoAlarm could not be read (see Sources).");
     document.getElementById("eu-warn").replaceChildren(euHot.length ? table(["Level", "Warning", "Where", "From", "Until"], euHot.map(function (p) {
       var m = p.measures;
-      return [badge(m.awareness_level, cap(m.awareness_level)), h("span", null, [link(p.link, cap(m.awareness_type)),
-        h("span", { "class": "sub" }, [(m.issuer || "") + (m.credit ? " · " + m.credit : "")])]), areaList(m.areas || []), when(m.onset), when(m.expires)]; }), { 3: 1, 4: 1 })
+      return mark([badge(m.awareness_level, cap(m.awareness_level)), h("span", null, [link(p.link, cap(m.awareness_type)),
+        h("span", { "class": "sub" }, [(m.issuer || "") + (m.credit ? " · " + m.credit : "")])]), areaList(m.areas || []), when(m.onset), when(m.expires)], p); }), { 3: 1, 4: 1 })
       : empty("No orange or red warning is in force in Europe."));
     var euCc = document.getElementById("eu-cc");
     if (euCountry.length) {
@@ -356,8 +436,8 @@
     var ts = by.tsunami.slice().sort(function (x, y) { return (y.data_as_of || "").localeCompare(x.data_as_of || ""); });
     document.getElementById("tsunami").replaceChildren(ts.length ? table(["Message", "Earthquake", "Sent"], ts.map(function (p) {
       var m = p.measures;
-      return [link(p.link, cap(TSU[m.level] || m.level) + " (" + m.centre.replace(" Tsunami Warning Center", "") + ")"),
-        (m.magnitude != null ? "M" + m.magnitude.toFixed(1) + " " : "") + (m.location || "—"), when(p.data_as_of)]; }), { 2: 1 })
+      return mark([link(p.link, cap(TSU[m.level] || m.level) + " (" + m.centre.replace(" Tsunami Warning Center", "") + ")"),
+        (m.magnitude != null ? "M" + m.magnitude.toFixed(1) + " " : "") + (m.location || "—"), when(p.data_as_of)], p); }), { 2: 1 })
       : empty("No tsunami message from NOAA's two warning centres in the past 7 days."));
 
     var dm = by.usdm[0];
@@ -384,7 +464,7 @@
     var big = by.usgs.slice().sort(function (x, y) { return y.measures.magnitude - x.measures.magnitude || (y.data_as_of || "").localeCompare(x.data_as_of || ""); }).slice(0, 10);
     document.getElementById("quakes").replaceChildren(big.length ? table(["Mag.", "Where", "When", "PAGER"], big.map(function (p) {
       var m = p.measures;
-      return [m.magnitude.toFixed(1), link(p.link, m.place || "—"), when(p.data_as_of), m.pager ? badge(m.pager) : "—"]; }), { 0: 1, 2: 1 })
+      return mark([m.magnitude.toFixed(1), link(p.link, m.place || "—"), when(p.data_as_of), m.pager ? badge(m.pager) : "—"], p); }), { 0: 1, 2: 1 })
       : empty("No earthquakes of magnitude 4.5 or more in the past 7 days."));
     var both = by.usgs.filter(function (p) { return p.measures.emsc && p.measures.emsc.independent; }).length;
     var copy = by.usgs.filter(function (p) { return p.measures.emsc && !p.measures.emsc.independent; }).length;
@@ -397,20 +477,20 @@
     var wf = by.nifc.slice().sort(function (x, y) { return y.measures.acres - x.measures.acres; });
     document.getElementById("wildfires").replaceChildren(wf.length ? table(["Fire", "Where", "Acres", "Contained", "Updated"], wf.slice(0, 15).map(function (p) {
       var m = p.measures;
-      return [m.name, [m.county ? m.county + " County" : null, m.state].filter(Boolean).join(", "),
-        Number(m.acres).toLocaleString("en-US"), m.percent_contained != null ? m.percent_contained + "%" : "—", when(p.data_as_of)]; }), { 2: 1, 3: 1, 4: 1 })
+      return mark([m.name, [m.county ? m.county + " County" : null, m.state].filter(Boolean).join(", "),
+        Number(m.acres).toLocaleString("en-US"), m.percent_contained != null ? m.percent_contained + "%" : "—", when(p.data_as_of)], p); }), { 2: 1, 3: 1, 4: 1 })
       : empty("No US wildfire of 100 acres or more is being fought."));
 
     var tcs = by.gdacs.filter(function (p) { return p.measures.hazard_code === "TC"; })
       .sort(function (x, y) { return (y.measures.to || "").localeCompare(x.measures.to || ""); });
     var rows = by.nhc.map(function (p) {
       var m = p.measures;
-      return [link(p.link, (NHC[m.classification] || "Storm") + " " + m.name), "NHC advisory", m.intensity_kt + " kt, " + m.pressure_mb + " mb", when(p.data_as_of)];
+      return mark([link(p.link, (NHC[m.classification] || "Storm") + " " + m.name), "NHC advisory", m.intensity_kt + " kt, " + m.pressure_mb + " mb", when(p.data_as_of)], p);
     }).concat(tcs.map(function (p) {
       var m = p.measures, a = (p.response_stage || ":").split(":")[1];
-      return [link(p.link, (m.name || "").replace(/^Tropical Cyclone /, "")),
+      return mark([link(p.link, (m.name || "").replace(/^Tropical Cyclone /, "")),
         h("span", null, [badge(a), m.latest_alert && m.latest_alert !== a ? h("span", { "class": "small muted" }, [" (latest: " + m.latest_alert + ")"]) : null]),
-        (m.severity || "").replace(/^maximum wind /, ""), when(m.to) + (m.current ? " (GDACS: current)" : "")];
+        (m.severity || "").replace(/^maximum wind /, ""), when(m.to) + (m.current ? " (GDACS: current)" : "")], p);
     }));
     document.getElementById("cyclones").replaceChildren(rows.length ? table(["Storm", "Alert", "Maximum wind", "Last report"], rows, { 2: 1 })
       : empty("No tropical cyclones reported in the past 14 days."));
@@ -418,7 +498,7 @@
     var cems = by.cems.slice().sort(function (x, y) { return (y.measures.activated || "").localeCompare(x.measures.activated || ""); });
     document.getElementById("cems").replaceChildren(cems.length ? table(["Code", "Event", "Activated", "Maps", "Status"], cems.map(function (p) {
       var m = p.measures;
-      return [link(p.link, m.code), m.name || "—", when(m.activated), m.products != null ? m.products : "—", m.closed ? "closed" : "open"]; }), { 2: 1, 3: 1 })
+      return mark([link(p.link, m.code), m.name || "—", when(m.activated), m.products != null ? m.products : "—", m.closed ? "closed" : "open"], p); }), { 2: 1, 3: 1 })
       : empty("No Copernicus EMS activation is open or less than 60 days old."));
 
     var grid = {};
@@ -473,10 +553,20 @@
   Promise.all([get("geo/world.json"), get("data/feed.geojson"), get("data/health.json"),
     get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; }),
     get("data/meteoalarm.json").catch(function () { return null; }),
-    get("data/wildfires.json").catch(function () { return null; })]).then(function (x) {
+    get("data/wildfires.json").catch(function () { return null; }),
+    get("geo/states.json").catch(function () { return null; })]).then(function (x) {
+    if (A && x[7]) {
+      A.mountSettings(document.getElementById("area-settings"), x[7].states, { note: "Hazards tied to a place outside " +
+        "your area are dimmed on the map and in the tables, not hidden. Summaries by country are never dimmed. Saved in " +
+        "this browser only; your location is never sent anywhere." });
+    } else {
+      A = null;  // no state list in this build: no Area menu, nothing dimmed
+    }
     draw(x[0], x[1].features, x[3], x[4], x[5], x[6] && x[6].fires);
     lists(x[1].features, x[2], x[1].generated_at, x[3]);
+    dim(x[1].features);
     T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });
+    if (A) A.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); dim(x[1].features); });
   }).catch(function (e) {
     document.getElementById("map").replaceChildren(h("p", { "class": "empty", style: "padding:16px" }, ["The data could not be loaded (" + e.message + ")."]));
   });
