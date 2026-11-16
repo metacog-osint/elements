@@ -342,11 +342,11 @@
    "acres": 132.0,
    "contained": 75,
    "discovered": "2026-11-15T20:49:04Z",
-   "updated": "2026-11-16T19:04:26Z",
+   "updated": "2026-11-16T21:40:07Z",
    "state": "OK",
    "county": "Le Flore",
    "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
+   "complexity": "Type 5 Incident",
    "lon": -94.5802,
    "lat": 34.8036
   },
@@ -454,7 +454,7 @@
    "acres": 15.8,
    "contained": null,
    "discovered": "2026-11-15T15:35:44Z",
-   "updated": "2026-11-15T19:44:45Z",
+   "updated": "2026-11-16T21:40:59Z",
    "state": "OK",
    "county": "Le Flore",
    "cause": "Human",
@@ -589,6 +589,20 @@
    "lat": 48.6042
   },
   {
+   "id": "{786C9418-A52A-4FC8-A45B-E4233A3D2589}",
+   "name": "Brandstrom",
+   "acres": 4.0,
+   "contained": null,
+   "discovered": "2026-11-16T20:06:14Z",
+   "updated": "2026-11-16T21:36:36Z",
+   "state": "WA",
+   "county": "Snohomish",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2548,
+   "lat": 48.293
+  },
+  {
    "id": "{41F2E57D-FE71-48A6-AAF6-78756F940E9E}",
    "name": "Anderson - Cove Lane",
    "acres": 3.0,
@@ -664,7 +678,7 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-16T14:12:42Z",
-   "updated": "2026-11-16T19:02:55Z",
+   "updated": "2026-11-16T21:40:36Z",
    "state": "AR",
    "county": "Logan",
    "cause": "Undetermined",
@@ -783,20 +797,6 @@
    "complexity": null,
    "lon": -71.0375,
    "lat": 41.913
-  },
-  {
-   "id": "{43457277-BCFC-403F-89B8-946C88C3FBA9}",
-   "name": "Oeltjen Rd",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-16T06:00:00Z",
-   "updated": "2026-11-16T20:58:20Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.7128,
-   "lat": 45.6584
   },
   {
    "id": "{8C642F91-D466-4614-97B3-1B48A22BCB4E}",
@@ -981,6 +981,20 @@
    "lat": 46.257
   },
   {
+   "id": "{43457277-BCFC-403F-89B8-946C88C3FBA9}",
+   "name": "Oeltjen Rd",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-16T06:00:00Z",
+   "updated": "2026-11-16T21:39:46Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.7128,
+   "lat": 45.6584
+  },
+  {
    "id": "{EB0CC43C-4A10-42B0-A77F-B6DA4D2C7C44}",
    "name": "Park N Ride",
    "acres": 0.0,
@@ -1035,34 +1049,6 @@
    "complexity": null,
    "lon": -116.6283,
    "lat": 32.8312
-  },
-  {
-   "id": "{0847EBFE-AED1-4099-9210-E236A8DFD639}",
-   "name": "Dead Coon 2",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-13T06:00:00Z",
-   "updated": "2026-11-13T21:38:56Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5571,
-   "lat": 44.5481
-  },
-  {
-   "id": "{FD971E48-91C2-4464-9FED-3DA517369890}",
-   "name": "Dead Coon 1",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-13T19:37:00Z",
-   "updated": "2026-11-13T21:45:40Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5605,
-   "lat": 44.5482
   },
   {
    "id": "{E921C7DE-FB06-4BAA-AFDD-5FFEA478ED0F}",
