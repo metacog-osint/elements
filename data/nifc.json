@@ -172,9 +172,9 @@
    "id": "{68BC2BA0-2A4F-4D62-9379-F97D6A7C457F}",
    "name": "201W",
    "acres": 2700.0,
-   "contained": 60,
+   "contained": 70,
    "discovered": "2026-11-13T17:54:00Z",
-   "updated": "2026-11-15T03:52:25Z",
+   "updated": "2026-11-16T22:45:28Z",
    "state": "MS",
    "county": "Perry",
    "cause": "Undetermined",
@@ -186,9 +186,9 @@
    "id": "{FCD25E2A-053E-46ED-85C1-BA967588B0EC}",
    "name": "Range 47",
    "acres": 2378.8,
-   "contained": 65,
+   "contained": 75,
    "discovered": "2026-11-13T20:02:00Z",
-   "updated": "2026-11-15T03:44:15Z",
+   "updated": "2026-11-16T22:48:00Z",
    "state": "MS",
    "county": "Forrest",
    "cause": "Undetermined",
@@ -589,6 +589,20 @@
    "lat": 48.6042
   },
   {
+   "id": "{71C0076F-315F-4605-8D7A-04FEA03984A2}",
+   "name": "New Paintsville Road",
+   "acres": 5.0,
+   "contained": 50,
+   "discovered": "2026-11-16T18:16:00Z",
+   "updated": "2026-11-16T22:59:01Z",
+   "state": "KY",
+   "county": "Magoffin",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -82.9921,
+   "lat": 37.7613
+  },
+  {
    "id": "{41F2E57D-FE71-48A6-AAF6-78756F940E9E}",
    "name": "Anderson - Cove Lane",
    "acres": 3.0,
@@ -771,6 +785,20 @@
    "lat": 41.913
   },
   {
+   "id": "{0C79E321-BC43-44B2-AA07-225529A10893}",
+   "name": "Bone Bluff",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-16T21:48:29Z",
+   "updated": "2026-11-16T23:04:55Z",
+   "state": "FL",
+   "county": "Wakulla",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -84.5319,
+   "lat": 30.0258
+  },
+  {
    "id": "{8C642F91-D466-4614-97B3-1B48A22BCB4E}",
    "name": "Old Spanish Trail",
    "acres": 0.1,
@@ -853,20 +881,6 @@
    "complexity": null,
    "lon": -87.6752,
    "lat": 45.3138
-  },
-  {
-   "id": "{78980105-0F1A-475D-818D-20D21B2E089A}",
-   "name": "Car",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-12T21:15:00Z",
-   "updated": "2026-11-13T22:05:51Z",
-   "state": "MT",
-   "county": "Rosebud",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -106.7026,
-   "lat": 45.621
   },
   {
    "id": "{81F3EA72-1F6D-41AD-8C93-E42342937CCA}",
