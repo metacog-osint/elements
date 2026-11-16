@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "TC-1001351",
+   "type": "TC",
+   "kind": "tropical cyclone",
+   "episode": 1,
+   "name": "Tropical Cyclone AKVAN-26",
+   "alert": "orange",
+   "score": 2,
+   "latest_alert": "orange",
+   "severity_value": 92.592,
+   "severity_unit": "km/h",
+   "from": "2026-11-16T18:00:00Z",
+   "to": "2026-11-16T18:00:00Z",
+   "current": true,
+   "country": "India",
+   "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=1&eventtype=TC",
+   "lon": 86.7,
+   "lat": 11.3,
+   "countries": []
+  },
+  {
    "id": "TC-1001350",
    "type": "TC",
    "kind": "tropical cyclone",
