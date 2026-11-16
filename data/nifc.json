@@ -519,6 +519,20 @@
    "lat": 34.3408
   },
   {
+   "id": "{B9901D2C-B315-4D77-AE7C-2A776CB852E7}",
+   "name": "Jasper 9988",
+   "acres": 10.0,
+   "contained": 0,
+   "discovered": "2026-11-16T20:04:00Z",
+   "updated": "2026-11-16T21:27:30Z",
+   "state": "TX",
+   "county": "Jasper",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.2119,
+   "lat": 31.0336
+  },
+  {
    "id": "{948F016D-CC43-4BED-BBFC-7EF52C940173}",
    "name": "Black Canyon",
    "acres": 8.2,
@@ -580,7 +594,7 @@
    "acres": 3.0,
    "contained": 0,
    "discovered": "2026-11-16T18:53:10Z",
-   "updated": "2026-11-16T20:51:10Z",
+   "updated": "2026-11-16T21:13:49Z",
    "state": "TN",
    "county": "Anderson",
    "cause": "Human",
@@ -601,6 +615,20 @@
    "complexity": null,
    "lon": -98.8725,
    "lat": 47.9781
+  },
+  {
+   "id": "{FE079091-06DE-43EB-A8A7-7FFE47A5261C}",
+   "name": "Johnson 242",
+   "acres": 2.0,
+   "contained": null,
+   "discovered": "2026-11-16T21:06:25Z",
+   "updated": "2026-11-16T21:32:48Z",
+   "state": "AR",
+   "county": "Johnson",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.53,
+   "lat": 35.4783
   },
   {
    "id": "{132FCFB1-4451-48DD-B137-CFCEB4237818}",
@@ -645,20 +673,6 @@
    "lat": 35.26
   },
   {
-   "id": "{BE537833-1413-4A59-A5D9-AE24830DDC58}",
-   "name": "Logan 241",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-16T17:41:49Z",
-   "updated": "2026-11-16T17:43:35Z",
-   "state": "AR",
-   "county": "Logan",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.4308,
-   "lat": 35.2186
-  },
-  {
    "id": "{CC4053D3-B85F-4C1C-9034-4C5159C7E621}",
    "name": "White 232",
    "acres": 1.0,
@@ -673,18 +687,18 @@
    "lat": 35.4516
   },
   {
-   "id": "{107667F2-5D9E-49B1-A79A-B1A2CB8E88A1}",
-   "name": "Bucket",
-   "acres": 0.5,
+   "id": "{261035EB-B93E-42D4-B20B-88419EDE712A}",
+   "name": "Hot Sauce",
+   "acres": 0.9,
    "contained": null,
-   "discovered": "2026-11-16T19:14:58Z",
-   "updated": "2026-11-16T20:13:21Z",
-   "state": "FL",
-   "county": "Leon",
+   "discovered": "2026-11-16T06:00:00Z",
+   "updated": "2026-11-16T21:24:38Z",
+   "state": "WI",
+   "county": "Price",
    "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -84.2848,
-   "lat": 30.3747
+   "complexity": null,
+   "lon": -90.5242,
+   "lat": 45.7889
   },
   {
    "id": "{CB502E33-39FD-41C6-AE36-71E5EFE08BB1}",
@@ -699,6 +713,20 @@
    "complexity": null,
    "lon": -89.6512,
    "lat": 45.5586
+  },
+  {
+   "id": "{107667F2-5D9E-49B1-A79A-B1A2CB8E88A1}",
+   "name": "Bucket",
+   "acres": 0.4,
+   "contained": null,
+   "discovered": "2026-11-16T19:14:58Z",
+   "updated": "2026-11-16T21:13:36Z",
+   "state": "FL",
+   "county": "Leon",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -84.2848,
+   "lat": 30.3747
   },
   {
    "id": "{5F7D5B17-E71F-43B1-82BD-09664A3E993A}",

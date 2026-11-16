@@ -1,110 +1,32 @@
 {
  "records": [
   {
-   "id": "KMTR.TO.W.0003.2026",
-   "event": "Tornado Warning",
+   "id": "PAFG.BZ.W.0038.2026",
+   "event": "Blizzard Warning",
    "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS San Francisco CA",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
    "areas": [
-    "Santa Cruz, CA"
+    "St Lawrence Island"
    ],
    "counties": [
-    "06087"
+    "02180"
    ],
-   "sent": "2026-11-16T20:47:00Z",
-   "onset": "2026-11-16T20:47:00Z",
-   "ends": "2026-11-16T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c33b9e89815765f26c8d42bc7fe9105e000178d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.23,
-       37.04
-      ],
-      [
-       -122.2,
-       37.06
-      ],
-      [
-       -122.11,
-       37.02
-      ],
-      [
-       -122.1,
-       36.96
-      ],
-      [
-       -122.11,
-       36.96
-      ],
-      [
-       -122.12,
-       36.97
-      ],
-      [
-       -122.13,
-       36.97
-      ],
-      [
-       -122.14,
-       36.98
-      ],
-      [
-       -122.15,
-       36.98
-      ],
-      [
-       -122.16,
-       36.99
-      ],
-      [
-       -122.17,
-       36.99
-      ],
-      [
-       -122.18,
-       37
-      ],
-      [
-       -122.19,
-       37
-      ],
-      [
-       -122.2,
-       37.01
-      ],
-      [
-       -122.21,
-       37.01
-      ],
-      [
-       -122.22,
-       37.02
-      ],
-      [
-       -122.22,
-       37.03
-      ],
-      [
-       -122.23,
-       37.04
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-16T21:15:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77b92724ab556c20024960edd0c02c87e70e2df1.001.2",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -122.0078,
-     37.0123
+     -164.1889,
+     64.7837
     ]
    ],
-   "lon": -122.171,
-   "lat": 37.002,
+   "lon": -164.189,
+   "lat": 64.784,
    "countries": [
     "US"
    ]
@@ -268,6 +190,63 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-16T14:49:00Z",
+   "onset": "2026-11-16T14:49:00Z",
+   "ends": "2026-11-17T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -326,63 +305,6 @@
    ],
    "lon": -81.536,
    "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-16T14:49:00Z",
-   "onset": "2026-11-16T14:49:00Z",
-   "ends": "2026-11-17T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
    "countries": [
     "US"
    ]
@@ -1909,6 +1831,32 @@
    ]
   },
   {
+   "id": "PAFC.SR.W.7174.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Pacific Side"
+   ],
+   "counties": [
+    "58785"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-16T13:00:00Z",
+   "ends": "2026-11-17T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7169.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1951,32 +1899,6 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.7174.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Adak to Kiska Pacific Side"
-   ],
-   "counties": [
-    "58785"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-16T13:00:00Z",
-   "ends": "2026-11-17T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2389,36 +2311,25 @@
    ]
   },
   {
-   "id": "PAFG.WS.A.0036.2026",
-   "event": "Winter Storm Watch",
+   "id": "PAFG.WS.W.0027.2026",
+   "event": "Winter Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
-    "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula",
-    "Eastern Norton Sound and Nulato Hills",
     "Yukon Delta Coast",
-    "Lower Yukon River",
-    "Noatak Valley",
-    "Kivalina and Red Dog Dock",
-    "Lower Kobuk Valley",
-    "Baldwin Peninsula",
-    "Northern Seward Peninsula",
-    "Shishmaref"
+    "Lower Yukon River"
    ],
    "counties": [
     "02158",
-    "02180",
-    "02188"
+    "02180"
    ],
-   "sent": "2026-11-16T06:54:00Z",
-   "onset": "2026-11-18T00:00:00Z",
+   "sent": "2026-11-16T21:15:00Z",
+   "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b700d5aac3396697b65f065d622d3d7f143a1bc.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77b92724ab556c20024960edd0c02c87e70e2df1.003.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2429,14 +2340,10 @@
     [
      -164.1889,
      64.7837
-    ],
-    [
-     -160.0211,
-     67.0051
     ]
    ],
-   "lon": -162.467,
-   "lat": 64.691,
+   "lon": -163.69,
+   "lat": 63.534,
    "countries": [
     "US"
    ]
