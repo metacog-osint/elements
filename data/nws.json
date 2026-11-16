@@ -1787,25 +1787,25 @@
    ]
   },
   {
-   "id": "KSTO.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Sacramento CA",
    "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft",
+    "Western Shasta County Mountains Above 3000 ft",
+    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
+    "Tehama County Coast Range Above 3000 ft",
+    "Glenn and Colusa County Coast Range Above 3000 ft",
     "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
     "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
     "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
     "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Western Shasta County Mountains Above 3000 ft",
-    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
-    "Tehama County Coast Range Above 3000 ft",
-    "Glenn and Colusa County Coast Range Above 3000 ft"
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
    ],
    "counties": [
     "06003",
@@ -1824,10 +1824,10 @@
     "06103",
     "06109"
    ],
-   "sent": "2026-11-15T19:40:00Z",
-   "onset": "2026-11-18T06:00:00Z",
+   "sent": "2026-11-16T18:05:00Z",
+   "onset": "2026-11-18T00:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71f922528695b39a4563f43fad1d7cb51abeb6a8.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41edf702ed10e723bf0ca9952891769bc782d932.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
