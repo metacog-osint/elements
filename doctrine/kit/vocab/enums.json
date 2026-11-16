@@ -90,6 +90,13 @@
       "none": "No location (for example a software vulnerability). Drawn off-map."
     }
   },
+  "data_as_of_precision": {
+    "basis": "ISO 8601 reduced precision; suite display rule for sources that give no time (Tom, 15 Nov 2026)",
+    "values": {
+      "day": "The source gives the date only. data_as_of is midnight UTC on that date; show the date, never a time or a zone.",
+      "month": "The source gives the month only. data_as_of is midnight UTC on the 1st; show the month and year, never a day or a time."
+    }
+  },
   "product_category": {
     "basis": "JP 2-0 intelligence products by purpose, adapted",
     "values": {

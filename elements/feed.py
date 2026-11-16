@@ -2,11 +2,13 @@
 published, with its own alert ladder as response_stage (pager:*, gdacs:*, cems:*). An alert above the bottom rung
 (PAGER yellow or worse, GDACS orange or red) is an anomaly against that ladder's baseline. Each item passes the
 doctrine kit's linter or is dropped and listed."""
+import json
 import re
 from datetime import datetime, timedelta, timezone
+from functools import cache
 
 from .common import ROOT, country_name, country_point  # first: puts the doctrine kit on sys.path
-from tic_doctrine import CONTRACT, contract, registers, vocab  # noqa: E402
+from tic_doctrine import CONTRACT, contract, geo, registers, vocab  # noqa: E402
 
 METHOD = "elements-feed-1.0"
 CEMS_DAYS = 60
@@ -162,8 +164,39 @@ def _slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", (s or "").lower()).strip("_") or "unknown"
 
 
+TERRITORIES = {"PR", "GU", "VI", "AS", "MP"}  # their own ISO country codes, not US states
+
+
+@cache
+def _county_states() -> dict:
+    """County FIPS (SSCCC) -> USPS state code, from catalog/us_counties.json (Census 2025 Gazetteer)."""
+    doc = json.loads((ROOT / "catalog" / "us_counties.json").read_text(encoding="utf-8"))
+    return {k: v[3] for k, v in doc["counties"].items()}
+
+
+def subdivide(feats: list[dict]) -> None:
+    """Add `subdivisions` (kit 0.5.7, ISO 3166-2 codes such as US-HI) to US items, so consumers can tell a hazard in
+    Hawaii from one for all of the US (Tom, 15 Nov 2026). From NWS's own county codes when the item lists them, else
+    from the item's point or shape on the kit's 1:10m state outlines (right to about 1 km at a state line). An item
+    for the whole country (precision country, at the label point) gets none."""
+    states = _county_states()
+    for x in feats:
+        p = x["properties"]
+        if "US" not in (p.get("countries") or []) or p.get("subdivisions"):
+            continue
+        subs = {f"US-{states[c]}" for c in (p.get("measures") or {}).get("counties") or []
+                if c in states and states[c] not in TERRITORIES}
+        if not subs and p.get("precision_class") not in ("country", "none") and x.get("geometry"):
+            subs = set(geo.subdivisions_for_geometry(x["geometry"]))
+        if subs:
+            p["subdivisions"] = sorted(subs)
+
+
 def _volcano_items(d: dict, now: datetime) -> list[dict]:
-    """USGS elevated volcanoes. Every one is an anomaly against NORMAL. The response_stage needs the kit's usgs_volcano
+    """USGS elevated volcanoes, each measured against NORMAL. An anomaly only when it matters as news (Tom, 15 Nov
+    2026: a standing or lowered alert is not one): the alert was raised, it is newly elevated, USGS gives no earlier
+    level to compare with, or it stands at WARNING or aviation code RED (an eruption under way). A re-sent or
+    lowered alert below WARNING is routine. The response_stage needs the kit's usgs_volcano
     ladder (kit 0.3.2); with an older kit, or for UNASSIGNED (no ground-based alert level, which the ladder has no rung
     for), the items go out without it."""
     from .volcanoes import change
@@ -180,8 +213,11 @@ def _volcano_items(d: dict, now: datetime) -> list[dict]:
         ground = ("no ground-based alert level" if v["alert"] == "UNASSIGNED" else f"USGS volcano alert {v['alert'].title()}")
         title = (f"{v['name']}: {ground}, aviation code {(v.get('color') or 'none').title()}"
                  + (f" ({was})" if was else ""))
+        known = bool(v.get("prev_alert") or v.get("prev_color"))
+        top = v["alert"] == "WARNING" or (v.get("color") or "").upper() == "RED"
+        news = top or moved == "raised" or not known
         p = {**_base(f), "id": f"elements:usgs-volcano:{v['vnum'] or _slug(v['name'])}", "title": title,
-             "tier": "anomaly", "data_as_of": v.get("sent") or f, "countries": v["countries"],
+             "tier": "anomaly" if news else "routine", "data_as_of": v.get("sent") or f, "countries": v["countries"],
              "requirement_ids": ["EL-PIR-6"],
              "baseline_ref": {"id": "usgs-volcano-normal", "type": "fixed", "version": "1",
                               "window": "USGS volcano alert levels: NORMAL, ADVISORY, WATCH, WARNING (NORMAL is background)"},
@@ -485,6 +521,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
                           "note": "Detections, not fires: each overpass counts, and gas flares and other heat sources are included"}}
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
+    subdivide(feats)
     regs = registers.ids(ROOT / "doctrine")
     kept, dropped = [], []
     for x in feats:

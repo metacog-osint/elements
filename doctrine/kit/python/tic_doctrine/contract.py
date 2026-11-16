@@ -13,6 +13,7 @@ from . import CONTRACT, likelihood, vocab
 UTC_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d+)?)?Z$")
 HASH_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
+SUBDIVISION_RE = re.compile(r"^[A-Z]{2}-[A-Z0-9]{1,3}$")  # ISO 3166-2, e.g. US-HI, GB-SCT
 JUDGED_KINDS = {"assessment", "forecast"}
 
 # Standard 0 holds contract-level problems that no ICD 203 standard covers.
@@ -150,6 +151,12 @@ def check(item: dict, registers: dict | None = None) -> list[tuple[str, str, str
         err(GENERAL, "countries missing (use [] for none)")
     elif not isinstance(countries, list) or any(not isinstance(c, str) or not COUNTRY_RE.match(c) for c in countries):
         err(GENERAL, "countries must be ISO 3166-1 alpha-2 codes (XK allowed)")
+    subs = p.get("subdivisions")
+    if subs is not None:
+        if not isinstance(subs, list) or any(not isinstance(s, str) or not SUBDIVISION_RE.match(s) for s in subs):
+            err(GENERAL, "subdivisions must be ISO 3166-2 codes such as US-HI")
+        elif isinstance(countries, list) and any(s.split("-")[0] not in countries for s in subs):
+            err(GENERAL, "each subdivision's country must also be in countries")
     if p.get("evidence_hash") is not None and not HASH_RE.match(str(p["evidence_hash"])):
         err(GENERAL, "evidence_hash must be 'sha256:' plus 64 hex digits")
 
@@ -165,6 +172,12 @@ def check(item: dict, registers: dict | None = None) -> list[tuple[str, str, str
         err(GENERAL, f"continuum={p['continuum']!r} unknown")
     one_of(GENERAL, "product_category", vocab.enum("product_category"), required=False)
     one_of(GENERAL, "precision_class", vocab.enum("precision_class"), required=False)
+    one_of("sources", "data_as_of_precision", vocab.enum("data_as_of_precision"), required=False)
+    dap, asof = p.get("data_as_of_precision"), str(p.get("data_as_of") or "")
+    if dap == "day" and not asof.endswith("T00:00:00Z"):
+        err("sources", "data_as_of_precision 'day' needs data_as_of at midnight UTC (T00:00:00Z)")
+    elif dap == "month" and not (asof.endswith("T00:00:00Z") and asof[8:10] == "01"):
+        err("sources", "data_as_of_precision 'month' needs data_as_of at midnight UTC on the 1st")
     ncf_ids = p.get("ncf")
     if ncf_ids is not None:
         bad = [f for f in ncf_ids if f not in vocab.ncf()]

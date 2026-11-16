@@ -101,6 +101,59 @@ def countries_for_geometry(geom: dict | None) -> list[str]:
     return countries_in(geometry_points(geom))
 
 
+SUBDIVISIONS = Path(__file__).resolve().parents[2] / "geo" / "subdivisions.json"
+
+
+@cache
+def _subdivisions():
+    return json.loads(SUBDIVISIONS.read_text(encoding="utf-8"))["subdivisions"]
+
+
+def subdivision_at(lat: float, lon: float) -> str | None:
+    """ISO 3166-2 code of the state at a point ("US-HI"), or None at sea, outside the covered countries (the United
+    States for now; territories such as Puerto Rico have their own ISO country code). Outlines are Natural Earth
+    1:10m (geo/subdivisions.json): within about 1 km of a state line or coast a point can get the neighbour or None
+    (checked 15 Nov 2026: Fargo ND, West Fargo ND and Moorhead MN right; at Grand Forks the line sits about 1 km east
+    of the Red River)."""
+    for sd in _subdivisions():
+        b = sd["bbox"]
+        if b[0] <= lon <= b[2] and b[1] <= lat <= b[3] and any(_in_ring(lon, lat, r) for r in sd["rings"]):
+            return sd["code"]
+    return None
+
+
+def _outer_rings(geom: dict | None) -> list:
+    if not geom:
+        return []
+    t, c = geom.get("type"), geom.get("coordinates")
+    if t == "Polygon":
+        return [c[0]]
+    if t == "MultiPolygon":
+        return [p[0] for p in c]
+    if t == "GeometryCollection":
+        return [r for g in geom.get("geometries") or [] for r in _outer_rings(g)]
+    return []
+
+
+def subdivisions_for_geometry(geom: dict | None) -> list[str]:
+    """Sorted ISO 3166-2 codes of the states a GeoJSON geometry touches: any of its vertices falls in the state, or
+    (for an area) any point of the state's outline falls inside it, so an area around a small state (the DC area
+    TFR around the District of Columbia) names that state too."""
+    found = {s for s in (subdivision_at(la, lo) for la, lo in geometry_points(geom)) if s}
+    rings = _outer_rings(geom)
+    box = geometry_bbox(geom) if rings else None
+    if box:
+        for sd in _subdivisions():
+            if sd["code"] in found or not boxes_intersect(box, sd["bbox"]):
+                continue
+            # about 32 points of the state's outline: enough to see a state the area encloses (a state the area only
+            # crosses already holds one of the area's vertices)
+            pts = [q for ring in sd["rings"] for q in ring]
+            if any(_in_ring(x, y, r) for x, y in pts[::max(1, len(pts) // 32)] for r in rings):
+                found.add(sd["code"])
+    return sorted(found)
+
+
 def point(cc: str):
     """[lat, lon] label point inside the country (ISO alpha-2), or None. Natural Earth LABEL_Y/LABEL_X."""
     return _points().get(str(cc or "").upper())
