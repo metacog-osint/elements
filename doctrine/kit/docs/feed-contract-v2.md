@@ -25,13 +25,20 @@ is [`schema/feed-item-v2.schema.json`](../schema/feed-item-v2.schema.json); the 
 | `status_class` | assessed, reported or claimed (claims draw hollow and move nothing alone) | Watchfloor two-source rule |
 | `data_as_of`, `published_at` | when it was true; when we published it (UTC, ending in Z) | ICD 206 |
 | `countries` | ISO 3166-1 alpha-2 codes, `[]` for none | |
+| `subdivisions` | optional: ISO 3166-2 codes of the states or provinces the item is in (`["US-HI"]`), each one's country also in `countries`; leave it out when not known. A consumer matching by place should prefer it to `countries`, so a notice in Hawaii is not read as one for all of the United States | suite rule (Tom, 15 Nov 2026) |
 | `coverage_fraction` | share of expected observations received | Primer quality-of-information check |
 | `method_version` | the method that made the item | |
 | `sources[]` | `id`, `publisher`, `author`, `title`, `outlet`, `source_type`, `url`, `published_at`, `accessed_at`, `licence`, `descriptor` (credibility, reliability, provenance, collector or tool), `grade` (Admiralty, e.g. B2), `lineage_id`, `independence_group`; optional `owner` (state, public, private, intergovernmental, ngo, individual, unknown) and `perspective` (the program's source group, e.g. `russian_state`) | ICS 206-01 (2 Dec 2024) citation fields, without classification fields; Admiralty system; owner and perspective from Watchfloor's source catalog |
 | `geometry` or `visual` | a place on the map, or `{type, url}` for a graphic | ICD 203 standard 9; visual-first rule |
 
 Optional on every item: `summary`, `evidence_hash` (`sha256:...`), `archive_url`, `requirement_ids[]`,
-`precision_class`, `product_category`, `actors[]` (below), and the tags below.
+`precision_class`, `product_category`, `data_as_of_precision`, `actors[]` (below), and the tags below.
+
+`data_as_of_precision` is for a source that gives no time. With `day`, `data_as_of` is midnight UTC on that date;
+with `month`, it is midnight UTC on the 1st. A page then shows the date ("30 Oct 2026") or the month ("June 2025"),
+read in UTC, and never a time or a zone; the kit's `asOfDateLabel()` does this. Without the field, `data_as_of` is a
+moment and is shown in the viewer's zone. Midnight UTC shown as a time reads as the evening before in the Americas
+(Tom, 15 Nov 2026).
 
 ## Actors and sides (`actors[]`)
 

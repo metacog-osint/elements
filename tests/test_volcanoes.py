@@ -82,8 +82,24 @@ class Feed(unittest.TestCase):
         self.assertEqual(it["Kilauea"]["title"], "Kilauea: USGS volcano alert Advisory, aviation code Yellow (lowered from Watch/Orange)")
         self.assertEqual(it["Great Sitkin"]["title"], "Great Sitkin: USGS volcano alert Watch, aviation code Orange (raised from Advisory/Yellow)")
         self.assertEqual(it["Ahyi Seamount"]["title"], "Ahyi Seamount: USGS volcano alert Advisory, aviation code Yellow (previously unassigned)")
-        self.assertTrue(all(p["tier"] == "anomaly" and p["baseline_ref"]["id"] == "usgs-volcano-normal" for p in it.values()))
+        self.assertTrue(all(p["baseline_ref"]["id"] == "usgs-volcano-normal" for p in it.values()))
+        # Tom, 15 Nov 2026: raised or newly elevated is news; lowered (Kilauea, Watch to Advisory) is routine.
+        self.assertEqual({k: p["tier"] for k, p in it.items()},
+                         {"Kilauea": "routine", "Great Sitkin": "anomaly", "Shishaldin": "anomaly", "Ahyi Seamount": "anomaly"})
+        self.assertEqual((it["Kilauea"]["subdivisions"], it["Great Sitkin"]["subdivisions"]), (["US-HI"], ["US-AK"]))
+        self.assertNotIn("subdivisions", it["Ahyi Seamount"])  # Northern Mariana Islands: its own country code
         self.assertEqual(it["Kilauea"]["id"], "elements:usgs-volcano:332010")
+
+    def test_standing_alerts_are_routine_and_eruptions_are_not(self):
+        rec = volcanoes.parse_usgs([
+            v("Standing", "1", "avo", "ADVISORY", "YELLOW", "ADVISORY", "YELLOW", 54.0, -165.0),   # a re-sent notice
+            v("Erupting", "2", "avo", "WARNING", "RED", "WARNING", "RED", 55.0, -161.0),           # standing, but RED
+            v("Unknown", "3", "avo", "WATCH", "ORANGE", "", "", 56.0, -160.0)])                   # no earlier level
+        d = {k: {"records": [], "fetched_at": FETCHED} for k in ("usgs", "gdacs", "nhc", "cems")}
+        d["usgs_volcano"] = {"records": rec, "fetched_at": FETCHED}
+        it = self.items(feed.build(d, NOW))
+        self.assertEqual({k: p["tier"] for k, p in it.items()},
+                         {"Standing": "routine", "Erupting": "anomaly", "Unknown": "anomaly"})
 
     def test_unassigned_alert_with_raised_colour(self):
         """A satellite-only volcano can have no ground-based alert level and still a raised aviation colour."""

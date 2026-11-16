@@ -1409,6 +1409,22 @@ export function lifelineStatus(status) {
   return VOCAB.lifeline_status[status] || VOCAB.lifeline_status.unknown;
 }
 
+/**
+ * Date-only label for an item whose source gives no time (data_as_of_precision "day" or "month"): "30 Oct 2026" or
+ * "June 2025" in en-GB, read in UTC so no zone moves it to the evening before. Null for an exact time, which is shown
+ * in the viewer's zone as usual.
+ */
+export function asOfDateLabel(item, locale) {
+  const prec = item && item.data_as_of_precision;
+  if (prec !== "day" && prec !== "month") return null;
+  const d = new Date(item.data_as_of);
+  if (Number.isNaN(d.getTime())) return null;
+  const opts = prec === "month"
+    ? { month: "long", year: "numeric", timeZone: "UTC" }
+    : { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" };
+  return d.toLocaleDateString(locale, opts);
+}
+
 /** A response ladder rung from "ladder:value", e.g. "pager:orange". */
 export function ladderRung(stage) {
   const [ladder, value] = String(stage).split(":");

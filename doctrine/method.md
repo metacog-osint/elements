@@ -31,8 +31,17 @@ supply a seasonal one sooner.
 
 ## Volcanoes
 USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
-level and the responsible observatory's synopsis. Each is an anomaly against Normal. The kit's `usgs_volcano` ladder
-(kit 0.3.1) gives the response stage; with an older kit the items go out without one.
+level and the responsible observatory's synopsis. Each is measured against Normal, and since 15 Nov 2026 (Tom: a
+standing or lowered alert is not news) an item is an anomaly only when its alert was raised, it is newly elevated
+(from Normal or unassigned), USGS gives no earlier level, or it stands at Warning or aviation code Red; a re-sent or
+lowered alert below Warning is routine and still listed. The kit's `usgs_volcano` ladder (kit 0.3.1) gives the
+response stage; with an older kit the items go out without one.
+
+## States (`subdivisions`)
+Since 15 Nov 2026 (kit 0.5.7) every US item with a place carries the ISO 3166-2 code of each state it is in
+(`US-HI`), so a consumer can tell a hazard in Hawaii from one for all of the US: from NWS's own county codes for NWS
+alerts, else from the item's point or shape on the kit's Natural Earth 1:10m state outlines (right to about 1 km at a
+state line). Items for the whole country carry none.
 
 The Smithsonian Global Volcanism Program's daily report would cover the rest of the world, but its site sits behind
 bot protection that refuses scripted clients, and Elements does not work around that. Its weekly RSS feed answers
