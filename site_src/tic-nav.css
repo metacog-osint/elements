@@ -1,9 +1,10 @@
-/*! tic-nav.css v2.0 · pairs with tic-nav.js (canonical copy in the hub's site/shared/).
+/*! tic-nav.css v2.1 · pairs with tic-nav.js (canonical copy in the hub's site/shared/).
     House navy bar on every program site; the panel follows the viewer's light or dark setting. Everything is scoped
     to .tic-house so a site's own styles (Tailwind's reset included) don't need changing.
     v1.3 (with tic-nav.js v1.12): the bar is fixed to the top of the window and .tic-house-room holds its place; it
     minimizes to a tab. --tic-house-h on <html> is the room it takes (34px, or 0px minimized or printed): a site's own
     sticky or fixed header uses `top: var(--tic-house-h, 0px)` to sit below it.
+    v2.1 (with tic-nav.js v2.1): no style change; Relief joins the menu.
     v2.0 (with tic-nav.js v2.0): the menu's layer groups sit in two columns, each program can carry a freshness dot
     from COP's health check (always with words: a screen-reader note, and "running late" or "no current data" shown
     after the topic), and the panel ends with a row of two links and the dots' note. */

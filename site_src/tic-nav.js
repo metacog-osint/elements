@@ -1,4 +1,4 @@
-/*! tic-nav.js v2.0 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v2.1 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *
  *  1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
@@ -26,6 +26,8 @@
  *    TicNav.minimized()      true when the bar is minimized
  *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
  *  v1.13 (15 Nov 2026): Wake (shipping through maritime chokepoints, beta) in the Programs menu.
+ *
+ *  v2.1 (15 Nov 2026): Relief (humanitarian appeals and disease outbreaks, live) in the Programs menu, Human layer.
  *
  *  v2.0 (15 Nov 2026, from the suite design review): the menu groups programs by their home layer, in the hub
  *  drawing's order (COP first as every layer, then Systems down to Land and maritime, then other tools); each item
@@ -69,6 +71,10 @@
       label: "Human · influence operations",
       short: "Covert influence operations that platforms and governments have taken down, at the level of the operation.",
       long: "Covert influence operations as the platforms and governments that disrupted them report them: Meta's takedown networks, Google's influence-operations bulletins, OpenAI's threat reports, TikTok's reports under the EU Code of Conduct, and the EEAS's named operations. Each gives the origin the publisher assessed, the targets, and the DISARM techniques described, with a STIX 2.1 export. Operations only: no account handles, links or names of individuals." },
+    { id: "relief", name: "Relief", href: "https://relief.theintelligence.company", status: "beta", group: "layers", layer: "human",
+      label: "Human · humanitarian response",
+      short: "Where the Red Cross and Red Crescent are asking for help, and where WHO is reporting outbreaks.",
+      long: "Where the Red Cross and Red Crescent are asking for help, and where WHO is reporting outbreaks: IFRC GO appeals and WHO Disease Outbreak News, as they publish them. Measurements only. Updated every six hours." },
     { id: "vigil", name: "Vigil", href: "https://vigil.theintelligence.company", status: "live", group: "layers", layer: "cyber",
       label: "Cyberspace · threat intelligence",
       short: "Ransomware, exploited vulnerabilities and threat indicators.",
@@ -382,7 +388,7 @@
   }
 
   window.TicNav = {
-    version: "2.0", programs: PROGRAMS.slice(), mount: mount,
+    version: "2.1", programs: PROGRAMS.slice(), mount: mount,
     minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
     minimize: function (min) { if (setMini) setMini(min !== false, true); }
   };
