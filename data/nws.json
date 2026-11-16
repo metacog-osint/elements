@@ -793,6 +793,74 @@
    ]
   },
   {
+   "id": "KMTR.MA.W.0013.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm"
+   ],
+   "counties": [
+    "57545"
+   ],
+   "sent": "2026-11-16T16:22:00Z",
+   "onset": "2026-11-16T16:22:00Z",
+   "ends": "2026-11-16T16:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c7b2460e03668228d9409faecd95a55405c6867.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.42,
+       37.24
+      ],
+      [
+       -122.58,
+       37.28
+      ],
+      [
+       -122.55,
+       37.46
+      ],
+      [
+       -122.44,
+       37.46
+      ],
+      [
+       -122.44,
+       37.43
+      ],
+      [
+       -122.4,
+       37.36
+      ],
+      [
+       -122.41,
+       37.27
+      ],
+      [
+       -122.41,
+       37.25
+      ],
+      [
+       -122.42,
+       37.24
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.452,
+   "lat": 37.332,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7501.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1703,6 +1771,90 @@
    ]
   },
   {
+   "id": "KREV.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Mono",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-16T16:34:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c48c668b9df3aba4515183d2f36196198f2b4b46.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KSTO.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -1958,90 +2110,6 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KREV.WS.A.0006.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties",
-    "Mono"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06051",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-16T10:05:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5305645f8d54ce6251c0bb355ddeefd17a18f56b.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.154,
-   "lat": 39.342,
    "countries": [
     "US"
    ]
