@@ -136,6 +136,256 @@
    ]
   },
   {
+   "id": "KBOU.FW.A.0044.2026",
+   "event": "Fire Weather Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "Larimer and Boulder Counties Between 6000 and 9000 Feet",
+    "Larimer County Below 6000 Feet/Northwest Weld County",
+    "Boulder And Jefferson Counties Below 6000 Feet/West Broomfield County",
+    "North Douglas County Below 6000 Feet/Denver/West Adams and Arapahoe Counties/East Broomfield County",
+    "Central and South Weld County"
+   ],
+   "counties": [
+    "08001",
+    "08005",
+    "08013",
+    "08014",
+    "08031",
+    "08035",
+    "08059",
+    "08069",
+    "08123",
+    "56001"
+   ],
+   "sent": "2026-11-17T19:46:00Z",
+   "onset": "2026-11-18T15:00:00Z",
+   "ends": "2026-11-18T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.382bc923e46a867f01f5d73980c813cffc84cd48.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3319,
+     39.8743
+    ],
+    [
+     -104.3317,
+     39.6446
+    ],
+    [
+     -105.3977,
+     40.095
+    ],
+    [
+     -105.0509,
+     39.9539
+    ],
+    [
+     -104.8811,
+     39.7619
+    ],
+    [
+     -104.926,
+     39.3254
+    ],
+    [
+     -105.2455,
+     39.5795
+    ],
+    [
+     -105.4868,
+     40.6581
+    ],
+    [
+     -104.3837,
+     40.556
+    ],
+    [
+     -105.7219,
+     41.6655
+    ]
+   ],
+   "lon": -104.976,
+   "lat": 40.111,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FF.W.0219.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ",
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04005",
+    "04025"
+   ],
+   "sent": "2026-11-17T20:00:00Z",
+   "onset": "2026-11-17T20:00:00Z",
+   "ends": "2026-11-18T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.294e0e35d092b271b6bdce4212b3259093070008.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.78,
+       34.83
+      ],
+      [
+       -111.79,
+       34.81
+      ],
+      [
+       -111.82,
+       34.8
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.81,
+       34.83
+      ],
+      [
+       -111.78,
+       34.85
+      ],
+      [
+       -111.77,
+       34.87
+      ],
+      [
+       -111.76,
+       34.9
+      ],
+      [
+       -111.72,
+       34.94
+      ],
+      [
+       -111.63,
+       34.95
+      ],
+      [
+       -111.61,
+       34.94
+      ],
+      [
+       -111.61,
+       34.9
+      ],
+      [
+       -111.63,
+       34.87
+      ],
+      [
+       -111.65,
+       34.87
+      ],
+      [
+       -111.68,
+       34.89
+      ],
+      [
+       -111.7,
+       34.91
+      ],
+      [
+       -111.72,
+       34.91
+      ],
+      [
+       -111.73,
+       34.89
+      ],
+      [
+       -111.75,
+       34.86
+      ],
+      [
+       -111.78,
+       34.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ],
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.733,
+   "lat": 34.87,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.FF.A.0001.2026",
+   "event": "Flash Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "North Bay Interior Mountains",
+    "Santa Lucia Mountains and Los Padres National Forest",
+    "Southern Monterey Bay and Big Sur Coast"
+   ],
+   "counties": [
+    "06053",
+    "06055",
+    "06097"
+   ],
+   "sent": "2026-11-17T19:48:00Z",
+   "onset": "2026-11-18T08:00:00Z",
+   "ends": "2026-11-19T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0282d7421866c30a1f4de4aabd3bc424571443fb.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.3156,
+     36.2401
+    ],
+    [
+     -122.3259,
+     38.5071
+    ],
+    [
+     -122.9261,
+     38.5252
+    ]
+   ],
+   "lon": -122.189,
+   "lat": 37.757,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -722,10 +972,10 @@
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-17T18:03:00Z",
+   "sent": "2026-11-17T19:47:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52fee3a4254f5a9265a3dd8af4e75ad12dc921fc.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58013a450c87bfe158a90df9598e4f4cc9ff30a5.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1073,8 +1323,8 @@
    "sender": "NWS Cheyenne WY",
    "areas": [
     "Central Laramie County",
-    "Converse County Lower Elevations",
     "North Snowy Range Foothills",
+    "Converse County Lower Elevations",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1226,14 +1476,14 @@
    "certainty": "Likely",
    "sender": "NWS Rapid City SD",
    "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
     "Western Fall River",
     "Northern Oglala Lakota",
     "Eastern Fall River",
-    "Southern Oglala Lakota"
+    "Southern Oglala Lakota",
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
    ],
    "counties": [
     "46019",
@@ -1244,9 +1494,9 @@
     "46105"
    ],
    "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T18:00:00Z",
+   "onset": "2026-11-18T19:00:00Z",
    "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1344,6 +1594,53 @@
    ]
   },
   {
+   "id": "KBOU.HW.W.0008.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "South and East Jackson/Larimer/North and Northeast Grand/Northwest Boulder Counties Above 9000 Feet",
+    "Larimer and Boulder Counties Between 6000 and 9000 Feet"
+   ],
+   "counties": [
+    "08013",
+    "08049",
+    "08057",
+    "08069"
+   ],
+   "sent": "2026-11-17T20:01:00Z",
+   "onset": "2026-11-18T06:00:00Z",
+   "ends": "2026-11-18T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.090bf311c30937644912c4dbf50019af0bf30f88.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.3977,
+     40.095
+    ],
+    [
+     -106.1108,
+     40.1131
+    ],
+    [
+     -106.3292,
+     40.6634
+    ],
+    [
+     -105.4868,
+     40.6581
+    ]
+   ],
+   "lon": -105.831,
+   "lat": 40.382,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0043.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1376,53 +1673,6 @@
    ],
    "lon": -106.328,
    "lat": 41.685,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBOU.HW.A.0007.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Denver CO",
-   "areas": [
-    "South and East Jackson/Larimer/North and Northeast Grand/Northwest Boulder Counties Above 9000 Feet",
-    "Larimer and Boulder Counties Between 6000 and 9000 Feet"
-   ],
-   "counties": [
-    "08013",
-    "08049",
-    "08057",
-    "08069"
-   ],
-   "sent": "2026-11-17T18:57:00Z",
-   "onset": "2026-11-18T09:00:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e18a86db2679925d62124c7d385d308dfe304532.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.3977,
-     40.095
-    ],
-    [
-     -106.1108,
-     40.1131
-    ],
-    [
-     -106.3292,
-     40.6634
-    ],
-    [
-     -105.4868,
-     40.6581
-    ]
-   ],
-   "lon": -105.831,
-   "lat": 40.382,
    "countries": [
     "US"
    ]
@@ -1589,6 +1839,68 @@
    ]
   },
   {
+   "id": "KBOU.FW.W.0057.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "Jefferson and West Douglas Counties Above  6000 Feet/Gilpin/Clear Creek/Northeast Park Counties Below 9000 Feet",
+    "Elbert/Central and East Douglas Counties Above 6000 Feet"
+   ],
+   "counties": [
+    "08005",
+    "08019",
+    "08035",
+    "08039",
+    "08047",
+    "08059",
+    "08093"
+   ],
+   "sent": "2026-11-17T19:46:00Z",
+   "onset": "2026-11-18T15:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.382bc923e46a867f01f5d73980c813cffc84cd48.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3317,
+     39.6446
+    ],
+    [
+     -105.6708,
+     39.6894
+    ],
+    [
+     -104.926,
+     39.3254
+    ],
+    [
+     -104.1141,
+     39.3152
+    ],
+    [
+     -105.5289,
+     39.8612
+    ],
+    [
+     -105.2455,
+     39.5795
+    ],
+    [
+     -105.7176,
+     39.1189
+    ]
+   ],
+   "lon": -105.076,
+   "lat": 39.505,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KKEY.MA.W.0366.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1603,10 +1915,10 @@
     "77055",
     "77075"
    ],
-   "sent": "2026-11-17T19:08:00Z",
-   "onset": "2026-11-17T19:08:00Z",
+   "sent": "2026-11-17T19:36:00Z",
+   "onset": "2026-11-17T19:36:00Z",
    "ends": "2026-11-17T20:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeb9a817ce88ee473d93a1e3b2e18fb9d90e59d8.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b8fb0178fa2e78219a7a36b81aaac234045a321.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1638,6 +1950,68 @@
    "points": [],
    "lon": -83.182,
    "lat": 24.294,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0353.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75650",
+    "75651"
+   ],
+   "sent": "2026-11-17T19:46:00Z",
+   "onset": "2026-11-17T19:46:00Z",
+   "ends": "2026-11-17T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ac178cf56f1c11edc5c8ab04431d221bb0ee311.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.93,
+       26.08
+      ],
+      [
+       -80.13,
+       26.18
+      ],
+      [
+       -80.11,
+       26.31
+      ],
+      [
+       -80.11,
+       26.37
+      ],
+      [
+       -80.06,
+       26.43
+      ],
+      [
+       -79.79,
+       26.22
+      ],
+      [
+       -79.93,
+       26.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.009,
+   "lat": 26.239,
    "countries": [
     "US"
    ]
@@ -1851,32 +2225,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1893,6 +2241,32 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
