@@ -340,9 +340,9 @@
    "id": "{DD65D5E6-6D16-489F-83E2-54182B421864}",
    "name": "Hunters Branch",
    "acres": 150.0,
-   "contained": null,
+   "contained": 100,
    "discovered": "2026-11-09T06:40:00Z",
-   "updated": "2026-11-17T14:42:52Z",
+   "updated": "2026-11-17T15:32:28Z",
    "state": "WV",
    "county": "Boone",
    "cause": "Undetermined",
@@ -727,6 +727,20 @@
    "complexity": null,
    "lon": -71.0375,
    "lat": 41.913
+  },
+  {
+   "id": "{A15D1DF7-870B-4539-B232-0D23180A8E91}",
+   "name": "Misery Trail",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-07-22T19:09:19Z",
+   "updated": "2026-11-17T15:18:13Z",
+   "state": "PA",
+   "county": "Chester",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -75.4595,
+   "lat": 40.0894
   },
   {
    "id": "{8C642F91-D466-4614-97B3-1B48A22BCB4E}",
