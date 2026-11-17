@@ -424,6 +424,127 @@
    ]
   },
   {
+   "id": "KFGZ.FF.W.0220.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-17T22:21:00Z",
+   "onset": "2026-11-17T22:21:00Z",
+   "ends": "2026-11-18T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a12fb8ef6c72f6c63f9c6a8d71fd86fbbc652f8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.91,
+       34.8
+      ],
+      [
+       -111.91,
+       34.77
+      ],
+      [
+       -111.9,
+       34.76
+      ],
+      [
+       -111.93,
+       34.74
+      ],
+      [
+       -111.93,
+       34.71
+      ],
+      [
+       -111.92,
+       34.7
+      ],
+      [
+       -111.93,
+       34.69
+      ],
+      [
+       -111.95,
+       34.69
+      ],
+      [
+       -111.96,
+       34.68
+      ],
+      [
+       -111.95,
+       34.66
+      ],
+      [
+       -111.93,
+       34.66
+      ],
+      [
+       -111.91,
+       34.68
+      ],
+      [
+       -111.89,
+       34.68
+      ],
+      [
+       -111.9,
+       34.73
+      ],
+      [
+       -111.89,
+       34.73
+      ],
+      [
+       -111.87,
+       34.76
+      ],
+      [
+       -111.88,
+       34.77
+      ],
+      [
+       -111.87,
+       34.79
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.902,
+   "lat": 34.735,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -1124,6 +1245,38 @@
    ]
   },
   {
+   "id": "PAFC.FA.A.0011.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "SW Kenai Peninsula",
+    "Southern Kenai Mtns"
+   ],
+   "counties": [
+    "02122"
+   ],
+   "sent": "2026-11-17T22:32:00Z",
+   "onset": "2026-11-18T15:00:00Z",
+   "ends": "2026-11-20T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d20aeb65c9b9f53ec78f58d9dd95e014f8436c4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -152.3223,
+     60.3667
+    ]
+   ],
+   "lon": -152.322,
+   "lat": 60.367,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KHNX.FZ.W.0005.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1377,37 +1530,6 @@
    ],
    "lon": -108.084,
    "lat": 42.564,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFR.HW.W.0007.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Central Siskiyou County"
-   ],
-   "counties": [
-    "06093"
-   ],
-   "sent": "2026-11-17T11:56:00Z",
-   "onset": "2026-11-18T00:00:00Z",
-   "ends": "2026-11-18T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.902e1059c88f61449d1505764d741bfb5f440c32.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ]
-   ],
-   "lon": -122.533,
-   "lat": 41.588,
    "countries": [
     "US"
    ]
@@ -1806,6 +1928,37 @@
    ]
   },
   {
+   "id": "KMFR.HW.W.0007.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Central Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-17T22:28:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb29c0341d2e1992d671bcd5950a0a26ead400b5.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0043.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2128,7 +2281,7 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0368.2026",
+   "id": "KKEY.MA.W.0371.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2142,165 +2295,47 @@
     "77055",
     "77075"
    ],
-   "sent": "2026-11-17T21:51:00Z",
-   "onset": "2026-11-17T21:51:00Z",
-   "ends": "2026-11-17T22:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81d12a0d652ace88498059b7b38124be81f26224.001.1",
+   "sent": "2026-11-17T22:12:00Z",
+   "onset": "2026-11-17T22:12:00Z",
+   "ends": "2026-11-17T23:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3a4c6663471cc515ce73003f6064fab5150fbb9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.98,
-       24.17
-      ],
-      [
-       -82.96,
-       24.32
-      ],
-      [
-       -82.55,
-       24.31
-      ],
-      [
-       -82.61,
-       24.07
-      ],
-      [
-       -82.98,
-       24.17
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.816,
-   "lat": 24.208,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0357.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75630",
-    "75651"
-   ],
-   "sent": "2026-11-17T21:51:00Z",
-   "onset": "2026-11-17T21:51:00Z",
-   "ends": "2026-11-17T22:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32e28b05611a5925a7e282a1705536c9d4be70fa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.22,
-       25.53
-      ],
-      [
-       -80.35,
-       25.55
-      ],
-      [
-       -80.3,
-       25.7
-      ],
-      [
-       -80.24,
-       25.76
-      ],
-      [
-       -80.05,
-       25.68
-      ],
-      [
-       -80.22,
-       25.53
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.23,
-   "lat": 25.625,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0369.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel"
-   ],
-   "counties": [
-    "77034"
-   ],
-   "sent": "2026-11-17T21:57:00Z",
-   "onset": "2026-11-17T21:57:00Z",
-   "ends": "2026-11-17T22:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8675aff9ecaf9009ae9f6c6c6853c9c7db1c9cb.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -83.22,
-       24.82
-      ],
-      [
-       -83.2,
-       24.9
-      ],
-      [
-       -82.92,
-       24.97
+       -82.85,
+       24.14
       ],
       [
        -82.87,
-       24.71
+       24.3
       ],
       [
-       -83.21,
-       24.71
+       -82.61,
+       24.39
       ],
       [
-       -83.23,
-       24.82
+       -82.58,
+       24.12
       ],
       [
-       -83.22,
-       24.82
+       -82.85,
+       24.14
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -83.124,
-   "lat": 24.821,
+   "lon": -82.752,
+   "lat": 24.218,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KKEY.MA.W.0370.2026",
+   "id": "KKEY.MA.W.0372.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2312,45 +2347,53 @@
    "counties": [
     "77075"
    ],
-   "sent": "2026-11-17T21:59:00Z",
-   "onset": "2026-11-17T21:59:00Z",
-   "ends": "2026-11-17T22:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7726070a551ccf0d7177124d8dec7c33fe3c3a7.001.1",
+   "sent": "2026-11-17T22:30:00Z",
+   "onset": "2026-11-17T22:30:00Z",
+   "ends": "2026-11-17T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56d6d0d8d3df88d5a280556dc20421c83f77230c.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.98,
-       24.14
+       -83.14,
+       24.03
       ],
       [
-       -83.02,
-       23.92
+       -82.88,
+       23.77
+      ],
+      [
+       -83.09,
+       23.66
+      ],
+      [
+       -83.1,
+       23.66
+      ],
+      [
+       -83.21,
+       23.76
+      ],
+      [
+       -83.24,
+       23.83
       ],
       [
        -83.27,
-       23.98
+       23.96
       ],
       [
-       -83.29,
-       24.1
-      ],
-      [
-       -83.29,
-       24.16
-      ],
-      [
-       -82.98,
-       24.14
+       -83.14,
+       24.03
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -83.138,
-   "lat": 24.073,
+   "lon": -83.134,
+   "lat": 23.837,
    "countries": [
     "US"
    ]
@@ -3474,34 +3517,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0006.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-17T17:11:00Z",
-   "onset": "2026-11-17T23:00:00Z",
-   "ends": "2026-11-18T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.930be577e0de0bf12428fecfaaec732e9587148c.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3530,32 +3545,29 @@
    ]
   },
   {
-   "id": "PAFC.WS.W.0011.2026",
-   "event": "Winter Storm Warning",
+   "id": "KEKA.SR.W.0006.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
    "areas": [
-    "Kuskokwim Delta Coast and Nunivak Island"
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
    ],
    "counties": [
-    "02050"
+    "57450",
+    "57470"
    ],
-   "sent": "2026-11-16T22:31:00Z",
-   "onset": "2026-11-18T00:00:00Z",
-   "ends": "2026-11-18T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.324f2201e7b078ee56be545c09a307ded4d98d9f.001.2",
+   "sent": "2026-11-17T22:32:00Z",
+   "onset": "2026-11-17T23:00:00Z",
+   "ends": "2026-11-18T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e89232d9d13e5db5a70f72d75644964d7bc2041.002.2",
    "geometry": null,
    "vtec": true,
-   "points": [
-    [
-     -160.1526,
-     60.9291
-    ]
-   ],
-   "lon": -160.153,
-   "lat": 60.929,
+   "points": [],
+   "lon": null,
+   "lat": null,
    "countries": [
     "US"
    ]
@@ -3949,6 +3961,37 @@
    ],
    "lon": -123.115,
    "lat": 40.648,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.WS.W.0011.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta Coast and Nunivak Island"
+   ],
+   "counties": [
+    "02050"
+   ],
+   "sent": "2026-11-17T22:18:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6eab6a4e7adfeb021e693a5c78808d1b5aadbf7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -160.1526,
+     60.9291
+    ]
+   ],
+   "lon": -160.153,
+   "lat": 60.929,
    "countries": [
     "US"
    ]
