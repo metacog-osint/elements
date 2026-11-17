@@ -242,10 +242,10 @@
     "56021",
     "56031"
    ],
-   "sent": "2026-11-17T20:11:00Z",
+   "sent": "2026-11-17T20:41:00Z",
    "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-18T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.346165c04cb0a92f83c18127b42fef6f501ce611.001.1",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8951e37032f001ab274f920255fc2ab6e1e66b88.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -981,13 +981,6 @@
    "certainty": "Possible",
    "sender": "NWS Jacksonville FL",
    "areas": [
-    "Inland Flagler",
-    "Coastal Flagler",
-    "Northeast Coastal St. Johns",
-    "Southeast Coastal St. Johns",
-    "Northern Inland St. Johns",
-    "Southern Inland St. Johns",
-    "Western St. Johns",
     "Coastal Duval",
     "Eastern Clay",
     "Eastern Putnam",
@@ -995,7 +988,14 @@
     "Western Clay",
     "Western Putnam",
     "South Central Duval",
-    "Western Duval"
+    "Western Duval",
+    "Inland Flagler",
+    "Coastal Flagler",
+    "Northeast Coastal St. Johns",
+    "Southeast Coastal St. Johns",
+    "Northern Inland St. Johns",
+    "Southern Inland St. Johns",
+    "Western St. Johns"
    ],
    "counties": [
     "12019",
@@ -1007,7 +1007,7 @@
    "sent": "2026-11-17T17:14:00Z",
    "onset": "2026-11-17T22:00:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.133bf9c0650e77ee833d46ad6340415a88edf236.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.133bf9c0650e77ee833d46ad6340415a88edf236.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1054,14 +1054,6 @@
     "Southern Salinas Valley",
     "San Luis Obispo County Interior Valleys",
     "San Luis Obispo County Mountains",
-    "Ventura County Beaches",
-    "Ventura County Inland Coast",
-    "Lake Casitas",
-    "Ojai Valley",
-    "Central Ventura County Valleys",
-    "Southeastern Ventura County Valleys",
-    "Southern Ventura County Mountains",
-    "Northern Ventura County Mountains",
     "Cuyama Valley",
     "Santa Barbara County Central Coast Beaches",
     "Santa Barbara County Inland Central Coast",
@@ -1072,6 +1064,14 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "Ventura County Beaches",
+    "Ventura County Inland Coast",
+    "Lake Casitas",
+    "Ojai Valley",
+    "Central Ventura County Valleys",
+    "Southeastern Ventura County Valleys",
+    "Southern Ventura County Mountains",
+    "Northern Ventura County Mountains",
     "Santa Ynez Mountains Eastern Range",
     "Santa Clarita Valley",
     "Malibu Coast",
@@ -1420,7 +1420,6 @@
    "certainty": "Likely",
    "sender": "NWS Anchorage AK",
    "areas": [
-    "Atka and Adak",
     "Pribilof Islands"
    ],
    "counties": [
@@ -1429,7 +1428,7 @@
    "sent": "2026-11-17T13:01:00Z",
    "onset": "2026-11-17T13:01:00Z",
    "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c60a22893d99a30d302a703decbf45344e826b7f.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c60a22893d99a30d302a703decbf45344e826b7f.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1489,8 +1488,8 @@
    "sender": "NWS Cheyenne WY",
    "areas": [
     "Central Laramie County",
-    "Converse County Lower Elevations",
     "North Snowy Range Foothills",
+    "Converse County Lower Elevations",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -2081,10 +2080,10 @@
     "77055",
     "77075"
    ],
-   "sent": "2026-11-17T20:16:00Z",
-   "onset": "2026-11-17T20:16:00Z",
+   "sent": "2026-11-17T20:45:00Z",
+   "onset": "2026-11-17T20:45:00Z",
    "ends": "2026-11-17T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c031960135c2961a10b4ac7402fc57707e12c7c8.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8026344e6cbd5799e93a9f283a595bae249d9df.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2116,6 +2115,132 @@
    "points": [],
    "lon": -83.032,
    "lat": 24.214,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0354.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM",
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75650",
+    "75651",
+    "75670",
+    "75671"
+   ],
+   "sent": "2026-11-17T20:49:00Z",
+   "onset": "2026-11-17T20:49:00Z",
+   "ends": "2026-11-17T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2b8adb3888d3c7c4ebab682f600b45d30bd1d90.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.74,
+       25.97
+      ],
+      [
+       -80.14,
+       26.16
+      ],
+      [
+       -80.11,
+       26.31
+      ],
+      [
+       -80.1,
+       26.54
+      ],
+      [
+       -79.6,
+       26.24
+      ],
+      [
+       -79.74,
+       25.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.905,
+   "lat": 26.198,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0355.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75630",
+    "75651",
+    "75671"
+   ],
+   "sent": "2026-11-17T20:54:00Z",
+   "onset": "2026-11-17T20:54:00Z",
+   "ends": "2026-11-17T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61ca92545d0d8b1ae6e302344fe0d0c3a403f598.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.81,
+       25.29
+      ],
+      [
+       -80.04,
+       25.29
+      ],
+      [
+       -80.35,
+       25.38
+      ],
+      [
+       -80.36,
+       25.42
+      ],
+      [
+       -80.02,
+       25.72
+      ],
+      [
+       -79.66,
+       25.55
+      ],
+      [
+       -79.81,
+       25.29
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.007,
+   "lat": 25.42,
    "countries": [
     "US"
    ]
@@ -2667,32 +2792,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7121.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta from 15 to 80 NM"
-   ],
-   "counties": [
-    "58764"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-17T14:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7120.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2735,6 +2834,32 @@
    "onset": "2026-11-17T01:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.022.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7121.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta from 15 to 80 NM"
+   ],
+   "counties": [
+    "58764"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3267,6 +3392,34 @@
    ]
   },
   {
+   "id": "KMFR.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57356",
+    "57376"
+   ],
+   "sent": "2026-11-17T20:37:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-18T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5a0ad69fb0aed24b1ab24586b2a6aaf7adac35f.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.WS.W.0011.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -3293,37 +3446,6 @@
    ],
    "lon": -160.153,
    "lat": 60.929,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KVEF.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Las Vegas NV",
-   "areas": [
-    "Eastern Sierra Slopes of Inyo County"
-   ],
-   "counties": [
-    "06027"
-   ],
-   "sent": "2026-11-17T06:05:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3cc6394002e2696ad8c659e0593b7b9fe8e8898.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.4042,
-     36.5622
-    ]
-   ],
-   "lon": -117.404,
-   "lat": 36.562,
    "countries": [
     "US"
    ]
@@ -3686,6 +3808,37 @@
    ],
    "lon": -163.69,
    "lat": 63.534,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KVEF.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Las Vegas NV",
+   "areas": [
+    "Eastern Sierra Slopes of Inyo County"
+   ],
+   "counties": [
+    "06027"
+   ],
+   "sent": "2026-11-17T20:54:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8eea26ff9839e3f369b4b07d3fb94dbe58e31475.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.4042,
+     36.5622
+    ]
+   ],
+   "lon": -117.404,
+   "lat": 36.562,
    "countries": [
     "US"
    ]
