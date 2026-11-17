@@ -9,9 +9,11 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="tic-time.css">
 <link rel="stylesheet" href="tic-tabs.css">
+<link rel="stylesheet" href="tic-related.css">
 <script src="tic-time.js"></script>
 <script src="tic-area.js"></script>
 <script src="tic-tabs.js" defer></script>
+<script src="tic-related.js"></script>
 <link rel="stylesheet" href="tic-nav.css">
 <script src="tic-nav.js" defer data-health="on"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -71,6 +73,8 @@
           observatory, weather warnings by the national weather service.</p>
         <div id="alerts"></div>
       </section>
+      <!-- Elsewhere today: the other layers' findings in the countries with alerts above (tic-related.js from the hub) -->
+      <section class="card" id="tic-related" hidden></section>
       <section class="card" aria-labelledby="volc-h">
         <h2 id="volc-h">US volcanoes above Normal</h2>
         <p class="muted small">The USGS volcano alert level (Normal, Advisory, Watch, Warning) speaks to people on the

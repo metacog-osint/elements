@@ -403,6 +403,9 @@
       var src = alertOf(p)[1];
       return mark([badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])], p); }))
       : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, and no Extreme US or red European weather warning."));
+    var hotCc = [];
+    hot.forEach(function (p) { (p.countries || []).forEach(function (c) { if (c && hotCc.indexOf(c) < 0) hotCc.push(c); }); });
+    if (window.TicRelated && hotCc.length) TicRelated.render(document.getElementById("tic-related"), { countries: hotCc, here: "elements", level: 2 });
 
     var vo = by["usgs-volcano"].slice().sort(function (x, y) {
       return (RANK[(y.measures.aviation_color || "").toLowerCase()] || 0) - (RANK[(x.measures.aviation_color || "").toLowerCase()] || 0)
