@@ -1,16 +1,46 @@
 {
  "records": [
   {
+   "id": "20261117_0000230",
+   "mag": 5.1,
+   "magtype": "mb",
+   "time": "2026-11-17T15:49:23Z",
+   "updated": "2026-11-17T16:03:49Z",
+   "region": "Near East Coast Of Kamchatka",
+   "depth_km": 48.0,
+   "authority": "EMSC",
+   "lat": 51.705,
+   "lon": 158.9,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000230"
+  },
+  {
+   "id": "20261117_0000224",
+   "mag": 4.5,
+   "magtype": "mb",
+   "time": "2026-11-17T14:54:02Z",
+   "updated": "2026-11-17T15:48:59Z",
+   "region": "Northern Iran",
+   "depth_km": 10.0,
+   "authority": "GFZ",
+   "lat": 36.504,
+   "lon": 55.482,
+   "countries": [
+    "IR"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000224"
+  },
+  {
    "id": "20261117_0000200",
    "mag": 5.2,
    "magtype": "mw",
-   "time": "2026-11-17T14:20:36Z",
-   "updated": "2026-11-17T14:40:29Z",
+   "time": "2026-11-17T14:20:33Z",
+   "updated": "2026-11-17T15:42:14Z",
    "region": "South Of Kermadec Islands",
-   "depth_km": 337.1,
-   "authority": "NEIC",
-   "lat": -32.306,
-   "lon": 179.842,
+   "depth_km": 305.8,
+   "authority": "EMSC",
+   "lat": -32.331,
+   "lon": 179.97,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000200"
   },
@@ -19,12 +49,12 @@
    "mag": 4.5,
    "magtype": "mb",
    "time": "2026-11-17T12:26:16Z",
-   "updated": "2026-11-17T13:11:22Z",
+   "updated": "2026-11-17T15:41:55Z",
    "region": "Eastern New Guinea Reg., P.N.G.",
    "depth_km": 10.0,
-   "authority": "NEIC",
-   "lat": -10.268,
-   "lon": 149.584,
+   "authority": "EMSC",
+   "lat": -10.174,
+   "lon": 149.51,
    "countries": [
     "PG"
    ],
@@ -148,13 +178,13 @@
    "id": "20261116_0000308",
    "mag": 4.6,
    "magtype": "mb",
-   "time": "2026-11-16T21:55:58Z",
-   "updated": "2026-11-16T22:16:02Z",
+   "time": "2026-11-16T21:55:57Z",
+   "updated": "2026-11-17T15:41:37Z",
    "region": "Vanuatu",
-   "depth_km": 119.9,
-   "authority": "NEIC",
-   "lat": -20.767,
-   "lon": 169.818,
+   "depth_km": 112.0,
+   "authority": "EMSC",
+   "lat": -20.684,
+   "lon": 169.87,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261116_0000308"
   },
@@ -1705,34 +1735,6 @@
    "lon": 68.435,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261110_0000259"
-  },
-  {
-   "id": "20261110_0000242",
-   "mag": 4.8,
-   "magtype": "mb",
-   "time": "2026-11-10T15:52:55Z",
-   "updated": "2026-11-10T16:37:59Z",
-   "region": "Santa Cruz Islands",
-   "depth_km": 48.3,
-   "authority": "NEIC",
-   "lat": -10.898,
-   "lon": 165.737,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261110_0000242"
-  },
-  {
-   "id": "20261110_0000232",
-   "mag": 5.2,
-   "magtype": "mw",
-   "time": "2026-11-10T15:51:36Z",
-   "updated": "2026-11-16T07:52:56Z",
-   "region": "Halmahera, Indonesia",
-   "depth_km": 8.4,
-   "authority": "EMSC",
-   "lat": -0.944,
-   "lon": 128.595,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261110_0000232"
   }
  ]
 }
