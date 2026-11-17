@@ -70,10 +70,10 @@
    "counties": [
     "02158"
    ],
-   "sent": "2026-11-16T20:23:00Z",
+   "sent": "2026-11-17T12:54:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64d2081132f9a0fec377aca86b08b9e82854f14d.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c01e3df536f7f7cebaefd126c491ba477e9d1a38.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -775,6 +775,110 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.8717.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-17T12:45:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.664767a65d591d2046a07b7414a9bc224caa101b.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2133.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Kotzebue Sound greater than 10 NM"
+   ],
+   "counties": [
+    "58855"
+   ],
+   "sent": "2026-11-17T12:46:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4adbbc412c7b07237ea739c38e3b1121085eedf8.018.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2128.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Sledge Island to Wales out to 15 NM"
+   ],
+   "counties": [
+    "58806"
+   ],
+   "sent": "2026-11-17T12:46:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4adbbc412c7b07237ea739c38e3b1121085eedf8.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2130.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Espenberg to Motherwood Point out to 10 NM"
+   ],
+   "counties": [
+    "58808"
+   ],
+   "sent": "2026-11-17T12:46:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4adbbc412c7b07237ea739c38e3b1121085eedf8.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.HW.W.0001.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -806,38 +910,6 @@
    ],
    "lon": -121.932,
    "lat": 37.783,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.HW.W.0015.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Pribilof Islands",
-    "Atka and Adak"
-   ],
-   "counties": [
-    "02016"
-   ],
-   "sent": "2026-11-16T21:51:00Z",
-   "onset": "2026-11-17T12:00:00Z",
-   "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3cb50230afbbbf833028adb115788b16069a82a.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     179.6212,
-     51.949
-    ]
-   ],
-   "lon": 179.621,
-   "lat": 51.949,
    "countries": [
     "US"
    ]
@@ -994,6 +1066,38 @@
    ],
    "lon": -143.219,
    "lat": 63.865,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.HW.W.0015.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Atka and Adak",
+    "Pribilof Islands"
+   ],
+   "counties": [
+    "02016"
+   ],
+   "sent": "2026-11-17T13:01:00Z",
+   "onset": "2026-11-17T13:01:00Z",
+   "ends": "2026-11-18T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c60a22893d99a30d302a703decbf45344e826b7f.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     179.6212,
+     51.949
+    ]
+   ],
+   "lon": 179.621,
+   "lat": 51.949,
    "countries": [
     "US"
    ]
@@ -2453,6 +2557,396 @@
    "onset": "2026-11-17T23:00:00Z",
    "ends": "2026-11-18T11:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c56c597ad996c1e8ccdeb02a75d5654dd6df9acf.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.3154.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Bering Sea Offshore  West of 180 and East of the International Date Line"
+   ],
+   "counties": [
+    "58411"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9276ad408fb07d07eeabfedbdd8b6c064cba18da.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.3157.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Bering Sea Offshore East of 171W"
+   ],
+   "counties": [
+    "58414"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9276ad408fb07d07eeabfedbdd8b6c064cba18da.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.3155.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Bering Sea Offshore 171W to 180 and North of 56N"
+   ],
+   "counties": [
+    "58412"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9276ad408fb07d07eeabfedbdd8b6c064cba18da.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.3156.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Bering Sea Offshore 171W to 180 and South of 56N"
+   ],
+   "counties": [
+    "58413"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9276ad408fb07d07eeabfedbdd8b6c064cba18da.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7375.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Bering Side"
+   ],
+   "counties": [
+    "58784"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.026.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7377.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kiska to Attu Bering Side"
+   ],
+   "counties": [
+    "58786"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.028.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7372.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side from 15 to 85 NM"
+   ],
+   "counties": [
+    "58781"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.023.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7379.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Pribilof Islands Nearshore Waters"
+   ],
+   "counties": [
+    "58766"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7384.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta from 15 to 80 NM"
+   ],
+   "counties": [
+    "58764"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.035.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7368.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Nikolski to Seguam Bering Side from 15 to 85 NM"
+   ],
+   "counties": [
+    "58776"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.019.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7371.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.022.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7383.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta and Etolin Strait out to 15 NM"
+   ],
+   "counties": [
+    "58763"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.034.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7386.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Saint Matthew Island Waters"
+   ],
+   "counties": [
+    "58767"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.037.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7373.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Pacific Side out to 15 NM"
+   ],
+   "counties": [
+    "58782"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.024.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7385.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "North and West of Nunivak Island"
+   ],
+   "counties": [
+    "58765"
+   ],
+   "sent": "2026-11-17T12:37:00Z",
+   "onset": "2026-11-17T12:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb1429e0fa876ab8988457c53b2fcdae1eef5bf1.036.1",
    "geometry": null,
    "vtec": true,
    "points": [],
