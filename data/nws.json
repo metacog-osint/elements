@@ -1679,6 +1679,32 @@
    ]
   },
   {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1721,32 +1747,6 @@
    "onset": "2026-11-16T13:00:00Z",
    "ends": "2026-11-17T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2416,38 +2416,6 @@
    ]
   },
   {
-   "id": "KEKA.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Southern Trinity",
-    "Northeastern Trinity"
-   ],
-   "counties": [
-    "06105"
-   ],
-   "sent": "2026-11-16T18:42:00Z",
-   "onset": "2026-11-18T03:00:00Z",
-   "ends": "2026-11-19T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a15bf7d2d5dfb2ab2705f8ef6baafd459f3f42f7.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1147,
-     40.6479
-    ]
-   ],
-   "lon": -123.115,
-   "lat": 40.648,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.WS.W.0027.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2802,6 +2770,38 @@
    ],
    "lon": -117.404,
    "lat": 36.562,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.WS.W.0004.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Southern Trinity",
+    "Northeastern Trinity"
+   ],
+   "counties": [
+    "06105"
+   ],
+   "sent": "2026-11-17T07:42:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48e1e7385228cfe2acb479479b7e7ed857b26009.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1147,
+     40.6479
+    ]
+   ],
+   "lon": -123.115,
+   "lat": 40.648,
    "countries": [
     "US"
    ]
