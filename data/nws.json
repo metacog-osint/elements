@@ -827,42 +827,6 @@
    ]
   },
   {
-   "id": "KMTR.HW.W.0001.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "East Bay Hills"
-   ],
-   "counties": [
-    "06001",
-    "06013"
-   ],
-   "sent": "2026-11-16T21:40:00Z",
-   "onset": "2026-11-18T05:00:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1c6614d0462190c8c2d0aef0efe5f12b0293dd7.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.9125,
-     37.6471
-    ],
-    [
-     -121.9515,
-     37.9195
-    ]
-   ],
-   "lon": -121.932,
-   "lat": 37.783,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRIW.HW.W.0016.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1051,6 +1015,42 @@
    ]
   },
   {
+   "id": "KMTR.HW.W.0001.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "East Bay Hills"
+   ],
+   "counties": [
+    "06001",
+    "06013"
+   ],
+   "sent": "2026-11-17T15:45:00Z",
+   "onset": "2026-11-18T05:00:00Z",
+   "ends": "2026-11-18T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24c3a594510b8bb29f21090744feb80233bff9c1.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.9125,
+     37.6471
+    ],
+    [
+     -121.9515,
+     37.9195
+    ]
+   ],
+   "lon": -121.932,
+   "lat": 37.783,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0042.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1058,8 +1058,8 @@
    "certainty": "Possible",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "Central Laramie County",
-    "Converse County Lower Elevations"
+    "Converse County Lower Elevations",
+    "Central Laramie County"
    ],
    "counties": [
     "56009",
@@ -1068,7 +1068,7 @@
    "sent": "2026-11-17T08:49:00Z",
    "onset": "2026-11-18T09:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62c011e5abdca4e0e6e7dd83e65351d430246dd4.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62c011e5abdca4e0e6e7dd83e65351d430246dd4.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1104,10 +1104,10 @@
     "08057",
     "08069"
    ],
-   "sent": "2026-11-17T10:55:00Z",
+   "sent": "2026-11-17T16:58:00Z",
    "onset": "2026-11-18T09:00:00Z",
    "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca02fd964d10c9bb57d9d6317650e3d850ace9f4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f934535a66c2e72e6d6454c850dfac3e4a63a00.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1343,32 +1343,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1385,6 +1359,32 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2455,69 +2455,6 @@
    ]
   },
   {
-   "id": "KHNX.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "South End of the Upper Sierra",
-    "Yosemite NP outside of the valley",
-    "San Joaquin River Canyon",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP"
-   ],
-   "counties": [
-    "06019",
-    "06029",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-17T08:54:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.139967ae37ce9bed3a572d4117dc3c70fd7ba447.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -118.7295,
-     35.3466
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.465,
-   "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KREV.WS.W.0005.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2525,10 +2462,10 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
     "Mono",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area"
    ],
    "counties": [
     "06003",
@@ -2546,7 +2483,7 @@
    "sent": "2026-11-17T09:44:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd5278176231bb77465fa1b73612947182d9dcb1.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd5278176231bb77465fa1b73612947182d9dcb1.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2700,6 +2637,69 @@
    ],
    "lon": -123.115,
    "lat": 40.648,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP",
+    "South End of the Upper Sierra"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-17T16:51:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73135b87cf00427841b08f308242a263a7387443.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
