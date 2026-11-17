@@ -1,6 +1,20 @@
 {
  "records": [
   {
+   "id": "20261117_0000200",
+   "mag": 5.2,
+   "magtype": "mb",
+   "time": "2026-11-17T14:20:36Z",
+   "updated": "2026-11-17T14:33:54Z",
+   "region": "South Of Kermadec Islands",
+   "depth_km": 86.0,
+   "authority": "EMSC",
+   "lat": -32.817,
+   "lon": -179.474,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000200"
+  },
+  {
    "id": "20261117_0000163",
    "mag": 4.5,
    "magtype": "mb",
@@ -15,6 +29,20 @@
     "PG"
    ],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000163"
+  },
+  {
+   "id": "20261117_0000202",
+   "mag": 4.5,
+   "magtype": "mb",
+   "time": "2026-11-17T11:12:59Z",
+   "updated": "2026-11-17T14:36:07Z",
+   "region": "Guam Region",
+   "depth_km": 106.8,
+   "authority": "NEIC",
+   "lat": 13.481,
+   "lon": 144.621,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000202"
   },
   {
    "id": "20261117_0000134",
@@ -1733,22 +1761,6 @@
    "lon": -90.795,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261110_0000213"
-  },
-  {
-   "id": "20261110_0000272",
-   "mag": 4.7,
-   "magtype": "mb",
-   "time": "2026-11-10T14:31:36Z",
-   "updated": "2026-11-10T18:39:36Z",
-   "region": "Java, Indonesia",
-   "depth_km": 101.2,
-   "authority": "NEIC",
-   "lat": -6.952,
-   "lon": 106.936,
-   "countries": [
-    "ID"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261110_0000272"
   }
  ]
 }
