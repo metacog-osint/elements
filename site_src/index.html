@@ -8,8 +8,10 @@
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="tic-time.css">
+<link rel="stylesheet" href="tic-tabs.css">
 <script src="tic-time.js"></script>
 <script src="tic-area.js"></script>
+<script src="tic-tabs.js" defer></script>
 <link rel="stylesheet" href="tic-nav.css">
 <script src="tic-nav.js" defer data-health="on"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -58,131 +60,137 @@
     <p id="area-note" class="muted small" aria-live="polite"></p>
   </section>
 
-  <section class="card" aria-labelledby="alerts-h">
-    <h2 id="alerts-h">Alerts above the bottom rung</h2>
-    <p class="muted small">PAGER yellow or worse, GDACS orange or red, any US volcano above Normal, and Extreme US or red
-      European weather warnings. PAGER and GDACS are model estimates of impact, issued within minutes and revised as
-      reports arrive; a GDACS alert is the highest the event has reached. Volcano alerts are set by the responsible USGS
-      observatory, weather warnings by the national weather service.</p>
-    <div id="alerts"></div>
-  </section>
-
-  <section class="card" aria-labelledby="volc-h">
-    <h2 id="volc-h">US volcanoes above Normal</h2>
-    <p class="muted small">The USGS volcano alert level (Normal, Advisory, Watch, Warning) speaks to people on the
-      ground; the aviation colour code (Green, Yellow, Orange, Red) to aircraft. Outside the US, GDACS's orange and red
-      volcano alerts appear above. The Smithsonian's daily eruption report is not used: its site refuses automated
-      readers.</p>
-    <div id="volcanoes"></div>
-  </section>
-
-  <section class="card" aria-labelledby="nws-h">
-    <h2 id="nws-h">US weather warnings and watches, Severe or Extreme</h2>
-    <p class="muted small" id="spc"></p>
-    <p class="muted small">National Weather Service alerts rated Severe or Extreme on the alert standard's four-step
-      scale (Minor, Moderate, Severe, Extreme). Storm-based warnings are drawn as the area NWS drew; the rest as a dot at
-      each county they name.</p>
-    <div id="nws"></div>
-  </section>
-
-  <section class="card" aria-labelledby="eu-h">
-    <h2 id="eu-h">Weather warnings in Europe</h2>
-    <p class="muted small" id="eu-sum"></p>
-    <p class="muted small">Official warnings from the national weather services of 39 countries (the EU, the UK, Norway,
-      Switzerland, the Balkans, Ukraine, Moldova and Israel), gathered by MeteoAlarm. Its levels: yellow, potentially
-      dangerous; orange, dangerous; red, very dangerous (green, no particular awareness, is left out). Warnings that start
-      later today or tomorrow are included. Each is drawn as the polygon its service drew, or as a dot at each region it
-      names.</p>
-    <div id="eu-warn"></div>
-    <div id="eu-cc"></div>
-  </section>
-
-  <div class="two">
-    <section class="card" aria-labelledby="tsu-h">
-      <h2 id="tsu-h">Tsunami messages, past 7 days</h2>
-      <p class="muted small">From NOAA's National Tsunami Warning Center (Alaska; the US and Canadian coasts) and Pacific
-        Tsunami Warning Center (Hawaii; the Pacific and Caribbean). An information statement means an earthquake was
-        assessed and no tsunami threat is expected for the centre's coasts.</p>
-      <div id="tsunami"></div>
-    </section>
-    <section class="card" aria-labelledby="dm-h">
-      <h2 id="dm-h">US drought this week</h2>
-      <p class="muted small" id="drought-sum"></p>
-      <p class="muted small">US Drought Monitor categories as a share of the US, including Alaska, Hawaii and Puerto
-        Rico. Shares are cumulative: D2 counts everything in D2, D3 or D4. Switch on "US drought" to see the map.</p>
-      <div id="drought"></div>
-    </section>
+  <!-- Sections: one group at a time on phones, a section row everywhere (tic-tabs.js from the hub) -->
+  <div data-tic-tabs>
+    <div id="sec-alerts" data-tab-label="Alerts">
+      <section class="card" aria-labelledby="alerts-h">
+        <h2 id="alerts-h">Alerts above the bottom rung</h2>
+        <p class="muted small">PAGER yellow or worse, GDACS orange or red, any US volcano above Normal, and Extreme US or red
+          European weather warnings. PAGER and GDACS are model estimates of impact, issued within minutes and revised as
+          reports arrive; a GDACS alert is the highest the event has reached. Volcano alerts are set by the responsible USGS
+          observatory, weather warnings by the national weather service.</p>
+        <div id="alerts"></div>
+      </section>
+      <section class="card" aria-labelledby="volc-h">
+        <h2 id="volc-h">US volcanoes above Normal</h2>
+        <p class="muted small">The USGS volcano alert level (Normal, Advisory, Watch, Warning) speaks to people on the
+          ground; the aviation colour code (Green, Yellow, Orange, Red) to aircraft. Outside the US, GDACS's orange and red
+          volcano alerts appear above. The Smithsonian's daily eruption report is not used: its site refuses automated
+          readers.</p>
+        <div id="volcanoes"></div>
+      </section>
+    </div>
+    <div id="sec-weather" data-tab-label="Weather">
+      <section class="card" aria-labelledby="nws-h">
+        <h2 id="nws-h">US weather warnings and watches, Severe or Extreme</h2>
+        <p class="muted small" id="spc"></p>
+        <p class="muted small">National Weather Service alerts rated Severe or Extreme on the alert standard's four-step
+          scale (Minor, Moderate, Severe, Extreme). Storm-based warnings are drawn as the area NWS drew; the rest as a dot at
+          each county they name.</p>
+        <div id="nws"></div>
+      </section>
+      <section class="card" aria-labelledby="eu-h">
+        <h2 id="eu-h">Weather warnings in Europe</h2>
+        <p class="muted small" id="eu-sum"></p>
+        <p class="muted small">Official warnings from the national weather services of 39 countries (the EU, the UK, Norway,
+          Switzerland, the Balkans, Ukraine, Moldova and Israel), gathered by MeteoAlarm. Its levels: yellow, potentially
+          dangerous; orange, dangerous; red, very dangerous (green, no particular awareness, is left out). Warnings that start
+          later today or tomorrow are included. Each is drawn as the polygon its service drew, or as a dot at each region it
+          names.</p>
+        <div id="eu-warn"></div>
+        <div id="eu-cc"></div>
+      </section>
+      <div class="two">
+        <section class="card" aria-labelledby="tc-h">
+          <h2 id="tc-h">Tropical cyclones, past 14 days</h2>
+          <p class="muted small">GDACS covers every ocean basin; the National Hurricane Center covers the Atlantic and eastern
+            Pacific.</p>
+          <div id="cyclones"></div>
+        </section>
+        <section class="card" aria-labelledby="dm-h">
+          <h2 id="dm-h">US drought this week</h2>
+          <p class="muted small" id="drought-sum"></p>
+          <p class="muted small">US Drought Monitor categories as a share of the US, including Alaska, Hawaii and Puerto
+            Rico. Shares are cumulative: D2 counts everything in D2, D3 or D4. Switch on "US drought" to see the map.</p>
+          <div id="drought"></div>
+        </section>
+      </div>
+    </div>
+    <div id="sec-quakes" data-tab-label="Quakes">
+      <div class="two">
+        <section class="card" aria-labelledby="quakes-h">
+          <h2 id="quakes-h">Largest earthquakes, past 7 days</h2>
+          <p class="muted small" id="emsc-note"></p>
+          <div id="mags"></div>
+          <div id="quakes"></div>
+        </section>
+        <section class="card" aria-labelledby="tsu-h">
+          <h2 id="tsu-h">Tsunami messages, past 7 days</h2>
+          <p class="muted small">From NOAA's National Tsunami Warning Center (Alaska; the US and Canadian coasts) and Pacific
+            Tsunami Warning Center (Hawaii; the Pacific and Caribbean). An information statement means an earthquake was
+            assessed and no tsunami threat is expected for the centre's coasts.</p>
+          <div id="tsunami"></div>
+        </section>
+      </div>
+    </div>
+    <div id="sec-fires" data-tab-label="Fires">
+      <section class="card" aria-labelledby="fires-h">
+        <h2 id="fires-h">Fire and heat detections by country, past 24 hours</h2>
+        <p class="muted small" id="fires-sum"></p>
+        <p class="muted small">VIIRS on NOAA-20, NOAA-21 and Suomi-NPP, nominal and high confidence. These are detections,
+          not fires: a fire is counted again on each overpass, and gas flares, volcanoes and industrial heat sources are
+          detected too. Each half-degree cell is counted to the country at its centre of detections. Radiative power (fire
+          radiative power, in megawatts) is a rough measure of how much is burning.</p>
+        <div id="fires"></div>
+      </section>
+      <section class="card" aria-labelledby="wf-h">
+        <h2 id="wf-h">US wildfires being fought</h2>
+        <p class="muted small">From the National Interagency Fire Center: wildfires not yet declared out that are either short
+          of full containment or were found in the last 14 days. Prescribed burns are left out. The map shows every one; the
+          feed and this list, those of 100 acres or more.</p>
+        <div id="wildfires"></div>
+      </section>
+    </div>
+    <div id="sec-disasters" data-tab-label="Disasters">
+      <div class="two">
+        <section class="card" aria-labelledby="cems-h">
+          <h2 id="cems-h">Copernicus EMS activations</h2>
+          <p class="muted small">An authority asked the EU to map a disaster from satellite imagery. Open activations, and
+            any from the last 60 days.</p>
+          <div id="cems"></div>
+        </section>
+        <section class="card" aria-labelledby="gd-h">
+          <h2 id="gd-h">GDACS alerts by hazard, past 14 days</h2>
+          <p class="muted small">Green earthquakes are left to USGS, and green wildfires (hundreds a fortnight) are not
+            collected.</p>
+          <div id="gdacs"></div>
+        </section>
+      </div>
+    </div>
+    <div id="sec-sources" data-tab-label="Sources">
+      <section class="card" aria-labelledby="health-h">
+        <h2 id="health-h">Sources</h2>
+        <div id="health"></div>
+        <p class="small muted">USGS and NOAA content is US public domain. GDACS alerts: Global Disaster Alert and Coordination
+          System, a joint initiative of the European Commission Joint Research Centre and UN OCHA, used with attribution.
+          Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
+          operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
+          Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
+        <p class="small muted">The US Drought Monitor is produced jointly by the National Drought Mitigation Center at the
+          University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC. Earthquakes also
+          from the European-Mediterranean Seismological Centre (EMSC), licensed
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. Wildfire incidents from the
+          National Interagency Fire Center (WFIGS).</p>
+        <p class="small muted">European weather warnings: MeteoAlarm (EUMETNET), data provided by EUMETNET members' national
+          weather services, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
+          Region points are derived from MeteoAlarm's geocodes file. A warning that carries its own credit shows it in its
+          tooltip (Deutscher Wetterdienst's areas: © GeoBasis-DE / BKG).</p>
+        <p class="small muted">Not yet covered: weather warnings outside the US and Europe, volcanoes outside the US beyond
+          GDACS's alerts, and radiation monitoring (EPA RadNet publishes only whole-year files per city).
+          NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
+      </section>
+    </div>
   </div>
-
-  <div class="two">
-    <section class="card" aria-labelledby="quakes-h">
-      <h2 id="quakes-h">Largest earthquakes, past 7 days</h2>
-      <p class="muted small" id="emsc-note"></p>
-      <div id="mags"></div>
-      <div id="quakes"></div>
-    </section>
-    <section class="card" aria-labelledby="tc-h">
-      <h2 id="tc-h">Tropical cyclones, past 14 days</h2>
-      <p class="muted small">GDACS covers every ocean basin; the National Hurricane Center covers the Atlantic and eastern
-        Pacific.</p>
-      <div id="cyclones"></div>
-    </section>
-  </div>
-
-  <div class="two">
-    <section class="card" aria-labelledby="cems-h">
-      <h2 id="cems-h">Copernicus EMS activations</h2>
-      <p class="muted small">An authority asked the EU to map a disaster from satellite imagery. Open activations, and
-        any from the last 60 days.</p>
-      <div id="cems"></div>
-    </section>
-    <section class="card" aria-labelledby="gd-h">
-      <h2 id="gd-h">GDACS alerts by hazard, past 14 days</h2>
-      <p class="muted small">Green earthquakes are left to USGS, and green wildfires (hundreds a fortnight) are not
-        collected.</p>
-      <div id="gdacs"></div>
-    </section>
-  </div>
-
-  <section class="card" aria-labelledby="fires-h">
-    <h2 id="fires-h">Fire and heat detections by country, past 24 hours</h2>
-    <p class="muted small" id="fires-sum"></p>
-    <p class="muted small">VIIRS on NOAA-20, NOAA-21 and Suomi-NPP, nominal and high confidence. These are detections,
-      not fires: a fire is counted again on each overpass, and gas flares, volcanoes and industrial heat sources are
-      detected too. Each half-degree cell is counted to the country at its centre of detections. Radiative power (fire
-      radiative power, in megawatts) is a rough measure of how much is burning.</p>
-    <div id="fires"></div>
-  </section>
-
-  <section class="card" aria-labelledby="wf-h">
-    <h2 id="wf-h">US wildfires being fought</h2>
-    <p class="muted small">From the National Interagency Fire Center: wildfires not yet declared out that are either short
-      of full containment or were found in the last 14 days. Prescribed burns are left out. The map shows every one; the
-      feed and this list, those of 100 acres or more.</p>
-    <div id="wildfires"></div>
-  </section>
-
-  <section class="card" aria-labelledby="health-h">
-    <h2 id="health-h">Sources</h2>
-    <div id="health"></div>
-    <p class="small muted">USGS and NOAA content is US public domain. GDACS alerts: Global Disaster Alert and Coordination
-      System, a joint initiative of the European Commission Joint Research Centre and UN OCHA, used with attribution.
-      Copernicus Emergency Management Service, © European Union. We acknowledge the use of data from LANCE FIRMS,
-      operated by NASA's Earth Science Data and Information System (ESDIS) with funding provided by NASA Headquarters.
-      Country outlines: Natural Earth (public domain). Map drawn with Leaflet (BSD 2-Clause).</p>
-    <p class="small muted">The US Drought Monitor is produced jointly by the National Drought Mitigation Center at the
-      University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC. Earthquakes also
-      from the European-Mediterranean Seismological Centre (EMSC), licensed
-      <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. Wildfire incidents from the
-      National Interagency Fire Center (WFIGS).</p>
-    <p class="small muted">European weather warnings: MeteoAlarm (EUMETNET), data provided by EUMETNET members' national
-      weather services, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
-      Region points are derived from MeteoAlarm's geocodes file. A warning that carries its own credit shows it in its
-      tooltip (Deutscher Wetterdienst's areas: © GeoBasis-DE / BKG).</p>
-    <p class="small muted">Not yet covered: weather warnings outside the US and Europe, volcanoes outside the US beyond
-      GDACS's alerts, and radiation monitoring (EPA RadNet publishes only whole-year files per city).
-      NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
-  </section>
 </main>
 
 <footer class="wrap foot small muted">

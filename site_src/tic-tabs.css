@@ -1,0 +1,22 @@
+/*! tic-tabs.css v1.0 · pairs with tic-tabs.js (canonical copy in the hub's site/shared/).
+    The row takes the page's own colours: --panel (else --bg), --line, --muted and --link if the page has them, so each
+    product keeps its own colours. It sticks under the house bar (--tic-house-h). Nothing moves. */
+.tic-tabs-nav { --tt-bg: var(--panel, var(--bg, #fff)); --tt-line: var(--line, rgba(127, 127, 127, .35));
+  --tt-muted: var(--muted, inherit); --tt-on: var(--link, currentColor);
+  position: sticky; top: var(--tic-house-h, 0px); z-index: 900; background: var(--tt-bg);
+  border: 1px solid var(--tt-line); border-radius: var(--radius, 8px); margin: 0 0 var(--gap, 16px); }
+.tic-tabs-nav ul { list-style: none; margin: 0; padding: 0 4px; display: flex; gap: 2px; overflow-x: auto;
+  scrollbar-width: thin; }
+.tic-tabs-nav li { flex: 0 0 auto; margin: 0; }
+.tic-tabs-nav a { display: block; padding: 11px 12px 9px; min-height: 44px; font-size: 15px; font-weight: 600;
+  line-height: 22px; color: var(--tt-muted); text-decoration: none; border-bottom: 3px solid transparent;
+  white-space: nowrap; }
+.tic-tabs-nav a:hover { color: inherit; text-decoration: underline; }
+.tic-tabs-nav a[aria-current="true"] { color: var(--tt-on); border-bottom-color: var(--tt-on); }
+.tic-tabs-nav a:focus-visible { outline: 2px solid var(--tt-on); outline-offset: -4px; }
+/* Anchors land below the house bar and the row. */
+.tic-tabs-on > [data-tab-label], .tic-tabs-on [id] { scroll-margin-top: calc(var(--tic-house-h, 0px) + 60px); }
+@media print {
+  .tic-tabs-nav { display: none; }
+  .tic-tabs-on > [data-tab-label][hidden] { display: block; }
+}
