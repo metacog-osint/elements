@@ -216,6 +216,63 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-17T01:20:00Z",
+   "onset": "2026-11-17T01:20:00Z",
+   "ends": "2026-11-17T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d24dcf3b1dca46b1c14a715c8538e8db6169665.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FL.W.0007.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -228,10 +285,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-16T14:49:00Z",
-   "onset": "2026-11-16T14:49:00Z",
-   "ends": "2026-11-17T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.001.1",
+   "sent": "2026-11-17T01:22:00Z",
+   "onset": "2026-11-17T01:22:00Z",
+   "ends": "2026-11-17T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d70614b02234695c99b688b435cd627247480aa3.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -276,8 +333,8 @@
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Melbourne FL",
    "areas": [
     "Lake, FL",
@@ -287,10 +344,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-16T14:49:00Z",
-   "onset": "2026-11-16T14:49:00Z",
-   "ends": "2026-11-17T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e27eb57beffc92f54370789537d10ced314c4130.001.1",
+   "sent": "2026-11-17T01:24:00Z",
+   "onset": "2026-11-17T01:24:00Z",
+   "ends": "2026-11-17T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55fde373f401b83bc89a41e5e9f2488270421519.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -336,63 +393,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-16T14:49:00Z",
-   "onset": "2026-11-16T14:49:00Z",
-   "ends": "2026-11-17T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca005f84bb2b4a825c2afb3274f005a72bbfc98.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCRP.FL.W.0029.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -405,10 +405,10 @@
    "counties": [
     "48311"
    ],
-   "sent": "2026-11-16T15:44:00Z",
-   "onset": "2026-11-16T15:44:00Z",
-   "ends": "2026-11-18T05:48:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c8cb3a85de63662615e82aa3de94fc649624fe8.001.1",
+   "sent": "2026-11-17T01:31:00Z",
+   "onset": "2026-11-17T01:31:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6fed5e1a746b19128188e41dda3f2b1cf46a5d6.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1146,6 +1146,82 @@
    ],
    "lon": -105.831,
    "lat": 40.382,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0019.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm"
+   ],
+   "counties": [
+    "57565"
+   ],
+   "sent": "2026-11-17T01:32:00Z",
+   "onset": "2026-11-17T01:32:00Z",
+   "ends": "2026-11-17T01:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa2dcb004a626af442ea7b854863b89cf074c9e6.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.17,
+       36.47
+      ],
+      [
+       -122.08,
+       36.53
+      ],
+      [
+       -121.88,
+       36.38
+      ],
+      [
+       -121.89,
+       36.36
+      ],
+      [
+       -121.87,
+       36.34
+      ],
+      [
+       -121.88,
+       36.31
+      ],
+      [
+       -121.84,
+       36.29
+      ],
+      [
+       -121.98,
+       36.23
+      ],
+      [
+       -122.13,
+       36.38
+      ],
+      [
+       -122.16,
+       36.44
+      ],
+      [
+       -122.17,
+       36.47
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.005,
+   "lat": 36.382,
    "countries": [
     "US"
    ]
