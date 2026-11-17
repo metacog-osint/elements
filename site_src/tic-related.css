@@ -1,0 +1,34 @@
+/*! tic-related.css v1.0 · pairs with tic-related.js (canonical copy in the hub's site/shared/).
+    The card takes the page's own colours and type: text and links inherit, rules use the page's --line if it has
+    one. The only colour of its own is the layer dot, the hub drawing's plate colour, and it is decorative (the
+    layer is named in text beside it). Nothing moves, so reduced motion needs nothing. */
+.tic-rel { --tr-line: var(--line, rgba(127, 127, 127, .35)); --tr-muted: var(--muted, inherit);
+  --tr-systems: #7C6BD6; --tr-human: #D9824A; --tr-cyber: #6E5FD8; --tr-ems: #D99A1E; --tr-space: #4F7BE0;
+  --tr-air: #5E92BF; --tr-land: #3E9B6A; }
+@media (prefers-color-scheme: dark) {
+  .tic-rel { --tr-systems: #A99BFF; --tr-human: #F0A36B; --tr-cyber: #9D90FF; --tr-ems: #F2C14E; --tr-space: #7FA2FF;
+    --tr-air: #8FC1E8; --tr-land: #6FCB98; }
+}
+.tic-rel[hidden] { display: none; }
+.tic-rel-h { margin: 0 0 4px; font-size: 18px; line-height: 1.3; }
+.tic-rel-sub, .tic-rel-empty, .tic-rel-foot { margin: 0 0 8px; font-size: 14px; color: var(--tr-muted); }
+.tic-rel-foot { margin: 8px 0 0; }
+.tic-rel-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 24px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+.tic-rel-item { --tr-dot: var(--tr-muted); padding: 10px 0; border-top: 1px solid var(--tr-line); min-width: 0; }
+.tic-rel-l-systems { --tr-dot: var(--tr-systems); } .tic-rel-l-human { --tr-dot: var(--tr-human); }
+.tic-rel-l-cyber { --tr-dot: var(--tr-cyber); } .tic-rel-l-ems { --tr-dot: var(--tr-ems); }
+.tic-rel-l-space { --tr-dot: var(--tr-space); } .tic-rel-l-air { --tr-dot: var(--tr-air); }
+.tic-rel-l-land { --tr-dot: var(--tr-land); }
+.tic-rel-item p { margin: 0; overflow-wrap: anywhere; }
+.tic-rel-who { font-size: 14px; }
+.tic-rel-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--tr-dot);
+  margin-right: 6px; vertical-align: baseline; }
+.tic-rel-layer { color: var(--tr-muted); }
+.tic-rel-t { margin: 2px 0; }
+.tic-rel-meta { font-size: 14px; color: var(--tr-muted); }
+.tic-rel-tag { font-weight: 600; }
+.tic-rel-open { display: inline-block; margin-top: 4px; font-size: 14px; padding: 2px 0; }
+.tic-rel-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+@media print { .tic-rel-open, .tic-rel-cop { text-decoration: none; } }
