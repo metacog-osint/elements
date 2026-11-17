@@ -13,10 +13,10 @@
    "counties": [
     "02180"
    ],
-   "sent": "2026-11-17T12:12:00Z",
+   "sent": "2026-11-17T19:33:00Z",
    "onset": "2026-11-18T00:00:00Z",
    "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c59dd6363dd9f2f3a6c8b96d519aa63433a2984c.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8e78120a4eb9f3f1357c2be2210225a084bc767.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -44,10 +44,10 @@
    "counties": [
     "02158"
    ],
-   "sent": "2026-11-17T12:54:00Z",
+   "sent": "2026-11-17T19:21:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c01e3df536f7f7cebaefd126c491ba477e9d1a38.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.522e7a0eba08c3cd7d7c0aa2735064c2bf5df78d.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -58,6 +58,79 @@
    ],
    "lon": -163.19,
    "lat": 62.284,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFSD.FW.A.0011.2026",
+   "event": "Fire Weather Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Sioux Falls SD",
+   "areas": [
+    "Gregory",
+    "Brule",
+    "Aurora",
+    "Davison",
+    "Charles Mix",
+    "Douglas",
+    "Hutchinson",
+    "Bon Homme"
+   ],
+   "counties": [
+    "46003",
+    "46009",
+    "46015",
+    "46023",
+    "46035",
+    "46043",
+    "46053",
+    "46067"
+   ],
+   "sent": "2026-11-17T19:10:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9605dcbab29614008464b477d513392746662bf8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.5776,
+     43.7247
+    ],
+    [
+     -97.8842,
+     42.9857
+    ],
+    [
+     -99.0929,
+     43.7299
+    ],
+    [
+     -98.5951,
+     43.2062
+    ],
+    [
+     -98.1559,
+     43.6804
+    ],
+    [
+     -98.3584,
+     43.3915
+    ],
+    [
+     -99.2066,
+     43.1751
+    ],
+    [
+     -97.7494,
+     43.3367
+    ]
+   ],
+   "lon": -98.453,
+   "lat": 43.404,
    "countries": [
     "US"
    ]
@@ -924,37 +997,6 @@
    ]
   },
   {
-   "id": "PAFG.HW.W.0022.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Eastern Alaska Range North of Trims Camp"
-   ],
-   "counties": [
-    "02240"
-   ],
-   "sent": "2026-11-17T12:06:00Z",
-   "onset": "2026-11-18T09:00:00Z",
-   "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.215f5bc235a6db0b20a71926b358ad41b6c877e1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -143.2186,
-     63.865
-    ]
-   ],
-   "lon": -143.219,
-   "lat": 63.865,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.HW.W.0015.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1030,9 +1072,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "North Snowy Range Foothills",
-    "Converse County Lower Elevations",
     "Central Laramie County",
+    "Converse County Lower Elevations",
+    "North Snowy Range Foothills",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1048,9 +1090,9 @@
     "56031"
    ],
    "sent": "2026-11-17T18:38:00Z",
-   "onset": "2026-11-18T03:00:00Z",
+   "onset": "2026-11-18T09:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.003.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1077,6 +1119,226 @@
    ],
    "lon": -105.559,
    "lat": 41.956,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBYZ.HW.W.0017.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Fallon",
+    "Carter"
+   ],
+   "counties": [
+    "30011",
+    "30025"
+   ],
+   "sent": "2026-11-17T19:08:00Z",
+   "onset": "2026-11-18T16:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fec1a9adbcf18aa7be3d9a9962bdafdb39f47a01.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.5153,
+     45.5168
+    ],
+    [
+     -104.4057,
+     46.3182
+    ]
+   ],
+   "lon": -104.46,
+   "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0010.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Northern Black Hills",
+    "Northern Foothills",
+    "Rapid City",
+    "Southern Foothills",
+    "Central Black Hills",
+    "Southern Black Hills",
+    "Sturgis/Piedmont Foothills",
+    "Hermosa Foothills"
+   ],
+   "counties": [
+    "46033",
+    "46047",
+    "46081",
+    "46093",
+    "46103"
+   ],
+   "sent": "2026-11-17T19:17:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-18T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.4622,
+     43.6849
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -103.8064,
+     44.3485
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.8238,
+     44.0023
+    ]
+   ],
+   "lon": -103.264,
+   "lat": 43.973,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0011.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins",
+    "Western Fall River",
+    "Northern Oglala Lakota",
+    "Eastern Fall River",
+    "Southern Oglala Lakota"
+   ],
+   "counties": [
+    "46019",
+    "46047",
+    "46063",
+    "46093",
+    "46102",
+    "46105"
+   ],
+   "sent": "2026-11-17T19:17:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5014,
+     44.8962
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -103.4739,
+     45.5966
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.5615,
+     43.3334
+    ],
+    [
+     -102.468,
+     45.4834
+    ]
+   ],
+   "lon": -103.039,
+   "lat": 44.523,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.HW.W.0022.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Eastern Alaska Range North of Trims Camp"
+   ],
+   "counties": [
+    "02240"
+   ],
+   "sent": "2026-11-17T19:24:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e305646e8ba421345cf9cfa840a41617e58d39b9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -143.2186,
+     63.865
+    ]
+   ],
+   "lon": -143.219,
+   "lat": 63.865,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-17T19:34:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.077d1876f30e326e49016a791d176d0332fc38da.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -1322,6 +1584,60 @@
    ],
    "lon": -100.585,
    "lat": 41.731,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0366.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM",
+    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out"
+   ],
+   "counties": [
+    "77055",
+    "77075"
+   ],
+   "sent": "2026-11-17T19:08:00Z",
+   "onset": "2026-11-17T19:08:00Z",
+   "ends": "2026-11-17T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeb9a817ce88ee473d93a1e3b2e18fb9d90e59d8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -83.29,
+       24.36
+      ],
+      [
+       -83,
+       24.4
+      ],
+      [
+       -83.04,
+       24.12
+      ],
+      [
+       -83.29,
+       24.23
+      ],
+      [
+       -83.29,
+       24.36
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -83.182,
+   "lat": 24.294,
    "countries": [
     "US"
    ]
@@ -2504,118 +2820,6 @@
    ]
   },
   {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Western Shasta County Mountains Above 3000 ft",
-    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
-    "Tehama County Coast Range Above 3000 ft",
-    "Glenn and Colusa County Coast Range Above 3000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06011",
-    "06017",
-    "06021",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-17T05:58:00Z",
-   "onset": "2026-11-18T06:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6770c451228a02843dfb35817dae1b8cc2c7dca5.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -122.2376,
-     39.1777
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -122.4017,
-     39.6025
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -121.032,
-   "lat": 39.336,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KVEF.WS.W.0005.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2675,44 +2879,6 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.WS.W.0027.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Yukon Delta Coast",
-    "Lower Yukon River",
-    "Southern Seward Peninsula Coast"
-   ],
-   "counties": [
-    "02158",
-    "02180"
-   ],
-   "sent": "2026-11-17T12:12:00Z",
-   "onset": "2026-11-18T06:00:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c59dd6363dd9f2f3a6c8b96d519aa63433a2984c.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -163.1902,
-     62.2836
-    ],
-    [
-     -164.1889,
-     64.7837
-    ]
-   ],
-   "lon": -163.69,
-   "lat": 63.534,
    "countries": [
     "US"
    ]
@@ -2892,6 +3058,156 @@
    ],
    "lon": -120.154,
    "lat": 39.342,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Western Shasta County Mountains Above 3000 ft",
+    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
+    "Tehama County Coast Range Above 3000 ft",
+    "Glenn and Colusa County Coast Range Above 3000 ft",
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06011",
+    "06017",
+    "06021",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-17T19:10:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edcbbce213020c2ffeb2ce2468a98d091b1c09ef.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -122.2376,
+     39.1777
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -122.4017,
+     39.6025
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -121.032,
+   "lat": 39.336,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.W.0027.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Southern Seward Peninsula Coast",
+    "Yukon Delta Coast",
+    "Lower Yukon River"
+   ],
+   "counties": [
+    "02158",
+    "02180"
+   ],
+   "sent": "2026-11-17T19:33:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8e78120a4eb9f3f1357c2be2210225a084bc767.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -163.1902,
+     62.2836
+    ],
+    [
+     -164.1889,
+     64.7837
+    ]
+   ],
+   "lon": -163.69,
+   "lat": 63.534,
    "countries": [
     "US"
    ]
