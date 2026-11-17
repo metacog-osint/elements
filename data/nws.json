@@ -297,127 +297,6 @@
    ]
   },
   {
-   "id": "KFGZ.FF.W.0220.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04025"
-   ],
-   "sent": "2026-11-17T22:21:00Z",
-   "onset": "2026-11-17T22:21:00Z",
-   "ends": "2026-11-18T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a12fb8ef6c72f6c63f9c6a8d71fd86fbbc652f8.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.84,
-       34.82
-      ],
-      [
-       -111.91,
-       34.8
-      ],
-      [
-       -111.91,
-       34.77
-      ],
-      [
-       -111.9,
-       34.76
-      ],
-      [
-       -111.93,
-       34.74
-      ],
-      [
-       -111.93,
-       34.71
-      ],
-      [
-       -111.92,
-       34.7
-      ],
-      [
-       -111.93,
-       34.69
-      ],
-      [
-       -111.95,
-       34.69
-      ],
-      [
-       -111.96,
-       34.68
-      ],
-      [
-       -111.95,
-       34.66
-      ],
-      [
-       -111.93,
-       34.66
-      ],
-      [
-       -111.91,
-       34.68
-      ],
-      [
-       -111.89,
-       34.68
-      ],
-      [
-       -111.9,
-       34.73
-      ],
-      [
-       -111.89,
-       34.73
-      ],
-      [
-       -111.87,
-       34.76
-      ],
-      [
-       -111.88,
-       34.77
-      ],
-      [
-       -111.87,
-       34.79
-      ],
-      [
-       -111.84,
-       34.8
-      ],
-      [
-       -111.84,
-       34.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.902,
-   "lat": 34.735,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFGZ.FF.W.0219.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -540,6 +419,127 @@
    ],
    "lon": -111.733,
    "lat": 34.87,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FF.W.0220.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-17T23:14:00Z",
+   "onset": "2026-11-17T23:14:00Z",
+   "ends": "2026-11-18T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4db0d7268c2eaf7158fcb271f859fef51a5a2076.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.91,
+       34.8
+      ],
+      [
+       -111.91,
+       34.77
+      ],
+      [
+       -111.9,
+       34.76
+      ],
+      [
+       -111.93,
+       34.74
+      ],
+      [
+       -111.93,
+       34.71
+      ],
+      [
+       -111.92,
+       34.7
+      ],
+      [
+       -111.93,
+       34.69
+      ],
+      [
+       -111.95,
+       34.69
+      ],
+      [
+       -111.96,
+       34.68
+      ],
+      [
+       -111.95,
+       34.66
+      ],
+      [
+       -111.93,
+       34.66
+      ],
+      [
+       -111.91,
+       34.68
+      ],
+      [
+       -111.89,
+       34.68
+      ],
+      [
+       -111.9,
+       34.73
+      ],
+      [
+       -111.89,
+       34.73
+      ],
+      [
+       -111.87,
+       34.76
+      ],
+      [
+       -111.88,
+       34.77
+      ],
+      [
+       -111.87,
+       34.79
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.902,
+   "lat": 34.735,
    "countries": [
     "US"
    ]
@@ -1291,10 +1291,10 @@
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-17T19:47:00Z",
+   "sent": "2026-11-17T23:08:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58013a450c87bfe158a90df9598e4f4cc9ff30a5.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97fc9fd7e56896226b1a05cf053a2c8f30790a28.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1578,9 +1578,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "Central Laramie County",
-    "Converse County Lower Elevations",
     "North Snowy Range Foothills",
+    "Converse County Lower Elevations",
+    "Central Laramie County",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1596,9 +1596,9 @@
     "56031"
    ],
    "sent": "2026-11-17T18:38:00Z",
-   "onset": "2026-11-18T09:00:00Z",
+   "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.003.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.005.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1732,14 +1732,14 @@
    "certainty": "Likely",
    "sender": "NWS Rapid City SD",
    "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
     "Western Fall River",
     "Northern Oglala Lakota",
     "Eastern Fall River",
-    "Southern Oglala Lakota"
+    "Southern Oglala Lakota",
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
    ],
    "counties": [
     "46019",
@@ -1750,9 +1750,9 @@
     "46105"
    ],
    "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T18:00:00Z",
+   "onset": "2026-11-18T19:00:00Z",
    "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2214,187 +2214,6 @@
    ],
    "lon": -105.076,
    "lat": 39.505,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGJT.SV.W.0046.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Garfield, CO",
-    "Rio Blanco, CO"
-   ],
-   "counties": [
-    "08045",
-    "08103"
-   ],
-   "sent": "2026-11-17T22:44:00Z",
-   "onset": "2026-11-17T22:44:00Z",
-   "ends": "2026-11-17T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.575e7e6ddad449f55033f34f7f5c0fa383b59087.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -108.49,
-       39.38
-      ],
-      [
-       -108.67,
-       39.71
-      ],
-      [
-       -108.03,
-       39.87
-      ],
-      [
-       -107.79,
-       39.4
-      ],
-      [
-       -108.49,
-       39.38
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -107.9098,
-     39.5994
-    ],
-    [
-     -108.2007,
-     39.9726
-    ]
-   ],
-   "lon": -108.294,
-   "lat": 39.548,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0371.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM",
-    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out"
-   ],
-   "counties": [
-    "77055",
-    "77075"
-   ],
-   "sent": "2026-11-17T22:12:00Z",
-   "onset": "2026-11-17T22:12:00Z",
-   "ends": "2026-11-17T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3a4c6663471cc515ce73003f6064fab5150fbb9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.85,
-       24.14
-      ],
-      [
-       -82.87,
-       24.3
-      ],
-      [
-       -82.61,
-       24.39
-      ],
-      [
-       -82.58,
-       24.12
-      ],
-      [
-       -82.85,
-       24.14
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.752,
-   "lat": 24.218,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0372.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out"
-   ],
-   "counties": [
-    "77075"
-   ],
-   "sent": "2026-11-17T22:30:00Z",
-   "onset": "2026-11-17T22:30:00Z",
-   "ends": "2026-11-17T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56d6d0d8d3df88d5a280556dc20421c83f77230c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -83.14,
-       24.03
-      ],
-      [
-       -82.88,
-       23.77
-      ],
-      [
-       -83.09,
-       23.66
-      ],
-      [
-       -83.1,
-       23.66
-      ],
-      [
-       -83.21,
-       23.76
-      ],
-      [
-       -83.24,
-       23.83
-      ],
-      [
-       -83.27,
-       23.96
-      ],
-      [
-       -83.14,
-       24.03
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -83.134,
-   "lat": 23.837,
    "countries": [
     "US"
    ]
