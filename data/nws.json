@@ -585,17 +585,17 @@
    "certainty": "Likely",
    "sender": "NWS Hanford CA",
    "areas": [
+    "Mojave Desert Slopes",
     "Indian Wells Valley",
-    "Mojave Desert",
-    "Mojave Desert Slopes"
+    "Mojave Desert"
    ],
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-16T20:10:00Z",
+   "sent": "2026-11-17T03:47:00Z",
    "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19dfbdc0fd3ad5ecf6c4d6a1967dade77681e2f3.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5351aabef9baab42db9274754dde4c04e0787dd4.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1619,6 +1619,32 @@
    ]
   },
   {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1661,32 +1687,6 @@
    "onset": "2026-11-16T13:00:00Z",
    "ends": "2026-11-17T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.027.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
