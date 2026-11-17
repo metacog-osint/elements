@@ -981,6 +981,13 @@
    "certainty": "Possible",
    "sender": "NWS Jacksonville FL",
    "areas": [
+    "Inland Flagler",
+    "Coastal Flagler",
+    "Northeast Coastal St. Johns",
+    "Southeast Coastal St. Johns",
+    "Northern Inland St. Johns",
+    "Southern Inland St. Johns",
+    "Western St. Johns",
     "Coastal Duval",
     "Eastern Clay",
     "Eastern Putnam",
@@ -988,14 +995,7 @@
     "Western Clay",
     "Western Putnam",
     "South Central Duval",
-    "Western Duval",
-    "Inland Flagler",
-    "Coastal Flagler",
-    "Northeast Coastal St. Johns",
-    "Southeast Coastal St. Johns",
-    "Northern Inland St. Johns",
-    "Southern Inland St. Johns",
-    "Western St. Johns"
+    "Western Duval"
    ],
    "counties": [
     "12019",
@@ -1007,7 +1007,7 @@
    "sent": "2026-11-17T17:14:00Z",
    "onset": "2026-11-17T22:00:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.133bf9c0650e77ee833d46ad6340415a88edf236.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.133bf9c0650e77ee833d46ad6340415a88edf236.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1054,6 +1054,14 @@
     "Southern Salinas Valley",
     "San Luis Obispo County Interior Valleys",
     "San Luis Obispo County Mountains",
+    "Ventura County Beaches",
+    "Ventura County Inland Coast",
+    "Lake Casitas",
+    "Ojai Valley",
+    "Central Ventura County Valleys",
+    "Southeastern Ventura County Valleys",
+    "Southern Ventura County Mountains",
+    "Northern Ventura County Mountains",
     "Cuyama Valley",
     "Santa Barbara County Central Coast Beaches",
     "Santa Barbara County Inland Central Coast",
@@ -1064,14 +1072,6 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
-    "Ventura County Beaches",
-    "Ventura County Inland Coast",
-    "Lake Casitas",
-    "Ojai Valley",
-    "Central Ventura County Valleys",
-    "Southeastern Ventura County Valleys",
-    "Southern Ventura County Mountains",
-    "Northern Ventura County Mountains",
     "Santa Ynez Mountains Eastern Range",
     "Santa Clarita Valley",
     "Malibu Coast",
@@ -1487,9 +1487,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "Central Laramie County",
     "North Snowy Range Foothills",
     "Converse County Lower Elevations",
+    "Central Laramie County",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1505,9 +1505,9 @@
     "56031"
    ],
    "sent": "2026-11-17T18:38:00Z",
-   "onset": "2026-11-18T09:00:00Z",
+   "onset": "2026-11-18T03:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.003.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.005.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1641,14 +1641,14 @@
    "certainty": "Likely",
    "sender": "NWS Rapid City SD",
    "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
     "Western Fall River",
     "Northern Oglala Lakota",
     "Eastern Fall River",
-    "Southern Oglala Lakota"
+    "Southern Oglala Lakota",
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
    ],
    "counties": [
     "46019",
@@ -1659,9 +1659,9 @@
     "46105"
    ],
    "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T18:00:00Z",
+   "onset": "2026-11-18T19:00:00Z",
    "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2066,60 +2066,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0367.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM",
-    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out"
-   ],
-   "counties": [
-    "77055",
-    "77075"
-   ],
-   "sent": "2026-11-17T20:45:00Z",
-   "onset": "2026-11-17T20:45:00Z",
-   "ends": "2026-11-17T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8026344e6cbd5799e93a9f283a595bae249d9df.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -83.17,
-       24.19
-      ],
-      [
-       -83.11,
-       24.34
-      ],
-      [
-       -82.8,
-       24.29
-      ],
-      [
-       -82.91,
-       24.06
-      ],
-      [
-       -83.17,
-       24.19
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -83.032,
-   "lat": 24.214,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0354.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2241,6 +2187,120 @@
    "points": [],
    "lon": -80.007,
    "lat": 25.42,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0368.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM",
+    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out"
+   ],
+   "counties": [
+    "77055",
+    "77075"
+   ],
+   "sent": "2026-11-17T21:20:00Z",
+   "onset": "2026-11-17T21:20:00Z",
+   "ends": "2026-11-17T22:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7cbe84872fc69e5fd7c03dedf1e5e5eacb921273.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.98,
+       24.17
+      ],
+      [
+       -82.96,
+       24.32
+      ],
+      [
+       -82.55,
+       24.31
+      ],
+      [
+       -82.61,
+       24.07
+      ],
+      [
+       -82.98,
+       24.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.816,
+   "lat": 24.208,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0369.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel"
+   ],
+   "counties": [
+    "77034"
+   ],
+   "sent": "2026-11-17T21:32:00Z",
+   "onset": "2026-11-17T21:32:00Z",
+   "ends": "2026-11-17T22:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ea67102c7dcc0c61639943f5528ba3e78fa7a4e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -83.22,
+       24.82
+      ],
+      [
+       -83.2,
+       24.9
+      ],
+      [
+       -82.92,
+       24.97
+      ],
+      [
+       -82.87,
+       24.71
+      ],
+      [
+       -83.21,
+       24.71
+      ],
+      [
+       -83.23,
+       24.82
+      ],
+      [
+       -83.22,
+       24.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -83.124,
+   "lat": 24.821,
    "countries": [
     "US"
    ]
@@ -2792,6 +2852,32 @@
    ]
   },
   {
+   "id": "PAFC.SR.W.7121.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta from 15 to 80 NM"
+   ],
+   "counties": [
+    "58764"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7120.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2834,32 +2920,6 @@
    "onset": "2026-11-17T01:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.022.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.7121.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta from 15 to 80 NM"
-   ],
-   "counties": [
-    "58764"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-17T14:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
    "geometry": null,
    "vtec": true,
    "points": [],
