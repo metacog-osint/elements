@@ -905,11 +905,54 @@
    ]
   },
   {
-   "id": "KCYS.HW.A.0041.2026",
-   "event": "High Wind Watch",
+   "id": "KRIW.HW.W.0016.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Riverton WY",
+   "areas": [
+    "Natrona County Lower Elevations",
+    "Casper Mountain",
+    "Green Mountains and Rattlesnake Range"
+   ],
+   "counties": [
+    "56013",
+    "56025",
+    "56037"
+   ],
+   "sent": "2026-11-17T08:47:00Z",
+   "onset": "2026-11-18T04:00:00Z",
+   "ends": "2026-11-18T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e993c0cd8e887dbebdb846923439d88473be0b0.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -108.6089,
+     43.0548
+    ],
+    [
+     -106.7682,
+     42.9776
+    ],
+    [
+     -108.8757,
+     41.6603
+    ]
+   ],
+   "lon": -108.084,
+   "lat": 42.564,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCYS.HW.W.0042.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
     "Ferris/Seminoe/Shirley Mountains",
@@ -925,10 +968,10 @@
     "56021",
     "56031"
    ],
-   "sent": "2026-11-16T20:07:00Z",
-   "onset": "2026-11-18T06:00:00Z",
-   "ends": "2026-11-19T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07f32c74e10f03cceb6259cecd0b29cf1622f596.001.1",
+   "sent": "2026-11-17T08:49:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62c011e5abdca4e0e6e7dd83e65351d430246dd4.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -998,6 +1041,43 @@
    ],
    "lon": -105.831,
    "lat": 40.382,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCYS.HW.A.0042.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Cheyenne WY",
+   "areas": [
+    "Converse County Lower Elevations",
+    "Central Laramie County"
+   ],
+   "counties": [
+    "56009",
+    "56021"
+   ],
+   "sent": "2026-11-17T08:49:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62c011e5abdca4e0e6e7dd83e65351d430246dd4.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.5248,
+     42.9846
+    ],
+    [
+     -104.6604,
+     41.2928
+    ]
+   ],
+   "lon": -105.093,
+   "lat": 42.139,
    "countries": [
     "US"
    ]
@@ -2569,69 +2649,6 @@
    ]
   },
   {
-   "id": "KHNX.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "South End of the Upper Sierra",
-    "Yosemite NP outside of the valley",
-    "San Joaquin River Canyon",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP"
-   ],
-   "counties": [
-    "06019",
-    "06029",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-17T03:07:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00a4d28f2703049d7a810db348b5a2bcfd300acc.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -118.7295,
-     35.3466
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.465,
-   "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSTO.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2802,6 +2819,69 @@
    ],
    "lon": -123.115,
    "lat": 40.648,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "South End of the Upper Sierra",
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-17T08:54:00Z",
+   "onset": "2026-11-18T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.139967ae37ce9bed3a572d4117dc3c70fd7ba447.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
