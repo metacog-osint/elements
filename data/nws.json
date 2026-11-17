@@ -775,37 +775,6 @@
    ]
   },
   {
-   "id": "KMFR.HW.W.0007.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Central Siskiyou County"
-   ],
-   "counties": [
-    "06093"
-   ],
-   "sent": "2026-11-16T18:51:00Z",
-   "onset": "2026-11-18T00:00:00Z",
-   "ends": "2026-11-18T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d977219a74af377a758ed60ba896ead24dbee918.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ]
-   ],
-   "lon": -122.533,
-   "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.HW.W.0022.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -994,6 +963,37 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.HW.W.0007.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Central Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-17T11:56:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.902e1059c88f61449d1505764d741bfb5f440c32.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
    "countries": [
     "US"
    ]
@@ -2463,39 +2463,6 @@
    ]
   },
   {
-   "id": "KMFR.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Siskiyou County",
-    "Western Siskiyou County",
-    "North Central and Southeast Siskiyou County"
-   ],
-   "counties": [
-    "06093"
-   ],
-   "sent": "2026-11-16T18:37:00Z",
-   "onset": "2026-11-18T03:00:00Z",
-   "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1376c18bf71ac0538fe040a173517359d21a333b.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ]
-   ],
-   "lon": -122.533,
-   "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.WS.W.0027.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2882,6 +2849,39 @@
    ],
    "lon": -120.154,
    "lat": 39.342,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "North Central and Southeast Siskiyou County",
+    "Western Siskiyou County",
+    "South Central Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-17T11:54:00Z",
+   "onset": "2026-11-18T03:00:00Z",
+   "ends": "2026-11-19T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd92d85d6d50943770789d89d58e35b0d2fe0c87.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
    "countries": [
     "US"
    ]
