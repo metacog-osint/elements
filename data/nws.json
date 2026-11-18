@@ -281,67 +281,6 @@
    ]
   },
   {
-   "id": "KMFL.FF.W.0017.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Broward, FL"
-   ],
-   "counties": [
-    "12011"
-   ],
-   "sent": "2026-11-18T04:06:00Z",
-   "onset": "2026-11-18T04:06:00Z",
-   "ends": "2026-11-18T05:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f07ac4f0ec639d1e84ad62d3a66609f144a8106.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.29,
-       26.21
-      ],
-      [
-       -80.18,
-       26.14
-      ],
-      [
-       -80.21,
-       26.01
-      ],
-      [
-       -80.31,
-       26.08
-      ],
-      [
-       -80.3,
-       26.12
-      ],
-      [
-       -80.29,
-       26.21
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ]
-   ],
-   "lon": -80.263,
-   "lat": 26.128,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FF.W.0019.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -402,6 +341,63 @@
    ],
    "lon": -80.177,
    "lat": 26.044,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FF.W.0021.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL"
+   ],
+   "counties": [
+    "12011"
+   ],
+   "sent": "2026-11-18T05:16:00Z",
+   "onset": "2026-11-18T05:16:00Z",
+   "ends": "2026-11-18T06:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.360fc00c55107e6ca62fff9fd71959ebca765271.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.13,
+       26.1
+      ],
+      [
+       -80.11,
+       26.09
+      ],
+      [
+       -80.12,
+       25.99
+      ],
+      [
+       -80.15,
+       25.99
+      ],
+      [
+       -80.13,
+       26.1
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ]
+   ],
+   "lon": -80.128,
+   "lat": 26.054,
    "countries": [
     "US"
    ]
@@ -1078,71 +1074,6 @@
    ]
   },
   {
-   "id": "KJAX.FA.A.0007.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Coastal Flagler",
-    "Northeast Coastal St. Johns",
-    "Southeast Coastal St. Johns",
-    "Northern Inland St. Johns",
-    "Southern Inland St. Johns",
-    "Western St. Johns",
-    "Coastal Duval",
-    "Eastern Clay",
-    "Eastern Putnam",
-    "Trout River",
-    "Western Clay",
-    "Western Putnam",
-    "South Central Duval",
-    "Western Duval"
-   ],
-   "counties": [
-    "12019",
-    "12031",
-    "12035",
-    "12107",
-    "12109"
-   ],
-   "sent": "2026-11-17T17:14:00Z",
-   "onset": "2026-11-17T22:00:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.133bf9c0650e77ee833d46ad6340415a88edf236.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.865,
-     29.9866
-    ],
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ],
-    [
-     -81.3883,
-     29.8814
-    ]
-   ],
-   "lon": -81.584,
-   "lat": 29.854,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FA.A.0003.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1305,6 +1236,71 @@
    ],
    "lon": -119.471,
    "lat": 34.62,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.FA.A.0007.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Inland Flagler",
+    "Coastal Duval",
+    "Eastern Clay",
+    "Eastern Putnam",
+    "Coastal Flagler",
+    "Trout River",
+    "Western Clay",
+    "Northeast Coastal St. Johns",
+    "Western Putnam",
+    "South Central Duval",
+    "Southeast Coastal St. Johns",
+    "Western Duval",
+    "Northern Inland St. Johns",
+    "Southern Inland St. Johns",
+    "Western St. Johns"
+   ],
+   "counties": [
+    "12019",
+    "12031",
+    "12035",
+    "12107",
+    "12109"
+   ],
+   "sent": "2026-11-18T05:30:00Z",
+   "onset": "2026-11-18T05:30:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bca7efc483b4e27845ebd66cd92a34be12314e03.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ],
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ]
+   ],
+   "lon": -81.584,
+   "lat": 29.854,
    "countries": [
     "US"
    ]
@@ -1572,127 +1568,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KUNR.HW.W.0010.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Northern Black Hills",
-    "Northern Foothills",
-    "Rapid City",
-    "Southern Foothills",
-    "Central Black Hills",
-    "Southern Black Hills",
-    "Sturgis/Piedmont Foothills",
-    "Hermosa Foothills"
-   ],
-   "counties": [
-    "46033",
-    "46047",
-    "46081",
-    "46093",
-    "46103"
-   ],
-   "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T09:00:00Z",
-   "ends": "2026-11-18T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.4622,
-     43.6849
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -103.8064,
-     44.3485
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.8238,
-     44.0023
-    ]
-   ],
-   "lon": -103.264,
-   "lat": 43.973,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KUNR.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
-    "Western Fall River",
-    "Northern Oglala Lakota",
-    "Eastern Fall River",
-    "Southern Oglala Lakota"
-   ],
-   "counties": [
-    "46019",
-    "46047",
-    "46063",
-    "46093",
-    "46102",
-    "46105"
-   ],
-   "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5014,
-     44.8962
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -103.4739,
-     45.5966
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.5615,
-     43.3334
-    ],
-    [
-     -102.468,
-     45.4834
-    ]
-   ],
-   "lon": -103.039,
-   "lat": 44.523,
    "countries": [
     "US"
    ]
@@ -2039,6 +1914,127 @@
    ],
    "lon": -104.46,
    "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0010.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Northern Black Hills",
+    "Northern Foothills",
+    "Rapid City",
+    "Southern Foothills",
+    "Central Black Hills",
+    "Southern Black Hills",
+    "Sturgis/Piedmont Foothills",
+    "Hermosa Foothills"
+   ],
+   "counties": [
+    "46033",
+    "46047",
+    "46081",
+    "46093",
+    "46103"
+   ],
+   "sent": "2026-11-18T05:08:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-18T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e03289b1debf4ec7819563932c56670462c2f004.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.4622,
+     43.6849
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -103.8064,
+     44.3485
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.8238,
+     44.0023
+    ]
+   ],
+   "lon": -103.264,
+   "lat": 43.973,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0011.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Western Fall River",
+    "Northern Oglala Lakota",
+    "Eastern Fall River",
+    "Southern Oglala Lakota",
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
+   ],
+   "counties": [
+    "46019",
+    "46047",
+    "46063",
+    "46093",
+    "46102",
+    "46105"
+   ],
+   "sent": "2026-11-18T05:08:00Z",
+   "onset": "2026-11-18T17:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e03289b1debf4ec7819563932c56670462c2f004.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5014,
+     44.8962
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -103.4739,
+     45.5966
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.5615,
+     43.3334
+    ],
+    [
+     -102.468,
+     45.4834
+    ]
+   ],
+   "lon": -103.039,
+   "lat": 44.523,
    "countries": [
     "US"
    ]
@@ -2469,115 +2465,61 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0380.2026",
+   "id": "KKEY.MA.W.0382.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
     "Gulf of America including Dry Tortugas and Rebecca Shoal Channel",
     "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
+    "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM"
    ],
    "counties": [
-    "77033",
     "77034",
     "77035",
-    "77044"
+    "77044",
+    "77054",
+    "77055"
    ],
-   "sent": "2026-11-18T04:42:00Z",
-   "onset": "2026-11-18T04:42:00Z",
-   "ends": "2026-11-18T05:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27bbf96220ba9be96db16cccdfe00255d63e86d1.001.1",
+   "sent": "2026-11-18T05:14:00Z",
+   "onset": "2026-11-18T05:14:00Z",
+   "ends": "2026-11-18T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a933c0b07ae5bc3978647098b543f5b05f50e25.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.38,
-       24.51
+       -82.41,
+       24.41
       ],
       [
-       -82.57,
-       24.48
+       -82.6,
+       24.41
       ],
       [
-       -82.69,
-       24.87
+       -82.63,
+       24.58
       ],
       [
        -82.39,
-       24.91
+       24.58
       ],
       [
-       -82.38,
-       24.51
+       -82.41,
+       24.41
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.482,
-   "lat": 24.656,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0361.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75651"
-   ],
-   "sent": "2026-11-18T04:47:00Z",
-   "onset": "2026-11-18T04:47:00Z",
-   "ends": "2026-11-18T05:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.473af990729125a12de3e2cf07e562f3ddaa00c9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.96,
-       25.95
-      ],
-      [
-       -80.17,
-       25.96
-      ],
-      [
-       -80.12,
-       26.23
-      ],
-      [
-       -80.06,
-       26.23
-      ],
-      [
-       -80,
-       26.22
-      ],
-      [
-       -79.96,
-       25.95
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.045,
-   "lat": 26.09,
+   "lon": -82.488,
+   "lat": 24.478,
    "countries": [
     "US"
    ]
@@ -2595,10 +2537,10 @@
    "counties": [
     "77033"
    ],
-   "sent": "2026-11-18T04:54:00Z",
-   "onset": "2026-11-18T04:54:00Z",
+   "sent": "2026-11-18T05:16:00Z",
+   "onset": "2026-11-18T05:16:00Z",
    "ends": "2026-11-18T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fd02aaba0ddd464fb7b468132c5d63ed5738d41.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7459ce2565ae8e528c5a9e166517ebb1566ed4e5.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2646,6 +2588,60 @@
    "points": [],
    "lon": -82.487,
    "lat": 25.367,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0362.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75630",
+    "75651"
+   ],
+   "sent": "2026-11-18T05:28:00Z",
+   "onset": "2026-11-18T05:28:00Z",
+   "ends": "2026-11-18T06:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.732f6c6a219af2e762e05d3e434fac88138bc0c7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.13,
+       25.91
+      ],
+      [
+       -80.11,
+       26.14
+      ],
+      [
+       -79.96,
+       26.13
+      ],
+      [
+       -79.98,
+       25.89
+      ],
+      [
+       -80.13,
+       25.91
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.062,
+   "lat": 25.996,
    "countries": [
     "US"
    ]
@@ -2781,32 +2777,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7121.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta from 15 to 80 NM"
-   ],
-   "counties": [
-    "58764"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-17T14:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7120.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2823,6 +2793,32 @@
    "onset": "2026-11-18T02:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7121.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta from 15 to 80 NM"
+   ],
+   "counties": [
+    "58764"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3147,34 +3143,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0006.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-17T22:32:00Z",
-   "onset": "2026-11-17T23:00:00Z",
-   "ends": "2026-11-18T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e89232d9d13e5db5a70f72d75644964d7bc2041.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7582.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3425,6 +3393,34 @@
    "onset": "2026-11-18T00:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf422d0628f97bb43ce892978e6be18b46307b4c.014.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0006.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-18T05:24:00Z",
+   "onset": "2026-11-18T05:24:00Z",
+   "ends": "2026-11-18T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf9406835b97fe019c820028c0ade62ff18febb8.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
