@@ -2,16 +2,18 @@
  "records": [
   {
    "id": "20261118_0000267",
-   "mag": 5.4,
-   "magtype": "m",
-   "time": "2026-11-18T17:22:24Z",
-   "updated": "2026-11-18T17:31:35Z",
+   "mag": 5.3,
+   "magtype": "mw",
+   "time": "2026-11-18T17:22:23Z",
+   "updated": "2026-11-18T17:38:29Z",
    "region": "Kyushu, Japan",
    "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": 32.341,
-   "lon": 130.485,
-   "countries": [],
+   "authority": "NEIC",
+   "lat": 32.278,
+   "lon": 130.461,
+   "countries": [
+    "JP"
+   ],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000267"
   },
   {
@@ -1707,20 +1709,6 @@
    "lon": -74.122,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000268"
-  },
-  {
-   "id": "20261111_0000250",
-   "mag": 5.1,
-   "magtype": "mw",
-   "time": "2026-11-11T17:38:22Z",
-   "updated": "2026-11-16T07:55:57Z",
-   "region": "Bougainville Region, P.N.G.",
-   "depth_km": 58.0,
-   "authority": "EMSC",
-   "lat": -6.318,
-   "lon": 154.754,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000250"
   }
  ]
 }

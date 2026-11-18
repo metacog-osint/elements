@@ -823,10 +823,10 @@
     "12086",
     "12099"
    ],
-   "sent": "2026-11-18T07:21:00Z",
-   "onset": "2026-11-18T07:21:00Z",
+   "sent": "2026-11-18T17:50:00Z",
+   "onset": "2026-11-18T17:50:00Z",
    "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6d7846e24a88c0584762cd2ef5377f6cd88f99c.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.996f2b2710c35828265887809d90336a5516f695.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -897,53 +897,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBOU.HW.W.0008.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Denver CO",
-   "areas": [
-    "South and East Jackson/Larimer/North and Northeast Grand/Northwest Boulder Counties Above 9000 Feet",
-    "Larimer and Boulder Counties Between 6000 and 9000 Feet"
-   ],
-   "counties": [
-    "08013",
-    "08049",
-    "08057",
-    "08069"
-   ],
-   "sent": "2026-11-18T06:12:00Z",
-   "onset": "2026-11-18T06:12:00Z",
-   "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb1bf024c221b8008d4917c0f6bad1d2f5c95faf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.3977,
-     40.095
-    ],
-    [
-     -106.1108,
-     40.1131
-    ],
-    [
-     -106.3292,
-     40.6634
-    ],
-    [
-     -105.4868,
-     40.6581
-    ]
-   ],
-   "lon": -105.831,
-   "lat": 40.382,
    "countries": [
     "US"
    ]
@@ -1059,37 +1012,6 @@
    ]
   },
   {
-   "id": "PAFC.HW.W.0015.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Pribilof Islands"
-   ],
-   "counties": [
-    "02016"
-   ],
-   "sent": "2026-11-18T13:11:00Z",
-   "onset": "2026-11-18T13:11:00Z",
-   "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.834a0cd6b92915d8a12b3bff07789fbc6508a3d5.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     179.6212,
-     51.949
-    ]
-   ],
-   "lon": 179.621,
-   "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCYS.HW.W.0042.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1146,37 +1068,6 @@
    ],
    "lon": -105.559,
    "lat": 41.956,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBIS.HW.W.0005.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Bismarck ND",
-   "areas": [
-    "Bowman"
-   ],
-   "counties": [
-    "38011"
-   ],
-   "sent": "2026-11-18T15:58:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.569026f03bb4790d204231ee7fdebc38b43b324b.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5059,
-     46.1101
-    ]
-   ],
-   "lon": -103.506,
-   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -1277,6 +1168,68 @@
    ],
    "lon": -104.46,
    "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.HW.W.0015.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Pribilof Islands"
+   ],
+   "counties": [
+    "02016"
+   ],
+   "sent": "2026-11-18T17:40:00Z",
+   "onset": "2026-11-18T17:40:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eef19087e6277b5a5482728b73c0e8140522779.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     179.6212,
+     51.949
+    ]
+   ],
+   "lon": 179.621,
+   "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-18T17:57:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98fd81bd2c12a486076c3618c01fe1f4775f7ba2.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -1904,7 +1857,99 @@
    ]
   },
   {
-   "id": "KEKA.MA.W.0032.2026",
+   "id": "KMTR.MA.W.0020.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm"
+   ],
+   "counties": [
+    "57545"
+   ],
+   "sent": "2026-11-18T17:51:00Z",
+   "onset": "2026-11-18T17:51:00Z",
+   "ends": "2026-11-18T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc2d098ea2ec2a6a91a10c4664f03beeb3b41e27.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.67,
+       37.39
+      ],
+      [
+       -122.67,
+       37.66
+      ],
+      [
+       -122.51,
+       37.76
+      ],
+      [
+       -122.49,
+       37.64
+      ],
+      [
+       -122.5,
+       37.6
+      ],
+      [
+       -122.52,
+       37.59
+      ],
+      [
+       -122.52,
+       37.52
+      ],
+      [
+       -122.5,
+       37.51
+      ],
+      [
+       -122.48,
+       37.51
+      ],
+      [
+       -122.45,
+       37.48
+      ],
+      [
+       -122.43,
+       37.42
+      ],
+      [
+       -122.64,
+       37.23
+      ],
+      [
+       -122.63,
+       37.32
+      ],
+      [
+       -122.65,
+       37.37
+      ],
+      [
+       -122.67,
+       37.39
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.555,
+   "lat": 37.493,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.MA.W.0033.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1916,33 +1961,25 @@
    "counties": [
     "57455"
    ],
-   "sent": "2026-11-18T17:31:00Z",
-   "onset": "2026-11-18T17:31:00Z",
-   "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acae07ea21dfc42d6685b119ce25fb7d44e7e703.001.1",
+   "sent": "2026-11-18T17:58:00Z",
+   "onset": "2026-11-18T17:58:00Z",
+   "ends": "2026-11-18T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e413ff1670659384480bb0d0789596d0f0e138bd.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -124.38,
-       40.19
+       -124.31,
+       40.15
       ],
       [
-       -124.37,
-       40.25
+       -124.32,
+       40.2
       ],
       [
-       -124.35,
-       40.25
-      ],
-      [
-       -124.34,
-       40.24
-      ],
-      [
-       -124.33,
-       40.24
+       -124.3,
+       40.21
       ],
       [
        -124.29,
@@ -1957,24 +1994,28 @@
        40.18
       ],
       [
-       -124.23,
-       40.17
+       -124.24,
+       40.18
       ],
       [
-       -124.25,
-       40.11
+       -124.22,
+       40.16
       ],
       [
-       -124.38,
-       40.19
+       -124.21,
+       40.14
+      ],
+      [
+       -124.31,
+       40.15
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -124.314,
-   "lat": 40.202,
+   "lon": -124.273,
+   "lat": 40.177,
    "countries": [
     "US"
    ]
