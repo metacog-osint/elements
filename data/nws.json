@@ -1250,43 +1250,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0017.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Fallon",
-    "Carter"
-   ],
-   "counties": [
-    "30011",
-    "30025"
-   ],
-   "sent": "2026-11-18T02:37:00Z",
-   "onset": "2026-11-18T16:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.256b13d60ebedb4dcdf3e6559513a1377b245d8f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.5153,
-     45.5168
-    ],
-    [
-     -104.4057,
-     46.3182
-    ]
-   ],
-   "lon": -104.46,
-   "lat": 45.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KUNR.HW.W.0010.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1547,74 +1510,38 @@
    ]
   },
   {
-   "id": "KFSD.FW.W.0015.2026",
-   "event": "Red Flag Warning",
+   "id": "KBYZ.HW.W.0017.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Sioux Falls SD",
+   "sender": "NWS Billings MT",
    "areas": [
-    "Gregory",
-    "Brule",
-    "Aurora",
-    "Davison",
-    "Charles Mix",
-    "Douglas",
-    "Hutchinson",
-    "Bon Homme"
+    "Fallon",
+    "Carter"
    ],
    "counties": [
-    "46003",
-    "46009",
-    "46015",
-    "46023",
-    "46035",
-    "46043",
-    "46053",
-    "46067"
+    "30011",
+    "30025"
    ],
-   "sent": "2026-11-18T03:16:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d94008f6b2ce00ba80f89714ebb43c8c9132c8b.001.2",
+   "sent": "2026-11-18T08:59:00Z",
+   "onset": "2026-11-18T16:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6e68a26c81b12e5d686673daf3b4b289faf6be2.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -98.5776,
-     43.7247
+     -104.5153,
+     45.5168
     ],
     [
-     -97.8842,
-     42.9857
-    ],
-    [
-     -99.0929,
-     43.7299
-    ],
-    [
-     -98.5951,
-     43.2062
-    ],
-    [
-     -98.1559,
-     43.6804
-    ],
-    [
-     -98.3584,
-     43.3915
-    ],
-    [
-     -99.2066,
-     43.1751
-    ],
-    [
-     -97.7494,
-     43.3367
+     -104.4057,
+     46.3182
     ]
    ],
-   "lon": -98.453,
-   "lat": 43.404,
+   "lon": -104.46,
+   "lat": 45.918,
    "countries": [
     "US"
    ]
@@ -1994,6 +1921,85 @@
    ]
   },
   {
+   "id": "KFSD.FW.W.0015.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sioux Falls SD",
+   "areas": [
+    "Gregory",
+    "Brule",
+    "Aurora",
+    "Davison",
+    "Charles Mix",
+    "Douglas",
+    "Hutchinson",
+    "Bon Homme",
+    "Jerauld"
+   ],
+   "counties": [
+    "46003",
+    "46009",
+    "46015",
+    "46023",
+    "46035",
+    "46043",
+    "46053",
+    "46067",
+    "46073"
+   ],
+   "sent": "2026-11-18T08:37:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ce97c860477cd2d92a417fee279abf4aadae3a9.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.5776,
+     43.7247
+    ],
+    [
+     -97.8842,
+     42.9857
+    ],
+    [
+     -99.0929,
+     43.7299
+    ],
+    [
+     -98.5951,
+     43.2062
+    ],
+    [
+     -98.1559,
+     43.6804
+    ],
+    [
+     -98.3584,
+     43.3915
+    ],
+    [
+     -99.2066,
+     43.1751
+    ],
+    [
+     -97.7494,
+     43.3367
+    ],
+    [
+     -98.6232,
+     44.0634
+    ]
+   ],
+   "lon": -98.471,
+   "lat": 43.477,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KKEY.MA.W.0386.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2043,6 +2049,62 @@
    "points": [],
    "lon": -82.296,
    "lat": 24.118,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0387.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
+   ],
+   "counties": [
+    "77033",
+    "77035",
+    "77044"
+   ],
+   "sent": "2026-11-18T09:02:00Z",
+   "onset": "2026-11-18T09:02:00Z",
+   "ends": "2026-11-18T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f229ab88b8fddc6d42ec5989faa575a79f89095d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82,
+       24.98
+      ],
+      [
+       -82.05,
+       24.47
+      ],
+      [
+       -82.34,
+       24.48
+      ],
+      [
+       -82.29,
+       25
+      ],
+      [
+       -82,
+       24.98
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.136,
+   "lat": 24.782,
    "countries": [
     "US"
    ]
