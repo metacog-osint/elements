@@ -850,39 +850,6 @@
    ]
   },
   {
-   "id": "KHNX.FZ.W.0005.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Indian Wells Valley",
-    "Mojave Desert Slopes",
-    "Mojave Desert"
-   ],
-   "counties": [
-    "06029"
-   ],
-   "sent": "2026-11-18T14:35:00Z",
-   "onset": "2026-11-18T14:35:00Z",
-   "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01cc80a4996954dff8b022ec405f9a755c2c2252.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -118.7295,
-     35.3466
-    ]
-   ],
-   "lon": -118.73,
-   "lat": 35.347,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.3491.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1709,85 +1676,6 @@
    ]
   },
   {
-   "id": "KFSD.FW.W.0015.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sioux Falls SD",
-   "areas": [
-    "Gregory",
-    "Jerauld",
-    "Brule",
-    "Aurora",
-    "Davison",
-    "Charles Mix",
-    "Douglas",
-    "Hutchinson",
-    "Bon Homme"
-   ],
-   "counties": [
-    "46003",
-    "46009",
-    "46015",
-    "46023",
-    "46035",
-    "46043",
-    "46053",
-    "46067",
-    "46073"
-   ],
-   "sent": "2026-11-18T11:04:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc0d4db3b13d0dd19b221bde990edbd12ecf29b7.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.5776,
-     43.7247
-    ],
-    [
-     -97.8842,
-     42.9857
-    ],
-    [
-     -99.0929,
-     43.7299
-    ],
-    [
-     -98.5951,
-     43.2062
-    ],
-    [
-     -98.1559,
-     43.6804
-    ],
-    [
-     -98.3584,
-     43.3915
-    ],
-    [
-     -99.2066,
-     43.1751
-    ],
-    [
-     -97.7494,
-     43.3367
-    ],
-    [
-     -98.6232,
-     44.0634
-    ]
-   ],
-   "lon": -98.471,
-   "lat": 43.477,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KGID.FW.W.0029.2026",
    "event": "Red Flag Warning",
    "severity": "Severe",
@@ -1849,165 +1737,86 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0366.2026",
-   "event": "Special Marine Warning",
+   "id": "KFSD.FW.W.0015.2026",
+   "event": "Red Flag Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Miami FL",
+   "sender": "NWS Sioux Falls SD",
    "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+    "Gregory",
+    "Jerauld",
+    "Brule",
+    "Aurora",
+    "Davison",
+    "Charles Mix",
+    "Douglas",
+    "Hutchinson",
+    "Bon Homme"
    ],
    "counties": [
-    "75630",
-    "75651"
+    "46003",
+    "46009",
+    "46015",
+    "46023",
+    "46035",
+    "46043",
+    "46053",
+    "46067",
+    "46073"
    ],
-   "sent": "2026-11-18T15:54:00Z",
-   "onset": "2026-11-18T15:54:00Z",
-   "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96a14fccbeb20a86c72cdcc6532d8dcaf42d9e9e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.39,
-       25.3
-      ],
-      [
-       -80.33,
-       25.35
-      ],
-      [
-       -80.33,
-       25.4
-      ],
-      [
-       -80.3,
-       25.62
-      ],
-      [
-       -80.2,
-       25.75
-      ],
-      [
-       -80.13,
-       25.93
-      ],
-      [
-       -80.22,
-       25.3
-      ],
-      [
-       -80.26,
-       25.33
-      ],
-      [
-       -80.25,
-       25.34
-      ],
-      [
-       -80.27,
-       25.35
-      ],
-      [
-       -80.27,
-       25.33
-      ],
-      [
-       -80.3,
-       25.33
-      ],
-      [
-       -80.31,
-       25.3
-      ],
-      [
-       -80.39,
-       25.3
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-18T16:51:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ddcf55b2be137666afea61b47a94e4125b30b67.001.1",
+   "geometry": null,
    "vtec": true,
-   "points": [],
-   "lon": -80.282,
-   "lat": 25.424,
+   "points": [
+    [
+     -98.5776,
+     43.7247
+    ],
+    [
+     -97.8842,
+     42.9857
+    ],
+    [
+     -99.0929,
+     43.7299
+    ],
+    [
+     -98.5951,
+     43.2062
+    ],
+    [
+     -98.1559,
+     43.6804
+    ],
+    [
+     -98.3584,
+     43.3915
+    ],
+    [
+     -99.2066,
+     43.1751
+    ],
+    [
+     -97.7494,
+     43.3367
+    ],
+    [
+     -98.6232,
+     44.0634
+    ]
+   ],
+   "lon": -98.471,
+   "lat": 43.477,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KEKA.MA.W.0031.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Cape Mendocino to Pt. Arena CA out 10 nm"
-   ],
-   "counties": [
-    "57455"
-   ],
-   "sent": "2026-11-18T16:20:00Z",
-   "onset": "2026-11-18T16:20:00Z",
-   "ends": "2026-11-18T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f177f7ce99577598b29cee45d6cb7bd514fbf59f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -124.47,
-       40.28
-      ],
-      [
-       -124.46,
-       40.33
-      ],
-      [
-       -124.37,
-       40.39
-      ],
-      [
-       -124.36,
-       40.37
-      ],
-      [
-       -124.36,
-       40.34
-      ],
-      [
-       -124.35,
-       40.33
-      ],
-      [
-       -124.35,
-       40.3
-      ],
-      [
-       -124.36,
-       40.27
-      ],
-      [
-       -124.47,
-       40.28
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -124.394,
-   "lat": 40.321,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0367.2026",
+   "id": "KMFL.MA.W.0368.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2016,54 +1825,80 @@
    "areas": [
     "Biscayne Bay",
     "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM",
     "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
    ],
    "counties": [
     "75630",
     "75651",
-    "75670",
     "75671"
    ],
-   "sent": "2026-11-18T16:32:00Z",
-   "onset": "2026-11-18T16:32:00Z",
-   "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeda665b2a35f20dfc4c2c197e4e0beaaa4ba466.001.1",
+   "sent": "2026-11-18T17:02:00Z",
+   "onset": "2026-11-18T17:02:00Z",
+   "ends": "2026-11-18T18:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b84119739046576f316e2c99091257b8fffa680.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.09,
-       26.18
+       -80.25,
+       25.32
       ],
       [
-       -79.09,
-       26.06
+       -80.27,
+       25.35
       ],
       [
-       -80.18,
-       25.6
+       -80.33,
+       25.29
+      ],
+      [
+       -80.39,
+       25.3
+      ],
+      [
+       -80.35,
+       25.38
+      ],
+      [
+       -80.36,
+       25.42
+      ],
+      [
+       -80.31,
+       25.62
+      ],
+      [
+       -80.21,
+       25.77
+      ],
+      [
+       -80.19,
+       25.86
       ],
       [
        -80.11,
-       26.07
+       26.02
       ],
       [
-       -79.04,
-       26.53
+       -79.72,
+       26.01
       ],
       [
-       -79.09,
-       26.18
+       -79.87,
+       25.07
+      ],
+      [
+       -80.25,
+       25.32
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.433,
-   "lat": 26.103,
+   "lon": -80.201,
+   "lat": 25.518,
    "countries": [
     "US"
    ]
@@ -2522,69 +2357,6 @@
    ]
   },
   {
-   "id": "KHNX.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Yosemite NP outside of the valley",
-    "San Joaquin River Canyon",
-    "Upper San Joaquin River",
-    "Kaiser to Rodgers Ridge",
-    "Kings Canyon NP",
-    "Grant Grove Area",
-    "Sequoia NP",
-    "South End of the Upper Sierra"
-   ],
-   "counties": [
-    "06019",
-    "06029",
-    "06039",
-    "06043",
-    "06107",
-    "06109"
-   ],
-   "sent": "2026-11-18T08:33:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c7570bd4b9ab5f7272e7d334b107938681667534.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.655,
-     36.761
-    ],
-    [
-     -118.7295,
-     35.3466
-    ],
-    [
-     -119.7498,
-     37.2098
-    ],
-    [
-     -119.9117,
-     37.5743
-    ],
-    [
-     -118.7811,
-     36.2288
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -119.465,
-   "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSTO.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2847,6 +2619,69 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Yosemite NP outside of the valley",
+    "San Joaquin River Canyon",
+    "Upper San Joaquin River",
+    "Kaiser to Rodgers Ridge",
+    "Kings Canyon NP",
+    "Grant Grove Area",
+    "Sequoia NP",
+    "South End of the Upper Sierra"
+   ],
+   "counties": [
+    "06019",
+    "06029",
+    "06039",
+    "06043",
+    "06107",
+    "06109"
+   ],
+   "sent": "2026-11-18T17:01:00Z",
+   "onset": "2026-11-18T17:01:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b143a4ce2a3b143e03f39e992d139d0cb1e6b02.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.655,
+     36.761
+    ],
+    [
+     -118.7295,
+     35.3466
+    ],
+    [
+     -119.7498,
+     37.2098
+    ],
+    [
+     -119.9117,
+     37.5743
+    ],
+    [
+     -118.7811,
+     36.2288
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -119.465,
+   "lat": 36.857,
    "countries": [
     "US"
    ]
