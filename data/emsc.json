@@ -2,17 +2,45 @@
  "records": [
   {
    "id": "20261118_0000091",
-   "mag": 5.1,
+   "mag": 5.2,
    "magtype": "mb",
    "time": "2026-11-18T05:25:43Z",
-   "updated": "2026-11-18T05:34:51Z",
+   "updated": "2026-11-18T05:38:45Z",
    "region": "Galapagos Triple Junction Region",
    "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": 0.36,
-   "lon": -103.384,
+   "authority": "NEIC",
+   "lat": 0.435,
+   "lon": -103.084,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000091"
+  },
+  {
+   "id": "20261118_0000102",
+   "mag": 4.8,
+   "magtype": "mb",
+   "time": "2026-11-18T05:24:55Z",
+   "updated": "2026-11-18T05:59:57Z",
+   "region": "Flores Region, Indonesia",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -8.03,
+   "lon": 120.648,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000102"
+  },
+  {
+   "id": "20261118_0000089",
+   "mag": 4.7,
+   "magtype": "mb",
+   "time": "2026-11-18T05:24:04Z",
+   "updated": "2026-11-18T05:28:19Z",
+   "region": "Flores Region, Indonesia",
+   "depth_km": 10.0,
+   "authority": "BMKG",
+   "lat": -8.16,
+   "lon": 120.47,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000089"
   },
   {
    "id": "20261118_0000066",
@@ -1723,20 +1751,6 @@
    "lon": 154.792,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000077"
-  },
-  {
-   "id": "20261111_0000080",
-   "mag": 4.8,
-   "magtype": "mb",
-   "time": "2026-11-11T05:48:56Z",
-   "updated": "2026-11-11T06:59:58Z",
-   "region": "Kuril Islands",
-   "depth_km": 40.0,
-   "authority": "GSRAS",
-   "lat": 44.3,
-   "lon": 149.46,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000080"
   }
  ]
 }
