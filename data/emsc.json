@@ -1,6 +1,20 @@
 {
  "records": [
   {
+   "id": "20261118_0000062",
+   "mag": 5.2,
+   "magtype": "mb",
+   "time": "2026-11-18T04:21:35Z",
+   "updated": "2026-11-18T04:35:47Z",
+   "region": "Flores Region, Indonesia",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -8.151,
+   "lon": 120.649,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000062"
+  },
+  {
    "id": "20261118_0000048",
    "mag": 5.8,
    "magtype": "mw",
@@ -80,15 +94,15 @@
   },
   {
    "id": "20261117_0000355",
-   "mag": 4.9,
-   "magtype": "m",
+   "mag": 4.5,
+   "magtype": "mb",
    "time": "2026-11-17T23:25:33Z",
-   "updated": "2026-11-18T00:40:40Z",
+   "updated": "2026-11-18T04:20:47Z",
    "region": "Owen Fracture Zone Region",
    "depth_km": 10.0,
-   "authority": "GSRAS",
-   "lat": 12.91,
-   "lon": 57.93,
+   "authority": "NEIC",
+   "lat": 13.022,
+   "lon": 57.688,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000355"
   },
@@ -124,16 +138,14 @@
    "id": "20261117_0000230",
    "mag": 4.9,
    "magtype": "mb",
-   "time": "2026-11-17T15:48:48Z",
-   "updated": "2026-11-17T17:18:47Z",
-   "region": "Near East Coast Of Kamchatka",
-   "depth_km": 87.3,
-   "authority": "NEIC",
-   "lat": 51.962,
-   "lon": 157.788,
-   "countries": [
-    "RU"
-   ],
+   "time": "2026-11-17T15:48:37Z",
+   "updated": "2026-11-18T04:33:20Z",
+   "region": "Off East Coast Of Kamchatka",
+   "depth_km": 55.0,
+   "authority": "GSRAS",
+   "lat": 51.43,
+   "lon": 159.4,
+   "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000230"
   },
   {
@@ -1725,20 +1737,6 @@
    "lon": 14.136,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000056"
-  },
-  {
-   "id": "20261111_0000050",
-   "mag": 4.6,
-   "magtype": "ml",
-   "time": "2026-11-11T04:20:59Z",
-   "updated": "2026-11-11T04:37:59Z",
-   "region": "Fox Islands, Aleutian Islands",
-   "depth_km": 42.2,
-   "authority": "NEIC",
-   "lat": 52.553,
-   "lon": -169.688,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000050"
   }
  ]
 }
