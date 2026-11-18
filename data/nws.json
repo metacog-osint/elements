@@ -1907,6 +1907,74 @@
    ]
   },
   {
+   "id": "KMFL.MA.W.0365.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM",
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75630",
+    "75650",
+    "75651",
+    "75670",
+    "75671"
+   ],
+   "sent": "2026-11-18T15:03:00Z",
+   "onset": "2026-11-18T15:03:00Z",
+   "ends": "2026-11-18T16:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbaaf2620b73c44aacb9c0c6aa4ec14c6637afa1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.09,
+       26.18
+      ],
+      [
+       -79.09,
+       26.05
+      ],
+      [
+       -80.2,
+       25.43
+      ],
+      [
+       -80.11,
+       26.09
+      ],
+      [
+       -79.19,
+       26.52
+      ],
+      [
+       -79.07,
+       26.3
+      ],
+      [
+       -79.09,
+       26.18
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.406,
+   "lat": 26.107,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.3157.2026",
    "event": "Storm Warning",
    "severity": "Severe",
