@@ -1504,10 +1504,10 @@
     "East Platte County",
     "South Laramie Range Foothills",
     "Central Laramie County",
+    "North Snowy Range Foothills",
     "Shirley Basin",
     "Laramie Valley",
-    "South Laramie Range",
-    "North Snowy Range Foothills"
+    "South Laramie Range"
    ],
    "counties": [
     "31007",
@@ -2067,176 +2067,6 @@
    ]
   },
   {
-   "id": "KMTR.MA.W.0024.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Monterey Bay",
-    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
-    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm"
-   ],
-   "counties": [
-    "57535",
-    "57560",
-    "57565"
-   ],
-   "sent": "2026-11-18T22:44:00Z",
-   "onset": "2026-11-18T22:44:00Z",
-   "ends": "2026-11-18T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc225b68dba4b3488251faaee53aca8f7995c655.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.07,
-       36.56
-      ],
-      [
-       -121.97,
-       36.96
-      ],
-      [
-       -121.91,
-       36.98
-      ],
-      [
-       -121.82,
-       36.87
-      ],
-      [
-       -121.8,
-       36.88
-      ],
-      [
-       -121.81,
-       36.85
-      ],
-      [
-       -121.8,
-       36.82
-      ],
-      [
-       -121.76,
-       36.82
-      ],
-      [
-       -121.78,
-       36.85
-      ],
-      [
-       -121.77,
-       36.86
-      ],
-      [
-       -121.74,
-       36.84
-      ],
-      [
-       -121.74,
-       36.81
-      ],
-      [
-       -121.79,
-       36.8
-      ],
-      [
-       -121.82,
-       36.68
-      ],
-      [
-       -121.86,
-       36.61
-      ],
-      [
-       -121.9,
-       36.59
-      ],
-      [
-       -121.92,
-       36.62
-      ],
-      [
-       -121.95,
-       36.58
-      ],
-      [
-       -121.91,
-       36.56
-      ],
-      [
-       -122.07,
-       36.56
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -121.859,
-   "lat": 36.755,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.MA.W.0343.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
-    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
-   ],
-   "counties": [
-    "75552",
-    "75572"
-   ],
-   "sent": "2026-11-18T22:46:00Z",
-   "onset": "2026-11-18T22:46:00Z",
-   "ends": "2026-11-18T23:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5957b8372ff47dc4e93b62222e3df458cac5a54.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.01,
-       28.18
-      ],
-      [
-       -80.48,
-       28.19
-      ],
-      [
-       -80.39,
-       28.63
-      ],
-      [
-       -79.95,
-       28.46
-      ],
-      [
-       -80.01,
-       28.18
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.168,
-   "lat": 28.328,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0372.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2290,6 +2120,102 @@
    "points": [],
    "lon": -79.85,
    "lat": 25.133,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.MA.W.0260.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM"
+   ],
+   "counties": [
+    "75454"
+   ],
+   "sent": "2026-11-18T23:20:00Z",
+   "onset": "2026-11-18T23:20:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.badab29117f3da1d47ecb45030b790f7a99a5f48.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.13,
+       29.44
+      ],
+      [
+       -81.13,
+       29.45
+      ],
+      [
+       -81.11,
+       29.43
+      ],
+      [
+       -81.14,
+       29.43
+      ],
+      [
+       -81.27,
+       29.68
+      ],
+      [
+       -81.26,
+       29.69
+      ],
+      [
+       -81.28,
+       29.73
+      ],
+      [
+       -81.29,
+       29.74
+      ],
+      [
+       -80.93,
+       29.85
+      ],
+      [
+       -80.76,
+       29.49
+      ],
+      [
+       -80.84,
+       29.48
+      ],
+      [
+       -81.12,
+       29.46
+      ],
+      [
+       -81.11,
+       29.44
+      ],
+      [
+       -81.12,
+       29.45
+      ],
+      [
+       -81.14,
+       29.46
+      ],
+      [
+       -81.13,
+       29.44
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.11,
+   "lat": 29.541,
    "countries": [
     "US"
    ]

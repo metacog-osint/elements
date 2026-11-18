@@ -396,9 +396,9 @@
    "id": "{AD5B9BD4-9190-4968-BA2A-94D9AAE78348}",
    "name": "Marion - Brush Creek",
    "acres": 50.0,
-   "contained": 0,
+   "contained": 90,
    "discovered": "2026-11-18T19:56:00Z",
-   "updated": "2026-11-18T22:02:41Z",
+   "updated": "2026-11-18T23:26:25Z",
    "state": "TN",
    "county": "Marion",
    "cause": "Undetermined",
@@ -419,20 +419,6 @@
    "complexity": null,
    "lon": -93.7581,
    "lat": 36.6708
-  },
-  {
-   "id": "{1A19B8FA-23C9-4EE4-AF08-183D0911952F}",
-   "name": "Anderson",
-   "acres": 22.0,
-   "contained": null,
-   "discovered": "2026-11-18T20:11:25Z",
-   "updated": "2026-11-18T21:28:09Z",
-   "state": "MO",
-   "county": "Reynolds",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -91.1137,
-   "lat": 37.5012
   },
   {
    "id": "{A1ECE04C-AE29-4426-B947-D03D79348D18}",
@@ -1007,20 +993,6 @@
    "complexity": null,
    "lon": -82.0611,
    "lat": 35.7524
-  },
-  {
-   "id": "{76E8CC1D-3950-4D82-9CF5-352A71D5513A}",
-   "name": "26-0071",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-18T20:03:58Z",
-   "updated": "2026-11-18T22:42:20Z",
-   "state": "CO",
-   "county": "Logan",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -103.2611,
-   "lat": 40.5021
   },
   {
    "id": "{92B6484C-018F-4DFB-A21A-D1F89E73B1A4}",
@@ -2323,6 +2295,20 @@
    "complexity": null,
    "lon": -118.369,
    "lat": 33.9298
+  },
+  {
+   "id": "{3E99A708-68BE-4DC7-8152-DF8124AD442D}",
+   "name": "Modoc Co Rd 54 / Modoc Co Rd 70",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-18T23:17:38Z",
+   "updated": "2026-11-18T23:18:23Z",
+   "state": "CA",
+   "county": "Modoc",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7357,
+   "lat": 41.4216
   }
  ]
 }
