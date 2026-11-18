@@ -475,6 +475,69 @@
    ]
   },
   {
+   "id": "KMFL.FF.W.0015.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL",
+    "Miami-Dade, FL"
+   ],
+   "counties": [
+    "12011",
+    "12086"
+   ],
+   "sent": "2026-11-18T01:18:00Z",
+   "onset": "2026-11-18T01:18:00Z",
+   "ends": "2026-11-18T03:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b07dd3a456801c6d04b92848f222a97470e0a168.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.19,
+       25.91
+      ],
+      [
+       -80.21,
+       26.01
+      ],
+      [
+       -80.11,
+       26.01
+      ],
+      [
+       -80.1,
+       25.91
+      ],
+      [
+       -80.19,
+       25.91
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ]
+   ],
+   "lon": -80.16,
+   "lat": 25.95,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -513,183 +576,6 @@
    ],
    "lon": -122.189,
    "lat": 37.757,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-17T14:19:00Z",
-   "onset": "2026-11-17T14:19:00Z",
-   "ends": "2026-11-18T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9edc51686030f142841e097165571852187d4062.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-17T14:21:00Z",
-   "onset": "2026-11-17T14:21:00Z",
-   "ends": "2026-11-18T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ab0dcba67e466e668b37501d5d7ce7c9754bce6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-17T14:23:00Z",
-   "onset": "2026-11-17T14:23:00Z",
-   "ends": "2026-11-18T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2e31c24b8041ae6d756ab51ac1361073e194021.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
    "countries": [
     "US"
    ]
@@ -1014,6 +900,183 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-18T01:15:00Z",
+   "onset": "2026-11-18T01:15:00Z",
+   "ends": "2026-11-18T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88c1e47715b9f22ccace47053e5af4d28020faa2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-18T01:17:00Z",
+   "onset": "2026-11-18T01:17:00Z",
+   "ends": "2026-11-18T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a76ee937cc6d2532c7c71adff1791b46b6ec69e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-18T01:20:00Z",
+   "onset": "2026-11-18T01:20:00Z",
+   "ends": "2026-11-18T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25b7d0dd33439abcafc0f66f30d1a65e9d23c545.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1267,12 +1330,6 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -1282,6 +1339,12 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1679,49 +1742,6 @@
    ]
   },
   {
-   "id": "KRIW.HW.W.0016.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Riverton WY",
-   "areas": [
-    "Natrona County Lower Elevations",
-    "Casper Mountain",
-    "Green Mountains and Rattlesnake Range"
-   ],
-   "counties": [
-    "56013",
-    "56025",
-    "56037"
-   ],
-   "sent": "2026-11-17T08:47:00Z",
-   "onset": "2026-11-18T04:00:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e993c0cd8e887dbebdb846923439d88473be0b0.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -108.6089,
-     43.0548
-    ],
-    [
-     -106.7682,
-     42.9776
-    ],
-    [
-     -108.8757,
-     41.6603
-    ]
-   ],
-   "lon": -108.084,
-   "lat": 42.564,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.HW.W.0001.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1765,9 +1785,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
+    "Central Laramie County",
     "North Snowy Range Foothills",
     "Converse County Lower Elevations",
-    "Central Laramie County",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1783,9 +1803,9 @@
     "56031"
    ],
    "sent": "2026-11-17T18:38:00Z",
-   "onset": "2026-11-18T03:00:00Z",
+   "onset": "2026-11-18T09:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.003.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2146,6 +2166,49 @@
    ]
   },
   {
+   "id": "KRIW.HW.W.0016.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Riverton WY",
+   "areas": [
+    "Green Mountains and Rattlesnake Range",
+    "Natrona County Lower Elevations",
+    "Casper Mountain"
+   ],
+   "counties": [
+    "56013",
+    "56025",
+    "56037"
+   ],
+   "sent": "2026-11-18T01:16:00Z",
+   "onset": "2026-11-18T04:00:00Z",
+   "ends": "2026-11-18T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7a32fbbdae9645c462355bd6feb515532a70da7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -108.6089,
+     43.0548
+    ],
+    [
+     -106.7682,
+     42.9776
+    ],
+    [
+     -108.8757,
+     41.6603
+    ]
+   ],
+   "lon": -108.084,
+   "lat": 42.564,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0043.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2406,136 +2469,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0374.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms"
-   ],
-   "counties": [
-    "77033",
-    "77034",
-    "77035"
-   ],
-   "sent": "2026-11-18T00:33:00Z",
-   "onset": "2026-11-18T00:33:00Z",
-   "ends": "2026-11-18T01:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4f2cea17286d53b8bec71a539c426008679aea6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.28,
-       24.61
-      ],
-      [
-       -82.45,
-       24.56
-      ],
-      [
-       -82.62,
-       24.77
-      ],
-      [
-       -82.35,
-       24.88
-      ],
-      [
-       -82.28,
-       24.61
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.396,
-   "lat": 24.686,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0376.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
-   ],
-   "counties": [
-    "77033",
-    "77035",
-    "77044",
-    "77054"
-   ],
-   "sent": "2026-11-18T00:58:00Z",
-   "onset": "2026-11-18T00:58:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b07c4c149ef3eab8ace55f1971a2095b958c2f6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.94,
-       24.74
-      ],
-      [
-       -82.11,
-       24.59
-      ],
-      [
-       -82.14,
-       24.6
-      ],
-      [
-       -82.12,
-       24.59
-      ],
-      [
-       -82.31,
-       24.4
-      ],
-      [
-       -82.47,
-       24.61
-      ],
-      [
-       -82.47,
-       24.72
-      ],
-      [
-       -82.26,
-       24.9
-      ],
-      [
-       -81.94,
-       24.74
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.196,
-   "lat": 24.654,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0360.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2599,6 +2532,80 @@
    "points": [],
    "lon": -80.066,
    "lat": 26.067,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0376.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+   ],
+   "counties": [
+    "77033",
+    "77035",
+    "77044",
+    "77054"
+   ],
+   "sent": "2026-11-18T01:31:00Z",
+   "onset": "2026-11-18T01:31:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0214280faf49732b9df6d578603aa2c3ff19c205.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.94,
+       24.74
+      ],
+      [
+       -82.11,
+       24.59
+      ],
+      [
+       -82.14,
+       24.6
+      ],
+      [
+       -82.12,
+       24.59
+      ],
+      [
+       -82.31,
+       24.4
+      ],
+      [
+       -82.47,
+       24.61
+      ],
+      [
+       -82.47,
+       24.72
+      ],
+      [
+       -82.26,
+       24.9
+      ],
+      [
+       -81.94,
+       24.74
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.196,
+   "lat": 24.654,
    "countries": [
     "US"
    ]
@@ -2812,32 +2819,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2854,6 +2835,32 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
