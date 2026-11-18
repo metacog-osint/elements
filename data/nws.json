@@ -781,6 +781,12 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -790,12 +796,6 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1931,193 +1931,6 @@
    ]
   },
   {
-   "id": "KMTR.SV.W.0001.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "San Mateo, CA"
-   ],
-   "counties": [
-    "06081"
-   ],
-   "sent": "2026-11-18T18:12:00Z",
-   "onset": "2026-11-18T18:12:00Z",
-   "ends": "2026-11-18T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8482135696d624259210a0e59c52232e21bb7e27.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.47,
-       37.6
-      ],
-      [
-       -122.38,
-       37.64
-      ],
-      [
-       -122.39,
-       37.63
-      ],
-      [
-       -122.37,
-       37.63
-      ],
-      [
-       -122.36,
-       37.61
-      ],
-      [
-       -122.38,
-       37.61
-      ],
-      [
-       -122.34,
-       37.59
-      ],
-      [
-       -122.36,
-       37.59
-      ],
-      [
-       -122.31,
-       37.58
-      ],
-      [
-       -122.3,
-       37.58
-      ],
-      [
-       -122.27,
-       37.51
-      ],
-      [
-       -122.44,
-       37.43
-      ],
-      [
-       -122.46,
-       37.49
-      ],
-      [
-       -122.47,
-       37.6
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -122.3715,
-     37.4147
-    ]
-   ],
-   "lon": -122.379,
-   "lat": 37.578,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMTR.MA.W.0021.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm",
-    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm"
-   ],
-   "counties": [
-    "57545",
-    "57560"
-   ],
-   "sent": "2026-11-18T18:20:00Z",
-   "onset": "2026-11-18T18:20:00Z",
-   "ends": "2026-11-18T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ffa87d8a3ff536c37930f958268e9acb006e567.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.57,
-       37.08
-      ],
-      [
-       -122.55,
-       37.11
-      ],
-      [
-       -122.55,
-       37.43
-      ],
-      [
-       -122.45,
-       37.48
-      ],
-      [
-       -122.44,
-       37.44
-      ],
-      [
-       -122.4,
-       37.36
-      ],
-      [
-       -122.41,
-       37.27
-      ],
-      [
-       -122.4,
-       37.25
-      ],
-      [
-       -122.42,
-       37.24
-      ],
-      [
-       -122.41,
-       37.2
-      ],
-      [
-       -122.35,
-       37.18
-      ],
-      [
-       -122.32,
-       37.12
-      ],
-      [
-       -122.32,
-       37
-      ],
-      [
-       -122.52,
-       37.01
-      ],
-      [
-       -122.57,
-       37.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.445,
-   "lat": 37.217,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0369.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2225,6 +2038,72 @@
    "points": [],
    "lon": -80.234,
    "lat": 25.421,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0022.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
+    "Waters from Pigeon Point to Point Pinos 10-60 NM"
+   ],
+   "counties": [
+    "57560",
+    "57575"
+   ],
+   "sent": "2026-11-18T19:03:00Z",
+   "onset": "2026-11-18T19:03:00Z",
+   "ends": "2026-11-18T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2747564258d29c1f323fc6ac53eaeb5f6a1588b8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.74,
+       36.86
+      ],
+      [
+       -122.5,
+       37.13
+      ],
+      [
+       -122.34,
+       37.16
+      ],
+      [
+       -122.34,
+       37.15
+      ],
+      [
+       -122.38,
+       37.05
+      ],
+      [
+       -122.47,
+       36.95
+      ],
+      [
+       -122.63,
+       36.83
+      ],
+      [
+       -122.74,
+       36.86
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.517,
+   "lat": 36.999,
    "countries": [
     "US"
    ]
