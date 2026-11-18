@@ -297,133 +297,6 @@
    ]
   },
   {
-   "id": "KFGZ.FF.W.0219.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Coconino, AZ",
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04005",
-    "04025"
-   ],
-   "sent": "2026-11-17T23:00:00Z",
-   "onset": "2026-11-17T23:00:00Z",
-   "ends": "2026-11-18T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3b1b16a9f4884bfdd81c4214e3af3d5b359aef9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.78,
-       34.83
-      ],
-      [
-       -111.79,
-       34.81
-      ],
-      [
-       -111.82,
-       34.8
-      ],
-      [
-       -111.84,
-       34.8
-      ],
-      [
-       -111.84,
-       34.82
-      ],
-      [
-       -111.81,
-       34.83
-      ],
-      [
-       -111.78,
-       34.85
-      ],
-      [
-       -111.77,
-       34.87
-      ],
-      [
-       -111.76,
-       34.9
-      ],
-      [
-       -111.72,
-       34.94
-      ],
-      [
-       -111.63,
-       34.95
-      ],
-      [
-       -111.61,
-       34.94
-      ],
-      [
-       -111.61,
-       34.9
-      ],
-      [
-       -111.63,
-       34.87
-      ],
-      [
-       -111.65,
-       34.87
-      ],
-      [
-       -111.68,
-       34.89
-      ],
-      [
-       -111.7,
-       34.91
-      ],
-      [
-       -111.72,
-       34.91
-      ],
-      [
-       -111.73,
-       34.89
-      ],
-      [
-       -111.75,
-       34.86
-      ],
-      [
-       -111.78,
-       34.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -111.7737,
-     35.8297
-    ],
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.733,
-   "lat": 34.87,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFGZ.FF.W.0220.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -540,6 +413,63 @@
    ],
    "lon": -111.902,
    "lat": 34.735,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FF.W.0014.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL"
+   ],
+   "counties": [
+    "12011"
+   ],
+   "sent": "2026-11-18T00:53:00Z",
+   "onset": "2026-11-18T00:53:00Z",
+   "ends": "2026-11-18T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b25ad5e1b87f7d678f16e2bcdc2860569e0f02a3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.16,
+       26.25
+      ],
+      [
+       -80.22,
+       26.16
+      ],
+      [
+       -80.36,
+       26.26
+      ],
+      [
+       -80.26,
+       26.32
+      ],
+      [
+       -80.16,
+       26.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ]
+   ],
+   "lon": -80.232,
+   "lat": 26.248,
    "countries": [
     "US"
    ]
@@ -765,71 +695,6 @@
    ]
   },
   {
-   "id": "KCRP.FL.W.0029.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "McMullen, TX"
-   ],
-   "counties": [
-    "48311"
-   ],
-   "sent": "2026-11-17T14:27:00Z",
-   "onset": "2026-11-17T14:27:00Z",
-   "ends": "2026-11-19T01:36:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b79e2369a65d3d53cd09b2d82bcdcea2177543a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -98.8,
-       28.17
-      ],
-      [
-       -98.59,
-       28.36
-      ],
-      [
-       -98.33,
-       28.45
-      ],
-      [
-       -98.33,
-       28.33
-      ],
-      [
-       -98.54,
-       28.26
-      ],
-      [
-       -98.8,
-       28.07
-      ],
-      [
-       -98.8,
-       28.17
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -98.5789,
-     28.3849
-    ]
-   ],
-   "lon": -98.599,
-   "lat": 28.259,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -952,6 +817,198 @@
    ],
    "lon": -113.214,
    "lat": 33.005,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FA.W.0041.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Coconino, AZ",
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04005",
+    "04025"
+   ],
+   "sent": "2026-11-18T00:40:00Z",
+   "onset": "2026-11-18T00:40:00Z",
+   "ends": "2026-11-18T06:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8980f9078db72e454f67333f25eb24e444054f0c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.78,
+       34.83
+      ],
+      [
+       -111.79,
+       34.81
+      ],
+      [
+       -111.82,
+       34.8
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.81,
+       34.83
+      ],
+      [
+       -111.78,
+       34.85
+      ],
+      [
+       -111.77,
+       34.87
+      ],
+      [
+       -111.76,
+       34.9
+      ],
+      [
+       -111.72,
+       34.94
+      ],
+      [
+       -111.63,
+       34.95
+      ],
+      [
+       -111.61,
+       34.94
+      ],
+      [
+       -111.61,
+       34.9
+      ],
+      [
+       -111.63,
+       34.87
+      ],
+      [
+       -111.65,
+       34.87
+      ],
+      [
+       -111.68,
+       34.89
+      ],
+      [
+       -111.7,
+       34.91
+      ],
+      [
+       -111.72,
+       34.91
+      ],
+      [
+       -111.73,
+       34.89
+      ],
+      [
+       -111.75,
+       34.86
+      ],
+      [
+       -111.78,
+       34.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -111.7737,
+     35.8297
+    ],
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.733,
+   "lat": 34.87,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.FL.W.0029.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "McMullen, TX"
+   ],
+   "counties": [
+    "48311"
+   ],
+   "sent": "2026-11-18T00:50:00Z",
+   "onset": "2026-11-18T00:50:00Z",
+   "ends": "2026-11-18T19:33:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6152daceefb4945874fc8a8c7bb1c51390984f8e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.8,
+       28.17
+      ],
+      [
+       -98.59,
+       28.36
+      ],
+      [
+       -98.33,
+       28.45
+      ],
+      [
+       -98.33,
+       28.33
+      ],
+      [
+       -98.54,
+       28.26
+      ],
+      [
+       -98.8,
+       28.07
+      ],
+      [
+       -98.8,
+       28.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.5789,
+     28.3849
+    ]
+   ],
+   "lon": -98.599,
+   "lat": 28.259,
    "countries": [
     "US"
    ]
@@ -1482,6 +1539,136 @@
    "onset": "2026-11-18T02:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4adbbc412c7b07237ea739c38e3b1121085eedf8.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.3491.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett out to 15 NM"
+   ],
+   "counties": [
+    "58813"
+   ],
+   "sent": "2026-11-18T00:48:00Z",
+   "onset": "2026-11-18T14:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d784134a56190c3a12288919cbe1e5e094a8131.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.3495.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-18T00:48:00Z",
+   "onset": "2026-11-18T14:00:00Z",
+   "ends": "2026-11-19T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d784134a56190c3a12288919cbe1e5e094a8131.005.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.3489.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin out to 15 NM"
+   ],
+   "counties": [
+    "58812"
+   ],
+   "sent": "2026-11-18T00:48:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d784134a56190c3a12288919cbe1e5e094a8131.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.3391.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Espenberg to Motherwood Point out to 10 NM"
+   ],
+   "counties": [
+    "58808"
+   ],
+   "sent": "2026-11-18T00:49:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf422d0628f97bb43ce892978e6be18b46307b4c.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.3388.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Sledge Island to Wales out to 15 NM"
+   ],
+   "counties": [
+    "58806"
+   ],
+   "sent": "2026-11-18T00:49:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf422d0628f97bb43ce892978e6be18b46307b4c.006.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2219,68 +2406,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0359.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75630",
-    "75651"
-   ],
-   "sent": "2026-11-18T00:19:00Z",
-   "onset": "2026-11-18T00:19:00Z",
-   "ends": "2026-11-18T00:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3554d87321f86e572472dccf8acda964ad4ce209.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.99,
-       25.8
-      ],
-      [
-       -80.21,
-       25.83
-      ],
-      [
-       -80.2,
-       25.87
-      ],
-      [
-       -80.16,
-       25.91
-      ],
-      [
-       -80.16,
-       26.1
-      ],
-      [
-       -79.92,
-       26.08
-      ],
-      [
-       -79.99,
-       25.8
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.09,
-   "lat": 25.913,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.MA.W.0374.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2337,53 +2462,143 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0375.2026",
+   "id": "KKEY.MA.W.0376.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel"
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
    ],
    "counties": [
-    "77034"
+    "77033",
+    "77035",
+    "77044",
+    "77054"
    ],
-   "sent": "2026-11-18T00:34:00Z",
-   "onset": "2026-11-18T00:34:00Z",
-   "ends": "2026-11-18T01:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bfbb7caf23f0d9b90aaa7ce559bb8736d379869c.001.1",
+   "sent": "2026-11-18T00:58:00Z",
+   "onset": "2026-11-18T00:58:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b07c4c149ef3eab8ace55f1971a2095b958c2f6.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.75,
-       24.79
+       -81.94,
+       24.74
       ],
       [
-       -82.63,
-       24.56
+       -82.11,
+       24.59
       ],
       [
-       -82.78,
-       24.45
+       -82.14,
+       24.6
       ],
       [
-       -82.99,
-       24.63
+       -82.12,
+       24.59
       ],
       [
-       -82.75,
-       24.79
+       -82.31,
+       24.4
+      ],
+      [
+       -82.47,
+       24.61
+      ],
+      [
+       -82.47,
+       24.72
+      ],
+      [
+       -82.26,
+       24.9
+      ],
+      [
+       -81.94,
+       24.74
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.78,
-   "lat": 24.644,
+   "lon": -82.196,
+   "lat": 24.654,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0360.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75630",
+    "75650",
+    "75651"
+   ],
+   "sent": "2026-11-18T01:01:00Z",
+   "onset": "2026-11-18T01:01:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83408917504e84fbbf39d491e146b0ad3e341ae5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.99,
+       25.85
+      ],
+      [
+       -80.21,
+       25.86
+      ],
+      [
+       -80.16,
+       25.91
+      ],
+      [
+       -80.16,
+       26.12
+      ],
+      [
+       -80.11,
+       26.31
+      ],
+      [
+       -80.11,
+       26.35
+      ],
+      [
+       -79.8,
+       26.29
+      ],
+      [
+       -79.99,
+       25.85
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.066,
+   "lat": 26.067,
    "countries": [
     "US"
    ]
@@ -3787,6 +4002,32 @@
    "onset": "2026-11-18T00:00:00Z",
    "ends": "2026-11-19T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b113d2d38163e3fefdee596003e6ba40ea59d8c7.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.SR.W.3398.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Southwest of Saint Lawrence Island from 15 to 100 NM"
+   ],
+   "counties": [
+    "58851"
+   ],
+   "sent": "2026-11-18T00:49:00Z",
+   "onset": "2026-11-18T00:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf422d0628f97bb43ce892978e6be18b46307b4c.014.1",
    "geometry": null,
    "vtec": true,
    "points": [],
