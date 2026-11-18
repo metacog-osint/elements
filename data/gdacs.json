@@ -609,7 +609,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 45,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -617,13 +617,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-24T01:00:00Z",
-   "to": "2026-11-18T01:00:00Z",
+   "to": "2026-11-20T01:00:00Z",
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=45&eventtype=FL",
+   "lon": 117.146,
+   "lat": -8.789,
    "countries": [
     "ID"
    ]
@@ -653,7 +653,7 @@
    "id": "FL-1104239",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 7,
    "name": "Flood in Malaysia",
    "alert": "green",
    "score": 1,
@@ -661,14 +661,16 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-15T01:00:00Z",
-   "to": "2026-11-10T01:00:00Z",
-   "current": false,
+   "to": "2026-11-18T01:00:00Z",
+   "current": true,
    "country": "Malaysia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=6&eventtype=FL",
-   "lon": 101.304,
-   "lat": 3.208,
-   "countries": []
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104239&episodeid=7&eventtype=FL",
+   "lon": 101.251,
+   "lat": 3.332,
+   "countries": [
+    "MY"
+   ]
   },
   {
    "id": "FL-1104220",
