@@ -1071,42 +1071,6 @@
    ]
   },
   {
-   "id": "KMTR.HW.W.0001.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "East Bay Hills"
-   ],
-   "counties": [
-    "06001",
-    "06013"
-   ],
-   "sent": "2026-11-18T01:48:00Z",
-   "onset": "2026-11-18T05:00:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4afae32dad0d3ca429adb302c2b24cf389b34076.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.9125,
-     37.6471
-    ],
-    [
-     -121.9515,
-     37.9195
-    ]
-   ],
-   "lon": -121.932,
-   "lat": 37.783,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KUNR.HW.W.0010.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1373,37 +1337,6 @@
    ]
   },
   {
-   "id": "KBIS.HW.W.0005.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Bismarck ND",
-   "areas": [
-    "Bowman"
-   ],
-   "counties": [
-    "38011"
-   ],
-   "sent": "2026-11-18T09:33:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e0d292b1111bcfce89df5c7ce7df33fe4f53fa3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5059,
-     46.1101
-    ]
-   ],
-   "lon": -103.506,
-   "lat": 46.11,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.HW.W.0022.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1461,6 +1394,73 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-18T11:05:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa2ba6e1b3c85856b3710dcd80f56d1309313922.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.HW.W.0001.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "East Bay Hills"
+   ],
+   "counties": [
+    "06001",
+    "06013"
+   ],
+   "sent": "2026-11-18T11:18:00Z",
+   "onset": "2026-11-18T11:18:00Z",
+   "ends": "2026-11-18T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d427659f125b1748357db6758129cc1e3ad68696.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.9125,
+     37.6471
+    ],
+    [
+     -121.9515,
+     37.9195
+    ]
+   ],
+   "lon": -121.932,
+   "lat": 37.783,
    "countries": [
     "US"
    ]
@@ -2000,6 +2000,80 @@
    ]
   },
   {
+   "id": "KKEY.MA.W.0390.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms"
+   ],
+   "counties": [
+    "77033",
+    "77035"
+   ],
+   "sent": "2026-11-18T11:09:00Z",
+   "onset": "2026-11-18T11:09:00Z",
+   "ends": "2026-11-18T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6da377c0ff6b8e4ba35a79ec050a3c995faac481.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.53,
+       24.8
+      ],
+      [
+       -81.58,
+       24.72
+      ],
+      [
+       -81.59,
+       24.72
+      ],
+      [
+       -81.62,
+       24.67
+      ],
+      [
+       -81.64,
+       24.64
+      ],
+      [
+       -81.67,
+       24.67
+      ],
+      [
+       -81.68,
+       24.67
+      ],
+      [
+       -81.83,
+       24.8
+      ],
+      [
+       -81.67,
+       24.88
+      ],
+      [
+       -81.53,
+       24.8
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.634,
+   "lat": 24.737,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.9410.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2130,32 +2204,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7121.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta from 15 to 80 NM"
-   ],
-   "counties": [
-    "58764"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-17T14:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7120.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2172,6 +2220,32 @@
    "onset": "2026-11-18T02:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7121.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta from 15 to 80 NM"
+   ],
+   "counties": [
+    "58764"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-17T14:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
    "geometry": null,
    "vtec": true,
    "points": [],
