@@ -63,87 +63,6 @@
    ]
   },
   {
-   "id": "KCYS.FW.A.0025.2026",
-   "event": "Fire Weather Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "Lower North Platte River Basin/Scottsbluff National Monument",
-    "Lodgepole Creek/Southern Nebraska Panhandle",
-    "Laramie Foothills and High Plains",
-    "Laramie East High Plains",
-    "Bordeaux/Chugwater/Wheatland",
-    "Goshen/Middle-Lower North Platte River Basin"
-   ],
-   "counties": [
-    "31007",
-    "31033",
-    "31105",
-    "31123",
-    "31157",
-    "31165",
-    "56001",
-    "56015",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-17T20:41:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8951e37032f001ab274f920255fc2ab6e1e66b88.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.7263,
-     41.5397
-    ],
-    [
-     -103.0119,
-     41.2142
-    ],
-    [
-     -103.7032,
-     41.1993
-    ],
-    [
-     -102.9906,
-     41.7322
-    ],
-    [
-     -103.703,
-     41.8505
-    ],
-    [
-     -103.7322,
-     42.4707
-    ],
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -104.3535,
-     42.0895
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -104.056,
-   "lat": 41.719,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -1418,37 +1337,6 @@
    ]
   },
   {
-   "id": "KBIS.HW.W.0005.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Bismarck ND",
-   "areas": [
-    "Bowman"
-   ],
-   "counties": [
-    "38011"
-   ],
-   "sent": "2026-11-18T07:04:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd398965e70376a1c6152465d9edb0996e4c3c93.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5059,
-     46.1101
-    ]
-   ],
-   "lon": -103.506,
-   "lat": 46.11,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCYS.HW.W.0042.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1542,6 +1430,37 @@
    ],
    "lon": -104.46,
    "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-18T09:33:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e0d292b1111bcfce89df5c7ce7df33fe4f53fa3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -2000,55 +1919,82 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0386.2026",
-   "event": "Special Marine Warning",
+   "id": "KCYS.FW.W.0047.2026",
+   "event": "Red Flag Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Key West FL",
+   "sender": "NWS Cheyenne WY",
    "areas": [
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+    "Lower North Platte River Basin/Scottsbluff National Monument",
+    "Lodgepole Creek/Southern Nebraska Panhandle",
+    "Laramie Foothills and High Plains",
+    "Laramie East High Plains",
+    "Bordeaux/Chugwater/Wheatland",
+    "Goshen/Middle-Lower North Platte River Basin"
    ],
    "counties": [
-    "77054",
-    "77074"
+    "31007",
+    "31033",
+    "31105",
+    "31123",
+    "31157",
+    "31165",
+    "56001",
+    "56015",
+    "56021",
+    "56031"
    ],
-   "sent": "2026-11-18T08:26:00Z",
-   "onset": "2026-11-18T08:26:00Z",
-   "ends": "2026-11-18T09:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43ab10138e654dfb3107ea4232f1166e90079fe9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.34,
-       24.02
-      ],
-      [
-       -82.42,
-       24.18
-      ],
-      [
-       -82.25,
-       24.31
-      ],
-      [
-       -82.13,
-       24.06
-      ],
-      [
-       -82.34,
-       24.02
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-18T09:32:00Z",
+   "onset": "2026-11-18T16:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.334b0d9984410e01afdb396e2347550d8b4957ba.001.2",
+   "geometry": null,
    "vtec": true,
-   "points": [],
-   "lon": -82.296,
-   "lat": 24.118,
+   "points": [
+    [
+     -103.7263,
+     41.5397
+    ],
+    [
+     -103.0119,
+     41.2142
+    ],
+    [
+     -103.7032,
+     41.1993
+    ],
+    [
+     -102.9906,
+     41.7322
+    ],
+    [
+     -103.703,
+     41.8505
+    ],
+    [
+     -103.7322,
+     42.4707
+    ],
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -104.3535,
+     42.0895
+    ],
+    [
+     -104.6604,
+     41.2928
+    ],
+    [
+     -104.954,
+     42.1316
+    ]
+   ],
+   "lon": -104.056,
+   "lat": 41.719,
    "countries": [
     "US"
    ]
@@ -2105,6 +2051,58 @@
    "points": [],
    "lon": -82.136,
    "lat": 24.782,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0388.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+   ],
+   "counties": [
+    "77074"
+   ],
+   "sent": "2026-11-18T09:23:00Z",
+   "onset": "2026-11-18T09:23:00Z",
+   "ends": "2026-11-18T10:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c92839ee23a76c06f770e6722927934719f1e2b7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.43,
+       23.99
+      ],
+      [
+       -82.2,
+       24.11
+      ],
+      [
+       -81.98,
+       23.9
+      ],
+      [
+       -82.22,
+       23.71
+      ],
+      [
+       -82.43,
+       23.99
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.252,
+   "lat": 23.94,
    "countries": [
     "US"
    ]
@@ -2978,118 +2976,6 @@
    ]
   },
   {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Western Shasta County Mountains Above 3000 ft",
-    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
-    "Tehama County Coast Range Above 3000 ft",
-    "Glenn and Colusa County Coast Range Above 3000 ft",
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06011",
-    "06017",
-    "06021",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-17T19:10:00Z",
-   "onset": "2026-11-18T00:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edcbbce213020c2ffeb2ce2468a98d091b1c09ef.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -122.2376,
-     39.1777
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -122.4017,
-     39.6025
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -121.032,
-   "lat": 39.336,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.WS.W.0027.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -3313,6 +3199,118 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Western Shasta County Mountains Above 3000 ft",
+    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
+    "Tehama County Coast Range Above 3000 ft",
+    "Glenn and Colusa County Coast Range Above 3000 ft",
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06011",
+    "06017",
+    "06021",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-18T09:16:00Z",
+   "onset": "2026-11-18T09:16:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b05dae0d0f3958db137c602b2111cba74fb0b98.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -122.2376,
+     39.1777
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -122.4017,
+     39.6025
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -121.032,
+   "lat": 39.336,
    "countries": [
     "US"
    ]
