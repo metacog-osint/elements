@@ -1847,6 +1847,7 @@
    "certainty": "Likely",
    "sender": "NWS Sioux Falls SD",
    "areas": [
+    "Jerauld",
     "Gregory",
     "Brule",
     "Aurora",
@@ -1854,8 +1855,7 @@
     "Charles Mix",
     "Douglas",
     "Hutchinson",
-    "Bon Homme",
-    "Jerauld"
+    "Bon Homme"
    ],
    "counties": [
     "46003",
@@ -1871,7 +1871,7 @@
    "sent": "2026-11-18T08:37:00Z",
    "onset": "2026-11-18T18:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ce97c860477cd2d92a417fee279abf4aadae3a9.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ce97c860477cd2d92a417fee279abf4aadae3a9.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2000,62 +2000,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0387.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
-   ],
-   "counties": [
-    "77033",
-    "77035",
-    "77044"
-   ],
-   "sent": "2026-11-18T09:02:00Z",
-   "onset": "2026-11-18T09:02:00Z",
-   "ends": "2026-11-18T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f229ab88b8fddc6d42ec5989faa575a79f89095d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82,
-       24.98
-      ],
-      [
-       -82.05,
-       24.47
-      ],
-      [
-       -82.34,
-       24.48
-      ],
-      [
-       -82.29,
-       25
-      ],
-      [
-       -82,
-       24.98
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.136,
-   "lat": 24.782,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.MA.W.0388.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2068,21 +2012,21 @@
    "counties": [
     "77074"
    ],
-   "sent": "2026-11-18T09:23:00Z",
-   "onset": "2026-11-18T09:23:00Z",
+   "sent": "2026-11-18T09:50:00Z",
+   "onset": "2026-11-18T09:50:00Z",
    "ends": "2026-11-18T10:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c92839ee23a76c06f770e6722927934719f1e2b7.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83b16295ec4bef1d966d89f253da1b8f9d657c80.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.43,
-       23.99
+       -82.36,
+       23.9
       ],
       [
-       -82.2,
-       24.11
+       -82.12,
+       24.03
       ],
       [
        -81.98,
@@ -2093,16 +2037,72 @@
        23.71
       ],
       [
-       -82.43,
-       23.99
+       -82.36,
+       23.9
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.252,
-   "lat": 23.94,
+   "lon": -82.208,
+   "lat": 23.888,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0389.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+   ],
+   "counties": [
+    "77074"
+   ],
+   "sent": "2026-11-18T10:00:00Z",
+   "onset": "2026-11-18T10:00:00Z",
+   "ends": "2026-11-18T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70c5a5fc38a103d2fcb9f6803822727dea3db094.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.09,
+       23.52
+      ],
+      [
+       -82.22,
+       23.71
+      ],
+      [
+       -81.98,
+       23.91
+      ],
+      [
+       -81.61,
+       23.56
+      ],
+      [
+       -81.85,
+       23.52
+      ],
+      [
+       -82.09,
+       23.52
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.973,
+   "lat": 23.623,
    "countries": [
     "US"
    ]
@@ -2238,32 +2238,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7120.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta and Etolin Strait out to 15 NM"
-   ],
-   "counties": [
-    "58763"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-18T02:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7121.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2280,6 +2254,32 @@
    "onset": "2026-11-17T14:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7120.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta and Etolin Strait out to 15 NM"
+   ],
+   "counties": [
+    "58763"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3074,37 +3074,6 @@
    ],
    "lon": -122.533,
    "lat": 41.588,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.WS.W.0011.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta Coast and Nunivak Island"
-   ],
-   "counties": [
-    "02050"
-   ],
-   "sent": "2026-11-18T06:54:00Z",
-   "onset": "2026-11-18T06:54:00Z",
-   "ends": "2026-11-18T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1bb194252455c66e29e748ba7b943d712b78c08.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -160.1526,
-     60.9291
-    ]
-   ],
-   "lon": -160.153,
-   "lat": 60.929,
    "countries": [
     "US"
    ]
