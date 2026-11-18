@@ -63,79 +63,6 @@
    ]
   },
   {
-   "id": "KFSD.FW.A.0011.2026",
-   "event": "Fire Weather Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Sioux Falls SD",
-   "areas": [
-    "Gregory",
-    "Brule",
-    "Aurora",
-    "Davison",
-    "Charles Mix",
-    "Douglas",
-    "Hutchinson",
-    "Bon Homme"
-   ],
-   "counties": [
-    "46003",
-    "46009",
-    "46015",
-    "46023",
-    "46035",
-    "46043",
-    "46053",
-    "46067"
-   ],
-   "sent": "2026-11-17T19:10:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9605dcbab29614008464b477d513392746662bf8.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.5776,
-     43.7247
-    ],
-    [
-     -97.8842,
-     42.9857
-    ],
-    [
-     -99.0929,
-     43.7299
-    ],
-    [
-     -98.5951,
-     43.2062
-    ],
-    [
-     -98.1559,
-     43.6804
-    ],
-    [
-     -98.3584,
-     43.3915
-    ],
-    [
-     -99.2066,
-     43.1751
-    ],
-    [
-     -97.7494,
-     43.3367
-    ]
-   ],
-   "lon": -98.453,
-   "lat": 43.404,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBOU.FW.A.0044.2026",
    "event": "Fire Weather Watch",
    "severity": "Severe",
@@ -292,190 +219,6 @@
    ],
    "lon": -104.056,
    "lat": 41.719,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFGZ.FF.W.0220.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Flagstaff AZ",
-   "areas": [
-    "Yavapai, AZ"
-   ],
-   "counties": [
-    "04025"
-   ],
-   "sent": "2026-11-18T00:20:00Z",
-   "onset": "2026-11-18T00:20:00Z",
-   "ends": "2026-11-18T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe10e3626a6407ddf4cde773cba8b3aca0a385e2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -111.84,
-       34.82
-      ],
-      [
-       -111.91,
-       34.8
-      ],
-      [
-       -111.91,
-       34.77
-      ],
-      [
-       -111.9,
-       34.76
-      ],
-      [
-       -111.93,
-       34.74
-      ],
-      [
-       -111.93,
-       34.71
-      ],
-      [
-       -111.92,
-       34.7
-      ],
-      [
-       -111.93,
-       34.69
-      ],
-      [
-       -111.95,
-       34.69
-      ],
-      [
-       -111.96,
-       34.68
-      ],
-      [
-       -111.95,
-       34.66
-      ],
-      [
-       -111.93,
-       34.66
-      ],
-      [
-       -111.91,
-       34.68
-      ],
-      [
-       -111.89,
-       34.68
-      ],
-      [
-       -111.9,
-       34.73
-      ],
-      [
-       -111.89,
-       34.73
-      ],
-      [
-       -111.87,
-       34.76
-      ],
-      [
-       -111.88,
-       34.77
-      ],
-      [
-       -111.87,
-       34.79
-      ],
-      [
-       -111.84,
-       34.8
-      ],
-      [
-       -111.84,
-       34.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.5772,
-     34.6311
-    ]
-   ],
-   "lon": -111.902,
-   "lat": 34.735,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.FF.W.0015.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Broward, FL",
-    "Miami-Dade, FL"
-   ],
-   "counties": [
-    "12011",
-    "12086"
-   ],
-   "sent": "2026-11-18T01:18:00Z",
-   "onset": "2026-11-18T01:18:00Z",
-   "ends": "2026-11-18T03:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b07dd3a456801c6d04b92848f222a97470e0a168.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.19,
-       25.91
-      ],
-      [
-       -80.21,
-       26.01
-      ],
-      [
-       -80.11,
-       26.01
-      ],
-      [
-       -80.1,
-       25.91
-      ],
-      [
-       -80.19,
-       25.91
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ]
-   ],
-   "lon": -80.16,
-   "lat": 25.95,
    "countries": [
     "US"
    ]
@@ -708,6 +451,127 @@
    ],
    "lon": -80.232,
    "lat": 26.248,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFGZ.FF.W.0220.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-18T03:14:00Z",
+   "onset": "2026-11-18T03:14:00Z",
+   "ends": "2026-11-18T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25b11b5c2c6a7881a3d3a2e85fff05f0aa60e5ad.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.91,
+       34.8
+      ],
+      [
+       -111.91,
+       34.77
+      ],
+      [
+       -111.9,
+       34.76
+      ],
+      [
+       -111.93,
+       34.74
+      ],
+      [
+       -111.93,
+       34.71
+      ],
+      [
+       -111.92,
+       34.7
+      ],
+      [
+       -111.93,
+       34.69
+      ],
+      [
+       -111.95,
+       34.69
+      ],
+      [
+       -111.96,
+       34.68
+      ],
+      [
+       -111.95,
+       34.66
+      ],
+      [
+       -111.93,
+       34.66
+      ],
+      [
+       -111.91,
+       34.68
+      ],
+      [
+       -111.89,
+       34.68
+      ],
+      [
+       -111.9,
+       34.73
+      ],
+      [
+       -111.89,
+       34.73
+      ],
+      [
+       -111.87,
+       34.76
+      ],
+      [
+       -111.88,
+       34.77
+      ],
+      [
+       -111.87,
+       34.79
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.902,
+   "lat": 34.735,
    "countries": [
     "US"
    ]
@@ -1904,14 +1768,14 @@
    "certainty": "Likely",
    "sender": "NWS Rapid City SD",
    "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
     "Western Fall River",
     "Northern Oglala Lakota",
     "Eastern Fall River",
-    "Southern Oglala Lakota"
+    "Southern Oglala Lakota",
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
    ],
    "counties": [
     "46019",
@@ -1922,9 +1786,9 @@
     "46105"
    ],
    "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T18:00:00Z",
+   "onset": "2026-11-18T19:00:00Z",
    "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2343,6 +2207,141 @@
    ]
   },
   {
+   "id": "KBOU.FW.W.0057.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "Jefferson and West Douglas Counties Above  6000 Feet/Gilpin/Clear Creek/Northeast Park Counties Below 9000 Feet",
+    "Elbert/Central and East Douglas Counties Above 6000 Feet"
+   ],
+   "counties": [
+    "08005",
+    "08019",
+    "08035",
+    "08039",
+    "08047",
+    "08059",
+    "08093"
+   ],
+   "sent": "2026-11-17T19:46:00Z",
+   "onset": "2026-11-18T15:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.382bc923e46a867f01f5d73980c813cffc84cd48.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3317,
+     39.6446
+    ],
+    [
+     -105.6708,
+     39.6894
+    ],
+    [
+     -104.926,
+     39.3254
+    ],
+    [
+     -104.1141,
+     39.3152
+    ],
+    [
+     -105.5289,
+     39.8612
+    ],
+    [
+     -105.2455,
+     39.5795
+    ],
+    [
+     -105.7176,
+     39.1189
+    ]
+   ],
+   "lon": -105.076,
+   "lat": 39.505,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFSD.FW.W.0015.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sioux Falls SD",
+   "areas": [
+    "Gregory",
+    "Brule",
+    "Aurora",
+    "Davison",
+    "Charles Mix",
+    "Douglas",
+    "Hutchinson",
+    "Bon Homme"
+   ],
+   "counties": [
+    "46003",
+    "46009",
+    "46015",
+    "46023",
+    "46035",
+    "46043",
+    "46053",
+    "46067"
+   ],
+   "sent": "2026-11-18T03:16:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d94008f6b2ce00ba80f89714ebb43c8c9132c8b.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.5776,
+     43.7247
+    ],
+    [
+     -97.8842,
+     42.9857
+    ],
+    [
+     -99.0929,
+     43.7299
+    ],
+    [
+     -98.5951,
+     43.2062
+    ],
+    [
+     -98.1559,
+     43.6804
+    ],
+    [
+     -98.3584,
+     43.3915
+    ],
+    [
+     -99.2066,
+     43.1751
+    ],
+    [
+     -97.7494,
+     43.3367
+    ]
+   ],
+   "lon": -98.453,
+   "lat": 43.404,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLBF.FW.W.0044.2026",
    "event": "Red Flag Warning",
    "severity": "Severe",
@@ -2385,10 +2384,10 @@
     "31171",
     "31183"
    ],
-   "sent": "2026-11-17T18:40:00Z",
+   "sent": "2026-11-18T03:23:00Z",
    "onset": "2026-11-18T17:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe495178e774565be0b6c985892faa41a1abf3b7.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec1b9b4ec541f007a30162e492c9095d30d45fbe.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2504,68 +2503,6 @@
    ]
   },
   {
-   "id": "KBOU.FW.W.0057.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Denver CO",
-   "areas": [
-    "Jefferson and West Douglas Counties Above  6000 Feet/Gilpin/Clear Creek/Northeast Park Counties Below 9000 Feet",
-    "Elbert/Central and East Douglas Counties Above 6000 Feet"
-   ],
-   "counties": [
-    "08005",
-    "08019",
-    "08035",
-    "08039",
-    "08047",
-    "08059",
-    "08093"
-   ],
-   "sent": "2026-11-17T19:46:00Z",
-   "onset": "2026-11-18T15:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.382bc923e46a867f01f5d73980c813cffc84cd48.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.3317,
-     39.6446
-    ],
-    [
-     -105.6708,
-     39.6894
-    ],
-    [
-     -104.926,
-     39.3254
-    ],
-    [
-     -104.1141,
-     39.3152
-    ],
-    [
-     -105.5289,
-     39.8612
-    ],
-    [
-     -105.2455,
-     39.5795
-    ],
-    [
-     -105.7176,
-     39.1189
-    ]
-   ],
-   "lon": -105.076,
-   "lat": 39.505,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.MA.W.0379.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2580,10 +2517,10 @@
     "77044",
     "77054"
    ],
-   "sent": "2026-11-18T03:02:00Z",
-   "onset": "2026-11-18T03:02:00Z",
+   "sent": "2026-11-18T03:28:00Z",
+   "onset": "2026-11-18T03:28:00Z",
    "ends": "2026-11-18T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14da46489d3277e05be7ef91334520a440001f12.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2647ebeee159c8a476d229710ac3aed415f1d810.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2615,60 +2552,6 @@
    "points": [],
    "lon": -82.326,
    "lat": 24.4,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0378.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
-   ],
-   "counties": [
-    "77054",
-    "77074"
-   ],
-   "sent": "2026-11-18T03:03:00Z",
-   "onset": "2026-11-18T03:03:00Z",
-   "ends": "2026-11-18T03:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d76e0bc7d63f62f1fd7e28137f0828d504fa455.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.76,
-       23.96
-      ],
-      [
-       -81.94,
-       23.89
-      ],
-      [
-       -82.21,
-       24.33
-      ],
-      [
-       -81.93,
-       24.44
-      ],
-      [
-       -81.76,
-       23.96
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.92,
-   "lat": 24.116,
    "countries": [
     "US"
    ]
