@@ -1,6 +1,38 @@
 {
  "records": [
   {
+   "id": "20261118_0000048",
+   "mag": 5.8,
+   "magtype": "mw",
+   "time": "2026-11-18T03:42:34Z",
+   "updated": "2026-11-18T03:56:03Z",
+   "region": "Eastern New Guinea Reg., P.N.G.",
+   "depth_km": 52.3,
+   "authority": "NEIC",
+   "lat": -5.701,
+   "lon": 146.548,
+   "countries": [
+    "PG"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000048"
+  },
+  {
+   "id": "20261118_0000046",
+   "mag": 4.8,
+   "magtype": "mb",
+   "time": "2026-11-18T03:23:58Z",
+   "updated": "2026-11-18T03:42:42Z",
+   "region": "Near N Coast Of Papua, Indonesia",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": -2.991,
+   "lon": 136.658,
+   "countries": [
+    "ID"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000046"
+  },
+  {
    "id": "20261118_0000028",
    "mag": 5.8,
    "magtype": "mw",
@@ -34,13 +66,13 @@
    "id": "20261118_0000021",
    "mag": 4.7,
    "magtype": "m",
-   "time": "2026-11-18T00:46:32Z",
-   "updated": "2026-11-18T02:10:57Z",
+   "time": "2026-11-18T00:46:37Z",
+   "updated": "2026-11-18T03:39:39Z",
    "region": "Tajikistan",
-   "depth_km": 8.0,
-   "authority": "EMSC",
-   "lat": 39.204,
-   "lon": 71.671,
+   "depth_km": 50.0,
+   "authority": "GSRAS",
+   "lat": 39.3,
+   "lon": 71.46,
    "countries": [
     "TJ"
    ],
@@ -1707,20 +1739,6 @@
    "lon": -169.688,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000050"
-  },
-  {
-   "id": "20261111_0000046",
-   "mag": 4.6,
-   "magtype": "mb",
-   "time": "2026-11-11T03:56:52Z",
-   "updated": "2026-11-11T05:38:12Z",
-   "region": "Off East Coast Of Honshu, Japan",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": 36.126,
-   "lon": 142.181,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000046"
   }
  ]
 }
