@@ -668,6 +668,12 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -677,12 +683,6 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -930,64 +930,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KUNR.HW.W.0010.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Northern Black Hills",
-    "Northern Foothills",
-    "Rapid City",
-    "Southern Foothills",
-    "Central Black Hills",
-    "Southern Black Hills",
-    "Sturgis/Piedmont Foothills",
-    "Hermosa Foothills"
-   ],
-   "counties": [
-    "46033",
-    "46047",
-    "46081",
-    "46093",
-    "46103"
-   ],
-   "sent": "2026-11-18T05:08:00Z",
-   "onset": "2026-11-18T09:00:00Z",
-   "ends": "2026-11-18T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e03289b1debf4ec7819563932c56670462c2f004.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.4622,
-     43.6849
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -103.8064,
-     44.3485
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.8238,
-     44.0023
-    ]
-   ],
-   "lon": -103.264,
-   "lat": 43.973,
    "countries": [
     "US"
    ]
@@ -1250,37 +1192,6 @@
    ]
   },
   {
-   "id": "KBIS.HW.W.0005.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Bismarck ND",
-   "areas": [
-    "Bowman"
-   ],
-   "counties": [
-    "38011"
-   ],
-   "sent": "2026-11-18T13:02:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.961702c9b743fe8dc78394d72a041a40d34ce074.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5059,
-     46.1101
-    ]
-   ],
-   "lon": -103.506,
-   "lat": 46.11,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.HW.W.0015.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1368,6 +1279,37 @@
    ],
    "lon": -105.559,
    "lat": 41.956,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-18T15:58:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.569026f03bb4790d204231ee7fdebc38b43b324b.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -1970,6 +1912,96 @@
    "points": [],
    "lon": -79.406,
    "lat": 26.107,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0366.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75630",
+    "75651"
+   ],
+   "sent": "2026-11-18T15:54:00Z",
+   "onset": "2026-11-18T15:54:00Z",
+   "ends": "2026-11-18T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96a14fccbeb20a86c72cdcc6532d8dcaf42d9e9e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.39,
+       25.3
+      ],
+      [
+       -80.33,
+       25.35
+      ],
+      [
+       -80.33,
+       25.4
+      ],
+      [
+       -80.3,
+       25.62
+      ],
+      [
+       -80.2,
+       25.75
+      ],
+      [
+       -80.13,
+       25.93
+      ],
+      [
+       -80.22,
+       25.3
+      ],
+      [
+       -80.26,
+       25.33
+      ],
+      [
+       -80.25,
+       25.34
+      ],
+      [
+       -80.27,
+       25.35
+      ],
+      [
+       -80.27,
+       25.33
+      ],
+      [
+       -80.3,
+       25.33
+      ],
+      [
+       -80.31,
+       25.3
+      ],
+      [
+       -80.39,
+       25.3
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.282,
+   "lat": 25.424,
    "countries": [
     "US"
    ]
@@ -2648,8 +2680,8 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Mono",
     "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Mono",
     "Greater Lake Tahoe Area",
     "Greater Lake Tahoe Area"
    ],
@@ -2669,7 +2701,7 @@
    "sent": "2026-11-18T10:58:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
