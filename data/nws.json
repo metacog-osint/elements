@@ -79,10 +79,10 @@
     "06055",
     "06097"
    ],
-   "sent": "2026-11-17T19:48:00Z",
-   "onset": "2026-11-18T08:00:00Z",
+   "sent": "2026-11-18T12:46:00Z",
+   "onset": "2026-11-18T12:46:00Z",
    "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0282d7421866c30a1f4de4aabd3bc424571443fb.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.507de19c347e3ab8c3e417493c677a57f68a1946.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -405,6 +405,63 @@
    ],
    "lon": -81.536,
    "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.FA.W.0004.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Monroe, FL"
+   ],
+   "counties": [
+    "12087"
+   ],
+   "sent": "2026-11-18T12:36:00Z",
+   "onset": "2026-11-18T12:36:00Z",
+   "ends": "2026-11-18T15:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1a5b06f689886a6456c8447a0e76311cd67dd16.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.85,
+       24.61
+      ],
+      [
+       -81.5,
+       24.73
+      ],
+      [
+       -81.44,
+       24.61
+      ],
+      [
+       -81.81,
+       24.51
+      ],
+      [
+       -81.85,
+       24.61
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.0226,
+     25.5861
+    ]
+   ],
+   "lon": -81.69,
+   "lat": 24.614,
    "countries": [
     "US"
    ]
@@ -1392,37 +1449,6 @@
    ]
   },
   {
-   "id": "KBIS.HW.W.0005.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Bismarck ND",
-   "areas": [
-    "Bowman"
-   ],
-   "counties": [
-    "38011"
-   ],
-   "sent": "2026-11-18T12:11:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca6453b70ca98d12158ccae88ed270ee4a88bbde.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5059,
-     46.1101
-    ]
-   ],
-   "lon": -103.506,
-   "lat": 46.11,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRIW.HW.W.0016.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1461,6 +1487,37 @@
    ],
    "lon": -108.084,
    "lat": 42.564,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBIS.HW.W.0005.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Bismarck ND",
+   "areas": [
+    "Bowman"
+   ],
+   "counties": [
+    "38011"
+   ],
+   "sent": "2026-11-18T13:02:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.961702c9b743fe8dc78394d72a041a40d34ce074.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5059,
+     46.1101
+    ]
+   ],
+   "lon": -103.506,
+   "lat": 46.11,
    "countries": [
     "US"
    ]
@@ -2000,102 +2057,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0391.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
-   ],
-   "counties": [
-    "77035",
-    "77044",
-    "77054"
-   ],
-   "sent": "2026-11-18T12:11:00Z",
-   "onset": "2026-11-18T12:11:00Z",
-   "ends": "2026-11-18T13:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f78611eb72748c5f695231e061d56d47c46a5d6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.76,
-       24.45
-      ],
-      [
-       -81.77,
-       24.55
-      ],
-      [
-       -81.75,
-       24.55
-      ],
-      [
-       -81.76,
-       24.56
-      ],
-      [
-       -81.73,
-       24.57
-      ],
-      [
-       -81.74,
-       24.58
-      ],
-      [
-       -81.73,
-       24.58
-      ],
-      [
-       -81.74,
-       24.59
-      ],
-      [
-       -81.75,
-       24.57
-      ],
-      [
-       -81.77,
-       24.57
-      ],
-      [
-       -81.77,
-       24.58
-      ],
-      [
-       -81.78,
-       24.65
-      ],
-      [
-       -81.62,
-       24.66
-      ],
-      [
-       -81.61,
-       24.44
-      ],
-      [
-       -81.76,
-       24.45
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.736,
-   "lat": 24.557,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.MA.W.0392.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -2108,10 +2069,10 @@
    "counties": [
     "77074"
    ],
-   "sent": "2026-11-18T12:19:00Z",
-   "onset": "2026-11-18T12:19:00Z",
+   "sent": "2026-11-18T13:03:00Z",
+   "onset": "2026-11-18T13:03:00Z",
    "ends": "2026-11-18T13:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e56c3efa6a60c851e8d3f8cfc90a3706cd60ecd8.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e450273864efbd720a1e7257e12950fafe841336.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2158,55 +2119,61 @@
     "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
     "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
     "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
     "Hawk Channel from Craig Key to west end of Seven Mile Bridge out to the reef"
    ],
    "counties": [
     "77032",
     "77033",
     "77035",
-    "77042",
     "77043"
    ],
-   "sent": "2026-11-18T12:33:00Z",
-   "onset": "2026-11-18T12:33:00Z",
+   "sent": "2026-11-18T13:04:00Z",
+   "onset": "2026-11-18T13:04:00Z",
    "ends": "2026-11-18T13:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.378dac112c291f020b3e49dea3d198229b836df0.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ad37e3d8690f9386ac6fd115ed89ae5697419da.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.73,
-       24.8
-      ],
-      [
-       -81.12,
-       24.77
-      ],
-      [
-       -81.49,
+       -81.17,
        25.11
       ],
       [
-       -81.45,
+       -80.82,
+       24.82
+      ],
+      [
+       -80.83,
+       24.81
+      ],
+      [
+       -80.81,
+       24.81
+      ],
+      [
+       -80.79,
+       24.8
+      ],
+      [
+       -81.11,
+       24.77
+      ],
+      [
+       -81.48,
        25.1
       ],
       [
-       -81.1,
-       25.12
-      ],
-      [
-       -80.73,
-       24.8
+       -81.17,
+       25.11
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -81.103,
-   "lat": 24.95,
+   "lon": -81.023,
+   "lat": 24.916,
    "countries": [
     "US"
    ]
@@ -3353,8 +3320,8 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Lassen-Eastern Plumas-Eastern Sierra Counties",
     "Mono",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
     "Greater Lake Tahoe Area",
     "Greater Lake Tahoe Area"
    ],
@@ -3374,7 +3341,7 @@
    "sent": "2026-11-18T10:58:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
