@@ -1,6 +1,23 @@
 {
  "records": [
   {
+   "id": "us7000tz1n",
+   "mag": 5.3,
+   "place": "4 km NNW of Tsunagi, Japan",
+   "time": "2026-11-18T17:22:23Z",
+   "updated": "2026-11-18T17:49:48Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 432,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
+   "depth_km": 10.0,
+   "lon": 130.461,
+   "lat": 32.278,
+   "countries": [
+    "JP"
+   ]
+  },
+  {
    "id": "us7000tz1a",
    "mag": 5.3,
    "place": "149 km SSW of Merizo Village, Guam",
@@ -1612,21 +1629,6 @@
    "depth_km": 18.8,
    "lon": -74.213,
    "lat": -41.545,
-   "countries": []
-  },
-  {
-   "id": "us7000txm8",
-   "mag": 5.1,
-   "place": "81 km W of Panguna, Papua New Guinea",
-   "time": "2026-11-11T17:38:24Z",
-   "updated": "2026-11-13T15:20:08Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 400,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
-   "depth_km": 74.4,
-   "lon": 154.751,
-   "lat": -6.329,
    "countries": []
   }
  ]
