@@ -418,63 +418,6 @@
    ]
   },
   {
-   "id": "KMFL.FF.W.0014.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Broward, FL"
-   ],
-   "counties": [
-    "12011"
-   ],
-   "sent": "2026-11-18T00:53:00Z",
-   "onset": "2026-11-18T00:53:00Z",
-   "ends": "2026-11-18T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b25ad5e1b87f7d678f16e2bcdc2860569e0f02a3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.16,
-       26.25
-      ],
-      [
-       -80.22,
-       26.16
-      ],
-      [
-       -80.36,
-       26.26
-      ],
-      [
-       -80.26,
-       26.32
-      ],
-      [
-       -80.16,
-       26.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ]
-   ],
-   "lon": -80.232,
-   "lat": 26.248,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FF.W.0015.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -651,6 +594,120 @@
    ],
    "lon": -80.263,
    "lat": 26.128,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FF.W.0018.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL"
+   ],
+   "counties": [
+    "12011"
+   ],
+   "sent": "2026-11-18T02:49:00Z",
+   "onset": "2026-11-18T02:49:00Z",
+   "ends": "2026-11-18T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5574d4811b29f2f60371ca9ebaac2711999bfe6e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.2,
+       25.97
+      ],
+      [
+       -80.3,
+       25.97
+      ],
+      [
+       -80.31,
+       26.08
+      ],
+      [
+       -80.21,
+       26.01
+      ],
+      [
+       -80.2,
+       25.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ]
+   ],
+   "lon": -80.244,
+   "lat": 26.0,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FF.W.0014.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL"
+   ],
+   "counties": [
+    "12011"
+   ],
+   "sent": "2026-11-18T02:52:00Z",
+   "onset": "2026-11-18T02:52:00Z",
+   "ends": "2026-11-18T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d98e30a98f807ca258ea5c85e4981e70b1bd98ac.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.16,
+       26.25
+      ],
+      [
+       -80.26,
+       26.32
+      ],
+      [
+       -80.36,
+       26.26
+      ],
+      [
+       -80.22,
+       26.16
+      ],
+      [
+       -80.16,
+       26.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ]
+   ],
+   "lon": -80.232,
+   "lat": 26.248,
    "countries": [
     "US"
    ]
@@ -1448,12 +1505,6 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -1463,6 +1514,12 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1782,43 +1839,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0017.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Fallon",
-    "Carter"
-   ],
-   "counties": [
-    "30011",
-    "30025"
-   ],
-   "sent": "2026-11-17T19:08:00Z",
-   "onset": "2026-11-18T16:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fec1a9adbcf18aa7be3d9a9962bdafdb39f47a01.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.5153,
-     45.5168
-    ],
-    [
-     -104.4057,
-     46.3182
-    ]
-   ],
-   "lon": -104.46,
-   "lat": 45.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KUNR.HW.W.0010.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1884,14 +1904,14 @@
    "certainty": "Likely",
    "sender": "NWS Rapid City SD",
    "areas": [
-    "Western Fall River",
-    "Northern Oglala Lakota",
-    "Eastern Fall River",
-    "Southern Oglala Lakota",
     "Harding",
     "Butte",
     "Northern Meade Co Plains",
-    "Southern Perkins"
+    "Southern Perkins",
+    "Western Fall River",
+    "Northern Oglala Lakota",
+    "Eastern Fall River",
+    "Southern Oglala Lakota"
    ],
    "counties": [
     "46019",
@@ -1902,9 +1922,9 @@
     "46105"
    ],
    "sent": "2026-11-17T19:17:00Z",
-   "onset": "2026-11-18T19:00:00Z",
+   "onset": "2026-11-18T18:00:00Z",
    "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c384f7d2e94f00cf073c0df2df37e4796601632.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2249,6 +2269,43 @@
    ]
   },
   {
+   "id": "KBYZ.HW.W.0017.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Fallon",
+    "Carter"
+   ],
+   "counties": [
+    "30011",
+    "30025"
+   ],
+   "sent": "2026-11-18T02:37:00Z",
+   "onset": "2026-11-18T16:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.256b13d60ebedb4dcdf3e6559513a1377b245d8f.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.5153,
+     45.5168
+    ],
+    [
+     -104.4057,
+     46.3182
+    ]
+   ],
+   "lon": -104.46,
+   "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0043.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2509,63 +2566,55 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0377.2026",
+   "id": "KKEY.MA.W.0379.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
     "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
     "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
    ],
    "counties": [
-    "77033",
-    "77035",
     "77044",
     "77054"
    ],
-   "sent": "2026-11-18T01:59:00Z",
-   "onset": "2026-11-18T01:59:00Z",
-   "ends": "2026-11-18T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf30c502973cd472bd62a701784d18e39012cc11.001.1",
+   "sent": "2026-11-18T03:02:00Z",
+   "onset": "2026-11-18T03:02:00Z",
+   "ends": "2026-11-18T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14da46489d3277e05be7ef91334520a440001f12.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.46,
-       24.22
+       -82.45,
+       24.45
       ],
       [
-       -82.47,
-       24.53
+       -82.28,
+       24.54
       ],
       [
-       -82.18,
-       24.81
+       -82.1,
+       24.35
       ],
       [
-       -81.89,
-       24.65
+       -82.35,
+       24.21
       ],
       [
-       -82.34,
-       24.22
-      ],
-      [
-       -82.46,
-       24.22
+       -82.45,
+       24.45
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.3,
-   "lat": 24.442,
+   "lon": -82.326,
+   "lat": 24.4,
    "countries": [
     "US"
    ]
@@ -2585,10 +2634,10 @@
     "77054",
     "77074"
    ],
-   "sent": "2026-11-18T02:29:00Z",
-   "onset": "2026-11-18T02:29:00Z",
+   "sent": "2026-11-18T03:03:00Z",
+   "onset": "2026-11-18T03:03:00Z",
    "ends": "2026-11-18T03:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6db5eb16113f243de4d452c9e1d5e9f0a7ee7edf.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d76e0bc7d63f62f1fd7e28137f0828d504fa455.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
