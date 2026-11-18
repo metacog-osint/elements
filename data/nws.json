@@ -1103,49 +1103,6 @@
    ]
   },
   {
-   "id": "KRIW.HW.W.0016.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Riverton WY",
-   "areas": [
-    "Green Mountains and Rattlesnake Range",
-    "Natrona County Lower Elevations",
-    "Casper Mountain"
-   ],
-   "counties": [
-    "56013",
-    "56025",
-    "56037"
-   ],
-   "sent": "2026-11-18T12:13:00Z",
-   "onset": "2026-11-18T12:13:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7417e8a8a2e97562ffb385deb8c4e333462c0499.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -108.6089,
-     43.0548
-    ],
-    [
-     -106.7682,
-     42.9776
-    ],
-    [
-     -108.8757,
-     41.6603
-    ]
-   ],
-   "lon": -108.084,
-   "lat": 42.564,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.HW.W.0017.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1209,116 +1166,6 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCYS.HW.W.0042.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "North Snowy Range Foothills",
-    "Converse County Lower Elevations",
-    "Dawes",
-    "Box Butte",
-    "Scotts Bluff",
-    "Banner",
-    "Morrill",
-    "Kimball",
-    "Cheyenne",
-    "North Sioux",
-    "South Sioux",
-    "Central Laramie County",
-    "Shirley Basin",
-    "Laramie Valley",
-    "South Laramie Range",
-    "Central Laramie Range and Southwest Platte County",
-    "East Platte County",
-    "South Laramie Range Foothills",
-    "Ferris/Seminoe/Shirley Mountains",
-    "North Laramie Range"
-   ],
-   "counties": [
-    "31007",
-    "31013",
-    "31033",
-    "31045",
-    "31105",
-    "31123",
-    "31157",
-    "31165",
-    "56001",
-    "56007",
-    "56009",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-18T18:09:00Z",
-   "onset": "2026-11-18T18:09:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aabd2985b4aa0d4fec2a5abd09e05ba2738c6d88.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.7263,
-     41.5397
-    ],
-    [
-     -103.0818,
-     42.2104
-    ],
-    [
-     -103.0119,
-     41.2142
-    ],
-    [
-     -103.1354,
-     42.713
-    ],
-    [
-     -103.7032,
-     41.1993
-    ],
-    [
-     -102.9906,
-     41.7322
-    ],
-    [
-     -103.703,
-     41.8505
-    ],
-    [
-     -103.7322,
-     42.4707
-    ],
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -106.9332,
-     41.7036
-    ],
-    [
-     -105.5248,
-     42.9846
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -104.221,
-   "lat": 41.901,
    "countries": [
     "US"
    ]
@@ -1418,37 +1265,103 @@
    ]
   },
   {
-   "id": "KMTR.HW.W.0001.2026",
+   "id": "KCYS.HW.W.0042.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
+   "sender": "NWS Cheyenne WY",
    "areas": [
-    "East Bay Hills"
+    "Dawes",
+    "Box Butte",
+    "Scotts Bluff",
+    "Banner",
+    "Morrill",
+    "Kimball",
+    "Cheyenne",
+    "North Sioux",
+    "South Sioux",
+    "Central Laramie Range and Southwest Platte County",
+    "East Platte County",
+    "South Laramie Range Foothills",
+    "Central Laramie County",
+    "Shirley Basin",
+    "Laramie Valley",
+    "South Laramie Range",
+    "North Snowy Range Foothills"
    ],
    "counties": [
-    "06001",
-    "06013"
+    "31007",
+    "31013",
+    "31033",
+    "31045",
+    "31105",
+    "31123",
+    "31157",
+    "31165",
+    "56001",
+    "56007",
+    "56021",
+    "56031"
    ],
-   "sent": "2026-11-18T20:11:00Z",
-   "onset": "2026-11-18T20:11:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c26095c458a15d9f21d1662dd11e45339a72532.002.1",
+   "sent": "2026-11-18T20:49:00Z",
+   "onset": "2026-11-18T20:49:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -121.9125,
-     37.6471
+     -103.7263,
+     41.5397
     ],
     [
-     -121.9515,
-     37.9195
+     -103.0818,
+     42.2104
+    ],
+    [
+     -103.0119,
+     41.2142
+    ],
+    [
+     -103.1354,
+     42.713
+    ],
+    [
+     -103.7032,
+     41.1993
+    ],
+    [
+     -102.9906,
+     41.7322
+    ],
+    [
+     -103.703,
+     41.8505
+    ],
+    [
+     -103.7322,
+     42.4707
+    ],
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -106.9332,
+     41.7036
+    ],
+    [
+     -104.6604,
+     41.2928
+    ],
+    [
+     -104.954,
+     42.1316
     ]
    ],
-   "lon": -121.932,
-   "lat": 37.783,
+   "lon": -104.113,
+   "lat": 41.81,
    "countries": [
     "US"
    ]
@@ -1995,158 +1908,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0370.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75630",
-    "75651",
-    "75671"
-   ],
-   "sent": "2026-11-18T19:56:00Z",
-   "onset": "2026-11-18T19:56:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea55f2c9309e3099f388f52547991d947ceb7ae0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.85,
-       24.99
-      ],
-      [
-       -79.96,
-       25.13
-      ],
-      [
-       -80.25,
-       25.32
-      ],
-      [
-       -80.27,
-       25.35
-      ],
-      [
-       -80.33,
-       25.29
-      ],
-      [
-       -80.4,
-       25.29
-      ],
-      [
-       -80.41,
-       25.31
-      ],
-      [
-       -80.41,
-       25.32
-      ],
-      [
-       -80.35,
-       25.38
-      ],
-      [
-       -80.37,
-       25.51
-      ],
-      [
-       -80.3,
-       25.7
-      ],
-      [
-       -80.22,
-       25.77
-      ],
-      [
-       -80.21,
-       25.82
-      ],
-      [
-       -79.53,
-       26.1
-      ],
-      [
-       -79.68,
-       24.9
-      ],
-      [
-       -79.85,
-       24.99
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.149,
-   "lat": 25.386,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.MA.W.0034.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Cape Mendocino to Pt. Arena CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57475"
-   ],
-   "sent": "2026-11-18T20:35:00Z",
-   "onset": "2026-11-18T20:35:00Z",
-   "ends": "2026-11-18T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.faf8405aa0afa05e0dec4e6fee0a9ffd5ef0dbaa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -124.86,
-       39.73
-      ],
-      [
-       -124.85,
-       39.8
-      ],
-      [
-       -124.66,
-       39.83
-      ],
-      [
-       -124.69,
-       39.68
-      ],
-      [
-       -124.86,
-       39.73
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -124.784,
-   "lat": 39.754,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.3157.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2638,90 +2399,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Mono",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06051",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-18T10:58:00Z",
-   "onset": "2026-11-18T12:00:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.154,
-   "lat": 39.342,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2961,6 +2638,90 @@
    ],
    "lon": -115.126,
    "lat": 40.28,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Mono",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-18T20:38:00Z",
+   "onset": "2026-11-18T20:38:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
    "countries": [
     "US"
    ]
