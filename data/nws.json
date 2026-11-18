@@ -605,6 +605,12 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -614,12 +620,6 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1049,37 +1049,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.HW.W.0015.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Pribilof Islands"
-   ],
-   "counties": [
-    "02016"
-   ],
-   "sent": "2026-11-17T21:34:00Z",
-   "onset": "2026-11-17T21:34:00Z",
-   "ends": "2026-11-18T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed0c906e47342fe64ca1f10721b8513ed5a6f032.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     179.6212,
-     51.949
-    ]
-   ],
-   "lon": 179.621,
-   "lat": 51.949,
    "countries": [
     "US"
    ]
@@ -1518,6 +1487,37 @@
    ],
    "lon": -103.506,
    "lat": 46.11,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.HW.W.0015.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Pribilof Islands"
+   ],
+   "counties": [
+    "02016"
+   ],
+   "sent": "2026-11-18T13:11:00Z",
+   "onset": "2026-11-18T13:11:00Z",
+   "ends": "2026-11-18T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.834a0cd6b92915d8a12b3bff07789fbc6508a3d5.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     179.6212,
+     51.949
+    ]
+   ],
+   "lon": 179.621,
+   "lat": 51.949,
    "countries": [
     "US"
    ]
@@ -2057,59 +2057,211 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0392.2026",
+   "id": "KKEY.MA.W.0395.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
     "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
    ],
    "counties": [
+    "77044",
+    "77054",
     "77074"
    ],
-   "sent": "2026-11-18T13:03:00Z",
-   "onset": "2026-11-18T13:03:00Z",
-   "ends": "2026-11-18T13:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e450273864efbd720a1e7257e12950fafe841336.001.1",
+   "sent": "2026-11-18T13:13:00Z",
+   "onset": "2026-11-18T13:13:00Z",
+   "ends": "2026-11-18T13:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83239d9a013e8e92e4e96dadeed6a0b43a207f04.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.56,
-       23.81
+       -81.91,
+       24.52
       ],
       [
-       -81.27,
-       23.84
+       -81.7,
+       24.37
       ],
       [
-       -81.18,
-       23.65
+       -81.81,
+       24.12
       ],
       [
-       -81.54,
-       23.61
+       -82.12,
+       24.29
       ],
       [
-       -81.56,
-       23.81
+       -81.91,
+       24.52
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -81.422,
-   "lat": 23.744,
+   "lon": -81.89,
+   "lat": 24.364,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KKEY.MA.W.0393.2026",
+   "id": "KKEY.MA.W.0396.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from Craig Key to west end of Seven Mile Bridge out to the reef",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge out 20 NM",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+   ],
+   "counties": [
+    "77032",
+    "77035",
+    "77043",
+    "77044",
+    "77053",
+    "77054"
+   ],
+   "sent": "2026-11-18T13:28:00Z",
+   "onset": "2026-11-18T13:28:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38c284e32e338527989f0005ea8eea153c5ad1dc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.91,
+       24.85
+      ],
+      [
+       -80.96,
+       24.76
+      ],
+      [
+       -80.98,
+       24.75
+      ],
+      [
+       -80.98,
+       24.74
+      ],
+      [
+       -80.97,
+       24.75
+      ],
+      [
+       -81.07,
+       24.54
+      ],
+      [
+       -81.29,
+       24.62
+      ],
+      [
+       -81.27,
+       24.66
+      ],
+      [
+       -81.25,
+       24.67
+      ],
+      [
+       -81.26,
+       24.68
+      ],
+      [
+       -81.18,
+       24.83
+      ],
+      [
+       -81,
+       24.94
+      ],
+      [
+       -80.91,
+       24.85
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.079,
+   "lat": 24.742,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0397.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+   ],
+   "counties": [
+    "77054",
+    "77074"
+   ],
+   "sent": "2026-11-18T13:32:00Z",
+   "onset": "2026-11-18T13:32:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9aded067f195cd8985eba0ef1e13e4ea7db7a502.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.73,
+       24.31
+      ],
+      [
+       -81.57,
+       24.31
+      ],
+      [
+       -81.45,
+       24.07
+      ],
+      [
+       -81.78,
+       23.99
+      ],
+      [
+       -81.73,
+       24.31
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.652,
+   "lat": 24.198,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0394.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2119,61 +2271,109 @@
     "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
     "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
     "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from Craig Key to west end of Seven Mile Bridge out to the reef"
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
    ],
    "counties": [
     "77032",
     "77033",
     "77035",
-    "77043"
+    "77044"
    ],
-   "sent": "2026-11-18T13:04:00Z",
-   "onset": "2026-11-18T13:04:00Z",
-   "ends": "2026-11-18T13:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ad37e3d8690f9386ac6fd115ed89ae5697419da.002.1",
+   "sent": "2026-11-18T13:33:00Z",
+   "onset": "2026-11-18T13:33:00Z",
+   "ends": "2026-11-18T13:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4db69cb6ecb5f18286b838feabd7f049154553f9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.17,
-       25.11
+       -81.21,
+       24.86
       ],
       [
-       -80.82,
-       24.82
+       -81.42,
+       24.7
       ],
       [
-       -80.83,
-       24.81
+       -81.45,
+       24.74
       ],
       [
-       -80.81,
-       24.81
+       -81.43,
+       24.69
       ],
       [
-       -80.79,
-       24.8
+       -81.47,
+       24.69
       ],
       [
-       -81.11,
-       24.77
+       -81.47,
+       24.66
+      ],
+      [
+       -81.51,
+       24.69
+      ],
+      [
+       -81.51,
+       24.66
       ],
       [
        -81.48,
-       25.1
+       24.66
       ],
       [
-       -81.17,
-       25.11
+       -81.51,
+       24.64
+      ],
+      [
+       -81.57,
+       24.69
+      ],
+      [
+       -81.57,
+       24.67
+      ],
+      [
+       -81.53,
+       24.65
+      ],
+      [
+       -81.52,
+       24.64
+      ],
+      [
+       -81.54,
+       24.61
+      ],
+      [
+       -81.53,
+       24.63
+      ],
+      [
+       -81.55,
+       24.62
+      ],
+      [
+       -81.73,
+       24.84
+      ],
+      [
+       -81.37,
+       25
+      ],
+      [
+       -81.21,
+       24.86
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -81.023,
-   "lat": 24.916,
+   "lon": -81.479,
+   "lat": 24.71,
    "countries": [
     "US"
    ]
@@ -3320,8 +3520,8 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Mono",
     "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Mono",
     "Greater Lake Tahoe Area",
     "Greater Lake Tahoe Area"
    ],
@@ -3341,7 +3541,7 @@
    "sent": "2026-11-18T10:58:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
