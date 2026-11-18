@@ -410,69 +410,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-18T14:22:00Z",
-   "onset": "2026-11-20T00:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ffaada3f959af7385e898e0c364f50edaa8633f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0010.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -525,6 +462,69 @@
    ],
    "lon": -81.266,
    "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-18T17:30:00Z",
+   "onset": "2026-11-20T00:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e247b8d349d2d4a6a7f013774a3fc49afe2b2717.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
    "countries": [
     "US"
    ]
@@ -949,43 +949,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0017.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Fallon",
-    "Carter"
-   ],
-   "counties": [
-    "30011",
-    "30025"
-   ],
-   "sent": "2026-11-18T08:59:00Z",
-   "onset": "2026-11-18T16:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6e68a26c81b12e5d686673daf3b4b289faf6be2.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.5153,
-     45.5168
-    ],
-    [
-     -104.4057,
-     46.3182
-    ]
-   ],
-   "lon": -104.46,
-   "lat": 45.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.HW.W.0022.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1282,6 +1245,43 @@
    ]
   },
   {
+   "id": "KBYZ.HW.W.0017.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Fallon",
+    "Carter"
+   ],
+   "counties": [
+    "30011",
+    "30025"
+   ],
+   "sent": "2026-11-18T17:19:00Z",
+   "onset": "2026-11-18T17:19:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab25fda89ebd4b3c76cda30f9ed45874247f11bc.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.5153,
+     45.5168
+    ],
+    [
+     -104.4057,
+     46.3182
+    ]
+   ],
+   "lon": -104.46,
+   "lat": 45.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOAX.FW.W.0018.2026",
    "event": "Red Flag Warning",
    "severity": "Severe",
@@ -1392,43 +1392,6 @@
    ],
    "lon": -105.078,
    "lat": 39.8,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABR.FW.W.0023.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Aberdeen SD",
-   "areas": [
-    "Lyman",
-    "Buffalo"
-   ],
-   "counties": [
-    "46017",
-    "46085"
-   ],
-   "sent": "2026-11-18T06:13:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e359af16501871b686a6f708d2fb875a53c86d04.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -99.204,
-     44.0443
-    ],
-    [
-     -99.8419,
-     43.8948
-    ]
-   ],
-   "lon": -99.523,
-   "lat": 43.97,
    "countries": [
     "US"
    ]
@@ -1816,6 +1779,43 @@
    ]
   },
   {
+   "id": "KABR.FW.W.0023.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Aberdeen SD",
+   "areas": [
+    "Lyman",
+    "Buffalo"
+   ],
+   "counties": [
+    "46017",
+    "46085"
+   ],
+   "sent": "2026-11-18T17:10:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34cc78609331ea54510db8d9167840b729794ff2.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -99.204,
+     44.0443
+    ],
+    [
+     -99.8419,
+     43.8948
+    ]
+   ],
+   "lon": -99.523,
+   "lat": 43.97,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFL.MA.W.0368.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1899,6 +1899,82 @@
    "points": [],
    "lon": -80.201,
    "lat": 25.518,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.MA.W.0032.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Cape Mendocino to Pt. Arena CA out 10 nm"
+   ],
+   "counties": [
+    "57455"
+   ],
+   "sent": "2026-11-18T17:31:00Z",
+   "onset": "2026-11-18T17:31:00Z",
+   "ends": "2026-11-18T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acae07ea21dfc42d6685b119ce25fb7d44e7e703.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -124.38,
+       40.19
+      ],
+      [
+       -124.37,
+       40.25
+      ],
+      [
+       -124.35,
+       40.25
+      ],
+      [
+       -124.34,
+       40.24
+      ],
+      [
+       -124.33,
+       40.24
+      ],
+      [
+       -124.29,
+       40.2
+      ],
+      [
+       -124.27,
+       40.2
+      ],
+      [
+       -124.26,
+       40.18
+      ],
+      [
+       -124.23,
+       40.17
+      ],
+      [
+       -124.25,
+       40.11
+      ],
+      [
+       -124.38,
+       40.19
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -124.314,
+   "lat": 40.202,
    "countries": [
     "US"
    ]
