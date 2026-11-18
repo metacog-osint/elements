@@ -738,6 +738,12 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -747,12 +753,6 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1323,65 +1323,6 @@
    ]
   },
   {
-   "id": "KCYS.HW.W.0042.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "North Snowy Range Foothills",
-    "Converse County Lower Elevations",
-    "Central Laramie Range and Southwest Platte County",
-    "East Platte County",
-    "South Laramie Range",
-    "South Laramie Range Foothills",
-    "Central Laramie County",
-    "North Laramie Range",
-    "Ferris/Seminoe/Shirley Mountains"
-   ],
-   "counties": [
-    "56001",
-    "56007",
-    "56009",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-18T01:37:00Z",
-   "onset": "2026-11-18T01:37:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdfc704afe3e3b9985d48f3dfbc3215ef6a4db18.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -106.9332,
-     41.7036
-    ],
-    [
-     -105.5248,
-     42.9846
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -105.559,
-   "lat": 41.956,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.HW.W.0001.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1654,24 +1595,36 @@
    ]
   },
   {
-   "id": "KCYS.HW.A.0043.2026",
-   "event": "High Wind Watch",
+   "id": "KCYS.HW.W.0042.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
+    "Central Laramie County",
+    "Converse County Lower Elevations",
+    "North Laramie Range",
+    "North Snowy Range Foothills",
     "Shirley Basin",
-    "Laramie Valley"
+    "Laramie Valley",
+    "Central Laramie Range and Southwest Platte County",
+    "East Platte County",
+    "South Laramie Range Foothills",
+    "South Laramie Range",
+    "Ferris/Seminoe/Shirley Mountains"
    ],
    "counties": [
     "56001",
-    "56007"
+    "56007",
+    "56009",
+    "56021",
+    "56031"
    ],
-   "sent": "2026-11-18T01:37:00Z",
-   "onset": "2026-11-18T15:00:00Z",
-   "ends": "2026-11-18T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdfc704afe3e3b9985d48f3dfbc3215ef6a4db18.007.1",
+   "sent": "2026-11-18T08:02:00Z",
+   "onset": "2026-11-18T09:00:00Z",
+   "ends": "2026-11-19T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26fba6ab2862884bb1ea9005586b8fe108a9899d.008.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1682,10 +1635,22 @@
     [
      -106.9332,
      41.7036
+    ],
+    [
+     -105.5248,
+     42.9846
+    ],
+    [
+     -104.6604,
+     41.2928
+    ],
+    [
+     -104.954,
+     42.1316
     ]
    ],
-   "lon": -106.328,
-   "lat": 41.685,
+   "lon": -105.559,
+   "lat": 41.956,
    "countries": [
     "US"
    ]
@@ -2152,10 +2117,10 @@
     "77074",
     "77075"
    ],
-   "sent": "2026-11-18T07:16:00Z",
-   "onset": "2026-11-18T07:16:00Z",
+   "sent": "2026-11-18T07:40:00Z",
+   "onset": "2026-11-18T07:40:00Z",
    "ends": "2026-11-18T08:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58b1d043c2974d876e67d101fe3003901f59270e.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e523b05e8f49ad9a051cd46635d91f19a89771d4.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2322,32 +2287,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7120.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Kuskokwim Delta and Etolin Strait out to 15 NM"
-   ],
-   "counties": [
-    "58763"
-   ],
-   "sent": "2026-11-17T01:01:00Z",
-   "onset": "2026-11-18T02:00:00Z",
-   "ends": "2026-11-18T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7121.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2364,6 +2303,32 @@
    "onset": "2026-11-17T14:00:00Z",
    "ends": "2026-11-18T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.035.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7120.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kuskokwim Delta and Etolin Strait out to 15 NM"
+   ],
+   "counties": [
+    "58763"
+   ],
+   "sent": "2026-11-17T01:01:00Z",
+   "onset": "2026-11-18T02:00:00Z",
+   "ends": "2026-11-18T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b644005c94ae3cbe4d19de1deff5dfd010ecbee6.034.1",
    "geometry": null,
    "vtec": true,
    "points": [],
