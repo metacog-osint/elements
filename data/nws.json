@@ -599,10 +599,10 @@
    "counties": [
     "12087"
    ],
-   "sent": "2026-11-18T18:19:00Z",
-   "onset": "2026-11-18T18:19:00Z",
-   "ends": "2026-11-18T20:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.517d0e0a411b9a1d592c3017668f818c29f9dbba.001.1",
+   "sent": "2026-11-18T19:57:00Z",
+   "onset": "2026-11-18T19:57:00Z",
+   "ends": "2026-11-18T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0622e6b6ae171fe9118850461ac411025bdaf7b8.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -838,6 +838,12 @@
     "Santa Barbara County Interior Mountains",
     "San Miguel and Santa Rosa Islands",
     "Santa Cruz and Anacapa Islands",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
     "Ventura County Beaches",
     "Ventura County Inland Coast",
     "Lake Casitas",
@@ -847,12 +853,6 @@
     "Santa Susana Mountains",
     "Southern Ventura County Mountains",
     "Northern Ventura County Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
     "Santa Clarita Valley",
     "Malibu Coast",
     "Los Angeles County Beaches",
@@ -1182,69 +1182,6 @@
    ]
   },
   {
-   "id": "KUNR.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Western Fall River",
-    "Northern Oglala Lakota",
-    "Eastern Fall River",
-    "Southern Oglala Lakota",
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins"
-   ],
-   "counties": [
-    "46019",
-    "46047",
-    "46063",
-    "46093",
-    "46102",
-    "46105"
-   ],
-   "sent": "2026-11-18T16:06:00Z",
-   "onset": "2026-11-18T17:00:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4d8d7f6062db2a276d0c732b6fc90b627109b1d.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5014,
-     44.8962
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -103.4739,
-     45.5966
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.5615,
-     43.3334
-    ],
-    [
-     -102.468,
-     45.4834
-    ]
-   ],
-   "lon": -103.039,
-   "lat": 44.523,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.HW.W.0017.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1449,6 +1386,69 @@
    ],
    "lon": -103.506,
    "lat": 46.11,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KUNR.HW.W.0011.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Rapid City SD",
+   "areas": [
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins",
+    "Western Fall River",
+    "Northern Oglala Lakota",
+    "Eastern Fall River",
+    "Southern Oglala Lakota"
+   ],
+   "counties": [
+    "46019",
+    "46047",
+    "46063",
+    "46093",
+    "46102",
+    "46105"
+   ],
+   "sent": "2026-11-18T19:59:00Z",
+   "onset": "2026-11-18T19:59:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.332d687fceaa8c67b225ba5a2ac23d687bd478ea.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -103.5014,
+     44.8962
+    ],
+    [
+     -103.5126,
+     43.2216
+    ],
+    [
+     -103.4739,
+     45.5966
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.5615,
+     43.3334
+    ],
+    [
+     -102.468,
+     45.4834
+    ]
+   ],
+   "lon": -103.039,
+   "lat": 44.523,
    "countries": [
     "US"
    ]
@@ -1995,7 +1995,7 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0369.2026",
+   "id": "KMFL.MA.W.0370.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -2011,57 +2011,45 @@
     "75651",
     "75671"
    ],
-   "sent": "2026-11-18T18:29:00Z",
-   "onset": "2026-11-18T18:29:00Z",
-   "ends": "2026-11-18T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fed3d057adbb436e03d6edb440d4f07b3b440d0.001.1",
+   "sent": "2026-11-18T19:56:00Z",
+   "onset": "2026-11-18T19:56:00Z",
+   "ends": "2026-11-18T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea55f2c9309e3099f388f52547991d947ceb7ae0.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.17,
-       25.27
+       -79.85,
+       24.99
       ],
       [
-       -80.26,
-       25.33
+       -79.96,
+       25.13
       ],
       [
        -80.25,
-       25.34
+       25.32
       ],
       [
        -80.27,
        25.35
       ],
       [
-       -80.27,
-       25.33
-      ],
-      [
-       -80.29,
-       25.33
-      ],
-      [
-       -80.3,
-       25.31
-      ],
-      [
        -80.33,
        25.29
       ],
       [
-       -80.36,
-       25.28
-      ],
-      [
-       -80.39,
-       25.3
-      ],
-      [
        -80.4,
        25.29
+      ],
+      [
+       -80.41,
+       25.31
+      ],
+      [
+       -80.41,
+       25.32
       ],
       [
        -80.35,
@@ -2069,11 +2057,11 @@
       ],
       [
        -80.37,
-       25.47
+       25.51
       ],
       [
-       -80.26,
-       25.74
+       -80.3,
+       25.7
       ],
       [
        -80.22,
@@ -2081,27 +2069,27 @@
       ],
       [
        -80.21,
-       25.85
+       25.82
       ],
       [
-       -79.72,
-       25.92
+       -79.53,
+       26.1
       ],
       [
-       -79.86,
-       25.17
+       -79.68,
+       24.9
       ],
       [
-       -80.17,
-       25.27
+       -79.85,
+       24.99
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.234,
-   "lat": 25.421,
+   "lon": -80.149,
+   "lat": 25.386,
    "countries": [
     "US"
    ]
@@ -2605,8 +2593,8 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
-    "Mono",
     "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Mono",
     "Greater Lake Tahoe Area",
     "Greater Lake Tahoe Area"
    ],
@@ -2626,7 +2614,7 @@
    "sent": "2026-11-18T10:58:00Z",
    "onset": "2026-11-18T12:00:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17914bfdbc8d91c379ddb808543144f90df995bf.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2885,6 +2873,42 @@
    ],
    "lon": -121.032,
    "lat": 39.336,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLKN.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Elko NV",
+   "areas": [
+    "Ruby Mountains and East Humboldt Range"
+   ],
+   "counties": [
+    "32007",
+    "32033"
+   ],
+   "sent": "2026-11-18T19:52:00Z",
+   "onset": "2026-11-19T08:00:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de131009f122f224a621ff41d1a6f7b9b6bf78f3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -115.3514,
+     41.1411
+    ],
+    [
+     -114.9006,
+     39.4182
+    ]
+   ],
+   "lon": -115.126,
+   "lat": 40.28,
    "countries": [
     "US"
    ]
