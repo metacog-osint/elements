@@ -881,6 +881,115 @@
    ]
   },
   {
+   "id": "KFGZ.FA.W.0042.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Flagstaff AZ",
+   "areas": [
+    "Yavapai, AZ"
+   ],
+   "counties": [
+    "04025"
+   ],
+   "sent": "2026-11-18T04:41:00Z",
+   "onset": "2026-11-18T04:41:00Z",
+   "ends": "2026-11-18T08:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9a660caffdff58b21ec99af2e3bea78c7067f22.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -111.84,
+       34.82
+      ],
+      [
+       -111.88,
+       34.82
+      ],
+      [
+       -111.91,
+       34.8
+      ],
+      [
+       -111.91,
+       34.77
+      ],
+      [
+       -111.93,
+       34.74
+      ],
+      [
+       -111.93,
+       34.7
+      ],
+      [
+       -111.95,
+       34.69
+      ],
+      [
+       -111.95,
+       34.68
+      ],
+      [
+       -111.94,
+       34.67
+      ],
+      [
+       -111.92,
+       34.67
+      ],
+      [
+       -111.9,
+       34.68
+      ],
+      [
+       -111.89,
+       34.7
+      ],
+      [
+       -111.89,
+       34.74
+      ],
+      [
+       -111.88,
+       34.77
+      ],
+      [
+       -111.88,
+       34.78
+      ],
+      [
+       -111.86,
+       34.8
+      ],
+      [
+       -111.84,
+       34.8
+      ],
+      [
+       -111.84,
+       34.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.5772,
+     34.6311
+    ]
+   ],
+   "lon": -111.897,
+   "lat": 34.747,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -2360,58 +2469,183 @@
    ]
   },
   {
-   "id": "KMFL.SV.W.0082.2026",
-   "event": "Severe Thunderstorm Warning",
+   "id": "KKEY.MA.W.0380.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Miami FL",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
    "areas": [
-    "Broward, FL"
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
    ],
    "counties": [
-    "12011"
+    "77033",
+    "77034",
+    "77035",
+    "77044"
    ],
-   "sent": "2026-11-18T04:15:00Z",
-   "onset": "2026-11-18T04:15:00Z",
-   "ends": "2026-11-18T04:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2eeac525dd945e885072f771bee56b5d1393f857.001.1",
+   "sent": "2026-11-18T04:42:00Z",
+   "onset": "2026-11-18T04:42:00Z",
+   "ends": "2026-11-18T05:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27bbf96220ba9be96db16cccdfe00255d63e86d1.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.1,
-       26
+       -82.38,
+       24.51
       ],
       [
-       -80.28,
-       25.98
+       -82.57,
+       24.48
       ],
       [
-       -80.34,
-       26.17
+       -82.69,
+       24.87
       ],
       [
-       -80.09,
-       26.19
+       -82.39,
+       24.91
       ],
       [
-       -80.1,
-       26
+       -82.38,
+       24.51
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ]
+   "points": [],
+   "lon": -82.482,
+   "lat": 24.656,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0361.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
    ],
-   "lon": -80.182,
-   "lat": 26.068,
+   "counties": [
+    "75651"
+   ],
+   "sent": "2026-11-18T04:47:00Z",
+   "onset": "2026-11-18T04:47:00Z",
+   "ends": "2026-11-18T05:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.473af990729125a12de3e2cf07e562f3ddaa00c9.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.96,
+       25.95
+      ],
+      [
+       -80.17,
+       25.96
+      ],
+      [
+       -80.12,
+       26.23
+      ],
+      [
+       -80.06,
+       26.23
+      ],
+      [
+       -80,
+       26.22
+      ],
+      [
+       -79.96,
+       25.95
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.045,
+   "lat": 26.09,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0381.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms"
+   ],
+   "counties": [
+    "77033"
+   ],
+   "sent": "2026-11-18T04:54:00Z",
+   "onset": "2026-11-18T04:54:00Z",
+   "ends": "2026-11-18T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fd02aaba0ddd464fb7b468132c5d63ed5738d41.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.3,
+       25.28
+      ],
+      [
+       -82.48,
+       25.25
+      ],
+      [
+       -82.51,
+       25.28
+      ],
+      [
+       -82.55,
+       25.36
+      ],
+      [
+       -82.59,
+       25.41
+      ],
+      [
+       -82.62,
+       25.46
+      ],
+      [
+       -82.6,
+       25.47
+      ],
+      [
+       -82.43,
+       25.51
+      ],
+      [
+       -82.3,
+       25.28
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.487,
+   "lat": 25.367,
    "countries": [
     "US"
    ]
