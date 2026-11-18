@@ -785,6 +785,34 @@
    "lat": 36.6386
   },
   {
+   "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
+   "name": "Shining Star",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-18T06:00:00Z",
+   "updated": "2026-11-18T22:21:10Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.1591,
+   "lat": 45.8495
+  },
+  {
+   "id": "{7A485C9F-0786-4CE1-9F25-0F9BA19BDCF7}",
+   "name": "378 Brushy Fork Road",
+   "acres": 3.0,
+   "contained": 40,
+   "discovered": "2026-11-18T20:51:00Z",
+   "updated": "2026-11-18T22:28:10Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6173,
+   "lat": 37.2682
+  },
+  {
    "id": "{1EF476E5-4449-4134-93BF-A894A60C3498}",
    "name": "Oscoda-12 Corn Cob",
    "acres": 2.4,
@@ -825,20 +853,6 @@
    "complexity": null,
    "lon": -98.8725,
    "lat": 47.9781
-  },
-  {
-   "id": "{7A485C9F-0786-4CE1-9F25-0F9BA19BDCF7}",
-   "name": "378 Brushy Fork Road",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-18T20:51:00Z",
-   "updated": "2026-11-18T21:41:33Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.6173,
-   "lat": 37.2682
   },
   {
    "id": "{CAFAC3F6-5D03-4D14-A4C4-674ED4A57F7B}",
@@ -995,20 +1009,6 @@
    "lat": 34.9553
   },
   {
-   "id": "{A0D4BD78-98C5-4687-9229-3BFE1F1BFEF4}",
-   "name": "Cleburn 235",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-18T19:14:02Z",
-   "updated": "2026-11-18T19:26:15Z",
-   "state": "AR",
-   "county": "Cleburne",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.129,
-   "lat": 35.3702
-  },
-  {
    "id": "{7A5C962B-14B7-4820-ACF1-A88400D6BDD5}",
    "name": "Marion 326",
    "acres": 1.0,
@@ -1154,10 +1154,10 @@
    "acres": 0.5,
    "contained": null,
    "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T21:21:17Z",
+   "updated": "2026-11-18T22:19:31Z",
    "state": "WI",
    "county": "Sawyer",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -91.4775,
    "lat": 45.8558
@@ -1210,13 +1210,13 @@
    "acres": 0.3,
    "contained": null,
    "discovered": "2026-11-18T15:30:00Z",
-   "updated": "2026-11-18T21:58:52Z",
+   "updated": "2026-11-18T22:19:40Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
-   "lon": -92.7271,
-   "lat": 45.7887
+   "lon": -92.7284,
+   "lat": 45.7879
   },
   {
    "id": "{FA2E2355-2C3D-4B3E-B7F4-744C3C7EB43E}",
@@ -1672,10 +1672,10 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T21:52:07Z",
+   "updated": "2026-11-18T22:12:47Z",
    "state": "WI",
    "county": "Rusk",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -91.0634,
    "lat": 45.3348
@@ -1763,6 +1763,20 @@
    "complexity": "Type 5 Incident",
    "lon": -85.4321,
    "lat": 36.4774
+  },
+  {
+   "id": "{0FCCFE27-B002-4A0B-AC19-046A688E770C}",
+   "name": "Belles Fork #3",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-18T21:28:00Z",
+   "updated": "2026-11-18T22:33:24Z",
+   "state": "KY",
+   "county": "Clay",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6812,
+   "lat": 37.1147
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2297,34 +2311,6 @@
    "lat": 44.3955
   },
   {
-   "id": "{5ABC8369-E87E-46DA-896C-F154B9C3CE19}",
-   "name": "Pageless",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T22:04:34Z",
-   "state": "WI",
-   "county": "Grant",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.4506,
-   "lat": 43.185
-  },
-  {
-   "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
-   "name": "Green Bass Lake",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T21:23:20Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.1591,
-   "lat": 45.8495
-  },
-  {
    "id": "{C5513A85-C9B1-4BDB-97D1-261097544582}",
    "name": "Lac-416864",
    "acres": 0.0,
@@ -2351,6 +2337,20 @@
    "complexity": null,
    "lon": -118.2812,
    "lat": 34.7674
+  },
+  {
+   "id": "{5ABC8369-E87E-46DA-896C-F154B9C3CE19}",
+   "name": "Pageless",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-18T17:27:00Z",
+   "updated": "2026-11-18T22:11:59Z",
+   "state": "WI",
+   "county": "Grant",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4506,
+   "lat": 43.185
   },
   {
    "id": "{FD02EE15-BA0B-4BC3-A479-A888F9152E58}",
