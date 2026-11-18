@@ -1110,91 +1110,6 @@
    ]
   },
   {
-   "id": "KLOX.FA.A.0004.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Western Santa Monica Mountains Recreational Area",
-    "Santa Susana Mountains",
-    "San Luis Obispo County Beaches",
-    "San Luis Obispo County Inland Central Coast",
-    "Santa Lucia Mountains",
-    "Southern Salinas Valley",
-    "San Luis Obispo County Interior Valleys",
-    "San Luis Obispo County Mountains",
-    "Ventura County Beaches",
-    "Ventura County Inland Coast",
-    "Lake Casitas",
-    "Ojai Valley",
-    "Central Ventura County Valleys",
-    "Southeastern Ventura County Valleys",
-    "Southern Ventura County Mountains",
-    "Northern Ventura County Mountains",
-    "Cuyama Valley",
-    "Santa Barbara County Central Coast Beaches",
-    "Santa Barbara County Inland Central Coast",
-    "Santa Ynez Valley",
-    "Santa Barbara County Southwestern Coast",
-    "Santa Barbara County Southeastern Coast",
-    "Santa Ynez Mountains Western Range",
-    "Santa Barbara County Interior Mountains",
-    "San Miguel and Santa Rosa Islands",
-    "Santa Cruz and Anacapa Islands",
-    "Santa Ynez Mountains Eastern Range",
-    "Santa Clarita Valley",
-    "Malibu Coast",
-    "Los Angeles County Beaches",
-    "Palos Verdes Hills",
-    "Los Angeles County Inland Coast including Downtown Los Angeles",
-    "Eastern Santa Monica Mountains Recreational Area",
-    "Calabasas and Agoura Hills",
-    "Western San Fernando Valley",
-    "Eastern San Fernando Valley",
-    "Interstate 5 Corridor",
-    "Western San Gabriel Mountains and Highway 14 Corridor",
-    "Eastern San Gabriel Mountains",
-    "Los Angeles County San Gabriel Valley"
-   ],
-   "counties": [
-    "06037",
-    "06079",
-    "06083",
-    "06111"
-   ],
-   "sent": "2026-11-17T20:14:00Z",
-   "onset": "2026-11-19T16:00:00Z",
-   "ends": "2026-11-20T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c86e11421f05b06e833013ae6fc7f262a42ed27f.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -118.2619,
-     34.1964
-    ],
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -119.471,
-   "lat": 34.62,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FA.A.0003.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1272,6 +1187,91 @@
    ],
    "lon": -152.322,
    "lat": 60.367,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.FA.A.0004.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Cuyama Valley",
+    "Santa Barbara County Central Coast Beaches",
+    "Santa Barbara County Inland Central Coast",
+    "Santa Ynez Valley",
+    "Santa Barbara County Southwestern Coast",
+    "Santa Barbara County Southeastern Coast",
+    "Santa Ynez Mountains Western Range",
+    "Santa Ynez Mountains Eastern Range",
+    "Santa Barbara County Interior Mountains",
+    "San Miguel and Santa Rosa Islands",
+    "Santa Cruz and Anacapa Islands",
+    "Ventura County Beaches",
+    "Ventura County Inland Coast",
+    "Lake Casitas",
+    "Ojai Valley",
+    "Central Ventura County Valleys",
+    "Southeastern Ventura County Valleys",
+    "Santa Susana Mountains",
+    "Southern Ventura County Mountains",
+    "Northern Ventura County Mountains",
+    "San Luis Obispo County Beaches",
+    "San Luis Obispo County Inland Central Coast",
+    "Santa Lucia Mountains",
+    "Southern Salinas Valley",
+    "San Luis Obispo County Interior Valleys",
+    "San Luis Obispo County Mountains",
+    "Santa Clarita Valley",
+    "Malibu Coast",
+    "Los Angeles County Beaches",
+    "Palos Verdes Hills",
+    "Los Angeles County Inland Coast including Downtown Los Angeles",
+    "Western Santa Monica Mountains Recreational Area",
+    "Eastern Santa Monica Mountains Recreational Area",
+    "Calabasas and Agoura Hills",
+    "Western San Fernando Valley",
+    "Eastern San Fernando Valley",
+    "Interstate 5 Corridor",
+    "Western San Gabriel Mountains and Highway 14 Corridor",
+    "Eastern San Gabriel Mountains",
+    "Los Angeles County San Gabriel Valley"
+   ],
+   "counties": [
+    "06037",
+    "06079",
+    "06083",
+    "06111"
+   ],
+   "sent": "2026-11-17T23:46:00Z",
+   "onset": "2026-11-19T04:00:00Z",
+   "ends": "2026-11-20T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7a9f3535476a8ccb8510480153efb8ca6db19d1.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -118.2619,
+     34.1964
+    ],
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -119.471,
+   "lat": 34.62,
    "countries": [
     "US"
    ]
@@ -1578,9 +1578,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
+    "Central Laramie County",
     "North Snowy Range Foothills",
     "Converse County Lower Elevations",
-    "Central Laramie County",
     "Central Laramie Range and Southwest Platte County",
     "East Platte County",
     "South Laramie Range",
@@ -1596,9 +1596,9 @@
     "56031"
    ],
    "sent": "2026-11-17T18:38:00Z",
-   "onset": "2026-11-18T03:00:00Z",
+   "onset": "2026-11-18T09:00:00Z",
    "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e11be54cf7d36e6d9ec65f5f4683e52e080468a.003.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2305,62 +2305,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0373.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel"
-   ],
-   "counties": [
-    "77034"
-   ],
-   "sent": "2026-11-17T22:48:00Z",
-   "onset": "2026-11-17T22:48:00Z",
-   "ends": "2026-11-17T23:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.810fae525a49c1927870088517f81d0266a919aa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.75,
-       25.02
-      ],
-      [
-       -82.66,
-       25.02
-      ],
-      [
-       -82.55,
-       24.93
-      ],
-      [
-       -82.62,
-       24.83
-      ],
-      [
-       -82.84,
-       24.9
-      ],
-      [
-       -82.75,
-       25.02
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.695,
-   "lat": 24.953,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7170.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2569,32 +2513,6 @@
    ]
   },
   {
-   "id": "PAFC.SR.W.7169.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Seguam to Adak Bering Side out to 15 NM"
-   ],
-   "counties": [
-    "58780"
-   ],
-   "sent": "2026-11-16T13:45:00Z",
-   "onset": "2026-11-17T02:00:00Z",
-   "ends": "2026-11-18T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7177.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2611,6 +2529,32 @@
    "onset": "2026-11-17T02:00:00Z",
    "ends": "2026-11-18T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.030.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.7169.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Seguam to Adak Bering Side out to 15 NM"
+   ],
+   "counties": [
+    "58780"
+   ],
+   "sent": "2026-11-16T13:45:00Z",
+   "onset": "2026-11-17T02:00:00Z",
+   "ends": "2026-11-18T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ea00abec256a2cd2689de5480987e105139cca.022.1",
    "geometry": null,
    "vtec": true,
    "points": [],
