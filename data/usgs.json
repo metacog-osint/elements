@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us7000tyza",
+   "mag": 4.9,
+   "place": "West Chile Rise",
+   "time": "2026-11-18T11:10:57Z",
+   "updated": "2026-11-18T11:48:21Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyza",
+   "depth_km": 10.0,
+   "lon": -91.503,
+   "lat": -39.691,
+   "countries": []
+  },
+  {
    "id": "us7000tyyw",
    "mag": 5.2,
    "place": "86 km NW of Ryōtsu-minato, Japan",
@@ -20,7 +35,7 @@
    "mag": 5.9,
    "place": "85 km WNW of San Juan, Peru",
    "time": "2026-11-18T06:07:42Z",
-   "updated": "2026-11-18T08:13:32Z",
+   "updated": "2026-11-18T11:43:03Z",
    "alert": "green",
    "tsunami": false,
    "sig": 537,
@@ -144,7 +159,7 @@
    "mag": 5.3,
    "place": "16 km ESE of Comandău, Romania",
    "time": "2026-11-18T00:48:56Z",
-   "updated": "2026-11-18T11:24:49Z",
+   "updated": "2026-11-18T11:53:03Z",
    "alert": null,
    "tsunami": false,
    "sig": 609,
@@ -1659,23 +1674,6 @@
    "lat": -3.159,
    "countries": [
     "ID"
-   ]
-  },
-  {
-   "id": "us7000txis",
-   "mag": 5.1,
-   "place": "27 km WSW of Calama, Chile",
-   "time": "2026-11-11T11:36:51Z",
-   "updated": "2026-11-11T15:50:03Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 400,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txis",
-   "depth_km": 91.3,
-   "lon": -69.169,
-   "lat": -22.543,
-   "countries": [
-    "CL"
    ]
   }
  ]
