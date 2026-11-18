@@ -233,69 +233,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-18T01:20:00Z",
-   "onset": "2026-11-18T01:20:00Z",
-   "ends": "2026-11-18T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25b7d0dd33439abcafc0f66f30d1a65e9d23c545.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.FA.W.0004.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -462,6 +399,189 @@
    ],
    "lon": -81.106,
    "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-18T14:14:00Z",
+   "onset": "2026-11-18T14:14:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cbea889b3ad312e5e5ce3fdec4b5c4e89d302e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-18T14:22:00Z",
+   "onset": "2026-11-20T00:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ffaada3f959af7385e898e0c364f50edaa8633f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-18T14:28:00Z",
+   "onset": "2026-11-18T18:00:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e7d1096871e13a3225cd7b40fc6d377cda87cee.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
    "countries": [
     "US"
    ]
@@ -801,10 +921,10 @@
    "counties": [
     "06029"
    ],
-   "sent": "2026-11-18T06:47:00Z",
-   "onset": "2026-11-18T06:47:00Z",
+   "sent": "2026-11-18T14:35:00Z",
+   "onset": "2026-11-18T14:35:00Z",
    "ends": "2026-11-18T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9a07843f4d46b8f460568b315ac9ba452a7b6be.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01cc80a4996954dff8b022ec405f9a755c2c2252.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1964,116 +2084,6 @@
    "points": [],
    "lon": -79.84,
    "lat": 25.926,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0398.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from Craig Key to west end of Seven Mile Bridge out to the reef",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from Craig Key to west end of Seven Mile Bridge out 20 NM",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
-   ],
-   "counties": [
-    "77032",
-    "77035",
-    "77043",
-    "77044",
-    "77053",
-    "77054"
-   ],
-   "sent": "2026-11-18T13:56:00Z",
-   "onset": "2026-11-18T13:56:00Z",
-   "ends": "2026-11-18T14:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82c157365c668ba037f2f2245929ad936cba660d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.02,
-       24.74
-      ],
-      [
-       -81.13,
-       24.71
-      ],
-      [
-       -81.1,
-       24.71
-      ],
-      [
-       -81.12,
-       24.7
-      ],
-      [
-       -81.08,
-       24.69
-      ],
-      [
-       -81.07,
-       24.71
-      ],
-      [
-       -81.04,
-       24.73
-      ],
-      [
-       -81.22,
-       24.51
-      ],
-      [
-       -81.35,
-       24.66
-      ],
-      [
-       -81.34,
-       24.66
-      ],
-      [
-       -81.37,
-       24.7
-      ],
-      [
-       -81.37,
-       24.72
-      ],
-      [
-       -81.39,
-       24.74
-      ],
-      [
-       -81.4,
-       24.73
-      ],
-      [
-       -81.44,
-       24.77
-      ],
-      [
-       -81.13,
-       24.89
-      ],
-      [
-       -81.02,
-       24.74
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.211,
-   "lat": 24.712,
    "countries": [
     "US"
    ]
