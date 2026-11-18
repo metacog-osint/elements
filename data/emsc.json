@@ -1,6 +1,20 @@
 {
  "records": [
   {
+   "id": "20261118_0000346",
+   "mag": 5.1,
+   "magtype": "mb",
+   "time": "2026-11-18T21:28:47Z",
+   "updated": "2026-11-18T21:44:47Z",
+   "region": "Near Islands, Aleutian Islands",
+   "depth_km": 10.0,
+   "authority": "NEIC",
+   "lat": 51.445,
+   "lon": 172.9,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261118_0000346"
+  },
+  {
    "id": "20261118_0000319",
    "mag": 6.1,
    "magtype": "mw",
@@ -264,15 +278,15 @@
   },
   {
    "id": "20261117_0000382",
-   "mag": 4.9,
+   "mag": 4.6,
    "magtype": "mb",
-   "time": "2026-11-17T22:52:06Z",
-   "updated": "2026-11-18T08:56:49Z",
+   "time": "2026-11-17T22:52:05Z",
+   "updated": "2026-11-18T22:00:23Z",
    "region": "Ethiopia",
    "depth_km": 10.0,
-   "authority": "GFZ",
-   "lat": 8.918,
-   "lon": 39.863,
+   "authority": "NEIC",
+   "lat": 8.868,
+   "lon": 40.003,
    "countries": [
     "ET"
    ],
@@ -1681,20 +1695,6 @@
     "NP"
    ],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000303"
-  },
-  {
-   "id": "20261111_0000297",
-   "mag": 4.9,
-   "magtype": "mb",
-   "time": "2026-11-11T22:03:42Z",
-   "updated": "2026-11-12T08:40:53Z",
-   "region": "Ascension Island Region",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": -7.938,
-   "lon": -13.366,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261111_0000297"
   }
  ]
 }
