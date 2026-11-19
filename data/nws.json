@@ -1359,37 +1359,6 @@
    ]
   },
   {
-   "id": "PAFC.HW.W.0015.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Pribilof Islands"
-   ],
-   "counties": [
-    "02016"
-   ],
-   "sent": "2026-11-18T17:40:00Z",
-   "onset": "2026-11-18T17:40:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eef19087e6277b5a5482728b73c0e8140522779.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     179.6212,
-     51.949
-    ]
-   ],
-   "lon": 179.621,
-   "lat": 51.949,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBIS.HW.W.0005.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1416,171 +1385,6 @@
    ],
    "lon": -103.506,
    "lat": 46.11,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KUNR.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins",
-    "Western Fall River",
-    "Northern Oglala Lakota",
-    "Eastern Fall River",
-    "Southern Oglala Lakota"
-   ],
-   "counties": [
-    "46019",
-    "46047",
-    "46063",
-    "46093",
-    "46102",
-    "46105"
-   ],
-   "sent": "2026-11-18T19:59:00Z",
-   "onset": "2026-11-18T19:59:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.332d687fceaa8c67b225ba5a2ac23d687bd478ea.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5014,
-     44.8962
-    ],
-    [
-     -103.5126,
-     43.2216
-    ],
-    [
-     -103.4739,
-     45.5966
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.5615,
-     43.3334
-    ],
-    [
-     -102.468,
-     45.4834
-    ]
-   ],
-   "lon": -103.039,
-   "lat": 44.523,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCYS.HW.W.0042.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "Dawes",
-    "Box Butte",
-    "Scotts Bluff",
-    "Banner",
-    "Morrill",
-    "Kimball",
-    "Cheyenne",
-    "North Sioux",
-    "South Sioux",
-    "Central Laramie Range and Southwest Platte County",
-    "East Platte County",
-    "South Laramie Range Foothills",
-    "Central Laramie County",
-    "North Snowy Range Foothills",
-    "Shirley Basin",
-    "Laramie Valley",
-    "South Laramie Range"
-   ],
-   "counties": [
-    "31007",
-    "31013",
-    "31033",
-    "31045",
-    "31105",
-    "31123",
-    "31157",
-    "31165",
-    "56001",
-    "56007",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-18T20:49:00Z",
-   "onset": "2026-11-18T20:49:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6f1fe4f86c885a5f13a61a8c7a6717892247af.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.7263,
-     41.5397
-    ],
-    [
-     -103.0818,
-     42.2104
-    ],
-    [
-     -103.0119,
-     41.2142
-    ],
-    [
-     -103.1354,
-     42.713
-    ],
-    [
-     -103.7032,
-     41.1993
-    ],
-    [
-     -102.9906,
-     41.7322
-    ],
-    [
-     -103.703,
-     41.8505
-    ],
-    [
-     -103.7322,
-     42.4707
-    ],
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -106.9332,
-     41.7036
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -104.113,
-   "lat": 41.81,
    "countries": [
     "US"
    ]
@@ -1617,605 +1421,110 @@
    ]
   },
   {
-   "id": "KOAX.FW.W.0018.2026",
-   "event": "Red Flag Warning",
+   "id": "KUNR.HW.W.0011.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Omaha/Valley NE",
+   "sender": "NWS Rapid City SD",
    "areas": [
-    "Knox"
+    "Harding",
+    "Butte",
+    "Northern Meade Co Plains",
+    "Southern Perkins"
    ],
    "counties": [
-    "31107"
+    "46019",
+    "46063",
+    "46093",
+    "46105"
    ],
-   "sent": "2026-11-18T03:44:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5059ac9be8cc03cce108e8edee191b0c42b78d2.001.1",
+   "sent": "2026-11-18T23:56:00Z",
+   "onset": "2026-11-18T23:56:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75c1a69981cebb564665d6b840450a51628b966f.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -97.8913,
-     42.6344
+     -103.5014,
+     44.8962
+    ],
+    [
+     -103.4739,
+     45.5966
+    ],
+    [
+     -102.7142,
+     44.6053
+    ],
+    [
+     -102.468,
+     45.4834
     ]
    ],
-   "lon": -97.891,
-   "lat": 42.634,
+   "lon": -103.039,
+   "lat": 45.145,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KLBF.FW.W.0044.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS North Platte NE",
-   "areas": [
-    "Eastern Panhandle/Crescent Lake NWR",
-    "Sandhills/Valentine NWR/Nebraska National Forest",
-    "Niobrara Valley/Fort Niobrara NWR/Samuel R McKelvie National Forest",
-    "Loup Rivers Basin",
-    "Frenchman Basin",
-    "Loess Plains"
-   ],
-   "counties": [
-    "31005",
-    "31009",
-    "31015",
-    "31017",
-    "31029",
-    "31031",
-    "31041",
-    "31049",
-    "31063",
-    "31069",
-    "31071",
-    "31075",
-    "31085",
-    "31089",
-    "31091",
-    "31101",
-    "31103",
-    "31111",
-    "31113",
-    "31115",
-    "31117",
-    "31135",
-    "31149",
-    "31161",
-    "31171",
-    "31183"
-   ],
-   "sent": "2026-11-18T08:22:00Z",
-   "onset": "2026-11-18T17:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9819b02880852a9e18241df77067dc2844e1e9d6.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -101.6959,
-     41.5719
-    ],
-    [
-     -99.9964,
-     41.9319
-    ],
-    [
-     -98.773,
-     42.8944
-    ],
-    [
-     -99.9239,
-     42.3596
-    ],
-    [
-     -101.6942,
-     40.5304
-    ],
-    [
-     -101.0477,
-     42.5713
-    ],
-    [
-     -99.7269,
-     41.3939
-    ],
-    [
-     -102.3326,
-     41.1119
-    ],
-    [
-     -100.4067,
-     40.5309
-    ],
-    [
-     -102.303,
-     41.6334
-    ],
-    [
-     -98.9513,
-     41.9069
-    ],
-    [
-     -101.756,
-     41.914
-    ],
-    [
-     -101.048,
-     40.5372
-    ],
-    [
-     -98.7848,
-     42.4593
-    ],
-    [
-     -101.1173,
-     41.9203
-    ],
-    [
-     -101.6444,
-     41.1942
-    ],
-    [
-     -99.7184,
-     42.8755
-    ],
-    [
-     -100.7445,
-     41.0503
-    ],
-    [
-     -100.4437,
-     41.5422
-    ],
-    [
-     -99.5145,
-     41.8982
-    ],
-    [
-     -101.1209,
-     41.6484
-    ],
-    [
-     -101.6275,
-     40.8576
-    ],
-    [
-     -99.4209,
-     42.3947
-    ],
-    [
-     -102.3683,
-     42.5123
-    ],
-    [
-     -100.5247,
-     41.8557
-    ],
-    [
-     -98.5209,
-     41.9226
-    ]
-   ],
-   "lon": -100.585,
-   "lat": 41.731,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCYS.FW.W.0047.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "Lower North Platte River Basin/Scottsbluff National Monument",
-    "Lodgepole Creek/Southern Nebraska Panhandle",
-    "Laramie Foothills and High Plains",
-    "Laramie East High Plains",
-    "Bordeaux/Chugwater/Wheatland",
-    "Goshen/Middle-Lower North Platte River Basin"
-   ],
-   "counties": [
-    "31007",
-    "31033",
-    "31105",
-    "31123",
-    "31157",
-    "31165",
-    "56001",
-    "56015",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-18T09:32:00Z",
-   "onset": "2026-11-18T16:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.334b0d9984410e01afdb396e2347550d8b4957ba.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.7263,
-     41.5397
-    ],
-    [
-     -103.0119,
-     41.2142
-    ],
-    [
-     -103.7032,
-     41.1993
-    ],
-    [
-     -102.9906,
-     41.7322
-    ],
-    [
-     -103.703,
-     41.8505
-    ],
-    [
-     -103.7322,
-     42.4707
-    ],
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -104.3535,
-     42.0895
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -104.056,
-   "lat": 41.719,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KGID.FW.W.0029.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Hastings NE",
-   "areas": [
-    "Valley",
-    "Greeley",
-    "Sherman",
-    "Dawson",
-    "Buffalo",
-    "Gosper"
-   ],
-   "counties": [
-    "31019",
-    "31047",
-    "31073",
-    "31077",
-    "31163",
-    "31175"
-   ],
-   "sent": "2026-11-18T14:52:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae63e0878cd889bb198e77793c0db5c2bcc4de74.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -99.075,
-     40.8553
-    ],
-    [
-     -99.8156,
-     40.8678
-    ],
-    [
-     -99.8232,
-     40.5091
-    ],
-    [
-     -98.5306,
-     41.5676
-    ],
-    [
-     -98.9728,
-     41.2187
-    ],
-    [
-     -98.9835,
-     41.5641
-    ]
-   ],
-   "lon": -99.2,
-   "lat": 41.097,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KFSD.FW.W.0015.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sioux Falls SD",
-   "areas": [
-    "Gregory",
-    "Jerauld",
-    "Brule",
-    "Aurora",
-    "Davison",
-    "Charles Mix",
-    "Douglas",
-    "Hutchinson",
-    "Bon Homme"
-   ],
-   "counties": [
-    "46003",
-    "46009",
-    "46015",
-    "46023",
-    "46035",
-    "46043",
-    "46053",
-    "46067",
-    "46073"
-   ],
-   "sent": "2026-11-18T16:51:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ddcf55b2be137666afea61b47a94e4125b30b67.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.5776,
-     43.7247
-    ],
-    [
-     -97.8842,
-     42.9857
-    ],
-    [
-     -99.0929,
-     43.7299
-    ],
-    [
-     -98.5951,
-     43.2062
-    ],
-    [
-     -98.1559,
-     43.6804
-    ],
-    [
-     -98.3584,
-     43.3915
-    ],
-    [
-     -99.2066,
-     43.1751
-    ],
-    [
-     -97.7494,
-     43.3367
-    ],
-    [
-     -98.6232,
-     44.0634
-    ]
-   ],
-   "lon": -98.471,
-   "lat": 43.477,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABR.FW.W.0023.2026",
-   "event": "Red Flag Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Aberdeen SD",
-   "areas": [
-    "Lyman",
-    "Buffalo"
-   ],
-   "counties": [
-    "46017",
-    "46085"
-   ],
-   "sent": "2026-11-18T17:10:00Z",
-   "onset": "2026-11-18T18:00:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34cc78609331ea54510db8d9167840b729794ff2.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -99.204,
-     44.0443
-    ],
-    [
-     -99.8419,
-     43.8948
-    ]
-   ],
-   "lon": -99.523,
-   "lat": 43.97,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0372.2026",
+   "id": "KMFL.MA.W.0373.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Miami FL",
    "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM"
    ],
    "counties": [
-    "75651",
-    "75671"
+    "75650"
    ],
-   "sent": "2026-11-18T23:02:00Z",
-   "onset": "2026-11-18T23:02:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e66d9997e6e37e1d88d8783b0d1b56c56b099e5.001.1",
+   "sent": "2026-11-18T23:59:00Z",
+   "onset": "2026-11-18T23:59:00Z",
+   "ends": "2026-11-19T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1d0f4741926eeb2cfd12b885cc3297bba98bb77.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.94,
-       25.11
+       -79.72,
+       26.82
       ],
       [
-       -80.09,
-       25.22
+       -79.75,
+       26.37
       ],
       [
-       -79.82,
-       25.4
+       -80.1,
+       26.4
       ],
       [
-       -79.55,
-       25.07
+       -80.08,
+       26.78
       ],
       [
-       -79.76,
-       24.89
+       -80.11,
+       26.85
       ],
       [
-       -79.94,
-       25.11
+       -80.1,
+       26.89
+      ],
+      [
+       -79.72,
+       26.82
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.85,
-   "lat": 25.133,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.MA.W.0260.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM"
-   ],
-   "counties": [
-    "75454"
-   ],
-   "sent": "2026-11-18T23:20:00Z",
-   "onset": "2026-11-18T23:20:00Z",
-   "ends": "2026-11-19T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.badab29117f3da1d47ecb45030b790f7a99a5f48.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.13,
-       29.44
-      ],
-      [
-       -81.13,
-       29.45
-      ],
-      [
-       -81.11,
-       29.43
-      ],
-      [
-       -81.14,
-       29.43
-      ],
-      [
-       -81.27,
-       29.68
-      ],
-      [
-       -81.26,
-       29.69
-      ],
-      [
-       -81.28,
-       29.73
-      ],
-      [
-       -81.29,
-       29.74
-      ],
-      [
-       -80.93,
-       29.85
-      ],
-      [
-       -80.76,
-       29.49
-      ],
-      [
-       -80.84,
-       29.48
-      ],
-      [
-       -81.12,
-       29.46
-      ],
-      [
-       -81.11,
-       29.44
-      ],
-      [
-       -81.12,
-       29.45
-      ],
-      [
-       -81.14,
-       29.46
-      ],
-      [
-       -81.13,
-       29.44
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.11,
-   "lat": 29.541,
+   "lon": -79.94,
+   "lat": 26.704,
    "countries": [
     "US"
    ]

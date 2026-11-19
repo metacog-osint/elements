@@ -354,9 +354,9 @@
    "id": "{FF6B3255-4EA4-489B-BEEA-BED216B94E7C}",
    "name": "Greene - Caney Creek Lane",
    "acres": 60.0,
-   "contained": 0,
+   "contained": 45,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-18T21:43:39Z",
+   "updated": "2026-11-18T23:59:29Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -391,20 +391,6 @@
    "complexity": null,
    "lon": -85.8198,
    "lat": 33.5289
-  },
-  {
-   "id": "{AD5B9BD4-9190-4968-BA2A-94D9AAE78348}",
-   "name": "Marion - Brush Creek",
-   "acres": 50.0,
-   "contained": 90,
-   "discovered": "2026-11-18T19:56:00Z",
-   "updated": "2026-11-18T23:26:25Z",
-   "state": "TN",
-   "county": "Marion",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -85.5452,
-   "lat": 35.218
   },
   {
    "id": "{2793843D-035C-4FDF-8140-AAAA83338BB6}",
@@ -715,6 +701,20 @@
    "lat": 18.0952
   },
   {
+   "id": "{7A485C9F-0786-4CE1-9F25-0F9BA19BDCF7}",
+   "name": "378 Brushy Fork Road",
+   "acres": 4.0,
+   "contained": 60,
+   "discovered": "2026-11-18T20:51:00Z",
+   "updated": "2026-11-18T23:50:38Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6173,
+   "lat": 37.2682
+  },
+  {
    "id": "{C9A9E9A5-3207-4448-BC61-C259D8F922C3}",
    "name": "Nelson Park Wheat",
    "acres": 3.0,
@@ -771,18 +771,18 @@
    "lat": 45.8495
   },
   {
-   "id": "{7A485C9F-0786-4CE1-9F25-0F9BA19BDCF7}",
-   "name": "378 Brushy Fork Road",
-   "acres": 3.0,
-   "contained": 40,
-   "discovered": "2026-11-18T20:51:00Z",
-   "updated": "2026-11-18T22:28:10Z",
+   "id": "{F38D2E60-BE6F-4111-8EAD-EC7198C10EBA}",
+   "name": "Leavette",
+   "acres": 2.5,
+   "contained": 0,
+   "discovered": "2026-11-18T21:54:00Z",
+   "updated": "2026-11-18T23:50:37Z",
    "state": "KY",
-   "county": "Pike",
+   "county": "Grayson",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -82.6173,
-   "lat": 37.2682
+   "lon": -86.3076,
+   "lat": 37.4782
   },
   {
    "id": "{1EF476E5-4449-4134-93BF-A894A60C3498}",
@@ -993,20 +993,6 @@
    "complexity": null,
    "lon": -82.0611,
    "lat": 35.7524
-  },
-  {
-   "id": "{92B6484C-018F-4DFB-A21A-D1F89E73B1A4}",
-   "name": "Conway 237",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-18T20:26:32Z",
-   "updated": "2026-11-18T20:37:40Z",
-   "state": "AR",
-   "county": "Conway",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.5691,
-   "lat": 35.433
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1653,20 +1639,6 @@
    "lat": 32.4372
   },
   {
-   "id": "{F65015FD-9773-4D2F-8665-E5305451607C}",
-   "name": "Wayne - Downing Hollow Road 11_18_26",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-18T19:44:00Z",
-   "updated": "2026-11-18T21:35:51Z",
-   "state": "TN",
-   "county": "Wayne",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -87.8094,
-   "lat": 35.2111
-  },
-  {
    "id": "{EB58CDFF-04D2-42A3-A8E0-4097E34BA1C2}",
    "name": "Lafayette Road",
    "acres": 0.1,
@@ -2059,20 +2031,6 @@
    "lat": 48.5553
   },
   {
-   "id": "{AC117E39-8139-4BAF-8A0B-E05B2E1AD488}",
-   "name": "Lac-413847",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-15T23:29:25Z",
-   "updated": "2026-11-15T23:30:41Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.0451,
-   "lat": 34.58
-  },
-  {
    "id": "{27FEC169-161C-4C35-A249-36815FA39D42}",
    "name": "Mtz/Bdc/82A",
    "acres": 0.0,
@@ -2302,13 +2260,27 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-18T23:17:38Z",
-   "updated": "2026-11-18T23:18:23Z",
+   "updated": "2026-11-18T23:59:18Z",
    "state": "CA",
    "county": "Modoc",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -120.7357,
-   "lat": 41.4216
+   "lon": -120.7767,
+   "lat": 41.4072
+  },
+  {
+   "id": "{2BF4339D-95DC-4F67-82DE-176085D8E9A2}",
+   "name": "Lac-417753",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-18T23:36:31Z",
+   "updated": "2026-11-18T23:37:32Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1179,
+   "lat": 34.5725
   }
  ]
 }
