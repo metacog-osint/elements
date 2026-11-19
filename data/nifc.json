@@ -6,7 +6,7 @@
    "acres": 102007.0,
    "contained": 96,
    "discovered": "2026-06-29T12:04:46Z",
-   "updated": "2026-11-12T22:52:47Z",
+   "updated": "2026-11-19T22:29:31Z",
    "state": "CO",
    "county": "Custer",
    "cause": "Human",
@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T21:45:36Z",
+   "updated": "2026-11-19T22:17:24Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -435,32 +435,18 @@
    "lat": 36.6708
   },
   {
-   "id": "{EFB26950-5F90-4C47-B3CF-1D37CC2CB241}",
-   "name": "Garland 300",
-   "acres": 25.0,
-   "contained": null,
-   "discovered": "2026-11-19T17:51:39Z",
-   "updated": "2026-11-19T20:25:31Z",
-   "state": "AR",
-   "county": "Garland",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.2927,
-   "lat": 34.4842
-  },
-  {
    "id": "{05E1F478-9A28-4B73-A0E2-E97ECB80DCAF}",
    "name": "Morgan - Nashville Highway",
    "acres": 25.0,
    "contained": 85,
    "discovered": "2026-11-19T20:45:40Z",
-   "updated": "2026-11-19T21:56:25Z",
+   "updated": "2026-11-19T22:18:01Z",
    "state": "TN",
    "county": "Morgan",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
-   "lon": -84.9004,
-   "lat": 36.1738
+   "lon": -84.8918,
+   "lat": 36.1764
   },
   {
    "id": "{A1ECE04C-AE29-4426-B947-D03D79348D18}",
@@ -785,20 +771,6 @@
    "lat": 18.0952
   },
   {
-   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
-   "name": "Cedar",
-   "acres": 4.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T21:06:25Z",
-   "state": "WI",
-   "county": "Waupaca",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.1726,
-   "lat": 44.6201
-  },
-  {
    "id": "{139C892A-3A58-4421-9FD4-8553BF4A09AC}",
    "name": "Little Paradise",
    "acres": 3.0,
@@ -883,6 +855,20 @@
    "lat": 37.3843
   },
   {
+   "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
+   "name": "Sawyer Lake",
+   "acres": 2.7,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T22:29:55Z",
+   "state": "WI",
+   "county": "Langlade",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.7465,
+   "lat": 45.2497
+  },
+  {
    "id": "{1EF476E5-4449-4134-93BF-A894A60C3498}",
    "name": "Oscoda-12 Corn Cob",
    "acres": 2.4,
@@ -916,10 +902,10 @@
    "acres": 2.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T21:15:20Z",
+   "updated": "2026-11-19T22:33:15Z",
    "state": "WI",
    "county": "Oneida",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -89.5213,
    "lat": 45.6183
@@ -928,9 +914,9 @@
    "id": "{A6BF55B2-F859-4A17-BAA6-EE11A82FF36E}",
    "name": "Left Fork Billys Branch",
    "acres": 2.0,
-   "contained": 0,
+   "contained": 60,
    "discovered": "2026-11-19T18:03:00Z",
-   "updated": "2026-11-19T21:22:40Z",
+   "updated": "2026-11-19T22:09:53Z",
    "state": "KY",
    "county": "Clay",
    "cause": "Undetermined",
@@ -942,15 +928,29 @@
    "id": "{9A9BA7D6-6933-4601-A5E8-824540DC61CF}",
    "name": "Steele Lane",
    "acres": 2.0,
-   "contained": 50,
+   "contained": 75,
    "discovered": "2026-11-19T19:44:00Z",
-   "updated": "2026-11-19T21:27:56Z",
+   "updated": "2026-11-19T22:13:12Z",
    "state": "KY",
    "county": "Knox",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
    "lon": -83.9385,
    "lat": 36.7768
+  },
+  {
+   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
+   "name": "Cedar",
+   "acres": 1.9,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T22:18:54Z",
+   "state": "WI",
+   "county": "Waupaca",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.1726,
+   "lat": 44.6201
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -1007,20 +1007,6 @@
    "complexity": null,
    "lon": -91.0584,
    "lat": 43.241
-  },
-  {
-   "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
-   "name": "Sawyer Lake",
-   "acres": 1.5,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:41:33Z",
-   "state": "WI",
-   "county": "Langlade",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.7519,
-   "lat": 45.2484
   },
   {
    "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
@@ -1121,6 +1107,20 @@
    "lat": 48.949
   },
   {
+   "id": "{AB482909-DA92-49C0-9CA8-BB4D6DA2754C}",
+   "name": "Boyd",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-10-20T19:00:00Z",
+   "updated": "2026-11-19T22:11:46Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.0653,
+   "lat": 45.6611
+  },
+  {
    "id": "{4828F5F3-E7C7-4532-AA8C-FEE75256EEA2}",
    "name": "Woodland Hills Rd.",
    "acres": 1.0,
@@ -1191,18 +1191,18 @@
    "lat": 35.253
   },
   {
-   "id": "{5A35E9D7-0A55-4F9B-BE4B-C0A111E3EB4C}",
-   "name": "Anderson - Johnny Smith Lane",
+   "id": "{9BBE7D64-78E3-4345-90E9-D8174956F573}",
+   "name": "Cass 0048",
    "acres": 1.0,
    "contained": 0,
-   "discovered": "2026-11-19T21:08:28Z",
-   "updated": "2026-11-19T22:00:22Z",
-   "state": "TN",
-   "county": "Anderson",
-   "cause": "Undetermined",
+   "discovered": "2026-11-19T21:45:00Z",
+   "updated": "2026-11-19T22:19:18Z",
+   "state": "TX",
+   "county": "Cass",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
-   "lon": -84.2403,
-   "lat": 36.0922
+   "lon": -94.1412,
+   "lat": 32.9971
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1583,6 +1583,20 @@
    "lat": 17.6934
   },
   {
+   "id": "{6059C4A5-193C-4CC8-B76A-6C4A3AAC2486}",
+   "name": "Stump",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-09-09T21:23:16Z",
+   "updated": "2026-11-19T22:18:02Z",
+   "state": "CA",
+   "county": "Mariposa",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.7034,
+   "lat": 37.6525
+  },
+  {
    "id": "{EDD9B7A6-74C9-41AB-98ED-1829EE09435A}",
    "name": "Highway",
    "acres": 0.1,
@@ -1770,7 +1784,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-17T19:00:00Z",
-   "updated": "2026-11-18T20:02:50Z",
+   "updated": "2026-11-19T22:27:46Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
@@ -1919,20 +1933,6 @@
    "lat": 45.3533
   },
   {
-   "id": "{AE166A57-C9A3-476D-B3BF-6B25CDBCF361}",
-   "name": "abc",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T22:00:37Z",
-   "state": "WI",
-   "county": "Green Lake",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.9184,
-   "lat": 43.8582
-  },
-  {
    "id": "{643F7E1F-4643-4A08-A466-F16BDFEA8ACF}",
    "name": "Skidder",
    "acres": 0.1,
@@ -1945,6 +1945,20 @@
    "complexity": "Type 5 Incident",
    "lon": -93.8713,
    "lat": 35.0241
+  },
+  {
+   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
+   "name": "Lakeside",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-19T20:41:00Z",
+   "updated": "2026-11-19T22:29:43Z",
+   "state": "WI",
+   "county": "Waushara",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2005,
+   "lat": 44.1172
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2199,6 +2213,34 @@
    "lat": 17.994
   },
   {
+   "id": "{8FB753C6-3866-4716-9EA1-ED5F2F5209F3}",
+   "name": "Alpaugh",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-08-19T20:00:00Z",
+   "updated": "2026-11-19T22:24:27Z",
+   "state": "CA",
+   "county": "Tulare",
+   "cause": null,
+   "complexity": null,
+   "lon": -119.2156,
+   "lat": 36.2975
+  },
+  {
+   "id": "{BC1FDEDB-C1BC-45D5-8602-DB7AB69727DF}",
+   "name": "Elk Creek",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-09-02T16:51:00Z",
+   "updated": "2026-11-19T22:07:32Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -122.8707,
+   "lat": 42.8623
+  },
+  {
    "id": "{CB3BE869-9DD2-440F-974C-731274168D13}",
    "name": "Curtis Creek",
    "acres": 0.0,
@@ -2211,6 +2253,20 @@
    "complexity": null,
    "lon": -123.1698,
    "lat": 43.6602
+  },
+  {
+   "id": "{48E29B19-7C73-43E0-87A1-3E6A6564E55E}",
+   "name": "Boyd 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-20T19:00:00Z",
+   "updated": "2026-11-19T22:17:12Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.0653,
+   "lat": 45.6645
   },
   {
    "id": "{D4C2537C-1A17-496D-85E2-D4E0993A7D32}",
@@ -2535,18 +2591,18 @@
    "lat": 44.5505
   },
   {
-   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
-   "name": "Lakeside",
+   "id": "{AE166A57-C9A3-476D-B3BF-6B25CDBCF361}",
+   "name": "Numbers",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T21:42:28Z",
+   "updated": "2026-11-19T22:25:17Z",
    "state": "WI",
-   "county": "Waushara",
+   "county": "Green Lake",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.2001,
-   "lat": 44.1172
+   "lon": -88.9184,
+   "lat": 43.8582
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
