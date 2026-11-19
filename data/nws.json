@@ -1270,43 +1270,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0017.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Fallon",
-    "Carter"
-   ],
-   "counties": [
-    "30011",
-    "30025"
-   ],
-   "sent": "2026-11-18T17:19:00Z",
-   "onset": "2026-11-18T17:19:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab25fda89ebd4b3c76cda30f9ed45874247f11bc.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.5153,
-     45.5168
-    ],
-    [
-     -104.4057,
-     46.3182
-    ]
-   ],
-   "lon": -104.46,
-   "lat": 45.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.HW.W.0022.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1333,55 +1296,6 @@
    ],
    "lon": -143.219,
    "lat": 63.865,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KUNR.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Rapid City SD",
-   "areas": [
-    "Harding",
-    "Butte",
-    "Northern Meade Co Plains",
-    "Southern Perkins"
-   ],
-   "counties": [
-    "46019",
-    "46063",
-    "46093",
-    "46105"
-   ],
-   "sent": "2026-11-18T23:56:00Z",
-   "onset": "2026-11-18T23:56:00Z",
-   "ends": "2026-11-19T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75c1a69981cebb564665d6b840450a51628b966f.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -103.5014,
-     44.8962
-    ],
-    [
-     -103.4739,
-     45.5966
-    ],
-    [
-     -102.7142,
-     44.6053
-    ],
-    [
-     -102.468,
-     45.4834
-    ]
-   ],
-   "lon": -103.039,
-   "lat": 45.145,
    "countries": [
     "US"
    ]
@@ -1418,67 +1332,87 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0344.2026",
+   "id": "KMLB.MA.W.0345.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Melbourne FL",
    "areas": [
+    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+    "Sebastian Inlet to Jupiter Inlet 0-20 nm",
     "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm",
     "Sebastian Inlet to Jupiter Inlet 20-60 nm"
    ],
    "counties": [
+    "75552",
+    "75555",
     "75572",
     "75575"
    ],
-   "sent": "2026-11-19T01:02:00Z",
-   "onset": "2026-11-19T01:02:00Z",
-   "ends": "2026-11-19T02:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a28df71222d185d1d0608c6e827a05e2b216183.001.1",
+   "sent": "2026-11-19T02:28:00Z",
+   "onset": "2026-11-19T02:28:00Z",
+   "ends": "2026-11-19T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad5d91a22506093bf8bf1b03398d08d7f0752be6.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.37,
-       27.86
-      ],
-      [
-       -80.12,
-       28.05
-      ],
-      [
-       -79.91,
-       28.4
-      ],
-      [
-       -79.48,
-       28.14
-      ],
-      [
-       -79.47,
-       28.12
-      ],
-      [
-       -79.43,
+       -80.64,
        28.06
       ],
       [
-       -79.43,
-       28.04
+       -80.64,
+       28.09
       ],
       [
-       -79.37,
-       27.86
+       -80.65,
+       28.1
+      ],
+      [
+       -80.65,
+       28.11
+      ],
+      [
+       -80.69,
+       28.2
+      ],
+      [
+       -80.74,
+       28.33
+      ],
+      [
+       -80.04,
+       28.37
+      ],
+      [
+       -79.73,
+       28.03
+      ],
+      [
+       -79.86,
+       27.64
+      ],
+      [
+       -80.39,
+       27.6
+      ],
+      [
+       -80.4,
+       27.65
+      ],
+      [
+       -80.64,
+       28.06
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.573,
-   "lat": 28.066,
+   "lon": -80.422,
+   "lat": 28.02,
    "countries": [
     "US"
    ]
@@ -1639,9 +1573,9 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
     "Mono",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
     "Lassen-Eastern Plumas-Eastern Sierra Counties"
    ],
    "counties": [
@@ -1660,7 +1594,7 @@
    "sent": "2026-11-18T20:38:00Z",
    "onset": "2026-11-18T20:38:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1817,8 +1751,8 @@
    "certainty": "Likely",
    "sender": "NWS Medford OR",
    "areas": [
-    "Western Siskiyou County",
     "South Central Siskiyou County",
+    "Western Siskiyou County",
     "North Central and Southeast Siskiyou County"
    ],
    "counties": [
@@ -1827,7 +1761,7 @@
    "sent": "2026-11-18T22:58:00Z",
    "onset": "2026-11-18T22:58:00Z",
    "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
