@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T20:02:30Z",
+   "updated": "2026-11-19T21:45:36Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -475,20 +475,6 @@
    "complexity": null,
    "lon": -117.7334,
    "lat": 47.687
-  },
-  {
-   "id": "{56D49CFD-1BC0-4D4B-BBCF-63665473F7E5}",
-   "name": "Robinson Hollow",
-   "acres": 16.5,
-   "contained": null,
-   "discovered": "2026-11-19T05:15:00Z",
-   "updated": "2026-11-19T13:37:46Z",
-   "state": "VA",
-   "county": "Augusta",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -78.9124,
-   "lat": 37.9871
   },
   {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
@@ -2171,6 +2157,20 @@
    "lat": 17.994
   },
   {
+   "id": "{CB3BE869-9DD2-440F-974C-731274168D13}",
+   "name": "Curtis Creek",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-03T22:33:00Z",
+   "updated": "2026-11-19T21:40:36Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.1698,
+   "lat": 43.6602
+  },
+  {
    "id": "{D4C2537C-1A17-496D-85E2-D4E0993A7D32}",
    "name": "Lake Drive",
    "acres": 0.0,
@@ -2498,13 +2498,27 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T21:14:44Z",
+   "updated": "2026-11-19T21:42:28Z",
    "state": "WI",
    "county": "Waushara",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -89.2001,
    "lat": 44.1172
+  },
+  {
+   "id": "{AE166A57-C9A3-476D-B3BF-6B25CDBCF361}",
+   "name": "abc",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T21:50:10Z",
+   "state": "WI",
+   "county": "Green Lake",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.9184,
+   "lat": 43.8582
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
