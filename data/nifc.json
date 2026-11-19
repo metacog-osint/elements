@@ -491,6 +491,20 @@
    "lat": 34.7078
   },
   {
+   "id": "{869D9E7C-DA4F-48A9-9DB5-35DBC4624D2C}",
+   "name": "Baby Bear",
+   "acres": 15.0,
+   "contained": null,
+   "discovered": "2026-04-09T21:00:00Z",
+   "updated": "2026-11-19T19:26:35Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.6383,
+   "lat": 43.3354
+  },
+  {
    "id": "{4C2E7170-4BDC-42C5-A730-A0C09CFD7B39}",
    "name": "Honey Bee",
    "acres": 15.0,
@@ -701,6 +715,20 @@
    "lat": 37.848
   },
   {
+   "id": "{22E426BC-F96A-4585-868D-B13D7932A647}",
+   "name": "Highway 44",
+   "acres": 5.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:32:51Z",
+   "state": "WI",
+   "county": "Green Lake",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.9428,
+   "lat": 43.7418
+  },
+  {
    "id": "{00E4680A-547B-4CC4-80FF-1C4DA0B9FF76}",
    "name": "Playa Grande",
    "acres": 4.0,
@@ -713,6 +741,20 @@
    "complexity": null,
    "lon": -65.5204,
    "lat": 18.0952
+  },
+  {
+   "id": "{139C892A-3A58-4421-9FD4-8553BF4A09AC}",
+   "name": "Little Paradise",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-07-09T00:29:00Z",
+   "updated": "2026-11-19T19:29:21Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.5708,
+   "lat": 43.6901
   },
   {
    "id": "{C9A9E9A5-3207-4448-BC61-C259D8F922C3}",
@@ -769,6 +811,20 @@
    "complexity": "Type 5 Incident",
    "lon": -83.6871,
    "lat": 37.0899
+  },
+  {
+   "id": "{BBF8AFAD-DD15-476A-9CA9-7FE94A0BFC76}",
+   "name": "Elmwood Court",
+   "acres": 3.0,
+   "contained": 0,
+   "discovered": "2026-11-19T18:55:00Z",
+   "updated": "2026-11-19T19:26:30Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6915,
+   "lat": 37.3843
   },
   {
    "id": "{1EF476E5-4449-4134-93BF-A894A60C3498}",
@@ -839,6 +895,20 @@
    "complexity": null,
    "lon": -89.159,
    "lat": 45.8509
+  },
+  {
+   "id": "{33F34922-3D0B-4903-B420-88C7E3764AA2}",
+   "name": "Boswell Fire",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-05-05T00:04:00Z",
+   "updated": "2026-11-19T19:28:49Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.219,
+   "lat": 43.6499
   },
   {
    "id": "{CAFAC3F6-5D03-4D14-A4C4-674ED4A57F7B}",
@@ -1037,6 +1107,20 @@
    "lat": 34.4624
   },
   {
+   "id": "{91351B79-FBAB-4EED-B542-B83C51452858}",
+   "name": "Faulkner 239",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-19T19:23:48Z",
+   "updated": "2026-11-19T19:30:56Z",
+   "state": "AR",
+   "county": "Faulkner",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.4764,
+   "lat": 35.253
+  },
+  {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
    "name": "Cutoff",
    "acres": 0.9,
@@ -1136,11 +1220,11 @@
   },
   {
    "id": "{C37E036D-D5F3-49F5-B228-0D967301B4B0}",
-   "name": "Crab Lake",
+   "name": "Crab",
    "acres": 0.5,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T18:20:12Z",
+   "updated": "2026-11-19T19:11:32Z",
    "state": "WI",
    "county": "Vilas",
    "cause": "Human",
@@ -1150,11 +1234,11 @@
   },
   {
    "id": "{26D85495-8549-4C7C-ACBB-4E1E38C378E0}",
-   "name": "fire 191",
+   "name": "Wolf",
    "acres": 0.5,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:05:22Z",
+   "updated": "2026-11-19T19:08:03Z",
    "state": "WI",
    "county": "Marinette",
    "cause": "Human",
@@ -1280,13 +1364,13 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-17T21:12:40Z",
-   "updated": "2026-11-17T21:47:51Z",
+   "updated": "2026-11-19T19:13:15Z",
    "state": "NC",
-   "county": "Jackson",
+   "county": "Swain",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -83.139,
-   "lat": 35.4675
+   "lon": -83.3189,
+   "lat": 35.4676
   },
   {
    "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
@@ -1639,20 +1723,6 @@
    "lat": 43.5336
   },
   {
-   "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
-   "name": "Seidel",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-17T06:00:00Z",
-   "updated": "2026-11-17T19:15:41Z",
-   "state": "WI",
-   "county": "Florence",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.349,
-   "lat": 45.8654
-  },
-  {
    "id": "{31CDA3A1-89FC-4DFA-809B-67C2B5DFB9BF}",
    "name": "Jack52",
    "acres": 0.1,
@@ -1665,6 +1735,20 @@
    "complexity": null,
    "lon": -80.0997,
    "lat": 35.0744
+  },
+  {
+   "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
+   "name": "Seidel",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-17T18:15:00Z",
+   "updated": "2026-11-19T19:26:33Z",
+   "state": "WI",
+   "county": "Florence",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.349,
+   "lat": 45.8654
   },
   {
    "id": "{CB918629-1590-48CC-A4B7-1C05AE779932}",
@@ -1693,20 +1777,6 @@
    "complexity": null,
    "lon": -121.1739,
    "lat": 42.5671
-  },
-  {
-   "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
-   "name": "Fox",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-19T16:36:50Z",
-   "state": "WI",
-   "county": "Langlade",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -89.2179,
-   "lat": 45.3907
   },
   {
    "id": "{A68F99D5-B18E-4BD4-A174-303D9713CDDE}",
@@ -1847,34 +1917,6 @@
    "complexity": "Type 5 Incident",
    "lon": -93.8713,
    "lat": 35.0241
-  },
-  {
-   "id": "{1434CFAF-3DC6-4B95-8435-D22424B0C5B4}",
-   "name": "Bradley - Bell Road",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-19T17:52:00Z",
-   "updated": "2026-11-19T18:54:27Z",
-   "state": "TN",
-   "county": "Bradley",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.8892,
-   "lat": 35.1088
-  },
-  {
-   "id": "{A23D417B-7085-4A5E-AE93-12668871546F}",
-   "name": "Wayne- Nichols Road",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-19T17:56:00Z",
-   "updated": "2026-11-19T18:31:29Z",
-   "state": "TN",
-   "county": "Wayne",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -87.9502,
-   "lat": 35.1375
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2283,6 +2325,20 @@
    "lat": 44.3955
   },
   {
+   "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
+   "name": "Fox",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-18T06:00:00Z",
+   "updated": "2026-11-19T19:25:14Z",
+   "state": "WI",
+   "county": "Langlade",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -89.2191,
+   "lat": 45.391
+  },
+  {
    "id": "{C5513A85-C9B1-4BDB-97D1-261097544582}",
    "name": "Lac-416864",
    "acres": 0.0,
@@ -2395,20 +2451,6 @@
    "lat": 45.8948
   },
   {
-   "id": "{22E426BC-F96A-4585-868D-B13D7932A647}",
-   "name": "Highway 44",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:03:19Z",
-   "state": "WI",
-   "county": "Green Lake",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.9427,
-   "lat": 43.742
-  },
-  {
    "id": "{E6AB9667-D0DB-4605-8823-DD9AB95DA543}",
    "name": "County P",
    "acres": 0.0,
@@ -2435,6 +2477,20 @@
    "complexity": null,
    "lon": -89.1531,
    "lat": 45.8129
+  },
+  {
+   "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
+   "name": "Sheep Ranch",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:20:21Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5486,
+   "lat": 45.6588
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
