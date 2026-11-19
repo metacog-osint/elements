@@ -105,73 +105,6 @@
    ]
   },
   {
-   "id": "KLOX.FF.W.0017.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo, CA",
-    "Santa Barbara, CA"
-   ],
-   "counties": [
-    "06079",
-    "06083"
-   ],
-   "sent": "2026-11-19T07:47:00Z",
-   "onset": "2026-11-19T07:47:00Z",
-   "ends": "2026-11-19T09:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abb56f53d99ee5c3ce787293a96c3869d1f91501.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -120.36,
-       35.17
-      ],
-      [
-       -120.45,
-       34.86
-      ],
-      [
-       -120.69,
-       34.86
-      ],
-      [
-       -120.68,
-       35.12
-      ],
-      [
-       -120.51,
-       35.35
-      ],
-      [
-       -120.36,
-       35.17
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ]
-   ],
-   "lon": -120.508,
-   "lat": 35.088,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.FF.W.0018.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -489,6 +422,91 @@
    ],
    "lon": -120.089,
    "lat": 35.068,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FF.W.0026.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-19T09:50:00Z",
+   "onset": "2026-11-19T09:50:00Z",
+   "ends": "2026-11-19T12:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf0ac37f65ea9a8b81e88bdd1cc448d485569acf.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.85,
+       28.58
+      ],
+      [
+       -80.6,
+       28.57
+      ],
+      [
+       -80.54,
+       28.57
+      ],
+      [
+       -80.5,
+       28.47
+      ],
+      [
+       -80.51,
+       28.44
+      ],
+      [
+       -80.56,
+       28.39
+      ],
+      [
+       -80.58,
+       28.31
+      ],
+      [
+       -80.57,
+       28.19
+      ],
+      [
+       -80.53,
+       28.12
+      ],
+      [
+       -80.63,
+       28.14
+      ],
+      [
+       -80.85,
+       28.31
+      ],
+      [
+       -80.85,
+       28.58
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.631,
+   "lat": 28.389,
    "countries": [
     "US"
    ]
@@ -1524,121 +1542,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Mono",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06051",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-18T20:38:00Z",
-   "onset": "2026-11-18T20:38:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.154,
-   "lat": 39.342,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KVEF.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Las Vegas NV",
-   "areas": [
-    "Eastern Sierra Slopes of Inyo County"
-   ],
-   "counties": [
-    "06027"
-   ],
-   "sent": "2026-11-18T21:03:00Z",
-   "onset": "2026-11-18T21:03:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.203c1e98668f838a733739c91bc426160f8f0df7.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.4042,
-     36.5622
-    ]
-   ],
-   "lon": -117.404,
-   "lat": 36.562,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.WS.W.0028.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1677,8 +1580,8 @@
    "certainty": "Likely",
    "sender": "NWS Medford OR",
    "areas": [
-    "South Central Siskiyou County",
     "Western Siskiyou County",
+    "South Central Siskiyou County",
     "North Central and Southeast Siskiyou County"
    ],
    "counties": [
@@ -1687,7 +1590,7 @@
    "sent": "2026-11-18T22:58:00Z",
    "onset": "2026-11-18T22:58:00Z",
    "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1761,6 +1664,138 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Mono",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-19T09:40:00Z",
+   "onset": "2026-11-19T09:40:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e26e70a4a87cf6b03bf382927c7ccb1979c030c4.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KVEF.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Las Vegas NV",
+   "areas": [
+    "Spring Mountains-Red Rock Canyon",
+    "Eastern Sierra Slopes of Inyo County",
+    "Esmeralda and Central Nye County"
+   ],
+   "counties": [
+    "06027",
+    "32003",
+    "32009",
+    "32023"
+   ],
+   "sent": "2026-11-19T09:59:00Z",
+   "onset": "2026-11-19T12:00:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56247f053e50af9d5740713ecb1b4fbc9b93307c.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.4042,
+     36.5622
+    ],
+    [
+     -115.0144,
+     36.2141
+    ],
+    [
+     -117.6324,
+     37.779
+    ],
+    [
+     -116.459,
+     37.9659
+    ]
+   ],
+   "lon": -116.627,
+   "lat": 37.13,
    "countries": [
     "US"
    ]
