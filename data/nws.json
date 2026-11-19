@@ -1,91 +1,6 @@
 {
  "records": [
   {
-   "id": "KMLB.FF.W.0029.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-19T14:47:00Z",
-   "onset": "2026-11-19T14:47:00Z",
-   "ends": "2026-11-19T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b06b30c1cee0b8f0feb04e7c34269bea81f582c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.86,
-       28.69
-      ],
-      [
-       -80.65,
-       28.74
-      ],
-      [
-       -80.56,
-       28.6
-      ],
-      [
-       -80.5,
-       28.46
-      ],
-      [
-       -80.5,
-       28.45
-      ],
-      [
-       -80.56,
-       28.39
-      ],
-      [
-       -80.58,
-       28.31
-      ],
-      [
-       -80.57,
-       28.19
-      ],
-      [
-       -80.54,
-       28.13
-      ],
-      [
-       -80.66,
-       28.14
-      ],
-      [
-       -80.85,
-       28.3
-      ],
-      [
-       -80.86,
-       28.69
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.641,
-   "lat": 28.424,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0030.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -555,6 +470,91 @@
    ],
    "lon": -118.259,
    "lat": 33.935,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FF.W.0029.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-19T17:31:00Z",
+   "onset": "2026-11-19T17:31:00Z",
+   "ends": "2026-11-19T19:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f48d7447c9c3143df6f73b467d89778cf77aee1e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.86,
+       28.69
+      ],
+      [
+       -80.65,
+       28.74
+      ],
+      [
+       -80.56,
+       28.6
+      ],
+      [
+       -80.5,
+       28.46
+      ],
+      [
+       -80.5,
+       28.45
+      ],
+      [
+       -80.56,
+       28.39
+      ],
+      [
+       -80.58,
+       28.31
+      ],
+      [
+       -80.57,
+       28.19
+      ],
+      [
+       -80.54,
+       28.13
+      ],
+      [
+       -80.66,
+       28.14
+      ],
+      [
+       -80.85,
+       28.3
+      ],
+      [
+       -80.86,
+       28.69
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.641,
+   "lat": 28.424,
    "countries": [
     "US"
    ]
@@ -1469,6 +1469,49 @@
    ]
   },
   {
+   "id": "KCYS.FW.W.0048.2026",
+   "event": "Red Flag Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Cheyenne WY",
+   "areas": [
+    "North Snowy Range Foothills",
+    "Southern Laramie Valley",
+    "Southern Laramie Range"
+   ],
+   "counties": [
+    "56001",
+    "56007",
+    "56021"
+   ],
+   "sent": "2026-11-19T17:09:00Z",
+   "onset": "2026-11-19T18:00:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5394bd510673eb98bbfd3de67035e624cee92608.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -106.9332,
+     41.7036
+    ],
+    [
+     -104.6604,
+     41.2928
+    ]
+   ],
+   "lon": -105.772,
+   "lat": 41.554,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLOX.SV.W.0015.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
@@ -1481,69 +1524,61 @@
    "counties": [
     "06037"
    ],
-   "sent": "2026-11-19T16:45:00Z",
-   "onset": "2026-11-19T16:45:00Z",
+   "sent": "2026-11-19T17:16:00Z",
+   "onset": "2026-11-19T17:16:00Z",
    "ends": "2026-11-19T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.867970f143a6564162c79a59cf5471580781a3e6.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfababa4c7d6e6c348c1b48b7150622ace43bcd5.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.52,
-       33.91
-      ],
-      [
-       -118.28,
-       34.39
-      ],
-      [
        -117.79,
        34.32
       ],
       [
-       -118.22,
-       33.64
+       -118.19,
+       33.68
       ],
       [
-       -118.25,
-       33.64
+       -118.27,
+       33.69
       ],
       [
-       -118.29,
-       33.63
+       -118.3,
+       33.69
       ],
       [
-       -118.32,
-       33.64
-      ],
-      [
-       -118.44,
-       33.67
-      ],
-      [
-       -118.48,
+       -118.38,
        33.7
       ],
       [
-       -118.5,
-       33.75
+       -118.41,
+       33.72
       ],
       [
-       -118.51,
-       33.78
+       -118.44,
+       33.76
       ],
       [
-       -118.5,
-       33.81
+       -118.43,
+       33.79
       ],
       [
-       -118.48,
-       33.84
+       -118.33,
+       33.88
       ],
       [
-       -118.52,
-       33.91
+       -118.37,
+       33.98
+      ],
+      [
+       -118.11,
+       34.34
+      ],
+      [
+       -117.79,
+       34.32
       ]
      ]
     ]
@@ -1555,8 +1590,8 @@
      34.1964
     ]
    ],
-   "lon": -118.364,
-   "lat": 33.831,
+   "lon": -118.234,
+   "lat": 33.906,
    "countries": [
     "US"
    ]
