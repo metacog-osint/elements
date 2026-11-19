@@ -99,20 +99,6 @@
    "lat": 39.2336
   },
   {
-   "id": "{8C9CB7A0-936C-4A64-AAEF-67A10E597A66}",
-   "name": "Moose Mountain",
-   "acres": 5832.0,
-   "contained": 90,
-   "discovered": "2026-07-30T00:02:00Z",
-   "updated": "2026-11-05T18:21:43Z",
-   "state": "ID",
-   "county": "Clearwater",
-   "cause": "Natural",
-   "complexity": "Type 4 Incident",
-   "lon": -115.2167,
-   "lat": 46.7749
-  },
-  {
    "id": "{DC4342D9-B479-44F1-906C-8ABD42E1F59C}",
    "name": "Sisi",
    "acres": 4816.0,
@@ -216,7 +202,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T17:50:11Z",
+   "updated": "2026-11-19T18:45:20Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -902,13 +888,13 @@
    "acres": 1.3,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T17:28:50Z",
+   "updated": "2026-11-19T18:56:30Z",
    "state": "WI",
    "county": "Lincoln",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.6253,
-   "lat": 45.472
+   "lon": -89.6263,
+   "lat": 45.4719
   },
   {
    "id": "{0ED280BE-EEE0-41D3-8618-92A2445E5152}",
@@ -1028,13 +1014,13 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-19T15:32:48Z",
-   "updated": "2026-11-19T15:42:06Z",
+   "updated": "2026-11-19T18:46:18Z",
    "state": "AR",
    "county": "Dallas",
    "cause": null,
    "complexity": null,
-   "lon": -92.7916,
-   "lat": 33.8511
+   "lon": -92.7827,
+   "lat": 33.8498
   },
   {
    "id": "{EFB26950-5F90-4C47-B3CF-1D37CC2CB241}",
@@ -1163,18 +1149,18 @@
    "lat": 46.1886
   },
   {
-   "id": "{7333F507-7FCF-46BB-AFF7-FFFC44AA0AE1}",
-   "name": "Bradford Town Slate",
+   "id": "{26D85495-8549-4C7C-ACBB-4E1E38C378E0}",
+   "name": "fire 191",
    "acres": 0.5,
-   "contained": 50,
-   "discovered": "2026-11-19T15:05:00Z",
-   "updated": "2026-11-19T17:16:46Z",
-   "state": "KY",
-   "county": "Bell",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6443,
-   "lat": 36.773
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:05:22Z",
+   "state": "WI",
+   "county": "Marinette",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -87.946,
+   "lat": 45.4968
   },
   {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
@@ -1315,6 +1301,20 @@
    "complexity": null,
    "lon": -89.3421,
    "lat": 45.6394
+  },
+  {
+   "id": "{03629331-AE22-4527-90CD-AA74DBC2C374}",
+   "name": "Pickerel Lake",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T18:49:46Z",
+   "state": "WI",
+   "county": "Oconto",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.5805,
+   "lat": 45.3528
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1471,20 +1471,6 @@
    "lat": 34.2349
   },
   {
-   "id": "{3561F611-19F7-49E0-BA9E-E09BE61B8CF0}",
-   "name": "Lincoln",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-21T14:58:00Z",
-   "updated": "2026-11-18T18:07:40Z",
-   "state": "WA",
-   "county": "Okanogan",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -120.6136,
-   "lat": 48.4645
-  },
-  {
    "id": "{0EC49717-A0E7-49AF-8A7B-9D4ADCACF802}",
    "name": "Signal",
    "acres": 0.1,
@@ -1553,20 +1539,6 @@
    "complexity": null,
    "lon": -79.0887,
    "lat": 41.8283
-  },
-  {
-   "id": "{5237C840-7338-4718-BACB-298C4EB3116E}",
-   "name": "Jordan2",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-10T18:30:00Z",
-   "updated": "2026-11-19T18:34:29Z",
-   "state": "MS",
-   "county": "Tishomingo",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.2764,
-   "lat": 34.5453
   },
   {
    "id": "{BFE704D2-5150-455C-B194-C260B605A89C}",
@@ -1850,31 +1822,17 @@
   },
   {
    "id": "{F8F54710-5B39-4B0E-95A7-913596B01998}",
-   "name": "Number 189",
+   "name": "Augustyne Springs",
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T18:01:51Z",
+   "updated": "2026-11-19T18:41:36Z",
    "state": "WI",
    "county": "Langlade",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.0098,
-   "lat": 45.3176
-  },
-  {
-   "id": "{03629331-AE22-4527-90CD-AA74DBC2C374}",
-   "name": "Fire 190",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T18:14:46Z",
-   "state": "WI",
-   "county": "Oconto",
    "cause": "Human",
    "complexity": null,
-   "lon": -88.5805,
-   "lat": 45.3528
+   "lon": -88.9943,
+   "lat": 45.3077
   },
   {
    "id": "{643F7E1F-4643-4A08-A466-F16BDFEA8ACF}",
@@ -1889,6 +1847,20 @@
    "complexity": "Type 5 Incident",
    "lon": -93.8713,
    "lat": 35.0241
+  },
+  {
+   "id": "{1434CFAF-3DC6-4B95-8435-D22424B0C5B4}",
+   "name": "Bradley - Bell Road",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-19T17:52:00Z",
+   "updated": "2026-11-19T18:54:27Z",
+   "state": "TN",
+   "county": "Bradley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.8892,
+   "lat": 35.1088
   },
   {
    "id": "{A23D417B-7085-4A5E-AE93-12668871546F}",
@@ -2115,6 +2087,20 @@
    "lat": 18.0664
   },
   {
+   "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
+   "name": "Petroleum",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-06-28T21:39:00Z",
+   "updated": "2026-11-19T18:59:10Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.4012,
+   "lat": 35.1115
+  },
+  {
    "id": "{C1507BF6-8653-4D6B-AD88-FC8E96C3726A}",
    "name": "Zapato",
    "acres": 0.0,
@@ -2211,34 +2197,6 @@
    "complexity": null,
    "lon": -90.4926,
    "lat": 43.9564
-  },
-  {
-   "id": "{0F220A1F-9A4E-4319-989C-4AB284A8E665}",
-   "name": "Milk River",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-16T05:00:00Z",
-   "updated": "2026-11-16T18:59:09Z",
-   "state": "MT",
-   "county": "Glacier",
-   "cause": null,
-   "complexity": null,
-   "lon": -113.3278,
-   "lat": 48.6547
-  },
-  {
-   "id": "{9735FC45-79BD-45BD-A206-51B094266365}",
-   "name": "Lac-414824",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-16T19:01:41Z",
-   "updated": "2026-11-16T19:02:48Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.365,
-   "lat": 33.9301
   },
   {
    "id": "{0FB96BA4-E794-483B-B17E-99E0DFBDD615}",
@@ -2423,32 +2381,60 @@
    "lat": 45.7765
   },
   {
-   "id": "{F01F9250-60DB-47F0-9929-8341802DFEB3}",
-   "name": "Little Portage Lake",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T17:23:06Z",
-   "state": "WI",
-   "county": "Vilas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.248,
-   "lat": 46.1322
-  },
-  {
    "id": "{AA9A9C5F-D971-4FB5-ABE0-8F17C52AC6D1}",
    "name": "Balsam",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T18:19:42Z",
+   "updated": "2026-11-19T18:59:14Z",
    "state": "WI",
    "county": "Oneida",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.6935,
-   "lat": 45.8953
+   "lon": -89.6925,
+   "lat": 45.8948
+  },
+  {
+   "id": "{22E426BC-F96A-4585-868D-B13D7932A647}",
+   "name": "Highway 44",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:03:19Z",
+   "state": "WI",
+   "county": "Green Lake",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.9427,
+   "lat": 43.742
+  },
+  {
+   "id": "{E6AB9667-D0DB-4605-8823-DD9AB95DA543}",
+   "name": "County P",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:00:41Z",
+   "state": "WI",
+   "county": "Vilas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.7844,
+   "lat": 46.1763
+  },
+  {
+   "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
+   "name": "Townline Lake",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:04:55Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.1531,
+   "lat": 45.8129
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
