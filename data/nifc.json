@@ -90,7 +90,7 @@
    "acres": 7359.0,
    "contained": 92,
    "discovered": "2026-06-28T21:27:00Z",
-   "updated": "2026-11-12T23:08:15Z",
+   "updated": "2026-11-19T14:57:18Z",
    "state": "CO",
    "county": "Lake",
    "cause": "Human",
@@ -216,11 +216,11 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T14:22:43Z",
+   "updated": "2026-11-19T15:05:00Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
-   "complexity": "Type 5 Incident",
+   "complexity": "Type 3 Incident",
    "lon": -82.7985,
    "lat": 36.363
   },
@@ -1023,6 +1023,20 @@
    "lat": 45.7882
   },
   {
+   "id": "{79968122-DD56-4997-9808-27239CEC2CEE}",
+   "name": "Oak Hill",
+   "acres": 0.8,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T15:01:43Z",
+   "state": "WI",
+   "county": "Eau Claire",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -91.2666,
+   "lat": 44.8477
+  },
+  {
    "id": "{10E3AF71-624D-4274-9B0B-0EBD0E3B2E9C}",
    "name": "Balsam Lake",
    "acres": 0.7,
@@ -1560,7 +1574,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-17T13:52:35Z",
-   "updated": "2026-11-18T18:11:56Z",
+   "updated": "2026-11-19T14:45:09Z",
    "state": "NC",
    "county": "Anson",
    "cause": "Human",
@@ -2003,20 +2017,6 @@
    "lat": 48.5553
   },
   {
-   "id": "{B6A7E4B3-DAF2-4C45-8AD0-61288A510DBE}",
-   "name": "Whooping Crane",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-14T06:00:00Z",
-   "updated": "2026-11-16T14:05:31Z",
-   "state": "WI",
-   "county": "Monroe",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.5403,
-   "lat": 44.0512
-  },
-  {
    "id": "{C91CC02A-9780-45B3-B38C-70B4499BF1E0}",
    "name": "Red",
    "acres": 0.0,
@@ -2043,20 +2043,6 @@
    "complexity": null,
    "lon": -113.3278,
    "lat": 48.6547
-  },
-  {
-   "id": "{B7C50B54-D6D7-4B30-991C-E5A2BBFF5895}",
-   "name": "Lac-414552",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-16T14:40:05Z",
-   "updated": "2026-11-16T14:46:49Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.9429,
-   "lat": 34.1071
   },
   {
    "id": "{9735FC45-79BD-45BD-A206-51B094266365}",
