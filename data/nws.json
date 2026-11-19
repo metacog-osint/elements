@@ -245,6 +245,75 @@
    ]
   },
   {
+   "id": "KLOX.FF.W.0019.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Santa Barbara, CA"
+   ],
+   "counties": [
+    "06083"
+   ],
+   "sent": "2026-11-19T08:44:00Z",
+   "onset": "2026-11-19T08:44:00Z",
+   "ends": "2026-11-19T10:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18dc89620786164bf10669ff0ee964ad30532553.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -120.52,
+       34.7
+      ],
+      [
+       -120.66,
+       34.65
+      ],
+      [
+       -120.63,
+       34.7
+      ],
+      [
+       -120.65,
+       34.76
+      ],
+      [
+       -120.64,
+       34.87
+      ],
+      [
+       -120.4,
+       34.87
+      ],
+      [
+       -120.45,
+       34.7
+      ],
+      [
+       -120.52,
+       34.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -120.0384,
+     34.5367
+    ]
+   ],
+   "lon": -120.559,
+   "lat": 34.744,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -535,69 +604,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-19T01:19:00Z",
-   "onset": "2026-11-19T01:19:00Z",
-   "ends": "2026-11-19T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9855a0edbf3fe6de29dab359e27d7423603a4371.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0007.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -667,10 +673,10 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-19T07:00:00Z",
-   "onset": "2026-11-19T07:00:00Z",
+   "sent": "2026-11-19T08:44:00Z",
+   "onset": "2026-11-19T08:44:00Z",
    "ends": "2026-11-19T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75078cf824cc430c43253a6ed53ff7c5cbc802ec.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d65ab1cc546378e08af2a1513cb65deeaebb79af.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -707,6 +713,69 @@
    ],
    "lon": -80.88,
    "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-19T08:54:00Z",
+   "onset": "2026-11-19T08:54:00Z",
+   "ends": "2026-11-19T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04a217b5394245d862562234f25201c99192752a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
    "countries": [
     "US"
    ]
@@ -1282,9 +1351,9 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
     "Mono",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
     "Lassen-Eastern Plumas-Eastern Sierra Counties"
    ],
    "counties": [
@@ -1303,7 +1372,7 @@
    "sent": "2026-11-18T20:38:00Z",
    "onset": "2026-11-18T20:38:00Z",
    "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5416d8d37928fb8a215891a067f1bad3b1dcdd3.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1428,8 +1497,8 @@
    "certainty": "Likely",
    "sender": "NWS Medford OR",
    "areas": [
-    "Western Siskiyou County",
     "South Central Siskiyou County",
+    "Western Siskiyou County",
     "North Central and Southeast Siskiyou County"
    ],
    "counties": [
@@ -1438,7 +1507,7 @@
    "sent": "2026-11-18T22:58:00Z",
    "onset": "2026-11-18T22:58:00Z",
    "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6aa489676181f5fb2b2bbcce0eb6cda95aaec1d.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1512,38 +1581,6 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.WS.W.0004.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Southern Trinity",
-    "Northeastern Trinity"
-   ],
-   "counties": [
-    "06105"
-   ],
-   "sent": "2026-11-19T06:52:00Z",
-   "onset": "2026-11-19T06:52:00Z",
-   "ends": "2026-11-19T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.023e8216c54229f026b71e849eb6a665c0d4f541.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1147,
-     40.6479
-    ]
-   ],
-   "lon": -123.115,
-   "lat": 40.648,
    "countries": [
     "US"
    ]
