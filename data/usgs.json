@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000ubzm",
+   "mag": 4.9,
+   "place": "65 km SSW of Atka, Alaska",
+   "time": "2026-11-19T13:05:22Z",
+   "updated": "2026-11-19T13:24:52Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubzm",
+   "depth_km": 46.1,
+   "lon": -174.66,
+   "lat": 51.68,
+   "countries": []
+  },
+  {
    "id": "us6000ubz1",
    "mag": 5.0,
    "place": "31 km WSW of Rabaul, Papua New Guinea",
@@ -195,10 +210,10 @@
    "mag": 5.3,
    "place": "4 km NNW of Tsunagi, Japan",
    "time": "2026-11-18T17:22:23Z",
-   "updated": "2026-11-19T06:25:44Z",
+   "updated": "2026-11-19T13:35:11Z",
    "alert": null,
    "tsunami": false,
-   "sig": 435,
+   "sig": 436,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
    "depth_km": 10.0,
    "lon": 130.461,
@@ -1666,23 +1681,6 @@
    "lon": 126.113,
    "lat": 1.122,
    "countries": []
-  },
-  {
-   "id": "us7000txsr",
-   "mag": 4.5,
-   "place": "3 km E of Tako, Japan",
-   "time": "2026-11-12T13:27:22Z",
-   "updated": "2026-11-12T15:44:39Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsr",
-   "depth_km": 73.4,
-   "lon": 140.51,
-   "lat": 35.732,
-   "countries": [
-    "JP"
-   ]
   }
  ]
 }
