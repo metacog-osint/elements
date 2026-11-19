@@ -89,10 +89,33 @@
    ]
   },
   {
+   "id": "FL-1104288",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Kenya",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-13T01:00:00Z",
+   "to": "2026-11-15T01:00:00Z",
+   "current": false,
+   "country": "Kenya",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104288&episodeid=1&eventtype=FL",
+   "lon": 39.551,
+   "lat": -1.536,
+   "countries": [
+    "KE"
+   ]
+  },
+  {
    "id": "FL-1104285",
    "type": "FL",
    "kind": "flood",
-   "episode": 2,
+   "episode": 3,
    "name": "Flood in Croatia",
    "alert": "green",
    "score": 1,
@@ -100,13 +123,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-12T01:00:00Z",
-   "to": "2026-11-14T01:00:00Z",
-   "current": false,
+   "to": "2026-11-18T01:00:00Z",
+   "current": true,
    "country": "Croatia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104285&episodeid=2&eventtype=FL",
-   "lon": 14.374,
-   "lat": 45.444,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104285&episodeid=3&eventtype=FL",
+   "lon": 16.096,
+   "lat": 43.931,
    "countries": [
     "HR"
    ]
@@ -521,7 +544,7 @@
    "id": "FL-1104259",
    "type": "FL",
    "kind": "flood",
-   "episode": 9,
+   "episode": 10,
    "name": "Flood in Peru",
    "alert": "green",
    "score": 1,
@@ -529,13 +552,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-16T01:00:00Z",
+   "to": "2026-11-18T01:00:00Z",
    "current": true,
    "country": "Peru",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=9&eventtype=FL",
-   "lon": -80.572,
-   "lat": -3.631,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=10&eventtype=FL",
+   "lon": -77.674,
+   "lat": -9.291,
    "countries": [
     "PE"
    ]
@@ -657,7 +680,7 @@
    "id": "FL-1104216",
    "type": "FL",
    "kind": "flood",
-   "episode": 15,
+   "episode": 12,
    "name": "Flood in Brazil",
    "alert": "green",
    "score": 1,
@@ -669,9 +692,9 @@
    "current": true,
    "country": "Brazil",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=15&eventtype=FL",
-   "lon": -43.772,
-   "lat": -14.338,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=12&eventtype=FL",
+   "lon": -48.433,
+   "lat": -22.07,
    "countries": [
     "BR"
    ]

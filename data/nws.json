@@ -166,6 +166,73 @@
    ]
   },
   {
+   "id": "KLOX.FF.W.0017.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "San Luis Obispo, CA",
+    "Santa Barbara, CA"
+   ],
+   "counties": [
+    "06079",
+    "06083"
+   ],
+   "sent": "2026-11-19T07:47:00Z",
+   "onset": "2026-11-19T07:47:00Z",
+   "ends": "2026-11-19T09:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abb56f53d99ee5c3ce787293a96c3869d1f91501.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -120.36,
+       35.17
+      ],
+      [
+       -120.45,
+       34.86
+      ],
+      [
+       -120.69,
+       34.86
+      ],
+      [
+       -120.68,
+       35.12
+      ],
+      [
+       -120.51,
+       35.35
+      ],
+      [
+       -120.36,
+       35.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ]
+   ],
+   "lon": -120.508,
+   "lat": 35.088,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -753,56 +820,6 @@
    ]
   },
   {
-   "id": "KMFL.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Inland Palm Beach County",
-    "Metro Palm Beach County",
-    "Inland Broward County",
-    "Metro Broward County",
-    "Inland Miami-Dade County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County",
-    "Far South Miami-Dade County"
-   ],
-   "counties": [
-    "12011",
-    "12086",
-    "12099"
-   ],
-   "sent": "2026-11-18T17:50:00Z",
-   "onset": "2026-11-18T17:50:00Z",
-   "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.996f2b2710c35828265887809d90336a5516f695.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.476,
-   "lat": 26.153,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -953,6 +970,56 @@
    ]
   },
   {
+   "id": "KMFL.FA.A.0003.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Inland Palm Beach County",
+    "Metro Palm Beach County",
+    "Inland Broward County",
+    "Metro Broward County",
+    "Inland Miami-Dade County",
+    "Metropolitan Miami Dade",
+    "Coastal Palm Beach County",
+    "Coastal Broward County",
+    "Coastal Miami Dade County",
+    "Far South Miami-Dade County"
+   ],
+   "counties": [
+    "12011",
+    "12086",
+    "12099"
+   ],
+   "sent": "2026-11-19T07:51:00Z",
+   "onset": "2026-11-19T07:51:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e137ee0c26e3ff14d4b275565ab4c6d285721595.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ],
+    [
+     -80.4484,
+     26.6491
+    ]
+   ],
+   "lon": -80.476,
+   "lat": 26.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1000,6 +1067,49 @@
    "points": [],
    "lon": null,
    "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.HW.A.0006.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Southern Sangre De Cristo Mountains Between 7500 and 11000 Ft",
+    "Southern Sangre De Cristo Mountains Above 11000 Ft",
+    "Walsenburg Vicinity/Upper Huerfano River Basin Below 7500 Ft"
+   ],
+   "counties": [
+    "08023",
+    "08055",
+    "08071"
+   ],
+   "sent": "2026-11-19T07:54:00Z",
+   "onset": "2026-11-20T06:00:00Z",
+   "ends": "2026-11-20T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fd23a4b6db8f00869fcd41bfa9a20f8d550cc13.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.4289,
+     37.2775
+    ],
+    [
+     -104.9599,
+     37.6878
+    ],
+    [
+     -104.0441,
+     37.3188
+    ]
+   ],
+   "lon": -104.811,
+   "lat": 37.428,
    "countries": [
     "US"
    ]
