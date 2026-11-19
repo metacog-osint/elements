@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T22:17:24Z",
+   "updated": "2026-11-19T23:03:16Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -421,6 +421,20 @@
    "lat": 33.5289
   },
   {
+   "id": "{BBF8AFAD-DD15-476A-9CA9-7FE94A0BFC76}",
+   "name": "Elmwood Court",
+   "acres": 30.0,
+   "contained": 0,
+   "discovered": "2026-11-19T18:55:00Z",
+   "updated": "2026-11-19T22:42:29Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6915,
+   "lat": 37.3843
+  },
+  {
    "id": "{2793843D-035C-4FDF-8140-AAAA83338BB6}",
    "name": "Rockhouse",
    "acres": 25.0,
@@ -447,20 +461,6 @@
    "complexity": "Type 5 Incident",
    "lon": -84.8918,
    "lat": 36.1764
-  },
-  {
-   "id": "{A1ECE04C-AE29-4426-B947-D03D79348D18}",
-   "name": "Bates Pond",
-   "acres": 18.0,
-   "contained": null,
-   "discovered": "2026-11-17T19:31:00Z",
-   "updated": "2026-11-18T16:02:03Z",
-   "state": "SC",
-   "county": "Berkeley",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -79.7768,
-   "lat": 33.0353
   },
   {
    "id": "{7794EF27-7497-4FCB-ADFD-029D70A332AE}",
@@ -631,6 +631,20 @@
    "lat": 34.8938
   },
   {
+   "id": "{A6BF55B2-F859-4A17-BAA6-EE11A82FF36E}",
+   "name": "Left Fork Billys Branch",
+   "acres": 9.0,
+   "contained": 80,
+   "discovered": "2026-11-19T18:03:00Z",
+   "updated": "2026-11-19T22:53:02Z",
+   "state": "KY",
+   "county": "Clay",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6734,
+   "lat": 37.1006
+  },
+  {
    "id": "{04BD4D83-95FE-440B-A7F3-64F293F48928}",
    "name": "Cactus",
    "acres": 7.0,
@@ -734,13 +748,13 @@
    "acres": 5.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:32:51Z",
+   "updated": "2026-11-19T22:54:04Z",
    "state": "WI",
    "county": "Green Lake",
    "cause": "Human",
    "complexity": null,
-   "lon": -88.9428,
-   "lat": 43.7418
+   "lon": -88.9443,
+   "lat": 43.7354
   },
   {
    "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
@@ -769,6 +783,20 @@
    "complexity": null,
    "lon": -65.5204,
    "lat": 18.0952
+  },
+  {
+   "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
+   "name": "Bitternut",
+   "acres": 3.7,
+   "contained": null,
+   "discovered": "2026-10-24T02:00:00Z",
+   "updated": "2026-11-19T22:55:42Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.8269,
+   "lat": 44.6578
   },
   {
    "id": "{139C892A-3A58-4421-9FD4-8553BF4A09AC}",
@@ -827,34 +855,6 @@
    "lat": 36.6386
   },
   {
-   "id": "{FB87DBAE-99D3-4908-AA81-3A0034C069F9}",
-   "name": "Grannies Branch #2",
-   "acres": 3.0,
-   "contained": 70,
-   "discovered": "2026-11-19T02:04:00Z",
-   "updated": "2026-11-19T21:32:41Z",
-   "state": "KY",
-   "county": "Clay",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6871,
-   "lat": 37.0899
-  },
-  {
-   "id": "{BBF8AFAD-DD15-476A-9CA9-7FE94A0BFC76}",
-   "name": "Elmwood Court",
-   "acres": 3.0,
-   "contained": 0,
-   "discovered": "2026-11-19T18:55:00Z",
-   "updated": "2026-11-19T19:26:30Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.6915,
-   "lat": 37.3843
-  },
-  {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
    "name": "Sawyer Lake",
    "acres": 2.7,
@@ -909,34 +909,6 @@
    "complexity": null,
    "lon": -89.5213,
    "lat": 45.6183
-  },
-  {
-   "id": "{A6BF55B2-F859-4A17-BAA6-EE11A82FF36E}",
-   "name": "Left Fork Billys Branch",
-   "acres": 2.0,
-   "contained": 60,
-   "discovered": "2026-11-19T18:03:00Z",
-   "updated": "2026-11-19T22:09:53Z",
-   "state": "KY",
-   "county": "Clay",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6734,
-   "lat": 37.1006
-  },
-  {
-   "id": "{9A9BA7D6-6933-4601-A5E8-824540DC61CF}",
-   "name": "Steele Lane",
-   "acres": 2.0,
-   "contained": 75,
-   "discovered": "2026-11-19T19:44:00Z",
-   "updated": "2026-11-19T22:13:12Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.9385,
-   "lat": 36.7768
   },
   {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
@@ -1189,20 +1161,6 @@
    "complexity": null,
    "lon": -92.4764,
    "lat": 35.253
-  },
-  {
-   "id": "{9BBE7D64-78E3-4345-90E9-D8174956F573}",
-   "name": "Cass 0048",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-19T21:45:00Z",
-   "updated": "2026-11-19T22:19:18Z",
-   "state": "TX",
-   "county": "Cass",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -94.1412,
-   "lat": 32.9971
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1569,6 +1527,20 @@
    "lat": 18.0013
   },
   {
+   "id": "{54A2D2DD-8D4D-4058-8460-31D355DE1305}",
+   "name": "Picnic",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-08-02T17:30:28Z",
+   "updated": "2026-11-19T22:53:45Z",
+   "state": "CA",
+   "county": "Mariposa",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.6253,
+   "lat": 37.7231
+  },
+  {
    "id": "{F545B85B-0D96-44D6-95A0-9A06160788AF}",
    "name": "Williams Delight",
    "acres": 0.1,
@@ -1595,6 +1567,20 @@
    "complexity": null,
    "lon": -119.7034,
    "lat": 37.6525
+  },
+  {
+   "id": "{5DB23DF9-6933-4CC6-BCAC-D1967F3584CA}",
+   "name": "Polly",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-10-08T01:11:00Z",
+   "updated": "2026-11-19T22:51:35Z",
+   "state": "CA",
+   "county": "Mariposa",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -119.4539,
+   "lat": 37.8617
   },
   {
    "id": "{EDD9B7A6-74C9-41AB-98ED-1829EE09435A}",
@@ -2241,6 +2227,20 @@
    "lat": 42.8623
   },
   {
+   "id": "{95736EB3-168C-4217-9896-87213C2BC507}",
+   "name": "Little Gazley",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-09-24T23:38:00Z",
+   "updated": "2026-11-19T22:37:36Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.2447,
+   "lat": 42.9504
+  },
+  {
    "id": "{CB3BE869-9DD2-440F-974C-731274168D13}",
    "name": "Curtis Creek",
    "acres": 0.0,
@@ -2267,6 +2267,62 @@
    "complexity": null,
    "lon": -92.0653,
    "lat": 45.6645
+  },
+  {
+   "id": "{1B7FF23E-FAF8-43F2-B26B-555FA9AD63E8}",
+   "name": "Baler 1",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-30T19:44:00Z",
+   "updated": "2026-11-19T22:49:47Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2913,
+   "lat": 44.5719
+  },
+  {
+   "id": "{7B513A35-50F8-4E7C-ADF6-ADD6B50E9EA0}",
+   "name": "Baler 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-30T19:44:00Z",
+   "updated": "2026-11-19T22:48:55Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2908,
+   "lat": 44.5719
+  },
+  {
+   "id": "{1ACB6160-DD54-4C7A-9AAD-739EAF3F385C}",
+   "name": "Baler 3",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-30T19:44:00Z",
+   "updated": "2026-11-19T22:48:29Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2889,
+   "lat": 44.5719
+  },
+  {
+   "id": "{95A54C36-CB10-4002-8877-3715DFFF3EE7}",
+   "name": "Baler 4",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-30T19:44:00Z",
+   "updated": "2026-11-19T22:47:03Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2885,
+   "lat": 44.5718
   },
   {
    "id": "{D4C2537C-1A17-496D-85E2-D4E0993A7D32}",
