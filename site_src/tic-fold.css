@@ -1,0 +1,21 @@
+/*! tic-fold.css v1.1 · pairs with tic-fold.js (canonical copy in the hub's site/shared/).
+    Takes the page's own colours: --panel (else --bg), --line, --muted and --link if the page has them, so each
+    product keeps its own colours. The button is at least 44 px tall (WCAG 2.2 target size). Nothing moves. */
+.tic-fold-on .tic-fold-x, .tic-fold-miss { display: none; }
+.tic-fold-bar, .tic-fold-find { --tf-bg: var(--panel, var(--bg, transparent)); --tf-line: var(--line, rgba(127, 127, 127, .45));
+  --tf-muted: var(--muted, inherit); --tf-on: var(--link, currentColor); }
+.tic-fold-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 8px 0 4px; }
+.tic-fold-bar[hidden], .tic-fold-find[hidden], .tic-fold-more[hidden] { display: none; }
+.tic-fold-more { min-height: 44px; padding: 8px 14px; font: inherit; font-size: 14px; font-weight: 600;
+  color: var(--tf-on); background: var(--tf-bg); border: 1px solid var(--tf-line); border-radius: 8px; cursor: pointer; }
+.tic-fold-more:hover { text-decoration: underline; }
+.tic-fold-more:focus-visible, .tic-fold-find input:focus-visible { outline: 2px solid var(--tf-on); outline-offset: 2px; }
+.tic-fold-note { font-size: 13px; color: var(--tf-muted); }
+.tic-fold-find { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: 4px 0 8px;
+  font-size: 14px; color: var(--tf-muted); }
+.tic-fold-find input { min-height: 36px; min-width: 12em; max-width: 100%; padding: 4px 8px; font: inherit;
+  color: inherit; background: var(--tf-bg); border: 1px solid var(--tf-line); border-radius: 6px; }
+@media print {
+  .tic-fold-on .tic-fold-x { display: revert; }
+  .tic-fold-bar, .tic-fold-find { display: none; }
+}

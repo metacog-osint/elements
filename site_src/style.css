@@ -102,13 +102,4 @@ td.num, th.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* My area (tic-area.js): rows for places outside the viewer's area */
 tr.outside { opacity: .45; }
-/* Long tables on a phone: the first rows and a "Show all" button (app.js table()); wider screens show every row. */
-.tbl-more { display: none; }
-@media (max-width: 760px) {
-  .tbl-fold:not(.open) tr.fold { display: none; }
-  .tbl-more { display: inline-block; margin: 8px 0 2px; min-height: 44px; padding: 8px 14px; font: inherit; font-size: 14px;
-    font-weight: 600; color: var(--link); background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
-    cursor: pointer; }
-  .tbl-more:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-}
-@media print { .tbl-fold:not(.open) tr.fold { display: table-row; } .tbl-more { display: none; } }
+/* Long tables: the first rows and "Show all N" at every width (tic-fold.js and tic-fold.css from the hub). */
