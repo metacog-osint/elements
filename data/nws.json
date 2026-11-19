@@ -1,89 +1,6 @@
 {
  "records": [
   {
-   "id": "KMLB.FF.W.0028.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL",
-    "Orange, FL"
-   ],
-   "counties": [
-    "12009",
-    "12095"
-   ],
-   "sent": "2026-11-19T14:20:00Z",
-   "onset": "2026-11-19T14:20:00Z",
-   "ends": "2026-11-19T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d546be1970d7388d0a2b27a70657b3a764e6f03.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.1,
-       28.61
-      ],
-      [
-       -80.96,
-       28.61
-      ],
-      [
-       -80.96,
-       28.62
-      ],
-      [
-       -80.85,
-       28.62
-      ],
-      [
-       -80.85,
-       28.34
-      ],
-      [
-       -80.86,
-       28.34
-      ],
-      [
-       -80.86,
-       28.35
-      ],
-      [
-       -80.96,
-       28.35
-      ],
-      [
-       -81.09,
-       28.53
-      ],
-      [
-       -81.1,
-       28.61
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ],
-    [
-     -81.3233,
-     28.5144
-    ]
-   ],
-   "lon": -80.959,
-   "lat": 28.498,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0029.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -440,10 +357,10 @@
    "counties": [
     "06037"
    ],
-   "sent": "2026-11-19T16:03:00Z",
-   "onset": "2026-11-19T16:03:00Z",
+   "sent": "2026-11-19T16:05:00Z",
+   "onset": "2026-11-19T16:05:00Z",
    "ends": "2026-11-19T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1659ebb0a6ab03122b5e06c58336de60a995165a.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c8906e7f37073bcef1fd24e465072cc63803c9d.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -484,6 +401,89 @@
    ],
    "lon": -118.558,
    "lat": 34.073,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FF.W.0028.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL",
+    "Orange, FL"
+   ],
+   "counties": [
+    "12009",
+    "12095"
+   ],
+   "sent": "2026-11-19T16:06:00Z",
+   "onset": "2026-11-19T16:06:00Z",
+   "ends": "2026-11-19T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11d67aedf66a0e69585206d8518d0eabb8bd5334.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.1,
+       28.61
+      ],
+      [
+       -80.96,
+       28.61
+      ],
+      [
+       -80.96,
+       28.62
+      ],
+      [
+       -80.85,
+       28.62
+      ],
+      [
+       -80.85,
+       28.34
+      ],
+      [
+       -80.86,
+       28.34
+      ],
+      [
+       -80.86,
+       28.35
+      ],
+      [
+       -80.96,
+       28.35
+      ],
+      [
+       -81.09,
+       28.53
+      ],
+      [
+       -81.1,
+       28.61
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ],
+    [
+     -81.3233,
+     28.5144
+    ]
+   ],
+   "lon": -80.959,
+   "lat": 28.498,
    "countries": [
     "US"
    ]
@@ -1410,44 +1410,28 @@
    "counties": [
     "06037"
    ],
-   "sent": "2026-11-19T15:16:00Z",
-   "onset": "2026-11-19T15:16:00Z",
+   "sent": "2026-11-19T16:05:00Z",
+   "onset": "2026-11-19T16:05:00Z",
    "ends": "2026-11-19T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50ae2f02dc2e076c419caeb877e232d05599e58.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef1e4486c1bfdf6f3376b9ca5e88052cd6a0d9a4.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.88,
-       33.97
+       -118.75,
+       34.02
       ],
       [
-       -118.81,
-       34.11
+       -118.71,
+       34.1
       ],
       [
-       -118.73,
-       34.17
+       -118.55,
+       34.21
       ],
       [
-       -118.67,
-       34.17
-      ],
-      [
-       -118.67,
-       34.24
-      ],
-      [
-       -118.63,
-       34.24
-      ],
-      [
-       -118.64,
-       34.31
-      ],
-      [
-       -118.5,
+       -118.47,
        34.48
       ],
       [
@@ -1475,12 +1459,20 @@
        33.96
       ],
       [
+       -118.71,
+       33.96
+      ],
+      [
+       -118.73,
+       33.95
+      ],
+      [
        -118.74,
        33.95
       ],
       [
-       -118.88,
-       33.97
+       -118.75,
+       34.02
       ]
      ]
     ]
@@ -1492,8 +1484,8 @@
      34.1964
     ]
    ],
-   "lon": -118.579,
-   "lat": 34.132,
+   "lon": -118.538,
+   "lat": 34.085,
    "countries": [
     "US"
    ]
@@ -1506,56 +1498,38 @@
    "certainty": "Likely",
    "sender": "NWS Los Angeles/Oxnard CA",
    "areas": [
-    "Inner waters from Point Mugu to San Mateo Pt. CA including Santa Catalina and Anacapa Islands",
-    "Outer waters from Santa Cruz Island to San Clemente Island to 60 NM offshore including San Nicolas and Santa Barbara Islands"
+    "Inner waters from Point Mugu to San Mateo Pt. CA including Santa Catalina and Anacapa Islands"
    ],
    "counties": [
-    "57655",
-    "57676"
+    "57655"
    ],
-   "sent": "2026-11-19T14:25:00Z",
-   "onset": "2026-11-19T14:25:00Z",
+   "sent": "2026-11-19T16:11:00Z",
+   "onset": "2026-11-19T16:11:00Z",
    "ends": "2026-11-19T16:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83cfb2dc5d3c3c53631c2c540df82e0d31f1e041.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8312ebbe5e43a0e8b292ce9ca9e85124709a393.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -119.22,
-       33.61
+       -118.95,
+       33.68
       ],
       [
-       -119.15,
-       33.73
+       -118.77,
+       33.97
       ],
       [
-       -118.9,
-       34.12
+       -118.8,
+       34.04
       ],
       [
        -118.79,
        34.09
       ],
       [
-       -118.73,
+       -118.5,
        34.1
-      ],
-      [
-       -118.49,
-       34.1
-      ],
-      [
-       -118.47,
-       34.08
-      ],
-      [
-       -118.45,
-       34.05
-      ],
-      [
-       -118.41,
-       34.04
       ],
       [
        -118.37,
@@ -1564,14 +1538,6 @@
       [
        -118.37,
        33.95
-      ],
-      [
-       -118.32,
-       33.87
-      ],
-      [
-       -118.31,
-       33.86
       ],
       [
        -118.31,
@@ -1586,20 +1552,28 @@
        33.41
       ],
       [
-       -119.21,
-       33.55
+       -119.03,
+       33.49
       ],
       [
-       -119.22,
-       33.61
+       -119.03,
+       33.48
+      ],
+      [
+       -119.04,
+       33.48
+      ],
+      [
+       -118.95,
+       33.68
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -118.673,
-   "lat": 33.854,
+   "lon": -118.736,
+   "lat": 33.756,
    "countries": [
     "US"
    ]
