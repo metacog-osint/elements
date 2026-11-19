@@ -1512,92 +1512,7 @@
    ]
   },
   {
-   "id": "KLOX.SV.W.0015.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Los Angeles, CA"
-   ],
-   "counties": [
-    "06037"
-   ],
-   "sent": "2026-11-19T17:16:00Z",
-   "onset": "2026-11-19T17:16:00Z",
-   "ends": "2026-11-19T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfababa4c7d6e6c348c1b48b7150622ace43bcd5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -117.79,
-       34.32
-      ],
-      [
-       -118.19,
-       33.68
-      ],
-      [
-       -118.27,
-       33.69
-      ],
-      [
-       -118.3,
-       33.69
-      ],
-      [
-       -118.38,
-       33.7
-      ],
-      [
-       -118.41,
-       33.72
-      ],
-      [
-       -118.44,
-       33.76
-      ],
-      [
-       -118.43,
-       33.79
-      ],
-      [
-       -118.33,
-       33.88
-      ],
-      [
-       -118.37,
-       33.98
-      ],
-      [
-       -118.11,
-       34.34
-      ],
-      [
-       -117.79,
-       34.32
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -118.2619,
-     34.1964
-    ]
-   ],
-   "lon": -118.234,
-   "lat": 33.906,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLOX.MA.W.0071.2026",
+   "id": "KLOX.MA.W.0072.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1609,65 +1524,61 @@
    "counties": [
     "57655"
    ],
-   "sent": "2026-11-19T16:35:00Z",
-   "onset": "2026-11-19T16:35:00Z",
-   "ends": "2026-11-19T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d5ed48926403733a12dcc6f95a89c6fb26283b6.001.1",
+   "sent": "2026-11-19T17:44:00Z",
+   "onset": "2026-11-19T17:44:00Z",
+   "ends": "2026-11-19T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3aa8c270b338d09507cedda824892e95bebdb6cf.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.92,
-       33.41
-      ],
-      [
-       -118.52,
-       34.02
-      ],
-      [
-       -118.37,
-       34.01
-      ],
-      [
-       -118.36,
-       33.99
-      ],
-      [
-       -118.37,
-       33.95
-      ],
-      [
-       -118.32,
-       33.87
-      ],
-      [
-       -118.31,
-       33.84
-      ],
-      [
-       -118.23,
-       33.85
-      ],
-      [
-       -118.09,
-       33.81
-      ],
-      [
-       -118.32,
+       -118.33,
        33.34
       ],
       [
-       -118.92,
-       33.41
+       -118.13,
+       33.75
+      ],
+      [
+       -118.07,
+       33.73
+      ],
+      [
+       -118.06,
+       33.71
+      ],
+      [
+       -118.09,
+       33.73
+      ],
+      [
+       -117.93,
+       33.61
+      ],
+      [
+       -117.78,
+       33.54
+      ],
+      [
+       -117.72,
+       33.46
+      ],
+      [
+       -117.66,
+       33.45
+      ],
+      [
+       -118.33,
+       33.34
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -118.43,
-   "lat": 33.773,
+   "lon": -118.01,
+   "lat": 33.566,
    "countries": [
     "US"
    ]
@@ -1800,104 +1711,6 @@
    ],
    "lon": -116.627,
    "lat": 37.13,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-19T11:53:00Z",
-   "onset": "2026-11-19T11:53:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e58b4e9f872e918abdadaa3d98a72a97833a882.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -120.834,
-   "lat": 39.328,
    "countries": [
     "US"
    ]
@@ -2110,6 +1923,104 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06017",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-19T17:56:00Z",
+   "onset": "2026-11-19T17:56:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c09ef9a6004934e1be1c65d38cf61164b61d569.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -120.834,
+   "lat": 39.328,
    "countries": [
     "US"
    ]
