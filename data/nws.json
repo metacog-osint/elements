@@ -86,83 +86,6 @@
    ]
   },
   {
-   "id": "KMLB.FF.W.0027.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-19T15:02:00Z",
-   "onset": "2026-11-19T15:02:00Z",
-   "ends": "2026-11-19T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aad0676b9737d33c6e8ac74ed2839a08e6098d59.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.49,
-       27.86
-      ],
-      [
-       -80.49,
-       27.85
-      ],
-      [
-       -80.52,
-       27.82
-      ],
-      [
-       -80.65,
-       27.82
-      ],
-      [
-       -80.67,
-       27.91
-      ],
-      [
-       -80.65,
-       28.14
-      ],
-      [
-       -80.54,
-       28.12
-      ],
-      [
-       -80.43,
-       27.9
-      ],
-      [
-       -80.48,
-       27.84
-      ],
-      [
-       -80.49,
-       27.86
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.541,
-   "lat": 27.912,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0030.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -249,97 +172,6 @@
    ],
    "lon": -80.942,
    "lat": 28.977,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLOX.FF.W.0023.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Los Angeles, CA",
-    "Ventura, CA"
-   ],
-   "counties": [
-    "06037",
-    "06111"
-   ],
-   "sent": "2026-11-19T15:37:00Z",
-   "onset": "2026-11-19T15:37:00Z",
-   "ends": "2026-11-19T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c1f33331787123d96fa2a3cfa806894426ee9c3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -118.86,
-       34.02
-      ],
-      [
-       -118.81,
-       34.14
-      ],
-      [
-       -118.75,
-       34.2
-      ],
-      [
-       -118.5,
-       34.48
-      ],
-      [
-       -118.09,
-       34.45
-      ],
-      [
-       -118.12,
-       34.26
-      ],
-      [
-       -118.35,
-       33.98
-      ],
-      [
-       -118.45,
-       33.93
-      ],
-      [
-       -118.52,
-       34
-      ],
-      [
-       -118.67,
-       34.01
-      ],
-      [
-       -118.77,
-       33.98
-      ],
-      [
-       -118.86,
-       34.02
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -118.2619,
-     34.1964
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -118.562,
-   "lat": 34.123,
    "countries": [
     "US"
    ]
@@ -484,6 +316,245 @@
    ],
    "lon": -80.959,
    "lat": 28.498,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.FF.W.0023.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Los Angeles, CA"
+   ],
+   "counties": [
+    "06037"
+   ],
+   "sent": "2026-11-19T16:18:00Z",
+   "onset": "2026-11-19T16:18:00Z",
+   "ends": "2026-11-19T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c67b78d3f3066a9ca5a2583a552a51ea0ad8e893.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.75,
+       34.02
+      ],
+      [
+       -118.71,
+       34.1
+      ],
+      [
+       -118.55,
+       34.22
+      ],
+      [
+       -118.47,
+       34.48
+      ],
+      [
+       -118.09,
+       34.45
+      ],
+      [
+       -118.12,
+       34.26
+      ],
+      [
+       -118.35,
+       33.98
+      ],
+      [
+       -118.45,
+       33.93
+      ],
+      [
+       -118.52,
+       34
+      ],
+      [
+       -118.67,
+       34.01
+      ],
+      [
+       -118.73,
+       34.01
+      ],
+      [
+       -118.75,
+       34.02
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -118.2619,
+     34.1964
+    ]
+   ],
+   "lon": -118.513,
+   "lat": 34.123,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FF.W.0027.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-19T16:29:00Z",
+   "onset": "2026-11-19T16:29:00Z",
+   "ends": "2026-11-19T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c992ef5aefa6a9586c06b5fdc1c09d28f2d796e4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.49,
+       27.86
+      ],
+      [
+       -80.49,
+       27.85
+      ],
+      [
+       -80.52,
+       27.82
+      ],
+      [
+       -80.65,
+       27.82
+      ],
+      [
+       -80.67,
+       27.91
+      ],
+      [
+       -80.65,
+       28.14
+      ],
+      [
+       -80.54,
+       28.12
+      ],
+      [
+       -80.43,
+       27.9
+      ],
+      [
+       -80.48,
+       27.84
+      ],
+      [
+       -80.49,
+       27.86
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.541,
+   "lat": 27.912,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.FF.W.0025.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Los Angeles, CA"
+   ],
+   "counties": [
+    "06037"
+   ],
+   "sent": "2026-11-19T16:30:00Z",
+   "onset": "2026-11-19T16:30:00Z",
+   "ends": "2026-11-19T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e081408a0ae4d7fa6e1b44f22dcee02fc5e09aa.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.46,
+       33.93
+      ],
+      [
+       -118.36,
+       33.99
+      ],
+      [
+       -118.12,
+       34.29
+      ],
+      [
+       -117.93,
+       34.21
+      ],
+      [
+       -118.03,
+       34.05
+      ],
+      [
+       -118.16,
+       33.74
+      ],
+      [
+       -118.2,
+       33.7
+      ],
+      [
+       -118.4,
+       33.7
+      ],
+      [
+       -118.47,
+       33.81
+      ],
+      [
+       -118.46,
+       33.93
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -118.2619,
+     34.1964
+    ]
+   ],
+   "lon": -118.259,
+   "lat": 33.935,
    "countries": [
     "US"
    ]
@@ -1491,7 +1562,7 @@
    ]
   },
   {
-   "id": "KLOX.MA.W.0070.2026",
+   "id": "KLOX.MA.W.0071.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1503,77 +1574,65 @@
    "counties": [
     "57655"
    ],
-   "sent": "2026-11-19T16:11:00Z",
-   "onset": "2026-11-19T16:11:00Z",
-   "ends": "2026-11-19T16:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8312ebbe5e43a0e8b292ce9ca9e85124709a393.002.1",
+   "sent": "2026-11-19T16:35:00Z",
+   "onset": "2026-11-19T16:35:00Z",
+   "ends": "2026-11-19T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d5ed48926403733a12dcc6f95a89c6fb26283b6.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.95,
-       33.68
+       -118.92,
+       33.41
       ],
       [
-       -118.77,
-       33.97
-      ],
-      [
-       -118.8,
-       34.04
-      ],
-      [
-       -118.79,
-       34.09
-      ],
-      [
-       -118.5,
-       34.1
+       -118.52,
+       34.02
       ],
       [
        -118.37,
-       34
+       34.01
+      ],
+      [
+       -118.36,
+       33.99
       ],
       [
        -118.37,
        33.95
       ],
       [
+       -118.32,
+       33.87
+      ],
+      [
        -118.31,
        33.84
       ],
       [
-       -118.53,
-       33.37
+       -118.23,
+       33.85
       ],
       [
-       -118.86,
+       -118.09,
+       33.81
+      ],
+      [
+       -118.32,
+       33.34
+      ],
+      [
+       -118.92,
        33.41
-      ],
-      [
-       -119.03,
-       33.49
-      ],
-      [
-       -119.03,
-       33.48
-      ],
-      [
-       -119.04,
-       33.48
-      ],
-      [
-       -118.95,
-       33.68
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -118.736,
-   "lat": 33.756,
+   "lon": -118.43,
+   "lat": 33.773,
    "countries": [
     "US"
    ]
@@ -1934,6 +1993,88 @@
    ],
    "lon": -115.126,
    "lat": 40.28,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Wasatch Mountains I-80 North",
+    "Wasatch Mountains South of I-80"
+   ],
+   "counties": [
+    "49003",
+    "49005",
+    "49011",
+    "49023",
+    "49029",
+    "49033",
+    "49035",
+    "49043",
+    "49049",
+    "49051",
+    "49057"
+   ],
+   "sent": "2026-11-19T16:33:00Z",
+   "onset": "2026-11-19T16:33:00Z",
+   "ends": "2026-11-21T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3630af10624b8577444db9d60f2d1bb2b08ec909.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.0603,
+     41.6226
+    ],
+    [
+     -111.7454,
+     41.7341
+    ],
+    [
+     -112.2019,
+     41.0376
+    ],
+    [
+     -112.7905,
+     39.7141
+    ],
+    [
+     -111.5779,
+     41.091
+    ],
+    [
+     -111.2402,
+     41.6276
+    ],
+    [
+     -111.9242,
+     40.6679
+    ],
+    [
+     -110.9685,
+     40.8721
+    ],
+    [
+     -111.6686,
+     40.1204
+    ],
+    [
+     -111.1616,
+     40.3349
+    ],
+    [
+     -111.8769,
+     41.2703
+    ]
+   ],
+   "lon": -111.838,
+   "lat": 40.918,
    "countries": [
     "US"
    ]
