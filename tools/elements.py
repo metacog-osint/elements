@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, firms, history, meteoalarm, sources, weather  # noqa: E402
+from elements import feed, firms, history, meteoalarm, meteoalarm_log, sources, weather  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, geo, registers  # noqa: E402
 
@@ -109,6 +109,8 @@ def log_history(now: datetime | None = None) -> list:
     history.append_log(HIST, lines)
     history.close_days(HIST, now.strftime("%Y-%m-%d"))
     history.save_state(HIST, state)
+    # Yellow MeteoAlarm warnings are not feed items: append them to their own archive (history/meteoalarm/).
+    meteoalarm_log.update(HIST / "meteoalarm", d["meteoalarm"]["records"], now)
     return lines
 
 

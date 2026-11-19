@@ -25,7 +25,6 @@ SENSORS = {"VIIRS_NOAA20_NRT": "noaa-20-viirs-c2/csv/J1_VIIRS_C2_Global_24h.csv"
            "VIIRS_SNPP_NRT": "suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_24h.csv"}
 CELL = 0.5                     # degrees
 MAX_BYTES = 48 * 1024 * 1024   # one satellite's two days is about 8 MB
-KEEP_DAYS = 400
 KEY_RE = re.compile(r"^[0-9a-z]{32}$")
 
 
@@ -153,10 +152,9 @@ def update_history(history: dict, payload: dict, today: str) -> dict:
     for day, counts in (payload.get("daily") or {}).items():
         if day < today:
             days[day] = counts
-    keep = sorted(days)[-KEEP_DAYS:]
     return {"note": "VIIRS nominal and high-confidence detections (NOAA-20, NOAA-21, Suomi-NPP) per country per UTC day, "
                     "counted to the country at each half-degree cell's centre of detections.",
-            "days": {d: days[d] for d in keep}}
+            "days": {d: days[d] for d in sorted(days)}}
 
 
 def summary(payload: dict) -> str:

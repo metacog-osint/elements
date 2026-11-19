@@ -1,7 +1,7 @@
 """Tsunami messages from NOAA's two warning centres (US public domain).
 
 Each centre's Atom feed holds its latest product; the CAP file it links to gives the alert type, the earthquake's
-preliminary magnitude, origin time, depth and position. Elements keeps every message it has seen for 30 days, one
+preliminary magnitude, origin time, depth and position. Elements keeps every message it has seen, one
 record per centre and earthquake (a later message replaces an earlier one), and publishes those from the last 7 days.
 
 - NTWC, the National Tsunami Warning Center (Palmer, Alaska): Alaska, British Columbia, the US West Coast, the US
@@ -10,7 +10,7 @@ record per centre and earthquake (a later message replaces an earlier one), and 
   Caribbean messages."""
 import re
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 
 from .common import country_at, fetch_or_none, to_utc
 
@@ -20,7 +20,7 @@ CENTRE_NAMES = {"NTWC": "National Tsunami Warning Center", "PTWC": "Pacific Tsun
 ATOM = {"a": "http://www.w3.org/2005/Atom"}
 CAP = {"c": "urn:oasis:names:tc:emergency:cap:1.2"}
 LEVELS = ("warning", "advisory", "watch", "threat", "information")   # highest first
-KEEP_DAYS, SHOW_DAYS = 30, 7
+SHOW_DAYS = 7   # the live feed shows 7 days; data/tsunami.json keeps every message (retention fix E4, 18 Nov 2026)
 
 
 def level_of(event: str) -> str:
@@ -67,8 +67,7 @@ def parse_cap(body: bytes, centre: str, url: str) -> dict | None:
 def collect(old, now: datetime | None = None, fetch=fetch_or_none):
     """(records, problem). A failed centre keeps its earlier records."""
     now = now or datetime.now(timezone.utc)
-    keep = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    records = {r["id"]: r for r in old or [] if (r.get("sent") or "") >= keep}
+    records = {r["id"]: r for r in old or []}
     problems, answered = [], 0
     for centre, url in CENTRES.items():
         body, err = fetch(url, 40)
@@ -91,7 +90,7 @@ def collect(old, now: datetime | None = None, fetch=fetch_or_none):
             except ET.ParseError as e:
                 problems.append(f"{centre} message: parse: {e}")
                 continue
-            if rec and rec["origin"] and (rec["sent"] or "") >= keep:
+            if rec and rec["origin"]:
                 prev = records.get(rec["id"])
                 if not prev or (rec["sent"] or "") >= (prev.get("sent") or ""):
                     records[rec["id"]] = rec

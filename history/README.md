@@ -8,6 +8,12 @@ Intelligence Company's historical dataset. Written by `elements/history.py` (for
   NWS alert issued and ended between two runs). Each line carries the full contract-v2 item as it stood, with
   first_seen, last_seen, ended_at, end_reason, peak_tier and the number of updates. Times UTC.
 - `state.json`: the items open after the last run.
+- `meteoalarm/YYYY-MM-DD.jsonl` (today) and `.jsonl.gz` (closed days, written once): every yellow MeteoAlarm warning,
+  one line when first seen and another each time it changes (`change` is `new` or `changed`), with the national
+  service (`sender`), type, areas, window and the CAP identifier. Orange and red warnings are in `log/`.
+  `meteoalarm/state.json` holds the yellow warnings still in force, to avoid logging them again. Source: MeteoAlarm
+  (EUMETNET), CC BY 4.0 as stated on feeds.meteoalarm.org: data provided by EUMETNET members; each line carries the
+  service's own licence string in `credit`. Starts with the first run of this archive; earlier yellow warnings were not kept.
 - The site serves the last 7 days of ended items at `data/ended.geojson`, not drawn on the map and not in the feed.
 
 From 2026-10-31 to 2026-11-14T03:36:30Z the log was rebuilt from this repository's git history of `data/` (422 runs) by
