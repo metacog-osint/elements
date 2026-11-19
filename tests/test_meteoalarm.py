@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, meteoalarm  # noqa: E402
+from elements import feed, meteoalarm, meteoalarm_log  # noqa: E402
 from tic_doctrine import contract, registers  # noqa: E402
 
 # tools/elements.py shares its name with the package, so load it under another name (for warnings_map)
@@ -203,6 +203,64 @@ class Feed(unittest.TestCase):
         self.assertEqual(m["names"], {"DE": "Germany", "FI": "Finland", "FR": "France"})
         later = elements_cli.warnings_map({"records": parse_all()}, datetime(2026, 11, 7, tzinfo=timezone.utc))
         self.assertEqual(later["warnings"], [])
+
+
+class YellowArchive(unittest.TestCase):
+    """E1: every yellow warning is logged once and again on change, in append-only day files."""
+
+    def setUp(self):
+        import shutil
+        import tempfile
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(lambda: shutil.rmtree(self.tmp, ignore_errors=True))
+        self.root = self.tmp / "meteoalarm"
+
+    def yellow(self):
+        return [r for r in parse_all() if r["level"] == 2]
+
+    def test_new_once_then_changed(self):
+        recs = self.yellow()
+        self.assertEqual(len(recs), 3)
+        first = meteoalarm_log.update(self.root, parse_all(), NOW)
+        self.assertEqual([x["change"] for x in first], ["new"] * 3)
+        self.assertTrue(all(x["colour"] == "yellow" for x in first))
+        again = meteoalarm_log.update(self.root, parse_all(), NOW.replace(hour=20))
+        self.assertEqual(again, [])
+        changed = [dict(r) for r in recs]
+        changed[0]["identifier"], changed[0]["sent"] = "new-message-id", "2026-11-05T19:30:00Z"
+        out = meteoalarm_log.update(self.root, changed, NOW.replace(hour=21))
+        self.assertEqual([(x["change"], x["id"]) for x in out], [("changed", changed[0]["id"])])
+        lines = (self.root / "2026-11-05.jsonl").read_text(encoding="utf-8").splitlines()
+        self.assertEqual(len(lines), 4)
+        self.assertNotIn("polygons", json.loads(lines[0]))
+
+    def test_closed_day_is_gzipped_once_and_never_rewritten(self):
+        meteoalarm_log.update(self.root, parse_all(), NOW)
+        later = datetime(2026, 11, 6, 3, 0, tzinfo=timezone.utc)
+        newer = [dict(r, expires="2026-11-07T00:00:00Z", identifier=r["identifier"] + "x") for r in self.yellow()]
+        meteoalarm_log.update(self.root, newer, later)
+        gz = self.root / "2026-11-05.jsonl.gz"
+        self.assertTrue(gz.exists() and not (self.root / "2026-11-05.jsonl").exists())
+        before = gz.read_bytes()
+        meteoalarm_log.update(self.root, newer, later.replace(hour=9))
+        meteoalarm_log.update(self.root, [], later.replace(hour=12))
+        self.assertEqual(gz.read_bytes(), before)
+        rows = meteoalarm_log.read_all(self.root)
+        self.assertEqual([x["change"] for x in rows], ["new"] * 3 + ["changed"] * 3)
+        self.assertEqual(sorted(p.name for p in self.root.glob("*.jsonl*")), ["2026-11-05.jsonl.gz", "2026-11-06.jsonl"])
+
+    def test_expired_leave_state_and_orange_red_not_archived(self):
+        meteoalarm_log.update(self.root, parse_all(), NOW)
+        self.assertEqual(len(meteoalarm_log.load_state(self.root)["open"]), 3)
+        meteoalarm_log.update(self.root, [], datetime(2026, 11, 8, tzinfo=timezone.utc))
+        self.assertEqual(meteoalarm_log.load_state(self.root)["open"], {})
+        self.assertEqual({x["colour"] for x in meteoalarm_log.read_all(self.root)}, {"yellow"})
+
+    def test_live_outputs_unchanged(self):
+        before = json.dumps(elements_cli.warnings_map({"records": parse_all(), "fetched_at": FETCHED}, NOW), sort_keys=True)
+        meteoalarm_log.update(self.root, parse_all(), NOW)
+        after = json.dumps(elements_cli.warnings_map({"records": parse_all(), "fetched_at": FETCHED}, NOW), sort_keys=True)
+        self.assertEqual(before, after)
 
 
 if __name__ == "__main__":

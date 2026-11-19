@@ -2,7 +2,7 @@ name: update
 # Hourly: collect every source, log what changed in history/ (new, changed and ended items: Elements' own historical
 # record, kept after an item leaves the feed), commit data/ and history/ when their content changed, build site/ and
 # publish it to GitHub Pages (https://elements.theintelligence.company/). A failing source keeps its last good data
-# and never ends an item; nothing here fails the run except a broken build. Free: public repo. One optional secret,
+# and never ends an item; a failed history step or a failed push still lets the site deploy and then fails the run, so it is seen. Free: public repo. One optional secret,
 # FIRMS_MAP_KEY (a free NASA key).
 #
 # GitHub delays and drops scheduled runs under load: from 1 to 4 Nov 2026 a single hourly trigger ran about once every
@@ -60,28 +60,47 @@ jobs:
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}  # optional: without it, FIRMS's public files are read instead
         run: python tools/elements.py collect
-      # A failure here is a gap in the history, never a missed deploy: the run carries on and says so.
-      - name: History (log new, changed and ended items against the last run)
-        run: python tools/elements.py history || echo "::warning::history step failed; this run is missing from history/"
+      # A failure here is a gap in the history, never a missed deploy: the step is allowed to fail so the site still
+      # builds and deploys, and the last step of the job fails the run afterwards so the gap is seen (retention
+      # fix, 18 Nov 2026). data/ is committed, so tools/history_backfill.py can rebuild the log's items.
+      - name: History (log new, changed and ended items against the last run; archive yellow MeteoAlarm warnings)
+        id: history
+        continue-on-error: true
+        run: python tools/elements.py history
       - name: Commit data and history when their content changed
+        id: commit
         run: |
           if [ -n "$(git status --porcelain -- data history ':!data/health.json' ':!data/nws_recent.json')" ]; then
             git config user.name "elements-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data history
             git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
-            # GitHub sometimes refuses a push (an error 500 on 4 Nov 2026). Retry; if it still fails, carry on so this
-            # run's data is still built and deployed, and the next run commits it.
+            # GitHub sometimes refuses a push (an error 500 on 4 Nov 2026). Retry; if it still fails, keep going so
+            # the site is still deployed, upload data/ and history/ as an artifact (next step) and fail the run at
+            # the end, so nothing this run collected is discarded unseen.
             pushed=no
             for i in 1 2 3; do
               if git push -q origin HEAD:main; then pushed=yes; break; fi
               echo "::warning::data push attempt $i failed"
               sleep $((i * 15)); git pull -q --rebase origin main || true
             done
-            [ "$pushed" = yes ] || echo "::warning::data not committed this run; the site is still deployed"
+            if [ "$pushed" != yes ]; then
+              echo "::error::data not committed this run (all pushes failed); data/ and history/ are uploaded as an artifact"
+              echo "unpushed=yes" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "no content change"
           fi
+      - name: Keep this run's data and history when the push failed
+        if: steps.commit.outputs.unpushed == 'yes'
+        uses: actions/upload-artifact@v4
+        with:
+          name: unpushed-data-${{ github.run_id }}
+          path: |
+            data
+            history
+          retention-days: 30
+          if-no-files-found: error
       - name: Build site
         run: python tools/elements.py build
       - uses: actions/configure-pages@v5
@@ -89,3 +108,9 @@ jobs:
         with: { path: site }
       - id: deployment
         uses: actions/deploy-pages@v4
+      # After the deploy, so a failure above never blocks the live site, but the run still ends red.
+      - name: Fail the run if history or the push failed
+        if: always() && (steps.history.outcome == 'failure' || steps.commit.outputs.unpushed == 'yes')
+        run: |
+          echo "::error::history step: ${{ steps.history.outcome }}; data push failed: ${{ steps.commit.outputs.unpushed == 'yes' }}. The site was still deployed; see the unpushed-data artifact and tools/history_backfill.py --continue."
+          exit 1

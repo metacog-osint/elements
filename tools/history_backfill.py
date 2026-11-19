@@ -10,7 +10,9 @@ FIRMS and MeteoAlarm items start on the first live run; a run that changed no da
 of the next change; the NWS catch-up did not exist, so warnings issued and ended between two runs are missing; the
 feed is built with today's code, so an item's wording can differ from what was published that day.
 
-Run it on a fresh history/ (it refuses to overwrite one without --force). Re-run it on the latest main just before
+Run it on a fresh history/ (it refuses to overwrite one without --force). With --force the old history/ is moved to
+history.replaced-<UTC time>/ (never deleted), history/meteoalarm/ is copied into the new one, and the tool refuses
+when the working tree has uncommitted changes. Re-run it on the latest main just before
 the history step goes live, so the log has no gap."""
 import argparse
 import json
@@ -84,7 +86,16 @@ def main(argv=None) -> int:
             print("history/ exists: use --force to rebuild it from scratch, or --continue to add the newer runs")
             return 2
         if HIST.exists():
-            shutil.rmtree(HIST)
+            if git("status", "--porcelain").strip():
+                print("the working tree has uncommitted changes: commit or stash them before --force, so the old "
+                      "history/ is also in git")
+                return 2
+            aside = ROOT / f"history.replaced-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}"
+            HIST.rename(aside)   # moved aside, never deleted (retention fix E6, 18 Nov 2026)
+            print(f"old history/ moved to {aside.name}")
+            if (aside / "meteoalarm").is_dir():   # the yellow-warning archive cannot be rebuilt from data/: carry it over
+                HIST.mkdir()
+                shutil.copytree(aside / "meteoalarm", HIST / "meteoalarm")
         commits = log(a.rev)
         state, last = {"format": history.FORMAT, "open": {}}, None
     for sha, when in commits:
@@ -128,6 +139,8 @@ Intelligence Company's historical dataset. Written by `elements/history.py` (for
   NWS alert issued and ended between two runs). Each line carries the full contract-v2 item as it stood, with
   first_seen, last_seen, ended_at, end_reason, peak_tier and the number of updates. Times UTC.
 - `state.json`: the items open after the last run.
+- `meteoalarm/`: every yellow MeteoAlarm warning, one line when first seen and again when it changes (MeteoAlarm /
+  EUMETNET, CC BY 4.0). Not rebuilt from git: `--force` carries it over.
 - The site serves the last 7 days of ended items at `data/ended.geojson`, not drawn on the map and not in the feed.
 
 From {first} to {last} the log was rebuilt from this repository's git history of `data/` ({runs} runs) by

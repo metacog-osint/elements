@@ -271,9 +271,44 @@ class Workflow(unittest.TestCase):
         self.assertLess(wf.index("tools/elements.py history"), wf.index("git add data history"))
         self.assertLess(wf.index("git add data history"), wf.index("tools/elements.py build"))
         self.assertIn("data/nws_recent.json", (ROOT / ".gitignore").read_text(encoding="utf-8"))
-        self.assertIn("python tools/elements.py history || echo", wf, "a history failure never stops the deploy")
+        # a history failure never stops the deploy (continue-on-error), but the last step fails the run
+        self.assertIn("continue-on-error: true", wf)
+        self.assertLess(wf.index("tools/elements.py build"), wf.index("Fail the run if history or the push failed"))
+        self.assertLess(wf.index("git push"), wf.index("actions/upload-artifact@v4"))
         ci = (ROOT / ".github/workflows/ci.yml").read_text(encoding="utf-8")
         self.assertIn("tests/test_history.py", ci)
+
+
+class BackfillForce(unittest.TestCase):
+    """E6: --force moves history/ aside instead of deleting it, and refuses on a dirty tree."""
+
+    def test_force_moves_aside_and_refuses_dirty(self):
+        import importlib.util
+        import subprocess
+        tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(lambda: shutil.rmtree(tmp, ignore_errors=True))
+        (tmp / "history" / "meteoalarm").mkdir(parents=True)
+        (tmp / "history" / "state.json").write_text("{}")
+        (tmp / "history" / "meteoalarm" / "2026-11-05.jsonl.gz").write_bytes(b"x")
+        (tmp / "data").mkdir()
+        (tmp / "data" / "health.json").write_text("{}")
+        (tmp / "tools").mkdir()
+        shutil.copy(ROOT / "tools" / "elements.py", tmp / "tools" / "elements.py")
+        for c in (["init", "-q"], ["add", "-A"], ["-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "x"]):
+            subprocess.run(["git", "-C", str(tmp), *c], check=True)
+        spec = importlib.util.spec_from_file_location("hb_under_test", ROOT / "tools" / "history_backfill.py")
+        hb = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(hb)
+        hb.ROOT, hb.HIST = tmp, tmp / "history"
+        (tmp / "dirty.txt").write_text("uncommitted")
+        self.assertEqual(hb.main(["--force", "--rev", "HEAD"]), 2)
+        self.assertTrue((tmp / "history" / "state.json").exists())
+        (tmp / "dirty.txt").unlink()
+        self.assertEqual(hb.main(["--force", "--rev", "HEAD"]), 0)
+        aside = list(tmp.glob("history.replaced-*"))
+        self.assertEqual(len(aside), 1)
+        self.assertTrue((aside[0] / "state.json").exists())
+        self.assertTrue((tmp / "history" / "meteoalarm" / "2026-11-05.jsonl.gz").exists())
 
 
 if __name__ == "__main__":

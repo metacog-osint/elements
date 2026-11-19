@@ -35,10 +35,11 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 - FIRMS gives detections, not fires: a fire is counted on every overpass, and gas flares, volcanoes and industrial
   heat are detected too. With the free key (`FIRMS_MAP_KEY`, an Actions secret) Elements uses the FIRMS API, which
   adds real-time detections; without it, FIRMS's public files, about three hours behind. Each country's daily count
-  is kept in `data/firms_daily.json` to build a baseline; the hourly cells are not committed.
+  is kept in `data/firms_daily.json` to build a baseline (kept without a time limit); the hourly cells are not committed.
 - MeteoAlarm warnings: orange and red are one feed item each (red is an anomaly, as NWS Extreme is); yellow, hundreds
-  a day, are counted per country in the feed and drawn one by one on the map. Green messages and all-clears are
-  dropped. A country whose file fails keeps its warnings until they expire; warnings are not committed to `data/`.
+  a day, are counted per country in the feed and drawn one by one on the map, and each is also logged once (and again
+  when it changes) in `history/meteoalarm/`. Green messages and all-clears are dropped. A country whose file fails
+  keeps its warnings until they expire; `data/meteoalarm.json` is not committed.
 - Each event is drawn at the point its source gives, and its country is the one that point falls in (offshore events
   have none). Cyclones, floods and droughts reach well beyond their point.
 - The feed and the map show what is active now. Nothing is thrown away: every item is kept after it leaves the feed

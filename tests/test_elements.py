@@ -314,6 +314,15 @@ class Firms(unittest.TestCase):
         self.assertEqual(list(h["days"]), ["2026-10-29", "2026-10-30"])  # 31 Oct is today: still filling
         self.assertEqual(h["days"]["2026-10-30"], {"BR": 1})
 
+    def test_daily_counts_have_no_cap(self):
+        days = {f"2024-{m:02d}-{d:02d}": {"BR": 1} for m in range(1, 13) for d in range(1, 29)}
+        days.update({f"2025-{m:02d}-{d:02d}": {"BR": 1} for m in range(1, 13) for d in range(1, 29)})
+        self.assertGreater(len(days), 600)
+        a = firms.aggregate(firms.parse(firms_csv(FIRE_ROWS)), NOW)
+        h = firms.update_history({"days": days}, a, "2026-10-31")
+        self.assertTrue(set(days) <= set(h["days"]))
+        self.assertFalse(hasattr(firms, "KEEP_DAYS"))
+
     def test_feed_items(self):
         a = firms.aggregate(firms.parse(firms_csv(FIRE_ROWS)), NOW)
         d = dataset()

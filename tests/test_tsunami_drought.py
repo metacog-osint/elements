@@ -80,10 +80,14 @@ class Tsunami(unittest.TestCase):
         newer[NTWC_CAP] = cap("Tsunami Advisory", "Moderate", "2026-10-25T03:00:00-00:00", "2026-10-25T02:09:24-00:00")
         recs2, _ = tsunami.collect(recs, NOW, tsunami_fetch(newer))
         self.assertEqual({r["centre"]: r["level"] for r in recs2}, {"NTWC": "advisory", "PTWC": "information"})
-        later = datetime(2026, 12, 1, tzinfo=timezone.utc)                # 30 days on: kept no longer
+        later = datetime(2026, 12, 1, tzinfo=timezone.utc)                # 30+ days on: still stored (E4), not shown
         recs3, err = tsunami.collect(recs2, later, tsunami_fetch({}))
-        self.assertEqual(recs3, [])
+        self.assertEqual(recs3, recs2)
         self.assertIn("HTTP 503", err)
+        d = {k: {"records": [], "fetched_at": FETCHED} for k in ("usgs", "gdacs", "nhc", "cems")}
+        d["tsunami"] = {"records": recs3, "fetched_at": FETCHED}
+        fc = feed.build(d, later)                                         # the live view keeps its 7-day window
+        self.assertFalse([f for f in fc["features"] if ":tsunami:" in f["properties"]["id"]])
 
     def test_feed_items(self):
         recs, _ = tsunami.collect([], NOW, tsunami_fetch(LIVE))
