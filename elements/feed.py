@@ -530,7 +530,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
     stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm", "emsc", "nifc")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
-            "licence": "Elements code MIT; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
+            "licence": "Elements code GNU AGPL-3.0; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
                        "with attribution; MeteoAlarm and EMSC content CC BY 4.0; US Drought Monitor and NIFC WFIGS state "
                        "no licence and are credited",
             "attribution": "Elements, The Intelligence Company. Sources: USGS, EMSC (European-Mediterranean Seismological Centre), "
