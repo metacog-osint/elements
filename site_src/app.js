@@ -23,29 +23,14 @@
   function tip(text) { return h("div", { "class": "tip" }, [text]); }
   function link(url, text) { return url ? h("a", { href: url, rel: "noopener" }, [text]) : text; }
   // A row may carry r.cls ("outside": a place outside the viewer's area, dimmed).
-  // On a phone a long table shows its first FOLD rows (each table puts the strongest or newest rows first) and a
-  // "Show all" button; wider screens show every row. The fold is CSS (style.css, .tbl-fold), so nothing is hidden
-  // from a wide screen, a printout or a search engine. Same rule as Cordon's tables.
-  var FOLD = 10;
+  // A long table shows its first rows (10 on a phone, 15 wider; each table puts the strongest or newest rows first)
+  // and "Show all N", with a find box at 25 rows or more: the hub's tic-fold.js, at every width, as on Cordon.
   function table(head, rows, numCols) {
     numCols = numCols || {};
-    var fold = rows.length > FOLD + 2;
-    var tbl = h("table", null, [h("thead", null, [h("tr", null, head.map(function (x, i) { return h("th", { "class": numCols[i] ? "num" : null }, [x]); }))]),
-      h("tbody", null, rows.map(function (r, n) {
-        var cls = [r.cls, fold && n >= FOLD ? "fold" : null].filter(Boolean).join(" ");
-        return h("tr", { "class": cls || null }, r.map(function (c, i) {
+    return h("table", { "data-tic-fold": "", "data-tic-fold-find": "" }, [h("thead", null, [h("tr", null, head.map(function (x, i) { return h("th", { "class": numCols[i] ? "num" : null }, [x]); }))]),
+      h("tbody", null, rows.map(function (r) {
+        return h("tr", { "class": r.cls || null }, r.map(function (c, i) {
         return h("td", { "class": numCols[i] ? "num" : null }, [c]); })); }))]);
-    if (!fold) return tbl;
-    var wrap = h("div", { "class": "tbl-fold" }, [tbl]);
-    var btn = h("button", { type: "button", "class": "tbl-more", "aria-expanded": "false" }, ["Show all " + rows.length]);
-    btn.addEventListener("click", function () {
-      var open = wrap.classList.toggle("open");
-      btn.setAttribute("aria-expanded", String(open));
-      btn.textContent = open ? "Show the first " + FOLD : "Show all " + rows.length;
-      if (!open) tbl.scrollIntoView({ block: "nearest" });
-    });
-    wrap.appendChild(btn);
-    return wrap;
   }
   function empty(text) { return h("p", { "class": "empty" }, [text]); }
   function alertColor(a) { return a && RANK[a] != null ? css("--a-" + a) : css("--unrated"); }
