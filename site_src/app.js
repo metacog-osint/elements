@@ -369,6 +369,37 @@
       sw("ring", "", "Copernicus activation")]));
   }
 
+  // Today's reading and tiles (tic-shell): counts from this build, worldwide (the Area menu dims rows, never these
+  // counts). An alert is above the bottom rung of its own issuer's scale, in the issuer's words; never Elements' rating.
+  // The highest alert in its issuer's words, naming the issuer once (a MeteoAlarm title already carries it).
+  function topLine(p, src) {
+    var t = p.title.replace(/^GDACS \w+ alert: /, ""), via = src.split(" via ");
+    if (via.length > 1 && t.indexOf(via[0]) >= 0) return t + ", via " + via[1];
+    return t + ", " + src;
+  }
+  function shell(hot, by, fires, health, alertOf) {
+    var box = document.getElementById("reading");
+    var n = { red: 0, orange: 0, yellow: 0 };
+    hot.forEach(function (p) { var c = alertOf(p)[0]; if (c in n) n[c] += 1; });
+    var mix = ["red", "orange", "yellow"].filter(function (c) { return n[c]; }).map(function (c) { return num(n[c]) + " " + c; });
+    var kids = [h("span", { "class": "tic-reading-k" }, ["Today\u2019s reading"])];
+    if (hot.length) {
+      var top = hot[0];
+      kids.push(h("b", null, [num(hot.length)]), " alert" + (hot.length === 1 ? " is" : "s are") +
+        " above the bottom rung of their issuer\u2019s own scale" + (mix.length ? " (" + mix.join(", ") + ")" : "") +
+        ". The highest: " + topLine(top, alertOf(top)[1]) + ".");
+    } else {
+      kids.push("No alert is above the bottom rung of its issuer\u2019s scale in this build.");
+    }
+    box.replaceChildren.apply(box, kids);
+    var srcs = Object.keys(health || {}), up = srcs.filter(function (k) { var s = health[k] || {}; return s.last_ok && !(s.failures > 0); });
+    var tiles = [["Alerts above the bottom rung", num(hot.length)], ["Earthquakes M4.5+, past 7 days (USGS)", num(by.usgs.length)],
+      ["Fire detections, past 24 hours (FIRMS)", fires && fires.detections !== undefined ? num(fires.detections) : "\u2014"],
+      ["Sources reporting", num(up.length) + " of " + num(srcs.length)]];
+    document.getElementById("tiles").replaceChildren.apply(document.getElementById("tiles"), tiles.map(function (t) {
+      return h("div", { "class": "tile" }, [h("span", { "class": "k" }, [t[0]]), h("span", { "class": "v" }, [t[1]])]); }));
+  }
+
   function lists(feats, health, generated, fires) {
     var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [],
       emsc: [], nifc: [] };
@@ -403,6 +434,7 @@
       var src = alertOf(p)[1];
       return mark([badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])], p); }))
       : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, and no Extreme US or red European weather warning."));
+    shell(hot, by, fires, health, alertOf);
     var hotCc = [];
     hot.forEach(function (p) { (p.countries || []).forEach(function (c) { if (c && hotCc.indexOf(c) < 0) hotCc.push(c); }); });
     if (window.TicRelated && hotCc.length) TicRelated.render(document.getElementById("tic-related"), { countries: hotCc, here: "elements", level: 2 });

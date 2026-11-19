@@ -4,7 +4,7 @@
 :root {
   --bg: #f6f7f9; --panel: #ffffff; --ink: #14181f; --muted: #5b6573; --line: #d9dee5; --soft: #eef1f5;
   --sea: #dfe8f1; --land: #f4f2ee; --border: #b7bec8; --link: #1f5fbf;
-  --a-green: #2b8a3e; --a-yellow: #f0c419; --a-orange: #f76707; --a-red: #9b1c1c; --unrated: #7b8794;
+  --a-green: #287f3a; --a-yellow: #f0c419; --a-orange: #f76707; --a-red: #9b1c1c; --unrated: #7b8794;
   --on-green: #ffffff; --on-orange: #14181f; --on-red: #ffffff;
   --f1: #f06fa0; --f2: #d6338a; --f3: #a3136f; --f4: #5f0a4a;
   --wildfire: #9a3412;
@@ -34,6 +34,11 @@ a { color: var(--link); }
 .top-nav { display: flex; gap: 14px; align-items: center; font-size: 14px; flex-wrap: wrap; }
 .hero h1 { font-size: clamp(22px, 3.6vw, 32px); line-height: 1.2; margin: 24px 0 8px; max-width: 46ch; }
 .lede { color: var(--muted); max-width: 72ch; margin: 0 0 16px; }
+/* Header row (tic-shell.css from the hub): tiles in the page's own card colours. */
+.brand { flex-wrap: wrap; row-gap: 4px; }
+.brand .tic-layer { margin-right: 0; align-self: center; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.tile .k { color: var(--muted); }
 .mapcard { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: var(--gap); }
 .map-tools { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid var(--line); }
 .layers { border: 0; padding: 0; margin: 0; display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; }
@@ -57,7 +62,7 @@ a { color: var(--link); }
 .tip { white-space: pre-line; }
 .gd-icon { border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
   background: var(--unrated); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
-.gd-icon.a-green { background: var(--a-green); color: var(--on-green); font-size: 9px; line-height: 14px; opacity: .85; }
+.gd-icon.a-green { background: var(--a-green); color: var(--on-green); font-size: 9px; line-height: 14px; } /* solid, so its letters keep 4.5:1 (18 Nov 2026) */
 .gd-icon.a-orange { background: var(--a-orange); color: var(--on-orange); }
 .gd-icon.a-red { background: var(--a-red); color: var(--on-red); }
 .vo-icon { clip-path: polygon(50% 0, 100% 100%, 0 100%); background: var(--unrated);
