@@ -421,6 +421,20 @@
    "lat": 36.6708
   },
   {
+   "id": "{EFB26950-5F90-4C47-B3CF-1D37CC2CB241}",
+   "name": "Garland 300",
+   "acres": 25.0,
+   "contained": null,
+   "discovered": "2026-11-19T17:51:39Z",
+   "updated": "2026-11-19T20:25:31Z",
+   "state": "AR",
+   "county": "Garland",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.2927,
+   "lat": 34.4842
+  },
+  {
    "id": "{A1ECE04C-AE29-4426-B947-D03D79348D18}",
    "name": "Bates Pond",
    "acres": 18.0,
@@ -594,13 +608,13 @@
    "acres": 10.0,
    "contained": null,
    "discovered": "2026-11-19T18:46:40Z",
-   "updated": "2026-11-19T20:04:37Z",
+   "updated": "2026-11-19T20:26:01Z",
    "state": "MO",
    "county": "Ripley",
    "cause": "Undetermined",
    "complexity": "Type 4 Incident",
-   "lon": -90.9771,
-   "lat": 36.7909
+   "lon": -90.9751,
+   "lat": 36.7978
   },
   {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
@@ -869,18 +883,32 @@
    "lat": 47.9781
   },
   {
-   "id": "{3A925663-79B9-46EC-96BE-51429B022A25}",
-   "name": "Round Top Road",
+   "id": "{7E057571-EC90-49F7-9772-5F26A4C32F0D}",
+   "name": "Newton 0043",
    "acres": 2.0,
-   "contained": 75,
-   "discovered": "2026-11-19T12:52:00Z",
-   "updated": "2026-11-19T16:13:06Z",
-   "state": "KY",
-   "county": "McCreary",
-   "cause": "Human",
+   "contained": 0,
+   "discovered": "2026-11-19T19:36:00Z",
+   "updated": "2026-11-19T20:31:16Z",
+   "state": "TX",
+   "county": "Newton",
+   "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -84.4525,
-   "lat": 36.657
+   "lon": -93.7328,
+   "lat": 30.8625
+  },
+  {
+   "id": "{9A9BA7D6-6933-4601-A5E8-824540DC61CF}",
+   "name": "Steele Lane",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-19T19:44:00Z",
+   "updated": "2026-11-19T20:34:16Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.9385,
+   "lat": 36.7768
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -939,6 +967,20 @@
    "lat": 43.241
   },
   {
+   "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
+   "name": "Fire 191",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:34:55Z",
+   "state": "WI",
+   "county": "Langlade",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.7519,
+   "lat": 45.2484
+  },
+  {
    "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
    "name": "Angler",
    "acres": 1.3,
@@ -979,20 +1021,6 @@
    "complexity": null,
    "lon": -116.987,
    "lat": 45.3224
-  },
-  {
-   "id": "{5A2F0223-5F25-48B3-B71A-0F1BEEF71F70}",
-   "name": "Jordan4",
-   "acres": 1.1,
-   "contained": null,
-   "discovered": "2026-11-10T19:58:00Z",
-   "updated": "2026-11-19T20:03:39Z",
-   "state": "MS",
-   "county": "Tishomingo",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.2792,
-   "lat": 34.5445
   },
   {
    "id": "{52887836-645E-4230-8BF5-82F6EC8526F9}",
@@ -1079,32 +1107,18 @@
    "lat": 35.7524
   },
   {
-   "id": "{FCC76185-83D0-471B-A130-7E901AFCE045}",
-   "name": "Dallas 299",
+   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
+   "name": "Ness",
    "acres": 1.0,
    "contained": null,
-   "discovered": "2026-11-19T15:32:48Z",
-   "updated": "2026-11-19T18:46:18Z",
-   "state": "AR",
-   "county": "Dallas",
-   "cause": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:23:06Z",
+   "state": "WI",
+   "county": "Waupaca",
+   "cause": "Human",
    "complexity": null,
-   "lon": -92.7827,
-   "lat": 33.8498
-  },
-  {
-   "id": "{EFB26950-5F90-4C47-B3CF-1D37CC2CB241}",
-   "name": "Garland 300",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-19T17:51:39Z",
-   "updated": "2026-11-19T18:00:56Z",
-   "state": "AR",
-   "county": "Garland",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.3352,
-   "lat": 34.4624
+   "lon": -89.1726,
+   "lat": 44.6201
   },
   {
    "id": "{91351B79-FBAB-4EED-B542-B83C51452858}",
@@ -1233,26 +1247,12 @@
    "lat": 46.1886
   },
   {
-   "id": "{26D85495-8549-4C7C-ACBB-4E1E38C378E0}",
-   "name": "Wolf",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:08:03Z",
-   "state": "WI",
-   "county": "Marinette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -87.946,
-   "lat": 45.4968
-  },
-  {
    "id": "{DC17C6A1-5884-4F78-AA1B-B6A785033758}",
-   "name": "Glacier Ridge",
+   "name": "Glacier",
    "acres": 0.5,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:45:31Z",
+   "updated": "2026-11-19T20:15:39Z",
    "state": "WI",
    "county": "Portage",
    "cause": "Undetermined",
@@ -1301,6 +1301,20 @@
    "complexity": null,
    "lon": -92.7284,
    "lat": 45.7879
+  },
+  {
+   "id": "{26D85495-8549-4C7C-ACBB-4E1E38C378E0}",
+   "name": "Wolf",
+   "acres": 0.3,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:07:50Z",
+   "state": "WI",
+   "county": "Marinette",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -87.9505,
+   "lat": 45.4966
   },
   {
    "id": "{FA2E2355-2C3D-4B3E-B7F4-744C3C7EB43E}",
@@ -1413,6 +1427,20 @@
    "complexity": null,
    "lon": -89.549,
    "lat": 45.6602
+  },
+  {
+   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
+   "name": "Crescent Lake",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:16:51Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5244,
+   "lat": 45.618
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1849,20 +1877,6 @@
    "lat": 45.8865
   },
   {
-   "id": "{EDF19114-9A68-480B-A5C9-65E5E10F91ED}",
-   "name": "Fire 188",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T17:32:57Z",
-   "state": "WI",
-   "county": "Forest",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.7447,
-   "lat": 45.649
-  },
-  {
    "id": "{F8F54710-5B39-4B0E-95A7-913596B01998}",
    "name": "Augustyne Springs",
    "acres": 0.1,
@@ -1889,6 +1903,20 @@
    "complexity": "Type 5 Incident",
    "lon": -93.8713,
    "lat": 35.0241
+  },
+  {
+   "id": "{C5964F78-E5F8-4375-98EA-9A957E5860BE}",
+   "name": "Fall Rock",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-19T18:38:00Z",
+   "updated": "2026-11-19T20:18:13Z",
+   "state": "KY",
+   "county": "Clay",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.788,
+   "lat": 37.221
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
