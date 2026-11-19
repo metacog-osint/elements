@@ -14,7 +14,7 @@ can cap it. The lowest cap wins. Each judgment lists the steps that would raise 
 | Information base | Extent | coverage of the area or period | Below 50% caps at Low and marks the row degraded |
 | Information base | Source quality | Admiralty grades | Reliability E or F, or credibility 5 or 6, caps at Moderate |
 | Analytical rigour | Argumentation | alternatives examined and rejected | High needs at least one |
-| Analytical rigour | Expertise | a scored Verdict record for the method version | No High until there is one |
+| Analytical rigour | Expertise | a scored Verdict record (`confidence.method_scored(scores, program)`, from Verdict's `scores.json`: at least Verdict's `skill_min_n` independent resolved forecasts, 30 today; Verdict scores by program, not yet by method version) | No High until there is one |
 | Analytical rigour | Assumptions | worst linked assumption | Strained caps at Moderate; broken blocks publication |
 | Complexity and volatility | Deception | how easily the evidence could be faked | Easy to fake caps at Moderate |
 | Complexity and volatility | Horizon | how far ahead a forecast looks | No High beyond 90 days |

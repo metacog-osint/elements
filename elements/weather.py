@@ -57,6 +57,24 @@ def _centre(geom, pts):
     return None, None
 
 
+def chain_key(p: dict) -> str:
+    """The key of an alert without VTEC: the first message in its CAP chain (the earliest of its references, else
+    itself), so an update is the same alert (Tom, 19 Nov 2026; MeteoAlarm keys its warnings the same way)."""
+    refs = [r for r in p.get("references") or [] if isinstance(r, dict) and (r.get("identifier") or r.get("@id"))]
+    if not refs:
+        return _oid_tail(p.get("id"))
+    first = min(refs, key=lambda r: (_utc(r.get("sent")) or r.get("sent") or "", r.get("identifier") or r.get("@id")))
+    return _oid_tail(first.get("identifier") or first.get("@id"))
+
+
+def _oid_tail(ident) -> str:
+    """The message part of an NWS CAP identifier ("urn:oid:2.49.0.1.840.0.<hash>.<n>.<n>", alone or in the API's URL),
+    without NWS's common OID prefix. Before 19 Nov 2026 the key was the text after the last dot, "1" for every alert,
+    which would have merged every alert without VTEC into one (none was live when it was found)."""
+    s = (ident or "").rsplit("/", 1)[-1].rsplit(":", 1)[-1]
+    return s[len("2.49.0.1.840.0."):] if s.startswith("2.49.0.1.840.0.") else s
+
+
 def parse_nws(doc: dict) -> list[dict]:
     events = {}
     for f in doc.get("features", []):
@@ -66,7 +84,7 @@ def parse_nws(doc: dict) -> list[dict]:
         vt = next((m for v in (p.get("parameters") or {}).get("VTEC") or [] for m in [VTEC_RE.search(v)] if m), None)
         sent = _utc(p.get("sent"))
         key = (f"{vt.group(1)}.{vt.group(2)}.{vt.group(3)}.{vt.group(4)}.{(sent or '')[:4]}" if vt
-               else (p.get("id") or "").rsplit(".", 1)[-1][-16:])
+               else chain_key(p))
         geoids = sorted({c[1:] for c in (p.get("geocode") or {}).get("SAME") or [] if len(c) == 6 and c.isdigit()})
         e = events.get(key)
         if e is None:

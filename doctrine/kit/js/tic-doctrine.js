@@ -1350,6 +1350,440 @@ export const VOCAB = {
         }
       }
     }
+  },
+  "last_change": {
+    "new": "The subject or condition first appeared.",
+    "raised": "Its level moved up on its own ladder or across its own threshold.",
+    "lowered": "Its level moved down on its own ladder or back across its own threshold.",
+    "changed": "Scope, place or wording changed, with the level the same.",
+    "ended": "No longer observed or in force.",
+    "none": "No change in the program's record: standing for as long as the program has watched."
+  },
+  "place_basis": {
+    "location": "It is, or it happened, there.",
+    "subject": "The item is about that country (an advisory, a currency, a sanctions list), wherever it is.",
+    "named": "A party is named: a victim's country, a network's home, an operator's origin. A join by place skips it.",
+    "zone": "The program's own multi-country zone; counts as one place, not as each country in it."
+  },
+  "zones": {
+    "01_Ukraine_Conflict": {
+      "name": "Ukraine Conflict",
+      "countries": [
+        "UA"
+      ]
+    },
+    "07_Russia_NATO": {
+      "name": "Russia-NATO Border",
+      "countries": [
+        "BY",
+        "DK",
+        "EE",
+        "FI",
+        "LT",
+        "LV",
+        "NO",
+        "PL",
+        "RU",
+        "SE"
+      ]
+    },
+    "02_Taiwan_Strait": {
+      "name": "Taiwan Strait",
+      "countries": [
+        "TW"
+      ]
+    },
+    "08_South_China_Sea": {
+      "name": "South China Sea",
+      "countries": [
+        "PH",
+        "VN"
+      ]
+    },
+    "03_Korea_Peninsula": {
+      "name": "Korea Peninsula",
+      "countries": [
+        "KP",
+        "KR"
+      ]
+    },
+    "10_Israel_Gaza_Lebanon": {
+      "name": "Israel, Gaza & Lebanon",
+      "countries": [
+        "IL",
+        "LB",
+        "PS"
+      ]
+    },
+    "11_Iran_Red_Sea": {
+      "name": "Iran & Red Sea",
+      "countries": [
+        "IR",
+        "YE"
+      ]
+    },
+    "06_India_Pakistan": {
+      "name": "India-Pakistan",
+      "countries": [
+        "IN",
+        "PK"
+      ]
+    },
+    "13_Sudan": {
+      "name": "Sudan",
+      "countries": [
+        "SD"
+      ]
+    },
+    "18_Ethiopia_Eritrea": {
+      "name": "Ethiopia & Eritrea",
+      "countries": [
+        "ER",
+        "ET"
+      ]
+    },
+    "19_Somalia": {
+      "name": "Somalia",
+      "countries": [
+        "DJ",
+        "SO"
+      ]
+    },
+    "12_Sahel_West_Africa": {
+      "name": "Sahel & West Africa",
+      "countries": [
+        "BF",
+        "ML",
+        "NE"
+      ]
+    },
+    "14_DRC_Rwanda": {
+      "name": "DRC-Rwanda (M23)",
+      "countries": [
+        "CD",
+        "RW"
+      ]
+    },
+    "16_Myanmar": {
+      "name": "Myanmar",
+      "countries": [
+        "MM"
+      ]
+    },
+    "05_Venezuela": {
+      "name": "Venezuela",
+      "countries": [
+        "VE"
+      ]
+    },
+    "15_Cuba": {
+      "name": "Cuba",
+      "countries": [
+        "CU"
+      ]
+    }
+  },
+  "zones_retired": {
+    "17_Horn_of_Africa": {
+      "on": "2026-10-27",
+      "into": [
+        "18_Ethiopia_Eritrea",
+        "19_Somalia"
+      ]
+    }
+  },
+  "seas": {
+    "adriatic-sea": "Adriatic Sea",
+    "aegean-sea": "Aegean Sea",
+    "albemarle-sound": "Albemarle Sound",
+    "alboran-sea": "Alboran Sea",
+    "amazon": "Amazon",
+    "amundsen-gulf": "Amundsen Gulf",
+    "amundsen-sea": "Amundsen Sea",
+    "andaman-sea": "Andaman Sea",
+    "antongil-bay": "Antongil Bay",
+    "arabian-sea": "Arabian Sea",
+    "arafura-sea": "Arafura Sea",
+    "arctic-ocean": "Arctic Ocean",
+    "bab-el-mandeb": "Bab-el-Mandeb",
+    "baffin-bay": "Baffin Bay",
+    "bahia-blanca": "Bahía Blanca",
+    "bahia-grande": "Bahía Grande",
+    "baia-de-sao-marcos": "Baía de São Marcos",
+    "baird-inlet": "Baird Inlet",
+    "balearic-sea": "Balearic Sea",
+    "bali-sea": "Bali Sea",
+    "bali-strait": "Bali Strait",
+    "baltic-sea": "Baltic Sea",
+    "banda-sea": "Banda Sea",
+    "barents-sea": "Barents Sea",
+    "bass-strait": "Bass Strait",
+    "bathurst-inlet": "Bathurst Inlet",
+    "bay-of-bengal": "Bay of Bengal",
+    "bay-of-biscay": "Bay of Biscay",
+    "bay-of-campeche": "Bay of Campeche",
+    "bay-of-fundy": "Bay of Fundy",
+    "bay-of-mecklenburg": "Bay of Mecklenburg",
+    "bay-of-plenty": "Bay of Plenty",
+    "beaufort-sea": "Beaufort Sea",
+    "bellingshausen-sea": "Bellingshausen Sea",
+    "bering-sea": "Bering Sea",
+    "bight-of-benin": "Bight of Benin",
+    "bight-of-biafra": "Bight of Biafra",
+    "bismarck-sea": "Bismarck Sea",
+    "black-sea": "Black Sea",
+    "boca-grande": "Boca Grande",
+    "bohai-sea": "Bohai Sea",
+    "bohol-sea": "Bohol Sea",
+    "boknafjord": "Boknafjord",
+    "bosporus": "Bosporus",
+    "bransfield-strait": "Bransfield Strait",
+    "bras-dor-lake": "Bras d'Or Lake",
+    "bristol-bay": "Bristol Bay",
+    "bristol-channel": "Bristol Channel",
+    "buli-bay": "Buli Bay",
+    "canal-do-norte": "Canal do Norte",
+    "canal-do-sul": "Canal do Sul",
+    "canal-perigoso": "Canal Perigoso",
+    "caribbean-sea": "Caribbean Sea",
+    "caspian-sea": "Caspian Sea",
+    "celebes-sea": "Celebes Sea",
+    "ceram-sea": "Ceram Sea",
+    "chaunskaya-bay": "Chaunskaya Bay",
+    "chesapeake-bay": "Chesapeake Bay",
+    "chukchi-sea": "Chukchi Sea",
+    "columbia-river": "Columbia River",
+    "cook-strait": "Cook Strait",
+    "coral-sea": "Coral Sea",
+    "cordova-bay": "Cordova Bay",
+    "cumberland-sound": "Cumberland Sound",
+    "dampier-strait": "Dampier Strait",
+    "dardanelles": "Dardanelles",
+    "darnley-bay": "Darnley Bay",
+    "davao-gulf": "Davao Gulf",
+    "davis-sea": "Davis Sea",
+    "davis-strait": "Davis Strait",
+    "delaware-bay": "Delaware Bay",
+    "denmark-strait": "Denmark Strait",
+    "disko-bay": "Disko Bay",
+    "dixon-entrance": "Dixon Entrance",
+    "dmitry-laptev-strait": "Dmitry Laptev Strait",
+    "east-china-sea": "East China Sea",
+    "east-korea-bay": "East Korea Bay",
+    "east-siberian-sea": "East Siberian Sea",
+    "eclipse-sound": "Eclipse Sound",
+    "english-channel": "English Channel",
+    "flores-sea": "Flores Sea",
+    "florida-strait": "Florida Strait",
+    "foxe-basin": "Foxe Basin",
+    "franklin-bay": "Franklin Bay",
+    "frobisher-bay": "Frobisher Bay",
+    "fury-and-hecla-strait": "Fury and Hecla Strait",
+    "garabogazkol": "Garabogazköl",
+    "geographe-bay": "Geographe Bay",
+    "george-vi-sound": "George VI Sound",
+    "goldsmith-channel": "Goldsmith Channel",
+    "great-australian-bight": "Great Australian Bight",
+    "greenland-sea": "Greenland Sea",
+    "guba-gusinaya": "Guba Gusinaya",
+    "gulf-of-aden": "Gulf of Aden",
+    "gulf-of-alaska": "Gulf of Alaska",
+    "gulf-of-anadyr": "Gulf of Anadyr",
+    "gulf-of-aqaba": "Gulf of Aqaba",
+    "gulf-of-boothia": "Gulf of Boothia",
+    "gulf-of-bothnia": "Gulf of Bothnia",
+    "gulf-of-california": "Gulf of California",
+    "gulf-of-carpentaria": "Gulf of Carpentaria",
+    "gulf-of-corcovado": "Gulf of Corcovado",
+    "gulf-of-finland": "Gulf of Finland",
+    "gulf-of-gabes": "Gulf of Gabès",
+    "gulf-of-guayaquil": "Gulf of Guayaquil",
+    "gulf-of-guinea": "Gulf of Guinea",
+    "gulf-of-honduras": "Gulf of Honduras",
+    "gulf-of-khambhat": "Gulf of Khambhat",
+    "gulf-of-kutch": "Gulf of Kutch",
+    "gulf-of-lion": "Gulf of Lion",
+    "gulf-of-maine": "Gulf of Maine",
+    "gulf-of-mannar": "Gulf of Mannar",
+    "gulf-of-martaban": "Gulf of Martaban",
+    "gulf-of-masirah": "Gulf of Masirah",
+    "gulf-of-mexico": "Gulf of Mexico",
+    "gulf-of-ob": "Gulf of Ob",
+    "gulf-of-oman": "Gulf of Oman",
+    "gulf-of-panama": "Gulf of Panama",
+    "gulf-of-papua": "Gulf of Papua",
+    "gulf-of-penas": "Gulf of Penas",
+    "gulf-of-riga": "Gulf of Riga",
+    "gulf-of-saint-lawrence": "Gulf of Saint Lawrence",
+    "gulf-of-sidra": "Gulf of Sidra",
+    "gulf-of-suez": "Gulf of Suez",
+    "gulf-of-tehuantepec": "Gulf of Tehuantepec",
+    "gulf-of-thailand": "Gulf of Thailand",
+    "gulf-of-tomini": "Gulf of Tomini",
+    "gulf-of-tonkin": "Gulf of Tonkin",
+    "gulf-of-uraba": "Gulf of Urabá",
+    "gulf-st-vincent": "Gulf St Vincent",
+    "hadley-bay": "Hadley Bay",
+    "hall-basin": "Hall Basin",
+    "halmahera-sea": "Halmahera Sea",
+    "hamilton-inlet": "Hamilton Inlet",
+    "hangzhouwan": "Hangzhouwan",
+    "hecate-strait": "Hecate Strait",
+    "hudson-bay": "Hudson Bay",
+    "hudson-strait": "Hudson Strait",
+    "husky-lakes": "Husky Lakes",
+    "indian-ocean": "Indian Ocean",
+    "inutil-bay": "Inútil Bay",
+    "ionian-sea": "Ionian Sea",
+    "irish-sea": "Irish Sea",
+    "james-bay": "James Bay",
+    "java-sea": "Java Sea",
+    "jones-sound": "Jones Sound",
+    "joseph-bonaparte-gulf": "Joseph Bonaparte Gulf",
+    "kaliningrad": "Kaliningrad",
+    "kamchatka-gulf": "Kamchatka Gulf",
+    "kane-basin": "Kane Basin",
+    "kao-bay": "Kao Bay",
+    "kara-sea": "Kara Sea",
+    "kara-strait": "Kara Strait",
+    "karaginsky-gulf": "Karaginsky Gulf",
+    "kattegat": "Kattegat",
+    "kennedy-channel": "Kennedy Channel",
+    "khatanga-gulf": "Khatanga Gulf",
+    "korea-strait": "Korea Strait",
+    "kotzebue-sound": "Kotzebue Sound",
+    "kronotsky-gulf": "Kronotsky Gulf",
+    "la-perouse-strait": "La Pérouse Strait",
+    "labrador-sea": "Labrador Sea",
+    "laccadive-sea": "Laccadive Sea",
+    "lake-maracaibo": "Lake Maracaibo",
+    "lake-mogotoyevo": "Lake Mogotoyevo",
+    "lake-pontchartrain": "Lake Pontchartrain",
+    "laptev-sea": "Laptev Sea",
+    "leyte-gulf": "Leyte Gulf",
+    "liddon-gulf": "Liddon Gulf",
+    "ligurian-sea": "Ligurian Sea",
+    "lincoln-sea": "Lincoln Sea",
+    "long-island-sound": "Long Island Sound",
+    "lutzow-holm-bay": "Lützow-Holm Bay",
+    "mackenzie-bay": "Mackenzie Bay",
+    "makassar-strait": "Makassar Strait",
+    "maputo-bay": "Maputo Bay",
+    "marajo-bay": "Marajó Bay",
+    "marguerite-bay": "Marguerite Bay",
+    "massachusetts-bay": "Massachusetts Bay",
+    "matochkin-strait": "Matochkin Strait",
+    "mclure-strait": "M'Clure Strait",
+    "mcmurdo-sound": "McMurdo Sound",
+    "mediterranean-sea": "Mediterranean Sea",
+    "melville-bay": "Melville Bay",
+    "minto-inlet": "Minto Inlet",
+    "molucca-sea": "Molucca Sea",
+    "monterey-bay": "Monterey Bay",
+    "mozambique-channel": "Mozambique Channel",
+    "murchison-sound": "Murchison Sound",
+    "north-atlantic-ocean": "North Atlantic Ocean",
+    "north-pacific-ocean": "North Pacific Ocean",
+    "north-sea": "North Sea",
+    "northwest-passage": "Northwest Passage",
+    "norton-sound": "Norton Sound",
+    "norwegian-sea": "Norwegian Sea",
+    "olenyok-gulf": "Olenyok Gulf",
+    "oresund": "Øresund",
+    "palk-strait": "Palk Strait",
+    "pamlico-sound": "Pamlico Sound",
+    "patos-lagoon": "Patos Lagoon",
+    "peacock-sound": "Peacock Sound",
+    "persian-gulf": "Persian Gulf",
+    "philippine-sea": "Philippine Sea",
+    "porpoise-bay": "Porpoise Bay",
+    "prince-albert-sound": "Prince Albert Sound",
+    "prince-of-wales-strait": "Prince of Wales Strait",
+    "prince-william-sound": "Prince William Sound",
+    "prydz-bay": "Prydz Bay",
+    "qiongzhou-strait": "Qiongzhou Strait",
+    "queen-charlotte-sound": "Queen Charlotte Sound",
+    "queen-charlotte-strait": "Queen Charlotte Strait",
+    "ragay-gulf": "Ragay Gulf",
+    "red-sea": "Red Sea",
+    "richard-collinson-inlet": "Richard Collinson Inlet",
+    "rio-de-la-plata": "Río de la Plata",
+    "robeson-channel": "Robeson Channel",
+    "ronne-entrance": "Ronne Entrance",
+    "ross-sea": "Ross Sea",
+    "saint-lawrence-river": "Saint Lawrence River",
+    "sakhalin-gulf": "Sakhalin Gulf",
+    "salish-sea": "Salish Sea",
+    "samar-sea": "Samar Sea",
+    "san-francisco-bay": "San Francisco Bay",
+    "san-jorge-gulf": "San Jorge Gulf",
+    "san-matias-gulf": "San Matías Gulf",
+    "sargasso-sea": "Sargasso Sea",
+    "savu-sea": "Savu Sea",
+    "scoresby-sound": "Scoresby Sound",
+    "scotia-sea": "Scotia Sea",
+    "sea-of-azov": "Sea of Azov",
+    "sea-of-crete": "Sea of Crete",
+    "sea-of-japan": "Sea of Japan",
+    "sea-of-marmara": "Sea of Marmara",
+    "sea-of-okhotsk": "Sea of Okhotsk",
+    "sea-of-the-hebrides": "Sea of the Hebrides",
+    "seno-otway": "Seno Otway",
+    "seno-skyring": "Seno Skyring",
+    "seto-inland-sea": "Seto Inland Sea",
+    "shark-bay": "Shark Bay",
+    "shelikhov-gulf": "Shelikhov Gulf",
+    "sherman-basin": "Sherman Basin",
+    "sibuyan-sea": "Sibuyan Sea",
+    "singapore-strait": "Singapore Strait",
+    "skagerrak": "Skagerrak",
+    "smith-sound": "Smith Sound",
+    "sognefjord": "Sognefjord",
+    "solomon-sea": "Solomon Sea",
+    "south-atlantic-ocean": "South Atlantic Ocean",
+    "south-china-sea": "South China Sea",
+    "south-pacific-ocean": "South Pacific Ocean",
+    "southern-ocean": "Southern Ocean",
+    "st-helena-bay": "St. Helena Bay",
+    "storfjorden": "Storfjorden",
+    "strait-of-belle-isle": "Strait of Belle Isle",
+    "strait-of-gibraltar": "Strait of Gibraltar",
+    "strait-of-magellan": "Strait of Magellan",
+    "strait-of-malacca": "Strait of Malacca",
+    "strait-of-tartary": "Strait of Tartary",
+    "sulu-sea": "Sulu Sea",
+    "sulzberger-bay": "Sulzberger Bay",
+    "surigao-strait": "Surigao Strait",
+    "szczecin-lagoon": "Szczecin Lagoon",
+    "taiwan-strait": "Taiwan Strait",
+    "tasman-sea": "Tasman Sea",
+    "tayabas-bay": "Tayabas Bay",
+    "tikahtnu-inlet": "Tikahtnu Inlet",
+    "timor-sea": "Timor Sea",
+    "torres-strait": "Torres Strait",
+    "trondheimsfjord": "Trondheimsfjord",
+    "tsugaru-strait": "Tsugaru Strait",
+    "tyrrhenian-sea": "Tyrrhenian Sea",
+    "uchiura-bay": "Uchiura Bay",
+    "uda-gulf": "Uda Gulf",
+    "ungava-bay": "Ungava Bay",
+    "uummannaq-fjord": "Uummannaq fjord",
+    "vestfjorden": "Vestfjorden",
+    "vilkitsky-strait": "Vilkitsky Strait",
+    "vincennes-bay": "Vincennes Bay",
+    "visayan-sea": "Visayan Sea",
+    "viscount-melville-sound": "Viscount Melville Sound",
+    "wadden-sea": "Wadden Sea",
+    "wager-bay": "Wager Bay",
+    "weddell-sea": "Weddell Sea",
+    "white-sea": "White Sea",
+    "wrigley-gulf": "Wrigley Gulf",
+    "wynniatt-bay": "Wynniatt Bay",
+    "yana-bay": "Yana Bay",
+    "yangtze": "Yangtze",
+    "yellow-sea": "Yellow Sea",
+    "yenisei-gulf": "Yenisei Gulf",
+    "yucatan-channel": "Yucatán Channel"
   }
 };
 // END GENERATED VOCAB
@@ -1423,6 +1857,54 @@ export function asOfDateLabel(item, locale) {
     ? { month: "long", year: "numeric", timeZone: "UTC" }
     : { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" };
   return d.toLocaleDateString(locale, opts);
+}
+
+const UTC_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d+)?)?Z$/;
+const utcDate = (v) => (typeof v === "string" && UTC_RE.test(v) ? new Date(v) : null);
+
+function floorTo(d, prec) {
+  const x = new Date(d.getTime());
+  if (prec === "hour") x.setUTCMinutes(0, 0, 0);
+  if (prec === "day") x.setUTCHours(0, 0, 0, 0);
+  if (prec === "month") { x.setUTCDate(1); x.setUTCHours(0, 0, 0, 0); }
+  return x;
+}
+
+function periodEnd(d, prec) {
+  const x = floorTo(d, prec);
+  if (prec === "hour") x.setUTCHours(x.getUTCHours() + 1);
+  if (prec === "day") x.setUTCDate(x.getUTCDate() + 1);
+  if (prec === "month") x.setUTCMonth(x.getUTCMonth() + 1);
+  return x;
+}
+
+/** {start, end} (Dates, start may be null) of what an item describes in the world, by contract revision 2.1:
+ *  event_start to event_end; with no end, to data_as_of (ongoing), or the start alone when it lies after data_as_of
+ *  (scheduled); event_time_precision widens each end to its whole hour, day or month. null with no event time.
+ *  The same rule as contract.event_interval() in the Python kit. */
+export function eventInterval(item) {
+  const prec = ["hour", "day", "month"].includes(item && item.event_time_precision) ? item.event_time_precision : null;
+  const es = utcDate(item && item.event_start), ee = utcDate(item && item.event_end);
+  if (!es && !ee) return null;
+  const start = es ? floorTo(es, prec) : null;
+  if (ee) return { start, end: periodEnd(ee, prec) };
+  const asof = utcDate(item.data_as_of);
+  if (!asof || es > asof) return { start, end: prec ? periodEnd(es, prec) : start };
+  return { start, end: asof };
+}
+
+/** The gazetteer's name for a sea-area slug ("persian-gulf" -> "Persian Gulf"), or null. */
+export function seaName(slug) {
+  return VOCAB.seas[slug] || null;
+}
+
+/** The shared zone list's name for a zone key ("11_Iran_Red_Sea" -> "Iran & Red Sea"); a retired key gives the
+ *  names of the zones it went into, joined; null for an unknown key. */
+export function zoneName(key) {
+  const z = VOCAB.zones[key];
+  if (z) return z.name;
+  const old = VOCAB.zones_retired[key];
+  return old ? old.into.map((k) => VOCAB.zones[k].name).join(" / ") : null;
 }
 
 /** A response ladder rung from "ladder:value", e.g. "pager:orange". */

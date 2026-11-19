@@ -8,9 +8,10 @@ from datetime import datetime, timedelta, timezone
 from functools import cache
 
 from .common import ROOT, country_name, country_point  # first: puts the doctrine kit on sys.path
-from tic_doctrine import CONTRACT, contract, geo, registers, vocab  # noqa: E402
+from tic_doctrine import CONTRACT, __version__ as KIT, contract, geo, registers, vocab  # noqa: E402
+from . import rev21  # noqa: E402
 
-METHOD = "elements-feed-1.0"
+METHOD = "elements-feed-1.1"
 CEMS_DAYS = 60
 SRC = {
     "usgs": {"id": "usgs-earthquakes", "publisher": "US Geological Survey", "licence": "US public domain", "grade": "A1",
@@ -225,7 +226,7 @@ def _volcano_items(d: dict, now: datetime) -> list[dict]:
              "link": v.get("url"),
              "measures": {"name": v["name"], "vnum": v["vnum"], "alert_level": v["alert"], "aviation_color": v.get("color"),
                           "previous_alert_level": v.get("prev_alert"), "previous_aviation_color": v.get("prev_color"),
-                          "change": moved, "observatory": v.get("observatory_name"), "nvews_threat": v.get("threat"),
+                          "change": moved, "changed_at": v.get("changed"), "observatory": v.get("observatory_name"), "nvews_threat": v.get("threat"),
                           "synopsis": v.get("synopsis")}}
         if v["alert"].lower() in rungs:
             p["response_stage"] = f"usgs_volcano:{v['alert'].lower()}"
@@ -382,8 +383,9 @@ def _pt(lon, lat):
     return {"type": "Point", "coordinates": [lon, lat]} if lon is not None and lat is not None else None
 
 
-def build(d: dict, now: datetime | None = None) -> dict:
-    """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}"""
+def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None) -> dict:
+    """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
+    state after this run's history step and the log's first run, to fill last_change (contract revision 2.1)."""
     now = now or datetime.now(timezone.utc)
     feats = []
     from .emsc import match
@@ -411,6 +413,11 @@ def build(d: dict, now: datetime | None = None) -> dict:
                                      "independent": independent, "id": e["id"]}
             if independent:   # a second, independent catalogue reports the same earthquake
                 p["sources"].append({**SRC["emsc"], "url": e["url"], "accessed_at": fe})
+                c = rev21.corroboration(q, e)
+                if c and c["corroborated_at"] > p["published_at"]:
+                    c["corroborated_at"] = max(c["first_reported_at"], p["published_at"])
+                if c and c["first_reported_at"] <= p["published_at"]:
+                    p["corroboration"] = c
         feats.append({"type": "Feature", "geometry": _pt(q["lon"], q["lat"]), "properties": p})
 
     matched = {e["id"] for e in pairs.values()}
@@ -522,6 +529,7 @@ def build(d: dict, now: datetime | None = None) -> dict:
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
     subdivide(feats)
+    rev21.finish(feats, state, since)
     regs = registers.ids(ROOT / "doctrine")
     kept, dropped = [], []
     for x in feats:
@@ -529,7 +537,14 @@ def build(d: dict, now: datetime | None = None) -> dict:
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
     stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm", "emsc", "nifc")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    return {"type": "FeatureCollection", "contract": CONTRACT, "program": "elements", "generated_at": stamp,
+    newest = {}
+    for x in kept:
+        p = x["properties"]
+        k = (p.get("sources") or [{}])[0].get("id")
+        if k and p.get("data_as_of") and p["data_as_of"] > newest.get(k, ""):
+            newest[k] = p["data_as_of"]
+    return {"type": "FeatureCollection", "contract": CONTRACT, "contract_rev": contract.CONTRACT_REV, "kit": KIT,
+            "program": "elements", "generated_at": stamp,
             "licence": "Elements code GNU AGPL-3.0; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
                        "with attribution; MeteoAlarm and EMSC content CC BY 4.0; US Drought Monitor and NIFC WFIGS state "
                        "no licence and are credited",
@@ -542,5 +557,5 @@ def build(d: dict, now: datetime | None = None) -> dict:
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
             # The kit's per-source health block, keyed by the source id each item carries (15 Nov 2026): COP's ledger
             # reads it so that a failed source's kept items neither end nor count as seen again.
-            "health": d.get("health") or {},
+            "health": rev21.health_states(d.get("health") or {}, newest, now),
             "dropped": dropped, "features": kept}

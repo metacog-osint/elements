@@ -22,6 +22,21 @@ def enum(name: str) -> set[str]:
     return set(load("enums")[name]["values"])
 
 
+def zones() -> dict:
+    """The suite's shared zone keys (D4, kit 0.6.1): {key: {key, name, countries, map}}, Watchfloor's catalog."""
+    return {z["key"]: z for z in load("zones")["zones"]}
+
+
+def retired_zones() -> dict:
+    """Zone keys Watchfloor has retired: {key: {key, on, into, why, countries}}. They still resolve."""
+    return {z["key"]: z for z in load("zones")["retired"]}
+
+
+def zone(key: str) -> dict | None:
+    """One zone by key, active or retired, or None."""
+    return zones().get(key) or retired_zones().get(key)
+
+
 def framework(name: str) -> dict:
     return load("frameworks")[name]
 
