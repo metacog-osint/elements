@@ -202,7 +202,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T18:45:20Z",
+   "updated": "2026-11-19T20:02:30Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -589,6 +589,20 @@
    "lat": 34.3408
   },
   {
+   "id": "{F2594169-0E37-47CC-9101-781878568675}",
+   "name": "Daytona",
+   "acres": 10.0,
+   "contained": null,
+   "discovered": "2026-11-19T18:46:40Z",
+   "updated": "2026-11-19T20:04:37Z",
+   "state": "MO",
+   "county": "Ripley",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -90.9771,
+   "lat": 36.7909
+  },
+  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -629,20 +643,6 @@
    "complexity": null,
    "lon": -65.2736,
    "lat": 18.3048
-  },
-  {
-   "id": "{0486B60F-4C26-4E7E-80FB-D4E7C2F6E436}",
-   "name": "Cinder",
-   "acres": 6.2,
-   "contained": null,
-   "discovered": "2026-10-10T22:00:00Z",
-   "updated": "2026-11-16T19:51:48Z",
-   "state": "WI",
-   "county": "Langlade",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -89.4073,
-   "lat": 45.4675
   },
   {
    "id": "{34C4C722-3318-4AED-BB22-D03A0643445E}",
@@ -925,20 +925,6 @@
    "lat": 18.3265
   },
   {
-   "id": "{132FCFB1-4451-48DD-B137-CFCEB4237818}",
-   "name": "Brown Road",
-   "acres": 1.5,
-   "contained": null,
-   "discovered": "2026-10-22T20:06:00Z",
-   "updated": "2026-11-16T20:04:09Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -88.7114,
-   "lat": 30.4087
-  },
-  {
    "id": "{E8ED203C-8E60-45A4-A11D-BAC03C1F8A1F}",
    "name": "Lynx",
    "acres": 1.5,
@@ -993,6 +979,20 @@
    "complexity": null,
    "lon": -116.987,
    "lat": 45.3224
+  },
+  {
+   "id": "{5A2F0223-5F25-48B3-B71A-0F1BEEF71F70}",
+   "name": "Jordan4",
+   "acres": 1.1,
+   "contained": null,
+   "discovered": "2026-11-10T19:58:00Z",
+   "updated": "2026-11-19T20:03:39Z",
+   "state": "MS",
+   "county": "Tishomingo",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -88.2792,
+   "lat": 34.5445
   },
   {
    "id": "{52887836-645E-4230-8BF5-82F6EC8526F9}",
@@ -1247,6 +1247,20 @@
    "lat": 45.4968
   },
   {
+   "id": "{DC17C6A1-5884-4F78-AA1B-B6A785033758}",
+   "name": "Glacier Ridge",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T19:45:31Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.4284,
+   "lat": 44.5505
+  },
+  {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
    "name": "Hatton Cutoff",
    "acres": 0.4,
@@ -1317,20 +1331,6 @@
    "lat": 17.9955
   },
   {
-   "id": "{5FBA45BB-EE66-47D1-9643-E8C32022FED1}",
-   "name": "Thrill",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-10-27T18:30:00Z",
-   "updated": "2026-11-16T19:53:35Z",
-   "state": "WI",
-   "county": "Marinette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -87.7496,
-   "lat": 45.3289
-  },
-  {
    "id": "{C1734E8F-A84A-4F2B-8B43-0D65307FD808}",
    "name": "Borer",
    "acres": 0.2,
@@ -1399,6 +1399,20 @@
    "complexity": null,
    "lon": -88.5805,
    "lat": 45.3528
+  },
+  {
+   "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
+   "name": "Bear Trail",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:02:40Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.549,
+   "lat": 45.6602
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1527,20 +1541,6 @@
    "lat": 30.3933
   },
   {
-   "id": "{FB06D7A7-AD9C-4C0D-AAA8-EA8BC0CD5434}",
-   "name": "Chantry",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-09T00:44:20Z",
-   "updated": "2026-11-16T19:13:33Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.0231,
-   "lat": 34.1796
-  },
-  {
    "id": "{EDD9B7A6-74C9-41AB-98ED-1829EE09435A}",
    "name": "Highway",
    "acres": 0.1,
@@ -1553,20 +1553,6 @@
    "complexity": null,
    "lon": -117.8472,
    "lat": 34.2349
-  },
-  {
-   "id": "{0EC49717-A0E7-49AF-8A7B-9D4ADCACF802}",
-   "name": "Signal",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-23T18:30:00Z",
-   "updated": "2026-11-16T19:52:29Z",
-   "state": "WI",
-   "county": "Marinette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -87.6752,
-   "lat": 45.3138
   },
   {
    "id": "{A9CC18A4-226D-4A55-8662-6B5B0771FED2}",
@@ -1665,20 +1651,6 @@
    "complexity": null,
    "lon": -89.3314,
    "lat": 43.6449
-  },
-  {
-   "id": "{81F3EA72-1F6D-41AD-8C93-E42342937CCA}",
-   "name": "Lago",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-13T18:31:10Z",
-   "updated": "2026-11-16T19:35:06Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.7123,
-   "lat": 34.6038
   },
   {
    "id": "{43457277-BCFC-403F-89B8-946C88C3FBA9}",
@@ -2171,20 +2143,6 @@
    "lat": 17.994
   },
   {
-   "id": "{EB0CC43C-4A10-42B0-A77F-B6DA4D2C7C44}",
-   "name": "Park N Ride",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-08-25T16:53:08Z",
-   "updated": "2026-11-16T19:56:45Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.6565,
-   "lat": 30.4375
-  },
-  {
    "id": "{D4C2537C-1A17-496D-85E2-D4E0993A7D32}",
    "name": "Lake Drive",
    "acres": 0.0,
@@ -2197,20 +2155,6 @@
    "complexity": null,
    "lon": -88.5631,
    "lat": 44.8229
-  },
-  {
-   "id": "{93793F92-67D1-4A68-A283-386382B116E0}",
-   "name": "Bolt",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-06T18:50:00Z",
-   "updated": "2026-11-16T19:53:59Z",
-   "state": "WI",
-   "county": "Marinette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.1419,
-   "lat": 45.6967
   },
   {
    "id": "{EA0D973A-846B-4107-9B70-DF771B4FE7BF}",
@@ -2466,31 +2410,17 @@
   },
   {
    "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
-   "name": "Townline Lake",
+   "name": "Brick House",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:04:55Z",
+   "updated": "2026-11-19T19:38:59Z",
    "state": "WI",
    "county": "Oneida",
    "cause": "Undetermined",
    "complexity": null,
    "lon": -89.1531,
    "lat": 45.8129
-  },
-  {
-   "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
-   "name": "Sheep Ranch",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:20:21Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5486,
-   "lat": 45.6588
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
