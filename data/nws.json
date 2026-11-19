@@ -92,127 +92,6 @@
    ]
   },
   {
-   "id": "TJSJ.FF.W.0042.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Naguabo, PR"
-   ],
-   "counties": [
-    "72103"
-   ],
-   "sent": "2026-11-19T20:31:00Z",
-   "onset": "2026-11-19T20:31:00Z",
-   "ends": "2026-11-19T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fb427f51698c48d90e6e6368817e5374f33cff2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -65.73,
-       18.25
-      ],
-      [
-       -65.7,
-       18.26
-      ],
-      [
-       -65.69,
-       18.23
-      ],
-      [
-       -65.66,
-       18.22
-      ],
-      [
-       -65.66,
-       18.21
-      ],
-      [
-       -65.69,
-       18.2
-      ],
-      [
-       -65.69,
-       18.18
-      ],
-      [
-       -65.72,
-       18.19
-      ],
-      [
-       -65.73,
-       18.18
-      ],
-      [
-       -65.76,
-       18.18
-      ],
-      [
-       -65.76,
-       18.2
-      ],
-      [
-       -65.79,
-       18.21
-      ],
-      [
-       -65.83,
-       18.2
-      ],
-      [
-       -65.83,
-       18.22
-      ],
-      [
-       -65.82,
-       18.25
-      ],
-      [
-       -65.82,
-       18.28
-      ],
-      [
-       -65.81,
-       18.29
-      ],
-      [
-       -65.78,
-       18.29
-      ],
-      [
-       -65.78,
-       18.28
-      ],
-      [
-       -65.77,
-       18.28
-      ],
-      [
-       -65.73,
-       18.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -65.7357,
-     18.2111
-    ]
-   ],
-   "lon": -65.75,
-   "lat": 18.231,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -378,71 +257,6 @@
    ],
    "lon": -113.214,
    "lat": 33.005,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0011.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-19T13:57:00Z",
-   "onset": "2026-11-19T23:40:00Z",
-   "ends": "2026-11-20T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.013a96340b75cfc869dacec3621c89556baf3c0d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.4,
-       28.71
-      ],
-      [
-       -81.38,
-       28.71
-      ],
-      [
-       -81.39,
-       28.67
-      ],
-      [
-       -81.39,
-       28.65
-      ],
-      [
-       -81.41,
-       28.65
-      ],
-      [
-       -81.42,
-       28.67
-      ],
-      [
-       -81.4,
-       28.71
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.399,
-   "lat": 28.681,
    "countries": [
     "US"
    ]
@@ -1002,6 +816,71 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0011.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-19T21:16:00Z",
+   "onset": "2026-11-20T17:00:00Z",
+   "ends": "2026-11-21T03:16:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c86a672f4a28f04b77166ab093789e0a14cca37b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.4,
+       28.71
+      ],
+      [
+       -81.38,
+       28.71
+      ],
+      [
+       -81.39,
+       28.67
+      ],
+      [
+       -81.39,
+       28.65
+      ],
+      [
+       -81.41,
+       28.65
+      ],
+      [
+       -81.42,
+       28.67
+      ],
+      [
+       -81.4,
+       28.71
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.399,
+   "lat": 28.681,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1355,40 +1234,102 @@
    "certainty": "Observed",
    "sender": "NWS Hanford CA",
    "areas": [
-    "Fresno, CA",
-    "Madera, CA"
+    "Fresno, CA"
    ],
    "counties": [
-    "06019",
-    "06039"
+    "06019"
    ],
-   "sent": "2026-11-19T20:58:00Z",
-   "onset": "2026-11-19T20:58:00Z",
+   "sent": "2026-11-19T21:25:00Z",
+   "onset": "2026-11-19T21:25:00Z",
    "ends": "2026-11-19T21:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.385daa0d001fe40e919b8bfaa7b30e8bdc66302e.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b703067bdbc11bc9c7751573bcf4b17ff7a7639.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -119.76,
-       36.78
+       -119.66,
+       36.83
       ],
       [
-       -119.84,
-       36.9
+       -119.72,
+       36.97
+      ],
+      [
+       -119.66,
+       37.01
+      ],
+      [
+       -119.64,
+       37.04
+      ],
+      [
+       -119.63,
+       37.03
+      ],
+      [
+       -119.63,
+       37.02
+      ],
+      [
+       -119.62,
+       37.03
+      ],
+      [
+       -119.61,
+       37.07
+      ],
+      [
+       -119.56,
+       37.07
+      ],
+      [
+       -119.54,
+       37.1
+      ],
+      [
+       -119.55,
+       37.12
+      ],
+      [
+       -119.56,
+       37.12
+      ],
+      [
+       -119.54,
+       37.13
+      ],
+      [
+       -119.53,
+       37.13
       ],
       [
        -119.51,
-       37.16
+       37.15
+      ],
+      [
+       -119.49,
+       37.14
+      ],
+      [
+       -119.48,
+       37.11
+      ],
+      [
+       -119.47,
+       37.11
+      ],
+      [
+       -119.47,
+       37.13
       ],
       [
        -119.3,
        37
       ],
       [
-       -119.76,
-       36.78
+       -119.66,
+       36.83
       ]
      ]
     ]
@@ -1398,154 +1339,108 @@
     [
      -119.655,
      36.761
-    ],
-    [
-     -119.7498,
-     37.2098
     ]
    ],
-   "lon": -119.634,
-   "lat": 36.924,
+   "lon": -119.563,
+   "lat": 37.054,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KSGX.MA.W.0008.2026",
+   "id": "KEKA.MA.W.0035.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS San Diego CA",
+   "sender": "NWS Eureka CA",
    "areas": [
-    "Coastal Waters from San Mateo Point to the Mexican Border and out to 10 nm"
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Coastal waters from Cape Mendocino to Pt. Arena CA out 10 nm"
    ],
    "counties": [
-    "57740"
+    "57450",
+    "57455"
    ],
-   "sent": "2026-11-19T20:51:00Z",
-   "onset": "2026-11-19T20:51:00Z",
-   "ends": "2026-11-19T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7cdf8f136147b62cd5b1f35813fab88340416351.001.1",
+   "sent": "2026-11-19T21:17:00Z",
+   "onset": "2026-11-19T21:17:00Z",
+   "ends": "2026-11-19T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2717352f96a083f343e1b53d32409963611b337b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -117.49,
-       33.32
+       -124.51,
+       40.48
       ],
       [
-       -117.43,
-       33.25
+       -124.46,
+       40.53
       ],
       [
-       -117.42,
-       33.24
+       -124.39,
+       40.51
       ],
       [
-       -117.55,
-       33.21
+       -124.39,
+       40.5
       ],
       [
-       -117.58,
-       33.27
+       -124.38,
+       40.5
       ],
       [
-       -117.49,
-       33.32
+       -124.38,
+       40.49
+      ],
+      [
+       -124.39,
+       40.47
+      ],
+      [
+       -124.41,
+       40.45
+      ],
+      [
+       -124.41,
+       40.44
+      ],
+      [
+       -124.4,
+       40.43
+      ],
+      [
+       -124.4,
+       40.42
+      ],
+      [
+       -124.37,
+       40.39
+      ],
+      [
+       -124.36,
+       40.37
+      ],
+      [
+       -124.36,
+       40.36
+      ],
+      [
+       -124.47,
+       40.3
+      ],
+      [
+       -124.51,
+       40.48
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -117.493,
-   "lat": 33.268,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KREV.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Mono",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06051",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-19T09:40:00Z",
-   "onset": "2026-11-19T09:40:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e26e70a4a87cf6b03bf382927c7ccb1979c030c4.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -118.8752,
-     37.9158
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.154,
-   "lat": 39.342,
+   "lon": -124.412,
+   "lat": 40.445,
    "countries": [
     "US"
    ]
@@ -1961,6 +1856,90 @@
    ],
    "lon": -111.531,
    "lat": 43.032,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Mono",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area",
+    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06051",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-19T21:05:00Z",
+   "onset": "2026-11-19T21:05:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24f7ba61789c82365d6b6cedb854c30388c9532b.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -118.8752,
+     37.9158
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.154,
+   "lat": 39.342,
    "countries": [
     "US"
    ]
