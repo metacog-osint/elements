@@ -1,18 +1,20 @@
 {
  "records": [
   {
-   "id": "20261119_0000120",
-   "mag": 4.8,
+   "id": "20261119_0000123",
+   "mag": 5.0,
    "magtype": "mb",
-   "time": "2026-11-19T10:36:56Z",
-   "updated": "2026-11-19T11:02:31Z",
-   "region": "Fiji Region",
-   "depth_km": 437.0,
-   "authority": "GFZ",
-   "lat": -19.928,
-   "lon": -177.95,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261119_0000120"
+   "time": "2026-11-19T10:53:07Z",
+   "updated": "2026-11-19T11:07:59Z",
+   "region": "New Britain Region, P.N.G.",
+   "depth_km": 194.8,
+   "authority": "NEIC",
+   "lat": -4.296,
+   "lon": 151.894,
+   "countries": [
+    "PG"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261119_0000123"
   },
   {
    "id": "20261119_0000104",
@@ -1759,20 +1761,6 @@
    "lon": 140.669,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261112_0000157"
-  },
-  {
-   "id": "20261112_0000133",
-   "mag": 4.7,
-   "magtype": "mb",
-   "time": "2026-11-12T11:16:30Z",
-   "updated": "2026-11-14T10:14:06Z",
-   "region": "Flores Region, Indonesia",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": -8.095,
-   "lon": 120.901,
-   "countries": [],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261112_0000133"
   }
  ]
 }
