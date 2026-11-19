@@ -1,37 +1,6 @@
 {
  "records": [
   {
-   "id": "PAFG.CF.W.0002.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Yukon Delta Coast"
-   ],
-   "counties": [
-    "02158"
-   ],
-   "sent": "2026-11-18T22:09:00Z",
-   "onset": "2026-11-18T22:09:00Z",
-   "ends": "2026-11-19T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6845408d1de008c0865adeac0bbd6b1fb301ab4.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -163.1902,
-     62.2836
-    ]
-   ],
-   "lon": -163.19,
-   "lat": 62.284,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0026.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -117,53 +86,65 @@
    ]
   },
   {
-   "id": "KLOX.FF.W.0022.2026",
+   "id": "KMLB.FF.W.0027.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
+   "sender": "NWS Melbourne FL",
    "areas": [
-    "Santa Barbara, CA"
+    "Brevard, FL"
    ],
    "counties": [
-    "06083"
+    "12009"
    ],
-   "sent": "2026-11-19T10:56:00Z",
-   "onset": "2026-11-19T10:56:00Z",
-   "ends": "2026-11-19T12:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39d6b96ec86371bf390ab465d9820d4fa15876ce.001.1",
+   "sent": "2026-11-19T11:39:00Z",
+   "onset": "2026-11-19T11:39:00Z",
+   "ends": "2026-11-19T14:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1edfcd4780d3e9ba5e3e0121839642765a0a4bd5.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -120.14,
-       34.78
+       -80.49,
+       27.86
       ],
       [
-       -120,
-       34.81
+       -80.49,
+       27.85
       ],
       [
-       -119.89,
-       34.76
+       -80.52,
+       27.82
       ],
       [
-       -119.88,
-       34.68
+       -80.65,
+       27.82
       ],
       [
-       -119.99,
-       34.66
+       -80.67,
+       27.91
       ],
       [
-       -120.09,
-       34.7
+       -80.65,
+       28.14
       ],
       [
-       -120.14,
-       34.78
+       -80.54,
+       28.12
+      ],
+      [
+       -80.43,
+       27.9
+      ],
+      [
+       -80.48,
+       27.84
+      ],
+      [
+       -80.49,
+       27.86
       ]
      ]
     ]
@@ -171,12 +152,12 @@
    "vtec": true,
    "points": [
     [
-     -120.0384,
-     34.5367
+     -80.7003,
+     28.2983
     ]
    ],
-   "lon": -120.019,
-   "lat": 34.739,
+   "lon": -80.541,
+   "lat": 27.912,
    "countries": [
     "US"
    ]
@@ -1064,118 +1045,6 @@
    ]
   },
   {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft",
-    "Western Shasta County Mountains Above 3000 ft",
-    "Eastern Shasta County Mountains and Southern Cascades Above 3000 ft",
-    "Tehama County Coast Range Above 3000 ft",
-    "Glenn and Colusa County Coast Range Above 3000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06011",
-    "06017",
-    "06021",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-18T19:13:00Z",
-   "onset": "2026-11-18T19:13:00Z",
-   "ends": "2026-11-20T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5439c5cb08acec0c647fff5f317cbdbb9a45a0a3.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -122.2376,
-     39.1777
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -122.4017,
-     39.6025
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -121.032,
-   "lat": 39.336,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLKN.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1207,37 +1076,6 @@
    ],
    "lon": -115.126,
    "lat": 40.28,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.WS.W.0028.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Upper Kuskokwim Valley"
-   ],
-   "counties": [
-    "02290"
-   ],
-   "sent": "2026-11-18T21:39:00Z",
-   "onset": "2026-11-18T21:39:00Z",
-   "ends": "2026-11-20T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6183319eabf8eb9a0e3338aee481f995efd9b449.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -151.5782,
-     65.3757
-    ]
-   ],
-   "lon": -151.578,
-   "lat": 65.376,
    "countries": [
     "US"
    ]
@@ -1433,6 +1271,135 @@
    ],
    "lon": -116.627,
    "lat": 37.13,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06017",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-19T11:53:00Z",
+   "onset": "2026-11-19T11:53:00Z",
+   "ends": "2026-11-20T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e58b4e9f872e918abdadaa3d98a72a97833a882.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -120.834,
+   "lat": 39.328,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.W.0028.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Upper Kuskokwim Valley"
+   ],
+   "counties": [
+    "02290"
+   ],
+   "sent": "2026-11-19T12:02:00Z",
+   "onset": "2026-11-19T12:02:00Z",
+   "ends": "2026-11-20T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c001cb9b7282fb14dc314b11b30ce7c534b6254.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -151.5782,
+     65.3757
+    ]
+   ],
+   "lon": -151.578,
+   "lat": 65.376,
    "countries": [
     "US"
    ]
