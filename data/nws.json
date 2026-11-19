@@ -260,63 +260,6 @@
    ]
   },
   {
-   "id": "KMFL.FF.W.0024.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Broward, FL"
-   ],
-   "counties": [
-    "12011"
-   ],
-   "sent": "2026-11-19T18:16:00Z",
-   "onset": "2026-11-19T18:16:00Z",
-   "ends": "2026-11-19T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ee3b929c183318259768a987f326159c704a523.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.2,
-       26.18
-      ],
-      [
-       -80.2,
-       26.28
-      ],
-      [
-       -80.08,
-       26.28
-      ],
-      [
-       -80.09,
-       26.18
-      ],
-      [
-       -80.2,
-       26.18
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ]
-   ],
-   "lon": -80.154,
-   "lat": 26.22,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHNX.FF.W.0002.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -675,63 +618,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-19T13:53:00Z",
-   "onset": "2026-11-19T13:53:00Z",
-   "ends": "2026-11-20T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aefb42c2ace7076b0ff79de76e045bd9491d3e8d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0011.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -792,69 +678,6 @@
    ],
    "lon": -81.399,
    "lat": 28.681,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-19T13:58:00Z",
-   "onset": "2026-11-19T13:58:00Z",
-   "ends": "2026-11-20T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cccbe12bf03c363f4d73b2be7c814f9f86014e80.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
    "countries": [
     "US"
    ]
@@ -1117,6 +940,126 @@
    ],
    "lon": -81.106,
    "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-19T19:09:00Z",
+   "onset": "2026-11-19T19:09:00Z",
+   "ends": "2026-11-20T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68b3f72cefef5b2bc2ec6fa24afa8dd7f2bdd21f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-19T19:11:00Z",
+   "onset": "2026-11-19T19:11:00Z",
+   "ends": "2026-11-20T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.637cce3808c96ad205dddc8a04daa0f4e3f2884f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
    "countries": [
     "US"
    ]
@@ -1542,73 +1485,83 @@
    ]
   },
   {
-   "id": "KLOX.MA.W.0072.2026",
+   "id": "KMLB.MA.W.0346.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
+   "sender": "NWS Melbourne FL",
    "areas": [
-    "Inner waters from Point Mugu to San Mateo Pt. CA including Santa Catalina and Anacapa Islands"
+    "Flagler Beach to Volusia-Brevard County Line 0-20 nm",
+    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+    "Flagler Beach to Volusia-Brevard County Line 20-60 nm",
+    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
    ],
    "counties": [
-    "57655"
+    "75550",
+    "75552",
+    "75570",
+    "75572"
    ],
-   "sent": "2026-11-19T17:44:00Z",
-   "onset": "2026-11-19T17:44:00Z",
-   "ends": "2026-11-19T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3aa8c270b338d09507cedda824892e95bebdb6cf.001.1",
+   "sent": "2026-11-19T19:27:00Z",
+   "onset": "2026-11-19T19:27:00Z",
+   "ends": "2026-11-19T20:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7e30ee272caa1ea396a55317dc2dde4f375e02d.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -118.33,
-       33.34
+       -81.13,
+       29.41
       ],
       [
-       -118.13,
-       33.75
+       -80.65,
+       29.45
       ],
       [
-       -118.07,
-       33.73
+       -80.33,
+       28.95
       ],
       [
-       -118.06,
-       33.71
+       -80.28,
+       28.87
       ],
       [
-       -118.09,
-       33.73
+       -80.23,
+       28.78
       ],
       [
-       -117.93,
-       33.61
+       -80.31,
+       28.78
       ],
       [
-       -117.78,
-       33.54
+       -80.86,
+       28.7
       ],
       [
-       -117.72,
-       33.46
+       -80.88,
+       28.81
       ],
       [
-       -117.66,
-       33.45
+       -80.85,
+       28.84
       ],
       [
-       -118.33,
-       33.34
+       -80.84,
+       28.84
+      ],
+      [
+       -81.13,
+       29.41
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -118.01,
-   "lat": 33.566,
+   "lon": -80.681,
+   "lat": 28.985,
    "countries": [
     "US"
    ]
