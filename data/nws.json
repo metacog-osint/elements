@@ -32,186 +32,6 @@
    ]
   },
   {
-   "id": "KLOX.FF.W.0020.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo, CA",
-    "Santa Barbara, CA"
-   ],
-   "counties": [
-    "06079",
-    "06083"
-   ],
-   "sent": "2026-11-19T09:05:00Z",
-   "onset": "2026-11-19T09:05:00Z",
-   "ends": "2026-11-19T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9111aa9e39d1873be94e6ab95f7b80d7307ad9a6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -120.5,
-       34.64
-      ],
-      [
-       -120.42,
-       35
-      ],
-      [
-       -120.22,
-       35.08
-      ],
-      [
-       -120.11,
-       34.93
-      ],
-      [
-       -120.26,
-       34.67
-      ],
-      [
-       -120.5,
-       34.64
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ]
-   ],
-   "lon": -120.335,
-   "lat": 34.827,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLOX.FF.W.0021.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Santa Barbara, CA"
-   ],
-   "counties": [
-    "06083"
-   ],
-   "sent": "2026-11-19T09:24:00Z",
-   "onset": "2026-11-19T09:24:00Z",
-   "ends": "2026-11-19T11:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a115dbe3facdada7b267514d2cd52b3bfe9b62a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -120.09,
-       35.11
-      ],
-      [
-       -120.04,
-       35.09
-      ],
-      [
-       -120.03,
-       35.09
-      ],
-      [
-       -120.01,
-       35.08
-      ],
-      [
-       -119.99,
-       35.06
-      ],
-      [
-       -119.97,
-       35.06
-      ],
-      [
-       -119.9,
-       34.97
-      ],
-      [
-       -120.11,
-       34.93
-      ],
-      [
-       -120.19,
-       35.03
-      ],
-      [
-       -120.18,
-       35.04
-      ],
-      [
-       -120.18,
-       35.06
-      ],
-      [
-       -120.17,
-       35.07
-      ],
-      [
-       -120.14,
-       35.08
-      ],
-      [
-       -120.14,
-       35.1
-      ],
-      [
-       -120.13,
-       35.09
-      ],
-      [
-       -120.12,
-       35.11
-      ],
-      [
-       -120.11,
-       35.1
-      ],
-      [
-       -120.1,
-       35.11
-      ],
-      [
-       -120.09,
-       35.11
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -120.0384,
-     34.5367
-    ]
-   ],
-   "lon": -120.089,
-   "lat": 35.068,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0026.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -292,6 +112,71 @@
    ],
    "lon": -80.631,
    "lat": 28.389,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.FF.W.0022.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Santa Barbara, CA"
+   ],
+   "counties": [
+    "06083"
+   ],
+   "sent": "2026-11-19T10:56:00Z",
+   "onset": "2026-11-19T10:56:00Z",
+   "ends": "2026-11-19T12:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39d6b96ec86371bf390ab465d9820d4fa15876ce.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -120.14,
+       34.78
+      ],
+      [
+       -120,
+       34.81
+      ],
+      [
+       -119.89,
+       34.76
+      ],
+      [
+       -119.88,
+       34.68
+      ],
+      [
+       -119.99,
+       34.66
+      ],
+      [
+       -120.09,
+       34.7
+      ],
+      [
+       -120.14,
+       34.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -120.0384,
+     34.5367
+    ]
+   ],
+   "lon": -120.019,
+   "lat": 34.739,
    "countries": [
     "US"
    ]
