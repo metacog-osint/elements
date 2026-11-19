@@ -99,6 +99,20 @@
    "lat": 39.2336
   },
   {
+   "id": "{8C9CB7A0-936C-4A64-AAEF-67A10E597A66}",
+   "name": "Moose Mountain",
+   "acres": 5832.0,
+   "contained": 90,
+   "discovered": "2026-07-30T00:02:00Z",
+   "updated": "2026-11-19T21:02:48Z",
+   "state": "ID",
+   "county": "Clearwater",
+   "cause": "Natural",
+   "complexity": "Type 3 Incident",
+   "lon": -115.2167,
+   "lat": 46.7749
+  },
+  {
    "id": "{DC4342D9-B479-44F1-906C-8ABD42E1F59C}",
    "name": "Sisi",
    "acres": 4816.0,
@@ -855,6 +869,20 @@
    "lat": 44.7222
   },
   {
+   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
+   "name": "Crescent Lake",
+   "acres": 2.2,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:36:12Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5244,
+   "lat": 45.618
+  },
+  {
    "id": "{92787A7A-156C-4C32-AC9A-C1F499439AD8}",
    "name": "Lehman Rd",
    "acres": 2.0,
@@ -867,20 +895,6 @@
    "complexity": null,
    "lon": -89.7838,
    "lat": 43.419
-  },
-  {
-   "id": "{4F81F901-D71B-4377-8131-62AE4D471AAF}",
-   "name": "Boom",
-   "acres": 2.0,
-   "contained": null,
-   "discovered": "2026-11-16T20:15:16Z",
-   "updated": "2026-11-16T20:17:45Z",
-   "state": "ND",
-   "county": "Benson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -98.8725,
-   "lat": 47.9781
   },
   {
    "id": "{7E057571-EC90-49F7-9772-5F26A4C32F0D}",
@@ -909,6 +923,20 @@
    "complexity": "Type 5 Incident",
    "lon": -83.9385,
    "lat": 36.7768
+  },
+  {
+   "id": "{317A14AD-4D76-48B8-87B0-8319FF92B36E}",
+   "name": "Newton 0045",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-19T20:13:00Z",
+   "updated": "2026-11-19T20:41:09Z",
+   "state": "TX",
+   "county": "Newton",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -93.8039,
+   "lat": 30.6181
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -968,11 +996,11 @@
   },
   {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
-   "name": "Fire 191",
+   "name": "Sawyer Lake",
    "acres": 1.5,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:34:55Z",
+   "updated": "2026-11-19T20:41:33Z",
    "state": "WI",
    "county": "Langlade",
    "cause": "Undetermined",
@@ -1107,18 +1135,46 @@
    "lat": 35.7524
   },
   {
-   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
-   "name": "Ness",
+   "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
+   "name": "Brick House",
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:23:06Z",
+   "updated": "2026-11-19T20:56:08Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.1531,
+   "lat": 45.8129
+  },
+  {
+   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
+   "name": "Cedar",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T20:58:20Z",
    "state": "WI",
    "county": "Waupaca",
    "cause": "Human",
    "complexity": null,
    "lon": -89.1726,
    "lat": 44.6201
+  },
+  {
+   "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
+   "name": "Big Laurel",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-19T18:45:00Z",
+   "updated": "2026-11-19T20:59:03Z",
+   "state": "KY",
+   "county": "Lawrence",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.5643,
+   "lat": 37.9621
   },
   {
    "id": "{91351B79-FBAB-4EED-B542-B83C51452858}",
@@ -1261,6 +1317,20 @@
    "lat": 44.5505
   },
   {
+   "id": "{5F6C743F-760A-4246-9871-A1209DEED797}",
+   "name": "Hiwassee Cemetery",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-19T20:29:22Z",
+   "updated": "2026-11-19T20:36:51Z",
+   "state": "NC",
+   "county": "Cherokee",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -84.0924,
+   "lat": 35.096
+  },
+  {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
    "name": "Hatton Cutoff",
    "acres": 0.4,
@@ -1345,20 +1415,6 @@
    "lat": 17.9955
   },
   {
-   "id": "{C1734E8F-A84A-4F2B-8B43-0D65307FD808}",
-   "name": "Borer",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-10-27T19:46:23Z",
-   "updated": "2026-11-16T20:35:59Z",
-   "state": "AR",
-   "county": "Prairie",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -91.3766,
-   "lat": 34.7883
-  },
-  {
    "id": "{AA52CE9F-39AA-48BF-A7A2-539A416B435D}",
    "name": "2717 Fountainbleau",
    "acres": 0.2,
@@ -1427,20 +1483,6 @@
    "complexity": null,
    "lon": -89.549,
    "lat": 45.6602
-  },
-  {
-   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
-   "name": "Crescent Lake",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:16:51Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5244,
-   "lat": 45.618
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1553,20 +1595,6 @@
    "complexity": null,
    "lon": -64.8316,
    "lat": 17.6934
-  },
-  {
-   "id": "{8C642F91-D466-4614-97B3-1B48A22BCB4E}",
-   "name": "Old Spanish Trail",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-08-26T18:02:07Z",
-   "updated": "2026-11-16T20:38:51Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -88.6881,
-   "lat": 30.3933
   },
   {
    "id": "{EDD9B7A6-74C9-41AB-98ED-1829EE09435A}",
@@ -1742,10 +1770,10 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-17T18:15:00Z",
-   "updated": "2026-11-19T19:26:33Z",
+   "updated": "2026-11-19T21:00:05Z",
    "state": "WI",
    "county": "Florence",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -88.349,
    "lat": 45.8654
@@ -1905,18 +1933,18 @@
    "lat": 35.0241
   },
   {
-   "id": "{C5964F78-E5F8-4375-98EA-9A957E5860BE}",
-   "name": "Fall Rock",
+   "id": "{E8138492-FD2D-477B-A59E-D635058B5256}",
+   "name": "Palmer Loop",
    "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-19T18:38:00Z",
-   "updated": "2026-11-19T20:18:13Z",
-   "state": "KY",
-   "county": "Clay",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.788,
-   "lat": 37.221
+   "contained": null,
+   "discovered": "2026-11-19T20:15:53Z",
+   "updated": "2026-11-19T21:01:26Z",
+   "state": "NM",
+   "county": "Otero",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -105.7184,
+   "lat": 33.2711
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2199,6 +2227,20 @@
    "lat": 45.3645
   },
   {
+   "id": "{A7A0E931-81C8-4022-9E0E-6BA4CB8D6F86}",
+   "name": "Knot",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T19:10:00Z",
+   "updated": "2026-11-19T21:03:40Z",
+   "state": "WI",
+   "county": "Monroe",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4944,
+   "lat": 43.962
+  },
+  {
    "id": "{8FD12085-AD35-4201-8F39-984FF4EAD811}",
    "name": "Limb",
    "acres": 0.0,
@@ -2437,18 +2479,18 @@
    "lat": 46.1763
   },
   {
-   "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
-   "name": "Brick House",
+   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
+   "name": "abc",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T19:38:59Z",
+   "updated": "2026-11-19T20:48:31Z",
    "state": "WI",
-   "county": "Oneida",
+   "county": "Waushara",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -89.1531,
-   "lat": 45.8129
+   "lon": -89.2001,
+   "lat": 44.1172
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
