@@ -7,7 +7,9 @@ A feed carries what is active now; this keeps what was. Each run compares the fe
 after the last run and writes one line per change to <dir>/log/YYYY/MM/DD.jsonl (format tic-history/1):
 
 - new      an item appears (the first time, or again after it ended)
-- changed  its tier or response_stage changed (an alert level moved); other edits only bump `updates`
+- changed  its tier or response_stage changed (an alert level moved); other edits only bump `updates`. With
+           --reading-key (opt-in, 0.5.13), also when that property moved: a program whose item ids stay the same
+           from one reading of a series to the next (Headwind: data_as_of) logs each new reading
 - ended    it left the feed while its source was read successfully this run, so a failed fetch never ends anything;
            or, for an item issued and ended between two runs (found by a program's own catch-up query), new and ended
            at once. ended_at is the item's own valid_until when that falls between its last sighting and this run,
@@ -27,6 +29,12 @@ record at all, every lane counts as read: safe only for a program that keeps a f
 feed. As a guard, a run whose feed has no items at all, with no health record, ends nothing. An item whose lane the
 health record does not name can never end; the command warns, and --lane-map names source ids as lanes
 (usembassy-*=us-embassy-alerts).
+
+Subjects (kit 0.6.0). An item with a subject_id (contract revision 2.1) is kept under it, so a daily reading of the
+same subject under a new dated id updates one open entry instead of logging new and ended every day; an item without
+one is kept under its id, as before. Lines gain `subject_id` when the item has one. fill_last_change() (and
+--fill-last-change) fills the items' last_change and last_change_at from the log for a program with no better
+knowledge; the state records when each subject last moved, and `since`, the log's first run.
 
 First written for Elements (13 Nov 2026) and moved here unchanged in format, so every program keeps the same log
 and COP can gather them into one ledger."""
@@ -61,9 +69,38 @@ def _t(s: str | None) -> datetime | None:
 
 
 def lane(feature: dict) -> str | None:
-    """The source lane an item comes from: its first source's id, which is the lane's key in the health record."""
+    """The source lane an item comes from: its first source's `lane` when it names one (contract revision 2.1),
+    otherwise that source's id, which is the lane's key in the health record."""
     src = (feature.get("properties") or {}).get("sources") or []
-    return (src[0] or {}).get("id") if src else None
+    first = (src[0] or {}) if src else {}
+    return first.get("lane") or first.get("id")
+
+
+def key(feature: dict) -> str | None:
+    """The key an item is kept under: its subject_id when it has one (contract revision 2.1), so a daily reading of
+    the same subject under a new dated id is an update and not a new item and an end; otherwise its id."""
+    p = feature.get("properties") or {}
+    return p.get("subject_id") or p.get("id")
+
+
+def move(before: list | None, after: list) -> str:
+    """raised, lowered or changed, for a move of [tier, response_stage]: the tier first (routine < anomaly <
+    warning), then the rung's severity when the ladder is the same."""
+    before = before or [None, None]
+    t0, t1 = TIER_RANK.get(before[0], 0), TIER_RANK.get(after[0], 0)
+    if t0 != t1:
+        return "raised" if t1 > t0 else "lowered"
+    s0, s1 = _severity(before[1]), _severity(after[1])
+    if s0 is not None and s1 is not None and s0[0] == s1[0] and s0[1] != s1[1]:
+        return "raised" if s1[1] > s0[1] else "lowered"
+    return "changed"
+
+
+def _severity(stage) -> tuple[str, int] | None:
+    from . import vocab
+    ladder, _, value = str(stage or "").partition(":")
+    rung = vocab.ladders().get(ladder, {}).get("values", {}).get(value)
+    return (ladder, rung["severity"]) if isinstance(rung, dict) and "severity" in rung else None
 
 
 def mapped_lane(lane_map: dict):
@@ -93,9 +130,59 @@ def fingerprint(feature: dict, volatile: tuple = VOLATILE) -> str:
 
 def _line(at, change, entry, item, **extra):
     p = item.get("properties") or {}
-    return {"format": FORMAT, "at": at, "change": change, "id": p.get("id"), "program": p.get("program"),
+    subject = {"subject_id": p["subject_id"]} if p.get("subject_id") else {}
+    return {"format": FORMAT, "at": at, "change": change, "id": p.get("id"), **subject, "program": p.get("program"),
             "lane": entry["lane"], "first_seen": entry["first_seen"], "last_seen": entry["last_seen"],
             "peak_tier": entry["peak_tier"], "updates": entry["updates"], **extra, "item": item}
+
+
+def fill_last_change(feed: dict, state: dict, since: str | None = None) -> int:
+    """Fill last_change and last_change_at (contract revision 2.1) from the history state, on each feed item that
+    does not state them itself; returns how many were filled. For a program with no better knowledge: a program
+    that knows more (an issuer's own "raised", a notice's own issue time) states the fields and they are kept.
+
+    state is the state after this run's update(). The rule, from the log's own record:
+    - the item's state (tier and response_stage) moved since it opened: raised, lowered or changed, at that run;
+    - it opened after the log's first run: new, at its first sighting;
+    - it was there on the log's first run and has not moved since: none (standing as long as the log has watched).
+    `since` is the log's first run (default: the state's `since`, written from kit 0.6.0; for an older log, pass
+    first_run(root)). Without any, an item never seen to move reads new at its first sighting."""
+    open_ = (state or {}).get("open") or {}
+    since = since or (state or {}).get("since")
+    n = 0
+    for f in feed.get("features") or []:
+        p = f.get("properties")
+        if not isinstance(p, dict) or p.get("last_change") is not None:
+            continue
+        e = open_.get(key(f))
+        if e is None or ((e.get("item") or {}).get("properties") or {}).get("id") != p.get("id"):
+            e = open_.get(p.get("id")) or e      # kept under its own id (a second item of one subject)
+        if e is None:
+            continue
+        lc, at = e.get("last_change"), e.get("last_change_at")
+        if lc in (None, "new"):                  # never seen to move: new, unless there on the log's first run
+            first = e.get("first_seen")
+            lc, at = ("none", None) if since and first and first <= since else ("new", at or first)
+        p["last_change"] = lc
+        if at:
+            p["last_change_at"] = at
+        else:
+            p.pop("last_change_at", None)
+        n += 1
+    return n
+
+
+def first_run(root: Path) -> str | None:
+    """The time of the first line in a program's log (its first run), for fill_last_change on a log begun before kit
+    0.6.0. None when the log is empty."""
+    days = sorted((Path(root) / "log").glob("*/*/*.jsonl*"))
+    for p in days:
+        opener = gzip.open if p.suffix == ".gz" else open
+        with opener(p, "rt", encoding="utf-8") as fh:
+            for s in fh:
+                if s.strip():
+                    return json.loads(s).get("at")
+    return None
 
 
 READ_STATES = ("fresh", "late", "up")              # a health entry's own state, when it gives one
@@ -112,7 +199,8 @@ def lanes_ok(health: dict) -> set:
 
 
 def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: list | None = None, *,
-           ok: set | None = None, lane_of=lane, volatile: tuple = VOLATILE) -> tuple[dict, list]:
+           ok: set | None = None, lane_of=lane, volatile: tuple = VOLATILE,
+           reading_key: str | None = None) -> tuple[dict, list]:
     """(new state, log lines) after one run. Pure: no files read or written.
 
     state   {"open": {id: entry}} from the last run ({} on the first)
@@ -122,6 +210,9 @@ def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: 
     ok      the lanes read well this run, when the caller knows them some other way (overrides health)
     lane_of how to name an item's lane (default: its first source id)
     volatile  property names that change on every run and are no change at all
+    reading_key  a property whose move is a "changed" line too (a new reading under the same id); its value before
+             is in `was`. Kept apart from the status, so an item logged before the option was used is not
+             reported as changed on the first run with it
 
     With neither health nor ok, every lane counts as read, except that a feed with no items ends nothing."""
     at = _stamp(now)
@@ -135,17 +226,25 @@ def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: 
     blind = ok is None and not features           # nothing to say which lanes were read, and nothing came: end nothing
     dropped = {x.get("id") for x in feed.get("dropped") or []}
     seen = set()
+    first_run = not open_ and not recent and not (state or {}).get("since")
     for f in features:
         p = f.get("properties") or {}
-        iid = p.get("id")
+        iid = key(f)
+        if iid in seen and p.get("id") and p["id"] not in seen:
+            iid = p["id"]                    # a second item of the same subject in one feed: kept under its own id
         if not iid or iid in seen:
             continue
         seen.add(iid)
+        if iid not in open_ and p.get("id") in open_ and p["id"] != iid and p["id"] not in seen:
+            open_[iid] = open_.pop(p["id"])  # first run with subject_id: the item's open entry moves to its subject
         fp = fingerprint(f, volatile)
         e = open_.get(iid)
         if e is None:
             e = {"lane": lane_of(f), "first_seen": at, "last_seen": at, "hash": fp, "updates": 0,
-                 "peak_tier": p.get("tier"), "status": [p.get(k) for k in STATUS_KEYS], "item": f}
+                 "peak_tier": p.get("tier"), "status": [p.get(k) for k in STATUS_KEYS], "item": f,
+                 "last_change": "none" if first_run else "new", "last_change_at": None if first_run else at}
+            if reading_key:
+                e["reading"] = p.get(reading_key)
             open_[iid] = e
             lines.append(_line(at, "new", e, f))
             continue
@@ -157,19 +256,29 @@ def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: 
             e["updates"] = e.get("updates", 0) + 1
         if TIER_RANK.get(p.get("tier"), 0) > TIER_RANK.get(e.get("peak_tier"), 0):
             e["peak_tier"] = p.get("tier")
-        if moved:
-            lines.append(_line(at, "changed", e, f, was=dict(zip(STATUS_KEYS, e.get("status") or [None, None]))))
+        reading = p.get(reading_key) if reading_key else None
+        read_moved = bool(reading_key) and "reading" in e and reading != e["reading"]
+        if moved or read_moved:
+            was = dict(zip(STATUS_KEYS, e.get("status") or [None, None]))
+            if read_moved:
+                was[reading_key] = e["reading"]
+            lines.append(_line(at, "changed", e, f, was=was))
+            if moved:              # last_change follows the state (tier, response_stage), not a new reading
+                e.update({"last_change": move(e.get("status"), status), "last_change_at": at})
             e["status"] = status
+        if reading_key:
+            e["reading"] = reading
     for iid in sorted(set(open_) - seen):
         e = open_[iid]
-        if blind or iid in dropped or (ok is not None and e.get("lane") not in ok):
+        item_id = ((e.get("item") or {}).get("properties") or {}).get("id")
+        if blind or iid in dropped or item_id in dropped or (ok is not None and e.get("lane") not in ok):
             continue           # its source failed this run, or the linter held it back: not ended
         lines.append(_line(at, "ended", e, e["item"], ended_at=end_time(e, now), end_reason="left the feed"))
         recent[iid] = at
         del open_[iid]
     for f in caught or []:
         p = f.get("properties") or {}
-        iid = p.get("id")
+        iid = key(f)
         if not iid or iid in open_ or iid in seen or iid in recent:
             continue           # live now, or already ended (seen live, or caught on an earlier run)
         until = _t(p.get("valid_until"))
@@ -179,7 +288,11 @@ def update(state: dict, feed: dict, health: dict | None, now: datetime, caught: 
         lines.append(_line(at, "new", e, f, seen_live=False))
         lines.append(_line(at, "ended", e, f, ended_at=end, end_reason="issued and ended between runs", seen_live=False))
         recent[iid] = at
-    return {"format": FORMAT, "updated_at": at, "recently_ended": dict(sorted(recent.items())), "open": open_}, lines
+    since = (state or {}).get("since") or (at if first_run else None)
+    out = {"format": FORMAT, "updated_at": at, "recently_ended": dict(sorted(recent.items())), "open": open_}
+    if since:
+        out = {"format": FORMAT, "since": since, **{k: v for k, v in out.items() if k != "format"}}
+    return out, lines
 
 
 def end_time(entry: dict, now: datetime) -> str:
@@ -294,14 +407,32 @@ def ended_collection(root: Path, state: dict, now: datetime, days: int = ENDED_D
             "features": feats}
 
 
-def run(feed: dict, root: Path, now: datetime, health: dict | None = None, caught: list | None = None, **kw) -> list:
+def run(feed: dict, root: Path, now: datetime, health: dict | None = None, caught: list | None = None, *,
+        fill: bool = False, **kw) -> list:
     """One run against the files in `root`: read the state, log the changes, close past days, save the state.
-    Returns the lines written."""
-    state, lines = update(load_state(root), feed, health, now, caught, **kw)
+    Returns the lines written. With fill, the feed's items that do not state last_change get it from the log
+    (fill_last_change), in place, before the lines are written, so the log carries the filled items too."""
+    before = load_state(root)
+    if not before.get("since") and (before.get("open") or before.get("recently_ended")):
+        since = first_run(root)                       # a log begun before kit 0.6.0: its first line is its start
+        if since:
+            before = {**before, "since": since}
+    state, lines = update(before, feed, health, now, caught, **kw)
+    if fill:
+        fill_last_change(feed, state)
     append_log(root, lines)
     close_days(root, now.strftime("%Y-%m-%d"))
     save_state(root, state)
     return lines
+
+
+def run_time(feed: dict, wall: datetime | None = None) -> datetime:
+    """The run's time when --now is not given (kit 0.6.3): the feed's own generated_at, so nothing the run stamps
+    (first_seen, last_change_at) is later than the items' published_at, which the build set seconds before; the wall
+    clock when the feed has no generated_at, or when generated_at is later than the wall clock."""
+    wall = wall or datetime.now(timezone.utc)
+    gen = _t(feed.get("generated_at"))
+    return min(gen, wall) if gen else wall
 
 
 def main(argv: list | None = None) -> int:
@@ -315,17 +446,29 @@ def main(argv: list | None = None) -> int:
                          "usembassy-*=us-embassy-alerts; repeat as needed")
     ap.add_argument("--ended", help="also write the items that ended in the last --days days to this file")
     ap.add_argument("--days", type=int, default=ENDED_DAYS)
-    ap.add_argument("--now", help="the run's time, ISO 8601 UTC (default: now)")
+    ap.add_argument("--now", help="the run's time, ISO 8601 UTC (default: the feed's generated_at, else now)")
+    ap.add_argument("--reading-key", metavar="PROPERTY",
+                    help="also log a changed line when this item property moves, e.g. data_as_of for a program "
+                         "whose ids stay the same from one reading of a series to the next")
+    ap.add_argument("--fill-last-change", action="store_true",
+                    help="fill last_change and last_change_at (contract revision 2.1) from the log on items that do "
+                         "not state them, and rewrite the feed file with them")
     a = ap.parse_args(argv)
     feed = json.loads(Path(a.feed).read_text(encoding="utf-8"))
-    now = _t(a.now) if a.now else datetime.now(timezone.utc)
+    now = _t(a.now) if a.now else run_time(feed)
     if now is None:
         print(f"history: --now {a.now!r} is not a time")
         return 2
     health = json.loads(Path(a.health).read_text(encoding="utf-8")) if a.health else feed.get("health")
     root = Path(a.dir)
     lane_map = dict(x.split("=", 1) for x in a.lane_map if "=" in x)
-    lines = run(feed, root, now, health, lane_of=mapped_lane(lane_map))
+    lines = run(feed, root, now, health, lane_of=mapped_lane(lane_map), reading_key=a.reading_key,
+                fill=a.fill_last_change)
+    if a.fill_last_change:
+        Path(a.feed).write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")), encoding="utf-8",
+                                newline="\n")
+        n = sum(1 for f in feed.get("features") or [] if (f.get("properties") or {}).get("last_change"))
+        print(f"history: last_change on {n} of {len(feed.get('features') or [])} items -> {a.feed}")
     n = {c: sum(1 for x in lines if x["change"] == c) for c in ("new", "changed", "ended")}
     how = "health record" if health is not None else "no health record: every source counted as read"
     print(f"history: {n['new']} new, {n['changed']} changed, {n['ended']} ended ({how}); "

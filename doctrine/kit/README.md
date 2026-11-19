@@ -8,8 +8,9 @@ drawn on one map (COP) and scored (Verdict).
 
 | Path | What |
 |---|---|
-| `vocab/` | Reference vocabularies: ICD 203 likelihood with UK and Kent crosswalks; the confidence rubric; contract enums; JP 3-04 information aspects, PMESII-PT, ASCOPE, the competition continuum; CISA's 55 National Critical Functions with a published sector and lifeline crosswalk; FEMA's eight lifelines and status colours; response ladders (PAGER, USGS volcano alert levels, GDACS, Copernicus EMS, IFRC, EASA, State Department); Admiralty grades; ICD 203's nine tradecraft standards; actor roles and types, and source owners, for characterising entities and sides without friend-or-foe labels |
+| `vocab/` | Reference vocabularies: ICD 203 likelihood with UK and Kent crosswalks; the confidence rubric; contract enums; JP 3-04 information aspects, PMESII-PT, ASCOPE, the competition continuum; CISA's 55 National Critical Functions with a published sector and lifeline crosswalk; FEMA's eight lifelines and status colours; response ladders (PAGER, USGS volcano alert levels, GDACS, Copernicus EMS, IFRC, EASA, State Department); Admiralty grades; ICD 203's nine tradecraft standards; actor roles and types, and source owners, for characterising entities and sides without friend-or-foe labels; the suite's shared zone keys (`zones.json`, Watchfloor's) |
 | `schema/` | Feed contract v2 as JSON Schema |
+| `geo/` | Country outlines and label points, US state outlines, and the sea gazetteer (`seas.json`, Natural Earth's named marine areas, public domain) |
 | `python/tic_doctrine/` | Likelihood, confidence, contract checks, the tradecraft linter, register checks, source health, withholding counts, tips between programs, the history log (standard library only) |
 | `js/tic-doctrine.js` | The same likelihood, confidence, lifeline, ladder and tip-matching logic for web pages (ES module, no dependencies) |
 | `vocab/programs.json` | The suite registry: every program, its feed, and the datasets it owns |
@@ -69,6 +70,83 @@ in `countries`), so a consumer can tell a notice in Hawaii from one for all of t
 `geo.subdivision_at(lat, lon)` and `geo.subdivisions_for_geometry(geom)` name the US state from Natural Earth's 1:10m
 outlines (`geo/subdivisions.json`, built by `tools/build_subdivisions.py`; right to about 1 km at a state line).
 0.5.8 (15 Nov 2026): the registry names Launch's history source as Launch's charted notices, not a person.
+0.5.9 (16 Nov 2026): Relief is live (humanitarian response: IFRC GO appeals and WHO Disease Outbreak News, family
+Society, prefix `RL-WP`) at relief.theintelligence.company; the planned `humanitarian` entry is renamed `relief`.
+0.5.10 (16 Nov 2026): Launch's registry row names the history sources it ingests: NotamForChina (Apache-2.0),
+Joey0609/notams (MIT), and Internet Archive copies of FAA TFRs and NGA warnings (US Government works), with GCAT.
+0.5.11 (17 Nov 2026): Noisefloor's and Orbit's registry rows describe what each runs now: Noisefloor's space weather
+(COSMIC-2 limb S4, ground ROTI), satellite-sensor interference lanes and sun outages; Orbit's TIP reentry predictions,
+listed orbit changes, GEO region, new-payload paths and Secure World Foundation history, with their sources' terms.
+Orbit's launch lines stay until Launch takes the schedule and ledger.
+0.5.12 (18 Nov 2026): Blackout's registry row names its newest lanes: US ground stops from the FAA's ATCSCC, GitHub's
+status feed, and outages the public and the press report (Bluesky post counts, GDELT headline counts), with each
+source's terms word for word from Blackout's source register.
+0.5.13 (18 Nov 2026): `history --reading-key PROPERTY` (opt-in): a move of that property is a `changed` line too,
+with its value before in `was`, so a program whose ids stay the same across readings of a series (Headwind, with
+`data_as_of`) logs every reading without reporting the one before as ended. Programs that do not pass it see no
+change.
+
+**0.6.0 (18 Nov 2026): feed contract revision 2.1.** Step 2 of the feed-contract migration (Tom's decisions D1 to D8,
+18 Nov 2026). Additive: the contract string stays `tic-feed/2`, every new field is optional, and every feed that
+passed 0.5.12 passes 0.6.0 with the same errors (checked on the 16 feeds in the registry, COP's among them, read
+live on 18 Nov 2026).
+- New optional item fields: `last_change`, `last_change_at`, `event_start`, `event_end`, `event_time_precision`,
+  `subject_id`, `signal`, `sea_areas`, `place_basis`, `baseline_ref.flag_rate`, `sources[].lane`. Header:
+  `contract_rev` (`"2.1"`), `kit`, and a documented `health` member (one key set; states fresh, late, stale, failing,
+  never, up). Tightened meanings of `data_as_of`, `countries` (by overlap) and tier `anomaly` (D5: own history, 5%
+  flag-rate cap, 72-hour hold). Vocabulary in `vocab/enums.json` 1.1; schema rebuilt, with the header under `$defs`.
+- The linter checks each new field's shape when present (an error) and counts its absence per feed (a warning,
+  never a failed build), and ends with a coverage line per field. A feed that states `contract_rev: "2.1"` is held to
+  the health shape and the tightened `data_as_of` as errors; otherwise they are warnings.
+- `geo.countries_overlapping()` (countries by overlap) beside the vertex-based `countries_for_geometry()`;
+  `geo.sea_areas_for_geometry()`, `sea_at()`, `sea_name()` and `sea_slugs()` on the new gazetteer `geo/seas.json`:
+  291 named areas from Natural Earth 1:10m marine areas, release v5.1.2 (public domain), built by
+  `tools/build_seas.py`. Natural Earth has no separate Strait of Hormuz and no canals.
+- History keys on `subject_id` when present, on `id` otherwise; lines carry `subject_id`; the state records `since`
+  and when each subject last moved. `history --fill-last-change` (and `fill_last_change()`) fills `last_change` from
+  the log for programs with no better knowledge.
+- `contract.event_interval()` and the browser module's `eventInterval()` give an item's exact event interval;
+  `seaName()` names a sea area; `health.feed_health()` turns a source-health report into header entries.
+- New worked example `tests/fixtures/good-2.1.geojson`: the four example items with every 2.1 field.
+
+**0.6.1 (18 Nov 2026): the shared zone list (D4).** `vocab/zones.json`: Watchfloor's 16 zone keys with names, ISO
+countries and map points, and its one retired key (`17_Horn_of_Africa`, into `18_Ethiopia_Eritrea` and
+`19_Somalia`), built by `tools/build_zones.py` from Watchfloor's `catalog/entities.json` (catalog 2026-10-27.1,
+more-context `6bedddb`) and checked against Watchfloor's live feed. A `subject_id` of kind `zone` naming a key not in
+the list, or a retired one, is a warning. `vocab.zones()`, `retired_zones()`, `zone()`; JS `zoneName()`. No feed
+sends zone subjects yet, so no feed's lint changes.
+
+**0.6.2 (18 Nov 2026): corroboration (D11) and four fixes from the 15 Nov kit review.** Additive: no feed's lint
+gains an error (checked on the 16 registry feeds as read on 18 Nov 2026).
+- **`corroboration` (D11):** an optional member for event items, "reported, then corroborated". The linter checks its
+  shape and rules when present, and coverage counts it. The vocabulary is `corroboration_state` and
+  `corroboration_basis` in `vocab/enums.json` 1.2.
+- **M1, language key:** the kit repo is public, so `language_key` should be its page
+  (`contract.LANGUAGE_KEY_URL`). A vendored copy draws a warning. Five feeds point at copies today: Context, COP,
+  Noisefloor, Vigil and Watchfloor.
+- **M4, Admiralty credibility 1:** a grade of 1 on an item with one independence group draws a warning, "grade it 2
+  at most". Today that is 959 items on Cordon, 195 on Elements and 105 on Headwind.
+- **M5, linter labels:** each row now reads "the fields it needs". The header says the check is structural, and
+  standards 4, 7 and 8 print `n/a` when the files hold no judgments, updates or forecasts to check.
+- **G3, confidence:** `confidence.method_scored(scores, program)` reads Verdict's `scores.json`, so a program with a
+  scored record (Verdict's `skill_min_n`, 30) can reach High. No program has one yet.
+- The fixtures link the public key; the 2.1 example's KEV item is graded A2 and corroborated by its issuer, and the
+  strike is a reported party claim.
+
+**0.6.4 (19 Nov 2026): code licences in the program register.** `vocab/programs.json` `terms` now say "code GNU
+AGPL-3.0" for Blackout, Cordon, Elements, Headwind and Relief, which are AGPL-3.0 since 19 Nov 2026 (they read "code
+MIT"). Blackout's feed takes its licence line from here, so it changes at Blackout's next kit sync. No code change.
+
+**0.6.3 (18 Nov 2026): `history` takes the feed's own time.** Without `--now`, the run's time is the feed's
+`generated_at` (the wall clock when the feed has none, or when it is later than the clock), so `first_seen` and a
+filled `last_change_at` are never later than the items' `published_at`. Before, the step ran seconds after the build
+and stamped the wall clock, and the contract check "last_change_at is later than published_at" failed: it stopped
+every Blackout deploy on 18 Nov 2026 from 22:14 UTC until Blackout passed `--now` (PR #8). `--now` still wins.
+`history.run_time(feed)`.
+
+**0.6.4 (18 Nov 2026): Orbit's registry row names the GEO page.** `owns` adds the GEO page (globe, rendezvous and
+proximity pairs, callouts and the belt board), which moved from Noisefloor on 18 Nov 2026; Noisefloor's row already
+named no GEO lane. Registry text only.
 
 **Tests:** `python tests/test_kit.py`, `python tests/test_history.py` and `node tests/test_js.mjs`.
 

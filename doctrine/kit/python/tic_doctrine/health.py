@@ -20,7 +20,7 @@ from pathlib import Path
 
 UA = "TheIntelligenceCompany-health/0.1 (+https://theintelligence.company)"
 MAX_BYTES = 2_000_000
-STATES = ("fresh", "late", "stale", "failing", "never", "up")
+STATES = ("fresh", "late", "stale", "failing", "never", "up")   # vocab/enums.json health_state; a test keeps them equal
 
 _RSS_DATE = re.compile(rb"<(?:pubDate|updated|published|dc:date|lastBuildDate)>([^<]{8,40})</", re.I)
 
@@ -130,6 +130,26 @@ def run(register_path: Path, out_path: Path | None, now: datetime | None = None)
     if out_path:
         out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     return report
+
+
+def feed_health(report: dict, previous: dict | None = None) -> dict:
+    """The feed header's `health` member (contract revision 2.1) from a report of run(): one entry per source,
+    {state, checked_at, last_ok, last_error, failures, data_as_of, detail}. previous is the last feed's `health`, so
+    `failures` counts failed checks in a row across runs. A program whose lanes are not its probed sources builds
+    the same keys itself."""
+    at = report.get("checked_at")
+    out = {}
+    for sid, r in (report.get("sources") or {}).items():
+        failed = r.get("state") in ("failing", "never")
+        prior = ((previous or {}).get(sid) or {}).get("failures") or 0
+        e = {"state": r.get("state"), "checked_at": at, "last_ok": r.get("last_ok"),
+             "last_error": r.get("error") if failed else None, "failures": prior + 1 if failed else 0}
+        if r.get("latest"):
+            e["data_as_of"] = r["latest"]
+        if r.get("note"):
+            e["detail"] = r["note"]
+        out[sid] = e
+    return out
 
 
 def main(argv=None) -> int:

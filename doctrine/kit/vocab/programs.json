@@ -35,19 +35,21 @@
       "id": "noisefloor", "name": "Noisefloor", "status": "live", "family": "Spectrum and space",
       "feed": "https://noisefloor.theintelligence.company/data/feed.geojson", "site": "https://noisefloor.theintelligence.company",
       "terms": "ODbL 1.0 for derived data; text CC BY 4.0", "fresh_hours": 36, "stale_hours": 72, "warning_problem_prefix": "NF-WP",
-      "owns": ["ADS-B (adsb.lol) GNSS interference and spoofing areas", "space weather and NAVCEN GPS status context"]
+      "owns": ["ADS-B (adsb.lol) GNSS interference and spoofing areas", "space weather for the suite: COSMIC-2 limb S4 and ground ROTI, with NAVCEN GPS status",
+        "GNSS-band interference seen by satellite sensors (Sentinel-6A, COSMIC-2, SMAP, CYGNSS)",
+        "sun-outage windows for geostationary satellites as seen from a receiver"]
     },
     {
       "id": "elements", "name": "Elements", "status": "live", "family": "Natural hazards",
       "feed": "https://elements.theintelligence.company/data/feed.geojson", "site": "https://elements.theintelligence.company/",
-      "terms": "Elements code MIT; content per source", "fresh_hours": 12, "stale_hours": 48,
+      "terms": "Elements code GNU AGPL-3.0; content per source", "fresh_hours": 12, "stale_hours": 48,
       "owns": ["USGS earthquakes", "USGS volcano alerts", "GDACS", "Copernicus EMS", "NASA FIRMS fire and heat detections",
                "NOAA NHC", "planned: NWS and SPC, radiation"]
     },
     {
       "id": "cordon", "name": "Cordon", "status": "live", "family": "Notices and advisories",
       "feed": "https://cordon.theintelligence.company/data/feed.geojson", "site": "https://cordon.theintelligence.company/",
-      "terms": "Cordon code MIT; content per source", "fresh_hours": 6, "stale_hours": 24,
+      "terms": "Cordon code GNU AGPL-3.0; content per source", "fresh_hours": 6, "stale_hours": 24,
       "extra": {"events": "https://cordon.theintelligence.company/data/events.json"},
       "owns": ["US State Department travel advisories", "US embassy departure status and security alerts",
                "EASA conflict-zone information bulletins", "NGA navigational warnings (MSI)", "planned: FAA NOTAMs, NAVAREA text"]
@@ -63,21 +65,23 @@
     {
       "id": "blackout", "name": "Blackout", "status": "live", "family": "Networks",
       "feed": "https://blackout.theintelligence.company/data/feed.geojson", "site": "https://blackout.theintelligence.company",
-      "terms": "Blackout code MIT; OONI data CC BY-NC-SA 4.0; IODA (Georgia Tech) states no data licence, so it is credited, not relicensed; providers' status feeds quoted and linked; Cloudflare Radar data CC BY-NC 4.0; IAEA Ukraine updates: IAEA content: reuse allowed with acknowledgement of the IAEA as the source and no IAEA endorsement stated or implied (iaea.org/about/terms-of-use, read 13 Nov 2026); Access Now STOP: No licence stated by Access Now for the STOP dataset; credited as the source, counts only (its Creative Commons Attribution notice covers original media material on its website, not data; accessnow.org/trademarks-copyright-and-media-usage, read 13 Nov 2026); Citizen Lab test lists: CC BY-NC-SA 4.0 (\u201cAll data is provided under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\u201d, the repository's README, read 13 Nov 2026); cited as Citizen Lab and Others, URL Testing Lists Intended for Discovering Website Censorship; ODIN: No licence stated by ODIN (Oak Ridge National Laboratory for the US Department of Energy) for its public outage data; credited to ODIN and the reporting utilities (API docs at odin.ornl.gov/v3/api-docs, site and Feb 2026 webinar, read 13 Nov 2026); Census Gazetteer county points: US Government work, public domain; NASA Black Marble: NASA Earth science data: \u201cthere are no restrictions on the use of these data\u201d, citation requested (earthdata.nasa.gov/learn/find-data/near-real-time/citation); near-real-time data provided as is under the LANCE disclaimer (earthdata.nasa.gov/data/projects/lance/disclaimer); both read 13 Nov 2026; EIA-930: U.S. government publications are in the public domain and are not subject to copyright protection (eia.gov/about/copyrights_reuse.php, read 13 Nov 2026); acknowledged as Source: U.S. Energy Information Administration, with the date read; EAGLE-I outage history (base rates): CC BY 4.0 (creativecommons.org/licenses/by/4.0), as the figshare record states (doi:10.6084/m9.figshare.24237376, read 13 Nov 2026); Brelsford et al., Oak Ridge National Laboratory EAGLE-I; reduced by Blackout to state totals and episodes",
+      "terms": "Blackout code GNU AGPL-3.0; OONI data CC BY-NC-SA 4.0; IODA (Georgia Tech) states no data licence, so it is credited, not relicensed; providers' status feeds quoted and linked; Cloudflare Radar data CC BY-NC 4.0; IAEA Ukraine updates: IAEA content: reuse allowed with acknowledgement of the IAEA as the source and no IAEA endorsement stated or implied (iaea.org/about/terms-of-use, read 13 Nov 2026); Access Now STOP: No licence stated by Access Now for the STOP dataset; credited as the source, counts only (its Creative Commons Attribution notice covers original media material on its website, not data; accessnow.org/trademarks-copyright-and-media-usage, read 13 Nov 2026); Citizen Lab test lists: CC BY-NC-SA 4.0 (\u201cAll data is provided under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\u201d, the repository's README, read 13 Nov 2026); cited as Citizen Lab and Others, URL Testing Lists Intended for Discovering Website Censorship; ODIN: No licence stated by ODIN (Oak Ridge National Laboratory for the US Department of Energy) for its public outage data; credited to ODIN and the reporting utilities (API docs at odin.ornl.gov/v3/api-docs, site and Feb 2026 webinar, read 13 Nov 2026); Census Gazetteer county points: US Government work, public domain; NASA Black Marble: NASA Earth science data: \u201cthere are no restrictions on the use of these data\u201d, citation requested (earthdata.nasa.gov/learn/find-data/near-real-time/citation); near-real-time data provided as is under the LANCE disclaimer (earthdata.nasa.gov/data/projects/lance/disclaimer); both read 13 Nov 2026; EIA-930: U.S. government publications are in the public domain and are not subject to copyright protection (eia.gov/about/copyrights_reuse.php, read 13 Nov 2026); acknowledged as Source: U.S. Energy Information Administration, with the date read; EAGLE-I outage history (base rates): CC BY 4.0 (creativecommons.org/licenses/by/4.0), as the figshare record states (doi:10.6084/m9.figshare.24237376, read 13 Nov 2026); Brelsford et al., Oak Ridge National Laboratory EAGLE-I; reduced by Blackout to state totals and episodes; FAA ATCSCC ground stops: US Government work (Federal Aviation Administration), public domain; credited to the FAA's Air Traffic Control System Command Center; GitHub status: No licence stated; Blackout republishes only the incident title, status, times and a link; Bluesky post counts: No data licence stated; Blackout keeps and republishes only post counts and a link to Bluesky's own search, never a post, its text or its author (Bluesky's developer guidelines ask apps to honour deletions); GDELT GKG headlines: GDELT Project datasets: unlimited and unrestricted use and redistribution, citing the GDELT Project with a link to https://www.gdeltproject.org/; Blackout republishes counts, outlet domains and article links, never headline text",
       "fresh_hours": 12, "stale_hours": 48, "warning_problem_prefix": "BO-WP",
       "owns": ["IODA internet outage signals (BGP, active probing, darknet) by country, and on watched networks (Starlink, Amazon, Microsoft, Google, Google Cloud ASNs)",
                "OONI censorship measurements by country, with Citizen Lab's URL test lists as context",
                "Cloudflare Radar outages Cloudflare annotates (with the cause Cloudflare states) and its verified traffic anomalies, by country",
                "Cloudflare Radar BGP origin hijacks and route leaks, counted by country; the widely seen ones as items",
-               "cloud, software and satellite providers' own status feeds (AWS, Google Cloud, Google Workspace, Azure, Microsoft 365, Apple, Cloudflare, Akamai, Slack, Zoom, Starlink Statuspage)",
+               "cloud, software and satellite providers' own status feeds (AWS, Google Cloud, Google Workspace, Azure, Microsoft 365, Apple, Cloudflare, Akamai, Slack, Zoom, Starlink Statuspage, GitHub)",
                "power: the Zaporizhzhya NPP's off-site power as the IAEA's numbered updates state it; US county outages at ODIN's reporting utilities; US balancing authorities' demand against their own day-ahead forecasts (EIA-930); NASA Black Marble night lights over watched cities; base rates for US state outages from ORNL EAGLE-I's outage history (2018-2025)",
                "Access Now's STOP shutdown history by country, as context",
-               "the submarine cable corridor register (hand-compiled; no TeleGeography data ingested)"]
+               "the submarine cable corridor register (hand-compiled; no TeleGeography data ingested)",
+               "US ground stops as the FAA's Air Traffic Control System Command Center issues them (its advisories database)",
+               "outages the public and the press report at US companies with no status feed: Bluesky post counts and GDELT headline counts for 44 watched names, counts, outlets and links only, never a post or a headline's text"]
     },
     {
       "id": "headwind", "name": "Headwind", "status": "live", "family": "Economy",
       "feed": "https://headwind.theintelligence.company/data/feed.geojson", "site": "https://headwind.theintelligence.company",
-      "terms": "Headwind code MIT; ECB reference rates free to reuse with credit; EIA data US public domain; FAO CC BY 4.0; WFP food prices CC BY-IGO; OFAC list, Consolidated Screening List and Federal Register US public domain; UN Security Council list, no licence stated; EU financial sanctions list, European Commission reuse notice; UK Sanctions List, Open Government Licence v3.0; USGS data CC0 1.0",
+      "terms": "Headwind code GNU AGPL-3.0; ECB reference rates free to reuse with credit; EIA data US public domain; FAO CC BY 4.0; WFP food prices CC BY-IGO; OFAC list, Consolidated Screening List and Federal Register US public domain; UN Security Council list, no licence stated; EU financial sanctions list, European Commission reuse notice; UK Sanctions List, Open Government Licence v3.0; USGS data CC0 1.0",
       "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "HW-WP",
       "extra": {"events": "https://headwind.theintelligence.company/data/events.json"},
       "owns": ["currency, energy and food prices against their own range",
@@ -89,21 +93,26 @@
     {
       "id": "orbit", "name": "Orbit", "status": "live", "family": "Spectrum and space",
       "feed": "https://orbit.theintelligence.company/data/feed.geojson", "site": "https://orbit.theintelligence.company",
-      "terms": "GCAT data CC BY 4.0 (J. McDowell, planet4589.org/space/gcat); Launch Library 2 data from The Space Devs (free access, no licence stated)",
+      "terms": "GCAT data CC BY 4.0 (J. McDowell, planet4589.org/space/gcat); Launch Library 2 data from The Space Devs (free access, no licence stated); Space-Track element sets and TIP messages redistributed under USSPACECOM's blanket approval for basic SSA data, with citation; CelesTrak element sets from the 18th Space Defense Squadron's GP data; Secure World Foundation data CC BY-NC 4.0; NGA warnings US Government works; Spaceflight News headlines as links only",
       "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "OR-WP",
       "owns": ["orbital launches (GCAT launch list)",
                "launches scheduled in the next 14 days (Launch Library 2)",
-               "reentries (GCAT)",
-               "satellite catalog changes between Orbit's own readings of GCAT, and objects in orbit by owner code"]
+               "reentries (GCAT) and reentry predictions (Space-Track TIP messages)",
+               "satellite catalog changes between Orbit's own readings of GCAT, and objects in orbit by owner code",
+               "listed orbit changes of watched satellites (Space-Track)",
+               "the GEO region: objects near geostationary orbit, arrivals, departures and quiet payloads (Space-Track)",
+               "the GEO page: a globe of the GEO region, rendezvous and proximity pairs, callouts, and the belt board (drift, orbit changes and close pairs of different owners in CelesTrak's active GEO group), moved from Noisefloor on 18 Nov 2026",
+               "paths of payloads launched in the last 30 days (CelesTrak)",
+               "anti-satellite test and rendezvous and proximity operations history (Secure World Foundation)"]
     },
     {
       "id": "launch", "name": "Launch", "status": "live", "family": "Spectrum and space",
       "feed": "https://launch.theintelligence.company/data/feed.geojson", "site": "https://launch.theintelligence.company",
-      "terms": "FAA TFRs: US Government work. Orbit's items keep their sources' terms (GCAT CC BY 4.0).",
+      "terms": "FAA TFRs and NGA warnings: US Government works (archived copies through the Internet Archive). GCAT CC BY 4.0. NotamForChina Apache-2.0. Joey0609/notams MIT. Orbit's items keep their sources' terms.",
       "fresh_hours": 24, "stale_hours": 72, "warning_problem_prefix": "LA-WP",
       "owns": ["FAA space-operations temporary flight restrictions (tfr.faa.gov)",
                "scheduled launches that coincide with a closure area in time and place, or that GCAT has dated inside its window",
-               "launch and reentry closure history from Launch's charted notices, 2023 onward, with per-pad azimuth corridors and recurring drop zones"]
+               "launch and reentry closure history: Launch's charted notices (2022 onward), GCAT's launches since 2023, NotamForChina's Chinese launches since 2012, Joey0609/notams' launch NOTAMs since Dec 2020, and Internet Archive copies of FAA TFRs and NGA warnings, with per-pad azimuth corridors and recurring drop zones"]
     },
     {
       "id": "undertow", "name": "Undertow", "status": "live", "family": "Information",
@@ -139,8 +148,11 @@
      "owns": ["official statements (ministries, militaries, heads of state)", "UN Security Council votes", "AU communiques"]},
     {"id": "temper", "name": "Temper", "status": "planned", "family": "Society",
      "owns": ["unrest", "displacement", "public attention (Wikipedia page views)", "press freedom"]},
-    {"id": "humanitarian", "name": "Humanitarian response (working label)", "status": "planned", "family": "Humanitarian",
-     "owns": ["HDX HAPI", "IFRC GO", "WHO disease outbreak news", "ReliefWeb reports (Watchfloor reads its headlines until this ships)", "IPC food insecurity"]},
+    {"id": "relief", "name": "Relief", "status": "live", "status_note": "IFRC GO appeals and WHO Disease Outbreak News (relief-0.1), live 16 Nov 2026", "family": "Society", "warning_problem_prefix": "RL-WP",
+     "feed": "https://relief.theintelligence.company/data/feed.geojson", "site": "https://relief.theintelligence.company",
+     "terms": "Relief code GNU AGPL-3.0; IFRC GO data non-commercial with attribution, analyses allowed, no copying of the data bank (counts only from the ten-year read); WHO Disease Outbreak News: titles, dates, countries and links with acknowledgement, notice text never kept or republished",
+     "fresh_hours": 12, "stale_hours": 36,
+     "owns": ["IFRC GO emergency appeals and DREF allocations", "WHO Disease Outbreak News", "HDX HAPI (planned)", "ReliefWeb reports (planned; Watchfloor reads its headlines until then)", "IPC food insecurity (planned)"]},
     {"id": "dead-drop", "name": "Dead Drop", "status": "planned", "family": "Dissemination",
      "owns": ["alerts and digests to analysts (Matrix)"]}
   ]

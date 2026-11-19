@@ -179,6 +179,12 @@
             "rolling",
             "both"
           ]
+        },
+        "flag_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Revision 2.1. Share of baseline readings on which this subject was flagged."
         }
       }
     },
@@ -348,6 +354,11 @@
           "published_at": {
             "type": "string",
             "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+          },
+          "lane": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Revision 2.1. The source lane's key in the feed header's health, when it is not the source id."
           }
         }
       }
@@ -651,6 +662,572 @@
       "items": {
         "type": "string",
         "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+      }
+    },
+    "last_change": {
+      "enum": [
+        "changed",
+        "ended",
+        "lowered",
+        "new",
+        "none",
+        "raised"
+      ],
+      "description": "Revision 2.1. The most recent change in the state of the item's subject (tier and response_stage, or the program's own level)."
+    },
+    "last_change_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+      "description": "Revision 2.1. When that change happened, as the source dates it; else the program's first reading in the new state. Absent only with last_change none."
+    },
+    "event_start": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+      "description": "Revision 2.1. When what the item describes began in the world, or is scheduled to; for a notice, when it takes effect."
+    },
+    "event_end": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+      "description": "Revision 2.1. When it ended or is scheduled to end; given only when the source says so. With none, the event runs to data_as_of."
+    },
+    "event_time_precision": {
+      "enum": [
+        "day",
+        "hour",
+        "month"
+      ],
+      "description": "ISO 8601 reduced precision, as data_as_of_precision (feed contract revision 2.1, F2)"
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^\\S+$",
+      "description": "Revision 2.1. The thing the item is a reading of, with no date or run stamp: the id itself where the id is stable, else program:kind:key. History and COP key on it."
+    },
+    "signal": {
+      "type": "object",
+      "required": [
+        "name",
+        "value"
+      ],
+      "description": "Revision 2.1. The one number the item's tier rests on, with its baseline.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What is measured."
+        },
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "expected": {
+          "type": "number",
+          "description": "The baseline's central value."
+        },
+        "tail": {
+          "enum": [
+            "both",
+            "high",
+            "low"
+          ],
+          "description": "Feed contract revision 2.1, F4 (Tom, 18 Nov 2026, D6): which direction of signal.value is unusual"
+        },
+        "baseline_n": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Readings in the baseline."
+        },
+        "exceedance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Share of this subject's own baseline readings at least as extreme as this one; no finer than 1/(baseline_n+1)."
+        }
+      }
+    },
+    "sea_areas": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "adriatic-sea",
+          "aegean-sea",
+          "albemarle-sound",
+          "alboran-sea",
+          "amazon",
+          "amundsen-gulf",
+          "amundsen-sea",
+          "andaman-sea",
+          "antongil-bay",
+          "arabian-sea",
+          "arafura-sea",
+          "arctic-ocean",
+          "bab-el-mandeb",
+          "baffin-bay",
+          "bahia-blanca",
+          "bahia-grande",
+          "baia-de-sao-marcos",
+          "baird-inlet",
+          "balearic-sea",
+          "bali-sea",
+          "bali-strait",
+          "baltic-sea",
+          "banda-sea",
+          "barents-sea",
+          "bass-strait",
+          "bathurst-inlet",
+          "bay-of-bengal",
+          "bay-of-biscay",
+          "bay-of-campeche",
+          "bay-of-fundy",
+          "bay-of-mecklenburg",
+          "bay-of-plenty",
+          "beaufort-sea",
+          "bellingshausen-sea",
+          "bering-sea",
+          "bight-of-benin",
+          "bight-of-biafra",
+          "bismarck-sea",
+          "black-sea",
+          "boca-grande",
+          "bohai-sea",
+          "bohol-sea",
+          "boknafjord",
+          "bosporus",
+          "bransfield-strait",
+          "bras-dor-lake",
+          "bristol-bay",
+          "bristol-channel",
+          "buli-bay",
+          "canal-do-norte",
+          "canal-do-sul",
+          "canal-perigoso",
+          "caribbean-sea",
+          "caspian-sea",
+          "celebes-sea",
+          "ceram-sea",
+          "chaunskaya-bay",
+          "chesapeake-bay",
+          "chukchi-sea",
+          "columbia-river",
+          "cook-strait",
+          "coral-sea",
+          "cordova-bay",
+          "cumberland-sound",
+          "dampier-strait",
+          "dardanelles",
+          "darnley-bay",
+          "davao-gulf",
+          "davis-sea",
+          "davis-strait",
+          "delaware-bay",
+          "denmark-strait",
+          "disko-bay",
+          "dixon-entrance",
+          "dmitry-laptev-strait",
+          "east-china-sea",
+          "east-korea-bay",
+          "east-siberian-sea",
+          "eclipse-sound",
+          "english-channel",
+          "flores-sea",
+          "florida-strait",
+          "foxe-basin",
+          "franklin-bay",
+          "frobisher-bay",
+          "fury-and-hecla-strait",
+          "garabogazkol",
+          "geographe-bay",
+          "george-vi-sound",
+          "goldsmith-channel",
+          "great-australian-bight",
+          "greenland-sea",
+          "guba-gusinaya",
+          "gulf-of-aden",
+          "gulf-of-alaska",
+          "gulf-of-anadyr",
+          "gulf-of-aqaba",
+          "gulf-of-boothia",
+          "gulf-of-bothnia",
+          "gulf-of-california",
+          "gulf-of-carpentaria",
+          "gulf-of-corcovado",
+          "gulf-of-finland",
+          "gulf-of-gabes",
+          "gulf-of-guayaquil",
+          "gulf-of-guinea",
+          "gulf-of-honduras",
+          "gulf-of-khambhat",
+          "gulf-of-kutch",
+          "gulf-of-lion",
+          "gulf-of-maine",
+          "gulf-of-mannar",
+          "gulf-of-martaban",
+          "gulf-of-masirah",
+          "gulf-of-mexico",
+          "gulf-of-ob",
+          "gulf-of-oman",
+          "gulf-of-panama",
+          "gulf-of-papua",
+          "gulf-of-penas",
+          "gulf-of-riga",
+          "gulf-of-saint-lawrence",
+          "gulf-of-sidra",
+          "gulf-of-suez",
+          "gulf-of-tehuantepec",
+          "gulf-of-thailand",
+          "gulf-of-tomini",
+          "gulf-of-tonkin",
+          "gulf-of-uraba",
+          "gulf-st-vincent",
+          "hadley-bay",
+          "hall-basin",
+          "halmahera-sea",
+          "hamilton-inlet",
+          "hangzhouwan",
+          "hecate-strait",
+          "hudson-bay",
+          "hudson-strait",
+          "husky-lakes",
+          "indian-ocean",
+          "inutil-bay",
+          "ionian-sea",
+          "irish-sea",
+          "james-bay",
+          "java-sea",
+          "jones-sound",
+          "joseph-bonaparte-gulf",
+          "kaliningrad",
+          "kamchatka-gulf",
+          "kane-basin",
+          "kao-bay",
+          "kara-sea",
+          "kara-strait",
+          "karaginsky-gulf",
+          "kattegat",
+          "kennedy-channel",
+          "khatanga-gulf",
+          "korea-strait",
+          "kotzebue-sound",
+          "kronotsky-gulf",
+          "la-perouse-strait",
+          "labrador-sea",
+          "laccadive-sea",
+          "lake-maracaibo",
+          "lake-mogotoyevo",
+          "lake-pontchartrain",
+          "laptev-sea",
+          "leyte-gulf",
+          "liddon-gulf",
+          "ligurian-sea",
+          "lincoln-sea",
+          "long-island-sound",
+          "lutzow-holm-bay",
+          "mackenzie-bay",
+          "makassar-strait",
+          "maputo-bay",
+          "marajo-bay",
+          "marguerite-bay",
+          "massachusetts-bay",
+          "matochkin-strait",
+          "mclure-strait",
+          "mcmurdo-sound",
+          "mediterranean-sea",
+          "melville-bay",
+          "minto-inlet",
+          "molucca-sea",
+          "monterey-bay",
+          "mozambique-channel",
+          "murchison-sound",
+          "north-atlantic-ocean",
+          "north-pacific-ocean",
+          "north-sea",
+          "northwest-passage",
+          "norton-sound",
+          "norwegian-sea",
+          "olenyok-gulf",
+          "oresund",
+          "palk-strait",
+          "pamlico-sound",
+          "patos-lagoon",
+          "peacock-sound",
+          "persian-gulf",
+          "philippine-sea",
+          "porpoise-bay",
+          "prince-albert-sound",
+          "prince-of-wales-strait",
+          "prince-william-sound",
+          "prydz-bay",
+          "qiongzhou-strait",
+          "queen-charlotte-sound",
+          "queen-charlotte-strait",
+          "ragay-gulf",
+          "red-sea",
+          "richard-collinson-inlet",
+          "rio-de-la-plata",
+          "robeson-channel",
+          "ronne-entrance",
+          "ross-sea",
+          "saint-lawrence-river",
+          "sakhalin-gulf",
+          "salish-sea",
+          "samar-sea",
+          "san-francisco-bay",
+          "san-jorge-gulf",
+          "san-matias-gulf",
+          "sargasso-sea",
+          "savu-sea",
+          "scoresby-sound",
+          "scotia-sea",
+          "sea-of-azov",
+          "sea-of-crete",
+          "sea-of-japan",
+          "sea-of-marmara",
+          "sea-of-okhotsk",
+          "sea-of-the-hebrides",
+          "seno-otway",
+          "seno-skyring",
+          "seto-inland-sea",
+          "shark-bay",
+          "shelikhov-gulf",
+          "sherman-basin",
+          "sibuyan-sea",
+          "singapore-strait",
+          "skagerrak",
+          "smith-sound",
+          "sognefjord",
+          "solomon-sea",
+          "south-atlantic-ocean",
+          "south-china-sea",
+          "south-pacific-ocean",
+          "southern-ocean",
+          "st-helena-bay",
+          "storfjorden",
+          "strait-of-belle-isle",
+          "strait-of-gibraltar",
+          "strait-of-magellan",
+          "strait-of-malacca",
+          "strait-of-tartary",
+          "sulu-sea",
+          "sulzberger-bay",
+          "surigao-strait",
+          "szczecin-lagoon",
+          "taiwan-strait",
+          "tasman-sea",
+          "tayabas-bay",
+          "tikahtnu-inlet",
+          "timor-sea",
+          "torres-strait",
+          "trondheimsfjord",
+          "tsugaru-strait",
+          "tyrrhenian-sea",
+          "uchiura-bay",
+          "uda-gulf",
+          "ungava-bay",
+          "uummannaq-fjord",
+          "vestfjorden",
+          "vilkitsky-strait",
+          "vincennes-bay",
+          "visayan-sea",
+          "viscount-melville-sound",
+          "wadden-sea",
+          "wager-bay",
+          "weddell-sea",
+          "white-sea",
+          "wrigley-gulf",
+          "wynniatt-bay",
+          "yana-bay",
+          "yangtze",
+          "yellow-sea",
+          "yenisei-gulf",
+          "yucatan-channel"
+        ]
+      },
+      "description": "Revision 2.1. Slugs of the named sea areas the geometry overlaps, from the kit's gazetteer (geo/seas.json, Natural Earth marine areas); [] on land."
+    },
+    "place_basis": {
+      "enum": [
+        "location",
+        "named",
+        "subject",
+        "zone"
+      ],
+      "description": "Feed contract revision 2.1, F5 (Tom, 18 Nov 2026, D7): why the item names these countries"
+    },
+    "corroboration": {
+      "type": "object",
+      "required": [
+        "state",
+        "origins",
+        "first_reported_at",
+        "rule"
+      ],
+      "description": "Revision 2.1, F7 (kit 0.6.2, D11). Event items only: reported until two independent origins, or one official source within its remit; never moves back.",
+      "properties": {
+        "state": {
+          "enum": [
+            "corroborated",
+            "reported"
+          ],
+          "description": "Feed contract revision 2.1, F7 (Tom, 18 Nov 2026, D11): reported, then corroborated"
+        },
+        "basis": {
+          "oneOf": [
+            {
+              "enum": [
+                "official",
+                "origins"
+              ],
+              "description": "Feed contract revision 2.1, F7 (D11)"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "origins": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "official": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "party_claim": {
+          "type": "boolean"
+        },
+        "first_reported_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+        },
+        "corroborated_at": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rule": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "feed_header": {
+      "type": "object",
+      "required": [
+        "contract",
+        "program",
+        "generated_at",
+        "licence",
+        "attribution"
+      ],
+      "properties": {
+        "contract": {
+          "const": "tic-feed/2"
+        },
+        "contract_rev": {
+          "enum": [
+            "2.0",
+            "2.1"
+          ],
+          "description": "Additive revisions of tic-feed/2 (Tom, 18 Nov 2026, D1): the contract string stays tic-feed/2"
+        },
+        "kit": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "The vendored kit version."
+        },
+        "program": {
+          "type": "string"
+        },
+        "generated_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+        },
+        "licence": {
+          "type": "string"
+        },
+        "attribution": {
+          "type": "string"
+        },
+        "language_key": {
+          "type": "string"
+        },
+        "perspectives": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "health": {
+          "type": "object",
+          "description": "One entry per source lane, keyed by lane id, written on every run. A lane counts as read when last_ok equals checked_at and its state is fresh, late or up.",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "state",
+              "checked_at",
+              "last_ok"
+            ],
+            "properties": {
+              "state": {
+                "enum": [
+                  "failing",
+                  "fresh",
+                  "late",
+                  "never",
+                  "stale",
+                  "up"
+                ],
+                "description": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (Tom, 18 Nov 2026, D8)"
+              },
+              "checked_at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+              },
+              "last_ok": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "last_error": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "failures": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "data_as_of": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?Z$",
+                "description": "The newest data that source holds."
+              },
+              "detail": {
+                "type": "string"
+              }
+            }
+          }
+        }
       }
     }
   }

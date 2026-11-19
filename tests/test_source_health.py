@@ -76,7 +76,12 @@ class FeedBlock(unittest.TestCase):
         h["nasa-firms"] = {"last_ok": "2026-11-15T11:00:00Z", "checked_at": "2026-11-15T17:00:00Z", "failures": 2}
         d = {k: {"records": [], "fetched_at": "2026-11-15T17:00:00Z"} for k in cli.LANES} | {"health": h}
         doc = feed.build(d, NOW)
-        self.assertEqual(doc["health"], h)
+        # The record as kept, plus revision 2.1's state per lane (19 Nov 2026); data/health.json is left as it was.
+        self.assertEqual(set(doc["health"]), set(h))
+        for k, e in h.items():
+            self.assertEqual({x: doc["health"][k][x] for x in e}, e)
+        self.assertEqual(doc["health"]["nasa-firms"]["state"], "failing")
+        self.assertNotIn("state", h["nasa-firms"])
         self.assertEqual(history.lanes_ok(doc["health"]), set(cli.LANES.values()) - {"nasa-firms"})
 
     def test_every_live_item_source_has_a_health_key(self):

@@ -1,7 +1,7 @@
 {
   "vocab": "enums",
-  "version": "1.0",
-  "note": "Closed value lists for feed contract v2. Each value has a one-line meaning; basis names the doctrine or standard it follows.",
+  "version": "1.1",
+  "note": "Closed value lists for feed contract v2. Each value has a one-line meaning; basis names the doctrine or standard it follows. Version 1.1 (kit 0.6.0, contract revision 2.1) adds last_change, event_time_precision, place_basis, signal_tail, health_state and contract_rev.",
   "kind": {
     "basis": "ICD 203 standard 3 (distinguish information from judgment)",
     "values": {
@@ -16,7 +16,8 @@
       "routine": "Measured and inside the baseline.",
       "anomaly": "Measured and outside the baseline. A measurement, not a warning.",
       "warning": "Judged. Carries likelihood, confidence, alternatives and what would change it."
-    }
+    },
+    "rev_2_1": "Revision 2.1 meaning of anomaly (Tom, 18 Nov 2026, D5): an observation of a subject that has not ended, outside that subject's own history (a series beyond a threshold on its own rolling baseline, flagged on no more than 5% of baseline readings; or an event or notice that is new or raised to the program's stated level within its hold, 72 hours unless stated), with the numbers in the item. Each program adopts it as its own method version; the one-line meaning above is rewritten at revision 2.2. See docs/feed-contract-v2.md."
   },
   "msg_type": {
     "basis": "CAP 1.2 msgType (Alert, Update, Cancel, Error)",
@@ -121,6 +122,74 @@
       "low": "Hard to fake (physical measurement from several sensors).",
       "medium": "Possible to fake with effort (single sensor, official statement).",
       "high": "Easy to fake (social media post, unverified image, single claim)."
+    }
+  },
+  "contract_rev": {
+    "basis": "Additive revisions of tic-feed/2 (Tom, 18 Nov 2026, D1): the contract string stays tic-feed/2",
+    "values": {
+      "2.0": "The contract as it stood to kit 0.5.12.",
+      "2.1": "Kit 0.6.0: optional last_change, event times, subject_id, signal, sea_areas, place_basis and a documented health member; tightened data_as_of, countries and anomaly."
+    }
+  },
+  "last_change": {
+    "basis": "Feed contract revision 2.1, F1 (Tom, 18 Nov 2026, D2). State is tier and response_stage, as in the history log",
+    "values": {
+      "new": "The subject or condition first appeared.",
+      "raised": "Its level moved up on its own ladder or across its own threshold.",
+      "lowered": "Its level moved down on its own ladder or back across its own threshold.",
+      "changed": "Scope, place or wording changed, with the level the same.",
+      "ended": "No longer observed or in force.",
+      "none": "No change in the program's record: standing for as long as the program has watched."
+    }
+  },
+  "event_time_precision": {
+    "basis": "ISO 8601 reduced precision, as data_as_of_precision (feed contract revision 2.1, F2)",
+    "values": {
+      "hour": "The source gives the hour only. event_start and event_end sit on the hour; each covers its whole hour.",
+      "day": "The source gives the date only. event_start and event_end are midnight UTC; each covers its whole day. Show dates, never times.",
+      "month": "The source gives the month only. event_start and event_end are midnight UTC on the 1st; each covers its whole month."
+    }
+  },
+  "place_basis": {
+    "basis": "Feed contract revision 2.1, F5 (Tom, 18 Nov 2026, D7): why the item names these countries",
+    "values": {
+      "location": "It is, or it happened, there.",
+      "subject": "The item is about that country (an advisory, a currency, a sanctions list), wherever it is.",
+      "named": "A party is named: a victim's country, a network's home, an operator's origin. A join by place skips it.",
+      "zone": "The program's own multi-country zone; counts as one place, not as each country in it."
+    }
+  },
+  "signal_tail": {
+    "basis": "Feed contract revision 2.1, F4 (Tom, 18 Nov 2026, D6): which direction of signal.value is unusual",
+    "values": {
+      "high": "Unusually high values are the departure.",
+      "low": "Unusually low values are the departure.",
+      "both": "Either direction is a departure."
+    }
+  },
+  "health_state": {
+    "basis": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (Tom, 18 Nov 2026, D8)",
+    "values": {
+      "fresh": "Read on this run; its newest data are inside the expected cadence.",
+      "late": "Read on this run; its newest data are older than one cadence and inside two.",
+      "stale": "Answering, but its newest data are older than two cadences: its items are withheld or drawn grey.",
+      "failing": "The last read failed (error, timeout, empty answer). Never read as quiet.",
+      "never": "Never read successfully, or no probe is defined.",
+      "up": "Read on this run; it gives no time to judge freshness by."
+    }
+  },
+  "corroboration_state": {
+    "basis": "Feed contract revision 2.1, F7 (Tom, 18 Nov 2026, D11): reported, then corroborated",
+    "values": {
+      "reported": "One origin so far, or only the party's own claim: not yet corroborated.",
+      "corroborated": "Two independent origins, or one official source speaking within its own remit."
+    }
+  },
+  "corroboration_basis": {
+    "basis": "Feed contract revision 2.1, F7 (D11)",
+    "values": {
+      "origins": "Two or more independent origins (wire copies and near-identical texts are one origin; one government's outlets are one origin).",
+      "official": "The issuer speaking about its own remit: UKMTO for incidents it logs, an embassy for its own alert, an agency for its own measurement. An official about someone else's action is a party claim."
     }
   }
 }
