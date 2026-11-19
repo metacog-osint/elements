@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T15:05:00Z",
+   "updated": "2026-11-19T15:35:33Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -1028,10 +1028,10 @@
    "acres": 0.8,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T15:01:43Z",
+   "updated": "2026-11-19T15:21:27Z",
    "state": "WI",
    "county": "Eau Claire",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -91.2666,
    "lat": 44.8477
@@ -1091,6 +1091,20 @@
    "complexity": null,
    "lon": -89.6622,
    "lat": 37.8655
+  },
+  {
+   "id": "{7333F507-7FCF-46BB-AFF7-FFFC44AA0AE1}",
+   "name": "Bradford Town Slate",
+   "acres": 0.5,
+   "contained": 0,
+   "discovered": "2026-11-19T15:05:00Z",
+   "updated": "2026-11-19T15:33:12Z",
+   "state": "KY",
+   "county": "Bell",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.6443,
+   "lat": 36.773
   },
   {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
@@ -1616,13 +1630,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T22:12:47Z",
+   "updated": "2026-11-19T15:24:18Z",
    "state": "WI",
    "county": "Rusk",
    "cause": "Human",
    "complexity": null,
-   "lon": -91.0634,
-   "lat": 45.3348
+   "lon": -91.0632,
+   "lat": 45.3349
   },
   {
    "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
@@ -1693,6 +1707,20 @@
    "complexity": null,
    "lon": -118.8395,
    "lat": 36.0239
+  },
+  {
+   "id": "{643F7E1F-4643-4A08-A466-F16BDFEA8ACF}",
+   "name": "Skidder",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-19T13:56:41Z",
+   "updated": "2026-11-19T15:35:17Z",
+   "state": "AR",
+   "county": "Logan",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -93.8713,
+   "lat": 35.0241
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
