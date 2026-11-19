@@ -762,7 +762,7 @@
    "acres": 3.0,
    "contained": null,
    "discovered": "2026-11-17T17:30:00Z",
-   "updated": "2026-11-18T18:12:00Z",
+   "updated": "2026-11-19T16:19:01Z",
    "state": "OK",
    "county": "Osage",
    "cause": "Undetermined",
@@ -827,6 +827,20 @@
    "lat": 47.9781
   },
   {
+   "id": "{3A925663-79B9-46EC-96BE-51429B022A25}",
+   "name": "Round Top Road",
+   "acres": 2.0,
+   "contained": 75,
+   "discovered": "2026-11-19T12:52:00Z",
+   "updated": "2026-11-19T16:13:06Z",
+   "state": "KY",
+   "county": "McCreary",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -84.4525,
+   "lat": 36.657
+  },
+  {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
    "name": "Shining Star",
    "acres": 1.6,
@@ -881,6 +895,20 @@
    "complexity": null,
    "lon": -91.0584,
    "lat": 43.241
+  },
+  {
+   "id": "{DA02A1CD-0098-4C01-93F4-A98706DA03EF}",
+   "name": "Armin Road",
+   "acres": 1.2,
+   "contained": null,
+   "discovered": "2026-11-11T23:20:40Z",
+   "updated": "2026-11-19T16:17:51Z",
+   "state": "OR",
+   "county": "Wallowa",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -116.987,
+   "lat": 45.3224
   },
   {
    "id": "{52887836-645E-4230-8BF5-82F6EC8526F9}",
@@ -979,20 +1007,6 @@
    "complexity": null,
    "lon": -82.0611,
    "lat": 35.7524
-  },
-  {
-   "id": "{3A925663-79B9-46EC-96BE-51429B022A25}",
-   "name": "Round Top Road",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-19T12:52:00Z",
-   "updated": "2026-11-19T13:59:01Z",
-   "state": "KY",
-   "county": "McCreary",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -84.4525,
-   "lat": 36.657
   },
   {
    "id": "{FCC76185-83D0-471B-A130-7E901AFCE045}",
@@ -1504,7 +1518,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-11T18:20:00Z",
-   "updated": "2026-11-17T19:27:55Z",
+   "updated": "2026-11-19T16:25:48Z",
    "state": "WI",
    "county": "Marquette",
    "cause": "Human",
@@ -2269,20 +2283,6 @@
    "lat": 33.9298
   },
   {
-   "id": "{3E99A708-68BE-4DC7-8152-DF8124AD442D}",
-   "name": "Modoc Co Rd 54 / Modoc Co Rd 70",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-18T23:17:38Z",
-   "updated": "2026-11-18T23:59:18Z",
-   "state": "CA",
-   "county": "Modoc",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.7767,
-   "lat": 41.4072
-  },
-  {
    "id": "{2BF4339D-95DC-4F67-82DE-176085D8E9A2}",
    "name": "Lac-417753",
    "acres": 0.0,
@@ -2311,18 +2311,18 @@
    "lat": 33.9307
   },
   {
-   "id": "{958778B4-9395-4081-BECC-96EEB29B07E9}",
-   "name": "Rapids",
+   "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
+   "name": "Anglers Ave",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T16:02:31Z",
+   "updated": "2026-11-19T16:27:55Z",
    "state": "WI",
-   "county": "Oneida",
+   "county": "Lincoln",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -89.5393,
-   "lat": 45.8034
+   "lon": -89.6253,
+   "lat": 45.472
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
