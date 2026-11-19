@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-tic-layer="land">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="tic-time.css">
 <link rel="stylesheet" href="tic-tabs.css">
 <link rel="stylesheet" href="tic-related.css">
+<link rel="stylesheet" href="tic-shell.css">
 <script src="tic-time.js"></script>
 <script src="tic-area.js"></script>
 <script src="tic-tabs.js" defer></script>
@@ -21,7 +22,7 @@
 <body>
 <header class="top">
   <div class="wrap top-row">
-    <div class="brand"><strong>Elements</strong><span class="muted">The Intelligence Company</span></div>
+    <div class="brand"><strong>Elements</strong><a class="tic-layer" href="https://theintelligence.company/#layers">Land and maritime layer</a><span class="muted">The Intelligence Company</span></div>
     <nav class="top-nav">
       <a href="https://theintelligence.company/">All programs</a>
       <a href="data/feed.geojson">Feed</a>
@@ -35,6 +36,8 @@
 <main class="wrap">
   <section class="hero">
     <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
+    <p class="tic-reading" id="reading" aria-live="polite"></p>
+    <div class="tiles tic-tiles" id="tiles" aria-live="polite"></div>
     <p class="lede">USGS earthquakes with their PAGER impact alert, checked against EMSC's catalogue, USGS volcano alerts,
       GDACS multi-hazard alerts, NOAA hurricane, weather-warning, severe-storm and tsunami products, European national
       weather services' warnings through MeteoAlarm, the US Drought Monitor, US wildfire incidents from NIFC, Copernicus

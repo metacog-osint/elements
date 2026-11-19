@@ -1,0 +1,48 @@
+/*! tic-shell.css v1.0 · the light-page header row (canonical copy in the hub's site/shared/).
+    Three parts, CSS only:
+    - A layer chip beside the program's name, filled with its home layer's colour in the hub's drawing (the .c-*
+      colours in site/oe/oe.css; a test holds them equal). Dark ink on the pill, so it reads in light and dark.
+      Markup: <html data-tic-layer="human"> and, in the name row,
+      <a class="tic-layer" href="https://theintelligence.company/#layers">Human layer</a>.
+      Layers: systems, human, cyber, ems, space, air, land.
+    - One "today's reading" sentence under the headline: <p class="tic-reading"><span class="tic-reading-k">Today's
+      reading</span>...</p>. The site writes it from its own data; empty, it takes no space.
+    - Stat tiles with the figure first: class "tic-tiles" on the grid; each .tile holds .k (label) then .v (figure).
+      The label stays first in the markup, so a screen reader hears what the number is before the number.
+    Tiles and the reading take the page's own colours (--panel, else --bg; --line; --muted), so each product keeps
+    its own colours. Nothing moves. */
+[data-tic-layer="systems"] { --tic-layer-c: #C9B8FF; }
+[data-tic-layer="human"] { --tic-layer-c: #F7C9A8; }
+[data-tic-layer="cyber"] { --tic-layer-c: #CDBBFF; }
+[data-tic-layer="ems"] { --tic-layer-c: #F6C760; }
+[data-tic-layer="space"] { --tic-layer-c: #AEB8FF; }
+[data-tic-layer="air"] { --tic-layer-c: #BFE0FA; }
+[data-tic-layer="land"] { --tic-layer-c: #D9E6C4; }
+
+.tic-layer { display: inline-flex; align-items: center; gap: 6px; vertical-align: middle; min-height: 24px;
+  padding: 0 10px; margin-right: 10px; border-radius: 12px; background: var(--tic-layer-c, #D9E6C4); color: #14202E;
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1;
+  text-decoration: none; white-space: nowrap; }
+.tic-layer::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #14202E; opacity: 0.6; }
+.tic-layer:hover { text-decoration: underline; color: #14202E; }
+.tic-layer:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+.tic-reading { margin: 4px 0 16px; padding: 10px 14px; max-width: 800px; background: var(--panel, var(--bg, #fff));
+  border: 1px solid var(--line, rgba(127, 127, 127, .35)); border-left: 4px solid var(--tic-layer-c, var(--line));
+  border-radius: 6px; font-size: 1.02rem; line-height: 1.5; }
+.tic-reading:empty { display: none; }
+.tic-reading b { font-weight: 600; }
+.tic-reading-k { display: block; margin-bottom: 2px; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted, inherit); }
+
+.tic-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 16px; }
+.tic-tiles .tile { display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 4px; min-width: 0; }
+.tic-tiles .tile .v { display: block; font-size: 1.6rem; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tic-tiles .tile .k { display: block; font-size: 0.8rem; line-height: 1.35; }
+@media (max-width: 760px) {
+  .tic-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .tic-tiles .tile { padding: 10px; }
+  .tic-tiles .tile .v { font-size: 1.35rem; }
+  .tic-reading { font-size: 0.98rem; }
+}
+@media print { .tic-layer { border: 1px solid #14202E; } }
