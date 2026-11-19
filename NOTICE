@@ -1,0 +1,13 @@
+Elements: Copyright © 2026 Thomas Brummer, The Intelligence Company.
+The code is licensed under the GNU Affero General Public License v3.0 (LICENSE).
+
+Third-party and shared files in this repository keep their own licences:
+
+- doctrine/kit/        The Intelligence Company doctrine kit, MIT (doctrine/kit/LICENSE)
+- tic-*.js, tic-*.css in site_src/
+  The Intelligence Company's shared site scripts (tic-area, tic-nav, tic-related, tic-tabs, tic-time), MIT.
+  Canonical copies: site/shared/ in github.com/metacog-osint/theintelligence-company.
+- site_src/vendor/leaflet/   Leaflet 1.9.4, BSD 2-Clause (site_src/vendor/leaflet/LICENSE)
+
+Data keeps its sources' terms. Each source's licence is recorded in doctrine/sources.json and credited on the
+site. Country outlines from Natural Earth (public domain).

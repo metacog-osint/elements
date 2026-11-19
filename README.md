@@ -90,5 +90,5 @@ python tools/build_meteoalarm_areas.py   # refresh catalog/meteoalarm_areas.json
 Standard-library Python only. `update.yml` runs hourly: collect, commit `data/` when its content changed, build and
 publish to GitHub Pages.
 
-Code under the MIT licence. Country outlines from Natural Earth (public domain); map drawn with Leaflet (BSD
+Code under the GNU AGPL-3.0 (`LICENSE`); shared and third-party files keep their own licences, listed in `NOTICE`. Country outlines from Natural Earth (public domain); map drawn with Leaflet (BSD
 2-Clause). A project of The Intelligence Company.
