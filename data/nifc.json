@@ -144,9 +144,9 @@
    "id": "{FCD25E2A-053E-46ED-85C1-BA967588B0EC}",
    "name": "Range 47",
    "acres": 2378.8,
-   "contained": 75,
+   "contained": 100,
    "discovered": "2026-11-13T20:02:00Z",
-   "updated": "2026-11-16T22:48:00Z",
+   "updated": "2026-11-19T21:16:32Z",
    "state": "MS",
    "county": "Forrest",
    "cause": "Undetermined",
@@ -281,6 +281,20 @@
    "lat": 46.922
   },
   {
+   "id": "{C060EB34-FAE5-4911-98C7-36365042EF35}",
+   "name": "43W",
+   "acres": 250.0,
+   "contained": null,
+   "discovered": "2026-11-19T01:00:00Z",
+   "updated": "2026-11-19T21:21:01Z",
+   "state": "MS",
+   "county": "Forrest",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -89.153,
+   "lat": 31.1244
+  },
+  {
    "id": "{699987B0-910A-4530-9A66-3FE66B303DC5}",
    "name": "Hwy 541",
    "acres": 240.0,
@@ -363,20 +377,6 @@
    "complexity": null,
    "lon": -67.0458,
    "lat": 17.9913
-  },
-  {
-   "id": "{C060EB34-FAE5-4911-98C7-36365042EF35}",
-   "name": "43W",
-   "acres": 85.0,
-   "contained": null,
-   "discovered": "2026-11-19T01:00:00Z",
-   "updated": "2026-11-19T16:49:27Z",
-   "state": "MS",
-   "county": "Forrest",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -89.153,
-   "lat": 31.1244
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -757,6 +757,20 @@
    "lat": 43.7418
   },
   {
+   "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
+   "name": "M35",
+   "acres": 5.0,
+   "contained": null,
+   "discovered": "2026-11-19T19:18:00Z",
+   "updated": "2026-11-19T21:07:41Z",
+   "state": "MI",
+   "county": "Menominee",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -87.5659,
+   "lat": 45.1823
+  },
+  {
    "id": "{00E4680A-547B-4CC4-80FF-1C4DA0B9FF76}",
    "name": "Playa Grande",
    "acres": 4.0,
@@ -769,6 +783,20 @@
    "complexity": null,
    "lon": -65.5204,
    "lat": 18.0952
+  },
+  {
+   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
+   "name": "Cedar",
+   "acres": 4.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T21:06:25Z",
+   "state": "WI",
+   "county": "Waupaca",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.1726,
+   "lat": 44.6201
   },
   {
    "id": "{139C892A-3A58-4421-9FD4-8553BF4A09AC}",
@@ -830,9 +858,9 @@
    "id": "{FB87DBAE-99D3-4908-AA81-3A0034C069F9}",
    "name": "Grannies Branch #2",
    "acres": 3.0,
-   "contained": 20,
+   "contained": 70,
    "discovered": "2026-11-19T02:04:00Z",
-   "updated": "2026-11-19T17:10:01Z",
+   "updated": "2026-11-19T21:32:41Z",
    "state": "KY",
    "county": "Clay",
    "cause": "Human",
@@ -869,20 +897,6 @@
    "lat": 44.7222
   },
   {
-   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
-   "name": "Crescent Lake",
-   "acres": 2.2,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:36:12Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5244,
-   "lat": 45.618
-  },
-  {
    "id": "{92787A7A-156C-4C32-AC9A-C1F499439AD8}",
    "name": "Lehman Rd",
    "acres": 2.0,
@@ -897,46 +911,46 @@
    "lat": 43.419
   },
   {
-   "id": "{7E057571-EC90-49F7-9772-5F26A4C32F0D}",
-   "name": "Newton 0043",
+   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
+   "name": "Crescent Lake",
+   "acres": 2.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T21:15:20Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5213,
+   "lat": 45.6183
+  },
+  {
+   "id": "{A6BF55B2-F859-4A17-BAA6-EE11A82FF36E}",
+   "name": "Left Fork Billys Branch",
    "acres": 2.0,
    "contained": 0,
-   "discovered": "2026-11-19T19:36:00Z",
-   "updated": "2026-11-19T20:31:16Z",
-   "state": "TX",
-   "county": "Newton",
+   "discovered": "2026-11-19T18:03:00Z",
+   "updated": "2026-11-19T21:22:40Z",
+   "state": "KY",
+   "county": "Clay",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -93.7328,
-   "lat": 30.8625
+   "lon": -83.6734,
+   "lat": 37.1006
   },
   {
    "id": "{9A9BA7D6-6933-4601-A5E8-824540DC61CF}",
    "name": "Steele Lane",
    "acres": 2.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-19T19:44:00Z",
-   "updated": "2026-11-19T20:34:16Z",
+   "updated": "2026-11-19T21:27:56Z",
    "state": "KY",
    "county": "Knox",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
    "lon": -83.9385,
    "lat": 36.7768
-  },
-  {
-   "id": "{317A14AD-4D76-48B8-87B0-8319FF92B36E}",
-   "name": "Newton 0045",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-19T20:13:00Z",
-   "updated": "2026-11-19T20:41:09Z",
-   "state": "TX",
-   "county": "Newton",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -93.8039,
-   "lat": 30.6181
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -1149,20 +1163,6 @@
    "lat": 45.8129
   },
   {
-   "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
-   "name": "Cedar",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:58:20Z",
-   "state": "WI",
-   "county": "Waupaca",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.1726,
-   "lat": 44.6201
-  },
-  {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
    "name": "Big Laurel",
    "acres": 1.0,
@@ -1219,6 +1219,20 @@
    "lat": 45.7882
   },
   {
+   "id": "{C4B1C3D2-A541-457B-A242-766A06CFFB75}",
+   "name": "Soggy",
+   "acres": 0.7,
+   "contained": null,
+   "discovered": "2026-10-29T00:55:00Z",
+   "updated": "2026-11-19T21:26:29Z",
+   "state": "WI",
+   "county": "Jackson",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -90.6089,
+   "lat": 44.1738
+  },
+  {
    "id": "{10E3AF71-624D-4274-9B0B-0EBD0E3B2E9C}",
    "name": "Balsam Lake",
    "acres": 0.7,
@@ -1245,6 +1259,20 @@
    "complexity": null,
    "lon": -91.2666,
    "lat": 44.8477
+  },
+  {
+   "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
+   "name": "North Shore",
+   "acres": 0.6,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T21:35:13Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.3421,
+   "lat": 45.6394
   },
   {
    "id": "{F9811276-07EE-425C-8D41-CC723105B6CA}",
@@ -1301,34 +1329,6 @@
    "complexity": null,
    "lon": -89.7188,
    "lat": 46.1886
-  },
-  {
-   "id": "{DC17C6A1-5884-4F78-AA1B-B6A785033758}",
-   "name": "Glacier",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:15:39Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.4284,
-   "lat": 44.5505
-  },
-  {
-   "id": "{5F6C743F-760A-4246-9871-A1209DEED797}",
-   "name": "Hiwassee Cemetery",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-19T20:29:22Z",
-   "updated": "2026-11-19T20:36:51Z",
-   "state": "NC",
-   "county": "Cherokee",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -84.0924,
-   "lat": 35.096
   },
   {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
@@ -1441,20 +1441,6 @@
    "complexity": null,
    "lon": -83.3189,
    "lat": 35.4676
-  },
-  {
-   "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
-   "name": "North Shore",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T16:57:12Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.3421,
-   "lat": 45.6394
   },
   {
    "id": "{03629331-AE22-4527-90CD-AA74DBC2C374}",
@@ -1933,20 +1919,6 @@
    "lat": 35.0241
   },
   {
-   "id": "{E8138492-FD2D-477B-A59E-D635058B5256}",
-   "name": "Palmer Loop",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T20:15:53Z",
-   "updated": "2026-11-19T21:01:26Z",
-   "state": "NM",
-   "county": "Otero",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -105.7184,
-   "lat": 33.2711
-  },
-  {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
    "name": "Moonlight Farm",
    "acres": 0.0,
@@ -2241,6 +2213,20 @@
    "lat": 43.962
   },
   {
+   "id": "{4188D76C-D079-4C26-8182-CB0F77DA2163}",
+   "name": "Knee",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-09T19:10:00Z",
+   "updated": "2026-11-19T21:12:41Z",
+   "state": "WI",
+   "county": "Monroe",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4944,
+   "lat": 43.962
+  },
+  {
    "id": "{8FD12085-AD35-4201-8F39-984FF4EAD811}",
    "name": "Limb",
    "acres": 0.0,
@@ -2253,6 +2239,20 @@
    "complexity": null,
    "lon": -90.4926,
    "lat": 43.9564
+  },
+  {
+   "id": "{B6A7E4B3-DAF2-4C45-8AD0-61288A510DBE}",
+   "name": "Whooping Crane",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-14T18:45:00Z",
+   "updated": "2026-11-19T21:24:15Z",
+   "state": "WI",
+   "county": "Monroe",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.5403,
+   "lat": 44.0512
   },
   {
    "id": "{0FB96BA4-E794-483B-B17E-99E0DFBDD615}",
@@ -2479,12 +2479,26 @@
    "lat": 46.1763
   },
   {
-   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
-   "name": "abc",
+   "id": "{DC17C6A1-5884-4F78-AA1B-B6A785033758}",
+   "name": "Glacier",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T20:48:31Z",
+   "updated": "2026-11-19T21:15:32Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.4284,
+   "lat": 44.5505
+  },
+  {
+   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
+   "name": "Lakeside",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T21:14:44Z",
    "state": "WI",
    "county": "Waushara",
    "cause": "Undetermined",
