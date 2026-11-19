@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT))
 from elements import feed, firms, history, meteoalarm, meteoalarm_log, sources, weather  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, geo, registers  # noqa: E402
+from tic_doctrine.history import first_run  # noqa: E402
 
 SRC, OUT, HIST = ROOT / "site_src", ROOT / "site", ROOT / "history"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
@@ -138,7 +139,10 @@ def states_json() -> dict:
 def build() -> dict:
     d = data()
     now = datetime.now(timezone.utc)
-    fc = feed.build(d, now)
+    # Contract revision 2.1: last_change is filled from the history state the history step just wrote (it runs
+    # first), on the items that do not state it; the log's first run (13 Nov 2026) marks what was standing then.
+    state = history.load_state(HIST)
+    fc = feed.build(d, now, state=state, since=state.get("since") or first_run(HIST))
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(SRC, OUT)
@@ -149,7 +153,7 @@ def build() -> dict:
     (OUT / "data" / "feed.geojson").write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "health.json").write_text(json.dumps(d["health"], indent=1) + "\n", encoding="utf-8", newline="\n")
-    ended = history.ended_collection(HIST, history.load_state(HIST), now)
+    ended = history.ended_collection(HIST, state, now)
     (OUT / "data" / "ended.geojson").write_text(json.dumps(ended, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                 encoding="utf-8", newline="\n")
     fp = d["firms"]["records"] or {}

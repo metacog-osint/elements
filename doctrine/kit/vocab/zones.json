@@ -1,0 +1,227 @@
+{
+  "vocab": "zones",
+  "version": "1.0",
+  "note": "The suite's shared zone keys (D4): Watchfloor owns them, Context and Vis read them, COP joins on them. countries are ISO 3166-1 alpha-2; map is the zone's [lat, lon] map point. A retired key still resolves, with the day and the zones it went into; its countries are theirs combined. Built by tools/build_zones.py; never edit by hand.",
+  "source": {
+    "program": "watchfloor",
+    "repo": "metacog-osint/more-context",
+    "file": "catalog/entities.json",
+    "catalog_version": "2026-10-27.1",
+    "commit": "6bedddb09ed063b53e5204c4cd05cd69088171b4"
+  },
+  "zones": [
+    {
+      "key": "01_Ukraine_Conflict",
+      "name": "Ukraine Conflict",
+      "countries": [
+        "UA"
+      ],
+      "map": [
+        50.45,
+        30.52
+      ]
+    },
+    {
+      "key": "07_Russia_NATO",
+      "name": "Russia-NATO Border",
+      "countries": [
+        "BY",
+        "DK",
+        "EE",
+        "FI",
+        "LT",
+        "LV",
+        "NO",
+        "PL",
+        "RU",
+        "SE"
+      ],
+      "map": [
+        54.71,
+        20.45
+      ]
+    },
+    {
+      "key": "02_Taiwan_Strait",
+      "name": "Taiwan Strait",
+      "countries": [
+        "TW"
+      ],
+      "map": [
+        23.7,
+        120.96
+      ]
+    },
+    {
+      "key": "08_South_China_Sea",
+      "name": "South China Sea",
+      "countries": [
+        "PH",
+        "VN"
+      ],
+      "map": [
+        12.0,
+        114.0
+      ]
+    },
+    {
+      "key": "03_Korea_Peninsula",
+      "name": "Korea Peninsula",
+      "countries": [
+        "KP",
+        "KR"
+      ],
+      "map": [
+        37.9,
+        127.0
+      ]
+    },
+    {
+      "key": "10_Israel_Gaza_Lebanon",
+      "name": "Israel, Gaza & Lebanon",
+      "countries": [
+        "IL",
+        "LB",
+        "PS"
+      ],
+      "map": [
+        31.5,
+        34.47
+      ]
+    },
+    {
+      "key": "11_Iran_Red_Sea",
+      "name": "Iran & Red Sea",
+      "countries": [
+        "IR",
+        "YE"
+      ],
+      "map": [
+        32.4,
+        53.7
+      ]
+    },
+    {
+      "key": "06_India_Pakistan",
+      "name": "India-Pakistan",
+      "countries": [
+        "IN",
+        "PK"
+      ],
+      "map": [
+        34.08,
+        74.8
+      ]
+    },
+    {
+      "key": "13_Sudan",
+      "name": "Sudan",
+      "countries": [
+        "SD"
+      ],
+      "map": [
+        15.5,
+        30.5
+      ]
+    },
+    {
+      "key": "18_Ethiopia_Eritrea",
+      "name": "Ethiopia & Eritrea",
+      "countries": [
+        "ER",
+        "ET"
+      ],
+      "map": [
+        9.1,
+        39.5
+      ]
+    },
+    {
+      "key": "19_Somalia",
+      "name": "Somalia",
+      "countries": [
+        "DJ",
+        "SO"
+      ],
+      "map": [
+        4.5,
+        45.8
+      ]
+    },
+    {
+      "key": "12_Sahel_West_Africa",
+      "name": "Sahel & West Africa",
+      "countries": [
+        "BF",
+        "ML",
+        "NE"
+      ],
+      "map": [
+        14.5,
+        -1.5
+      ]
+    },
+    {
+      "key": "14_DRC_Rwanda",
+      "name": "DRC-Rwanda (M23)",
+      "countries": [
+        "CD",
+        "RW"
+      ],
+      "map": [
+        -1.68,
+        29.22
+      ]
+    },
+    {
+      "key": "16_Myanmar",
+      "name": "Myanmar",
+      "countries": [
+        "MM"
+      ],
+      "map": [
+        21.0,
+        96.0
+      ]
+    },
+    {
+      "key": "05_Venezuela",
+      "name": "Venezuela",
+      "countries": [
+        "VE"
+      ],
+      "map": [
+        6.42,
+        -66.59
+      ]
+    },
+    {
+      "key": "15_Cuba",
+      "name": "Cuba",
+      "countries": [
+        "CU"
+      ],
+      "map": [
+        23.11,
+        -82.37
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "key": "17_Horn_of_Africa",
+      "on": "2026-10-27",
+      "into": [
+        "18_Ethiopia_Eritrea",
+        "19_Somalia"
+      ],
+      "why": "Ethiopia's renewed war was lost inside a zone dominated by Somalia and diaspora coverage (Tom)",
+      "countries": [
+        "DJ",
+        "ER",
+        "ET",
+        "SO"
+      ]
+    }
+  ]
+}

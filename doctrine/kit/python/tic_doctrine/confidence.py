@@ -30,6 +30,23 @@ class Evidence:
     horizon_days: float | None = None   # forecasts only
 
 
+def method_scored(scores: dict | None, program: str, min_n: int | None = None) -> bool:
+    """Whether Verdict holds a scored record for a program (kit 0.6.2, review G3), for Evidence.method_scored.
+
+    `scores` is Verdict's published scores.json. Verdict scores by program, not by method version, so the record is
+    the program's: at least `min_n` independent resolved forecasts (a cluster of linked questions counting once),
+    by default Verdict's own `skill_min_n`, the count it holds skill back until. Without that record confidence
+    stays capped at Moderate, as before; the helper only lets a program that has earned High reach it."""
+    if not scores:
+        return False
+    row = (scores.get("by_program") or {}).get(program) or {}
+    need = min_n if min_n is not None else scores.get("skill_min_n")
+    have = row.get("n_independent", row.get("n"))
+    if not isinstance(need, (int, float)) or not isinstance(have, (int, float)) or row.get("brier") is None:
+        return False
+    return have >= need
+
+
 def _defaults(overrides):
     d = dict(vocab.load("confidence")["defaults"])
     d.update(overrides or {})
