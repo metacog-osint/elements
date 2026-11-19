@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 50,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-19T15:39:26Z",
+   "updated": "2026-11-19T16:57:01Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -370,7 +370,7 @@
    "acres": 85.0,
    "contained": null,
    "discovered": "2026-11-19T01:00:00Z",
-   "updated": "2026-11-19T05:48:01Z",
+   "updated": "2026-11-19T16:49:27Z",
    "state": "MS",
    "county": "Forrest",
    "cause": "Undetermined",
@@ -897,6 +897,34 @@
    "lat": 43.241
   },
   {
+   "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
+   "name": "Angler",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T16:55:13Z",
+   "state": "WI",
+   "county": "Lincoln",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.6253,
+   "lat": 45.472
+  },
+  {
+   "id": "{0ED280BE-EEE0-41D3-8618-92A2445E5152}",
+   "name": "Mile Marker 238",
+   "acres": 1.2,
+   "contained": null,
+   "discovered": "2026-07-16T03:35:45Z",
+   "updated": "2026-11-19T16:38:13Z",
+   "state": "OR",
+   "county": "Umatilla",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -118.4246,
+   "lat": 45.5028
+  },
+  {
    "id": "{DA02A1CD-0098-4C01-93F4-A98706DA03EF}",
    "name": "Armin Road",
    "acres": 1.2,
@@ -1051,20 +1079,6 @@
    "lat": 45.7882
   },
   {
-   "id": "{79968122-DD56-4997-9808-27239CEC2CEE}",
-   "name": "Oak Hill",
-   "acres": 0.8,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T15:21:27Z",
-   "state": "WI",
-   "county": "Eau Claire",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.2666,
-   "lat": 44.8477
-  },
-  {
    "id": "{10E3AF71-624D-4274-9B0B-0EBD0E3B2E9C}",
    "name": "Balsam Lake",
    "acres": 0.7,
@@ -1077,6 +1091,20 @@
    "complexity": null,
    "lon": -88.2761,
    "lat": 45.3529
+  },
+  {
+   "id": "{79968122-DD56-4997-9808-27239CEC2CEE}",
+   "name": "Oak Hill",
+   "acres": 0.7,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T17:00:40Z",
+   "state": "WI",
+   "county": "Eau Claire",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -91.2666,
+   "lat": 44.8477
   },
   {
    "id": "{F9811276-07EE-425C-8D41-CC723105B6CA}",
@@ -1205,20 +1233,6 @@
    "lat": 17.9955
   },
   {
-   "id": "{A7BEF53A-805B-4C0F-AE01-5FBF0C0A4C4C}",
-   "name": "Bumping Lake",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-10-09T21:21:39Z",
-   "updated": "2026-11-19T01:25:10Z",
-   "state": "WA",
-   "county": "Yakima",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -121.3014,
-   "lat": 46.872
-  },
-  {
    "id": "{5FBA45BB-EE66-47D1-9643-E8C32022FED1}",
    "name": "Thrill",
    "acres": 0.2,
@@ -1245,20 +1259,6 @@
    "complexity": "Type 5 Incident",
    "lon": -91.3766,
    "lat": 34.7883
-  },
-  {
-   "id": "{6C4723E8-0BE9-4A85-AFE1-39D2CEBF26AA}",
-   "name": "Fd03072",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-05T18:42:12Z",
-   "updated": "2026-11-16T16:44:03Z",
-   "state": "MA",
-   "county": "Bristol",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -71.0375,
-   "lat": 41.913
   },
   {
    "id": "{AA52CE9F-39AA-48BF-A7A2-539A416B435D}",
@@ -1301,6 +1301,20 @@
    "complexity": "Type 5 Incident",
    "lon": -88.8834,
    "lat": 46.3873
+  },
+  {
+   "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
+   "name": "North Shore",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-19T16:57:12Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.3421,
+   "lat": 45.6394
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1672,10 +1686,10 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T19:23:10Z",
+   "updated": "2026-11-19T16:36:50Z",
    "state": "WI",
    "county": "Langlade",
-   "cause": "Undetermined",
+   "cause": "Natural",
    "complexity": null,
    "lon": -89.2179,
    "lat": 45.3907
@@ -1777,6 +1791,20 @@
    "complexity": "Type 5 Incident",
    "lon": -93.8713,
    "lat": 35.0241
+  },
+  {
+   "id": "{26ED1156-23EE-4E68-9D58-404C209B3DDC}",
+   "name": "Hardin - Huckleberry Lane",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-19T16:10:00Z",
+   "updated": "2026-11-19T16:50:32Z",
+   "state": "TN",
+   "county": "Hardin",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -88.1585,
+   "lat": 35.0581
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2311,18 +2339,18 @@
    "lat": 33.9307
   },
   {
-   "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
-   "name": "Anglers Ave",
+   "id": "{662AC2D9-1D79-4C93-A33D-4249713B138F}",
+   "name": "Thunder Lake",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T16:27:55Z",
+   "updated": "2026-11-19T16:50:46Z",
    "state": "WI",
-   "county": "Lincoln",
+   "county": "Oneida",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -89.6253,
-   "lat": 45.472
+   "lon": -89.1971,
+   "lat": 45.7765
   },
   {
    "id": "{5D63D964-2173-4AA4-9BC0-61D06AF0F5CB}",
