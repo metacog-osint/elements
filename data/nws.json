@@ -246,6 +246,188 @@
    ]
   },
   {
+   "id": "KMLB.FF.W.0030.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12009",
+    "12127"
+   ],
+   "sent": "2026-11-19T15:09:00Z",
+   "onset": "2026-11-19T15:09:00Z",
+   "ends": "2026-11-19T18:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c3b00de9fbed4e01e768ab7362864b919e6e2ad.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.2,
+       29.24
+      ],
+      [
+       -81.02,
+       29.31
+      ],
+      [
+       -80.91,
+       29.09
+      ],
+      [
+       -80.89,
+       29.08
+      ],
+      [
+       -80.85,
+       29
+      ],
+      [
+       -80.81,
+       28.97
+      ],
+      [
+       -80.72,
+       28.81
+      ],
+      [
+       -80.65,
+       28.73
+      ],
+      [
+       -80.94,
+       28.63
+      ],
+      [
+       -81.01,
+       28.71
+      ],
+      [
+       -81.11,
+       28.91
+      ],
+      [
+       -81.2,
+       29.24
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -80.942,
+   "lat": 28.977,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.FF.W.0023.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Los Angeles, CA",
+    "Ventura, CA"
+   ],
+   "counties": [
+    "06037",
+    "06111"
+   ],
+   "sent": "2026-11-19T15:32:00Z",
+   "onset": "2026-11-19T15:32:00Z",
+   "ends": "2026-11-19T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd5a89f1797c38659923f67344e05edc3fff21ab.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.86,
+       34.02
+      ],
+      [
+       -118.81,
+       34.14
+      ],
+      [
+       -118.75,
+       34.2
+      ],
+      [
+       -118.5,
+       34.48
+      ],
+      [
+       -118.09,
+       34.45
+      ],
+      [
+       -118.12,
+       34.26
+      ],
+      [
+       -118.35,
+       33.98
+      ],
+      [
+       -118.45,
+       33.93
+      ],
+      [
+       -118.52,
+       34
+      ],
+      [
+       -118.67,
+       34.01
+      ],
+      [
+       -118.77,
+       33.98
+      ],
+      [
+       -118.86,
+       34.02
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -118.2619,
+     34.1964
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -118.562,
+   "lat": 34.123,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.FF.A.0001.2026",
    "event": "Flash Flood Watch",
    "severity": "Severe",
@@ -866,38 +1048,6 @@
    ]
   },
   {
-   "id": "PAFC.FA.A.0011.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "SW Kenai Peninsula",
-    "Southern Kenai Mtns"
-   ],
-   "counties": [
-    "02122"
-   ],
-   "sent": "2026-11-17T22:32:00Z",
-   "onset": "2026-11-18T15:00:00Z",
-   "ends": "2026-11-20T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d20aeb65c9b9f53ec78f58d9dd95e014f8436c4.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -152.3223,
-     60.3667
-    ]
-   ],
-   "lon": -152.322,
-   "lat": 60.367,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1087,6 +1237,37 @@
    ]
   },
   {
+   "id": "PAFC.FA.A.0011.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Southern Kenai Mtns"
+   ],
+   "counties": [
+    "02122"
+   ],
+   "sent": "2026-11-19T15:29:00Z",
+   "onset": "2026-11-19T15:29:00Z",
+   "ends": "2026-11-20T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b0826feecbd97efb0e02a6e2ce4406619eb1b30.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -152.3223,
+     60.3667
+    ]
+   ],
+   "lon": -152.322,
+   "lat": 60.367,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1113,11 +1294,11 @@
    ]
   },
   {
-   "id": "KPUB.HW.A.0006.2026",
-   "event": "High Wind Watch",
+   "id": "KPUB.HW.W.0008.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Pueblo CO",
    "areas": [
     "Southern Sangre De Cristo Mountains Between 7500 and 11000 Ft",
@@ -1129,10 +1310,10 @@
     "08055",
     "08071"
    ],
-   "sent": "2026-11-19T07:54:00Z",
+   "sent": "2026-11-19T15:25:00Z",
    "onset": "2026-11-20T06:00:00Z",
    "ends": "2026-11-20T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fd23a4b6db8f00869fcd41bfa9a20f8d550cc13.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa9e61723dc137841a2e93697b7e4513aac791e5.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1151,6 +1332,107 @@
    ],
    "lon": -104.811,
    "lat": 37.428,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.SV.W.0014.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Los Angeles, CA"
+   ],
+   "counties": [
+    "06037"
+   ],
+   "sent": "2026-11-19T15:16:00Z",
+   "onset": "2026-11-19T15:16:00Z",
+   "ends": "2026-11-19T16:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50ae2f02dc2e076c419caeb877e232d05599e58.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -118.88,
+       33.97
+      ],
+      [
+       -118.81,
+       34.11
+      ],
+      [
+       -118.73,
+       34.17
+      ],
+      [
+       -118.67,
+       34.17
+      ],
+      [
+       -118.67,
+       34.24
+      ],
+      [
+       -118.63,
+       34.24
+      ],
+      [
+       -118.64,
+       34.31
+      ],
+      [
+       -118.5,
+       34.48
+      ],
+      [
+       -118.09,
+       34.45
+      ],
+      [
+       -118.12,
+       34.26
+      ],
+      [
+       -118.35,
+       33.98
+      ],
+      [
+       -118.47,
+       33.92
+      ],
+      [
+       -118.53,
+       33.93
+      ],
+      [
+       -118.56,
+       33.96
+      ],
+      [
+       -118.74,
+       33.95
+      ],
+      [
+       -118.88,
+       33.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -118.2619,
+     34.1964
+    ]
+   ],
+   "lon": -118.579,
+   "lat": 34.132,
    "countries": [
     "US"
    ]
@@ -1257,42 +1539,6 @@
    "points": [],
    "lon": -118.673,
    "lat": 33.854,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLKN.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Elko NV",
-   "areas": [
-    "Ruby Mountains and East Humboldt Range"
-   ],
-   "counties": [
-    "32007",
-    "32033"
-   ],
-   "sent": "2026-11-18T19:52:00Z",
-   "onset": "2026-11-19T08:00:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de131009f122f224a621ff41d1a6f7b9b6bf78f3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -115.3514,
-     41.1411
-    ],
-    [
-     -114.9006,
-     39.4182
-    ]
-   ],
-   "lon": -115.126,
-   "lat": 40.28,
    "countries": [
     "US"
    ]
@@ -1617,6 +1863,42 @@
    ],
    "lon": -151.578,
    "lat": 65.376,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLKN.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Elko NV",
+   "areas": [
+    "Ruby Mountains and East Humboldt Range"
+   ],
+   "counties": [
+    "32007",
+    "32033"
+   ],
+   "sent": "2026-11-19T15:16:00Z",
+   "onset": "2026-11-19T15:16:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79ff407c4bc1ec15944e9f795c52b9ac7a34fb36.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -115.3514,
+     41.1411
+    ],
+    [
+     -114.9006,
+     39.4182
+    ]
+   ],
+   "lon": -115.126,
+   "lat": 40.28,
    "countries": [
     "US"
    ]
