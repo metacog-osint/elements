@@ -1,6 +1,8 @@
 /*! tic-area.js v1.1 (Cordon 15 Nov 2026; Elements 16 Nov 2026: per-site note) · "My area": each viewer picks the part of the world they care about,
  * saved in this browser only. Places outside it are dimmed, never hidden. Written to move into the hub's shared/
  * folder beside tic-time.js once a second site uses it. Uses tic-time.css for its dialog.
+ *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+ *  copied into, whatever that repository's own licence.
  *
  *    TicArea.mountSettings(el, states, opts)  adds an "Area" button; states = [{code: "US-ND", name, boxes: [[w,s,e,n], ...]}];
  *                                       opts.note replaces the dialog's closing note (v1.1)

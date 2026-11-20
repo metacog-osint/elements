@@ -1,4 +1,6 @@
-/*! tic-time.css v1.2 · pairs with tic-time.js · uses a site's own colour variables when it has them */
+/*! tic-time.css v1.2 · pairs with tic-time.js · uses a site's own colour variables when it has them
+    SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+    copied into, whatever that repository's own licence. */
 .tic-time-btn { font: inherit; font-size: 13px; cursor: pointer; padding: 5px 10px; border-radius: 6px;
   border: 1px solid var(--line, rgba(127,127,127,.4)); background: transparent; color: inherit; white-space: nowrap; }
 .tic-time-dialog { max-width: min(420px, calc(100vw - 32px)); width: 100%; border: 1px solid var(--line, #ccd);
