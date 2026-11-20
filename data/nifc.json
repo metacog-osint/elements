@@ -423,10 +423,10 @@
   {
    "id": "{BBF8AFAD-DD15-476A-9CA9-7FE94A0BFC76}",
    "name": "Elmwood Court",
-   "acres": 30.0,
-   "contained": 0,
+   "acres": 40.0,
+   "contained": 25,
    "discovered": "2026-11-19T18:55:00Z",
-   "updated": "2026-11-19T22:42:29Z",
+   "updated": "2026-11-19T23:36:12Z",
    "state": "KY",
    "county": "Floyd",
    "cause": "Human",
@@ -1308,7 +1308,7 @@
    "acres": 0.5,
    "contained": 0,
    "discovered": "2026-11-19T23:03:00Z",
-   "updated": "2026-11-19T23:32:32Z",
+   "updated": "2026-11-19T23:36:13Z",
    "state": "KY",
    "county": "Whitley",
    "cause": "Undetermined",
@@ -2253,6 +2253,20 @@
    "complexity": null,
    "lon": -123.4107,
    "lat": 42.925
+  },
+  {
+   "id": "{93B00D7A-5556-43B5-A888-4599B74CE39F}",
+   "name": "Canyon Creek",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-09-07T22:46:00Z",
+   "updated": "2026-11-19T23:39:19Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -123.2589,
+   "lat": 42.898
   },
   {
    "id": "{95736EB3-168C-4217-9896-87213C2BC507}",
