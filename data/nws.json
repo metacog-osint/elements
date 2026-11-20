@@ -1031,63 +1031,6 @@
    ]
   },
   {
-   "id": "KPIH.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pocatello ID",
-   "areas": [
-    "Bear River Range",
-    "Big Hole Mountains"
-   ],
-   "counties": [
-    "16007",
-    "16019",
-    "16029",
-    "16041",
-    "16065",
-    "16081"
-   ],
-   "sent": "2026-11-19T20:06:00Z",
-   "onset": "2026-11-20T00:00:00Z",
-   "ends": "2026-11-21T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8311d1fc8f1f5c755799610eb6b9c6407fa738a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -111.3275,
-     42.2859
-    ],
-    [
-     -111.6219,
-     43.3952
-    ],
-    [
-     -111.5443,
-     42.7861
-    ],
-    [
-     -111.823,
-     42.1736
-    ],
-    [
-     -111.657,
-     43.7886
-    ],
-    [
-     -111.2118,
-     43.761
-    ]
-   ],
-   "lon": -111.531,
-   "lat": 43.032,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KVEF.WS.W.0005.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1488,6 +1431,63 @@
    ],
    "lon": -111.838,
    "lat": 40.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPIH.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pocatello ID",
+   "areas": [
+    "Bear River Range",
+    "Big Hole Mountains"
+   ],
+   "counties": [
+    "16007",
+    "16019",
+    "16029",
+    "16041",
+    "16065",
+    "16081"
+   ],
+   "sent": "2026-11-20T05:52:00Z",
+   "onset": "2026-11-20T05:52:00Z",
+   "ends": "2026-11-21T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8e355d92605352af1f4013ebe5e748447243f33.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -111.3275,
+     42.2859
+    ],
+    [
+     -111.6219,
+     43.3952
+    ],
+    [
+     -111.5443,
+     42.7861
+    ],
+    [
+     -111.823,
+     42.1736
+    ],
+    [
+     -111.657,
+     43.7886
+    ],
+    [
+     -111.2118,
+     43.761
+    ]
+   ],
+   "lon": -111.531,
+   "lat": 43.032,
    "countries": [
     "US"
    ]
