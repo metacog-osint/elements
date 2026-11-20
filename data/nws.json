@@ -1,6 +1,120 @@
 {
  "records": [
   {
+   "id": "KMTR.TO.W.0004.2026",
+   "event": "Tornado Warning",
+   "severity": "Extreme",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "San Benito, CA"
+   ],
+   "counties": [
+    "06069"
+   ],
+   "sent": "2026-11-20T22:23:00Z",
+   "onset": "2026-11-20T22:23:00Z",
+   "ends": "2026-11-20T23:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4575e47e0e3e40037b640f7a1b35ec705fd66fb.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -120.82,
+       36.66
+      ],
+      [
+       -121.09,
+       36.59
+      ],
+      [
+       -121.11,
+       36.82
+      ],
+      [
+       -120.93,
+       36.75
+      ],
+      [
+       -120.82,
+       36.66
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -121.0858,
+     36.6117
+    ]
+   ],
+   "lon": -120.954,
+   "lat": 36.696,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHNX.TO.W.0005.2026",
+   "event": "Tornado Warning",
+   "severity": "Extreme",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Hanford CA",
+   "areas": [
+    "Merced, CA"
+   ],
+   "counties": [
+    "06047"
+   ],
+   "sent": "2026-11-20T22:23:00Z",
+   "onset": "2026-11-20T22:23:00Z",
+   "ends": "2026-11-20T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1513886d3513e9c33ced66d2e2a4773ff4b7f813.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -121.14,
+       36.9
+      ],
+      [
+       -121.01,
+       36.93
+      ],
+      [
+       -120.96,
+       36.77
+      ],
+      [
+       -121.09,
+       36.82
+      ],
+      [
+       -121.14,
+       36.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -120.7228,
+     37.1948
+    ]
+   ],
+   "lon": -121.068,
+   "lat": 36.864,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -852,6 +966,127 @@
    ],
    "lon": -113.214,
    "lat": 33.005,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0045.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Yuma, AZ"
+   ],
+   "counties": [
+    "04027"
+   ],
+   "sent": "2026-11-20T22:20:00Z",
+   "onset": "2026-11-20T22:20:00Z",
+   "ends": "2026-11-27T22:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2745f4fa458bfc73ec89e51965114c9e810b61b2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.56,
+       32.83
+      ],
+      [
+       -114.02,
+       32.69
+      ],
+      [
+       -114.08,
+       32.72
+      ],
+      [
+       -114.11,
+       32.68
+      ],
+      [
+       -114.16,
+       32.69
+      ],
+      [
+       -114.22,
+       32.66
+      ],
+      [
+       -114.3,
+       32.67
+      ],
+      [
+       -114.37,
+       32.75
+      ],
+      [
+       -114.43,
+       32.74
+      ],
+      [
+       -114.44,
+       32.78
+      ],
+      [
+       -114.35,
+       32.78
+      ],
+      [
+       -114.27,
+       32.7
+      ],
+      [
+       -114.21,
+       32.7
+      ],
+      [
+       -114.16,
+       32.73
+      ],
+      [
+       -114.13,
+       32.72
+      ],
+      [
+       -114.11,
+       32.75
+      ],
+      [
+       -114.06,
+       32.76
+      ],
+      [
+       -114.01,
+       32.73
+      ],
+      [
+       -113.95,
+       32.77
+      ],
+      [
+       -113.58,
+       32.88
+      ],
+      [
+       -113.56,
+       32.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -113.9109,
+     32.7739
+    ]
+   ],
+   "lon": -114.099,
+   "lat": 32.741,
    "countries": [
     "US"
    ]

@@ -743,6 +743,20 @@
    "lat": 36.6386
   },
   {
+   "id": "{DC3CD1DF-F682-4E09-9D74-70B91D6C4D3B}",
+   "name": "Van Buren Airstrip",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-20T21:40:00Z",
+   "updated": "2026-11-20T22:12:31Z",
+   "state": "MO",
+   "county": "Carter",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -91.0066,
+   "lat": 37.0101
+  },
+  {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
    "name": "Sawyer Lake",
    "acres": 2.7,
@@ -883,6 +897,20 @@
    "lat": 43.241
   },
   {
+   "id": "{596EE14F-CA35-4CBD-8420-4E669CC5AC82}",
+   "name": "Cannon - Hannahs Lane",
+   "acres": 1.5,
+   "contained": 0,
+   "discovered": "2026-11-20T20:14:00Z",
+   "updated": "2026-11-20T22:12:54Z",
+   "state": "TN",
+   "county": "Cannon",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -85.9568,
+   "lat": 35.8952
+  },
+  {
    "id": "{16E29F2E-9EEB-4E42-A3E6-E5AF728D0C61}",
    "name": "Angler",
    "acres": 1.3,
@@ -995,48 +1023,6 @@
    "lat": 45.8129
   },
   {
-   "id": "{F4E90CD2-6677-485B-B9A9-68FDC89AFFDC}",
-   "name": "Pope 244",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-20T18:54:35Z",
-   "updated": "2026-11-20T21:14:31Z",
-   "state": "AR",
-   "county": "Pope",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.1452,
-   "lat": 35.395
-  },
-  {
-   "id": "{C5215BAB-CA96-4E54-B349-A4757E9EBF8D}",
-   "name": "Gracey Herndon Road",
-   "acres": 1.0,
-   "contained": 90,
-   "discovered": "2026-11-20T20:14:00Z",
-   "updated": "2026-11-20T21:14:40Z",
-   "state": "KY",
-   "county": "Christian",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -87.5833,
-   "lat": 36.7489
-  },
-  {
-   "id": "{87EF6B8A-6571-471E-BE8F-5BDB89C6DBD0}",
-   "name": "pulaski 240",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-20T21:17:47Z",
-   "updated": "2026-11-20T21:18:55Z",
-   "state": "AR",
-   "county": "Pulaski",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.1092,
-   "lat": 34.8258
-  },
-  {
    "id": "{EF41BDAB-06DF-4ABB-A077-F91052E445A0}",
    "name": "boone 245",
    "acres": 1.0,
@@ -1049,6 +1035,34 @@
    "complexity": null,
    "lon": -93.0573,
    "lat": 36.494
+  },
+  {
+   "id": "{AFED552E-D387-45F2-BB60-C5D0CC1106A2}",
+   "name": "Hempstead 353",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-20T21:37:39Z",
+   "updated": "2026-11-20T22:06:45Z",
+   "state": "AR",
+   "county": "Hempstead",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.5052,
+   "lat": 33.7519
+  },
+  {
+   "id": "{3E136264-4A9E-4529-B15B-4331AFE3282D}",
+   "name": "Garland 301",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-20T22:00:53Z",
+   "updated": "2026-11-20T22:07:26Z",
+   "state": "AR",
+   "county": "Garland",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.0181,
+   "lat": 34.7479
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1077,6 +1091,20 @@
    "complexity": null,
    "lon": -90.5282,
    "lat": 45.7882
+  },
+  {
+   "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
+   "name": "Dump",
+   "acres": 0.9,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-20T22:25:13Z",
+   "state": "WI",
+   "county": "Sauk",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.1773,
+   "lat": 43.182
   },
   {
    "id": "{C4B1C3D2-A541-457B-A242-766A06CFFB75}",
@@ -1161,6 +1189,20 @@
    "complexity": null,
    "lon": -89.719,
    "lat": 46.189
+  },
+  {
+   "id": "{EA4B2993-EE8F-4F10-8782-4D339D35BD7D}",
+   "name": "Ostrom",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-20T22:23:42Z",
+   "state": "WI",
+   "county": "Washburn",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -91.9192,
+   "lat": 46.0914
   },
   {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
@@ -1273,20 +1315,6 @@
    "complexity": null,
    "lon": -89.549,
    "lat": 45.6602
-  },
-  {
-   "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
-   "name": "Dump",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T21:06:53Z",
-   "state": "WI",
-   "county": "Sauk",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -90.1773,
-   "lat": 43.182
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1765,34 +1793,6 @@
    "lat": 30.3944
   },
   {
-   "id": "{D8D3CF69-CDCC-4869-87FA-1DE685652AD8}",
-   "name": "Jose",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T18:46:27Z",
-   "updated": "2026-11-20T20:36:30Z",
-   "state": "CA",
-   "county": "Fresno",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -119.3735,
-   "lat": 37.121
-  },
-  {
-   "id": "{596EE14F-CA35-4CBD-8420-4E669CC5AC82}",
-   "name": "Cannon - Hannahs Lane",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-20T20:14:00Z",
-   "updated": "2026-11-20T21:22:12Z",
-   "state": "TN",
-   "county": "Cannon",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -85.9568,
-   "lat": 35.8952
-  },
-  {
    "id": "{356AFB84-7BF0-4B2E-BDA6-6D22E4C858EA}",
    "name": "Degroot",
    "acres": 0.1,
@@ -1805,6 +1805,20 @@
    "complexity": null,
    "lon": -87.8592,
    "lat": 46.1402
+  },
+  {
+   "id": "{38569096-C915-492E-86E5-DDE96BBD2731}",
+   "name": "Talcott Gulch",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T21:26:06Z",
+   "updated": "2026-11-20T22:28:57Z",
+   "state": "CO",
+   "county": "El Paso",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -105.0091,
+   "lat": 38.9758
   },
   {
    "id": "{7E25E29A-954A-47BE-A46D-842E181EA419}",
@@ -2603,20 +2617,6 @@
    "complexity": null,
    "lon": -90.4945,
    "lat": 45.0828
-  },
-  {
-   "id": "{EA4B2993-EE8F-4F10-8782-4D339D35BD7D}",
-   "name": "Ostrom",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T21:43:52Z",
-   "state": "WI",
-   "county": "Washburn",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.9214,
-   "lat": 46.0909
   },
   {
    "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
