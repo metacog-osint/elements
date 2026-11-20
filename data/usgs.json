@@ -1,11 +1,26 @@
 {
  "records": [
   {
+   "id": "us6000uc8g",
+   "mag": 5.0,
+   "place": "southeast of the Loyalty Islands",
+   "time": "2026-11-20T10:30:01Z",
+   "updated": "2026-11-20T10:47:31Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 385,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc8g",
+   "depth_km": 10.0,
+   "lon": 171.433,
+   "lat": -24.746,
+   "countries": []
+  },
+  {
    "id": "us6000uc82",
    "mag": 5.4,
    "place": "Carlsberg Ridge",
    "time": "2026-11-20T08:44:11Z",
-   "updated": "2026-11-20T09:10:59Z",
+   "updated": "2026-11-20T10:51:39Z",
    "alert": "green",
    "tsunami": false,
    "sig": 449,
@@ -35,7 +50,7 @@
    "mag": 5.0,
    "place": "10 km NW of Pinnacles, CA",
    "time": "2026-11-20T06:49:16Z",
-   "updated": "2026-11-20T10:34:11Z",
+   "updated": "2026-11-20T10:59:27Z",
    "alert": "green",
    "tsunami": true,
    "sig": 1005,
@@ -1634,23 +1649,6 @@
    "lon": -175.854,
    "lat": -21.304,
    "countries": []
-  },
-  {
-   "id": "us7000txza",
-   "mag": 4.5,
-   "place": "86 km NNE of Lagunas, Peru",
-   "time": "2026-11-13T10:55:12Z",
-   "updated": "2026-11-13T17:56:46Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 312,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txza",
-   "depth_km": 10.0,
-   "lon": -75.328,
-   "lat": -4.523,
-   "countries": [
-    "PE"
-   ]
   }
  ]
 }
