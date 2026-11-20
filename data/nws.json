@@ -32,107 +32,6 @@
    ]
   },
   {
-   "id": "KMLB.FF.W.0035.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL",
-    "Seminole, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12009",
-    "12117",
-    "12127"
-   ],
-   "sent": "2026-11-20T13:30:00Z",
-   "onset": "2026-11-20T13:30:00Z",
-   "ends": "2026-11-20T17:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ad9ab0cb2df223fb0852c127ea8596cebb9f024.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.09,
-       28.77
-      ],
-      [
-       -81.19,
-       29.05
-      ],
-      [
-       -80.9,
-       29.09
-      ],
-      [
-       -80.89,
-       29.08
-      ],
-      [
-       -80.85,
-       29
-      ],
-      [
-       -80.83,
-       28.99
-      ],
-      [
-       -80.81,
-       28.97
-      ],
-      [
-       -80.8,
-       28.94
-      ],
-      [
-       -80.79,
-       28.92
-      ],
-      [
-       -80.72,
-       28.81
-      ],
-      [
-       -80.7,
-       28.8
-      ],
-      [
-       -80.69,
-       28.78
-      ],
-      [
-       -81.09,
-       28.77
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ],
-    [
-     -81.132,
-     28.6901
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -80.873,
-   "lat": 28.921,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FF.W.0036.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -145,10 +44,10 @@
    "counties": [
     "12127"
    ],
-   "sent": "2026-11-20T15:04:00Z",
-   "onset": "2026-11-20T15:04:00Z",
-   "ends": "2026-11-20T17:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eee279d996d037a003f70335883466e3b2a5bb96.001.1",
+   "sent": "2026-11-20T17:23:00Z",
+   "onset": "2026-11-20T17:23:00Z",
+   "ends": "2026-11-20T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c47ed3ad271b9947c87a304f386609b8e7252f0.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -213,6 +112,119 @@
    ],
    "lon": -81.101,
    "lat": 29.352,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.FF.W.0054.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Flagler, FL"
+   ],
+   "counties": [
+    "12035"
+   ],
+   "sent": "2026-11-20T17:31:00Z",
+   "onset": "2026-11-20T17:31:00Z",
+   "ends": "2026-11-20T20:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d6ea891cd92baec81090bfb84924ce2257e6861.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.29,
+       29.3
+      ],
+      [
+       -81.3,
+       29.3
+      ],
+      [
+       -81.3,
+       29.36
+      ],
+      [
+       -81.31,
+       29.37
+      ],
+      [
+       -81.3,
+       29.58
+      ],
+      [
+       -81.28,
+       29.62
+      ],
+      [
+       -81.24,
+       29.66
+      ],
+      [
+       -81.19,
+       29.67
+      ],
+      [
+       -81.17,
+       29.62
+      ],
+      [
+       -81.14,
+       29.6
+      ],
+      [
+       -81.09,
+       29.46
+      ],
+      [
+       -81.12,
+       29.46
+      ],
+      [
+       -81.1,
+       29.43
+      ],
+      [
+       -81.13,
+       29.46
+      ],
+      [
+       -81.11,
+       29.43
+      ],
+      [
+       -81.16,
+       29.41
+      ],
+      [
+       -81.15,
+       29.27
+      ],
+      [
+       -81.3,
+       29.26
+      ],
+      [
+       -81.29,
+       29.3
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.2863,
+     29.4749
+    ]
+   ],
+   "lon": -81.209,
+   "lat": 29.451,
    "countries": [
     "US"
    ]
@@ -735,6 +747,111 @@
    ]
   },
   {
+   "id": "KMLB.FA.W.0016.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL",
+    "Seminole, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12009",
+    "12117",
+    "12127"
+   ],
+   "sent": "2026-11-20T17:22:00Z",
+   "onset": "2026-11-20T17:22:00Z",
+   "ends": "2026-11-20T23:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.567b72661c0690692993e8cb7860fb760aa7f01a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.09,
+       28.76
+      ],
+      [
+       -81.2,
+       29.05
+      ],
+      [
+       -80.9,
+       29.09
+      ],
+      [
+       -80.89,
+       29.08
+      ],
+      [
+       -80.85,
+       29
+      ],
+      [
+       -80.83,
+       28.99
+      ],
+      [
+       -80.82,
+       28.98
+      ],
+      [
+       -80.81,
+       28.97
+      ],
+      [
+       -80.8,
+       28.94
+      ],
+      [
+       -80.79,
+       28.92
+      ],
+      [
+       -80.72,
+       28.81
+      ],
+      [
+       -80.7,
+       28.8
+      ],
+      [
+       -80.69,
+       28.79
+      ],
+      [
+       -81.09,
+       28.76
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ],
+    [
+     -81.132,
+     28.6901
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -80.87,
+   "lat": 28.924,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -885,8 +1002,8 @@
    "certainty": "Likely",
    "sender": "NWS Phoenix AZ",
    "areas": [
-    "Joshua Tree NP West",
-    "Southeast Gila County"
+    "Southeast Gila County",
+    "Joshua Tree NP West"
    ],
    "counties": [
     "04007",
@@ -895,7 +1012,7 @@
    "sent": "2026-11-20T06:13:00Z",
    "onset": "2026-11-21T07:00:00Z",
    "ends": "2026-11-21T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1098,64 +1215,6 @@
    ]
   },
   {
-   "id": "KJAX.MA.W.0261.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM",
-    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "75454",
-    "75474"
-   ],
-   "sent": "2026-11-20T15:45:00Z",
-   "onset": "2026-11-20T15:45:00Z",
-   "ends": "2026-11-20T17:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c62b5a77de51e204986311556b38e70f3c643ab.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.96,
-       29.91
-      ],
-      [
-       -80.21,
-       29.89
-      ],
-      [
-       -80.1,
-       29.65
-      ],
-      [
-       -79.98,
-       29.47
-      ],
-      [
-       -80.76,
-       29.48
-      ],
-      [
-       -80.96,
-       29.91
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.495,
-   "lat": 29.718,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.MA.W.0262.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1258,57 +1317,57 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0349.2026",
+   "id": "KJAX.MA.W.0263.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
+   "sender": "NWS Jacksonville FL",
    "areas": [
-    "Flagler Beach to Volusia-Brevard County Line 20-60 nm"
+    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
    ],
    "counties": [
-    "75570"
+    "75474"
    ],
-   "sent": "2026-11-20T16:32:00Z",
-   "onset": "2026-11-20T16:32:00Z",
-   "ends": "2026-11-20T17:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ca10d30cebbeffa64a7c58cbbb59cfa95eb2a72.001.1",
+   "sent": "2026-11-20T17:12:00Z",
+   "onset": "2026-11-20T17:12:00Z",
+   "ends": "2026-11-20T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90cc0eeb9d1d703702be3b34ad43f984f8ea7d23.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.91,
-       29.2
+       -80.94,
+       29.91
       ],
       [
-       -80.11,
-       29.02
+       -80.21,
+       29.89
       ],
       [
-       -80.6,
-       29.26
+       -80.1,
+       29.65
       ],
       [
-       -80.7,
-       29.48
-      ],
-      [
-       -80.11,
+       -79.98,
        29.47
       ],
       [
-       -79.91,
-       29.2
+       -80.75,
+       29.48
+      ],
+      [
+       -80.94,
+       29.91
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.223,
-   "lat": 29.272,
+   "lon": -80.487,
+   "lat": 29.718,
    "countries": [
     "US"
    ]
@@ -1392,88 +1451,6 @@
    ]
   },
   {
-   "id": "KSLC.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Salt Lake City UT",
-   "areas": [
-    "Wasatch Mountains I-80 North",
-    "Wasatch Mountains South of I-80"
-   ],
-   "counties": [
-    "49003",
-    "49005",
-    "49011",
-    "49023",
-    "49029",
-    "49033",
-    "49035",
-    "49043",
-    "49049",
-    "49051",
-    "49057"
-   ],
-   "sent": "2026-11-20T05:20:00Z",
-   "onset": "2026-11-20T05:20:00Z",
-   "ends": "2026-11-21T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a40e58c11f1b79e42c843f0f09b248fec826dbc0.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -113.0603,
-     41.6226
-    ],
-    [
-     -111.7454,
-     41.7341
-    ],
-    [
-     -112.2019,
-     41.0376
-    ],
-    [
-     -112.7905,
-     39.7141
-    ],
-    [
-     -111.5779,
-     41.091
-    ],
-    [
-     -111.2402,
-     41.6276
-    ],
-    [
-     -111.9242,
-     40.6679
-    ],
-    [
-     -110.9685,
-     40.8721
-    ],
-    [
-     -111.6686,
-     40.1204
-    ],
-    [
-     -111.1616,
-     40.3349
-    ],
-    [
-     -111.8769,
-     41.2703
-    ]
-   ],
-   "lon": -111.838,
-   "lat": 40.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPIH.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1526,104 +1503,6 @@
    ],
    "lon": -111.531,
    "lat": 43.032,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-20T09:58:00Z",
-   "onset": "2026-11-20T09:58:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5546a50c2325633a3cf85fddae926f88df6fa16d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -120.834,
-   "lat": 39.328,
    "countries": [
     "US"
    ]
@@ -1738,6 +1617,186 @@
    ],
    "lon": -115.126,
    "lat": 40.28,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Wasatch Mountains I-80 North",
+    "Wasatch Mountains South of I-80"
+   ],
+   "counties": [
+    "49003",
+    "49005",
+    "49011",
+    "49023",
+    "49029",
+    "49033",
+    "49035",
+    "49043",
+    "49049",
+    "49051",
+    "49057"
+   ],
+   "sent": "2026-11-20T17:24:00Z",
+   "onset": "2026-11-20T17:24:00Z",
+   "ends": "2026-11-21T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d0f8f1654e5e9548896d57d9c18f84c4b28730b.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.0603,
+     41.6226
+    ],
+    [
+     -111.7454,
+     41.7341
+    ],
+    [
+     -112.2019,
+     41.0376
+    ],
+    [
+     -112.7905,
+     39.7141
+    ],
+    [
+     -111.5779,
+     41.091
+    ],
+    [
+     -111.2402,
+     41.6276
+    ],
+    [
+     -111.9242,
+     40.6679
+    ],
+    [
+     -110.9685,
+     40.8721
+    ],
+    [
+     -111.6686,
+     40.1204
+    ],
+    [
+     -111.1616,
+     40.3349
+    ],
+    [
+     -111.8769,
+     41.2703
+    ]
+   ],
+   "lon": -111.838,
+   "lat": 40.918,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06017",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-20T17:34:00Z",
+   "onset": "2026-11-20T17:34:00Z",
+   "ends": "2026-11-20T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6bc598db0ceb20e3d1acd1ec7186502e25441aa.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -120.834,
+   "lat": 39.328,
    "countries": [
     "US"
    ]
