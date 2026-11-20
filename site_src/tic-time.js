@@ -1,5 +1,7 @@
 /*! tic-time.js v1.4 · The Intelligence Company shared time display · canonical copy:
  *  the hub's site/shared/tic-time.js (copy this file into each site; keep the version line).
+ *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+ *  copied into, whatever that repository's own licence.
  *
  *  House rule (27 Oct 2026): store UTC; show times in the viewer's own time zone by default, always naming
  *  the zone; every site offers a settings menu for the time zone (automatic, Zulu/UTC, major zones, any IANA zone)

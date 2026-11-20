@@ -1,6 +1,8 @@
 /*! tic-tabs.js v1.0 · The Intelligence Company: one section at a time on phones, a section row everywhere ·
  *  canonical copy: the hub's site/shared/tic-tabs.js (copy into each site with
  *  tic-tabs.css; keep the version line).
+ *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+ *  copied into, whatever that repository's own licence.
  *
  *  From the suite design review (15 Nov 2026, "C · Shell"): the light program pages stacked every section, so a
  *  phone page ran to dozens of screens (Cordon 36,195 px). Group the sections below the map, and this module adds a

@@ -1,6 +1,8 @@
 /*! tic-related.js v1.0 · The Intelligence Company: "Elsewhere today", other layers' findings in the countries a
  *  page names, from COP's picture · canonical copy: the hub's site/shared/tic-related.js
  *  (copy into each site with tic-related.css; keep the version line).
+ *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+ *  copied into, whatever that repository's own licence.
  *
  *  From the suite design review (15 Nov 2026): each program page shows what the other layers report in the same
  *  places. It reads COP's agent index (data/agent/index.json, one row per item in COP's picture) once, when the card
