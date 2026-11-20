@@ -1,4 +1,6 @@
 /*! tic-tabs.css v1.0 · pairs with tic-tabs.js (canonical copy in the hub's site/shared/).
+    SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+    copied into, whatever that repository's own licence.
     The row takes the page's own colours: --panel (else --bg), --line, --muted and --link if the page has them, so each
     product keeps its own colours. It sticks under the house bar (--tic-house-h). Nothing moves. */
 .tic-tabs-nav { --tt-bg: var(--panel, var(--bg, #fff)); --tt-line: var(--line, rgba(127, 127, 127, .35));

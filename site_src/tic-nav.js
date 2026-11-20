@@ -1,5 +1,7 @@
 /*! tic-nav.js v2.1 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
+ *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+ *  copied into, whatever that repository's own licence.
  *
  *  1 Nov 2026: every program site needs a link back to the home page, and a dropdown of all programs, each
  *  labelled with its primary layer or topic, with a fuller description on mouse-over.
