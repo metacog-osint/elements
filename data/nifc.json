@@ -230,7 +230,7 @@
    "acres": 400.0,
    "contained": null,
    "discovered": "2026-11-20T16:47:15Z",
-   "updated": "2026-11-20T20:52:14Z",
+   "updated": "2026-11-20T21:13:18Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -813,6 +813,20 @@
    "lat": 45.6183
   },
   {
+   "id": "{36491FBE-D0AE-483C-B7A0-66959C5CD71E}",
+   "name": "Veneable School Road",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-20T19:49:00Z",
+   "updated": "2026-11-20T21:35:54Z",
+   "state": "KY",
+   "county": "Owsley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7373,
+   "lat": 37.4721
+  },
+  {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
    "name": "Cedar",
    "acres": 1.9,
@@ -979,6 +993,62 @@
    "complexity": null,
    "lon": -89.1555,
    "lat": 45.8129
+  },
+  {
+   "id": "{F4E90CD2-6677-485B-B9A9-68FDC89AFFDC}",
+   "name": "Pope 244",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-20T18:54:35Z",
+   "updated": "2026-11-20T21:14:31Z",
+   "state": "AR",
+   "county": "Pope",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.1452,
+   "lat": 35.395
+  },
+  {
+   "id": "{C5215BAB-CA96-4E54-B349-A4757E9EBF8D}",
+   "name": "Gracey Herndon Road",
+   "acres": 1.0,
+   "contained": 90,
+   "discovered": "2026-11-20T20:14:00Z",
+   "updated": "2026-11-20T21:14:40Z",
+   "state": "KY",
+   "county": "Christian",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -87.5833,
+   "lat": 36.7489
+  },
+  {
+   "id": "{87EF6B8A-6571-471E-BE8F-5BDB89C6DBD0}",
+   "name": "pulaski 240",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-20T21:17:47Z",
+   "updated": "2026-11-20T21:18:55Z",
+   "state": "AR",
+   "county": "Pulaski",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.1092,
+   "lat": 34.8258
+  },
+  {
+   "id": "{EF41BDAB-06DF-4ABB-A077-F91052E445A0}",
+   "name": "boone 245",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-20T21:19:05Z",
+   "updated": "2026-11-20T21:20:25Z",
+   "state": "AR",
+   "county": "Boone",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.0573,
+   "lat": 36.494
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1203,6 +1273,20 @@
    "complexity": null,
    "lon": -89.549,
    "lat": 45.6602
+  },
+  {
+   "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
+   "name": "Dump",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-20T21:06:53Z",
+   "state": "WI",
+   "county": "Sauk",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -90.1773,
+   "lat": 43.182
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1462,13 +1546,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-17T18:15:00Z",
-   "updated": "2026-11-19T21:00:05Z",
+   "updated": "2026-11-20T21:16:08Z",
    "state": "WI",
    "county": "Florence",
    "cause": "Human",
    "complexity": null,
-   "lon": -88.349,
-   "lat": 45.8654
+   "lon": -88.3492,
+   "lat": 45.8655
   },
   {
    "id": "{CB918629-1590-48CC-A4B7-1C05AE779932}",
@@ -1695,20 +1779,6 @@
    "lat": 30.3944
   },
   {
-   "id": "{E4163188-400E-44CF-B2A5-F118162164FF}",
-   "name": "Browns",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T16:23:18Z",
-   "updated": "2026-11-20T17:40:24Z",
-   "state": "CA",
-   "county": "Madera",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -119.5199,
-   "lat": 37.3027
-  },
-  {
    "id": "{D8D3CF69-CDCC-4869-87FA-1DE685652AD8}",
    "name": "Jose",
    "acres": 0.1,
@@ -1723,32 +1793,32 @@
    "lat": 37.121
   },
   {
-   "id": "{B82E8B17-4DD7-4CB2-A098-0BD7FBE2BA24}",
-   "name": "Lewis - Cane Creek Road",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-20T20:06:00Z",
-   "updated": "2026-11-20T20:34:07Z",
-   "state": "TN",
-   "county": "Lewis",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -87.6121,
-   "lat": 35.6241
-  },
-  {
    "id": "{596EE14F-CA35-4CBD-8420-4E669CC5AC82}",
    "name": "Cannon - Hannahs Lane",
    "acres": 0.1,
    "contained": 0,
    "discovered": "2026-11-20T20:14:00Z",
-   "updated": "2026-11-20T21:05:31Z",
+   "updated": "2026-11-20T21:22:12Z",
    "state": "TN",
    "county": "Cannon",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -85.9567,
-   "lat": 35.8956
+   "lon": -85.9568,
+   "lat": 35.8952
+  },
+  {
+   "id": "{356AFB84-7BF0-4B2E-BDA6-6D22E4C858EA}",
+   "name": "Degroot",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T20:25:00Z",
+   "updated": "2026-11-20T21:18:22Z",
+   "state": "MI",
+   "county": "Dickinson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -87.8592,
+   "lat": 46.1402
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2409,20 +2479,6 @@
    "lat": 44.5505
   },
   {
-   "id": "{AE166A57-C9A3-476D-B3BF-6B25CDBCF361}",
-   "name": "Numbers",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T22:25:17Z",
-   "state": "WI",
-   "county": "Green Lake",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.9184,
-   "lat": 43.8582
-  },
-  {
    "id": "{D0E4DCA9-DA1A-4BDA-8297-30846FC7586A}",
    "name": "Way 1",
    "acres": 0.0,
@@ -2493,6 +2549,20 @@
    "lat": 34.4919
   },
   {
+   "id": "{AE166A57-C9A3-476D-B3BF-6B25CDBCF361}",
+   "name": "Numbers",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T18:30:00Z",
+   "updated": "2026-11-20T21:08:25Z",
+   "state": "WI",
+   "county": "Green Lake",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.9184,
+   "lat": 43.8582
+  },
+  {
    "id": "{9ECE6C40-2C3C-428F-890D-D9D327AC69FA}",
    "name": "Lac-418700",
    "acres": 0.0,
@@ -2533,20 +2603,6 @@
    "complexity": null,
    "lon": -90.4945,
    "lat": 45.0828
-  },
-  {
-   "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
-   "name": "Branch Trl",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T20:48:57Z",
-   "state": "WI",
-   "county": "Sauk",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -90.1773,
-   "lat": 43.182
   },
   {
    "id": "{EA4B2993-EE8F-4F10-8782-4D339D35BD7D}",
@@ -2603,20 +2659,6 @@
    "complexity": null,
    "lon": -118.0585,
    "lat": 34.5874
-  },
-  {
-   "id": "{1E0F1079-A024-49A1-B05F-BA3E384DCF60}",
-   "name": "Hy 74 W/ Betty Rd",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T21:03:33Z",
-   "updated": "2026-11-20T21:04:21Z",
-   "state": "CA",
-   "county": "Riverside",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.2648,
-   "lat": 33.7623
   }
  ]
 }
