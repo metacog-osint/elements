@@ -793,37 +793,6 @@
    ]
   },
   {
-   "id": "PAFC.FA.A.0011.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Southern Kenai Mtns"
-   ],
-   "counties": [
-    "02122"
-   ],
-   "sent": "2026-11-19T15:29:00Z",
-   "onset": "2026-11-19T15:29:00Z",
-   "ends": "2026-11-20T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b0826feecbd97efb0e02a6e2ce4406619eb1b30.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -152.3223,
-     60.3667
-    ]
-   ],
-   "lon": -152.322,
-   "lat": 60.367,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FA.A.0003.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -938,6 +907,88 @@
    ],
    "lon": -104.811,
    "lat": 37.428,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0026.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Monterey Bay",
+    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
+    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
+    "Waters from Pigeon Point to Point Pinos 10-60 NM"
+   ],
+   "counties": [
+    "57535",
+    "57560",
+    "57565",
+    "57575"
+   ],
+   "sent": "2026-11-20T02:53:00Z",
+   "onset": "2026-11-20T02:53:00Z",
+   "ends": "2026-11-20T03:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38c1ae56cca1e88e1a47e362d732226483b08b1f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.25,
+       36.78
+      ],
+      [
+       -122.08,
+       36.81
+      ],
+      [
+       -121.89,
+       36.85
+      ],
+      [
+       -121.81,
+       36.7
+      ],
+      [
+       -121.82,
+       36.67
+      ],
+      [
+       -122.03,
+       36.61
+      ],
+      [
+       -122.2,
+       36.58
+      ],
+      [
+       -122.2,
+       36.6
+      ],
+      [
+       -122.19,
+       36.62
+      ],
+      [
+       -122.23,
+       36.62
+      ],
+      [
+       -122.25,
+       36.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.086,
+   "lat": 36.693,
    "countries": [
     "US"
    ]
