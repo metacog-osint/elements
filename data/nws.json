@@ -140,196 +140,6 @@
    ]
   },
   {
-   "id": "KPSR.FA.W.0044.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ",
-    "Yuma, AZ"
-   ],
-   "counties": [
-    "04013",
-    "04027"
-   ],
-   "sent": "2026-11-17T15:21:00Z",
-   "onset": "2026-11-17T15:21:00Z",
-   "ends": "2026-11-24T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd2a32c09604bbb4ce3dbd25f55fa89188207a8c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -113.33,
-       32.97
-      ],
-      [
-       -113.24,
-       33.01
-      ],
-      [
-       -113.19,
-       33.03
-      ],
-      [
-       -113.17,
-       33.04
-      ],
-      [
-       -113.14,
-       33.06
-      ],
-      [
-       -113.1,
-       33.08
-      ],
-      [
-       -113.07,
-       33.1
-      ],
-      [
-       -113.05,
-       33.11
-      ],
-      [
-       -113.01,
-       33.11
-      ],
-      [
-       -113,
-       33.08
-      ],
-      [
-       -113.02,
-       33.07
-      ],
-      [
-       -113.03,
-       33.06
-      ],
-      [
-       -113.04,
-       33.04
-      ],
-      [
-       -113.11,
-       33
-      ],
-      [
-       -113.19,
-       32.97
-      ],
-      [
-       -113.49,
-       32.84
-      ],
-      [
-       -113.56,
-       32.83
-      ],
-      [
-       -113.58,
-       32.88
-      ],
-      [
-       -113.47,
-       32.91
-      ],
-      [
-       -113.37,
-       32.95
-      ],
-      [
-       -113.33,
-       32.97
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ],
-    [
-     -113.9109,
-     32.7739
-    ]
-   ],
-   "lon": -113.214,
-   "lat": 33.005,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-20T14:16:00Z",
-   "onset": "2026-11-20T14:16:00Z",
-   "ends": "2026-11-21T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dcc30c91843666d5f5c976371d2c362843c2d8a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FA.W.0016.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -958,6 +768,196 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-20T19:35:00Z",
+   "onset": "2026-11-20T19:35:00Z",
+   "ends": "2026-11-21T07:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6925669ce034308b98328366356ff7325c6849f4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0044.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ",
+    "Yuma, AZ"
+   ],
+   "counties": [
+    "04013",
+    "04027"
+   ],
+   "sent": "2026-11-20T20:00:00Z",
+   "onset": "2026-11-20T20:00:00Z",
+   "ends": "2026-11-24T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c28b4f99d0fe159e69b355cfe0197a43b1b0766.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.33,
+       32.97
+      ],
+      [
+       -113.24,
+       33.01
+      ],
+      [
+       -113.19,
+       33.03
+      ],
+      [
+       -113.17,
+       33.04
+      ],
+      [
+       -113.14,
+       33.06
+      ],
+      [
+       -113.1,
+       33.08
+      ],
+      [
+       -113.07,
+       33.1
+      ],
+      [
+       -113.05,
+       33.11
+      ],
+      [
+       -113.01,
+       33.11
+      ],
+      [
+       -113,
+       33.08
+      ],
+      [
+       -113.02,
+       33.07
+      ],
+      [
+       -113.03,
+       33.06
+      ],
+      [
+       -113.04,
+       33.04
+      ],
+      [
+       -113.11,
+       33
+      ],
+      [
+       -113.19,
+       32.97
+      ],
+      [
+       -113.49,
+       32.84
+      ],
+      [
+       -113.56,
+       32.83
+      ],
+      [
+       -113.58,
+       32.88
+      ],
+      [
+       -113.47,
+       32.91
+      ],
+      [
+       -113.37,
+       32.95
+      ],
+      [
+       -113.33,
+       32.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ],
+    [
+     -113.9109,
+     32.7739
+    ]
+   ],
+   "lon": -113.214,
+   "lat": 33.005,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1070,74 +1070,6 @@
    ]
   },
   {
-   "id": "KPSR.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Southeast Gila County"
-   ],
-   "counties": [
-    "04007"
-   ],
-   "sent": "2026-11-20T06:13:00Z",
-   "onset": "2026-11-22T07:00:00Z",
-   "ends": "2026-11-22T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -110.8119,
-     33.7896
-    ]
-   ],
-   "lon": -110.812,
-   "lat": 33.79,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Southeast Gila County",
-    "Joshua Tree NP West"
-   ],
-   "counties": [
-    "04007",
-    "06071"
-   ],
-   "sent": "2026-11-20T06:13:00Z",
-   "onset": "2026-11-21T07:00:00Z",
-   "ends": "2026-11-21T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -110.8119,
-     33.7896
-    ],
-    [
-     -116.1816,
-     34.8567
-    ]
-   ],
-   "lon": -113.497,
-   "lat": 34.323,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.FZ.W.0023.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1175,6 +1107,74 @@
    ],
    "lon": -112.87,
    "lat": 37.482,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Southeast Gila County"
+   ],
+   "counties": [
+    "04007"
+   ],
+   "sent": "2026-11-20T19:56:00Z",
+   "onset": "2026-11-22T07:00:00Z",
+   "ends": "2026-11-22T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93cf2cefe0a49a65450c85eb1b1146b615e87d1d.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -110.8119,
+     33.7896
+    ]
+   ],
+   "lon": -110.812,
+   "lat": 33.79,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Joshua Tree NP West",
+    "Southeast Gila County"
+   ],
+   "counties": [
+    "04007",
+    "06071"
+   ],
+   "sent": "2026-11-20T19:56:00Z",
+   "onset": "2026-11-21T07:00:00Z",
+   "ends": "2026-11-21T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93cf2cefe0a49a65450c85eb1b1146b615e87d1d.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -110.8119,
+     33.7896
+    ],
+    [
+     -116.1816,
+     34.8567
+    ]
+   ],
+   "lon": -113.497,
+   "lat": 34.323,
    "countries": [
     "US"
    ]
@@ -1416,82 +1416,6 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0350.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Flagler Beach to Volusia-Brevard County Line 0-20 nm",
-    "Flagler Beach to Volusia-Brevard County Line 20-60 nm",
-    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
-   ],
-   "counties": [
-    "75550",
-    "75570",
-    "75572"
-   ],
-   "sent": "2026-11-20T18:00:00Z",
-   "onset": "2026-11-20T18:00:00Z",
-   "ends": "2026-11-20T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55b92cd2615f1925d4096d1413600437e39daa8f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.84,
-       29.48
-      ],
-      [
-       -80.7,
-       29.48
-      ],
-      [
-       -79.98,
-       29.47
-      ],
-      [
-       -79.97,
-       29.45
-      ],
-      [
-       -79.94,
-       29.41
-      ],
-      [
-       -79.92,
-       29.39
-      ],
-      [
-       -79.89,
-       29.34
-      ],
-      [
-       -79.87,
-       29.3
-      ],
-      [
-       -80.01,
-       28.63
-      ],
-      [
-       -80.84,
-       29.48
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.196,
-   "lat": 29.343,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.MA.W.0266.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1570,124 +1494,6 @@
    ]
   },
   {
-   "id": "KMTR.MA.W.0028.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
-    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
-    "Waters from Pigeon Point to Point Pinos 10-60 NM",
-    "Waters from Point Pinos to Point Piedras Blancas 10-60 NM"
-   ],
-   "counties": [
-    "57560",
-    "57565",
-    "57575",
-    "57576"
-   ],
-   "sent": "2026-11-20T19:30:00Z",
-   "onset": "2026-11-20T19:30:00Z",
-   "ends": "2026-11-20T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.712bc83a3bab813a9825538c43a76b46321412bd.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.32,
-       36.58
-      ],
-      [
-       -122.3,
-       36.68
-      ],
-      [
-       -122.05,
-       36.73
-      ],
-      [
-       -122.06,
-       36.47
-      ],
-      [
-       -122.32,
-       36.58
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.21,
-   "lat": 36.608,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMTR.MA.W.0027.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Waters from Pigeon Point to Point Pinos 10-60 NM"
-   ],
-   "counties": [
-    "57575"
-   ],
-   "sent": "2026-11-20T19:32:00Z",
-   "onset": "2026-11-20T19:32:00Z",
-   "ends": "2026-11-20T19:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78386f67cfe8df81f4b316e3b77bc7807eb5f222.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.39,
-       36.76
-      ],
-      [
-       -122.39,
-       36.77
-      ],
-      [
-       -122.42,
-       36.87
-      ],
-      [
-       -122.37,
-       36.9
-      ],
-      [
-       -122.32,
-       36.86
-      ],
-      [
-       -122.24,
-       36.8
-      ],
-      [
-       -122.39,
-       36.76
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.36,
-   "lat": 36.817,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.MA.W.0267.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1745,6 +1551,116 @@
    "points": [],
    "lon": -80.603,
    "lat": 29.606,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0351.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Flagler Beach to Volusia-Brevard County Line 20-60 nm"
+   ],
+   "counties": [
+    "75570"
+   ],
+   "sent": "2026-11-20T19:57:00Z",
+   "onset": "2026-11-20T19:57:00Z",
+   "ends": "2026-11-20T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75a5edc8fa9183251a6f7420550d33a60d46ac55.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.71,
+       29.08
+      ],
+      [
+       -80.14,
+       28.97
+      ],
+      [
+       -80.73,
+       29.48
+      ],
+      [
+       -79.98,
+       29.47
+      ],
+      [
+       -79.76,
+       29.16
+      ],
+      [
+       -79.71,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.005,
+   "lat": 29.207,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0029.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
+    "Waters from Point Pinos to Point Piedras Blancas 10-60 NM"
+   ],
+   "counties": [
+    "57565",
+    "57576"
+   ],
+   "sent": "2026-11-20T20:04:00Z",
+   "onset": "2026-11-20T20:04:00Z",
+   "ends": "2026-11-20T20:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1ad65c982a0d9525049392c481bf6e8e8aa9020.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.22,
+       36.5
+      ],
+      [
+       -122.1,
+       36.54
+      ],
+      [
+       -121.91,
+       36.45
+      ],
+      [
+       -122.1,
+       36.3
+      ],
+      [
+       -122.22,
+       36.5
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.11,
+   "lat": 36.458,
    "countries": [
     "US"
    ]

@@ -396,9 +396,9 @@
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
    "name": "Big Laurel",
    "acres": 25.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-19T18:45:00Z",
-   "updated": "2026-11-20T16:55:47Z",
+   "updated": "2026-11-20T19:43:37Z",
    "state": "KY",
    "county": "Lawrence",
    "cause": "Human",
@@ -510,13 +510,13 @@
    "acres": 14.0,
    "contained": null,
    "discovered": "2026-11-19T18:28:00Z",
-   "updated": "2026-11-20T14:06:31Z",
+   "updated": "2026-11-20T19:56:33Z",
    "state": "MO",
-   "county": "Carter",
+   "county": "Dent",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -91.0051,
-   "lat": 37.0066
+   "lon": -91.4753,
+   "lat": 37.4351
   },
   {
    "id": "{E7BA514F-3EA5-4465-86F9-7A43281A88E1}",
@@ -715,6 +715,20 @@
    "lat": 35.7978
   },
   {
+   "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
+   "name": "North Pond Fire",
+   "acres": 4.0,
+   "contained": null,
+   "discovered": "2026-11-20T18:37:00Z",
+   "updated": "2026-11-20T19:39:11Z",
+   "state": "ME",
+   "county": "Oxford",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -70.6726,
+   "lat": 44.4062
+  },
+  {
    "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
    "name": "Bitternut",
    "acres": 3.7,
@@ -860,13 +874,13 @@
    "acres": 1.6,
    "contained": null,
    "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-19T11:17:02Z",
+   "updated": "2026-11-20T19:43:15Z",
    "state": "WI",
    "county": "Oneida",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.159,
-   "lat": 45.8509
+   "lon": -89.1591,
+   "lat": 45.8507
   },
   {
    "id": "{33F34922-3D0B-4903-B420-88C7E3764AA2}",
@@ -1023,18 +1037,18 @@
    "lat": 35.7524
   },
   {
-   "id": "{A8F1CB44-9C95-4ADA-B9A6-613B9E05A524}",
-   "name": "Hales Fork",
+   "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
+   "name": "Brick House",
    "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-20T18:31:00Z",
-   "updated": "2026-11-20T19:22:21Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.7453,
-   "lat": 36.9002
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-20T19:45:37Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.1555,
+   "lat": 45.8129
   },
   {
    "id": "{AEA8D62D-2276-420F-8415-F07905AA483F}",
@@ -1063,20 +1077,6 @@
    "complexity": null,
    "lon": -90.5282,
    "lat": 45.7882
-  },
-  {
-   "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
-   "name": "Brick House",
-   "acres": 0.9,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-20T18:36:38Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.1531,
-   "lat": 45.8129
   },
   {
    "id": "{C4B1C3D2-A541-457B-A242-766A06CFFB75}",
@@ -1161,20 +1161,6 @@
    "complexity": null,
    "lon": -89.719,
    "lat": 46.189
-  },
-  {
-   "id": "{5B6A0ED3-0F64-4803-8355-836097474D70}",
-   "name": "Stacyville Lane",
-   "acres": 0.5,
-   "contained": 0,
-   "discovered": "2026-11-20T18:31:00Z",
-   "updated": "2026-11-20T19:28:38Z",
-   "state": "KY",
-   "county": "Perry",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.1319,
-   "lat": 37.2088
   },
   {
    "id": "{CFA71718-0CDF-4D9C-8707-0F855F5957E3}",
@@ -1315,20 +1301,6 @@
    "complexity": null,
    "lon": -103.3365,
    "lat": 34.9499
-  },
-  {
-   "id": "{F0DAB48B-F995-4DA8-B10B-3869A1E5E64A}",
-   "name": "Island View",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-06-02T20:55:25Z",
-   "updated": "2026-11-17T20:04:35Z",
-   "state": "MN",
-   "county": "Beltrami",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -94.8239,
-   "lat": 47.6087
   },
   {
    "id": "{CED71166-09DF-4D9F-9020-013F6570753E}",
@@ -1567,20 +1539,6 @@
    "complexity": null,
    "lon": -98.9016,
    "lat": 47.9816
-  },
-  {
-   "id": "{335927DD-066E-4A5D-8FD3-3B3EB1700EF5}",
-   "name": "Shoe 15",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-17T06:00:00Z",
-   "updated": "2026-11-17T19:58:50Z",
-   "state": "WI",
-   "county": "Sauk",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.7902,
-   "lat": 43.5336
   },
   {
    "id": "{31CDA3A1-89FC-4DFA-809B-67C2B5DFB9BF}",
@@ -1875,6 +1833,20 @@
    "complexity": null,
    "lon": -119.3785,
    "lat": 37.1238
+  },
+  {
+   "id": "{3D81CF08-5C58-40C1-B0DD-A6F8AE07DFDB}",
+   "name": "North Star",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T19:13:51Z",
+   "updated": "2026-11-20T20:02:08Z",
+   "state": "WI",
+   "county": "Forest",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.6626,
+   "lat": 45.5041
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2316,7 +2288,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-09T19:10:00Z",
-   "updated": "2026-11-19T21:03:40Z",
+   "updated": "2026-11-20T19:51:46Z",
    "state": "WI",
    "county": "Monroe",
    "cause": "Human",
@@ -2330,7 +2302,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-09T19:10:00Z",
-   "updated": "2026-11-19T21:12:41Z",
+   "updated": "2026-11-20T19:53:23Z",
    "state": "WI",
    "county": "Monroe",
    "cause": "Human",
@@ -2344,7 +2316,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-14T18:45:00Z",
-   "updated": "2026-11-19T21:24:15Z",
+   "updated": "2026-11-20T20:02:02Z",
    "state": "WI",
    "county": "Monroe",
    "cause": "Human",
@@ -2512,13 +2484,13 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T17:12:33Z",
+   "updated": "2026-11-20T19:44:03Z",
    "state": "WI",
    "county": "Oneida",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
-   "lon": -89.1971,
-   "lat": 45.7765
+   "lon": -89.2006,
+   "lat": 45.7699
   },
   {
    "id": "{AA9A9C5F-D971-4FB5-ABE0-8F17C52AC6D1}",
@@ -2564,16 +2536,58 @@
   },
   {
    "id": "{D0E4DCA9-DA1A-4BDA-8297-30846FC7586A}",
-   "name": "Way",
+   "name": "Way 1",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-20T18:27:30Z",
+   "updated": "2026-11-20T19:49:28Z",
    "state": "WI",
    "county": "Vilas",
    "cause": "Human",
    "complexity": null,
-   "lon": -89.7663,
+   "lon": -89.7651,
+   "lat": 46.1589
+  },
+  {
+   "id": "{2DD16DAB-521A-4A45-8D4B-E9A22F9ACCF7}",
+   "name": "Way 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-20T19:54:02Z",
+   "state": "WI",
+   "county": "Vilas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.7651,
+   "lat": 46.1586
+  },
+  {
+   "id": "{36D0A502-9AD8-41F8-A058-29E64FBDF751}",
+   "name": "Way 3",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-20T19:54:34Z",
+   "state": "WI",
+   "county": "Vilas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.7651,
+   "lat": 46.1586
+  },
+  {
+   "id": "{0148D663-455B-4696-9F7A-84FE5E77FA2F}",
+   "name": "Way 4",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-19T06:00:00Z",
+   "updated": "2026-11-20T19:55:36Z",
+   "state": "WI",
+   "county": "Vilas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.7653,
    "lat": 46.1583
   },
   {
@@ -2624,13 +2638,27 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T19:14:56Z",
+   "updated": "2026-11-20T20:05:25Z",
    "state": "WI",
    "county": "Taylor",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.494,
+   "lat": 45.0828
+  },
+  {
+   "id": "{91B605ED-DA25-455A-A2A9-1B91B52B298D}",
+   "name": "State Road 78",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-20T19:39:15Z",
+   "state": "WI",
+   "county": "Dane",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -90.4947,
-   "lat": 45.0827
+   "lon": -89.7484,
+   "lat": 43.1198
   },
   {
    "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
