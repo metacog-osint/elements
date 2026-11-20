@@ -39,91 +39,6 @@
    ]
   },
   {
-   "id": "KMLB.FF.W.0036.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12127"
-   ],
-   "sent": "2026-11-20T17:23:00Z",
-   "onset": "2026-11-20T17:23:00Z",
-   "ends": "2026-11-20T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c47ed3ad271b9947c87a304f386609b8e7252f0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.11,
-       29.43
-      ],
-      [
-       -81.12,
-       29.43
-      ],
-      [
-       -81.12,
-       29.44
-      ],
-      [
-       -81.11,
-       29.44
-      ],
-      [
-       -81.1,
-       29.42
-      ],
-      [
-       -81.1,
-       29.43
-      ],
-      [
-       -80.89,
-       29.07
-      ],
-      [
-       -81.1,
-       29.04
-      ],
-      [
-       -81.15,
-       29.26
-      ],
-      [
-       -81.16,
-       29.41
-      ],
-      [
-       -81.14,
-       29.42
-      ],
-      [
-       -81.11,
-       29.43
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.101,
-   "lat": 29.352,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.FF.W.0054.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -136,30 +51,14 @@
    "counties": [
     "12035"
    ],
-   "sent": "2026-11-20T17:31:00Z",
-   "onset": "2026-11-20T17:31:00Z",
+   "sent": "2026-11-20T19:13:00Z",
+   "onset": "2026-11-20T19:13:00Z",
    "ends": "2026-11-20T20:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d6ea891cd92baec81090bfb84924ce2257e6861.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.109f97a316dace909a5cbe39ada777e811e0aa1b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
-      [
-       -81.29,
-       29.3
-      ],
-      [
-       -81.3,
-       29.3
-      ],
-      [
-       -81.3,
-       29.36
-      ],
-      [
-       -81.31,
-       29.37
-      ],
       [
        -81.3,
        29.58
@@ -181,7 +80,7 @@
        29.62
       ],
       [
-       -81.14,
+       -81.15,
        29.6
       ],
       [
@@ -193,8 +92,8 @@
        29.46
       ],
       [
-       -81.1,
-       29.43
+       -81.11,
+       29.44
       ],
       [
        -81.13,
@@ -213,12 +112,16 @@
        29.27
       ],
       [
-       -81.3,
-       29.26
+       -81.23,
+       29.27
       ],
       [
-       -81.29,
-       29.3
+       -81.26,
+       29.36
+      ],
+      [
+       -81.3,
+       29.58
       ]
      ]
     ]
@@ -230,8 +133,8 @@
      29.4749
     ]
    ],
-   "lon": -81.209,
-   "lat": 29.451,
+   "lon": -81.187,
+   "lat": 29.493,
    "countries": [
     "US"
    ]
@@ -364,177 +267,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-20T13:58:00Z",
-   "onset": "2026-11-20T13:58:00Z",
-   "ends": "2026-11-21T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3640fe8e3d4c5c6c1d98f20a8f000e26e256d3d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-20T14:04:00Z",
-   "onset": "2026-11-20T14:04:00Z",
-   "ends": "2026-11-21T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50f6666a92242050cb8e5309fa61a539d7843a40.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-20T14:12:00Z",
-   "onset": "2026-11-20T14:12:00Z",
-   "ends": "2026-11-21T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8bbda7c5ef010428fd9cd052079d8bca0bd5bab.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0009.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -593,69 +325,6 @@
    ],
    "lon": -81.402,
    "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-20T14:20:00Z",
-   "onset": "2026-11-20T14:20:00Z",
-   "ends": "2026-11-21T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dedf5e8f42d2a618655ea3dd4719cfa2b12288f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
    "countries": [
     "US"
    ]
@@ -876,6 +545,414 @@
    ],
    "lon": -80.733,
    "lat": 28.54,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Clay, FL"
+   ],
+   "counties": [
+    "12019"
+   ],
+   "sent": "2026-11-20T19:17:00Z",
+   "onset": "2026-11-21T18:00:00Z",
+   "ends": "2026-11-22T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e7c3167db3498f60ca8cd1178bf044c6a67b3ec.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.89,
+       30.14
+      ],
+      [
+       -81.88,
+       30.1
+      ],
+      [
+       -81.84,
+       30.08
+      ],
+      [
+       -81.84,
+       30.07
+      ],
+      [
+       -81.91,
+       30.08
+      ],
+      [
+       -81.93,
+       30.13
+      ],
+      [
+       -81.89,
+       30.14
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ]
+   ],
+   "lon": -81.883,
+   "lat": 30.106,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-20T19:25:00Z",
+   "onset": "2026-11-20T19:25:00Z",
+   "ends": "2026-11-21T07:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa681dca1b0af2b347eaaeacebc2443548616032.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FA.W.0018.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12127"
+   ],
+   "sent": "2026-11-20T19:26:00Z",
+   "onset": "2026-11-20T19:26:00Z",
+   "ends": "2026-11-20T23:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1c3dcdf48b19d219b9bff7e71ea015f823f58b3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.12,
+       29.44
+      ],
+      [
+       -81.11,
+       29.44
+      ],
+      [
+       -81.11,
+       29.43
+      ],
+      [
+       -81.1,
+       29.43
+      ],
+      [
+       -81.11,
+       29.45
+      ],
+      [
+       -81.1,
+       29.45
+      ],
+      [
+       -81.09,
+       29.44
+      ],
+      [
+       -80.96,
+       29.19
+      ],
+      [
+       -80.91,
+       29.09
+      ],
+      [
+       -80.89,
+       29.08
+      ],
+      [
+       -80.88,
+       29.07
+      ],
+      [
+       -81.11,
+       29.04
+      ],
+      [
+       -81.16,
+       29.27
+      ],
+      [
+       -81.15,
+       29.27
+      ],
+      [
+       -81.16,
+       29.41
+      ],
+      [
+       -81.11,
+       29.42
+      ],
+      [
+       -81.12,
+       29.43
+      ],
+      [
+       -81.12,
+       29.44
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.073,
+   "lat": 29.322,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-20T19:27:00Z",
+   "onset": "2026-11-20T19:27:00Z",
+   "ends": "2026-11-21T07:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.424a7e82c12ded9a21fcdabed237393c22ac00d2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-20T19:30:00Z",
+   "onset": "2026-11-20T19:30:00Z",
+   "ends": "2026-11-21T07:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33e045d0e2e16e95bd25684a87168c62e3eddf44.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-20T19:32:00Z",
+   "onset": "2026-11-20T19:32:00Z",
+   "ends": "2026-11-21T07:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7dd45b1d3c9e93a4097a89e8d5b47502bc3e7048.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
    "countries": [
     "US"
    ]
@@ -1415,7 +1492,7 @@
    ]
   },
   {
-   "id": "KJAX.MA.W.0264.2026",
+   "id": "KJAX.MA.W.0266.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1429,21 +1506,25 @@
     "75452",
     "75454"
    ],
-   "sent": "2026-11-20T18:09:00Z",
-   "onset": "2026-11-20T18:09:00Z",
-   "ends": "2026-11-20T19:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bdff41da4184a23fce6813e8ef98ea1171dc8b4.001.1",
+   "sent": "2026-11-20T19:15:00Z",
+   "onset": "2026-11-20T19:15:00Z",
+   "ends": "2026-11-20T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13c2f6800151760803a08b1330d8b8338665e8a7.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.13,
-       29.46
+       -81.28,
+       29.71
       ],
       [
-       -81.37,
-       29.93
+       -81.28,
+       29.73
+      ],
+      [
+       -81.34,
+       29.81
       ],
       [
        -81,
@@ -1458,10 +1539,6 @@
        29.88
       ],
       [
-       -80.9,
-       29.82
-      ],
-      [
        -80.87,
        29.72
       ],
@@ -1474,82 +1551,200 @@
        29.48
       ],
       [
-       -81.13,
+       -81.15,
        29.46
+      ],
+      [
+       -81.28,
+       29.71
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.987,
+   "lon": -81.061,
    "lat": 29.748,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KJAX.MA.W.0265.2026",
+   "id": "KMTR.MA.W.0028.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
+   "sender": "NWS San Francisco CA",
    "areas": [
-    "Waters from Fernandina Beach to St. Augustine FL from 20 to 60 NM",
-    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
+    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
+    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
+    "Waters from Pigeon Point to Point Pinos 10-60 NM",
+    "Waters from Point Pinos to Point Piedras Blancas 10-60 NM"
    ],
    "counties": [
-    "75472",
-    "75474"
+    "57560",
+    "57565",
+    "57575",
+    "57576"
    ],
-   "sent": "2026-11-20T18:34:00Z",
-   "onset": "2026-11-20T18:34:00Z",
-   "ends": "2026-11-20T19:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ac12ece2faa1f8da02fb1e765806a5aefedff52.001.1",
+   "sent": "2026-11-20T19:30:00Z",
+   "onset": "2026-11-20T19:30:00Z",
+   "ends": "2026-11-20T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.712bc83a3bab813a9825538c43a76b46321412bd.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.75,
-       29.48
+       -122.32,
+       36.58
       ],
       [
-       -80.94,
-       29.93
+       -122.3,
+       36.68
       ],
       [
-       -80.99,
-       30.1
+       -122.05,
+       36.73
       ],
       [
-       -80.3,
-       30.14
+       -122.06,
+       36.47
       ],
       [
-       -80.27,
-       30.02
-      ],
-      [
-       -80.1,
-       29.65
-      ],
-      [
-       -79.98,
-       29.47
-      ],
-      [
-       -80.75,
-       29.48
+       -122.32,
+       36.58
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.51,
-   "lat": 29.784,
+   "lon": -122.21,
+   "lat": 36.608,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0027.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Waters from Pigeon Point to Point Pinos 10-60 NM"
+   ],
+   "counties": [
+    "57575"
+   ],
+   "sent": "2026-11-20T19:32:00Z",
+   "onset": "2026-11-20T19:32:00Z",
+   "ends": "2026-11-20T19:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78386f67cfe8df81f4b316e3b77bc7807eb5f222.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.39,
+       36.76
+      ],
+      [
+       -122.39,
+       36.77
+      ],
+      [
+       -122.42,
+       36.87
+      ],
+      [
+       -122.37,
+       36.9
+      ],
+      [
+       -122.32,
+       36.86
+      ],
+      [
+       -122.24,
+       36.8
+      ],
+      [
+       -122.39,
+       36.76
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.36,
+   "lat": 36.817,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.MA.W.0267.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM",
+    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "75454",
+    "75474"
+   ],
+   "sent": "2026-11-20T19:32:00Z",
+   "onset": "2026-11-20T19:32:00Z",
+   "ends": "2026-11-20T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e49f261bb6c74807dbe50a6616ca9f844747fadc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.95,
+       29.77
+      ],
+      [
+       -80.48,
+       29.79
+      ],
+      [
+       -80.16,
+       29.48
+      ],
+      [
+       -80.19,
+       29.47
+      ],
+      [
+       -80.7,
+       29.48
+      ],
+      [
+       -80.79,
+       29.48
+      ],
+      [
+       -80.95,
+       29.77
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.603,
+   "lat": 29.606,
    "countries": [
     "US"
    ]
