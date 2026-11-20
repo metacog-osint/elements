@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000uc4v",
+   "mag": 5.6,
+   "place": "southeast of the Loyalty Islands",
+   "time": "2026-11-20T00:49:14Z",
+   "updated": "2026-11-20T01:33:13Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 482,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc4v",
+   "depth_km": 10.0,
+   "lon": 171.233,
+   "lat": -24.7,
+   "countries": []
+  },
+  {
    "id": "us6000uc2q",
    "mag": 5.3,
    "place": "South Georgia Island region",
@@ -473,7 +488,7 @@
    "mag": 5.3,
    "place": "17 km ESE of Comandău, Romania",
    "time": "2026-11-18T00:48:56Z",
-   "updated": "2026-11-20T01:01:55Z",
+   "updated": "2026-11-20T01:05:58Z",
    "alert": null,
    "tsunami": false,
    "sig": 617,
@@ -1632,23 +1647,6 @@
    "lon": -178.052,
    "lat": -17.944,
    "countries": []
-  },
-  {
-   "id": "us7000txxl",
-   "mag": 5.0,
-   "place": "85 km W of Mwene-Ditu, Democratic Republic of the Congo",
-   "time": "2026-11-13T01:12:46Z",
-   "updated": "2026-11-13T01:27:29Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 385,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxl",
-   "depth_km": 10.0,
-   "lon": 22.68,
-   "lat": -6.939,
-   "countries": [
-    "CD"
-   ]
   }
  ]
 }
