@@ -421,6 +421,20 @@
    "lat": 37.9621
   },
   {
+   "id": "{B23533AC-4C68-4983-97B7-5B9908BEABD5}",
+   "name": "Vanderpool Mountain",
+   "acres": 20.0,
+   "contained": 0,
+   "discovered": "2026-11-20T19:53:00Z",
+   "updated": "2026-11-20T22:52:15Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -84.0117,
+   "lat": 36.6501
+  },
+  {
    "id": "{7794EF27-7497-4FCB-ADFD-029D70A332AE}",
    "name": "Spring Creek",
    "acres": 17.3,
@@ -671,20 +685,6 @@
    "complexity": null,
    "lon": -67.1262,
    "lat": 18.0398
-  },
-  {
-   "id": "{9AA07AA4-4456-484D-A14C-36F617F75669}",
-   "name": "IDNR Possom Trot",
-   "acres": 5.0,
-   "contained": null,
-   "discovered": "2026-11-17T20:01:00Z",
-   "updated": "2026-11-17T22:42:55Z",
-   "state": "IL",
-   "county": "Jackson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.5938,
-   "lat": 37.848
   },
   {
    "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
@@ -1303,20 +1303,6 @@
    "lat": 17.9955
   },
   {
-   "id": "{52D834A6-AEFA-4B36-B4D4-0674D0B0C42E}",
-   "name": "Two Fires",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-16T18:30:00Z",
-   "updated": "2026-11-20T22:35:50Z",
-   "state": "OK",
-   "county": "Adair",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.639,
-   "lat": 35.7489
-  },
-  {
    "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
    "name": "Bear Trail",
    "acres": 0.2,
@@ -1343,20 +1329,6 @@
    "complexity": null,
    "lon": -103.3365,
    "lat": 34.9499
-  },
-  {
-   "id": "{CED71166-09DF-4D9F-9020-013F6570753E}",
-   "name": "Buck Gulch",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-07-08T19:36:00Z",
-   "updated": "2026-11-17T22:40:56Z",
-   "state": "OR",
-   "county": "Grant",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -118.4935,
-   "lat": 44.746
   },
   {
    "id": "{F2460F0B-4326-43AB-91DC-6DE305F7BED1}",
@@ -1821,12 +1793,26 @@
    "lat": 46.1402
   },
   {
+   "id": "{8CF686ED-AB8A-4505-B9BB-16897EFC869F}",
+   "name": "Gilmer Forest Street",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T20:37:39Z",
+   "updated": "2026-11-20T22:53:10Z",
+   "state": "GA",
+   "county": "Gilmer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -84.5265,
+   "lat": 34.6809
+  },
+  {
    "id": "{38569096-C915-492E-86E5-DDE96BBD2731}",
    "name": "Talcott Gulch",
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-20T21:26:06Z",
-   "updated": "2026-11-20T22:35:12Z",
+   "updated": "2026-11-20T22:38:57Z",
    "state": "CO",
    "county": "El Paso",
    "cause": "Undetermined",

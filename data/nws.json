@@ -1,120 +1,6 @@
 {
  "records": [
   {
-   "id": "KMTR.TO.W.0004.2026",
-   "event": "Tornado Warning",
-   "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "San Benito, CA"
-   ],
-   "counties": [
-    "06069"
-   ],
-   "sent": "2026-11-20T22:23:00Z",
-   "onset": "2026-11-20T22:23:00Z",
-   "ends": "2026-11-20T23:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4575e47e0e3e40037b640f7a1b35ec705fd66fb.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -120.82,
-       36.66
-      ],
-      [
-       -121.09,
-       36.59
-      ],
-      [
-       -121.11,
-       36.82
-      ],
-      [
-       -120.93,
-       36.75
-      ],
-      [
-       -120.82,
-       36.66
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -121.0858,
-     36.6117
-    ]
-   ],
-   "lon": -120.954,
-   "lat": 36.696,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHNX.TO.W.0005.2026",
-   "event": "Tornado Warning",
-   "severity": "Extreme",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Hanford CA",
-   "areas": [
-    "Merced, CA"
-   ],
-   "counties": [
-    "06047"
-   ],
-   "sent": "2026-11-20T22:23:00Z",
-   "onset": "2026-11-20T22:23:00Z",
-   "ends": "2026-11-20T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1513886d3513e9c33ced66d2e2a4773ff4b7f813.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -121.14,
-       36.9
-      ],
-      [
-       -121.01,
-       36.93
-      ],
-      [
-       -120.96,
-       36.77
-      ],
-      [
-       -121.09,
-       36.82
-      ],
-      [
-       -121.14,
-       36.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -120.7228,
-     37.1948
-    ]
-   ],
-   "lon": -121.068,
-   "lat": 36.864,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -148,6 +34,74 @@
    ],
    "lon": -81.509,
    "lat": 29.534,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.CF.W.0002.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "San Francisco",
+    "North Bay Interior Valleys",
+    "San Francisco Bay Shoreline"
+   ],
+   "counties": [
+    "06001",
+    "06013",
+    "06041",
+    "06055",
+    "06075",
+    "06081",
+    "06085",
+    "06097"
+   ],
+   "sent": "2026-11-20T22:52:00Z",
+   "onset": "2026-11-23T14:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c3009fb0ba23631e2ec9388cd109962b0cd83b6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.9125,
+     37.6471
+    ],
+    [
+     -121.9515,
+     37.9195
+    ],
+    [
+     -122.7464,
+     38.0514
+    ],
+    [
+     -122.3259,
+     38.5071
+    ],
+    [
+     -123.0322,
+     37.7272
+    ],
+    [
+     -122.3715,
+     37.4147
+    ],
+    [
+     -121.6895,
+     37.2216
+    ],
+    [
+     -122.9261,
+     38.5252
+    ]
+   ],
+   "lon": -122.369,
+   "lat": 37.877,
    "countries": [
     "US"
    ]
@@ -1536,174 +1490,6 @@
    ],
    "lon": -164.189,
    "lat": 64.784,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "TJSJ.MA.W.0036.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Coastal Waters of Northern Puerto Rico out 10 NM"
-   ],
-   "counties": [
-    "75712"
-   ],
-   "sent": "2026-11-20T21:48:00Z",
-   "onset": "2026-11-20T21:48:00Z",
-   "ends": "2026-11-20T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.caa0865b81d42d9da519b2e28dffe5fc9a758008.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -66.83,
-       18.53
-      ],
-      [
-       -66.84,
-       18.49
-      ],
-      [
-       -66.87,
-       18.49
-      ],
-      [
-       -66.9,
-       18.48
-      ],
-      [
-       -66.98,
-       18.49
-      ],
-      [
-       -67.02,
-       18.51
-      ],
-      [
-       -67.12,
-       18.51
-      ],
-      [
-       -67.15,
-       18.5
-      ],
-      [
-       -67.29,
-       18.51
-      ],
-      [
-       -67.07,
-       18.68
-      ],
-      [
-       -66.94,
-       18.67
-      ],
-      [
-       -66.83,
-       18.53
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -66.987,
-   "lat": 18.533,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.MA.W.0269.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "75474"
-   ],
-   "sent": "2026-11-20T21:48:00Z",
-   "onset": "2026-11-20T21:48:00Z",
-   "ends": "2026-11-20T22:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d7bb5ef7ed3ef808199b0a5b9c2737c0662fb88.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.43,
-       29.48
-      ],
-      [
-       -80.52,
-       29.49
-      ],
-      [
-       -80.16,
-       29.79
-      ],
-      [
-       -80.15,
-       29.76
-      ],
-      [
-       -80.14,
-       29.75
-      ],
-      [
-       -80.12,
-       29.72
-      ],
-      [
-       -80.12,
-       29.7
-      ],
-      [
-       -80.1,
-       29.67
-      ],
-      [
-       -80.1,
-       29.65
-      ],
-      [
-       -80.04,
-       29.57
-      ],
-      [
-       -80.01,
-       29.51
-      ],
-      [
-       -79.99,
-       29.48
-      ],
-      [
-       -79.98,
-       29.47
-      ],
-      [
-       -80.43,
-       29.48
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.164,
-   "lat": 29.609,
    "countries": [
     "US"
    ]
