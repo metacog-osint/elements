@@ -407,20 +407,6 @@
    "lat": 37.9621
   },
   {
-   "id": "{A6BF55B2-F859-4A17-BAA6-EE11A82FF36E}",
-   "name": "Left Fork Billys Branch",
-   "acres": 18.0,
-   "contained": 80,
-   "discovered": "2026-11-19T18:03:00Z",
-   "updated": "2026-11-20T01:56:57Z",
-   "state": "KY",
-   "county": "Clay",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.6734,
-   "lat": 37.1006
-  },
-  {
    "id": "{7794EF27-7497-4FCB-ADFD-029D70A332AE}",
    "name": "Spring Creek",
    "acres": 17.3,
@@ -617,6 +603,20 @@
    "lat": 17.9931
   },
   {
+   "id": "{44E2000B-37E4-4272-8550-FC6C3FCFFD1C}",
+   "name": "Elk Shoals",
+   "acres": 6.0,
+   "contained": null,
+   "discovered": "2026-11-20T16:34:12Z",
+   "updated": "2026-11-20T20:19:37Z",
+   "state": "NC",
+   "county": "Yancey",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -82.4175,
+   "lat": 35.9558
+  },
+  {
    "id": "{0532566C-75FD-4DD7-91B9-A9DD6BDFD6D1}",
    "name": "Crab",
    "acres": 5.7,
@@ -783,6 +783,20 @@
    "complexity": null,
    "lon": -96.4658,
    "lat": 36.6386
+  },
+  {
+   "id": "{78DC92D7-BD01-43F0-B739-A3F56E2B1B8A}",
+   "name": "Scott - Harness Circle",
+   "acres": 3.0,
+   "contained": 0,
+   "discovered": "2026-11-20T20:05:48Z",
+   "updated": "2026-11-20T20:31:53Z",
+   "state": "TN",
+   "county": "Scott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.4612,
+   "lat": 36.4139
   },
   {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
@@ -1826,13 +1840,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-20T18:46:27Z",
-   "updated": "2026-11-20T19:07:19Z",
+   "updated": "2026-11-20T20:32:24Z",
    "state": "CA",
    "county": "Fresno",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -119.3785,
-   "lat": 37.1238
+   "lon": -119.3735,
+   "lat": 37.121
   },
   {
    "id": "{3D81CF08-5C58-40C1-B0DD-A6F8AE07DFDB}",
@@ -1847,6 +1861,20 @@
    "complexity": null,
    "lon": -88.6626,
    "lat": 45.5041
+  },
+  {
+   "id": "{B82E8B17-4DD7-4CB2-A098-0BD7FBE2BA24}",
+   "name": "Lewis - Cane Creek Road",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-20T20:06:00Z",
+   "updated": "2026-11-20T20:34:07Z",
+   "state": "TN",
+   "county": "Lewis",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -87.6121,
+   "lat": 35.6241
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2638,27 +2666,13 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T20:05:25Z",
+   "updated": "2026-11-20T20:08:41Z",
    "state": "WI",
    "county": "Taylor",
    "cause": "Human",
    "complexity": null,
-   "lon": -90.494,
+   "lon": -90.4945,
    "lat": 45.0828
-  },
-  {
-   "id": "{91B605ED-DA25-455A-A2A9-1B91B52B298D}",
-   "name": "State Road 78",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T19:39:15Z",
-   "state": "WI",
-   "county": "Dane",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.7484,
-   "lat": 43.1198
   },
   {
    "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
@@ -2687,6 +2701,20 @@
    "complexity": null,
    "lon": -118.0948,
    "lat": 34.7042
+  },
+  {
+   "id": "{B3EC7223-1B24-4198-B624-4E3759AAE01E}",
+   "name": "Lac-420127",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-20T20:21:28Z",
+   "updated": "2026-11-20T20:21:59Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0585,
+   "lat": 34.5874
   }
  ]
 }
