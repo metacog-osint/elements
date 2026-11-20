@@ -92,7 +92,7 @@
    "id": "FL-1104288",
    "type": "FL",
    "kind": "flood",
-   "episode": 1,
+   "episode": 2,
    "name": "Flood in Kenya",
    "alert": "green",
    "score": 1,
@@ -100,13 +100,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-13T01:00:00Z",
-   "to": "2026-11-15T01:00:00Z",
-   "current": false,
+   "to": "2026-11-18T01:00:00Z",
+   "current": true,
    "country": "Kenya",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104288&episodeid=1&eventtype=FL",
-   "lon": 39.551,
-   "lat": -1.536,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104288&episodeid=2&eventtype=FL",
+   "lon": 38.803,
+   "lat": -3.559,
    "countries": [
     "KE"
    ]
@@ -590,7 +590,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 5,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -602,9 +602,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=5&eventtype=FL",
+   "lon": 99.381,
+   "lat": 2.192,
    "countries": [
     "ID"
    ]
@@ -866,7 +866,7 @@
    "id": "FL-1103888",
    "type": "FL",
    "kind": "flood",
-   "episode": 119,
+   "episode": 113,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -878,9 +878,9 @@
    "current": false,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=119&eventtype=FL",
-   "lon": -108.19,
-   "lat": 36.928,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=113&eventtype=FL",
+   "lon": -108.305,
+   "lat": 36.476,
    "countries": [
     "US"
    ]
