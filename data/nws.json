@@ -993,83 +993,39 @@
    ]
   },
   {
-   "id": "KSLC.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
+   "id": "KMAF.HW.A.0016.2026",
+   "event": "High Wind Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Salt Lake City UT",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Midland/Odessa TX",
    "areas": [
-    "Wasatch Mountains I-80 North",
-    "Wasatch Mountains South of I-80"
+    "Guadalupe Mountains of Eddy County",
+    "Guadalupe Mountains Above 7000 Feet",
+    "Guadalupe and Delaware Mountains"
    ],
    "counties": [
-    "49003",
-    "49005",
-    "49011",
-    "49023",
-    "49029",
-    "49033",
-    "49035",
-    "49043",
-    "49049",
-    "49051",
-    "49057"
+    "35015",
+    "48109"
    ],
-   "sent": "2026-11-19T16:33:00Z",
-   "onset": "2026-11-19T16:33:00Z",
-   "ends": "2026-11-21T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3630af10624b8577444db9d60f2d1bb2b08ec909.001.2",
+   "sent": "2026-11-20T05:26:00Z",
+   "onset": "2026-11-21T17:00:00Z",
+   "ends": "2026-11-22T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.494c05d96c5d5e00a074b9141d5f1b7101bab718.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -113.0603,
-     41.6226
+     -104.3064,
+     32.4578
     ],
     [
-     -111.7454,
-     41.7341
-    ],
-    [
-     -112.2019,
-     41.0376
-    ],
-    [
-     -112.7905,
-     39.7141
-    ],
-    [
-     -111.5779,
-     41.091
-    ],
-    [
-     -111.2402,
-     41.6276
-    ],
-    [
-     -111.9242,
-     40.6679
-    ],
-    [
-     -110.9685,
-     40.8721
-    ],
-    [
-     -111.6686,
-     40.1204
-    ],
-    [
-     -111.1616,
-     40.3349
-    ],
-    [
-     -111.8769,
-     41.2703
+     -104.5269,
+     31.4459
     ]
    ],
-   "lon": -111.838,
-   "lat": 40.918,
+   "lon": -104.417,
+   "lat": 31.952,
    "countries": [
     "US"
    ]
@@ -1450,6 +1406,88 @@
    ],
    "lon": -120.834,
    "lat": 39.328,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Wasatch Mountains I-80 North",
+    "Wasatch Mountains South of I-80"
+   ],
+   "counties": [
+    "49003",
+    "49005",
+    "49011",
+    "49023",
+    "49029",
+    "49033",
+    "49035",
+    "49043",
+    "49049",
+    "49051",
+    "49057"
+   ],
+   "sent": "2026-11-20T05:20:00Z",
+   "onset": "2026-11-20T05:20:00Z",
+   "ends": "2026-11-21T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a40e58c11f1b79e42c843f0f09b248fec826dbc0.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.0603,
+     41.6226
+    ],
+    [
+     -111.7454,
+     41.7341
+    ],
+    [
+     -112.2019,
+     41.0376
+    ],
+    [
+     -112.7905,
+     39.7141
+    ],
+    [
+     -111.5779,
+     41.091
+    ],
+    [
+     -111.2402,
+     41.6276
+    ],
+    [
+     -111.9242,
+     40.6679
+    ],
+    [
+     -110.9685,
+     40.8721
+    ],
+    [
+     -111.6686,
+     40.1204
+    ],
+    [
+     -111.1616,
+     40.3349
+    ],
+    [
+     -111.8769,
+     41.2703
+    ]
+   ],
+   "lon": -111.838,
+   "lat": 40.918,
    "countries": [
     "US"
    ]
