@@ -345,71 +345,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0011.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-20T04:40:00Z",
-   "onset": "2026-11-20T12:31:00Z",
-   "ends": "2026-11-21T00:55:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d837547ce39ea6ec08be06d649458972f479454a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.4,
-       28.71
-      ],
-      [
-       -81.38,
-       28.71
-      ],
-      [
-       -81.39,
-       28.67
-      ],
-      [
-       -81.39,
-       28.65
-      ],
-      [
-       -81.41,
-       28.65
-      ],
-      [
-       -81.42,
-       28.67
-      ],
-      [
-       -81.4,
-       28.71
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.399,
-   "lat": 28.681,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FA.W.0015.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1025,56 +960,6 @@
    ]
   },
   {
-   "id": "KCYS.HW.W.0043.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cheyenne WY",
-   "areas": [
-    "North Snowy Range Foothills",
-    "South Laramie Range",
-    "South Laramie Range Foothills",
-    "Central Laramie Range and Southwest Platte County",
-    "East Platte County"
-   ],
-   "counties": [
-    "56001",
-    "56007",
-    "56021",
-    "56031"
-   ],
-   "sent": "2026-11-20T09:31:00Z",
-   "onset": "2026-11-20T15:00:00Z",
-   "ends": "2026-11-21T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d30efc28a53054536e3a5c1ea8b2f52f64d7694.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.7219,
-     41.6655
-    ],
-    [
-     -106.9332,
-     41.7036
-    ],
-    [
-     -104.6604,
-     41.2928
-    ],
-    [
-     -104.954,
-     42.1316
-    ]
-   ],
-   "lon": -105.567,
-   "lat": 41.698,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPUB.HW.W.0008.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1118,6 +1003,56 @@
    ]
   },
   {
+   "id": "KCYS.HW.W.0043.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Cheyenne WY",
+   "areas": [
+    "North Snowy Range Foothills",
+    "South Laramie Range",
+    "South Laramie Range Foothills",
+    "Central Laramie Range and Southwest Platte County",
+    "East Platte County"
+   ],
+   "counties": [
+    "56001",
+    "56007",
+    "56021",
+    "56031"
+   ],
+   "sent": "2026-11-20T15:40:00Z",
+   "onset": "2026-11-20T15:40:00Z",
+   "ends": "2026-11-21T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.67a54270b1089acd52486b05ccf4f61d4a248624.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -106.9332,
+     41.7036
+    ],
+    [
+     -104.6604,
+     41.2928
+    ],
+    [
+     -104.954,
+     42.1316
+    ]
+   ],
+   "lon": -105.567,
+   "lat": 41.698,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMAF.HW.A.0016.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1156,78 +1091,59 @@
    ]
   },
   {
-   "id": "KGJT.SQ.W.0003.2026",
-   "event": "Snow Squall Warning",
+   "id": "KJAX.MA.W.0261.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
-   "urgency": "Expected",
+   "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Grand Junction CO",
+   "sender": "NWS Jacksonville FL",
    "areas": [
-    "Moffat, CO",
-    "Rio Blanco, CO",
-    "Routt, CO"
+    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM",
+    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
    ],
    "counties": [
-    "08081",
-    "08103",
-    "08107"
+    "75454",
+    "75474"
    ],
-   "sent": "2026-11-20T15:04:00Z",
-   "onset": "2026-11-20T15:04:00Z",
-   "ends": "2026-11-20T15:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e1f8457b7dad1def88a9db31119cb250140c95e.001.1",
+   "sent": "2026-11-20T15:45:00Z",
+   "onset": "2026-11-20T15:45:00Z",
+   "ends": "2026-11-20T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c62b5a77de51e204986311556b38e70f3c643ab.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -108.23,
-       40.18
+       -80.96,
+       29.91
       ],
       [
-       -107.98,
-       40.5
+       -80.21,
+       29.89
       ],
       [
-       -107.86,
-       40.96
+       -80.1,
+       29.65
       ],
       [
-       -107.23,
-       40.96
+       -79.98,
+       29.47
       ],
       [
-       -107.18,
-       40.5
+       -80.76,
+       29.48
       ],
       [
-       -107.45,
-       40.01
-      ],
-      [
-       -108.23,
-       40.18
+       -80.96,
+       29.91
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [
-    [
-     -108.2172,
-     40.6109
-    ],
-    [
-     -108.2007,
-     39.9726
-    ],
-    [
-     -106.9877,
-     40.4837
-    ]
-   ],
-   "lon": -107.737,
-   "lat": 40.47,
+   "points": [],
+   "lon": -80.495,
+   "lat": 29.718,
    "countries": [
     "US"
    ]

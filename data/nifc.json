@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 60,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-20T15:31:56Z",
+   "updated": "2026-11-20T15:42:19Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -1205,20 +1205,6 @@
    "lat": 45.6394
   },
   {
-   "id": "{F3D87452-D788-4492-BFDF-1D4F73D7C007}",
-   "name": "Sand Lake",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-18T22:19:31Z",
-   "state": "WI",
-   "county": "Sawyer",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.4775,
-   "lat": 45.8558
-  },
-  {
    "id": "{77F99BC5-CE44-4458-A401-C3504E5F0D66}",
    "name": "Ebenezer",
    "acres": 0.5,
@@ -1273,6 +1259,20 @@
    "complexity": null,
    "lon": -92.7284,
    "lat": 45.7879
+  },
+  {
+   "id": "{F3D87452-D788-4492-BFDF-1D4F73D7C007}",
+   "name": "Sand Lake",
+   "acres": 0.3,
+   "contained": null,
+   "discovered": "2026-11-18T19:50:00Z",
+   "updated": "2026-11-20T16:02:11Z",
+   "state": "WI",
+   "county": "Sawyer",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -91.4775,
+   "lat": 45.8558
   },
   {
    "id": "{26D85495-8549-4C7C-ACBB-4E1E38C378E0}",
@@ -1427,20 +1427,6 @@
    "complexity": null,
    "lon": -117.9029,
    "lat": 34.1587
-  },
-  {
-   "id": "{A15D1DF7-870B-4539-B232-0D23180A8E91}",
-   "name": "Misery Trail",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-07-22T19:09:19Z",
-   "updated": "2026-11-17T15:18:13Z",
-   "state": "PA",
-   "county": "Chester",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -75.4595,
-   "lat": 40.0894
   },
   {
    "id": "{66097938-3387-495F-9D54-9110923B58C3}",
@@ -2715,6 +2701,20 @@
    "complexity": null,
    "lon": -118.0948,
    "lat": 34.7042
+  },
+  {
+   "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
+   "name": "Lac-419758",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-20T15:36:38Z",
+   "updated": "2026-11-20T15:37:28Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1126,
+   "lat": 34.7041
   }
  ]
 }
