@@ -1184,49 +1184,6 @@
    ]
   },
   {
-   "id": "KPUB.HW.W.0008.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Southern Sangre De Cristo Mountains Between 7500 and 11000 Ft",
-    "Southern Sangre De Cristo Mountains Above 11000 Ft",
-    "Walsenburg Vicinity/Upper Huerfano River Basin Below 7500 Ft"
-   ],
-   "counties": [
-    "08023",
-    "08055",
-    "08071"
-   ],
-   "sent": "2026-11-20T13:53:00Z",
-   "onset": "2026-11-20T13:53:00Z",
-   "ends": "2026-11-20T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1cd0f1835cb6300926982ebec7cee5892adfd2f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -105.4289,
-     37.2775
-    ],
-    [
-     -104.9599,
-     37.6878
-    ],
-    [
-     -104.0441,
-     37.3188
-    ]
-   ],
-   "lon": -104.811,
-   "lat": 37.428,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCYS.HW.W.0043.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1446,60 +1403,6 @@
    "points": [],
    "lon": -80.819,
    "lat": 29.553,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMTR.MA.W.0030.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
-    "Waters from Point Pinos to Point Piedras Blancas 10-60 NM"
-   ],
-   "counties": [
-    "57565",
-    "57576"
-   ],
-   "sent": "2026-11-20T20:32:00Z",
-   "onset": "2026-11-20T20:32:00Z",
-   "ends": "2026-11-20T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f2396db831b4eb5a31300391b2a3b749b1224cf.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.16,
-       36.37
-      ],
-      [
-       -122.03,
-       36.4
-      ],
-      [
-       -121.88,
-       36.17
-      ],
-      [
-       -122.17,
-       36.11
-      ],
-      [
-       -122.16,
-       36.37
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.08,
-   "lat": 36.284,
    "countries": [
     "US"
    ]
