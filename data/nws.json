@@ -32,7 +32,7 @@
    ]
   },
   {
-   "id": "KMLB.FF.W.0033.2026",
+   "id": "KMLB.FF.W.0034.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -44,21 +44,17 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-20T04:59:00Z",
-   "onset": "2026-11-20T04:59:00Z",
-   "ends": "2026-11-20T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f046cf64287e4a56e014d6b0ad959dc5a7f98622.001.1",
+   "sent": "2026-11-20T07:58:00Z",
+   "onset": "2026-11-20T07:58:00Z",
+   "ends": "2026-11-20T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f794b0133832820f5164f28df947e82963603b39.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.95,
-       28.73
-      ],
-      [
-       -80.62,
-       28.69
+       -80.9,
+       28.63
       ],
       [
        -80.56,
@@ -66,39 +62,51 @@
       ],
       [
        -80.51,
-       28.49
+       28.46
       ],
       [
-       -80.5,
-       28.45
+       -80.57,
+       28.4
+      ],
+      [
+       -80.59,
+       28.3
+      ],
+      [
+       -80.57,
+       28.22
+      ],
+      [
+       -80.57,
+       28.19
       ],
       [
        -80.56,
-       28.39
+       28.17
       ],
       [
-       -80.57,
-       28.36
+       -80.56,
+       28.15
       ],
       [
-       -80.58,
-       28.35
+       -80.64,
+       28.18
       ],
       [
-       -80.58,
-       28.31
+       -80.71,
+       28.24
       ],
       [
-       -80.57,
-       28.26
+       -80.85,
+       28.32
       ],
       [
-       -80.83,
-       28.37
+       -80.88,
+       28.55
       ],
       [
-       -80.95,
-       28.73
+       -80.9,
+       28.63
       ]
      ]
     ]
@@ -110,8 +118,8 @@
      28.2983
     ]
    ],
-   "lon": -80.648,
-   "lat": 28.478,
+   "lon": -80.669,
+   "lat": 28.36,
    "countries": [
     "US"
    ]
@@ -912,8 +920,8 @@
    "certainty": "Likely",
    "sender": "NWS Phoenix AZ",
    "areas": [
-    "Joshua Tree NP West",
-    "Southeast Gila County"
+    "Southeast Gila County",
+    "Joshua Tree NP West"
    ],
    "counties": [
     "04007",
@@ -922,7 +930,7 @@
    "sent": "2026-11-20T06:13:00Z",
    "onset": "2026-11-21T07:00:00Z",
    "ends": "2026-11-21T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
