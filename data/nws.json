@@ -1339,62 +1339,6 @@
    ]
   },
   {
-   "id": "KJAX.MA.W.0263.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "75474"
-   ],
-   "sent": "2026-11-20T17:12:00Z",
-   "onset": "2026-11-20T17:12:00Z",
-   "ends": "2026-11-20T18:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90cc0eeb9d1d703702be3b34ad43f984f8ea7d23.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.94,
-       29.91
-      ],
-      [
-       -80.21,
-       29.89
-      ],
-      [
-       -80.1,
-       29.65
-      ],
-      [
-       -79.98,
-       29.47
-      ],
-      [
-       -80.75,
-       29.48
-      ],
-      [
-       -80.94,
-       29.91
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.487,
-   "lat": 29.718,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.MA.W.0350.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
