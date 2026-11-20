@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "code": "EMSR937",
+   "name": "Mass Movement in Manteigas, Portugal",
+   "category": "Mass movement",
+   "event": "2026-11-18T00:00:00Z",
+   "activated": "2026-11-20T14:51:00Z",
+   "updated": "2026-11-20T15:30:30Z",
+   "closed": false,
+   "products": 0,
+   "countries": [
+    "PT"
+   ],
+   "lon": -7.545,
+   "lat": 40.407
+  },
+  {
    "code": "EMSR936",
    "name": "Flood in Ecuador",
    "category": "Flood",
@@ -738,21 +753,6 @@
    ],
    "lon": 0.327,
    "lat": 41.968
-  },
-  {
-   "code": "EMSR884",
-   "name": "Earthquake in Venezuela",
-   "category": "Earthquake",
-   "event": "2026-06-24T16:04:00Z",
-   "activated": "2026-06-25T03:51:00Z",
-   "updated": "2026-07-10T10:16:32Z",
-   "closed": true,
-   "products": 21,
-   "countries": [
-    "VE"
-   ],
-   "lon": -67.809,
-   "lat": 10.277
   }
  ]
 }
