@@ -1,4 +1,6 @@
 /*! tic-fold.css v1.1 · pairs with tic-fold.js (canonical copy in the hub's site/shared/).
+    SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
+    copied into, whatever that repository's own licence.
     Takes the page's own colours: --panel (else --bg), --line, --muted and --link if the page has them, so each
     product keeps its own colours. The button is at least 44 px tall (WCAG 2.2 target size). Nothing moves. */
 .tic-fold-on .tic-fold-x, .tic-fold-miss { display: none; }
