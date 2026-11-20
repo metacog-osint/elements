@@ -133,6 +133,91 @@
    ]
   },
   {
+   "id": "KMLB.FF.W.0036.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12127"
+   ],
+   "sent": "2026-11-20T15:04:00Z",
+   "onset": "2026-11-20T15:04:00Z",
+   "ends": "2026-11-20T17:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eee279d996d037a003f70335883466e3b2a5bb96.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.11,
+       29.43
+      ],
+      [
+       -81.12,
+       29.43
+      ],
+      [
+       -81.12,
+       29.44
+      ],
+      [
+       -81.11,
+       29.44
+      ],
+      [
+       -81.1,
+       29.42
+      ],
+      [
+       -81.1,
+       29.43
+      ],
+      [
+       -80.89,
+       29.07
+      ],
+      [
+       -81.1,
+       29.04
+      ],
+      [
+       -81.15,
+       29.26
+      ],
+      [
+       -81.16,
+       29.41
+      ],
+      [
+       -81.14,
+       29.42
+      ],
+      [
+       -81.11,
+       29.43
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.101,
+   "lat": 29.352,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -788,26 +873,19 @@
    "sender": "NWS Melbourne FL",
    "areas": [
     "Inland Volusia",
-    "Orange",
-    "Seminole",
     "Coastal Volusia",
     "Inland Northern Brevard",
     "Mainland Northern Brevard",
-    "Northern Brevard Barrier Islands",
-    "Inland Southern Brevard",
-    "Mainland Southern Brevard",
-    "Southern Brevard Barrier Islands"
+    "Northern Brevard Barrier Islands"
    ],
    "counties": [
     "12009",
-    "12095",
-    "12117",
     "12127"
    ],
-   "sent": "2026-11-20T12:52:00Z",
-   "onset": "2026-11-20T12:52:00Z",
+   "sent": "2026-11-20T15:23:00Z",
+   "onset": "2026-11-20T15:23:00Z",
    "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e85fbdb2531f002de5d8ce32785eb941db264af.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1aaf9bd78b8d85140b04089c05774f27988735e.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -816,20 +894,12 @@
      28.2983
     ],
     [
-     -81.3233,
-     28.5144
-    ],
-    [
-     -81.132,
-     28.6901
-    ],
-    [
      -81.1618,
      29.0578
     ]
    ],
-   "lon": -81.079,
-   "lat": 28.64,
+   "lon": -80.931,
+   "lat": 28.678,
    "countries": [
     "US"
    ]
@@ -1086,81 +1156,78 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0348.2026",
-   "event": "Special Marine Warning",
+   "id": "KGJT.SQ.W.0003.2026",
+   "event": "Snow Squall Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
+   "sender": "NWS Grand Junction CO",
    "areas": [
-    "Flagler Beach to Volusia-Brevard County Line 0-20 nm",
-    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
-    "Flagler Beach to Volusia-Brevard County Line 20-60 nm"
+    "Moffat, CO",
+    "Rio Blanco, CO",
+    "Routt, CO"
    ],
    "counties": [
-    "75550",
-    "75552",
-    "75570"
+    "08081",
+    "08103",
+    "08107"
    ],
-   "sent": "2026-11-20T13:45:00Z",
-   "onset": "2026-11-20T13:45:00Z",
-   "ends": "2026-11-20T15:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4d147aa1f7fa666e012be40256fa073d910f044.001.1",
+   "sent": "2026-11-20T15:04:00Z",
+   "onset": "2026-11-20T15:04:00Z",
+   "ends": "2026-11-20T15:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e1f8457b7dad1def88a9db31119cb250140c95e.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.02,
-       29.17
+       -108.23,
+       40.18
       ],
       [
-       -80.41,
-       29.12
+       -107.98,
+       40.5
       ],
       [
-       -80.3,
-       28.87
+       -107.86,
+       40.96
       ],
       [
-       -80.33,
-       28.87
+       -107.23,
+       40.96
       ],
       [
-       -80.32,
-       28.86
+       -107.18,
+       40.5
       ],
       [
-       -80.37,
-       28.85
+       -107.45,
+       40.01
       ],
       [
-       -80.29,
-       28.74
-      ],
-      [
-       -80.87,
-       28.74
-      ],
-      [
-       -80.88,
-       28.81
-      ],
-      [
-       -80.84,
-       28.84
-      ],
-      [
-       -81.02,
-       29.17
+       -108.23,
+       40.18
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [],
-   "lon": -80.605,
-   "lat": 28.913,
+   "points": [
+    [
+     -108.2172,
+     40.6109
+    ],
+    [
+     -108.2007,
+     39.9726
+    ],
+    [
+     -106.9877,
+     40.4837
+    ]
+   ],
+   "lon": -107.737,
+   "lat": 40.47,
    "countries": [
     "US"
    ]
@@ -1239,42 +1306,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLKN.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Elko NV",
-   "areas": [
-    "Ruby Mountains and East Humboldt Range"
-   ],
-   "counties": [
-    "32007",
-    "32033"
-   ],
-   "sent": "2026-11-20T03:12:00Z",
-   "onset": "2026-11-20T03:12:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fca50948eef6d127e52903cf4bdf0fb2c37360c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -115.3514,
-     41.1411
-    ],
-    [
-     -114.9006,
-     39.4182
-    ]
-   ],
-   "lon": -115.126,
-   "lat": 40.28,
    "countries": [
     "US"
    ]
@@ -1590,6 +1621,42 @@
    ],
    "lon": -120.281,
    "lat": 39.484,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLKN.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Elko NV",
+   "areas": [
+    "Ruby Mountains and East Humboldt Range"
+   ],
+   "counties": [
+    "32007",
+    "32033"
+   ],
+   "sent": "2026-11-20T15:15:00Z",
+   "onset": "2026-11-20T15:15:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.399e290b9930682e6796770ac35d60a8a0b6fee5.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -115.3514,
+     41.1411
+    ],
+    [
+     -114.9006,
+     39.4182
+    ]
+   ],
+   "lon": -115.126,
+   "lat": 40.28,
    "countries": [
     "US"
    ]
