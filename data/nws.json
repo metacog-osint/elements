@@ -1019,6 +1019,56 @@
    ]
   },
   {
+   "id": "KCYS.HW.W.0043.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Cheyenne WY",
+   "areas": [
+    "North Snowy Range Foothills",
+    "South Laramie Range",
+    "South Laramie Range Foothills",
+    "Central Laramie Range and Southwest Platte County",
+    "East Platte County"
+   ],
+   "counties": [
+    "56001",
+    "56007",
+    "56021",
+    "56031"
+   ],
+   "sent": "2026-11-20T09:31:00Z",
+   "onset": "2026-11-20T15:00:00Z",
+   "ends": "2026-11-21T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d30efc28a53054536e3a5c1ea8b2f52f64d7694.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -106.9332,
+     41.7036
+    ],
+    [
+     -104.6604,
+     41.2928
+    ],
+    [
+     -104.954,
+     42.1316
+    ]
+   ],
+   "lon": -105.567,
+   "lat": 41.698,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMAF.HW.A.0016.2026",
    "event": "High Wind Watch",
    "severity": "Severe",

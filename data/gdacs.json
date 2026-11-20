@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104290",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in United States",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-17T01:00:00Z",
+   "to": "2026-11-19T01:00:00Z",
+   "current": true,
+   "country": "United States",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104290&episodeid=1&eventtype=FL",
+   "lon": -80.15,
+   "lat": 26.011,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "TC-1001351",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -20,6 +43,29 @@
    "lon": 84.7,
    "lat": 17.2,
    "countries": []
+  },
+  {
+   "id": "FL-1104289",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Mexico",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-16T01:00:00Z",
+   "to": "2026-11-18T01:00:00Z",
+   "current": true,
+   "country": "Mexico",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104289&episodeid=1&eventtype=FL",
+   "lon": -96.776,
+   "lat": 19.866,
+   "countries": [
+    "MX"
+   ]
   },
   {
    "id": "TC-1001350",
@@ -667,7 +713,7 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-01T01:00:00Z",
-   "to": "2026-11-18T01:00:00Z",
+   "to": "2026-11-20T01:00:00Z",
    "current": true,
    "country": "Brazil",
    "severity": "Magnitude 0 ",
