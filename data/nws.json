@@ -8,25 +8,32 @@
    "certainty": "Likely",
    "sender": "NWS Jacksonville FL",
    "areas": [
+    "Coastal Flagler",
+    "Inland Flagler",
     "Eastern Putnam"
    ],
    "counties": [
+    "12035",
     "12107"
    ],
-   "sent": "2026-11-20T16:40:00Z",
-   "onset": "2026-11-20T16:40:00Z",
-   "ends": "2026-11-22T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8094d2fbc22c7077a041b0fe625afec219ee063.002.1",
+   "sent": "2026-11-20T17:37:00Z",
+   "onset": "2026-11-20T17:37:00Z",
+   "ends": "2026-11-22T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56c3d9cd681b61ce5e4fcac2a6acfb56593cabbe.001.3",
    "geometry": null,
    "vtec": true,
    "points": [
+    [
+     -81.2863,
+     29.4749
+    ],
     [
      -81.732,
      29.5939
     ]
    ],
-   "lon": -81.732,
-   "lat": 29.594,
+   "lon": -81.509,
+   "lat": 29.534,
    "countries": [
     "US"
    ]
@@ -1032,6 +1039,48 @@
    ]
   },
   {
+   "id": "KSLC.FZ.W.0023.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Lower Washington County",
+    "Zion National Park"
+   ],
+   "counties": [
+    "49021",
+    "49025",
+    "49053"
+   ],
+   "sent": "2026-11-20T17:58:00Z",
+   "onset": "2026-11-21T04:00:00Z",
+   "ends": "2026-11-21T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a43290a39629874926f553cf04793f3b4f6dfcef.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.3067,
+     37.9093
+    ],
+    [
+     -111.8153,
+     37.2751
+    ],
+    [
+     -113.4878,
+     37.2625
+    ]
+   ],
+   "lon": -112.87,
+   "lat": 37.482,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1215,108 +1264,6 @@
    ]
   },
   {
-   "id": "KJAX.MA.W.0262.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM",
-    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM"
-   ],
-   "counties": [
-    "75452",
-    "75454"
-   ],
-   "sent": "2026-11-20T16:27:00Z",
-   "onset": "2026-11-20T16:27:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.937d0536fedd12e218685d580abb46253e045808.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.28,
-       29.74
-      ],
-      [
-       -81.34,
-       29.91
-      ],
-      [
-       -80.96,
-       29.92
-      ],
-      [
-       -80.87,
-       29.73
-      ],
-      [
-       -80.87,
-       29.72
-      ],
-      [
-       -80.86,
-       29.71
-      ],
-      [
-       -80.75,
-       29.48
-      ],
-      [
-       -81.12,
-       29.46
-      ],
-      [
-       -81.11,
-       29.45
-      ],
-      [
-       -81.13,
-       29.46
-      ],
-      [
-       -81.13,
-       29.45
-      ],
-      [
-       -81.16,
-       29.45
-      ],
-      [
-       -81.23,
-       29.58
-      ],
-      [
-       -81.27,
-       29.68
-      ],
-      [
-       -81.26,
-       29.69
-      ],
-      [
-       -81.28,
-       29.73
-      ],
-      [
-       -81.28,
-       29.74
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.112,
-   "lat": 29.641,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.MA.W.0263.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1368,6 +1315,82 @@
    "points": [],
    "lon": -80.487,
    "lat": 29.718,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0350.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Flagler Beach to Volusia-Brevard County Line 0-20 nm",
+    "Flagler Beach to Volusia-Brevard County Line 20-60 nm",
+    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
+   ],
+   "counties": [
+    "75550",
+    "75570",
+    "75572"
+   ],
+   "sent": "2026-11-20T18:00:00Z",
+   "onset": "2026-11-20T18:00:00Z",
+   "ends": "2026-11-20T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55b92cd2615f1925d4096d1413600437e39daa8f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.84,
+       29.48
+      ],
+      [
+       -80.7,
+       29.48
+      ],
+      [
+       -79.98,
+       29.47
+      ],
+      [
+       -79.97,
+       29.45
+      ],
+      [
+       -79.94,
+       29.41
+      ],
+      [
+       -79.92,
+       29.39
+      ],
+      [
+       -79.89,
+       29.34
+      ],
+      [
+       -79.87,
+       29.3
+      ],
+      [
+       -80.01,
+       28.63
+      ],
+      [
+       -80.84,
+       29.48
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.196,
+   "lat": 29.343,
    "countries": [
     "US"
    ]
@@ -1508,84 +1531,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Lassen-Eastern Plumas-Eastern Sierra Counties",
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-20T12:01:00Z",
-   "onset": "2026-11-20T12:01:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb0632e7076b766966e8c4552880c451026b4c77.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.281,
-   "lat": 39.484,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLKN.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1699,104 +1644,6 @@
    ],
    "lon": -111.838,
    "lat": 40.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-20T17:34:00Z",
-   "onset": "2026-11-20T17:34:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6bc598db0ceb20e3d1acd1ec7186502e25441aa.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -120.834,
-   "lat": 39.328,
    "countries": [
     "US"
    ]
