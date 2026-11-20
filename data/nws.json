@@ -912,124 +912,6 @@
    ]
   },
   {
-   "id": "KMTR.MA.W.0026.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "Monterey Bay",
-    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
-    "Coastal Waters from Point Pinos to Point Piedras Blancas California out to 10 nm",
-    "Waters from Pigeon Point to Point Pinos 10-60 NM"
-   ],
-   "counties": [
-    "57535",
-    "57560",
-    "57565",
-    "57575"
-   ],
-   "sent": "2026-11-20T02:53:00Z",
-   "onset": "2026-11-20T02:53:00Z",
-   "ends": "2026-11-20T03:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38c1ae56cca1e88e1a47e362d732226483b08b1f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.25,
-       36.78
-      ],
-      [
-       -122.08,
-       36.81
-      ],
-      [
-       -121.89,
-       36.85
-      ],
-      [
-       -121.81,
-       36.7
-      ],
-      [
-       -121.82,
-       36.67
-      ],
-      [
-       -122.03,
-       36.61
-      ],
-      [
-       -122.2,
-       36.58
-      ],
-      [
-       -122.2,
-       36.6
-      ],
-      [
-       -122.19,
-       36.62
-      ],
-      [
-       -122.23,
-       36.62
-      ],
-      [
-       -122.25,
-       36.78
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -122.086,
-   "lat": 36.693,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLKN.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Elko NV",
-   "areas": [
-    "Ruby Mountains and East Humboldt Range"
-   ],
-   "counties": [
-    "32007",
-    "32033"
-   ],
-   "sent": "2026-11-19T15:16:00Z",
-   "onset": "2026-11-19T15:16:00Z",
-   "ends": "2026-11-21T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79ff407c4bc1ec15944e9f795c52b9ac7a34fb36.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -115.3514,
-     41.1411
-    ],
-    [
-     -114.9006,
-     39.4182
-    ]
-   ],
-   "lon": -115.126,
-   "lat": 40.28,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1457,6 +1339,42 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLKN.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Elko NV",
+   "areas": [
+    "Ruby Mountains and East Humboldt Range"
+   ],
+   "counties": [
+    "32007",
+    "32033"
+   ],
+   "sent": "2026-11-20T03:12:00Z",
+   "onset": "2026-11-20T03:12:00Z",
+   "ends": "2026-11-21T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fca50948eef6d127e52903cf4bdf0fb2c37360c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -115.3514,
+     41.1411
+    ],
+    [
+     -114.9006,
+     39.4182
+    ]
+   ],
+   "lon": -115.126,
+   "lat": 40.28,
    "countries": [
     "US"
    ]
