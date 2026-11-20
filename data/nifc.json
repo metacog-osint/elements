@@ -216,7 +216,7 @@
    "acres": 500.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-20T18:46:46Z",
+   "updated": "2026-11-20T21:52:53Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -227,10 +227,10 @@
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
-   "acres": 400.0,
+   "acres": 500.0,
    "contained": null,
    "discovered": "2026-11-20T16:47:15Z",
-   "updated": "2026-11-20T21:13:18Z",
+   "updated": "2026-11-20T22:04:44Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -617,6 +617,20 @@
    "lat": 17.9931
   },
   {
+   "id": "{10C8F786-26AB-407F-BF83-9968FA145E0C}",
+   "name": "Marschall Road",
+   "acres": 7.0,
+   "contained": null,
+   "discovered": "2026-11-17T21:53:00Z",
+   "updated": "2026-11-20T21:58:30Z",
+   "state": "MN",
+   "county": "Scott",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -93.5075,
+   "lat": 44.7317
+  },
+  {
    "id": "{44E2000B-37E4-4272-8550-FC6C3FCFFD1C}",
    "name": "Elk Shoals",
    "acres": 6.0,
@@ -729,20 +743,6 @@
    "lat": 36.6386
   },
   {
-   "id": "{78DC92D7-BD01-43F0-B739-A3F56E2B1B8A}",
-   "name": "Scott - Harness Circle",
-   "acres": 3.0,
-   "contained": 0,
-   "discovered": "2026-11-20T20:05:48Z",
-   "updated": "2026-11-20T20:31:53Z",
-   "state": "TN",
-   "county": "Scott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.4612,
-   "lat": 36.4139
-  },
-  {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
    "name": "Sawyer Lake",
    "acres": 2.7,
@@ -818,13 +818,13 @@
    "acres": 2.0,
    "contained": 0,
    "discovered": "2026-11-20T19:49:00Z",
-   "updated": "2026-11-20T21:35:54Z",
+   "updated": "2026-11-20T21:59:44Z",
    "state": "KY",
    "county": "Owsley",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
-   "lon": -83.7373,
-   "lat": 37.4721
+   "lon": -83.7364,
+   "lat": 37.4728
   },
   {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
@@ -1499,20 +1499,6 @@
    "lat": 43.7948
   },
   {
-   "id": "{78980105-0F1A-475D-818D-20D21B2E089A}",
-   "name": "Car",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-12T21:15:00Z",
-   "updated": "2026-11-17T21:34:24Z",
-   "state": "MT",
-   "county": "Rosebud",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -106.7026,
-   "lat": 45.621
-  },
-  {
    "id": "{07BA0D6E-F9E6-4A8E-B7DF-CBCA8A3A0047}",
    "name": "Buffalo Bale",
    "acres": 0.1,
@@ -1819,6 +1805,20 @@
    "complexity": null,
    "lon": -87.8592,
    "lat": 46.1402
+  },
+  {
+   "id": "{7E25E29A-954A-47BE-A46D-842E181EA419}",
+   "name": "Snow",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T21:53:39Z",
+   "updated": "2026-11-20T22:00:11Z",
+   "state": "OR",
+   "county": "Klamath",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.2053,
+   "lat": 42.355
   },
   {
    "id": "{1354B77E-E3A5-42B2-848D-C72D8199E683}",
@@ -2606,14 +2606,14 @@
   },
   {
    "id": "{EA4B2993-EE8F-4F10-8782-4D339D35BD7D}",
-   "name": "Ostrum Rd",
+   "name": "Ostrom",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T21:03:14Z",
+   "updated": "2026-11-20T21:43:52Z",
    "state": "WI",
    "county": "Washburn",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -91.9214,
    "lat": 46.0909
