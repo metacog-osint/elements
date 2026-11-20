@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "NTWC-20261120T064916Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-20T06:51:44Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "30 miles SE of Monterey, California",
+   "magnitude": 4.9,
+   "magnitude_type": "Ml",
+   "origin": "2026-11-20T06:49:16Z",
+   "depth_km": 6.0,
+   "lat": 36.476,
+   "lon": -121.357,
+   "countries": [
+    "US"
+   ],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/20/tosga4/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "PTWC-20261118T022258Z",
    "centre": "PTWC",
    "msg_type": "Alert",
