@@ -1149,6 +1149,164 @@
    ]
   },
   {
+   "id": "KJAX.MA.W.0262.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM",
+    "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM"
+   ],
+   "counties": [
+    "75452",
+    "75454"
+   ],
+   "sent": "2026-11-20T16:27:00Z",
+   "onset": "2026-11-20T16:27:00Z",
+   "ends": "2026-11-20T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.937d0536fedd12e218685d580abb46253e045808.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.28,
+       29.74
+      ],
+      [
+       -81.34,
+       29.91
+      ],
+      [
+       -80.96,
+       29.92
+      ],
+      [
+       -80.87,
+       29.73
+      ],
+      [
+       -80.87,
+       29.72
+      ],
+      [
+       -80.86,
+       29.71
+      ],
+      [
+       -80.75,
+       29.48
+      ],
+      [
+       -81.12,
+       29.46
+      ],
+      [
+       -81.11,
+       29.45
+      ],
+      [
+       -81.13,
+       29.46
+      ],
+      [
+       -81.13,
+       29.45
+      ],
+      [
+       -81.16,
+       29.45
+      ],
+      [
+       -81.23,
+       29.58
+      ],
+      [
+       -81.27,
+       29.68
+      ],
+      [
+       -81.26,
+       29.69
+      ],
+      [
+       -81.28,
+       29.73
+      ],
+      [
+       -81.28,
+       29.74
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.112,
+   "lat": 29.641,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0349.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Flagler Beach to Volusia-Brevard County Line 20-60 nm"
+   ],
+   "counties": [
+    "75570"
+   ],
+   "sent": "2026-11-20T16:32:00Z",
+   "onset": "2026-11-20T16:32:00Z",
+   "ends": "2026-11-20T17:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ca10d30cebbeffa64a7c58cbbb59cfa95eb2a72.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.91,
+       29.2
+      ],
+      [
+       -80.11,
+       29.02
+      ],
+      [
+       -80.6,
+       29.26
+      ],
+      [
+       -80.7,
+       29.48
+      ],
+      [
+       -80.11,
+       29.47
+      ],
+      [
+       -79.91,
+       29.2
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.223,
+   "lat": 29.272,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.3863.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1471,9 +1629,9 @@
    "certainty": "Likely",
    "sender": "NWS Reno NV",
    "areas": [
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
     "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties"
+    "Greater Lake Tahoe Area"
    ],
    "counties": [
     "06003",
@@ -1490,7 +1648,7 @@
    "sent": "2026-11-20T12:01:00Z",
    "onset": "2026-11-20T12:01:00Z",
    "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb0632e7076b766966e8c4552880c451026b4c77.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb0632e7076b766966e8c4552880c451026b4c77.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
