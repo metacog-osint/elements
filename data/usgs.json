@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000uc8k",
+   "mag": 4.7,
+   "place": "southeast of the Loyalty Islands",
+   "time": "2026-11-20T10:48:44Z",
+   "updated": "2026-11-20T11:16:24Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 340,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc8k",
+   "depth_km": 10.0,
+   "lon": 171.191,
+   "lat": -24.661,
+   "countries": []
+  },
+  {
    "id": "us6000uc8g",
    "mag": 5.0,
    "place": "southeast of the Loyalty Islands",
@@ -50,7 +65,7 @@
    "mag": 5.0,
    "place": "10 km NW of Pinnacles, CA",
    "time": "2026-11-20T06:49:16Z",
-   "updated": "2026-11-20T10:59:27Z",
+   "updated": "2026-11-20T11:25:23Z",
    "alert": "green",
    "tsunami": true,
    "sig": 1005,
@@ -1633,21 +1648,6 @@
    "depth_km": 10.0,
    "lon": -97.978,
    "lat": -36.443,
-   "countries": []
-  },
-  {
-   "id": "us7000txzd",
-   "mag": 4.8,
-   "place": "59 km WSW of Houma, Tonga",
-   "time": "2026-11-13T11:18:12Z",
-   "updated": "2026-11-13T11:51:31Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 354,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
-   "depth_km": 162.8,
-   "lon": -175.854,
-   "lat": -21.304,
    "countries": []
   }
  ]
