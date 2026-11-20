@@ -13,10 +13,10 @@
    "counties": [
     "12107"
    ],
-   "sent": "2026-11-20T06:30:00Z",
-   "onset": "2026-11-20T06:30:00Z",
+   "sent": "2026-11-20T16:40:00Z",
+   "onset": "2026-11-20T16:40:00Z",
    "ends": "2026-11-22T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50d34416579a97f2fc160e2d13f6788bb3330b5b.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8094d2fbc22c7077a041b0fe625afec219ee063.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -735,71 +735,6 @@
    ]
   },
   {
-   "id": "KJAX.FA.A.0007.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Coastal Duval",
-    "Eastern Clay",
-    "Eastern Putnam",
-    "Coastal Flagler",
-    "Trout River",
-    "Western Clay",
-    "Northeast Coastal St. Johns",
-    "Western Putnam",
-    "South Central Duval",
-    "Southeast Coastal St. Johns",
-    "Western Duval",
-    "Northern Inland St. Johns",
-    "Southern Inland St. Johns",
-    "Western St. Johns"
-   ],
-   "counties": [
-    "12019",
-    "12031",
-    "12035",
-    "12107",
-    "12109"
-   ],
-   "sent": "2026-11-20T06:23:00Z",
-   "onset": "2026-11-20T06:23:00Z",
-   "ends": "2026-11-21T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.226defa2de42de15968d93f19aba1b9cbaceeda5.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.865,
-     29.9866
-    ],
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ],
-    [
-     -81.3883,
-     29.8814
-    ]
-   ],
-   "lon": -81.584,
-   "lat": 29.854,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -835,6 +770,78 @@
    ],
    "lon": -80.931,
    "lat": 28.678,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.FA.A.0007.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Inland Nassau",
+    "Coastal Nassau",
+    "Inland Flagler",
+    "Coastal Duval",
+    "Eastern Clay",
+    "Eastern Putnam",
+    "Coastal Flagler",
+    "Trout River",
+    "Western Clay",
+    "Northeast Coastal St. Johns",
+    "Western Putnam",
+    "South Central Duval",
+    "Southeast Coastal St. Johns",
+    "Western Duval",
+    "Northern Inland St. Johns",
+    "Southern Inland St. Johns",
+    "Western St. Johns"
+   ],
+   "counties": [
+    "12019",
+    "12031",
+    "12035",
+    "12089",
+    "12107",
+    "12109"
+   ],
+   "sent": "2026-11-20T16:36:00Z",
+   "onset": "2026-11-20T16:36:00Z",
+   "ends": "2026-11-21T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f368520d1de3d88bd754cc4012f90907a2a21ee2.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ],
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.7651,
+     30.606
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ]
+   ],
+   "lon": -81.614,
+   "lat": 29.98,
    "countries": [
     "US"
    ]
@@ -878,8 +885,8 @@
    "certainty": "Likely",
    "sender": "NWS Phoenix AZ",
    "areas": [
-    "Southeast Gila County",
-    "Joshua Tree NP West"
+    "Joshua Tree NP West",
+    "Southeast Gila County"
    ],
    "counties": [
     "04007",
@@ -888,7 +895,7 @@
    "sent": "2026-11-20T06:13:00Z",
    "onset": "2026-11-21T07:00:00Z",
    "ends": "2026-11-21T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ad25dab50f7d3c2994d7e7435d547346f1000a4.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
