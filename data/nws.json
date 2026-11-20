@@ -1191,182 +1191,6 @@
    ]
   },
   {
-   "id": "KREV.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Reno NV",
-   "areas": [
-    "Greater Lake Tahoe Area",
-    "Greater Lake Tahoe Area",
-    "Lassen-Eastern Plumas-Eastern Sierra Counties"
-   ],
-   "counties": [
-    "06003",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06091",
-    "32005",
-    "32031",
-    "32510"
-   ],
-   "sent": "2026-11-20T04:18:00Z",
-   "onset": "2026-11-20T04:18:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c4aec389f4413c9c0d83724656f08030f3862b3.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -119.609,
-     38.9051
-    ],
-    [
-     -119.6633,
-     40.7313
-    ],
-    [
-     -119.7474,
-     39.1531
-    ]
-   ],
-   "lon": -120.281,
-   "lat": 39.484,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSTO.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Lassen Volcanic National Park",
-    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
-    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
-    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
-    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
-    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
-    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
-    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
-   ],
-   "counties": [
-    "06003",
-    "06005",
-    "06007",
-    "06009",
-    "06017",
-    "06035",
-    "06057",
-    "06061",
-    "06063",
-    "06089",
-    "06091",
-    "06103",
-    "06109"
-   ],
-   "sent": "2026-11-20T04:50:00Z",
-   "onset": "2026-11-20T04:50:00Z",
-   "ends": "2026-11-20T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9442699eff66b236077fd28708db45b1927e0f56.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7984,
-     38.6218
-    ],
-    [
-     -120.6539,
-     38.4435
-    ],
-    [
-     -121.6032,
-     39.6653
-    ],
-    [
-     -120.5541,
-     38.1911
-    ],
-    [
-     -120.5342,
-     38.7856
-    ],
-    [
-     -120.6212,
-     40.7153
-    ],
-    [
-     -120.7713,
-     39.2975
-    ],
-    [
-     -120.7227,
-     39.062
-    ],
-    [
-     -120.8244,
-     39.9923
-    ],
-    [
-     -122.0436,
-     40.7605
-    ],
-    [
-     -120.522,
-     39.5769
-    ],
-    [
-     -122.2323,
-     40.1262
-    ],
-    [
-     -119.9647,
-     38.0214
-    ]
-   ],
-   "lon": -120.834,
-   "lat": 39.328,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1564,6 +1388,182 @@
    ],
    "lon": -119.465,
    "lat": 36.857,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KREV.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Reno NV",
+   "areas": [
+    "Lassen-Eastern Plumas-Eastern Sierra Counties",
+    "Greater Lake Tahoe Area",
+    "Greater Lake Tahoe Area"
+   ],
+   "counties": [
+    "06003",
+    "06017",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06091",
+    "32005",
+    "32031",
+    "32510"
+   ],
+   "sent": "2026-11-20T09:45:00Z",
+   "onset": "2026-11-20T09:45:00Z",
+   "ends": "2026-11-20T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23db2ea2cabf51e38acb502a987cb3e434600a73.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -119.609,
+     38.9051
+    ],
+    [
+     -119.6633,
+     40.7313
+    ],
+    [
+     -119.7474,
+     39.1531
+    ]
+   ],
+   "lon": -120.281,
+   "lat": 39.484,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Lassen Volcanic National Park",
+    "Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft",
+    "Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80",
+    "Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80",
+    "Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50",
+    "Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50",
+    "Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft",
+    "Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft"
+   ],
+   "counties": [
+    "06003",
+    "06005",
+    "06007",
+    "06009",
+    "06017",
+    "06035",
+    "06057",
+    "06061",
+    "06063",
+    "06089",
+    "06091",
+    "06103",
+    "06109"
+   ],
+   "sent": "2026-11-20T09:58:00Z",
+   "onset": "2026-11-20T09:58:00Z",
+   "ends": "2026-11-20T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5546a50c2325633a3cf85fddae926f88df6fa16d.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7984,
+     38.6218
+    ],
+    [
+     -120.6539,
+     38.4435
+    ],
+    [
+     -121.6032,
+     39.6653
+    ],
+    [
+     -120.5541,
+     38.1911
+    ],
+    [
+     -120.5342,
+     38.7856
+    ],
+    [
+     -120.6212,
+     40.7153
+    ],
+    [
+     -120.7713,
+     39.2975
+    ],
+    [
+     -120.7227,
+     39.062
+    ],
+    [
+     -120.8244,
+     39.9923
+    ],
+    [
+     -122.0436,
+     40.7605
+    ],
+    [
+     -120.522,
+     39.5769
+    ],
+    [
+     -122.2323,
+     40.1262
+    ],
+    [
+     -119.9647,
+     38.0214
+    ]
+   ],
+   "lon": -120.834,
+   "lat": 39.328,
    "countries": [
     "US"
    ]
