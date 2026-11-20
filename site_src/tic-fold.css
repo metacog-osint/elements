@@ -1,11 +1,24 @@
-/*! tic-fold.css v1.1 · pairs with tic-fold.js (canonical copy in the hub's site/shared/).
+/*! tic-fold.css v2.0 · pairs with tic-fold.js (canonical copy in the hub's site/shared/).
     SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
     copied into, whatever that repository's own licence.
-    Takes the page's own colours: --panel (else --bg), --line, --muted and --link if the page has them, so each
-    product keeps its own colours. The button is at least 44 px tall (WCAG 2.2 target size). Nothing moves. */
-.tic-fold-on .tic-fold-x, .tic-fold-miss { display: none; }
-.tic-fold-bar, .tic-fold-find { --tf-bg: var(--panel, var(--bg, transparent)); --tf-line: var(--line, rgba(127, 127, 127, .45));
+    Takes the page's own colours: --panel (else --bg, else the browser's Canvas), --line, --muted and --link if the
+    page has them, so each product keeps its own colours. The header row's background has low specificity
+    (:where), so a site's own `.tbl th { background }` wins. The button is at least 44 px tall (WCAG 2.2 target
+    size). Nothing moves. */
+.tic-fold-box, .tic-fold-bar, .tic-fold-find { --tf-bg: var(--panel, var(--bg, Canvas)); --tf-line: var(--line, rgba(127, 127, 127, .45));
   --tf-muted: var(--muted, inherit); --tf-on: var(--link, currentColor); }
+.tic-fold-miss { display: none; }
+/* The window: about ten rows tall (the script measures them into --tic-fold-h; 26em until it has), never past
+   three quarters of the screen; the header row stays at its top. */
+.tic-fold-win { max-height: min(var(--tic-fold-h, 26em), 75vh); overflow-y: auto; border: 1px solid var(--tf-line);
+  border-radius: 6px; }
+/* A list or cards (not a table, whose cells have their own padding) stand off the window's border. */
+.tic-fold-win:not(:has(> table)) { padding-inline: 8px; }
+.tic-fold-win thead th, .tic-fold-win thead td { position: sticky; top: 0; z-index: 1; }
+:where(.tic-fold-win) thead th, :where(.tic-fold-win) thead td { background: var(--tf-bg); box-shadow: 0 1px 0 var(--tf-line); }
+/* A link to a row lands just under the header row, not behind it. */
+.tic-fold-win tbody tr, .tic-fold-win > * > * { scroll-margin-top: var(--tic-fold-head, 0px); }
+.tic-fold-win:focus-visible { outline: 2px solid var(--tf-on); outline-offset: 2px; }
 .tic-fold-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 8px 0 4px; }
 .tic-fold-bar[hidden], .tic-fold-find[hidden], .tic-fold-more[hidden] { display: none; }
 .tic-fold-more { min-height: 44px; padding: 8px 14px; font: inherit; font-size: 14px; font-weight: 600;
@@ -18,6 +31,7 @@
 .tic-fold-find input { min-height: 36px; min-width: 12em; max-width: 100%; padding: 4px 8px; font: inherit;
   color: inherit; background: var(--tf-bg); border: 1px solid var(--tf-line); border-radius: 6px; }
 @media print {
-  .tic-fold-on .tic-fold-x { display: revert; }
+  .tic-fold-win { max-height: none; overflow: visible; border: 0; }
+  .tic-fold-win thead th, .tic-fold-win thead td { position: static; }
   .tic-fold-bar, .tic-fold-find { display: none; }
 }
