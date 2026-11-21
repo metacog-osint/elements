@@ -34,11 +34,12 @@ USGS = {"type": "FeatureCollection", "features": [
 ]}
 
 
-def gd(etype, eid, name, alert, episode_alert, sev_text, sev_value, unit="", lon=80.0, lat=15.0, current="true"):
+def gd(etype, eid, name, alert, episode_alert, sev_text, sev_value, unit="", lon=80.0, lat=15.0, current="true",
+       country="India"):
     return {"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]},
             "properties": {"eventtype": etype, "eventid": eid, "episodeid": 3, "name": name, "alertlevel": alert,
                            "episodealertlevel": episode_alert, "alertscore": 2, "fromdate": "2026-10-26T00:00:00",
-                           "todate": "2026-10-28T06:00:00", "iscurrent": current, "country": "India",
+                           "todate": "2026-10-28T06:00:00", "iscurrent": current, "country": country,
                            "severitydata": {"severity": sev_value, "severitytext": sev_text, "severityunit": unit},
                            "url": {"report": f"https://www.gdacs.org/report.aspx?eventid={eid}&eventtype={etype}"}}}
 
@@ -106,6 +107,48 @@ class Sources(unittest.TestCase):
         self.assertEqual(tc["from"], "2026-10-26T00:00:00Z")
         self.assertTrue(tc["current"])
         self.assertNotIn("  ", e["DR-1002"]["name"])
+
+    def test_gdacs_event_carries_every_country_it_names(self):
+        # DR-1027450 on 21 Nov 2026: the point is in Ethiopia, the text names thirteen countries.
+        named = ("Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, "
+                 "Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda")
+        doc = {"features": [
+            gd("DR", 1027450, "Drought in " + named, "Orange", "Orange", "Medium impact", 1435673.0, "km2", 39.5, 6.5,
+               country=named),
+            gd("DR", 1018344, "Drought", "Green", "Green", "Low impact", 1.0, "km2", 11.5, -1.0,
+               country="Angola, Democratic Republic of Congo, Republic of Congo, Cameroon, Gabon, Equatorial Guinea"),
+            gd("DR", 1023877, "Drought", "Orange", "Orange", "Medium impact", 1.0, "km2", -66.0, 7.0,
+               country="Aruba, , Brazil, French Guiana, Venezuela"),                 # an empty name, a territory
+            gd("FL", 1104292, "Flood in TÃ¼rkiye", "Green", "Green", "Magnitude 0 ", 0.0, "", 37.4, 36.97,
+               country="TÃ¼rkiye"),                                      # GDACS's UTF-8 read as Latin-1
+            gd("TC", 1001350, "Tropical Cyclone", "Green", "Green", "Tropical Storm", 80.0, "km/h", -165.0, -15.0,
+               country="Cook Islands, American Samoa"),                              # open sea under the point
+            gd("FL", 1104291, "Flood in Iran", "Green", "Green", "Magnitude 0 ", 0.0, "", 51.9, 36.3,
+               country="Islamic Republic of Iran, Atlantis"),                         # an unknown name is left out
+        ]}
+        e = {x["id"]: x for x in sources.parse_gdacs(doc)}
+        dr = e["DR-1027450"]["countries"]
+        self.assertEqual(dr[0], "ET")                       # the country under the point stays first
+        self.assertEqual(sorted(dr), sorted(["ET", "BI", "CD", "CF", "CM", "ER", "KE", "RW", "SD", "SS", "TD", "TZ", "UG"]))
+        self.assertEqual(len(dr), len(set(dr)))
+        self.assertEqual(e["DR-1018344"]["countries"], ["GA", "AO", "CD", "CG", "CM", "GQ"])
+        self.assertEqual(e["DR-1023877"]["countries"], ["VE", "AW", "BR", "FR"])
+        self.assertEqual(e["FL-1104292"]["countries"], ["TR"])
+        self.assertEqual(sorted(e["TC-1001350"]["countries"]), ["AS", "CK"])
+        self.assertEqual(e["FL-1104291"]["countries"], ["IR"])
+        # one name, no list: the point's country, as before
+        self.assertEqual(sources.gdacs_countries("India", 86.0, 17.0), ["IN"])
+        self.assertEqual(sources.gdacs_countries(None, 80.0, 15.0), ["IN"])
+        self.assertEqual(sources.gdacs_countries("", -150.0, -30.0), [])
+
+    def test_gdacs_countries_reach_the_feed(self):
+        named = "Kenya, Ethiopia, Uganda"
+        d = {**dataset(), "gdacs": {"records": sources.parse_gdacs({"features": [
+            gd("DR", 1027450, "Drought in " + named, "Orange", "Orange", "Medium impact", 1.0, "km2", 39.5, 6.5,
+               country=named)]}), "fetched_at": FETCHED}}
+        fc = feed.build(d, NOW)
+        p = next(f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:gdacs:DR-1027450")
+        self.assertEqual(sorted(p["countries"]), ["ET", "KE", "UG"])
 
     def test_gdacs_merge_and_empty(self):
         got, err = sources.collect_gdacs([], NOW, fake_fetch([(json.dumps(GDACS_HIGH).encode(), None),
