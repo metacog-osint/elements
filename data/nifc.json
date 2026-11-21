@@ -174,7 +174,7 @@
    "acres": 1808.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T16:31:32Z",
+   "updated": "2026-11-21T16:58:04Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -202,7 +202,7 @@
    "acres": 800.0,
    "contained": null,
    "discovered": "2026-11-20T16:47:15Z",
-   "updated": "2026-11-21T14:59:33Z",
+   "updated": "2026-11-21T16:56:54Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -650,7 +650,7 @@
    "acres": 6.0,
    "contained": null,
    "discovered": "2026-11-20T18:20:00Z",
-   "updated": "2026-11-21T03:52:47Z",
+   "updated": "2026-11-21T17:02:26Z",
    "state": "ME",
    "county": "Oxford",
    "cause": "Human",
@@ -741,20 +741,6 @@
    "complexity": null,
    "lon": -89.8687,
    "lat": 45.9591
-  },
-  {
-   "id": "{1EF476E5-4449-4134-93BF-A894A60C3498}",
-   "name": "Oscoda-12 Corn Cob",
-   "acres": 2.4,
-   "contained": null,
-   "discovered": "2026-11-17T17:45:00Z",
-   "updated": "2026-11-18T17:02:10Z",
-   "state": "MI",
-   "county": "Oscoda",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -84.1802,
-   "lat": 44.7222
   },
   {
    "id": "{92787A7A-156C-4C32-AC9A-C1F499439AD8}",
@@ -951,6 +937,20 @@
    "complexity": null,
    "lon": -89.1555,
    "lat": 45.8129
+  },
+  {
+   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
+   "name": "Floyd County - Hunter",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-21T15:30:00Z",
+   "updated": "2026-11-21T16:47:07Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.7365,
+   "lat": 37.5026
   },
   {
    "id": "{261035EB-B93E-42D4-B20B-88419EDE712A}",
@@ -1595,20 +1595,6 @@
    "complexity": null,
    "lon": -84.5265,
    "lat": 34.6809
-  },
-  {
-   "id": "{38569096-C915-492E-86E5-DDE96BBD2731}",
-   "name": "Talcott Gulch",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T21:26:06Z",
-   "updated": "2026-11-20T22:38:57Z",
-   "state": "CO",
-   "county": "El Paso",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -105.0124,
-   "lat": 38.9755
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",

@@ -1,6 +1,69 @@
 {
  "records": [
   {
+   "id": "KMFL.TO.W.0002.2026",
+   "event": "Tornado Warning",
+   "severity": "Extreme",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Broward, FL",
+    "Miami-Dade, FL"
+   ],
+   "counties": [
+    "12011",
+    "12086"
+   ],
+   "sent": "2026-11-21T16:57:00Z",
+   "onset": "2026-11-21T16:57:00Z",
+   "ends": "2026-11-21T17:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb9ac67350a22b27dd1db3f65b496f2fdae8b1dc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.38,
+       25.85
+      ],
+      [
+       -80.42,
+       25.96
+      ],
+      [
+       -80.27,
+       26.03
+      ],
+      [
+       -80.18,
+       25.88
+      ],
+      [
+       -80.38,
+       25.85
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ]
+   ],
+   "lon": -80.326,
+   "lat": 25.914,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -866,349 +929,119 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0382.2026",
+   "id": "KMFL.MA.W.0385.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Miami FL",
    "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM",
     "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
    ],
    "counties": [
-    "75651",
+    "75670",
     "75671"
    ],
-   "sent": "2026-11-21T15:46:00Z",
-   "onset": "2026-11-21T15:46:00Z",
-   "ends": "2026-11-21T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84df59284590fb73c6733474845d0e0ae28cc0f1.001.1",
+   "sent": "2026-11-21T16:46:00Z",
+   "onset": "2026-11-21T16:46:00Z",
+   "ends": "2026-11-21T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc86c423dd5195cffa1e903aecd9cf239ed52a22.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
+       -79.09,
+       26.18
+      ],
+      [
        -79.1,
        25.77
       ],
       [
-       -79.14,
-       25.61
+       -79.18,
+       25.48
       ],
       [
-       -79.88,
-       25.6
+       -79.65,
+       25.54
       ],
       [
-       -79.77,
-       26.03
+       -79.55,
+       26.49
+      ],
+      [
+       -79.04,
+       26.54
       ],
       [
        -79.09,
-       26.1
-      ],
-      [
-       -79.1,
-       25.77
+       26.18
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.347,
-   "lat": 25.813,
+   "lon": -79.243,
+   "lat": 26.026,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KMFL.MA.W.0383.2026",
+   "id": "KTBW.MA.W.0236.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Miami FL",
+   "sender": "NWS Tampa Bay Ruskin FL",
    "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+    "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
+    "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+    "Waters from Bonita Beach to Englewood FL out 20 to 60 NM"
    ],
    "counties": [
-    "75651",
-    "75671"
+    "77853",
+    "77856",
+    "77876"
    ],
-   "sent": "2026-11-21T15:47:00Z",
-   "onset": "2026-11-21T15:47:00Z",
-   "ends": "2026-11-21T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2319fe2e8484ac8e780aadf58d38488549c3c132.001.1",
+   "sent": "2026-11-21T17:01:00Z",
+   "onset": "2026-11-21T17:01:00Z",
+   "ends": "2026-11-21T17:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5516dbc81c1155128c08ea67b49606bd08937d0.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.96,
-       25.13
+       -82.71,
+       26.41
       ],
       [
-       -80.16,
-       25.26
+       -82.86,
+       26.63
       ],
       [
-       -80.05,
-       25.56
+       -82.47,
+       26.93
       ],
       [
-       -79.68,
-       25.29
+       -82.25,
+       26.62
       ],
       [
-       -79.9,
-       25.07
-      ],
-      [
-       -79.96,
-       25.13
+       -82.71,
+       26.41
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.952,
-   "lat": 25.24,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0407.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Florida Bay including Barnes Sound, Blackwater Sound, and Buttonwood Sound",
-    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
-    "Straits of Florida from Ocean Reef to Craig Key out 20 NM"
-   ],
-   "counties": [
-    "77031",
-    "77042",
-    "77052"
-   ],
-   "sent": "2026-11-21T16:11:00Z",
-   "onset": "2026-11-21T16:11:00Z",
-   "ends": "2026-11-21T16:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e6ab847be43bf1401279f1cd2af8f7f56e2c851.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.12,
-       25.24
-      ],
-      [
-       -80.26,
-       25.16
-      ],
-      [
-       -80.33,
-       25.22
-      ],
-      [
-       -80.33,
-       25.23
-      ],
-      [
-       -80.34,
-       25.23
-      ],
-      [
-       -80.39,
-       25.27
-      ],
-      [
-       -80.37,
-       25.29
-      ],
-      [
-       -80.35,
-       25.28
-      ],
-      [
-       -80.34,
-       25.26
-      ],
-      [
-       -80.33,
-       25.27
-      ],
-      [
-       -80.34,
-       25.24
-      ],
-      [
-       -80.32,
-       25.23
-      ],
-      [
-       -80.28,
-       25.3
-      ],
-      [
-       -80.27,
-       25.32
-      ],
-      [
-       -80.25,
-       25.32
-      ],
-      [
-       -80.12,
-       25.24
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.296,
-   "lat": 25.256,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.MA.W.0274.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Waters from Altamaha Sound GA to Fernandina Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "75470"
-   ],
-   "sent": "2026-11-21T16:15:00Z",
-   "onset": "2026-11-21T16:15:00Z",
-   "ends": "2026-11-21T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64e78b086ac440235b9db972b310e666afd36070.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.59,
-       30.99
-      ],
-      [
-       -80.6,
-       31.18
-      ],
-      [
-       -80.28,
-       31.11
-      ],
-      [
-       -80.29,
-       31.07
-      ],
-      [
-       -80.29,
-       31.03
-      ],
-      [
-       -80.3,
-       31
-      ],
-      [
-       -80.31,
-       30.98
-      ],
-      [
-       -80.32,
-       30.93
-      ],
-      [
-       -80.34,
-       30.91
-      ],
-      [
-       -80.35,
-       30.88
-      ],
-      [
-       -80.35,
-       30.86
-      ],
-      [
-       -80.59,
-       30.99
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.384,
-   "lat": 30.994,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0384.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75651"
-   ],
-   "sent": "2026-11-21T16:22:00Z",
-   "onset": "2026-11-21T16:22:00Z",
-   "ends": "2026-11-21T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.674f165f2d90e561825345b24e874d4f5668f9f6.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.93,
-       25.69
-      ],
-      [
-       -80.1,
-       25.77
-      ],
-      [
-       -80.04,
-       25.96
-      ],
-      [
-       -79.83,
-       25.89
-      ],
-      [
-       -79.93,
-       25.69
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.966,
-   "lat": 25.8,
+   "lon": -82.6,
+   "lat": 26.6,
    "countries": [
     "US"
    ]
