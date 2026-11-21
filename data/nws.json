@@ -76,12 +76,12 @@
    "certainty": "Likely",
    "sender": "NWS Jacksonville FL",
    "areas": [
+    "Coastal Flagler",
     "Inland Flagler",
-    "Eastern Putnam",
     "Eastern Clay",
+    "Eastern Putnam",
     "South Central Duval",
-    "Western St. Johns",
-    "Coastal Flagler"
+    "Western St. Johns"
    ],
    "counties": [
     "12019",
@@ -90,10 +90,10 @@
     "12107",
     "12109"
    ],
-   "sent": "2026-11-21T06:30:00Z",
-   "onset": "2026-11-21T06:30:00Z",
+   "sent": "2026-11-21T14:33:00Z",
+   "onset": "2026-11-21T14:33:00Z",
    "ends": "2026-11-22T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6fa5086145354d0ed1a90a690364b8badc81719.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b35023e87a3125423830efe18304070444a2e4fb.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -954,18 +954,18 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula"
+    "Interior Seward Peninsula",
+    "St Lawrence Island"
    ],
    "counties": [
     "02180"
    ],
    "sent": "2026-11-20T21:55:00Z",
-   "onset": "2026-11-23T03:00:00Z",
+   "onset": "2026-11-22T21:00:00Z",
    "ends": "2026-11-23T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -976,78 +976,6 @@
    ],
    "lon": -164.189,
    "lat": 64.784,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0405.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms"
-   ],
-   "counties": [
-    "77033"
-   ],
-   "sent": "2026-11-21T13:54:00Z",
-   "onset": "2026-11-21T13:54:00Z",
-   "ends": "2026-11-21T14:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a00c67fc3e0b2b9a4728b2aa9e7b79dd9aca66c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.53,
-       25.3
-      ],
-      [
-       -81.52,
-       25.27
-      ],
-      [
-       -81.53,
-       25.21
-      ],
-      [
-       -81.52,
-       25.18
-      ],
-      [
-       -81.51,
-       25.14
-      ],
-      [
-       -81.5,
-       25.13
-      ],
-      [
-       -81.59,
-       25.12
-      ],
-      [
-       -81.64,
-       25.29
-      ],
-      [
-       -81.53,
-       25.33
-      ],
-      [
-       -81.53,
-       25.3
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.54,
-   "lat": 25.227,
    "countries": [
     "US"
    ]
