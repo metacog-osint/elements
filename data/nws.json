@@ -866,108 +866,6 @@
    ]
   },
   {
-   "id": "KJAX.MA.W.0273.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal waters from Altamaha Sound to Fernandina Beach FL out 20 NM",
-    "Waters from Altamaha Sound GA to Fernandina Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "75450",
-    "75470"
-   ],
-   "sent": "2026-11-21T15:21:00Z",
-   "onset": "2026-11-21T15:21:00Z",
-   "ends": "2026-11-21T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bdcc9a4253fee83880dbd7c6707c3b16a9183481.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.91,
-       30.98
-      ],
-      [
-       -81.14,
-       31.27
-      ],
-      [
-       -80.85,
-       31.22
-      ],
-      [
-       -80.85,
-       31.23
-      ],
-      [
-       -80.28,
-       31.11
-      ],
-      [
-       -80.29,
-       31.07
-      ],
-      [
-       -80.29,
-       31.03
-      ],
-      [
-       -80.3,
-       31
-      ],
-      [
-       -80.31,
-       30.98
-      ],
-      [
-       -80.32,
-       30.93
-      ],
-      [
-       -80.34,
-       30.91
-      ],
-      [
-       -80.35,
-       30.88
-      ],
-      [
-       -80.35,
-       30.86
-      ],
-      [
-       -80.37,
-       30.83
-      ],
-      [
-       -80.39,
-       30.79
-      ],
-      [
-       -80.4,
-       30.76
-      ],
-      [
-       -80.91,
-       30.98
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.509,
-   "lat": 30.99,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0382.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1084,59 +982,233 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0406.2026",
+   "id": "KKEY.MA.W.0407.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Straits of Florida from Ocean Reef to Craig Key out 20 NM",
-    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out"
+    "Florida Bay including Barnes Sound, Blackwater Sound, and Buttonwood Sound",
+    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
+    "Straits of Florida from Ocean Reef to Craig Key out 20 NM"
    ],
    "counties": [
-    "77052",
-    "77072"
+    "77031",
+    "77042",
+    "77052"
    ],
-   "sent": "2026-11-21T16:02:00Z",
-   "onset": "2026-11-21T16:02:00Z",
-   "ends": "2026-11-21T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a44dd8bdc9401f2e1d8eb2a03c2d25aed00ecab6.001.1",
+   "sent": "2026-11-21T16:11:00Z",
+   "onset": "2026-11-21T16:11:00Z",
+   "ends": "2026-11-21T16:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e6ab847be43bf1401279f1cd2af8f7f56e2c851.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.95,
-       25.13
+       -80.12,
+       25.24
       ],
       [
-       -79.95,
-       25.12
+       -80.26,
+       25.16
       ],
       [
-       -80.02,
-       25.09
+       -80.33,
+       25.22
       ],
       [
-       -80.19,
-       25.2
+       -80.33,
+       25.23
       ],
       [
-       -80.14,
-       25.25
+       -80.34,
+       25.23
       ],
       [
-       -79.95,
-       25.13
+       -80.39,
+       25.27
+      ],
+      [
+       -80.37,
+       25.29
+      ],
+      [
+       -80.35,
+       25.28
+      ],
+      [
+       -80.34,
+       25.26
+      ],
+      [
+       -80.33,
+       25.27
+      ],
+      [
+       -80.34,
+       25.24
+      ],
+      [
+       -80.32,
+       25.23
+      ],
+      [
+       -80.28,
+       25.3
+      ],
+      [
+       -80.27,
+       25.32
+      ],
+      [
+       -80.25,
+       25.32
+      ],
+      [
+       -80.12,
+       25.24
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.033,
-   "lat": 25.153,
+   "lon": -80.296,
+   "lat": 25.256,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.MA.W.0274.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Waters from Altamaha Sound GA to Fernandina Beach FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "75470"
+   ],
+   "sent": "2026-11-21T16:15:00Z",
+   "onset": "2026-11-21T16:15:00Z",
+   "ends": "2026-11-21T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64e78b086ac440235b9db972b310e666afd36070.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.59,
+       30.99
+      ],
+      [
+       -80.6,
+       31.18
+      ],
+      [
+       -80.28,
+       31.11
+      ],
+      [
+       -80.29,
+       31.07
+      ],
+      [
+       -80.29,
+       31.03
+      ],
+      [
+       -80.3,
+       31
+      ],
+      [
+       -80.31,
+       30.98
+      ],
+      [
+       -80.32,
+       30.93
+      ],
+      [
+       -80.34,
+       30.91
+      ],
+      [
+       -80.35,
+       30.88
+      ],
+      [
+       -80.35,
+       30.86
+      ],
+      [
+       -80.59,
+       30.99
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.384,
+   "lat": 30.994,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0384.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75651"
+   ],
+   "sent": "2026-11-21T16:22:00Z",
+   "onset": "2026-11-21T16:22:00Z",
+   "ends": "2026-11-21T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.674f165f2d90e561825345b24e874d4f5668f9f6.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.93,
+       25.69
+      ],
+      [
+       -80.1,
+       25.77
+      ],
+      [
+       -80.04,
+       25.96
+      ],
+      [
+       -79.83,
+       25.89
+      ],
+      [
+       -79.93,
+       25.69
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.966,
+   "lat": 25.8,
    "countries": [
     "US"
    ]
