@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "pr2026325000",
+   "mag": 4.6,
+   "place": "18 km ESE of La Romana, Dominican Republic",
+   "time": "2026-11-21T15:00:13Z",
+   "updated": "2026-11-21T15:50:44Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 327,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+   "depth_km": 104.0,
+   "lon": -68.826,
+   "lat": 18.342,
+   "countries": []
+  },
+  {
    "id": "us6000ucly",
    "mag": 5.9,
    "place": "238 km SW of Yanglong, China",
@@ -131,10 +146,10 @@
    "mag": 6.7,
    "place": "9 km NE of Carhuamayo, Peru",
    "time": "2026-11-21T00:09:19Z",
-   "updated": "2026-11-21T11:31:51Z",
+   "updated": "2026-11-21T15:37:06Z",
    "alert": "green",
    "tsunami": true,
-   "sig": 747,
+   "sig": 748,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
    "depth_km": 108.0,
    "lon": -75.978,
@@ -1511,23 +1526,6 @@
    "lat": -24.049,
    "countries": [
     "AR"
-   ]
-  },
-  {
-   "id": "us7000ty9l",
-   "mag": 4.9,
-   "place": "7 km SE of Tagbina, Philippines",
-   "time": "2026-11-14T16:04:22Z",
-   "updated": "2026-11-14T16:51:47Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 369,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
-   "depth_km": 154.1,
-   "lon": 126.211,
-   "lat": 8.4,
-   "countries": [
-    "PH"
    ]
   }
  ]
