@@ -1281,74 +1281,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0399.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms"
-   ],
-   "counties": [
-    "77033"
-   ],
-   "sent": "2026-11-21T09:10:00Z",
-   "onset": "2026-11-21T09:10:00Z",
-   "ends": "2026-11-21T09:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dceb1ff56a93f685c8ed79bb73603ce5a1f492a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.23,
-       25.35
-      ],
-      [
-       -82.5,
-       25.27
-      ],
-      [
-       -82.55,
-       25.36
-      ],
-      [
-       -82.57,
-       25.37
-      ],
-      [
-       -82.59,
-       25.41
-      ],
-      [
-       -82.62,
-       25.46
-      ],
-      [
-       -82.6,
-       25.47
-      ],
-      [
-       -82.31,
-       25.53
-      ],
-      [
-       -82.23,
-       25.35
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.467,
-   "lat": 25.397,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTBW.MA.W.0234.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1459,105 +1391,91 @@
    ]
   },
   {
-   "id": "KTBW.MA.W.0235.2026",
+   "id": "KKEY.MA.W.0400.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
+   "sender": "NWS Key West FL",
    "areas": [
-    "Coastal waters from Englewood to Tarpon Springs FL out 20 NM"
+    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms"
    ],
    "counties": [
-    "77853"
+    "77032",
+    "77033",
+    "77034",
+    "77035"
    ],
-   "sent": "2026-11-21T09:27:00Z",
-   "onset": "2026-11-21T09:27:00Z",
-   "ends": "2026-11-21T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4e38bc66d1f919276720fa81f8943ebd12a7c59.001.1",
+   "sent": "2026-11-21T09:38:00Z",
+   "onset": "2026-11-21T09:38:00Z",
+   "ends": "2026-11-21T10:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1e43e1785b4dba18287151bcae3ff346db3795b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.33,
-       26.9
+       -81.8,
+       25.53
       ],
       [
-       -82.34,
-       26.9
+       -81.67,
+       25.51
       ],
       [
-       -82.33,
-       26.91
+       -81.53,
+       25.37
       ],
       [
-       -82.36,
-       26.92
+       -81.52,
+       25.15
       ],
       [
-       -82.33,
-       26.92
+       -81.46,
+       25.1
       ],
       [
-       -82.36,
-       26.95
+       -81.85,
+       24.95
       ],
       [
-       -82.37,
-       26.95
+       -83,
+       24.95
       ],
       [
-       -82.35,
-       26.93
+       -83.05,
+       25.02
       ],
       [
-       -82.38,
-       26.95
-      ],
-      [
-       -82.41,
-       26.94
-      ],
-      [
-       -82.59,
-       27.08
-      ],
-      [
-       -82.8,
-       27.07
-      ],
-      [
-       -82.68,
-       27.46
-      ],
-      [
-       -82.59,
-       27.47
-      ],
-      [
-       -82.46,
-       27.35
-      ],
-      [
-       -82.46,
-       27.26
-      ],
-      [
-       -82.3,
-       26.95
+       -82.32,
+       25.03
       ],
       [
        -82.33,
-       26.9
+       25.06
+      ],
+      [
+       -82.62,
+       25.46
+      ],
+      [
+       -81.95,
+       25.6
+      ],
+      [
+       -81.8,
+       25.53
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.432,
-   "lat": 27.045,
+   "lon": -82.069,
+   "lat": 25.251,
    "countries": [
     "US"
    ]
