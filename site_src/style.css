@@ -57,6 +57,23 @@ a { color: var(--link); }
 .legend .ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--cems); margin-right: 4px; vertical-align: -2px; }
 .legend .lg-icon { display: inline-block; width: 26px; margin-right: 4px; }
 #map { height: min(62vh, 560px); min-height: 340px; background: var(--sea); }
+/* GDACS alert list beside the map (below it on narrow screens): the route to markers too small to tap */
+.map-row { display: grid; grid-template-columns: minmax(0, 1fr); }
+.gd-side { padding: 12px 14px; border-top: 1px solid var(--line); min-width: 0; }
+.gd-side h2 { margin: 0 0 4px; font-size: 16px; }
+.gd-side p { margin: 0 0 8px; }
+.gd-show { display: block; box-sizing: border-box; min-height: 28px; min-width: 24px; padding: 3px 8px; font: inherit; font-size: 13px;
+  color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 4px; cursor: pointer; }
+.gd-show:hover { background: var(--line); }
+@media (min-width: 1000px) {
+  .map-row { grid-template-columns: minmax(0, 1fr) 360px; align-items: start; }
+  .gd-side { border-top: 0; border-left: 1px solid var(--line); }
+  /* The folded window ends level with the map; "Show all" still opens the full list. */
+  .gd-side .tic-fold-win { max-height: max(180px, calc(min(62vh, 560px) - 210px)); }
+  .gd-side td a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+  /* The shared "about ten in view" note doesn't hold in this shorter window; "Show all N" still gives the total. */
+  .gd-side .tic-fold-note { display: none; }
+}
 .leaflet-container { background: var(--sea); font: inherit; }
 .leaflet-tooltip { font-size: 13px; width: max-content; max-width: min(320px, 80vw); white-space: normal; }
 .tip { white-space: pre-line; }
