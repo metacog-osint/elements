@@ -63,7 +63,14 @@
       </fieldset>
       <div class="legend" id="legend"></div>
     </div>
-    <div id="map" role="region" aria-label="Map of natural-hazard alerts"></div>
+    <div class="map-row">
+      <div id="map" role="region" aria-label="Map of natural-hazard alerts"></div>
+      <aside class="gd-side" aria-labelledby="gd-list-h">
+        <h2 id="gd-list-h">GDACS alerts, past 14 days<span id="gd-count"></span></h2>
+        <p class="muted small">Strongest first, then newest. Each colour is the highest the event has reached.</p>
+        <div id="gd-list"></div>
+      </aside>
+    </div>
     <p id="area-note" class="muted small" aria-live="polite"></p>
   </section>
 
