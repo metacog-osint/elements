@@ -1286,6 +1286,72 @@
    ]
   },
   {
+   "id": "KMFL.MA.W.0392.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75650",
+    "75651"
+   ],
+   "sent": "2026-11-21T21:19:00Z",
+   "onset": "2026-11-21T21:19:00Z",
+   "ends": "2026-11-21T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1dbd8c8881fc066f147b497cccc82dd698012eb.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.83,
+       26.21
+      ],
+      [
+       -80.12,
+       26.24
+      ],
+      [
+       -80.11,
+       26.31
+      ],
+      [
+       -80.08,
+       26.78
+      ],
+      [
+       -80.15,
+       26.95
+      ],
+      [
+       -80.14,
+       26.97
+      ],
+      [
+       -79.79,
+       26.97
+      ],
+      [
+       -79.83,
+       26.21
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.006,
+   "lat": 26.58,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.3863.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1460,6 +1526,36 @@
    "onset": "2026-11-23T18:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98183fed2d4c21d2a4bd643a4533adc2a891f22b.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.A.0003.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-21T21:06:00Z",
+   "onset": "2026-11-23T18:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4624c1ac71dc9f74782216c4fec231ebfc08f630.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
