@@ -45,6 +45,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104291",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Islamic Republic of Iran",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-16T01:00:00Z",
+   "to": "2026-11-18T01:00:00Z",
+   "current": true,
+   "country": "Islamic Republic of Iran",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104291&episodeid=1&eventtype=FL",
+   "lon": 51.897,
+   "lat": 36.316,
+   "countries": [
+    "IR"
+   ]
+  },
+  {
    "id": "FL-1104289",
    "type": "FL",
    "kind": "flood",
@@ -615,7 +638,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 50,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -623,13 +646,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-24T01:00:00Z",
-   "to": "2026-11-20T01:00:00Z",
+   "to": "2026-11-21T01:00:00Z",
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=50&eventtype=FL",
+   "lon": 106.138,
+   "lat": -6.445,
    "countries": [
     "ID"
    ]

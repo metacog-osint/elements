@@ -1186,18 +1186,18 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula"
+    "Interior Seward Peninsula",
+    "St Lawrence Island"
    ],
    "counties": [
     "02180"
    ],
    "sent": "2026-11-20T21:55:00Z",
-   "onset": "2026-11-23T03:00:00Z",
+   "onset": "2026-11-22T21:00:00Z",
    "ends": "2026-11-23T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1213,103 +1213,69 @@
    ]
   },
   {
-   "id": "KTBW.MA.W.0232.2026",
+   "id": "KMFL.MA.W.0375.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
+   "sender": "NWS Miami FL",
    "areas": [
-    "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
-    "Waters from Bonita Beach to Englewood FL out 20 to 60 NM"
+    "Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM",
+    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM",
+    "Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM"
    ],
    "counties": [
-    "77856",
-    "77876"
+    "77656",
+    "77657",
+    "77676"
    ],
-   "sent": "2026-11-21T07:45:00Z",
-   "onset": "2026-11-21T07:45:00Z",
-   "ends": "2026-11-21T09:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2598522953f168f222e8b8c40b6370fb504f8661.001.1",
+   "sent": "2026-11-21T09:10:00Z",
+   "onset": "2026-11-21T09:10:00Z",
+   "ends": "2026-11-21T10:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5d6821f4380b3624ae76356e27862df02e11407.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.92,
-       25.97
+       -81.91,
+       26.31
       ],
       [
-       -82.98,
-       26.12
+       -81.55,
+       25.59
       ],
       [
-       -83.27,
-       26.67
+       -81.8,
+       25.53
       ],
       [
-       -83.18,
-       26.74
+       -81.96,
+       25.6
       ],
       [
        -82.62,
-       26.88
+       25.47
       ],
       [
-       -82.26,
-       26.74
-      ],
-      [
-       -82.24,
-       26.68
-      ],
-      [
-       -82.2,
-       26.69
-      ],
-      [
-       -82.22,
-       26.68
-      ],
-      [
-       -82.21,
-       26.66
-      ],
-      [
-       -82.24,
-       26.67
-      ],
-      [
-       -82.24,
-       26.65
-      ],
-      [
-       -82.19,
-       26.51
-      ],
-      [
-       -82.14,
-       26.47
-      ],
-      [
-       -82.13,
-       26.47
-      ],
-      [
-       -82.15,
-       26.23
+       -82.69,
+       25.62
       ],
       [
        -82.92,
        25.97
+      ],
+      [
+       -81.91,
+       26.31
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.477,
-   "lat": 26.518,
+   "lon": -82.17,
+   "lat": 25.8,
    "countries": [
     "US"
    ]
@@ -1327,10 +1293,10 @@
    "counties": [
     "77033"
    ],
-   "sent": "2026-11-21T08:55:00Z",
-   "onset": "2026-11-21T08:55:00Z",
+   "sent": "2026-11-21T09:10:00Z",
+   "onset": "2026-11-21T09:10:00Z",
    "ends": "2026-11-21T09:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1dc65e76020bb1c82ef60b3cfd8ff65feb82981d.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dceb1ff56a93f685c8ed79bb73603ce5a1f492a.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1383,73 +1349,215 @@
    ]
   },
   {
-   "id": "KTBW.MA.W.0233.2026",
+   "id": "KTBW.MA.W.0234.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Tampa Bay Ruskin FL",
    "areas": [
-    "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
-    "Waters from Englewood to Tarpon Springs FL out 20 to 60 NM",
-    "Waters from Bonita Beach to Englewood FL out 20 to 60 NM"
+    "Charlotte Harbor and Pine Island Sound",
+    "Coastal waters from Bonita Beach to Englewood FL out 20 NM"
    ],
    "counties": [
-    "77853",
-    "77873",
-    "77876"
+    "77836",
+    "77856"
    ],
-   "sent": "2026-11-21T09:01:00Z",
-   "onset": "2026-11-21T09:01:00Z",
-   "ends": "2026-11-21T09:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3da12418b749ed15e2bc2568a934b332aa7f3bb.001.1",
+   "sent": "2026-11-21T09:12:00Z",
+   "onset": "2026-11-21T09:12:00Z",
+   "ends": "2026-11-21T10:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2b8944128e4f0c7447ea190ca42640214479867.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.49,
-       26.91
+       -81.89,
+       26.34
       ],
       [
-       -82.72,
+       -82.15,
+       26.23
+      ],
+      [
+       -82.32,
+       26.17
+      ],
+      [
+       -82.41,
+       26.23
+      ],
+      [
+       -82.47,
+       26.3
+      ],
+      [
+       -82.48,
+       26.53
+      ],
+      [
+       -82.7,
        26.86
       ],
       [
-       -82.71,
-       26.84
+       -82.38,
+       26.95
       ],
       [
-       -82.72,
-       26.85
+       -82.36,
+       26.95
       ],
       [
-       -82.88,
-       26.86
+       -82.38,
+       26.98
       ],
       [
-       -82.72,
-       27.28
+       -82.4,
+       26.98
       ],
       [
-       -82.46,
-       27.27
-      ],
-      [
-       -82.33,
+       -82.31,
        27
       ],
       [
-       -82.49,
-       26.91
+       -82.26,
+       26.92
+      ],
+      [
+       -82.13,
+       27.05
+      ],
+      [
+       -82.01,
+       26.97
+      ],
+      [
+       -81.99,
+       26.57
+      ],
+      [
+       -81.94,
+       26.52
+      ],
+      [
+       -81.89,
+       26.52
+      ],
+      [
+       -81.89,
+       26.34
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -82.613,
-   "lat": 26.976,
+   "lon": -82.229,
+   "lat": 26.653,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.MA.W.0235.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "Coastal waters from Englewood to Tarpon Springs FL out 20 NM"
+   ],
+   "counties": [
+    "77853"
+   ],
+   "sent": "2026-11-21T09:27:00Z",
+   "onset": "2026-11-21T09:27:00Z",
+   "ends": "2026-11-21T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4e38bc66d1f919276720fa81f8943ebd12a7c59.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.33,
+       26.9
+      ],
+      [
+       -82.34,
+       26.9
+      ],
+      [
+       -82.33,
+       26.91
+      ],
+      [
+       -82.36,
+       26.92
+      ],
+      [
+       -82.33,
+       26.92
+      ],
+      [
+       -82.36,
+       26.95
+      ],
+      [
+       -82.37,
+       26.95
+      ],
+      [
+       -82.35,
+       26.93
+      ],
+      [
+       -82.38,
+       26.95
+      ],
+      [
+       -82.41,
+       26.94
+      ],
+      [
+       -82.59,
+       27.08
+      ],
+      [
+       -82.8,
+       27.07
+      ],
+      [
+       -82.68,
+       27.46
+      ],
+      [
+       -82.59,
+       27.47
+      ],
+      [
+       -82.46,
+       27.35
+      ],
+      [
+       -82.46,
+       27.26
+      ],
+      [
+       -82.3,
+       26.95
+      ],
+      [
+       -82.33,
+       26.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.432,
+   "lat": 27.045,
    "countries": [
     "US"
    ]
