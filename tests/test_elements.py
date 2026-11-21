@@ -108,6 +108,23 @@ class Sources(unittest.TestCase):
         self.assertTrue(tc["current"])
         self.assertNotIn("  ", e["DR-1002"]["name"])
 
+    def test_gdacs_text_sent_as_utf8_read_as_latin1_is_repaired(self):
+        # GDACS's own JSON says "TÃ¼rkiye" for "Türkiye" (FL-1104292, 21 Nov 2026).
+        doc = {"features": [gd("FL", 1104292, "Flood in TÃ¼rkiye", "Green", "Green", "Magnitude 0 ", 0.0, "",
+                               37.4, 36.97, country="TÃ¼rkiye"),
+                            gd("FL", 1104293, "Flood in Curaçao", "Green", "Green", "Magnitude 0 ", 0.0, "",
+                               -68.9, 12.1, country="Curaçao")]}
+        e = {x["id"]: x for x in sources.parse_gdacs(doc)}
+        self.assertEqual(e["FL-1104292"]["name"], "Flood in Türkiye")
+        self.assertEqual(e["FL-1104292"]["country"], "Türkiye")
+        self.assertEqual(e["FL-1104292"]["countries"], ["TR"])
+        self.assertEqual(e["FL-1104293"]["name"], "Flood in Curaçao", "text that is already right is left alone")
+        d = {**dataset(), "gdacs": {"records": list(e.values()), "fetched_at": FETCHED}}
+        fc = feed.build(d, NOW)
+        p = next(f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:gdacs:FL-1104292")
+        self.assertEqual(p["title"], "GDACS green alert: Flood in Türkiye")
+        self.assertEqual(p["measures"]["name"], "Flood in Türkiye")
+
     def test_gdacs_event_carries_every_country_it_names(self):
         # DR-1027450 on 21 Nov 2026: the point is in Ethiopia, the text names thirteen countries.
         named = ("Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, "
