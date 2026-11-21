@@ -86,7 +86,7 @@ def gdacs_urls(now: datetime) -> list[str]:
 
 
 def _unmojibake(text: str) -> str:
-    """GDACS sometimes sends UTF-8 read as Latin-1 ("TÃ¼rkiye"); undo it so the name can be looked up."""
+    """GDACS sometimes sends UTF-8 read as Latin-1 ("TÃ¼rkiye"); undo it, for the text shown and for the country lookup."""
     if "Ã" not in text and "Â" not in text:
         return text
     try:
@@ -130,14 +130,14 @@ def parse_gdacs(doc: dict) -> list[dict]:
         sev = p.get("severitydata") or {}
         out.append({"id": f"{p.get('eventtype')}-{p.get('eventid')}", "type": p.get("eventtype"),
                     "kind": GDACS_TYPES.get(p.get("eventtype"), p.get("eventtype")),
-                    "episode": p.get("episodeid"), "name": " ".join((p.get("name") or p.get("eventname") or "").split()),
+                    "episode": p.get("episodeid"), "name": " ".join(_unmojibake(p.get("name") or p.get("eventname") or "").split()),
                     # alertlevel is the event's highest alert so far; episodealertlevel is the latest episode's
                     "alert": (p.get("alertlevel") or "").lower() or None, "score": p.get("alertscore"),
                     "latest_alert": (p.get("episodealertlevel") or "").lower() or None,
                     "severity_value": sev.get("severity"), "severity_unit": sev.get("severityunit"),
                     "from": _naive_utc(p.get("fromdate")), "to": _naive_utc(p.get("todate")),
-                    "current": str(p.get("iscurrent")).lower() == "true", "country": p.get("country"),
-                    "severity": sev.get("severitytext"), "report": urls.get("report") if isinstance(urls, dict) else None,
+                    "current": str(p.get("iscurrent")).lower() == "true", "country": _unmojibake(p.get("country") or "") or None,
+                    "severity": _unmojibake(sev.get("severitytext") or "") or None, "report": urls.get("report") if isinstance(urls, dict) else None,
                     "lon": round(float(c[0]), 3), "lat": round(float(c[1]), 3),
                     "countries": gdacs_countries(p.get("country"), float(c[0]), float(c[1]))})
     return out
