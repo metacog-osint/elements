@@ -1,44 +1,6 @@
 {
  "records": [
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal Flagler",
-    "Inland Flagler",
-    "Eastern Putnam"
-   ],
-   "counties": [
-    "12035",
-    "12107"
-   ],
-   "sent": "2026-11-20T17:37:00Z",
-   "onset": "2026-11-20T17:37:00Z",
-   "ends": "2026-11-22T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56c3d9cd681b61ce5e4fcac2a6acfb56593cabbe.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ]
-   ],
-   "lon": -81.509,
-   "lat": 29.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -102,6 +64,62 @@
    ],
    "lon": -122.369,
    "lat": 37.877,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Inland Flagler",
+    "Eastern Putnam",
+    "Eastern Clay",
+    "South Central Duval",
+    "Western St. Johns",
+    "Coastal Flagler"
+   ],
+   "counties": [
+    "12019",
+    "12031",
+    "12035",
+    "12107",
+    "12109"
+   ],
+   "sent": "2026-11-21T06:30:00Z",
+   "onset": "2026-11-21T06:30:00Z",
+   "ends": "2026-11-22T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6fa5086145354d0ed1a90a690364b8badc81719.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ],
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ]
+   ],
+   "lon": -81.584,
+   "lat": 29.854,
    "countries": [
     "US"
    ]
@@ -845,64 +863,40 @@
    "areas": [
     "Inland Nassau",
     "Coastal Nassau",
-    "Inland Flagler",
     "Coastal Duval",
-    "Eastern Clay",
-    "Eastern Putnam",
-    "Coastal Flagler",
     "Trout River",
-    "Western Clay",
     "Northeast Coastal St. Johns",
-    "Western Putnam",
     "South Central Duval",
     "Southeast Coastal St. Johns",
-    "Western Duval",
-    "Northern Inland St. Johns",
-    "Southern Inland St. Johns",
-    "Western St. Johns"
+    "Western Duval"
    ],
    "counties": [
-    "12019",
     "12031",
-    "12035",
     "12089",
-    "12107",
     "12109"
    ],
-   "sent": "2026-11-20T16:36:00Z",
-   "onset": "2026-11-20T16:36:00Z",
+   "sent": "2026-11-21T06:17:00Z",
+   "onset": "2026-11-21T06:17:00Z",
    "ends": "2026-11-21T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f368520d1de3d88bd754cc4012f90907a2a21ee2.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3a3a44af1953d7802d1b06c129dc31abb1cd3c2.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -81.865,
-     29.9866
-    ],
-    [
      -81.6481,
      30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
     ],
     [
      -81.7651,
      30.606
     ],
     [
-     -81.732,
-     29.5939
-    ],
-    [
      -81.3883,
      29.8814
     ]
    ],
-   "lon": -81.614,
-   "lat": 29.98,
+   "lon": -81.6,
+   "lat": 30.274,
    "countries": [
     "US"
    ]
@@ -1156,18 +1150,18 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula"
+    "Interior Seward Peninsula",
+    "St Lawrence Island"
    ],
    "counties": [
     "02180"
    ],
    "sent": "2026-11-20T21:55:00Z",
-   "onset": "2026-11-23T03:00:00Z",
+   "onset": "2026-11-22T21:00:00Z",
    "ends": "2026-11-23T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
