@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "332010",
+   "name": "Kilauea",
+   "observatory": "hvo",
+   "observatory_name": "Hawaiian Volcano Observatory",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "WATCH",
+   "prev_color": "ORANGE",
+   "sent": "2026-11-21T18:48:01Z",
+   "changed": "2026-11-07T00:50:08Z",
+   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea remains paused following episode 56 fountaining on November 5. Summit inflation stalled just before midnight moving the episode 57 forecast window to November 22-26.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-21T18:23:37+00:00",
+   "threat": "Very High Threat",
+   "lat": 19.421,
+   "lon": -155.287,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "vnum": "311120",
    "name": "Great Sitkin",
    "observatory": "avo",
@@ -16,26 +36,6 @@
    "threat": "High Threat",
    "lat": 52.0765,
    "lon": -176.1109,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "vnum": "332010",
-   "name": "Kilauea",
-   "observatory": "hvo",
-   "observatory_name": "Hawaiian Volcano Observatory",
-   "alert": "ADVISORY",
-   "color": "YELLOW",
-   "prev_alert": "WATCH",
-   "prev_color": "ORANGE",
-   "sent": "2026-11-20T19:00:03Z",
-   "changed": "2026-11-07T00:50:08Z",
-   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption of Kīlauea remains paused following episode 56 fountaining on November 5. The summit has started to inflate slowly and the episode 57 forecast window is November 21-25.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-20T18:09:53+00:00",
-   "threat": "Very High Threat",
-   "lat": 19.421,
-   "lon": -155.287,
    "countries": [
     "US"
    ]
