@@ -932,63 +932,7 @@
    ]
   },
   {
-   "id": "KTBW.MA.W.0236.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
-    "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
-    "Waters from Bonita Beach to Englewood FL out 20 to 60 NM"
-   ],
-   "counties": [
-    "77853",
-    "77856",
-    "77876"
-   ],
-   "sent": "2026-11-21T17:01:00Z",
-   "onset": "2026-11-21T17:01:00Z",
-   "ends": "2026-11-21T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5516dbc81c1155128c08ea67b49606bd08937d0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.71,
-       26.41
-      ],
-      [
-       -82.86,
-       26.63
-      ],
-      [
-       -82.47,
-       26.93
-      ],
-      [
-       -82.25,
-       26.62
-      ],
-      [
-       -82.71,
-       26.41
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.6,
-   "lat": 26.6,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0386.2026",
+   "id": "KMFL.MA.W.0387.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1002,10 +946,10 @@
     "75670",
     "75671"
    ],
-   "sent": "2026-11-21T17:16:00Z",
-   "onset": "2026-11-21T17:16:00Z",
-   "ends": "2026-11-21T17:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24f4e2aa9032d1a44882d3791ba326ea1d6e5065.001.1",
+   "sent": "2026-11-21T17:44:00Z",
+   "onset": "2026-11-21T17:44:00Z",
+   "ends": "2026-11-21T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.924fb3e8fc8a105606318d77ae886b27f38cb6d8.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1045,6 +989,60 @@
    "points": [],
    "lon": -79.241,
    "lat": 26.044,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0388.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Biscayne Bay",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
+   ],
+   "counties": [
+    "75630",
+    "75651"
+   ],
+   "sent": "2026-11-21T18:01:00Z",
+   "onset": "2026-11-21T18:01:00Z",
+   "ends": "2026-11-21T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0083291fa844f335bed2f876eec2fe9a8ee04407.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.8,
+       25.89
+      ],
+      [
+       -80.17,
+       25.89
+      ],
+      [
+       -80.15,
+       26.1
+      ],
+      [
+       -79.78,
+       26.21
+      ],
+      [
+       -79.8,
+       25.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.94,
+   "lat": 25.996,
    "countries": [
     "US"
    ]
@@ -1201,72 +1199,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSLC.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Salt Lake City UT",
-   "areas": [
-    "Wasatch Mountains I-80 North"
-   ],
-   "counties": [
-    "49003",
-    "49005",
-    "49011",
-    "49029",
-    "49033",
-    "49035",
-    "49043",
-    "49057"
-   ],
-   "sent": "2026-11-21T12:05:00Z",
-   "onset": "2026-11-21T12:05:00Z",
-   "ends": "2026-11-21T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1022fce1e5b4f066138e67c1613a6aad11f493e.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -113.0603,
-     41.6226
-    ],
-    [
-     -111.7454,
-     41.7341
-    ],
-    [
-     -112.2019,
-     41.0376
-    ],
-    [
-     -111.5779,
-     41.091
-    ],
-    [
-     -111.2402,
-     41.6276
-    ],
-    [
-     -111.9242,
-     40.6679
-    ],
-    [
-     -110.9685,
-     40.8721
-    ],
-    [
-     -111.8769,
-     41.2703
-    ]
-   ],
-   "lon": -111.824,
-   "lat": 41.24,
    "countries": [
     "US"
    ]
