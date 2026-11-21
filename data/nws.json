@@ -125,139 +125,6 @@
    ]
   },
   {
-   "id": "TJSJ.FF.W.0043.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Aguada, PR",
-    "Aguadilla, PR",
-    "Moca, PR"
-   ],
-   "counties": [
-    "72003",
-    "72005",
-    "72099"
-   ],
-   "sent": "2026-11-21T18:48:00Z",
-   "onset": "2026-11-21T18:48:00Z",
-   "ends": "2026-11-21T21:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba5bef305bae7d9570bd17020b2f0a307eb76789.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -67.16,
-       18.42
-      ],
-      [
-       -67.17,
-       18.48
-      ],
-      [
-       -67.14,
-       18.51
-      ],
-      [
-       -67.1,
-       18.51
-      ],
-      [
-       -67.08,
-       18.49
-      ],
-      [
-       -67.06,
-       18.48
-      ],
-      [
-       -67.06,
-       18.46
-      ],
-      [
-       -67.03,
-       18.4
-      ],
-      [
-       -67.05,
-       18.35
-      ],
-      [
-       -67.04,
-       18.32
-      ],
-      [
-       -67.05,
-       18.31
-      ],
-      [
-       -67.12,
-       18.32
-      ],
-      [
-       -67.18,
-       18.31
-      ],
-      [
-       -67.2,
-       18.33
-      ],
-      [
-       -67.22,
-       18.34
-      ],
-      [
-       -67.22,
-       18.36
-      ],
-      [
-       -67.24,
-       18.38
-      ],
-      [
-       -67.21,
-       18.38
-      ],
-      [
-       -67.19,
-       18.4
-      ],
-      [
-       -67.17,
-       18.4
-      ],
-      [
-       -67.16,
-       18.42
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -67.1857,
-     18.3756
-    ],
-    [
-     -67.1438,
-     18.4802
-    ],
-    [
-     -67.0796,
-     18.3776
-    ]
-   ],
-   "lon": -67.136,
-   "lat": 18.399,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1166,132 +1033,6 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0353.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Sebastian Inlet to Jupiter Inlet 20-60 nm"
-   ],
-   "counties": [
-    "75575"
-   ],
-   "sent": "2026-11-21T20:46:00Z",
-   "onset": "2026-11-21T20:46:00Z",
-   "ends": "2026-11-21T21:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c370b0dd2195af9cecc1c141a73ef84e2906c7f2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.54,
-       26.97
-      ],
-      [
-       -79.88,
-       27.4
-      ],
-      [
-       -79.77,
-       27.94
-      ],
-      [
-       -79.41,
-       28
-      ],
-      [
-       -79.13,
-       27.31
-      ],
-      [
-       -79.05,
-       26.98
-      ],
-      [
-       -79.54,
-       26.97
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.474,
-   "lat": 27.367,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0392.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM"
-   ],
-   "counties": [
-    "75650",
-    "75651"
-   ],
-   "sent": "2026-11-21T21:19:00Z",
-   "onset": "2026-11-21T21:19:00Z",
-   "ends": "2026-11-21T21:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1dbd8c8881fc066f147b497cccc82dd698012eb.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.83,
-       26.21
-      ],
-      [
-       -80.12,
-       26.24
-      ],
-      [
-       -80.11,
-       26.31
-      ],
-      [
-       -80.08,
-       26.78
-      ],
-      [
-       -80.15,
-       26.95
-      ],
-      [
-       -80.14,
-       26.97
-      ],
-      [
-       -79.79,
-       26.97
-      ],
-      [
-       -79.83,
-       26.21
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.006,
-   "lat": 26.58,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0393.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1343,6 +1084,74 @@
    "points": [],
    "lon": -79.317,
    "lat": 25.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0394.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75671"
+   ],
+   "sent": "2026-11-21T21:59:00Z",
+   "onset": "2026-11-21T21:59:00Z",
+   "ends": "2026-11-21T22:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42f972f00582e57494c460de5ae000a24b427469.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.16,
+       25.53
+      ],
+      [
+       -79.18,
+       25.46
+      ],
+      [
+       -79.19,
+       25.35
+      ],
+      [
+       -79.21,
+       25.29
+      ],
+      [
+       -79.21,
+       25.24
+      ],
+      [
+       -79.79,
+       25.35
+      ],
+      [
+       -79.74,
+       25.65
+      ],
+      [
+       -79.15,
+       25.57
+      ],
+      [
+       -79.16,
+       25.53
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.31,
+   "lat": 25.441,
    "countries": [
     "US"
    ]
