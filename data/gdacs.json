@@ -4,7 +4,7 @@
    "id": "FL-1104290",
    "type": "FL",
    "kind": "flood",
-   "episode": 1,
+   "episode": 2,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -12,13 +12,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-17T01:00:00Z",
-   "to": "2026-11-19T01:00:00Z",
+   "to": "2026-11-21T01:00:00Z",
    "current": true,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104290&episodeid=1&eventtype=FL",
-   "lon": -80.15,
-   "lat": 26.011,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104290&episodeid=2&eventtype=FL",
+   "lon": -117.76,
+   "lat": 33.993,
    "countries": [
     "US"
    ]
@@ -523,7 +523,7 @@
    "id": "FL-1104270",
    "type": "FL",
    "kind": "flood",
-   "episode": 5,
+   "episode": 7,
    "name": "Flood in France",
    "alert": "green",
    "score": 1,
@@ -531,14 +531,16 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-04T01:00:00Z",
-   "to": "2026-11-16T01:00:00Z",
-   "current": false,
+   "to": "2026-11-21T01:00:00Z",
+   "current": true,
    "country": "France",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=5&eventtype=FL",
-   "lon": 3.95,
-   "lat": 43.559,
-   "countries": []
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104270&episodeid=7&eventtype=FL",
+   "lon": 1.729,
+   "lat": 50.51,
+   "countries": [
+    "FR"
+   ]
   },
   {
    "id": "FL-1104278",
@@ -659,7 +661,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 23,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -667,14 +669,16 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-07T01:00:00Z",
-   "to": "2026-11-16T01:00:00Z",
-   "current": false,
+   "to": "2026-11-21T01:00:00Z",
+   "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=6&eventtype=FL",
-   "lon": 8.934,
-   "lat": 44.407,
-   "countries": []
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=23&eventtype=FL",
+   "lon": 13.065,
+   "lat": 42.405,
+   "countries": [
+    "IT"
+   ]
   },
   {
    "id": "FL-1104216",
