@@ -174,7 +174,7 @@
    "acres": 1000.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T04:17:42Z",
+   "updated": "2026-11-21T04:57:08Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -589,6 +589,20 @@
    "lat": 34.3408
   },
   {
+   "id": "{1C6770B6-D741-4CF4-A087-AA562BF8894C}",
+   "name": "Highway 1595 #2",
+   "acres": 10.0,
+   "contained": 50,
+   "discovered": "2026-11-21T00:23:00Z",
+   "updated": "2026-11-21T04:36:42Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.9603,
+   "lat": 36.6531
+  },
+  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -671,20 +685,6 @@
    "complexity": null,
    "lon": -87.5659,
    "lat": 45.1823
-  },
-  {
-   "id": "{1C6770B6-D741-4CF4-A087-AA562BF8894C}",
-   "name": "Highway 1595 #2",
-   "acres": 4.0,
-   "contained": 10,
-   "discovered": "2026-11-21T00:23:00Z",
-   "updated": "2026-11-21T03:27:03Z",
-   "state": "KY",
-   "county": "Whitley",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.9603,
-   "lat": 36.6531
   },
   {
    "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
@@ -968,11 +968,11 @@
   },
   {
    "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
-   "name": "Big Card Road",
+   "name": "Card Knob Road",
    "acres": 1.0,
    "contained": 0,
    "discovered": "2026-11-21T03:32:00Z",
-   "updated": "2026-11-21T04:35:37Z",
+   "updated": "2026-11-21T04:36:44Z",
    "state": "KY",
    "county": "Pike",
    "cause": "Undetermined",
@@ -1989,6 +1989,20 @@
    "lat": 43.6602
   },
   {
+   "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
+   "name": "Fox",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-10-14T00:00:00Z",
+   "updated": "2026-11-21T05:00:42Z",
+   "state": "WI",
+   "county": "Langlade",
+   "cause": "Natural",
+   "complexity": null,
+   "lon": -89.2191,
+   "lat": 45.391
+  },
+  {
    "id": "{48E29B19-7C73-43E0-87A1-3E6A6564E55E}",
    "name": "Boyd 2",
    "acres": 0.0,
@@ -2155,20 +2169,6 @@
    "complexity": null,
    "lon": -89.3037,
    "lat": 44.3955
-  },
-  {
-   "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
-   "name": "Fox",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-18T06:00:00Z",
-   "updated": "2026-11-19T19:25:14Z",
-   "state": "WI",
-   "county": "Langlade",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -89.2191,
-   "lat": 45.391
   },
   {
    "id": "{C5513A85-C9B1-4BDB-97D1-261097544582}",
