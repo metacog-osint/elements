@@ -1213,115 +1213,7 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0376.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM",
-    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM",
-    "Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "77656",
-    "77657",
-    "77676"
-   ],
-   "sent": "2026-11-21T10:15:00Z",
-   "onset": "2026-11-21T10:15:00Z",
-   "ends": "2026-11-21T11:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df411283d06682936d0a956e45a659ee09dbd173.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.86,
-       26.33
-      ],
-      [
-       -81.82,
-       26.33
-      ],
-      [
-       -81.82,
-       26.32
-      ],
-      [
-       -81.8,
-       26.32
-      ],
-      [
-       -81.79,
-       26.3
-      ],
-      [
-       -81.78,
-       26.18
-      ],
-      [
-       -81.75,
-       26.15
-      ],
-      [
-       -81.76,
-       26.08
-      ],
-      [
-       -81.7,
-       26.02
-      ],
-      [
-       -81.65,
-       26
-      ],
-      [
-       -81.64,
-       25.59
-      ],
-      [
-       -81.91,
-       25.57
-      ],
-      [
-       -81.96,
-       25.6
-      ],
-      [
-       -82.16,
-       25.56
-      ],
-      [
-       -82.3,
-       25.55
-      ],
-      [
-       -82.28,
-       25.87
-      ],
-      [
-       -82.33,
-       26.17
-      ],
-      [
-       -81.86,
-       26.33
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.898,
-   "lat": 26.015,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0401.2026",
+   "id": "KKEY.MA.W.0402.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -1333,53 +1225,53 @@
    "counties": [
     "77033"
    ],
-   "sent": "2026-11-21T11:01:00Z",
-   "onset": "2026-11-21T11:01:00Z",
-   "ends": "2026-11-21T11:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1d86687f7c78f5dd3632d32d2a49d36e7d66b05.001.1",
+   "sent": "2026-11-21T11:30:00Z",
+   "onset": "2026-11-21T11:30:00Z",
+   "ends": "2026-11-21T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.beb6163104c6a971d6e7c0f406921f550809deda.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.87,
-       25.55
-      ],
-      [
-       -81.77,
-       25.52
-      ],
-      [
-       -81.7,
-       25.51
-      ],
-      [
-       -81.73,
-       25.33
-      ],
-      [
-       -82.16,
-       25.22
-      ],
-      [
-       -82.14,
+       -81.88,
        25.56
       ],
       [
-       -81.94,
+       -81.81,
+       25.53
+      ],
+      [
+       -81.67,
+       25.51
+      ],
+      [
+       -81.58,
+       25.42
+      ],
+      [
+       -81.92,
+       25.28
+      ],
+      [
+       -82.02,
+       25.59
+      ],
+      [
+       -81.95,
        25.6
       ],
       [
-       -81.87,
-       25.55
+       -81.88,
+       25.56
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -81.898,
-   "lat": 25.48,
+   "lon": -81.839,
+   "lat": 25.506,
    "countries": [
     "US"
    ]
