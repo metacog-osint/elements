@@ -174,7 +174,7 @@
    "acres": 1000.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T03:04:50Z",
+   "updated": "2026-11-21T03:54:09Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -645,6 +645,20 @@
    "lat": 35.9558
   },
   {
+   "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
+   "name": "North Pond Fire",
+   "acres": 6.0,
+   "contained": null,
+   "discovered": "2026-11-20T18:20:00Z",
+   "updated": "2026-11-21T03:52:47Z",
+   "state": "ME",
+   "county": "Oxford",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -70.6726,
+   "lat": 44.4062
+  },
+  {
    "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
    "name": "M35",
    "acres": 5.1,
@@ -657,20 +671,6 @@
    "complexity": null,
    "lon": -87.5659,
    "lat": 45.1823
-  },
-  {
-   "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
-   "name": "North Pond Fire",
-   "acres": 4.0,
-   "contained": null,
-   "discovered": "2026-11-20T18:37:00Z",
-   "updated": "2026-11-20T19:39:11Z",
-   "state": "ME",
-   "county": "Oxford",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -70.6726,
-   "lat": 44.4062
   },
   {
    "id": "{1C6770B6-D741-4CF4-A087-AA562BF8894C}",
@@ -2449,6 +2449,20 @@
    "complexity": null,
    "lon": -118.0585,
    "lat": 34.5874
+  },
+  {
+   "id": "{0E75F0B3-AFDE-40E4-917E-2CEC79332864}",
+   "name": "Lac-420692",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-21T04:04:19Z",
+   "updated": "2026-11-21T04:04:51Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.126,
+   "lat": 34.704
   }
  ]
 }
