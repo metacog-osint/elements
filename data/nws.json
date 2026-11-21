@@ -107,6 +107,87 @@
    ]
   },
   {
+   "id": "KJAX.FF.W.0055.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Gilchrist, FL"
+   ],
+   "counties": [
+    "12041"
+   ],
+   "sent": "2026-11-21T03:26:00Z",
+   "onset": "2026-11-21T03:26:00Z",
+   "ends": "2026-11-21T05:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8fba1aa07d20b9d851a54266e79c6dd5e5736e64.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.9,
+       29.59
+      ],
+      [
+       -82.9,
+       29.62
+      ],
+      [
+       -82.91,
+       29.64
+      ],
+      [
+       -82.9,
+       29.7
+      ],
+      [
+       -82.85,
+       29.72
+      ],
+      [
+       -82.81,
+       29.64
+      ],
+      [
+       -82.81,
+       29.59
+      ],
+      [
+       -82.83,
+       29.58
+      ],
+      [
+       -82.86,
+       29.58
+      ],
+      [
+       -82.86,
+       29.59
+      ],
+      [
+       -82.9,
+       29.59
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -82.7958,
+     29.7235
+    ]
+   ],
+   "lon": -82.866,
+   "lat": 29.622,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -831,87 +912,6 @@
    ],
    "lon": -81.402,
    "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.FA.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Gilchrist, FL"
-   ],
-   "counties": [
-    "12041"
-   ],
-   "sent": "2026-11-21T02:38:00Z",
-   "onset": "2026-11-21T02:38:00Z",
-   "ends": "2026-11-21T04:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dbd83916c9ffde4598c02f54a5b409ee2526e4a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.9,
-       29.59
-      ],
-      [
-       -82.9,
-       29.62
-      ],
-      [
-       -82.91,
-       29.64
-      ],
-      [
-       -82.9,
-       29.67
-      ],
-      [
-       -82.85,
-       29.69
-      ],
-      [
-       -82.81,
-       29.64
-      ],
-      [
-       -82.83,
-       29.59
-      ],
-      [
-       -82.85,
-       29.58
-      ],
-      [
-       -82.86,
-       29.58
-      ],
-      [
-       -82.86,
-       29.59
-      ],
-      [
-       -82.9,
-       29.59
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -82.7958,
-     29.7235
-    ]
-   ],
-   "lon": -82.87,
-   "lat": 29.616,
    "countries": [
     "US"
    ]
