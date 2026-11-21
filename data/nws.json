@@ -1,6 +1,62 @@
 {
  "records": [
   {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coastal Flagler",
+    "Inland Flagler",
+    "Eastern Clay",
+    "Eastern Putnam",
+    "South Central Duval",
+    "Western St. Johns"
+   ],
+   "counties": [
+    "12019",
+    "12031",
+    "12035",
+    "12107",
+    "12109"
+   ],
+   "sent": "2026-11-21T18:11:00Z",
+   "onset": "2026-11-21T18:11:00Z",
+   "ends": "2026-11-23T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1ae8f94e821fd9f18ccd31d1438759d2f0f8fce.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ],
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ]
+   ],
+   "lon": -81.584,
+   "lat": 29.854,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -22,10 +78,10 @@
     "06085",
     "06097"
    ],
-   "sent": "2026-11-20T22:52:00Z",
+   "sent": "2026-11-21T18:24:00Z",
    "onset": "2026-11-23T14:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c3009fb0ba23631e2ec9388cd109962b0cd83b6.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e21c61fe3368f215cbe1c511ddf2bf36428689dd.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -64,62 +120,6 @@
    ],
    "lon": -122.369,
    "lat": 37.877,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal Flagler",
-    "Inland Flagler",
-    "Eastern Clay",
-    "Eastern Putnam",
-    "South Central Duval",
-    "Western St. Johns"
-   ],
-   "counties": [
-    "12019",
-    "12031",
-    "12035",
-    "12107",
-    "12109"
-   ],
-   "sent": "2026-11-21T14:33:00Z",
-   "onset": "2026-11-21T14:33:00Z",
-   "ends": "2026-11-22T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b35023e87a3125423830efe18304070444a2e4fb.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.865,
-     29.9866
-    ],
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ],
-    [
-     -81.3883,
-     29.8814
-    ]
-   ],
-   "lon": -81.584,
-   "lat": 29.854,
    "countries": [
     "US"
    ]
@@ -1043,6 +1043,188 @@
    "points": [],
    "lon": -79.94,
    "lat": 25.996,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0389.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM",
+    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM",
+    "Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "77656",
+    "77657",
+    "77676"
+   ],
+   "sent": "2026-11-21T18:24:00Z",
+   "onset": "2026-11-21T18:24:00Z",
+   "ends": "2026-11-21T20:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.099a5a8c4baf4de88d9b61d6d031962541b42f28.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.52,
+       26.1
+      ],
+      [
+       -81.85,
+       26.33
+      ],
+      [
+       -81.8,
+       26.32
+      ],
+      [
+       -81.78,
+       26.18
+      ],
+      [
+       -81.75,
+       26.15
+      ],
+      [
+       -81.76,
+       26.08
+      ],
+      [
+       -81.7,
+       26.02
+      ],
+      [
+       -81.65,
+       26
+      ],
+      [
+       -81.62,
+       25.96
+      ],
+      [
+       -81.5,
+       25.94
+      ],
+      [
+       -81.57,
+       25.41
+      ],
+      [
+       -81.67,
+       25.51
+      ],
+      [
+       -81.81,
+       25.53
+      ],
+      [
+       -81.94,
+       25.6
+      ],
+      [
+       -82.62,
+       25.47
+      ],
+      [
+       -82.62,
+       25.48
+      ],
+      [
+       -82.71,
+       25.64
+      ],
+      [
+       -82.52,
+       26.1
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.966,
+   "lat": 25.879,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0390.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM",
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75650",
+    "75651",
+    "75670",
+    "75671"
+   ],
+   "sent": "2026-11-21T18:26:00Z",
+   "onset": "2026-11-21T18:26:00Z",
+   "ends": "2026-11-21T20:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.364258fde6c305e9c19895cbedd09fe935a318f8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.1,
+       25.76
+      ],
+      [
+       -79.22,
+       25.23
+      ],
+      [
+       -80.16,
+       25.58
+      ],
+      [
+       -80.05,
+       26.53
+      ],
+      [
+       -80.04,
+       26.84
+      ],
+      [
+       -80.07,
+       26.94
+      ],
+      [
+       -80.13,
+       26.97
+      ],
+      [
+       -79.04,
+       26.97
+      ],
+      [
+       -79.1,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.657,
+   "lat": 26.287,
    "countries": [
     "US"
    ]
