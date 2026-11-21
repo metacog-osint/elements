@@ -508,9 +508,9 @@
    "id": "{34EF8AF8-C952-4F4C-9AC2-F08ADBE3644C}",
    "name": "Cheatham - Leo Baker Road",
    "acres": 15.0,
-   "contained": 0,
+   "contained": 70,
    "discovered": "2026-11-21T17:40:00Z",
-   "updated": "2026-11-21T18:36:22Z",
+   "updated": "2026-11-21T19:49:43Z",
    "state": "TN",
    "county": "Cheatham",
    "cause": "Undetermined",
@@ -813,20 +813,6 @@
    "lat": 36.6494
   },
   {
-   "id": "{AEF250E4-E6A0-47A5-8ED4-6B0E1B7D1E5F}",
-   "name": "Grundy - Borne Road",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-21T18:20:00Z",
-   "updated": "2026-11-21T19:22:42Z",
-   "state": "TN",
-   "county": "Grundy",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -85.6388,
-   "lat": 35.3588
-  },
-  {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
    "name": "Cedar",
    "acres": 1.9,
@@ -967,18 +953,18 @@
    "lat": 35.2084
   },
   {
-   "id": "{261035EB-B93E-42D4-B20B-88419EDE712A}",
-   "name": "Hot Sauce",
-   "acres": 0.9,
+   "id": "{CF0A4D8C-4FA6-4C6E-B2F9-D9CC122DFCF7}",
+   "name": "Baxter 327",
+   "acres": 1.0,
    "contained": null,
-   "discovered": "2026-11-16T17:00:00Z",
-   "updated": "2026-11-18T19:43:03Z",
-   "state": "WI",
-   "county": "Price",
-   "cause": "Human",
+   "discovered": "2026-11-21T19:54:48Z",
+   "updated": "2026-11-21T20:03:56Z",
+   "state": "AR",
+   "county": "Baxter",
+   "cause": null,
    "complexity": null,
-   "lon": -90.5282,
-   "lat": 45.7882
+   "lon": -92.1777,
+   "lat": 36.3373
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1359,20 +1345,6 @@
    "lat": 45.3048
   },
   {
-   "id": "{9AADC3BA-E0EB-477D-981E-535C55C1858C}",
-   "name": "Albo Stamper",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-18T16:19:58Z",
-   "updated": "2026-11-18T19:11:35Z",
-   "state": "MS",
-   "county": "Newton",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.2625,
-   "lat": 32.4372
-  },
-  {
    "id": "{AF1B1D06-59D4-478B-BC5E-978667EB1D2B}",
    "name": "Ti Bar Flat",
    "acres": 0.1,
@@ -1598,11 +1570,11 @@
   },
   {
    "id": "{460F05C7-C745-46EB-9043-FEB41BA45076}",
-   "name": "County Rd 25",
+   "name": "Road 25",
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-21T18:50:37Z",
-   "updated": "2026-11-21T19:33:43Z",
+   "updated": "2026-11-21T19:40:01Z",
    "state": "WV",
    "county": "Cabell",
    "cause": "Human",
@@ -1611,18 +1583,32 @@
    "lat": 38.3753
   },
   {
-   "id": "{6C6F2112-EB18-4FA5-98FB-A1A7B988FC39}",
-   "name": "Hardin - Old Town Loop",
+   "id": "{DA3EA1B0-4ED1-41F2-B0FA-DEEB11875E1E}",
+   "name": "432 Cc",
    "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-21T19:00:00Z",
-   "updated": "2026-11-21T19:17:18Z",
-   "state": "TN",
-   "county": "Hardin",
+   "contained": null,
+   "discovered": "2026-11-21T19:34:22Z",
+   "updated": "2026-11-21T19:58:25Z",
+   "state": "OR",
+   "county": "Lincoln",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -88.1361,
-   "lat": 35.2264
+   "lon": -123.9974,
+   "lat": 44.4664
+  },
+  {
+   "id": "{3820667B-6F7B-4430-94E5-4C4B8EC585C2}",
+   "name": "Ymca",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-21T19:42:00Z",
+   "updated": "2026-11-21T19:55:11Z",
+   "state": "MA",
+   "county": "Barnstable",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -70.3407,
+   "lat": 41.6892
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
@@ -1861,20 +1847,6 @@
    "complexity": null,
    "lon": -90.5403,
    "lat": 44.0512
-  },
-  {
-   "id": "{D2B84C7A-B0FA-4A0A-A2B2-2BEF42C6F7B4}",
-   "name": "Cutoff Rd",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-17T20:20:00Z",
-   "updated": "2026-11-18T19:27:04Z",
-   "state": "WI",
-   "county": "Iron",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.0827,
-   "lat": 46.1724
   },
   {
    "id": "{0AE2330B-C3D2-4D35-80BB-E0243DE125F2}",
