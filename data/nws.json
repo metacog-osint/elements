@@ -1213,184 +1213,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0375.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM",
-    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM",
-    "Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM"
-   ],
-   "counties": [
-    "77656",
-    "77657",
-    "77676"
-   ],
-   "sent": "2026-11-21T09:10:00Z",
-   "onset": "2026-11-21T09:10:00Z",
-   "ends": "2026-11-21T10:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5d6821f4380b3624ae76356e27862df02e11407.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.91,
-       26.31
-      ],
-      [
-       -81.55,
-       25.59
-      ],
-      [
-       -81.8,
-       25.53
-      ],
-      [
-       -81.96,
-       25.6
-      ],
-      [
-       -82.62,
-       25.47
-      ],
-      [
-       -82.69,
-       25.62
-      ],
-      [
-       -82.92,
-       25.97
-      ],
-      [
-       -81.91,
-       26.31
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.17,
-   "lat": 25.8,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.MA.W.0234.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "Charlotte Harbor and Pine Island Sound",
-    "Coastal waters from Bonita Beach to Englewood FL out 20 NM"
-   ],
-   "counties": [
-    "77836",
-    "77856"
-   ],
-   "sent": "2026-11-21T09:12:00Z",
-   "onset": "2026-11-21T09:12:00Z",
-   "ends": "2026-11-21T10:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2b8944128e4f0c7447ea190ca42640214479867.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.89,
-       26.34
-      ],
-      [
-       -82.15,
-       26.23
-      ],
-      [
-       -82.32,
-       26.17
-      ],
-      [
-       -82.41,
-       26.23
-      ],
-      [
-       -82.47,
-       26.3
-      ],
-      [
-       -82.48,
-       26.53
-      ],
-      [
-       -82.7,
-       26.86
-      ],
-      [
-       -82.38,
-       26.95
-      ],
-      [
-       -82.36,
-       26.95
-      ],
-      [
-       -82.38,
-       26.98
-      ],
-      [
-       -82.4,
-       26.98
-      ],
-      [
-       -82.31,
-       27
-      ],
-      [
-       -82.26,
-       26.92
-      ],
-      [
-       -82.13,
-       27.05
-      ],
-      [
-       -82.01,
-       26.97
-      ],
-      [
-       -81.99,
-       26.57
-      ],
-      [
-       -81.94,
-       26.52
-      ],
-      [
-       -81.89,
-       26.52
-      ],
-      [
-       -81.89,
-       26.34
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.229,
-   "lat": 26.653,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KKEY.MA.W.0400.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1398,21 +1220,15 @@
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America including Dry Tortugas and Rebecca Shoal Channel",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms"
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms"
    ],
    "counties": [
-    "77032",
-    "77033",
-    "77034",
-    "77035"
+    "77033"
    ],
-   "sent": "2026-11-21T09:38:00Z",
-   "onset": "2026-11-21T09:38:00Z",
+   "sent": "2026-11-21T10:10:00Z",
+   "onset": "2026-11-21T10:10:00Z",
    "ends": "2026-11-21T10:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1e43e1785b4dba18287151bcae3ff346db3795b.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13f0064665bf59b850893d0322c43315c74607c2.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1434,24 +1250,12 @@
        25.15
       ],
       [
-       -81.46,
-       25.1
-      ],
-      [
-       -81.85,
-       24.95
-      ],
-      [
-       -83,
-       24.95
-      ],
-      [
-       -83.05,
+       -81.93,
        25.02
       ],
       [
-       -82.32,
-       25.03
+       -82.31,
+       25.02
       ],
       [
        -82.33,
@@ -1474,8 +1278,116 @@
    },
    "vtec": true,
    "points": [],
-   "lon": -82.069,
-   "lat": 25.251,
+   "lon": -81.946,
+   "lat": 25.325,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0376.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM",
+    "Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM",
+    "Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "77656",
+    "77657",
+    "77676"
+   ],
+   "sent": "2026-11-21T10:15:00Z",
+   "onset": "2026-11-21T10:15:00Z",
+   "ends": "2026-11-21T11:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df411283d06682936d0a956e45a659ee09dbd173.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.86,
+       26.33
+      ],
+      [
+       -81.82,
+       26.33
+      ],
+      [
+       -81.82,
+       26.32
+      ],
+      [
+       -81.8,
+       26.32
+      ],
+      [
+       -81.79,
+       26.3
+      ],
+      [
+       -81.78,
+       26.18
+      ],
+      [
+       -81.75,
+       26.15
+      ],
+      [
+       -81.76,
+       26.08
+      ],
+      [
+       -81.7,
+       26.02
+      ],
+      [
+       -81.65,
+       26
+      ],
+      [
+       -81.64,
+       25.59
+      ],
+      [
+       -81.91,
+       25.57
+      ],
+      [
+       -81.96,
+       25.6
+      ],
+      [
+       -82.16,
+       25.56
+      ],
+      [
+       -82.3,
+       25.55
+      ],
+      [
+       -82.28,
+       25.87
+      ],
+      [
+       -82.33,
+       26.17
+      ],
+      [
+       -81.86,
+       26.33
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.898,
+   "lat": 26.015,
    "countries": [
     "US"
    ]
