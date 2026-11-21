@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "NTWC-20261121T042915Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-21T04:32:57Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "55 miles NE of Seward, Alaska",
+   "magnitude": 4.0,
+   "magnitude_type": "Ml",
+   "origin": "2026-11-21T04:29:15Z",
+   "depth_km": 17.0,
+   "lat": 60.312,
+   "lon": -147.791,
+   "countries": [
+    "US"
+   ],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/21/tou4gr/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "PTWC-20261121T000917Z",
    "centre": "PTWC",
    "msg_type": "Alert",
