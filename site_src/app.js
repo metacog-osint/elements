@@ -49,6 +49,7 @@
   map.attributionControl.addAttribution("Natural Earth · USGS · EMSC · GDACS · NOAA · NIFC · MeteoAlarm · Copernicus EMS · NASA FIRMS");
   // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
+  var gdMarkers = {};  // GDACS map markers by item id, for "Show on map" in the alert list
 
   function quakeRadius(m) { return Math.max(3, 3 + (m - 4.5) * 2.6); }
   var FIRE_BREAKS = [[100, "100+"], [20, "20–99"], [5, "5–19"], [1, "1–4"]];
@@ -229,11 +230,13 @@
         var p = f.properties, m = p.measures, c = f.geometry.coordinates;
         var a = (p.response_stage || "").split(":")[1];
         var code = (HAZ[m.hazard] || ["?"])[0];
-        tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title,
+        // Not a tab stop: the alert list beside the map is the keyboard and touch route to every marker (WCAG 2.5.8's
+        // equivalent control, since these icons are under 24 px).
+        gdMarkers[p.id] = tag(L.marker([c[1], c[0]], { keyboard: false, title: p.title,
           zIndexOffset: 100 * (RANK[a] || 0),
           icon: L.divIcon({ className: "gd-icon a-" + (a || "none"), html: "", iconSize: RANK[a] >= 2 ? [26, 19] : [19, 14] }) }), f)
           .bindTooltip(tip(p.title + "\n" + when(m.from) + " to " + when(m.to)
-            + (m.latest_alert && m.latest_alert !== a ? "\nLatest episode: " + m.latest_alert : "")))
+            + (m.latest_alert && m.latest_alert !== a ? "\nLatest episode: " + m.latest_alert : "")), { direction: "top" })
           .on("add", function (ev) { ev.target.getElement().textContent = code; })
           .addTo(layers.gdacs);
       });
@@ -554,6 +557,33 @@
     document.getElementById("gdacs").replaceChildren(hz.length ? table(["Hazard", "Green", "Orange", "Red"], hz.map(function (k) {
       return [(HAZ[k] || [0, cap(k)])[1], grid[k].green || "—", grid[k].orange || "—", grid[k].red || "—"]; }), { 1: 1, 2: 1, 3: 1 })
       : empty("GDACS listed no alerts in the past 14 days."));
+
+    // Every GDACS alert beside the map, green included, strongest first and then newest.
+    function showOnMap(id) {
+      var mk = gdMarkers[id], box = document.querySelector('.layers input[data-layer="gdacs"]');
+      if (!mk) return;
+      if (box && !box.checked) { box.checked = true; box.dispatchEvent(new Event("change")); }
+      map.setView(mk.getLatLng(), Math.max(map.getZoom(), 4));
+      mk.openTooltip();
+      document.getElementById("map").scrollIntoView({ block: "nearest" });
+    }
+    var gdRows = by.gdacs.slice().sort(function (x, y) {
+      var ax = (x.response_stage || ":").split(":")[1], ay = (y.response_stage || ":").split(":")[1];
+      return (RANK[ay] || 0) - (RANK[ax] || 0) || (y.measures.to || "").localeCompare(x.measures.to || "");
+    }).map(function (p) {
+      var m = p.measures, a = (p.response_stage || ":").split(":")[1], name = p.title.replace(/^GDACS \w+ alert: /, "");
+      var btn = gdMarkers[p.id] ? h("button", { type: "button", "class": "gd-show", "aria-label": "Show " + name + " on the map" }, ["Map"]) : "—";
+      if (btn instanceof Node) btn.addEventListener("click", function () { showOnMap(p.id); });
+      var title = link(p.link, name);
+      if (title instanceof Node) title.title = name;  // beside the map a long name is cut to two lines
+      return mark([badge(a), h("span", null, [title,
+        h("span", { "class": "sub" }, [when(m.from) + " to " + when(m.to)
+          + (m.latest_alert && m.latest_alert !== a ? " · latest episode: " + m.latest_alert : "")])]), btn], p);
+    });
+    var gdList = gdRows.length ? table(["Alert", "Event", "Map"], gdRows) : empty("GDACS listed no alerts in the past 14 days.");
+    if (gdRows.length) gdList.id = "gd-list-table";
+    document.getElementById("gd-count").textContent = gdRows.length ? " (" + gdRows.length + ")" : "";
+    document.getElementById("gd-list").replaceChildren(gdList);
 
     var fz = by.firms.slice().sort(function (x, y) { return y.measures.detections - x.measures.detections; });
     var fsum = document.getElementById("fires-sum");
