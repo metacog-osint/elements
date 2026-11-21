@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000ucgj",
+   "mag": 4.9,
+   "place": "Reykjanes Ridge",
+   "time": "2026-11-21T02:24:37Z",
+   "updated": "2026-11-21T02:40:24Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucgj",
+   "depth_km": 10.0,
+   "lon": -31.857,
+   "lat": 58.546,
+   "countries": []
+  },
+  {
    "id": "us6000ucga",
    "mag": 4.9,
    "place": "Reykjanes Ridge",
@@ -37,10 +52,10 @@
    "mag": 6.7,
    "place": "9 km NE of Carhuamayo, Peru",
    "time": "2026-11-21T00:09:19Z",
-   "updated": "2026-11-21T02:31:38Z",
+   "updated": "2026-11-21T02:54:55Z",
    "alert": "green",
    "tsunami": true,
-   "sig": 738,
+   "sig": 742,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
    "depth_km": 108.0,
    "lon": -75.978,
@@ -1557,21 +1572,6 @@
    "countries": [
     "AR"
    ]
-  },
-  {
-   "id": "us7000ty6n",
-   "mag": 5.2,
-   "place": "off the west coast of northern Sumatra",
-   "time": "2026-11-14T02:59:29Z",
-   "updated": "2026-11-14T04:31:05Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 416,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n",
-   "depth_km": 10.0,
-   "lon": 92.826,
-   "lat": 3.304,
-   "countries": []
   }
  ]
 }

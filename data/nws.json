@@ -836,6 +836,87 @@
    ]
   },
   {
+   "id": "KJAX.FA.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Gilchrist, FL"
+   ],
+   "counties": [
+    "12041"
+   ],
+   "sent": "2026-11-21T02:38:00Z",
+   "onset": "2026-11-21T02:38:00Z",
+   "ends": "2026-11-21T04:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dbd83916c9ffde4598c02f54a5b409ee2526e4a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.9,
+       29.59
+      ],
+      [
+       -82.9,
+       29.62
+      ],
+      [
+       -82.91,
+       29.64
+      ],
+      [
+       -82.9,
+       29.67
+      ],
+      [
+       -82.85,
+       29.69
+      ],
+      [
+       -82.81,
+       29.64
+      ],
+      [
+       -82.83,
+       29.59
+      ],
+      [
+       -82.85,
+       29.58
+      ],
+      [
+       -82.86,
+       29.58
+      ],
+      [
+       -82.86,
+       29.59
+      ],
+      [
+       -82.9,
+       29.59
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -82.7958,
+     29.7235
+    ]
+   ],
+   "lon": -82.87,
+   "lat": 29.616,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KJAX.FA.A.0007.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1216,86 +1297,6 @@
    ],
    "lon": -164.189,
    "lat": 64.784,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTBW.MA.W.0231.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Tampa Bay Ruskin FL",
-   "areas": [
-    "Coastal waters from Tarpon Springs to Suwannee River FL out 20 NM"
-   ],
-   "counties": [
-    "77850"
-   ],
-   "sent": "2026-11-21T00:39:00Z",
-   "onset": "2026-11-21T00:39:00Z",
-   "ends": "2026-11-21T02:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4369da6db1ecff84ab27eb7f4164fa6eb28f2500.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -83.07,
-       29.3
-      ],
-      [
-       -82.99,
-       29.23
-      ],
-      [
-       -82.74,
-       29.24
-      ],
-      [
-       -82.74,
-       29.15
-      ],
-      [
-       -82.73,
-       29.13
-      ],
-      [
-       -82.74,
-       29.1
-      ],
-      [
-       -82.79,
-       28.98
-      ],
-      [
-       -83.01,
-       28.79
-      ],
-      [
-       -83.25,
-       28.87
-      ],
-      [
-       -83.47,
-       29.19
-      ],
-      [
-       -83.16,
-       29.3
-      ],
-      [
-       -83.07,
-       29.3
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -82.98,
-   "lat": 29.132,
    "countries": [
     "US"
    ]
