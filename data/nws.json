@@ -908,48 +908,6 @@
    ]
   },
   {
-   "id": "KSLC.FZ.W.0023.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Salt Lake City UT",
-   "areas": [
-    "Lower Washington County",
-    "Zion National Park"
-   ],
-   "counties": [
-    "49021",
-    "49025",
-    "49053"
-   ],
-   "sent": "2026-11-20T17:58:00Z",
-   "onset": "2026-11-21T04:00:00Z",
-   "ends": "2026-11-21T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a43290a39629874926f553cf04793f3b4f6dfcef.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -113.3067,
-     37.9093
-    ],
-    [
-     -111.8153,
-     37.2751
-    ],
-    [
-     -113.4878,
-     37.2625
-    ]
-   ],
-   "lon": -112.87,
-   "lat": 37.482,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1013,6 +971,48 @@
    ],
    "lon": -113.497,
    "lat": 34.323,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.FZ.W.0023.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Lower Washington County",
+    "Zion National Park"
+   ],
+   "counties": [
+    "49021",
+    "49025",
+    "49053"
+   ],
+   "sent": "2026-11-21T05:49:00Z",
+   "onset": "2026-11-21T05:49:00Z",
+   "ends": "2026-11-21T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf3fccc621e8ac269ff051639d0eff9f60f1763e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.3067,
+     37.9093
+    ],
+    [
+     -111.8153,
+     37.2751
+    ],
+    [
+     -113.4878,
+     37.2625
+    ]
+   ],
+   "lon": -112.87,
+   "lat": 37.482,
    "countries": [
     "US"
    ]
@@ -1313,88 +1313,6 @@
    ]
   },
   {
-   "id": "KSLC.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Salt Lake City UT",
-   "areas": [
-    "Wasatch Mountains I-80 North",
-    "Wasatch Mountains South of I-80"
-   ],
-   "counties": [
-    "49003",
-    "49005",
-    "49011",
-    "49023",
-    "49029",
-    "49033",
-    "49035",
-    "49043",
-    "49049",
-    "49051",
-    "49057"
-   ],
-   "sent": "2026-11-20T17:24:00Z",
-   "onset": "2026-11-20T17:24:00Z",
-   "ends": "2026-11-21T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d0f8f1654e5e9548896d57d9c18f84c4b28730b.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -113.0603,
-     41.6226
-    ],
-    [
-     -111.7454,
-     41.7341
-    ],
-    [
-     -112.2019,
-     41.0376
-    ],
-    [
-     -112.7905,
-     39.7141
-    ],
-    [
-     -111.5779,
-     41.091
-    ],
-    [
-     -111.2402,
-     41.6276
-    ],
-    [
-     -111.9242,
-     40.6679
-    ],
-    [
-     -110.9685,
-     40.8721
-    ],
-    [
-     -111.6686,
-     40.1204
-    ],
-    [
-     -111.1616,
-     40.3349
-    ],
-    [
-     -111.8769,
-     41.2703
-    ]
-   ],
-   "lon": -111.838,
-   "lat": 40.918,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPIH.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -1447,6 +1365,88 @@
    ],
    "lon": -111.531,
    "lat": 43.032,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Wasatch Mountains I-80 North",
+    "Wasatch Mountains South of I-80"
+   ],
+   "counties": [
+    "49003",
+    "49005",
+    "49011",
+    "49023",
+    "49029",
+    "49033",
+    "49035",
+    "49043",
+    "49049",
+    "49051",
+    "49057"
+   ],
+   "sent": "2026-11-21T05:48:00Z",
+   "onset": "2026-11-21T05:48:00Z",
+   "ends": "2026-11-21T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1093399ba9c42e10260cb3189230d1bf7d7cf6c7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -113.0603,
+     41.6226
+    ],
+    [
+     -111.7454,
+     41.7341
+    ],
+    [
+     -112.2019,
+     41.0376
+    ],
+    [
+     -112.7905,
+     39.7141
+    ],
+    [
+     -111.5779,
+     41.091
+    ],
+    [
+     -111.2402,
+     41.6276
+    ],
+    [
+     -111.9242,
+     40.6679
+    ],
+    [
+     -110.9685,
+     40.8721
+    ],
+    [
+     -111.6686,
+     40.1204
+    ],
+    [
+     -111.1616,
+     40.3349
+    ],
+    [
+     -111.8769,
+     41.2703
+    ]
+   ],
+   "lon": -111.838,
+   "lat": 40.918,
    "countries": [
     "US"
    ]
