@@ -1,4 +1,4 @@
-/*! tic-fold.js v2.0 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
+/*! tic-fold.js v2.2 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
  *  tall, its header kept in view, with "Show all N" beside it ·
  *  canonical copy: the hub's site/shared/tic-fold.js (copy into each site with
  *  tic-fold.css; keep the version line).
@@ -34,6 +34,10 @@
  *  style-src 'self' allows; nothing is stored. Nothing moves.
  *  From 1.x: the default is 10 at every width (was 10 on phones, 15 wider); "Show the first N" is now
  *  "Show in a window"; the classes tic-fold-on and tic-fold-x are gone.
+ *  2.1: a row the site marks `hidden` (its own search or filter) is left out of the count and the window, and
+ *  hiding or showing one re-applies the window.
+ *  2.2 (21 Nov 2026): after a link lands on a row, the second landing a frame later runs only if the layout
+ *  moved. It used to run regardless, and pulled back a reader who had scrolled in that frame.
  */
 (function () {
   "use strict";
@@ -52,6 +56,8 @@
     return [v[0], v.length > 1 ? v[1] : v[0]];
   }
 
+  function shown(it) { return !it.hidden; }
+
   function items(el) {
     if (el.tagName === "TABLE") {
       var out = [];
@@ -60,9 +66,9 @@
       } else {
         for (var r = 0; r < el.rows.length; r++) if (!el.rows[r].closest("thead")) out.push(el.rows[r]);
       }
-      return out;
+      return out.filter(shown);
     }
-    return Array.prototype.slice.call(el.children);
+    return Array.prototype.slice.call(el.children).filter(shown);
   }
 
   function word(el) { return el.tagName === "TABLE" ? "rows" : "items"; }
@@ -207,7 +213,7 @@
       queued = true;
       requestAnimationFrame(function () { queued = false; apply(); fromHash(); });
     });
-    obs.observe(el, { childList: true, subtree: true });
+    obs.observe(el, { childList: true, subtree: true, attributes: true, attributeFilter: ["hidden"] });
 
     // A window drawn later (a <details> opened, a group shown) or narrowed (rows wrap taller) measures again.
     if (window.ResizeObserver) {
@@ -232,6 +238,7 @@
   // Sites draw their rows after the page loads, so this runs again as rows arrive, once per address: a later
   // redraw (a filter, a refresh) never pulls the page back to the row.
   var handled = null;
+  function placeOf(t, box) { return t.getBoundingClientRect().top + window.scrollY + box.scrollTop; }
   function fromHash(force) {
     var h = location.hash || "";
     if (h.length < 2 || (!force && handled === h)) return;
@@ -250,8 +257,15 @@
     for (var d = t.closest("details"); d; d = d.parentElement && d.parentElement.closest("details")) d.open = true;
     st.apply();  // measures now that the window is drawn; another element's redraw can get here first
     t.scrollIntoView({ block: "start" });
-    // Other windows above the row settle in this same frame; land on the row again once they have.
-    requestAnimationFrame(function () { if (location.hash === h) t.scrollIntoView({ block: "start" }); });
+    // Other windows above the row settle in this same frame; land on the row again once they have. A move that
+    // only scrolled (the row's place in the page is unchanged) is the reader's, and stays.
+    var y = window.scrollY, inner = st.box.scrollTop, place = placeOf(t, st.box);
+    requestAnimationFrame(function () {
+      if (location.hash !== h) return;
+      var scrolled = window.scrollY !== y || st.box.scrollTop !== inner;
+      if (scrolled && Math.abs(placeOf(t, st.box) - place) < 1) return;
+      t.scrollIntoView({ block: "start" });
+    });
   }
 
   var later = false;
@@ -281,6 +295,6 @@
     window.addEventListener("load", function () { all.forEach(function (s) { s.measure(); }); });
   }
 
-  window.TicFold = { version: "2.0", setup: setup, scan: scanNew };
+  window.TicFold = { version: "2.2", setup: setup, scan: scanNew };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
 })();
