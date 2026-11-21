@@ -1,6 +1,48 @@
 {
  "records": [
   {
+   "id": "PTWC-20261121T000917Z",
+   "centre": "PTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-21T00:19:13Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "",
+   "location": "CENTRAL PERU",
+   "magnitude": 6.9,
+   "magnitude_type": "Mwp",
+   "origin": "2026-11-21T00:09:17Z",
+   "depth_km": 142.0,
+   "lat": -10.98,
+   "lon": -76.319,
+   "countries": [
+    "PE"
+   ],
+   "url": "https://www.tsunami.gov/events/PHEB/2026/11/21/26325050/1/WEGM42/PHEBCAP.xml"
+  },
+  {
+   "id": "NTWC-20261121T000918Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-21T00:18:02Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement for Alaska, British Columbia, Washington, Oregon, and California.",
+   "location": "in central Peru",
+   "magnitude": 6.9,
+   "magnitude_type": "Mwp",
+   "origin": "2026-11-21T00:09:18Z",
+   "depth_km": 142.0,
+   "lat": -11.0,
+   "lon": -76.3,
+   "countries": [
+    "PE"
+   ],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/21/totsfi/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "NTWC-20261120T112534Z",
    "centre": "NTWC",
    "msg_type": "Alert",
