@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000ucn8",
+   "mag": 4.6,
+   "place": "68 km SSE of Tateyama, Japan",
+   "time": "2026-11-21T17:30:44Z",
+   "updated": "2026-11-21T18:00:30Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 326,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn8",
+   "depth_km": 65.5,
+   "lon": 140.131,
+   "lat": 34.409,
+   "countries": []
+  },
+  {
    "id": "pr2026325000",
    "mag": 4.6,
    "place": "18 km ESE of La Romana, Dominican Republic",
@@ -1477,23 +1492,6 @@
    "lat": -8.382,
    "countries": [
     "ID"
-   ]
-  },
-  {
-   "id": "us7000ty9z",
-   "mag": 4.7,
-   "place": "24 km S of Yacuiba, Bolivia",
-   "time": "2026-11-14T18:04:01Z",
-   "updated": "2026-11-14T18:18:57Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
-   "depth_km": 506.3,
-   "lon": -63.653,
-   "lat": -22.236,
-   "countries": [
-    "AR"
    ]
   }
  ]
