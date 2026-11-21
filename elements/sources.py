@@ -85,6 +85,40 @@ def gdacs_urls(now: datetime) -> list[str]:
             f"{base}&eventlist=TC;FL;VO;DR&alertlevel=Green"]
 
 
+def _unmojibake(text: str) -> str:
+    """GDACS sometimes sends UTF-8 read as Latin-1 ("TÃ¼rkiye"); undo it so the name can be looked up."""
+    if "Ã" not in text and "Â" not in text:
+        return text
+    try:
+        return text.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+
+
+def gdacs_countries(named: str | None, lon: float, lat: float) -> list[str]:
+    """ISO codes for every country a GDACS event names, with the country under its own point first.
+
+    GDACS gives one point per event but a comma-separated list of the countries it affects ("Burundi, Democratic
+    Republic of Congo, ..., Uganda" for a drought that spans 13). A name is tried alone and then joined with the next
+    one or two parts, for the few that hold a comma themselves ("Korea, Republic of"). A name the kit does not know is
+    left out; the full text stays in measures.name."""
+    out = []
+    here = country_of(lon, lat)
+    parts = [_unmojibake(x).strip() for x in (named or "").split(",")]
+    parts = [x for x in parts if x]
+    i = 0
+    while i < len(parts):
+        for n in (3, 2, 1):
+            cc = name_to_iso(", ".join(parts[i:i + n])) if i + n <= len(parts) else None
+            if cc:
+                out.append(cc)
+                i += n
+                break
+        else:
+            i += 1
+    return list(dict.fromkeys(here + out))
+
+
 def parse_gdacs(doc: dict) -> list[dict]:
     out = []
     for f in doc.get("features", []):
@@ -105,7 +139,7 @@ def parse_gdacs(doc: dict) -> list[dict]:
                     "current": str(p.get("iscurrent")).lower() == "true", "country": p.get("country"),
                     "severity": sev.get("severitytext"), "report": urls.get("report") if isinstance(urls, dict) else None,
                     "lon": round(float(c[0]), 3), "lat": round(float(c[1]), 3),
-                    "countries": country_of(float(c[0]), float(c[1]))})
+                    "countries": gdacs_countries(p.get("country"), float(c[0]), float(c[1]))})
     return out
 
 
@@ -169,7 +203,10 @@ def name_to_iso(name: str) -> str | None:
         _NAMES = {c["name"].lower(): c["cc"] for c in json.loads(p.read_text(encoding="utf-8"))["countries"] if c.get("name")}
         _NAMES.update({"czech republic": "CZ", "czechia": "CZ", "bosnia and herzegovina": "BA", "united kingdom": "GB",
                        "democratic republic of the congo": "CD", "republic of the congo": "CG", "congo": "CG", "türkiye": "TR",
-                       "turkey": "TR", "north macedonia": "MK", "russia": "RU", "south sudan": "SS"})
+                       "turkey": "TR", "north macedonia": "MK", "russia": "RU", "south sudan": "SS",
+                       # GDACS's spellings; the kit has no code for French Guiana and puts it in France
+                       "bosnia & herzegovina": "BA", "democratic republic of congo": "CD", "republic of congo": "CG", "islamic republic of iran": "IR",
+                       "united states": "US", "french guiana": "FR"})
     return iso(_NAMES.get((name or "").strip().lower()))
 
 
