@@ -174,7 +174,7 @@
    "acres": 1808.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T14:05:27Z",
+   "updated": "2026-11-21T14:56:49Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -195,6 +195,20 @@
    "complexity": "Type 4 Incident",
    "lon": -71.0313,
    "lat": 44.3306
+  },
+  {
+   "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
+   "name": "White Oak Flat",
+   "acres": 800.0,
+   "contained": null,
+   "discovered": "2026-11-20T16:47:15Z",
+   "updated": "2026-11-21T14:59:33Z",
+   "state": "VA",
+   "county": "Alleghany",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -79.8621,
+   "lat": 37.8422
   },
   {
    "id": "{4833B31B-FB37-43D1-AE8B-670E61AA2199}",
@@ -223,20 +237,6 @@
    "complexity": "Type 4 Incident",
    "lon": -89.0639,
    "lat": 31.1301
-  },
-  {
-   "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
-   "name": "White Oak Flat",
-   "acres": 500.0,
-   "contained": null,
-   "discovered": "2026-11-20T16:47:15Z",
-   "updated": "2026-11-20T22:04:44Z",
-   "state": "VA",
-   "county": "Alleghany",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -79.8621,
-   "lat": 37.8422
   },
   {
    "id": "{E454CC69-75B7-4C9E-90E3-9CDB62CACE19}",
@@ -785,6 +785,20 @@
    "lat": 45.6183
   },
   {
+   "id": "{C200ECD6-BEC4-4B8E-9323-8857818C0390}",
+   "name": "Highway 1595 #4",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-21T14:21:00Z",
+   "updated": "2026-11-21T14:52:16Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.955,
+   "lat": 36.6494
+  },
+  {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
    "name": "Cedar",
    "acres": 1.9,
@@ -925,20 +939,6 @@
    "lat": 45.8129
   },
   {
-   "id": "{A69EA70F-5826-442C-8471-847F3DB49BB4}",
-   "name": "Highway 1595 #3",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-21T02:30:00Z",
-   "updated": "2026-11-21T05:59:01Z",
-   "state": "KY",
-   "county": "Whitley",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.9604,
-   "lat": 36.6568
-  },
-  {
    "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
    "name": "Card Knob Road",
    "acres": 1.0,
@@ -971,8 +971,8 @@
    "name": "Dump",
    "acres": 0.9,
    "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T22:25:13Z",
+   "discovered": "2026-11-20T20:30:00Z",
+   "updated": "2026-11-21T14:45:21Z",
    "state": "WI",
    "county": "Sauk",
    "cause": "Human",
@@ -1021,6 +1021,20 @@
    "complexity": null,
    "lon": -91.2666,
    "lat": 44.8477
+  },
+  {
+   "id": "{CAF1AE64-C4E9-4CAF-889D-9CFCEDCDB3EE}",
+   "name": "Edwards Ferry 3",
+   "acres": 0.7,
+   "contained": null,
+   "discovered": "2026-11-20T15:33:30Z",
+   "updated": "2026-11-21T14:49:41Z",
+   "state": "MD",
+   "county": "Montgomery",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -77.4727,
+   "lat": 39.102
   },
   {
    "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
