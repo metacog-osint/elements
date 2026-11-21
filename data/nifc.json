@@ -174,7 +174,7 @@
    "acres": 1808.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T16:58:04Z",
+   "updated": "2026-11-21T17:28:44Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -603,6 +603,20 @@
    "lat": 36.6531
   },
   {
+   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
+   "name": "Floyd County - Hunter",
+   "acres": 10.0,
+   "contained": 0,
+   "discovered": "2026-11-21T15:30:00Z",
+   "updated": "2026-11-21T17:31:05Z",
+   "state": "KY",
+   "county": "Floyd",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -82.736,
+   "lat": 37.5033
+  },
+  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -788,9 +802,9 @@
    "id": "{C200ECD6-BEC4-4B8E-9323-8857818C0390}",
    "name": "Highway 1595 #4",
    "acres": 2.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-21T14:21:00Z",
-   "updated": "2026-11-21T14:52:16Z",
+   "updated": "2026-11-21T17:23:31Z",
    "state": "KY",
    "county": "Whitley",
    "cause": "Undetermined",
@@ -937,20 +951,6 @@
    "complexity": null,
    "lon": -89.1555,
    "lat": 45.8129
-  },
-  {
-   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
-   "name": "Floyd County - Hunter",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-21T15:30:00Z",
-   "updated": "2026-11-21T16:47:07Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.7365,
-   "lat": 37.5026
   },
   {
    "id": "{261035EB-B93E-42D4-B20B-88419EDE712A}",
@@ -1595,6 +1595,20 @@
    "complexity": null,
    "lon": -84.5265,
    "lat": 34.6809
+  },
+  {
+   "id": "{177E7740-6873-434D-A478-32504F981F09}",
+   "name": "Red Bird Road",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-21T17:20:15Z",
+   "updated": "2026-11-21T17:33:28Z",
+   "state": "IL",
+   "county": "Jackson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5309,
+   "lat": 37.79
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
