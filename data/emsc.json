@@ -1,16 +1,32 @@
 {
  "records": [
   {
+   "id": "20261121_0000244",
+   "mag": 5.3,
+   "magtype": "m",
+   "time": "2026-11-21T19:03:03Z",
+   "updated": "2026-11-21T19:06:55Z",
+   "region": "Jujuy, Argentina",
+   "depth_km": 223.0,
+   "authority": "EMSC",
+   "lat": -23.112,
+   "lon": -66.641,
+   "countries": [
+    "AR"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261121_0000244"
+  },
+  {
    "id": "20261121_0000232",
    "mag": 4.6,
    "magtype": "mb",
-   "time": "2026-11-21T17:30:44Z",
-   "updated": "2026-11-21T18:00:40Z",
+   "time": "2026-11-21T17:30:43Z",
+   "updated": "2026-11-21T18:42:28Z",
    "region": "Near East Coast Of Honshu, Japan",
-   "depth_km": 65.5,
-   "authority": "NEIC",
-   "lat": 34.409,
-   "lon": 140.131,
+   "depth_km": 51.9,
+   "authority": "GFZ",
+   "lat": 34.349,
+   "lon": 140.045,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261121_0000232"
   },
@@ -29,6 +45,22 @@
     "CN"
    ],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261121_0000143"
+  },
+  {
+   "id": "20261121_0000140",
+   "mag": 4.5,
+   "magtype": "mb",
+   "time": "2026-11-21T10:10:30Z",
+   "updated": "2026-11-21T13:57:52Z",
+   "region": "Hindu Kush Region, Afghanistan",
+   "depth_km": 150.0,
+   "authority": "GSRAS",
+   "lat": 36.53,
+   "lon": 70.99,
+   "countries": [
+    "AF"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261121_0000140"
   },
   {
    "id": "20261121_0000150",
@@ -120,13 +152,13 @@
    "id": "20261121_0000017",
    "mag": 4.7,
    "magtype": "mw",
-   "time": "2026-11-21T01:24:09Z",
-   "updated": "2026-11-21T01:34:23Z",
+   "time": "2026-11-21T01:24:11Z",
+   "updated": "2026-11-21T19:06:25Z",
    "region": "Antofagasta, Chile",
-   "depth_km": 120.0,
-   "authority": "NEIC",
-   "lat": -22.231,
-   "lon": -68.641,
+   "depth_km": 122.0,
+   "authority": "GFZ",
+   "lat": -22.275,
+   "lon": -68.687,
    "countries": [
     "CL"
    ],
