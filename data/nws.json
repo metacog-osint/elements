@@ -854,54 +854,6 @@
    ]
   },
   {
-   "id": "KJAX.FA.A.0007.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Nassau",
-    "Coastal Nassau",
-    "Coastal Duval",
-    "Trout River",
-    "Northeast Coastal St. Johns",
-    "South Central Duval",
-    "Southeast Coastal St. Johns",
-    "Western Duval"
-   ],
-   "counties": [
-    "12031",
-    "12089",
-    "12109"
-   ],
-   "sent": "2026-11-21T06:17:00Z",
-   "onset": "2026-11-21T06:17:00Z",
-   "ends": "2026-11-21T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3a3a44af1953d7802d1b06c129dc31abb1cd3c2.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.7651,
-     30.606
-    ],
-    [
-     -81.3883,
-     29.8814
-    ]
-   ],
-   "lon": -81.6,
-   "lat": 30.274,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSLC.FZ.W.0023.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1186,18 +1138,18 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula",
-    "St Lawrence Island"
+    "Interior Seward Peninsula"
    ],
    "counties": [
     "02180"
    ],
    "sent": "2026-11-20T21:55:00Z",
-   "onset": "2026-11-22T21:00:00Z",
+   "onset": "2026-11-23T03:00:00Z",
    "ends": "2026-11-23T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1288,6 +1240,58 @@
    "points": [],
    "lon": -81.629,
    "lat": 25.695,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0403.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms"
+   ],
+   "counties": [
+    "77033"
+   ],
+   "sent": "2026-11-21T12:28:00Z",
+   "onset": "2026-11-21T12:28:00Z",
+   "ends": "2026-11-21T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fbe382bfb88eae447aea5b6a5c07ab2b1760d2b5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.97,
+       25.07
+      ],
+      [
+       -82.05,
+       25.24
+      ],
+      [
+       -81.74,
+       25.42
+      ],
+      [
+       -81.61,
+       25.17
+      ],
+      [
+       -81.97,
+       25.07
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.868,
+   "lat": 25.194,
    "countries": [
     "US"
    ]
@@ -1456,26 +1460,22 @@
    "certainty": "Likely",
    "sender": "NWS Salt Lake City UT",
    "areas": [
-    "Wasatch Mountains I-80 North",
-    "Wasatch Mountains South of I-80"
+    "Wasatch Mountains I-80 North"
    ],
    "counties": [
     "49003",
     "49005",
     "49011",
-    "49023",
     "49029",
     "49033",
     "49035",
     "49043",
-    "49049",
-    "49051",
     "49057"
    ],
-   "sent": "2026-11-21T05:48:00Z",
-   "onset": "2026-11-21T05:48:00Z",
+   "sent": "2026-11-21T12:05:00Z",
+   "onset": "2026-11-21T12:05:00Z",
    "ends": "2026-11-21T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1093399ba9c42e10260cb3189230d1bf7d7cf6c7.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1022fce1e5b4f066138e67c1613a6aad11f493e.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1490,10 +1490,6 @@
     [
      -112.2019,
      41.0376
-    ],
-    [
-     -112.7905,
-     39.7141
     ],
     [
      -111.5779,
@@ -1512,20 +1508,12 @@
      40.8721
     ],
     [
-     -111.6686,
-     40.1204
-    ],
-    [
-     -111.1616,
-     40.3349
-    ],
-    [
      -111.8769,
      41.2703
     ]
    ],
-   "lon": -111.838,
-   "lat": 40.918,
+   "lon": -111.824,
+   "lat": 41.24,
    "countries": [
     "US"
    ]
