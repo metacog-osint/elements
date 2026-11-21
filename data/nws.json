@@ -1166,66 +1166,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0391.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-21T20:26:00Z",
-   "onset": "2026-11-21T20:26:00Z",
-   "ends": "2026-11-21T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dcfe1bb2f33b9bd702632076a65a0ab6405d43fd.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.1,
-       25.77
-      ],
-      [
-       -79.18,
-       25.49
-      ],
-      [
-       -79.81,
-       25.56
-      ],
-      [
-       -79.76,
-       25.93
-      ],
-      [
-       -79.46,
-       26.19
-      ],
-      [
-       -79.09,
-       26.14
-      ],
-      [
-       -79.1,
-       25.77
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.357,
-   "lat": 25.836,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.MA.W.0353.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1347,6 +1287,62 @@
    "points": [],
    "lon": -80.006,
    "lat": 26.58,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0393.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75671"
+   ],
+   "sent": "2026-11-21T21:28:00Z",
+   "onset": "2026-11-21T21:28:00Z",
+   "ends": "2026-11-21T22:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.817d5f69016d338960fac6fb5254ba233188b5be.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.1,
+       25.77
+      ],
+      [
+       -79.15,
+       25.57
+      ],
+      [
+       -79.74,
+       25.65
+      ],
+      [
+       -79.72,
+       26.09
+      ],
+      [
+       -79.09,
+       26.1
+      ],
+      [
+       -79.1,
+       25.77
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.317,
+   "lat": 25.825,
    "countries": [
     "US"
    ]
