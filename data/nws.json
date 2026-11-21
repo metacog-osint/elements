@@ -1123,6 +1123,32 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.3597.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-21T00:45:00Z",
+   "onset": "2026-11-28T02:00:00Z",
+   "ends": "2026-11-28T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e223157a6e1ae839a3129fb0c0c2be643bcde0fa.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.W.0043.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1210,18 +1236,18 @@
    "certainty": "Possible",
    "sender": "NWS Fairbanks AK",
    "areas": [
-    "St Lawrence Island",
     "Bering Strait Coast",
     "Southern Seward Peninsula Coast",
-    "Interior Seward Peninsula"
+    "Interior Seward Peninsula",
+    "St Lawrence Island"
    ],
    "counties": [
     "02180"
    ],
    "sent": "2026-11-20T21:55:00Z",
-   "onset": "2026-11-23T03:00:00Z",
+   "onset": "2026-11-22T21:00:00Z",
    "ends": "2026-11-23T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be689b51d5e3946189c11371cbd15c42367ad6c5.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1232,6 +1258,174 @@
    ],
    "lon": -164.189,
    "lat": 64.784,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTBW.MA.W.0231.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Tampa Bay Ruskin FL",
+   "areas": [
+    "Coastal waters from Tarpon Springs to Suwannee River FL out 20 NM"
+   ],
+   "counties": [
+    "77850"
+   ],
+   "sent": "2026-11-21T00:39:00Z",
+   "onset": "2026-11-21T00:39:00Z",
+   "ends": "2026-11-21T02:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4369da6db1ecff84ab27eb7f4164fa6eb28f2500.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -83.07,
+       29.3
+      ],
+      [
+       -82.99,
+       29.23
+      ],
+      [
+       -82.74,
+       29.24
+      ],
+      [
+       -82.74,
+       29.15
+      ],
+      [
+       -82.73,
+       29.13
+      ],
+      [
+       -82.74,
+       29.1
+      ],
+      [
+       -82.79,
+       28.98
+      ],
+      [
+       -83.01,
+       28.79
+      ],
+      [
+       -83.25,
+       28.87
+      ],
+      [
+       -83.47,
+       29.19
+      ],
+      [
+       -83.16,
+       29.3
+      ],
+      [
+       -83.07,
+       29.3
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -82.98,
+   "lat": 29.132,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.MA.W.0271.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM"
+   ],
+   "counties": [
+    "75474"
+   ],
+   "sent": "2026-11-21T00:53:00Z",
+   "onset": "2026-11-21T00:53:00Z",
+   "ends": "2026-11-21T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa7ae37730c5511a0819fbad7311d9b5c6b489c6.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.52,
+       29.48
+      ],
+      [
+       -80.16,
+       29.79
+      ],
+      [
+       -80.15,
+       29.77
+      ],
+      [
+       -80.15,
+       29.76
+      ],
+      [
+       -80.14,
+       29.75
+      ],
+      [
+       -80.12,
+       29.72
+      ],
+      [
+       -80.12,
+       29.7
+      ],
+      [
+       -80.1,
+       29.67
+      ],
+      [
+       -80.1,
+       29.65
+      ],
+      [
+       -80.04,
+       29.57
+      ],
+      [
+       -80.01,
+       29.51
+      ],
+      [
+       -79.99,
+       29.48
+      ],
+      [
+       -79.98,
+       29.47
+      ],
+      [
+       -80.52,
+       29.48
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.15,
+   "lat": 29.629,
    "countries": [
     "US"
    ]
