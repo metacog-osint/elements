@@ -247,117 +247,6 @@
    ]
   },
   {
-   "id": "TJSJ.FF.W.0044.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Bayamon, PR",
-    "Catano, PR",
-    "Guaynabo, PR",
-    "Toa Baja, PR"
-   ],
-   "counties": [
-    "72021",
-    "72033",
-    "72061",
-    "72137"
-   ],
-   "sent": "2026-11-22T18:01:00Z",
-   "onset": "2026-11-22T18:01:00Z",
-   "ends": "2026-11-22T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ca591feb28e7469d75ec490b68dbc7f000fc068.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -66.25,
-       18.45
-      ],
-      [
-       -66.21,
-       18.46
-      ],
-      [
-       -66.19,
-       18.45
-      ],
-      [
-       -66.21,
-       18.47
-      ],
-      [
-       -66.19,
-       18.48
-      ],
-      [
-       -66.16,
-       18.45
-      ],
-      [
-       -66.14,
-       18.48
-      ],
-      [
-       -66.16,
-       18.44
-      ],
-      [
-       -66.14,
-       18.46
-      ],
-      [
-       -66.14,
-       18.44
-      ],
-      [
-       -66.11,
-       18.44
-      ],
-      [
-       -66.1,
-       18.42
-      ],
-      [
-       -66.11,
-       18.37
-      ],
-      [
-       -66.25,
-       18.45
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -66.1686,
-     18.3494
-    ],
-    [
-     -66.1488,
-     18.4446
-    ],
-    [
-     -66.1141,
-     18.3444
-    ],
-    [
-     -66.1932,
-     18.4569
-    ]
-   ],
-   "lon": -66.169,
-   "lat": 18.447,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1280,10 +1169,10 @@
    "counties": [
     "06015"
    ],
-   "sent": "2026-11-22T19:24:00Z",
+   "sent": "2026-11-22T20:37:00Z",
    "onset": "2026-11-24T06:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e901bfe96d0d0d42923d89c4e88226c826a9f3ef.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2731fa5af642e2480f065b805025e6c6ffdeb329.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1294,6 +1183,123 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLZK.SV.W.0361.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Little Rock AR",
+   "areas": [
+    "Grant, AR",
+    "Hot Spring, AR"
+   ],
+   "counties": [
+    "05053",
+    "05059"
+   ],
+   "sent": "2026-11-22T21:03:00Z",
+   "onset": "2026-11-22T21:03:00Z",
+   "ends": "2026-11-22T21:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ded1814e3e273f78a9a1cea9d6e5589a4611801.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.73,
+       34.27
+      ],
+      [
+       -92.72,
+       34.39
+      ],
+      [
+       -92.44,
+       34.45
+      ],
+      [
+       -92.44,
+       34.24
+      ],
+      [
+       -92.73,
+       34.27
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -92.423,
+     34.2856
+    ],
+    [
+     -92.9441,
+     34.3152
+    ]
+   ],
+   "lon": -92.612,
+   "lat": 34.324,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.MA.W.0407.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75184",
+    "75186"
+   ],
+   "sent": "2026-11-22T20:47:00Z",
+   "onset": "2026-11-22T20:47:00Z",
+   "ends": "2026-11-22T22:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2a3b660273ceedeafdf2ae9496e80e604298401.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -75.68,
+       34.03
+      ],
+      [
+       -76.03,
+       34.37
+      ],
+      [
+       -75.42,
+       34.83
+      ],
+      [
+       -74.98,
+       34.51
+      ],
+      [
+       -75.68,
+       34.03
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -75.558,
+   "lat": 34.354,
    "countries": [
     "US"
    ]
@@ -1387,11 +1393,11 @@
    ]
   },
   {
-   "id": "KMFR.SR.A.0002.2026",
-   "event": "Storm Watch",
+   "id": "KMFR.SR.W.0005.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Medford OR",
    "areas": [
     "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
@@ -1401,10 +1407,10 @@
     "57370",
     "57376"
    ],
-   "sent": "2026-11-22T08:38:00Z",
-   "onset": "2026-11-23T12:00:00Z",
+   "sent": "2026-11-22T20:35:00Z",
+   "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64f7c907d9ff3b3c34430883100d8656c44ad4dc.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.868f35c5a758e27ccd028c7e01b6d3db8b57ffe0.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
