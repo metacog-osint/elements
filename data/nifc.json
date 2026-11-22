@@ -244,7 +244,7 @@
    "acres": 350.0,
    "contained": null,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-22T16:04:34Z",
+   "updated": "2026-11-22T16:32:02Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -293,6 +293,20 @@
    "complexity": null,
    "lon": -121.7198,
    "lat": 46.922
+  },
+  {
+   "id": "{DAB3A16C-B96D-483E-B7B3-84A40BFA6C82}",
+   "name": "Ball Diamond",
+   "acres": 152.0,
+   "contained": 100,
+   "discovered": "2026-11-21T03:15:00Z",
+   "updated": "2026-11-22T16:13:06Z",
+   "state": "VA",
+   "county": "Tazewell",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -81.5525,
+   "lat": 37.1875
   },
   {
    "id": "{DD65D5E6-6D16-489F-83E2-54182B421864}",
@@ -853,6 +867,20 @@
    "complexity": null,
    "lon": -89.5213,
    "lat": 45.6183
+  },
+  {
+   "id": "{E5F4335F-AA49-4CA0-A31B-EBED0805A98B}",
+   "name": "Mercer County - 220 Hughley Lane",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-22T14:56:00Z",
+   "updated": "2026-11-22T16:31:57Z",
+   "state": "KY",
+   "county": "Mercer",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.7459,
+   "lat": 37.718
   },
   {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
@@ -1597,6 +1625,20 @@
    "lat": 41.6892
   },
   {
+   "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
+   "name": "Wildfire Training",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-01-07T16:17:00Z",
+   "updated": "2026-11-22T16:29:21Z",
+   "state": "CA",
+   "county": "Mariposa",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.9742,
+   "lat": 37.5743
+  },
+  {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
    "name": "Petroleum",
    "acres": 0.0,
@@ -2127,6 +2169,20 @@
    "complexity": null,
    "lon": -118.1513,
    "lat": 33.8771
+  },
+  {
+   "id": "{016C1C56-E676-4BF3-AFF6-3E75F25043E2}",
+   "name": "Lac-422463",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T16:25:01Z",
+   "updated": "2026-11-22T16:26:28Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.4474,
+   "lat": 34.4164
   }
  ]
 }
