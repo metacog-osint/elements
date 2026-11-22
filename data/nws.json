@@ -436,120 +436,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-22T01:23:00Z",
-   "onset": "2026-11-22T01:23:00Z",
-   "ends": "2026-11-22T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.624df641c340188922e5afe7c8a54ce82d062ca5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-22T01:27:00Z",
-   "onset": "2026-11-22T01:27:00Z",
-   "ends": "2026-11-22T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76171c67859d9be31af3fb79c06be60474be30b3.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0010.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -665,6 +551,120 @@
    ],
    "lon": -81.402,
    "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-22T13:52:00Z",
+   "onset": "2026-11-22T13:52:00Z",
+   "ends": "2026-11-23T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29b066556e6e78ad845c927797cf35a06f45248b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-22T14:01:00Z",
+   "onset": "2026-11-22T14:01:00Z",
+   "ends": "2026-11-23T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.304e4b71ba25d3a4b54e90c9b51276843ee63e08.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
    "countries": [
     "US"
    ]
@@ -1109,32 +1109,6 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFC.SR.W.1208.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Anchorage AK",
-   "areas": [
-    "Nikolski to Seguam Pacific Side from 15 to 75 NM"
-   ],
-   "counties": [
-    "58778"
-   ],
-   "sent": "2026-11-21T00:01:00Z",
-   "onset": "2026-11-21T14:00:00Z",
-   "ends": "2026-11-22T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aec84fe800063f5cc649a320f642942282745067.021.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
    "countries": [
     "US"
    ]
