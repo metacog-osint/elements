@@ -1103,6 +1103,62 @@
    ]
   },
   {
+   "id": "KKEY.MA.W.0409.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out"
+   ],
+   "counties": [
+    "77072"
+   ],
+   "sent": "2026-11-22T06:02:00Z",
+   "onset": "2026-11-22T06:02:00Z",
+   "ends": "2026-11-22T06:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b427285e64e0dd591e7e9e8ec8dfe76dd338b6f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.78,
+       24.53
+      ],
+      [
+       -79.93,
+       24.65
+      ],
+      [
+       -79.82,
+       24.76
+      ],
+      [
+       -79.68,
+       24.65
+      ],
+      [
+       -79.66,
+       24.63
+      ],
+      [
+       -79.78,
+       24.53
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.775,
+   "lat": 24.625,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.1208.2026",
    "event": "Storm Warning",
    "severity": "Severe",
