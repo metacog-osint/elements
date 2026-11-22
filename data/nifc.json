@@ -171,10 +171,10 @@
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
-   "acres": 1000.0,
-   "contained": 0,
+   "acres": 1577.0,
+   "contained": 49,
    "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-22T20:26:02Z",
+   "updated": "2026-11-22T23:04:54Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -365,6 +365,34 @@
    "lat": 33.6985
   },
   {
+   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
+   "name": "Rockhouse Fork Road",
+   "acres": 120.0,
+   "contained": 50,
+   "discovered": "2026-11-21T19:08:00Z",
+   "updated": "2026-11-22T23:05:41Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.1202,
+   "lat": 37.4458
+  },
+  {
+   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
+   "name": "Card Knob Road",
+   "acres": 117.0,
+   "contained": 40,
+   "discovered": "2026-11-21T03:32:00Z",
+   "updated": "2026-11-22T22:36:50Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.2685,
+   "lat": 37.3559
+  },
+  {
    "id": "{44E2000B-37E4-4272-8550-FC6C3FCFFD1C}",
    "name": "Elk Shoals",
    "acres": 113.0,
@@ -377,34 +405,6 @@
    "complexity": "Type 4 Incident",
    "lon": -82.4175,
    "lat": 35.9558
-  },
-  {
-   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
-   "name": "Card Knob Road",
-   "acres": 106.0,
-   "contained": 10,
-   "discovered": "2026-11-21T03:32:00Z",
-   "updated": "2026-11-22T21:14:22Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.2685,
-   "lat": 37.3559
-  },
-  {
-   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
-   "name": "Rockhouse Fork Road",
-   "acres": 105.0,
-   "contained": 25,
-   "discovered": "2026-11-21T19:08:00Z",
-   "updated": "2026-11-22T21:14:24Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.1202,
-   "lat": 37.4458
   },
   {
    "id": "{043D65A0-543E-4682-BDAA-7F1FB91F1076}",
@@ -743,34 +743,6 @@
    "lat": 45.1823
   },
   {
-   "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
-   "name": "Bitternut",
-   "acres": 3.7,
-   "contained": null,
-   "discovered": "2026-10-24T02:00:00Z",
-   "updated": "2026-11-19T22:55:42Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.8269,
-   "lat": 44.6578
-  },
-  {
-   "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
-   "name": "Sawyer Lake",
-   "acres": 2.7,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T22:29:55Z",
-   "state": "WI",
-   "county": "Langlade",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.7465,
-   "lat": 45.2497
-  },
-  {
    "id": "{EDFB5A95-C063-4E3C-AAF3-A3A5860317BF}",
    "name": "Wildcat",
    "acres": 2.6,
@@ -783,20 +755,6 @@
    "complexity": null,
    "lon": -89.8687,
    "lat": 45.9591
-  },
-  {
-   "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
-   "name": "Crescent Lake",
-   "acres": 2.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T22:33:15Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.5213,
-   "lat": 45.6183
   },
   {
    "id": "{E5F4335F-AA49-4CA0-A31B-EBED0805A98B}",
@@ -853,20 +811,6 @@
    "complexity": null,
    "lon": -89.6263,
    "lat": 45.4719
-  },
-  {
-   "id": "{AB482909-DA92-49C0-9CA8-BB4D6DA2754C}",
-   "name": "Boyd",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-10-20T19:00:00Z",
-   "updated": "2026-11-19T22:11:46Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.0653,
-   "lat": 45.6611
   },
   {
    "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
@@ -1163,48 +1107,6 @@
    "lat": 35.3714
   },
   {
-   "id": "{54A2D2DD-8D4D-4058-8460-31D355DE1305}",
-   "name": "Picnic",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-08-02T17:30:28Z",
-   "updated": "2026-11-19T22:53:45Z",
-   "state": "CA",
-   "county": "Mariposa",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -119.6253,
-   "lat": 37.7231
-  },
-  {
-   "id": "{6059C4A5-193C-4CC8-B76A-6C4A3AAC2486}",
-   "name": "Stump",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-09-09T21:23:16Z",
-   "updated": "2026-11-19T22:18:02Z",
-   "state": "CA",
-   "county": "Mariposa",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -119.7034,
-   "lat": 37.6525
-  },
-  {
-   "id": "{5DB23DF9-6933-4CC6-BCAC-D1967F3584CA}",
-   "name": "Polly",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-08T01:11:00Z",
-   "updated": "2026-11-19T22:51:35Z",
-   "state": "CA",
-   "county": "Mariposa",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -119.4539,
-   "lat": 37.8617
-  },
-  {
    "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
    "name": "Seidel",
    "acres": 0.1,
@@ -1217,20 +1119,6 @@
    "complexity": null,
    "lon": -88.3492,
    "lat": 45.8655
-  },
-  {
-   "id": "{CB918629-1590-48CC-A4B7-1C05AE779932}",
-   "name": "Cty B",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-17T19:00:00Z",
-   "updated": "2026-11-19T22:27:46Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.2478,
-   "lat": 45.7517
   },
   {
    "id": "{F695B813-0F24-4FE1-A0D1-E625CB507224}",
@@ -1259,20 +1147,6 @@
    "complexity": null,
    "lon": -88.9943,
    "lat": 45.3077
-  },
-  {
-   "id": "{FB67974E-D10D-497B-863A-F3DA99214ECF}",
-   "name": "Lakeside",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T20:41:00Z",
-   "updated": "2026-11-19T22:29:43Z",
-   "state": "WI",
-   "county": "Waushara",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.2005,
-   "lat": 44.1172
   },
   {
    "id": "{87274356-2114-45C1-9520-D07DE1FDA264}",
@@ -1429,34 +1303,6 @@
    "lat": 45.1782
   },
   {
-   "id": "{8FB753C6-3866-4716-9EA1-ED5F2F5209F3}",
-   "name": "Alpaugh",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-08-19T20:00:00Z",
-   "updated": "2026-11-19T22:24:27Z",
-   "state": "CA",
-   "county": "Tulare",
-   "cause": null,
-   "complexity": null,
-   "lon": -119.2156,
-   "lat": 36.2975
-  },
-  {
-   "id": "{BC1FDEDB-C1BC-45D5-8602-DB7AB69727DF}",
-   "name": "Elk Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-02T16:51:00Z",
-   "updated": "2026-11-19T22:07:32Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -122.8707,
-   "lat": 42.8623
-  },
-  {
    "id": "{0288D6DC-BB29-4A16-BB53-6A51F8B82DDD}",
    "name": "Gravel Pit Lane",
    "acres": 0.0,
@@ -1485,20 +1331,6 @@
    "lat": 42.898
   },
   {
-   "id": "{95736EB3-168C-4217-9896-87213C2BC507}",
-   "name": "Little Gazley",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-24T23:38:00Z",
-   "updated": "2026-11-19T22:37:36Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -123.2447,
-   "lat": 42.9504
-  },
-  {
    "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
    "name": "Fox",
    "acres": 0.0,
@@ -1511,76 +1343,6 @@
    "complexity": null,
    "lon": -89.2191,
    "lat": 45.391
-  },
-  {
-   "id": "{48E29B19-7C73-43E0-87A1-3E6A6564E55E}",
-   "name": "Boyd 2",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-20T19:00:00Z",
-   "updated": "2026-11-19T22:17:12Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.0653,
-   "lat": 45.6645
-  },
-  {
-   "id": "{1B7FF23E-FAF8-43F2-B26B-555FA9AD63E8}",
-   "name": "Baler 1",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-30T19:44:00Z",
-   "updated": "2026-11-19T22:49:47Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.2913,
-   "lat": 44.5719
-  },
-  {
-   "id": "{7B513A35-50F8-4E7C-ADF6-ADD6B50E9EA0}",
-   "name": "Baler 2",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-30T19:44:00Z",
-   "updated": "2026-11-19T22:48:55Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.2908,
-   "lat": 44.5719
-  },
-  {
-   "id": "{1ACB6160-DD54-4C7A-9AAD-739EAF3F385C}",
-   "name": "Baler 3",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-30T19:44:00Z",
-   "updated": "2026-11-19T22:48:29Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.2889,
-   "lat": 44.5719
-  },
-  {
-   "id": "{95A54C36-CB10-4002-8877-3715DFFF3EE7}",
-   "name": "Baler 4",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-10-30T19:44:00Z",
-   "updated": "2026-11-19T22:47:03Z",
-   "state": "WI",
-   "county": "Portage",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.2885,
-   "lat": 44.5718
   },
   {
    "id": "{A7A0E931-81C8-4022-9E0E-6BA4CB8D6F86}",
