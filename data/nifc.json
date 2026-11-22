@@ -174,7 +174,7 @@
    "acres": 1808.0,
    "contained": 70,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-21T22:05:41Z",
+   "updated": "2026-11-21T23:42:41Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -519,6 +519,20 @@
    "lat": 36.868
   },
   {
+   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
+   "name": "Long Fork",
+   "acres": 15.0,
+   "contained": 0,
+   "discovered": "2026-11-21T21:52:00Z",
+   "updated": "2026-11-21T23:57:26Z",
+   "state": "KY",
+   "county": "Knott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.8921,
+   "lat": 37.3721
+  },
+  {
    "id": "{948EFBB2-4623-4CEA-AE9F-0F388A73649D}",
    "name": "Counts Hollow",
    "acres": 14.0,
@@ -827,20 +841,6 @@
    "lat": 45.9591
   },
   {
-   "id": "{25448962-E508-4665-AF2B-FB95DEE9833B}",
-   "name": "Putnam - Macedonia Road",
-   "acres": 2.5,
-   "contained": 0,
-   "discovered": "2026-11-21T21:13:00Z",
-   "updated": "2026-11-21T22:13:45Z",
-   "state": "TN",
-   "county": "Putnam",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -85.3708,
-   "lat": 36.1687
-  },
-  {
    "id": "{FDEEC9C6-BEE2-43D0-A790-243628616C5F}",
    "name": "Crescent Lake",
    "acres": 2.0,
@@ -1037,6 +1037,20 @@
    "lat": 37.1348
   },
   {
+   "id": "{67D886AC-23EE-431D-BE09-5EB08C6E8EAE}",
+   "name": "Boone 249",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-21T23:50:40Z",
+   "updated": "2026-11-22T00:01:49Z",
+   "state": "AR",
+   "county": "Boone",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.2517,
+   "lat": 36.4697
+  },
+  {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
    "name": "Dump",
    "acres": 0.9,
@@ -1163,20 +1177,6 @@
    "lat": 46.0914
   },
   {
-   "id": "{0820FE53-1D7D-4C42-9FB0-E2CFFAE16D99}",
-   "name": "Bryants Creek Road",
-   "acres": 0.5,
-   "contained": 0,
-   "discovered": "2026-11-21T21:30:00Z",
-   "updated": "2026-11-21T23:27:43Z",
-   "state": "KY",
-   "county": "Breathitt",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.5475,
-   "lat": 37.5352
-  },
-  {
    "id": "{0AC089C1-52EB-45C7-BADA-31790A389C64}",
    "name": "Hill",
    "acres": 0.3,
@@ -1273,6 +1273,20 @@
    "complexity": null,
    "lon": -70.1937,
    "lat": 41.7429
+  },
+  {
+   "id": "{0820FE53-1D7D-4C42-9FB0-E2CFFAE16D99}",
+   "name": "Bryants Creek Road",
+   "acres": 0.2,
+   "contained": 100,
+   "discovered": "2026-11-21T21:30:00Z",
+   "updated": "2026-11-21T23:39:25Z",
+   "state": "KY",
+   "county": "Breathitt",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.5475,
+   "lat": 37.5352
   },
   {
    "id": "{1B11B2F9-D29C-4A68-948C-266E30AB06F1}",
@@ -1681,18 +1695,32 @@
    "lat": 37.9107
   },
   {
-   "id": "{78A5EFAD-9E82-455D-83FF-DB6D7BA632ED}",
-   "name": "Humphreys - Hilltop Retreat",
+   "id": "{F1898843-7AC8-4D49-9D7E-FEE5E502716F}",
+   "name": "Rhea - Back Valley Road",
    "acres": 0.1,
    "contained": 0,
-   "discovered": "2026-11-21T20:45:00Z",
-   "updated": "2026-11-21T21:31:54Z",
+   "discovered": "2026-11-21T23:16:00Z",
+   "updated": "2026-11-22T00:01:11Z",
    "state": "TN",
-   "county": "Humphreys",
+   "county": "Rhea",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -87.8866,
-   "lat": 36.1778
+   "lon": -85.0238,
+   "lat": 35.5056
+  },
+  {
+   "id": "{EB3F8AE8-3C2A-4727-A01F-673FE88AA2F8}",
+   "name": "Lewis - Trace Creek Road",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-21T23:17:00Z",
+   "updated": "2026-11-21T23:40:32Z",
+   "state": "TN",
+   "county": "Lewis",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -87.6297,
+   "lat": 35.5439
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
@@ -1931,20 +1959,6 @@
    "complexity": null,
    "lon": -90.5403,
    "lat": 44.0512
-  },
-  {
-   "id": "{2BF4339D-95DC-4F67-82DE-176085D8E9A2}",
-   "name": "Lac-417753",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-18T23:36:31Z",
-   "updated": "2026-11-18T23:37:32Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1179,
-   "lat": 34.5725
   },
   {
    "id": "{5455E115-6ACB-4BB2-AD29-50FF618446EB}",
@@ -2211,6 +2225,20 @@
    "complexity": null,
    "lon": -118.1039,
    "lat": 33.9247
+  },
+  {
+   "id": "{E2700A66-3E25-400E-864B-8BBDBEA8D39B}",
+   "name": "Lac-421650",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-21T23:49:16Z",
+   "updated": "2026-11-21T23:58:05Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.8193,
+   "lat": 34.6175
   }
  ]
 }
