@@ -421,6 +421,20 @@
    "lat": 17.9913
   },
   {
+   "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
+   "name": "Mud Lick",
+   "acres": 95.0,
+   "contained": 75,
+   "discovered": "2026-11-21T20:21:00Z",
+   "updated": "2026-11-22T18:44:30Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7626,
+   "lat": 36.868
+  },
+  {
    "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
    "name": "Card Knob Road",
    "acres": 71.0,
@@ -435,18 +449,18 @@
    "lat": 37.3559
   },
   {
-   "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
-   "name": "Mud Lick",
+   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
+   "name": "Hunter branch",
    "acres": 65.0,
-   "contained": 55,
-   "discovered": "2026-11-21T20:21:00Z",
-   "updated": "2026-11-22T06:04:21Z",
+   "contained": 80,
+   "discovered": "2026-11-21T15:30:00Z",
+   "updated": "2026-11-22T18:55:16Z",
    "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
+   "county": "Floyd",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
-   "lon": -83.7626,
-   "lat": 36.868
+   "lon": -82.736,
+   "lat": 37.5033
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -489,20 +503,6 @@
    "complexity": null,
    "lon": -85.8198,
    "lat": 33.5289
-  },
-  {
-   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
-   "name": "Hunter branch",
-   "acres": 50.0,
-   "contained": 80,
-   "discovered": "2026-11-21T15:30:00Z",
-   "updated": "2026-11-22T04:19:43Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.736,
-   "lat": 37.5033
   },
   {
    "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
@@ -573,6 +573,20 @@
    "complexity": "Type 5 Incident",
    "lon": -83.3765,
    "lat": 37.4925
+  },
+  {
+   "id": "{43B01B76-F23B-4147-A49D-5DF2E3C59DFF}",
+   "name": "Scott Branch Road",
+   "acres": 18.0,
+   "contained": 65,
+   "discovered": "2026-11-22T01:09:00Z",
+   "updated": "2026-11-22T18:40:45Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.8628,
+   "lat": 36.9789
   },
   {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
@@ -701,20 +715,6 @@
    "lat": 34.3408
   },
   {
-   "id": "{43B01B76-F23B-4147-A49D-5DF2E3C59DFF}",
-   "name": "Scott Branch Road",
-   "acres": 10.0,
-   "contained": 50,
-   "discovered": "2026-11-22T01:09:00Z",
-   "updated": "2026-11-22T16:43:39Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.8628,
-   "lat": 36.9789
-  },
-  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -757,20 +757,6 @@
    "lat": 44.4062
   },
   {
-   "id": "{86D2F209-53BE-4338-B399-A7BA13F4C99F}",
-   "name": "Claiborne - Log Mountain Road",
-   "acres": 6.0,
-   "contained": 50,
-   "discovered": "2026-11-21T18:57:04Z",
-   "updated": "2026-11-22T16:53:46Z",
-   "state": "TN",
-   "county": "Claiborne",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.957,
-   "lat": 36.5353
-  },
-  {
    "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
    "name": "M35",
    "acres": 5.1,
@@ -811,6 +797,20 @@
    "complexity": null,
    "lon": -123.5708,
    "lat": 43.6901
+  },
+  {
+   "id": "{2C0D5B30-5BA9-4D8F-826A-81B4CA9940C9}",
+   "name": "Red Hill Road",
+   "acres": 3.0,
+   "contained": 80,
+   "discovered": "2026-11-22T08:52:00Z",
+   "updated": "2026-11-22T18:38:01Z",
+   "state": "KY",
+   "county": "Rockcastle",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.1962,
+   "lat": 37.3414
   },
   {
    "id": "{6CA1165B-0293-4BA1-8180-B0C272CBAF43}",
@@ -967,18 +967,18 @@
    "lat": 36.1839
   },
   {
-   "id": "{2C0D5B30-5BA9-4D8F-826A-81B4CA9940C9}",
-   "name": "Red Hill Road",
+   "id": "{F3684060-01ED-41BB-A822-CD720849D2EE}",
+   "name": "Hot Spring 304",
    "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-22T08:52:00Z",
-   "updated": "2026-11-22T17:03:25Z",
-   "state": "KY",
-   "county": "Rockcastle",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.1962,
-   "lat": 37.3414
+   "contained": null,
+   "discovered": "2026-11-22T18:43:13Z",
+   "updated": "2026-11-22T18:51:41Z",
+   "state": "AR",
+   "county": "Hot Spring",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.9843,
+   "lat": 34.2945
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1289,34 +1289,6 @@
    "lat": 37.8617
   },
   {
-   "id": "{A9CC18A4-226D-4A55-8662-6B5B0771FED2}",
-   "name": "Corn Stalk",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-08T06:00:00Z",
-   "updated": "2026-11-19T18:10:15Z",
-   "state": "WI",
-   "county": "Juneau",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.9334,
-   "lat": 43.8223
-  },
-  {
-   "id": "{31CDA3A1-89FC-4DFA-809B-67C2B5DFB9BF}",
-   "name": "Jack52",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-17T13:52:35Z",
-   "updated": "2026-11-19T18:25:56Z",
-   "state": "NC",
-   "county": "Anson",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -80.0997,
-   "lat": 35.0744
-  },
-  {
    "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
    "name": "Seidel",
    "acres": 0.1,
@@ -1525,20 +1497,6 @@
    "complexity": null,
    "lon": -119.9742,
    "lat": 37.5743
-  },
-  {
-   "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",
-   "name": "Petroleum",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-06-28T21:39:00Z",
-   "updated": "2026-11-19T18:59:10Z",
-   "state": "CA",
-   "county": "Kern",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -119.4012,
-   "lat": 35.1115
   },
   {
    "id": "{37B86CFB-6DA9-4121-B0BF-4DD895DD56F9}",
@@ -1779,20 +1737,6 @@
    "lat": 45.7699
   },
   {
-   "id": "{AA9A9C5F-D971-4FB5-ABE0-8F17C52AC6D1}",
-   "name": "Balsam",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-19T18:59:14Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.6925,
-   "lat": 45.8948
-  },
-  {
    "id": "{DC17C6A1-5884-4F78-AA1B-B6A785033758}",
    "name": "Glacier",
    "acres": 0.0,
@@ -1875,20 +1819,6 @@
    "complexity": null,
    "lon": -88.9184,
    "lat": 43.8582
-  },
-  {
-   "id": "{9ECE6C40-2C3C-428F-890D-D9D327AC69FA}",
-   "name": "Lac-418700",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-19T18:31:37Z",
-   "updated": "2026-11-19T18:32:15Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.7525,
-   "lat": 34.0252
   },
   {
    "id": "{EE7CAAC9-B632-41EA-BE89-8966A6E3E320}",
