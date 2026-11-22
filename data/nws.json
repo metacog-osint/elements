@@ -1271,112 +1271,6 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0354.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Sebastian Inlet to Jupiter Inlet 0-20 nm",
-    "Sebastian Inlet to Jupiter Inlet 20-60 nm"
-   ],
-   "counties": [
-    "75555",
-    "75575"
-   ],
-   "sent": "2026-11-22T01:24:00Z",
-   "onset": "2026-11-22T01:24:00Z",
-   "ends": "2026-11-22T02:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97e2ca4ea5deb6171585a132e4e389c22df3f7b7.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.99,
-       26.97
-      ],
-      [
-       -79.84,
-       27.28
-      ],
-      [
-       -79.37,
-       27.17
-      ],
-      [
-       -79.47,
-       26.98
-      ],
-      [
-       -79.99,
-       26.97
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.732,
-   "lat": 27.074,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.MA.W.0356.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
-   ],
-   "counties": [
-    "75572"
-   ],
-   "sent": "2026-11-22T01:30:00Z",
-   "onset": "2026-11-22T01:30:00Z",
-   "ends": "2026-11-22T02:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4eab8c7c3b674e930a0311d364fbd008d924794c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.97,
-       28.47
-      ],
-      [
-       -80.19,
-       28.52
-      ],
-      [
-       -80.16,
-       28.86
-      ],
-      [
-       -79.81,
-       28.74
-      ],
-      [
-       -79.97,
-       28.47
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.02,
-   "lat": 28.612,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.MA.W.0405.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1465,77 +1359,53 @@
    ]
   },
   {
-   "id": "KMLB.MA.W.0355.2026",
+   "id": "KMFL.MA.W.0406.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Melbourne FL",
+   "sender": "NWS Miami FL",
    "areas": [
-    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
-    "Sebastian Inlet to Jupiter Inlet 0-20 nm",
-    "Sebastian Inlet to Jupiter Inlet 20-60 nm"
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
    ],
    "counties": [
-    "75552",
-    "75555",
-    "75575"
+    "75671"
    ],
-   "sent": "2026-11-22T01:54:00Z",
-   "onset": "2026-11-22T01:54:00Z",
-   "ends": "2026-11-22T02:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fcc1260e28a875c2212340034ab6ed2f0778a65.001.1",
+   "sent": "2026-11-22T02:13:00Z",
+   "onset": "2026-11-22T02:13:00Z",
+   "ends": "2026-11-22T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da3efd62a2de79c9163b6ce7aa308fb1b1d01886.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.54,
-       27.88
+       -79.39,
+       25.83
       ],
       [
-       -80.12,
-       27.97
+       -79.6,
+       25.92
       ],
       [
-       -80.09,
-       27.89
+       -79.49,
+       26.2
       ],
       [
-       -80.06,
-       27.9
+       -79.21,
+       26.15
       ],
       [
-       -79.88,
-       27.56
-      ],
-      [
-       -80.34,
-       27.43
-      ],
-      [
-       -80.34,
-       27.44
-      ],
-      [
-       -80.36,
-       27.46
-      ],
-      [
-       -80.4,
-       27.65
-      ],
-      [
-       -80.54,
-       27.88
+       -79.39,
+       25.83
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.267,
-   "lat": 27.706,
+   "lon": -79.416,
+   "lat": 25.986,
    "countries": [
     "US"
    ]
