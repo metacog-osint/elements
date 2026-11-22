@@ -1024,6 +1024,37 @@
    ]
   },
   {
+   "id": "PAFC.HW.W.0016.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Unalaska and Nikolski"
+   ],
+   "counties": [
+    "02016"
+   ],
+   "sent": "2026-11-22T05:20:00Z",
+   "onset": "2026-11-22T05:20:00Z",
+   "ends": "2026-11-22T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24d68b702a22bb2df8a3bc2a81db6cfeb2d05979.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     179.6212,
+     51.949
+    ]
+   ],
+   "lon": 179.621,
+   "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.HW.A.0003.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
