@@ -111,37 +111,6 @@
    ]
   },
   {
-   "id": "KEKA.CF.W.0005.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Northern Coastal Humboldt"
-   ],
-   "counties": [
-    "06023"
-   ],
-   "sent": "2026-11-22T19:34:00Z",
-   "onset": "2026-11-23T15:00:00Z",
-   "ends": "2026-11-23T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5372f24080570d0330457c696ac9389960c1ab5.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.9262,
-     40.7067
-    ]
-   ],
-   "lon": -123.926,
-   "lat": 40.707,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -179,6 +148,48 @@
    ]
   },
   {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-22T21:33:00Z",
+   "onset": "2026-11-24T15:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd9ea6481983b966a3a508dc657b26fa07a10703.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -200,10 +211,10 @@
     "06085",
     "06097"
    ],
-   "sent": "2026-11-22T19:49:00Z",
+   "sent": "2026-11-22T22:23:00Z",
    "onset": "2026-11-23T14:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71af992794239339fb3686b0060afa12554c28a0.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b84cf11840784f167fb647326eb3bcd853d4cfa1.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -247,43 +258,63 @@
    ]
   },
   {
-   "id": "KMFR.CF.W.0001.2026",
+   "id": "KSEW.CF.W.0005.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Medford OR",
+   "sender": "NWS Seattle WA",
    "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
+    "Grays Harbor County Coast"
    ],
    "counties": [
-    "41011",
-    "41015",
-    "41019"
+    "53027"
    ],
-   "sent": "2026-11-22T21:33:00Z",
-   "onset": "2026-11-24T15:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd9ea6481983b966a3a508dc657b26fa07a10703.001.3",
+   "sent": "2026-11-22T22:24:00Z",
+   "onset": "2026-11-23T16:00:00Z",
+   "ends": "2026-11-23T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c93cc1bc311c9e9beef2ad0c48e1b9875782954e.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
+     -123.8267,
+     47.1121
     ]
    ],
-   "lon": -123.82,
-   "lat": 42.98,
+   "lon": -123.827,
+   "lat": 47.112,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.CF.W.0005.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Northern Coastal Humboldt"
+   ],
+   "counties": [
+    "06023"
+   ],
+   "sent": "2026-11-22T22:27:00Z",
+   "onset": "2026-11-23T15:00:00Z",
+   "ends": "2026-11-23T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fbd037c36110921d978e35fc33f522465cc69076.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.9262,
+     40.7067
+    ]
+   ],
+   "lon": -123.926,
+   "lat": 40.707,
    "countries": [
     "US"
    ]
@@ -1211,10 +1242,10 @@
    "counties": [
     "06015"
    ],
-   "sent": "2026-11-22T20:37:00Z",
+   "sent": "2026-11-22T22:26:00Z",
    "onset": "2026-11-24T06:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2731fa5af642e2480f065b805025e6c6ffdeb329.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec597c01aaa15d5123b9fa548a1b8e3a39cc017c.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1230,120 +1261,65 @@
    ]
   },
   {
-   "id": "KLZK.SV.W.0362.2026",
+   "id": "KLZK.SV.W.0364.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Little Rock AR",
    "areas": [
-    "Grant, AR"
+    "Bradley, AR"
    ],
    "counties": [
-    "05053"
+    "05011"
    ],
-   "sent": "2026-11-22T21:58:00Z",
-   "onset": "2026-11-22T21:58:00Z",
-   "ends": "2026-11-22T22:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a240de11a2273b8bc6e392ff0f561a2b4e47df39.001.1",
+   "sent": "2026-11-22T22:34:00Z",
+   "onset": "2026-11-22T22:34:00Z",
+   "ends": "2026-11-22T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d015314d9a71405340968115ffef9bec5525de4f.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -92.34,
-       34.26
+       -92.32,
+       33.65
+      ],
+      [
+       -92.28,
+       33.71
+      ],
+      [
+       -91.98,
+       33.7
+      ],
+      [
+       -91.98,
+       33.53
+      ],
+      [
+       -92.01,
+       33.53
+      ],
+      [
+       -92,
+       33.5
+      ],
+      [
+       -92.01,
+       33.49
+      ],
+      [
+       -92,
+       33.47
+      ],
+      [
+       -92.01,
+       33.46
       ],
       [
        -92.32,
-       34.31
-      ],
-      [
-       -92.21,
-       34.31
-      ],
-      [
-       -92.21,
-       34.27
-      ],
-      [
-       -92.22,
-       34.23
-      ],
-      [
-       -92.23,
-       34.23
-      ],
-      [
-       -92.23,
-       34.22
-      ],
-      [
-       -92.34,
-       34.26
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.423,
-     34.2856
-    ]
-   ],
-   "lon": -92.263,
-   "lat": 34.261,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLZK.SV.W.0363.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Little Rock AR",
-   "areas": [
-    "Bradley, AR",
-    "Calhoun, AR",
-    "Cleveland, AR",
-    "Dallas, AR"
-   ],
-   "counties": [
-    "05011",
-    "05013",
-    "05025",
-    "05039"
-   ],
-   "sent": "2026-11-22T22:03:00Z",
-   "onset": "2026-11-22T22:03:00Z",
-   "ends": "2026-11-22T22:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.361a674e2792b700825a0ad2aaf552185aa25135.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.53,
-       33.73
-      ],
-      [
-       -92.48,
-       33.81
-      ],
-      [
-       -92.15,
-       33.78
-      ],
-      [
-       -92.27,
-       33.57
-      ],
-      [
-       -92.53,
-       33.73
+       33.65
       ]
      ]
     ]
@@ -1353,22 +1329,10 @@
     [
      -92.1692,
      33.4665
-    ],
-    [
-     -92.5139,
-     33.5605
-    ],
-    [
-     -92.1887,
-     33.8932
-    ],
-    [
-     -92.654,
-     33.9678
     ]
    ],
-   "lon": -92.392,
-   "lat": 33.724,
+   "lon": -92.091,
+   "lat": 33.569,
    "countries": [
     "US"
    ]
@@ -1428,64 +1392,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0007.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-22T16:57:00Z",
-   "onset": "2026-11-24T00:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4591ad245fce93b96dc4fa0db4c6ea1b550ff050.003.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm"
-   ],
-   "counties": [
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-22T17:18:00Z",
-   "onset": "2026-11-23T15:00:00Z",
-   "ends": "2026-11-24T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50a43ba701fd7b2c27c22b84c718c1f6750b5ecc.004.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1534,6 +1440,64 @@
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.868f35c5a758e27ccd028c7e01b6d3db8b57ffe0.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0007.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-22T22:26:00Z",
+   "onset": "2026-11-24T00:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09aff22b8bcd67975acafd06b5e0cfd053d3cd38.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-22T22:29:00Z",
+   "onset": "2026-11-23T15:00:00Z",
+   "ends": "2026-11-24T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73f890610b2f79a90667e7023873222f766ca31b.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
