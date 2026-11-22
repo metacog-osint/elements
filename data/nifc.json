@@ -524,7 +524,7 @@
    "acres": 25.0,
    "contained": 85,
    "discovered": "2026-11-21T22:17:10Z",
-   "updated": "2026-11-22T14:33:20Z",
+   "updated": "2026-11-22T15:33:28Z",
    "state": "TN",
    "county": "Morgan",
    "cause": "Undetermined",
@@ -580,7 +580,7 @@
    "acres": 15.0,
    "contained": null,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-22T05:22:05Z",
+   "updated": "2026-11-22T15:10:30Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -601,20 +601,6 @@
    "complexity": null,
    "lon": -91.4753,
    "lat": 37.4351
-  },
-  {
-   "id": "{E7BA514F-3EA5-4465-86F9-7A43281A88E1}",
-   "name": "Robbins Branch",
-   "acres": 12.0,
-   "contained": null,
-   "discovered": "2026-11-14T02:02:10Z",
-   "updated": "2026-11-15T13:26:38Z",
-   "state": "NC",
-   "county": "Randolph",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -79.9325,
-   "lat": 35.6023
   },
   {
    "id": "{119CA3F3-916E-4009-9F30-64198004251C}",
@@ -995,20 +981,6 @@
    "lat": 36.1839
   },
   {
-   "id": "{3128B492-BD19-4459-8382-CC24361DB501}",
-   "name": "Briar Creek Road",
-   "acres": 1.0,
-   "contained": 95,
-   "discovered": "2026-11-22T06:37:00Z",
-   "updated": "2026-11-22T09:35:03Z",
-   "state": "KY",
-   "county": "Whitley",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -84.2087,
-   "lat": 36.7079
-  },
-  {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
    "name": "Dump",
    "acres": 0.9,
@@ -1217,6 +1189,20 @@
    "complexity": null,
    "lon": -87.9505,
    "lat": 45.4966
+  },
+  {
+   "id": "{31438499-B204-46A8-91EF-4F703878313C}",
+   "name": "South French Lick",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-02-25T19:04:57Z",
+   "updated": "2026-11-22T15:18:52Z",
+   "state": "IN",
+   "county": "Orange",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -86.5906,
+   "lat": 38.4302
   },
   {
    "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
