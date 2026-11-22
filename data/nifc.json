@@ -561,6 +561,20 @@
    "lat": 36.0925
   },
   {
+   "id": "{A6D87539-896E-4253-A1F9-1D26A27025A4}",
+   "name": "Stray Branch",
+   "acres": 20.0,
+   "contained": 30,
+   "discovered": "2026-11-21T16:06:00Z",
+   "updated": "2026-11-22T17:21:27Z",
+   "state": "KY",
+   "county": "Breathitt",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.3765,
+   "lat": 37.4925
+  },
+  {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
    "name": "Power Storm",
    "acres": 16.0,
@@ -685,20 +699,6 @@
    "complexity": null,
    "lon": -87.4709,
    "lat": 34.3408
-  },
-  {
-   "id": "{A6D87539-896E-4253-A1F9-1D26A27025A4}",
-   "name": "Stray Branch",
-   "acres": 10.0,
-   "contained": 0,
-   "discovered": "2026-11-21T16:06:00Z",
-   "updated": "2026-11-21T22:42:03Z",
-   "state": "KY",
-   "county": "Breathitt",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.3765,
-   "lat": 37.4925
   },
   {
    "id": "{43B01B76-F23B-4147-A49D-5DF2E3C59DFF}",
@@ -1209,8 +1209,8 @@
    "name": "Wishing Well",
    "acres": 0.2,
    "contained": null,
-   "discovered": "2026-11-21T17:00:00Z",
-   "updated": "2026-11-22T14:27:36Z",
+   "discovered": "2026-11-21T06:00:00Z",
+   "updated": "2026-11-22T17:10:11Z",
    "state": "WI",
    "county": "Vilas",
    "cause": "Undetermined",
@@ -2127,6 +2127,20 @@
    "complexity": null,
    "lon": -118.4474,
    "lat": 34.4164
+  },
+  {
+   "id": "{F442FE03-570B-4C93-A187-0E1D69C56E34}",
+   "name": "Lac-422490",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T17:12:15Z",
+   "updated": "2026-11-22T17:24:26Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0953,
+   "lat": 34.7627
   }
  ]
 }
