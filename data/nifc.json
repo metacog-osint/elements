@@ -174,7 +174,7 @@
    "acres": 1875.0,
    "contained": 90,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-22T00:11:13Z",
+   "updated": "2026-11-22T01:37:27Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -368,9 +368,9 @@
    "id": "{B23533AC-4C68-4983-97B7-5B9908BEABD5}",
    "name": "Vanderpool Mountain",
    "acres": 91.0,
-   "contained": 45,
+   "contained": 55,
    "discovered": "2026-11-20T19:53:00Z",
-   "updated": "2026-11-22T00:40:03Z",
+   "updated": "2026-11-22T01:47:10Z",
    "state": "KY",
    "county": "Whitley",
    "cause": "Human",
@@ -447,6 +447,20 @@
    "complexity": "Type 5 Incident",
    "lon": -82.736,
    "lat": 37.5033
+  },
+  {
+   "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
+   "name": "Mud Lick",
+   "acres": 40.0,
+   "contained": 40,
+   "discovered": "2026-11-21T20:21:00Z",
+   "updated": "2026-11-22T01:49:51Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7626,
+   "lat": 36.868
   },
   {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
@@ -531,20 +545,6 @@
    "complexity": null,
    "lon": -123.6383,
    "lat": 43.3354
-  },
-  {
-   "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
-   "name": "Mud Lick",
-   "acres": 15.0,
-   "contained": 0,
-   "discovered": "2026-11-21T20:21:00Z",
-   "updated": "2026-11-21T23:10:44Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.7626,
-   "lat": 36.868
   },
   {
    "id": "{948EFBB2-4623-4CEA-AE9F-0F388A73649D}",
@@ -673,6 +673,20 @@
    "lat": 37.4458
   },
   {
+   "id": "{3E350CB2-8444-4AB7-A9FD-D40986453FBC}",
+   "name": "Morgan - Bald Knob Road",
+   "acres": 10.0,
+   "contained": 90,
+   "discovered": "2026-11-21T22:17:10Z",
+   "updated": "2026-11-22T01:38:01Z",
+   "state": "TN",
+   "county": "Morgan",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.4189,
+   "lat": 36.0925
+  },
+  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -741,20 +755,6 @@
    "complexity": "Type 5 Incident",
    "lon": -83.957,
    "lat": 36.5353
-  },
-  {
-   "id": "{3E350CB2-8444-4AB7-A9FD-D40986453FBC}",
-   "name": "Morgan - Bald Knob Road",
-   "acres": 6.0,
-   "contained": 0,
-   "discovered": "2026-11-21T22:17:10Z",
-   "updated": "2026-11-22T01:26:52Z",
-   "state": "TN",
-   "county": "Morgan",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.4189,
-   "lat": 36.0925
   },
   {
    "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
