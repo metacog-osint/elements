@@ -437,10 +437,10 @@
   {
    "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
    "name": "Hunter branch",
-   "acres": 40.0,
-   "contained": 25,
+   "acres": 50.0,
+   "contained": 60,
    "discovered": "2026-11-21T15:30:00Z",
-   "updated": "2026-11-21T23:16:05Z",
+   "updated": "2026-11-22T01:27:59Z",
    "state": "KY",
    "county": "Floyd",
    "cause": "Human",
@@ -475,6 +475,20 @@
    "complexity": "Type 5 Incident",
    "lon": -82.2685,
    "lat": 37.3559
+  },
+  {
+   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
+   "name": "Long Fork",
+   "acres": 20.0,
+   "contained": 10,
+   "discovered": "2026-11-21T21:52:00Z",
+   "updated": "2026-11-22T01:20:27Z",
+   "state": "KY",
+   "county": "Knott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.8921,
+   "lat": 37.3721
   },
   {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
@@ -531,20 +545,6 @@
    "complexity": "Type 5 Incident",
    "lon": -83.7626,
    "lat": 36.868
-  },
-  {
-   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
-   "name": "Long Fork",
-   "acres": 15.0,
-   "contained": 0,
-   "discovered": "2026-11-21T21:52:00Z",
-   "updated": "2026-11-21T23:57:26Z",
-   "state": "KY",
-   "county": "Knott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.8921,
-   "lat": 37.3721
   },
   {
    "id": "{948EFBB2-4623-4CEA-AE9F-0F388A73649D}",
@@ -748,7 +748,7 @@
    "acres": 6.0,
    "contained": 0,
    "discovered": "2026-11-21T22:17:10Z",
-   "updated": "2026-11-22T00:59:23Z",
+   "updated": "2026-11-22T01:26:52Z",
    "state": "TN",
    "county": "Morgan",
    "cause": "Undetermined",
@@ -783,20 +783,6 @@
    "complexity": "Type 5 Incident",
    "lon": -83.2538,
    "lat": 36.8995
-  },
-  {
-   "id": "{4223E0A7-6B95-4A49-A152-8734274CD3B0}",
-   "name": "Magoffin County - 6080 Flat Fork Road",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-21T21:57:00Z",
-   "updated": "2026-11-22T00:18:14Z",
-   "state": "KY",
-   "county": "Magoffin",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.0257,
-   "lat": 37.8391
   },
   {
    "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
@@ -1637,20 +1623,6 @@
    "complexity": null,
    "lon": -70.3407,
    "lat": 41.6892
-  },
-  {
-   "id": "{87C6DC09-BC67-40ED-BA35-341FFA801E72}",
-   "name": "Twin Bridges",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-21T20:08:00Z",
-   "updated": "2026-11-21T21:27:56Z",
-   "state": "KY",
-   "county": "Henderson",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -87.5502,
-   "lat": 37.9107
   },
   {
    "id": "{F471D46A-BD27-42B6-9831-1FF23465174C}",

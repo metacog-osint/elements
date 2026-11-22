@@ -457,177 +457,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-21T18:48:00Z",
-   "onset": "2026-11-21T18:48:00Z",
-   "ends": "2026-11-22T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27bb99746a0addd53b2263f3266809e73bc3c158.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-21T18:52:00Z",
-   "onset": "2026-11-21T18:52:00Z",
-   "ends": "2026-11-22T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a6ae1079ff562eb5ce0e63b076d688829ebaea1.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-21T18:55:00Z",
-   "onset": "2026-11-21T18:55:00Z",
-   "ends": "2026-11-22T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41c6358dd0ce92693ed4455b06c4aeadee642d0e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0009.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -688,190 +517,6 @@
    "lat": 28.982,
    "countries": [
     "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-21T19:02:00Z",
-   "onset": "2026-11-21T19:02:00Z",
-   "ends": "2026-11-22T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.570c97808765c9f2dc577bf25dbee8aaa4e311b0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "TJSJ.FA.W.0023.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Naguabo, PR"
-   ],
-   "counties": [
-    "72103"
-   ],
-   "sent": "2026-11-21T22:49:00Z",
-   "onset": "2026-11-21T22:49:00Z",
-   "ends": "2026-11-22T01:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e42ded9ce1dc520550267259d65581603d5bfcea.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -65.73,
-       18.25
-      ],
-      [
-       -65.7,
-       18.26
-      ],
-      [
-       -65.69,
-       18.23
-      ],
-      [
-       -65.66,
-       18.22
-      ],
-      [
-       -65.66,
-       18.21
-      ],
-      [
-       -65.69,
-       18.2
-      ],
-      [
-       -65.69,
-       18.18
-      ],
-      [
-       -65.72,
-       18.19
-      ],
-      [
-       -65.73,
-       18.18
-      ],
-      [
-       -65.76,
-       18.18
-      ],
-      [
-       -65.76,
-       18.2
-      ],
-      [
-       -65.79,
-       18.21
-      ],
-      [
-       -65.83,
-       18.2
-      ],
-      [
-       -65.83,
-       18.22
-      ],
-      [
-       -65.82,
-       18.25
-      ],
-      [
-       -65.82,
-       18.28
-      ],
-      [
-       -65.81,
-       18.29
-      ],
-      [
-       -65.78,
-       18.29
-      ],
-      [
-       -65.78,
-       18.28
-      ],
-      [
-       -65.77,
-       18.28
-      ],
-      [
-       -65.73,
-       18.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -65.7357,
-     18.2111
-    ]
-   ],
-   "lon": -65.75,
-   "lat": 18.231,
-   "countries": [
-    "PR"
    ]
   },
   {
@@ -999,6 +644,361 @@
    "lat": 18.379,
    "countries": [
     "PR"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-22T01:21:00Z",
+   "onset": "2026-11-22T01:21:00Z",
+   "ends": "2026-11-22T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2434f7f90123d06e6e444ba09353499a761ad91c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-22T01:23:00Z",
+   "onset": "2026-11-22T01:23:00Z",
+   "ends": "2026-11-22T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.624df641c340188922e5afe7c8a54ce82d062ca5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-22T01:27:00Z",
+   "onset": "2026-11-22T01:27:00Z",
+   "ends": "2026-11-22T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76171c67859d9be31af3fb79c06be60474be30b3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "TJSJ.FA.W.0023.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Naguabo, PR"
+   ],
+   "counties": [
+    "72103"
+   ],
+   "sent": "2026-11-22T01:27:00Z",
+   "onset": "2026-11-22T01:27:00Z",
+   "ends": "2026-11-22T03:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de567a8151284f1457e56b5c5af85c2d86a870dc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -65.73,
+       18.25
+      ],
+      [
+       -65.7,
+       18.26
+      ],
+      [
+       -65.69,
+       18.23
+      ],
+      [
+       -65.66,
+       18.22
+      ],
+      [
+       -65.66,
+       18.21
+      ],
+      [
+       -65.69,
+       18.2
+      ],
+      [
+       -65.69,
+       18.18
+      ],
+      [
+       -65.72,
+       18.19
+      ],
+      [
+       -65.73,
+       18.18
+      ],
+      [
+       -65.76,
+       18.18
+      ],
+      [
+       -65.76,
+       18.2
+      ],
+      [
+       -65.79,
+       18.21
+      ],
+      [
+       -65.83,
+       18.2
+      ],
+      [
+       -65.83,
+       18.22
+      ],
+      [
+       -65.82,
+       18.25
+      ],
+      [
+       -65.82,
+       18.28
+      ],
+      [
+       -65.81,
+       18.29
+      ],
+      [
+       -65.78,
+       18.29
+      ],
+      [
+       -65.78,
+       18.28
+      ],
+      [
+       -65.77,
+       18.28
+      ],
+      [
+       -65.73,
+       18.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -65.7357,
+     18.2111
+    ]
+   ],
+   "lon": -65.75,
+   "lat": 18.231,
+   "countries": [
+    "PR"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-22T01:30:00Z",
+   "onset": "2026-11-22T01:30:00Z",
+   "ends": "2026-11-22T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54d707ba929816c75bd2e216944c0e782533a8f2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
    ]
   },
   {
@@ -1404,107 +1404,6 @@
    ]
   },
   {
-   "id": "KMLB.SV.W.0122.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Martin, FL",
-    "Okeechobee, FL",
-    "St. Lucie, FL"
-   ],
-   "counties": [
-    "12085",
-    "12093",
-    "12111"
-   ],
-   "sent": "2026-11-22T00:46:00Z",
-   "onset": "2026-11-22T00:46:00Z",
-   "ends": "2026-11-22T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab113f8d44ac961b1b0e116aecceec6e7c194348.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.74,
-       27.18
-      ],
-      [
-       -80.67,
-       27.32
-      ],
-      [
-       -80.47,
-       27.2
-      ],
-      [
-       -80.64,
-       27.04
-      ],
-      [
-       -80.65,
-       27.07
-      ],
-      [
-       -80.66,
-       27.08
-      ],
-      [
-       -80.66,
-       27.11
-      ],
-      [
-       -80.67,
-       27.12
-      ],
-      [
-       -80.68,
-       27.12
-      ],
-      [
-       -80.69,
-       27.14
-      ],
-      [
-       -80.71,
-       27.16
-      ],
-      [
-       -80.73,
-       27.17
-      ],
-      [
-       -80.74,
-       27.18
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.3982,
-     27.0836
-    ],
-    [
-     -80.8874,
-     27.3856
-    ],
-    [
-     -80.4435,
-     27.3798
-    ]
-   ],
-   "lon": -80.67,
-   "lat": 27.145,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.SV.W.0123.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
@@ -1519,21 +1418,25 @@
     "12061",
     "12111"
    ],
-   "sent": "2026-11-22T00:56:00Z",
-   "onset": "2026-11-22T00:56:00Z",
+   "sent": "2026-11-22T01:21:00Z",
+   "onset": "2026-11-22T01:21:00Z",
    "ends": "2026-11-22T01:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.268c05a7ffa28d4f46bcdf756dbd486281ed027a.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4410d7b202a29dc4e2491ae0491b2b3bd50cfce9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
        -80.58,
-       27.43
+       27.48
       ],
       [
        -80.6,
-       27.65
+       27.61
+      ],
+      [
+       -80.6,
+       27.64
       ],
       [
        -80.35,
@@ -1552,24 +1455,12 @@
        27.57
       ],
       [
-       -80.27,
-       27.5
-      ],
-      [
-       -80.26,
-       27.49
-      ],
-      [
-       -80.26,
-       27.48
-      ],
-      [
-       -80.25,
-       27.45
+       -80.28,
+       27.52
       ],
       [
        -80.58,
-       27.43
+       27.48
       ]
      ]
     ]
@@ -1585,120 +1476,8 @@
      27.3798
     ]
    ],
-   "lon": -80.368,
-   "lat": 27.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0402.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Lake Okeechobee"
-   ],
-   "counties": [
-    "75610"
-   ],
-   "sent": "2026-11-22T00:10:00Z",
-   "onset": "2026-11-22T00:10:00Z",
-   "ends": "2026-11-22T01:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c649b975ae3ec787b9eced530cfc620de4947e85.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.71,
-       27.16
-      ],
-      [
-       -80.66,
-       27.11
-      ],
-      [
-       -80.61,
-       26.96
-      ],
-      [
-       -80.59,
-       26.96
-      ],
-      [
-       -80.59,
-       26.89
-      ],
-      [
-       -80.66,
-       26.8
-      ],
-      [
-       -80.66,
-       26.74
-      ],
-      [
-       -80.74,
-       26.66
-      ],
-      [
-       -80.84,
-       26.68
-      ],
-      [
-       -81,
-       26.79
-      ],
-      [
-       -81.11,
-       26.83
-      ],
-      [
-       -81.15,
-       26.89
-      ],
-      [
-       -81.15,
-       26.93
-      ],
-      [
-       -81.12,
-       26.99
-      ],
-      [
-       -80.91,
-       27.17
-      ],
-      [
-       -80.88,
-       27.17
-      ],
-      [
-       -80.87,
-       27.14
-      ],
-      [
-       -80.84,
-       27.19
-      ],
-      [
-       -80.8,
-       27.21
-      ],
-      [
-       -80.71,
-       27.16
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.83,
-   "lat": 26.971,
+   "lon": -80.432,
+   "lat": 27.574,
    "countries": [
     "US"
    ]
@@ -1753,6 +1532,280 @@
    "points": [],
    "lon": -79.724,
    "lat": 26.764,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0404.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Lake Okeechobee"
+   ],
+   "counties": [
+    "75610"
+   ],
+   "sent": "2026-11-22T01:17:00Z",
+   "onset": "2026-11-22T01:17:00Z",
+   "ends": "2026-11-22T01:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d25529c6c8b80302a76b82b3ba10a1dac82a221f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.71,
+       27.16
+      ],
+      [
+       -80.66,
+       27.11
+      ],
+      [
+       -80.66,
+       27.08
+      ],
+      [
+       -80.62,
+       26.99
+      ],
+      [
+       -80.61,
+       26.96
+      ],
+      [
+       -80.59,
+       26.96
+      ],
+      [
+       -80.59,
+       26.89
+      ],
+      [
+       -80.66,
+       26.8
+      ],
+      [
+       -80.66,
+       26.74
+      ],
+      [
+       -80.75,
+       26.66
+      ],
+      [
+       -80.84,
+       26.68
+      ],
+      [
+       -81.02,
+       26.79
+      ],
+      [
+       -80.79,
+       27.2
+      ],
+      [
+       -80.78,
+       27.2
+      ],
+      [
+       -80.71,
+       27.16
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.71,
+   "lat": 26.959,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0354.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Sebastian Inlet to Jupiter Inlet 0-20 nm",
+    "Sebastian Inlet to Jupiter Inlet 20-60 nm"
+   ],
+   "counties": [
+    "75555",
+    "75575"
+   ],
+   "sent": "2026-11-22T01:24:00Z",
+   "onset": "2026-11-22T01:24:00Z",
+   "ends": "2026-11-22T02:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97e2ca4ea5deb6171585a132e4e389c22df3f7b7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.99,
+       26.97
+      ],
+      [
+       -79.84,
+       27.28
+      ],
+      [
+       -79.37,
+       27.17
+      ],
+      [
+       -79.47,
+       26.98
+      ],
+      [
+       -79.99,
+       26.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.732,
+   "lat": 27.074,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0355.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+    "Sebastian Inlet to Jupiter Inlet 0-20 nm",
+    "Sebastian Inlet to Jupiter Inlet 20-60 nm"
+   ],
+   "counties": [
+    "75552",
+    "75555",
+    "75575"
+   ],
+   "sent": "2026-11-22T01:28:00Z",
+   "onset": "2026-11-22T01:28:00Z",
+   "ends": "2026-11-22T02:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20c2722eb0536c625aa7c7d32ad6ed532ae617d3.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.54,
+       27.88
+      ],
+      [
+       -80.12,
+       27.97
+      ],
+      [
+       -80.09,
+       27.89
+      ],
+      [
+       -80.06,
+       27.9
+      ],
+      [
+       -79.88,
+       27.56
+      ],
+      [
+       -80.34,
+       27.43
+      ],
+      [
+       -80.34,
+       27.44
+      ],
+      [
+       -80.36,
+       27.46
+      ],
+      [
+       -80.4,
+       27.65
+      ],
+      [
+       -80.54,
+       27.88
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.267,
+   "lat": 27.706,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.MA.W.0356.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Volusia-Brevard County Line to Sebastian Inlet 20-60 nm"
+   ],
+   "counties": [
+    "75572"
+   ],
+   "sent": "2026-11-22T01:30:00Z",
+   "onset": "2026-11-22T01:30:00Z",
+   "ends": "2026-11-22T02:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4eab8c7c3b674e930a0311d364fbd008d924794c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.97,
+       28.47
+      ],
+      [
+       -80.19,
+       28.52
+      ],
+      [
+       -80.16,
+       28.86
+      ],
+      [
+       -79.81,
+       28.74
+      ],
+      [
+       -79.97,
+       28.47
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.02,
+   "lat": 28.612,
    "countries": [
     "US"
    ]
