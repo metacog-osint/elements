@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104293",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Chile",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-20T01:00:00Z",
+   "to": "2026-11-22T01:00:00Z",
+   "current": true,
+   "country": "Chile",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104293&episodeid=1&eventtype=FL",
+   "lon": -71.668,
+   "lat": -33.105,
+   "countries": [
+    "CL"
+   ]
+  },
+  {
    "id": "FL-1104290",
    "type": "FL",
    "kind": "flood",
@@ -760,7 +783,7 @@
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 21,
    "name": "Flood in Ecuador",
    "alert": "green",
    "score": 1,
@@ -768,13 +791,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-09-15T01:00:00Z",
-   "to": "2026-11-14T01:00:00Z",
-   "current": false,
+   "to": "2026-11-20T01:00:00Z",
+   "current": true,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=17&eventtype=FL",
-   "lon": -79.652,
-   "lat": 0.967,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=21&eventtype=FL",
+   "lon": -80.776,
+   "lat": -2.143,
    "countries": [
     "EC"
    ]
@@ -826,6 +849,29 @@
    ]
   },
   {
+   "id": "DR-1027575",
+   "type": "DR",
+   "kind": "drought",
+   "episode": 9,
+   "name": "Drought in India",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 274094.0,
+   "severity_unit": "km2",
+   "from": "2026-06-21T00:00:00Z",
+   "to": "2026-11-20T00:00:00Z",
+   "current": false,
+   "country": "India",
+   "severity": "Minor impact for agricultural drought in 274094 km2",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=9&eventtype=DR",
+   "lon": 77.422,
+   "lat": 16.996,
+   "countries": [
+    "IN"
+   ]
+  },
+  {
    "id": "DR-1027491",
    "type": "DR",
    "kind": "drought",
@@ -848,29 +894,6 @@
     "CN",
     "KZ",
     "MN"
-   ]
-  },
-  {
-   "id": "DR-1027575",
-   "type": "DR",
-   "kind": "drought",
-   "episode": 9,
-   "name": "Drought in India",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 274094.0,
-   "severity_unit": "km2",
-   "from": "2026-06-21T00:00:00Z",
-   "to": "2026-11-20T00:00:00Z",
-   "current": false,
-   "country": "India",
-   "severity": "Minor impact for agricultural drought in 274094 km2",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=9&eventtype=DR",
-   "lon": 77.422,
-   "lat": 16.996,
-   "countries": [
-    "IN"
    ]
   },
   {
