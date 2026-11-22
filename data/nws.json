@@ -985,6 +985,36 @@
    ]
   },
   {
+   "id": "KSEW.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm"
+   ],
+   "counties": [
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-22T17:18:00Z",
+   "onset": "2026-11-23T15:00:00Z",
+   "ends": "2026-11-24T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50a43ba701fd7b2c27c22b84c718c1f6750b5ecc.004.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.SR.A.0002.2026",
    "event": "Storm Watch",
    "severity": "Severe",
