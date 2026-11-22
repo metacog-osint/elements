@@ -76,12 +76,12 @@
    "certainty": "Likely",
    "sender": "NWS Jacksonville FL",
    "areas": [
+    "Coastal Flagler",
     "Inland Flagler",
     "Eastern Clay",
     "Eastern Putnam",
     "South Central Duval",
-    "Western St. Johns",
-    "Coastal Flagler"
+    "Western St. Johns"
    ],
    "counties": [
     "12019",
@@ -90,10 +90,10 @@
     "12107",
     "12109"
    ],
-   "sent": "2026-11-22T00:10:00Z",
-   "onset": "2026-11-22T00:10:00Z",
+   "sent": "2026-11-22T06:20:00Z",
+   "onset": "2026-11-22T06:20:00Z",
    "ends": "2026-11-23T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ece3c3fc50fa88bbfdfbfe78426fd43970db789.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0bd7583406e3892dc93cdd490c967674b936e7b8.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -834,6 +834,7 @@
    "certainty": "Possible",
    "sender": "NWS Midland/Odessa TX",
    "areas": [
+    "Davis Mountains",
     "Central Lea County",
     "Southern Lea County",
     "Gaines",
@@ -846,14 +847,17 @@
     "35025",
     "48003",
     "48033",
+    "48043",
     "48115",
     "48165",
-    "48317"
+    "48243",
+    "48317",
+    "48377"
    ],
-   "sent": "2026-11-21T20:24:00Z",
-   "onset": "2026-11-23T07:00:00Z",
+   "sent": "2026-11-22T06:11:00Z",
+   "onset": "2026-11-23T06:00:00Z",
    "ends": "2026-11-23T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7283aceb2357f21d413c2eedff6a5e2a7f347722.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b18fc283f1fa07c6cba1fe090583ea0e0b6aca3c.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -870,6 +874,10 @@
      32.7386
     ],
     [
+     -103.2525,
+     29.809
+    ],
+    [
      -101.9488,
      32.7425
     ],
@@ -878,12 +886,20 @@
      32.7439
     ],
     [
+     -104.1919,
+     30.6254
+    ],
+    [
      -101.9618,
      32.3098
+    ],
+    [
+     -104.2616,
+     30.0059
     ]
    ],
-   "lon": -102.339,
-   "lat": 32.607,
+   "lon": -102.86,
+   "lat": 31.787,
    "countries": [
     "US"
    ]
@@ -1098,62 +1114,6 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KKEY.MA.W.0409.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out"
-   ],
-   "counties": [
-    "77072"
-   ],
-   "sent": "2026-11-22T06:02:00Z",
-   "onset": "2026-11-22T06:02:00Z",
-   "ends": "2026-11-22T06:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b427285e64e0dd591e7e9e8ec8dfe76dd338b6f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.78,
-       24.53
-      ],
-      [
-       -79.93,
-       24.65
-      ],
-      [
-       -79.82,
-       24.76
-      ],
-      [
-       -79.68,
-       24.65
-      ],
-      [
-       -79.66,
-       24.63
-      ],
-      [
-       -79.78,
-       24.53
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.775,
-   "lat": 24.625,
    "countries": [
     "US"
    ]
