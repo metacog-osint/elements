@@ -244,7 +244,7 @@
    "acres": 350.0,
    "contained": null,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-22T16:32:02Z",
+   "updated": "2026-11-22T20:39:49Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -435,6 +435,20 @@
    "lat": 36.868
   },
   {
+   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
+   "name": "Rockhouse Fork Road",
+   "acres": 70.0,
+   "contained": 25,
+   "discovered": "2026-11-21T19:08:00Z",
+   "updated": "2026-11-22T20:40:44Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.1202,
+   "lat": 37.4458
+  },
+  {
    "id": "{473BE99E-3FF4-4E66-AD8C-7AC250E2E8B2}",
    "name": "Goble Cemetery",
    "acres": 70.0,
@@ -447,20 +461,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.5939,
    "lat": 37.7705
-  },
-  {
-   "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
-   "name": "Hunter branch",
-   "acres": 65.0,
-   "contained": 80,
-   "discovered": "2026-11-21T15:30:00Z",
-   "updated": "2026-11-22T18:55:16Z",
-   "state": "KY",
-   "county": "Floyd",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.736,
-   "lat": 37.5033
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -517,20 +517,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.8921,
    "lat": 37.3721
-  },
-  {
-   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
-   "name": "Rockhouse Fork Road",
-   "acres": 31.0,
-   "contained": 25,
-   "discovered": "2026-11-21T19:08:00Z",
-   "updated": "2026-11-22T20:20:14Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.1202,
-   "lat": 37.4458
   },
   {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
@@ -1065,6 +1051,20 @@
    "lat": 40.3653
   },
   {
+   "id": "{5A877D57-20B3-4538-8123-58C9643DA974}",
+   "name": "Elmrock 2",
+   "acres": 0.5,
+   "contained": 0,
+   "discovered": "2026-11-22T20:55:00Z",
+   "updated": "2026-11-22T21:01:48Z",
+   "state": "KY",
+   "county": "Knott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.0347,
+   "lat": 37.4569
+  },
+  {
    "id": "{0AC089C1-52EB-45C7-BADA-31790A389C64}",
    "name": "Hill",
    "acres": 0.3,
@@ -1441,6 +1441,20 @@
    "complexity": null,
    "lon": -70.3407,
    "lat": 41.6892
+  },
+  {
+   "id": "{EEE441E5-E35C-41E7-B1F9-2EC03F6FCEFB}",
+   "name": "0941",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-22T18:38:00Z",
+   "updated": "2026-11-22T20:44:27Z",
+   "state": "OR",
+   "county": "Deschutes",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -121.1305,
+   "lat": 44.0827
   },
   {
    "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
