@@ -1119,6 +1119,58 @@
    ]
   },
   {
+   "id": "TJSJ.MA.W.0037.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Atlantic Waters of Puerto Rico AND USVI from 10 NM to 19.5N"
+   ],
+   "counties": [
+    "75711"
+   ],
+   "sent": "2026-11-22T09:08:00Z",
+   "onset": "2026-11-22T09:08:00Z",
+   "ends": "2026-11-22T10:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fffef301b85b1272bb5fa10e80b31ab8acb06f63.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -66.25,
+       19.01
+      ],
+      [
+       -67.06,
+       18.94
+      ],
+      [
+       -67.38,
+       19.5
+      ],
+      [
+       -66.13,
+       19.5
+      ],
+      [
+       -66.25,
+       19.01
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -66.614,
+   "lat": 19.192,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.1208.2026",
    "event": "Storm Warning",
    "severity": "Severe",
