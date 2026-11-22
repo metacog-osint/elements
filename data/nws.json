@@ -670,127 +670,6 @@
    ]
   },
   {
-   "id": "TJSJ.FA.W.0023.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Naguabo, PR"
-   ],
-   "counties": [
-    "72103"
-   ],
-   "sent": "2026-11-22T03:09:00Z",
-   "onset": "2026-11-22T03:09:00Z",
-   "ends": "2026-11-22T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.254e41a3ab5113ed95549f60b7c005d740b84f11.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -65.73,
-       18.25
-      ],
-      [
-       -65.7,
-       18.26
-      ],
-      [
-       -65.69,
-       18.23
-      ],
-      [
-       -65.66,
-       18.22
-      ],
-      [
-       -65.66,
-       18.21
-      ],
-      [
-       -65.69,
-       18.2
-      ],
-      [
-       -65.69,
-       18.18
-      ],
-      [
-       -65.72,
-       18.19
-      ],
-      [
-       -65.73,
-       18.18
-      ],
-      [
-       -65.76,
-       18.18
-      ],
-      [
-       -65.76,
-       18.2
-      ],
-      [
-       -65.79,
-       18.21
-      ],
-      [
-       -65.83,
-       18.2
-      ],
-      [
-       -65.83,
-       18.22
-      ],
-      [
-       -65.82,
-       18.25
-      ],
-      [
-       -65.82,
-       18.28
-      ],
-      [
-       -65.81,
-       18.29
-      ],
-      [
-       -65.78,
-       18.29
-      ],
-      [
-       -65.78,
-       18.28
-      ],
-      [
-       -65.77,
-       18.28
-      ],
-      [
-       -65.73,
-       18.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -65.7357,
-     18.2111
-    ]
-   ],
-   "lon": -65.75,
-   "lat": 18.231,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KTWC.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1193,70 +1072,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0408.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Florida Bay including Barnes Sound, Blackwater Sound, and Buttonwood Sound",
-    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
-    "Hawk Channel from Craig Key to west end of Seven Mile Bridge out to the reef"
-   ],
-   "counties": [
-    "77031",
-    "77032",
-    "77043"
-   ],
-   "sent": "2026-11-22T04:04:00Z",
-   "onset": "2026-11-22T04:04:00Z",
-   "ends": "2026-11-22T04:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87e0fcd5c6fa9005a0ee4d8442fe91367a36be2f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.81,
-       25.04
-      ],
-      [
-       -80.78,
-       24.85
-      ],
-      [
-       -80.78,
-       24.84
-      ],
-      [
-       -80.77,
-       24.78
-      ],
-      [
-       -81.02,
-       24.77
-      ],
-      [
-       -81.03,
-       24.95
-      ],
-      [
-       -80.81,
-       25.04
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.857,
-   "lat": 24.896,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1208.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1353,10 +1168,10 @@
    "counties": [
     "57470"
    ],
-   "sent": "2026-11-21T23:15:00Z",
+   "sent": "2026-11-22T04:29:00Z",
    "onset": "2026-11-24T00:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22b01a7dccaeec9f593e6bc2c4d8d575928ce6dc.004.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c756933e8de6013b893b8972bb243dc73d5dee.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],

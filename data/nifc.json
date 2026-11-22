@@ -174,7 +174,7 @@
    "acres": 1875.0,
    "contained": 90,
    "discovered": "2026-11-18T17:22:21Z",
-   "updated": "2026-11-22T03:58:04Z",
+   "updated": "2026-11-22T04:27:45Z",
    "state": "TN",
    "county": "Greene",
    "cause": "Human",
@@ -452,9 +452,9 @@
    "id": "{B542C6BC-D090-4D18-9ACF-A4F9F73110FB}",
    "name": "Hunter branch",
    "acres": 50.0,
-   "contained": 60,
+   "contained": 80,
    "discovered": "2026-11-21T15:30:00Z",
-   "updated": "2026-11-22T01:27:59Z",
+   "updated": "2026-11-22T04:19:43Z",
    "state": "KY",
    "county": "Floyd",
    "cause": "Human",
@@ -475,6 +475,34 @@
    "complexity": "Type 5 Incident",
    "lon": -83.7626,
    "lat": 36.868
+  },
+  {
+   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
+   "name": "Rockhouse Fork Road",
+   "acres": 30.0,
+   "contained": 25,
+   "discovered": "2026-11-21T19:08:00Z",
+   "updated": "2026-11-22T04:24:31Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.1202,
+   "lat": 37.4458
+  },
+  {
+   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
+   "name": "Long Fork",
+   "acres": 30.0,
+   "contained": 75,
+   "discovered": "2026-11-21T21:52:00Z",
+   "updated": "2026-11-22T04:18:06Z",
+   "state": "KY",
+   "county": "Knott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.8921,
+   "lat": 37.3721
   },
   {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
@@ -503,20 +531,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.2685,
    "lat": 37.3559
-  },
-  {
-   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
-   "name": "Long Fork",
-   "acres": 20.0,
-   "contained": 50,
-   "discovered": "2026-11-21T21:52:00Z",
-   "updated": "2026-11-22T03:47:31Z",
-   "state": "KY",
-   "county": "Knott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.8921,
-   "lat": 37.3721
   },
   {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
@@ -559,6 +573,20 @@
    "complexity": null,
    "lon": -123.6383,
    "lat": 43.3354
+  },
+  {
+   "id": "{A5E165B8-8BF1-41B0-B95A-5664E959FD3F}",
+   "name": "Paddy Knob",
+   "acres": 15.0,
+   "contained": null,
+   "discovered": "2026-11-22T01:14:40Z",
+   "updated": "2026-11-22T04:15:33Z",
+   "state": "VA",
+   "county": "Highland",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -79.7895,
+   "lat": 38.3179
   },
   {
    "id": "{948EFBB2-4623-4CEA-AE9F-0F388A73649D}",
@@ -671,20 +699,6 @@
    "complexity": "Type 5 Incident",
    "lon": -83.3765,
    "lat": 37.4925
-  },
-  {
-   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
-   "name": "Rockhouse Fork Road",
-   "acres": 10.0,
-   "contained": 25,
-   "discovered": "2026-11-21T19:08:00Z",
-   "updated": "2026-11-21T23:14:26Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.1202,
-   "lat": 37.4458
   },
   {
    "id": "{3E350CB2-8444-4AB7-A9FD-D40986453FBC}",
@@ -853,6 +867,20 @@
    "complexity": null,
    "lon": -89.5213,
    "lat": 45.6183
+  },
+  {
+   "id": "{43B01B76-F23B-4147-A49D-5DF2E3C59DFF}",
+   "name": "Scott Branch Road",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-22T01:09:00Z",
+   "updated": "2026-11-22T04:17:31Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.8628,
+   "lat": 36.9789
   },
   {
    "id": "{8E45503F-731A-49B3-A72F-3563E66981D9}",
