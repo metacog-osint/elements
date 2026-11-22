@@ -723,37 +723,6 @@
    ]
   },
   {
-   "id": "KPSR.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Southeast Gila County"
-   ],
-   "counties": [
-    "04007"
-   ],
-   "sent": "2026-11-21T22:36:00Z",
-   "onset": "2026-11-22T07:00:00Z",
-   "ends": "2026-11-22T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c12f85f1802384c1204ebb65e35d3c3269aabd3a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -110.8119,
-     33.7896
-    ]
-   ],
-   "lon": -110.812,
-   "lat": 33.79,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEPZ.FZ.W.0001.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -822,6 +791,37 @@
    ],
    "lon": -107.148,
    "lat": 32.336,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Southeast Gila County"
+   ],
+   "counties": [
+    "04007"
+   ],
+   "sent": "2026-11-22T06:37:00Z",
+   "onset": "2026-11-22T07:00:00Z",
+   "ends": "2026-11-22T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eecfb956d233eecfa61084e33a0965068db098a8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -110.8119,
+     33.7896
+    ]
+   ],
+   "lon": -110.812,
+   "lat": 33.79,
    "countries": [
     "US"
    ]
@@ -1114,6 +1114,87 @@
    ],
    "lon": -123.498,
    "lat": 42.632,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.SV.W.1022.2026",
+   "event": "Severe Thunderstorm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Blaine, OK",
+    "Caddo, OK",
+    "Canadian, OK",
+    "Custer, OK",
+    "Washita, OK"
+   ],
+   "counties": [
+    "40011",
+    "40015",
+    "40017",
+    "40039",
+    "40149"
+   ],
+   "sent": "2026-11-22T06:52:00Z",
+   "onset": "2026-11-22T06:52:00Z",
+   "ends": "2026-11-22T07:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df12bd0d7866a70edcd9abea7017fc3349ed7d36.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -98.7,
+       35.17
+      ],
+      [
+       -98.83,
+       35.48
+      ],
+      [
+       -98.22,
+       35.61
+      ],
+      [
+       -98.14,
+       35.25
+      ],
+      [
+       -98.7,
+       35.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -97.9799,
+     35.5434
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -98.9923,
+     35.2899
+    ]
+   ],
+   "lon": -98.518,
+   "lat": 35.336,
    "countries": [
     "US"
    ]
