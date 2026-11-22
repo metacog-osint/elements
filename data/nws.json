@@ -247,6 +247,48 @@
    ]
   },
   {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-22T21:33:00Z",
+   "onset": "2026-11-24T15:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd9ea6481983b966a3a508dc657b26fa07a10703.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1078,37 +1120,6 @@
    ]
   },
   {
-   "id": "PAFG.HW.W.0023.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "St Lawrence Island"
-   ],
-   "counties": [
-    "02180"
-   ],
-   "sent": "2026-11-22T12:06:00Z",
-   "onset": "2026-11-23T03:00:00Z",
-   "ends": "2026-11-23T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02226020b38094a4902f3b53216639db687c4b09.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -164.1889,
-     64.7837
-    ]
-   ],
-   "lon": -164.189,
-   "lat": 64.784,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.HW.W.0008.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1157,6 +1168,37 @@
    ]
   },
   {
+   "id": "PAFG.HW.W.0023.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "St Lawrence Island"
+   ],
+   "counties": [
+    "02180"
+   ],
+   "sent": "2026-11-22T21:31:00Z",
+   "onset": "2026-11-23T03:00:00Z",
+   "ends": "2026-11-23T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba2b753ba16bb1e96bdf894dc9af2cb88df5e640.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -164.1889,
+     64.7837
+    ]
+   ],
+   "lon": -164.189,
+   "lat": 64.784,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KEKA.HW.A.0002.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1183,69 +1225,6 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLZK.SV.W.0361.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Little Rock AR",
-   "areas": [
-    "Grant, AR",
-    "Hot Spring, AR"
-   ],
-   "counties": [
-    "05053",
-    "05059"
-   ],
-   "sent": "2026-11-22T21:03:00Z",
-   "onset": "2026-11-22T21:03:00Z",
-   "ends": "2026-11-22T21:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ded1814e3e273f78a9a1cea9d6e5589a4611801.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -92.73,
-       34.27
-      ],
-      [
-       -92.72,
-       34.39
-      ],
-      [
-       -92.44,
-       34.45
-      ],
-      [
-       -92.44,
-       34.24
-      ],
-      [
-       -92.73,
-       34.27
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -92.423,
-     34.2856
-    ],
-    [
-     -92.9441,
-     34.3152
-    ]
-   ],
-   "lon": -92.612,
-   "lat": 34.324,
    "countries": [
     "US"
    ]
