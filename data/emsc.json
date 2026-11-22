@@ -1,6 +1,36 @@
 {
  "records": [
   {
+   "id": "20261122_0000286",
+   "mag": 5.4,
+   "magtype": "mb",
+   "time": "2026-11-22T21:35:30Z",
+   "updated": "2026-11-22T21:51:08Z",
+   "region": "Central Peru",
+   "depth_km": 108.8,
+   "authority": "NEIC",
+   "lat": -10.835,
+   "lon": -76.015,
+   "countries": [
+    "PE"
+   ],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261122_0000286"
+  },
+  {
+   "id": "20261122_0000284",
+   "mag": 4.5,
+   "magtype": "mb",
+   "time": "2026-11-22T20:59:41Z",
+   "updated": "2026-11-22T21:36:33Z",
+   "region": "South Of Fiji Islands",
+   "depth_km": 381.8,
+   "authority": "NEIC",
+   "lat": -22.078,
+   "lon": -178.177,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261122_0000284"
+  },
+  {
    "id": "20261122_0000280",
    "mag": 4.7,
    "magtype": "mb",
@@ -1533,22 +1563,6 @@
    "lon": 160.325,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261115_0000272"
-  },
-  {
-   "id": "20261115_0000257",
-   "mag": 4.9,
-   "magtype": "mw",
-   "time": "2026-11-15T21:37:21Z",
-   "updated": "2026-11-16T07:47:57Z",
-   "region": "Hindu Kush Region, Afghanistan",
-   "depth_km": 190.0,
-   "authority": "EMSC",
-   "lat": 36.532,
-   "lon": 70.822,
-   "countries": [
-    "AF"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261115_0000257"
   }
  ]
 }

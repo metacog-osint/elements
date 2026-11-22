@@ -1,6 +1,38 @@
 {
  "records": [
   {
+   "id": "us6000ucuf",
+   "mag": 5.4,
+   "place": "9 km NNE of Carhuamayo, Peru",
+   "time": "2026-11-22T21:35:30Z",
+   "updated": "2026-11-22T21:59:55Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 450,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucuf",
+   "depth_km": 108.8,
+   "lon": -76.015,
+   "lat": -10.835,
+   "countries": [
+    "PE"
+   ]
+  },
+  {
+   "id": "us6000ucu8",
+   "mag": 4.5,
+   "place": "south of the Fiji Islands",
+   "time": "2026-11-22T20:59:41Z",
+   "updated": "2026-11-22T21:36:25Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 312,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucu8",
+   "depth_km": 381.8,
+   "lon": -178.177,
+   "lat": -22.078,
+   "countries": []
+  },
+  {
    "id": "us6000ucu7",
    "mag": 4.7,
    "place": "25 km WSW of Isangel, Vanuatu",
@@ -114,10 +146,10 @@
    "mag": 5.0,
    "place": "15 km NNE of Carhuamayo, Peru",
    "time": "2026-11-22T05:51:58Z",
-   "updated": "2026-11-22T16:04:24Z",
+   "updated": "2026-11-22T21:49:49Z",
    "alert": null,
    "tsunami": false,
-   "sig": 389,
+   "sig": 390,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucqu",
    "depth_km": 108.1,
    "lon": -75.963,
@@ -338,7 +370,7 @@
    "mag": 6.7,
    "place": "9 km NE of Carhuamayo, Peru",
    "time": "2026-11-21T00:09:19Z",
-   "updated": "2026-11-22T16:42:46Z",
+   "updated": "2026-11-22T21:51:33Z",
    "alert": "green",
    "tsunami": true,
    "sig": 759,
@@ -774,7 +806,7 @@
    "mag": 5.2,
    "place": "169 km S of Attu Station, Alaska",
    "time": "2026-11-18T21:28:47Z",
-   "updated": "2026-11-21T21:38:49Z",
+   "updated": "2026-11-22T21:38:52Z",
    "alert": null,
    "tsunami": false,
    "sig": 416,
@@ -1497,23 +1529,6 @@
    "lon": 160.494,
    "lat": 52.494,
    "countries": []
-  },
-  {
-   "id": "us7000tyga",
-   "mag": 4.9,
-   "place": "44 km S of Jurm, Afghanistan",
-   "time": "2026-11-15T21:37:21Z",
-   "updated": "2026-11-15T22:16:18Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 369,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyga",
-   "depth_km": 191.4,
-   "lon": 70.921,
-   "lat": 36.466,
-   "countries": [
-    "AF"
-   ]
   }
  ]
 }
