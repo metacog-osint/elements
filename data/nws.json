@@ -1,84 +1,6 @@
 {
  "records": [
   {
-   "id": "KMFL.TO.A.0706.2026",
-   "event": "Tornado Watch",
-   "severity": "Extreme",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Palm Beach, FL",
-    "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM"
-   ],
-   "counties": [
-    "12099",
-    "75650"
-   ],
-   "sent": "2026-11-21T23:23:00Z",
-   "onset": "2026-11-21T23:25:00Z",
-   "ends": "2026-11-22T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc2448dd1a1c540f7353251c819504d60a79c54c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.448,
-   "lat": 26.649,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.TO.A.0706.2026",
-   "event": "Tornado Watch",
-   "severity": "Extreme",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Indian River, FL",
-    "Martin, FL",
-    "St. Lucie, FL",
-    "Sebastian Inlet to Jupiter Inlet 0-20 nm"
-   ],
-   "counties": [
-    "12061",
-    "12085",
-    "12111",
-    "75555"
-   ],
-   "sent": "2026-11-22T01:46:00Z",
-   "onset": "2026-11-22T01:46:00Z",
-   "ends": "2026-11-22T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cc9bd6f6815c290e916c10b85e61a52cce9063e.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.5748,
-     27.7005
-    ],
-    [
-     -80.3982,
-     27.0836
-    ],
-    [
-     -80.4435,
-     27.3798
-    ]
-   ],
-   "lon": -80.472,
-   "lat": 27.388,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -1271,141 +1193,109 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0405.2026",
+   "id": "KMLB.MA.W.0357.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Miami FL",
+   "sender": "NWS Melbourne FL",
    "areas": [
-    "Lake Okeechobee"
+    "Sebastian Inlet to Jupiter Inlet 0-20 nm"
    ],
    "counties": [
-    "75610"
+    "75555"
    ],
-   "sent": "2026-11-22T01:45:00Z",
-   "onset": "2026-11-22T01:45:00Z",
-   "ends": "2026-11-22T02:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86dc20c7a4fa6f100772f4db49ef8d3cf6e7fb20.001.1",
+   "sent": "2026-11-22T03:01:00Z",
+   "onset": "2026-11-22T03:01:00Z",
+   "ends": "2026-11-22T03:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72541fb177768b8dfbb2280b3a0d99c763966412.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.71,
+       -80.35,
+       27.27
+      ],
+      [
+       -80.35,
+       27.28
+      ],
+      [
+       -80.34,
+       27.29
+      ],
+      [
+       -80.31,
+       27.29
+      ],
+      [
+       -80.3,
+       27.28
+      ],
+      [
+       -80.25,
+       27.24
+      ],
+      [
+       -80.33,
+       27.4
+      ],
+      [
+       -80.14,
+       27.54
+      ],
+      [
+       -79.97,
+       27.28
+      ],
+      [
+       -80.29,
        27.16
       ],
       [
-       -80.66,
-       27.11
+       -80.3,
+       27.17
       ],
       [
-       -80.66,
-       27.08
+       -80.31,
+       27.17
       ],
       [
-       -80.62,
-       26.99
-      ],
-      [
-       -80.61,
-       26.96
-      ],
-      [
-       -80.59,
-       26.96
-      ],
-      [
-       -80.59,
-       26.89
-      ],
-      [
-       -80.66,
-       26.8
-      ],
-      [
-       -80.66,
-       26.74
-      ],
-      [
-       -80.74,
-       26.66
-      ],
-      [
-       -80.83,
-       26.67
-      ],
-      [
-       -80.86,
-       26.7
-      ],
-      [
-       -80.76,
+       -80.32,
        27.19
       ],
       [
-       -80.71,
-       27.16
+       -80.32,
+       27.21
+      ],
+      [
+       -80.34,
+       27.22
+      ],
+      [
+       -80.35,
+       27.23
+      ],
+      [
+       -80.35,
+       27.25
+      ],
+      [
+       -80.36,
+       27.26
+      ],
+      [
+       -80.35,
+       27.27
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.69,
-   "lat": 26.934,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0406.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-22T02:13:00Z",
-   "onset": "2026-11-22T02:13:00Z",
-   "ends": "2026-11-22T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da3efd62a2de79c9163b6ce7aa308fb1b1d01886.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.39,
-       25.83
-      ],
-      [
-       -79.6,
-       25.92
-      ],
-      [
-       -79.49,
-       26.2
-      ],
-      [
-       -79.21,
-       26.15
-      ],
-      [
-       -79.39,
-       25.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.416,
-   "lat": 25.986,
+   "lon": -80.296,
+   "lat": 27.263,
    "countries": [
     "US"
    ]
