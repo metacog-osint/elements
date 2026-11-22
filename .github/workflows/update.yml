@@ -50,7 +50,7 @@ jobs:
     timeout-minutes: 15
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_last.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
@@ -106,7 +106,24 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }
+      # GitHub's Pages side fails now and then with nothing wrong in the run: deploy-pages reads the artifact list
+      # half a second after the upload and finds 0 artifacts, or Pages answers "Deployment failed, try again later".
+      # That was every failed run from 17 to 22 Nov 2026 (22 of about 330). Try again twice, after 20 and 60 seconds.
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Wait before the second deploy attempt
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Wait before the last deploy attempt
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        run: sleep 60
+      - id: deployment_last
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
         uses: actions/deploy-pages@v4
       # After the deploy, so a failure above never blocks the live site, but the run still ends red.
       - name: Fail the run if history or the push failed

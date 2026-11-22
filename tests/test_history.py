@@ -278,6 +278,20 @@ class Workflow(unittest.TestCase):
         ci = (ROOT / ".github/workflows/ci.yml").read_text(encoding="utf-8")
         self.assertIn("tests/test_history.py", ci)
 
+    def test_deploy_is_retried_after_a_transient_pages_failure(self):
+        wf = (ROOT / ".github/workflows/update.yml").read_text(encoding="utf-8")
+        self.assertEqual(wf.count("uses: actions/deploy-pages@v4"), 3)
+        first, retry, last = (wf.index(f"- id: {i}\n") for i in ("deployment", "deployment_retry", "deployment_last"))
+        self.assertLess(wf.index("actions/upload-pages-artifact@v3"), first)
+        self.assertLess(first, retry)
+        self.assertLess(retry, last)
+        self.assertLess(last, wf.index("Fail the run if history or the push failed"))
+        # the first two attempts may fail; the last one fails the job if Pages is still refusing
+        self.assertIn("continue-on-error: true", wf[first:retry])
+        self.assertIn("continue-on-error: true", wf[retry:last])
+        self.assertNotIn("continue-on-error", wf[last:wf.index("Fail the run if history or the push failed")])
+        self.assertIn("steps.deployment_retry.outputs.page_url", wf)
+
 
 class BackfillForce(unittest.TestCase):
     """E6: --force moves history/ aside instead of deleting it, and refuses on a dirty tree."""
