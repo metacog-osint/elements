@@ -1119,63 +1119,6 @@
    ]
   },
   {
-   "id": "KOUN.SV.W.1024.2026",
-   "event": "Severe Thunderstorm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Oklahoma, OK"
-   ],
-   "counties": [
-    "40109"
-   ],
-   "sent": "2026-11-22T08:23:00Z",
-   "onset": "2026-11-22T08:23:00Z",
-   "ends": "2026-11-22T08:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.545099b0a6df15013f401165aa2939fa6e2bde6c.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.58,
-       35.42
-      ],
-      [
-       -97.64,
-       35.63
-      ],
-      [
-       -97.2,
-       35.7
-      ],
-      [
-       -97.19,
-       35.39
-      ],
-      [
-       -97.58,
-       35.42
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -97.4094,
-     35.5546
-    ]
-   ],
-   "lon": -97.438,
-   "lat": 35.512,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.1208.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1202,6 +1145,32 @@
    ]
   },
   {
+   "id": "KEKA.SR.A.0003.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57470"
+   ],
+   "sent": "2026-11-22T04:29:00Z",
+   "onset": "2026-11-24T00:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c756933e8de6013b893b8972bb243dc73d5dee.004.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.SR.A.0002.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -1216,10 +1185,10 @@
     "57370",
     "57376"
    ],
-   "sent": "2026-11-21T21:01:00Z",
-   "onset": "2026-11-23T18:00:00Z",
+   "sent": "2026-11-22T08:38:00Z",
+   "onset": "2026-11-23T12:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98183fed2d4c21d2a4bd643a4533adc2a891f22b.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64f7c907d9ff3b3c34430883100d8656c44ad4dc.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1246,36 +1215,10 @@
     "57272",
     "57273"
    ],
-   "sent": "2026-11-21T22:32:00Z",
-   "onset": "2026-11-23T18:00:00Z",
+   "sent": "2026-11-22T08:46:00Z",
+   "onset": "2026-11-23T12:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e505a34bc25d4998aa2c3fcfc53c1517e878d677.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.SR.A.0003.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57470"
-   ],
-   "sent": "2026-11-22T04:29:00Z",
-   "onset": "2026-11-24T00:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c756933e8de6013b893b8972bb243dc73d5dee.004.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d981141a82a1ef00585c2488ead0127fd925b17d.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
