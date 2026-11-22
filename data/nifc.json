@@ -692,7 +692,7 @@
    "acres": 10.0,
    "contained": 90,
    "discovered": "2026-11-21T22:17:10Z",
-   "updated": "2026-11-22T01:38:01Z",
+   "updated": "2026-11-22T03:17:07Z",
    "state": "TN",
    "county": "Morgan",
    "cause": "Undetermined",
@@ -748,7 +748,7 @@
    "acres": 6.0,
    "contained": 50,
    "discovered": "2026-11-21T18:57:04Z",
-   "updated": "2026-11-22T00:37:15Z",
+   "updated": "2026-11-22T03:17:42Z",
    "state": "TN",
    "county": "Claiborne",
    "cause": "Undetermined",
@@ -769,20 +769,6 @@
    "complexity": null,
    "lon": -87.5659,
    "lat": 45.1823
-  },
-  {
-   "id": "{4CA9E16B-1C63-44C6-861B-31C8E76D9EF3}",
-   "name": "Highway 522",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-21T21:00:00Z",
-   "updated": "2026-11-21T23:06:29Z",
-   "state": "KY",
-   "county": "Harlan",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.2538,
-   "lat": 36.8995
   },
   {
    "id": "{B7B13FF2-A317-41DA-B25C-D0E2B99E6B48}",
@@ -2113,6 +2099,20 @@
    "complexity": null,
    "lon": -117.8193,
    "lat": 34.6175
+  },
+  {
+   "id": "{48828EC2-2F46-456A-82D3-F191A021D82E}",
+   "name": "Lac-421927",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T03:26:25Z",
+   "updated": "2026-11-22T03:26:43Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.169,
+   "lat": 34.6893
   }
  ]
 }
