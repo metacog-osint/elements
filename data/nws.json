@@ -670,59 +670,6 @@
    ]
   },
   {
-   "id": "KTWC.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Tucson AZ",
-   "areas": [
-    "Upper San Pedro River Valley including Sierra Vista/Benson",
-    "Eastern Cochise County Below 5000 Feet including Douglas/Willcox",
-    "Upper Gila River and Aravaipa Valleys including Clifton/Safford"
-   ],
-   "counties": [
-    "04003",
-    "04009",
-    "04011",
-    "04019",
-    "04023"
-   ],
-   "sent": "2026-11-21T20:12:00Z",
-   "onset": "2026-11-22T08:00:00Z",
-   "ends": "2026-11-22T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afaca8da5d1e01928d40da7d9520f4b92baa3f64.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.7752,
-     31.8401
-    ],
-    [
-     -109.8783,
-     32.9318
-    ],
-    [
-     -109.2423,
-     33.2389
-    ],
-    [
-     -111.7837,
-     32.128
-    ],
-    [
-     -110.8452,
-     31.5257
-    ]
-   ],
-   "lon": -110.305,
-   "lat": 32.333,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEPZ.FZ.W.0001.2026",
    "event": "Freeze Warning",
    "severity": "Severe",

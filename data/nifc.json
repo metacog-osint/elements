@@ -393,6 +393,20 @@
    "lat": 36.6501
   },
   {
+   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
+   "name": "Card Knob Road",
+   "acres": 71.0,
+   "contained": 30,
+   "discovered": "2026-11-21T03:32:00Z",
+   "updated": "2026-11-22T14:38:50Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.2685,
+   "lat": 37.3559
+  },
+  {
    "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
    "name": "Mud Lick",
    "acres": 65.0,
@@ -503,20 +517,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.5643,
    "lat": 37.9621
-  },
-  {
-   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
-   "name": "Card Knob Road",
-   "acres": 25.0,
-   "contained": 30,
-   "discovered": "2026-11-21T03:32:00Z",
-   "updated": "2026-11-21T18:46:36Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.2685,
-   "lat": 37.3559
   },
   {
    "id": "{3E350CB2-8444-4AB7-A9FD-D40986453FBC}",
@@ -748,7 +748,7 @@
    "acres": 6.0,
    "contained": 50,
    "discovered": "2026-11-21T18:57:04Z",
-   "updated": "2026-11-22T03:17:42Z",
+   "updated": "2026-11-22T15:00:12Z",
    "state": "TN",
    "county": "Claiborne",
    "cause": "Undetermined",
@@ -1009,20 +1009,6 @@
    "lat": 36.7079
   },
   {
-   "id": "{B65C1EA1-C8CA-4821-8A36-8A7F04BD1C6A}",
-   "name": "Cleburne 700242",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-22T08:31:59Z",
-   "updated": "2026-11-22T13:44:26Z",
-   "state": "AR",
-   "county": "Cleburne",
-   "cause": null,
-   "complexity": null,
-   "lon": -91.8769,
-   "lat": 35.3702
-  },
-  {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
    "name": "Dump",
    "acres": 0.9,
@@ -1080,11 +1066,11 @@
   },
   {
    "id": "{346EC53E-5424-4653-AB19-BC905DDFC367}",
-   "name": "Bow community pond",
+   "name": "Bogue community pond",
    "acres": 0.7,
    "contained": null,
    "discovered": "2026-11-21T21:31:04Z",
-   "updated": "2026-11-21T21:48:56Z",
+   "updated": "2026-11-22T14:45:59Z",
    "state": "MS",
    "county": "Neshoba",
    "cause": "Undetermined",
@@ -2155,6 +2141,34 @@
    "complexity": null,
    "lon": -118.169,
    "lat": 34.6893
+  },
+  {
+   "id": "{E3EB4EE9-F543-4DCC-9ACD-B55B8B515CE9}",
+   "name": "Gulch",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T04:12:58Z",
+   "updated": "2026-11-22T14:58:02Z",
+   "state": "CA",
+   "county": "Butte",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.5374,
+   "lat": 39.5499
+  },
+  {
+   "id": "{B9F84FB1-7893-4B32-9C13-A3F907CE9675}",
+   "name": "Lac-422408",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T14:53:08Z",
+   "updated": "2026-11-22T14:53:24Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1513,
+   "lat": 33.8771
   }
  ]
 }
