@@ -1119,47 +1119,45 @@
    ]
   },
   {
-   "id": "KOUN.SV.W.1023.2026",
+   "id": "KOUN.SV.W.1024.2026",
    "event": "Severe Thunderstorm Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Norman OK",
    "areas": [
-    "Canadian, OK",
     "Oklahoma, OK"
    ],
    "counties": [
-    "40017",
     "40109"
    ],
-   "sent": "2026-11-22T08:03:00Z",
-   "onset": "2026-11-22T08:03:00Z",
-   "ends": "2026-11-22T08:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2b3f6ed1d183588646bfe017d7cb4a72bf74cd4.001.1",
+   "sent": "2026-11-22T08:23:00Z",
+   "onset": "2026-11-22T08:23:00Z",
+   "ends": "2026-11-22T08:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.545099b0a6df15013f401165aa2939fa6e2bde6c.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -97.8,
-       35.44
+       -97.58,
+       35.42
       ],
       [
-       -97.86,
-       35.65
+       -97.64,
+       35.63
       ],
       [
-       -97.44,
+       -97.2,
        35.7
       ],
       [
-       -97.46,
-       35.41
+       -97.19,
+       35.39
       ],
       [
-       -97.8,
-       35.44
+       -97.58,
+       35.42
       ]
      ]
     ]
@@ -1167,16 +1165,12 @@
    "vtec": true,
    "points": [
     [
-     -97.9799,
-     35.5434
-    ],
-    [
      -97.4094,
      35.5546
     ]
    ],
-   "lon": -97.672,
-   "lat": 35.528,
+   "lon": -97.438,
+   "lat": 35.512,
    "countries": [
     "US"
    ]
