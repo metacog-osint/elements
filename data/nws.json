@@ -1,74 +1,6 @@
 {
  "records": [
   {
-   "id": "KMTR.CF.W.0002.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "San Francisco",
-    "North Bay Interior Valleys",
-    "San Francisco Bay Shoreline"
-   ],
-   "counties": [
-    "06001",
-    "06013",
-    "06041",
-    "06055",
-    "06075",
-    "06081",
-    "06085",
-    "06097"
-   ],
-   "sent": "2026-11-22T22:23:00Z",
-   "onset": "2026-11-23T14:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b84cf11840784f167fb647326eb3bcd853d4cfa1.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.9125,
-     37.6471
-    ],
-    [
-     -121.9515,
-     37.9195
-    ],
-    [
-     -122.7464,
-     38.0514
-    ],
-    [
-     -122.3259,
-     38.5071
-    ],
-    [
-     -123.0322,
-     37.7272
-    ],
-    [
-     -122.3715,
-     37.4147
-    ],
-    [
-     -121.6895,
-     37.2216
-    ],
-    [
-     -122.9261,
-     38.5252
-    ]
-   ],
-   "lon": -122.369,
-   "lat": 37.877,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -297,6 +229,74 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.CF.W.0002.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "San Francisco",
+    "North Bay Interior Valleys",
+    "San Francisco Bay Shoreline"
+   ],
+   "counties": [
+    "06001",
+    "06013",
+    "06041",
+    "06055",
+    "06075",
+    "06081",
+    "06085",
+    "06097"
+   ],
+   "sent": "2026-11-23T14:10:00Z",
+   "onset": "2026-11-23T14:10:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60190a38381687c6e1da1cb730d6cc165eba2bc3.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.9125,
+     37.6471
+    ],
+    [
+     -121.9515,
+     37.9195
+    ],
+    [
+     -122.7464,
+     38.0514
+    ],
+    [
+     -122.3259,
+     38.5071
+    ],
+    [
+     -123.0322,
+     37.7272
+    ],
+    [
+     -122.3715,
+     37.4147
+    ],
+    [
+     -121.6895,
+     37.2216
+    ],
+    [
+     -122.9261,
+     38.5252
+    ]
+   ],
+   "lon": -122.369,
+   "lat": 37.877,
    "countries": [
     "US"
    ]
