@@ -1391,91 +1391,82 @@
    ]
   },
   {
-   "id": "KCRP.MA.W.0074.2026",
-   "event": "Special Marine Warning",
+   "id": "KMSO.SQ.W.0005.2026",
+   "event": "Snow Squall Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Corpus Christi TX",
+   "sender": "NWS Missoula MT",
    "areas": [
-    "Baffin Bay and Upper Laguna Madre",
-    "Coastal waters from Baffin Bay to Port Aransas out 20 NM"
+    "Granite, MT"
    ],
    "counties": [
-    "77231",
-    "77250"
+    "30039"
    ],
-   "sent": "2026-11-23T01:03:00Z",
-   "onset": "2026-11-23T01:03:00Z",
+   "sent": "2026-11-23T01:08:00Z",
+   "onset": "2026-11-23T01:08:00Z",
    "ends": "2026-11-23T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cebe73b3139cdeb0ab680e83e51a9f3dd6eeb47.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9919bfd791c49ce69fbb200440646162558f809.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -97.4,
-       27.25
+       -113.6,
+       46.68
       ],
       [
-       -97.4,
-       27.34
+       -113.61,
+       46.71
       ],
       [
-       -97.29,
-       27.43
+       -113.54,
+       46.71
       ],
       [
-       -96.95,
-       27.28
+       -113.53,
+       46.73
       ],
       [
-       -96.96,
-       27.27
+       -113.53,
+       46.74
       ],
       [
-       -96.98,
-       27.22
+       -113.49,
+       46.74
       ],
       [
-       -97.36,
-       27.24
+       -113.46,
+       46.75
       ],
       [
-       -97.35,
-       27.28
+       -113.24,
+       46.74
       ],
       [
-       -97.36,
-       27.28
+       -113.05,
+       46.68
       ],
       [
-       -97.36,
-       27.27
+       -113.07,
+       46.55
       ],
       [
-       -97.37,
-       27.27
-      ],
-      [
-       -97.37,
-       27.24
-      ],
-      [
-       -97.39,
-       27.25
-      ],
-      [
-       -97.4,
-       27.25
+       -113.6,
+       46.68
       ]
      ]
     ]
    },
    "vtec": true,
-   "points": [],
-   "lon": -97.281,
-   "lat": 27.276,
+   "points": [
+    [
+     -113.4274,
+     46.396
+    ]
+   ],
+   "lon": -113.429,
+   "lat": 46.701,
    "countries": [
     "US"
    ]
@@ -1558,6 +1549,126 @@
    "points": [],
    "lon": -97.315,
    "lat": 27.203,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCRP.MA.W.0074.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Coastal waters from Baffin Bay to Port Aransas out 20 NM"
+   ],
+   "counties": [
+    "77250"
+   ],
+   "sent": "2026-11-23T01:17:00Z",
+   "onset": "2026-11-23T01:17:00Z",
+   "ends": "2026-11-23T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edd0c2598bb972a47cc5ff08ab7c4584aaae3b0b.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -97.31,
+       27.32
+      ],
+      [
+       -97.16,
+       27.37
+      ],
+      [
+       -96.95,
+       27.28
+      ],
+      [
+       -96.96,
+       27.27
+      ],
+      [
+       -96.98,
+       27.22
+      ],
+      [
+       -97.32,
+       27.24
+      ],
+      [
+       -97.31,
+       27.32
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -97.141,
+   "lat": 27.289,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBRO.MA.W.0060.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM"
+   ],
+   "counties": [
+    "77155"
+   ],
+   "sent": "2026-11-23T01:23:00Z",
+   "onset": "2026-11-23T01:23:00Z",
+   "ends": "2026-11-23T02:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2e29d376b40fb3b7bad39d27317bf76db4fa6a0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.99,
+       27.22
+      ],
+      [
+       -96.97,
+       27.21
+      ],
+      [
+       -96.97,
+       27.2
+      ],
+      [
+       -97.18,
+       26.96
+      ],
+      [
+       -97.33,
+       27.17
+      ],
+      [
+       -97.22,
+       27.24
+      ],
+      [
+       -96.99,
+       27.22
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -97.093,
+   "lat": 27.174,
    "countries": [
     "US"
    ]
