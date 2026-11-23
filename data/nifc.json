@@ -533,6 +533,20 @@
    "lat": 37.4688
   },
   {
+   "id": "{A7DF6CE0-B93A-4CBF-A56E-20A8F6D7A7A4}",
+   "name": "Nacogdoches 0089",
+   "acres": 40.0,
+   "contained": 0,
+   "discovered": "2026-11-23T13:03:09Z",
+   "updated": "2026-11-23T14:21:58Z",
+   "state": "TX",
+   "county": "Nacogdoches",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.4914,
+   "lat": 31.6496
+  },
+  {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
    "name": "Big Laurel",
    "acres": 25.0,
@@ -552,7 +566,7 @@
    "acres": 25.0,
    "contained": 85,
    "discovered": "2026-11-21T22:17:10Z",
-   "updated": "2026-11-23T13:42:10Z",
+   "updated": "2026-11-23T14:07:11Z",
    "state": "TN",
    "county": "Morgan",
    "cause": "Undetermined",
@@ -720,7 +734,7 @@
    "acres": 7.0,
    "contained": null,
    "discovered": "2026-11-17T21:53:00Z",
-   "updated": "2026-11-20T21:58:30Z",
+   "updated": "2026-11-23T14:23:06Z",
    "state": "MN",
    "county": "Scott",
    "cause": "Undetermined",
@@ -870,11 +884,11 @@
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
-   "name": "Dump",
+   "name": "Branch Trail",
    "acres": 0.9,
    "contained": null,
    "discovered": "2026-11-20T20:30:00Z",
-   "updated": "2026-11-21T14:45:21Z",
+   "updated": "2026-11-23T14:23:01Z",
    "state": "WI",
    "county": "Sauk",
    "cause": "Human",
@@ -883,12 +897,26 @@
    "lat": 43.182
   },
   {
+   "id": "{E031E0DA-5155-4411-801E-85BC4AA2C584}",
+   "name": "Opener",
+   "acres": 0.8,
+   "contained": null,
+   "discovered": "2026-11-21T06:00:00Z",
+   "updated": "2026-11-23T14:13:32Z",
+   "state": "WI",
+   "county": "Portage",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.3409,
+   "lat": 44.3581
+  },
+  {
    "id": "{CAF1AE64-C4E9-4CAF-889D-9CFCEDCDB3EE}",
    "name": "Edwards Ferry 3",
    "acres": 0.7,
    "contained": null,
    "discovered": "2026-11-20T15:33:30Z",
-   "updated": "2026-11-21T14:49:41Z",
+   "updated": "2026-11-23T14:30:34Z",
    "state": "MD",
    "county": "Montgomery",
    "cause": "Human",
@@ -1275,20 +1303,6 @@
    "lat": 34.6809
   },
   {
-   "id": "{460F05C7-C745-46EB-9043-FEB41BA45076}",
-   "name": "Road 25",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-21T18:50:37Z",
-   "updated": "2026-11-22T18:33:43Z",
-   "state": "OH",
-   "county": "Lawrence",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.6903,
-   "lat": 38.632
-  },
-  {
    "id": "{3820667B-6F7B-4430-94E5-4C4B8EC585C2}",
    "name": "Ymca",
    "acres": 0.1,
@@ -1315,6 +1329,20 @@
    "complexity": null,
    "lon": -121.1305,
    "lat": 44.0827
+  },
+  {
+   "id": "{EFBB8220-AFC8-4491-96C1-7457DE693AC7}",
+   "name": "Chopped Oak",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-23T13:00:54Z",
+   "updated": "2026-11-23T14:21:51Z",
+   "state": "SD",
+   "county": "Todd",
+   "cause": null,
+   "complexity": null,
+   "lon": -100.8878,
+   "lat": 43.3231
   },
   {
    "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
@@ -1707,6 +1735,20 @@
    "complexity": null,
    "lon": -118.6778,
    "lat": 34.0924
+  },
+  {
+   "id": "{FEAD7721-4793-4F70-83EA-D6F7147D97C7}",
+   "name": "Lac-423566",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T14:32:35Z",
+   "updated": "2026-11-23T14:32:48Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1378,
+   "lat": 33.904
   }
  ]
 }
