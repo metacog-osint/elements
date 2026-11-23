@@ -48,7 +48,7 @@
    "acres": 12888.0,
    "contained": 98,
    "discovered": "2026-08-09T17:12:59Z",
-   "updated": "2026-11-14T01:31:46Z",
+   "updated": "2026-11-23T18:32:52Z",
    "state": "OR",
    "county": "Clackamas",
    "cause": "Human",
@@ -335,20 +335,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.1202,
    "lat": 37.4458
-  },
-  {
-   "id": "{54A059A8-9CAA-452E-A17A-FEDDB98117C1}",
-   "name": "Walker MT West",
-   "acres": 132.0,
-   "contained": 90,
-   "discovered": "2026-11-15T20:49:04Z",
-   "updated": "2026-11-18T16:08:03Z",
-   "state": "OK",
-   "county": "Le Flore",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.5802,
-   "lat": 34.8036
   },
   {
    "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
@@ -703,30 +689,16 @@
   {
    "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
    "name": "Cty D",
-   "acres": 3.5,
+   "acres": 3.2,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T17:40:36Z",
+   "updated": "2026-11-23T18:27:30Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
    "lon": -92.6169,
    "lat": 45.8066
-  },
-  {
-   "id": "{BAFE88CB-E13E-4AA5-BFE7-6B367FF15617}",
-   "name": "251116a Sleepers Island",
-   "acres": 2.7,
-   "contained": null,
-   "discovered": "2026-11-16T05:30:13Z",
-   "updated": "2026-11-23T18:01:16Z",
-   "state": "NH",
-   "county": "Belknap",
-   "cause": null,
-   "complexity": null,
-   "lon": -71.2971,
-   "lat": 43.5556
   },
   {
    "id": "{E5F4335F-AA49-4CA0-A31B-EBED0805A98B}",
@@ -1084,27 +1056,13 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T17:23:30Z",
+   "updated": "2026-11-23T18:28:28Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
    "lon": -92.6086,
    "lat": 45.8085
-  },
-  {
-   "id": "{417B7F8F-69F1-4A5B-9CD8-2036D6FB747C}",
-   "name": "Cty D 2",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T17:40:12Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.6134,
-   "lat": 45.8083
   },
   {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
@@ -1639,6 +1597,20 @@
    "lat": 34.6165
   },
   {
+   "id": "{417B7F8F-69F1-4A5B-9CD8-2036D6FB747C}",
+   "name": "Cty D 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T06:00:00Z",
+   "updated": "2026-11-23T18:28:14Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.6148,
+   "lat": 45.8077
+  },
+  {
    "id": "{CB0F9B00-86B0-4062-ACD5-D345CCE50450}",
    "name": "Lac-423307",
    "acres": 0.0,
@@ -1707,6 +1679,20 @@
    "complexity": null,
    "lon": -118.4935,
    "lat": 34.3776
+  },
+  {
+   "id": "{4B9AF4A9-249F-4837-9E79-4EEEFCC60208}",
+   "name": "Lac-423791",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T18:06:27Z",
+   "updated": "2026-11-23T18:07:46Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.5457,
+   "lat": 34.7746
   }
  ]
 }
