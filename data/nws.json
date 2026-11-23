@@ -1,48 +1,6 @@
 {
  "records": [
   {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-22T21:33:00Z",
-   "onset": "2026-11-24T15:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd9ea6481983b966a3a508dc657b26fa07a10703.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -297,6 +255,48 @@
    ],
    "lon": -117.277,
    "lat": 33.35,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-23T11:52:00Z",
+   "onset": "2026-11-24T15:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66fa981ee49b025cec2701d54cedf779a2b4d11b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
    "countries": [
     "US"
    ]
@@ -1370,54 +1370,6 @@
    ]
   },
   {
-   "id": "KMFR.HW.W.0008.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Central Siskiyou County",
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "06093",
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-22T20:20:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-25T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1654581640aa0fbb4b01958b04af900ae675736.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ],
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.498,
-   "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.HW.W.0023.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1450,6 +1402,54 @@
    ]
   },
   {
+   "id": "KMFR.HW.W.0008.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast",
+    "Central Siskiyou County"
+   ],
+   "counties": [
+    "06093",
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-23T11:54:00Z",
+   "onset": "2026-11-24T00:00:00Z",
+   "ends": "2026-11-25T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3bf9633cf6e93233886dee289928673486cbdb5.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ],
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.498,
+   "lat": 42.632,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KEKA.HW.A.0002.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1476,36 +1476,6 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-23T08:28:00Z",
-   "onset": "2026-11-24T06:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7ee94f23e760d3378fd75ef6e7b0f00ef1a79c0.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
    "countries": [
     "US"
    ]
@@ -1587,6 +1557,36 @@
    "onset": "2026-11-23T18:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.210a682fbdcf60d73c5ade8b74a497e71ef083a5.004.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-23T11:55:00Z",
+   "onset": "2026-11-24T06:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28878a68f867d7467909a2fa68d3d2139f2ea904.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
