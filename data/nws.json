@@ -1429,15 +1429,16 @@
    "certainty": "Likely",
    "sender": "NWS Fairbanks AK",
    "areas": [
+    "Bering Strait Coast",
     "St Lawrence Island"
    ],
    "counties": [
     "02180"
    ],
-   "sent": "2026-11-22T21:31:00Z",
-   "onset": "2026-11-23T03:00:00Z",
+   "sent": "2026-11-23T04:15:00Z",
+   "onset": "2026-11-23T04:15:00Z",
    "ends": "2026-11-23T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba2b753ba16bb1e96bdf894dc9af2cb88df5e640.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8940fe4aae6e3f76e0b6c579d7e6a66e3ec45d61.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1479,60 +1480,6 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KHGX.MA.W.0095.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Houston/Galveston TX",
-   "areas": [
-    "Coastal waters from High Island to Freeport TX out 20 NM",
-    "Waters from High Island to Freeport TX from 20 to 60 NM"
-   ],
-   "counties": [
-    "77355",
-    "77375"
-   ],
-   "sent": "2026-11-23T03:40:00Z",
-   "onset": "2026-11-23T03:40:00Z",
-   "ends": "2026-11-23T04:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a1923e64a9506a852ede3632c012e97c9673a1f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -94.92,
-       28.66
-      ],
-      [
-       -94.9,
-       28.82
-      ],
-      [
-       -94.52,
-       28.89
-      ],
-      [
-       -94.48,
-       28.59
-      ],
-      [
-       -94.92,
-       28.66
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -94.748,
-   "lat": 28.724,
    "countries": [
     "US"
    ]

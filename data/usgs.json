@@ -19,16 +19,33 @@
    "id": "us6000ucvm",
    "mag": 6.5,
    "place": "Vanuatu region",
-   "time": "2026-11-23T02:40:57Z",
-   "updated": "2026-11-23T03:06:51Z",
+   "time": "2026-11-23T02:40:58Z",
+   "updated": "2026-11-23T04:20:26Z",
    "alert": "green",
    "tsunami": true,
    "sig": 650,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm",
-   "depth_km": 601.0,
-   "lon": 172.242,
-   "lat": -13.661,
+   "depth_km": 598.0,
+   "lon": 172.267,
+   "lat": -13.585,
    "countries": []
+  },
+  {
+   "id": "us6000ucvh",
+   "mag": 4.9,
+   "place": "39 km NW of Kuqa, China",
+   "time": "2026-11-23T02:14:59Z",
+   "updated": "2026-11-23T04:18:26Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvh",
+   "depth_km": 10.0,
+   "lon": 82.544,
+   "lat": 41.926,
+   "countries": [
+    "CN"
+   ]
   },
   {
    "id": "us6000ucv4",
@@ -631,7 +648,7 @@
    "mag": 5.0,
    "place": "10 km NW of Pinnacles, CA",
    "time": "2026-11-20T06:49:16Z",
-   "updated": "2026-11-22T23:07:05Z",
+   "updated": "2026-11-23T04:18:06Z",
    "alert": "green",
    "tsunami": true,
    "sig": 1002,
@@ -1607,21 +1624,6 @@
    "depth_km": 10.0,
    "lon": 125.427,
    "lat": 4.784,
-   "countries": []
-  },
-  {
-   "id": "us7000tyhr",
-   "mag": 5.4,
-   "place": "20 km NW of Anamizu, Japan",
-   "time": "2026-11-16T04:24:11Z",
-   "updated": "2026-11-17T04:33:32Z",
-   "alert": "green",
-   "tsunami": false,
-   "sig": 449,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyhr",
-   "depth_km": 273.6,
-   "lon": 136.744,
-   "lat": 37.366,
    "countries": []
   }
  ]
