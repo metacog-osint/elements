@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000ucz2",
+   "mag": 4.7,
+   "place": "South Sandwich Islands region",
+   "time": "2026-11-23T15:10:57Z",
+   "updated": "2026-11-23T16:34:34Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 340,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucz2",
+   "depth_km": 103.3,
+   "lon": -25.881,
+   "lat": -57.306,
+   "countries": []
+  },
+  {
    "id": "us6000ucyd",
    "mag": 4.8,
    "place": "209 km SSE of Tobi Village, Palau",
@@ -618,7 +633,7 @@
    "mag": 6.7,
    "place": "7 km ENE of Carhuamayo, Peru",
    "time": "2026-11-21T00:09:21Z",
-   "updated": "2026-11-23T05:05:56Z",
+   "updated": "2026-11-23T16:10:24Z",
    "alert": "green",
    "tsunami": true,
    "sig": 773,
@@ -1165,7 +1180,7 @@
    "mag": 5.3,
    "place": "149 km SSW of Merizo Village, Guam",
    "time": "2026-11-18T16:06:51Z",
-   "updated": "2026-11-22T16:16:57Z",
+   "updated": "2026-11-23T16:17:04Z",
    "alert": null,
    "tsunami": false,
    "sig": 432,
@@ -1654,38 +1669,6 @@
    "depth_km": 10.0,
    "lon": -75.868,
    "lat": -14.978,
-   "countries": []
-  },
-  {
-   "id": "us7000tykk",
-   "mag": 4.8,
-   "place": "28 km SW of Changuillo, Peru",
-   "time": "2026-11-16T16:23:18Z",
-   "updated": "2026-11-16T18:18:13Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 355,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykk",
-   "depth_km": 39.1,
-   "lon": -75.423,
-   "lat": -14.836,
-   "countries": [
-    "PE"
-   ]
-  },
-  {
-   "id": "us7000tykh",
-   "mag": 5.4,
-   "place": "95 km WSW of Changuillo, Peru",
-   "time": "2026-11-16T16:16:45Z",
-   "updated": "2026-11-17T16:23:30Z",
-   "alert": "green",
-   "tsunami": false,
-   "sig": 449,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykh",
-   "depth_km": 10.0,
-   "lon": -76.026,
-   "lat": -15.031,
    "countries": []
   }
  ]
