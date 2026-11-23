@@ -197,20 +197,6 @@
    "lat": 38.3136
   },
   {
-   "id": "{4833B31B-FB37-43D1-AE8B-670E61AA2199}",
-   "name": "Foot Creek",
-   "acres": 683.0,
-   "contained": 90,
-   "discovered": "2026-11-05T20:12:37Z",
-   "updated": "2026-11-11T22:28:45Z",
-   "state": "WY",
-   "county": "Johnson",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -106.9326,
-   "lat": 44.3187
-  },
-  {
    "id": "{3C9661A9-A917-4F2E-BFB5-BAB480AC9D4B}",
    "name": "Red Hill",
    "acres": 519.0,
@@ -715,6 +701,20 @@
    "lat": 45.8507
   },
   {
+   "id": "{DA02A1CD-0098-4C01-93F4-A98706DA03EF}",
+   "name": "Armin Road",
+   "acres": 1.2,
+   "contained": null,
+   "discovered": "2026-11-11T23:20:40Z",
+   "updated": "2026-11-23T21:56:01Z",
+   "state": "OR",
+   "county": "Wallowa",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -116.987,
+   "lat": 45.3224
+  },
+  {
    "id": "{FEA7F60C-F61D-46E3-84A0-C3F108C28BEE}",
    "name": "Fish Ct",
    "acres": 1.1,
@@ -1065,18 +1065,18 @@
    "lat": 43.8797
   },
   {
-   "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
-   "name": "Seidel",
+   "id": "{5C1598FD-E7C6-482D-8741-A311878F47D6}",
+   "name": "Earthview Way - Custer",
    "acres": 0.1,
    "contained": null,
-   "discovered": "2026-11-17T18:15:00Z",
-   "updated": "2026-11-20T21:16:08Z",
-   "state": "WI",
-   "county": "Florence",
+   "discovered": "2026-11-16T21:54:00Z",
+   "updated": "2026-11-23T22:00:40Z",
+   "state": "MT",
+   "county": "Custer",
    "cause": "Human",
    "complexity": null,
-   "lon": -88.3492,
-   "lat": 45.8655
+   "lon": -105.6854,
+   "lat": 46.5197
   },
   {
    "id": "{335927DD-066E-4A5D-8FD3-3B3EB1700EF5}",
@@ -1581,6 +1581,20 @@
    "complexity": null,
    "lon": -92.5699,
    "lat": 31.1559
+  },
+  {
+   "id": "{AEFAB2F0-0916-45F2-A998-8D5FA5D857AB}",
+   "name": "Lac-424134",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T22:00:48Z",
+   "updated": "2026-11-23T22:01:15Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.931,
+   "lat": 34.1303
   }
  ]
 }
