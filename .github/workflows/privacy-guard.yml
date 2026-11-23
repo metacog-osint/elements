@@ -1,0 +1,7 @@
+name: privacy-guard
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  guard:
+    uses: metacog-osint/tic-doctrine/.github/workflows/privacy-guard.yml@main
