@@ -622,7 +622,7 @@
    "acres": 14.0,
    "contained": null,
    "discovered": "2026-11-19T18:28:00Z",
-   "updated": "2026-11-20T19:56:33Z",
+   "updated": "2026-11-23T14:54:16Z",
    "state": "MO",
    "county": "Dent",
    "cause": "Undetermined",
@@ -757,20 +757,6 @@
    "lat": 44.4062
   },
   {
-   "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
-   "name": "M35",
-   "acres": 5.1,
-   "contained": null,
-   "discovered": "2026-11-19T19:18:00Z",
-   "updated": "2026-11-20T14:30:55Z",
-   "state": "MI",
-   "county": "Menominee",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -87.5659,
-   "lat": 45.1823
-  },
-  {
    "id": "{EDFB5A95-C063-4E3C-AAF3-A3A5860317BF}",
    "name": "Wildcat",
    "acres": 2.6,
@@ -853,20 +839,6 @@
    "complexity": null,
    "lon": -89.1555,
    "lat": 45.8129
-  },
-  {
-   "id": "{BCE1FBB4-BC58-4D19-B343-576EA5EF93D0}",
-   "name": "Carroll 247",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-21T20:33:43Z",
-   "updated": "2026-11-21T20:58:46Z",
-   "state": "AR",
-   "county": "Carroll",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.4036,
-   "lat": 36.1839
   },
   {
    "id": "{904730C7-C360-45E4-A210-C75AEC7087C9}",
@@ -1191,6 +1163,20 @@
    "lat": 38.436
   },
   {
+   "id": "{4E0C3F92-9312-4E3E-A52D-B56E7A85986A}",
+   "name": "Fenceline",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-08T18:47:00Z",
+   "updated": "2026-11-23T14:41:27Z",
+   "state": "WI",
+   "county": "Juneau",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.1402,
+   "lat": 43.8797
+  },
+  {
    "id": "{A2DE6D5D-D204-41FA-8431-D47E05861BB1}",
    "name": "Seidel",
    "acres": 0.1,
@@ -1231,20 +1217,6 @@
    "complexity": null,
    "lon": -88.9943,
    "lat": 45.3077
-  },
-  {
-   "id": "{6594349E-82D8-4FA9-BE41-035FFB68C38D}",
-   "name": "3702 Grand Bature",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T14:30:53Z",
-   "updated": "2026-11-20T14:34:30Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.4398,
-   "lat": 30.3944
   },
   {
    "id": "{C9EFB17F-D4F6-489C-9907-522B47716B41}",
@@ -1499,20 +1471,6 @@
    "lat": 43.8582
   },
   {
-   "id": "{B0CD6E83-33A4-4ACB-B280-ADCBF16D8F27}",
-   "name": "Water",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T20:08:41Z",
-   "state": "WI",
-   "county": "Taylor",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.4945,
-   "lat": 45.0828
-  },
-  {
    "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
    "name": "Lac-419758",
    "acres": 0.0,
@@ -1539,6 +1497,20 @@
    "complexity": null,
    "lon": -118.0948,
    "lat": 34.7042
+  },
+  {
+   "id": "{B0CD6E83-33A4-4ACB-B280-ADCBF16D8F27}",
+   "name": "Water Drive",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-20T19:00:00Z",
+   "updated": "2026-11-23T14:42:54Z",
+   "state": "WI",
+   "county": "Taylor",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4945,
+   "lat": 45.0828
   },
   {
    "id": "{B3EC7223-1B24-4198-B624-4E3759AAE01E}",
@@ -1749,6 +1721,20 @@
    "complexity": null,
    "lon": -118.1378,
    "lat": 33.904
+  },
+  {
+   "id": "{BB4C0654-4CE6-4FAC-B9A5-738E2A8A7C39}",
+   "name": "Sage",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T14:54:59Z",
+   "updated": "2026-11-23T14:58:56Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.7612,
+   "lat": 34.1461
   }
  ]
 }
