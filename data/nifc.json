@@ -169,6 +169,20 @@
    "lat": 37.8422
   },
   {
+   "id": "{A5E165B8-8BF1-41B0-B95A-5664E959FD3F}",
+   "name": "Little Ridge",
+   "acres": 900.0,
+   "contained": 0,
+   "discovered": "2026-11-22T01:14:40Z",
+   "updated": "2026-11-23T22:56:45Z",
+   "state": "VA",
+   "county": "Highland",
+   "cause": "Undetermined",
+   "complexity": "Type 3 Incident",
+   "lon": -79.7914,
+   "lat": 38.3136
+  },
+  {
    "id": "{9C763680-EBED-488A-B588-D97638D6C8F3}",
    "name": "Wild River",
    "acres": 817.0,
@@ -181,20 +195,6 @@
    "complexity": "Type 4 Incident",
    "lon": -71.0313,
    "lat": 44.3306
-  },
-  {
-   "id": "{A5E165B8-8BF1-41B0-B95A-5664E959FD3F}",
-   "name": "Little Ridge",
-   "acres": 800.0,
-   "contained": 0,
-   "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-23T13:26:26Z",
-   "state": "VA",
-   "county": "Highland",
-   "cause": "Undetermined",
-   "complexity": "Type 3 Incident",
-   "lon": -79.7914,
-   "lat": 38.3136
   },
   {
    "id": "{3C9661A9-A917-4F2E-BFB5-BAB480AC9D4B}",
@@ -659,6 +659,20 @@
    "lat": 44.4062
   },
   {
+   "id": "{F6070744-113B-429D-A108-BAA02CC0AF10}",
+   "name": "Aden Road",
+   "acres": 6.0,
+   "contained": 0,
+   "discovered": "2026-11-23T21:53:00Z",
+   "updated": "2026-11-23T22:47:40Z",
+   "state": "KY",
+   "county": "Carter",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.051,
+   "lat": 38.2799
+  },
+  {
    "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
    "name": "Cty D",
    "acres": 3.2,
@@ -685,6 +699,20 @@
    "complexity": "Type 5 Incident",
    "lon": -84.7459,
    "lat": 37.718
+  },
+  {
+   "id": "{1E5962F4-83E5-4895-9232-FAF0B9A45605}",
+   "name": "Burnt Hill",
+   "acres": 2.0,
+   "contained": null,
+   "discovered": "2026-11-23T22:12:01Z",
+   "updated": "2026-11-23T23:05:05Z",
+   "state": "WA",
+   "county": "Clallam",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -123.1083,
+   "lat": 48.0137
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -827,20 +855,6 @@
    "lat": 37.8655
   },
   {
-   "id": "{EA4B2993-EE8F-4F10-8782-4D339D35BD7D}",
-   "name": "Ostrom",
-   "acres": 0.5,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-20T22:23:42Z",
-   "state": "WI",
-   "county": "Washburn",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.9192,
-   "lat": 46.0914
-  },
-  {
    "id": "{9436B0C1-2153-4A3A-A514-2D7230EC4D5E}",
    "name": "Mockingbird",
    "acres": 0.5,
@@ -881,20 +895,6 @@
    "complexity": "Type 5 Incident",
    "lon": -114.4629,
    "lat": 32.8735
-  },
-  {
-   "id": "{5F0E07C6-646F-42B9-B6B6-C9CE9DBF9ACB}",
-   "name": "Bowie 0101",
-   "acres": 0.5,
-   "contained": 0,
-   "discovered": "2026-11-23T21:36:00Z",
-   "updated": "2026-11-23T22:08:33Z",
-   "state": "TX",
-   "county": "Bowie",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -94.336,
-   "lat": 33.38
   },
   {
    "id": "{31438499-B204-46A8-91EF-4F703878313C}",
@@ -1037,20 +1037,6 @@
    "lat": 45.8085
   },
   {
-   "id": "{E7BF9EA7-8B35-4EF8-BFB7-AF735069E712}",
-   "name": "Oconnor",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-23T21:39:19Z",
-   "updated": "2026-11-23T22:08:45Z",
-   "state": "CA",
-   "county": "San Luis Obispo",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.7308,
-   "lat": 35.3041
-  },
-  {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
    "name": "Hail Point",
    "acres": 0.1,
@@ -1189,20 +1175,6 @@
    "complexity": null,
    "lon": -119.4872,
    "lat": 37.3142
-  },
-  {
-   "id": "{8CF686ED-AB8A-4505-B9BB-16897EFC869F}",
-   "name": "Gilmer Forest Street",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T20:37:39Z",
-   "updated": "2026-11-20T22:53:10Z",
-   "state": "GA",
-   "county": "Gilmer",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -84.5265,
-   "lat": 34.6809
   },
   {
    "id": "{3820667B-6F7B-4430-94E5-4C4B8EC585C2}",
