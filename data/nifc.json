@@ -729,20 +729,6 @@
    "lat": 43.7869
   },
   {
-   "id": "{91994B34-A832-4E1C-9C5D-C93284636CCC}",
-   "name": "Hot Spring 305",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-23T20:20:42Z",
-   "updated": "2026-11-23T20:29:41Z",
-   "state": "AR",
-   "county": "Hot Spring",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.7394,
-   "lat": 34.4678
-  },
-  {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
    "name": "Branch Trail",
    "acres": 0.9,
@@ -883,6 +869,34 @@
    "lat": 43.9175
   },
   {
+   "id": "{CC3A7A79-30D9-4ED5-BC29-3404AD3C87B5}",
+   "name": "Laguna",
+   "acres": 0.5,
+   "contained": null,
+   "discovered": "2026-11-23T21:03:00Z",
+   "updated": "2026-11-23T22:35:50Z",
+   "state": "AZ",
+   "county": "Yuma",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -114.4629,
+   "lat": 32.8735
+  },
+  {
+   "id": "{5F0E07C6-646F-42B9-B6B6-C9CE9DBF9ACB}",
+   "name": "Bowie 0101",
+   "acres": 0.5,
+   "contained": 0,
+   "discovered": "2026-11-23T21:36:00Z",
+   "updated": "2026-11-23T22:08:33Z",
+   "state": "TX",
+   "county": "Bowie",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -94.336,
+   "lat": 33.38
+  },
+  {
    "id": "{31438499-B204-46A8-91EF-4F703878313C}",
    "name": "South French Lick",
    "acres": 0.2,
@@ -895,6 +909,20 @@
    "complexity": "Type 5 Incident",
    "lon": -86.5906,
    "lat": 38.4302
+  },
+  {
+   "id": "{9EAF04FE-7765-4D18-B653-73553B7B71CE}",
+   "name": "Etna",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-07-20T21:54:21Z",
+   "updated": "2026-11-23T22:15:37Z",
+   "state": "WY",
+   "county": "Lincoln",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -111.0138,
+   "lat": 43.0894
   },
   {
    "id": "{EDB2141C-CC14-41A4-94AD-6D5439001780}",
@@ -1007,6 +1035,20 @@
    "complexity": null,
    "lon": -92.6086,
    "lat": 45.8085
+  },
+  {
+   "id": "{E7BF9EA7-8B35-4EF8-BFB7-AF735069E712}",
+   "name": "Oconnor",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-23T21:39:19Z",
+   "updated": "2026-11-23T22:08:45Z",
+   "state": "CA",
+   "county": "San Luis Obispo",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.7308,
+   "lat": 35.3041
   },
   {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
@@ -1265,8 +1307,8 @@
    "name": "Numbers",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-19T18:30:00Z",
-   "updated": "2026-11-23T17:35:57Z",
+   "discovered": "2026-11-19T20:50:00Z",
+   "updated": "2026-11-23T22:18:07Z",
    "state": "WI",
    "county": "Green Lake",
    "cause": "Human",
