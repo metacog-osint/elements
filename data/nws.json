@@ -111,37 +111,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0005.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53027"
-   ],
-   "sent": "2026-11-22T22:24:00Z",
-   "onset": "2026-11-23T16:00:00Z",
-   "ends": "2026-11-23T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c93cc1bc311c9e9beef2ad0c48e1b9875782954e.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8267,
-     47.1121
-    ]
-   ],
-   "lon": -123.827,
-   "lat": 47.112,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -297,6 +266,37 @@
    ],
    "lon": -123.926,
    "lat": 40.707,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0005.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53027"
+   ],
+   "sent": "2026-11-23T10:03:00Z",
+   "onset": "2026-11-23T16:00:00Z",
+   "ends": "2026-11-23T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc62351239e0fa2cb30a3de5ded356ac719ccdf.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8267,
+     47.1121
+    ]
+   ],
+   "lon": -123.827,
+   "lat": 47.112,
    "countries": [
     "US"
    ]
