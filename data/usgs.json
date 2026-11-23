@@ -1,12 +1,27 @@
 {
  "records": [
   {
+   "id": "us6000ucw1",
+   "mag": 4.9,
+   "place": "Vanuatu region",
+   "time": "2026-11-23T03:07:52Z",
+   "updated": "2026-11-23T03:25:33Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 369,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucw1",
+   "depth_km": 596.0,
+   "lon": 172.224,
+   "lat": -13.563,
+   "countries": []
+  },
+  {
    "id": "us6000ucvm",
    "mag": 6.5,
    "place": "Vanuatu region",
    "time": "2026-11-23T02:40:57Z",
-   "updated": "2026-11-23T03:04:00Z",
-   "alert": null,
+   "updated": "2026-11-23T03:06:51Z",
+   "alert": "green",
    "tsunami": true,
    "sig": 650,
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm",
@@ -82,7 +97,7 @@
    "mag": 5.4,
    "place": "9 km N of Carhuamayo, Peru",
    "time": "2026-11-22T21:35:31Z",
-   "updated": "2026-11-23T00:51:49Z",
+   "updated": "2026-11-23T03:19:36Z",
    "alert": "green",
    "tsunami": false,
    "sig": 456,
