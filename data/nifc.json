@@ -295,6 +295,20 @@
    "lat": 46.922
   },
   {
+   "id": "{B23533AC-4C68-4983-97B7-5B9908BEABD5}",
+   "name": "Vanderpool Mountain",
+   "acres": 300.0,
+   "contained": 85,
+   "discovered": "2026-11-20T19:53:00Z",
+   "updated": "2026-11-23T15:42:53Z",
+   "state": "KY",
+   "county": "Whitley",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -84.0117,
+   "lat": 36.6501
+  },
+  {
    "id": "{27BD64A0-3FEC-4FEE-8019-962D058FCB04}",
    "name": "Rankin Lake Harbor Rd",
    "acres": 217.0,
@@ -307,20 +321,6 @@
    "complexity": "Type 5 Incident",
    "lon": -89.9025,
    "lat": 32.525
-  },
-  {
-   "id": "{B23533AC-4C68-4983-97B7-5B9908BEABD5}",
-   "name": "Vanderpool Mountain",
-   "acres": 200.0,
-   "contained": 85,
-   "discovered": "2026-11-20T19:53:00Z",
-   "updated": "2026-11-23T06:53:29Z",
-   "state": "KY",
-   "county": "Whitley",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -84.0117,
-   "lat": 36.6501
   },
   {
    "id": "{DAB3A16C-B96D-483E-B7B3-84A40BFA6C82}",
@@ -536,9 +536,9 @@
    "id": "{A7DF6CE0-B93A-4CBF-A56E-20A8F6D7A7A4}",
    "name": "Nacogdoches 0089",
    "acres": 40.0,
-   "contained": 0,
+   "contained": 30,
    "discovered": "2026-11-23T13:03:09Z",
-   "updated": "2026-11-23T14:21:58Z",
+   "updated": "2026-11-23T16:01:36Z",
    "state": "TX",
    "county": "Nacogdoches",
    "cause": "Undetermined",
@@ -659,20 +659,6 @@
    "lat": 43.7354
   },
   {
-   "id": "{9B559405-5612-4CD3-B016-C5EC030A83BC}",
-   "name": "Tower",
-   "acres": 10.6,
-   "contained": null,
-   "discovered": "2026-10-21T20:00:00Z",
-   "updated": "2026-11-15T15:21:43Z",
-   "state": "WI",
-   "county": "Lincoln",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.028,
-   "lat": 45.3608
-  },
-  {
    "id": "{4502F1B3-6134-495B-A527-BEECD6A7886B}",
    "name": "Paris",
    "acres": 10.0,
@@ -757,6 +743,20 @@
    "lat": 44.4062
   },
   {
+   "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
+   "name": "County Rd D",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-23T06:00:00Z",
+   "updated": "2026-11-23T15:57:53Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -92.6206,
+   "lat": 45.8063
+  },
+  {
    "id": "{EDFB5A95-C063-4E3C-AAF3-A3A5860317BF}",
    "name": "Wildcat",
    "acres": 2.6,
@@ -825,6 +825,20 @@
    "complexity": null,
    "lon": -89.6263,
    "lat": 45.4719
+  },
+  {
+   "id": "{FEA7F60C-F61D-46E3-84A0-C3F108C28BEE}",
+   "name": "Fish Ct",
+   "acres": 1.1,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-23T15:50:27Z",
+   "state": "WI",
+   "county": "Adams",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.6592,
+   "lat": 43.7869
   },
   {
    "id": "{44794933-35CA-402B-A96B-56C42745CF4C}",
@@ -1009,20 +1023,6 @@
    "lat": 45.9723
   },
   {
-   "id": "{F3D87452-D788-4492-BFDF-1D4F73D7C007}",
-   "name": "Sand Lake",
-   "acres": 0.3,
-   "contained": null,
-   "discovered": "2026-11-18T19:50:00Z",
-   "updated": "2026-11-20T16:02:11Z",
-   "state": "WI",
-   "county": "Sawyer",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -91.4775,
-   "lat": 45.8558
-  },
-  {
    "id": "{E6AB9667-D0DB-4605-8823-DD9AB95DA543}",
    "name": "Papoose Landing",
    "acres": 0.3,
@@ -1135,6 +1135,20 @@
    "lat": 43.2803
   },
   {
+   "id": "{ABBDBB71-DEBE-49B6-B09B-C8328B9F8D62}",
+   "name": "Refuge Rd",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-23T06:00:00Z",
+   "updated": "2026-11-23T16:00:12Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -92.6101,
+   "lat": 45.8086
+  },
+  {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
    "name": "Hail Point",
    "acres": 0.1,
@@ -1191,20 +1205,6 @@
    "lat": 45.8655
   },
   {
-   "id": "{F695B813-0F24-4FE1-A0D1-E625CB507224}",
-   "name": "Econoline",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-19T06:00:00Z",
-   "updated": "2026-11-20T15:06:14Z",
-   "state": "WI",
-   "county": "Marquette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.3153,
-   "lat": 43.8273
-  },
-  {
    "id": "{F8F54710-5B39-4B0E-95A7-913596B01998}",
    "name": "Augustyne Springs",
    "acres": 0.1,
@@ -1245,20 +1245,6 @@
    "complexity": null,
    "lon": -119.4872,
    "lat": 37.3142
-  },
-  {
-   "id": "{356AFB84-7BF0-4B2E-BDA6-6D22E4C858EA}",
-   "name": "Degroot",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T20:25:00Z",
-   "updated": "2026-11-20T21:18:22Z",
-   "state": "MI",
-   "county": "Dickinson",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -87.8592,
-   "lat": 46.1402
   },
   {
    "id": "{8CF686ED-AB8A-4505-B9BB-16897EFC869F}",
@@ -1471,20 +1457,6 @@
    "lat": 43.8582
   },
   {
-   "id": "{DA80B554-9575-4AE3-8A76-7ED53490F0CC}",
-   "name": "Lac-419758",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T15:36:38Z",
-   "updated": "2026-11-20T15:37:28Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1126,
-   "lat": 34.7041
-  },
-  {
    "id": "{CB8E5D78-A92A-49B6-ABC7-695C9A2D2580}",
    "name": "Lac-419914",
    "acres": 0.0,
@@ -1539,6 +1511,20 @@
    "complexity": null,
    "lon": -118.126,
    "lat": 34.704
+  },
+  {
+   "id": "{0E82B2C2-30C8-4CCC-A80C-41627EC08AC8}",
+   "name": "Hwy Z",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-21T06:00:00Z",
+   "updated": "2026-11-23T15:47:22Z",
+   "state": "WI",
+   "county": "Richland",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.5187,
+   "lat": 43.3437
   },
   {
    "id": "{789E4184-991C-4337-8C8F-942622337089}",
@@ -1679,20 +1665,6 @@
    "complexity": null,
    "lon": -117.8491,
    "lat": 34.6165
-  },
-  {
-   "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
-   "name": "County Rd D",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T15:26:55Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -92.6206,
-   "lat": 45.8063
   },
   {
    "id": "{CB0F9B00-86B0-4062-ACD5-D345CCE50450}",
