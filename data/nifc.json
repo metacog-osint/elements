@@ -141,6 +141,20 @@
    "lat": 31.0998
   },
   {
+   "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
+   "name": "White Oak Flat",
+   "acres": 2244.0,
+   "contained": 49,
+   "discovered": "2026-11-20T16:47:00Z",
+   "updated": "2026-11-23T23:15:21Z",
+   "state": "VA",
+   "county": "Alleghany",
+   "cause": "Undetermined",
+   "complexity": "Type 3 Incident",
+   "lon": -79.8621,
+   "lat": 37.8422
+  },
+  {
    "id": "{DE469701-A9F7-456E-B0A3-3B15CC8F0C37}",
    "name": "Bee Haven (2) (24-06)",
    "acres": 2060.0,
@@ -153,20 +167,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.8578,
    "lat": 30.4953
-  },
-  {
-   "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
-   "name": "White Oak Flat",
-   "acres": 1800.0,
-   "contained": 49,
-   "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-22T23:46:43Z",
-   "state": "VA",
-   "county": "Alleghany",
-   "cause": "Undetermined",
-   "complexity": "Type 3 Incident",
-   "lon": -79.8621,
-   "lat": 37.8422
   },
   {
    "id": "{A5E165B8-8BF1-41B0-B95A-5664E959FD3F}",
@@ -286,7 +286,7 @@
    "acres": 140.0,
    "contained": 75,
    "discovered": "2026-11-21T19:08:00Z",
-   "updated": "2026-11-23T17:29:46Z",
+   "updated": "2026-11-23T23:28:36Z",
    "state": "KY",
    "county": "Pike",
    "cause": "Undetermined",
@@ -300,7 +300,7 @@
    "acres": 131.0,
    "contained": 80,
    "discovered": "2026-11-21T03:32:00Z",
-   "updated": "2026-11-23T02:07:15Z",
+   "updated": "2026-11-23T23:27:42Z",
    "state": "KY",
    "county": "Pike",
    "cause": "Undetermined",
@@ -662,9 +662,9 @@
    "id": "{F6070744-113B-429D-A108-BAA02CC0AF10}",
    "name": "Aden Road",
    "acres": 6.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-23T21:53:00Z",
-   "updated": "2026-11-23T22:47:40Z",
+   "updated": "2026-11-23T23:31:59Z",
    "state": "KY",
    "county": "Carter",
    "cause": "Human",
@@ -727,6 +727,20 @@
    "complexity": null,
    "lon": -89.1591,
    "lat": 45.8507
+  },
+  {
+   "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
+   "name": "Little Mohawk",
+   "acres": 1.5,
+   "contained": null,
+   "discovered": "2026-11-23T22:10:51Z",
+   "updated": "2026-11-23T23:25:13Z",
+   "state": "MA",
+   "county": "Franklin",
+   "cause": null,
+   "complexity": null,
+   "lon": -72.6844,
+   "lat": 42.6195
   },
   {
    "id": "{DA02A1CD-0098-4C01-93F4-A98706DA03EF}",
@@ -1609,6 +1623,20 @@
    "complexity": null,
    "lon": -117.931,
    "lat": 34.1303
+  },
+  {
+   "id": "{4D795BE5-6188-4B70-90BF-D42EFF878BC1}",
+   "name": "Lac-424243",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T23:21:48Z",
+   "updated": "2026-11-23T23:28:30Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1294,
+   "lat": 34.5725
   }
  ]
 }
