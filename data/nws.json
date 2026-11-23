@@ -1370,6 +1370,84 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.7486.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-23T12:45:00Z",
+   "onset": "2026-11-23T13:00:00Z",
+   "ends": "2026-11-25T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ad80020560b0330144d454be93e9b590287174b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8485.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-23T12:45:00Z",
+   "onset": "2026-11-23T12:00:00Z",
+   "ends": "2026-11-24T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7396f4cf93d54e0af7f554741f745e99129bafb1.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.8487.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point from 15 to 75 NM"
+   ],
+   "counties": [
+    "58861"
+   ],
+   "sent": "2026-11-23T12:45:00Z",
+   "onset": "2026-11-23T12:00:00Z",
+   "ends": "2026-11-24T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7396f4cf93d54e0af7f554741f745e99129bafb1.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.HW.W.0023.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
