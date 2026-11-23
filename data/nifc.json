@@ -337,6 +337,20 @@
    "lat": 37.1875
   },
   {
+   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
+   "name": "Rockhouse Fork Road",
+   "acres": 140.0,
+   "contained": 75,
+   "discovered": "2026-11-21T19:08:00Z",
+   "updated": "2026-11-23T17:29:46Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.1202,
+   "lat": 37.4458
+  },
+  {
    "id": "{54A059A8-9CAA-452E-A17A-FEDDB98117C1}",
    "name": "Walker MT West",
    "acres": 132.0,
@@ -363,20 +377,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.2685,
    "lat": 37.3559
-  },
-  {
-   "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
-   "name": "Rockhouse Fork Road",
-   "acres": 130.0,
-   "contained": 75,
-   "discovered": "2026-11-21T19:08:00Z",
-   "updated": "2026-11-23T03:06:48Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.1202,
-   "lat": 37.4458
   },
   {
    "id": "{F5235897-E5D8-473B-B83C-1387A7640CEA}",
@@ -433,20 +433,6 @@
    "complexity": null,
    "lon": -67.0458,
    "lat": 17.9913
-  },
-  {
-   "id": "{691E2D18-682A-4935-923D-2BC2CD6E74B7}",
-   "name": "Mud Lick",
-   "acres": 95.0,
-   "contained": 90,
-   "discovered": "2026-11-21T20:21:00Z",
-   "updated": "2026-11-23T06:53:05Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -83.7626,
-   "lat": 36.868
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -617,20 +603,6 @@
    "lat": 43.3354
   },
   {
-   "id": "{948EFBB2-4623-4CEA-AE9F-0F388A73649D}",
-   "name": "Counts Hollow",
-   "acres": 14.0,
-   "contained": null,
-   "discovered": "2026-11-19T18:28:00Z",
-   "updated": "2026-11-23T14:54:16Z",
-   "state": "MO",
-   "county": "Dent",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -91.4753,
-   "lat": 37.4351
-  },
-  {
    "id": "{119CA3F3-916E-4009-9F30-64198004251C}",
    "name": "Blevins Rd off hwy 7",
    "acres": 11.0,
@@ -729,6 +701,20 @@
    "lat": 44.7317
   },
   {
+   "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
+   "name": "M35",
+   "acres": 6.3,
+   "contained": null,
+   "discovered": "2026-11-19T19:18:00Z",
+   "updated": "2026-11-23T17:34:40Z",
+   "state": "MI",
+   "county": "Menominee",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -87.5659,
+   "lat": 45.1823
+  },
+  {
    "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
    "name": "North Pond Fire",
    "acres": 6.0,
@@ -748,13 +734,13 @@
    "acres": 3.0,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T16:09:24Z",
+   "updated": "2026-11-23T17:13:38Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
-   "lon": -92.6206,
-   "lat": 45.8063
+   "lon": -92.6169,
+   "lat": 45.8066
   },
   {
    "id": "{E5F4335F-AA49-4CA0-A31B-EBED0805A98B}",
@@ -874,10 +860,10 @@
    "acres": 0.7,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-23T16:56:26Z",
+   "updated": "2026-11-23T17:16:35Z",
    "state": "WI",
    "county": "Clark",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -90.6607,
    "lat": 44.4948
@@ -1108,17 +1094,31 @@
   },
   {
    "id": "{ABBDBB71-DEBE-49B6-B09B-C8328B9F8D62}",
-   "name": "Refuge Rd",
+   "name": "Cty D 3",
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T16:14:37Z",
+   "updated": "2026-11-23T17:23:30Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
-   "lon": -92.6101,
-   "lat": 45.8086
+   "lon": -92.6086,
+   "lat": 45.8085
+  },
+  {
+   "id": "{417B7F8F-69F1-4A5B-9CD8-2036D6FB747C}",
+   "name": "Cty D 2",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-23T06:00:00Z",
+   "updated": "2026-11-23T17:22:46Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -92.6134,
+   "lat": 45.8083
   },
   {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
@@ -1485,29 +1485,15 @@
    "lat": 34.704
   },
   {
-   "id": "{0E82B2C2-30C8-4CCC-A80C-41627EC08AC8}",
-   "name": "Hwy Z",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-21T06:00:00Z",
-   "updated": "2026-11-23T15:47:22Z",
-   "state": "WI",
-   "county": "Richland",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.5187,
-   "lat": 43.3437
-  },
-  {
    "id": "{8070CB13-CC7E-4B06-947E-D68123036924}",
    "name": "abc",
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-21T06:00:00Z",
-   "updated": "2026-11-23T17:00:10Z",
+   "updated": "2026-11-23T17:07:03Z",
    "state": "WI",
    "county": "Jackson",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -90.7222,
    "lat": 44.3506
@@ -1525,6 +1511,20 @@
    "complexity": null,
    "lon": -118.134,
    "lat": 34.6996
+  },
+  {
+   "id": "{0E82B2C2-30C8-4CCC-A80C-41627EC08AC8}",
+   "name": "Hwy Z",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-21T21:10:00Z",
+   "updated": "2026-11-23T17:34:48Z",
+   "state": "WI",
+   "county": "Richland",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.5167,
+   "lat": 43.3436
   },
   {
    "id": "{D7EE7CB3-3628-473D-975A-23C274D024A7}",

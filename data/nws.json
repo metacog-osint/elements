@@ -1484,6 +1484,157 @@
    ]
   },
   {
+   "id": "KFWD.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fort Worth TX",
+   "areas": [
+    "Montague",
+    "Cooke",
+    "Young",
+    "Jack",
+    "Wise",
+    "Denton",
+    "Stephens",
+    "Palo Pinto",
+    "Parker",
+    "Tarrant",
+    "Eastland",
+    "Erath",
+    "Hood",
+    "Somervell",
+    "Johnson",
+    "Comanche",
+    "Mills",
+    "Hamilton",
+    "Bosque",
+    "Lampasas",
+    "Coryell"
+   ],
+   "counties": [
+    "48035",
+    "48093",
+    "48097",
+    "48099",
+    "48121",
+    "48133",
+    "48143",
+    "48193",
+    "48221",
+    "48237",
+    "48251",
+    "48281",
+    "48333",
+    "48337",
+    "48363",
+    "48367",
+    "48425",
+    "48429",
+    "48439",
+    "48497",
+    "48503"
+   ],
+   "sent": "2026-11-23T17:24:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dd76ae488a1084011522c5e9403afac6f55819f.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -97.6376,
+     31.9008
+    ],
+    [
+     -98.5496,
+     31.9516
+    ],
+    [
+     -97.2103,
+     33.6392
+    ],
+    [
+     -97.798,
+     31.3912
+    ],
+    [
+     -97.1211,
+     33.2051
+    ],
+    [
+     -98.8366,
+     32.3246
+    ],
+    [
+     -98.2183,
+     32.2362
+    ],
+    [
+     -98.1118,
+     31.7073
+    ],
+    [
+     -97.8317,
+     32.4301
+    ],
+    [
+     -98.1711,
+     33.2323
+    ],
+    [
+     -97.3649,
+     32.3797
+    ],
+    [
+     -98.2409,
+     31.1967
+    ],
+    [
+     -98.5946,
+     31.4949
+    ],
+    [
+     -97.725,
+     33.6784
+    ],
+    [
+     -98.318,
+     32.7522
+    ],
+    [
+     -97.8059,
+     32.7771
+    ],
+    [
+     -97.7692,
+     32.2181
+    ],
+    [
+     -98.8393,
+     32.7381
+    ],
+    [
+     -97.2912,
+     32.7721
+    ],
+    [
+     -97.653,
+     33.2193
+    ],
+    [
+     -98.6784,
+     33.1588
+    ]
+   ],
+   "lon": -97.989,
+   "lat": 32.495,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMAF.FZ.A.0003.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -1955,34 +2106,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0007.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm",
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-23T10:54:00Z",
-   "onset": "2026-11-23T18:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.210a682fbdcf60d73c5ade8b74a497e71ef083a5.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2033,6 +2156,34 @@
    "onset": "2026-11-23T16:22:00Z",
    "ends": "2026-11-24T23:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.828835303660471a96764d22f385647cf556c500.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0007.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-23T17:16:00Z",
+   "onset": "2026-11-24T00:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f840e9a323cbde8d08a56422ddaf22991ea8e7ae.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
