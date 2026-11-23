@@ -625,10 +625,10 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-23T02:21:00Z",
-   "onset": "2026-11-23T02:21:00Z",
-   "ends": "2026-11-23T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.673aaa43381e0f8312130b9dd73018287912ea62.001.1",
+   "sent": "2026-11-23T14:47:00Z",
+   "onset": "2026-11-23T14:47:00Z",
+   "ends": "2026-11-24T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.231b0a47c75fc00783357758580ae09e7de8ac9a.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -682,10 +682,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-23T02:26:00Z",
-   "onset": "2026-11-23T02:26:00Z",
-   "ends": "2026-11-23T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c05cc9d935e557d2a3f7126dc2609e51faadfc54.001.1",
+   "sent": "2026-11-23T14:55:00Z",
+   "onset": "2026-11-23T14:55:00Z",
+   "ends": "2026-11-24T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbfdf29aa3270b0af00e6e09b1b766976762a3cd.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -739,10 +739,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-23T02:29:00Z",
-   "onset": "2026-11-23T02:29:00Z",
-   "ends": "2026-11-23T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab28835a25dcb085e7ac37ba54bab64072031577.001.1",
+   "sent": "2026-11-23T15:02:00Z",
+   "onset": "2026-11-23T15:02:00Z",
+   "ends": "2026-11-24T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d4b8037008440d8c7607304a8fe098f6ce9f648.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -798,10 +798,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-23T02:31:00Z",
-   "onset": "2026-11-23T02:31:00Z",
-   "ends": "2026-11-23T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c3bb7183b32fd9b4b82b0b4eb24cdf4cec3ad7.001.1",
+   "sent": "2026-11-23T15:05:00Z",
+   "onset": "2026-11-23T15:05:00Z",
+   "ends": "2026-11-24T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41b92ad1297e5293a0dc1e2648ab175fb4158d49.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1365,38 +1365,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.HW.W.0023.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Bering Strait Coast",
-    "St Lawrence Island"
-   ],
-   "counties": [
-    "02180"
-   ],
-   "sent": "2026-11-23T04:15:00Z",
-   "onset": "2026-11-23T04:15:00Z",
-   "ends": "2026-11-23T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8940fe4aae6e3f76e0b6c579d7e6a66e3ec45d61.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -164.1889,
-     64.7837
-    ]
-   ],
-   "lon": -164.189,
-   "lat": 64.784,
    "countries": [
     "US"
    ]
