@@ -449,6 +449,20 @@
    "lat": 33.5289
   },
   {
+   "id": "{AEB24DF5-267A-47E3-89F2-0853178AFC7B}",
+   "name": "Swamp",
+   "acres": 45.0,
+   "contained": null,
+   "discovered": "2026-08-28T01:37:08Z",
+   "updated": "2026-11-23T19:26:00Z",
+   "state": "ID",
+   "county": "Idaho",
+   "cause": "Natural",
+   "complexity": "Type 5 Incident",
+   "lon": -114.6679,
+   "lat": 46.4095
+  },
+  {
    "id": "{A6D87539-896E-4253-A1F9-1D26A27025A4}",
    "name": "Stray Branch",
    "acres": 42.0,
@@ -547,6 +561,20 @@
    "lat": 18.0265
   },
   {
+   "id": "{8D3B2456-E784-42C1-8A56-91464AD55041}",
+   "name": "Elmrock 3",
+   "acres": 16.0,
+   "contained": 50,
+   "discovered": "2026-11-22T22:09:00Z",
+   "updated": "2026-11-23T19:20:33Z",
+   "state": "KY",
+   "county": "Knott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.0427,
+   "lat": 37.4627
+  },
+  {
    "id": "{17E68D80-08FE-439C-92DA-F4A4943028CD}",
    "name": "Spring MT",
    "acres": 15.8,
@@ -629,20 +657,6 @@
    "complexity": null,
    "lon": -87.4709,
    "lat": 34.3408
-  },
-  {
-   "id": "{8D3B2456-E784-42C1-8A56-91464AD55041}",
-   "name": "Elmrock 3",
-   "acres": 10.0,
-   "contained": 50,
-   "discovered": "2026-11-22T22:09:00Z",
-   "updated": "2026-11-23T13:29:36Z",
-   "state": "KY",
-   "county": "Knott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.0427,
-   "lat": 37.4627
   },
   {
    "id": "{10C8F786-26AB-407F-BF83-9968FA145E0C}",
@@ -804,13 +818,13 @@
    "acres": 0.7,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-23T17:16:35Z",
+   "updated": "2026-11-23T19:18:47Z",
    "state": "WI",
    "county": "Clark",
    "cause": "Human",
    "complexity": null,
-   "lon": -90.6607,
-   "lat": 44.4948
+   "lon": -90.7524,
+   "lat": 44.4964
   },
   {
    "id": "{CAF1AE64-C4E9-4CAF-889D-9CFCEDCDB3EE}",
@@ -839,6 +853,20 @@
    "complexity": "Type 5 Incident",
    "lon": -88.9376,
    "lat": 32.8491
+  },
+  {
+   "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
+   "name": "North Shore",
+   "acres": 0.6,
+   "contained": null,
+   "discovered": "2026-11-19T16:30:00Z",
+   "updated": "2026-11-23T19:20:43Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.3437,
+   "lat": 45.6386
   },
   {
    "id": "{77F99BC5-CE44-4458-A401-C3504E5F0D66}",
@@ -916,7 +944,7 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-12T18:42:00Z",
-   "updated": "2026-11-23T18:44:49Z",
+   "updated": "2026-11-23T19:18:50Z",
    "state": "VA",
    "county": "Nelson",
    "cause": "Undetermined",
@@ -1035,6 +1063,20 @@
    "complexity": "Type 4 Incident",
    "lon": -76.141,
    "lat": 38.436
+  },
+  {
+   "id": "{FB06D7A7-AD9C-4C0D-AAA8-EA8BC0CD5434}",
+   "name": "Chantry",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-10-09T00:44:20Z",
+   "updated": "2026-11-23T19:15:29Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0231,
+   "lat": 34.1796
   },
   {
    "id": "{4E0C3F92-9312-4E3E-A52D-B56E7A85986A}",
@@ -1203,6 +1245,20 @@
    "complexity": null,
    "lon": -89.2191,
    "lat": 45.391
+  },
+  {
+   "id": "{024A25D5-05F0-44AE-A33F-963663D9953D}",
+   "name": "Golden",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-08T23:07:04Z",
+   "updated": "2026-11-23T19:27:23Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.6868,
+   "lat": 34.5703
   },
   {
    "id": "{A7A0E931-81C8-4022-9E0E-6BA4CB8D6F86}",
