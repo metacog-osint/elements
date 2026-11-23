@@ -865,6 +865,125 @@
    ]
   },
   {
+   "id": "KBOX.FA.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Bristol, MA",
+    "Bristol, RI",
+    "Kent, RI",
+    "Newport, RI",
+    "Providence, RI",
+    "Washington, RI"
+   ],
+   "counties": [
+    "25005",
+    "44001",
+    "44003",
+    "44005",
+    "44007",
+    "44009"
+   ],
+   "sent": "2026-11-23T03:38:00Z",
+   "onset": "2026-11-23T03:38:00Z",
+   "ends": "2026-11-23T05:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d11cb2c3ff7b1f2ffc9f1c5b32aa3db984a7685.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -71.47,
+       41.43
+      ],
+      [
+       -71.5,
+       41.83
+      ],
+      [
+       -71.38,
+       41.83
+      ],
+      [
+       -71.02,
+       41.79
+      ],
+      [
+       -71.03,
+       41.78
+      ],
+      [
+       -70.99,
+       41.78
+      ],
+      [
+       -70.91,
+       41.77
+      ],
+      [
+       -70.91,
+       41.76
+      ],
+      [
+       -70.89,
+       41.76
+      ],
+      [
+       -70.87,
+       41.71
+      ],
+      [
+       -70.85,
+       41.59
+      ],
+      [
+       -71.02,
+       41.5
+      ],
+      [
+       -71.47,
+       41.43
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -71.0889,
+     41.7486
+    ],
+    [
+     -71.2867,
+     41.7068
+    ],
+    [
+     -71.5803,
+     41.6751
+    ],
+    [
+     -71.2831,
+     41.501
+    ],
+    [
+     -71.5786,
+     41.8698
+    ],
+    [
+     -71.6203,
+     41.3968
+    ]
+   ],
+   "lon": -71.101,
+   "lat": 41.689,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMAF.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1365,53 +1484,55 @@
    ]
   },
   {
-   "id": "TJSJ.MA.W.0039.2026",
+   "id": "KHGX.MA.W.0095.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS San Juan PR",
+   "sender": "NWS Houston/Galveston TX",
    "areas": [
-    "Atlantic Waters of Puerto Rico AND USVI from 10 NM to 19.5N"
+    "Coastal waters from High Island to Freeport TX out 20 NM",
+    "Waters from High Island to Freeport TX from 20 to 60 NM"
    ],
    "counties": [
-    "75711"
+    "77355",
+    "77375"
    ],
-   "sent": "2026-11-23T01:57:00Z",
-   "onset": "2026-11-23T01:57:00Z",
-   "ends": "2026-11-23T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b1dd1d961d290d481ed1eb1c5e5f1128e68f7e2.001.1",
+   "sent": "2026-11-23T03:40:00Z",
+   "onset": "2026-11-23T03:40:00Z",
+   "ends": "2026-11-23T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a1923e64a9506a852ede3632c012e97c9673a1f.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -67.34,
-       18.71
+       -94.92,
+       28.66
       ],
       [
-       -67.32,
-       19.5
+       -94.9,
+       28.82
       ],
       [
-       -65.48,
-       19.5
+       -94.52,
+       28.89
       ],
       [
-       -65.44,
-       18.68
+       -94.48,
+       28.59
       ],
       [
-       -67.34,
-       18.71
+       -94.92,
+       28.66
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -66.584,
-   "lat": 19.02,
+   "lon": -94.748,
+   "lat": 28.724,
    "countries": [
     "US"
    ]
