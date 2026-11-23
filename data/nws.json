@@ -1151,6 +1151,136 @@
    ]
   },
   {
+   "id": "PAFG.UP.W.5566.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-23T00:45:00Z",
+   "onset": "2026-11-23T01:00:00Z",
+   "ends": "2026-11-24T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4cd2fbd0826ce8633765b897ea7d0be5fdbaac31.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9738.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-23T00:48:00Z",
+   "onset": "2026-11-23T02:00:00Z",
+   "ends": "2026-11-23T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1748e821dc276623d7ed78429195b98f993d8768.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9742.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-23T00:48:00Z",
+   "onset": "2026-11-23T00:00:00Z",
+   "ends": "2026-11-24T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1748e821dc276623d7ed78429195b98f993d8768.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9745.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point from 15 to 75 NM"
+   ],
+   "counties": [
+    "58861"
+   ],
+   "sent": "2026-11-23T00:48:00Z",
+   "onset": "2026-11-23T02:00:00Z",
+   "ends": "2026-11-23T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1748e821dc276623d7ed78429195b98f993d8768.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9741.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-23T00:48:00Z",
+   "onset": "2026-11-23T14:00:00Z",
+   "ends": "2026-11-24T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1748e821dc276623d7ed78429195b98f993d8768.007.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMFR.HW.W.0008.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1261,55 +1391,173 @@
    ]
   },
   {
-   "id": "KHGX.MA.W.0093.2026",
+   "id": "KCRP.MA.W.0074.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Houston/Galveston TX",
+   "sender": "NWS Corpus Christi TX",
    "areas": [
-    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
-    "Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM"
+    "Baffin Bay and Upper Laguna Madre",
+    "Coastal waters from Baffin Bay to Port Aransas out 20 NM"
    ],
    "counties": [
-    "77350",
-    "77370"
+    "77231",
+    "77250"
    ],
-   "sent": "2026-11-23T00:10:00Z",
-   "onset": "2026-11-23T00:10:00Z",
-   "ends": "2026-11-23T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d31f3b0929ba9e30daecf3135bfd0bc4380f740d.001.1",
+   "sent": "2026-11-23T01:03:00Z",
+   "onset": "2026-11-23T01:03:00Z",
+   "ends": "2026-11-23T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cebe73b3139cdeb0ab680e83e51a9f3dd6eeb47.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -95.83,
-       28.04
+       -97.4,
+       27.25
       ],
       [
-       -95.94,
-       28.1
+       -97.4,
+       27.34
       ],
       [
-       -95.79,
-       28.46
+       -97.29,
+       27.43
       ],
       [
-       -95.45,
-       28.11
+       -96.95,
+       27.28
       ],
       [
-       -95.83,
-       28.04
+       -96.96,
+       27.27
+      ],
+      [
+       -96.98,
+       27.22
+      ],
+      [
+       -97.36,
+       27.24
+      ],
+      [
+       -97.35,
+       27.28
+      ],
+      [
+       -97.36,
+       27.28
+      ],
+      [
+       -97.36,
+       27.27
+      ],
+      [
+       -97.37,
+       27.27
+      ],
+      [
+       -97.37,
+       27.24
+      ],
+      [
+       -97.39,
+       27.25
+      ],
+      [
+       -97.4,
+       27.25
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -95.768,
-   "lat": 28.15,
+   "lon": -97.281,
+   "lat": 27.276,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBRO.MA.W.0059.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Brownsville TX",
+   "areas": [
+    "Laguna Madre From 5 nm North Of Port Mansfield To Baffin Bay TX",
+    "Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM"
+   ],
+   "counties": [
+    "77135",
+    "77155"
+   ],
+   "sent": "2026-11-23T01:04:00Z",
+   "onset": "2026-11-23T01:04:00Z",
+   "ends": "2026-11-23T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3074655a272cf4c2c1fd5ebac3530ba05f73ed37.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -97.38,
+       27.25
+      ],
+      [
+       -97.38,
+       27.24
+      ],
+      [
+       -97.34,
+       27.24
+      ],
+      [
+       -96.97,
+       27.21
+      ],
+      [
+       -96.99,
+       27.06
+      ],
+      [
+       -97.37,
+       27.17
+      ],
+      [
+       -97.37,
+       27.2
+      ],
+      [
+       -97.38,
+       27.19
+      ],
+      [
+       -97.38,
+       27.18
+      ],
+      [
+       -97.43,
+       27.19
+      ],
+      [
+       -97.41,
+       27.25
+      ],
+      [
+       -97.38,
+       27.25
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -97.315,
+   "lat": 27.203,
    "countries": [
     "US"
    ]
