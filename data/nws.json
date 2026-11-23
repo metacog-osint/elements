@@ -1261,6 +1261,112 @@
    ]
   },
   {
+   "id": "KCRP.MA.W.0073.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Corpus Christi TX",
+   "areas": [
+    "Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM"
+   ],
+   "counties": [
+    "77275"
+   ],
+   "sent": "2026-11-22T23:43:00Z",
+   "onset": "2026-11-22T23:43:00Z",
+   "ends": "2026-11-23T00:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b536a1f5613760f48d207a2969212433d263ba3a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.09,
+       28.04
+      ],
+      [
+       -96.04,
+       28.1
+      ],
+      [
+       -95.88,
+       27.95
+      ],
+      [
+       -95.94,
+       27.91
+      ],
+      [
+       -96.09,
+       28.04
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -96.008,
+   "lat": 28.008,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHGX.MA.W.0092.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
+    "Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM"
+   ],
+   "counties": [
+    "77350",
+    "77370"
+   ],
+   "sent": "2026-11-22T23:47:00Z",
+   "onset": "2026-11-22T23:47:00Z",
+   "ends": "2026-11-23T00:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf7eb78ada73a09d7ce3cf0307725a30f1641c65.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.01,
+       28.07
+      ],
+      [
+       -95.86,
+       28.29
+      ],
+      [
+       -95.6,
+       28.07
+      ],
+      [
+       -95.89,
+       27.96
+      ],
+      [
+       -96.01,
+       28.07
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -95.874,
+   "lat": 28.092,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPQR.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
