@@ -1481,34 +1481,6 @@
    ]
   },
   {
-   "id": "KMFR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57370",
-    "57376"
-   ],
-   "sent": "2026-11-22T20:35:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.868f35c5a758e27ccd028c7e01b6d3db8b57ffe0.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEKA.SR.W.0007.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1587,6 +1559,34 @@
    "onset": "2026-11-23T15:00:00Z",
    "ends": "2026-11-24T23:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce2b36020d72e9f3ec2c794e940cfe16fb26ab5a.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-23T09:08:00Z",
+   "onset": "2026-11-24T12:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fd01cc68e09aaa724c37994b59dbdcf99865b10.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
