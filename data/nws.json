@@ -302,141 +302,6 @@
    ]
   },
   {
-   "id": "TJSJ.FF.W.0045.2026",
-   "event": "Flash Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS San Juan PR",
-   "areas": [
-    "Bayamon, PR",
-    "Catano, PR",
-    "Guaynabo, PR",
-    "San Juan, PR"
-   ],
-   "counties": [
-    "72021",
-    "72033",
-    "72061",
-    "72127"
-   ],
-   "sent": "2026-11-23T05:37:00Z",
-   "onset": "2026-11-23T05:37:00Z",
-   "ends": "2026-11-23T08:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42d7cbba34349486ce41001b3f2707ba343811b9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -66.14,
-       18.46
-      ],
-      [
-       -66.14,
-       18.44
-      ],
-      [
-       -66.08,
-       18.44
-      ],
-      [
-       -66.08,
-       18.43
-      ],
-      [
-       -66.09,
-       18.42
-      ],
-      [
-       -66.04,
-       18.45
-      ],
-      [
-       -66.04,
-       18.44
-      ],
-      [
-       -65.99,
-       18.41
-      ],
-      [
-       -66,
-       18.38
-      ],
-      [
-       -66.03,
-       18.38
-      ],
-      [
-       -66.05,
-       18.3
-      ],
-      [
-       -66.14,
-       18.28
-      ],
-      [
-       -66.14,
-       18.29
-      ],
-      [
-       -66.15,
-       18.27
-      ],
-      [
-       -66.17,
-       18.28
-      ],
-      [
-       -66.19,
-       18.26
-      ],
-      [
-       -66.21,
-       18.28
-      ],
-      [
-       -66.2,
-       18.41
-      ],
-      [
-       -66.17,
-       18.42
-      ],
-      [
-       -66.14,
-       18.46
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -66.1686,
-     18.3494
-    ],
-    [
-     -66.1488,
-     18.4446
-    ],
-    [
-     -66.1141,
-     18.3444
-    ],
-    [
-     -66.0691,
-     18.4222
-    ]
-   ],
-   "lon": -66.109,
-   "lat": 18.375,
-   "countries": [
-    "PR"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1616,36 +1481,6 @@
    ]
   },
   {
-   "id": "KPQR.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-22T20:03:00Z",
-   "onset": "2026-11-24T06:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8eb52b57daecc08aeeb4b1b4a6a867bfb7515b6.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -1722,6 +1557,36 @@
    "onset": "2026-11-24T00:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55a0c57a5bb8a5dba35ca533b1f6dfbb25ba0ccb.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-23T08:28:00Z",
+   "onset": "2026-11-24T06:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7ee94f23e760d3378fd75ef6e7b0f00ef1a79c0.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
