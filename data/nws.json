@@ -1099,32 +1099,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.1707.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Western US Arctic Offshore"
-   ],
-   "counties": [
-    "58500"
-   ],
-   "sent": "2026-11-22T00:45:00Z",
-   "onset": "2026-11-22T01:00:00Z",
-   "ends": "2026-11-23T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d910c56d0077ddf85277efd401ef7f12837f10d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.5530.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1391,229 +1365,6 @@
    ]
   },
   {
-   "id": "KMSO.SQ.W.0005.2026",
-   "event": "Snow Squall Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Missoula MT",
-   "areas": [
-    "Granite, MT"
-   ],
-   "counties": [
-    "30039"
-   ],
-   "sent": "2026-11-23T01:08:00Z",
-   "onset": "2026-11-23T01:08:00Z",
-   "ends": "2026-11-23T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9919bfd791c49ce69fbb200440646162558f809.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -113.6,
-       46.68
-      ],
-      [
-       -113.61,
-       46.71
-      ],
-      [
-       -113.54,
-       46.71
-      ],
-      [
-       -113.53,
-       46.73
-      ],
-      [
-       -113.53,
-       46.74
-      ],
-      [
-       -113.49,
-       46.74
-      ],
-      [
-       -113.46,
-       46.75
-      ],
-      [
-       -113.24,
-       46.74
-      ],
-      [
-       -113.05,
-       46.68
-      ],
-      [
-       -113.07,
-       46.55
-      ],
-      [
-       -113.6,
-       46.68
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -113.4274,
-     46.396
-    ]
-   ],
-   "lon": -113.429,
-   "lat": 46.701,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBRO.MA.W.0059.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Laguna Madre From 5 nm North Of Port Mansfield To Baffin Bay TX",
-    "Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM"
-   ],
-   "counties": [
-    "77135",
-    "77155"
-   ],
-   "sent": "2026-11-23T01:04:00Z",
-   "onset": "2026-11-23T01:04:00Z",
-   "ends": "2026-11-23T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3074655a272cf4c2c1fd5ebac3530ba05f73ed37.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.38,
-       27.25
-      ],
-      [
-       -97.38,
-       27.24
-      ],
-      [
-       -97.34,
-       27.24
-      ],
-      [
-       -96.97,
-       27.21
-      ],
-      [
-       -96.99,
-       27.06
-      ],
-      [
-       -97.37,
-       27.17
-      ],
-      [
-       -97.37,
-       27.2
-      ],
-      [
-       -97.38,
-       27.19
-      ],
-      [
-       -97.38,
-       27.18
-      ],
-      [
-       -97.43,
-       27.19
-      ],
-      [
-       -97.41,
-       27.25
-      ],
-      [
-       -97.38,
-       27.25
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -97.315,
-   "lat": 27.203,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCRP.MA.W.0074.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Corpus Christi TX",
-   "areas": [
-    "Coastal waters from Baffin Bay to Port Aransas out 20 NM"
-   ],
-   "counties": [
-    "77250"
-   ],
-   "sent": "2026-11-23T01:17:00Z",
-   "onset": "2026-11-23T01:17:00Z",
-   "ends": "2026-11-23T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edd0c2598bb972a47cc5ff08ab7c4584aaae3b0b.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -97.31,
-       27.32
-      ],
-      [
-       -97.16,
-       27.37
-      ],
-      [
-       -96.95,
-       27.28
-      ],
-      [
-       -96.96,
-       27.27
-      ],
-      [
-       -96.98,
-       27.22
-      ],
-      [
-       -97.32,
-       27.24
-      ],
-      [
-       -97.31,
-       27.32
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -97.141,
-   "lat": 27.289,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBRO.MA.W.0060.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -1626,10 +1377,10 @@
    "counties": [
     "77155"
    ],
-   "sent": "2026-11-23T01:23:00Z",
-   "onset": "2026-11-23T01:23:00Z",
+   "sent": "2026-11-23T01:39:00Z",
+   "onset": "2026-11-23T01:39:00Z",
    "ends": "2026-11-23T02:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2e29d376b40fb3b7bad39d27317bf76db4fa6a0.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a5ed759bb559454a700aed783664080a2ec526d.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1647,16 +1398,16 @@
        27.2
       ],
       [
-       -97.18,
-       26.96
+       -97.13,
+       27.02
       ],
       [
-       -97.33,
-       27.17
+       -97.24,
+       27.11
       ],
       [
-       -97.22,
-       27.24
+       -97.2,
+       27.22
       ],
       [
        -96.99,
@@ -1667,8 +1418,118 @@
    },
    "vtec": true,
    "points": [],
-   "lon": -97.093,
-   "lat": 27.174,
+   "lon": -97.07,
+   "lat": 27.171,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "TJSJ.MA.W.0039.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Juan PR",
+   "areas": [
+    "Atlantic Waters of Puerto Rico AND USVI from 10 NM to 19.5N"
+   ],
+   "counties": [
+    "75711"
+   ],
+   "sent": "2026-11-23T01:57:00Z",
+   "onset": "2026-11-23T01:57:00Z",
+   "ends": "2026-11-23T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b1dd1d961d290d481ed1eb1c5e5f1128e68f7e2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -67.34,
+       18.71
+      ],
+      [
+       -67.32,
+       19.5
+      ],
+      [
+       -65.48,
+       19.5
+      ],
+      [
+       -65.44,
+       18.68
+      ],
+      [
+       -67.34,
+       18.71
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -66.584,
+   "lat": 19.02,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KHGX.MA.W.0094.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM",
+    "Coastal waters from High Island to Freeport TX out 20 NM",
+    "Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM",
+    "Waters from High Island to Freeport TX from 20 to 60 NM"
+   ],
+   "counties": [
+    "77350",
+    "77355",
+    "77370",
+    "77375"
+   ],
+   "sent": "2026-11-23T01:59:00Z",
+   "onset": "2026-11-23T01:59:00Z",
+   "ends": "2026-11-23T02:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65d43707ac71ddc26402801f788f8449e801c742.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -95.41,
+       28.35
+      ],
+      [
+       -95.56,
+       28.49
+      ],
+      [
+       -95.25,
+       28.85
+      ],
+      [
+       -94.84,
+       28.52
+      ],
+      [
+       -95.41,
+       28.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -95.294,
+   "lat": 28.512,
    "countries": [
     "US"
    ]
