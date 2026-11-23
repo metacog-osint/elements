@@ -1,37 +1,6 @@
 {
  "records": [
   {
-   "id": "KSEW.CF.W.0005.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53027"
-   ],
-   "sent": "2026-11-23T10:03:00Z",
-   "onset": "2026-11-23T16:00:00Z",
-   "ends": "2026-11-23T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc62351239e0fa2cb30a3de5ded356ac719ccdf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8267,
-     47.1121
-    ]
-   ],
-   "lon": -123.827,
-   "lat": 47.112,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -269,6 +238,56 @@
    ],
    "lon": -122.228,
    "lat": 37.627,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0006.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Grays Harbor County Coast",
+    "Northern Washington Coast",
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "San Juan County"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031",
+    "53055"
+   ],
+   "sent": "2026-11-23T21:42:00Z",
+   "onset": "2026-11-24T16:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.587,
+   "lat": 47.884,
    "countries": [
     "US"
    ]
