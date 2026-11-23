@@ -582,10 +582,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-22T19:39:00Z",
-   "onset": "2026-11-22T19:39:00Z",
-   "ends": "2026-11-23T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.174cfef71ceee513006d334074aafd07efadfb87.001.1",
+   "sent": "2026-11-23T02:16:00Z",
+   "onset": "2026-11-23T02:16:00Z",
+   "ends": "2026-11-23T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.210fe801f12cc676c0bc0f959b77124ec1b45557.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -643,10 +643,10 @@
    "counties": [
     "12009"
    ],
-   "sent": "2026-11-22T19:46:00Z",
-   "onset": "2026-11-22T19:46:00Z",
-   "ends": "2026-11-23T05:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95e6f42e38ee8444985ab0b342ae56bd224a11a1.001.1",
+   "sent": "2026-11-23T02:21:00Z",
+   "onset": "2026-11-23T02:21:00Z",
+   "ends": "2026-11-23T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.673aaa43381e0f8312130b9dd73018287912ea62.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -700,10 +700,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-22T19:47:00Z",
-   "onset": "2026-11-22T19:47:00Z",
-   "ends": "2026-11-23T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8d86e6f467c0f0b1c9969cfcfe830e5c4b4d4b9.001.1",
+   "sent": "2026-11-23T02:26:00Z",
+   "onset": "2026-11-23T02:26:00Z",
+   "ends": "2026-11-23T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c05cc9d935e557d2a3f7126dc2609e51faadfc54.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -757,10 +757,10 @@
    "counties": [
     "12117"
    ],
-   "sent": "2026-11-22T19:52:00Z",
-   "onset": "2026-11-22T19:52:00Z",
-   "ends": "2026-11-23T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8cf54c16ce26daf03267dc9765377096875981bd.001.1",
+   "sent": "2026-11-23T02:29:00Z",
+   "onset": "2026-11-23T02:29:00Z",
+   "ends": "2026-11-23T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab28835a25dcb085e7ac37ba54bab64072031577.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -816,10 +816,10 @@
     "12069",
     "12127"
    ],
-   "sent": "2026-11-22T19:56:00Z",
-   "onset": "2026-11-22T19:56:00Z",
-   "ends": "2026-11-23T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.592047179d57e157c434de8744e0e90a3b50d6f2.001.1",
+   "sent": "2026-11-23T02:31:00Z",
+   "onset": "2026-11-23T02:31:00Z",
+   "ends": "2026-11-23T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c3bb7183b32fd9b4b82b0b4eb24cdf4cec3ad7.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1360,66 +1360,6 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBRO.MA.W.0060.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Brownsville TX",
-   "areas": [
-    "Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM"
-   ],
-   "counties": [
-    "77155"
-   ],
-   "sent": "2026-11-23T01:39:00Z",
-   "onset": "2026-11-23T01:39:00Z",
-   "ends": "2026-11-23T02:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a5ed759bb559454a700aed783664080a2ec526d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -96.99,
-       27.22
-      ],
-      [
-       -96.97,
-       27.21
-      ],
-      [
-       -96.97,
-       27.2
-      ],
-      [
-       -97.13,
-       27.02
-      ],
-      [
-       -97.24,
-       27.11
-      ],
-      [
-       -97.2,
-       27.22
-      ],
-      [
-       -96.99,
-       27.22
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -97.07,
-   "lat": 27.171,
    "countries": [
     "US"
    ]
