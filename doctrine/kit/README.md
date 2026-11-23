@@ -21,7 +21,7 @@ drawn on one map (COP) and scored (Verdict).
 **Use in a program**
 
 ```
-python tools/sync.py D:/Projects/<program>            # vendor the kit into <program>/doctrine/kit/
+python tools/sync.py ../<program>                # vendor the kit into <program>/doctrine/kit/
 python doctrine/kit/tic.py lint <feed>.geojson --doctrine doctrine
 python doctrine/kit/tic.py registers doctrine
 python doctrine/kit/tic.py health doctrine/sources.json --out doctrine/health.json
