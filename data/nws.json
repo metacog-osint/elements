@@ -1,44 +1,6 @@
 {
  "records": [
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Eastern Putnam",
-    "Coastal Flagler"
-   ],
-   "counties": [
-    "12035",
-    "12107"
-   ],
-   "sent": "2026-11-23T06:23:00Z",
-   "onset": "2026-11-23T06:23:00Z",
-   "ends": "2026-11-24T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2115dccfa6c4a6f7576fa0af08419ee89a80ee9.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ]
-   ],
-   "lon": -81.509,
-   "lat": 29.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.CF.W.0001.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -297,6 +259,44 @@
    ],
    "lon": -122.369,
    "lat": 37.877,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Inland Flagler",
+    "Eastern Putnam",
+    "Coastal Flagler"
+   ],
+   "counties": [
+    "12035",
+    "12107"
+   ],
+   "sent": "2026-11-23T17:45:00Z",
+   "onset": "2026-11-23T17:45:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2754d520c18cb190464cf72118c0daac46613eae.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.732,
+     29.5939
+    ]
+   ],
+   "lon": -81.509,
+   "lat": 29.534,
    "countries": [
     "US"
    ]
@@ -1103,139 +1103,6 @@
    ]
   },
   {
-   "id": "KOUN.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Custer",
-    "Blaine",
-    "Kingfisher",
-    "Logan",
-    "Washita",
-    "Caddo",
-    "Canadian",
-    "Oklahoma",
-    "Grady",
-    "McClain",
-    "Cleveland",
-    "Harmon",
-    "Greer",
-    "Kiowa",
-    "Jackson",
-    "Comanche",
-    "Stephens",
-    "Garvin"
-   ],
-   "counties": [
-    "40011",
-    "40015",
-    "40017",
-    "40027",
-    "40031",
-    "40039",
-    "40049",
-    "40051",
-    "40055",
-    "40057",
-    "40065",
-    "40073",
-    "40075",
-    "40083",
-    "40087",
-    "40109",
-    "40137",
-    "40149"
-   ],
-   "sent": "2026-11-23T07:30:00Z",
-   "onset": "2026-11-24T10:00:00Z",
-   "ends": "2026-11-24T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a937ff90d074e4f662f685c952256457d09172d6.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.429,
-     35.8778
-    ],
-    [
-     -98.381,
-     35.1679
-    ],
-    [
-     -97.9799,
-     35.5434
-    ],
-    [
-     -97.3231,
-     35.2064
-    ],
-    [
-     -98.4766,
-     34.6626
-    ],
-    [
-     -98.9974,
-     35.6456
-    ],
-    [
-     -97.3127,
-     34.7094
-    ],
-    [
-     -97.8869,
-     35.0211
-    ],
-    [
-     -99.553,
-     34.9339
-    ],
-    [
-     -99.8442,
-     34.746
-    ],
-    [
-     -99.4122,
-     34.594
-    ],
-    [
-     -97.9346,
-     35.9494
-    ],
-    [
-     -98.9816,
-     34.9215
-    ],
-    [
-     -97.451,
-     35.9143
-    ],
-    [
-     -97.4498,
-     35.0164
-    ],
-    [
-     -97.4094,
-     35.5546
-    ],
-    [
-     -97.8556,
-     34.4814
-    ],
-    [
-     -98.9923,
-     35.2899
-    ]
-   ],
-   "lon": -98.315,
-   "lat": 35.18,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSJT.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1630,6 +1497,314 @@
    ],
    "lon": -97.989,
    "lat": 32.495,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Tillman",
+    "Cotton",
+    "Jefferson",
+    "Love",
+    "Marshall",
+    "Bryan",
+    "Hardeman",
+    "Foard",
+    "Wilbarger",
+    "Wichita",
+    "Knox",
+    "Baylor",
+    "Archer",
+    "Clay"
+   ],
+   "counties": [
+    "40013",
+    "40033",
+    "40067",
+    "40085",
+    "40095",
+    "40141",
+    "48009",
+    "48023",
+    "48077",
+    "48155",
+    "48197",
+    "48275",
+    "48485",
+    "48487"
+   ],
+   "sent": "2026-11-23T17:53:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72820ce1aa3700950855f86d85474af863e81c77.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.2651,
+     33.964
+    ],
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -97.8389,
+     34.1051
+    ],
+    [
+     -97.2451,
+     33.9578
+    ],
+    [
+     -96.7705,
+     34.027
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.6873,
+     33.6163
+    ],
+    [
+     -99.2082,
+     33.6188
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -99.8168,
+     33.9633
+    ],
+    [
+     -99.7457,
+     34.2899
+    ],
+    [
+     -99.7304,
+     33.6119
+    ],
+    [
+     -98.708,
+     33.9882
+    ],
+    [
+     -99.2424,
+     34.0849
+    ]
+   ],
+   "lon": -98.484,
+   "lat": 33.977,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Payne",
+    "Lincoln",
+    "Pottawatomie",
+    "Seminole",
+    "Hughes",
+    "Murray",
+    "Pontotoc",
+    "Coal",
+    "Carter",
+    "Johnston",
+    "Atoka",
+    "Custer",
+    "Blaine",
+    "Kingfisher",
+    "Logan",
+    "Washita",
+    "Caddo",
+    "Canadian",
+    "Oklahoma",
+    "Grady",
+    "McClain",
+    "Cleveland",
+    "Harmon",
+    "Greer",
+    "Kiowa",
+    "Jackson",
+    "Comanche",
+    "Stephens",
+    "Garvin"
+   ],
+   "counties": [
+    "40005",
+    "40011",
+    "40015",
+    "40017",
+    "40019",
+    "40027",
+    "40029",
+    "40031",
+    "40039",
+    "40049",
+    "40051",
+    "40055",
+    "40057",
+    "40063",
+    "40065",
+    "40069",
+    "40073",
+    "40075",
+    "40081",
+    "40083",
+    "40087",
+    "40099",
+    "40109",
+    "40119",
+    "40123",
+    "40125",
+    "40133",
+    "40137",
+    "40149"
+   ],
+   "sent": "2026-11-23T17:53:00Z",
+   "onset": "2026-11-24T10:00:00Z",
+   "ends": "2026-11-24T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72820ce1aa3700950855f86d85474af863e81c77.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.0366,
+     34.3925
+    ],
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -97.9799,
+     35.5434
+    ],
+    [
+     -97.2879,
+     34.2518
+    ],
+    [
+     -97.3231,
+     35.2064
+    ],
+    [
+     -96.288,
+     34.5829
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -97.3127,
+     34.7094
+    ],
+    [
+     -97.8869,
+     35.0211
+    ],
+    [
+     -99.553,
+     34.9339
+    ],
+    [
+     -99.8442,
+     34.746
+    ],
+    [
+     -96.2512,
+     35.0529
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -96.6543,
+     34.3135
+    ],
+    [
+     -97.9346,
+     35.9494
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -96.8814,
+     35.7031
+    ],
+    [
+     -97.451,
+     35.9143
+    ],
+    [
+     -97.4498,
+     35.0164
+    ],
+    [
+     -97.0716,
+     34.4858
+    ],
+    [
+     -97.4094,
+     35.5546
+    ],
+    [
+     -96.9753,
+     36.0792
+    ],
+    [
+     -96.6918,
+     34.7214
+    ],
+    [
+     -96.957,
+     35.2114
+    ],
+    [
+     -96.6029,
+     35.1584
+    ],
+    [
+     -97.8556,
+     34.4814
+    ],
+    [
+     -98.9923,
+     35.2899
+    ]
+   ],
+   "lon": -97.702,
+   "lat": 35.075,
    "countries": [
     "US"
    ]
@@ -2073,6 +2248,60 @@
    ],
    "lon": -123.981,
    "lat": 41.75,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.A.0034.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "East Glacier Park Region",
+    "Northern High Plains"
+   ],
+   "counties": [
+    "30035",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-23T17:45:00Z",
+   "onset": "2026-11-26T16:00:00Z",
+   "ends": "2026-11-27T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26b3e050e2c214f53f2651e9827bb7770a63c18f.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -112.322,
+   "lat": 48.104,
    "countries": [
     "US"
    ]

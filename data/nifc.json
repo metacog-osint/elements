@@ -127,20 +127,6 @@
    "lat": 48.3467
   },
   {
-   "id": "{E70E0FBE-8DD6-4E75-BCE8-8E5B9672A3C4}",
-   "name": "King",
-   "acres": 3427.0,
-   "contained": 95,
-   "discovered": "2026-08-19T23:09:24Z",
-   "updated": "2026-11-09T17:47:38Z",
-   "state": "WA",
-   "county": "Kittitas",
-   "cause": "Undetermined",
-   "complexity": "Type 3 Incident",
-   "lon": -121.2559,
-   "lat": 47.4708
-  },
-  {
    "id": "{FCD25E2A-053E-46ED-85C1-BA967588B0EC}",
    "name": "Range 47",
    "acres": 2378.8,
@@ -505,18 +491,18 @@
    "lat": 44.6179
   },
   {
-   "id": "{6C53B97C-862F-4158-B564-65A404BF90B7}",
-   "name": "Long Fork",
-   "acres": 40.0,
-   "contained": 100,
-   "discovered": "2026-11-21T21:52:00Z",
-   "updated": "2026-11-22T05:40:30Z",
+   "id": "{E67EC11A-9F20-4212-8760-7A68364AB28E}",
+   "name": "Johns Branch",
+   "acres": 30.0,
+   "contained": 30,
+   "discovered": "2026-11-22T20:59:00Z",
+   "updated": "2026-11-23T17:38:18Z",
    "state": "KY",
-   "county": "Knott",
+   "county": "Pike",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -82.8921,
-   "lat": 37.3721
+   "lon": -82.4543,
+   "lat": 37.509
   },
   {
    "id": "{FEFC8730-7FFD-47D5-B9F5-ECC8AA2C6427}",
@@ -659,20 +645,6 @@
    "lat": 34.3408
   },
   {
-   "id": "{E67EC11A-9F20-4212-8760-7A68364AB28E}",
-   "name": "Johns Branch",
-   "acres": 10.0,
-   "contained": 30,
-   "discovered": "2026-11-22T20:59:00Z",
-   "updated": "2026-11-23T13:29:02Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.4543,
-   "lat": 37.509
-  },
-  {
    "id": "{8D3B2456-E784-42C1-8A56-91464AD55041}",
    "name": "Elmrock 3",
    "acres": 10.0,
@@ -731,16 +703,30 @@
   {
    "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
    "name": "Cty D",
-   "acres": 3.0,
+   "acres": 3.5,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T17:13:38Z",
+   "updated": "2026-11-23T17:40:36Z",
    "state": "WI",
    "county": "Burnett",
    "cause": "Human",
    "complexity": null,
    "lon": -92.6169,
    "lat": 45.8066
+  },
+  {
+   "id": "{BAFE88CB-E13E-4AA5-BFE7-6B367FF15617}",
+   "name": "251116a Sleepers Island",
+   "acres": 2.7,
+   "contained": null,
+   "discovered": "2026-11-16T05:30:13Z",
+   "updated": "2026-11-23T18:01:16Z",
+   "state": "NH",
+   "county": "Belknap",
+   "cause": null,
+   "complexity": null,
+   "lon": -71.2971,
+   "lat": 43.5556
   },
   {
    "id": "{E5F4335F-AA49-4CA0-A31B-EBED0805A98B}",
@@ -1023,6 +1009,20 @@
    "lat": 45.6602
   },
   {
+   "id": "{1ADA2049-69DF-481A-BD9F-9CB28325AA04}",
+   "name": "Chicken",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-23T17:42:33Z",
+   "state": "WI",
+   "county": "Marquette",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.5831,
+   "lat": 43.9241
+  },
+  {
    "id": "{F8E99995-D7E8-4425-A42D-D9B3D8C0D69B}",
    "name": "Gladwin-08 Steep",
    "acres": 0.2,
@@ -1065,20 +1065,6 @@
    "lat": 41.7429
   },
   {
-   "id": "{0820FE53-1D7D-4C42-9FB0-E2CFFAE16D99}",
-   "name": "Bryants Creek Road",
-   "acres": 0.2,
-   "contained": 100,
-   "discovered": "2026-11-21T21:30:00Z",
-   "updated": "2026-11-21T23:39:25Z",
-   "state": "KY",
-   "county": "Breathitt",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.5475,
-   "lat": 37.5352
-  },
-  {
    "id": "{E2BB0427-022A-42F6-9D5C-77C1620D1055}",
    "name": "Sticks",
    "acres": 0.2,
@@ -1112,10 +1098,10 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T17:22:46Z",
+   "updated": "2026-11-23T17:40:12Z",
    "state": "WI",
    "county": "Burnett",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -92.6134,
    "lat": 45.8083
@@ -1189,6 +1175,20 @@
    "complexity": null,
    "lon": -88.9943,
    "lat": 45.3077
+  },
+  {
+   "id": "{48248827-49A4-44D5-A8AA-E32C8DFA22F8}",
+   "name": "Continental",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T06:00:00Z",
+   "updated": "2026-11-23T17:44:29Z",
+   "state": "WI",
+   "county": "Green Lake",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.0317,
+   "lat": 43.9553
   },
   {
    "id": "{C9EFB17F-D4F6-489C-9907-522B47716B41}",
@@ -1420,27 +1420,13 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-19T18:30:00Z",
-   "updated": "2026-11-20T21:08:25Z",
+   "updated": "2026-11-23T17:35:57Z",
    "state": "WI",
    "county": "Green Lake",
    "cause": "Human",
    "complexity": null,
-   "lon": -88.9184,
-   "lat": 43.8582
-  },
-  {
-   "id": "{CB8E5D78-A92A-49B6-ABC7-695C9A2D2580}",
-   "name": "Lac-419914",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T17:42:57Z",
-   "updated": "2026-11-20T17:43:57Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.0948,
-   "lat": 34.7042
+   "lon": -88.919,
+   "lat": 43.8587
   },
   {
    "id": "{B0CD6E83-33A4-4ACB-B280-ADCBF16D8F27}",
