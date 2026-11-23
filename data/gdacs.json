@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104295",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Ireland",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-22T01:00:00Z",
+   "to": "2026-11-24T01:00:00Z",
+   "current": true,
+   "country": "Ireland",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104295&episodeid=1&eventtype=FL",
+   "lon": -9.452,
+   "lat": 51.68,
+   "countries": [
+    "IE"
+   ]
+  },
+  {
    "id": "FL-1104293",
    "type": "FL",
    "kind": "flood",
@@ -93,29 +116,6 @@
    ]
   },
   {
-   "id": "FL-1104289",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Mexico",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-16T01:00:00Z",
-   "to": "2026-11-18T01:00:00Z",
-   "current": false,
-   "country": "Mexico",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104289&episodeid=1&eventtype=FL",
-   "lon": -96.776,
-   "lat": 19.866,
-   "countries": [
-    "MX"
-   ]
-  },
-  {
    "id": "FL-1104291",
    "type": "FL",
    "kind": "flood",
@@ -159,6 +159,29 @@
    "lat": 36.967,
    "countries": [
     "TR"
+   ]
+  },
+  {
+   "id": "FL-1104289",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Mexico",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-16T01:00:00Z",
+   "to": "2026-11-18T01:00:00Z",
+   "current": false,
+   "country": "Mexico",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104289&episodeid=1&eventtype=FL",
+   "lon": -96.776,
+   "lat": 19.866,
+   "countries": [
+    "MX"
    ]
   },
   {
@@ -577,7 +600,7 @@
    "id": "FL-1104269",
    "type": "FL",
    "kind": "flood",
-   "episode": 3,
+   "episode": 4,
    "name": "Flood in Democratic Republic of Congo",
    "alert": "green",
    "score": 1,
@@ -585,13 +608,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-01T01:00:00Z",
-   "to": "2026-11-11T01:00:00Z",
-   "current": false,
+   "to": "2026-11-20T01:00:00Z",
+   "current": true,
    "country": "Democratic Republic of Congo",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104269&episodeid=3&eventtype=FL",
-   "lon": 19.366,
-   "lat": 3.028,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104269&episodeid=4&eventtype=FL",
+   "lon": 15.229,
+   "lat": -4.456,
    "countries": [
     "CD"
    ]
@@ -623,7 +646,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 4,
+   "episode": 6,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -635,9 +658,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=4&eventtype=FL",
-   "lon": 99.381,
-   "lat": 2.192,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
+   "lon": 97.025,
+   "lat": 4.369,
    "countries": [
     "ID"
    ]
@@ -669,7 +692,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 19,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -681,9 +704,9 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=6&eventtype=FL",
-   "lon": 8.934,
-   "lat": 44.407,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=19&eventtype=FL",
+   "lon": 11.139,
+   "lat": 43.459,
    "countries": [
     "IT"
    ]
