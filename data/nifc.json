@@ -171,10 +171,10 @@
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
-   "acres": 1577.0,
+   "acres": 1800.0,
    "contained": 49,
    "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-22T23:04:54Z",
+   "updated": "2026-11-22T23:46:43Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -244,7 +244,7 @@
    "acres": 350.0,
    "contained": null,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-22T20:39:49Z",
+   "updated": "2026-11-22T23:41:24Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -297,10 +297,10 @@
   {
    "id": "{B23533AC-4C68-4983-97B7-5B9908BEABD5}",
    "name": "Vanderpool Mountain",
-   "acres": 200.0,
+   "acres": 300.0,
    "contained": 75,
    "discovered": "2026-11-20T19:53:00Z",
-   "updated": "2026-11-22T18:27:18Z",
+   "updated": "2026-11-22T23:55:40Z",
    "state": "KY",
    "county": "Whitley",
    "cause": "Human",
@@ -673,6 +673,20 @@
    "lat": 34.3408
   },
   {
+   "id": "{A4F52077-E68C-4708-9B71-F7D23006BA3A}",
+   "name": "Ky-223",
+   "acres": 10.0,
+   "contained": 50,
+   "discovered": "2026-11-22T19:41:00Z",
+   "updated": "2026-11-22T23:37:14Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.7443,
+   "lat": 36.8957
+  },
+  {
    "id": "{C3EF9667-DDA5-4920-95FA-2D31D048C78E}",
    "name": "Mirey Branch",
    "acres": 9.0,
@@ -685,20 +699,6 @@
    "complexity": null,
    "lon": -77.1536,
    "lat": 34.8938
-  },
-  {
-   "id": "{A4F52077-E68C-4708-9B71-F7D23006BA3A}",
-   "name": "Ky-223",
-   "acres": 8.0,
-   "contained": 10,
-   "discovered": "2026-11-22T19:41:00Z",
-   "updated": "2026-11-22T22:19:21Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.7443,
-   "lat": 36.8957
   },
   {
    "id": "{10C8F786-26AB-407F-BF83-9968FA145E0C}",
@@ -1303,34 +1303,6 @@
    "lat": 45.1782
   },
   {
-   "id": "{0288D6DC-BB29-4A16-BB53-6A51F8B82DDD}",
-   "name": "Gravel Pit Lane",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-06T10:50:00Z",
-   "updated": "2026-11-19T23:30:17Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -123.4107,
-   "lat": 42.925
-  },
-  {
-   "id": "{93B00D7A-5556-43B5-A888-4599B74CE39F}",
-   "name": "Canyon Creek",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-09-07T22:46:00Z",
-   "updated": "2026-11-19T23:39:19Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Natural",
-   "complexity": null,
-   "lon": -123.2589,
-   "lat": 42.898
-  },
-  {
    "id": "{6982B5CF-D120-4237-B76B-242936665C65}",
    "name": "Fox",
    "acres": 0.0,
@@ -1665,6 +1637,20 @@
    "complexity": null,
    "lon": -118.0953,
    "lat": 34.7627
+  },
+  {
+   "id": "{B0598C93-6ECE-4129-9D63-7D3E4FD90D82}",
+   "name": "Fd05047",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-22T21:34:00Z",
+   "updated": "2026-11-23T00:04:29Z",
+   "state": "MA",
+   "county": "Essex",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -71.0135,
+   "lat": 42.8224
   }
  ]
 }

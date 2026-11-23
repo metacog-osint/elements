@@ -301,27 +301,6 @@
    ]
   },
   {
-   "id": "TC-1001349",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 6,
-   "name": "Tropical Cyclone 02-20262027-27",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 63.332928,
-   "severity_unit": "km/h",
-   "from": "2026-11-07T06:00:00Z",
-   "to": "2026-11-08T12:00:00Z",
-   "current": false,
-   "country": null,
-   "severity": "Low (maximum wind speed of 63 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001349&episodeid=6&eventtype=TC",
-   "lon": 50.54,
-   "lat": -11.8,
-   "countries": []
-  },
-  {
    "id": "FL-1104276",
    "type": "FL",
    "kind": "flood",
@@ -504,29 +483,6 @@
    ]
   },
   {
-   "id": "FL-1104271",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 6,
-   "name": "Flood in Vietnam",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-06T01:00:00Z",
-   "to": "2026-11-13T01:00:00Z",
-   "current": false,
-   "country": "Vietnam",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=6&eventtype=FL",
-   "lon": 105.853,
-   "lat": 21.011,
-   "countries": [
-    "VN"
-   ]
-  },
-  {
    "id": "FL-1104283",
    "type": "FL",
    "kind": "flood",
@@ -550,26 +506,26 @@
    ]
   },
   {
-   "id": "FL-1104284",
+   "id": "FL-1104271",
    "type": "FL",
    "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Sri Lanka",
+   "episode": 6,
+   "name": "Flood in Vietnam",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-06T01:00:00Z",
-   "to": "2026-11-08T01:00:00Z",
+   "to": "2026-11-13T01:00:00Z",
    "current": false,
-   "country": "Sri Lanka",
+   "country": "Vietnam",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104284&episodeid=1&eventtype=FL",
-   "lon": 79.916,
-   "lat": 7.119,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=6&eventtype=FL",
+   "lon": 105.853,
+   "lat": 21.011,
    "countries": [
-    "LK"
+    "VN"
    ]
   },
   {
@@ -593,29 +549,6 @@
    "lat": 50.51,
    "countries": [
     "FR"
-   ]
-  },
-  {
-   "id": "FL-1104278",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Angola",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-04T01:00:00Z",
-   "to": "2026-11-08T01:00:00Z",
-   "current": false,
-   "country": "Angola",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104278&episodeid=1&eventtype=FL",
-   "lon": 13.244,
-   "lat": -8.827,
-   "countries": [
-    "AO"
    ]
   },
   {
@@ -757,29 +690,6 @@
    ]
   },
   {
-   "id": "FL-1104200",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 15,
-   "name": "Flood in Colombia",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-09-26T01:00:00Z",
-   "to": "2026-11-08T01:00:00Z",
-   "current": false,
-   "country": "Colombia",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104200&episodeid=15&eventtype=FL",
-   "lon": -75.671,
-   "lat": 4.546,
-   "countries": [
-    "CO"
-   ]
-  },
-  {
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
@@ -800,29 +710,6 @@
    "lat": 0.967,
    "countries": [
     "EC"
-   ]
-  },
-  {
-   "id": "FL-1104099",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 33,
-   "name": "Flood in Mexico",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-08-17T01:00:00Z",
-   "to": "2026-11-08T01:00:00Z",
-   "current": false,
-   "country": "Mexico",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=33&eventtype=FL",
-   "lon": -97.507,
-   "lat": 25.881,
-   "countries": [
-    "MX"
    ]
   },
   {
@@ -849,29 +736,6 @@
    ]
   },
   {
-   "id": "DR-1027575",
-   "type": "DR",
-   "kind": "drought",
-   "episode": 9,
-   "name": "Drought in India",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 274094.0,
-   "severity_unit": "km2",
-   "from": "2026-06-21T00:00:00Z",
-   "to": "2026-11-20T00:00:00Z",
-   "current": false,
-   "country": "India",
-   "severity": "Minor impact for agricultural drought in 274094 km2",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=9&eventtype=DR",
-   "lon": 77.422,
-   "lat": 16.996,
-   "countries": [
-    "IN"
-   ]
-  },
-  {
    "id": "DR-1027491",
    "type": "DR",
    "kind": "drought",
@@ -894,6 +758,29 @@
     "CN",
     "KZ",
     "MN"
+   ]
+  },
+  {
+   "id": "DR-1027575",
+   "type": "DR",
+   "kind": "drought",
+   "episode": 9,
+   "name": "Drought in India",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 274094.0,
+   "severity_unit": "km2",
+   "from": "2026-06-21T00:00:00Z",
+   "to": "2026-11-20T00:00:00Z",
+   "current": false,
+   "country": "India",
+   "severity": "Minor impact for agricultural drought in 274094 km2",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=9&eventtype=DR",
+   "lon": 77.422,
+   "lat": 16.996,
+   "countries": [
+    "IN"
    ]
   },
   {
