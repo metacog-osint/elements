@@ -146,7 +146,7 @@
    "acres": 2060.0,
    "contained": 90,
    "discovered": "2026-10-21T19:40:00Z",
-   "updated": "2026-11-22T03:49:12Z",
+   "updated": "2026-11-24T04:19:39Z",
    "state": "FL",
    "county": "Hamilton",
    "cause": "Natural",
@@ -699,6 +699,20 @@
    "complexity": null,
    "lon": -123.099,
    "lat": 48.0065
+  },
+  {
+   "id": "{DC3FBFB7-ADB0-4ADF-A1D5-A710B51B5B01}",
+   "name": "Jasper 0103",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-24T03:35:03Z",
+   "updated": "2026-11-24T04:27:41Z",
+   "state": "TX",
+   "county": "Jasper",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.2198,
+   "lat": 31.0216
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -1595,20 +1609,6 @@
    "complexity": null,
    "lon": -118.1123,
    "lat": 34.7188
-  },
-  {
-   "id": "{A1903DC8-3036-485A-8FAA-087014057881}",
-   "name": "Greenwald Av / Hy 74 W",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-24T03:59:59Z",
-   "updated": "2026-11-24T04:00:47Z",
-   "state": "CA",
-   "county": "Riverside",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.2928,
-   "lat": 33.725
   }
  ]
 }
