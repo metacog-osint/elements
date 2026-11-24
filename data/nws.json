@@ -83,56 +83,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0006.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Grays Harbor County Coast",
-    "Northern Washington Coast",
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
-    "San Juan County"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031",
-    "53055"
-   ],
-   "sent": "2026-11-23T21:42:00Z",
-   "onset": "2026-11-24T16:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657c617cc13a94cc315cdbfdd86c82d464bb8596.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ],
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.587,
-   "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -289,43 +239,6 @@
    ]
   },
   {
-   "id": "KSGX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Diego CA",
-   "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
-   ],
-   "counties": [
-    "06059",
-    "06073"
-   ],
-   "sent": "2026-11-24T08:44:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4159fc7a39a1e0bed7ce132ec249a7470005f2e0.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.7772,
-     33.6757
-    ],
-    [
-     -116.7761,
-     33.0236
-    ]
-   ],
-   "lon": -117.277,
-   "lat": 33.35,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.CF.W.0001.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -363,6 +276,93 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0006.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "San Juan County",
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031",
+    "53055"
+   ],
+   "sent": "2026-11-24T12:25:00Z",
+   "onset": "2026-11-24T12:25:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.825eb8a707485f060747708367305bfe4408b52c.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.587,
+   "lat": 47.884,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSGX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Diego CA",
+   "areas": [
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
+   ],
+   "counties": [
+    "06059",
+    "06073"
+   ],
+   "sent": "2026-11-24T12:31:00Z",
+   "onset": "2026-11-24T12:31:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e87f3587578b9781ed5dbc2471e1afb532566e9a.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.7772,
+     33.6757
+    ],
+    [
+     -116.7761,
+     33.0236
+    ]
+   ],
+   "lon": -117.277,
+   "lat": 33.35,
    "countries": [
     "US"
    ]
@@ -1232,37 +1232,6 @@
    ]
   },
   {
-   "id": "KSEW.FA.A.0012.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-23T18:18:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-30T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1476ff3e32922b30b2c39780adff683a5dfea51.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.173,
-   "lat": 47.351,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1304,6 +1273,37 @@
    ],
    "lon": -80.476,
    "lat": 26.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.FA.A.0012.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Mason, WA"
+   ],
+   "counties": [
+    "53045"
+   ],
+   "sent": "2026-11-24T12:28:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-30T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16e68ac6267af42bd317dc9a12c3e2dc5b8a6c81.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1731,
+     47.3508
+    ]
+   ],
+   "lon": -123.173,
+   "lat": 47.351,
    "countries": [
     "US"
    ]
@@ -2750,60 +2750,6 @@
    ]
   },
   {
-   "id": "KTFX.HW.A.0034.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "East Glacier Park Region",
-    "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
-   ],
-   "counties": [
-    "30035",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-24T07:15:00Z",
-   "onset": "2026-11-26T04:00:00Z",
-   "ends": "2026-11-27T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc5504cb0509329a2fa3e2f611fcd1f4a8757234.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -112.322,
-   "lat": 48.104,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.HW.A.0002.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2861,6 +2807,60 @@
    ],
    "lon": -75.754,
    "lat": 38.027,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.A.0034.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "East Glacier Park Region",
+    "Northern High Plains",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains"
+   ],
+   "counties": [
+    "30035",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-24T12:11:00Z",
+   "onset": "2026-11-26T04:00:00Z",
+   "ends": "2026-11-27T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d62d166bdc7864a51f24088a0afbd3f2b524080b.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -112.322,
+   "lat": 48.104,
    "countries": [
     "US"
    ]

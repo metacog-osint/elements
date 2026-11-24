@@ -1,16 +1,30 @@
 {
  "records": [
   {
+   "id": "20261124_0000156",
+   "mag": 5.0,
+   "magtype": "mb",
+   "time": "2026-11-24T11:55:13Z",
+   "updated": "2026-11-24T12:16:22Z",
+   "region": "Guam Region",
+   "depth_km": 107.6,
+   "authority": "NEIC",
+   "lat": 13.564,
+   "lon": 144.496,
+   "countries": [],
+   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261124_0000156"
+  },
+  {
    "id": "20261124_0000146",
-   "mag": 5.3,
-   "magtype": "m",
-   "time": "2026-11-24T11:51:45Z",
-   "updated": "2026-11-24T12:00:34Z",
+   "mag": 5.2,
+   "magtype": "mb",
+   "time": "2026-11-24T11:51:44Z",
+   "updated": "2026-11-24T12:08:07Z",
    "region": "Offshore Chiapas, Mexico",
-   "depth_km": 29.0,
-   "authority": "EMSC",
-   "lat": 14.648,
-   "lon": -93.14,
+   "depth_km": 35.0,
+   "authority": "NEIC",
+   "lat": 14.442,
+   "lon": -93.242,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261124_0000146"
   },
@@ -1615,22 +1629,6 @@
    "lon": 179.97,
    "countries": [],
    "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000200"
-  },
-  {
-   "id": "20261117_0000163",
-   "mag": 4.5,
-   "magtype": "mb",
-   "time": "2026-11-17T12:26:16Z",
-   "updated": "2026-11-17T15:41:55Z",
-   "region": "Eastern New Guinea Reg., P.N.G.",
-   "depth_km": 10.0,
-   "authority": "EMSC",
-   "lat": -10.174,
-   "lon": 149.51,
-   "countries": [
-    "PG"
-   ],
-   "url": "https://www.seismicportal.eu/eventdetails.html?unid=20261117_0000163"
   }
  ]
 }
