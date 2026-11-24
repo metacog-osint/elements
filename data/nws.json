@@ -46,8 +46,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
    ],
    "counties": [
     "06059",
@@ -56,7 +56,7 @@
    "sent": "2026-11-23T18:56:00Z",
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -71,91 +71,6 @@
    ],
    "lon": -117.277,
    "lat": 33.35,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLOX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Ventura County Beaches",
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083",
-    "06111"
-   ],
-   "sent": "2026-11-23T20:06:00Z",
-   "onset": "2026-11-25T16:00:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5de39fbf12d14a0943e228539d7e9b08e480b823.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -119.873,
-   "lat": 34.761,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-23T20:31:00Z",
-   "onset": "2026-11-24T15:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.628283c1f5ee28b6ab829e123a58863d34ab68ed.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
    "countries": [
     "US"
    ]
@@ -332,6 +247,91 @@
    ],
    "lon": -123.783,
    "lat": 40.63,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-24T00:01:00Z",
+   "onset": "2026-11-24T15:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bec29d45cae6ee03e927bddf7552c5c47b6785f2.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Ventura County Beaches",
+    "San Luis Obispo County Beaches",
+    "Santa Barbara County Central Coast Beaches"
+   ],
+   "counties": [
+    "06079",
+    "06083",
+    "06111"
+   ],
+   "sent": "2026-11-24T00:04:00Z",
+   "onset": "2026-11-25T16:00:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db2ab5a30408e3cb6b893064cbfc7c906e197d24.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -119.873,
+   "lat": 34.761,
    "countries": [
     "US"
    ]
@@ -2594,34 +2594,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0007.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-23T22:38:00Z",
-   "onset": "2026-11-24T00:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1345e5b12fd8ded3648d039bb5d5aa99f6a82d4f.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7836.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2664,6 +2636,34 @@
    "onset": "2026-11-25T02:00:00Z",
    "ends": "2026-11-25T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58702d41f8998b991722cc145b9c6c27669680db.028.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0007.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm",
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-23T23:50:00Z",
+   "onset": "2026-11-23T23:50:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c98f1d5ee4b23775485b8ea0b3affbbfccadd1d.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
