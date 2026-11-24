@@ -162,50 +162,6 @@
    ]
   },
   {
-   "id": "KEKA.CF.W.0006.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal Del Norte",
-    "Southwestern Humboldt",
-    "Coastal Mendocino",
-    "Northern Coastal Humboldt"
-   ],
-   "counties": [
-    "06015",
-    "06023",
-    "06045"
-   ],
-   "sent": "2026-11-24T13:00:00Z",
-   "onset": "2026-11-24T17:00:00Z",
-   "ends": "2026-11-24T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2519536893535fc46a4250d6e811b3cf54fb7a66.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ],
-    [
-     -123.9262,
-     40.7067
-    ],
-    [
-     -123.4429,
-     39.4324
-    ]
-   ],
-   "lon": -123.783,
-   "lat": 40.63,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.CF.W.0006.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -689,13 +645,13 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
+    "Ocracoke Island",
     "Beaufort",
     "Pamlico",
     "Southern Craven",
+    "East Carteret",
     "Hatteras Island",
-    "Northern Outer Banks",
-    "Ocracoke Island",
-    "East Carteret"
+    "Northern Outer Banks"
    ],
    "counties": [
     "37013",
@@ -705,10 +661,10 @@
     "37095",
     "37137"
    ],
-   "sent": "2026-11-24T20:34:00Z",
-   "onset": "2026-11-26T00:00:00Z",
+   "sent": "2026-11-24T20:41:00Z",
+   "onset": "2026-11-25T09:00:00Z",
    "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2c812449d4df22d5494ce90d475cdfc1fbbcf72.005.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.046d01e3d4d33d7e9f9ec48a564fe2d975c16ab5.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1776,305 +1732,6 @@
    ]
   },
   {
-   "id": "KSJT.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Angelo TX",
-   "areas": [
-    "Fisher",
-    "Nolan",
-    "Sterling",
-    "Coke",
-    "Runnels",
-    "Irion",
-    "Tom Green",
-    "Concho",
-    "Crockett",
-    "Schleicher",
-    "Sutton",
-    "Haskell",
-    "Throckmorton",
-    "Jones",
-    "Shackelford",
-    "Taylor",
-    "Callahan",
-    "Coleman",
-    "Brown",
-    "McCulloch",
-    "San Saba",
-    "Menard",
-    "Kimble",
-    "Mason"
-   ],
-   "counties": [
-    "48049",
-    "48059",
-    "48081",
-    "48083",
-    "48095",
-    "48105",
-    "48151",
-    "48207",
-    "48235",
-    "48253",
-    "48267",
-    "48307",
-    "48319",
-    "48327",
-    "48353",
-    "48399",
-    "48411",
-    "48413",
-    "48417",
-    "48431",
-    "48435",
-    "48441",
-    "48447",
-    "48451"
-   ],
-   "sent": "2026-11-24T05:16:00Z",
-   "onset": "2026-11-25T05:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb0e0553f4d08ef60514bb1645dfaa10c954329e.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.9985,
-     31.7641
-    ],
-    [
-     -99.3722,
-     32.2931
-    ],
-    [
-     -100.6352,
-     31.8771
-    ],
-    [
-     -99.3466,
-     31.9142
-    ],
-    [
-     -99.8636,
-     31.3189
-    ],
-    [
-     -101.4042,
-     30.7175
-    ],
-    [
-     -100.4031,
-     32.7405
-    ],
-    [
-     -99.7308,
-     33.176
-    ],
-    [
-     -100.9813,
-     31.3034
-    ],
-    [
-     -99.8744,
-     32.7437
-    ],
-    [
-     -99.7464,
-     30.4795
-    ],
-    [
-     -99.3599,
-     31.2055
-    ],
-    [
-     -99.2373,
-     30.7039
-    ],
-    [
-     -99.8589,
-     30.8853
-    ],
-    [
-     -100.4181,
-     32.3123
-    ],
-    [
-     -99.9827,
-     31.8451
-    ],
-    [
-     -98.8193,
-     31.1551
-    ],
-    [
-     -100.5272,
-     30.8962
-    ],
-    [
-     -99.347,
-     32.7438
-    ],
-    [
-     -101.0549,
-     31.8358
-    ],
-    [
-     -100.5134,
-     30.5222
-    ],
-    [
-     -99.8904,
-     32.2971
-    ],
-    [
-     -99.2058,
-     33.1707
-    ],
-    [
-     -100.4642,
-     31.3976
-    ]
-   ],
-   "lon": -99.96,
-   "lat": 31.721,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMAF.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Midland/Odessa TX",
-   "areas": [
-    "Eddy County Plains",
-    "Loving",
-    "Winkler",
-    "Ector",
-    "Midland",
-    "Glasscock",
-    "Ward",
-    "Crane",
-    "Upton",
-    "Reagan",
-    "Pecos",
-    "Terrell",
-    "Van Horn and Highway 54 Corridor",
-    "Eastern Culberson County",
-    "Reeves County Plains",
-    "Chinati Mountains",
-    "Marfa Plateau",
-    "Davis Mountains Foothills",
-    "Central Brewster County",
-    "Chisos Basin"
-   ],
-   "counties": [
-    "35015",
-    "48043",
-    "48103",
-    "48109",
-    "48135",
-    "48173",
-    "48243",
-    "48301",
-    "48329",
-    "48371",
-    "48377",
-    "48383",
-    "48389",
-    "48443",
-    "48461",
-    "48475",
-    "48495"
-   ],
-   "sent": "2026-11-24T05:21:00Z",
-   "onset": "2026-11-25T03:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3986c98cc0b17d36348d00d32525230d62a1a7b6.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.3064,
-     32.4578
-    ],
-    [
-     -103.2525,
-     29.809
-    ],
-    [
-     -102.4925,
-     31.4396
-    ],
-    [
-     -104.5269,
-     31.4459
-    ],
-    [
-     -102.5425,
-     31.8653
-    ],
-    [
-     -101.5215,
-     31.868
-    ],
-    [
-     -104.1919,
-     30.6254
-    ],
-    [
-     -103.5612,
-     31.8449
-    ],
-    [
-     -102.0025,
-     31.8143
-    ],
-    [
-     -102.7182,
-     30.7733
-    ],
-    [
-     -104.2616,
-     30.0059
-    ],
-    [
-     -101.5144,
-     31.3752
-    ],
-    [
-     -103.7127,
-     31.3084
-    ],
-    [
-     -102.0725,
-     30.2323
-    ],
-    [
-     -102.0415,
-     31.3538
-    ],
-    [
-     -103.1051,
-     31.5131
-    ],
-    [
-     -103.0549,
-     31.8329
-    ]
-   ],
-   "lon": -102.993,
-   "lat": 31.269,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFWD.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2596,6 +2253,305 @@
    ],
    "lon": -94.333,
    "lat": 34.065,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMAF.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Midland/Odessa TX",
+   "areas": [
+    "Eddy County Plains",
+    "Loving",
+    "Winkler",
+    "Ector",
+    "Midland",
+    "Glasscock",
+    "Ward",
+    "Crane",
+    "Upton",
+    "Reagan",
+    "Pecos",
+    "Terrell",
+    "Van Horn and Highway 54 Corridor",
+    "Eastern Culberson County",
+    "Reeves County Plains",
+    "Chinati Mountains",
+    "Marfa Plateau",
+    "Davis Mountains Foothills",
+    "Central Brewster County",
+    "Chisos Basin"
+   ],
+   "counties": [
+    "35015",
+    "48043",
+    "48103",
+    "48109",
+    "48135",
+    "48173",
+    "48243",
+    "48301",
+    "48329",
+    "48371",
+    "48377",
+    "48383",
+    "48389",
+    "48443",
+    "48461",
+    "48475",
+    "48495"
+   ],
+   "sent": "2026-11-24T20:44:00Z",
+   "onset": "2026-11-25T03:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0683f4f6b84c7c843862782eabe1063f119f181.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3064,
+     32.4578
+    ],
+    [
+     -103.2525,
+     29.809
+    ],
+    [
+     -102.4925,
+     31.4396
+    ],
+    [
+     -104.5269,
+     31.4459
+    ],
+    [
+     -102.5425,
+     31.8653
+    ],
+    [
+     -101.5215,
+     31.868
+    ],
+    [
+     -104.1919,
+     30.6254
+    ],
+    [
+     -103.5612,
+     31.8449
+    ],
+    [
+     -102.0025,
+     31.8143
+    ],
+    [
+     -102.7182,
+     30.7733
+    ],
+    [
+     -104.2616,
+     30.0059
+    ],
+    [
+     -101.5144,
+     31.3752
+    ],
+    [
+     -103.7127,
+     31.3084
+    ],
+    [
+     -102.0725,
+     30.2323
+    ],
+    [
+     -102.0415,
+     31.3538
+    ],
+    [
+     -103.1051,
+     31.5131
+    ],
+    [
+     -103.0549,
+     31.8329
+    ]
+   ],
+   "lon": -102.993,
+   "lat": 31.269,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSJT.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Angelo TX",
+   "areas": [
+    "Fisher",
+    "Nolan",
+    "Sterling",
+    "Coke",
+    "Runnels",
+    "Irion",
+    "Tom Green",
+    "Concho",
+    "Crockett",
+    "Schleicher",
+    "Sutton",
+    "Haskell",
+    "Throckmorton",
+    "Jones",
+    "Shackelford",
+    "Taylor",
+    "Callahan",
+    "Coleman",
+    "Brown",
+    "McCulloch",
+    "San Saba",
+    "Menard",
+    "Kimble",
+    "Mason"
+   ],
+   "counties": [
+    "48049",
+    "48059",
+    "48081",
+    "48083",
+    "48095",
+    "48105",
+    "48151",
+    "48207",
+    "48235",
+    "48253",
+    "48267",
+    "48307",
+    "48319",
+    "48327",
+    "48353",
+    "48399",
+    "48411",
+    "48413",
+    "48417",
+    "48431",
+    "48435",
+    "48441",
+    "48447",
+    "48451"
+   ],
+   "sent": "2026-11-24T21:02:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf47b4c0b1b69111cb9e24b074839252d5d554ab.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.9985,
+     31.7641
+    ],
+    [
+     -99.3722,
+     32.2931
+    ],
+    [
+     -100.6352,
+     31.8771
+    ],
+    [
+     -99.3466,
+     31.9142
+    ],
+    [
+     -99.8636,
+     31.3189
+    ],
+    [
+     -101.4042,
+     30.7175
+    ],
+    [
+     -100.4031,
+     32.7405
+    ],
+    [
+     -99.7308,
+     33.176
+    ],
+    [
+     -100.9813,
+     31.3034
+    ],
+    [
+     -99.8744,
+     32.7437
+    ],
+    [
+     -99.7464,
+     30.4795
+    ],
+    [
+     -99.3599,
+     31.2055
+    ],
+    [
+     -99.2373,
+     30.7039
+    ],
+    [
+     -99.8589,
+     30.8853
+    ],
+    [
+     -100.4181,
+     32.3123
+    ],
+    [
+     -99.9827,
+     31.8451
+    ],
+    [
+     -98.8193,
+     31.1551
+    ],
+    [
+     -100.5272,
+     30.8962
+    ],
+    [
+     -99.347,
+     32.7438
+    ],
+    [
+     -101.0549,
+     31.8358
+    ],
+    [
+     -100.5134,
+     30.5222
+    ],
+    [
+     -99.8904,
+     32.2971
+    ],
+    [
+     -99.2058,
+     33.1707
+    ],
+    [
+     -100.4642,
+     31.3976
+    ]
+   ],
+   "lon": -99.96,
+   "lat": 31.721,
    "countries": [
     "US"
    ]
@@ -3481,60 +3437,6 @@
    ]
   },
   {
-   "id": "KTFX.HW.A.0034.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "East Glacier Park Region",
-    "Northern High Plains"
-   ],
-   "counties": [
-    "30035",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-24T16:50:00Z",
-   "onset": "2026-11-26T16:00:00Z",
-   "ends": "2026-11-27T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27afbf64d81b590fe64dc4850cc0bcd764aad59a.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -112.322,
-   "lat": 48.104,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCTP.HW.A.0001.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3881,6 +3783,60 @@
    ],
    "lon": -75.91,
    "lat": 37.51,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.A.0034.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "East Glacier Park Region",
+    "Northern High Plains"
+   ],
+   "counties": [
+    "30035",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-24T20:45:00Z",
+   "onset": "2026-11-26T16:00:00Z",
+   "ends": "2026-11-27T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b858ab055baead16047b0b2c21037c284825c37d.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -112.322,
+   "lat": 48.104,
    "countries": [
     "US"
    ]
@@ -4297,12 +4253,12 @@
    "certainty": "Observed",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
     "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
     "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
    ],
    "counties": [
     "57150",
@@ -4312,10 +4268,10 @@
     "57173",
     "57176"
    ],
-   "sent": "2026-11-24T20:26:00Z",
+   "sent": "2026-11-24T20:56:00Z",
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.913d5f86f8ae85c690d033a416f8118613bb318f.004.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76d37efaf68929422344a41b3e81e8e088ae7ac2.004.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4333,12 +4289,12 @@
    "certainty": "Observed",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
     "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
     "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm"
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
    ],
    "counties": [
     "57150",
@@ -4348,10 +4304,10 @@
     "57173",
     "57176"
    ],
-   "sent": "2026-11-24T20:26:00Z",
-   "onset": "2026-11-24T20:26:00Z",
+   "sent": "2026-11-24T20:56:00Z",
+   "onset": "2026-11-24T20:56:00Z",
    "ends": "2026-11-25T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.913d5f86f8ae85c690d033a416f8118613bb318f.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76d37efaf68929422344a41b3e81e8e088ae7ac2.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],

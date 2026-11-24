@@ -20,7 +20,7 @@
    "acres": 93972.0,
    "contained": 98,
    "discovered": "2026-07-24T02:41:00Z",
-   "updated": "2026-11-14T01:29:56Z",
+   "updated": "2026-11-24T20:48:58Z",
    "state": "OR",
    "county": "Wasco",
    "cause": "Natural",
@@ -160,7 +160,7 @@
    "acres": 821.0,
    "contained": 75,
    "discovered": "2026-11-01T17:15:00Z",
-   "updated": "2026-11-24T14:03:38Z",
+   "updated": "2026-11-24T21:01:28Z",
    "state": "NH",
    "county": "Coos",
    "cause": "Undetermined",
@@ -368,9 +368,9 @@
    "id": "{A6D87539-896E-4253-A1F9-1D26A27025A4}",
    "name": "Stray Branch",
    "acres": 42.0,
-   "contained": 50,
+   "contained": 70,
    "discovered": "2026-11-21T16:06:00Z",
-   "updated": "2026-11-23T01:36:19Z",
+   "updated": "2026-11-24T20:46:41Z",
    "state": "KY",
    "county": "Breathitt",
    "cause": "Human",
@@ -449,20 +449,6 @@
    "lat": 43.3354
   },
   {
-   "id": "{88C3DB93-330B-40E9-A5F4-478356DC09D5}",
-   "name": "Mile Marker 98",
-   "acres": 15.0,
-   "contained": null,
-   "discovered": "2026-11-24T05:01:00Z",
-   "updated": "2026-11-24T18:01:30Z",
-   "state": "VA",
-   "county": "Augusta",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -78.782,
-   "lat": 38.092
-  },
-  {
    "id": "{119CA3F3-916E-4009-9F30-64198004251C}",
    "name": "Blevins Rd off hwy 7",
    "acres": 11.0,
@@ -503,6 +489,20 @@
    "complexity": "Type 4 Incident",
    "lon": -67.1014,
    "lat": 18.0414
+  },
+  {
+   "id": "{88C3DB93-330B-40E9-A5F4-478356DC09D5}",
+   "name": "Mile Marker 98",
+   "acres": 9.5,
+   "contained": null,
+   "discovered": "2026-11-24T05:01:00Z",
+   "updated": "2026-11-24T21:03:17Z",
+   "state": "VA",
+   "county": "Augusta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -78.782,
+   "lat": 38.092
   },
   {
    "id": "{10C8F786-26AB-407F-BF83-9968FA145E0C}",
@@ -939,20 +939,6 @@
    "lat": 46.0727
   },
   {
-   "id": "{7E15FC1A-2334-4254-B9CA-69DFE0C2BA66}",
-   "name": "Whig St",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-21T19:38:00Z",
-   "updated": "2026-11-21T20:11:38Z",
-   "state": "MA",
-   "county": "Barnstable",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -70.1937,
-   "lat": 41.7429
-  },
-  {
    "id": "{E2BB0427-022A-42F6-9D5C-77C1620D1055}",
    "name": "Sticks",
    "acres": 0.2,
@@ -1091,20 +1077,6 @@
    "complexity": null,
    "lon": -89.9334,
    "lat": 43.8223
-  },
-  {
-   "id": "{5C1598FD-E7C6-482D-8741-A311878F47D6}",
-   "name": "Earthview Way - Custer",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-16T21:54:00Z",
-   "updated": "2026-11-23T22:00:40Z",
-   "state": "MT",
-   "county": "Custer",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -105.6854,
-   "lat": 46.5197
   },
   {
    "id": "{335927DD-066E-4A5D-8FD3-3B3EB1700EF5}",
