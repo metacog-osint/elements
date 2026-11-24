@@ -1,4 +1,4 @@
-/*! tic-nav.js v2.2 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v2.3 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
  *  copied into, whatever that repository's own licence.
@@ -28,6 +28,11 @@
  *    TicNav.minimized()      true when the bar is minimized
  *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
  *  v1.13 (15 Nov 2026): Wake (shipping through maritime chokepoints, beta) in the Programs menu.
+ *
+ *  v2.3 (24 Nov 2026: the Programs menu lists only the suite): PropertyCast and the Title 10 Field Guide leave
+ *  the menu and "Other projects" goes; the hub groups its other work by category (Veterans, Experimental).
+ *  data-menu="off" mounts the bar with its home link and no Programs menu, for pages on the domain that are not
+ *  suite programs (PropertyCast, Title 10, Listening Post).
  *
  *  v2.2 (23 Nov 2026): Listening Post leaves the public menu; "Other tools" becomes "Other projects"; Verdict (the
  *  public forecast ledger) joins COP under "Every layer".
@@ -119,20 +124,12 @@
     { id: "wake", name: "Wake", href: "https://wake.theintelligence.company", status: "beta", group: "layers", layer: "land",
       label: "Land and maritime · shipping chokepoints",
       short: "Ships crossing the world's maritime chokepoints, week by week, against their own normal.",
-      long: "Vessel transits through 28 maritime chokepoints, from Hormuz and Bab el-Mandeb to Malacca and Panama: IMF PortWatch's daily counts by ship type, as weekly means compared with the 90 days before and the same weeks a year earlier. Updated by hand once a week. Measurements only." },
-    { id: "propertycast", name: "PropertyCast", href: "https://propertycast.theintelligence.company", status: "live", group: "tools",
-      label: "Weather · one property",
-      short: "A hyperlocal forecast that checks itself every hour.",
-      long: "A hyperlocal forecast for one property that verifies itself every hour against its own weather station, with a garden decision layer." },
-    { id: "activation", name: "Title 10 Field Guide", href: "https://activation.theintelligence.company", status: "live", group: "tools",
-      label: "Guard members on federal orders",
-      short: "Pay, benefits and steps for activated Air Guard members.",
-      long: "What activated Air Guard members earn on federal orders, what gets missed, and what to do before and after release. Unofficial; compiled from public sources." }
+      long: "Vessel transits through 28 maritime chokepoints, from Hormuz and Bab el-Mandeb to Malacca and Panama: IMF PortWatch's daily counts by ship type, as weekly means compared with the 90 days before and the same weeks a year earlier. Updated by hand once a week. Measurements only." }
   ];
   var STATUS = { live: "Live", beta: "Beta", invite: "Invite only" };
   // v2.0: one heading per layer, in the hub drawing's order (oe/oe.js LAYERS), then the tools outside the drawing.
   var GROUPS = [["all", "Every layer"], ["systems", "Systems"], ["human", "Human"], ["cyber", "Cyberspace"],
-    ["ems", "Spectrum"], ["space", "Space"], ["air", "Air"], ["land", "Land and maritime"], ["tools", "Other projects"]];
+    ["ems", "Spectrum"], ["space", "Space"], ["air", "Air"], ["land", "Land and maritime"]];
   // COP's health states, in words (COP's own legend calls a stale program "no current data").
   var FRESH = { fresh: "On time", late: "Running late", stale: "No current data" };
 
@@ -338,7 +335,9 @@
     mini.type = "button";
     mini.append(el("span", "tic-house-chev"), el("span", "tic-house-sr"));
     mini.firstChild.setAttribute("aria-hidden", "true");
-    tools.append(menu, mini);
+    // v2.3: data-menu="off" keeps the home link and the minimize button, with no Programs menu.
+    if (!(script && script.getAttribute("data-menu") === "off")) tools.append(menu);
+    tools.append(mini);
     inner.append(home, tools);
     nav.append(inner);
     // Holds the bar's place in the page, since the bar itself is fixed to the top of the window.
@@ -393,7 +392,7 @@
   }
 
   window.TicNav = {
-    version: "2.2", programs: PROGRAMS.slice(), mount: mount,
+    version: "2.3", programs: PROGRAMS.slice(), mount: mount,
     minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
     minimize: function (min) { if (setMini) setMini(min !== false, true); }
   };
