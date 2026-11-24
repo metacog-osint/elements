@@ -1,44 +1,6 @@
 {
  "records": [
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Eastern Putnam",
-    "Coastal Flagler"
-   ],
-   "counties": [
-    "12035",
-    "12107"
-   ],
-   "sent": "2026-11-23T17:45:00Z",
-   "onset": "2026-11-23T17:45:00Z",
-   "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2754d520c18cb190464cf72118c0daac46613eae.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ]
-   ],
-   "lon": -81.509,
-   "lat": 29.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -332,6 +294,75 @@
    ],
    "lon": -123.783,
    "lat": 40.63,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Coastal Duval",
+    "Inland Flagler",
+    "Eastern Putnam",
+    "Coastal Flagler",
+    "Coastal Nassau",
+    "Northeast Coastal St. Johns",
+    "Southeast Coastal St. Johns",
+    "Coastal Glynn",
+    "Coastal Camden"
+   ],
+   "counties": [
+    "12031",
+    "12035",
+    "12089",
+    "12107",
+    "12109",
+    "13039",
+    "13127"
+   ],
+   "sent": "2026-11-24T05:48:00Z",
+   "onset": "2026-11-25T06:00:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cd1e5754fe625801aca61e07d6cf04364d2af45.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.7651,
+     30.606
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ],
+    [
+     -81.642,
+     30.9134
+    ],
+    [
+     -81.4964,
+     31.2127
+    ]
+   ],
+   "lon": -81.565,
+   "lat": 30.288,
    "countries": [
     "US"
    ]
@@ -2583,36 +2614,6 @@
    ]
   },
   {
-   "id": "KPQR.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-23T20:33:00Z",
-   "onset": "2026-11-24T06:00:00Z",
-   "ends": "2026-11-25T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.922e3f8a31db5430982e0b653746c69e9311a43f.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7836.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2713,6 +2714,36 @@
    "onset": "2026-11-24T05:09:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed70daafe38157da69bb35e8b07b8c7314167e41.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm",
+    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57271",
+    "57272",
+    "57273"
+   ],
+   "sent": "2026-11-24T06:00:00Z",
+   "onset": "2026-11-24T06:00:00Z",
+   "ends": "2026-11-25T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d55e30f6c0fba919bca1315359412ad4ed59992d.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2845,6 +2876,48 @@
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T03:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.180aaaf1dfbaacc7300ba7a0dbd80318ee820a17.006.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOX.SR.A.0005.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
+    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
+    "Nantucket Sound",
+    "Vineyard Sound",
+    "Buzzards Bay",
+    "Rhode Island Sound",
+    "Block Island Sound",
+    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
+    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM"
+   ],
+   "counties": [
+    "73232",
+    "73233",
+    "73234",
+    "73235",
+    "73237",
+    "73255",
+    "73256",
+    "73282",
+    "73283"
+   ],
+   "sent": "2026-11-24T05:54:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fb4bd6a790a04bff802932d5f5399403473c236.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
