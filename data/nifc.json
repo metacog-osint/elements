@@ -160,11 +160,11 @@
    "acres": 821.0,
    "contained": 75,
    "discovered": "2026-11-01T17:15:00Z",
-   "updated": "2026-11-24T21:01:28Z",
+   "updated": "2026-11-24T21:10:27Z",
    "state": "NH",
    "county": "Coos",
    "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
+   "complexity": "Type 5 Incident",
    "lon": -71.0313,
    "lat": 44.3306
   },
@@ -491,6 +491,20 @@
    "lat": 18.0414
   },
   {
+   "id": "{C529F738-536B-46D4-AD83-6A0DC972B2D4}",
+   "name": "Crooked Run",
+   "acres": 10.0,
+   "contained": 90,
+   "discovered": "2026-11-24T18:21:00Z",
+   "updated": "2026-11-24T21:18:57Z",
+   "state": "KY",
+   "county": "Martin",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -82.5473,
+   "lat": 37.8852
+  },
+  {
    "id": "{88C3DB93-330B-40E9-A5F4-478356DC09D5}",
    "name": "Mile Marker 98",
    "acres": 9.5,
@@ -533,18 +547,18 @@
    "lat": 45.1823
   },
   {
-   "id": "{C529F738-536B-46D4-AD83-6A0DC972B2D4}",
-   "name": "Crooked Run",
+   "id": "{5A67516B-F484-46FE-988A-F15E31A980B8}",
+   "name": "Clearfield",
    "acres": 5.0,
-   "contained": 75,
-   "discovered": "2026-11-24T18:21:00Z",
-   "updated": "2026-11-24T20:10:04Z",
+   "contained": 0,
+   "discovered": "2026-11-24T20:36:00Z",
+   "updated": "2026-11-24T21:19:31Z",
    "state": "KY",
-   "county": "Martin",
+   "county": "Rowan",
    "cause": "Human",
    "complexity": "Type 5 Incident",
-   "lon": -82.5473,
-   "lat": 37.8852
+   "lon": -83.4181,
+   "lat": 38.1476
   },
   {
    "id": "{F7174ABE-7FA7-4A80-95FA-0078DE1AF736}",
@@ -559,6 +573,20 @@
    "complexity": null,
    "lon": -104.8673,
    "lat": 38.5297
+  },
+  {
+   "id": "{589C3365-171E-4230-A248-96B31264E66D}",
+   "name": "Anne Self",
+   "acres": 4.0,
+   "contained": null,
+   "discovered": "2026-11-24T19:08:24Z",
+   "updated": "2026-11-24T21:26:24Z",
+   "state": "WV",
+   "county": "Pendleton",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -79.3028,
+   "lat": 38.7985
   },
   {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
@@ -671,6 +699,20 @@
    "complexity": null,
    "lon": -118.7569,
    "lat": 45.6675
+  },
+  {
+   "id": "{96E86E6F-1825-49E9-A30A-876A0AC8DE1E}",
+   "name": "Little Indian Creek",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-24T20:09:00Z",
+   "updated": "2026-11-24T21:34:34Z",
+   "state": "KY",
+   "county": "Knox",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -84.0012,
+   "lat": 36.8483
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1303,20 +1345,6 @@
    "lat": 43.8587
   },
   {
-   "id": "{BE696AAC-4D3E-4F4B-BC32-1069F9FC7539}",
-   "name": "Shine",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-24T19:09:14Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.7378,
-   "lat": 45.7966
-  },
-  {
    "id": "{B0CD6E83-33A4-4ACB-B280-ADCBF16D8F27}",
    "name": "Water Drive",
    "acres": 0.0,
@@ -1329,6 +1357,20 @@
    "complexity": null,
    "lon": -90.4945,
    "lat": 45.0828
+  },
+  {
+   "id": "{BE696AAC-4D3E-4F4B-BC32-1069F9FC7539}",
+   "name": "Shine",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-20T23:50:00Z",
+   "updated": "2026-11-24T21:29:51Z",
+   "state": "WI",
+   "county": "Oneida",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.7378,
+   "lat": 45.7966
   },
   {
    "id": "{8070CB13-CC7E-4B06-947E-D68123036924}",
@@ -1485,20 +1527,6 @@
    "lat": 34.6165
   },
   {
-   "id": "{417B7F8F-69F1-4A5B-9CD8-2036D6FB747C}",
-   "name": "Cty D 2",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T18:28:14Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.6148,
-   "lat": 45.8077
-  },
-  {
    "id": "{CB0F9B00-86B0-4062-ACD5-D345CCE50450}",
    "name": "Lac-423307",
    "acres": 0.0,
@@ -1553,6 +1581,20 @@
    "complexity": null,
    "lon": -118.7612,
    "lat": 34.1461
+  },
+  {
+   "id": "{417B7F8F-69F1-4A5B-9CD8-2036D6FB747C}",
+   "name": "Cty D 2",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-23T15:01:00Z",
+   "updated": "2026-11-24T21:26:22Z",
+   "state": "WI",
+   "county": "Burnett",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -92.6148,
+   "lat": 45.8077
   },
   {
    "id": "{7836B8CE-EDCD-42B3-979E-91D5225310DD}",
