@@ -83,49 +83,6 @@
    ]
   },
   {
-   "id": "KLOX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "Ventura County Beaches",
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083",
-    "06111"
-   ],
-   "sent": "2026-11-24T00:04:00Z",
-   "onset": "2026-11-25T16:00:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db2ab5a30408e3cb6b893064cbfc7c906e197d24.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -119.873,
-   "lat": 34.761,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.CF.W.0001.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -363,6 +320,86 @@
    ],
    "lon": -81.565,
    "lat": 30.288,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Coastal Colleton",
+    "Charleston"
+   ],
+   "counties": [
+    "45019",
+    "45029"
+   ],
+   "sent": "2026-11-24T18:06:00Z",
+   "onset": "2026-11-25T10:00:00Z",
+   "ends": "2026-11-25T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.673b61598f460636ca4d6ae63636f763422aefc5.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.9425,
+     32.8005
+    ],
+    [
+     -80.6564,
+     32.8494
+    ]
+   ],
+   "lon": -80.299,
+   "lat": 32.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "San Luis Obispo County Beaches",
+    "Santa Barbara County Central Coast Beaches",
+    "Ventura County Beaches"
+   ],
+   "counties": [
+    "06079",
+    "06083",
+    "06111"
+   ],
+   "sent": "2026-11-24T18:14:00Z",
+   "onset": "2026-11-25T14:00:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db43f5f46f6e63ebf3d0174c79dfa1cfcc423f15.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -119.873,
+   "lat": 34.761,
    "countries": [
     "US"
    ]
@@ -2508,6 +2545,43 @@
    ]
   },
   {
+   "id": "KLCH.FZ.A.0004.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Lake Charles LA",
+   "areas": [
+    "Rapides",
+    "Avoyelles"
+   ],
+   "counties": [
+    "22009",
+    "22079"
+   ],
+   "sent": "2026-11-24T18:07:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7738681a15e0b28432e486e20f8769d95dfe601d.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.9833,
+     31.0885
+    ],
+    [
+     -92.536,
+     31.1932
+    ]
+   ],
+   "lon": -92.26,
+   "lat": 31.141,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -3004,96 +3078,6 @@
    ]
   },
   {
-   "id": "KOKX.HW.A.0001.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Hudson",
-    "Eastern Essex",
-    "Eastern Union",
-    "New York (Manhattan)",
-    "Bronx",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
-    "Northwest Suffolk",
-    "Northeast Suffolk",
-    "Southwest Suffolk",
-    "Southeast Suffolk",
-    "Northern Queens",
-    "Northern Nassau",
-    "Southern Queens",
-    "Southern Nassau"
-   ],
-   "counties": [
-    "34013",
-    "34017",
-    "34039",
-    "36005",
-    "36047",
-    "36059",
-    "36061",
-    "36081",
-    "36085",
-    "36103"
-   ],
-   "sent": "2026-11-24T06:20:00Z",
-   "onset": "2026-11-26T15:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a23b4062f67a074cdbc0913b11cd9ed6bf3737b2.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -74.2463,
-     40.7874
-    ],
-    [
-     -74.0786,
-     40.7314
-    ],
-    [
-     -74.3087,
-     40.6599
-    ],
-    [
-     -73.8529,
-     40.8487
-    ],
-    [
-     -73.9506,
-     40.635
-    ],
-    [
-     -73.5894,
-     40.7296
-    ],
-    [
-     -73.9702,
-     40.7766
-    ],
-    [
-     -73.8412,
-     40.6547
-    ],
-    [
-     -74.1399,
-     40.5613
-    ],
-    [
-     -72.6922,
-     40.9436
-    ]
-   ],
-   "lon": -73.867,
-   "lat": 40.733,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.HW.A.0002.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3236,6 +3220,96 @@
    ],
    "lon": -76.25,
    "lat": 40.042,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOKX.HW.A.0001.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Hudson",
+    "Eastern Essex",
+    "Eastern Union",
+    "New York (Manhattan)",
+    "Bronx",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
+    "Northwest Suffolk",
+    "Northeast Suffolk",
+    "Southwest Suffolk",
+    "Southeast Suffolk",
+    "Northern Queens",
+    "Northern Nassau",
+    "Southern Queens",
+    "Southern Nassau"
+   ],
+   "counties": [
+    "34013",
+    "34017",
+    "34039",
+    "36005",
+    "36047",
+    "36059",
+    "36061",
+    "36081",
+    "36085",
+    "36103"
+   ],
+   "sent": "2026-11-24T18:11:00Z",
+   "onset": "2026-11-26T15:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e32c53481854d17324a5db29dd6cb10fdef134d.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -74.2463,
+     40.7874
+    ],
+    [
+     -74.0786,
+     40.7314
+    ],
+    [
+     -74.3087,
+     40.6599
+    ],
+    [
+     -73.8529,
+     40.8487
+    ],
+    [
+     -73.9506,
+     40.635
+    ],
+    [
+     -73.5894,
+     40.7296
+    ],
+    [
+     -73.9702,
+     40.7766
+    ],
+    [
+     -73.8412,
+     40.6547
+    ],
+    [
+     -74.1399,
+     40.5613
+    ],
+    [
+     -72.6922,
+     40.9436
+    ]
+   ],
+   "lon": -73.867,
+   "lat": 40.733,
    "countries": [
     "US"
    ]
@@ -3539,86 +3613,46 @@
    ]
   },
   {
-   "id": "KBOX.SR.A.0005.2026",
-   "event": "Storm Watch",
+   "id": "KPHI.SR.W.0004.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Boston/Norton MA",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
-    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
-    "Nantucket Sound",
-    "Vineyard Sound",
-    "Buzzards Bay",
-    "Rhode Island Sound",
-    "Block Island Sound",
-    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
-    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM"
+    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
+    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
+    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
+    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM"
    ],
    "counties": [
-    "73232",
-    "73233",
-    "73234",
-    "73235",
-    "73237",
-    "73255",
-    "73256",
-    "73282",
-    "73283"
+    "73430",
+    "73431",
+    "73450",
+    "73451",
+    "73452",
+    "73453",
+    "73454",
+    "73455",
+    "73480",
+    "73481",
+    "73482",
+    "73483",
+    "73485"
    ],
-   "sent": "2026-11-24T05:54:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fb4bd6a790a04bff802932d5f5399403473c236.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOKX.SR.A.0003.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
-    "Long Island Sound West of New Haven CT/Port Jefferson NY",
-    "New York Harbor",
-    "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay",
-    "Long Island Sound East of the Mouth of the Connecticut River",
-    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
-    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM"
-   ],
-   "counties": [
-    "73331",
-    "73332",
-    "73335",
-    "73338",
-    "73340",
-    "73345",
-    "73350",
-    "73353",
-    "73355",
-    "73380",
-    "73383",
-    "73385"
-   ],
-   "sent": "2026-11-24T06:27:00Z",
-   "onset": "2026-11-26T11:00:00Z",
+   "sent": "2026-11-24T18:26:00Z",
+   "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66237d7d9d9d75aa0fd0641101767d42d6a6a3d3.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2790a34451982e5663f54759241de56d8a8b2293.002.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3691,56 +3725,6 @@
    ]
   },
   {
-   "id": "KPHI.SR.A.0005.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
-    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
-    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
-    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
-    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
-   ],
-   "counties": [
-    "73430",
-    "73431",
-    "73450",
-    "73451",
-    "73452",
-    "73453",
-    "73454",
-    "73455",
-    "73480",
-    "73481",
-    "73482",
-    "73483",
-    "73485"
-   ],
-   "sent": "2026-11-24T17:44:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c57b4aae17af9e65b38e4610b480e8d1724785d.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.SR.A.0005.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3783,6 +3767,96 @@
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T03:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a4d09fad0de28012d9166221254340204e86794.005.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOKX.SR.A.0003.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
+    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
+    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
+    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
+    "Long Island Sound East of the Mouth of the Connecticut River",
+    "Long Island Sound West of New Haven CT/Port Jefferson NY",
+    "New York Harbor",
+    "Peconic and Gardiners Bays",
+    "South Shore Bays from Jones Inlet through Shinnecock Bay"
+   ],
+   "counties": [
+    "73331",
+    "73332",
+    "73335",
+    "73338",
+    "73340",
+    "73345",
+    "73350",
+    "73353",
+    "73355",
+    "73380",
+    "73383",
+    "73385"
+   ],
+   "sent": "2026-11-24T18:14:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.041500f0c6bb9283cbcedf2e6cc6509422473463.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOX.SR.A.0005.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
+    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
+    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
+    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM",
+    "Nantucket Sound",
+    "Vineyard Sound",
+    "Buzzards Bay",
+    "Rhode Island Sound",
+    "Block Island Sound"
+   ],
+   "counties": [
+    "73232",
+    "73233",
+    "73234",
+    "73235",
+    "73237",
+    "73255",
+    "73256",
+    "73282",
+    "73283"
+   ],
+   "sent": "2026-11-24T18:20:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b251712c33b3c3c0d6205ae6aae459543b53145.003.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3855,6 +3929,248 @@
    ],
    "lon": -121.826,
    "lat": 48.668,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLSX.WS.A.0003.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Greene",
+    "Macoupin",
+    "Montgomery",
+    "Bond",
+    "Fayette",
+    "Clinton",
+    "Marion",
+    "Washington",
+    "Randolph",
+    "Brown",
+    "Pike",
+    "Calhoun",
+    "Jersey",
+    "Madison",
+    "St. Clair",
+    "Monroe",
+    "Lincoln",
+    "St. Charles",
+    "St. Louis",
+    "St. Louis City",
+    "Jefferson",
+    "St. Francois",
+    "Ste. Genevieve"
+   ],
+   "counties": [
+    "17005",
+    "17009",
+    "17013",
+    "17027",
+    "17051",
+    "17061",
+    "17083",
+    "17117",
+    "17119",
+    "17121",
+    "17133",
+    "17135",
+    "17149",
+    "17157",
+    "17163",
+    "17189",
+    "29099",
+    "29113",
+    "29183",
+    "29186",
+    "29187",
+    "29189",
+    "29510"
+   ],
+   "sent": "2026-11-24T18:33:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6f6f97dfcf4713d24dde54ce1a9b2a140722ad4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -89.4366,
+     38.8859
+    ],
+    [
+     -90.7503,
+     39.9621
+    ],
+    [
+     -90.6663,
+     39.1643
+    ],
+    [
+     -89.4262,
+     38.6063
+    ],
+    [
+     -89.0179,
+     39.0011
+    ],
+    [
+     -90.3877,
+     39.3554
+    ],
+    [
+     -90.3614,
+     39.0802
+    ],
+    [
+     -89.9263,
+     39.2659
+    ],
+    [
+     -89.9002,
+     38.8271
+    ],
+    [
+     -88.9204,
+     38.6482
+    ],
+    [
+     -90.1791,
+     38.278
+    ],
+    [
+     -89.4781,
+     39.2281
+    ],
+    [
+     -90.889,
+     39.6251
+    ],
+    [
+     -89.8212,
+     38.0565
+    ],
+    [
+     -89.9285,
+     38.4702
+    ],
+    [
+     -89.4172,
+     38.3531
+    ],
+    [
+     -90.5437,
+     38.2576
+    ],
+    [
+     -90.9629,
+     39.0623
+    ],
+    [
+     -90.6749,
+     38.7811
+    ],
+    [
+     -90.1615,
+     37.8858
+    ],
+    [
+     -90.4739,
+     37.8107
+    ],
+    [
+     -90.4455,
+     38.6404
+    ],
+    [
+     -90.2446,
+     38.6357
+    ]
+   ],
+   "lon": -90.088,
+   "lat": 38.777,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.WS.A.0002.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Jefferson",
+    "Perry",
+    "Franklin",
+    "Jackson",
+    "Williamson",
+    "Union",
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau"
+   ],
+   "counties": [
+    "17055",
+    "17077",
+    "17081",
+    "17145",
+    "17181",
+    "17199",
+    "29017",
+    "29031",
+    "29157"
+   ],
+   "sent": "2026-11-24T18:34:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.255e92bcfe1f97553da83695790e02c3004504a1.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -88.9263,
+     37.9919
+    ],
+    [
+     -89.3812,
+     37.7861
+    ],
+    [
+     -88.9242,
+     38.3008
+    ],
+    [
+     -89.3685,
+     38.0844
+    ],
+    [
+     -89.2446,
+     37.4857
+    ],
+    [
+     -88.93,
+     37.7304
+    ],
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -89.8021,
+     37.7111
+    ]
+   ],
+   "lon": -89.365,
+   "lat": 37.755,
    "countries": [
     "US"
    ]
