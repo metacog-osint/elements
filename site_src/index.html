@@ -17,6 +17,8 @@
 <script src="tic-tabs.js" defer></script>
 <script src="tic-fold.js" defer></script>
 <script src="tic-related.js"></script>
+<link rel="stylesheet" href="tic-shell.css">
+<link rel="alternate" type="application/geo+json" title="Elements feed (GeoJSON)" href="data/feed.geojson">
 <link rel="stylesheet" href="tic-nav.css">
 <script src="tic-nav.js" defer data-health="on"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -27,8 +29,6 @@
     <div class="brand"><strong>Elements</strong><a class="tic-layer" href="https://theintelligence.company/#layers">Land and maritime layer</a><span class="muted">The Intelligence Company</span></div>
     <nav class="top-nav">
       <a href="https://theintelligence.company/">All programs</a>
-      <a href="data/feed.geojson">Feed</a>
-      <a href="https://github.com/metacog-osint/elements">Code and data</a>
       <span id="area-settings"></span>
       <span id="time-settings"></span>
     </nav>
@@ -240,6 +240,9 @@
   <p>A project of The Intelligence Company. Collected <time id="asof" data-tic="datetime"></time>. Elements reports what
     each authority published; it adds no judgment of its own. Each event is drawn at the point its source gives;
     cyclones, floods and droughts reach well beyond it.</p>
+  <nav class="tic-data" aria-label="Data and downloads"><span class="tic-data-k">Data and downloads</span>
+    <a href="data/feed.geojson">Feed (GeoJSON)</a>
+    <a href="https://github.com/metacog-osint/elements">Source code</a></nav>
 </footer>
 <script src="app.js"></script>
 </body>
