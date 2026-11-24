@@ -347,7 +347,8 @@
       sw("dt", "background:" + css("--a-orange"), "orange"), sw("dt", "background:" + css("--a-red"), "red"),
       sw("dt", "background:" + css("--unrated") + ";opacity:.6", "no PAGER alert"),
       h("span", null, ["Circle size: magnitude"]),
-      h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard"]),
+      h("span", null, [h("span", { "class": "gd-icon a-orange lg-icon" }, ["FL"]), "GDACS hazard: " + Object.keys(HAZ).map(function (k) {
+        return HAZ[k][0] + " " + HAZ[k][1].toLowerCase(); }).join(", ")]),
       h("span", null, [h("span", { "class": "vo-icon a-orange lg-vo" }), "US volcano (aviation code)"]),
       h("span", null, [h("span", { "class": "wx" }), "US weather warning"]),
       h("span", null, [h("span", { "class": "eu" }), "European weather warning (dot per region)"]),
