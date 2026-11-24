@@ -71,20 +71,6 @@
    "lat": 45.9981
   },
   {
-   "id": "{DFA477F2-305C-49CA-B82E-2AF072AB55F8}",
-   "name": "Three Queens",
-   "acres": 9575.0,
-   "contained": 95,
-   "discovered": "2026-07-16T04:28:00Z",
-   "updated": "2026-11-16T15:57:58Z",
-   "state": "WA",
-   "county": "Kittitas",
-   "cause": "Natural",
-   "complexity": "Type 4 Incident",
-   "lon": -121.2613,
-   "lat": 47.414
-  },
-  {
    "id": "{548A8D28-1A04-48EE-9011-ABA023175D43}",
    "name": "Willow",
    "acres": 7359.0,
@@ -435,18 +421,18 @@
    "lat": 44.6179
   },
   {
-   "id": "{E67EC11A-9F20-4212-8760-7A68364AB28E}",
-   "name": "Johns Branch",
-   "acres": 30.0,
-   "contained": 30,
-   "discovered": "2026-11-22T20:59:00Z",
-   "updated": "2026-11-23T17:38:18Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.4543,
-   "lat": 37.509
+   "id": "{1D6A19A7-0C75-49F9-AC55-068F49DD2932}",
+   "name": "Wildhorse Road",
+   "acres": 25.0,
+   "contained": null,
+   "discovered": "2026-10-01T23:19:18Z",
+   "updated": "2026-11-24T19:13:29Z",
+   "state": "OR",
+   "county": "Umatilla",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -118.4544,
+   "lat": 45.7786
   },
   {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
@@ -573,6 +559,20 @@
    "complexity": null,
    "lon": -87.5659,
    "lat": 45.1823
+  },
+  {
+   "id": "{F7174ABE-7FA7-4A80-95FA-0078DE1AF736}",
+   "name": "Buck Hill",
+   "acres": 4.0,
+   "contained": null,
+   "discovered": "2026-11-18T19:23:00Z",
+   "updated": "2026-11-24T19:24:14Z",
+   "state": "CO",
+   "county": "El Paso",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -104.8673,
+   "lat": 38.5297
   },
   {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
@@ -1051,6 +1051,20 @@
    "lat": 47.7015
   },
   {
+   "id": "{11C542B6-DB3F-4924-A4FF-FB6EE423E624}",
+   "name": "Snowberry",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-02-27T23:59:01Z",
+   "updated": "2026-11-24T19:26:27Z",
+   "state": "CO",
+   "county": "Elbert",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -104.6183,
+   "lat": 39.3551
+  },
+  {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
    "name": "Hail Point",
    "acres": 0.1,
@@ -1378,10 +1392,10 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-24T19:02:10Z",
+   "updated": "2026-11-24T19:09:14Z",
    "state": "WI",
    "county": "Oneida",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -89.7378,
    "lat": 45.7966
