@@ -1,4 +1,4 @@
-/*! tic-nav.js v2.1 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v2.2 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
  *  copied into, whatever that repository's own licence.
@@ -29,6 +29,9 @@
  *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
  *  v1.13 (15 Nov 2026): Wake (shipping through maritime chokepoints, beta) in the Programs menu.
  *
+ *  v2.2 (23 Nov 2026): Listening Post leaves the public menu; "Other tools" becomes "Other projects"; Verdict (the
+ *  public forecast ledger) joins COP under "Every layer".
+ *
  *  v2.1 (15 Nov 2026): Relief (humanitarian appeals and disease outbreaks, live) in the Programs menu, Human layer.
  *
  *  v2.0 (15 Nov 2026, from the suite design review): the menu groups programs by their home layer, in the hub
@@ -57,6 +60,10 @@
       label: "Every layer · common operational picture",
       short: "Every layer's findings on one map, so places where more than one layer reports stand out.",
       long: "The common operational picture: every layer's findings on one map, so a place or topic that turns up in more than one layer stands out. Outages are already read against hazards, notices and press attention in the same country; convergence scoring, checked by Verdict, is in development." },
+    { id: "verdict", name: "Verdict", href: "https://metacog-osint.github.io/verdict/", status: "beta", group: "layers", layer: "all",
+      label: "Every layer · forecast ledger",
+      short: "Every forecast logged before its outcome, then scored; misses stay in.",
+      long: "Logs every forecast and warning with the rule that will settle it, syncs the event calendar, and scores calibration in public." },
     { id: "watchfloor", name: "Watchfloor", href: "https://watchfloor.theintelligence.company", status: "beta", group: "layers", layer: "systems",
       label: "Systems · conflict warning",
       short: "A daily warning picture for each watched conflict zone and topic.",
@@ -120,16 +127,12 @@
     { id: "activation", name: "Title 10 Field Guide", href: "https://activation.theintelligence.company", status: "live", group: "tools",
       label: "Guard members on federal orders",
       short: "Pay, benefits and steps for activated Air Guard members.",
-      long: "What activated Air Guard members earn on federal orders, what gets missed, and what to do before and after release. Unofficial; compiled from public sources." },
-    { id: "listeningpost", name: "Listening Post", href: "https://listeningpost.theintelligence.company", status: "invite", group: "tools",
-      label: "Job search",
-      short: "A job-search workspace, by invitation.",
-      long: "A job-search workspace: each opening scored against your own criteria, new postings found by a weekly sweep, and drafts you review and send yourself. Google sign-in, by invitation." }
+      long: "What activated Air Guard members earn on federal orders, what gets missed, and what to do before and after release. Unofficial; compiled from public sources." }
   ];
   var STATUS = { live: "Live", beta: "Beta", invite: "Invite only" };
   // v2.0: one heading per layer, in the hub drawing's order (oe/oe.js LAYERS), then the tools outside the drawing.
   var GROUPS = [["all", "Every layer"], ["systems", "Systems"], ["human", "Human"], ["cyber", "Cyberspace"],
-    ["ems", "Spectrum"], ["space", "Space"], ["air", "Air"], ["land", "Land and maritime"], ["tools", "Other tools"]];
+    ["ems", "Spectrum"], ["space", "Space"], ["air", "Air"], ["land", "Land and maritime"], ["tools", "Other projects"]];
   // COP's health states, in words (COP's own legend calls a stale program "no current data").
   var FRESH = { fresh: "On time", late: "Running late", stale: "No current data" };
 
@@ -390,7 +393,7 @@
   }
 
   window.TicNav = {
-    version: "2.1", programs: PROGRAMS.slice(), mount: mount,
+    version: "2.2", programs: PROGRAMS.slice(), mount: mount,
     minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
     minimize: function (min) { if (setMini) setMini(min !== false, true); }
   };
