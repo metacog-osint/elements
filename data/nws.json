@@ -237,56 +237,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0006.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "San Juan County",
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031",
-    "53055"
-   ],
-   "sent": "2026-11-24T12:25:00Z",
-   "onset": "2026-11-24T12:25:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.825eb8a707485f060747708367305bfe4408b52c.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ],
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.587,
-   "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -363,6 +313,56 @@
    ],
    "lon": -123.783,
    "lat": 40.63,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0006.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Northern Washington Coast",
+    "Grays Harbor County Coast",
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "San Juan County"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031",
+    "53055"
+   ],
+   "sent": "2026-11-24T15:42:00Z",
+   "onset": "2026-11-24T16:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.587,
+   "lat": 47.884,
    "countries": [
     "US"
    ]
@@ -2292,6 +2292,10 @@
     "Western Monmouth",
     "Ocean",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -2309,10 +2313,6 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "Eastern Monmouth",
     "Coastal Ocean",
     "Delaware Beaches",
@@ -3014,12 +3014,12 @@
    "certainty": "Possible",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
     "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
     "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
     "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
@@ -3044,9 +3044,9 @@
     "73485"
    ],
    "sent": "2026-11-24T06:27:00Z",
-   "onset": "2026-11-26T03:00:00Z",
+   "onset": "2026-11-26T09:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
