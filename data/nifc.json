@@ -160,7 +160,7 @@
    "acres": 900.0,
    "contained": 20,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-24T14:47:56Z",
+   "updated": "2026-11-24T17:45:19Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -267,6 +267,20 @@
    "lat": 37.1875
   },
   {
+   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
+   "name": "Card Knob Road",
+   "acres": 140.0,
+   "contained": 80,
+   "discovered": "2026-11-21T03:32:00Z",
+   "updated": "2026-11-24T17:52:53Z",
+   "state": "KY",
+   "county": "Pike",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.2685,
+   "lat": 37.3559
+  },
+  {
    "id": "{6678C546-7BC5-4E8E-999A-FB8601E6C885}",
    "name": "Rockhouse Fork Road",
    "acres": 140.0,
@@ -279,20 +293,6 @@
    "complexity": "Type 5 Incident",
    "lon": -82.1202,
    "lat": 37.4458
-  },
-  {
-   "id": "{97BF0537-F0B7-4AB6-B571-99D180A68BD7}",
-   "name": "Card Knob Road",
-   "acres": 131.0,
-   "contained": 80,
-   "discovered": "2026-11-21T03:32:00Z",
-   "updated": "2026-11-23T23:27:42Z",
-   "state": "KY",
-   "county": "Pike",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.2685,
-   "lat": 37.3559
   },
   {
    "id": "{F5235897-E5D8-473B-B83C-1387A7640CEA}",
@@ -449,18 +449,18 @@
    "lat": 37.509
   },
   {
-   "id": "{FEFC8730-7FFD-47D5-B9F5-ECC8AA2C6427}",
-   "name": "Ridge Line Road",
-   "acres": 27.0,
-   "contained": 75,
-   "discovered": "2026-11-22T22:24:00Z",
-   "updated": "2026-11-23T16:21:41Z",
+   "id": "{8D3B2456-E784-42C1-8A56-91464AD55041}",
+   "name": "Elmrock 3",
+   "acres": 30.0,
+   "contained": 50,
+   "discovered": "2026-11-22T22:09:00Z",
+   "updated": "2026-11-24T17:36:21Z",
    "state": "KY",
-   "county": "Pike",
+   "county": "Knott",
    "cause": "Undetermined",
    "complexity": "Type 5 Incident",
-   "lon": -82.3751,
-   "lat": 37.4688
+   "lon": -83.0427,
+   "lat": 37.4627
   },
   {
    "id": "{D4D9EC0B-3C2F-4FCE-9BBD-1CBCC0A151CE}",
@@ -489,20 +489,6 @@
    "complexity": null,
    "lon": -66.9793,
    "lat": 18.0265
-  },
-  {
-   "id": "{8D3B2456-E784-42C1-8A56-91464AD55041}",
-   "name": "Elmrock 3",
-   "acres": 16.0,
-   "contained": 50,
-   "discovered": "2026-11-22T22:09:00Z",
-   "updated": "2026-11-23T19:20:33Z",
-   "state": "KY",
-   "county": "Knott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.0427,
-   "lat": 37.4627
   },
   {
    "id": "{17E68D80-08FE-439C-92DA-F4A4943028CD}",
@@ -538,7 +524,7 @@
    "acres": 15.0,
    "contained": null,
    "discovered": "2026-11-24T05:01:00Z",
-   "updated": "2026-11-24T16:08:41Z",
+   "updated": "2026-11-24T18:01:30Z",
    "state": "VA",
    "county": "Augusta",
    "cause": "Undetermined",
@@ -715,6 +701,20 @@
    "lat": 43.7869
   },
   {
+   "id": "{B4C6DEA2-7598-4630-9D60-83296F269505}",
+   "name": "Goad",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-07-07T22:35:43Z",
+   "updated": "2026-11-24T18:03:35Z",
+   "state": "OR",
+   "county": "Umatilla",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -118.7569,
+   "lat": 45.6675
+  },
+  {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
    "name": "Branch Trail",
    "acres": 0.9,
@@ -776,7 +776,7 @@
    "acres": 0.7,
    "contained": null,
    "discovered": "2026-11-21T21:31:04Z",
-   "updated": "2026-11-22T14:45:59Z",
+   "updated": "2026-11-24T17:59:36Z",
    "state": "MS",
    "county": "Neshoba",
    "cause": "Undetermined",
@@ -1303,6 +1303,20 @@
    "lat": 34.475
   },
   {
+   "id": "{39CCC1EA-6662-48F6-98C8-1015F396BC15}",
+   "name": "Grease Gravy",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-24T16:25:26Z",
+   "updated": "2026-11-24T17:45:49Z",
+   "state": "IN",
+   "county": "Orange",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -86.4093,
+   "lat": 38.4881
+  },
+  {
    "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
    "name": "Wildfire Training",
    "acres": 0.0,
@@ -1679,6 +1693,20 @@
    "complexity": null,
    "lon": -117.9632,
    "lat": 34.5302
+  },
+  {
+   "id": "{5513D8A0-75AB-41A7-A229-448DEBA87D36}",
+   "name": "Lac-425121",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-24T17:52:07Z",
+   "updated": "2026-11-24T17:52:18Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0949,
+   "lat": 34.7188
   }
  ]
 }
