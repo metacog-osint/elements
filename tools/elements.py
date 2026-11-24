@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, firms, firms_store, history, meteoalarm, meteoalarm_log, sources, weather  # noqa: E402
+from elements import feed, firms, firms_store, history, meteoalarm, meteoalarm_log, sources, weather, wider  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, geo, registers  # noqa: E402
 from tic_doctrine.history import first_run  # noqa: E402
@@ -208,6 +208,9 @@ def main(argv=None) -> int:
         n = {c: sum(1 for x in lines if x["change"] == c) for c in ("new", "changed", "ended")}
         print(f"history: {n['new']} new, {n['changed']} changed, {n['ended']} ended "
               f"({sum(1 for x in lines if x.get('seen_live') is False) // 2} caught between runs)")
+        # Record-only lanes outside the feed (ideas#233). A failed lane is a warning and never fails this step.
+        for line in wider.update_all(HIST, datetime.now(timezone.utc)):
+            print(("::warning::" if "failed" in line or "partial" in line or "page " in line else "") + line)
         return 0
     if cmd == "firms-store":
         print(firms_store.store_run((load("firms.json", {}) or {}).get("records") or {}, ROOT / ".firms-cells"))
