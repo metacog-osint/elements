@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000ud6h",
+   "mag": 6.4,
+   "place": "Mauritius - Reunion region",
+   "time": "2026-11-24T11:06:14Z",
+   "updated": "2026-11-24T11:32:01Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 630,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6h",
+   "depth_km": 10.0,
+   "lon": 65.7,
+   "lat": -17.705,
+   "countries": []
+  },
+  {
    "id": "us6000ud3m",
    "mag": 4.5,
    "place": "9 km NNW of La Tronosa, Panama",
@@ -1582,21 +1597,6 @@
    "countries": [
     "PG"
    ]
-  },
-  {
-   "id": "us7000tysm",
-   "mag": 4.5,
-   "place": "8 km WNW of Piti Village, Guam",
-   "time": "2026-11-17T11:12:59Z",
-   "updated": "2026-11-18T02:47:04Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 314,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysm",
-   "depth_km": 106.8,
-   "lon": 144.621,
-   "lat": 13.481,
-   "countries": []
   }
  ]
 }
