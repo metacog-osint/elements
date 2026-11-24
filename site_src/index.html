@@ -24,6 +24,7 @@
 <script src="vendor/leaflet/leaflet.js"></script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="wrap top-row">
     <div class="brand"><strong>Elements</strong><a class="tic-layer" href="https://theintelligence.company/#layers">Land and maritime layer</a><span class="muted">The Intelligence Company</span></div>
@@ -35,7 +36,8 @@
   </div>
 </header>
 
-<main class="wrap">
+<main id="main" class="wrap">
+  <noscript><p class="noscript">This page needs JavaScript to draw its map and tables. The GeoJSON feed linked below and the source code work without it.</p></noscript>
   <section class="hero">
     <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
     <p class="tic-reading" id="reading" aria-live="polite"></p>
