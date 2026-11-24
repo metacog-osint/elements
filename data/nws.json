@@ -1,125 +1,6 @@
 {
  "records": [
   {
-   "id": "KMTR.CF.W.0002.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Francisco CA",
-   "areas": [
-    "North Bay Interior Valleys",
-    "San Francisco Bay Shoreline",
-    "Coastal North Bay Including Point Reyes National Seashore",
-    "San Francisco Peninsula Coast",
-    "Northern Monterey Bay",
-    "Southern Monterey Bay and Big Sur Coast",
-    "San Francisco"
-   ],
-   "counties": [
-    "06001",
-    "06013",
-    "06041",
-    "06053",
-    "06055",
-    "06075",
-    "06081",
-    "06085",
-    "06087",
-    "06097"
-   ],
-   "sent": "2026-11-23T21:10:00Z",
-   "onset": "2026-11-23T21:10:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b3a26257ef40914a56667bcb901796c7228285b.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.9125,
-     37.6471
-    ],
-    [
-     -121.9515,
-     37.9195
-    ],
-    [
-     -122.7464,
-     38.0514
-    ],
-    [
-     -121.3156,
-     36.2401
-    ],
-    [
-     -122.3259,
-     38.5071
-    ],
-    [
-     -123.0322,
-     37.7272
-    ],
-    [
-     -122.3715,
-     37.4147
-    ],
-    [
-     -121.6895,
-     37.2216
-    ],
-    [
-     -122.0078,
-     37.0123
-    ],
-    [
-     -122.9261,
-     38.5252
-    ]
-   ],
-   "lon": -122.228,
-   "lat": 37.627,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSGX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Diego CA",
-   "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
-   ],
-   "counties": [
-    "06059",
-    "06073"
-   ],
-   "sent": "2026-11-24T12:31:00Z",
-   "onset": "2026-11-24T12:31:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e87f3587578b9781ed5dbc2471e1afb532566e9a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.7772,
-     33.6757
-    ],
-    [
-     -116.7761,
-     33.0236
-    ]
-   ],
-   "lon": -117.277,
-   "lat": 33.35,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.CF.W.0006.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -127,10 +8,10 @@
    "certainty": "Likely",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast",
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast",
     "San Juan County"
    ],
    "counties": [
@@ -142,7 +23,7 @@
    "sent": "2026-11-24T15:42:00Z",
    "onset": "2026-11-24T16:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -337,11 +218,11 @@
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Kent",
+    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth",
-    "Kent",
-    "Cumberland"
+    "Eastern Monmouth"
    ],
    "counties": [
     "10001",
@@ -739,6 +620,125 @@
    ],
    "lon": -123.783,
    "lat": 40.63,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.CF.W.0002.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal North Bay Including Point Reyes National Seashore",
+    "San Francisco Peninsula Coast",
+    "Northern Monterey Bay",
+    "Southern Monterey Bay and Big Sur Coast",
+    "North Bay Interior Valleys",
+    "San Francisco Bay Shoreline",
+    "San Francisco"
+   ],
+   "counties": [
+    "06001",
+    "06013",
+    "06041",
+    "06053",
+    "06055",
+    "06075",
+    "06081",
+    "06085",
+    "06087",
+    "06097"
+   ],
+   "sent": "2026-11-24T21:42:00Z",
+   "onset": "2026-11-25T14:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.032dba2fb0c0f2fbdcc7a33e4f4da70f42fa5eed.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.9125,
+     37.6471
+    ],
+    [
+     -121.9515,
+     37.9195
+    ],
+    [
+     -122.7464,
+     38.0514
+    ],
+    [
+     -121.3156,
+     36.2401
+    ],
+    [
+     -122.3259,
+     38.5071
+    ],
+    [
+     -123.0322,
+     37.7272
+    ],
+    [
+     -122.3715,
+     37.4147
+    ],
+    [
+     -121.6895,
+     37.2216
+    ],
+    [
+     -122.0078,
+     37.0123
+    ],
+    [
+     -122.9261,
+     38.5252
+    ]
+   ],
+   "lon": -122.228,
+   "lat": 37.627,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSGX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Diego CA",
+   "areas": [
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
+   ],
+   "counties": [
+    "06059",
+    "06073"
+   ],
+   "sent": "2026-11-24T21:57:00Z",
+   "onset": "2026-11-24T21:57:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.748f6094321dc896dc7d481a2b775637abd41ad6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.7772,
+     33.6757
+    ],
+    [
+     -116.7761,
+     33.0236
+    ]
+   ],
+   "lon": -117.277,
+   "lat": 33.35,
    "countries": [
     "US"
    ]
