@@ -67,6 +67,11 @@ jobs:
         id: history
         continue-on-error: true
         run: python tools/elements.py history
+      # Hourly FIRMS cells go to a monthly release, not git. Create-only; a failure never stops the run.
+      - name: Store this hour's FIRMS cells
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/elements.py firms-store || echo "::warning::FIRMS cell store failed; this hour is missing from the release"
       - name: Commit data and history when their content changed
         id: commit
         run: |
