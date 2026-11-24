@@ -1,27 +1,25 @@
 {
  "records": [
   {
-   "id": "FL-1104295",
-   "type": "FL",
-   "kind": "flood",
+   "id": "TC-1001352",
+   "type": "TC",
+   "kind": "tropical cyclone",
    "episode": 1,
-   "name": "Flood in Ireland",
+   "name": "Tropical Cyclone 03-20262027-27",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-22T01:00:00Z",
-   "to": "2026-11-24T01:00:00Z",
+   "severity_value": 63.333,
+   "severity_unit": "km/h",
+   "from": "2026-11-24T06:00:00Z",
+   "to": "2026-11-24T06:00:00Z",
    "current": true,
-   "country": "Ireland",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104295&episodeid=1&eventtype=FL",
-   "lon": -9.452,
-   "lat": 51.68,
-   "countries": [
-    "IE"
-   ]
+   "country": null,
+   "severity": "Tropical Depression (maximum wind speed of 63 km/h)",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1001352&episodeid=1&eventtype=TC",
+   "lon": 77.27,
+   "lat": -10.08,
+   "countries": []
   },
   {
    "id": "FL-1104297",
@@ -44,6 +42,29 @@
    "lat": 7.543,
    "countries": [
     "TH"
+   ]
+  },
+  {
+   "id": "FL-1104295",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Ireland",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-22T01:00:00Z",
+   "to": "2026-11-24T01:00:00Z",
+   "current": true,
+   "country": "Ireland",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104295&episodeid=1&eventtype=FL",
+   "lon": -9.452,
+   "lat": 51.68,
+   "countries": [
+    "IE"
    ]
   },
   {
@@ -646,7 +667,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 19,
+   "episode": 7,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -658,7 +679,7 @@
    "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=19&eventtype=FL",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL",
    "lon": 11.139,
    "lat": 43.459,
    "countries": [
