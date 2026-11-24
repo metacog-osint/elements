@@ -46,8 +46,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
    ],
    "counties": [
     "06059",
@@ -56,7 +56,7 @@
    "sent": "2026-11-23T18:56:00Z",
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -252,48 +252,6 @@
    ]
   },
   {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-24T00:01:00Z",
-   "onset": "2026-11-24T15:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bec29d45cae6ee03e927bddf7552c5c47b6785f2.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -332,6 +290,48 @@
    ],
    "lon": -119.873,
    "lat": 34.761,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-24T03:33:00Z",
+   "onset": "2026-11-24T15:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.931c6a0070e676f8099d9291990afb2491746722.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
    "countries": [
     "US"
    ]
@@ -2506,36 +2506,6 @@
    ]
   },
   {
-   "id": "KSEW.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-23T20:01:00Z",
-   "onset": "2026-11-23T20:01:00Z",
-   "ends": "2026-11-25T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.233ff34eaf541aeb5160c0171d87b6687c8a5ec2.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2664,6 +2634,36 @@
    "onset": "2026-11-23T23:50:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c98f1d5ee4b23775485b8ea0b3affbbfccadd1d.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-24T03:34:00Z",
+   "onset": "2026-11-24T03:34:00Z",
+   "ends": "2026-11-25T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1db7e5d8f9fe7d6fd2321d1ced3e7f6aba2666e.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
