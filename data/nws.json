@@ -1282,10 +1282,10 @@
     "12086",
     "12099"
    ],
-   "sent": "2026-11-23T20:58:00Z",
+   "sent": "2026-11-24T09:16:00Z",
    "onset": "2026-11-25T00:00:00Z",
    "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76563ebf1cc03e9137d58233aac463c364f904d9.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2294f5dca893e321703cee0f5c17f66554bab301.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3076,40 +3076,6 @@
    ]
   },
   {
-   "id": "KMHX.SR.A.0003.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
-    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75180",
-    "75182",
-    "75184",
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-24T06:07:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e18e24a628962dd9996d10fa1d5fad9e7684620c.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.SR.A.0005.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3250,6 +3216,40 @@
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T03:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a18c4c918bb92486186ae7d3a52fbcd4db6facd0.006.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.SR.A.0003.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75180",
+    "75182",
+    "75184",
+    "75186",
+    "75188"
+   ],
+   "sent": "2026-11-24T09:22:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adf49c99b250b13c97e6c9cc9a22861e314b3837.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
