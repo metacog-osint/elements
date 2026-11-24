@@ -126,75 +126,6 @@
    ]
   },
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Coastal Duval",
-    "Inland Flagler",
-    "Eastern Putnam",
-    "Coastal Flagler",
-    "Coastal Nassau",
-    "Northeast Coastal St. Johns",
-    "Southeast Coastal St. Johns",
-    "Coastal Glynn",
-    "Coastal Camden"
-   ],
-   "counties": [
-    "12031",
-    "12035",
-    "12089",
-    "12107",
-    "12109",
-    "13039",
-    "13127"
-   ],
-   "sent": "2026-11-24T05:48:00Z",
-   "onset": "2026-11-25T06:00:00Z",
-   "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cd1e5754fe625801aca61e07d6cf04364d2af45.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.7651,
-     30.606
-    ],
-    [
-     -81.732,
-     29.5939
-    ],
-    [
-     -81.3883,
-     29.8814
-    ],
-    [
-     -81.642,
-     30.9134
-    ],
-    [
-     -81.4964,
-     31.2127
-    ]
-   ],
-   "lon": -81.565,
-   "lat": 30.288,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.CF.W.0001.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -368,257 +299,70 @@
    ]
   },
   {
-   "id": "KSTO.FA.W.0001.2026",
-   "event": "Flood Warning",
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
+   "sender": "NWS Jacksonville FL",
    "areas": [
-    "Sacramento, CA",
-    "San Joaquin, CA",
-    "Solano, CA",
-    "Yolo, CA"
+    "Coastal Duval",
+    "Coastal Nassau",
+    "Northeast Coastal St. Johns",
+    "Coastal Glynn",
+    "Coastal Camden",
+    "Southeast Coastal St. Johns",
+    "Inland Flagler",
+    "Eastern Putnam",
+    "Coastal Flagler"
    ],
    "counties": [
-    "06067",
-    "06077",
-    "06095",
-    "06113"
+    "12031",
+    "12035",
+    "12089",
+    "12107",
+    "12109",
+    "13039",
+    "13127"
    ],
-   "sent": "2026-11-23T16:55:00Z",
-   "onset": "2026-11-23T16:55:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df9596b0127d7e7f7381549580457f2a02267773.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -121.76,
-       38.09
-      ],
-      [
-       -121.63,
-       38.4
-      ],
-      [
-       -121.48,
-       38.37
-      ],
-      [
-       -121.29,
-       37.91
-      ],
-      [
-       -121.32,
-       37.78
-      ],
-      [
-       -121.52,
-       37.77
-      ],
-      [
-       -121.55,
-       37.82
-      ],
-      [
-       -121.54,
-       37.85
-      ],
-      [
-       -121.58,
-       37.86
-      ],
-      [
-       -121.57,
-       38.1
-      ],
-      [
-       -121.67,
-       38.1
-      ],
-      [
-       -121.75,
-       38.03
-      ],
-      [
-       -121.82,
-       38.02
-      ],
-      [
-       -121.84,
-       38.06
-      ],
-      [
-       -121.8,
-       38.03
-      ],
-      [
-       -121.71,
-       38.09
-      ],
-      [
-       -121.66,
-       38.17
-      ],
-      [
-       -121.74,
-       38.09
-      ],
-      [
-       -121.85,
-       38.07
-      ],
-      [
-       -121.76,
-       38.09
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-24T17:00:00Z",
+   "onset": "2026-11-25T06:00:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31a509ce4a261a352e5fd52a0b5c6ab8e9f96b70.002.2",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -121.3443,
-     38.4501
+     -81.6481,
+     30.3352
     ],
     [
-     -121.2722,
-     37.935
+     -81.2863,
+     29.4749
     ],
     [
-     -121.9396,
-     38.2672
+     -81.7651,
+     30.606
     ],
     [
-     -121.9027,
-     38.6796
-    ]
-   ],
-   "lon": -121.642,
-   "lat": 38.035,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSTO.FA.W.0002.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Solano, CA"
-   ],
-   "counties": [
-    "06095"
-   ],
-   "sent": "2026-11-23T16:59:00Z",
-   "onset": "2026-11-23T16:59:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b89472d6db8c9155110039de7dcd9e1ba6f6343.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -122.01,
-       38.14
-      ],
-      [
-       -122.06,
-       38.13
-      ],
-      [
-       -122.13,
-       38.04
-      ],
-      [
-       -122.16,
-       38.04
-      ],
-      [
-       -122.19,
-       38.07
-      ],
-      [
-       -122.24,
-       38.07
-      ],
-      [
-       -122.29,
-       38.16
-      ],
-      [
-       -122.25,
-       38.16
-      ],
-      [
-       -122.24,
-       38.1
-      ],
-      [
-       -122.16,
-       38.07
-      ],
-      [
-       -122.1,
-       38.12
-      ],
-      [
-       -122.09,
-       38.23
-      ],
-      [
-       -121.99,
-       38.24
-      ],
-      [
-       -121.9,
-       38.22
-      ],
-      [
-       -121.86,
-       38.07
-      ],
-      [
-       -121.89,
-       38.05
-      ],
-      [
-       -121.91,
-       38.08
-      ],
-      [
-       -121.97,
-       38.07
-      ],
-      [
-       -122.02,
-       38.1
-      ],
-      [
-       -121.98,
-       38.11
-      ],
-      [
-       -122.01,
-       38.14
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
+     -81.732,
+     29.5939
+    ],
     [
-     -121.9396,
-     38.2672
+     -81.3883,
+     29.8814
+    ],
+    [
+     -81.642,
+     30.9134
+    ],
+    [
+     -81.4964,
+     31.2127
     ]
    ],
-   "lon": -122.069,
-   "lat": 38.115,
+   "lon": -81.565,
+   "lat": 30.288,
    "countries": [
     "US"
    ]
@@ -872,240 +616,6 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-24T14:11:00Z",
-   "onset": "2026-11-24T14:11:00Z",
-   "ends": "2026-11-25T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12297f4f76eddc425663258e20602fe6820d2b06.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-24T14:23:00Z",
-   "onset": "2026-11-24T14:23:00Z",
-   "ends": "2026-11-25T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed067657b6ccbe8b540bec587dcbd3f1e463b3e9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-24T14:29:00Z",
-   "onset": "2026-11-24T14:29:00Z",
-   "ends": "2026-11-25T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9093fd5805d9ed007a31ddba741f1719c9da917e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-24T14:36:09Z",
-   "onset": "2026-11-24T14:31:00Z",
-   "ends": "2026-11-25T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df77bd6ced6b36123a4ac967375f31693bb42652.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0003.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1164,6 +674,496 @@
    ],
    "lon": -81.536,
    "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-24T16:47:00Z",
+   "onset": "2026-11-24T16:47:00Z",
+   "ends": "2026-11-25T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00a65c523cfdaca1d739b2656355440d584f64df.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.FA.W.0001.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Sacramento, CA",
+    "San Joaquin, CA",
+    "Solano, CA",
+    "Yolo, CA"
+   ],
+   "counties": [
+    "06067",
+    "06077",
+    "06095",
+    "06113"
+   ],
+   "sent": "2026-11-24T16:49:00Z",
+   "onset": "2026-11-24T16:49:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d3c03d8907ccf61b9e93929ebdf2ab51cba923a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -121.76,
+       38.09
+      ],
+      [
+       -121.63,
+       38.4
+      ],
+      [
+       -121.48,
+       38.37
+      ],
+      [
+       -121.29,
+       37.91
+      ],
+      [
+       -121.32,
+       37.78
+      ],
+      [
+       -121.52,
+       37.77
+      ],
+      [
+       -121.55,
+       37.82
+      ],
+      [
+       -121.54,
+       37.85
+      ],
+      [
+       -121.58,
+       37.86
+      ],
+      [
+       -121.57,
+       38.1
+      ],
+      [
+       -121.67,
+       38.1
+      ],
+      [
+       -121.75,
+       38.03
+      ],
+      [
+       -121.82,
+       38.02
+      ],
+      [
+       -121.84,
+       38.06
+      ],
+      [
+       -121.8,
+       38.03
+      ],
+      [
+       -121.71,
+       38.09
+      ],
+      [
+       -121.66,
+       38.17
+      ],
+      [
+       -121.74,
+       38.09
+      ],
+      [
+       -121.85,
+       38.07
+      ],
+      [
+       -121.76,
+       38.09
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -121.3443,
+     38.4501
+    ],
+    [
+     -121.2722,
+     37.935
+    ],
+    [
+     -121.9396,
+     38.2672
+    ],
+    [
+     -121.9027,
+     38.6796
+    ]
+   ],
+   "lon": -121.642,
+   "lat": 38.035,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-24T16:50:00Z",
+   "onset": "2026-11-24T16:50:00Z",
+   "ends": "2026-11-25T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adbc3f9fd93c11f2e40f58b58207de711b774ffe.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-24T16:53:00Z",
+   "onset": "2026-11-24T16:53:00Z",
+   "ends": "2026-11-25T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6db6cb7fd3030efd7a98e7e413ed3bdc5b447a2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-24T16:54:00Z",
+   "onset": "2026-11-24T16:54:00Z",
+   "ends": "2026-11-25T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e21dd2719347ebb36cf0c4a3e7da5d7232fc9ff1.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.FA.W.0002.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Solano, CA"
+   ],
+   "counties": [
+    "06095"
+   ],
+   "sent": "2026-11-24T16:56:00Z",
+   "onset": "2026-11-24T16:56:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e5ee2529833d9c6278de1e494d4e2d22708283.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.01,
+       38.14
+      ],
+      [
+       -122.06,
+       38.13
+      ],
+      [
+       -122.13,
+       38.04
+      ],
+      [
+       -122.16,
+       38.04
+      ],
+      [
+       -122.19,
+       38.07
+      ],
+      [
+       -122.24,
+       38.07
+      ],
+      [
+       -122.29,
+       38.16
+      ],
+      [
+       -122.25,
+       38.16
+      ],
+      [
+       -122.24,
+       38.1
+      ],
+      [
+       -122.16,
+       38.07
+      ],
+      [
+       -122.1,
+       38.12
+      ],
+      [
+       -122.09,
+       38.23
+      ],
+      [
+       -121.99,
+       38.24
+      ],
+      [
+       -121.9,
+       38.22
+      ],
+      [
+       -121.86,
+       38.07
+      ],
+      [
+       -121.89,
+       38.05
+      ],
+      [
+       -121.91,
+       38.08
+      ],
+      [
+       -121.97,
+       38.07
+      ],
+      [
+       -122.02,
+       38.1
+      ],
+      [
+       -121.98,
+       38.11
+      ],
+      [
+       -122.01,
+       38.14
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -121.9396,
+     38.2672
+    ]
+   ],
+   "lon": -122.069,
+   "lat": 38.115,
    "countries": [
     "US"
    ]
@@ -2620,10 +2620,10 @@
    "certainty": "Possible",
    "sender": "NWS Great Falls MT",
    "areas": [
-    "East Glacier Park Region",
-    "Northern High Plains",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
+    "Southern High Plains",
+    "East Glacier Park Region",
+    "Northern High Plains"
    ],
    "counties": [
     "30035",
@@ -2632,10 +2632,10 @@
     "30099",
     "30101"
    ],
-   "sent": "2026-11-24T12:11:00Z",
-   "onset": "2026-11-26T04:00:00Z",
+   "sent": "2026-11-24T16:50:00Z",
+   "onset": "2026-11-26T16:00:00Z",
    "ends": "2026-11-27T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d62d166bdc7864a51f24088a0afbd3f2b524080b.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27afbf64d81b590fe64dc4850cc0bcd764aad59a.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
