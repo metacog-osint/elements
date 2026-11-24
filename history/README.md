@@ -14,6 +14,13 @@ Intelligence Company's historical dataset. Written by `elements/history.py` (for
   `meteoalarm/state.json` holds the yellow warnings still in force, to avoid logging them again. Source: MeteoAlarm
   (EUMETNET), CC BY 4.0 as stated on feeds.meteoalarm.org: data provided by EUMETNET members; each line carries the
   service's own licence string in `credit`. Starts with the first run of this archive; earlier yellow warnings were not kept.
+- `nws_minor/YYYY-MM-DD.jsonl` (`.gz` when closed): every NWS alert message rated Moderate or Minor, one line per
+  message, read by issue time so alerts issued and ended between runs are kept. Long description and instruction text
+  are left out; `url` is the message at api.weather.gov. US public domain. Starts 24 Nov 2026, reading back 72 hours.
+- `gdacs_green_wildfires/YYYY-MM-DD.jsonl` (`.gz` when closed): GDACS green wildfire events, one line when first seen
+  and one each time the event changes. Source: GDACS (EC Joint Research Centre and UN OCHA).
+- Low-confidence FIRMS cells are in the monthly `firms-cells-YYYY-MM` release as `firms-low-cells-*.json.gz`, not here.
+- These three lanes are kept for the record. They are outside the feed, the map and its tiers.
 - The site serves the last 7 days of ended items at `data/ended.geojson`, not drawn on the map and not in the feed.
 
 From 2026-10-31 to 2026-11-14T03:36:30Z the log was rebuilt from this repository's git history of `data/` (422 runs) by

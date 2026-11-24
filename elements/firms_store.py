@@ -15,6 +15,9 @@ from pathlib import Path
 from . import firms
 
 FORMAT = "elements-firms-cells/1"
+LOW_FORMAT = "elements-firms-low-cells/1"
+LOW_NOTE = ("Low-confidence VIIRS detections only, kept for the record. Elements' page, feed and tiers do not use them. "
+            "Detections are not fires.")
 FRESH = timedelta(hours=2)    # a window older than this is a kept copy, not this run's read
 
 
@@ -24,6 +27,20 @@ def release_tag(t: datetime) -> str:
 
 def asset_name(t: datetime) -> str:
     return t.strftime("firms-cells-%Y%m%dT%HZ.json.gz")
+
+
+def low_asset_name(t: datetime) -> str:
+    return t.strftime("firms-low-cells-%Y%m%dT%HZ.json.gz")
+
+
+def low_snapshot(payload: dict) -> dict | None:
+    """The hour's low-confidence cells, a separate file with its own format; None when the run has none."""
+    low = payload.get("low") or {}
+    if not low.get("cells"):
+        return None
+    return {"format": LOW_FORMAT, "confidence": "low", "window": low["window"], "detections": low["detections"],
+            "newest": low.get("newest"), "cell_deg": low["cell_deg"], "via": payload.get("via") or {},
+            "columns": low["columns"], "cells": low["cells"], "note": LOW_NOTE}
 
 
 def snapshot(payload: dict, backfilled: bool = False, note: str | None = None) -> dict:
@@ -95,10 +112,16 @@ def store_run(payload: dict, out_dir: Path, now: datetime | None = None, run=sub
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / asset_name(end)
     path.write_bytes(encode(snapshot(payload)))
-    up, there, problem = publish([path], release_tag(end), run)
+    files = [path]
+    low = low_snapshot(payload)
+    if low:
+        files.append(out_dir / low_asset_name(end))
+        files[1].write_bytes(encode(low))
+    up, there, problem = publish(files, release_tag(end), run)
     if problem:
         raise RuntimeError(problem)
-    return f"firms store: {path.name} {'stored' if up else 'already there'} ({path.stat().st_size:,} bytes)"
+    extra = f"; low-confidence file {files[1].stat().st_size:,} bytes" if low else ""
+    return f"firms store: {path.name} {'stored' if up else 'already there'} ({path.stat().st_size:,} bytes){extra}"
 
 
 def rebuild_hour(dets: list[tuple], end: datetime, via: dict, note: str) -> dict:
