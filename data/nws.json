@@ -256,11 +256,11 @@
    "certainty": "Likely",
    "sender": "NWS Seattle WA",
    "areas": [
-    "San Juan County",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast",
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
+    "San Juan County"
    ],
    "counties": [
     "53009",
@@ -269,9 +269,9 @@
     "53055"
    ],
    "sent": "2026-11-24T15:42:00Z",
-   "onset": "2026-11-24T15:42:00Z",
+   "onset": "2026-11-24T16:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2091,6 +2091,49 @@
    ]
   },
   {
+   "id": "KSHV.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Shreveport LA",
+   "areas": [
+    "Sevier",
+    "Howard",
+    "McCurtain"
+   ],
+   "counties": [
+    "05061",
+    "05133",
+    "40089"
+   ],
+   "sent": "2026-11-24T17:53:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.821abd35335bea710939fe5c1d328fb9060e762e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.9909,
+     34.0831
+    ],
+    [
+     -94.2433,
+     33.9949
+    ],
+    [
+     -94.7661,
+     34.1171
+    ]
+   ],
+   "lon": -94.333,
+   "lat": 34.065,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KFWD.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -2165,6 +2208,301 @@
    ],
    "lon": -96.612,
    "lat": 31.338,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSHV.FZ.A.0001.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Shreveport LA",
+   "areas": [
+    "Little River",
+    "Hempstead",
+    "Nevada",
+    "Miller",
+    "Lafayette",
+    "Columbia",
+    "Union",
+    "Caddo",
+    "Bossier",
+    "Webster",
+    "Claiborne",
+    "Lincoln",
+    "Union",
+    "De Soto",
+    "Red River",
+    "Bienville",
+    "Jackson",
+    "Ouachita",
+    "Sabine",
+    "Natchitoches",
+    "Winn",
+    "Grant",
+    "Caldwell",
+    "La Salle",
+    "Red River",
+    "Bowie",
+    "Franklin",
+    "Titus",
+    "Camp",
+    "Morris",
+    "Cass",
+    "Wood",
+    "Upshur",
+    "Marion",
+    "Smith",
+    "Gregg",
+    "Harrison",
+    "Cherokee",
+    "Rusk",
+    "Panola",
+    "Nacogdoches",
+    "Shelby",
+    "Angelina",
+    "San Augustine",
+    "Sabine"
+   ],
+   "counties": [
+    "05027",
+    "05057",
+    "05073",
+    "05081",
+    "05091",
+    "05099",
+    "05139",
+    "22013",
+    "22015",
+    "22017",
+    "22021",
+    "22027",
+    "22031",
+    "22043",
+    "22049",
+    "22059",
+    "22061",
+    "22069",
+    "22073",
+    "22081",
+    "22085",
+    "22111",
+    "22119",
+    "22127",
+    "48005",
+    "48037",
+    "48063",
+    "48067",
+    "48073",
+    "48159",
+    "48183",
+    "48203",
+    "48315",
+    "48343",
+    "48347",
+    "48365",
+    "48387",
+    "48401",
+    "48403",
+    "48405",
+    "48419",
+    "48423",
+    "48449",
+    "48459",
+    "48499"
+   ],
+   "sent": "2026-11-24T17:53:00Z",
+   "onset": "2026-11-26T05:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.821abd35335bea710939fe5c1d328fb9060e762e.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.2328,
+     33.223
+    ],
+    [
+     -93.6644,
+     33.736
+    ],
+    [
+     -93.6115,
+     33.2406
+    ],
+    [
+     -94.2363,
+     33.7019
+    ],
+    [
+     -93.9015,
+     33.3055
+    ],
+    [
+     -93.3051,
+     33.6667
+    ],
+    [
+     -92.5981,
+     33.1682
+    ],
+    [
+     -93.0412,
+     32.341
+    ],
+    [
+     -93.6266,
+     32.6985
+    ],
+    [
+     -93.885,
+     32.5801
+    ],
+    [
+     -92.1142,
+     32.1012
+    ],
+    [
+     -92.9897,
+     32.8272
+    ],
+    [
+     -93.7408,
+     32.0592
+    ],
+    [
+     -92.5617,
+     31.5978
+    ],
+    [
+     -92.5617,
+     32.3043
+    ],
+    [
+     -92.1616,
+     31.6801
+    ],
+    [
+     -92.6623,
+     32.6018
+    ],
+    [
+     -93.0825,
+     31.7325
+    ],
+    [
+     -92.1516,
+     32.4809
+    ],
+    [
+     -93.3491,
+     32.1012
+    ],
+    [
+     -93.5596,
+     31.5604
+    ],
+    [
+     -92.3756,
+     32.8293
+    ],
+    [
+     -93.3398,
+     32.7322
+    ],
+    [
+     -92.6413,
+     31.9412
+    ],
+    [
+     -94.6111,
+     31.2519
+    ],
+    [
+     -94.4224,
+     33.4461
+    ],
+    [
+     -94.9791,
+     32.9746
+    ],
+    [
+     -94.3576,
+     33.0837
+    ],
+    [
+     -95.1563,
+     31.8439
+    ],
+    [
+     -95.2191,
+     33.1758
+    ],
+    [
+     -94.8163,
+     32.4864
+    ],
+    [
+     -94.3744,
+     32.548
+    ],
+    [
+     -94.3569,
+     32.7982
+    ],
+    [
+     -94.7313,
+     33.1165
+    ],
+    [
+     -94.6202,
+     31.6206
+    ],
+    [
+     -94.3052,
+     32.164
+    ],
+    [
+     -95.0484,
+     33.6196
+    ],
+    [
+     -94.7564,
+     32.1094
+    ],
+    [
+     -93.8519,
+     31.3433
+    ],
+    [
+     -94.1632,
+     31.3824
+    ],
+    [
+     -94.1426,
+     31.7901
+    ],
+    [
+     -95.2689,
+     32.3751
+    ],
+    [
+     -94.9668,
+     33.2146
+    ],
+    [
+     -94.9412,
+     32.7353
+    ],
+    [
+     -95.3822,
+     32.7836
+    ]
+   ],
+   "lon": -93.841,
+   "lat": 32.535,
    "countries": [
     "US"
    ]
@@ -2872,6 +3210,37 @@
    ]
   },
   {
+   "id": "KCTP.HW.A.0001.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS State College PA",
+   "areas": [
+    "Lancaster"
+   ],
+   "counties": [
+    "42071"
+   ],
+   "sent": "2026-11-24T17:45:00Z",
+   "onset": "2026-11-26T09:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.281532a3717df41fe5b29d8432bb8df27dac46d2.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.2502,
+     40.042
+    ]
+   ],
+   "lon": -76.25,
+   "lat": 40.042,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7836.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3212,56 +3581,6 @@
    ]
   },
   {
-   "id": "KPHI.SR.A.0005.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
-    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
-    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
-    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
-    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE"
-   ],
-   "counties": [
-    "73430",
-    "73431",
-    "73450",
-    "73451",
-    "73452",
-    "73453",
-    "73454",
-    "73455",
-    "73480",
-    "73481",
-    "73482",
-    "73483",
-    "73485"
-   ],
-   "sent": "2026-11-24T06:27:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KOKX.SR.A.0003.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3372,6 +3691,56 @@
    ]
   },
   {
+   "id": "KPHI.SR.A.0005.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
+    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
+    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
+    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
+   ],
+   "counties": [
+    "73430",
+    "73431",
+    "73450",
+    "73451",
+    "73452",
+    "73453",
+    "73454",
+    "73455",
+    "73480",
+    "73481",
+    "73482",
+    "73483",
+    "73485"
+   ],
+   "sent": "2026-11-24T17:44:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c57b4aae17af9e65b38e4610b480e8d1724785d.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KAKQ.SR.A.0005.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3379,20 +3748,20 @@
    "certainty": "Possible",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
-    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
-    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
     "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
     "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
     "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
+    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
+    "Chesapeake Bay from New Point Comfort to Little Creek VA",
+    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
     "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
     "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
     "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
+    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
+    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
     "Chesapeake Bay from Smith Point to Windmill Point VA",
-    "Chesapeake Bay from Windmill Point to New Point Comfort VA",
-    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
-    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM"
+    "Chesapeake Bay from Windmill Point to New Point Comfort VA"
    ],
    "counties": [
     "73630",
@@ -3410,10 +3779,10 @@
     "73686",
     "73688"
    ],
-   "sent": "2026-11-24T14:59:00Z",
+   "sent": "2026-11-24T17:59:00Z",
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.019a8e611411037456fd4dafaf004c80fc2cda3c.006.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a4d09fad0de28012d9166221254340204e86794.005.2",
    "geometry": null,
    "vtec": true,
    "points": [],
