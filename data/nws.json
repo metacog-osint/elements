@@ -46,8 +46,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
    ],
    "counties": [
     "06059",
@@ -56,7 +56,7 @@
    "sent": "2026-11-23T18:56:00Z",
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -208,50 +208,6 @@
    ]
   },
   {
-   "id": "KEKA.CF.W.0006.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal Del Norte",
-    "Southwestern Humboldt",
-    "Coastal Mendocino",
-    "Northern Coastal Humboldt"
-   ],
-   "counties": [
-    "06015",
-    "06023",
-    "06045"
-   ],
-   "sent": "2026-11-23T22:34:00Z",
-   "onset": "2026-11-24T17:00:00Z",
-   "ends": "2026-11-24T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.653469f13fa543848c6ee132a8d0485686b9b615.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ],
-    [
-     -123.9262,
-     40.7067
-    ],
-    [
-     -123.4429,
-     39.4324
-    ]
-   ],
-   "lon": -123.783,
-   "lat": 40.63,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -332,6 +288,50 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.CF.W.0006.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal Del Norte",
+    "Southwestern Humboldt",
+    "Coastal Mendocino",
+    "Northern Coastal Humboldt"
+   ],
+   "counties": [
+    "06015",
+    "06023",
+    "06045"
+   ],
+   "sent": "2026-11-24T05:16:00Z",
+   "onset": "2026-11-24T17:00:00Z",
+   "ends": "2026-11-24T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ee3e62a752fcd1636bfa5982c4e802cc2a42325.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.981,
+     41.7499
+    ],
+    [
+     -123.9262,
+     40.7067
+    ],
+    [
+     -123.4429,
+     39.4324
+    ]
+   ],
+   "lon": -123.783,
+   "lat": 40.63,
    "countries": [
     "US"
    ]
@@ -1278,175 +1278,6 @@
    ]
   },
   {
-   "id": "KSJT.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Angelo TX",
-   "areas": [
-    "Fisher",
-    "Nolan",
-    "Sterling",
-    "Coke",
-    "Runnels",
-    "Irion",
-    "Tom Green",
-    "Concho",
-    "Crockett",
-    "Schleicher",
-    "Sutton",
-    "Haskell",
-    "Throckmorton",
-    "Jones",
-    "Shackelford",
-    "Taylor",
-    "Callahan",
-    "Coleman",
-    "Brown",
-    "McCulloch",
-    "San Saba",
-    "Menard",
-    "Kimble",
-    "Mason"
-   ],
-   "counties": [
-    "48049",
-    "48059",
-    "48081",
-    "48083",
-    "48095",
-    "48105",
-    "48151",
-    "48207",
-    "48235",
-    "48253",
-    "48267",
-    "48307",
-    "48319",
-    "48327",
-    "48353",
-    "48399",
-    "48411",
-    "48413",
-    "48417",
-    "48431",
-    "48435",
-    "48441",
-    "48447",
-    "48451"
-   ],
-   "sent": "2026-11-23T16:52:00Z",
-   "onset": "2026-11-25T05:00:00Z",
-   "ends": "2026-11-25T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b933151351ecfdf85fec97e054d779b26dd1c291.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -98.9985,
-     31.7641
-    ],
-    [
-     -99.3722,
-     32.2931
-    ],
-    [
-     -100.6352,
-     31.8771
-    ],
-    [
-     -99.3466,
-     31.9142
-    ],
-    [
-     -99.8636,
-     31.3189
-    ],
-    [
-     -101.4042,
-     30.7175
-    ],
-    [
-     -100.4031,
-     32.7405
-    ],
-    [
-     -99.7308,
-     33.176
-    ],
-    [
-     -100.9813,
-     31.3034
-    ],
-    [
-     -99.8744,
-     32.7437
-    ],
-    [
-     -99.7464,
-     30.4795
-    ],
-    [
-     -99.3599,
-     31.2055
-    ],
-    [
-     -99.2373,
-     30.7039
-    ],
-    [
-     -99.8589,
-     30.8853
-    ],
-    [
-     -100.4181,
-     32.3123
-    ],
-    [
-     -99.9827,
-     31.8451
-    ],
-    [
-     -98.8193,
-     31.1551
-    ],
-    [
-     -100.5272,
-     30.8962
-    ],
-    [
-     -99.347,
-     32.7438
-    ],
-    [
-     -101.0549,
-     31.8358
-    ],
-    [
-     -100.5134,
-     30.5222
-    ],
-    [
-     -99.8904,
-     32.2971
-    ],
-    [
-     -99.2058,
-     33.1707
-    ],
-    [
-     -100.4642,
-     31.3976
-    ]
-   ],
-   "lon": -99.96,
-   "lat": 31.721,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFWD.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2011,6 +1842,175 @@
    ],
    "lon": -118.262,
    "lat": 34.196,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSJT.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Angelo TX",
+   "areas": [
+    "Fisher",
+    "Nolan",
+    "Sterling",
+    "Coke",
+    "Runnels",
+    "Irion",
+    "Tom Green",
+    "Concho",
+    "Crockett",
+    "Schleicher",
+    "Sutton",
+    "Haskell",
+    "Throckmorton",
+    "Jones",
+    "Shackelford",
+    "Taylor",
+    "Callahan",
+    "Coleman",
+    "Brown",
+    "McCulloch",
+    "San Saba",
+    "Menard",
+    "Kimble",
+    "Mason"
+   ],
+   "counties": [
+    "48049",
+    "48059",
+    "48081",
+    "48083",
+    "48095",
+    "48105",
+    "48151",
+    "48207",
+    "48235",
+    "48253",
+    "48267",
+    "48307",
+    "48319",
+    "48327",
+    "48353",
+    "48399",
+    "48411",
+    "48413",
+    "48417",
+    "48431",
+    "48435",
+    "48441",
+    "48447",
+    "48451"
+   ],
+   "sent": "2026-11-24T05:16:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb0e0553f4d08ef60514bb1645dfaa10c954329e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.9985,
+     31.7641
+    ],
+    [
+     -99.3722,
+     32.2931
+    ],
+    [
+     -100.6352,
+     31.8771
+    ],
+    [
+     -99.3466,
+     31.9142
+    ],
+    [
+     -99.8636,
+     31.3189
+    ],
+    [
+     -101.4042,
+     30.7175
+    ],
+    [
+     -100.4031,
+     32.7405
+    ],
+    [
+     -99.7308,
+     33.176
+    ],
+    [
+     -100.9813,
+     31.3034
+    ],
+    [
+     -99.8744,
+     32.7437
+    ],
+    [
+     -99.7464,
+     30.4795
+    ],
+    [
+     -99.3599,
+     31.2055
+    ],
+    [
+     -99.2373,
+     30.7039
+    ],
+    [
+     -99.8589,
+     30.8853
+    ],
+    [
+     -100.4181,
+     32.3123
+    ],
+    [
+     -99.9827,
+     31.8451
+    ],
+    [
+     -98.8193,
+     31.1551
+    ],
+    [
+     -100.5272,
+     30.8962
+    ],
+    [
+     -99.347,
+     32.7438
+    ],
+    [
+     -101.0549,
+     31.8358
+    ],
+    [
+     -100.5134,
+     30.5222
+    ],
+    [
+     -99.8904,
+     32.2971
+    ],
+    [
+     -99.2058,
+     33.1707
+    ],
+    [
+     -100.4642,
+     31.3976
+    ]
+   ],
+   "lon": -99.96,
+   "lat": 31.721,
    "countries": [
     "US"
    ]
@@ -2647,34 +2647,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0007.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm",
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-23T23:50:00Z",
-   "onset": "2026-11-23T23:50:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c98f1d5ee4b23775485b8ea0b3affbbfccadd1d.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2695,6 +2667,34 @@
    "onset": "2026-11-24T03:34:00Z",
    "ends": "2026-11-25T07:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1db7e5d8f9fe7d6fd2321d1ced3e7f6aba2666e.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0007.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-24T05:09:00Z",
+   "onset": "2026-11-24T05:09:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed70daafe38157da69bb35e8b07b8c7314167e41.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
