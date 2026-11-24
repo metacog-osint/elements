@@ -393,6 +393,20 @@
    "lat": 44.6179
   },
   {
+   "id": "{96FB0165-2ED9-4027-A13D-F6EADECAB971}",
+   "name": "Upper Days Creek",
+   "acres": 30.0,
+   "contained": null,
+   "discovered": "2026-11-24T20:46:00Z",
+   "updated": "2026-11-24T21:44:17Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.0238,
+   "lat": 43.0146
+  },
+  {
    "id": "{1D6A19A7-0C75-49F9-AC55-068F49DD2932}",
    "name": "Wildhorse Road",
    "acres": 25.0,
@@ -419,6 +433,20 @@
    "complexity": "Type 5 Incident",
    "lon": -82.5643,
    "lat": 37.9621
+  },
+  {
+   "id": "{7D216762-632D-4AB1-95CC-3D3BF2154A8B}",
+   "name": "Mule Hill",
+   "acres": 25.0,
+   "contained": null,
+   "discovered": "2026-11-24T19:16:00Z",
+   "updated": "2026-11-24T21:47:44Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -122.8035,
+   "lat": 42.8053
   },
   {
    "id": "{CFE76052-2BDC-4486-9037-2BED0D888079}",
@@ -449,20 +477,6 @@
    "lat": 43.3354
   },
   {
-   "id": "{119CA3F3-916E-4009-9F30-64198004251C}",
-   "name": "Blevins Rd off hwy 7",
-   "acres": 11.0,
-   "contained": 100,
-   "discovered": "2026-11-10T21:37:00Z",
-   "updated": "2026-11-18T22:05:53Z",
-   "state": "KY",
-   "county": "Carter",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -82.9795,
-   "lat": 38.3856
-  },
-  {
    "id": "{22E426BC-F96A-4585-868D-B13D7932A647}",
    "name": "Highway 44",
    "acres": 10.8,
@@ -489,20 +503,6 @@
    "complexity": "Type 4 Incident",
    "lon": -67.1014,
    "lat": 18.0414
-  },
-  {
-   "id": "{C529F738-536B-46D4-AD83-6A0DC972B2D4}",
-   "name": "Crooked Run",
-   "acres": 10.0,
-   "contained": 90,
-   "discovered": "2026-11-24T18:21:00Z",
-   "updated": "2026-11-24T21:18:57Z",
-   "state": "KY",
-   "county": "Martin",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -82.5473,
-   "lat": 37.8852
   },
   {
    "id": "{88C3DB93-330B-40E9-A5F4-478356DC09D5}",
@@ -575,20 +575,6 @@
    "lat": 38.5297
   },
   {
-   "id": "{589C3365-171E-4230-A248-96B31264E66D}",
-   "name": "Anne Self",
-   "acres": 4.0,
-   "contained": null,
-   "discovered": "2026-11-24T19:08:24Z",
-   "updated": "2026-11-24T21:26:24Z",
-   "state": "WV",
-   "county": "Pendleton",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -79.3028,
-   "lat": 38.7985
-  },
-  {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
    "name": "Little Mohawk",
    "acres": 3.5,
@@ -615,6 +601,20 @@
    "complexity": null,
    "lon": -92.6169,
    "lat": 45.8066
+  },
+  {
+   "id": "{589C3365-171E-4230-A248-96B31264E66D}",
+   "name": "Anne Self",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-24T19:08:24Z",
+   "updated": "2026-11-24T22:05:25Z",
+   "state": "WV",
+   "county": "Pendleton",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -79.3017,
+   "lat": 38.7984
   },
   {
    "id": "{745FA1CA-7F89-4038-928F-9C31BFE8C1A2}",
@@ -713,6 +713,20 @@
    "complexity": "Type 5 Incident",
    "lon": -84.0012,
    "lat": 36.8483
+  },
+  {
+   "id": "{B4E6A1AD-8B8A-4756-9561-B931AC81B1BC}",
+   "name": "Little River 185",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-24T21:33:50Z",
+   "updated": "2026-11-24T21:40:31Z",
+   "state": "AR",
+   "county": "Little River",
+   "cause": null,
+   "complexity": null,
+   "lon": -94.4429,
+   "lat": 33.8327
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1000,12 +1014,12 @@
    "acres": 0.2,
    "contained": null,
    "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-23T18:28:28Z",
+   "updated": "2026-11-24T22:04:11Z",
    "state": "WI",
    "county": "Burnett",
-   "cause": "Human",
+   "cause": "Undetermined",
    "complexity": null,
-   "lon": -92.6086,
+   "lon": -92.609,
    "lat": 45.8085
   },
   {
@@ -1693,6 +1707,20 @@
    "complexity": null,
    "lon": -118.0949,
    "lat": 34.7188
+  },
+  {
+   "id": "{8463163A-11FA-4A0F-9EC4-2AE167C972AC}",
+   "name": "Cedar",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-24T22:01:13Z",
+   "updated": "2026-11-24T22:02:11Z",
+   "state": "CA",
+   "county": "Tuolumne",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.2228,
+   "lat": 38.0195
   }
  ]
 }
