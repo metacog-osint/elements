@@ -8,8 +8,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
    ],
    "counties": [
     "06059",
@@ -18,7 +18,7 @@
    "sent": "2026-11-23T18:56:00Z",
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1309,314 +1309,6 @@
    ]
   },
   {
-   "id": "KOUN.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Tillman",
-    "Cotton",
-    "Jefferson",
-    "Love",
-    "Marshall",
-    "Bryan",
-    "Hardeman",
-    "Foard",
-    "Wilbarger",
-    "Wichita",
-    "Knox",
-    "Baylor",
-    "Archer",
-    "Clay"
-   ],
-   "counties": [
-    "40013",
-    "40033",
-    "40067",
-    "40085",
-    "40095",
-    "40141",
-    "48009",
-    "48023",
-    "48077",
-    "48155",
-    "48197",
-    "48275",
-    "48485",
-    "48487"
-   ],
-   "sent": "2026-11-23T17:53:00Z",
-   "onset": "2026-11-25T05:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72820ce1aa3700950855f86d85474af863e81c77.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -96.2651,
-     33.964
-    ],
-    [
-     -98.3734,
-     34.2907
-    ],
-    [
-     -97.8389,
-     34.1051
-    ],
-    [
-     -97.2451,
-     33.9578
-    ],
-    [
-     -96.7705,
-     34.027
-    ],
-    [
-     -98.9317,
-     34.3711
-    ],
-    [
-     -98.6873,
-     33.6163
-    ],
-    [
-     -99.2082,
-     33.6188
-    ],
-    [
-     -98.2129,
-     33.7859
-    ],
-    [
-     -99.8168,
-     33.9633
-    ],
-    [
-     -99.7457,
-     34.2899
-    ],
-    [
-     -99.7304,
-     33.6119
-    ],
-    [
-     -98.708,
-     33.9882
-    ],
-    [
-     -99.2424,
-     34.0849
-    ]
-   ],
-   "lon": -98.484,
-   "lat": 33.977,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOUN.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Payne",
-    "Lincoln",
-    "Pottawatomie",
-    "Seminole",
-    "Hughes",
-    "Murray",
-    "Pontotoc",
-    "Coal",
-    "Carter",
-    "Johnston",
-    "Atoka",
-    "Custer",
-    "Blaine",
-    "Kingfisher",
-    "Logan",
-    "Washita",
-    "Caddo",
-    "Canadian",
-    "Oklahoma",
-    "Grady",
-    "McClain",
-    "Cleveland",
-    "Harmon",
-    "Greer",
-    "Kiowa",
-    "Jackson",
-    "Comanche",
-    "Stephens",
-    "Garvin"
-   ],
-   "counties": [
-    "40005",
-    "40011",
-    "40015",
-    "40017",
-    "40019",
-    "40027",
-    "40029",
-    "40031",
-    "40039",
-    "40049",
-    "40051",
-    "40055",
-    "40057",
-    "40063",
-    "40065",
-    "40069",
-    "40073",
-    "40075",
-    "40081",
-    "40083",
-    "40087",
-    "40099",
-    "40109",
-    "40119",
-    "40123",
-    "40125",
-    "40133",
-    "40137",
-    "40149"
-   ],
-   "sent": "2026-11-23T17:53:00Z",
-   "onset": "2026-11-24T10:00:00Z",
-   "ends": "2026-11-24T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72820ce1aa3700950855f86d85474af863e81c77.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -96.0366,
-     34.3925
-    ],
-    [
-     -98.429,
-     35.8778
-    ],
-    [
-     -98.381,
-     35.1679
-    ],
-    [
-     -97.9799,
-     35.5434
-    ],
-    [
-     -97.2879,
-     34.2518
-    ],
-    [
-     -97.3231,
-     35.2064
-    ],
-    [
-     -96.288,
-     34.5829
-    ],
-    [
-     -98.4766,
-     34.6626
-    ],
-    [
-     -98.9974,
-     35.6456
-    ],
-    [
-     -97.3127,
-     34.7094
-    ],
-    [
-     -97.8869,
-     35.0211
-    ],
-    [
-     -99.553,
-     34.9339
-    ],
-    [
-     -99.8442,
-     34.746
-    ],
-    [
-     -96.2512,
-     35.0529
-    ],
-    [
-     -99.4122,
-     34.594
-    ],
-    [
-     -96.6543,
-     34.3135
-    ],
-    [
-     -97.9346,
-     35.9494
-    ],
-    [
-     -98.9816,
-     34.9215
-    ],
-    [
-     -96.8814,
-     35.7031
-    ],
-    [
-     -97.451,
-     35.9143
-    ],
-    [
-     -97.4498,
-     35.0164
-    ],
-    [
-     -97.0716,
-     34.4858
-    ],
-    [
-     -97.4094,
-     35.5546
-    ],
-    [
-     -96.9753,
-     36.0792
-    ],
-    [
-     -96.6918,
-     34.7214
-    ],
-    [
-     -96.957,
-     35.2114
-    ],
-    [
-     -96.6029,
-     35.1584
-    ],
-    [
-     -97.8556,
-     34.4814
-    ],
-    [
-     -98.9923,
-     35.2899
-    ]
-   ],
-   "lon": -97.702,
-   "lat": 35.075,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEWX.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2195,6 +1887,314 @@
    ]
   },
   {
+   "id": "KOUN.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Tillman",
+    "Cotton",
+    "Jefferson",
+    "Love",
+    "Marshall",
+    "Bryan",
+    "Hardeman",
+    "Foard",
+    "Wilbarger",
+    "Wichita",
+    "Knox",
+    "Baylor",
+    "Archer",
+    "Clay"
+   ],
+   "counties": [
+    "40013",
+    "40033",
+    "40067",
+    "40085",
+    "40095",
+    "40141",
+    "48009",
+    "48023",
+    "48077",
+    "48155",
+    "48197",
+    "48275",
+    "48485",
+    "48487"
+   ],
+   "sent": "2026-11-24T06:32:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f5bf45ccfaca989ad7994503a6fb53c06fb40e.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.2651,
+     33.964
+    ],
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -97.8389,
+     34.1051
+    ],
+    [
+     -97.2451,
+     33.9578
+    ],
+    [
+     -96.7705,
+     34.027
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.6873,
+     33.6163
+    ],
+    [
+     -99.2082,
+     33.6188
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -99.8168,
+     33.9633
+    ],
+    [
+     -99.7457,
+     34.2899
+    ],
+    [
+     -99.7304,
+     33.6119
+    ],
+    [
+     -98.708,
+     33.9882
+    ],
+    [
+     -99.2424,
+     34.0849
+    ]
+   ],
+   "lon": -98.484,
+   "lat": 33.977,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Custer",
+    "Blaine",
+    "Kingfisher",
+    "Logan",
+    "Payne",
+    "Washita",
+    "Caddo",
+    "Canadian",
+    "Oklahoma",
+    "Lincoln",
+    "Grady",
+    "McClain",
+    "Cleveland",
+    "Pottawatomie",
+    "Seminole",
+    "Hughes",
+    "Harmon",
+    "Greer",
+    "Kiowa",
+    "Jackson",
+    "Comanche",
+    "Stephens",
+    "Garvin",
+    "Murray",
+    "Pontotoc",
+    "Coal",
+    "Carter",
+    "Johnston",
+    "Atoka"
+   ],
+   "counties": [
+    "40005",
+    "40011",
+    "40015",
+    "40017",
+    "40019",
+    "40027",
+    "40029",
+    "40031",
+    "40039",
+    "40049",
+    "40051",
+    "40055",
+    "40057",
+    "40063",
+    "40065",
+    "40069",
+    "40073",
+    "40075",
+    "40081",
+    "40083",
+    "40087",
+    "40099",
+    "40109",
+    "40119",
+    "40123",
+    "40125",
+    "40133",
+    "40137",
+    "40149"
+   ],
+   "sent": "2026-11-24T06:32:00Z",
+   "onset": "2026-11-24T10:00:00Z",
+   "ends": "2026-11-24T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f5bf45ccfaca989ad7994503a6fb53c06fb40e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.0366,
+     34.3925
+    ],
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -97.9799,
+     35.5434
+    ],
+    [
+     -97.2879,
+     34.2518
+    ],
+    [
+     -97.3231,
+     35.2064
+    ],
+    [
+     -96.288,
+     34.5829
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -97.3127,
+     34.7094
+    ],
+    [
+     -97.8869,
+     35.0211
+    ],
+    [
+     -99.553,
+     34.9339
+    ],
+    [
+     -99.8442,
+     34.746
+    ],
+    [
+     -96.2512,
+     35.0529
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -96.6543,
+     34.3135
+    ],
+    [
+     -97.9346,
+     35.9494
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -96.8814,
+     35.7031
+    ],
+    [
+     -97.451,
+     35.9143
+    ],
+    [
+     -97.4498,
+     35.0164
+    ],
+    [
+     -97.0716,
+     34.4858
+    ],
+    [
+     -97.4094,
+     35.5546
+    ],
+    [
+     -96.9753,
+     36.0792
+    ],
+    [
+     -96.6918,
+     34.7214
+    ],
+    [
+     -96.957,
+     35.2114
+    ],
+    [
+     -96.6029,
+     35.1584
+    ],
+    [
+     -97.8556,
+     34.4814
+    ],
+    [
+     -98.9923,
+     35.2899
+    ]
+   ],
+   "lon": -97.702,
+   "lat": 35.075,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2545,10 +2545,6 @@
     "Western Monmouth",
     "Ocean",
     "Southeastern Burlington",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -2566,6 +2562,10 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "Eastern Monmouth",
     "Coastal Ocean",
     "Delaware Beaches",
@@ -3103,15 +3103,15 @@
    "certainty": "Possible",
    "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
     "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
     "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
     "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
@@ -3133,9 +3133,9 @@
     "73485"
    ],
    "sent": "2026-11-24T06:27:00Z",
-   "onset": "2026-11-26T03:00:00Z",
+   "onset": "2026-11-26T09:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
