@@ -1,56 +1,6 @@
 {
  "records": [
   {
-   "id": "KSEW.CF.W.0006.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast",
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
-    "San Juan County"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031",
-    "53055"
-   ],
-   "sent": "2026-11-24T15:42:00Z",
-   "onset": "2026-11-24T16:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ],
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.587,
-   "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -213,16 +163,16 @@
     "Salem",
     "Ocean",
     "Coastal Ocean",
+    "Kent",
+    "Cumberland",
+    "Middlesex",
+    "Western Monmouth",
+    "Eastern Monmouth",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
-    "Southeastern Burlington",
-    "Middlesex",
-    "Western Monmouth",
-    "Eastern Monmouth",
-    "Kent",
-    "Cumberland"
+    "Southeastern Burlington"
    ],
    "counties": [
     "10001",
@@ -739,6 +689,81 @@
    ],
    "lon": -117.277,
    "lat": 33.35,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0007.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031"
+   ],
+   "sent": "2026-11-24T22:38:00Z",
+   "onset": "2026-11-25T17:00:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ef71d776482f37ece5daaf955b4d1ea69c8c9f7.002.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ]
+   ],
+   "lon": -123.748,
+   "lat": 47.676,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0006.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "San Juan County"
+   ],
+   "counties": [
+    "53055"
+   ],
+   "sent": "2026-11-24T22:38:00Z",
+   "onset": "2026-11-24T22:38:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ef71d776482f37ece5daaf955b4d1ea69c8c9f7.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.104,
+   "lat": 48.507,
    "countries": [
     "US"
    ]
@@ -4111,34 +4136,6 @@
    ]
   },
   {
-   "id": "KEKA.SR.W.0007.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
-    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57450",
-    "57470"
-   ],
-   "sent": "2026-11-24T17:26:00Z",
-   "onset": "2026-11-24T17:26:00Z",
-   "ends": "2026-11-25T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e21d478ebca0ac616c28b6f19303cd8ea5e7309a.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.SR.W.0004.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -4365,6 +4362,164 @@
    "onset": "2026-11-24T21:22:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e452d3cb74c57675c22f677661b66b8e45b8639c.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.SR.W.0007.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm",
+    "Waters from Pt. St. George to Cape Mendocino CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57450",
+    "57470"
+   ],
+   "sent": "2026-11-24T22:56:00Z",
+   "onset": "2026-11-24T22:56:00Z",
+   "ends": "2026-11-25T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d919225b0bd28d02118197aff8e32e2cd2b91bfa.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.2203.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kiska to Attu Bering Side"
+   ],
+   "counties": [
+    "58786"
+   ],
+   "sent": "2026-11-24T22:59:00Z",
+   "onset": "2026-11-24T22:00:00Z",
+   "ends": "2026-11-26T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d1847943a0861dcfa5741619fcffcb039e2b28e.028.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.2204.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Kiska to Attu Pacific Side"
+   ],
+   "counties": [
+    "58787"
+   ],
+   "sent": "2026-11-24T22:59:00Z",
+   "onset": "2026-11-24T22:00:00Z",
+   "ends": "2026-11-26T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d1847943a0861dcfa5741619fcffcb039e2b28e.029.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.2202.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Pacific Side"
+   ],
+   "counties": [
+    "58785"
+   ],
+   "sent": "2026-11-24T22:59:00Z",
+   "onset": "2026-11-25T14:00:00Z",
+   "ends": "2026-11-26T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d1847943a0861dcfa5741619fcffcb039e2b28e.027.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.2201.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Adak to Kiska Bering Side"
+   ],
+   "counties": [
+    "58784"
+   ],
+   "sent": "2026-11-24T22:59:00Z",
+   "onset": "2026-11-25T14:00:00Z",
+   "ends": "2026-11-26T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d1847943a0861dcfa5741619fcffcb039e2b28e.026.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFC.SR.W.2262.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Anchorage AK",
+   "areas": [
+    "Bering Sea Offshore  West of 180 and East of the International Date Line"
+   ],
+   "counties": [
+    "58411"
+   ],
+   "sent": "2026-11-24T22:59:00Z",
+   "onset": "2026-11-25T14:00:00Z",
+   "ends": "2026-11-26T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd779d9ab72bae6c7711b48245a1399973d22a5c.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],

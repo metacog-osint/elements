@@ -172,9 +172,9 @@
    "id": "{45ABD01D-8C3A-4241-98FC-6D6E2A7F629F}",
    "name": "Bagley",
    "acres": 563.0,
-   "contained": null,
+   "contained": 100,
    "discovered": "2026-11-24T15:42:39Z",
-   "updated": "2026-11-24T22:27:50Z",
+   "updated": "2026-11-24T22:37:47Z",
    "state": "MS",
    "county": "Lafayette",
    "cause": "Human",
@@ -335,6 +335,20 @@
    "complexity": null,
    "lon": -67.0458,
    "lat": 17.9913
+  },
+  {
+   "id": "{114DE135-7F43-43C5-8E79-DDE62F489036}",
+   "name": "E Shivley",
+   "acres": 75.0,
+   "contained": null,
+   "discovered": "2026-11-24T20:48:00Z",
+   "updated": "2026-11-24T22:41:07Z",
+   "state": "OR",
+   "county": "Douglas",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -123.1521,
+   "lat": 42.8906
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -617,34 +631,6 @@
    "lat": 45.8066
   },
   {
-   "id": "{589C3365-171E-4230-A248-96B31264E66D}",
-   "name": "Anne Self",
-   "acres": 3.0,
-   "contained": null,
-   "discovered": "2026-11-24T19:08:24Z",
-   "updated": "2026-11-24T22:05:25Z",
-   "state": "WV",
-   "county": "Pendleton",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -79.3017,
-   "lat": 38.7984
-  },
-  {
-   "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
-   "name": "Ia 1490",
-   "acres": 3.0,
-   "contained": null,
-   "discovered": "2026-11-24T21:45:16Z",
-   "updated": "2026-11-24T22:23:51Z",
-   "state": "CO",
-   "county": "Larimer",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -105.3416,
-   "lat": 40.4645
-  },
-  {
    "id": "{745FA1CA-7F89-4038-928F-9C31BFE8C1A2}",
    "name": "Grape Vine",
    "acres": 2.5,
@@ -671,6 +657,20 @@
    "complexity": null,
    "lon": -89.1591,
    "lat": 45.8507
+  },
+  {
+   "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
+   "name": "Cedar Point",
+   "acres": 1.6,
+   "contained": null,
+   "discovered": "2026-11-24T21:45:16Z",
+   "updated": "2026-11-24T22:56:29Z",
+   "state": "CO",
+   "county": "Larimer",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -105.3416,
+   "lat": 40.4645
   },
   {
    "id": "{DA02A1CD-0098-4C01-93F4-A98706DA03EF}",
@@ -727,20 +727,6 @@
    "complexity": null,
    "lon": -118.7569,
    "lat": 45.6675
-  },
-  {
-   "id": "{96E86E6F-1825-49E9-A30A-876A0AC8DE1E}",
-   "name": "Little Indian Creek",
-   "acres": 1.0,
-   "contained": 0,
-   "discovered": "2026-11-24T20:09:00Z",
-   "updated": "2026-11-24T21:34:34Z",
-   "state": "KY",
-   "county": "Knox",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -84.0012,
-   "lat": 36.8483
   },
   {
    "id": "{B4E6A1AD-8B8A-4756-9561-B931AC81B1BC}",
@@ -1329,6 +1315,34 @@
    "complexity": null,
    "lon": -119.9742,
    "lat": 37.5743
+  },
+  {
+   "id": "{7ABAE2E9-7420-469B-8985-33269647B9FE}",
+   "name": "Green",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-05-13T20:25:03Z",
+   "updated": "2026-11-24T22:54:39Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.6377,
+   "lat": 41.722
+  },
+  {
+   "id": "{5C4D82D3-D90F-4D71-8932-C6181CD3BCA8}",
+   "name": "Freeman",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-05-18T19:18:46Z",
+   "updated": "2026-11-24T22:58:37Z",
+   "state": "CA",
+   "county": "Siskiyou",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -122.5198,
+   "lat": 41.6816
   },
   {
    "id": "{024A25D5-05F0-44AE-A33F-963663D9953D}",
