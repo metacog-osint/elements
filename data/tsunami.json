@@ -1,6 +1,27 @@
 {
  "records": [
   {
+   "id": "NTWC-20261124T163726Z",
+   "centre": "NTWC",
+   "msg_type": "Alert",
+   "sent": "2026-11-24T16:43:10Z",
+   "event": "Tsunami Information",
+   "level": "information",
+   "severity": "Minor",
+   "headline": "This is a Tsunami Information Statement.",
+   "location": "40 miles SW of Palmer, Alaska",
+   "magnitude": 4.1,
+   "magnitude_type": "Mwp",
+   "origin": "2026-11-24T16:37:26Z",
+   "depth_km": 1.0,
+   "lat": 61.3,
+   "lon": -150.1,
+   "countries": [
+    "US"
+   ],
+   "url": "https://www.tsunami.gov/events/PAAQ/2026/11/24/tp0m6e/1/WEAK53/PAAQCAP.xml"
+  },
+  {
    "id": "NTWC-20261123T024100Z",
    "centre": "NTWC",
    "msg_type": "Alert",
