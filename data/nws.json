@@ -213,11 +213,11 @@
    "certainty": "Likely",
    "sender": "NWS Seattle WA",
    "areas": [
+    "San Juan County",
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
     "Northern Washington Coast",
-    "Grays Harbor County Coast",
-    "San Juan County"
+    "Grays Harbor County Coast"
    ],
    "counties": [
     "53009",
@@ -226,9 +226,9 @@
     "53055"
    ],
    "sent": "2026-11-24T15:42:00Z",
-   "onset": "2026-11-24T16:00:00Z",
+   "onset": "2026-11-24T15:42:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -400,6 +400,102 @@
    ],
    "lon": -119.873,
    "lat": 34.761,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Inland Sussex",
+    "Delaware Beaches",
+    "New Castle",
+    "Salem",
+    "Ocean",
+    "Coastal Ocean",
+    "Kent",
+    "Cumberland",
+    "Middlesex",
+    "Western Monmouth",
+    "Eastern Monmouth",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "34001",
+    "34005",
+    "34009",
+    "34011",
+    "34023",
+    "34025",
+    "34029",
+    "34033"
+   ],
+   "sent": "2026-11-24T19:30:00Z",
+   "onset": "2026-11-25T10:00:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d06f6a6ba7134076d837ace270ff0f1ace0f385f.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -74.6338,
+     39.4694
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ]
+   ],
+   "lon": -74.902,
+   "lat": 39.57,
    "countries": [
     "US"
    ]
@@ -1341,6 +1437,97 @@
    ],
    "lon": -80.476,
    "lat": 26.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.FA.A.0005.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Washington",
+    "Tyrrell",
+    "Mainland Dare",
+    "Beaufort",
+    "Mainland Hyde",
+    "Jones",
+    "Pamlico",
+    "Northern Craven",
+    "Southern Craven",
+    "West Carteret",
+    "East Carteret",
+    "Inland Onslow",
+    "Coastal Onslow",
+    "Northern Outer Banks",
+    "Ocracoke Island",
+    "Hatteras Island"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37055",
+    "37095",
+    "37103",
+    "37133",
+    "37137",
+    "37177",
+    "37187"
+   ],
+   "sent": "2026-11-24T19:06:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07d919a4b40cb6ee0677104cbe662411c1a30252.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -76.6653,
+     35.1476
+    ],
+    [
+     -76.1653,
+     35.8704
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -76.664,
+   "lat": 35.313,
    "countries": [
     "US"
    ]
@@ -3051,68 +3238,6 @@
    ]
   },
   {
-   "id": "KAKQ.HW.A.0002.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Accomack",
-    "Northampton"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "51001",
-    "51131"
-   ],
-   "sent": "2026-11-24T07:35:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.efdb87cd498430ce67cea1a25df15b338a18dce1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -75.924,
-     37.3028
-    ]
-   ],
-   "lon": -75.754,
-   "lat": 38.027,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.A.0034.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3426,6 +3551,93 @@
    ],
    "lon": -75.084,
    "lat": 40.061,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Western Currituck",
+    "Eastern Currituck",
+    "Virginia Beach",
+    "Norfolk",
+    "Portsmouth",
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Inland Worcester",
+    "Maryland Beaches",
+    "Accomack",
+    "Northampton"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "37053",
+    "51001",
+    "51131",
+    "51710",
+    "51740",
+    "51810"
+   ],
+   "sent": "2026-11-24T19:17:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c68e126110763370a69085675e5ec984f09ec03b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -76.0291,
+     36.7795
+    ]
+   ],
+   "lon": -75.91,
+   "lat": 37.51,
    "countries": [
     "US"
    ]
@@ -3813,6 +4025,58 @@
    ]
   },
   {
+   "id": "KAKQ.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
+    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
+    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
+    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
+    "Chesapeake Bay from Smith Point to Windmill Point VA",
+    "Chesapeake Bay from Windmill Point to New Point Comfort VA",
+    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
+    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
+    "Chesapeake Bay from New Point Comfort to Little Creek VA",
+    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
+    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
+    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
+    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "73630",
+    "73631",
+    "73632",
+    "73634",
+    "73650",
+    "73652",
+    "73654",
+    "73656",
+    "73658",
+    "73680",
+    "73682",
+    "73684",
+    "73686",
+    "73688"
+   ],
+   "sent": "2026-11-24T19:07:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5d6dbd8eef910e92c1b3496f822f964d9524434.005.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLWX.SR.A.0001.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3831,58 +4095,6 @@
    "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-27T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83259b68b5f2c4db99793037725ab148756226ac.001.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.SR.A.0005.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
-    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
-    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
-    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
-    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
-    "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
-    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
-    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
-    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
-    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
-    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
-    "Chesapeake Bay from Smith Point to Windmill Point VA",
-    "Chesapeake Bay from Windmill Point to New Point Comfort VA"
-   ],
-   "counties": [
-    "73630",
-    "73631",
-    "73632",
-    "73634",
-    "73650",
-    "73652",
-    "73654",
-    "73656",
-    "73658",
-    "73680",
-    "73682",
-    "73684",
-    "73686",
-    "73688"
-   ],
-   "sent": "2026-11-24T17:59:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a4d09fad0de28012d9166221254340204e86794.005.2",
    "geometry": null,
    "vtec": true,
    "points": [],
