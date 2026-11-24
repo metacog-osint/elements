@@ -70,43 +70,6 @@
    ]
   },
   {
-   "id": "KCHS.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Coastal Colleton",
-    "Charleston"
-   ],
-   "counties": [
-    "45019",
-    "45029"
-   ],
-   "sent": "2026-11-24T18:06:00Z",
-   "onset": "2026-11-25T10:00:00Z",
-   "ends": "2026-11-25T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.673b61598f460636ca4d6ae63636f763422aefc5.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.9425,
-     32.8005
-    ],
-    [
-     -80.6564,
-     32.8494
-    ]
-   ],
-   "lon": -80.299,
-   "lat": 32.825,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -701,20 +664,22 @@
    "certainty": "Likely",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
     "Northern Washington Coast",
-    "Grays Harbor County Coast"
+    "Grays Harbor County Coast",
+    "San Juan County",
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca"
    ],
    "counties": [
     "53009",
     "53027",
-    "53031"
+    "53031",
+    "53055"
    ],
-   "sent": "2026-11-24T22:38:00Z",
+   "sent": "2026-11-24T23:15:00Z",
    "onset": "2026-11-25T17:00:00Z",
    "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ef71d776482f37ece5daaf955b4d1ea69c8c9f7.002.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f84e1ed300d8e6141d58f7c6d1e4d920a46ae0ee.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -729,10 +694,14 @@
     [
      -123.5271,
      47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
     ]
    ],
-   "lon": -123.748,
-   "lat": 47.676,
+   "lon": -123.587,
+   "lat": 47.884,
    "countries": [
     "US"
    ]
@@ -750,10 +719,10 @@
    "counties": [
     "53055"
    ],
-   "sent": "2026-11-24T22:38:00Z",
-   "onset": "2026-11-24T22:38:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ef71d776482f37ece5daaf955b4d1ea69c8c9f7.004.1",
+   "sent": "2026-11-24T23:15:00Z",
+   "onset": "2026-11-24T23:15:00Z",
+   "ends": "2026-11-25T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f84e1ed300d8e6141d58f7c6d1e4d920a46ae0ee.001.3",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -764,6 +733,43 @@
    ],
    "lon": -123.104,
    "lat": 48.507,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Coastal Colleton",
+    "Charleston"
+   ],
+   "counties": [
+    "45019",
+    "45029"
+   ],
+   "sent": "2026-11-24T23:28:00Z",
+   "onset": "2026-11-25T10:00:00Z",
+   "ends": "2026-11-25T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b25c063bae12d33dc3066c7e5b17e80d28fb795f.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.9425,
+     32.8005
+    ],
+    [
+     -80.6564,
+     32.8494
+    ]
+   ],
+   "lon": -80.299,
+   "lat": 32.825,
    "countries": [
     "US"
    ]
