@@ -1996,205 +1996,6 @@
    ]
   },
   {
-   "id": "KOUN.FZ.W.0002.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Custer",
-    "Blaine",
-    "Kingfisher",
-    "Logan",
-    "Payne",
-    "Washita",
-    "Caddo",
-    "Canadian",
-    "Oklahoma",
-    "Lincoln",
-    "Grady",
-    "McClain",
-    "Cleveland",
-    "Pottawatomie",
-    "Seminole",
-    "Hughes",
-    "Harmon",
-    "Greer",
-    "Kiowa",
-    "Jackson",
-    "Comanche",
-    "Stephens",
-    "Garvin",
-    "Murray",
-    "Pontotoc",
-    "Coal",
-    "Carter",
-    "Johnston",
-    "Atoka"
-   ],
-   "counties": [
-    "40005",
-    "40011",
-    "40015",
-    "40017",
-    "40019",
-    "40027",
-    "40029",
-    "40031",
-    "40039",
-    "40049",
-    "40051",
-    "40055",
-    "40057",
-    "40063",
-    "40065",
-    "40069",
-    "40073",
-    "40075",
-    "40081",
-    "40083",
-    "40087",
-    "40099",
-    "40109",
-    "40119",
-    "40123",
-    "40125",
-    "40133",
-    "40137",
-    "40149"
-   ],
-   "sent": "2026-11-24T06:32:00Z",
-   "onset": "2026-11-24T10:00:00Z",
-   "ends": "2026-11-24T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f5bf45ccfaca989ad7994503a6fb53c06fb40e.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -96.0366,
-     34.3925
-    ],
-    [
-     -98.429,
-     35.8778
-    ],
-    [
-     -98.381,
-     35.1679
-    ],
-    [
-     -97.9799,
-     35.5434
-    ],
-    [
-     -97.2879,
-     34.2518
-    ],
-    [
-     -97.3231,
-     35.2064
-    ],
-    [
-     -96.288,
-     34.5829
-    ],
-    [
-     -98.4766,
-     34.6626
-    ],
-    [
-     -98.9974,
-     35.6456
-    ],
-    [
-     -97.3127,
-     34.7094
-    ],
-    [
-     -97.8869,
-     35.0211
-    ],
-    [
-     -99.553,
-     34.9339
-    ],
-    [
-     -99.8442,
-     34.746
-    ],
-    [
-     -96.2512,
-     35.0529
-    ],
-    [
-     -99.4122,
-     34.594
-    ],
-    [
-     -96.6543,
-     34.3135
-    ],
-    [
-     -97.9346,
-     35.9494
-    ],
-    [
-     -98.9816,
-     34.9215
-    ],
-    [
-     -96.8814,
-     35.7031
-    ],
-    [
-     -97.451,
-     35.9143
-    ],
-    [
-     -97.4498,
-     35.0164
-    ],
-    [
-     -97.0716,
-     34.4858
-    ],
-    [
-     -97.4094,
-     35.5546
-    ],
-    [
-     -96.9753,
-     36.0792
-    ],
-    [
-     -96.6918,
-     34.7214
-    ],
-    [
-     -96.957,
-     35.2114
-    ],
-    [
-     -96.6029,
-     35.1584
-    ],
-    [
-     -97.8556,
-     34.4814
-    ],
-    [
-     -98.9923,
-     35.2899
-    ]
-   ],
-   "lon": -97.702,
-   "lat": 35.075,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2289,58 +2090,6 @@
    "onset": "2026-11-23T13:00:00Z",
    "ends": "2026-11-25T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ad80020560b0330144d454be93e9b590287174b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.8485.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-23T12:45:00Z",
-   "onset": "2026-11-23T12:00:00Z",
-   "ends": "2026-11-24T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7396f4cf93d54e0af7f554741f745e99129bafb1.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.8487.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point from 15 to 75 NM"
-   ],
-   "counties": [
-    "58861"
-   ],
-   "sent": "2026-11-23T12:45:00Z",
-   "onset": "2026-11-23T12:00:00Z",
-   "ends": "2026-11-24T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7396f4cf93d54e0af7f554741f745e99129bafb1.010.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2574,6 +2323,10 @@
     "Western Monmouth",
     "Ocean",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -2591,10 +2344,6 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "Eastern Monmouth",
     "Coastal Ocean",
     "Delaware Beaches",
@@ -3296,12 +3045,12 @@
    "certainty": "Possible",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
     "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
     "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
     "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
@@ -3326,9 +3075,9 @@
     "73485"
    ],
    "sent": "2026-11-24T06:27:00Z",
-   "onset": "2026-11-26T03:00:00Z",
+   "onset": "2026-11-26T09:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3463,6 +3212,34 @@
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adf49c99b250b13c97e6c9cc9a22861e314b3837.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.SR.A.0001.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Chesapeake Bay from Drum Point MD to Smith Point VA",
+    "Tangier Sound and the inland waters surrounding Bloodsworth Island"
+   ],
+   "counties": [
+    "73534",
+    "73543"
+   ],
+   "sent": "2026-11-24T13:46:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83259b68b5f2c4db99793037725ab148756226ac.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
