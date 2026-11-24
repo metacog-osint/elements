@@ -160,7 +160,7 @@
    "acres": 900.0,
    "contained": 20,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-24T13:04:45Z",
+   "updated": "2026-11-24T14:47:56Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -561,6 +561,20 @@
    "lat": 38.2799
   },
   {
+   "id": "{88C3DB93-330B-40E9-A5F4-478356DC09D5}",
+   "name": "Mile Marker 98",
+   "acres": 15.0,
+   "contained": null,
+   "discovered": "2026-11-24T05:01:00Z",
+   "updated": "2026-11-24T14:50:59Z",
+   "state": "VA",
+   "county": "Augusta",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -78.782,
+   "lat": 38.092
+  },
+  {
    "id": "{119CA3F3-916E-4009-9F30-64198004251C}",
    "name": "Blevins Rd off hwy 7",
    "acres": 11.0,
@@ -673,16 +687,30 @@
    "lat": 45.8066
   },
   {
+   "id": "{745FA1CA-7F89-4038-928F-9C31BFE8C1A2}",
+   "name": "Grape Vine",
+   "acres": 2.5,
+   "contained": null,
+   "discovered": "2026-11-21T06:00:00Z",
+   "updated": "2026-11-24T14:55:09Z",
+   "state": "WI",
+   "county": "Columbia",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.2961,
+   "lat": 43.4227
+  },
+  {
    "id": "{1E5962F4-83E5-4895-9232-FAF0B9A45605}",
    "name": "Burnt Hill",
    "acres": 2.0,
    "contained": null,
    "discovered": "2026-11-23T22:12:01Z",
-   "updated": "2026-11-24T00:58:43Z",
+   "updated": "2026-11-24T14:59:40Z",
    "state": "WA",
    "county": "Clallam",
    "cause": "Undetermined",
-   "complexity": null,
+   "complexity": "Complex Incident",
    "lon": -123.099,
    "lat": 48.0065
   },
@@ -979,6 +1007,20 @@
    "complexity": null,
    "lon": -88.9785,
    "lat": 46.0727
+  },
+  {
+   "id": "{B4138610-641F-418A-9C1F-B7CA17858046}",
+   "name": "Grape Vine 2",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-21T06:00:00Z",
+   "updated": "2026-11-24T14:57:36Z",
+   "state": "WI",
+   "county": "Columbia",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -89.296,
+   "lat": 43.4261
   },
   {
    "id": "{7E15FC1A-2334-4254-B9CA-69DFE0C2BA66}",
@@ -1567,6 +1609,20 @@
    "complexity": null,
    "lon": -118.1123,
    "lat": 34.7188
+  },
+  {
+   "id": "{DB12D75E-3ECE-40C9-8927-02ABC11696F1}",
+   "name": "Lac-424967",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-24T14:45:12Z",
+   "updated": "2026-11-24T14:45:37Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.9632,
+   "lat": 34.5302
   }
  ]
 }
