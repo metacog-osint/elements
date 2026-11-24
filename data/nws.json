@@ -213,10 +213,10 @@
    "certainty": "Likely",
    "sender": "NWS Seattle WA",
    "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast",
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast",
     "San Juan County"
    ],
    "counties": [
@@ -228,7 +228,7 @@
    "sent": "2026-11-24T15:42:00Z",
    "onset": "2026-11-24T16:00:00Z",
    "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c0fc6a4b027f4d7e8d5e7132ed4f015227c89b9.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -369,19 +369,19 @@
    "certainty": "Likely",
    "sender": "NWS Los Angeles/Oxnard CA",
    "areas": [
+    "Ventura County Beaches",
     "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches",
-    "Ventura County Beaches"
+    "Santa Barbara County Central Coast Beaches"
    ],
    "counties": [
     "06079",
     "06083",
     "06111"
    ],
-   "sent": "2026-11-24T18:14:00Z",
-   "onset": "2026-11-25T14:00:00Z",
+   "sent": "2026-11-24T18:36:00Z",
+   "onset": "2026-11-25T16:00:00Z",
    "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db43f5f46f6e63ebf3d0174c79dfa1cfcc423f15.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.528b0dc1a1328ccaf70933f8872bd3fbab5d0189.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1269,52 +1269,6 @@
    ]
   },
   {
-   "id": "KMFL.FA.A.0004.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Metro Palm Beach County",
-    "Metro Broward County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County"
-   ],
-   "counties": [
-    "12011",
-    "12086",
-    "12099"
-   ],
-   "sent": "2026-11-24T09:16:00Z",
-   "onset": "2026-11-25T00:00:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2294f5dca893e321703cee0f5c17f66554bab301.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.476,
-   "lat": 26.153,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.FA.A.0012.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1341,6 +1295,52 @@
    ],
    "lon": -123.173,
    "lat": 47.351,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FA.A.0004.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Metro Palm Beach County",
+    "Metro Broward County",
+    "Metropolitan Miami Dade",
+    "Coastal Palm Beach County",
+    "Coastal Broward County",
+    "Coastal Miami Dade County"
+   ],
+   "counties": [
+    "12011",
+    "12086",
+    "12099"
+   ],
+   "sent": "2026-11-24T19:01:00Z",
+   "onset": "2026-11-25T00:00:00Z",
+   "ends": "2026-11-26T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c134a148fde7fa3e21c1a52e04d19da8f1fdac3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ],
+    [
+     -80.4484,
+     26.6491
+    ]
+   ],
+   "lon": -80.476,
+   "lat": 26.153,
    "countries": [
     "US"
    ]
@@ -2582,6 +2582,61 @@
    ]
   },
   {
+   "id": "KHGX.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Houston/Galveston TX",
+   "areas": [
+    "Houston",
+    "Trinity",
+    "Madison",
+    "Burleson",
+    "Brazos"
+   ],
+   "counties": [
+    "48041",
+    "48051",
+    "48225",
+    "48313",
+    "48455"
+   ],
+   "sent": "2026-11-24T18:37:00Z",
+   "onset": "2026-11-26T05:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f44f10d5577b3c3400c0dbbde1c1c33475a81cc.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.3024,
+     30.6567
+    ],
+    [
+     -96.6221,
+     30.4935
+    ],
+    [
+     -95.4216,
+     31.323
+    ],
+    [
+     -95.9304,
+     30.9669
+    ],
+    [
+     -95.1517,
+     31.0967
+    ]
+   ],
+   "lon": -95.886,
+   "lat": 30.907,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.5613.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2895,50 +2950,32 @@
    ]
   },
   {
-   "id": "KPHI.HW.A.0003.2026",
-   "event": "High Wind Watch",
+   "id": "KPHI.HW.W.0003.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Mount Holly NJ",
    "areas": [
     "Kent",
     "Queen Anne's",
     "Talbot",
     "Caroline",
-    "Western Monmouth",
-    "Ocean",
-    "Southeastern Burlington",
-    "New Castle",
-    "Hunterdon",
-    "Somerset",
-    "Middlesex",
-    "Mercer",
-    "Salem",
-    "Gloucester",
-    "Camden",
-    "Northwestern Burlington",
-    "Delaware",
-    "Philadelphia",
-    "Western Chester",
-    "Eastern Chester",
-    "Western Montgomery",
-    "Eastern Montgomery",
-    "Upper Bucks",
-    "Lower Bucks",
     "Inland Sussex",
+    "Delaware Beaches",
     "Cumberland",
     "Atlantic",
     "Cape May",
-    "Eastern Monmouth",
-    "Coastal Ocean",
-    "Delaware Beaches",
     "Atlantic Coastal Cape May",
-    "Coastal Atlantic"
+    "Coastal Atlantic",
+    "Western Monmouth",
+    "Eastern Monmouth",
+    "Ocean",
+    "Coastal Ocean",
+    "Southeastern Burlington"
    ],
    "counties": [
     "10001",
-    "10003",
     "10005",
     "24011",
     "24029",
@@ -2946,37 +2983,21 @@
     "24041",
     "34001",
     "34005",
-    "34007",
     "34009",
     "34011",
-    "34015",
-    "34019",
-    "34021",
-    "34023",
     "34025",
-    "34029",
-    "34033",
-    "34035",
-    "42017",
-    "42029",
-    "42045",
-    "42091",
-    "42101"
+    "34029"
    ],
-   "sent": "2026-11-24T06:09:00Z",
+   "sent": "2026-11-24T18:51:00Z",
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e140ce14c79a05c0cc0fb8f966e2afe44c45f898.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f34d1003a6e4e4d688048f6b99465cf4a3ab0184.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
     [
      -75.503,
      39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
     ],
     [
      -75.337,
@@ -3007,10 +3028,6 @@
      39.8758
     ],
     [
-     -74.9612,
-     39.8024
-    ],
-    [
      -74.8464,
      39.0858
     ],
@@ -3019,60 +3036,16 @@
      39.3284
     ],
     [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -74.912,
-     40.5653
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
      -74.1524,
      40.287
     ],
     [
      -74.2589,
      39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -74.6199,
-     40.5655
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.7498,
-     39.974
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.1333,
-     40.0094
     ]
    ],
-   "lon": -75.17,
-   "lat": 39.703,
+   "lon": -75.228,
+   "lat": 39.299,
    "countries": [
     "US"
    ]
@@ -3310,6 +3283,149 @@
    ],
    "lon": -73.867,
    "lat": 40.733,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PHFO.HW.A.0005.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Honolulu HI",
+   "areas": [
+    "Big Island Summit"
+   ],
+   "counties": [
+    "15001"
+   ],
+   "sent": "2026-11-24T18:42:00Z",
+   "onset": "2026-11-26T04:00:00Z",
+   "ends": "2026-11-27T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.335cf2b339597c95fbbb7038998e8bb4bc2e12fd.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -155.5024,
+     19.5978
+    ]
+   ],
+   "lon": -155.502,
+   "lat": 19.598,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.HW.A.0003.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "New Castle",
+    "Hunterdon",
+    "Somerset",
+    "Middlesex",
+    "Mercer",
+    "Salem",
+    "Gloucester",
+    "Camden",
+    "Northwestern Burlington",
+    "Delaware",
+    "Philadelphia",
+    "Western Chester",
+    "Eastern Chester",
+    "Western Montgomery",
+    "Eastern Montgomery",
+    "Upper Bucks",
+    "Lower Bucks"
+   ],
+   "counties": [
+    "10003",
+    "34005",
+    "34007",
+    "34015",
+    "34019",
+    "34021",
+    "34023",
+    "34033",
+    "34035",
+    "42017",
+    "42029",
+    "42045",
+    "42091",
+    "42101"
+   ],
+   "sent": "2026-11-24T18:51:00Z",
+   "onset": "2026-11-26T09:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f34d1003a6e4e4d688048f6b99465cf4a3ab0184.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -74.912,
+     40.5653
+    ],
+    [
+     -74.7037,
+     40.2825
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -74.6199,
+     40.5655
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.7498,
+     39.974
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.3702,
+     40.21
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.084,
+   "lat": 40.061,
    "countries": [
     "US"
    ]
@@ -3663,18 +3779,18 @@
    ]
   },
   {
-   "id": "KMHX.SR.A.0003.2026",
-   "event": "Storm Watch",
+   "id": "KMHX.SR.W.0004.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
     "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
     "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
     "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM"
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
    ],
    "counties": [
     "75180",
@@ -3683,10 +3799,10 @@
     "75186",
     "75188"
    ],
-   "sent": "2026-11-24T09:22:00Z",
-   "onset": "2026-11-26T03:00:00Z",
+   "sent": "2026-11-24T18:40:00Z",
+   "onset": "2026-11-26T00:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adf49c99b250b13c97e6c9cc9a22861e314b3837.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04246d59d3c497c0b84c3880596bd21ed6b92c53.006.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3777,6 +3893,48 @@
    ]
   },
   {
+   "id": "KBOX.SR.A.0005.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
+    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
+    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
+    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM",
+    "Nantucket Sound",
+    "Vineyard Sound",
+    "Buzzards Bay",
+    "Rhode Island Sound",
+    "Block Island Sound"
+   ],
+   "counties": [
+    "73232",
+    "73233",
+    "73234",
+    "73235",
+    "73237",
+    "73255",
+    "73256",
+    "73282",
+    "73283"
+   ],
+   "sent": "2026-11-24T18:20:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b251712c33b3c3c0d6205ae6aae459543b53145.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOKX.SR.A.0003.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -3811,52 +3969,10 @@
     "73383",
     "73385"
    ],
-   "sent": "2026-11-24T18:14:00Z",
+   "sent": "2026-11-24T18:53:00Z",
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.041500f0c6bb9283cbcedf2e6cc6509422473463.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBOX.SR.A.0005.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
-    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
-    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
-    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM",
-    "Nantucket Sound",
-    "Vineyard Sound",
-    "Buzzards Bay",
-    "Rhode Island Sound",
-    "Block Island Sound"
-   ],
-   "counties": [
-    "73232",
-    "73233",
-    "73234",
-    "73235",
-    "73237",
-    "73255",
-    "73256",
-    "73282",
-    "73283"
-   ],
-   "sent": "2026-11-24T18:20:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b251712c33b3c3c0d6205ae6aae459543b53145.003.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807ad9251567c9f67fc3d1ae452fec7f713a2061.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4171,6 +4287,67 @@
    ],
    "lon": -89.365,
    "lat": 37.755,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILX.WS.A.0002.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Lincoln IL",
+   "areas": [
+    "Cass",
+    "Menard",
+    "Scott",
+    "Morgan",
+    "Sangamon",
+    "Christian"
+   ],
+   "counties": [
+    "17017",
+    "17021",
+    "17129",
+    "17137",
+    "17167",
+    "17171"
+   ],
+   "sent": "2026-11-24T18:38:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc110977aba7fe4274dada867ed75d30b6ca40f9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.2457,
+     39.9692
+    ],
+    [
+     -89.2796,
+     39.5455
+    ],
+    [
+     -89.7941,
+     40.0226
+    ],
+    [
+     -90.205,
+     39.7177
+    ],
+    [
+     -89.6624,
+     39.7569
+    ],
+    [
+     -90.4778,
+     39.637
+    ]
+   ],
+   "lon": -89.944,
+   "lat": 39.775,
    "countries": [
     "US"
    ]
