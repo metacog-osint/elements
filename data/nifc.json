@@ -706,7 +706,7 @@
    "acres": 1.0,
    "contained": null,
    "discovered": "2026-07-07T22:35:43Z",
-   "updated": "2026-11-24T18:03:35Z",
+   "updated": "2026-11-24T18:34:16Z",
    "state": "OR",
    "county": "Umatilla",
    "cause": "Human",
@@ -1051,6 +1051,20 @@
    "lat": 46.0589
   },
   {
+   "id": "{72CEF85B-EDDC-4BFA-9AF8-F1A0726F037A}",
+   "name": "Snow",
+   "acres": 0.2,
+   "contained": null,
+   "discovered": "2026-11-24T01:37:49Z",
+   "updated": "2026-11-24T18:18:35Z",
+   "state": "MT",
+   "county": "Sanders",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -115.0697,
+   "lat": 47.7015
+  },
+  {
    "id": "{9B13AE09-2A40-48DC-BFF4-DF0EF65ACB34}",
    "name": "Hail Point",
    "acres": 0.1,
@@ -1294,13 +1308,13 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-24T15:42:39Z",
-   "updated": "2026-11-24T16:03:04Z",
+   "updated": "2026-11-24T18:18:43Z",
    "state": "MS",
    "county": "Lafayette",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -89.4083,
-   "lat": 34.475
+   "cause": "Human",
+   "complexity": "Type 4 Incident",
+   "lon": -89.4053,
+   "lat": 34.4789
   },
   {
    "id": "{39CCC1EA-6662-48F6-98C8-1015F396BC15}",
@@ -1308,11 +1322,11 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-24T16:25:26Z",
-   "updated": "2026-11-24T17:45:49Z",
+   "updated": "2026-11-24T18:25:08Z",
    "state": "IN",
    "county": "Orange",
    "cause": "Undetermined",
-   "complexity": null,
+   "complexity": "Type 5 Incident",
    "lon": -86.4093,
    "lat": 38.4881
   },
