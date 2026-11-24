@@ -148,6 +148,27 @@ every Blackout deploy on 18 Nov 2026 from 22:14 UTC until Blackout passed `--now
 proximity pairs, callouts and the belt board), which moved from Noisefloor on 18 Nov 2026; Noisefloor's row already
 named no GEO lane. Registry text only.
 
+**0.6.5 (21 Nov 2026): Blackout's registry row names NetBlocks and the trend series.** `owns` adds NetBlocks' reports
+(from its public Bluesky posts: times, links, parsed fields and short excerpts) and the daily outage series per country
+(IODA, Cloudflare Radar and NetBlocks, for 7, 14 and 30-day trends). `terms` adds NetBlocks' terms word for word from
+Blackout's doctrine/sources.json: NetBlocks publishes no reuse licence (all rights reserved), so Blackout never
+republishes a post's full text. Registry text only.
+
+**0.6.6 (21 Nov 2026): Blackout's registry row names internet-user exposure.** `owns` adds internet users per
+country (ITU's share of people online times the population, via the World Bank's WDI) as an upper bound on exposure
+beside each country outage and in the trend series, never users affected. `terms` adds the ITU/World Bank terms word for
+word from Blackout's doctrine/sources.json. Registry text only.
+
+**0.6.7 (20 Nov 2026): Blackout's registry row names Viasat MSS.** `owns` adds Viasat MSS to the providers' own
+status feeds (Viasat's page for its mobile satellite services, the one satellite operator beyond Starlink found with a
+readable feed). `terms` adds its licence word for word from Blackout's doctrine/sources.json. Registry text only.
+
+**0.6.8 (20 Nov 2026): Blackout's registry row names satellite-network traffic drops.** `owns` adds satellite
+networks' traffic drops against their own weekday-matched normal (Blackout's BO-IND-21, read from Cloudflare Radar
+traffic by network). `terms` already credits Cloudflare Radar data CC BY-NC 4.0. Registry text only.
+
+**0.6.9 (20 Nov 2026): Relief's registry row matches relief-0.3.** `status_note` and `owns` name the HDX HAPI and ReliefWeb lanes (IPC stays planned); `terms` adds the HAPI and ReliefWeb terms. Registry text only.
+
 **Tests:** `python tests/test_kit.py`, `python tests/test_history.py` and `node tests/test_js.mjs`.
 
 **Claims.** The methods are aligned with the principles of ICD 203, 206 and 208. Those directives bind US Intelligence

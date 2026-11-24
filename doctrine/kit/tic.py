@@ -8,6 +8,7 @@
     python tic.py likelihood 0.7
     python tic.py history <feed.geojson> --dir history [--health health.json] [--ended site/data/ended.geojson]
     python tic.py tips [doctrine] [--bus URL|file] [--feed URL|file] [--json tips.json]
+    python tic.py guard --base <sha>  (fail if a pull request adds a local path or private file name)
     python tic.py kitcheck          (in a vendored copy: fail if doctrine/kit was edited by hand)
 """
 
@@ -56,6 +57,8 @@ def main() -> int:
         from tic_doctrine.history import main as run
     elif cmd == "tips":
         from tic_doctrine.tips import main as run
+    elif cmd == "guard":
+        from tic_doctrine.guard import main as run
     elif cmd == "kitcheck":
         return kitcheck()
     elif cmd == "likelihood":
