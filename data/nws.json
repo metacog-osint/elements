@@ -46,8 +46,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
    ],
    "counties": [
     "06059",
@@ -56,7 +56,7 @@
    "sent": "2026-11-23T18:56:00Z",
    "onset": "2026-11-24T12:00:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1447,85 +1447,6 @@
    ]
   },
   {
-   "id": "KEWX.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Austin/San Antonio TX",
-   "areas": [
-    "Llano",
-    "Burnet",
-    "Edwards",
-    "Real",
-    "Kerr",
-    "Bandera",
-    "Gillespie",
-    "Kendall",
-    "Blanco"
-   ],
-   "counties": [
-    "48019",
-    "48031",
-    "48053",
-    "48137",
-    "48171",
-    "48259",
-    "48265",
-    "48299",
-    "48385"
-   ],
-   "sent": "2026-11-23T16:54:00Z",
-   "onset": "2026-11-25T06:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e6ddcc229520c97c2357013fc5183e28fa19eb3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -99.2483,
-     29.7564
-    ],
-    [
-     -98.3993,
-     30.2662
-    ],
-    [
-     -98.2012,
-     30.7896
-    ],
-    [
-     -100.3074,
-     29.9859
-    ],
-    [
-     -98.9418,
-     30.3251
-    ],
-    [
-     -98.7093,
-     29.9435
-    ],
-    [
-     -99.3747,
-     30.0536
-    ],
-    [
-     -98.6847,
-     30.7076
-    ],
-    [
-     -99.8125,
-     29.8301
-    ]
-   ],
-   "lon": -99.075,
-   "lat": 30.184,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KFWD.FZ.W.0003.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1980,6 +1901,85 @@
    ],
    "lon": -97.702,
    "lat": 35.075,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEWX.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Austin/San Antonio TX",
+   "areas": [
+    "Llano",
+    "Burnet",
+    "Edwards",
+    "Real",
+    "Kerr",
+    "Bandera",
+    "Gillespie",
+    "Kendall",
+    "Blanco"
+   ],
+   "counties": [
+    "48019",
+    "48031",
+    "48053",
+    "48137",
+    "48171",
+    "48259",
+    "48265",
+    "48299",
+    "48385"
+   ],
+   "sent": "2026-11-24T04:04:00Z",
+   "onset": "2026-11-25T06:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae4591fcca7d0db157e5b8375f96d0bf4a4fac4e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -99.2483,
+     29.7564
+    ],
+    [
+     -98.3993,
+     30.2662
+    ],
+    [
+     -98.2012,
+     30.7896
+    ],
+    [
+     -100.3074,
+     29.9859
+    ],
+    [
+     -98.9418,
+     30.3251
+    ],
+    [
+     -98.7093,
+     29.9435
+    ],
+    [
+     -99.3747,
+     30.0536
+    ],
+    [
+     -98.6847,
+     30.7076
+    ],
+    [
+     -99.8125,
+     29.8301
+    ]
+   ],
+   "lon": -99.075,
+   "lat": 30.184,
    "countries": [
     "US"
    ]
