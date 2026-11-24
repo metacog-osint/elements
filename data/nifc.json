@@ -631,6 +631,20 @@
    "lat": 45.8066
   },
   {
+   "id": "{32A5FA3D-F63C-473F-8E7F-8D9D053D90BA}",
+   "name": "Kent Fire",
+   "acres": 2.6,
+   "contained": null,
+   "discovered": "2026-11-24T18:43:48Z",
+   "updated": "2026-11-24T23:19:01Z",
+   "state": "MA",
+   "county": "Hampshire",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -72.7632,
+   "lat": 42.2359
+  },
+  {
    "id": "{745FA1CA-7F89-4038-928F-9C31BFE8C1A2}",
    "name": "Grape Vine",
    "acres": 2.5,
@@ -705,14 +719,14 @@
    "name": "Fish Ct",
    "acres": 1.1,
    "contained": null,
-   "discovered": "2026-11-20T06:00:00Z",
-   "updated": "2026-11-23T15:50:27Z",
+   "discovered": "2026-11-21T01:15:00Z",
+   "updated": "2026-11-24T23:11:59Z",
    "state": "WI",
    "county": "Adams",
-   "cause": "Human",
+   "cause": "Undetermined",
    "complexity": null,
-   "lon": -89.6592,
-   "lat": 43.7869
+   "lon": -89.6597,
+   "lat": 43.7866
   },
   {
    "id": "{B4C6DEA2-7598-4630-9D60-83296F269505}",
@@ -1317,6 +1331,20 @@
    "lat": 37.5743
   },
   {
+   "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
+   "name": "Ranch",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-02-07T18:32:00Z",
+   "updated": "2026-11-24T23:23:03Z",
+   "state": "CA",
+   "county": "Ventura",
+   "cause": null,
+   "complexity": null,
+   "lon": -118.8701,
+   "lat": 34.3984
+  },
+  {
    "id": "{7ABAE2E9-7420-469B-8985-33269647B9FE}",
    "name": "Green",
    "acres": 0.0,
@@ -1735,6 +1763,20 @@
    "complexity": null,
    "lon": -117.3184,
    "lat": 34.5661
+  },
+  {
+   "id": "{9C15A523-87B0-4DC8-B619-862A54D0829F}",
+   "name": "Lac-425576",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-24T23:17:22Z",
+   "updated": "2026-11-24T23:17:43Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.2098,
+   "lat": 33.9232
   }
  ]
 }
