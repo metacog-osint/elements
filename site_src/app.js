@@ -360,6 +360,18 @@
   // Today's reading and tiles (tic-shell): counts from this build, worldwide (the Area menu dims rows, never these
   // counts). An alert is above the bottom rung of its own issuer's scale, in the issuer's words; never Elements' rating.
   // The highest alert in its issuer's words, naming the issuer once (a MeteoAlarm title already carries it).
+  // LEAD-BEGIN (tests/test_lead.py runs this block under node)
+  // Which alert leads the reading and the Alerts table. The issuer's own rung decides first (never Elements' rating).
+  // Within a rung, a fast-onset event (cyclone, earthquake, flood, volcano) comes before a slow-onset one, and only
+  // GDACS droughts are slow-onset here: they run for months, so they would otherwise lead on age of report alone.
+  // Then the newer report, then the id, so the order is the same on every load.
+  function slowOnset(p) { return /^elements:gdacs:DR-/.test(p.id || ""); }
+  function leadOrder(x, y, alertOf) {
+    var rx = RANK[alertOf(x)[0]] || 0, ry = RANK[alertOf(y)[0]] || 0;
+    return ry - rx || (slowOnset(x) ? 1 : 0) - (slowOnset(y) ? 1 : 0)
+      || (y.data_as_of || "").localeCompare(x.data_as_of || "") || String(x.id).localeCompare(String(y.id));
+  }
+  // LEAD-END
   function topLine(p, src) {
     var t = p.title.replace(/^GDACS \w+ alert: /, ""), via = src.split(" via ");
     if (via.length > 1 && t.indexOf(via[0]) >= 0) return t + ", via " + via[1];
@@ -412,10 +424,7 @@
       return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
     }
     var hot = feats.map(function (f) { return f.properties; }).filter(function (p) { return p.tier === "anomaly"; })
-      .sort(function (x, y) {
-        var rx = RANK[alertOf(x)[0]] || 0, ry = RANK[alertOf(y)[0]] || 0;
-        return ry - rx || (y.data_as_of || "").localeCompare(x.data_as_of || "");
-      });
+      .sort(function (x, y) { return leadOrder(x, y, alertOf); });
     document.getElementById("alerts").replaceChildren(hot.length ? table(["Alert", "Event"], hot.map(function (p) {
       var st = [null, alertOf(p)[0]];
       var what = p.title.replace(/^GDACS \w+ alert: /, "");
