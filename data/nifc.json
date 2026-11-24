@@ -169,6 +169,20 @@
    "lat": 44.3306
   },
   {
+   "id": "{45ABD01D-8C3A-4241-98FC-6D6E2A7F629F}",
+   "name": "Bagley",
+   "acres": 563.0,
+   "contained": null,
+   "discovered": "2026-11-24T15:42:39Z",
+   "updated": "2026-11-24T22:27:50Z",
+   "state": "MS",
+   "county": "Lafayette",
+   "cause": "Human",
+   "complexity": "Type 4 Incident",
+   "lon": -89.4053,
+   "lat": 34.4789
+  },
+  {
    "id": "{3C9661A9-A917-4F2E-BFB5-BAB480AC9D4B}",
    "name": "Red Hill",
    "acres": 519.0,
@@ -398,7 +412,7 @@
    "acres": 30.0,
    "contained": null,
    "discovered": "2026-11-24T20:46:00Z",
-   "updated": "2026-11-24T21:44:17Z",
+   "updated": "2026-11-24T22:06:35Z",
    "state": "OR",
    "county": "Douglas",
    "cause": "Human",
@@ -615,6 +629,20 @@
    "complexity": "Type 5 Incident",
    "lon": -79.3017,
    "lat": 38.7984
+  },
+  {
+   "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
+   "name": "Ia 1490",
+   "acres": 3.0,
+   "contained": null,
+   "discovered": "2026-11-24T21:45:16Z",
+   "updated": "2026-11-24T22:23:51Z",
+   "state": "CO",
+   "county": "Larimer",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -105.3416,
+   "lat": 40.4645
   },
   {
    "id": "{745FA1CA-7F89-4038-928F-9C31BFE8C1A2}",
@@ -1013,11 +1041,11 @@
    "name": "Cty D 3",
    "acres": 0.2,
    "contained": null,
-   "discovered": "2026-11-23T06:00:00Z",
-   "updated": "2026-11-24T22:04:11Z",
+   "discovered": "2026-11-23T15:02:00Z",
+   "updated": "2026-11-24T22:11:35Z",
    "state": "WI",
    "county": "Burnett",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -92.609,
    "lat": 45.8085
@@ -1191,6 +1219,20 @@
    "lat": 43.9553
   },
   {
+   "id": "{6594349E-82D8-4FA9-BE41-035FFB68C38D}",
+   "name": "3702 Grand Bature",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-20T14:30:53Z",
+   "updated": "2026-11-24T22:30:10Z",
+   "state": "MS",
+   "county": "Jackson",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -88.4398,
+   "lat": 30.3944
+  },
+  {
    "id": "{C9EFB17F-D4F6-489C-9907-522B47716B41}",
    "name": "Fd05043",
    "acres": 0.1,
@@ -1273,20 +1315,6 @@
    "complexity": "Type 5 Incident",
    "lon": -113.9504,
    "lat": 33.6826
-  },
-  {
-   "id": "{45ABD01D-8C3A-4241-98FC-6D6E2A7F629F}",
-   "name": "Bagley",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-24T15:42:39Z",
-   "updated": "2026-11-24T18:18:43Z",
-   "state": "MS",
-   "county": "Lafayette",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -89.4053,
-   "lat": 34.4789
   },
   {
    "id": "{39CCC1EA-6662-48F6-98C8-1015F396BC15}",
@@ -1709,18 +1737,18 @@
    "lat": 34.7188
   },
   {
-   "id": "{8463163A-11FA-4A0F-9EC4-2AE167C972AC}",
-   "name": "Cedar",
+   "id": "{CE602929-E064-4233-A0E3-90E051022469}",
+   "name": "Mtz/Bdc/82A",
    "acres": 0.0,
    "contained": null,
-   "discovered": "2026-11-24T22:01:13Z",
-   "updated": "2026-11-24T22:02:11Z",
+   "discovered": "2026-11-24T21:49:53Z",
+   "updated": "2026-11-24T22:09:29Z",
    "state": "CA",
-   "county": "Tuolumne",
+   "county": "San Bernardino",
    "cause": "Undetermined",
    "complexity": null,
-   "lon": -120.2228,
-   "lat": 38.0195
+   "lon": -117.3184,
+   "lat": 34.5661
   }
  ]
 }
