@@ -83,48 +83,6 @@
    ]
   },
   {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-24T11:46:00Z",
-   "onset": "2026-11-24T15:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc4c75d601d8f3227c77a277aa27939d5bc0deaf.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -638,6 +596,48 @@
    ]
   },
   {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-24T21:07:00Z",
+   "onset": "2026-11-24T21:07:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4d1eca27a782026d4c9bc1461edeebbedf8418e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMHX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -645,13 +645,13 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Ocracoke Island",
+    "Hatteras Island",
+    "Northern Outer Banks",
     "Beaufort",
     "Pamlico",
     "Southern Craven",
     "East Carteret",
-    "Hatteras Island",
-    "Northern Outer Banks"
+    "Ocracoke Island"
    ],
    "counties": [
     "37013",
@@ -661,10 +661,10 @@
     "37095",
     "37137"
    ],
-   "sent": "2026-11-24T20:41:00Z",
+   "sent": "2026-11-24T21:14:00Z",
    "onset": "2026-11-25T09:00:00Z",
    "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.046d01e3d4d33d7e9f9ec48a564fe2d975c16ab5.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7511c2222f511824b12c2b3dbafd08aea2c58e1b.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -695,6 +695,50 @@
    ],
    "lon": -76.508,
    "lat": 35.27,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.CF.W.0007.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Northern Coastal Humboldt",
+    "Coastal Del Norte",
+    "Southwestern Humboldt",
+    "Coastal Mendocino"
+   ],
+   "counties": [
+    "06015",
+    "06023",
+    "06045"
+   ],
+   "sent": "2026-11-24T21:27:00Z",
+   "onset": "2026-11-25T17:00:00Z",
+   "ends": "2026-11-25T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b4c9d5f0cef1d14dcc7d893b16813ac145de428.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.981,
+     41.7499
+    ],
+    [
+     -123.9262,
+     40.7067
+    ],
+    [
+     -123.4429,
+     39.4324
+    ]
+   ],
+   "lon": -123.783,
+   "lat": 40.63,
    "countries": [
     "US"
    ]
@@ -1005,198 +1049,6 @@
    ]
   },
   {
-   "id": "KSTO.FA.W.0001.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Sacramento, CA",
-    "San Joaquin, CA",
-    "Solano, CA",
-    "Yolo, CA"
-   ],
-   "counties": [
-    "06067",
-    "06077",
-    "06095",
-    "06113"
-   ],
-   "sent": "2026-11-24T16:49:00Z",
-   "onset": "2026-11-24T16:49:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d3c03d8907ccf61b9e93929ebdf2ab51cba923a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -121.76,
-       38.09
-      ],
-      [
-       -121.63,
-       38.4
-      ],
-      [
-       -121.48,
-       38.37
-      ],
-      [
-       -121.29,
-       37.91
-      ],
-      [
-       -121.32,
-       37.78
-      ],
-      [
-       -121.52,
-       37.77
-      ],
-      [
-       -121.55,
-       37.82
-      ],
-      [
-       -121.54,
-       37.85
-      ],
-      [
-       -121.58,
-       37.86
-      ],
-      [
-       -121.57,
-       38.1
-      ],
-      [
-       -121.67,
-       38.1
-      ],
-      [
-       -121.75,
-       38.03
-      ],
-      [
-       -121.82,
-       38.02
-      ],
-      [
-       -121.84,
-       38.06
-      ],
-      [
-       -121.8,
-       38.03
-      ],
-      [
-       -121.71,
-       38.09
-      ],
-      [
-       -121.66,
-       38.17
-      ],
-      [
-       -121.74,
-       38.09
-      ],
-      [
-       -121.85,
-       38.07
-      ],
-      [
-       -121.76,
-       38.09
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -121.3443,
-     38.4501
-    ],
-    [
-     -121.2722,
-     37.935
-    ],
-    [
-     -121.9396,
-     38.2672
-    ],
-    [
-     -121.9027,
-     38.6796
-    ]
-   ],
-   "lon": -121.642,
-   "lat": 38.035,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-24T16:50:00Z",
-   "onset": "2026-11-24T16:50:00Z",
-   "ends": "2026-11-25T04:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adbc3f9fd93c11f2e40f58b58207de711b774ffe.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0010.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1317,6 +1169,204 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-24T17:02:00Z",
+   "onset": "2026-11-24T17:02:00Z",
+   "ends": "2026-11-25T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.119af361cf604b99253798ad0c48cf7f73e1c851.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSTO.FA.W.0001.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Sacramento, CA",
+    "San Joaquin, CA",
+    "Solano, CA",
+    "Yolo, CA"
+   ],
+   "counties": [
+    "06067",
+    "06077",
+    "06095",
+    "06113"
+   ],
+   "sent": "2026-11-24T21:20:00Z",
+   "onset": "2026-11-24T21:20:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e886c9108d8dd7001ae8600ed9510384d4b061b5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -121.76,
+       38.09
+      ],
+      [
+       -121.63,
+       38.4
+      ],
+      [
+       -121.48,
+       38.37
+      ],
+      [
+       -121.29,
+       37.91
+      ],
+      [
+       -121.32,
+       37.78
+      ],
+      [
+       -121.52,
+       37.77
+      ],
+      [
+       -121.55,
+       37.82
+      ],
+      [
+       -121.54,
+       37.85
+      ],
+      [
+       -121.58,
+       37.86
+      ],
+      [
+       -121.57,
+       38.1
+      ],
+      [
+       -121.67,
+       38.1
+      ],
+      [
+       -121.75,
+       38.03
+      ],
+      [
+       -121.82,
+       38.02
+      ],
+      [
+       -121.84,
+       38.06
+      ],
+      [
+       -121.8,
+       38.03
+      ],
+      [
+       -121.71,
+       38.09
+      ],
+      [
+       -121.66,
+       38.17
+      ],
+      [
+       -121.74,
+       38.09
+      ],
+      [
+       -121.85,
+       38.07
+      ],
+      [
+       -121.76,
+       38.09
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -121.3443,
+     38.4501
+    ],
+    [
+     -121.2722,
+     37.935
+    ],
+    [
+     -121.9396,
+     38.2672
+    ],
+    [
+     -121.9027,
+     38.6796
+    ]
+   ],
+   "lon": -121.642,
+   "lat": 38.035,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KSTO.FA.W.0002.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1329,10 +1379,10 @@
    "counties": [
     "06095"
    ],
-   "sent": "2026-11-24T16:56:00Z",
-   "onset": "2026-11-24T16:56:00Z",
+   "sent": "2026-11-24T21:24:00Z",
+   "onset": "2026-11-24T21:24:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e5ee2529833d9c6278de1e494d4e2d22708283.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.104567b82b9185a2927547c0b0f317d7075bfe0e.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1438,47 +1488,45 @@
    ]
   },
   {
-   "id": "KMLB.FL.W.0003.2026",
+   "id": "KMLB.FL.W.0007.2026",
    "event": "Flood Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Melbourne FL",
    "areas": [
-    "Lake, FL",
-    "Volusia, FL"
+    "Seminole, FL"
    ],
    "counties": [
-    "12069",
-    "12127"
+    "12117"
    ],
-   "sent": "2026-11-24T17:02:00Z",
-   "onset": "2026-11-24T17:02:00Z",
-   "ends": "2026-11-25T04:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.119af361cf604b99253798ad0c48cf7f73e1c851.001.1",
+   "sent": "2026-11-24T21:29:00Z",
+   "onset": "2026-11-24T21:29:00Z",
+   "ends": "2026-11-25T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.969da6a1315c09b70c3331941fcdf51f3ef4dd7a.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -81.5,
-       29.08
+       -81.23,
+       28.7
       ],
       [
-       -81.69,
-       29.32
+       -81.17,
+       28.79
       ],
       [
-       -81.57,
-       29.35
+       -81,
+       28.73
       ],
       [
-       -81.42,
-       29.1
+       -80.9,
+       28.54
       ],
       [
-       -81.5,
-       29.08
+       -81.23,
+       28.7
       ]
      ]
     ]
@@ -1486,16 +1534,12 @@
    "vtec": true,
    "points": [
     [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
+     -81.132,
+     28.6901
     ]
    ],
-   "lon": -81.536,
-   "lat": 29.186,
+   "lon": -81.106,
+   "lat": 28.692,
    "countries": [
     "US"
    ]
@@ -3842,6 +3886,49 @@
    ]
   },
   {
+   "id": "KPQR.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Clatsop County Coast",
+    "Tillamook County Coast",
+    "South Washington Coast"
+   ],
+   "counties": [
+    "41007",
+    "41057",
+    "53049"
+   ],
+   "sent": "2026-11-24T21:23:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cee96920d1dcda37c73ab19a0483606358d6333e.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.705,
+     46.0245
+    ],
+    [
+     -123.7593,
+     45.4559
+    ],
+    [
+     -123.7824,
+     46.5566
+    ]
+   ],
+   "lon": -123.749,
+   "lat": 46.012,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.7836.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -3884,64 +3971,6 @@
    "onset": "2026-11-25T02:00:00Z",
    "ends": "2026-11-25T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58702d41f8998b991722cc145b9c6c27669680db.028.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Waters from Cape Foulweather to Florence OR from 10 to 60 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm"
-   ],
-   "counties": [
-    "57271",
-    "57272",
-    "57273"
-   ],
-   "sent": "2026-11-24T08:34:00Z",
-   "onset": "2026-11-24T08:34:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e98d7c9698378d30d3824d53f581307ffb49726.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57370",
-    "57376"
-   ],
-   "sent": "2026-11-24T08:46:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4be7fd9d844ec4eb1f80d433a24905e74d2051f.001.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4318,6 +4347,34 @@
    ]
   },
   {
+   "id": "KMFR.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-24T21:22:00Z",
+   "onset": "2026-11-24T21:22:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e452d3cb74c57675c22f677661b66b8e45b8639c.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLWX.SR.A.0001.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -4426,6 +4483,40 @@
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807ad9251567c9f67fc3d1ae452fec7f713a2061.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.A.0004.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Columbia River Bar",
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
+    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
+    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm"
+   ],
+   "counties": [
+    "57210",
+    "57251",
+    "57252",
+    "57271",
+    "57272"
+   ],
+   "sent": "2026-11-24T21:15:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebcc157f2c7648e6e56e0dba86263946be25a4cc.004.3",
    "geometry": null,
    "vtec": true,
    "points": [],
