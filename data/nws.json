@@ -1,43 +1,6 @@
 {
  "records": [
   {
-   "id": "KSGX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Diego CA",
-   "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
-   ],
-   "counties": [
-    "06059",
-    "06073"
-   ],
-   "sent": "2026-11-23T18:56:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34f111523437122f750aace92e12d9e2a53befa8.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.7772,
-     33.6757
-    ],
-    [
-     -116.7761,
-     33.0236
-    ]
-   ],
-   "lon": -117.277,
-   "lat": 33.35,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -363,6 +326,43 @@
    ],
    "lon": -81.565,
    "lat": 30.288,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSGX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS San Diego CA",
+   "areas": [
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
+   ],
+   "counties": [
+    "06059",
+    "06073"
+   ],
+   "sent": "2026-11-24T08:44:00Z",
+   "onset": "2026-11-24T12:00:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4159fc7a39a1e0bed7ce132ec249a7470005f2e0.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -117.7772,
+     33.6757
+    ],
+    [
+     -116.7761,
+     33.0236
+    ]
+   ],
+   "lon": -117.277,
+   "lat": 33.35,
    "countries": [
     "US"
    ]
@@ -2491,6 +2491,10 @@
     "Western Monmouth",
     "Ocean",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -2508,10 +2512,6 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "Eastern Monmouth",
     "Coastal Ocean",
     "Delaware Beaches",
@@ -2866,34 +2866,6 @@
    ]
   },
   {
-   "id": "KMFR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57370",
-    "57376"
-   ],
-   "sent": "2026-11-23T20:21:00Z",
-   "onset": "2026-11-24T12:00:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ef7e48558d7000f6edebd956509ddcea13386e4.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.7836.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -2936,36 +2908,6 @@
    "onset": "2026-11-25T02:00:00Z",
    "ends": "2026-11-25T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58702d41f8998b991722cc145b9c6c27669680db.028.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-24T03:34:00Z",
-   "onset": "2026-11-24T03:34:00Z",
-   "ends": "2026-11-25T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1db7e5d8f9fe7d6fd2321d1ced3e7f6aba2666e.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3024,6 +2966,64 @@
    "onset": "2026-11-24T08:34:00Z",
    "ends": "2026-11-25T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e98d7c9698378d30d3824d53f581307ffb49726.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
+    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
+   ],
+   "counties": [
+    "57370",
+    "57376"
+   ],
+   "sent": "2026-11-24T08:46:00Z",
+   "onset": "2026-11-24T12:00:00Z",
+   "ends": "2026-11-25T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4be7fd9d844ec4eb1f80d433a24905e74d2051f.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-24T08:54:00Z",
+   "onset": "2026-11-24T08:54:00Z",
+   "ends": "2026-11-25T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d98eee56545923c0be192b6724fc27c07a566c8f.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3117,15 +3117,15 @@
    "certainty": "Possible",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
     "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
     "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
     "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
@@ -3149,7 +3149,7 @@
    "sent": "2026-11-24T06:27:00Z",
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.002.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bcdcbc1be0043b225e6d9fc2fdc984553e7f9d2.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3215,12 +3215,12 @@
    "certainty": "Possible",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
-    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
-    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
     "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
     "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
     "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
+    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
+    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
     "Chesapeake Bay from New Point Comfort to Little Creek VA",
     "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
     "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
@@ -3249,7 +3249,7 @@
    "sent": "2026-11-24T07:42:00Z",
    "onset": "2026-11-26T03:00:00Z",
    "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a18c4c918bb92486186ae7d3a52fbcd4db6facd0.009.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a18c4c918bb92486186ae7d3a52fbcd4db6facd0.006.2",
    "geometry": null,
    "vtec": true,
    "points": [],
