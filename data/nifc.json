@@ -659,6 +659,20 @@
    "lat": 45.8062
   },
   {
+   "id": "{3E9364C1-126D-4B76-8FFC-8C3951551EF3}",
+   "name": "Old 60",
+   "acres": 3.0,
+   "contained": 0,
+   "discovered": "2026-11-25T23:07:00Z",
+   "updated": "2026-11-25T23:24:38Z",
+   "state": "KY",
+   "county": "Carter",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.1587,
+   "lat": 38.3058
+  },
+  {
    "id": "{32A5FA3D-F63C-473F-8E7F-8D9D053D90BA}",
    "name": "Kent Fire",
    "acres": 2.6,
@@ -1105,20 +1119,6 @@
    "complexity": null,
    "lon": -123.4791,
    "lat": 42.0949
-  },
-  {
-   "id": "{3ED5CA25-FC50-47C5-BDAA-E48FDF9F8A80}",
-   "name": "Harris 0132",
-   "acres": 0.2,
-   "contained": 0,
-   "discovered": "2026-11-25T20:45:00Z",
-   "updated": "2026-11-25T22:27:59Z",
-   "state": "TX",
-   "county": "Harris",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -95.5131,
-   "lat": 30.0067
   },
   {
    "id": "{11C542B6-DB3F-4924-A4FF-FB6EE423E624}",
@@ -1847,6 +1847,48 @@
    "complexity": null,
    "lon": -118.5904,
    "lat": 34.1163
+  },
+  {
+   "id": "{D6D14EF0-C772-4663-B979-7017BC3D9306}",
+   "name": "Lac-426980",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T23:23:37Z",
+   "updated": "2026-11-25T23:28:13Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.934,
+   "lat": 34.5579
+  },
+  {
+   "id": "{24B1E242-4C16-4C78-8CC3-36C235B93544}",
+   "name": "Jamacha 3",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T23:23:43Z",
+   "updated": "2026-11-25T23:33:43Z",
+   "state": "CA",
+   "county": "San Diego",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -116.9439,
+   "lat": 32.7399
+  },
+  {
+   "id": "{A358EC2C-7D77-4F1F-8681-8D6A13F28BD2}",
+   "name": "Lac-426983",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T23:25:57Z",
+   "updated": "2026-11-25T23:26:13Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.2252,
+   "lat": 33.9322
   }
  ]
 }

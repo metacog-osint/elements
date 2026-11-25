@@ -5206,6 +5206,70 @@
    ]
   },
   {
+   "id": "KMFL.MA.W.0423.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75671"
+   ],
+   "sent": "2026-11-25T23:24:00Z",
+   "onset": "2026-11-25T23:24:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1944ff800171b94cb31ed4de2af64c584879e89.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.18,
+       25.46
+      ],
+      [
+       -79.19,
+       25.34
+      ],
+      [
+       -79.21,
+       25.28
+      ],
+      [
+       -79.64,
+       24.74
+      ],
+      [
+       -79.96,
+       25.13
+      ],
+      [
+       -79.33,
+       25.97
+      ],
+      [
+       -79.09,
+       25.82
+      ],
+      [
+       -79.18,
+       25.46
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.347,
+   "lat": 25.4,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KKEY.MA.W.0424.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -5215,19 +5279,17 @@
    "areas": [
     "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
     "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef"
    ],
    "counties": [
     "77033",
     "77035",
-    "77044",
-    "77054"
+    "77044"
    ],
-   "sent": "2026-11-25T22:59:00Z",
-   "onset": "2026-11-25T22:59:00Z",
+   "sent": "2026-11-25T23:29:00Z",
+   "onset": "2026-11-25T23:29:00Z",
    "ends": "2026-11-25T23:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a403e5148794106b386a6bf73012653e7c5b3d7.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dfa483f18c65ce9ded76d4acddd029165bac21ae.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -5281,12 +5343,12 @@
        24.64
       ],
       [
-       -81.94,
-       24.4
+       -81.74,
+       24.51
       ],
       [
-       -81.96,
-       24.62
+       -81.69,
+       24.78
       ],
       [
        -81.57,
@@ -5301,8 +5363,8 @@
    },
    "vtec": true,
    "points": [],
-   "lon": -81.548,
-   "lat": 24.659,
+   "lon": -81.519,
+   "lat": 24.676,
    "countries": [
     "US"
    ]
@@ -5864,56 +5926,6 @@
    ]
   },
   {
-   "id": "KPHI.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
-    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
-    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
-    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
-    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
-   ],
-   "counties": [
-    "73430",
-    "73431",
-    "73450",
-    "73451",
-    "73452",
-    "73453",
-    "73454",
-    "73455",
-    "73480",
-    "73481",
-    "73482",
-    "73483",
-    "73485"
-   ],
-   "sent": "2026-11-25T18:31:00Z",
-   "onset": "2026-11-25T23:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee4d08b271d28a723edb7360fb00a65d1f600855.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KOKX.SR.W.0003.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -6088,37 +6100,51 @@
    ]
   },
   {
-   "id": "KSEW.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
+   "id": "KPHI.SR.W.0004.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Cascades of Whatcom and Skagit Counties"
+    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
+    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
+    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
+    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE"
    ],
    "counties": [
-    "53057",
-    "53073"
+    "73430",
+    "73431",
+    "73450",
+    "73451",
+    "73452",
+    "73453",
+    "73454",
+    "73455",
+    "73480",
+    "73481",
+    "73482",
+    "73483",
+    "73485"
    ],
-   "sent": "2026-11-25T13:40:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1a6fb1da67d8abd1b6e79db0e55cdb42b10a5be.001.1",
+   "sent": "2026-11-25T23:12:00Z",
+   "onset": "2026-11-25T23:12:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df2daa4eefcaea83b206eb251e8ac9a975e7b518.004.2",
    "geometry": null,
    "vtec": true,
-   "points": [
-    [
-     -121.8158,
-     48.4933
-    ],
-    [
-     -121.8364,
-     48.8427
-    ]
-   ],
-   "lon": -121.826,
-   "lat": 48.668,
+   "points": [],
+   "lon": null,
+   "lat": null,
    "countries": [
     "US"
    ]
@@ -6343,73 +6369,6 @@
    ]
   },
   {
-   "id": "KPAH.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Perry",
-    "Bollinger",
-    "Cape Girardeau",
-    "Wayne",
-    "Carter",
-    "Butler",
-    "Stoddard"
-   ],
-   "counties": [
-    "29017",
-    "29023",
-    "29031",
-    "29035",
-    "29157",
-    "29207",
-    "29223"
-   ],
-   "sent": "2026-11-25T16:58:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f3774757e85f5403adcea0026dbaf1ba37045e4.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -90.0246,
-     37.3184
-    ],
-    [
-     -90.4031,
-     36.7152
-    ],
-    [
-     -89.6857,
-     37.3841
-    ],
-    [
-     -90.9457,
-     36.9449
-    ],
-    [
-     -89.8021,
-     37.7111
-    ],
-    [
-     -89.9475,
-     36.8516
-    ],
-    [
-     -90.4539,
-     37.1111
-    ]
-   ],
-   "lon": -90.18,
-   "lat": 37.148,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KILX.WS.W.0002.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -6519,6 +6478,109 @@
    ],
    "lon": -119.742,
    "lat": 48.548,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau",
+    "Wayne",
+    "Carter",
+    "Butler",
+    "Stoddard"
+   ],
+   "counties": [
+    "29017",
+    "29023",
+    "29031",
+    "29035",
+    "29157",
+    "29207",
+    "29223"
+   ],
+   "sent": "2026-11-25T23:06:00Z",
+   "onset": "2026-11-25T23:06:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd56f3303dc53e732e841e65a07c3e2da04e1241.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -90.4031,
+     36.7152
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -90.9457,
+     36.9449
+    ],
+    [
+     -89.8021,
+     37.7111
+    ],
+    [
+     -89.9475,
+     36.8516
+    ],
+    [
+     -90.4539,
+     37.1111
+    ]
+   ],
+   "lon": -90.18,
+   "lat": 37.148,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Cascades of Whatcom and Skagit Counties"
+   ],
+   "counties": [
+    "53057",
+    "53073"
+   ],
+   "sent": "2026-11-25T23:17:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a47b2d0387949270656919e2052a0be717a3d9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.8158,
+     48.4933
+    ],
+    [
+     -121.8364,
+     48.8427
+    ]
+   ],
+   "lon": -121.826,
+   "lat": 48.668,
    "countries": [
     "US"
    ]
