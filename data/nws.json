@@ -14,16 +14,16 @@
     "Salem",
     "Ocean",
     "Coastal Ocean",
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington",
     "Kent",
     "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth"
+    "Eastern Monmouth",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington"
    ],
    "counties": [
     "10001",
@@ -2133,136 +2133,6 @@
    ]
   },
   {
-   "id": "KMAF.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Midland/Odessa TX",
-   "areas": [
-    "Eddy County Plains",
-    "Loving",
-    "Winkler",
-    "Ector",
-    "Midland",
-    "Glasscock",
-    "Ward",
-    "Crane",
-    "Upton",
-    "Reagan",
-    "Pecos",
-    "Terrell",
-    "Van Horn and Highway 54 Corridor",
-    "Eastern Culberson County",
-    "Reeves County Plains",
-    "Chinati Mountains",
-    "Marfa Plateau",
-    "Davis Mountains Foothills",
-    "Central Brewster County",
-    "Chisos Basin"
-   ],
-   "counties": [
-    "35015",
-    "48043",
-    "48103",
-    "48109",
-    "48135",
-    "48173",
-    "48243",
-    "48301",
-    "48329",
-    "48371",
-    "48377",
-    "48383",
-    "48389",
-    "48443",
-    "48461",
-    "48475",
-    "48495"
-   ],
-   "sent": "2026-11-24T20:44:00Z",
-   "onset": "2026-11-25T03:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0683f4f6b84c7c843862782eabe1063f119f181.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.3064,
-     32.4578
-    ],
-    [
-     -103.2525,
-     29.809
-    ],
-    [
-     -102.4925,
-     31.4396
-    ],
-    [
-     -104.5269,
-     31.4459
-    ],
-    [
-     -102.5425,
-     31.8653
-    ],
-    [
-     -101.5215,
-     31.868
-    ],
-    [
-     -104.1919,
-     30.6254
-    ],
-    [
-     -103.5612,
-     31.8449
-    ],
-    [
-     -102.0025,
-     31.8143
-    ],
-    [
-     -102.7182,
-     30.7733
-    ],
-    [
-     -104.2616,
-     30.0059
-    ],
-    [
-     -101.5144,
-     31.3752
-    ],
-    [
-     -103.7127,
-     31.3084
-    ],
-    [
-     -102.0725,
-     30.2323
-    ],
-    [
-     -102.0415,
-     31.3538
-    ],
-    [
-     -103.1051,
-     31.5131
-    ],
-    [
-     -103.0549,
-     31.8329
-    ]
-   ],
-   "lon": -102.993,
-   "lat": 31.269,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSJT.FZ.W.0002.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2708,6 +2578,136 @@
    ],
    "lon": -98.231,
    "lat": 34.151,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMAF.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Midland/Odessa TX",
+   "areas": [
+    "Eddy County Plains",
+    "Loving",
+    "Winkler",
+    "Ector",
+    "Midland",
+    "Glasscock",
+    "Ward",
+    "Crane",
+    "Upton",
+    "Reagan",
+    "Pecos",
+    "Terrell",
+    "Van Horn and Highway 54 Corridor",
+    "Eastern Culberson County",
+    "Reeves County Plains",
+    "Chinati Mountains",
+    "Marfa Plateau",
+    "Davis Mountains Foothills",
+    "Central Brewster County",
+    "Chisos Basin"
+   ],
+   "counties": [
+    "35015",
+    "48043",
+    "48103",
+    "48109",
+    "48135",
+    "48173",
+    "48243",
+    "48301",
+    "48329",
+    "48371",
+    "48377",
+    "48383",
+    "48389",
+    "48443",
+    "48461",
+    "48475",
+    "48495"
+   ],
+   "sent": "2026-11-25T05:43:00Z",
+   "onset": "2026-11-25T05:43:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.219d1d7dc798af535ff64ac8cf41fc1b5386fec9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3064,
+     32.4578
+    ],
+    [
+     -103.2525,
+     29.809
+    ],
+    [
+     -102.4925,
+     31.4396
+    ],
+    [
+     -104.5269,
+     31.4459
+    ],
+    [
+     -102.5425,
+     31.8653
+    ],
+    [
+     -101.5215,
+     31.868
+    ],
+    [
+     -104.1919,
+     30.6254
+    ],
+    [
+     -103.5612,
+     31.8449
+    ],
+    [
+     -102.0025,
+     31.8143
+    ],
+    [
+     -102.7182,
+     30.7733
+    ],
+    [
+     -104.2616,
+     30.0059
+    ],
+    [
+     -101.5144,
+     31.3752
+    ],
+    [
+     -103.7127,
+     31.3084
+    ],
+    [
+     -102.0725,
+     30.2323
+    ],
+    [
+     -102.0415,
+     31.3538
+    ],
+    [
+     -103.1051,
+     31.5131
+    ],
+    [
+     -103.0549,
+     31.8329
+    ]
+   ],
+   "lon": -102.993,
+   "lat": 31.269,
    "countries": [
     "US"
    ]
@@ -3493,32 +3493,45 @@
    ]
   },
   {
-   "id": "KMFR.HW.W.0008.2026",
+   "id": "KMHX.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Medford OR",
+   "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Central Siskiyou County"
+    "East Carteret",
+    "Northern Outer Banks",
+    "Ocracoke Island",
+    "Hatteras Island"
    ],
    "counties": [
-    "06093"
+    "37031",
+    "37055",
+    "37095"
    ],
-   "sent": "2026-11-25T02:56:00Z",
-   "onset": "2026-11-25T02:56:00Z",
-   "ends": "2026-11-25T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2924577d04438672ffcd949e63b76d2b017bb7c0.003.1",
+   "sent": "2026-11-25T05:58:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd5b9d04190a3341f3071eab0a3570eaf3c62758.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -122.5333,
-     41.588
+     -76.5359,
+     34.8583
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
     ]
    ],
-   "lon": -122.533,
-   "lat": 41.588,
+   "lon": -76.152,
+   "lat": 35.291,
    "countries": [
     "US"
    ]
@@ -4121,33 +4134,33 @@
    "counties": [
     "77073"
    ],
-   "sent": "2026-11-25T05:31:00Z",
-   "onset": "2026-11-25T05:31:00Z",
+   "sent": "2026-11-25T05:49:00Z",
+   "onset": "2026-11-25T05:49:00Z",
    "ends": "2026-11-25T06:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c886166fd1976c6497ab006d36c1dfc55b279b47.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c314b40cd4a19d6681dfcaf9d93313514c456a94.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
+       -80.91,
+       23.81
+      ],
+      [
+       -81.09,
+       23.97
+      ],
+      [
        -80.86,
        24.21
-      ],
-      [
-       -81.1,
-       23.95
-      ],
-      [
-       -80.95,
-       23.76
       ],
       [
        -80.68,
        24.05
       ],
       [
-       -80.86,
-       24.21
+       -80.91,
+       23.81
       ]
      ]
     ]
@@ -4155,7 +4168,101 @@
    "vtec": true,
    "points": [],
    "lon": -80.89,
-   "lat": 24.036,
+   "lat": 23.97,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0031.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS San Francisco CA",
+   "areas": [
+    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm",
+    "Waters from Point Reyes to Pigeon Point 10-60 NM"
+   ],
+   "counties": [
+    "57545",
+    "57571"
+   ],
+   "sent": "2026-11-25T06:01:00Z",
+   "onset": "2026-11-25T06:01:00Z",
+   "ends": "2026-11-25T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b327b16a11e26e6204f6f15f68d629e48c4e103f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.87,
+       38.03
+      ],
+      [
+       -122.81,
+       38
+      ],
+      [
+       -122.72,
+       37.9
+      ],
+      [
+       -122.72,
+       37.94
+      ],
+      [
+       -122.53,
+       37.83
+      ],
+      [
+       -122.49,
+       37.66
+      ],
+      [
+       -122.52,
+       37.59
+      ],
+      [
+       -122.52,
+       37.52
+      ],
+      [
+       -122.45,
+       37.48
+      ],
+      [
+       -122.4,
+       37.36
+      ],
+      [
+       -122.41,
+       37.2
+      ],
+      [
+       -122.98,
+       37.2
+      ],
+      [
+       -122.85,
+       37.74
+      ],
+      [
+       -122.97,
+       38.02
+      ],
+      [
+       -122.87,
+       38.03
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -122.674,
+   "lat": 37.7,
    "countries": [
     "US"
    ]
@@ -5021,6 +5128,42 @@
    ]
   },
   {
+   "id": "KSEW.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Cascades of Whatcom and Skagit Counties"
+   ],
+   "counties": [
+    "53057",
+    "53073"
+   ],
+   "sent": "2026-11-25T05:59:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25cf1a9b4a62108c32e1ac156b7ae3d26a1b433e.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.8158,
+     48.4933
+    ],
+    [
+     -121.8364,
+     48.8427
+    ]
+   ],
+   "lon": -121.826,
+   "lat": 48.668,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOTX.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -5047,42 +5190,6 @@
    ],
    "lon": -119.742,
    "lat": 48.548,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.WS.A.0005.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Cascades of Whatcom and Skagit Counties"
-   ],
-   "counties": [
-    "53057",
-    "53073"
-   ],
-   "sent": "2026-11-24T16:20:00Z",
-   "onset": "2026-11-26T08:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.728278edcc95772b2ea66d1452d9ce09cfc42158.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.8158,
-     48.4933
-    ],
-    [
-     -121.8364,
-     48.8427
-    ]
-   ],
-   "lon": -121.826,
-   "lat": 48.668,
    "countries": [
     "US"
    ]
@@ -5228,6 +5335,42 @@
    ],
    "lon": -89.283,
    "lat": 38.787,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.WS.A.0005.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Past",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Cascades of Whatcom and Skagit Counties"
+   ],
+   "counties": [
+    "53057",
+    "53073"
+   ],
+   "sent": "2026-11-25T05:59:00Z",
+   "onset": "2026-11-26T08:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25cf1a9b4a62108c32e1ac156b7ae3d26a1b433e.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.8158,
+     48.4933
+    ],
+    [
+     -121.8364,
+     48.8427
+    ]
+   ],
+   "lon": -121.826,
+   "lat": 48.668,
    "countries": [
     "US"
    ]
