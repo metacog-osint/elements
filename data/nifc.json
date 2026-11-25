@@ -337,6 +337,20 @@
    "lat": 31.5467
   },
   {
+   "id": "{DA5D52F7-7412-494E-AE2A-2D42A63F8F99}",
+   "name": "clark 306",
+   "acres": 100.0,
+   "contained": null,
+   "discovered": "2026-11-25T16:16:32Z",
+   "updated": "2026-11-25T20:29:21Z",
+   "state": "AR",
+   "county": "Clark",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.0628,
+   "lat": 33.8745
+  },
+  {
    "id": "{68283E6E-6298-4C38-9CF1-BEF4AD459031}",
    "name": "Horse",
    "acres": 97.0,
@@ -771,46 +785,32 @@
    "lat": 33.8327
   },
   {
-   "id": "{AE0A1A1C-DDF0-44F5-9CEB-723A4C2C24C2}",
-   "name": "Ouachita 355",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-25T14:38:43Z",
-   "updated": "2026-11-25T14:44:41Z",
-   "state": "AR",
-   "county": "Ouachita",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.8822,
-   "lat": 33.5711
-  },
-  {
-   "id": "{DA5D52F7-7412-494E-AE2A-2D42A63F8F99}",
-   "name": "clark 306",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-25T16:16:32Z",
-   "updated": "2026-11-25T16:31:36Z",
-   "state": "AR",
-   "county": "Clark",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.0628,
-   "lat": 33.8745
-  },
-  {
    "id": "{48B5AADB-4EA0-4CAC-BD87-C377C24B005E}",
    "name": "Bowie 0126",
    "acres": 1.0,
-   "contained": 0,
+   "contained": 75,
    "discovered": "2026-11-25T18:32:00Z",
-   "updated": "2026-11-25T19:47:00Z",
+   "updated": "2026-11-25T20:28:52Z",
    "state": "TX",
    "county": "Bowie",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
    "lon": -94.0694,
    "lat": 33.3432
+  },
+  {
+   "id": "{77695310-A880-46A4-A6DB-C83FE61D6591}",
+   "name": "Booger Hill",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-25T19:27:00Z",
+   "updated": "2026-11-25T20:22:52Z",
+   "state": "KY",
+   "county": "Magoffin",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.0279,
+   "lat": 37.6623
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1833,20 +1833,6 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.695
-  },
-  {
-   "id": "{7D55C239-100F-4CF0-8034-D2EFC128E7E6}",
-   "name": "Sugar",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-25T19:55:12Z",
-   "updated": "2026-11-25T19:56:09Z",
-   "state": "CA",
-   "county": "Amador",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.539,
-   "lat": 38.4713
   }
  ]
 }

@@ -566,13 +566,13 @@
    "areas": [
     "New Castle",
     "Salem",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -4280,16 +4280,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Virginia Beach",
-    "Norfolk",
-    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "James City",
     "Eastern King and Queen",
-    "Eastern Essex"
+    "Eastern Essex",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Virginia Beach",
+    "Norfolk",
+    "Portsmouth"
    ],
    "counties": [
     "24019",
@@ -5150,6 +5150,102 @@
    ]
   },
   {
+   "id": "KSEW.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031"
+   ],
+   "sent": "2026-11-25T20:20:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bffc4da7b3ef8d76663be8837eb9d19e1e7e9f53.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ]
+   ],
+   "lon": -123.748,
+   "lat": 47.676,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Central Coast of Oregon",
+    "Clatsop County Coast",
+    "Tillamook County Coast",
+    "South Washington Coast"
+   ],
+   "counties": [
+    "41007",
+    "41039",
+    "41041",
+    "41057",
+    "53049"
+   ],
+   "sent": "2026-11-25T20:28:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c0462cfc0443ca07039faf4a49b54458cd3c80c.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.705,
+     46.0245
+    ],
+    [
+     -122.8976,
+     43.9283
+    ],
+    [
+     -123.9112,
+     44.6411
+    ],
+    [
+     -123.7593,
+     45.4559
+    ],
+    [
+     -123.7824,
+     46.5566
+    ]
+   ],
+   "lon": -123.611,
+   "lat": 45.321,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5194,165 +5290,6 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.HW.A.0002.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Clatsop County Coast",
-    "Tillamook County Coast",
-    "South Washington Coast"
-   ],
-   "counties": [
-    "41007",
-    "41057",
-    "53049"
-   ],
-   "sent": "2026-11-25T07:27:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9bc4a50f4022a1658b960ef88e1e5e11c10b6c5.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.705,
-     46.0245
-    ],
-    [
-     -123.7593,
-     45.4559
-    ],
-    [
-     -123.7824,
-     46.5566
-    ]
-   ],
-   "lon": -123.749,
-   "lat": 46.012,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.MA.W.0411.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75156",
-    "75158",
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-25T19:25:00Z",
-   "onset": "2026-11-25T19:25:00Z",
-   "ends": "2026-11-25T20:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55dcd3e2b946b5ad48013c43e380634a0a42346b.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.4,
-       34.69
-      ],
-      [
-       -76.03,
-       34.37
-      ],
-      [
-       -76.99,
-       33.99
-      ],
-      [
-       -77.35,
-       34.3
-      ],
-      [
-       -76.4,
-       34.69
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -76.634,
-   "lat": 34.408,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.MA.W.0412.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-25T19:27:00Z",
-   "onset": "2026-11-25T19:27:00Z",
-   "ends": "2026-11-25T20:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3b8751b151746184865a4ae85d896770c513bc4.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.59,
-       33.64
-      ],
-      [
-       -76.99,
-       33.99
-      ],
-      [
-       -76.15,
-       34.32
-      ],
-      [
-       -75.65,
-       33.92
-      ],
-      [
-       -76.3,
-       33.62
-      ],
-      [
-       -76.59,
-       33.64
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -76.378,
-   "lat": 33.855,
    "countries": [
     "US"
    ]
@@ -5420,129 +5357,173 @@
    ]
   },
   {
-   "id": "KMOB.MA.W.0246.2026",
+   "id": "KMHX.MA.W.0413.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Mobile AL",
+   "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
+    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
+    "S of Cape Lookout NC to Surf City NC out to 20 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM"
    ],
    "counties": [
-    "77670"
+    "75156",
+    "75158",
+    "75186"
    ],
-   "sent": "2026-11-25T19:53:00Z",
-   "onset": "2026-11-25T19:53:00Z",
-   "ends": "2026-11-25T20:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.373588a8c7ffb21743438e0a5b4049724dcad3c4.001.1",
+   "sent": "2026-11-25T20:10:00Z",
+   "onset": "2026-11-25T20:10:00Z",
+   "ends": "2026-11-25T21:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db5ec1efaa5069d748b6089bd2fb50d5c2e72022.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.4,
-       29.64
+       -76.03,
+       34.64
       ],
       [
-       -87.15,
-       29.72
+       -76.11,
+       34.51
       ],
       [
-       -87.14,
-       29.53
+       -76.63,
+       34.49
       ],
       [
-       -87.43,
-       29.48
+       -76.42,
+       34.88
       ],
       [
-       -87.4,
-       29.64
+       -76.03,
+       34.64
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -87.304,
-   "lat": 29.602,
+   "lon": -76.244,
+   "lat": 34.632,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KKEY.MA.W.0423.2026",
+   "id": "KMFL.MA.W.0421.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Key West FL",
+   "sender": "NWS Miami FL",
    "areas": [
-    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
    ],
    "counties": [
-    "77032",
-    "77033",
-    "77035",
-    "77044",
-    "77054"
+    "75671"
    ],
-   "sent": "2026-11-25T19:58:00Z",
-   "onset": "2026-11-25T19:58:00Z",
-   "ends": "2026-11-25T20:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48991259b7d59ba68a80a84b92601cb14151d6b6.001.1",
+   "sent": "2026-11-25T20:21:00Z",
+   "onset": "2026-11-25T20:21:00Z",
+   "ends": "2026-11-25T20:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dbdb0197f7a5786defe3782bf6f7f5e563218b2.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -82.1,
-       24.23
+       -79.7,
+       24.81
       ],
       [
-       -81.84,
-       24.7
+       -79.27,
+       25.58
       ],
       [
-       -81.07,
-       24.88
+       -79.17,
+       25.5
       ],
       [
-       -81.25,
-       24.67
+       -79.23,
+       25.18
       ],
       [
-       -81.27,
-       24.67
+       -79.29,
+       25.02
       ],
       [
-       -81.27,
-       24.66
+       -79.54,
+       24.6
       ],
       [
-       -81.25,
-       24.66
-      ],
-      [
-       -81.48,
-       24.39
-      ],
-      [
-       -82.1,
-       24.23
+       -79.7,
+       24.81
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -81.514,
-   "lat": 24.566,
+   "lon": -79.414,
+   "lat": 25.071,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.MA.W.0414.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "S of Cape Lookout NC to Surf City NC out to 20 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75158",
+    "75186",
+    "75188"
+   ],
+   "sent": "2026-11-25T20:34:00Z",
+   "onset": "2026-11-25T20:34:00Z",
+   "ends": "2026-11-25T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d401810a493b13078aa4b2fc76568d18a6ddc33.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.41,
+       34.35
+      ],
+      [
+       -76.5,
+       34.57
+      ],
+      [
+       -75.76,
+       34
+      ],
+      [
+       -76.64,
+       33.69
+      ],
+      [
+       -77.41,
+       34.35
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -76.744,
+   "lat": 34.192,
    "countries": [
     "US"
    ]
@@ -5798,68 +5779,6 @@
    "onset": "2026-11-25T14:00:00Z",
    "ends": "2026-11-26T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd779d9ab72bae6c7711b48245a1399973d22a5c.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "James River from JRB to HRBT, Including the Elizabeth River",
-    "Rappahannock River from Urbanna to Windmill Point",
-    "York River",
-    "James River from Jamestown to the James River Bridge",
-    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
-    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
-    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
-    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
-    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
-    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
-    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
-    "Currituck Sound",
-    "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
-    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
-    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
-    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
-    "Chesapeake Bay from Smith Point to Windmill Point VA",
-    "Chesapeake Bay from Windmill Point to New Point Comfort VA"
-   ],
-   "counties": [
-    "73630",
-    "73631",
-    "73632",
-    "73633",
-    "73634",
-    "73635",
-    "73636",
-    "73637",
-    "73639",
-    "73650",
-    "73652",
-    "73654",
-    "73656",
-    "73658",
-    "73680",
-    "73682",
-    "73684",
-    "73686",
-    "73688"
-   ],
-   "sent": "2026-11-25T07:09:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aac603b349f70ef7e3ea2d9d1f27c012a065559b.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6318,6 +6237,68 @@
    "onset": "2026-11-25T19:42:00Z",
    "ends": "2026-11-26T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48730e6f2288828bc96751cc63af46a5d9753ed6.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
+    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
+    "Chesapeake Bay from New Point Comfort to Little Creek VA",
+    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
+    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
+    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
+    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
+    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
+    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
+    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Currituck Sound",
+    "Chesapeake Bay from Smith Point to Windmill Point VA",
+    "Chesapeake Bay from Windmill Point to New Point Comfort VA",
+    "James River from JRB to HRBT, Including the Elizabeth River",
+    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
+    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
+    "Rappahannock River from Urbanna to Windmill Point",
+    "York River",
+    "James River from Jamestown to the James River Bridge"
+   ],
+   "counties": [
+    "73630",
+    "73631",
+    "73632",
+    "73633",
+    "73634",
+    "73635",
+    "73636",
+    "73637",
+    "73639",
+    "73650",
+    "73652",
+    "73654",
+    "73656",
+    "73658",
+    "73680",
+    "73682",
+    "73684",
+    "73686",
+    "73688"
+   ],
+   "sent": "2026-11-25T20:24:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce47563942f848380beaa73b5fa1d85b650be1a5.009.1",
    "geometry": null,
    "vtec": true,
    "points": [],
