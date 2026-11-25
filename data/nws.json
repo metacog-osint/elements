@@ -19,11 +19,11 @@
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
-    "Kent",
-    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth"
+    "Eastern Monmouth",
+    "Kent",
+    "Cumberland"
    ],
    "counties": [
     "10001",
@@ -373,12 +373,12 @@
    "areas": [
     "Coastal Duval",
     "Southeast Coastal St. Johns",
+    "Inland Flagler",
+    "Eastern Putnam",
     "Coastal Nassau",
     "Northeast Coastal St. Johns",
     "Coastal Glynn",
     "Coastal Camden",
-    "Inland Flagler",
-    "Eastern Putnam",
     "Coastal Flagler"
    ],
    "counties": [
@@ -758,10 +758,10 @@
     "45019",
     "45029"
    ],
-   "sent": "2026-11-25T02:15:00Z",
+   "sent": "2026-11-25T02:38:00Z",
    "onset": "2026-11-25T10:00:00Z",
    "ends": "2026-11-25T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8bd4a974e108a601fa4d50683ce76fd0beaa5d43.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15ba276a4e1b8816916f7f1bac23bd68d29bb5a9.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3432,54 +3432,6 @@
    ]
   },
   {
-   "id": "KMFR.HW.W.0008.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast",
-    "Central Siskiyou County"
-   ],
-   "counties": [
-    "06093",
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-24T19:44:00Z",
-   "onset": "2026-11-24T19:44:00Z",
-   "ends": "2026-11-25T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43614242198adb28a2373752c3a38799ed4ddf14.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -122.5333,
-     41.588
-    ],
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.498,
-   "lat": 42.632,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.HW.W.0017.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3506,6 +3458,37 @@
    ],
    "lon": 179.621,
    "lat": 51.949,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.HW.W.0008.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "Central Siskiyou County"
+   ],
+   "counties": [
+    "06093"
+   ],
+   "sent": "2026-11-25T02:56:00Z",
+   "onset": "2026-11-25T02:56:00Z",
+   "ends": "2026-11-25T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2924577d04438672ffcd949e63b76d2b017bb7c0.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -122.5333,
+     41.588
+    ]
+   ],
+   "lon": -122.533,
+   "lat": 41.588,
    "countries": [
     "US"
    ]
@@ -4713,6 +4696,55 @@
    ]
   },
   {
+   "id": "KPAH.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau",
+    "Wayne"
+   ],
+   "counties": [
+    "29017",
+    "29031",
+    "29157",
+    "29223"
+   ],
+   "sent": "2026-11-25T02:57:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -89.8021,
+     37.7111
+    ],
+    [
+     -90.4539,
+     37.1111
+    ]
+   ],
+   "lon": -89.992,
+   "lat": 37.381,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOTX.WS.A.0005.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -4943,85 +4975,6 @@
    ]
   },
   {
-   "id": "KPAH.WS.A.0002.2026",
-   "event": "Winter Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Jefferson",
-    "Perry",
-    "Franklin",
-    "Jackson",
-    "Williamson",
-    "Union",
-    "Perry",
-    "Bollinger",
-    "Cape Girardeau"
-   ],
-   "counties": [
-    "17055",
-    "17077",
-    "17081",
-    "17145",
-    "17181",
-    "17199",
-    "29017",
-    "29031",
-    "29157"
-   ],
-   "sent": "2026-11-24T18:34:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.255e92bcfe1f97553da83695790e02c3004504a1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -88.9263,
-     37.9919
-    ],
-    [
-     -89.3812,
-     37.7861
-    ],
-    [
-     -88.9242,
-     38.3008
-    ],
-    [
-     -89.3685,
-     38.0844
-    ],
-    [
-     -89.2446,
-     37.4857
-    ],
-    [
-     -88.93,
-     37.7304
-    ],
-    [
-     -90.0246,
-     37.3184
-    ],
-    [
-     -89.6857,
-     37.3841
-    ],
-    [
-     -89.8021,
-     37.7111
-    ]
-   ],
-   "lon": -89.365,
-   "lat": 37.755,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KILX.WS.A.0002.2026",
    "event": "Winter Storm Watch",
    "severity": "Severe",
@@ -5078,6 +5031,96 @@
    ],
    "lon": -89.944,
    "lat": 39.775,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.WS.A.0002.2026",
+   "event": "Winter Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Wayne",
+    "Alexander",
+    "Jefferson",
+    "Perry",
+    "Franklin",
+    "Jackson",
+    "Williamson",
+    "Union",
+    "Bollinger",
+    "Cape Girardeau"
+   ],
+   "counties": [
+    "17003",
+    "17055",
+    "17077",
+    "17081",
+    "17145",
+    "17181",
+    "17191",
+    "17199",
+    "29017",
+    "29031",
+    "29157"
+   ],
+   "sent": "2026-11-25T02:57:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -89.3495,
+     37.1837
+    ],
+    [
+     -88.9263,
+     37.9919
+    ],
+    [
+     -89.3812,
+     37.7861
+    ],
+    [
+     -88.9242,
+     38.3008
+    ],
+    [
+     -89.3685,
+     38.0844
+    ],
+    [
+     -89.2446,
+     37.4857
+    ],
+    [
+     -88.4324,
+     38.4319
+    ],
+    [
+     -88.93,
+     37.7304
+    ],
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -89.8021,
+     37.7111
+    ]
+   ],
+   "lon": -89.279,
+   "lat": 37.764,
    "countries": [
     "US"
    ]
