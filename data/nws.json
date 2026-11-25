@@ -833,6 +833,112 @@
    ]
   },
   {
+   "id": "KOKX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Southern Queens",
+    "Southern Nassau",
+    "Southern Fairfield",
+    "Southern Westchester",
+    "Northeast Suffolk",
+    "Southeast Suffolk",
+    "Hudson",
+    "Eastern Bergen",
+    "Eastern Essex",
+    "Eastern Union",
+    "Southern New Haven",
+    "Bronx",
+    "Northwest Suffolk",
+    "Northern Queens",
+    "Northern Nassau",
+    "Southwest Suffolk",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)"
+   ],
+   "counties": [
+    "09001",
+    "09009",
+    "34003",
+    "34013",
+    "34017",
+    "34039",
+    "36005",
+    "36047",
+    "36059",
+    "36061",
+    "36081",
+    "36085",
+    "36103",
+    "36119"
+   ],
+   "sent": "2026-11-25T09:21:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.357dad86fab348f2e4cb5f69acc329eb27b87cce.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -74.0747,
+     40.9597
+    ],
+    [
+     -74.2463,
+     40.7874
+    ],
+    [
+     -74.0786,
+     40.7314
+    ],
+    [
+     -74.3087,
+     40.6599
+    ],
+    [
+     -73.8529,
+     40.8487
+    ],
+    [
+     -73.9506,
+     40.635
+    ],
+    [
+     -73.5894,
+     40.7296
+    ],
+    [
+     -73.9702,
+     40.7766
+    ],
+    [
+     -73.8412,
+     40.6547
+    ],
+    [
+     -74.1399,
+     40.5613
+    ],
+    [
+     -72.6922,
+     40.9436
+    ],
+    [
+     -73.7458,
+     41.1527
+    ]
+   ],
+   "lon": -73.874,
+   "lat": 40.787,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPSR.FA.W.0045.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -4927,6 +5033,70 @@
    ]
   },
   {
+   "id": "KMFL.MA.W.0407.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75671"
+   ],
+   "sent": "2026-11-25T09:17:00Z",
+   "onset": "2026-11-25T09:17:00Z",
+   "ends": "2026-11-25T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c09960a19430f993efb59607de33b34ee2f4b7e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.57,
+       24.67
+      ],
+      [
+       -79.61,
+       24.83
+      ],
+      [
+       -79.56,
+       24.97
+      ],
+      [
+       -79.34,
+       24.94
+      ],
+      [
+       -79.35,
+       24.89
+      ],
+      [
+       -79.38,
+       24.86
+      ],
+      [
+       -79.49,
+       24.66
+      ],
+      [
+       -79.57,
+       24.67
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.484,
+   "lat": 24.811,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KKEY.MA.W.0415.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -4939,21 +5109,21 @@
    "counties": [
     "77072"
    ],
-   "sent": "2026-11-25T08:45:00Z",
-   "onset": "2026-11-25T08:45:00Z",
+   "sent": "2026-11-25T09:23:00Z",
+   "onset": "2026-11-25T09:23:00Z",
    "ends": "2026-11-25T09:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1bb360ab607f123c08228e094e1b85a5ffe516a0.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3253ae3c105ecc3ae0e707608be1efdedd369c6.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.9,
-       24.45
+       -79.83,
+       24.6
       ],
       [
-       -80.08,
-       24.51
+       -80.04,
+       24.66
       ],
       [
        -79.96,
@@ -4968,16 +5138,16 @@
        24.84
       ],
       [
-       -79.9,
-       24.45
+       -79.83,
+       24.6
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.887,
-   "lat": 24.677,
+   "lon": -79.857,
+   "lat": 24.752,
    "countries": [
     "US"
    ]
@@ -4999,21 +5169,21 @@
     "77072",
     "77073"
    ],
-   "sent": "2026-11-25T08:47:00Z",
-   "onset": "2026-11-25T08:47:00Z",
+   "sent": "2026-11-25T09:24:00Z",
+   "onset": "2026-11-25T09:24:00Z",
    "ends": "2026-11-25T09:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c73121718683b8bb12d021ca5e39b077643ec10.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2059cff1e3871b8be5e5c0d3df1398ca8981db9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.7,
-       24.09
+       -80.6,
+       24.19
       ],
       [
-       -80.89,
-       24.17
+       -80.83,
+       24.29
       ],
       [
        -80.71,
@@ -5024,16 +5194,16 @@
        24.42
       ],
       [
-       -80.7,
-       24.09
+       -80.6,
+       24.19
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.676,
-   "lat": 24.266,
+   "lon": -80.624,
+   "lat": 24.33,
    "countries": [
     "US"
    ]
@@ -5387,50 +5557,6 @@
    ]
   },
   {
-   "id": "KMHX.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
-    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM",
-    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
-    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
-    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
-    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM"
-   ],
-   "counties": [
-    "75150",
-    "75152",
-    "75154",
-    "75156",
-    "75158",
-    "75180",
-    "75182",
-    "75184",
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-25T06:26:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-26T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff63eafdfb68062516e60aa57e6a464ac0217938.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.SR.W.0002.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5599,13 +5725,59 @@
    ]
   },
   {
-   "id": "KOKX.SR.A.0003.2026",
-   "event": "Storm Watch",
+   "id": "KMHX.SR.W.0004.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
+    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
+    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
+    "S of Cape Lookout NC to Surf City NC out to 20 NM",
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75150",
+    "75152",
+    "75154",
+    "75156",
+    "75158",
+    "75180",
+    "75182",
+    "75184",
+    "75186",
+    "75188"
+   ],
+   "sent": "2026-11-25T09:16:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-26T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cd740dab8b73fcf1f22cb5a774e72a38f054104.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOKX.SR.W.0003.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Upton NY",
    "areas": [
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
     "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
     "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
     "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
@@ -5615,9 +5787,7 @@
     "Long Island Sound West of New Haven CT/Port Jefferson NY",
     "New York Harbor",
     "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay",
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM"
+    "South Shore Bays from Jones Inlet through Shinnecock Bay"
    ],
    "counties": [
     "73331",
@@ -5633,10 +5803,10 @@
     "73383",
     "73385"
    ],
-   "sent": "2026-11-25T04:12:00Z",
+   "sent": "2026-11-25T09:33:00Z",
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bf4fbdbac1ebe3e4897d3a6bf4dd202eb42e1e7.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90d332f53367e0d7f6b7fb6511560e08716ad55c.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
