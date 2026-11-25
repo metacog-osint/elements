@@ -294,13 +294,13 @@
    "areas": [
     "New Castle",
     "Salem",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -866,8 +866,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
    ],
    "counties": [
     "06059",
@@ -876,7 +876,7 @@
    "sent": "2026-11-25T22:08:00Z",
    "onset": "2026-11-25T22:08:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1847,181 +1847,6 @@
    ]
   },
   {
-   "id": "KRAH.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Person",
-    "Granville",
-    "Vance",
-    "Warren",
-    "Halifax",
-    "Alamance",
-    "Orange",
-    "Durham",
-    "Franklin",
-    "Nash",
-    "Edgecombe",
-    "Chatham",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Cumberland",
-    "Sampson",
-    "Forsyth",
-    "Guilford",
-    "Randolph",
-    "Moore",
-    "Hoke"
-   ],
-   "counties": [
-    "37001",
-    "37037",
-    "37051",
-    "37063",
-    "37065",
-    "37067",
-    "37069",
-    "37077",
-    "37081",
-    "37083",
-    "37085",
-    "37093",
-    "37101",
-    "37105",
-    "37125",
-    "37127",
-    "37135",
-    "37145",
-    "37151",
-    "37163",
-    "37181",
-    "37183",
-    "37185",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-25T16:19:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb7f1357dc3aa765d860ec290cfee3bd2aea59f1.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.4006,
-     36.044
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -80.257,
-     36.1325
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.6576,
-     36.2999
-    ],
-    [
-     -79.7887,
-     36.0791
-    ],
-    [
-     -77.6448,
-     36.2514
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -79.242,
-     35.0172
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -79.4927,
-     35.3083
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.12,
-     36.0625
-    ],
-    [
-     -78.9737,
-     36.3883
-    ],
-    [
-     -79.8062,
-     35.7099
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -78.4054,
-     36.3655
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0999,
-     36.3981
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.763,
-   "lat": 35.8,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.FA.A.0007.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -2826,6 +2651,181 @@
    ],
    "lon": -80.476,
    "lat": 26.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FA.A.0003.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Person",
+    "Granville",
+    "Vance",
+    "Warren",
+    "Halifax",
+    "Forsyth",
+    "Guilford",
+    "Alamance",
+    "Orange",
+    "Durham",
+    "Franklin",
+    "Nash",
+    "Edgecombe",
+    "Randolph",
+    "Chatham",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Moore",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Hoke",
+    "Cumberland",
+    "Sampson"
+   ],
+   "counties": [
+    "37001",
+    "37037",
+    "37051",
+    "37063",
+    "37065",
+    "37067",
+    "37069",
+    "37077",
+    "37081",
+    "37083",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37125",
+    "37127",
+    "37135",
+    "37145",
+    "37151",
+    "37163",
+    "37181",
+    "37183",
+    "37185",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-25T22:29:00Z",
+   "onset": "2026-11-25T22:29:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daaeaf35e3b71810127441de82db358c9d8e3229.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.4006,
+     36.044
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -80.257,
+     36.1325
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.6576,
+     36.2999
+    ],
+    [
+     -79.7887,
+     36.0791
+    ],
+    [
+     -77.6448,
+     36.2514
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.12,
+     36.0625
+    ],
+    [
+     -78.9737,
+     36.3883
+    ],
+    [
+     -79.8062,
+     35.7099
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -78.4054,
+     36.3655
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0999,
+     36.3981
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -78.763,
+   "lat": 35.8,
    "countries": [
     "US"
    ]
@@ -4081,16 +4081,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Virginia Beach",
-    "Norfolk",
-    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "James City",
     "Eastern King and Queen",
-    "Eastern Essex"
+    "Eastern Essex",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Virginia Beach",
+    "Norfolk",
+    "Portsmouth"
    ],
    "counties": [
     "24019",

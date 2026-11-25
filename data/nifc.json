@@ -199,10 +199,10 @@
   {
    "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
    "name": "Dugger",
-   "acres": 400.0,
+   "acres": 500.0,
    "contained": 0,
    "discovered": "2026-11-24T22:45:23Z",
-   "updated": "2026-11-25T20:42:03Z",
+   "updated": "2026-11-25T22:33:52Z",
    "state": "AL",
    "county": "Cleburne",
    "cause": "Undetermined",
@@ -1121,6 +1121,20 @@
    "lat": 42.0949
   },
   {
+   "id": "{3ED5CA25-FC50-47C5-BDAA-E48FDF9F8A80}",
+   "name": "Harris 0132",
+   "acres": 0.2,
+   "contained": 0,
+   "discovered": "2026-11-25T20:45:00Z",
+   "updated": "2026-11-25T22:27:59Z",
+   "state": "TX",
+   "county": "Harris",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -95.5131,
+   "lat": 30.0067
+  },
+  {
    "id": "{11C542B6-DB3F-4924-A4FF-FB6EE423E624}",
    "name": "Snowberry",
    "acres": 0.1,
@@ -1343,20 +1357,6 @@
    "complexity": null,
    "lon": -100.6307,
    "lat": 46.0908
-  },
-  {
-   "id": "{DA2495E4-2331-4557-994F-0D01585D3038}",
-   "name": "T Skaggs Road",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-25T20:50:00Z",
-   "updated": "2026-11-25T21:52:18Z",
-   "state": "KY",
-   "county": "Elliott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.1334,
-   "lat": 38.1791
   },
   {
    "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
@@ -1847,6 +1847,20 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.695
+  },
+  {
+   "id": "{95532C31-0685-4AAF-831C-DBF7664E472A}",
+   "name": "Deer",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T22:25:11Z",
+   "updated": "2026-11-25T22:34:23Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.5904,
+   "lat": 34.1163
   }
  ]
 }
