@@ -744,11 +744,11 @@
    "certainty": "Likely",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Ocean",
+    "Coastal Ocean",
     "Middlesex",
     "Western Monmouth",
     "Eastern Monmouth",
-    "Ocean",
-    "Coastal Ocean",
     "Inland Sussex",
     "Delaware Beaches",
     "New Castle",
@@ -777,7 +777,7 @@
    "sent": "2026-11-25T08:20:00Z",
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a531ca0afb354ff137937d0f96e250bdce8e33.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a531ca0afb354ff137937d0f96e250bdce8e33.005.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4640,10 +4640,10 @@
     "36085",
     "36103"
    ],
-   "sent": "2026-11-25T08:22:00Z",
+   "sent": "2026-11-25T08:38:00Z",
    "onset": "2026-11-26T15:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99a7c282dd074015acab00f6f56ff48545f0be2f.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22663c65fb6d144d9b3b42a741f410b18c4e8cb5.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4922,6 +4922,118 @@
    ],
    "lon": -123.749,
    "lat": 46.012,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0415.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out"
+   ],
+   "counties": [
+    "77072"
+   ],
+   "sent": "2026-11-25T08:45:00Z",
+   "onset": "2026-11-25T08:45:00Z",
+   "ends": "2026-11-25T09:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1bb360ab607f123c08228e094e1b85a5ffe516a0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.9,
+       24.45
+      ],
+      [
+       -80.08,
+       24.51
+      ],
+      [
+       -79.96,
+       24.94
+      ],
+      [
+       -79.75,
+       24.87
+      ],
+      [
+       -79.73,
+       24.84
+      ],
+      [
+       -79.9,
+       24.45
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.887,
+   "lat": 24.677,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0416.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge out 20 NM",
+    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out",
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge 20 to 60 NM out"
+   ],
+   "counties": [
+    "77053",
+    "77072",
+    "77073"
+   ],
+   "sent": "2026-11-25T08:47:00Z",
+   "onset": "2026-11-25T08:47:00Z",
+   "ends": "2026-11-25T09:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c73121718683b8bb12d021ca5e39b077643ec10.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.7,
+       24.09
+      ],
+      [
+       -80.89,
+       24.17
+      ],
+      [
+       -80.71,
+       24.56
+      ],
+      [
+       -80.38,
+       24.42
+      ],
+      [
+       -80.7,
+       24.09
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.676,
+   "lat": 24.266,
    "countries": [
     "US"
    ]
@@ -5577,43 +5689,6 @@
    ]
   },
   {
-   "id": "KILX.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Lincoln IL",
-   "areas": [
-    "Scott",
-    "Morgan"
-   ],
-   "counties": [
-    "17137",
-    "17171"
-   ],
-   "sent": "2026-11-25T03:50:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.532fb99de36b481a3f1e40c8d49283475c3344b0.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -90.205,
-     39.7177
-    ],
-    [
-     -90.4778,
-     39.637
-    ]
-   ],
-   "lon": -90.341,
-   "lat": 39.677,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.WS.W.0005.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -5907,6 +5982,43 @@
    ],
    "lon": -90.891,
    "lat": 38.26,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILX.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Lincoln IL",
+   "areas": [
+    "Scott",
+    "Morgan"
+   ],
+   "counties": [
+    "17137",
+    "17171"
+   ],
+   "sent": "2026-11-25T08:55:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a84a786e15189224290bdc996a33a6cc3ae14394.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.205,
+     39.7177
+    ],
+    [
+     -90.4778,
+     39.637
+    ]
+   ],
+   "lon": -90.341,
+   "lat": 39.677,
    "countries": [
     "US"
    ]
