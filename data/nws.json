@@ -38,9 +38,9 @@
     "Dorchester",
     "Wicomico",
     "Somerset",
-    "Inland Worcester",
     "Prince George",
-    "Charles City"
+    "Charles City",
+    "Inland Worcester"
    ],
    "counties": [
     "24019",
@@ -1558,141 +1558,6 @@
    ]
   },
   {
-   "id": "KSTO.FA.W.0001.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Sacramento CA",
-   "areas": [
-    "Sacramento, CA",
-    "San Joaquin, CA",
-    "Solano, CA",
-    "Yolo, CA"
-   ],
-   "counties": [
-    "06067",
-    "06077",
-    "06095",
-    "06113"
-   ],
-   "sent": "2026-11-25T17:44:00Z",
-   "onset": "2026-11-25T17:44:00Z",
-   "ends": "2026-11-27T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1b6a570027bc5a333860a3b4154e6cf748c2942.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -121.76,
-       38.09
-      ],
-      [
-       -121.63,
-       38.4
-      ],
-      [
-       -121.48,
-       38.37
-      ],
-      [
-       -121.29,
-       37.91
-      ],
-      [
-       -121.32,
-       37.78
-      ],
-      [
-       -121.52,
-       37.77
-      ],
-      [
-       -121.55,
-       37.82
-      ],
-      [
-       -121.54,
-       37.85
-      ],
-      [
-       -121.58,
-       37.86
-      ],
-      [
-       -121.57,
-       38.1
-      ],
-      [
-       -121.67,
-       38.1
-      ],
-      [
-       -121.75,
-       38.03
-      ],
-      [
-       -121.82,
-       38.02
-      ],
-      [
-       -121.84,
-       38.06
-      ],
-      [
-       -121.8,
-       38.03
-      ],
-      [
-       -121.71,
-       38.09
-      ],
-      [
-       -121.66,
-       38.17
-      ],
-      [
-       -121.74,
-       38.09
-      ],
-      [
-       -121.85,
-       38.07
-      ],
-      [
-       -121.76,
-       38.09
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -121.3443,
-     38.4501
-    ],
-    [
-     -121.2722,
-     37.935
-    ],
-    [
-     -121.9396,
-     38.2672
-    ],
-    [
-     -121.9027,
-     38.6796
-    ]
-   ],
-   "lon": -121.642,
-   "lat": 38.035,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSTO.FA.W.0002.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1814,6 +1679,141 @@
    ]
   },
   {
+   "id": "KSTO.FA.W.0001.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Sacramento CA",
+   "areas": [
+    "Sacramento, CA",
+    "San Joaquin, CA",
+    "Solano, CA",
+    "Yolo, CA"
+   ],
+   "counties": [
+    "06067",
+    "06077",
+    "06095",
+    "06113"
+   ],
+   "sent": "2026-11-25T18:33:00Z",
+   "onset": "2026-11-25T18:33:00Z",
+   "ends": "2026-11-27T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26caa66b93241cd914dcbd29bbce0b5622bfff1d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -121.76,
+       38.09
+      ],
+      [
+       -121.63,
+       38.4
+      ],
+      [
+       -121.48,
+       38.37
+      ],
+      [
+       -121.29,
+       37.91
+      ],
+      [
+       -121.32,
+       37.78
+      ],
+      [
+       -121.52,
+       37.77
+      ],
+      [
+       -121.55,
+       37.82
+      ],
+      [
+       -121.54,
+       37.85
+      ],
+      [
+       -121.58,
+       37.86
+      ],
+      [
+       -121.57,
+       38.1
+      ],
+      [
+       -121.67,
+       38.1
+      ],
+      [
+       -121.75,
+       38.03
+      ],
+      [
+       -121.82,
+       38.02
+      ],
+      [
+       -121.84,
+       38.06
+      ],
+      [
+       -121.8,
+       38.03
+      ],
+      [
+       -121.71,
+       38.09
+      ],
+      [
+       -121.66,
+       38.17
+      ],
+      [
+       -121.74,
+       38.09
+      ],
+      [
+       -121.85,
+       38.07
+      ],
+      [
+       -121.76,
+       38.09
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -121.3443,
+     38.4501
+    ],
+    [
+     -121.2722,
+     37.935
+    ],
+    [
+     -121.9396,
+     38.2672
+    ],
+    [
+     -121.9027,
+     38.6796
+    ]
+   ],
+   "lon": -121.642,
+   "lat": 38.035,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KMLB.FA.A.0005.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1918,127 +1918,6 @@
    ],
    "lon": -80.476,
    "lat": 26.153,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.FA.A.0005.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Martin",
-    "Pitt",
-    "Greene",
-    "Duplin",
-    "Lenoir",
-    "Washington",
-    "Tyrrell",
-    "Mainland Dare",
-    "Beaufort",
-    "Mainland Hyde",
-    "Jones",
-    "Pamlico",
-    "Northern Craven",
-    "Southern Craven",
-    "West Carteret",
-    "East Carteret",
-    "Inland Onslow",
-    "Coastal Onslow",
-    "Northern Outer Banks",
-    "Ocracoke Island",
-    "Hatteras Island"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37055",
-    "37061",
-    "37079",
-    "37095",
-    "37103",
-    "37107",
-    "37117",
-    "37133",
-    "37137",
-    "37147",
-    "37177",
-    "37187"
-   ],
-   "sent": "2026-11-25T12:53:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77360389106a9d517d0e74e54f8d04773f1af0fa.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -77.9335,
-     34.9344
-    ],
-    [
-     -77.6817,
-     35.482
-    ],
-    [
-     -76.1537,
-     35.4082
-    ],
-    [
-     -77.3562,
-     35.0323
-    ],
-    [
-     -77.6355,
-     35.2401
-    ],
-    [
-     -77.1196,
-     35.8473
-    ],
-    [
-     -77.4995,
-     34.7631
-    ],
-    [
-     -76.6653,
-     35.1476
-    ],
-    [
-     -77.3727,
-     35.5925
-    ],
-    [
-     -76.1653,
-     35.8704
-    ],
-    [
-     -76.5723,
-     35.8447
-    ]
-   ],
-   "lon": -76.959,
-   "lat": 35.348,
    "countries": [
     "US"
    ]
@@ -2856,6 +2735,127 @@
    ],
    "lon": -79.954,
    "lat": 36.927,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.FA.A.0005.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Martin",
+    "Pitt",
+    "Greene",
+    "Duplin",
+    "Lenoir",
+    "Washington",
+    "Tyrrell",
+    "Mainland Dare",
+    "Beaufort",
+    "Mainland Hyde",
+    "Jones",
+    "Pamlico",
+    "Northern Craven",
+    "Southern Craven",
+    "West Carteret",
+    "East Carteret",
+    "Inland Onslow",
+    "Coastal Onslow",
+    "Northern Outer Banks",
+    "Ocracoke Island",
+    "Hatteras Island"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37055",
+    "37061",
+    "37079",
+    "37095",
+    "37103",
+    "37107",
+    "37117",
+    "37133",
+    "37137",
+    "37147",
+    "37177",
+    "37187"
+   ],
+   "sent": "2026-11-25T18:35:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7811c89cbafa1662bfbe96fe58365e312d8ec052.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -77.9335,
+     34.9344
+    ],
+    [
+     -77.6817,
+     35.482
+    ],
+    [
+     -76.1537,
+     35.4082
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.6355,
+     35.2401
+    ],
+    [
+     -77.1196,
+     35.8473
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -76.6653,
+     35.1476
+    ],
+    [
+     -77.3727,
+     35.5925
+    ],
+    [
+     -76.1653,
+     35.8704
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -76.959,
+   "lat": 35.348,
    "countries": [
     "US"
    ]
@@ -4372,50 +4372,6 @@
    ]
   },
   {
-   "id": "KMHX.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "East Carteret",
-    "Northern Outer Banks",
-    "Ocracoke Island",
-    "Hatteras Island"
-   ],
-   "counties": [
-    "37031",
-    "37055",
-    "37095"
-   ],
-   "sent": "2026-11-25T12:51:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e5fcea2b7e5025ec23ad6df5af8cb8086137207.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ]
-   ],
-   "lon": -76.152,
-   "lat": 35.291,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRNK.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4530,147 +4486,6 @@
    ]
   },
   {
-   "id": "KLWX.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge",
-    "St. Marys",
-    "Cecil",
-    "Southern Baltimore",
-    "Anne Arundel",
-    "Calvert",
-    "Southeast Harford",
-    "Western Garrett",
-    "Western Grant",
-    "Western Pendleton"
-   ],
-   "counties": [
-    "24003",
-    "24005",
-    "24009",
-    "24015",
-    "24023",
-    "24025",
-    "24037",
-    "24510",
-    "51003",
-    "51009",
-    "51015",
-    "51079",
-    "51113",
-    "51125",
-    "51139",
-    "51157",
-    "51163",
-    "51165",
-    "51187",
-    "54023",
-    "54071"
-   ],
-   "sent": "2026-11-25T15:28:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08642b9c93a8a194edb62fb0b57501e8363e2b82.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.5609,
-     38.9916
-    ],
-    [
-     -76.6166,
-     39.4432
-    ],
-    [
-     -76.5298,
-     38.5227
-    ],
-    [
-     -75.9416,
-     39.5624
-    ],
-    [
-     -79.2746,
-     39.5473
-    ],
-    [
-     -76.2998,
-     39.5374
-    ],
-    [
-     -76.5345,
-     38.2231
-    ],
-    [
-     -76.6105,
-     39.3
-    ],
-    [
-     -78.5535,
-     38.0242
-    ],
-    [
-     -79.1548,
-     37.6293
-    ],
-    [
-     -79.141,
-     38.1726
-    ],
-    [
-     -78.4702,
-     38.298
-    ],
-    [
-     -78.277,
-     38.4121
-    ],
-    [
-     -78.8834,
-     37.7891
-    ],
-    [
-     -78.4919,
-     38.6232
-    ],
-    [
-     -78.1688,
-     38.6845
-    ],
-    [
-     -79.4478,
-     37.8145
-    ],
-    [
-     -78.8853,
-     38.5076
-    ],
-    [
-     -78.2076,
-     38.9082
-    ],
-    [
-     -79.1951,
-     39.106
-    ],
-    [
-     -79.3406,
-     38.6745
-    ]
-   ],
-   "lon": -78.028,
-   "lat": 38.656,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4697,16 +4512,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Westmoreland",
-    "Richmond",
-    "James City",
-    "Eastern King and Queen",
-    "Eastern Essex",
     "Western Currituck",
     "Eastern Currituck",
     "Virginia Beach",
     "Norfolk",
-    "Portsmouth"
+    "Portsmouth",
+    "Westmoreland",
+    "Richmond",
+    "James City",
+    "Eastern King and Queen",
+    "Eastern Essex"
    ],
    "counties": [
     "24019",
@@ -4870,43 +4685,6 @@
    ]
   },
   {
-   "id": "KPBZ.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Pittsburgh PA",
-   "areas": [
-    "Eastern Preston",
-    "Eastern Tucker"
-   ],
-   "counties": [
-    "54077",
-    "54093"
-   ],
-   "sent": "2026-11-25T17:18:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.999d3c88ff9a3ffa706b4f5dfe19482e97a06872.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.6689,
-     39.469
-    ],
-    [
-     -79.56,
-     39.1112
-    ]
-   ],
-   "lon": -79.614,
-   "lat": 39.29,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.HW.W.0018.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4946,6 +4724,254 @@
    ],
    "lon": -109.659,
    "lat": 46.23,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPBZ.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pittsburgh PA",
+   "areas": [
+    "Westmoreland Ridges",
+    "Fayette Ridges",
+    "Higher Elevations of Indiana",
+    "Preston",
+    "Western Tucker",
+    "Eastern Preston",
+    "Eastern Tucker"
+   ],
+   "counties": [
+    "42051",
+    "42063",
+    "42129",
+    "54077",
+    "54093"
+   ],
+   "sent": "2026-11-25T18:12:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ba0d2490fed85b8d6ccaf377780df75541cf74c.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.6403,
+     39.9189
+    ],
+    [
+     -79.0875,
+     40.6514
+    ],
+    [
+     -79.4667,
+     40.3111
+    ],
+    [
+     -79.6689,
+     39.469
+    ],
+    [
+     -79.56,
+     39.1112
+    ]
+   ],
+   "lon": -79.485,
+   "lat": 39.892,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Western Highland",
+    "St. Marys",
+    "Western Garrett",
+    "Western Grant",
+    "Western Pendleton",
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
+    "Cecil",
+    "Southern Baltimore",
+    "Anne Arundel",
+    "Calvert",
+    "Southeast Harford"
+   ],
+   "counties": [
+    "24003",
+    "24005",
+    "24009",
+    "24015",
+    "24023",
+    "24025",
+    "24037",
+    "24510",
+    "51003",
+    "51009",
+    "51015",
+    "51079",
+    "51091",
+    "51113",
+    "51125",
+    "51139",
+    "51157",
+    "51163",
+    "51165",
+    "51187",
+    "54023",
+    "54071"
+   ],
+   "sent": "2026-11-25T18:23:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7104efbb14c87a91d1cda8bcfcaa0723e32b43ac.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.6166,
+     39.4432
+    ],
+    [
+     -76.5298,
+     38.5227
+    ],
+    [
+     -75.9416,
+     39.5624
+    ],
+    [
+     -79.2746,
+     39.5473
+    ],
+    [
+     -76.2998,
+     39.5374
+    ],
+    [
+     -76.5345,
+     38.2231
+    ],
+    [
+     -76.6105,
+     39.3
+    ],
+    [
+     -78.5535,
+     38.0242
+    ],
+    [
+     -79.1548,
+     37.6293
+    ],
+    [
+     -79.141,
+     38.1726
+    ],
+    [
+     -78.4702,
+     38.298
+    ],
+    [
+     -79.5645,
+     38.3662
+    ],
+    [
+     -78.277,
+     38.4121
+    ],
+    [
+     -78.8834,
+     37.7891
+    ],
+    [
+     -78.4919,
+     38.6232
+    ],
+    [
+     -78.1688,
+     38.6845
+    ],
+    [
+     -79.4478,
+     37.8145
+    ],
+    [
+     -78.8853,
+     38.5076
+    ],
+    [
+     -78.2076,
+     38.9082
+    ],
+    [
+     -79.1951,
+     39.106
+    ],
+    [
+     -79.3406,
+     38.6745
+    ]
+   ],
+   "lon": -78.098,
+   "lat": 38.643,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "East Carteret",
+    "Northern Outer Banks",
+    "Ocracoke Island",
+    "Hatteras Island"
+   ],
+   "counties": [
+    "37031",
+    "37055",
+    "37095"
+   ],
+   "sent": "2026-11-25T18:32:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd41be3fb66ff3e824e2e27d9d1b26fa6568b225.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
+    ]
+   ],
+   "lon": -76.152,
+   "lat": 35.291,
    "countries": [
     "US"
    ]
@@ -5139,142 +5165,6 @@
    ]
   },
   {
-   "id": "KMHX.MA.W.0408.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75188"
-   ],
-   "sent": "2026-11-25T17:10:00Z",
-   "onset": "2026-11-25T17:10:00Z",
-   "ends": "2026-11-25T18:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.441d70f725537e751bd80e33c0ef0cf15d1b9b4a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.58,
-       33.64
-      ],
-      [
-       -76.89,
-       33.9
-      ],
-      [
-       -76.88,
-       33.91
-      ],
-      [
-       -76.09,
-       34.25
-      ],
-      [
-       -75.64,
-       33.91
-      ],
-      [
-       -75.77,
-       33.79
-      ],
-      [
-       -76.23,
-       33.61
-      ],
-      [
-       -76.58,
-       33.64
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -76.332,
-   "lat": 33.831,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0417.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-25T17:29:00Z",
-   "onset": "2026-11-25T17:29:00Z",
-   "ends": "2026-11-25T18:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.509b06483d5680130020dbcecab0382859246483.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.76,
-       24.88
-      ],
-      [
-       -79.43,
-       25.66
-      ],
-      [
-       -79.13,
-       26.02
-      ],
-      [
-       -79.09,
-       26
-      ],
-      [
-       -79.1,
-       25.77
-      ],
-      [
-       -79.18,
-       25.46
-      ],
-      [
-       -79.23,
-       25.16
-      ],
-      [
-       -79.35,
-       24.9
-      ],
-      [
-       -79.54,
-       24.6
-      ],
-      [
-       -79.76,
-       24.88
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.357,
-   "lat": 25.333,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMOB.MA.W.0245.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -5397,57 +5287,119 @@
    ]
   },
   {
-   "id": "KMOB.MA.W.0244.2026",
+   "id": "KKEY.MA.W.0421.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
-   "sender": "NWS Mobile AL",
+   "sender": "NWS Key West FL",
    "areas": [
-    "Waters from Okaloosa-Walton County Line to Pensacola FL from 20 to 60 NM"
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
    ],
    "counties": [
-    "77675"
+    "77035",
+    "77044",
+    "77054",
+    "77074"
    ],
-   "sent": "2026-11-25T18:04:00Z",
-   "onset": "2026-11-25T18:04:00Z",
-   "ends": "2026-11-25T18:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f211a6904634b2d769fb3ba932e2fad25d54cb6.002.1",
+   "sent": "2026-11-25T18:22:00Z",
+   "onset": "2026-11-25T18:22:00Z",
+   "ends": "2026-11-25T18:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b55c8ce0de7eba812f5ccdc35496e2fe29e7eba.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -87.03,
-       29.67
+       -82.05,
+       24.15
       ],
       [
-       -87.04,
-       30.01
+       -81.88,
+       24.57
       ],
       [
-       -87.03,
-       30.01
+       -81.59,
+       24.47
       ],
       [
-       -86.86,
-       30.04
+       -81.87,
+       24.08
       ],
       [
-       -86.75,
-       29.71
-      ],
-      [
-       -87.03,
-       29.67
+       -82.05,
+       24.15
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -86.957,
-   "lat": 29.852,
+   "lon": -81.888,
+   "lat": 24.284,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.MA.W.0410.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75188"
+   ],
+   "sent": "2026-11-25T18:27:00Z",
+   "onset": "2026-11-25T18:27:00Z",
+   "ends": "2026-11-25T19:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8157742a3dc07b702eb6c82804774ea1080def5e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.59,
+       33.64
+      ],
+      [
+       -76.92,
+       33.93
+      ],
+      [
+       -76.11,
+       34.27
+      ],
+      [
+       -75.64,
+       33.91
+      ],
+      [
+       -75.77,
+       33.79
+      ],
+      [
+       -76.24,
+       33.61
+      ],
+      [
+       -76.59,
+       33.64
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -76.266,
+   "lat": 33.827,
    "countries": [
     "US"
    ]
@@ -5713,56 +5665,6 @@
    ]
   },
   {
-   "id": "KPHI.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
-    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
-    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
-    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
-    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
-    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
-    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM"
-   ],
-   "counties": [
-    "73430",
-    "73431",
-    "73450",
-    "73451",
-    "73452",
-    "73453",
-    "73454",
-    "73455",
-    "73480",
-    "73481",
-    "73482",
-    "73483",
-    "73485"
-   ],
-   "sent": "2026-11-25T07:02:00Z",
-   "onset": "2026-11-25T23:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0898c3c4473cf76d8105099c28127138ace26d0d.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5843,50 +5745,6 @@
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c46ab36f9bb15c6eefaf84ef6856b9247a3c0bdc.004.4",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
-    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
-    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM",
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
-    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
-    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75150",
-    "75152",
-    "75154",
-    "75156",
-    "75158",
-    "75180",
-    "75182",
-    "75184",
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-25T09:16:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-26T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cd740dab8b73fcf1f22cb5a774e72a38f054104.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6207,32 +6065,121 @@
    ]
   },
   {
-   "id": "KOTX.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
+   "id": "KMHX.SR.W.0004.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Spokane WA",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Western Okanogan County"
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
+    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
+    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
+    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
+    "S of Cape Lookout NC to Surf City NC out to 20 NM"
    ],
    "counties": [
-    "53047"
+    "75150",
+    "75152",
+    "75154",
+    "75156",
+    "75158",
+    "75180",
+    "75182",
+    "75184",
+    "75186",
+    "75188"
    ],
-   "sent": "2026-11-25T06:06:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.898fda2b6a9113b7fd0b91299abe084e12819558.001.3",
+   "sent": "2026-11-25T18:22:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-26T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.887b879a0b1a00bd9e1dd434b05ecb07e8fec08f.004.1",
    "geometry": null,
    "vtec": true,
-   "points": [
-    [
-     -119.7422,
-     48.5485
-    ]
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILM.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
    ],
-   "lon": -119.742,
-   "lat": 48.548,
+   "counties": [
+    "75280"
+   ],
+   "sent": "2026-11-25T18:28:00Z",
+   "onset": "2026-11-25T18:28:00Z",
+   "ends": "2026-11-26T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90fdaa292d983453d75acbf71a86b681d5f6f619.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
+    "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
+    "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
+    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
+    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
+    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
+    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
+    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
+   ],
+   "counties": [
+    "73430",
+    "73431",
+    "73450",
+    "73451",
+    "73452",
+    "73453",
+    "73454",
+    "73455",
+    "73480",
+    "73481",
+    "73482",
+    "73483",
+    "73485"
+   ],
+   "sent": "2026-11-25T18:31:00Z",
+   "onset": "2026-11-25T23:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee4d08b271d28a723edb7360fb00a65d1f600855.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
    "countries": [
     "US"
    ]
@@ -6638,6 +6585,37 @@
    ],
    "lon": -109.722,
    "lat": 45.539,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOTX.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Spokane WA",
+   "areas": [
+    "Western Okanogan County"
+   ],
+   "counties": [
+    "53047"
+   ],
+   "sent": "2026-11-25T18:15:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.757b5208dcf6bbf75a796678c87a6f9bba88a8e8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7422,
+     48.5485
+    ]
+   ],
+   "lon": -119.742,
+   "lat": 48.548,
    "countries": [
     "US"
    ]
