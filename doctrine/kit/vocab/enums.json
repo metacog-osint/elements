@@ -17,7 +17,7 @@
       "anomaly": "Measured and outside the baseline. A measurement, not a warning.",
       "warning": "Judged. Carries likelihood, confidence, alternatives and what would change it."
     },
-    "rev_2_1": "Revision 2.1 meaning of anomaly (Tom, 18 Nov 2026, D5): an observation of a subject that has not ended, outside that subject's own history (a series beyond a threshold on its own rolling baseline, flagged on no more than 5% of baseline readings; or an event or notice that is new or raised to the program's stated level within its hold, 72 hours unless stated), with the numbers in the item. Each program adopts it as its own method version; the one-line meaning above is rewritten at revision 2.2. See docs/feed-contract-v2.md."
+    "rev_2_1": "Revision 2.1 meaning of anomaly (18 Nov 2026, D5): an observation of a subject that has not ended, outside that subject's own history (a series beyond a threshold on its own rolling baseline, flagged on no more than 5% of baseline readings; or an event or notice that is new or raised to the program's stated level within its hold, 72 hours unless stated), with the numbers in the item. Each program adopts it as its own method version; the one-line meaning above is rewritten at revision 2.2. See docs/feed-contract-v2.md."
   },
   "msg_type": {
     "basis": "CAP 1.2 msgType (Alert, Update, Cancel, Error)",
@@ -46,7 +46,7 @@
     }
   },
   "indicator_state": {
-    "basis": "Grabo; Tom's rule that missing data never means quiet",
+    "basis": "Grabo; the suite rule that missing data never means quiet",
     "values": {
       "present": "The indicator's condition is met in this period.",
       "absent": "Data arrived and the condition is not met.",
@@ -92,7 +92,7 @@
     }
   },
   "data_as_of_precision": {
-    "basis": "ISO 8601 reduced precision; suite display rule for sources that give no time (Tom, 15 Nov 2026)",
+    "basis": "ISO 8601 reduced precision; suite display rule for sources that give no time (15 Nov 2026)",
     "values": {
       "day": "The source gives the date only. data_as_of is midnight UTC on that date; show the date, never a time or a zone.",
       "month": "The source gives the month only. data_as_of is midnight UTC on the 1st; show the month and year, never a day or a time."
@@ -109,7 +109,7 @@
     }
   },
   "us_person_data": {
-    "basis": "A label, not a restriction (Tom, 30 Oct 2026). The programs are not bound by the US intelligence community's limits on US-person information; a consumer that is (for example a government user) filters on this field and strips what its own rules require. US persons are US citizens, permanent residents, US-incorporated companies and associations made up substantially of citizens or permanent residents (FISA, 50 U.S.C. 1801(i); the intelligence community's rules define them the same way in substance).",
+    "basis": "A label, not a restriction (30 Oct 2026). The programs are not bound by the US intelligence community's limits on US-person information; a consumer that is (for example a government user) filters on this field and strips what its own rules require. US persons are US citizens, permanent residents, US-incorporated companies and associations made up substantially of citizens or permanent residents (FISA, 50 U.S.C. 1801(i); the intelligence community's rules define them the same way in substance).",
     "values": {
       "none": "Names no person or organization (counts, measurements, places).",
       "organizations": "Names organizations, which may include US companies or other US organizations.",
@@ -125,14 +125,14 @@
     }
   },
   "contract_rev": {
-    "basis": "Additive revisions of tic-feed/2 (Tom, 18 Nov 2026, D1): the contract string stays tic-feed/2",
+    "basis": "Additive revisions of tic-feed/2 (18 Nov 2026, D1): the contract string stays tic-feed/2",
     "values": {
       "2.0": "The contract as it stood to kit 0.5.12.",
       "2.1": "Kit 0.6.0: optional last_change, event times, subject_id, signal, sea_areas, place_basis and a documented health member; tightened data_as_of, countries and anomaly."
     }
   },
   "last_change": {
-    "basis": "Feed contract revision 2.1, F1 (Tom, 18 Nov 2026, D2). State is tier and response_stage, as in the history log",
+    "basis": "Feed contract revision 2.1, F1 (18 Nov 2026, D2). State is tier and response_stage, as in the history log",
     "values": {
       "new": "The subject or condition first appeared.",
       "raised": "Its level moved up on its own ladder or across its own threshold.",
@@ -151,7 +151,7 @@
     }
   },
   "place_basis": {
-    "basis": "Feed contract revision 2.1, F5 (Tom, 18 Nov 2026, D7): why the item names these countries",
+    "basis": "Feed contract revision 2.1, F5 (18 Nov 2026, D7): why the item names these countries",
     "values": {
       "location": "It is, or it happened, there.",
       "subject": "The item is about that country (an advisory, a currency, a sanctions list), wherever it is.",
@@ -160,7 +160,7 @@
     }
   },
   "signal_tail": {
-    "basis": "Feed contract revision 2.1, F4 (Tom, 18 Nov 2026, D6): which direction of signal.value is unusual",
+    "basis": "Feed contract revision 2.1, F4 (18 Nov 2026, D6): which direction of signal.value is unusual",
     "values": {
       "high": "Unusually high values are the departure.",
       "low": "Unusually low values are the departure.",
@@ -168,7 +168,7 @@
     }
   },
   "health_state": {
-    "basis": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (Tom, 18 Nov 2026, D8)",
+    "basis": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (18 Nov 2026, D8)",
     "values": {
       "fresh": "Read on this run; its newest data are inside the expected cadence.",
       "late": "Read on this run; its newest data are older than one cadence and inside two.",
@@ -179,7 +179,7 @@
     }
   },
   "corroboration_state": {
-    "basis": "Feed contract revision 2.1, F7 (Tom, 18 Nov 2026, D11): reported, then corroborated",
+    "basis": "Feed contract revision 2.1, F7 (18 Nov 2026, D11): reported, then corroborated",
     "values": {
       "reported": "One origin so far, or only the party's own claim: not yet corroborated.",
       "corroborated": "Two independent origins, or one official source speaking within its own remit."

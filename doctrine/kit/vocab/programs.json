@@ -1,7 +1,7 @@
 {
   "vocab": "programs",
   "version": "1.0",
-  "note": "The suite registry (Tom, 1 Nov 2026): every program, its contract-v2 feed, and the datasets it owns. Rule: each dataset is collected once, by the program that owns it; every other program reads the owner's feed (tips, python/tic_doctrine/tips.py) instead of collecting it again. Before adding a collector to a program, check `owns` here. COP's merged snapshot (`bus`) carries every live feed in one file, refreshed every two hours, with stale feeds flagged. fresh_hours and stale_hours match COP's settings. Planned programs list what they will own, so nobody builds it twice in the meantime.",
+  "note": "The suite registry (1 Nov 2026): every program, its contract-v2 feed, and the datasets it owns. Rule: each dataset is collected once, by the program that owns it; every other program reads the owner's feed (tips, python/tic_doctrine/tips.py) instead of collecting it again. Before adding a collector to a program, check `owns` here. COP's merged snapshot (`bus`) carries every live feed in one file, refreshed every two hours, with stale feeds flagged. fresh_hours and stale_hours match COP's settings. Planned programs list what they will own, so nobody builds it twice in the meantime.",
   "bus": {
     "url": "https://cop.theintelligence.company/data/today.geojson",
     "program": "cop",
@@ -128,7 +128,7 @@
     },
     {"id": "wake", "name": "Wake", "status": "live", "status_note": "PortWatch chokepoint lane (wake-2.0), live 15 Nov 2026. Read and deployed by hand once a week until the IMF permits automated pulls", "family": "Maritime", "warning_problem_prefix": "WK-WP",
      "feed": "https://wake.theintelligence.company/data/feed.geojson", "site": "https://wake.theintelligence.company",
-     "terms": "Wake code MIT; IMF PortWatch data under the IMF's terms of use (reuse with attribution, a transformation stated; automated bulk download needs the IMF's permission)", "fresh_hours": 240, "stale_hours": 408,
+     "terms": "Wake code GNU AGPL-3.0; IMF PortWatch data under the IMF's terms of use (reuse with attribution, a transformation stated; automated bulk download needs the IMF's permission)", "fresh_hours": 240, "stale_hours": 408,
      "owns": ["vessel transits through 28 maritime chokepoints (IMF PortWatch)", "AIS gaps and loitering over cables and pipelines (planned)", "Global Fishing Watch (planned)", "IMB piracy reports (planned)", "port throughput (IMF PortWatch, planned)"]},
     {
       "id": "verdict", "name": "Verdict", "status": "live", "family": "Scoring",

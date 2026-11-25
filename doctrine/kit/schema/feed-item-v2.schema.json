@@ -120,7 +120,7 @@
         "none",
         "organizations"
       ],
-      "description": "A label, not a restriction (Tom, 30 Oct 2026). The programs are not bound by the US intelligence community's limits on US-person information; a consumer that is (for example a government user) filters on this field and strips what its own rules require. US persons are US citizens, permanent residents, US-incorporated companies and associations made up substantially of citizens or permanent residents (FISA, 50 U.S.C. 1801(i); the intelligence community's rules define them the same way in substance)."
+      "description": "A label, not a restriction (30 Oct 2026). The programs are not bound by the US intelligence community's limits on US-person information; a consumer that is (for example a government user) filters on this field and strips what its own rules require. US persons are US citizens, permanent residents, US-incorporated companies and associations made up substantially of citizens or permanent residents (FISA, 50 U.S.C. 1801(i); the intelligence community's rules define them the same way in substance)."
     },
     "supersedes": {
       "type": "string"
@@ -135,7 +135,7 @@
         "day",
         "month"
       ],
-      "description": "ISO 8601 reduced precision; suite display rule for sources that give no time (Tom, 15 Nov 2026)"
+      "description": "ISO 8601 reduced precision; suite display rule for sources that give no time (15 Nov 2026)"
     },
     "published_at": {
       "type": "string",
@@ -220,7 +220,7 @@
         "no_data",
         "present"
       ],
-      "description": "Grabo; Tom's rule that missing data never means quiet"
+      "description": "Grabo; the suite rule that missing data never means quiet"
     },
     "probability": {
       "type": "number",
@@ -365,7 +365,7 @@
     },
     "actors": {
       "type": "array",
-      "description": "How feed items characterise entities and sides (Tom, 31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
+      "description": "How feed items characterise entities and sides (31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
       "items": {
         "type": "object",
         "required": [
@@ -733,7 +733,7 @@
             "high",
             "low"
           ],
-          "description": "Feed contract revision 2.1, F4 (Tom, 18 Nov 2026, D6): which direction of signal.value is unusual"
+          "description": "Feed contract revision 2.1, F4 (18 Nov 2026, D6): which direction of signal.value is unusual"
         },
         "baseline_n": {
           "type": "integer",
@@ -1054,7 +1054,7 @@
         "subject",
         "zone"
       ],
-      "description": "Feed contract revision 2.1, F5 (Tom, 18 Nov 2026, D7): why the item names these countries"
+      "description": "Feed contract revision 2.1, F5 (18 Nov 2026, D7): why the item names these countries"
     },
     "corroboration": {
       "type": "object",
@@ -1071,7 +1071,7 @@
             "corroborated",
             "reported"
           ],
-          "description": "Feed contract revision 2.1, F7 (Tom, 18 Nov 2026, D11): reported, then corroborated"
+          "description": "Feed contract revision 2.1, F7 (18 Nov 2026, D11): reported, then corroborated"
         },
         "basis": {
           "oneOf": [
@@ -1141,7 +1141,7 @@
             "2.0",
             "2.1"
           ],
-          "description": "Additive revisions of tic-feed/2 (Tom, 18 Nov 2026, D1): the contract string stays tic-feed/2"
+          "description": "Additive revisions of tic-feed/2 (18 Nov 2026, D1): the contract string stays tic-feed/2"
         },
         "kit": {
           "type": "string",
@@ -1190,7 +1190,7 @@
                   "stale",
                   "up"
                 ],
-                "description": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (Tom, 18 Nov 2026, D8)"
+                "description": "Watchfloor's feed health, the kit's source health (health.py); feed contract revision 2.1, F6 (18 Nov 2026, D8)"
               },
               "checked_at": {
                 "type": "string",

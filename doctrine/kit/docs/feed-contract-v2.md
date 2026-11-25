@@ -7,7 +7,7 @@ is [`schema/feed-item-v2.schema.json`](../schema/feed-item-v2.schema.json); the 
 [`tests/fixtures/good.geojson`](../tests/fixtures/good.geojson).
 
 **Revision 2.1 (kit 0.6.0, 18 Nov 2026).** An additive revision: the contract string stays `tic-feed/2`, every new
-field is optional, and the linter notes a missing one as a warning that never fails a build (Tom's decisions D1 to
+field is optional, and the linter notes a missing one as a warning that never fails a build (the suite's decisions D1 to
 D8, 18 Nov 2026). Revision 2.2 will make each field compulsory once every feed sends it. The new fields are in
 [Revision 2.1 fields](#revision-21-fields) below; a worked example with all of them is
 [`tests/fixtures/good-2.1.geojson`](../tests/fixtures/good-2.1.geojson).
@@ -54,11 +54,11 @@ kit's source-health report.
 | `tier` | routine or anomaly (measured), warning (judged) | Grabo; NATO indicators versus indications |
 | `status`, `msg_type`, `supersedes`, `valid_until` | actual/exercise/test/draft; new/update/cancel/error; the item replaced; expiry | CAP 1.2 |
 | `human_review` | none, sampled or full | ICD 505 labelling idea |
-| `us_person_data` | none, organizations or individuals: a label, so a consumer bound by US-person rules (a government user, for example) can filter; never a reason to leave data out | suite rule (Tom, 30 Oct 2026) |
+| `us_person_data` | none, organizations or individuals: a label, so a consumer bound by US-person rules (a government user, for example) can filter; never a reason to leave data out | suite rule (30 Oct 2026) |
 | `status_class` | assessed, reported or claimed (claims draw hollow and move nothing alone) | Watchfloor two-source rule |
 | `data_as_of`, `published_at` | when it was true; when we published it (UTC, ending in Z). From revision 2.1, `data_as_of` is the newest observation or source statement the item rests on (for a notice, its issue or last-edit time): never later than `published_at`, and the build time only when the observation was made at build time | ICD 206 |
 | `countries` | ISO 3166-1 alpha-2 codes, `[]` for none. From revision 2.1, by overlap: every country the item's true footprint covers, not only those under its vertices (`geo.countries_overlapping()`); `place_basis` says why they are named | |
-| `subdivisions` | optional: ISO 3166-2 codes of the states or provinces the item is in (`["US-HI"]`), each one's country also in `countries`; leave it out when not known. A consumer matching by place should prefer it to `countries`, so a notice in Hawaii is not read as one for all of the United States | suite rule (Tom, 15 Nov 2026) |
+| `subdivisions` | optional: ISO 3166-2 codes of the states or provinces the item is in (`["US-HI"]`), each one's country also in `countries`; leave it out when not known. A consumer matching by place should prefer it to `countries`, so a notice in Hawaii is not read as one for all of the United States | suite rule (15 Nov 2026) |
 | `coverage_fraction` | share of expected observations received | Primer quality-of-information check |
 | `method_version` | the method that made the item | |
 | `sources[]` | `id`, `publisher`, `author`, `title`, `outlet`, `source_type`, `url`, `published_at`, `accessed_at`, `licence`, `descriptor` (credibility, reliability, provenance, collector or tool), `grade` (Admiralty, e.g. B2), `lineage_id`, `independence_group`; optional `owner` (state, public, private, intergovernmental, ngo, individual, unknown) and `perspective` (the program's source group, e.g. `russian_state`) | ICS 206-01 (2 Dec 2024) citation fields, without classification fields; Admiralty system; owner and perspective from Watchfloor's source catalog |
@@ -71,7 +71,7 @@ Optional on every item: `summary`, `evidence_hash` (`sha256:...`), `archive_url`
 with `month`, it is midnight UTC on the 1st. A page then shows the date ("30 Oct 2026") or the month ("June 2025"),
 read in UTC, and never a time or a zone; the kit's `asOfDateLabel()` does this. Without the field, `data_as_of` is a
 moment and is shown in the viewer's zone. Midnight UTC shown as a time reads as the evening before in the Americas
-(Tom, 15 Nov 2026).
+(15 Nov 2026).
 
 ## Revision 2.1 fields
 
