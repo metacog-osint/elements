@@ -200,9 +200,9 @@
    "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
    "name": "Dugger",
    "acres": 400.0,
-   "contained": null,
+   "contained": 0,
    "discovered": "2026-11-24T22:45:23Z",
-   "updated": "2026-11-25T19:36:35Z",
+   "updated": "2026-11-25T20:42:03Z",
    "state": "AL",
    "county": "Cleburne",
    "cause": "Undetermined",
@@ -377,6 +377,20 @@
    "complexity": null,
    "lon": -123.1521,
    "lat": 42.8906
+  },
+  {
+   "id": "{B32DBE9C-1E79-4DDE-8301-095FF9E0575D}",
+   "name": "Lincoln Sec 34",
+   "acres": 60.0,
+   "contained": null,
+   "discovered": "2026-07-12T21:50:00Z",
+   "updated": "2026-11-25T20:54:53Z",
+   "state": "MN",
+   "county": "Marshall",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -96.443,
+   "lat": 48.4641
   },
   {
    "id": "{3CE71653-12A4-4FE3-A1E2-AC33D54997F7}",
@@ -580,10 +594,10 @@
    "acres": 7.0,
    "contained": 0,
    "discovered": "2026-11-25T18:52:00Z",
-   "updated": "2026-11-25T19:40:00Z",
+   "updated": "2026-11-25T20:41:57Z",
    "state": "KY",
    "county": "Martin",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": "Type 5 Incident",
    "lon": -82.6323,
    "lat": 37.8275
@@ -601,6 +615,20 @@
    "complexity": null,
    "lon": -70.6726,
    "lat": 44.4062
+  },
+  {
+   "id": "{CD26D29A-431A-4DA2-B1CC-23BC54152CF3}",
+   "name": "Angelina 0127",
+   "acres": 5.0,
+   "contained": 0,
+   "discovered": "2026-11-25T20:00:00Z",
+   "updated": "2026-11-25T21:02:10Z",
+   "state": "TX",
+   "county": "Angelina",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.4164,
+   "lat": 31.2819
   },
   {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
@@ -657,6 +685,34 @@
    "complexity": null,
    "lon": -89.2961,
    "lat": 43.4228
+  },
+  {
+   "id": "{E0F35FE9-4B7C-4AF4-8F74-2AF5070C6042}",
+   "name": "Bowie 0129",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-25T20:18:00Z",
+   "updated": "2026-11-25T20:42:21Z",
+   "state": "TX",
+   "county": "Bowie",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.4773,
+   "lat": 33.5198
+  },
+  {
+   "id": "{DA2495E4-2331-4557-994F-0D01585D3038}",
+   "name": "T Skaggs Road",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-25T20:50:00Z",
+   "updated": "2026-11-25T20:56:27Z",
+   "state": "KY",
+   "county": "Elliott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.1259,
+   "lat": 38.1821
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -811,6 +867,20 @@
    "complexity": "Type 5 Incident",
    "lon": -83.0279,
    "lat": 37.6623
+  },
+  {
+   "id": "{B5F459B3-C7F7-47D7-8A0B-008DF925BE41}",
+   "name": "Ouachita 357",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-25T20:32:32Z",
+   "updated": "2026-11-25T20:36:50Z",
+   "state": "AR",
+   "county": "Ouachita",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.9708,
+   "lat": 33.5254
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1273,20 +1343,6 @@
    "complexity": null,
    "lon": -89.0317,
    "lat": 43.9553
-  },
-  {
-   "id": "{EEE441E5-E35C-41E7-B1F9-2EC03F6FCEFB}",
-   "name": "0941",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-22T18:38:00Z",
-   "updated": "2026-11-22T20:44:27Z",
-   "state": "OR",
-   "county": "Deschutes",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -121.1305,
-   "lat": 44.0827
   },
   {
    "id": "{EFBB8220-AFC8-4491-96C1-7457DE693AC7}",
@@ -1833,6 +1889,20 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.695
+  },
+  {
+   "id": "{E2D3FEA4-7B09-4A1B-868A-D6661FF0F2AD}",
+   "name": "Winding",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T21:00:49Z",
+   "updated": "2026-11-25T21:02:27Z",
+   "state": "CA",
+   "county": "El Dorado",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.5083,
+   "lat": 38.6414
   }
  ]
 }

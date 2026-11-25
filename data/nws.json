@@ -144,50 +144,6 @@
    ]
   },
   {
-   "id": "KEKA.CF.W.0007.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Coastal Del Norte",
-    "Southwestern Humboldt",
-    "Coastal Mendocino",
-    "Northern Coastal Humboldt"
-   ],
-   "counties": [
-    "06015",
-    "06023",
-    "06045"
-   ],
-   "sent": "2026-11-25T12:50:00Z",
-   "onset": "2026-11-25T17:00:00Z",
-   "ends": "2026-11-25T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd969fb8483e3f68589012b0fc32f80279bfe5dd.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ],
-    [
-     -123.9262,
-     40.7067
-    ],
-    [
-     -123.4429,
-     39.4324
-    ]
-   ],
-   "lon": -123.783,
-   "lat": 40.63,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -575,11 +531,11 @@
     "Southeastern Burlington",
     "Ocean",
     "Coastal Ocean",
+    "Kent",
+    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth",
-    "Kent",
-    "Cumberland"
+    "Eastern Monmouth"
    ],
    "counties": [
     "10001",
@@ -1141,133 +1097,6 @@
    ],
    "lon": -114.099,
    "lat": 32.741,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPSR.FA.W.0044.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
-   "areas": [
-    "Maricopa, AZ",
-    "Yuma, AZ"
-   ],
-   "counties": [
-    "04013",
-    "04027"
-   ],
-   "sent": "2026-11-23T20:10:00Z",
-   "onset": "2026-11-23T20:10:00Z",
-   "ends": "2026-11-30T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9363304b69b7e0041d4b7342ab9371444ef8f6b.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -113.33,
-       32.97
-      ],
-      [
-       -113.24,
-       33.01
-      ],
-      [
-       -113.19,
-       33.03
-      ],
-      [
-       -113.17,
-       33.04
-      ],
-      [
-       -113.14,
-       33.06
-      ],
-      [
-       -113.1,
-       33.08
-      ],
-      [
-       -113.07,
-       33.1
-      ],
-      [
-       -113.05,
-       33.11
-      ],
-      [
-       -113.01,
-       33.11
-      ],
-      [
-       -113,
-       33.08
-      ],
-      [
-       -113.02,
-       33.07
-      ],
-      [
-       -113.03,
-       33.06
-      ],
-      [
-       -113.04,
-       33.04
-      ],
-      [
-       -113.11,
-       33
-      ],
-      [
-       -113.19,
-       32.97
-      ],
-      [
-       -113.49,
-       32.84
-      ],
-      [
-       -113.56,
-       32.83
-      ],
-      [
-       -113.58,
-       32.88
-      ],
-      [
-       -113.47,
-       32.91
-      ],
-      [
-       -113.37,
-       32.95
-      ],
-      [
-       -113.33,
-       32.97
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -112.4989,
-     33.3452
-    ],
-    [
-     -113.9109,
-     32.7739
-    ]
-   ],
-   "lon": -113.214,
-   "lat": 33.005,
    "countries": [
     "US"
    ]
@@ -1886,6 +1715,133 @@
    ],
    "lon": -81.402,
    "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0044.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Maricopa, AZ",
+    "Yuma, AZ"
+   ],
+   "counties": [
+    "04013",
+    "04027"
+   ],
+   "sent": "2026-11-25T21:02:00Z",
+   "onset": "2026-11-25T21:02:00Z",
+   "ends": "2026-11-30T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91e3950cfd067de4528bf4049afbc8bb0b36c1db.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.33,
+       32.97
+      ],
+      [
+       -113.24,
+       33.01
+      ],
+      [
+       -113.19,
+       33.03
+      ],
+      [
+       -113.17,
+       33.04
+      ],
+      [
+       -113.14,
+       33.06
+      ],
+      [
+       -113.1,
+       33.08
+      ],
+      [
+       -113.07,
+       33.1
+      ],
+      [
+       -113.05,
+       33.11
+      ],
+      [
+       -113.01,
+       33.11
+      ],
+      [
+       -113,
+       33.08
+      ],
+      [
+       -113.02,
+       33.07
+      ],
+      [
+       -113.03,
+       33.06
+      ],
+      [
+       -113.04,
+       33.04
+      ],
+      [
+       -113.11,
+       33
+      ],
+      [
+       -113.19,
+       32.97
+      ],
+      [
+       -113.49,
+       32.84
+      ],
+      [
+       -113.56,
+       32.83
+      ],
+      [
+       -113.58,
+       32.88
+      ],
+      [
+       -113.47,
+       32.91
+      ],
+      [
+       -113.37,
+       32.95
+      ],
+      [
+       -113.33,
+       32.97
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -112.4989,
+     33.3452
+    ],
+    [
+     -113.9109,
+     32.7739
+    ]
+   ],
+   "lon": -113.214,
+   "lat": 33.005,
    "countries": [
     "US"
    ]
@@ -4205,55 +4161,6 @@
    ]
   },
   {
-   "id": "KRLX.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston WV",
-   "areas": [
-    "Southeast Nicholas",
-    "Southeast Webster",
-    "Northwest Pocahontas",
-    "Southeast Randolph"
-   ],
-   "counties": [
-    "54067",
-    "54075",
-    "54083",
-    "54101"
-   ],
-   "sent": "2026-11-25T14:00:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eaef5aa6b6a40da640cdd922b8433a3a4139c46f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.7975,
-     38.2914
-    ],
-    [
-     -80.0101,
-     38.3326
-    ],
-    [
-     -79.8678,
-     38.7811
-    ],
-    [
-     -80.4491,
-     38.4835
-    ]
-   ],
-   "lon": -80.281,
-   "lat": 38.472,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4280,16 +4187,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Virginia Beach",
-    "Norfolk",
-    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "James City",
     "Eastern King and Queen",
-    "Eastern Essex"
+    "Eastern Essex",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Virginia Beach",
+    "Norfolk",
+    "Portsmouth"
    ],
    "counties": [
     "24019",
@@ -5246,6 +5153,55 @@
    ]
   },
   {
+   "id": "KRLX.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston WV",
+   "areas": [
+    "Southeast Nicholas",
+    "Southeast Webster",
+    "Northwest Pocahontas",
+    "Southeast Randolph"
+   ],
+   "counties": [
+    "54067",
+    "54075",
+    "54083",
+    "54101"
+   ],
+   "sent": "2026-11-25T20:50:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0573f04b5a8861a7811c239ca867a5f56d9cc996.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.7975,
+     38.2914
+    ],
+    [
+     -80.0101,
+     38.3326
+    ],
+    [
+     -79.8678,
+     38.7811
+    ],
+    [
+     -80.4491,
+     38.4835
+    ]
+   ],
+   "lon": -80.281,
+   "lat": 38.472,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5290,68 +5246,6 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0420.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75651",
-    "75671"
-   ],
-   "sent": "2026-11-25T19:44:00Z",
-   "onset": "2026-11-25T19:44:00Z",
-   "ends": "2026-11-25T20:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.364b855d73259222123004c911a48f5b505c9afc.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.7,
-       24.81
-      ],
-      [
-       -79.94,
-       25.11
-      ],
-      [
-       -80.13,
-       25.24
-      ],
-      [
-       -80.07,
-       25.77
-      ],
-      [
-       -79.46,
-       25.76
-      ],
-      [
-       -79.27,
-       25.58
-      ],
-      [
-       -79.7,
-       24.81
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.753,
-   "lat": 25.297,
    "countries": [
     "US"
    ]
@@ -5413,66 +5307,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0421.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-25T20:21:00Z",
-   "onset": "2026-11-25T20:21:00Z",
-   "ends": "2026-11-25T20:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dbdb0197f7a5786defe3782bf6f7f5e563218b2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.7,
-       24.81
-      ],
-      [
-       -79.27,
-       25.58
-      ],
-      [
-       -79.17,
-       25.5
-      ],
-      [
-       -79.23,
-       25.18
-      ],
-      [
-       -79.29,
-       25.02
-      ],
-      [
-       -79.54,
-       24.6
-      ],
-      [
-       -79.7,
-       24.81
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.414,
-   "lat": 25.071,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMHX.MA.W.0414.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -5524,6 +5358,122 @@
    "points": [],
    "lon": -76.744,
    "lat": 34.192,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILM.MA.W.0099.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75280"
+   ],
+   "sent": "2026-11-25T20:38:00Z",
+   "onset": "2026-11-25T20:38:00Z",
+   "ends": "2026-11-25T21:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.695cccbaa66cc1563a0e21552819495cd1da28a2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.14,
+       33.34
+      ],
+      [
+       -77.22,
+       33.29
+      ],
+      [
+       -77.49,
+       33.48
+      ],
+      [
+       -77.27,
+       33.65
+      ],
+      [
+       -77.14,
+       33.34
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -77.252,
+   "lat": 33.42,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0422.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75671"
+   ],
+   "sent": "2026-11-25T20:45:00Z",
+   "onset": "2026-11-25T20:45:00Z",
+   "ends": "2026-11-25T21:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb19f28dd0cd7035d4f8ac62fe26b206593cf62d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.18,
+       25.46
+      ],
+      [
+       -79.23,
+       25.18
+      ],
+      [
+       -79.34,
+       24.93
+      ],
+      [
+       -79.56,
+       25.32
+      ],
+      [
+       -79.65,
+       25.82
+      ],
+      [
+       -79.1,
+       26
+      ],
+      [
+       -79.1,
+       25.77
+      ],
+      [
+       -79.18,
+       25.46
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.293,
+   "lat": 25.492,
    "countries": [
     "US"
    ]
