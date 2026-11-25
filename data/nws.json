@@ -1,102 +1,6 @@
 {
  "records": [
   {
-   "id": "KPHI.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Inland Sussex",
-    "Delaware Beaches",
-    "New Castle",
-    "Salem",
-    "Ocean",
-    "Coastal Ocean",
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington",
-    "Kent",
-    "Cumberland",
-    "Middlesex",
-    "Western Monmouth",
-    "Eastern Monmouth"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "34001",
-    "34005",
-    "34009",
-    "34011",
-    "34023",
-    "34025",
-    "34029",
-    "34033"
-   ],
-   "sent": "2026-11-24T19:30:00Z",
-   "onset": "2026-11-25T10:00:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d06f6a6ba7134076d837ace270ff0f1ace0f385f.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -74.6338,
-     39.4694
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ]
-   ],
-   "lon": -74.902,
-   "lat": 39.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -341,187 +245,6 @@
    ],
    "lon": -123.587,
    "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Richmond",
-    "Lancaster",
-    "New Kent",
-    "Gloucester",
-    "Middlesex",
-    "Mathews",
-    "Eastern King William",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex",
-    "York",
-    "Chesapeake",
-    "Virginia Beach",
-    "Hampton/Poquoson",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
-    "Eastern Currituck",
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Accomack",
-    "Northampton",
-    "Surry",
-    "James City",
-    "Newport News",
-    "Isle of Wight"
-   ],
-   "counties": [
-    "24047",
-    "37053",
-    "51001",
-    "51057",
-    "51073",
-    "51093",
-    "51095",
-    "51097",
-    "51101",
-    "51103",
-    "51115",
-    "51119",
-    "51127",
-    "51131",
-    "51159",
-    "51181",
-    "51199",
-    "51550",
-    "51650",
-    "51700",
-    "51710",
-    "51735",
-    "51740",
-    "51800",
-    "51810",
-    "51830"
-   ],
-   "sent": "2026-11-25T02:11:00Z",
-   "onset": "2026-11-26T11:00:00Z",
-   "ends": "2026-11-26T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9fe63367399b824a86309fcef9d8643cdbd8deb.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.9412,
-     36.3722
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -76.5235,
-     37.4035
-    ],
-    [
-     -76.7076,
-     36.9014
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.4127,
-     37.7048
-    ],
-    [
-     -76.2688,
-     37.4253
-    ],
-    [
-     -76.5281,
-     37.607
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -75.924,
-     37.3028
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -76.3955,
-     37.2209
-    ],
-    [
-     -76.3018,
-     36.6794
-    ],
-    [
-     -76.2973,
-     37.048
-    ],
-    [
-     -76.522,
-     37.0761
-    ],
-    [
-     -76.2446,
-     36.923
-    ],
-    [
-     -76.3035,
-     37.1284
-    ],
-    [
-     -76.357,
-     36.8593
-    ],
-    [
-     -76.6348,
-     36.6972
-    ],
-    [
-     -76.0291,
-     36.7795
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -76.442,
-   "lat": 37.294,
    "countries": [
     "US"
    ]
@@ -776,6 +499,335 @@
    ],
    "lon": -80.299,
    "lat": 32.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Surry",
+    "James City",
+    "Newport News",
+    "Isle of Wight",
+    "Richmond",
+    "Lancaster",
+    "New Kent",
+    "Gloucester",
+    "Middlesex",
+    "Mathews",
+    "Eastern King William",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex",
+    "York",
+    "Westmoreland",
+    "Northumberland",
+    "Maryland Beaches",
+    "Accomack",
+    "Northampton",
+    "Eastern Currituck",
+    "Virginia Beach",
+    "Chesapeake",
+    "Hampton/Poquoson",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Prince George",
+    "Charles City",
+    "Inland Worcester"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "37053",
+    "51001",
+    "51036",
+    "51057",
+    "51073",
+    "51093",
+    "51095",
+    "51097",
+    "51101",
+    "51103",
+    "51115",
+    "51119",
+    "51127",
+    "51131",
+    "51133",
+    "51149",
+    "51159",
+    "51181",
+    "51193",
+    "51199",
+    "51550",
+    "51650",
+    "51670",
+    "51700",
+    "51710",
+    "51730",
+    "51735",
+    "51740",
+    "51800",
+    "51810",
+    "51830"
+   ],
+   "sent": "2026-11-25T08:14:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9851f63573be3bd64e30050f1ff86fba4a1fd46a.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -76.5235,
+     37.4035
+    ],
+    [
+     -76.7076,
+     36.9014
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.4127,
+     37.7048
+    ],
+    [
+     -76.2688,
+     37.4253
+    ],
+    [
+     -76.5281,
+     37.607
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -76.3797,
+     37.857
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -76.8039,
+     38.1093
+    ],
+    [
+     -76.3955,
+     37.2209
+    ],
+    [
+     -76.3018,
+     36.6794
+    ],
+    [
+     -76.2973,
+     37.048
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -76.522,
+     37.0761
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -76.3035,
+     37.1284
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -76.6348,
+     36.6972
+    ],
+    [
+     -76.0291,
+     36.7795
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -76.491,
+   "lat": 37.415,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Middlesex",
+    "Western Monmouth",
+    "Eastern Monmouth",
+    "Ocean",
+    "Coastal Ocean",
+    "Inland Sussex",
+    "Delaware Beaches",
+    "New Castle",
+    "Salem",
+    "Kent",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "34001",
+    "34005",
+    "34009",
+    "34011",
+    "34023",
+    "34025",
+    "34029",
+    "34033"
+   ],
+   "sent": "2026-11-25T08:20:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a531ca0afb354ff137937d0f96e250bdce8e33.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -74.6338,
+     39.4694
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ]
+   ],
+   "lon": -74.902,
+   "lat": 39.57,
    "countries": [
     "US"
    ]
@@ -4553,11 +4605,11 @@
    ]
   },
   {
-   "id": "KOKX.HW.A.0001.2026",
-   "event": "High Wind Watch",
+   "id": "KOKX.HW.W.0002.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Upton NY",
    "areas": [
     "Hudson",
@@ -4588,10 +4640,10 @@
     "36085",
     "36103"
    ],
-   "sent": "2026-11-24T18:11:00Z",
+   "sent": "2026-11-25T08:22:00Z",
    "onset": "2026-11-26T15:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e32c53481854d17324a5db29dd6cb10fdef134d.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99a7c282dd074015acab00f6f56ff48545f0be2f.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5407,30 +5459,24 @@
    ]
   },
   {
-   "id": "KPQR.SR.A.0004.2026",
-   "event": "Storm Watch",
+   "id": "KPQR.SR.W.0005.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Immediate",
+   "certainty": "Observed",
    "sender": "NWS Portland OR",
    "areas": [
-    "Columbia River Bar",
     "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm",
-    "Waters from Cape Shoalwater WA to Cape Falcon OR from 10 to 60 nm",
-    "Waters from Cape Falcon to Cape Foulweather OR from 10 to 60 nm"
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm"
    ],
    "counties": [
-    "57210",
     "57251",
-    "57252",
-    "57271",
-    "57272"
+    "57252"
    ],
-   "sent": "2026-11-24T21:15:00Z",
+   "sent": "2026-11-25T08:34:00Z",
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebcc157f2c7648e6e56e0dba86263946be25a4cc.004.3",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c46ab36f9bb15c6eefaf84ef6856b9247a3c0bdc.004.4",
    "geometry": null,
    "vtec": true,
    "points": [],
