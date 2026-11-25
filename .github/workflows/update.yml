@@ -108,7 +108,11 @@ jobs:
         with: { path: site }
       # GitHub's Pages side fails now and then with nothing wrong in the run: deploy-pages reads the artifact list
       # half a second after the upload and finds 0 artifacts, or Pages answers "Deployment failed, try again later".
-      # That was every failed run from 17 to 22 Nov 2026 (22 of about 330). Try again twice, after 20 and 60 seconds.
+      # That was every failed run from 17 to 22 Nov 2026 (22 of about 330), and it got much worse from 24 Nov: 45 of
+      # about 100 runs on 24-25 Nov, every one "Found 0 artifact(s)", though the artifact is listed when read later.
+      # So wait 10 seconds for GitHub's artifact list to catch up, then try, and try again twice, after 20 and 60 s.
+      - name: Let GitHub list the uploaded artifact before deploying
+        run: sleep 10
       - id: deployment
         continue-on-error: true
         uses: actions/deploy-pages@v4

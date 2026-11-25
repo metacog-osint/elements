@@ -283,6 +283,11 @@ class Workflow(unittest.TestCase):
         self.assertEqual(wf.count("uses: actions/deploy-pages@v4"), 3)
         first, retry, last = (wf.index(f"- id: {i}\n") for i in ("deployment", "deployment_retry", "deployment_last"))
         self.assertLess(wf.index("actions/upload-pages-artifact@v3"), first)
+        # a pause between the upload and the first attempt, so the artifact list has caught up
+        pause = wf.index("Let GitHub list the uploaded artifact before deploying")
+        self.assertLess(wf.index("actions/upload-pages-artifact@v3"), pause)
+        self.assertLess(pause, first)
+        self.assertIn("sleep 10", wf[pause:first])
         self.assertLess(first, retry)
         self.assertLess(retry, last)
         self.assertLess(last, wf.index("Fail the run if history or the push failed"))
