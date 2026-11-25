@@ -1,4 +1,4 @@
-/*! tic-shell.css v1.0 · the light-page header row (canonical copy in the hub's site/shared/).
+/*! tic-shell.css v1.1 · the light-page header row (canonical copy in the hub's site/shared/).
     SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
     copied into, whatever that repository's own licence.
     Three parts, CSS only:
@@ -11,6 +11,10 @@
       reading</span>...</p>. The site writes it from its own data; empty, it takes no space.
     - Stat tiles with the figure first: class "tic-tiles" on the grid; each .tile holds .k (label) then .v (figure).
       The label stays first in the markup, so a screen reader hears what the number is before the number.
+    - One footer row for data and code links (v1.1, ideas#84): <nav class="tic-data" aria-label="Data and downloads">
+      <span class="tic-data-k">Data and downloads</span> then one <a> per file, each naming its format, e.g.
+      "Feed (GeoJSON)", "Snapshot (JSON)", and last "Source code". Same wording and order on every site. Header
+      rows hold navigation and settings only. Each page also keeps <link rel="alternate"> in <head> for its feeds.
     Tiles and the reading take the page's own colours (--panel, else --bg; --line; --muted), so each product keeps
     its own colours. Nothing moves. */
 [data-tic-layer="systems"] { --tic-layer-c: #C9B8FF; }
@@ -48,3 +52,13 @@
   .tic-reading { font-size: 0.98rem; }
 }
 @media print { .tic-layer { border: 1px solid #14202E; } }
+
+.tic-data { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin: 16px 0 8px; padding-top: 12px;
+  border-top: 1px solid var(--line, rgba(127, 127, 127, .35)); font-size: 0.85rem; line-height: 1.4; }
+.tic-data-k { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted, inherit); }
+.tic-data a { display: inline-flex; align-items: center; min-height: 24px; color: inherit; text-decoration: underline;
+  text-underline-offset: 2px; }
+.tic-data a:hover { text-decoration-thickness: 2px; }
+.tic-data a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+@media (max-width: 760px) { .tic-data { gap: 2px 14px; } .tic-data-k { flex-basis: 100%; } }

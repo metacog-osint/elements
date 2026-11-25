@@ -7,7 +7,8 @@ satellite (near-real-time only, about three hours behind). The key goes only int
 URL, and nothing FIRMS sends back is echoed.
 
 Detections are not fires. A fire is seen again on each overpass, and FIRMS's near-real-time data does not separate
-fires from gas flares, volcanoes and industrial heat sources. Low-confidence detections are dropped."""
+fires from gas flares, volcanoes and industrial heat sources. Low-confidence detections are left out of the cells, the
+page and the feed; they are aggregated apart under `low` and stored only in the monthly release (firms_store.py)."""
 import csv
 import io
 import json
@@ -36,21 +37,27 @@ def map_key():
     return (k, None) if KEY_RE.match(k) else (None, "FIRMS_MAP_KEY is set but is not a 32-character key")
 
 
-def parse(body: bytes) -> list[tuple]:
-    """FIRMS VIIRS CSV to (lon, lat, time, high, frp) for nominal and high confidence. The API writes confidence as
-    l/n/h, the public files as low/nominal/high."""
-    out = []
+def parse_split(body: bytes) -> tuple[list, list]:
+    """FIRMS VIIRS CSV to two lists of (lon, lat, time, high, frp): nominal and high confidence, and low confidence.
+    The API writes confidence as l/n/h, the public files as low/nominal/high."""
+    kept, low = [], []
     for r in csv.DictReader(io.StringIO(body.decode("utf-8", "replace"))):
         conf = (r.get("confidence") or "").strip().lower()[:1]
-        if conf not in ("n", "h"):
+        if conf not in ("l", "n", "h"):
             continue
         try:
             t = datetime.strptime(r["acq_date"] + (r.get("acq_time") or "").strip().zfill(4), "%Y-%m-%d%H%M")
-            out.append((float(r["longitude"]), float(r["latitude"]), t.replace(tzinfo=timezone.utc), conf == "h",
-                        float(r.get("frp") or 0)))
+            (low if conf == "l" else kept).append((float(r["longitude"]), float(r["latitude"]),
+                                                   t.replace(tzinfo=timezone.utc), conf == "h",
+                                                   float(r.get("frp") or 0)))
         except (KeyError, ValueError):
             continue
-    return out
+    return kept, low
+
+
+def parse(body: bytes) -> list[tuple]:
+    """Nominal and high confidence only: what the cells, the page and the feed use."""
+    return parse_split(body)[0]
 
 
 def _is_csv(body) -> bool:
@@ -114,7 +121,7 @@ def collect_firms(old, now: datetime | None = None, fetch=fetch_or_none):
     now = now or datetime.now(timezone.utc)
     key, problem = map_key()
     notes = [problem] if problem else []
-    via, dets = {}, []
+    via, dets, lows = {}, [], []
     for sensor, path in SENSORS.items():
         body = None
         if key:
@@ -133,11 +140,14 @@ def collect_firms(old, now: datetime | None = None, fetch=fetch_or_none):
                 notes.append(f"{sensor} public file: {err}")
                 continue
             via[sensor] = "public files"
-        dets += parse(body)
+        kept, low = parse_split(body)
+        dets += kept
+        lows += low
     if not via:
         return old or {}, "; ".join(notes) or "no satellite answered"
     payload = aggregate(dets, now)
     payload["via"] = via
+    payload["low"] = {k: v for k, v in aggregate(lows, now).items() if k != "daily"}
     if "api" in via.values():
         body, _ = fetch(STATUS.format(key=key), 30, 64 * 1024)
         if body is not None:

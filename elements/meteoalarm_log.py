@@ -107,10 +107,14 @@ def close_days(root: Path, today: str) -> list:
     return done
 
 
+def read_all_file(p: Path) -> list:
+    op = gzip.open if p.suffix == ".gz" else open
+    with op(p, "rt", encoding="utf-8") as fh:
+        return [json.loads(x) for x in fh if x.strip()]
+
+
 def read_all(root: Path) -> list:
     out = []
     for p in sorted(Path(root).glob("*.jsonl*")):
-        op = gzip.open if p.suffix == ".gz" else open
-        with op(p, "rt", encoding="utf-8") as fh:
-            out += [json.loads(x) for x in fh if x.strip()]
+        out += read_all_file(p)
     return out
