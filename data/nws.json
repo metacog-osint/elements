@@ -163,56 +163,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0007.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
-    "San Juan County",
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031",
-    "53055"
-   ],
-   "sent": "2026-11-25T02:10:00Z",
-   "onset": "2026-11-25T17:00:00Z",
-   "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9769bb1038951487750376e6125234a9121740da.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ],
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.587,
-   "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEKA.CF.W.0007.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -442,9 +392,9 @@
     "Dorchester",
     "Wicomico",
     "Somerset",
+    "Inland Worcester",
     "Prince George",
-    "Charles City",
-    "Inland Worcester"
+    "Charles City"
    ],
    "counties": [
     "24019",
@@ -934,6 +884,56 @@
    ],
    "lon": -74.902,
    "lat": 39.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0007.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "San Juan County",
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031",
+    "53055"
+   ],
+   "sent": "2026-11-25T11:10:00Z",
+   "onset": "2026-11-25T11:10:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb8915e01b89114f11081d6f6ceba4021024254e.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.587,
+   "lat": 47.884,
    "countries": [
     "US"
    ]
@@ -5092,6 +5092,78 @@
    "points": [],
    "lon": -79.609,
    "lat": 25.221,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0417.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
+    "Straits of Florida from Ocean Reef to Craig Key out 20 NM",
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge out 20 NM",
+    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out",
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge 20 to 60 NM out"
+   ],
+   "counties": [
+    "77042",
+    "77052",
+    "77053",
+    "77072",
+    "77073"
+   ],
+   "sent": "2026-11-25T11:26:00Z",
+   "onset": "2026-11-25T11:26:00Z",
+   "ends": "2026-11-25T12:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f4c6d6dcb5f31e733d51cdc992d4fc48faef469.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.67,
+       24.42
+      ],
+      [
+       -79.77,
+       24.34
+      ],
+      [
+       -79.84,
+       24.26
+      ],
+      [
+       -80.65,
+       24.43
+      ],
+      [
+       -80.2,
+       25.29
+      ],
+      [
+       -79.96,
+       25.13
+      ],
+      [
+       -79.54,
+       24.6
+      ],
+      [
+       -79.67,
+       24.42
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.912,
+   "lat": 24.611,
    "countries": [
     "US"
    ]

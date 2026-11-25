@@ -137,6 +137,29 @@
    ]
   },
   {
+   "id": "FL-1104300",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Ukraine",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-20T01:00:00Z",
+   "to": "2026-11-22T01:00:00Z",
+   "current": true,
+   "country": "Ukraine",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104300&episodeid=1&eventtype=FL",
+   "lon": 23.447,
+   "lat": 48.295,
+   "countries": [
+    "UA"
+   ]
+  },
+  {
    "id": "FL-1104294",
    "type": "FL",
    "kind": "flood",
