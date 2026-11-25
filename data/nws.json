@@ -442,9 +442,9 @@
     "Dorchester",
     "Wicomico",
     "Somerset",
+    "Inland Worcester",
     "Prince George",
-    "Charles City",
-    "Inland Worcester"
+    "Charles City"
    ],
    "counties": [
     "24019",
@@ -633,102 +633,6 @@
    ],
    "lon": -76.491,
    "lat": 37.415,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Ocean",
-    "Coastal Ocean",
-    "Middlesex",
-    "Western Monmouth",
-    "Eastern Monmouth",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "New Castle",
-    "Salem",
-    "Kent",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "34001",
-    "34005",
-    "34009",
-    "34011",
-    "34023",
-    "34025",
-    "34029",
-    "34033"
-   ],
-   "sent": "2026-11-25T08:20:00Z",
-   "onset": "2026-11-26T11:00:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a531ca0afb354ff137937d0f96e250bdce8e33.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -74.6338,
-     39.4694
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ]
-   ],
-   "lon": -74.902,
-   "lat": 39.57,
    "countries": [
     "US"
    ]
@@ -934,6 +838,102 @@
    ],
    "lon": -76.508,
    "lat": 35.27,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Ocean",
+    "Coastal Ocean",
+    "Middlesex",
+    "Western Monmouth",
+    "Eastern Monmouth",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington",
+    "Inland Sussex",
+    "Delaware Beaches",
+    "Kent",
+    "Cumberland",
+    "New Castle",
+    "Salem"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "34001",
+    "34005",
+    "34009",
+    "34011",
+    "34023",
+    "34025",
+    "34029",
+    "34033"
+   ],
+   "sent": "2026-11-25T10:14:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a41c191b56fa6a1e00aea7b58705e8556eb46643.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -74.6338,
+     39.4694
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ]
+   ],
+   "lon": -74.902,
+   "lat": 39.57,
    "countries": [
     "US"
    ]
