@@ -92,3 +92,7 @@ publish to GitHub Pages.
 
 Code under the GNU AGPL-3.0 (`LICENSE`); shared and third-party files keep their own licences, listed in `NOTICE`. Country outlines from Natural Earth (public domain); map drawn with Leaflet (BSD
 2-Clause). A project of The Intelligence Company.
+
+## AI assistance
+
+This repository is built with AI coding assistance (Anthropic's Claude Code). The Intelligence Company is responsible for everything published here.
