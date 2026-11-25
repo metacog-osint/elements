@@ -19,11 +19,11 @@
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
-    "Kent",
-    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth"
+    "Eastern Monmouth",
+    "Kent",
+    "Cumberland"
    ],
    "counties": [
     "10001",
@@ -134,112 +134,6 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Hatteras Island",
-    "Northern Outer Banks",
-    "Beaufort",
-    "Pamlico",
-    "Southern Craven",
-    "East Carteret",
-    "Ocracoke Island"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37055",
-    "37095",
-    "37137"
-   ],
-   "sent": "2026-11-24T21:14:00Z",
-   "onset": "2026-11-25T09:00:00Z",
-   "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7511c2222f511824b12c2b3dbafd08aea2c58e1b.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ],
-    [
-     -76.6653,
-     35.1476
-    ]
-   ],
-   "lon": -76.508,
-   "lat": 35.27,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KEKA.CF.W.0007.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Eureka CA",
-   "areas": [
-    "Northern Coastal Humboldt",
-    "Coastal Del Norte",
-    "Southwestern Humboldt",
-    "Coastal Mendocino"
-   ],
-   "counties": [
-    "06015",
-    "06023",
-    "06045"
-   ],
-   "sent": "2026-11-24T21:27:00Z",
-   "onset": "2026-11-25T17:00:00Z",
-   "ends": "2026-11-25T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b4c9d5f0cef1d14dcc7d893b16813ac145de428.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.981,
-     41.7499
-    ],
-    [
-     -123.9262,
-     40.7067
-    ],
-    [
-     -123.4429,
-     39.4324
-    ]
-   ],
-   "lon": -123.783,
-   "lat": 40.63,
    "countries": [
     "US"
    ]
@@ -776,6 +670,112 @@
    ],
    "lon": -80.299,
    "lat": 32.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KEKA.CF.W.0007.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Eureka CA",
+   "areas": [
+    "Coastal Del Norte",
+    "Southwestern Humboldt",
+    "Coastal Mendocino",
+    "Northern Coastal Humboldt"
+   ],
+   "counties": [
+    "06015",
+    "06023",
+    "06045"
+   ],
+   "sent": "2026-11-25T04:44:00Z",
+   "onset": "2026-11-25T17:00:00Z",
+   "ends": "2026-11-25T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c48ef39b1147122c7ad9f964c22a9691d011f82e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.981,
+     41.7499
+    ],
+    [
+     -123.9262,
+     40.7067
+    ],
+    [
+     -123.4429,
+     39.4324
+    ]
+   ],
+   "lon": -123.783,
+   "lat": 40.63,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Northern Outer Banks",
+    "Beaufort",
+    "Pamlico",
+    "Southern Craven",
+    "Hatteras Island",
+    "East Carteret",
+    "Ocracoke Island"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37055",
+    "37095",
+    "37137"
+   ],
+   "sent": "2026-11-25T04:58:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef7db099f9e7002c5f3f28b098fa6dadd844c81a.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
+    ],
+    [
+     -76.6653,
+     35.1476
+    ]
+   ],
+   "lon": -76.508,
+   "lat": 35.27,
    "countries": [
     "US"
    ]
@@ -3144,10 +3144,10 @@
     "48313",
     "48455"
    ],
-   "sent": "2026-11-24T18:37:00Z",
+   "sent": "2026-11-25T04:45:00Z",
    "onset": "2026-11-26T05:00:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f44f10d5577b3c3400c0dbbde1c1c33475a81cc.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60eb441f73c314d5120de892034606a381986d80.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4049,6 +4049,60 @@
    ],
    "lon": -78.698,
    "lat": 38.26,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0413.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge 20 to 60 NM out",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+   ],
+   "counties": [
+    "77073",
+    "77074"
+   ],
+   "sent": "2026-11-25T04:47:00Z",
+   "onset": "2026-11-25T04:47:00Z",
+   "ends": "2026-11-25T05:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2465c3e30dd05f594def78a9d317ee0bb2fde317.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.84,
+       23.8
+      ],
+      [
+       -81.03,
+       23.74
+      ],
+      [
+       -81.14,
+       23.99
+      ],
+      [
+       -80.84,
+       24.05
+      ],
+      [
+       -80.84,
+       23.8
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.938,
+   "lat": 23.876,
    "countries": [
     "US"
    ]
