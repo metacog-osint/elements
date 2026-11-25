@@ -1,7 +1,7 @@
 {
   "vocab": "actors",
   "version": "1.0",
-  "note": "How feed items characterise entities and sides (Tom, 31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
+  "note": "How feed items characterise entities and sides (31 Oct 2026: 'we don't have to say adversary but we do need a mechanism to characterize entities and sides'). A role says what part an actor plays in what the item describes, as the cited sources describe it; it is never a judgment of friend or foe. No value here means friendly, hostile, enemy or adversary, and the drawing frame is only ever 'unknown' or 'neutral' (the COP symbol rule). A side is named the way the sources name it ('Russia', 'Ukraine'), never judged.",
   "never": ["friendly", "friend", "hostile", "enemy", "adversary", "opposing force", "opfor", "red force", "blue force", "bad actor", "threat actor"],
   "roles": {
     "basis": "UCDP's primary and secondary warring parties (support to a party); the civilian and party distinction of international humanitarian law (Additional Protocol I, arts. 43 and 50); attribution as a judgment that needs its evidence (ODNI, A Guide to Cyber Attribution, 2018)",
