@@ -97,187 +97,6 @@
    ]
   },
   {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Accomack",
-    "Northampton",
-    "Richmond",
-    "Lancaster",
-    "New Kent",
-    "Gloucester",
-    "Middlesex",
-    "Mathews",
-    "Eastern King William",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex",
-    "York",
-    "Eastern Currituck",
-    "Chesapeake",
-    "Virginia Beach",
-    "Hampton/Poquoson",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
-    "Surry",
-    "James City",
-    "Newport News",
-    "Isle of Wight"
-   ],
-   "counties": [
-    "24047",
-    "37053",
-    "51001",
-    "51057",
-    "51073",
-    "51093",
-    "51095",
-    "51097",
-    "51101",
-    "51103",
-    "51115",
-    "51119",
-    "51127",
-    "51131",
-    "51159",
-    "51181",
-    "51199",
-    "51550",
-    "51650",
-    "51700",
-    "51710",
-    "51735",
-    "51740",
-    "51800",
-    "51810",
-    "51830"
-   ],
-   "sent": "2026-11-24T20:16:00Z",
-   "onset": "2026-11-26T10:00:00Z",
-   "ends": "2026-11-26T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1ca2c8d623f2ab29e0df8bc60c64b0697a40038.005.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.9412,
-     36.3722
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -76.5235,
-     37.4035
-    ],
-    [
-     -76.7076,
-     36.9014
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.4127,
-     37.7048
-    ],
-    [
-     -76.2688,
-     37.4253
-    ],
-    [
-     -76.5281,
-     37.607
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -75.924,
-     37.3028
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -76.3955,
-     37.2209
-    ],
-    [
-     -76.3018,
-     36.6794
-    ],
-    [
-     -76.2973,
-     37.048
-    ],
-    [
-     -76.522,
-     37.0761
-    ],
-    [
-     -76.2446,
-     36.923
-    ],
-    [
-     -76.3035,
-     37.1284
-    ],
-    [
-     -76.357,
-     36.8593
-    ],
-    [
-     -76.6348,
-     36.6972
-    ],
-    [
-     -76.0291,
-     36.7795
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -76.442,
-   "lat": 37.294,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFR.CF.W.0001.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -545,93 +364,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0007.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast",
-    "San Juan County",
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031",
-    "53055"
-   ],
-   "sent": "2026-11-24T23:15:00Z",
-   "onset": "2026-11-25T17:00:00Z",
-   "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f84e1ed300d8e6141d58f7c6d1e4d920a46ae0ee.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ],
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.587,
-   "lat": 47.884,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCHS.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Coastal Colleton",
-    "Charleston"
-   ],
-   "counties": [
-    "45019",
-    "45029"
-   ],
-   "sent": "2026-11-24T23:28:00Z",
-   "onset": "2026-11-25T10:00:00Z",
-   "ends": "2026-11-25T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b25c063bae12d33dc3066c7e5b17e80d28fb795f.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.9425,
-     32.8005
-    ],
-    [
-     -80.6564,
-     32.8494
-    ]
-   ],
-   "lon": -80.299,
-   "lat": 32.825,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -776,6 +508,274 @@
    ],
    "lon": -119.873,
    "lat": 34.761,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0007.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "San Juan County",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031",
+    "53055"
+   ],
+   "sent": "2026-11-25T02:10:00Z",
+   "onset": "2026-11-25T17:00:00Z",
+   "ends": "2026-11-26T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9769bb1038951487750376e6125234a9121740da.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ],
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.587,
+   "lat": 47.884,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Richmond",
+    "Lancaster",
+    "New Kent",
+    "Gloucester",
+    "Middlesex",
+    "Mathews",
+    "Eastern King William",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex",
+    "York",
+    "Chesapeake",
+    "Virginia Beach",
+    "Hampton/Poquoson",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
+    "Eastern Currituck",
+    "Inland Worcester",
+    "Maryland Beaches",
+    "Accomack",
+    "Northampton",
+    "Surry",
+    "James City",
+    "Newport News",
+    "Isle of Wight"
+   ],
+   "counties": [
+    "24047",
+    "37053",
+    "51001",
+    "51057",
+    "51073",
+    "51093",
+    "51095",
+    "51097",
+    "51101",
+    "51103",
+    "51115",
+    "51119",
+    "51127",
+    "51131",
+    "51159",
+    "51181",
+    "51199",
+    "51550",
+    "51650",
+    "51700",
+    "51710",
+    "51735",
+    "51740",
+    "51800",
+    "51810",
+    "51830"
+   ],
+   "sent": "2026-11-25T02:11:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-26T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9fe63367399b824a86309fcef9d8643cdbd8deb.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -76.5235,
+     37.4035
+    ],
+    [
+     -76.7076,
+     36.9014
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.4127,
+     37.7048
+    ],
+    [
+     -76.2688,
+     37.4253
+    ],
+    [
+     -76.5281,
+     37.607
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -76.3955,
+     37.2209
+    ],
+    [
+     -76.3018,
+     36.6794
+    ],
+    [
+     -76.2973,
+     37.048
+    ],
+    [
+     -76.522,
+     37.0761
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -76.3035,
+     37.1284
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -76.6348,
+     36.6972
+    ],
+    [
+     -76.0291,
+     36.7795
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -76.442,
+   "lat": 37.294,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCHS.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston SC",
+   "areas": [
+    "Coastal Colleton",
+    "Charleston"
+   ],
+   "counties": [
+    "45019",
+    "45029"
+   ],
+   "sent": "2026-11-25T02:15:00Z",
+   "onset": "2026-11-25T10:00:00Z",
+   "ends": "2026-11-25T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8bd4a974e108a601fa4d50683ce76fd0beaa5d43.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.9425,
+     32.8005
+    ],
+    [
+     -80.6564,
+     32.8494
+    ]
+   ],
+   "lon": -80.299,
+   "lat": 32.825,
    "countries": [
     "US"
    ]
@@ -2060,157 +2060,6 @@
    ]
   },
   {
-   "id": "KOUN.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Norman OK",
-   "areas": [
-    "Jackson",
-    "Comanche",
-    "Stephens",
-    "Garvin",
-    "Murray",
-    "Carter",
-    "Johnston",
-    "Tillman",
-    "Cotton",
-    "Jefferson",
-    "Love",
-    "Marshall",
-    "Bryan",
-    "Hardeman",
-    "Foard",
-    "Wilbarger",
-    "Wichita",
-    "Knox",
-    "Baylor",
-    "Archer",
-    "Clay"
-   ],
-   "counties": [
-    "40013",
-    "40019",
-    "40031",
-    "40033",
-    "40049",
-    "40065",
-    "40067",
-    "40069",
-    "40085",
-    "40095",
-    "40099",
-    "40137",
-    "40141",
-    "48009",
-    "48023",
-    "48077",
-    "48155",
-    "48197",
-    "48275",
-    "48485",
-    "48487"
-   ],
-   "sent": "2026-11-24T17:13:00Z",
-   "onset": "2026-11-25T05:00:00Z",
-   "ends": "2026-11-25T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea751c61ff88f0ebe535a0f14f9a019048a750cb.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -96.2651,
-     33.964
-    ],
-    [
-     -97.2879,
-     34.2518
-    ],
-    [
-     -98.4766,
-     34.6626
-    ],
-    [
-     -98.3734,
-     34.2907
-    ],
-    [
-     -97.3127,
-     34.7094
-    ],
-    [
-     -99.4122,
-     34.594
-    ],
-    [
-     -97.8389,
-     34.1051
-    ],
-    [
-     -96.6543,
-     34.3135
-    ],
-    [
-     -97.2451,
-     33.9578
-    ],
-    [
-     -96.7705,
-     34.027
-    ],
-    [
-     -97.0716,
-     34.4858
-    ],
-    [
-     -97.8556,
-     34.4814
-    ],
-    [
-     -98.9317,
-     34.3711
-    ],
-    [
-     -98.6873,
-     33.6163
-    ],
-    [
-     -99.2082,
-     33.6188
-    ],
-    [
-     -98.2129,
-     33.7859
-    ],
-    [
-     -99.8168,
-     33.9633
-    ],
-    [
-     -99.7457,
-     34.2899
-    ],
-    [
-     -99.7304,
-     33.6119
-    ],
-    [
-     -98.708,
-     33.9882
-    ],
-    [
-     -99.2424,
-     34.0849
-    ]
-   ],
-   "lon": -98.231,
-   "lat": 34.151,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSHV.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2678,6 +2527,157 @@
    ],
    "lon": -99.282,
    "lat": 30.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Jackson",
+    "Tillman",
+    "Comanche",
+    "Stephens",
+    "Garvin",
+    "Murray",
+    "Cotton",
+    "Jefferson",
+    "Carter",
+    "Johnston",
+    "Love",
+    "Marshall",
+    "Bryan",
+    "Hardeman",
+    "Foard",
+    "Wilbarger",
+    "Wichita",
+    "Knox",
+    "Baylor",
+    "Archer",
+    "Clay"
+   ],
+   "counties": [
+    "40013",
+    "40019",
+    "40031",
+    "40033",
+    "40049",
+    "40065",
+    "40067",
+    "40069",
+    "40085",
+    "40095",
+    "40099",
+    "40137",
+    "40141",
+    "48009",
+    "48023",
+    "48077",
+    "48155",
+    "48197",
+    "48275",
+    "48485",
+    "48487"
+   ],
+   "sent": "2026-11-25T02:27:00Z",
+   "onset": "2026-11-25T05:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5a9d8e1501ac9d55842efed4de243ae73649919.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -96.2651,
+     33.964
+    ],
+    [
+     -97.2879,
+     34.2518
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.3734,
+     34.2907
+    ],
+    [
+     -97.3127,
+     34.7094
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -97.8389,
+     34.1051
+    ],
+    [
+     -96.6543,
+     34.3135
+    ],
+    [
+     -97.2451,
+     33.9578
+    ],
+    [
+     -96.7705,
+     34.027
+    ],
+    [
+     -97.0716,
+     34.4858
+    ],
+    [
+     -97.8556,
+     34.4814
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.6873,
+     33.6163
+    ],
+    [
+     -99.2082,
+     33.6188
+    ],
+    [
+     -98.2129,
+     33.7859
+    ],
+    [
+     -99.8168,
+     33.9633
+    ],
+    [
+     -99.7457,
+     34.2899
+    ],
+    [
+     -99.7304,
+     33.6119
+    ],
+    [
+     -98.708,
+     33.9882
+    ],
+    [
+     -99.2424,
+     34.0849
+    ]
+   ],
+   "lon": -98.231,
+   "lat": 34.151,
    "countries": [
     "US"
    ]
@@ -3959,57 +3959,83 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0412.2026",
-   "event": "Special Marine Warning",
+   "id": "KLWX.HW.A.0002.2026",
+   "event": "High Wind Watch",
    "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge"
    ],
    "counties": [
-    "77074"
+    "51003",
+    "51009",
+    "51015",
+    "51079",
+    "51113",
+    "51125",
+    "51139",
+    "51157",
+    "51163",
+    "51165",
+    "51187"
    ],
-   "sent": "2026-11-25T02:00:00Z",
-   "onset": "2026-11-25T02:00:00Z",
-   "ends": "2026-11-25T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47afaf56f8d700e22253fee66fe40cdac92f505d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.98,
-       23.79
-      ],
-      [
-       -81.63,
-       23.92
-      ],
-      [
-       -81.47,
-       23.62
-      ],
-      [
-       -81.71,
-       23.54
-      ],
-      [
-       -81.75,
-       23.54
-      ],
-      [
-       -81.98,
-       23.79
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-25T02:26:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96fbd277ed353750a2a52f083000953cffe04546.001.1",
+   "geometry": null,
    "vtec": true,
-   "points": [],
-   "lon": -81.753,
-   "lat": 23.7,
+   "points": [
+    [
+     -78.5535,
+     38.0242
+    ],
+    [
+     -79.1548,
+     37.6293
+    ],
+    [
+     -79.141,
+     38.1726
+    ],
+    [
+     -78.4702,
+     38.298
+    ],
+    [
+     -78.277,
+     38.4121
+    ],
+    [
+     -78.8834,
+     37.7891
+    ],
+    [
+     -78.4919,
+     38.6232
+    ],
+    [
+     -78.1688,
+     38.6845
+    ],
+    [
+     -79.4478,
+     37.8145
+    ],
+    [
+     -78.8853,
+     38.5076
+    ],
+    [
+     -78.2076,
+     38.9082
+    ]
+   ],
+   "lon": -78.698,
+   "lat": 38.26,
    "countries": [
     "US"
    ]
