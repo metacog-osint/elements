@@ -1,4 +1,4 @@
-/*! tic-nav.js v2.3 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
+/*! tic-nav.js v2.3.1 · The Intelligence Company house bar: a link home and a Programs menu · canonical copy:
  *  the hub's site/shared/tic-nav.js (copy into each site with tic-nav.css; keep the version line).
  *  SPDX-License-Identifier: MIT. Copyright (c) 2026 The Intelligence Company. MIT in every repository it is
  *  copied into, whatever that repository's own licence.
@@ -28,6 +28,9 @@
  *    TicNav.minimized()      true when the bar is minimized
  *    TicNav.minimize(bool)   minimizes (true) or restores (false) it, and remembers the choice
  *  v1.13 (15 Nov 2026): Wake (shipping through maritime chokepoints, beta) in the Programs menu.
+ *
+ *  v2.3.1 (25 Nov 2026): Verdict's menu entry links to its own address, verdict.theintelligence.company (the old
+ *  github.io address redirects there).
  *
  *  v2.3 (24 Nov 2026: the Programs menu lists only the suite): PropertyCast and the Title 10 Field Guide leave
  *  the menu and "Other projects" goes; the hub groups its other work by category (Veterans, Experimental).
@@ -65,7 +68,7 @@
       label: "Every layer · common operational picture",
       short: "Every layer's findings on one map, so places where more than one layer reports stand out.",
       long: "The common operational picture: every layer's findings on one map, so a place or topic that turns up in more than one layer stands out. Outages are already read against hazards, notices and press attention in the same country; convergence scoring, checked by Verdict, is in development." },
-    { id: "verdict", name: "Verdict", href: "https://metacog-osint.github.io/verdict/", status: "beta", group: "layers", layer: "all",
+    { id: "verdict", name: "Verdict", href: "https://verdict.theintelligence.company/", status: "beta", group: "layers", layer: "all",
       label: "Every layer · forecast ledger",
       short: "Every forecast logged before its outcome, then scored; misses stay in.",
       long: "Logs every forecast and warning with the rule that will settle it, syncs the event calendar, and scores calibration in public." },
@@ -392,7 +395,7 @@
   }
 
   window.TicNav = {
-    version: "2.3", programs: PROGRAMS.slice(), mount: mount,
+    version: "2.3.1", programs: PROGRAMS.slice(), mount: mount,
     minimized: function () { return document.documentElement.classList.contains("tic-house-minimized"); },
     minimize: function (min) { if (setMini) setMini(min !== false, true); }
   };
