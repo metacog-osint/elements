@@ -338,11 +338,11 @@
   },
   {
    "id": "{114DE135-7F43-43C5-8E79-DDE62F489036}",
-   "name": "E Shivley",
+   "name": "E Shively",
    "acres": 75.0,
    "contained": null,
    "discovered": "2026-11-24T20:48:00Z",
-   "updated": "2026-11-24T22:41:07Z",
+   "updated": "2026-11-25T17:19:20Z",
    "state": "OR",
    "county": "Douglas",
    "cause": "Human",
@@ -505,6 +505,20 @@
    "lat": 43.3354
   },
   {
+   "id": "{9AA07AA4-4456-484D-A14C-36F617F75669}",
+   "name": "IDNR Possom Trot",
+   "acres": 12.0,
+   "contained": null,
+   "discovered": "2026-11-17T20:01:00Z",
+   "updated": "2026-11-25T17:21:24Z",
+   "state": "IL",
+   "county": "Jackson",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -89.5938,
+   "lat": 37.848
+  },
+  {
    "id": "{22E426BC-F96A-4585-868D-B13D7932A647}",
    "name": "Highway 44",
    "acres": 10.8,
@@ -545,20 +559,6 @@
    "complexity": null,
    "lon": -78.782,
    "lat": 38.092
-  },
-  {
-   "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
-   "name": "M35",
-   "acres": 6.3,
-   "contained": null,
-   "discovered": "2026-11-19T19:18:00Z",
-   "updated": "2026-11-23T17:34:40Z",
-   "state": "MI",
-   "county": "Menominee",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -87.5659,
-   "lat": 45.1823
   },
   {
    "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
@@ -1317,20 +1317,6 @@
    "lat": 46.0908
   },
   {
-   "id": "{9FB82794-5CC9-4293-BCA4-258B8BFA7729}",
-   "name": "Twin Butte",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-24T14:37:24Z",
-   "updated": "2026-11-24T17:05:55Z",
-   "state": "AZ",
-   "county": "La Paz",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -113.9504,
-   "lat": 33.6826
-  },
-  {
    "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
    "name": "Dugger",
    "acres": 0.1,
@@ -1399,6 +1385,20 @@
    "complexity": null,
    "lon": -118.6868,
    "lat": 34.5703
+  },
+  {
+   "id": "{B10B69BF-00F9-48B0-BEAB-6B6F840AD5E5}",
+   "name": "Iron Springs",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-15T15:27:27Z",
+   "updated": "2026-11-25T17:35:11Z",
+   "state": "CO",
+   "county": "Summit",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -106.0685,
+   "lat": 39.5697
   },
   {
    "id": "{5ABC8369-E87E-46DA-896C-F154B9C3CE19}",
@@ -1819,6 +1819,20 @@
    "complexity": null,
    "lon": -118.0592,
    "lat": 34.7046
+  },
+  {
+   "id": "{8180E4E0-83BD-42A8-AB20-EAC36F7B813A}",
+   "name": "Lac-426506",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T17:23:03Z",
+   "updated": "2026-11-25T17:23:15Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1305,
+   "lat": 34.695
   }
  ]
 }
