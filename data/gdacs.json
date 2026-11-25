@@ -183,6 +183,29 @@
    ]
   },
   {
+   "id": "FL-1104292",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 2,
+   "name": "Flood in Türkiye",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-16T01:00:00Z",
+   "to": "2026-11-22T01:00:00Z",
+   "current": true,
+   "country": "Türkiye",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104292&episodeid=2&eventtype=FL",
+   "lon": 29.951,
+   "lat": 40.822,
+   "countries": [
+    "TR"
+   ]
+  },
+  {
    "id": "FL-1104291",
    "type": "FL",
    "kind": "flood",
@@ -203,29 +226,6 @@
    "lat": 36.316,
    "countries": [
     "IR"
-   ]
-  },
-  {
-   "id": "FL-1104292",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Türkiye",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-16T01:00:00Z",
-   "to": "2026-11-18T01:00:00Z",
-   "current": false,
-   "country": "Türkiye",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104292&episodeid=1&eventtype=FL",
-   "lon": 37.407,
-   "lat": 36.967,
-   "countries": [
-    "TR"
    ]
   },
   {
@@ -644,7 +644,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 5,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -656,9 +656,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=5&eventtype=FL",
+   "lon": 99.381,
+   "lat": 2.192,
    "countries": [
     "ID"
    ]
