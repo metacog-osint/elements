@@ -115,10 +115,10 @@
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
-   "acres": 2244.0,
-   "contained": 53,
+   "acres": 2237.0,
+   "contained": 68,
    "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-24T12:42:11Z",
+   "updated": "2026-11-25T01:02:31Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -321,6 +321,20 @@
    "complexity": "Type 5 Incident",
    "lon": -89.8203,
    "lat": 31.5467
+  },
+  {
+   "id": "{62F41660-143E-4272-9AD4-9CE0D4A85B91}",
+   "name": "Angelina 0116",
+   "acres": 100.0,
+   "contained": 0,
+   "discovered": "2026-11-24T22:27:18Z",
+   "updated": "2026-11-25T01:02:48Z",
+   "state": "TX",
+   "county": "Angelina",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.4481,
+   "lat": 31.2279
   },
   {
    "id": "{68283E6E-6298-4C38-9CF1-BEF4AD459031}",
@@ -573,20 +587,6 @@
    "complexity": null,
    "lon": -87.5659,
    "lat": 45.1823
-  },
-  {
-   "id": "{5A67516B-F484-46FE-988A-F15E31A980B8}",
-   "name": "Clearfield",
-   "acres": 5.0,
-   "contained": 75,
-   "discovered": "2026-11-24T20:36:00Z",
-   "updated": "2026-11-24T23:50:16Z",
-   "state": "KY",
-   "county": "Rowan",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.4181,
-   "lat": 38.1476
   },
   {
    "id": "{F7174ABE-7FA7-4A80-95FA-0078DE1AF736}",
@@ -1777,6 +1777,20 @@
    "complexity": null,
    "lon": -118.0767,
    "lat": 34.6607
+  },
+  {
+   "id": "{B20E6986-8E23-4148-BEA2-6E7E796FF553}",
+   "name": "Dunlap Rd / Sand Creek Rd",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T00:42:23Z",
+   "updated": "2026-11-25T00:43:27Z",
+   "state": "CA",
+   "county": "Fresno",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -119.0937,
+   "lat": 36.703
   }
  ]
 }
