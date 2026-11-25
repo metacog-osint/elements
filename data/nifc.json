@@ -463,6 +463,20 @@
    "lat": 43.0146
   },
   {
+   "id": "{CD26D29A-431A-4DA2-B1CC-23BC54152CF3}",
+   "name": "Angelina 0127",
+   "acres": 30.0,
+   "contained": 25,
+   "discovered": "2026-11-25T20:00:00Z",
+   "updated": "2026-11-25T22:03:17Z",
+   "state": "TX",
+   "county": "Angelina",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.4164,
+   "lat": 31.2819
+  },
+  {
    "id": "{1D6A19A7-0C75-49F9-AC55-068F49DD2932}",
    "name": "Wildhorse Road",
    "acres": 25.0,
@@ -617,20 +631,6 @@
    "lat": 44.4062
   },
   {
-   "id": "{CD26D29A-431A-4DA2-B1CC-23BC54152CF3}",
-   "name": "Angelina 0127",
-   "acres": 5.0,
-   "contained": 0,
-   "discovered": "2026-11-25T20:00:00Z",
-   "updated": "2026-11-25T21:02:10Z",
-   "state": "TX",
-   "county": "Angelina",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.4164,
-   "lat": 31.2819
-  },
-  {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
    "name": "Little Mohawk",
    "acres": 3.5,
@@ -685,20 +685,6 @@
    "complexity": null,
    "lon": -89.2961,
    "lat": 43.4228
-  },
-  {
-   "id": "{DA2495E4-2331-4557-994F-0D01585D3038}",
-   "name": "T Skaggs Road",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-25T20:50:00Z",
-   "updated": "2026-11-25T20:56:27Z",
-   "state": "KY",
-   "county": "Elliott",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -83.1259,
-   "lat": 38.1821
   },
   {
    "id": "{0AE6B11B-2733-4CF4-824A-BD9A9FE50AAF}",
@@ -839,6 +825,34 @@
    "complexity": "Type 5 Incident",
    "lon": -83.0279,
    "lat": 37.6623
+  },
+  {
+   "id": "{0706A20B-4406-485B-A1B4-6045DA08B247}",
+   "name": "Bowie 0128",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-25T20:09:00Z",
+   "updated": "2026-11-25T21:52:00Z",
+   "state": "TX",
+   "county": "Bowie",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.1544,
+   "lat": 33.3567
+  },
+  {
+   "id": "{89B8104E-FBBB-40E2-A031-3333B9BAC53B}",
+   "name": "Hollons Frk Rd",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-25T20:10:00Z",
+   "updated": "2026-11-25T21:36:46Z",
+   "state": "KY",
+   "county": "Wolfe",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -83.4994,
+   "lat": 37.6979
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1077,20 +1091,6 @@
    "complexity": null,
    "lon": -89.5834,
    "lat": 43.9241
-  },
-  {
-   "id": "{E2BB0427-022A-42F6-9D5C-77C1620D1055}",
-   "name": "Sticks",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-22T21:10:00Z",
-   "updated": "2026-11-22T21:13:06Z",
-   "state": "SD",
-   "county": "Oglala Lakota",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -102.4811,
-   "lat": 43.2803
   },
   {
    "id": "{ABBDBB71-DEBE-49B6-B09B-C8328B9F8D62}",
@@ -1357,6 +1357,20 @@
    "complexity": null,
    "lon": -100.6307,
    "lat": 46.0908
+  },
+  {
+   "id": "{DA2495E4-2331-4557-994F-0D01585D3038}",
+   "name": "T Skaggs Road",
+   "acres": 0.1,
+   "contained": 0,
+   "discovered": "2026-11-25T20:50:00Z",
+   "updated": "2026-11-25T21:52:18Z",
+   "state": "KY",
+   "county": "Elliott",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -83.1334,
+   "lat": 38.1791
   },
   {
    "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
