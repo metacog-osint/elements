@@ -1,112 +1,6 @@
 {
  "records": [
   {
-   "id": "KOKX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Southern Queens",
-    "Southern Nassau",
-    "Southern Fairfield",
-    "Southern Westchester",
-    "Northeast Suffolk",
-    "Southeast Suffolk",
-    "Hudson",
-    "Eastern Bergen",
-    "Eastern Essex",
-    "Eastern Union",
-    "Southern New Haven",
-    "Bronx",
-    "Northwest Suffolk",
-    "Northern Queens",
-    "Northern Nassau",
-    "Southwest Suffolk",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)"
-   ],
-   "counties": [
-    "09001",
-    "09009",
-    "34003",
-    "34013",
-    "34017",
-    "34039",
-    "36005",
-    "36047",
-    "36059",
-    "36061",
-    "36081",
-    "36085",
-    "36103",
-    "36119"
-   ],
-   "sent": "2026-11-25T09:21:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.357dad86fab348f2e4cb5f69acc329eb27b87cce.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -74.0747,
-     40.9597
-    ],
-    [
-     -74.2463,
-     40.7874
-    ],
-    [
-     -74.0786,
-     40.7314
-    ],
-    [
-     -74.3087,
-     40.6599
-    ],
-    [
-     -73.8529,
-     40.8487
-    ],
-    [
-     -73.9506,
-     40.635
-    ],
-    [
-     -73.5894,
-     40.7296
-    ],
-    [
-     -73.9702,
-     40.7766
-    ],
-    [
-     -73.8412,
-     40.6547
-    ],
-    [
-     -74.1399,
-     40.5613
-    ],
-    [
-     -72.6922,
-     40.9436
-    ],
-    [
-     -73.7458,
-     41.1527
-    ]
-   ],
-   "lon": -73.874,
-   "lat": 40.787,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -981,122 +875,107 @@
    ]
   },
   {
-   "id": "KPSR.FA.W.0045.2026",
-   "event": "Flood Warning",
+   "id": "KOKX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Phoenix AZ",
+   "sender": "NWS Upton NY",
    "areas": [
-    "Yuma, AZ"
+    "Northeast Suffolk",
+    "Southwest Suffolk",
+    "Southern Nassau",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
+    "Southern Queens",
+    "Southern Fairfield",
+    "Southern New Haven",
+    "Southern Westchester",
+    "Bronx",
+    "Northwest Suffolk",
+    "Northern Queens",
+    "Northern Nassau",
+    "Hudson",
+    "Eastern Bergen",
+    "Eastern Essex",
+    "Eastern Union",
+    "Southeast Suffolk"
    ],
    "counties": [
-    "04027"
+    "09001",
+    "09009",
+    "34003",
+    "34013",
+    "34017",
+    "34039",
+    "36005",
+    "36047",
+    "36059",
+    "36061",
+    "36081",
+    "36085",
+    "36103",
+    "36119"
    ],
-   "sent": "2026-11-23T20:10:00Z",
-   "onset": "2026-11-23T20:10:00Z",
-   "ends": "2026-11-30T22:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3fb5f5064b53816a174c33db46aa9ccdbff1a91.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -113.56,
-       32.83
-      ],
-      [
-       -114.02,
-       32.69
-      ],
-      [
-       -114.08,
-       32.72
-      ],
-      [
-       -114.11,
-       32.68
-      ],
-      [
-       -114.16,
-       32.69
-      ],
-      [
-       -114.22,
-       32.66
-      ],
-      [
-       -114.3,
-       32.67
-      ],
-      [
-       -114.37,
-       32.75
-      ],
-      [
-       -114.43,
-       32.74
-      ],
-      [
-       -114.44,
-       32.78
-      ],
-      [
-       -114.35,
-       32.78
-      ],
-      [
-       -114.27,
-       32.7
-      ],
-      [
-       -114.21,
-       32.7
-      ],
-      [
-       -114.16,
-       32.73
-      ],
-      [
-       -114.13,
-       32.72
-      ],
-      [
-       -114.11,
-       32.75
-      ],
-      [
-       -114.06,
-       32.76
-      ],
-      [
-       -114.01,
-       32.73
-      ],
-      [
-       -113.95,
-       32.77
-      ],
-      [
-       -113.58,
-       32.88
-      ],
-      [
-       -113.56,
-       32.83
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-25T21:06:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T11:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b90723afe052311ba87bfcbd5d46e56539cb6a94.004.3",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -113.9109,
-     32.7739
+     -74.0747,
+     40.9597
+    ],
+    [
+     -74.2463,
+     40.7874
+    ],
+    [
+     -74.0786,
+     40.7314
+    ],
+    [
+     -74.3087,
+     40.6599
+    ],
+    [
+     -73.8529,
+     40.8487
+    ],
+    [
+     -73.9506,
+     40.635
+    ],
+    [
+     -73.5894,
+     40.7296
+    ],
+    [
+     -73.9702,
+     40.7766
+    ],
+    [
+     -73.8412,
+     40.6547
+    ],
+    [
+     -74.1399,
+     40.5613
+    ],
+    [
+     -72.6922,
+     40.9436
+    ],
+    [
+     -73.7458,
+     41.1527
     ]
    ],
-   "lon": -114.099,
-   "lat": 32.741,
+   "lon": -73.874,
+   "lat": 40.787,
    "countries": [
     "US"
    ]
@@ -1842,6 +1721,127 @@
    ],
    "lon": -113.214,
    "lat": 33.005,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPSR.FA.W.0045.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Phoenix AZ",
+   "areas": [
+    "Yuma, AZ"
+   ],
+   "counties": [
+    "04027"
+   ],
+   "sent": "2026-11-25T21:07:00Z",
+   "onset": "2026-11-25T21:07:00Z",
+   "ends": "2026-11-30T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b87422c8387cacdb27191764a8716c1238184ff4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.56,
+       32.83
+      ],
+      [
+       -114.02,
+       32.69
+      ],
+      [
+       -114.08,
+       32.72
+      ],
+      [
+       -114.11,
+       32.68
+      ],
+      [
+       -114.16,
+       32.69
+      ],
+      [
+       -114.22,
+       32.66
+      ],
+      [
+       -114.3,
+       32.67
+      ],
+      [
+       -114.37,
+       32.75
+      ],
+      [
+       -114.43,
+       32.74
+      ],
+      [
+       -114.44,
+       32.78
+      ],
+      [
+       -114.35,
+       32.78
+      ],
+      [
+       -114.27,
+       32.7
+      ],
+      [
+       -114.21,
+       32.7
+      ],
+      [
+       -114.16,
+       32.73
+      ],
+      [
+       -114.13,
+       32.72
+      ],
+      [
+       -114.11,
+       32.75
+      ],
+      [
+       -114.06,
+       32.76
+      ],
+      [
+       -114.01,
+       32.73
+      ],
+      [
+       -113.95,
+       32.77
+      ],
+      [
+       -113.58,
+       32.88
+      ],
+      [
+       -113.56,
+       32.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -113.9109,
+     32.7739
+    ]
+   ],
+   "lon": -114.099,
+   "lat": 32.741,
    "countries": [
     "US"
    ]
@@ -4053,49 +4053,6 @@
    ]
   },
   {
-   "id": "KCTP.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS State College PA",
-   "areas": [
-    "Schuylkill",
-    "Lebanon",
-    "Lancaster"
-   ],
-   "counties": [
-    "42071",
-    "42075",
-    "42107"
-   ],
-   "sent": "2026-11-25T06:53:00Z",
-   "onset": "2026-11-26T09:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7fda02ad4a9f151296a61c1c68a96ba8221d2afa.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.2502,
-     40.042
-    ],
-    [
-     -76.4648,
-     40.3714
-    ],
-    [
-     -76.2178,
-     40.7037
-    ]
-   ],
-   "lon": -76.311,
-   "lat": 40.372,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRNK.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -5202,6 +5159,67 @@
    ]
   },
   {
+   "id": "KCTP.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS State College PA",
+   "areas": [
+    "Dauphin",
+    "Cambria",
+    "Somerset",
+    "Schuylkill",
+    "Lebanon",
+    "Lancaster"
+   ],
+   "counties": [
+    "42021",
+    "42043",
+    "42071",
+    "42075",
+    "42107",
+    "42111"
+   ],
+   "sent": "2026-11-25T21:17:00Z",
+   "onset": "2026-11-26T09:00:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a3490828d200d27196dedeb0c5302168441e652.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -78.7105,
+     40.5102
+    ],
+    [
+     -76.7926,
+     40.4126
+    ],
+    [
+     -76.2502,
+     40.042
+    ],
+    [
+     -76.4648,
+     40.3714
+    ],
+    [
+     -76.2178,
+     40.7037
+    ],
+    [
+     -79.0285,
+     39.9813
+    ]
+   ],
+   "lon": -77.244,
+   "lat": 40.337,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5246,62 +5264,6 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.MA.W.0413.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75156",
-    "75158",
-    "75186"
-   ],
-   "sent": "2026-11-25T20:10:00Z",
-   "onset": "2026-11-25T20:10:00Z",
-   "ends": "2026-11-25T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db5ec1efaa5069d748b6089bd2fb50d5c2e72022.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -76.03,
-       34.64
-      ],
-      [
-       -76.11,
-       34.51
-      ],
-      [
-       -76.63,
-       34.49
-      ],
-      [
-       -76.42,
-       34.88
-      ],
-      [
-       -76.03,
-       34.64
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -76.244,
-   "lat": 34.632,
    "countries": [
     "US"
    ]
@@ -5358,122 +5320,6 @@
    "points": [],
    "lon": -76.744,
    "lat": 34.192,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILM.MA.W.0099.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75280"
-   ],
-   "sent": "2026-11-25T20:38:00Z",
-   "onset": "2026-11-25T20:38:00Z",
-   "ends": "2026-11-25T21:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.695cccbaa66cc1563a0e21552819495cd1da28a2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.14,
-       33.34
-      ],
-      [
-       -77.22,
-       33.29
-      ],
-      [
-       -77.49,
-       33.48
-      ],
-      [
-       -77.27,
-       33.65
-      ],
-      [
-       -77.14,
-       33.34
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -77.252,
-   "lat": 33.42,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0422.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-25T20:45:00Z",
-   "onset": "2026-11-25T20:45:00Z",
-   "ends": "2026-11-25T21:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb19f28dd0cd7035d4f8ac62fe26b206593cf62d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.18,
-       25.46
-      ],
-      [
-       -79.23,
-       25.18
-      ],
-      [
-       -79.34,
-       24.93
-      ],
-      [
-       -79.56,
-       25.32
-      ],
-      [
-       -79.65,
-       25.82
-      ],
-      [
-       -79.1,
-       26
-      ],
-      [
-       -79.1,
-       25.77
-      ],
-      [
-       -79.18,
-       25.46
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.293,
-   "lat": 25.492,
    "countries": [
     "US"
    ]
@@ -5729,34 +5575,6 @@
    "onset": "2026-11-25T14:00:00Z",
    "ends": "2026-11-26T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd779d9ab72bae6c7711b48245a1399973d22a5c.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm"
-   ],
-   "counties": [
-    "57251",
-    "57252"
-   ],
-   "sent": "2026-11-25T08:34:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c46ab36f9bb15c6eefaf84ef6856b9247a3c0bdc.004.4",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6249,6 +6067,34 @@
    "onset": "2026-11-26T00:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce47563942f848380beaa73b5fa1d85b650be1a5.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm"
+   ],
+   "counties": [
+    "57251",
+    "57252"
+   ],
+   "sent": "2026-11-25T21:15:00Z",
+   "onset": "2026-11-25T21:15:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e84432fceba16c53e3bb8559b5c5edf967a5cfe6.004.2",
    "geometry": null,
    "vtec": true,
    "points": [],

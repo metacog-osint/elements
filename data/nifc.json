@@ -592,9 +592,9 @@
    "id": "{226BB9B7-E2F9-44F5-9FB8-238B028AA273}",
    "name": "Trace Branch",
    "acres": 7.0,
-   "contained": 0,
+   "contained": 50,
    "discovered": "2026-11-25T18:52:00Z",
-   "updated": "2026-11-25T20:41:57Z",
+   "updated": "2026-11-25T21:26:55Z",
    "state": "KY",
    "county": "Martin",
    "cause": "Human",
@@ -685,20 +685,6 @@
    "complexity": null,
    "lon": -89.2961,
    "lat": 43.4228
-  },
-  {
-   "id": "{E0F35FE9-4B7C-4AF4-8F74-2AF5070C6042}",
-   "name": "Bowie 0129",
-   "acres": 2.0,
-   "contained": 0,
-   "discovered": "2026-11-25T20:18:00Z",
-   "updated": "2026-11-25T20:42:21Z",
-   "state": "TX",
-   "county": "Bowie",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.4773,
-   "lat": 33.5198
   },
   {
    "id": "{DA2495E4-2331-4557-994F-0D01585D3038}",
@@ -841,20 +827,6 @@
    "lat": 33.8327
   },
   {
-   "id": "{48B5AADB-4EA0-4CAC-BD87-C377C24B005E}",
-   "name": "Bowie 0126",
-   "acres": 1.0,
-   "contained": 75,
-   "discovered": "2026-11-25T18:32:00Z",
-   "updated": "2026-11-25T20:28:52Z",
-   "state": "TX",
-   "county": "Bowie",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -94.0694,
-   "lat": 33.3432
-  },
-  {
    "id": "{77695310-A880-46A4-A6DB-C83FE61D6591}",
    "name": "Booger Hill",
    "acres": 1.0,
@@ -867,20 +839,6 @@
    "complexity": "Type 5 Incident",
    "lon": -83.0279,
    "lat": 37.6623
-  },
-  {
-   "id": "{B5F459B3-C7F7-47D7-8A0B-008DF925BE41}",
-   "name": "Ouachita 357",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-25T20:32:32Z",
-   "updated": "2026-11-25T20:36:50Z",
-   "state": "AR",
-   "county": "Ouachita",
-   "cause": null,
-   "complexity": null,
-   "lon": -92.9708,
-   "lat": 33.5254
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1889,20 +1847,6 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.695
-  },
-  {
-   "id": "{E2D3FEA4-7B09-4A1B-868A-D6661FF0F2AD}",
-   "name": "Winding",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-25T21:00:49Z",
-   "updated": "2026-11-25T21:02:27Z",
-   "state": "CA",
-   "county": "El Dorado",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -120.5083,
-   "lat": 38.6414
   }
  ]
 }
