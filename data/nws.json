@@ -4516,6 +4516,43 @@
    ]
   },
   {
+   "id": "KPBZ.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pittsburgh PA",
+   "areas": [
+    "Eastern Preston",
+    "Eastern Tucker"
+   ],
+   "counties": [
+    "54077",
+    "54093"
+   ],
+   "sent": "2026-11-25T07:06:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ebcf94f4dd63a86f8326cecbac7f7a6168275cf.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.6689,
+     39.469
+    ],
+    [
+     -79.56,
+     39.1112
+    ]
+   ],
+   "lon": -79.614,
+   "lat": 39.29,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOKX.HW.A.0001.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -4601,49 +4638,6 @@
    ],
    "lon": -73.867,
    "lat": 40.733,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.HW.A.0002.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Clatsop County Coast",
-    "Tillamook County Coast",
-    "South Washington Coast"
-   ],
-   "counties": [
-    "41007",
-    "41057",
-    "53049"
-   ],
-   "sent": "2026-11-24T23:47:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1758f29d827f2a817d215b2aff09d54cf9b9559f.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.705,
-     46.0245
-    ],
-    [
-     -123.7593,
-     45.4559
-    ],
-    [
-     -123.7824,
-     46.5566
-    ]
-   ],
-   "lon": -123.749,
-   "lat": 46.012,
    "countries": [
     "US"
    ]
@@ -4838,97 +4832,136 @@
    ]
   },
   {
-   "id": "KMTR.MA.W.0032.2026",
+   "id": "KPQR.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Clatsop County Coast",
+    "Tillamook County Coast",
+    "South Washington Coast"
+   ],
+   "counties": [
+    "41007",
+    "41057",
+    "53049"
+   ],
+   "sent": "2026-11-25T07:27:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9bc4a50f4022a1658b960ef88e1e5e11c10b6c5.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.705,
+     46.0245
+    ],
+    [
+     -123.7593,
+     45.4559
+    ],
+    [
+     -123.7824,
+     46.5566
+    ]
+   ],
+   "lon": -123.749,
+   "lat": 46.012,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMTR.MA.W.0033.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS San Francisco CA",
    "areas": [
+    "Coastal Waters from Point Reyes to Pigeon Point California out to 10 nm",
+    "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
     "Waters from Pigeon Point to Point Pinos 10-60 NM"
    ],
    "counties": [
+    "57545",
+    "57560",
     "57575"
    ],
-   "sent": "2026-11-25T06:21:00Z",
-   "onset": "2026-11-25T06:21:00Z",
-   "ends": "2026-11-25T07:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53a82836fce69a74f2a648a7ad4714c2fe239561.001.1",
+   "sent": "2026-11-25T07:13:00Z",
+   "onset": "2026-11-25T07:13:00Z",
+   "ends": "2026-11-25T08:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cbc4341dcddc39bedb1c7764fc84a6397d73ea10.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -122.84,
-       36.62
-      ],
-      [
-       -122.76,
-       36.95
-      ],
-      [
-       -122.85,
-       37.2
-      ],
-      [
-       -122.63,
-       37.2
-      ],
-      [
-       -122.62,
-       37.15
-      ],
-      [
-       -122.61,
-       37.13
-      ],
-      [
        -122.58,
-       37.09
+       37.19
       ],
       [
-       -122.56,
-       37.07
+       -122.51,
+       37.51
       ],
       [
-       -122.53,
+       -122.4,
+       37.33
+      ],
+      [
+       -122.41,
+       37.27
+      ],
+      [
+       -122.4,
+       37.25
+      ],
+      [
+       -122.42,
+       37.24
+      ],
+      [
+       -122.41,
+       37.2
+      ],
+      [
+       -122.35,
+       37.18
+      ],
+      [
+       -122.32,
+       37.12
+      ],
+      [
+       -122.29,
+       37.12
+      ],
+      [
+       -122.24,
        37.03
       ],
       [
-       -122.52,
-       37.01
+       -122.53,
+       36.77
       ],
       [
-       -122.43,
-       36.95
+       -122.55,
+       37.02
       ],
       [
-       -122.37,
-       36.9
-      ],
-      [
-       -122.28,
-       36.84
-      ],
-      [
-       -122.19,
-       36.63
-      ],
-      [
-       -122.25,
-       36.62
-      ],
-      [
-       -122.84,
-       36.62
+       -122.58,
+       37.19
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -122.554,
-   "lat": 36.938,
+   "lon": -122.428,
+   "lat": 37.173,
    "countries": [
     "US"
    ]
@@ -5246,58 +5279,6 @@
    ]
   },
   {
-   "id": "KAKQ.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
-    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
-    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
-    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
-    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
-    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
-    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
-    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
-    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
-    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
-    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
-    "Chesapeake Bay from Smith Point to Windmill Point VA",
-    "Chesapeake Bay from Windmill Point to New Point Comfort VA"
-   ],
-   "counties": [
-    "73630",
-    "73631",
-    "73632",
-    "73634",
-    "73650",
-    "73652",
-    "73654",
-    "73656",
-    "73658",
-    "73680",
-    "73682",
-    "73684",
-    "73686",
-    "73688"
-   ],
-   "sent": "2026-11-25T00:38:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.087e9bf29f56ead8d7ed90feaa19fc45e57e010c.006.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5446,6 +5427,68 @@
    "onset": "2026-11-25T23:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0898c3c4473cf76d8105099c28127138ace26d0d.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "James River from JRB to HRBT, Including the Elizabeth River",
+    "Rappahannock River from Urbanna to Windmill Point",
+    "York River",
+    "James River from Jamestown to the James River Bridge",
+    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
+    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
+    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
+    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
+    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
+    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
+    "Currituck Sound",
+    "Chesapeake Bay from New Point Comfort to Little Creek VA",
+    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
+    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
+    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
+    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
+    "Chesapeake Bay from Smith Point to Windmill Point VA",
+    "Chesapeake Bay from Windmill Point to New Point Comfort VA"
+   ],
+   "counties": [
+    "73630",
+    "73631",
+    "73632",
+    "73633",
+    "73634",
+    "73635",
+    "73636",
+    "73637",
+    "73639",
+    "73650",
+    "73652",
+    "73654",
+    "73656",
+    "73658",
+    "73680",
+    "73682",
+    "73684",
+    "73686",
+    "73688"
+   ],
+   "sent": "2026-11-25T07:09:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aac603b349f70ef7e3ea2d9d1f27c012a065559b.001.3",
    "geometry": null,
    "vtec": true,
    "points": [],
