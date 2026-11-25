@@ -19,11 +19,11 @@
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Kent",
+    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth",
-    "Kent",
-    "Cumberland"
+    "Eastern Monmouth"
    ],
    "counties": [
     "10001",
@@ -4714,10 +4714,10 @@
     "29157",
     "29223"
    ],
-   "sent": "2026-11-25T02:57:00Z",
+   "sent": "2026-11-25T03:13:00Z",
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b1d023f88757a4a964756896bda16e30c5cd110.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5043,14 +5043,13 @@
    "certainty": "Possible",
    "sender": "NWS Paducah KY",
    "areas": [
-    "Wayne",
-    "Alexander",
     "Jefferson",
     "Perry",
     "Franklin",
     "Jackson",
     "Williamson",
     "Union",
+    "Alexander",
     "Bollinger",
     "Cape Girardeau"
    ],
@@ -5061,16 +5060,15 @@
     "17081",
     "17145",
     "17181",
-    "17191",
     "17199",
     "29017",
     "29031",
     "29157"
    ],
-   "sent": "2026-11-25T02:57:00Z",
+   "sent": "2026-11-25T03:13:00Z",
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b1d023f88757a4a964756896bda16e30c5cd110.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5099,10 +5097,6 @@
      37.4857
     ],
     [
-     -88.4324,
-     38.4319
-    ],
-    [
      -88.93,
      37.7304
     ],
@@ -5119,8 +5113,8 @@
      37.7111
     ]
    ],
-   "lon": -89.279,
-   "lat": 37.764,
+   "lon": -89.364,
+   "lat": 37.698,
    "countries": [
     "US"
    ]
