@@ -2632,6 +2632,51 @@
    ]
   },
   {
+   "id": "KEPZ.FZ.W.0002.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS El Paso Tx/Santa Teresa NM",
+   "areas": [
+    "Southern Dona Ana County/Mesilla Valley",
+    "Western El Paso County",
+    "Eastern/Central El Paso County",
+    "Northern Hudspeth Highlands/Hueco Mountains",
+    "Southern Hudspeth Highlands"
+   ],
+   "counties": [
+    "35013",
+    "48141",
+    "48229"
+   ],
+   "sent": "2026-11-24T23:37:00Z",
+   "onset": "2026-11-25T07:00:00Z",
+   "ends": "2026-11-25T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f709af5c5e8702f4a0e237f0c32941e1e561cec.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -106.835,
+     32.3499
+    ],
+    [
+     -106.2415,
+     31.7665
+    ],
+    [
+     -105.3775,
+     31.4509
+    ]
+   ],
+   "lon": -106.151,
+   "lat": 31.856,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KFWD.FZ.A.0001.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3933,10 +3978,10 @@
     "41057",
     "53049"
    ],
-   "sent": "2026-11-24T21:23:00Z",
+   "sent": "2026-11-24T23:47:00Z",
    "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cee96920d1dcda37c73ab19a0483606358d6333e.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1758f29d827f2a817d215b2aff09d54cf9b9559f.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4340,34 +4385,6 @@
    "onset": "2026-11-24T20:56:00Z",
    "ends": "2026-11-25T09:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76d37efaf68929422344a41b3e81e8e088ae7ac2.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "Waters from Florence to Cape Blanco OR from 10 to 60 nm",
-    "Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm"
-   ],
-   "counties": [
-    "57370",
-    "57376"
-   ],
-   "sent": "2026-11-24T21:22:00Z",
-   "onset": "2026-11-24T21:22:00Z",
-   "ends": "2026-11-25T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e452d3cb74c57675c22f677661b66b8e45b8639c.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
