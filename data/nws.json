@@ -5157,7 +5157,59 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0417.2026",
+   "id": "KKEY.MA.W.0418.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Straits of Florida from Ocean Reef to Craig Key 20 to 60 NM out"
+   ],
+   "counties": [
+    "77072"
+   ],
+   "sent": "2026-11-25T12:27:00Z",
+   "onset": "2026-11-25T12:27:00Z",
+   "ends": "2026-11-25T13:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4efd564a8b1867cada2410363f0a0eee02266457.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.79,
+       24.63
+      ],
+      [
+       -79.8,
+       24.81
+      ],
+      [
+       -79.71,
+       24.82
+      ],
+      [
+       -79.55,
+       24.61
+      ],
+      [
+       -79.79,
+       24.63
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.728,
+   "lat": 24.7,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0419.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -5173,29 +5225,29 @@
     "77052",
     "77072"
    ],
-   "sent": "2026-11-25T11:54:00Z",
-   "onset": "2026-11-25T11:54:00Z",
-   "ends": "2026-11-25T12:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca8adf9b182bd4bd168f4791ba6c2a458bfc99e2.002.1",
+   "sent": "2026-11-25T12:28:00Z",
+   "onset": "2026-11-25T12:28:00Z",
+   "ends": "2026-11-25T13:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f085fba767d9bfc56f24e9102781eadc451a42cd.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.65,
-       24.49
+       -79.75,
+       24.87
       ],
       [
-       -79.72,
-       24.45
+       -79.96,
+       24.82
       ],
       [
-       -79.93,
-       24.5
+       -80.21,
+       24.81
       ],
       [
-       -80.5,
-       24.65
+       -80.4,
+       24.84
       ],
       [
        -80.2,
@@ -5206,20 +5258,16 @@
        25.13
       ],
       [
-       -79.54,
-       24.6
-      ],
-      [
-       -79.65,
-       24.49
+       -79.75,
+       24.87
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.894,
-   "lat": 24.7,
+   "lon": -80.033,
+   "lat": 24.947,
    "countries": [
     "US"
    ]
