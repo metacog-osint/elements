@@ -14,16 +14,16 @@
     "Salem",
     "Ocean",
     "Coastal Ocean",
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington",
     "Kent",
     "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth"
+    "Eastern Monmouth",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington"
    ],
    "counties": [
     "10001",
@@ -373,12 +373,12 @@
    "areas": [
     "Coastal Duval",
     "Southeast Coastal St. Johns",
+    "Inland Flagler",
+    "Eastern Putnam",
     "Coastal Nassau",
     "Northeast Coastal St. Johns",
     "Coastal Glynn",
     "Coastal Camden",
-    "Inland Flagler",
-    "Eastern Putnam",
     "Coastal Flagler"
    ],
    "counties": [
@@ -1582,174 +1582,6 @@
    ]
   },
   {
-   "id": "KSEW.FA.A.0012.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-24T12:28:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-30T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16e68ac6267af42bd317dc9a12c3e2dc5b8a6c81.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.173,
-   "lat": 47.351,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.FA.A.0004.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Metro Palm Beach County",
-    "Metro Broward County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County"
-   ],
-   "counties": [
-    "12011",
-    "12086",
-    "12099"
-   ],
-   "sent": "2026-11-24T19:01:00Z",
-   "onset": "2026-11-25T00:00:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c134a148fde7fa3e21c1a52e04d19da8f1fdac3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.476,
-   "lat": 26.153,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.FA.A.0005.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Washington",
-    "Tyrrell",
-    "Mainland Dare",
-    "Beaufort",
-    "Mainland Hyde",
-    "Jones",
-    "Pamlico",
-    "Northern Craven",
-    "Southern Craven",
-    "West Carteret",
-    "East Carteret",
-    "Inland Onslow",
-    "Coastal Onslow",
-    "Northern Outer Banks",
-    "Ocracoke Island",
-    "Hatteras Island"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37055",
-    "37095",
-    "37103",
-    "37133",
-    "37137",
-    "37177",
-    "37187"
-   ],
-   "sent": "2026-11-24T19:06:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07d919a4b40cb6ee0677104cbe662411c1a30252.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ],
-    [
-     -77.3562,
-     35.0323
-    ],
-    [
-     -77.4995,
-     34.7631
-    ],
-    [
-     -76.6653,
-     35.1476
-    ],
-    [
-     -76.1653,
-     35.8704
-    ],
-    [
-     -76.5723,
-     35.8447
-    ]
-   ],
-   "lon": -76.664,
-   "lat": 35.313,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FA.A.0005.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -1808,6 +1640,204 @@
    ],
    "lon": -80.601,
    "lat": 27.57,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.FA.A.0012.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Mason, WA"
+   ],
+   "counties": [
+    "53045"
+   ],
+   "sent": "2026-11-25T04:15:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-30T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e60e4e9c15275a4964912cc406465f2b0dc81ef6.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1731,
+     47.3508
+    ]
+   ],
+   "lon": -123.173,
+   "lat": 47.351,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FA.A.0004.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Metro Palm Beach County",
+    "Metro Broward County",
+    "Metropolitan Miami Dade",
+    "Coastal Palm Beach County",
+    "Coastal Broward County",
+    "Coastal Miami Dade County"
+   ],
+   "counties": [
+    "12011",
+    "12086",
+    "12099"
+   ],
+   "sent": "2026-11-25T04:25:00Z",
+   "onset": "2026-11-25T04:25:00Z",
+   "ends": "2026-11-26T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24fb3083fc93a0cc3b591b51a9007c4b55ce3270.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ],
+    [
+     -80.4484,
+     26.6491
+    ]
+   ],
+   "lon": -80.476,
+   "lat": 26.153,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.FA.A.0005.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Washington",
+    "Tyrrell",
+    "Mainland Dare",
+    "Beaufort",
+    "Mainland Hyde",
+    "Jones",
+    "Pamlico",
+    "Northern Craven",
+    "Southern Craven",
+    "West Carteret",
+    "East Carteret",
+    "Inland Onslow",
+    "Coastal Onslow",
+    "Northern Outer Banks",
+    "Ocracoke Island",
+    "Hatteras Island",
+    "Martin",
+    "Pitt",
+    "Greene",
+    "Duplin",
+    "Lenoir"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37055",
+    "37061",
+    "37079",
+    "37095",
+    "37103",
+    "37107",
+    "37117",
+    "37133",
+    "37137",
+    "37147",
+    "37177",
+    "37187"
+   ],
+   "sent": "2026-11-25T04:32:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b179dcfb9f126e8a421e42c46be9861dab8ba070.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -77.9335,
+     34.9344
+    ],
+    [
+     -77.6817,
+     35.482
+    ],
+    [
+     -76.1537,
+     35.4082
+    ],
+    [
+     -77.3562,
+     35.0323
+    ],
+    [
+     -77.6355,
+     35.2401
+    ],
+    [
+     -77.1196,
+     35.8473
+    ],
+    [
+     -77.4995,
+     34.7631
+    ],
+    [
+     -76.6653,
+     35.1476
+    ],
+    [
+     -77.3727,
+     35.5925
+    ],
+    [
+     -76.1653,
+     35.8704
+    ],
+    [
+     -76.5723,
+     35.8447
+    ]
+   ],
+   "lon": -76.959,
+   "lat": 35.348,
    "countries": [
     "US"
    ]
@@ -4240,78 +4270,6 @@
    ]
   },
   {
-   "id": "KSEW.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156",
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-24T20:56:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76d37efaf68929422344a41b3e81e8e088ae7ac2.004.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156",
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-24T20:56:00Z",
-   "onset": "2026-11-24T20:56:00Z",
-   "ends": "2026-11-25T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76d37efaf68929422344a41b3e81e8e088ae7ac2.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFC.SR.W.2203.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -4544,6 +4502,42 @@
    ]
   },
   {
+   "id": "KSEW.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156",
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-25T04:26:00Z",
+   "onset": "2026-11-25T04:26:00Z",
+   "ends": "2026-11-26T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cee562f7679af4e1483150ebafa69103913571a.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KBOX.SR.A.0005.2026",
    "event": "Storm Watch",
    "severity": "Severe",
@@ -4576,54 +4570,6 @@
    "onset": "2026-11-26T12:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b251712c33b3c3c0d6205ae6aae459543b53145.003.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOKX.SR.A.0003.2026",
-   "event": "Storm Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
-    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
-    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
-    "Long Island Sound East of the Mouth of the Connecticut River",
-    "Long Island Sound West of New Haven CT/Port Jefferson NY",
-    "New York Harbor",
-    "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay"
-   ],
-   "counties": [
-    "73331",
-    "73332",
-    "73335",
-    "73338",
-    "73340",
-    "73345",
-    "73350",
-    "73353",
-    "73355",
-    "73380",
-    "73383",
-    "73385"
-   ],
-   "sent": "2026-11-24T18:53:00Z",
-   "onset": "2026-11-26T11:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807ad9251567c9f67fc3d1ae452fec7f713a2061.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4696,6 +4642,54 @@
    ]
   },
   {
+   "id": "KOKX.SR.A.0003.2026",
+   "event": "Storm Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
+    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
+    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
+    "Long Island Sound East of the Mouth of the Connecticut River",
+    "Long Island Sound West of New Haven CT/Port Jefferson NY",
+    "New York Harbor",
+    "Peconic and Gardiners Bays",
+    "South Shore Bays from Jones Inlet through Shinnecock Bay",
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM"
+   ],
+   "counties": [
+    "73331",
+    "73332",
+    "73335",
+    "73338",
+    "73340",
+    "73345",
+    "73350",
+    "73353",
+    "73355",
+    "73380",
+    "73383",
+    "73385"
+   ],
+   "sent": "2026-11-25T04:12:00Z",
+   "onset": "2026-11-26T11:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bf4fbdbac1ebe3e4897d3a6bf4dd202eb42e1e7.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPAH.WS.W.0002.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -4740,6 +4734,43 @@
    ],
    "lon": -89.992,
    "lat": 37.381,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILX.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Lincoln IL",
+   "areas": [
+    "Scott",
+    "Morgan"
+   ],
+   "counties": [
+    "17137",
+    "17171"
+   ],
+   "sent": "2026-11-25T03:50:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.532fb99de36b481a3f1e40c8d49283475c3344b0.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.205,
+     39.7177
+    ],
+    [
+     -90.4778,
+     39.637
+    ]
+   ],
+   "lon": -90.341,
+   "lat": 39.677,
    "countries": [
     "US"
    ]
@@ -4792,10 +4823,10 @@
     "29221",
     "29510"
    ],
-   "sent": "2026-11-25T03:45:00Z",
+   "sent": "2026-11-25T04:34:00Z",
    "onset": "2026-11-25T18:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c98d9ddb4c04272bb908c570c760e305ba73b4c1.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05b16d6ee16eaae1d90248d3837c363486acc9a2.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4878,43 +4909,6 @@
    ],
    "lon": -90.587,
    "lat": 38.536,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILX.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Lincoln IL",
-   "areas": [
-    "Scott",
-    "Morgan"
-   ],
-   "counties": [
-    "17137",
-    "17171"
-   ],
-   "sent": "2026-11-25T03:50:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.532fb99de36b481a3f1e40c8d49283475c3344b0.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -90.205,
-     39.7177
-    ],
-    [
-     -90.4778,
-     39.637
-    ]
-   ],
-   "lon": -90.341,
-   "lat": 39.677,
    "countries": [
     "US"
    ]
@@ -5078,31 +5072,25 @@
    "certainty": "Possible",
    "sender": "NWS St Louis MO",
    "areas": [
-    "Macoupin",
     "Montgomery",
     "Bond",
     "Fayette",
     "Clinton",
     "Marion",
-    "Washington",
-    "Madison",
-    "St. Clair"
+    "Washington"
    ],
    "counties": [
     "17005",
     "17027",
     "17051",
-    "17117",
-    "17119",
     "17121",
     "17135",
-    "17163",
     "17189"
    ],
-   "sent": "2026-11-25T03:45:00Z",
+   "sent": "2026-11-25T04:34:00Z",
    "onset": "2026-11-25T18:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c98d9ddb4c04272bb908c570c760e305ba73b4c1.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05b16d6ee16eaae1d90248d3837c363486acc9a2.006.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5119,14 +5107,6 @@
      39.0011
     ],
     [
-     -89.9263,
-     39.2659
-    ],
-    [
-     -89.9002,
-     38.8271
-    ],
-    [
      -88.9204,
      38.6482
     ],
@@ -5135,16 +5115,12 @@
      39.2281
     ],
     [
-     -89.9285,
-     38.4702
-    ],
-    [
      -89.4172,
      38.3531
     ]
    ],
-   "lon": -89.495,
-   "lat": 38.81,
+   "lon": -89.283,
+   "lat": 38.787,
    "countries": [
     "US"
    ]
