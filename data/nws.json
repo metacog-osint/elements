@@ -19,11 +19,11 @@
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Kent",
+    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth",
-    "Kent",
-    "Cumberland"
+    "Eastern Monmouth"
    ],
    "counties": [
     "10001",
@@ -3087,43 +3087,6 @@
    ]
   },
   {
-   "id": "KLCH.FZ.A.0004.2026",
-   "event": "Freeze Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Lake Charles LA",
-   "areas": [
-    "Rapides",
-    "Avoyelles"
-   ],
-   "counties": [
-    "22009",
-    "22079"
-   ],
-   "sent": "2026-11-24T18:07:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7738681a15e0b28432e486e20f8769d95dfe601d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.9833,
-     31.0885
-    ],
-    [
-     -92.536,
-     31.1932
-    ]
-   ],
-   "lon": -92.26,
-   "lat": 31.141,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KHGX.FZ.A.0002.2026",
    "event": "Freeze Watch",
    "severity": "Severe",
@@ -3174,6 +3137,43 @@
    ],
    "lon": -95.886,
    "lat": 30.907,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLCH.FZ.A.0004.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Lake Charles LA",
+   "areas": [
+    "Rapides",
+    "Avoyelles"
+   ],
+   "counties": [
+    "22009",
+    "22079"
+   ],
+   "sent": "2026-11-25T05:18:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a25dfd9243e904ad2ce5d84b480b287baae9815c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.9833,
+     31.0885
+    ],
+    [
+     -92.536,
+     31.1932
+    ]
+   ],
+   "lon": -92.26,
+   "lat": 31.141,
    "countries": [
     "US"
    ]
@@ -3844,60 +3844,6 @@
    ]
   },
   {
-   "id": "KTFX.HW.A.0034.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "East Glacier Park Region",
-    "Northern High Plains"
-   ],
-   "counties": [
-    "30035",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-24T20:45:00Z",
-   "onset": "2026-11-26T16:00:00Z",
-   "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b858ab055baead16047b0b2c21037c284825c37d.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -112.322,
-   "lat": 48.104,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.HW.A.0002.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -4054,55 +4000,162 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0413.2026",
+   "id": "KTFX.HW.A.0034.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Judith Basin County and Judith Gap",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "East Glacier Park Region",
+    "Northern High Plains"
+   ],
+   "counties": [
+    "30027",
+    "30035",
+    "30045",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-25T05:22:00Z",
+   "onset": "2026-11-27T01:00:00Z",
+   "ends": "2026-11-27T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91d004267809ddd74edd94d0171bd15a4fba6833.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.233,
+     47.2218
+    ],
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -110.3053,
+     47.0326
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -111.593,
+   "lat": 47.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBYZ.HW.A.0014.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Judith Gap",
+    "Northern Sweet Grass",
+    "Melville Foothills",
+    "Southern Wheatland"
+   ],
+   "counties": [
+    "30037",
+    "30097",
+    "30107"
+   ],
+   "sent": "2026-11-25T05:23:00Z",
+   "onset": "2026-11-26T21:00:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10a5f16051e90a2de629be47021dc484d9568297.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.1746,
+     46.3806
+    ],
+    [
+     -109.9448,
+     45.8113
+    ],
+    [
+     -109.8577,
+     46.497
+    ]
+   ],
+   "lon": -109.659,
+   "lat": 46.23,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0414.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Key West FL",
    "areas": [
-    "Straits of Florida from Craig Key to west end of Seven Mile Bridge 20 to 60 NM out",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal 20 to 60 NM out"
+    "Straits of Florida from Craig Key to west end of Seven Mile Bridge 20 to 60 NM out"
    ],
    "counties": [
-    "77073",
-    "77074"
+    "77073"
    ],
-   "sent": "2026-11-25T04:47:00Z",
-   "onset": "2026-11-25T04:47:00Z",
-   "ends": "2026-11-25T05:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2465c3e30dd05f594def78a9d317ee0bb2fde317.001.1",
+   "sent": "2026-11-25T05:31:00Z",
+   "onset": "2026-11-25T05:31:00Z",
+   "ends": "2026-11-25T06:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c886166fd1976c6497ab006d36c1dfc55b279b47.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -80.84,
-       23.8
+       -80.86,
+       24.21
       ],
       [
-       -81.03,
-       23.74
+       -81.1,
+       23.95
       ],
       [
-       -81.14,
-       23.99
+       -80.95,
+       23.76
       ],
       [
-       -80.84,
+       -80.68,
        24.05
       ],
       [
-       -80.84,
-       23.8
+       -80.86,
+       24.21
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -80.938,
-   "lat": 23.876,
+   "lon": -80.89,
+   "lat": 24.036,
    "countries": [
     "US"
    ]
