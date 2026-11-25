@@ -294,13 +294,13 @@
    "areas": [
     "New Castle",
     "Salem",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -866,8 +866,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
    ],
    "counties": [
     "06059",
@@ -876,7 +876,7 @@
    "sent": "2026-11-25T22:08:00Z",
    "onset": "2026-11-25T22:08:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4081,16 +4081,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Westmoreland",
-    "Richmond",
-    "James City",
-    "Eastern King and Queen",
-    "Eastern Essex",
     "Western Currituck",
     "Eastern Currituck",
     "Virginia Beach",
     "Norfolk",
-    "Portsmouth"
+    "Portsmouth",
+    "Westmoreland",
+    "Richmond",
+    "James City",
+    "Eastern King and Queen",
+    "Eastern Essex"
    ],
    "counties": [
     "24019",
@@ -5206,6 +5206,108 @@
    ]
   },
   {
+   "id": "KKEY.MA.W.0424.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+   ],
+   "counties": [
+    "77033",
+    "77035",
+    "77044",
+    "77054"
+   ],
+   "sent": "2026-11-25T22:59:00Z",
+   "onset": "2026-11-25T22:59:00Z",
+   "ends": "2026-11-25T23:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a403e5148794106b386a6bf73012653e7c5b3d7.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.42,
+       24.68
+      ],
+      [
+       -81.44,
+       24.67
+      ],
+      [
+       -81.44,
+       24.69
+      ],
+      [
+       -81.47,
+       24.65
+      ],
+      [
+       -81.5,
+       24.69
+      ],
+      [
+       -81.51,
+       24.69
+      ],
+      [
+       -81.51,
+       24.66
+      ],
+      [
+       -81.48,
+       24.65
+      ],
+      [
+       -81.51,
+       24.63
+      ],
+      [
+       -81.51,
+       24.64
+      ],
+      [
+       -81.57,
+       24.69
+      ],
+      [
+       -81.52,
+       24.64
+      ],
+      [
+       -81.94,
+       24.4
+      ],
+      [
+       -81.96,
+       24.62
+      ],
+      [
+       -81.57,
+       24.86
+      ],
+      [
+       -81.42,
+       24.68
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.548,
+   "lat": 24.659,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFC.SR.W.4786.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5658,11 +5760,11 @@
     "Chester River to Queenstown MD",
     "Eastern Bay",
     "Patuxent River to Broomes Island MD",
+    "Chesapeake Bay from Drum Point MD to Smith Point VA",
+    "Tangier Sound and the inland waters surrounding Bloodsworth Island",
     "Chesapeake Bay from North Beach to Drum Point MD",
     "Tidal Potomac from Cobb Island MD to Smith Point VA",
-    "Choptank River to Cambridge MD and the Little Choptank River",
-    "Chesapeake Bay from Drum Point MD to Smith Point VA",
-    "Tangier Sound and the inland waters surrounding Bloodsworth Island"
+    "Choptank River to Cambridge MD and the Little Choptank River"
    ],
    "counties": [
     "73530",
@@ -5775,10 +5877,10 @@
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
     "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
     "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
-    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
-    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
     "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
+    "Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM",
+    "Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM",
     "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
