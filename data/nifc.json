@@ -578,9 +578,9 @@
    "id": "{5A67516B-F484-46FE-988A-F15E31A980B8}",
    "name": "Clearfield",
    "acres": 5.0,
-   "contained": 50,
+   "contained": 75,
    "discovered": "2026-11-24T20:36:00Z",
-   "updated": "2026-11-24T22:33:00Z",
+   "updated": "2026-11-24T23:50:16Z",
    "state": "KY",
    "county": "Rowan",
    "cause": "Human",
@@ -636,7 +636,7 @@
    "acres": 2.6,
    "contained": null,
    "discovered": "2026-11-24T18:43:48Z",
-   "updated": "2026-11-24T23:19:01Z",
+   "updated": "2026-11-24T23:57:55Z",
    "state": "MA",
    "county": "Hampshire",
    "cause": "Undetermined",
@@ -1471,20 +1471,6 @@
    "lat": 43.3436
   },
   {
-   "id": "{E2700A66-3E25-400E-864B-8BBDBEA8D39B}",
-   "name": "Lac-421650",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-21T23:49:16Z",
-   "updated": "2026-11-21T23:58:05Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.8193,
-   "lat": 34.6175
-  },
-  {
    "id": "{48828EC2-2F46-456A-82D3-F191A021D82E}",
    "name": "Lac-421927",
    "acres": 0.0,
@@ -1777,6 +1763,20 @@
    "complexity": null,
    "lon": -118.2098,
    "lat": 33.9232
+  },
+  {
+   "id": "{AE233421-D885-40EA-9A98-04865C4582B3}",
+   "name": "Lac-425603",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-24T23:36:34Z",
+   "updated": "2026-11-24T23:37:11Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.0767,
+   "lat": 34.6607
   }
  ]
 }
