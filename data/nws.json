@@ -1,43 +1,6 @@
 {
  "records": [
   {
-   "id": "KSGX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS San Diego CA",
-   "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
-   ],
-   "counties": [
-    "06059",
-    "06073"
-   ],
-   "sent": "2026-11-25T09:51:00Z",
-   "onset": "2026-11-25T09:51:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b1c584322d23ab88ff17e82b2b535d5dd4673fc.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -117.7772,
-     33.6757
-    ],
-    [
-     -116.7761,
-     33.0236
-    ]
-   ],
-   "lon": -117.277,
-   "lat": 33.35,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMTR.CF.W.0002.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -120,48 +83,6 @@
    ]
   },
   {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-25T14:02:00Z",
-   "onset": "2026-11-25T14:02:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87ce4c7ebafb11e02a7f5f2241e7bd17c5a78792.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -235,49 +156,6 @@
    ],
    "lon": -81.603,
    "lat": 30.251,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLOX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches",
-    "Ventura County Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083",
-    "06111"
-   ],
-   "sent": "2026-11-25T16:53:00Z",
-   "onset": "2026-11-25T16:53:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a35463baa6291ce12ddd0fc4fe5500129004a512.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -119.873,
-   "lat": 34.761,
    "countries": [
     "US"
    ]
@@ -416,13 +294,13 @@
    "areas": [
     "New Castle",
     "Salem",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -981,66 +859,123 @@
    ]
   },
   {
-   "id": "KSEW.FL.W.0038.2026",
-   "event": "Flood Warning",
+   "id": "KSGX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Seattle WA",
+   "sender": "NWS San Diego CA",
    "areas": [
-    "Mason, WA"
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
    ],
    "counties": [
-    "53045"
+    "06059",
+    "06073"
    ],
-   "sent": "2026-11-25T17:30:00Z",
-   "onset": "2026-11-25T21:57:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.420ee98ba5f1f8ac1502400b1a2db61fbbdc4afa.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -123.1,
-       47.33
-      ],
-      [
-       -123.16,
-       47.28
-      ],
-      [
-       -123.33,
-       47.33
-      ],
-      [
-       -123.25,
-       47.34
-      ],
-      [
-       -123.19,
-       47.32
-      ],
-      [
-       -123.15,
-       47.35
-      ],
-      [
-       -123.1,
-       47.33
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-25T22:08:00Z",
+   "onset": "2026-11-25T22:08:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.001.1",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -123.1731,
-     47.3508
+     -117.7772,
+     33.6757
+    ],
+    [
+     -116.7761,
+     33.0236
     ]
    ],
-   "lon": -123.183,
-   "lat": 47.326,
+   "lon": -117.277,
+   "lat": 33.35,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLOX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "San Luis Obispo County Beaches",
+    "Santa Barbara County Central Coast Beaches",
+    "Ventura County Beaches"
+   ],
+   "counties": [
+    "06079",
+    "06083",
+    "06111"
+   ],
+   "sent": "2026-11-25T22:14:00Z",
+   "onset": "2026-11-25T22:14:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65971275c6dac7a4ed5c1aba20f23eac97902e5c.002.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -119.873,
+   "lat": 34.761,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-25T22:24:00Z",
+   "onset": "2026-11-25T22:24:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e691550f95bf516fbd535874d081ff34dddfabd.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
    "countries": [
     "US"
    ]
@@ -1847,64 +1782,66 @@
    ]
   },
   {
-   "id": "KMLB.FA.A.0005.2026",
-   "event": "Flood Watch",
+   "id": "KSEW.FL.W.0038.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Melbourne FL",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
    "areas": [
-    "Okeechobee",
-    "Coastal Indian River",
-    "Coastal St. Lucie",
-    "Coastal Martin",
-    "Inland Northern Brevard",
-    "Inland Indian River",
-    "Inland St. Lucie",
-    "Inland Martin",
-    "Mainland Northern Brevard",
-    "Northern Brevard Barrier Islands",
-    "Inland Southern Brevard",
-    "Mainland Southern Brevard",
-    "Southern Brevard Barrier Islands"
+    "Mason, WA"
    ],
    "counties": [
-    "12009",
-    "12061",
-    "12085",
-    "12093",
-    "12111"
+    "53045"
    ],
-   "sent": "2026-11-24T20:32:00Z",
-   "onset": "2026-11-25T06:00:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.101b5d154a4ce1e444b3ac0d9804d7d6d7ea5268.001.1",
-   "geometry": null,
+   "sent": "2026-11-25T22:17:00Z",
+   "onset": "2026-11-25T22:17:00Z",
+   "ends": "2026-11-28T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6bb687cc4e6d7413541a788111321bf42c069c4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -123.1,
+       47.33
+      ],
+      [
+       -123.16,
+       47.28
+      ],
+      [
+       -123.33,
+       47.33
+      ],
+      [
+       -123.25,
+       47.34
+      ],
+      [
+       -123.19,
+       47.32
+      ],
+      [
+       -123.15,
+       47.35
+      ],
+      [
+       -123.1,
+       47.33
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [
     [
-     -80.7003,
-     28.2983
-    ],
-    [
-     -80.5748,
-     27.7005
-    ],
-    [
-     -80.3982,
-     27.0836
-    ],
-    [
-     -80.8874,
-     27.3856
-    ],
-    [
-     -80.4435,
-     27.3798
+     -123.1731,
+     47.3508
     ]
    ],
-   "lon": -80.601,
-   "lat": 27.57,
+   "lon": -123.183,
+   "lat": 47.326,
    "countries": [
     "US"
    ]
@@ -4144,16 +4081,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Westmoreland",
-    "Richmond",
-    "James City",
-    "Eastern King and Queen",
-    "Eastern Essex",
     "Western Currituck",
     "Eastern Currituck",
     "Virginia Beach",
     "Norfolk",
-    "Portsmouth"
+    "Portsmouth",
+    "Westmoreland",
+    "Richmond",
+    "James City",
+    "Eastern King and Queen",
+    "Eastern Essex"
    ],
    "counties": [
     "24019",
