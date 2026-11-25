@@ -547,20 +547,6 @@
    "lat": 38.092
   },
   {
-   "id": "{10C8F786-26AB-407F-BF83-9968FA145E0C}",
-   "name": "Marschall Road",
-   "acres": 7.0,
-   "contained": null,
-   "discovered": "2026-11-17T21:53:00Z",
-   "updated": "2026-11-24T19:48:08Z",
-   "state": "MN",
-   "county": "Scott",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -93.5075,
-   "lat": 44.7317
-  },
-  {
    "id": "{CB7A2A48-AAB4-4CC3-A936-29F3D9B6DC3F}",
    "name": "M35",
    "acres": 6.3,
@@ -587,20 +573,6 @@
    "complexity": null,
    "lon": -70.6726,
    "lat": 44.4062
-  },
-  {
-   "id": "{F7174ABE-7FA7-4A80-95FA-0078DE1AF736}",
-   "name": "Buck Hill",
-   "acres": 4.0,
-   "contained": null,
-   "discovered": "2026-11-18T19:23:00Z",
-   "updated": "2026-11-24T19:24:14Z",
-   "state": "CO",
-   "county": "El Paso",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -104.8673,
-   "lat": 38.5297
   },
   {
    "id": "{1A39481B-1594-43AA-9415-96DD62CD4742}",
@@ -757,6 +729,20 @@
    "lat": 43.6299
   },
   {
+   "id": "{78F5DEB9-710C-407A-8DC2-91AF165A3E32}",
+   "name": "2026090",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-22T16:18:12Z",
+   "updated": "2026-11-25T16:27:07Z",
+   "state": "VT",
+   "county": "Franklin",
+   "cause": null,
+   "complexity": null,
+   "lon": -72.6384,
+   "lat": 44.9095
+  },
+  {
    "id": "{B4E6A1AD-8B8A-4756-9561-B931AC81B1BC}",
    "name": "Little River 185",
    "acres": 1.0,
@@ -797,6 +783,34 @@
    "complexity": null,
    "lon": -92.8822,
    "lat": 33.5711
+  },
+  {
+   "id": "{11173701-4808-40A1-A952-37E52BC89B56}",
+   "name": "Ouachita 356",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-25T15:22:58Z",
+   "updated": "2026-11-25T15:42:36Z",
+   "state": "AR",
+   "county": "Ouachita",
+   "cause": null,
+   "complexity": null,
+   "lon": -92.9722,
+   "lat": 33.5115
+  },
+  {
+   "id": "{DA5D52F7-7412-494E-AE2A-2D42A63F8F99}",
+   "name": "clark 306",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-25T16:16:32Z",
+   "updated": "2026-11-25T16:31:36Z",
+   "state": "AR",
+   "county": "Clark",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.0628,
+   "lat": 33.8745
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -939,18 +953,18 @@
    "lat": 43.4261
   },
   {
-   "id": "{31438499-B204-46A8-91EF-4F703878313C}",
-   "name": "South French Lick",
-   "acres": 0.2,
+   "id": "{51DF16B8-7D73-443B-B901-E866027A394A}",
+   "name": "2026091",
+   "acres": 0.3,
    "contained": null,
-   "discovered": "2026-02-25T19:04:57Z",
-   "updated": "2026-11-22T15:18:52Z",
-   "state": "IN",
-   "county": "Orange",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -86.5906,
-   "lat": 38.4302
+   "discovered": "2026-11-24T01:54:29Z",
+   "updated": "2026-11-25T16:29:17Z",
+   "state": "VT",
+   "county": "Windsor",
+   "cause": null,
+   "complexity": null,
+   "lon": -72.3071,
+   "lat": 43.6659
   },
   {
    "id": "{9EAF04FE-7765-4D18-B653-73553B7B71CE}",
@@ -1359,6 +1373,20 @@
    "lat": 33.6826
   },
   {
+   "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
+   "name": "Dugger",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-24T22:45:23Z",
+   "updated": "2026-11-25T16:02:13Z",
+   "state": "AL",
+   "county": "Cleburne",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -85.5639,
+   "lat": 33.8738
+  },
+  {
    "id": "{DE93EFFD-8ED9-496D-A4A2-75ADA69DF6D3}",
    "name": "Wildfire Training",
    "acres": 0.0,
@@ -1427,6 +1455,20 @@
    "complexity": null,
    "lon": -118.6868,
    "lat": 34.5703
+  },
+  {
+   "id": "{5ABC8369-E87E-46DA-896C-F154B9C3CE19}",
+   "name": "Pageless",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-18T17:10:00Z",
+   "updated": "2026-11-25T16:23:27Z",
+   "state": "WI",
+   "county": "Grant",
+   "cause": "Human",
+   "complexity": null,
+   "lon": -90.4506,
+   "lat": 43.185
   },
   {
    "id": "{AA9A9C5F-D971-4FB5-ABE0-8F17C52AC6D1}",
@@ -1833,6 +1875,20 @@
    "complexity": null,
    "lon": -118.1255,
    "lat": 34.5943
+  },
+  {
+   "id": "{695C5ACE-3C06-4CD4-907B-95FC603FA576}",
+   "name": "0944",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T15:40:37Z",
+   "updated": "2026-11-25T16:27:43Z",
+   "state": "OR",
+   "county": "Deschutes",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -121.424,
+   "lat": 44.144
   }
  ]
 }

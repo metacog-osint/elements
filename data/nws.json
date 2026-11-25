@@ -44,112 +44,6 @@
    ]
   },
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Eastern Putnam",
-    "Coastal Flagler",
-    "Southeast Coastal St. Johns",
-    "Coastal Duval",
-    "Coastal Nassau",
-    "Northeast Coastal St. Johns",
-    "Coastal Glynn",
-    "Coastal Camden"
-   ],
-   "counties": [
-    "12031",
-    "12035",
-    "12089",
-    "12107",
-    "12109",
-    "13039",
-    "13127"
-   ],
-   "sent": "2026-11-25T06:24:00Z",
-   "onset": "2026-11-25T06:24:00Z",
-   "ends": "2026-11-26T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b17005547ae09739a4b3cdc4432b71d8846f1361.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.6481,
-     30.3352
-    ],
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.7651,
-     30.606
-    ],
-    [
-     -81.732,
-     29.5939
-    ],
-    [
-     -81.3883,
-     29.8814
-    ],
-    [
-     -81.642,
-     30.9134
-    ],
-    [
-     -81.4964,
-     31.2127
-    ]
-   ],
-   "lon": -81.565,
-   "lat": 30.288,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCHS.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston SC",
-   "areas": [
-    "Coastal Colleton",
-    "Charleston"
-   ],
-   "counties": [
-    "45019",
-    "45029"
-   ],
-   "sent": "2026-11-25T06:45:00Z",
-   "onset": "2026-11-25T10:00:00Z",
-   "ends": "2026-11-25T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7ac6adc0fde0caa2e48e6a09d0cc075b8f5cde8.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.9425,
-     32.8005
-    ],
-    [
-     -80.6564,
-     32.8494
-    ]
-   ],
-   "lon": -80.299,
-   "lat": 32.825,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -897,6 +791,84 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Eastern Clay",
+    "South Central Duval",
+    "Western St. Johns",
+    "Trout River",
+    "Coastal Nassau",
+    "Coastal Glynn",
+    "Coastal Camden",
+    "Coastal Duval",
+    "Northeast Coastal St. Johns",
+    "Inland Flagler",
+    "Eastern Putnam",
+    "Coastal Flagler",
+    "Southeast Coastal St. Johns"
+   ],
+   "counties": [
+    "12019",
+    "12031",
+    "12035",
+    "12089",
+    "12107",
+    "12109",
+    "13039",
+    "13127"
+   ],
+   "sent": "2026-11-25T15:47:00Z",
+   "onset": "2026-11-25T15:47:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dca05b7a0ccd9391b53d580ab2944847308f9f17.001.3",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.865,
+     29.9866
+    ],
+    [
+     -81.6481,
+     30.3352
+    ],
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.7651,
+     30.606
+    ],
+    [
+     -81.732,
+     29.5939
+    ],
+    [
+     -81.3883,
+     29.8814
+    ],
+    [
+     -81.642,
+     30.9134
+    ],
+    [
+     -81.4964,
+     31.2127
+    ]
+   ],
+   "lon": -81.603,
+   "lat": 30.251,
    "countries": [
     "US"
    ]
@@ -1766,182 +1738,6 @@
    ]
   },
   {
-   "id": "KSEW.FA.A.0012.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-25T04:15:00Z",
-   "onset": "2026-11-25T18:00:00Z",
-   "ends": "2026-11-30T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e60e4e9c15275a4964912cc406465f2b0dc81ef6.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.173,
-   "lat": 47.351,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FA.A.0003.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Person",
-    "Granville",
-    "Vance",
-    "Warren",
-    "Halifax",
-    "Alamance",
-    "Orange",
-    "Durham",
-    "Franklin",
-    "Nash",
-    "Edgecombe",
-    "Chatham",
-    "Wake",
-    "Johnston",
-    "Wilson",
-    "Lee",
-    "Harnett",
-    "Wayne",
-    "Cumberland",
-    "Sampson"
-   ],
-   "counties": [
-    "37001",
-    "37037",
-    "37051",
-    "37063",
-    "37065",
-    "37069",
-    "37077",
-    "37083",
-    "37085",
-    "37101",
-    "37105",
-    "37127",
-    "37135",
-    "37145",
-    "37163",
-    "37181",
-    "37183",
-    "37185",
-    "37191",
-    "37195"
-   ],
-   "sent": "2026-11-25T06:47:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0833a33bb4621957301ccd9436808bc29bfbd28c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.4006,
-     36.044
-    ],
-    [
-     -79.2515,
-     35.705
-    ],
-    [
-     -78.8287,
-     35.0502
-    ],
-    [
-     -78.8781,
-     36.0338
-    ],
-    [
-     -77.6027,
-     35.9171
-    ],
-    [
-     -78.2831,
-     36.0882
-    ],
-    [
-     -78.6576,
-     36.2999
-    ],
-    [
-     -77.6448,
-     36.2514
-    ],
-    [
-     -78.8717,
-     35.3687
-    ],
-    [
-     -78.3673,
-     35.5134
-    ],
-    [
-     -79.1721,
-     35.4763
-    ],
-    [
-     -77.9876,
-     35.9659
-    ],
-    [
-     -79.12,
-     36.0625
-    ],
-    [
-     -78.9737,
-     36.3883
-    ],
-    [
-     -78.3713,
-     34.9893
-    ],
-    [
-     -78.4054,
-     36.3655
-    ],
-    [
-     -78.6506,
-     35.7898
-    ],
-    [
-     -78.0999,
-     36.3981
-    ],
-    [
-     -78.0087,
-     35.3542
-    ],
-    [
-     -77.9216,
-     35.7004
-    ]
-   ],
-   "lon": -78.525,
-   "lat": 35.838,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMFL.FA.A.0004.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -2109,6 +1905,181 @@
    ]
   },
   {
+   "id": "KRAH.FA.A.0003.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Person",
+    "Granville",
+    "Vance",
+    "Warren",
+    "Halifax",
+    "Alamance",
+    "Orange",
+    "Durham",
+    "Franklin",
+    "Nash",
+    "Edgecombe",
+    "Chatham",
+    "Wake",
+    "Johnston",
+    "Wilson",
+    "Lee",
+    "Harnett",
+    "Wayne",
+    "Cumberland",
+    "Sampson",
+    "Forsyth",
+    "Guilford",
+    "Randolph",
+    "Moore",
+    "Hoke"
+   ],
+   "counties": [
+    "37001",
+    "37037",
+    "37051",
+    "37063",
+    "37065",
+    "37067",
+    "37069",
+    "37077",
+    "37081",
+    "37083",
+    "37085",
+    "37093",
+    "37101",
+    "37105",
+    "37125",
+    "37127",
+    "37135",
+    "37145",
+    "37151",
+    "37163",
+    "37181",
+    "37183",
+    "37185",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-25T16:19:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb7f1357dc3aa765d860ec290cfee3bd2aea59f1.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -79.4006,
+     36.044
+    ],
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8287,
+     35.0502
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -80.257,
+     36.1325
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -78.6576,
+     36.2999
+    ],
+    [
+     -79.7887,
+     36.0791
+    ],
+    [
+     -77.6448,
+     36.2514
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -79.242,
+     35.0172
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.1721,
+     35.4763
+    ],
+    [
+     -79.4927,
+     35.3083
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -79.12,
+     36.0625
+    ],
+    [
+     -78.9737,
+     36.3883
+    ],
+    [
+     -79.8062,
+     35.7099
+    ],
+    [
+     -78.3713,
+     34.9893
+    ],
+    [
+     -78.4054,
+     36.3655
+    ],
+    [
+     -78.6506,
+     35.7898
+    ],
+    [
+     -78.0999,
+     36.3981
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -78.763,
+   "lat": 35.8,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KAKQ.FA.A.0007.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -2116,6 +2087,19 @@
    "certainty": "Possible",
    "sender": "NWS Wakefield VA",
    "areas": [
+    "Fluvanna",
+    "Prince Edward",
+    "Cumberland",
+    "Goochland",
+    "Caroline",
+    "Mecklenburg",
+    "Lunenburg",
+    "Nottoway",
+    "Amelia",
+    "Powhatan",
+    "Western Louisa",
+    "Eastern Louisa",
+    "Western Hanover",
     "Dorchester",
     "Wicomico",
     "Somerset",
@@ -2185,12 +2169,17 @@
     "37139",
     "37143",
     "51001",
+    "51007",
     "51025",
+    "51033",
     "51036",
     "51041",
+    "51049",
     "51053",
     "51057",
+    "51065",
     "51073",
+    "51075",
     "51081",
     "51085",
     "51087",
@@ -2199,11 +2188,17 @@
     "51097",
     "51101",
     "51103",
+    "51109",
+    "51111",
     "51115",
+    "51117",
     "51119",
     "51127",
     "51131",
     "51133",
+    "51135",
+    "51145",
+    "51147",
     "51149",
     "51159",
     "51175",
@@ -2227,10 +2222,10 @@
     "51810",
     "51830"
    ],
-   "sent": "2026-11-25T14:48:00Z",
-   "onset": "2026-11-26T03:00:00Z",
+   "sent": "2026-11-25T16:20:00Z",
+   "onset": "2026-11-26T00:00:00Z",
    "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.904243850e91c30cc0ee5731cf3f29c8a42c7120.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13b5db38e3e057a0549e02d0b8e05fc5699d4245.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2291,8 +2286,16 @@
      37.7659
     ],
     [
+     -77.9775,
+     37.3319
+    ],
+    [
      -77.8615,
      36.7642
+    ],
+    [
+     -77.3537,
+     38.028
     ],
     [
      -77.0542,
@@ -2303,6 +2306,10 @@
      37.3784
     ],
     [
+     -78.2528,
+     37.5202
+    ],
+    [
      -77.6355,
      37.0735
     ],
@@ -2311,8 +2318,16 @@
      37.9364
     ],
     [
+     -78.2835,
+     37.8306
+    ],
+    [
      -76.5235,
      37.4035
+    ],
+    [
+     -77.9176,
+     37.7188
     ],
     [
      -77.5603,
@@ -2347,8 +2362,20 @@
      37.7048
     ],
     [
+     -77.9598,
+     37.9727
+    ],
+    [
+     -78.2405,
+     36.9456
+    ],
+    [
      -76.2688,
      37.4253
+    ],
+    [
+     -78.369,
+     36.6873
     ],
     [
      -76.5281,
@@ -2365,6 +2392,18 @@
     [
      -76.3797,
      37.857
+    ],
+    [
+     -78.0539,
+     37.1412
+    ],
+    [
+     -77.9129,
+     37.5494
+    ],
+    [
+     -78.433,
+     37.2249
     ],
     [
      -77.221,
@@ -2455,112 +2494,284 @@
      37.2695
     ]
    ],
-   "lon": -76.723,
-   "lat": 37.175,
+   "lon": -76.948,
+   "lat": 37.221,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KFWD.FZ.W.0004.2026",
-   "event": "Freeze Warning",
+   "id": "KSEW.FA.A.0012.2026",
+   "event": "Flood Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fort Worth TX",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Seattle WA",
    "areas": [
-    "Freestone",
-    "Anderson",
-    "Bell",
-    "McLennan",
-    "Falls",
-    "Limestone",
-    "Leon",
-    "Milam",
-    "Robertson"
+    "Mason, WA"
    ],
    "counties": [
-    "48001",
-    "48027",
-    "48145",
-    "48161",
-    "48289",
-    "48293",
-    "48309",
-    "48331",
-    "48395"
+    "53045"
    ],
-   "sent": "2026-11-25T06:27:00Z",
-   "onset": "2026-11-26T05:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee2f6cd2a9e2fdecceea3058233c06dce6b51c99.001.2",
+   "sent": "2026-11-25T16:20:00Z",
+   "onset": "2026-11-25T18:00:00Z",
+   "ends": "2026-11-30T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41029ea35f8cd620d610d3a7016afd9f50175cfa.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -95.6617,
-     31.8413
-    ],
-    [
-     -97.4796,
-     31.037
-    ],
-    [
-     -96.9341,
-     31.2519
-    ],
-    [
-     -96.145,
-     31.7017
-    ],
-    [
-     -95.9956,
-     31.3005
-    ],
-    [
-     -96.5936,
-     31.5475
-    ],
-    [
-     -97.2015,
-     31.5496
-    ],
-    [
-     -96.9844,
-     30.7912
-    ],
-    [
-     -96.5149,
-     31.0255
+     -123.1731,
+     47.3508
     ]
    ],
-   "lon": -96.612,
-   "lat": 31.338,
+   "lon": -123.173,
+   "lat": 47.351,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KSHV.FZ.A.0001.2026",
-   "event": "Freeze Watch",
+   "id": "KRNK.FA.A.0010.2026",
+   "event": "Flood Watch",
    "severity": "Severe",
    "urgency": "Future",
    "certainty": "Possible",
+   "sender": "NWS Blacksburg VA",
+   "areas": [
+    "Ashe",
+    "Alleghany",
+    "Surry",
+    "Stokes",
+    "Rockingham",
+    "Caswell",
+    "Watauga",
+    "Wilkes",
+    "Yadkin",
+    "Grayson",
+    "Carroll",
+    "Floyd",
+    "Roanoke",
+    "Botetourt",
+    "Rockbridge",
+    "Patrick",
+    "Franklin",
+    "Bedford",
+    "Amherst",
+    "Henry",
+    "Pittsylvania",
+    "Campbell",
+    "Appomattox",
+    "Buckingham",
+    "Halifax",
+    "Charlotte"
+   ],
+   "counties": [
+    "37005",
+    "37009",
+    "37033",
+    "37157",
+    "37169",
+    "37171",
+    "37189",
+    "37193",
+    "37197",
+    "51009",
+    "51011",
+    "51019",
+    "51023",
+    "51029",
+    "51031",
+    "51035",
+    "51037",
+    "51063",
+    "51067",
+    "51077",
+    "51083",
+    "51089",
+    "51141",
+    "51143",
+    "51161",
+    "51163",
+    "51530",
+    "51590",
+    "51640",
+    "51678",
+    "51680",
+    "51690",
+    "51770",
+    "51775"
+   ],
+   "sent": "2026-11-25T16:28:00Z",
+   "onset": "2026-11-26T00:00:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3948e468c875b5df93e9acdd32b82b4e9f189b70.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.1323,
+     36.4894
+    ],
+    [
+     -81.4993,
+     36.4435
+    ],
+    [
+     -79.3396,
+     36.3943
+    ],
+    [
+     -79.7828,
+     36.3818
+    ],
+    [
+     -80.2699,
+     36.3938
+    ],
+    [
+     -80.6865,
+     36.4154
+    ],
+    [
+     -81.7099,
+     36.2354
+    ],
+    [
+     -81.1661,
+     36.2089
+    ],
+    [
+     -80.6652,
+     36.1588
+    ],
+    [
+     -79.1548,
+     37.6293
+    ],
+    [
+     -78.8109,
+     37.3707
+    ],
+    [
+     -79.5272,
+     37.3123
+    ],
+    [
+     -79.7975,
+     37.5655
+    ],
+    [
+     -78.5292,
+     37.5739
+    ],
+    [
+     -79.0954,
+     37.2102
+    ],
+    [
+     -80.7278,
+     36.732
+    ],
+    [
+     -78.6586,
+     37.009
+    ],
+    [
+     -80.3503,
+     36.9314
+    ],
+    [
+     -79.8827,
+     36.9912
+    ],
+    [
+     -81.2153,
+     36.6522
+    ],
+    [
+     -78.9396,
+     36.7665
+    ],
+    [
+     -79.9807,
+     36.6206
+    ],
+    [
+     -80.2864,
+     36.6671
+    ],
+    [
+     -79.3985,
+     36.8217
+    ],
+    [
+     -80.1912,
+     37.3308
+    ],
+    [
+     -79.4478,
+     37.8145
+    ],
+    [
+     -79.3581,
+     37.7293
+    ],
+    [
+     -79.4081,
+     36.5833
+    ],
+    [
+     -80.9143,
+     36.6656
+    ],
+    [
+     -79.4443,
+     37.7823
+    ],
+    [
+     -79.1955,
+     37.399
+    ],
+    [
+     -79.8636,
+     36.6835
+    ],
+    [
+     -79.9582,
+     37.2785
+    ],
+    [
+     -80.0552,
+     37.2853
+    ]
+   ],
+   "lon": -79.954,
+   "lat": 36.927,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSHV.FZ.W.0005.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Shreveport LA",
    "areas": [
+    "Sevier",
+    "Howard",
     "Little River",
     "Hempstead",
-    "Nevada",
     "Miller",
     "Lafayette",
     "Columbia",
-    "Union",
     "Caddo",
     "Bossier",
     "Webster",
     "Claiborne",
     "Lincoln",
-    "Union",
     "De Soto",
     "Red River",
     "Bienville",
@@ -2597,11 +2808,11 @@
    "counties": [
     "05027",
     "05057",
+    "05061",
     "05073",
     "05081",
     "05091",
-    "05099",
-    "05139",
+    "05133",
     "22013",
     "22015",
     "22017",
@@ -2616,7 +2827,6 @@
     "22073",
     "22081",
     "22085",
-    "22111",
     "22119",
     "22127",
     "48005",
@@ -2641,10 +2851,10 @@
     "48459",
     "48499"
    ],
-   "sent": "2026-11-24T17:53:00Z",
+   "sent": "2026-11-25T15:17:00Z",
    "onset": "2026-11-26T05:00:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.821abd35335bea710939fe5c1d328fb9060e762e.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab402002149f4260c48c6b25dc739b9037681ded.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2655,6 +2865,10 @@
     [
      -93.6644,
      33.736
+    ],
+    [
+     -93.9909,
+     34.0831
     ],
     [
      -93.6115,
@@ -2669,12 +2883,8 @@
      33.3055
     ],
     [
-     -93.3051,
-     33.6667
-    ],
-    [
-     -92.5981,
-     33.1682
+     -94.2433,
+     33.9949
     ],
     [
      -93.0412,
@@ -2731,10 +2941,6 @@
     [
      -93.5596,
      31.5604
-    ],
-    [
-     -92.3756,
-     32.8293
     ],
     [
      -93.3398,
@@ -2829,8 +3035,87 @@
      32.7836
     ]
    ],
-   "lon": -93.841,
-   "lat": 32.535,
+   "lon": -93.928,
+   "lat": 32.557,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFWD.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fort Worth TX",
+   "areas": [
+    "Freestone",
+    "Anderson",
+    "Bell",
+    "McLennan",
+    "Falls",
+    "Limestone",
+    "Leon",
+    "Milam",
+    "Robertson"
+   ],
+   "counties": [
+    "48001",
+    "48027",
+    "48145",
+    "48161",
+    "48289",
+    "48293",
+    "48309",
+    "48331",
+    "48395"
+   ],
+   "sent": "2026-11-25T15:28:00Z",
+   "onset": "2026-11-26T05:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89d1ce9cc172b8be182a45207162b0a88c096587.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -95.6617,
+     31.8413
+    ],
+    [
+     -97.4796,
+     31.037
+    ],
+    [
+     -96.9341,
+     31.2519
+    ],
+    [
+     -96.145,
+     31.7017
+    ],
+    [
+     -95.9956,
+     31.3005
+    ],
+    [
+     -96.5936,
+     31.5475
+    ],
+    [
+     -97.2015,
+     31.5496
+    ],
+    [
+     -96.9844,
+     30.7912
+    ],
+    [
+     -96.5149,
+     31.0255
+    ]
+   ],
+   "lon": -96.612,
+   "lat": 31.338,
    "countries": [
     "US"
    ]
@@ -2923,6 +3208,283 @@
    ],
    "lon": -92.26,
    "lat": 31.141,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSHV.FZ.A.0001.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Past",
+   "certainty": "Observed",
+   "sender": "NWS Shreveport LA",
+   "areas": [
+    "Little River",
+    "Hempstead",
+    "Miller",
+    "Lafayette",
+    "Columbia",
+    "Caddo",
+    "Bossier",
+    "Webster",
+    "Claiborne",
+    "Lincoln",
+    "De Soto",
+    "Red River",
+    "Bienville",
+    "Jackson",
+    "Ouachita",
+    "Sabine",
+    "Natchitoches",
+    "Winn",
+    "Grant",
+    "Caldwell",
+    "La Salle",
+    "Red River",
+    "Bowie",
+    "Franklin",
+    "Titus",
+    "Camp",
+    "Morris",
+    "Cass",
+    "Wood",
+    "Upshur",
+    "Marion",
+    "Smith",
+    "Gregg",
+    "Harrison",
+    "Cherokee",
+    "Rusk",
+    "Panola",
+    "Nacogdoches",
+    "Shelby",
+    "Angelina",
+    "San Augustine",
+    "Sabine"
+   ],
+   "counties": [
+    "05027",
+    "05057",
+    "05073",
+    "05081",
+    "05091",
+    "22013",
+    "22015",
+    "22017",
+    "22021",
+    "22027",
+    "22031",
+    "22043",
+    "22049",
+    "22059",
+    "22061",
+    "22069",
+    "22073",
+    "22081",
+    "22085",
+    "22119",
+    "22127",
+    "48005",
+    "48037",
+    "48063",
+    "48067",
+    "48073",
+    "48159",
+    "48183",
+    "48203",
+    "48315",
+    "48343",
+    "48347",
+    "48365",
+    "48387",
+    "48401",
+    "48403",
+    "48405",
+    "48419",
+    "48423",
+    "48449",
+    "48459",
+    "48499"
+   ],
+   "sent": "2026-11-25T15:17:00Z",
+   "onset": "2026-11-26T05:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab402002149f4260c48c6b25dc739b9037681ded.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -93.2328,
+     33.223
+    ],
+    [
+     -93.6644,
+     33.736
+    ],
+    [
+     -93.6115,
+     33.2406
+    ],
+    [
+     -94.2363,
+     33.7019
+    ],
+    [
+     -93.9015,
+     33.3055
+    ],
+    [
+     -93.0412,
+     32.341
+    ],
+    [
+     -93.6266,
+     32.6985
+    ],
+    [
+     -93.885,
+     32.5801
+    ],
+    [
+     -92.1142,
+     32.1012
+    ],
+    [
+     -92.9897,
+     32.8272
+    ],
+    [
+     -93.7408,
+     32.0592
+    ],
+    [
+     -92.5617,
+     31.5978
+    ],
+    [
+     -92.5617,
+     32.3043
+    ],
+    [
+     -92.1616,
+     31.6801
+    ],
+    [
+     -92.6623,
+     32.6018
+    ],
+    [
+     -93.0825,
+     31.7325
+    ],
+    [
+     -92.1516,
+     32.4809
+    ],
+    [
+     -93.3491,
+     32.1012
+    ],
+    [
+     -93.5596,
+     31.5604
+    ],
+    [
+     -93.3398,
+     32.7322
+    ],
+    [
+     -92.6413,
+     31.9412
+    ],
+    [
+     -94.6111,
+     31.2519
+    ],
+    [
+     -94.4224,
+     33.4461
+    ],
+    [
+     -94.9791,
+     32.9746
+    ],
+    [
+     -94.3576,
+     33.0837
+    ],
+    [
+     -95.1563,
+     31.8439
+    ],
+    [
+     -95.2191,
+     33.1758
+    ],
+    [
+     -94.8163,
+     32.4864
+    ],
+    [
+     -94.3744,
+     32.548
+    ],
+    [
+     -94.3569,
+     32.7982
+    ],
+    [
+     -94.7313,
+     33.1165
+    ],
+    [
+     -94.6202,
+     31.6206
+    ],
+    [
+     -94.3052,
+     32.164
+    ],
+    [
+     -95.0484,
+     33.6196
+    ],
+    [
+     -94.7564,
+     32.1094
+    ],
+    [
+     -93.8519,
+     31.3433
+    ],
+    [
+     -94.1632,
+     31.3824
+    ],
+    [
+     -94.1426,
+     31.7901
+    ],
+    [
+     -95.2689,
+     32.3751
+    ],
+    [
+     -94.9668,
+     33.2146
+    ],
+    [
+     -94.9412,
+     32.7353
+    ],
+    [
+     -95.3822,
+     32.7836
+    ]
+   ],
+   "lon": -93.919,
+   "lat": 32.486,
    "countries": [
     "US"
    ]
@@ -3630,106 +4192,6 @@
    ]
   },
   {
-   "id": "KLWX.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "St. Marys",
-    "Western Garrett",
-    "Western Grant",
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge"
-   ],
-   "counties": [
-    "24023",
-    "24037",
-    "51003",
-    "51009",
-    "51015",
-    "51079",
-    "51113",
-    "51125",
-    "51139",
-    "51157",
-    "51163",
-    "51165",
-    "51187",
-    "54023"
-   ],
-   "sent": "2026-11-25T06:48:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c642e01a9869bbfeee66c8d4100ffe657f08d5d.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.2746,
-     39.5473
-    ],
-    [
-     -76.5345,
-     38.2231
-    ],
-    [
-     -78.5535,
-     38.0242
-    ],
-    [
-     -79.1548,
-     37.6293
-    ],
-    [
-     -79.141,
-     38.1726
-    ],
-    [
-     -78.4702,
-     38.298
-    ],
-    [
-     -78.277,
-     38.4121
-    ],
-    [
-     -78.8834,
-     37.7891
-    ],
-    [
-     -78.4919,
-     38.6232
-    ],
-    [
-     -78.1688,
-     38.6845
-    ],
-    [
-     -79.4478,
-     37.8145
-    ],
-    [
-     -78.8853,
-     38.5076
-    ],
-    [
-     -78.2076,
-     38.9082
-    ],
-    [
-     -79.1951,
-     39.106
-    ]
-   ],
-   "lon": -78.62,
-   "lat": 38.41,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCTP.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4058,6 +4520,147 @@
    ]
   },
   {
+   "id": "KLWX.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
+    "St. Marys",
+    "Cecil",
+    "Southern Baltimore",
+    "Anne Arundel",
+    "Calvert",
+    "Southeast Harford",
+    "Western Garrett",
+    "Western Grant",
+    "Western Pendleton"
+   ],
+   "counties": [
+    "24003",
+    "24005",
+    "24009",
+    "24015",
+    "24023",
+    "24025",
+    "24037",
+    "24510",
+    "51003",
+    "51009",
+    "51015",
+    "51079",
+    "51113",
+    "51125",
+    "51139",
+    "51157",
+    "51163",
+    "51165",
+    "51187",
+    "54023",
+    "54071"
+   ],
+   "sent": "2026-11-25T15:28:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08642b9c93a8a194edb62fb0b57501e8363e2b82.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.6166,
+     39.4432
+    ],
+    [
+     -76.5298,
+     38.5227
+    ],
+    [
+     -75.9416,
+     39.5624
+    ],
+    [
+     -79.2746,
+     39.5473
+    ],
+    [
+     -76.2998,
+     39.5374
+    ],
+    [
+     -76.5345,
+     38.2231
+    ],
+    [
+     -76.6105,
+     39.3
+    ],
+    [
+     -78.5535,
+     38.0242
+    ],
+    [
+     -79.1548,
+     37.6293
+    ],
+    [
+     -79.141,
+     38.1726
+    ],
+    [
+     -78.4702,
+     38.298
+    ],
+    [
+     -78.277,
+     38.4121
+    ],
+    [
+     -78.8834,
+     37.7891
+    ],
+    [
+     -78.4919,
+     38.6232
+    ],
+    [
+     -78.1688,
+     38.6845
+    ],
+    [
+     -79.4478,
+     37.8145
+    ],
+    [
+     -78.8853,
+     38.5076
+    ],
+    [
+     -78.2076,
+     38.9082
+    ],
+    [
+     -79.1951,
+     39.106
+    ],
+    [
+     -79.3406,
+     38.6745
+    ]
+   ],
+   "lon": -78.028,
+   "lat": 38.656,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KTFX.HW.A.0034.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -4290,163 +4893,59 @@
    ]
   },
   {
-   "id": "KMOB.MA.W.0239.2026",
+   "id": "KMOB.MA.W.0243.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Mobile AL",
    "areas": [
-    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
+    "Coastal waters from Pensacola FL to Pascagoula MS out 20 NM"
    ],
    "counties": [
-    "77670"
+    "77650"
    ],
-   "sent": "2026-11-25T14:04:00Z",
-   "onset": "2026-11-25T14:04:00Z",
-   "ends": "2026-11-25T15:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.781de2c1e59f4f5e54aaa1ffc2fb0dda96c0070d.001.1",
+   "sent": "2026-11-25T16:12:00Z",
+   "onset": "2026-11-25T16:12:00Z",
+   "ends": "2026-11-25T17:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bcd9eed57506888798c162e872723e75221eeec.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -88.23,
-       29.72
+       -87.88,
+       29.92
       ],
       [
-       -87.71,
-       29.88
+       -87.91,
+       30.09
       ],
       [
        -87.54,
-       29.45
-      ],
-      [
-       -87.49,
-       29.28
-      ],
-      [
-       -87.68,
-       29.24
-      ],
-      [
-       -87.83,
-       29.23
-      ],
-      [
-       -87.97,
-       29.2
-      ],
-      [
-       -88.23,
-       29.72
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -87.835,
-   "lat": 29.465,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMOB.MA.W.0240.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mobile AL",
-   "areas": [
-    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
-   ],
-   "counties": [
-    "77670"
-   ],
-   "sent": "2026-11-25T14:07:00Z",
-   "onset": "2026-11-25T14:07:00Z",
-   "ends": "2026-11-25T15:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23a643456d2ef81a2dfccbb37fc23f4adee89d38.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -88.07,
-       29.4
-      ],
-      [
-       -88.2,
-       29.71
-      ],
-      [
-       -87.76,
-       29.9
-      ],
-      [
-       -87.73,
-       29.9
-      ],
-      [
-       -87.48,
-       29.28
+       30.19
       ],
       [
        -87.5,
-       29.27
+       29.94
       ],
       [
-       -87.55,
-       29.27
-      ],
-      [
-       -87.59,
-       29.25
-      ],
-      [
-       -87.64,
-       29.25
-      ],
-      [
-       -87.68,
-       29.24
-      ],
-      [
-       -87.72,
-       29.24
-      ],
-      [
-       -87.76,
-       29.23
-      ],
-      [
-       -87.83,
-       29.23
-      ],
-      [
-       -87.97,
-       29.2
-      ],
-      [
-       -88.07,
-       29.4
+       -87.88,
+       29.92
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -87.77,
-   "lat": 29.385,
+   "lon": -87.742,
+   "lat": 30.012,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KMOB.MA.W.0241.2026",
+   "id": "KMOB.MA.W.0242.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -4454,107 +4953,97 @@
    "sender": "NWS Mobile AL",
    "areas": [
     "Coastal waters from Pensacola FL to Pascagoula MS out 20 NM",
-    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
+    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM",
+    "Waters from Okaloosa-Walton County Line to Pensacola FL from 20 to 60 NM"
    ],
    "counties": [
     "77650",
-    "77670"
+    "77670",
+    "77675"
    ],
-   "sent": "2026-11-25T14:48:00Z",
-   "onset": "2026-11-25T14:48:00Z",
-   "ends": "2026-11-25T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f01a64fa59f4e1af92380335a35971a57cf1b755.001.1",
+   "sent": "2026-11-25T16:17:00Z",
+   "onset": "2026-11-25T16:17:00Z",
+   "ends": "2026-11-25T16:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77e4587530f797d89b9da6ef1e73a60206ff3139.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -88.05,
-       29.82
+       -87.2,
+       30.12
       ],
       [
-       -88.11,
-       30.03
+       -87.18,
+       29.99
       ],
       [
-       -87.67,
-       30.15
+       -87,
+       29.33
       ],
       [
-       -87.56,
-       29.85
+       -87.11,
+       29.32
       ],
       [
-       -88.05,
-       29.82
+       -87.25,
+       29.32
+      ],
+      [
+       -87.36,
+       29.3
+      ],
+      [
+       -87.66,
+       29.93
+      ],
+      [
+       -87.2,
+       30.12
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -87.888,
-   "lat": 29.934,
+   "lon": -87.245,
+   "lat": 29.679,
    "countries": [
     "US"
    ]
   },
   {
-   "id": "KMFL.MA.W.0414.2026",
+   "id": "KMFL.MA.W.0415.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
    "certainty": "Likely",
    "sender": "NWS Miami FL",
    "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
     "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
    ],
    "counties": [
-    "75630",
-    "75651",
     "75671"
    ],
-   "sent": "2026-11-25T14:52:00Z",
-   "onset": "2026-11-25T14:52:00Z",
-   "ends": "2026-11-25T16:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c635c6b5dd939caa7c9c83053853f4f05f1a8b48.001.1",
+   "sent": "2026-11-25T16:34:00Z",
+   "onset": "2026-11-25T16:34:00Z",
+   "ends": "2026-11-25T17:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.085097982e04384c45d211d7fcdaf4413b328e4b.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -79.94,
-       25.11
-      ],
-      [
-       -80.26,
-       25.33
-      ],
-      [
-       -80.06,
-       25.8
-      ],
-      [
-       -80.05,
-       26.03
+       -79.91,
+       25.07
       ],
       [
        -79.09,
-       25.89
+       26.13
       ],
       [
        -79.1,
        25.77
-      ],
-      [
-       -79.18,
-       25.46
-      ],
-      [
-       -79.19,
-       25.35
       ],
       [
        -79.23,
@@ -4569,16 +5058,16 @@
        24.6
       ],
       [
-       -79.94,
-       25.11
+       -79.91,
+       25.07
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -79.578,
-   "lat": 25.376,
+   "lon": -79.447,
+   "lat": 25.243,
    "countries": [
     "US"
    ]
@@ -5076,34 +5565,6 @@
    ]
   },
   {
-   "id": "KLWX.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Chesapeake Bay from Drum Point MD to Smith Point VA",
-    "Tangier Sound and the inland waters surrounding Bloodsworth Island"
-   ],
-   "counties": [
-    "73534",
-    "73543"
-   ],
-   "sent": "2026-11-25T10:54:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.573a2cfcb01bdd59aa5d5b79ce2d569bca561c0b.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5318,6 +5779,54 @@
    ]
   },
   {
+   "id": "KLWX.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Chesapeake Bay north of Pooles Island MD",
+    "Chesapeake Bay from Pooles Island to Sandy Point MD",
+    "Chesapeake Bay from Sandy Point to North Beach MD",
+    "Patapsco River including Baltimore Harbor",
+    "Chester River to Queenstown MD",
+    "Eastern Bay",
+    "Patuxent River to Broomes Island MD",
+    "Chesapeake Bay from North Beach to Drum Point MD",
+    "Tidal Potomac from Cobb Island MD to Smith Point VA",
+    "Choptank River to Cambridge MD and the Little Choptank River",
+    "Chesapeake Bay from Drum Point MD to Smith Point VA",
+    "Tangier Sound and the inland waters surrounding Bloodsworth Island"
+   ],
+   "counties": [
+    "73530",
+    "73531",
+    "73532",
+    "73533",
+    "73534",
+    "73537",
+    "73538",
+    "73539",
+    "73540",
+    "73541",
+    "73542",
+    "73543"
+   ],
+   "sent": "2026-11-25T15:17:00Z",
+   "onset": "2026-11-25T23:00:00Z",
+   "ends": "2026-11-26T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ddfcaabaddc66dc445aabe1f9baf88c4f801558.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KOTX.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -5344,55 +5853,6 @@
    ],
    "lon": -119.742,
    "lat": 48.548,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPAH.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Paducah KY",
-   "areas": [
-    "Perry",
-    "Bollinger",
-    "Cape Girardeau",
-    "Wayne"
-   ],
-   "counties": [
-    "29017",
-    "29031",
-    "29157",
-    "29223"
-   ],
-   "sent": "2026-11-25T06:51:00Z",
-   "onset": "2026-11-25T21:00:00Z",
-   "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c5a361d611f5e16df0ce51a0ef2cb45bff7f5a3.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -90.0246,
-     37.3184
-    ],
-    [
-     -89.6857,
-     37.3841
-    ],
-    [
-     -89.8021,
-     37.7111
-    ],
-    [
-     -90.4539,
-     37.1111
-    ]
-   ],
-   "lon": -89.992,
-   "lat": 37.381,
    "countries": [
     "US"
    ]
@@ -5648,6 +6108,73 @@
    ],
    "lon": -121.826,
    "lat": 48.668,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPAH.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Paducah KY",
+   "areas": [
+    "Perry",
+    "Bollinger",
+    "Cape Girardeau",
+    "Wayne",
+    "Carter",
+    "Butler",
+    "Stoddard"
+   ],
+   "counties": [
+    "29017",
+    "29023",
+    "29031",
+    "29035",
+    "29157",
+    "29207",
+    "29223"
+   ],
+   "sent": "2026-11-25T16:28:00Z",
+   "onset": "2026-11-25T21:00:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ad27c36276ec7bedc5e9cccf6392c6af662ccef.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.0246,
+     37.3184
+    ],
+    [
+     -90.4031,
+     36.7152
+    ],
+    [
+     -89.6857,
+     37.3841
+    ],
+    [
+     -90.9457,
+     36.9449
+    ],
+    [
+     -89.8021,
+     37.7111
+    ],
+    [
+     -89.9475,
+     36.8516
+    ],
+    [
+     -90.4539,
+     37.1111
+    ]
+   ],
+   "lon": -90.18,
+   "lat": 37.148,
    "countries": [
     "US"
    ]
