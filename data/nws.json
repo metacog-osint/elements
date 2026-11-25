@@ -575,11 +575,11 @@
     "Southeastern Burlington",
     "Ocean",
     "Coastal Ocean",
-    "Kent",
-    "Cumberland",
     "Middlesex",
     "Western Monmouth",
-    "Eastern Monmouth"
+    "Eastern Monmouth",
+    "Kent",
+    "Cumberland"
    ],
    "counties": [
     "10001",
@@ -943,6 +943,83 @@
    ],
    "lon": -76.491,
    "lat": 37.415,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Anne Arundel",
+    "District of Columbia",
+    "Arlington/Falls Church/Alexandria",
+    "St. Marys",
+    "Calvert",
+    "Charles",
+    "King George"
+   ],
+   "counties": [
+    "11001",
+    "24003",
+    "24009",
+    "24017",
+    "24037",
+    "51013",
+    "51099",
+    "51510",
+    "51610"
+   ],
+   "sent": "2026-11-25T19:38:00Z",
+   "onset": "2026-11-26T18:00:00Z",
+   "ends": "2026-11-27T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.960b855f6c9be5c661263eb55897713d2369e29b.003.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -77.0165,
+     38.9042
+    ],
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.5298,
+     38.5227
+    ],
+    [
+     -77.0154,
+     38.4729
+    ],
+    [
+     -76.5345,
+     38.2231
+    ],
+    [
+     -77.1007,
+     38.8783
+    ],
+    [
+     -77.1626,
+     38.2772
+    ],
+    [
+     -77.0837,
+     38.8193
+    ],
+    [
+     -77.1756,
+     38.8847
+    ]
+   ],
+   "lon": -76.909,
+   "lat": 38.664,
    "countries": [
     "US"
    ]
@@ -1872,52 +1949,6 @@
    ],
    "lon": -80.601,
    "lat": 27.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.FA.A.0004.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Metro Palm Beach County",
-    "Metro Broward County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County"
-   ],
-   "counties": [
-    "12011",
-    "12086",
-    "12099"
-   ],
-   "sent": "2026-11-25T09:58:00Z",
-   "onset": "2026-11-25T09:58:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bf2130aa2b19e1cf85b4cde4bd3aad20e2add6b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -80.4484,
-     26.6491
-    ]
-   ],
-   "lon": -80.476,
-   "lat": 26.153,
    "countries": [
     "US"
    ]
@@ -2856,6 +2887,52 @@
    ],
    "lon": -76.959,
    "lat": 35.348,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.FA.A.0004.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Metro Palm Beach County",
+    "Metro Broward County",
+    "Metropolitan Miami Dade",
+    "Coastal Palm Beach County",
+    "Coastal Broward County",
+    "Coastal Miami Dade County"
+   ],
+   "counties": [
+    "12011",
+    "12086",
+    "12099"
+   ],
+   "sent": "2026-11-25T19:49:00Z",
+   "onset": "2026-11-25T19:49:00Z",
+   "ends": "2026-11-26T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c673a9907be498dacf95faec2d917a8c2fc1beb4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.4767,
+     26.1935
+    ],
+    [
+     -80.5037,
+     25.616
+    ],
+    [
+     -80.4484,
+     26.6491
+    ]
+   ],
+   "lon": -80.476,
+   "lat": 26.153,
    "countries": [
     "US"
    ]
@@ -4203,16 +4280,16 @@
     "Chesapeake",
     "Isle of Wight",
     "Suffolk",
-    "Westmoreland",
-    "Richmond",
-    "James City",
-    "Eastern King and Queen",
-    "Eastern Essex",
     "Western Currituck",
     "Eastern Currituck",
     "Virginia Beach",
     "Norfolk",
-    "Portsmouth"
+    "Portsmouth",
+    "Westmoreland",
+    "Richmond",
+    "James City",
+    "Eastern King and Queen",
+    "Eastern Essex"
    ],
    "counties": [
     "24019",
@@ -5165,234 +5242,6 @@
    ]
   },
   {
-   "id": "KMFL.MA.W.0418.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75671"
-   ],
-   "sent": "2026-11-25T18:43:00Z",
-   "onset": "2026-11-25T18:43:00Z",
-   "ends": "2026-11-25T19:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05969cc3db811ab908a6f2796800f702658ce2ee.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.18,
-       25.46
-      ],
-      [
-       -79.21,
-       25.25
-      ],
-      [
-       -79.29,
-       25.02
-      ],
-      [
-       -79.45,
-       24.74
-      ],
-      [
-       -79.62,
-       24.7
-      ],
-      [
-       -79.73,
-       24.84
-      ],
-      [
-       -79.25,
-       25.79
-      ],
-      [
-       -79.1,
-       25.8
-      ],
-      [
-       -79.18,
-       25.46
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -79.334,
-   "lat": 25.229,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFL.MA.W.0419.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Miami FL",
-   "areas": [
-    "Biscayne Bay",
-    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
-    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
-   ],
-   "counties": [
-    "75630",
-    "75651",
-    "75671"
-   ],
-   "sent": "2026-11-25T19:00:00Z",
-   "onset": "2026-11-25T19:00:00Z",
-   "ends": "2026-11-25T19:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd9ca6a495b8617b782b056f753637cb28da5465.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -79.96,
-       25.13
-      ],
-      [
-       -80.25,
-       25.32
-      ],
-      [
-       -80.25,
-       25.34
-      ],
-      [
-       -80.27,
-       25.35
-      ],
-      [
-       -80.27,
-       25.33
-      ],
-      [
-       -80.29,
-       25.33
-      ],
-      [
-       -80.33,
-       25.29
-      ],
-      [
-       -80.34,
-       25.29
-      ],
-      [
-       -80.36,
-       25.28
-      ],
-      [
-       -80.39,
-       25.3
-      ],
-      [
-       -80.4,
-       25.29
-      ],
-      [
-       -80.41,
-       25.32
-      ],
-      [
-       -80.35,
-       25.38
-      ],
-      [
-       -80.36,
-       25.46
-      ],
-      [
-       -80.13,
-       25.84
-      ],
-      [
-       -79.58,
-       25.71
-      ],
-      [
-       -79.91,
-       25.07
-      ],
-      [
-       -79.96,
-       25.13
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.212,
-   "lat": 25.342,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMOB.MA.W.0246.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Mobile AL",
-   "areas": [
-    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
-   ],
-   "counties": [
-    "77670"
-   ],
-   "sent": "2026-11-25T19:18:00Z",
-   "onset": "2026-11-25T19:18:00Z",
-   "ends": "2026-11-25T20:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8522de1c168be59551817c416cd76078c8ca8fc0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -87.52,
-       29.66
-      ],
-      [
-       -87.16,
-       29.79
-      ],
-      [
-       -87.14,
-       29.53
-      ],
-      [
-       -87.46,
-       29.48
-      ],
-      [
-       -87.52,
-       29.66
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -87.36,
-   "lat": 29.624,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMHX.MA.W.0411.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -5451,82 +5300,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0423.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
-    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
-    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
-    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
-    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
-   ],
-   "counties": [
-    "77032",
-    "77033",
-    "77035",
-    "77044",
-    "77054"
-   ],
-   "sent": "2026-11-25T19:27:00Z",
-   "onset": "2026-11-25T19:27:00Z",
-   "ends": "2026-11-25T20:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.394bfec9df5933c4d8b6630ec8c323dcbe51db4a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -82.1,
-       24.23
-      ],
-      [
-       -81.84,
-       24.7
-      ],
-      [
-       -81.07,
-       24.88
-      ],
-      [
-       -81.25,
-       24.67
-      ],
-      [
-       -81.27,
-       24.67
-      ],
-      [
-       -81.27,
-       24.66
-      ],
-      [
-       -81.25,
-       24.66
-      ],
-      [
-       -81.48,
-       24.39
-      ],
-      [
-       -82.1,
-       24.23
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -81.514,
-   "lat": 24.566,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMHX.MA.W.0412.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
@@ -5580,6 +5353,196 @@
    "points": [],
    "lon": -76.378,
    "lat": 33.855,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFL.MA.W.0420.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Miami FL",
+   "areas": [
+    "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+    "Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas"
+   ],
+   "counties": [
+    "75651",
+    "75671"
+   ],
+   "sent": "2026-11-25T19:44:00Z",
+   "onset": "2026-11-25T19:44:00Z",
+   "ends": "2026-11-25T20:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.364b855d73259222123004c911a48f5b505c9afc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.7,
+       24.81
+      ],
+      [
+       -79.94,
+       25.11
+      ],
+      [
+       -80.13,
+       25.24
+      ],
+      [
+       -80.07,
+       25.77
+      ],
+      [
+       -79.46,
+       25.76
+      ],
+      [
+       -79.27,
+       25.58
+      ],
+      [
+       -79.7,
+       24.81
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -79.753,
+   "lat": 25.297,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMOB.MA.W.0246.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM"
+   ],
+   "counties": [
+    "77670"
+   ],
+   "sent": "2026-11-25T19:53:00Z",
+   "onset": "2026-11-25T19:53:00Z",
+   "ends": "2026-11-25T20:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.373588a8c7ffb21743438e0a5b4049724dcad3c4.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -87.4,
+       29.64
+      ],
+      [
+       -87.15,
+       29.72
+      ],
+      [
+       -87.14,
+       29.53
+      ],
+      [
+       -87.43,
+       29.48
+      ],
+      [
+       -87.4,
+       29.64
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -87.304,
+   "lat": 29.602,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0423.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge",
+    "Gulf of America from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+    "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+    "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+    "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM"
+   ],
+   "counties": [
+    "77032",
+    "77033",
+    "77035",
+    "77044",
+    "77054"
+   ],
+   "sent": "2026-11-25T19:58:00Z",
+   "onset": "2026-11-25T19:58:00Z",
+   "ends": "2026-11-25T20:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48991259b7d59ba68a80a84b92601cb14151d6b6.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -82.1,
+       24.23
+      ],
+      [
+       -81.84,
+       24.7
+      ],
+      [
+       -81.07,
+       24.88
+      ],
+      [
+       -81.25,
+       24.67
+      ],
+      [
+       -81.27,
+       24.67
+      ],
+      [
+       -81.27,
+       24.66
+      ],
+      [
+       -81.25,
+       24.66
+      ],
+      [
+       -81.48,
+       24.39
+      ],
+      [
+       -82.1,
+       24.23
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -81.514,
+   "lat": 24.566,
    "countries": [
     "US"
    ]
@@ -5925,42 +5888,6 @@
    "onset": "2026-11-25T21:00:00Z",
    "ends": "2026-11-26T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c46ab36f9bb15c6eefaf84ef6856b9247a3c0bdc.004.4",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
-    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
-    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
-    "Waters From James Island To Point Grenville 10 To 60 Nm",
-    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
-   ],
-   "counties": [
-    "57150",
-    "57153",
-    "57156",
-    "57170",
-    "57173",
-    "57176"
-   ],
-   "sent": "2026-11-25T11:02:00Z",
-   "onset": "2026-11-25T11:02:00Z",
-   "ends": "2026-11-26T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58c6ed046e8044c50ca180280f595fe082870c22.005.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6355,6 +6282,42 @@
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b42bb093b8cf9916f7d1a0cb802abf87bedb529d.002.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Coastal Waters From Cape Flattery To James Island Out 10 Nm",
+    "Coastal Waters From James Island To Point Grenville Out 10 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm",
+    "Coastal Waters From Cape Flattery To James Island 10 To 60 Nm",
+    "Waters From James Island To Point Grenville 10 To 60 Nm",
+    "Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm"
+   ],
+   "counties": [
+    "57150",
+    "57153",
+    "57156",
+    "57170",
+    "57173",
+    "57176"
+   ],
+   "sent": "2026-11-25T19:42:00Z",
+   "onset": "2026-11-25T19:42:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48730e6f2288828bc96751cc63af46a5d9753ed6.006.1",
    "geometry": null,
    "vtec": true,
    "points": [],

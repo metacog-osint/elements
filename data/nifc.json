@@ -115,10 +115,10 @@
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
-   "acres": 2237.0,
+   "acres": 2244.0,
    "contained": 68,
    "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-25T01:02:31Z",
+   "updated": "2026-11-25T19:52:18Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -195,6 +195,20 @@
    "complexity": "Type 4 Incident",
    "lon": -89.0639,
    "lat": 31.1301
+  },
+  {
+   "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
+   "name": "Dugger",
+   "acres": 400.0,
+   "contained": null,
+   "discovered": "2026-11-24T22:45:23Z",
+   "updated": "2026-11-25T19:36:35Z",
+   "state": "AL",
+   "county": "Cleburne",
+   "cause": "Undetermined",
+   "complexity": "Type 4 Incident",
+   "lon": -85.5639,
+   "lat": 33.8738
   },
   {
    "id": "{E454CC69-75B7-4C9E-90E3-9CDB62CACE19}",
@@ -547,6 +561,20 @@
    "lat": 38.092
   },
   {
+   "id": "{226BB9B7-E2F9-44F5-9FB8-238B028AA273}",
+   "name": "Trace Branch",
+   "acres": 7.0,
+   "contained": 0,
+   "discovered": "2026-11-25T18:52:00Z",
+   "updated": "2026-11-25T19:40:00Z",
+   "state": "KY",
+   "county": "Martin",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -82.6323,
+   "lat": 37.8275
+  },
+  {
    "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
    "name": "North Pond Fire",
    "acres": 6.0,
@@ -769,6 +797,20 @@
    "complexity": null,
    "lon": -93.0628,
    "lat": 33.8745
+  },
+  {
+   "id": "{48B5AADB-4EA0-4CAC-BD87-C377C24B005E}",
+   "name": "Bowie 0126",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-25T18:32:00Z",
+   "updated": "2026-11-25T19:47:00Z",
+   "state": "TX",
+   "county": "Bowie",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.0694,
+   "lat": 33.3432
   },
   {
    "id": "{54B9ED17-4004-4CE0-9E43-45FEA57533BA}",
@@ -1303,20 +1345,6 @@
    "lat": 46.0908
   },
   {
-   "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
-   "name": "Dugger",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-24T22:45:23Z",
-   "updated": "2026-11-25T16:02:13Z",
-   "state": "AL",
-   "county": "Cleburne",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -85.5639,
-   "lat": 33.8738
-  },
-  {
    "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
    "name": "Ranch",
    "acres": 0.0,
@@ -1805,6 +1833,20 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.695
+  },
+  {
+   "id": "{7D55C239-100F-4CF0-8034-D2EFC128E7E6}",
+   "name": "Sugar",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T19:55:12Z",
+   "updated": "2026-11-25T19:56:09Z",
+   "state": "CA",
+   "county": "Amador",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.539,
+   "lat": 38.4713
   }
  ]
 }
