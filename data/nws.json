@@ -360,239 +360,6 @@
    ]
   },
   {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Westmoreland",
-    "Northumberland",
-    "Chesapeake",
-    "Hampton/Poquoson",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
-    "Inland Worcester",
-    "Virginia Beach",
-    "Maryland Beaches",
-    "Accomack",
-    "Eastern Currituck",
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Prince George",
-    "Charles City",
-    "Surry",
-    "James City",
-    "Newport News",
-    "Isle of Wight",
-    "Richmond",
-    "Lancaster",
-    "New Kent",
-    "Gloucester",
-    "Middlesex",
-    "Mathews",
-    "Eastern King William",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex",
-    "York",
-    "Northampton"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "37053",
-    "51001",
-    "51036",
-    "51057",
-    "51073",
-    "51093",
-    "51095",
-    "51097",
-    "51101",
-    "51103",
-    "51115",
-    "51119",
-    "51127",
-    "51131",
-    "51133",
-    "51149",
-    "51159",
-    "51181",
-    "51193",
-    "51199",
-    "51550",
-    "51650",
-    "51670",
-    "51700",
-    "51710",
-    "51730",
-    "51735",
-    "51740",
-    "51800",
-    "51810",
-    "51830"
-   ],
-   "sent": "2026-11-26T01:46:00Z",
-   "onset": "2026-11-26T01:46:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f630251a526c75f5034ca5dd90fce05e2b8b43b.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.9412,
-     36.3722
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -76.5235,
-     37.4035
-    ],
-    [
-     -76.7076,
-     36.9014
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.4127,
-     37.7048
-    ],
-    [
-     -76.2688,
-     37.4253
-    ],
-    [
-     -76.5281,
-     37.607
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -75.924,
-     37.3028
-    ],
-    [
-     -76.3797,
-     37.857
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -76.8039,
-     38.1093
-    ],
-    [
-     -76.3955,
-     37.2209
-    ],
-    [
-     -76.3018,
-     36.6794
-    ],
-    [
-     -76.2973,
-     37.048
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -76.522,
-     37.0761
-    ],
-    [
-     -76.2446,
-     36.923
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -76.3035,
-     37.1284
-    ],
-    [
-     -76.357,
-     36.8593
-    ],
-    [
-     -76.6348,
-     36.6972
-    ],
-    [
-     -76.0291,
-     36.7795
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -76.491,
-   "lat": 37.415,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -928,128 +695,234 @@
    ]
   },
   {
-   "id": "KMHX.FF.W.0008.2026",
-   "event": "Flash Flood Warning",
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
    "severity": "Severe",
-   "urgency": "Immediate",
+   "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
+   "sender": "NWS Wakefield VA",
    "areas": [
-    "Carteret, NC",
-    "Craven, NC",
-    "Jones, NC",
-    "Onslow, NC"
+    "Northampton",
+    "Westmoreland",
+    "Northumberland",
+    "Prince George",
+    "Charles City",
+    "Surry",
+    "James City",
+    "Newport News",
+    "Isle of Wight",
+    "Richmond",
+    "Lancaster",
+    "New Kent",
+    "Gloucester",
+    "Middlesex",
+    "Mathews",
+    "Eastern King William",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex",
+    "York",
+    "Chesapeake",
+    "Hampton/Poquoson",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
+    "Inland Worcester",
+    "Maryland Beaches",
+    "Virginia Beach",
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Accomack",
+    "Eastern Currituck"
    ],
    "counties": [
-    "37031",
-    "37049",
-    "37103",
-    "37133"
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "37053",
+    "51001",
+    "51036",
+    "51057",
+    "51073",
+    "51093",
+    "51095",
+    "51097",
+    "51101",
+    "51103",
+    "51115",
+    "51119",
+    "51127",
+    "51131",
+    "51133",
+    "51149",
+    "51159",
+    "51181",
+    "51193",
+    "51199",
+    "51550",
+    "51650",
+    "51670",
+    "51700",
+    "51710",
+    "51730",
+    "51735",
+    "51740",
+    "51800",
+    "51810",
+    "51830"
    ],
-   "sent": "2026-11-26T05:27:00Z",
-   "onset": "2026-11-26T05:27:00Z",
-   "ends": "2026-11-26T08:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcac1ff432428fcf3d77414d478ee511e29018a8.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.57,
-       34.74
-      ],
-      [
-       -77.48,
-       34.8
-      ],
-      [
-       -76.83,
-       34.93
-      ],
-      [
-       -76.6,
-       34.84
-      ],
-      [
-       -76.47,
-       34.73
-      ],
-      [
-       -76.46,
-       34.69
-      ],
-      [
-       -76.54,
-       34.59
-      ],
-      [
-       -76.56,
-       34.59
-      ],
-      [
-       -76.56,
-       34.64
-      ],
-      [
-       -76.68,
-       34.69
-      ],
-      [
-       -76.76,
-       34.7
-      ],
-      [
-       -77.01,
-       34.67
-      ],
-      [
-       -77.22,
-       34.61
-      ],
-      [
-       -77.35,
-       34.52
-      ],
-      [
-       -77.53,
-       34.45
-      ],
-      [
-       -77.58,
-       34.48
-      ],
-      [
-       -77.68,
-       34.72
-      ],
-      [
-       -77.57,
-       34.74
-      ]
-     ]
-    ]
-   },
+   "sent": "2026-11-26T08:05:00Z",
+   "onset": "2026-11-26T08:05:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aae69de910963d115525583341a616da99ad81ab.003.1",
+   "geometry": null,
    "vtec": true,
    "points": [
     [
-     -76.5359,
-     34.8583
+     -76.0474,
+     38.4292
     ],
     [
-     -77.0813,
-     35.1168
+     -75.8533,
+     38.0744
     ],
     [
-     -77.3562,
-     35.0323
+     -75.6321,
+     38.3674
     ],
     [
-     -77.4995,
-     34.7631
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -76.5235,
+     37.4035
+    ],
+    [
+     -76.7076,
+     36.9014
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.4127,
+     37.7048
+    ],
+    [
+     -76.2688,
+     37.4253
+    ],
+    [
+     -76.5281,
+     37.607
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -76.3797,
+     37.857
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -76.8039,
+     38.1093
+    ],
+    [
+     -76.3955,
+     37.2209
+    ],
+    [
+     -76.3018,
+     36.6794
+    ],
+    [
+     -76.2973,
+     37.048
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -76.522,
+     37.0761
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -76.3035,
+     37.1284
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -76.6348,
+     36.6972
+    ],
+    [
+     -76.0291,
+     36.7795
+    ],
+    [
+     -76.7082,
+     37.2695
     ]
    ],
-   "lon": -77.025,
-   "lat": 34.674,
+   "lon": -76.491,
+   "lat": 37.415,
    "countries": [
     "US"
    ]
@@ -4469,96 +4342,6 @@
    ]
   },
   {
-   "id": "KOKX.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Upton NY",
-   "areas": [
-    "Hudson",
-    "Eastern Essex",
-    "Eastern Union",
-    "New York (Manhattan)",
-    "Bronx",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
-    "Northwest Suffolk",
-    "Northeast Suffolk",
-    "Southwest Suffolk",
-    "Southeast Suffolk",
-    "Northern Queens",
-    "Northern Nassau",
-    "Southern Queens",
-    "Southern Nassau"
-   ],
-   "counties": [
-    "34013",
-    "34017",
-    "34039",
-    "36005",
-    "36047",
-    "36059",
-    "36061",
-    "36081",
-    "36085",
-    "36103"
-   ],
-   "sent": "2026-11-26T00:46:00Z",
-   "onset": "2026-11-26T15:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79e96ae6df2289a3359ceba6b09546c1dab07f8a.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -74.2463,
-     40.7874
-    ],
-    [
-     -74.0786,
-     40.7314
-    ],
-    [
-     -74.3087,
-     40.6599
-    ],
-    [
-     -73.8529,
-     40.8487
-    ],
-    [
-     -73.9506,
-     40.635
-    ],
-    [
-     -73.5894,
-     40.7296
-    ],
-    [
-     -73.9702,
-     40.7766
-    ],
-    [
-     -73.8412,
-     40.6547
-    ],
-    [
-     -74.1399,
-     40.5613
-    ],
-    [
-     -72.6922,
-     40.9436
-    ]
-   ],
-   "lon": -73.867,
-   "lat": 40.733,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -5662,6 +5445,96 @@
    ]
   },
   {
+   "id": "KOKX.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Upton NY",
+   "areas": [
+    "Hudson",
+    "Eastern Essex",
+    "Eastern Union",
+    "New York (Manhattan)",
+    "Bronx",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
+    "Northwest Suffolk",
+    "Northeast Suffolk",
+    "Southwest Suffolk",
+    "Southeast Suffolk",
+    "Northern Queens",
+    "Northern Nassau",
+    "Southern Queens",
+    "Southern Nassau"
+   ],
+   "counties": [
+    "34013",
+    "34017",
+    "34039",
+    "36005",
+    "36047",
+    "36059",
+    "36061",
+    "36081",
+    "36085",
+    "36103"
+   ],
+   "sent": "2026-11-26T08:32:00Z",
+   "onset": "2026-11-26T15:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f75ee67500475be6b6afa2cdd01a1605f4716733.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -74.2463,
+     40.7874
+    ],
+    [
+     -74.0786,
+     40.7314
+    ],
+    [
+     -74.3087,
+     40.6599
+    ],
+    [
+     -73.8529,
+     40.8487
+    ],
+    [
+     -73.9506,
+     40.635
+    ],
+    [
+     -73.5894,
+     40.7296
+    ],
+    [
+     -73.9702,
+     40.7766
+    ],
+    [
+     -73.8412,
+     40.6547
+    ],
+    [
+     -74.1399,
+     40.5613
+    ],
+    [
+     -72.6922,
+     40.9436
+    ]
+   ],
+   "lon": -73.867,
+   "lat": 40.733,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCLE.LS.W.0001.2026",
    "event": "Lakeshore Flood Warning",
    "severity": "Severe",
@@ -5680,10 +5553,10 @@
     "39123",
     "39143"
    ],
-   "sent": "2026-11-26T05:03:00Z",
+   "sent": "2026-11-26T08:14:00Z",
    "onset": "2026-11-26T15:00:00Z",
    "ends": "2026-11-27T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9f57d4616196bc66f9730c8ace4237784d67e03.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7baf322aa79d386d69f4d53f18e442d73eab751d.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5706,34 +5579,6 @@
    ],
    "lon": -83.053,
    "lat": 41.494,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPQR.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Portland OR",
-   "areas": [
-    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
-    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm"
-   ],
-   "counties": [
-    "57251",
-    "57252"
-   ],
-   "sent": "2026-11-25T21:15:00Z",
-   "onset": "2026-11-25T21:15:00Z",
-   "ends": "2026-11-26T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e84432fceba16c53e3bb8559b5c5edf967a5cfe6.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
    "countries": [
     "US"
    ]
@@ -6055,6 +5900,34 @@
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca8c1b0325aef956858d1f98759721a618b323f7.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPQR.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Portland OR",
+   "areas": [
+    "Coastal waters from Cape Shoalwater WA to Cape Falcon OR out 10 nm",
+    "Coastal waters from Cape Falcon to Cape Foulweather OR out 10 nm"
+   ],
+   "counties": [
+    "57251",
+    "57252"
+   ],
+   "sent": "2026-11-26T08:25:00Z",
+   "onset": "2026-11-26T08:25:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9dd9bd64427d566777e9f06ef1db616b5f7940a.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
