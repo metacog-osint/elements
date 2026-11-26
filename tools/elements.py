@@ -121,8 +121,8 @@ def log_history(now: datetime | None = None) -> list:
     now = now or datetime.now(timezone.utc)
     d = data()
     gone = []
-    fc = feed.build(d, now, ended=gone)
     state = history.load_state(HIST)
+    fc = feed.build(d, now, ended=gone, open_ids=set(state.get("open") or {}))
     keep_ended_version(state, gone)
     state, lines = history.update(state, fc, d["health"], now, caught_items(d, now))
     history.append_log(HIST, lines)

@@ -63,6 +63,8 @@ SRC["nifc"] = {"id": "nifc-wfigs", "publisher": "National Interagency Fire Cente
 NEIC = "NEIC"        # USGS's National Earthquake Information Center: an EMSC event carrying its solution is not independent
 FIRE_ACRES_MIN = 100  # a wildfire needs this size to get a feed item (the map shows every one)
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
+FIRE_KEEP = 5  # a country item already open in the history state stays while it has this many, so it does not
+               # end and reopen each time its count crosses FIRE_MIN
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
                  "advisory": "advisory", "warning": "warning"}
 MONTHS3 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -425,11 +427,12 @@ def _pt(lon, lat):
 
 
 def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None,
-          ended: list | None = None) -> dict:
+          ended: list | None = None, open_ids: set | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
     state after this run's history step and the log's first run, to fill last_change (contract revision 2.1).
     ended: a list to receive the GDACS events that have ended (gdacs_ended), built like feed items; they are not in
-    the feed, and the history step keeps them as the last version of the items they end."""
+    the feed, and the history step keeps them as the last version of the items they end.
+    open_ids: the item keys open in the history state (default: state's), for the FIRMS floor's hysteresis."""
     now = now or datetime.now(timezone.utc)
     feats = []
     from .emsc import match
@@ -561,8 +564,10 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         a["sx"] += lon * n
         a["sy"] += lat * n
     window = fp.get("window") or [None, None]
+    if open_ids is None:
+        open_ids = set((state or {}).get("open") or {})
     for cc, a in sorted(by_cc.items()):
-        if a["n"] < FIRE_MIN:
+        if a["n"] < (FIRE_KEEP if f"elements:firms:{cc}" in open_ids else FIRE_MIN):
             continue
         name = country_name(cc)
         lp = country_point(cc)  # [lat, lon]; the detections' centre when the kit has no label point
