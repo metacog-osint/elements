@@ -1,6 +1,6 @@
 # Elements
 
-**Earthquakes, volcanoes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them, on one map.**
+**Earthquakes, volcanoes, cyclones, weather warnings, floods, droughts, fires, disaster mapping and US nuclear reactor reports, as the issuing authorities report them, on one map.**
 Map: https://elements.theintelligence.company/ · Feed: https://elements.theintelligence.company/data/feed.geojson
 
 Elements collects natural-hazard alerts every hour, straight from the authorities that issue them:
@@ -21,6 +21,9 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
 | NASA FIRMS (VIIRS on NOAA-20, NOAA-21 and Suomi-NPP), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
+| US Nuclear Regulatory Commission, Event Notification Reports (newest 5 business days) | Power reactor and fuel cycle facility events reported to the NRC, with the emergency class declared (Unusual Event to General Emergency) | US Government work, not subject to copyright |
+| US Nuclear Regulatory Commission, Power Reactor Status Report (daily year file) | Each US reactor unit's power, percent of full, as the licensee reported it that morning | US Government work, not subject to copyright |
+| FEMA Nuclear Plant Power Reactor Status service (read once, into `catalog/us_reactors.json`) | Where each reactor unit is | No licence stated (not verified); credited |
 
 ## How it reads the sources
 
@@ -42,6 +45,10 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
   keeps its warnings until they expire; `data/meteoalarm.json` is not committed.
 - Each event is drawn at the point its source gives, and its country is the one that point falls in (offshore events
   have none). Cyclones, floods and droughts reach well beyond their point.
+- NRC reports are the licensees' own, published by the NRC unevaluated (graded B2). An event at Unusual Event or above
+  is an anomaly for 72 hours from its notification, unless retracted; Non Emergency reports are routine. A reactor
+  reported at 0% after 20% or more the day before is a shutdown, an anomaly while it holds within 72 hours on a unit
+  that rarely does it (its own last 30 days). Elements gives the NRC's numbers and never a cause.
 - The feed and the map show what is active now. Nothing is thrown away: every item is kept after it leaves the feed
   (history, below), and `data/ended.geojson` lists the items that ended in the last 7 days, for readers that ask what
   happened in a window. NWS's active list drops a warning the moment it runs out, so each run also asks NWS for every
@@ -65,15 +72,15 @@ v2 (`tic-feed/2`), and passes the doctrine kit's tradecraft linter before it is 
 
 Not yet covered: weather warnings outside the US and Europe (WMO's worldwide Severe Weather Information Centre may
 not be republished; other countries are added as their licences are checked), volcanoes outside the US beyond
-GDACS's alerts (the Smithsonian's daily report refuses automated readers) and radiation monitoring (EPA RadNet offers
-only whole-year files per city).
+GDACS's alerts (the Smithsonian's daily report refuses automated readers) and radiation dose-rate monitoring (EPA
+RadNet offers only whole-year files per city; EURDEP's European data need each provider's written agreement).
 
 ## Running it
 
 ```
 python tools/elements.py collect   # fetch every source into data/ (a failing source keeps its last good data)
 python tools/elements.py history   # log new, changed and ended items in history/ against the last run
-python tools/elements.py build     # write site/ (map page, feed.geojson, ended.geojson, fires.json, meteoalarm.json, wildfires.json, health.json)
+python tools/elements.py build     # write site/ (map page, feed.geojson, ended.geojson, fires.json, meteoalarm.json, wildfires.json, reactors.json, health.json)
 python tools/elements.py check     # the feed passes the doctrine kit's linter; registers are valid
 python tests/test_elements.py
 python tests/test_volcanoes.py
@@ -82,8 +89,10 @@ python tests/test_tsunami_drought.py
 python tests/test_meteoalarm.py
 python tests/test_emsc_nifc.py
 python tests/test_history.py
+python tests/test_radiation.py
 python tools/history_backfill.py --force   # rebuild history/ from the git history of data/ (before the step goes live)
 python tools/build_counties.py   # refresh catalog/us_counties.json from the Census Gazetteer (yearly)
+python tools/build_reactors.py   # refresh catalog/us_reactors.json from FEMA's reactor service (when a unit is added or renamed)
 python tools/build_meteoalarm_areas.py   # refresh catalog/meteoalarm_areas.json when MeteoAlarm publishes new geocodes
 ```
 

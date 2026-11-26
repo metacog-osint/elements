@@ -19,6 +19,10 @@
     return e;
   }
   function when(iso) { return iso ? T.format(iso) : "—"; }
+  // A day-precision date (an NRC report date) as the day itself, never shifted into the reader's time zone.
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function day(iso) { var d = String(iso || "").slice(0, 10).split("-"); return d.length === 3 ? +d[2] + " " + MON[+d[1] - 1] + " " + d[0] : "—"; }
+  function asOf(p) { return p.data_as_of_precision === "day" ? day(p.data_as_of) : when(p.data_as_of); }
   // Leaflet inserts a string tooltip as HTML; a text node keeps source text as text.
   function tip(text) { return h("div", { "class": "tip" }, [text]); }
   function link(url, text) { return url ? h("a", { href: url, rel: "noopener" }, [text]) : text; }
@@ -36,6 +40,9 @@
   function alertColor(a) { return a && RANK[a] != null ? css("--a-" + a) : css("--unrated"); }
   function badge(a, label) { return h("span", { "class": "badge a-" + (a || "none") }, [label || a || "none"]); }
   function lane(f) { return f.properties.id.split(":")[1]; }
+  // The NRC's emergency classes on the page's colours: Unusual Event yellow, Alert orange, Site Area and General
+  // Emergency red (the classes' own words go with every use).
+  function nrcColour(level) { return level >= 3 ? "red" : level === 2 ? "orange" : level === 1 ? "yellow" : "none"; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
 
   // Wheel zoom stays off until the reader clicks the map, so scrolling the page never gets trapped in it.
@@ -46,7 +53,7 @@
     .setView([25, 0], openZoom);
   map.once("click", function () { map.scrollWheelZoom.enable(); });
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution("Natural Earth · USGS · EMSC · GDACS · NOAA · NIFC · MeteoAlarm · Copernicus EMS · NASA FIRMS");
+  map.attributionControl.addAttribution("Natural Earth · USGS · EMSC · GDACS · NOAA · NIFC · MeteoAlarm · Copernicus EMS · NASA FIRMS · NRC · FEMA");
   // (USGS covers both the earthquake and the volcano layers.)
   var layers = {};
   var gdMarkers = {};  // GDACS map markers by item id, for "Show on map" in the alert list
@@ -111,7 +118,7 @@
     var n = { alert: 0, quake: 0, weather: 0, volcano: 0, fire: 0, cells: 0, other: 0 };
     feats.forEach(function (f) {
       var p = f.properties, ln = lane(f);
-      if (ln === "firms" || ln === "usdm" || /:in-force$/.test(p.id)
+      if (ln === "firms" || ln === "usdm" || /:in-force$/.test(p.id) || p.id === "elements:nrc-reactor:us"
         || !inArea({ subdivisions: subsOf(p), countries: p.countries, geometry: f.geometry })) return;
       if (p.tier === "anomaly") n.alert += 1;
       if (ln === "usgs" || ln === "emsc") n.quake += 1;
@@ -131,13 +138,14 @@
 
   function areaList(a) { return a.length > 3 ? a.slice(0, 3).join("; ") + " and " + (a.length - 3) + " more" : a.join("; "); }
 
-  function draw(world, feats, fires, drought, euwx, nifcAll) {
+  function draw(world, feats, fires, drought, euwx, nifcAll, reactors) {
     // Land goes in its own pane below the overlays: Leaflet stacks any SVG above any canvas in a pane, and the fire
     // canvas has to sit above the land.
     map.createPane("land").style.zIndex = 350;
     L.geoJSON(world, { pane: "land", interactive: false,
       style: { color: css("--border"), weight: 0.6, fillColor: css("--land"), fillOpacity: 1 } }).addTo(map);
-    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], emsc: [], nifc: [] };
+    var by = { usgs: [], gdacs: [], nhc: [], cems: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], emsc: [], nifc: [],
+      "nrc-event": [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f); });
 
     // Drought areas sit in their own pane just above the land, under everything else. Off until switched on: they
@@ -329,6 +337,34 @@
     });
     layers.cems.addTo(map);
 
+    // US nuclear reactors (NRC): every unit on the newest daily status report, by its reported power, and the NRC event
+    // notifications of the past 7 days at their facility.
+    layers.nrc = L.layerGroup();
+    var rdate = reactors && reactors.date;
+    ((reactors && reactors.units) || []).forEach(function (u) {
+      if (u.lat == null || u.lon == null) return;
+      var fill = u.power >= 100 ? 0.85 : u.power > 0 ? 0.35 : 0;
+      var dotr = L.circleMarker([u.lat, u.lon], { radius: 4.5, weight: 1.6, color: css("--nrc"), fillColor: css("--nrc"), fillOpacity: fill });
+      dotr._item = { subdivisions: /^[A-Z]{2}$/.test(u.state || "") ? ["US-" + u.state] : undefined, countries: ["US"],
+        geometry: { type: "Point", coordinates: [u.lon, u.lat] } };
+      dotr.bindTooltip(tip(u.name + (u.plant ? " (" + u.plant + ")" : "") + "\n" + u.power + "% power on the NRC's report of "
+        + day(rdate) + (u.previous != null && u.previous !== u.power ? "; " + u.previous + "% the report before" : "")
+        + "\nAs the licensee reported it; the report gives no reason"))
+        .addTo(layers.nrc);
+    });
+    by["nrc-event"].forEach(function (f) {
+      if (!f.geometry) return;
+      var p = f.properties, m = p.measures, c = f.geometry.coordinates;
+      var cls = "a-" + (p.tier === "anomaly" ? nrcColour(m.emergency_level) : "none");
+      tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 450,
+        icon: L.divIcon({ className: "nrc-icon " + cls, html: "", iconSize: [30, 16] }) }), f)
+        .bindTooltip(tip(p.title + "\n" + (m.emergency_class || "Emergency class not given") + ", notified " + when(m.notified)
+          + (m.retracted ? "\nRetracted" : "") + (m.text_reports_termination ? "\nThe NRC's text reports the emergency terminated" : "")))
+        .on("add", function (ev) { ev.target.getElement().textContent = "NRC"; })
+        .addTo(layers.nrc);
+    });
+    layers.nrc.addTo(map);
+
     document.querySelectorAll(".layers input").forEach(function (box) {
       var l0 = layers[box.getAttribute("data-layer")];
       if (l0 && !box.checked && map.hasLayer(l0)) map.removeLayer(l0);
@@ -355,7 +391,12 @@
       sw("dt", "background:" + css("--wildfire") + ";opacity:.7", "US wildfire"),
       h("span", null, [h("span", { "class": "dash-ring" }), "EMSC-only earthquake"]),
       h("span", null, [h("span", { "class": "ts-icon a-none lg-ts" }, ["TSU"]), "tsunami message"]),
-      sw("ring", "", "Copernicus activation")]));
+      sw("ring", "", "Copernicus activation"),
+      h("span", { "class": "lg-h" }, ["US reactor (NRC daily status):"]),
+      sw("dt", "background:" + css("--nrc") + ";box-shadow:none", "100%"),
+      sw("dt", "background:color-mix(in srgb, " + css("--nrc") + " 35%, transparent);box-shadow:inset 0 0 0 1.6px " + css("--nrc"), "below 100%"),
+      sw("dt", "background:transparent;box-shadow:inset 0 0 0 1.6px " + css("--nrc"), "0%"),
+      h("span", null, [h("span", { "class": "nrc-icon a-none lg-nrc" }, ["NRC"]), "NRC event (yellow to red: emergency class declared)"])]));
   }
 
   // Today's reading and tiles (tic-shell): counts from this build, worldwide (the Area menu dims rows, never these
@@ -403,7 +444,7 @@
 
   function lists(feats, health, generated, fires) {
     var by = { usgs: [], gdacs: [], nhc: [], cems: [], firms: [], "usgs-volcano": [], nws: [], spc: [], tsunami: [], usdm: [], meteoalarm: [],
-      emsc: [], nifc: [] };
+      emsc: [], nifc: [], "nrc-event": [], "nrc-reactor": [] };
     feats.forEach(function (f) { (by[lane(f)] || []).push(f.properties); });
     var geomOf = {};
     feats.forEach(function (f) { geomOf[f.properties.id] = f.geometry; });
@@ -421,6 +462,8 @@
       if (ln === "spc") return [p.measures.level >= 5 ? "red" : "orange", "SPC outlook"];
       if (ln === "tsunami") return [p.measures.level === "warning" ? "red" : "orange", "NOAA tsunami centre"];
       if (ln === "meteoalarm") return [p.measures.awareness_level, (p.measures.issuer || "National weather service") + " via MeteoAlarm"];
+      if (ln === "nrc-event") return [nrcColour(p.measures.emergency_level), "NRC event notification"];
+      if (ln === "nrc-reactor") return ["yellow", "NRC daily reactor status"];
       var st = (p.response_stage || ":").split(":");
       return [st[1], st[0] === "pager" ? "USGS PAGER" : "GDACS"];
     }
@@ -430,8 +473,8 @@
       var st = [null, alertOf(p)[0]];
       var what = p.title.replace(/^GDACS \w+ alert: /, "");
       var src = alertOf(p)[1];
-      return mark([badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + when(p.data_as_of)])])], p); }))
-      : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, and no Extreme US or red European weather warning."));
+      return mark([badge(st[1]), h("span", null, [link(p.link, what), h("span", { "class": "sub" }, [src + " · " + asOf(p)])])], p); }))
+      : empty("No PAGER alert of yellow or worse, no GDACS orange or red alert, no US volcano above Normal, no Extreme US or red European weather warning, and no NRC emergency class or reactor shutdown flagged."));
     shell(hot, by, fires, health, alertOf);
     var hotCc = [];
     hot.forEach(function (p) { (p.countries || []).forEach(function (c) { if (c && hotCc.indexOf(c) < 0) hotCc.push(c); }); });
@@ -611,13 +654,37 @@
         return [m.country_name, num(m.detections), num(m.high_confidence), num(Math.round(m.frp_sum_mw))]; }), { 1: 1, 2: 1, 3: 1 })
       : empty("No country had 10 or more detections in the past 24 hours."));
 
+    var nev = by["nrc-event"].slice().sort(function (x, y) {
+      return (y.measures.emergency_level || 0) - (x.measures.emergency_level || 0) || (y.measures.notified || "").localeCompare(x.measures.notified || ""); });
+    document.getElementById("nrc-events").replaceChildren(nev.length ? table(["Class", "Facility and event", "Notified"], nev.map(function (p) {
+      var m = p.measures, lv = m.emergency_level || 0;
+      var cls = p.tier === "anomaly" ? nrcColour(lv) : "none";
+      var notes = [m.facility_type, "event " + m.event_number].concat(m.scram_units && m.scram_units.length ? ["scram: unit " + m.scram_units.join(", ")] : [])
+        .concat(m.retracted ? ["retracted"] : []).concat(m.text_reports_termination ? ["reported terminated"] : []);
+      var title = p.title.replace(/ \(NRC event \d+[^)]*\)/, "").replace(/, retracted$/, "");
+      return mark([badge(cls, m.emergency_class || "not given"), h("span", null, [link(p.link, title), h("span", { "class": "sub" }, [notes.join(" · ")])]),
+        when(m.notified)], p); }), { 2: 1 })
+      : empty("No power reactor or fuel cycle facility event reported to the NRC in the past 7 days in this build."));
+    var nus = by["nrc-reactor"].filter(function (p) { return p.id === "elements:nrc-reactor:us"; })[0];
+    document.getElementById("nrc-st-sum").replaceChildren(nus ? "Report of " + day(nus.measures.report_date) + ": " + nus.measures.at_100 + " of "
+      + nus.measures.units + " units at 100%, " + nus.measures.below_100 + " below, " + nus.measures.at_0 + " at 0%." : "No NRC status report in this build.");
+    var nst = by["nrc-reactor"].filter(function (p) { return p.id !== "elements:nrc-reactor:us"; }).sort(function (x, y) {
+      return x.measures.power_percent - y.measures.power_percent || x.measures.unit.localeCompare(y.measures.unit); });
+    document.getElementById("nrc-status").replaceChildren(nst.length ? table(["Unit", "Power", "Report before", "At this power since"], nst.map(function (p) {
+      var m = p.measures;
+      var unit = h("span", null, [link(p.link, m.unit), m.shutdown ? h("span", { "class": "sub" }, [p.tier === "anomaly" ? "shutdown, flagged" : "shutdown"]) : null]);
+      return mark([unit, m.power_percent + "%", m.previous_power_percent != null ? m.previous_power_percent + "%" : "—",
+        m.changed_on ? day(m.changed_on) : "at least " + day(m.at_this_power_since)], p); }), { 1: 1, 2: 1 })
+      : empty("Every unit on the NRC's newest report is at 100%, or there is no report in this build."));
+
     var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
       "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
       "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook",
       "noaa-tsunami": "NOAA tsunami warning centres", "us-drought-monitor": "US Drought Monitor (weekly)",
       meteoalarm: "MeteoAlarm warnings (39 European countries)", emsc: "EMSC earthquakes (M4.5+, past 7 days)",
-      "nifc-wfigs": "NIFC wildfire incidents (WFIGS)" };
+      "nifc-wfigs": "NIFC wildfire incidents (WFIGS)", "nrc-events": "NRC event notifications",
+      "nrc-reactor-status": "NRC power reactor status (daily)" };
     document.getElementById("health").replaceChildren(table(["Source", "Last good", "Status"], Object.keys(names).map(function (k) {
       var s = health[k] || {};
       var bad = !s.last_ok || (s.failures || 0) > 0;
@@ -636,7 +703,8 @@
     get("data/fires.json").catch(function () { return null; }), get("data/drought.json").catch(function () { return null; }),
     get("data/meteoalarm.json").catch(function () { return null; }),
     get("data/wildfires.json").catch(function () { return null; }),
-    get("geo/states.json").catch(function () { return null; })]).then(function (x) {
+    get("geo/states.json").catch(function () { return null; }),
+    get("data/reactors.json").catch(function () { return null; })]).then(function (x) {
     if (A && x[7]) {
       A.mountSettings(document.getElementById("area-settings"), x[7].states, { note: "Hazards tied to a place outside " +
         "your area are dimmed on the map and in the tables, not hidden. Summaries by country are never dimmed. Saved in " +
@@ -644,7 +712,7 @@
     } else {
       A = null;  // no state list in this build: no Area menu, nothing dimmed
     }
-    draw(x[0], x[1].features, x[3], x[4], x[5], x[6] && x[6].fires);
+    draw(x[0], x[1].features, x[3], x[4], x[5], x[6] && x[6].fires, x[8]);
     lists(x[1].features, x[2], x[1].generated_at, x[3]);
     dim(x[1].features);
     T.onChange(function () { lists(x[1].features, x[2], x[1].generated_at, x[3]); });

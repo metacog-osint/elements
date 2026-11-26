@@ -39,13 +39,14 @@
 <main id="main" class="wrap">
   <noscript><p class="noscript">This page needs JavaScript to draw its map and tables. The GeoJSON feed linked below and the source code work without it.</p></noscript>
   <section class="hero">
-    <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires and disaster mapping, as the issuing authorities report them.</h1>
+    <h1>Earthquakes, cyclones, weather warnings, floods, droughts, fires, disaster mapping and US nuclear reactor reports, as the issuing authorities report them.</h1>
     <p class="tic-reading" id="reading" aria-live="polite"></p>
     <div class="tiles tic-tiles" id="tiles" aria-live="polite"></div>
     <p class="lede">USGS earthquakes with their PAGER impact alert, checked against EMSC's catalogue, USGS volcano alerts,
       GDACS multi-hazard alerts, NOAA hurricane, weather-warning, severe-storm and tsunami products, European national
       weather services' warnings through MeteoAlarm, the US Drought Monitor, US wildfire incidents from NIFC, Copernicus
-      EMS rapid-mapping activations and NASA FIRMS satellite fire detections, collected every hour.</p>
+      EMS rapid-mapping activations, NASA FIRMS satellite fire detections, and the US Nuclear Regulatory Commission's
+      event notifications and daily reactor status, collected every hour.</p>
     <p class="small muted caveat">Every alert is the issuing authority's own, on its own scale; Elements does not rate
       hazards, and PAGER and GDACS levels are early model estimates that change. <a href="https://github.com/metacog-osint/elements/blob/main/doctrine/method.md">How Elements reads them</a>.</p>
     <details class="terms" id="terms">
@@ -71,6 +72,13 @@
         <dt>NIFC</dt><dd>The US National Interagency Fire Center, which publishes wildfire incidents.</dd>
         <dt>Copernicus EMS, EMSR</dt><dd>The EU's Copernicus Emergency Management Service; EMSR and a number is one
           rapid-mapping activation.</dd>
+        <dt>NRC</dt><dd>The US Nuclear Regulatory Commission. Its Operations Center publishes the licensees' event
+          notifications each business day, and each morning's reactor power, both unevaluated.</dd>
+        <dt>Emergency class</dt><dd>The NRC's scale for an emergency at a nuclear facility, lowest first: Unusual Event
+          (Notification of Unusual Event), Alert, Site Area Emergency, General Emergency. Most event reports are Non
+          Emergency.</dd>
+        <dt>Scram</dt><dd>A rapid shutdown of a reactor, automatic or manual. An event's unit table gives a scram code;
+          N means none.</dd>
       </dl>
     </details>
   </section>
@@ -89,6 +97,7 @@
         <label><input type="checkbox" data-layer="gdacs" checked> GDACS alerts</label>
         <label><input type="checkbox" data-layer="nhc" checked> Hurricane center storms</label>
         <label><input type="checkbox" data-layer="cems" checked> Copernicus EMS activations</label>
+        <label><input type="checkbox" data-layer="nrc" checked> US nuclear reactors (NRC)</label>
       </fieldset>
       <div class="legend" id="legend"></div>
     </div>
@@ -108,8 +117,9 @@
     <div id="sec-alerts" data-tab-label="Alerts">
       <section class="card" aria-labelledby="alerts-h">
         <h2 id="alerts-h">Alerts above the bottom rung</h2>
-        <p class="muted small">PAGER yellow or worse, GDACS orange or red, any US volcano above Normal, and Extreme US or red
-          European weather warnings. PAGER and GDACS are model estimates of impact, issued within minutes and revised as
+        <p class="muted small">PAGER yellow or worse, GDACS orange or red, any US volcano above Normal, Extreme US or red
+          European weather warnings, an NRC emergency class declared at a US nuclear facility (72 hours), and a US reactor
+          unit newly reported at 0% where that is rare for it. PAGER and GDACS are model estimates of impact, issued within minutes and revised as
           reports arrive; a GDACS alert is the highest the event has reached. Volcano alerts are set by the responsible USGS
           observatory, weather warnings by the national weather service.</p>
         <div id="alerts"></div>
@@ -212,6 +222,25 @@
         </section>
       </div>
     </div>
+    <div id="sec-nuclear" data-tab-label="Nuclear">
+      <section class="card" aria-labelledby="nrc-ev-h">
+        <h2 id="nrc-ev-h">NRC event notifications, past 7 days</h2>
+        <p class="muted small">Power reactor and fuel cycle facility events that licensees reported to the US Nuclear
+          Regulatory Commission, with the emergency class they declared. Most are Non Emergency reports required by
+          regulation; an Unusual Event or higher is flagged for 72 hours. The NRC publishes these reports unevaluated, and
+          Elements gives the headline as the NRC wrote it.</p>
+        <div id="nrc-events"></div>
+      </section>
+      <section class="card" aria-labelledby="nrc-st-h">
+        <h2 id="nrc-st-h">US reactor units below full power</h2>
+        <p class="muted small" id="nrc-st-sum"></p>
+        <p class="muted small">The NRC's daily Power Reactor Status Report: each unit's power as a percentage of full, as
+          the licensee reported it between 4 and 8 a.m. Eastern. It gives no reason for a power level, and neither does
+          Elements; a unit can be below full power for many reasons, refuelling and maintenance among them. A unit
+          reported at 0% after 20% or more the report before is marked as a shutdown.</p>
+        <div id="nrc-status"></div>
+      </section>
+    </div>
     <div id="sec-sources" data-tab-label="Sources">
       <section class="card" aria-labelledby="health-h">
         <h2 id="health-h">Sources</h2>
@@ -225,13 +254,16 @@
           University of Nebraska-Lincoln, the US Department of Agriculture and NOAA; map courtesy of NDMC. Earthquakes also
           from the European-Mediterranean Seismological Centre (EMSC), licensed
           <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. Wildfire incidents from the
-          National Interagency Fire Center (WFIGS).</p>
+          National Interagency Fire Center (WFIGS). Nuclear event notifications and reactor status from the US Nuclear
+          Regulatory Commission (a US Government work); reactor locations from FEMA's Nuclear Plant Power Reactor Status
+          service.</p>
         <p class="small muted">European weather warnings: MeteoAlarm (EUMETNET), data provided by EUMETNET members' national
           weather services, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
           Region points are derived from MeteoAlarm's geocodes file. A warning that carries its own credit shows it in its
           tooltip (Deutscher Wetterdienst's areas: © GeoBasis-DE / BKG).</p>
         <p class="small muted">Not yet covered: weather warnings outside the US and Europe, volcanoes outside the US beyond
-          GDACS's alerts, and radiation monitoring (EPA RadNet publishes only whole-year files per city).
+          GDACS's alerts, and radiation dose-rate monitoring (EPA RadNet publishes only whole-year files per city; EURDEP's
+          European readings need each provider's written agreement).
           NWS alert positions for county-based alerts use the US Census Bureau's county internal points.</p>
       </section>
     </div>
