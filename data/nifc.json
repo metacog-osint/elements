@@ -183,20 +183,6 @@
    "lat": 34.4789
   },
   {
-   "id": "{3C9661A9-A917-4F2E-BFB5-BAB480AC9D4B}",
-   "name": "Red Hill",
-   "acres": 519.0,
-   "contained": 100,
-   "discovered": "2026-11-12T01:13:47Z",
-   "updated": "2026-11-13T18:29:00Z",
-   "state": "MS",
-   "county": "Perry",
-   "cause": "Human",
-   "complexity": "Type 4 Incident",
-   "lon": -89.0639,
-   "lat": 31.1301
-  },
-  {
    "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
    "name": "Dugger",
    "acres": 500.0,
@@ -435,20 +421,6 @@
    "lat": 43.0146
   },
   {
-   "id": "{CD26D29A-431A-4DA2-B1CC-23BC54152CF3}",
-   "name": "Angelina 0127",
-   "acres": 30.0,
-   "contained": 25,
-   "discovered": "2026-11-25T20:00:00Z",
-   "updated": "2026-11-25T22:03:17Z",
-   "state": "TX",
-   "county": "Angelina",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.4164,
-   "lat": 31.2819
-  },
-  {
    "id": "{1D6A19A7-0C75-49F9-AC55-068F49DD2932}",
    "name": "Wildhorse Road",
    "acres": 25.0,
@@ -489,6 +461,20 @@
    "complexity": null,
    "lon": -122.8035,
    "lat": 42.8053
+  },
+  {
+   "id": "{2EC48A6F-8084-4127-947E-7520BD3E5EDE}",
+   "name": "Alper",
+   "acres": 19.1,
+   "contained": null,
+   "discovered": "2026-08-23T23:28:00Z",
+   "updated": "2026-11-26T01:21:01Z",
+   "state": "CA",
+   "county": "Kern",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.7637,
+   "lat": 35.0874
   },
   {
    "id": "{869D9E7C-DA4F-48A9-9DB5-35DBC4624D2C}",
@@ -685,20 +671,6 @@
    "complexity": null,
    "lon": -116.987,
    "lat": 45.3224
-  },
-  {
-   "id": "{1E5962F4-83E5-4895-9232-FAF0B9A45605}",
-   "name": "Burnt Hill",
-   "acres": 1.2,
-   "contained": null,
-   "discovered": "2026-11-23T22:12:01Z",
-   "updated": "2026-11-25T14:54:33Z",
-   "state": "WA",
-   "county": "Clallam",
-   "cause": "Undetermined",
-   "complexity": "Complex Incident",
-   "lon": -123.099,
-   "lat": 48.0065
   },
   {
    "id": "{FEA7F60C-F61D-46E3-84A0-C3F108C28BEE}",
@@ -1833,6 +1805,20 @@
    "complexity": null,
    "lon": -118.1305,
    "lat": 34.6947
+  },
+  {
+   "id": "{FDCF19EE-034A-4905-BD20-33D36DD0CC84}",
+   "name": "Lac-427149",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T01:29:02Z",
+   "updated": "2026-11-26T01:29:29Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1568,
+   "lat": 34.6676
   }
  ]
 }
