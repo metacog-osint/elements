@@ -41,6 +41,25 @@ def fetch(url: str, timeout: int = 40, max_bytes: int = MAX_BYTES) -> bytes:
     return body
 
 
+def fetch_start(url: str, nbytes: int, timeout: int = 40):
+    """(the first nbytes of a response, cut, None) or (None, False, short error): for a large file whose newest
+    lines come first (the NRC's year of daily reactor status). Asks for a byte range and reads no more than nbytes
+    whether or not the server honours it; cut says whether the file went on past what was read."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*",
+                                               "Range": f"bytes=0-{nbytes - 1}"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            body = r.read(nbytes)
+            total = (r.headers.get("Content-Range") or "").rpartition("/")[2]
+            if r.status == 200:
+                more = bool(r.read(1))
+            else:
+                more = int(total) > len(body) if total.isdigit() else len(body) >= nbytes
+        return body, more, None
+    except Exception as e:  # noqa: BLE001 - every failure is reported, none is fatal
+        return None, False, describe(e)
+
+
 def fetch_or_none(url: str, timeout: int = 40, max_bytes: int = MAX_BYTES):
     """(body, None) or (None, short error): a failing source never stops the run."""
     try:

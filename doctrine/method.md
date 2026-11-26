@@ -2,7 +2,8 @@
 
 Elements collects natural-hazard alerts every hour from the authorities that issue them: USGS earthquakes with their
 PAGER impact alert, GDACS multi-hazard alerts, NOAA National Hurricane Center storms, and Copernicus EMS rapid-mapping
-activations. It states them in the terms of The Intelligence Company's doctrine kit (`doctrine/kit/`).
+activations. Since method elements-feed-1.2 it also states the US Nuclear Regulatory Commission's event notifications
+and daily reactor status. It states them in the terms of The Intelligence Company's doctrine kit (`doctrine/kit/`).
 
 ## Anomaly versus warning
 Everything Elements publishes is a measurement of what an authority said (kind observation), carrying that
@@ -134,7 +135,55 @@ hazard from a new or a changed one:
 - **Health.** Each source lane in the feed header carries a state: fresh (read on this run), failing (not read on this
   run, read within 48 hours), stale (no good read for 48 hours) or never.
 
+## US nuclear reactors and fuel facilities (method elements-feed-1.2, 26 Nov 2026)
+Two lanes from the US Nuclear Regulatory Commission, both licensees' own reports that the NRC publishes unevaluated,
+so their sources grade B2 (usually reliable, probably true) and nothing in them is confirmed by a second source.
+Elements states the NRC's classes and numbers as they stand, and never a cause: neither report gives one for a power
+level, and a shutdown's reason, when an event notification gives it, is in that event's own headline.
+- **Event notifications** (`nrc-events`, EL-PIR-12). Each run reads the NRC's index of Event Notification Reports
+  for the year and the newest 5 report pages (one a business day), and keeps every event for 30 days by its number;
+  a later page's copy of an event (an update) replaces the earlier. The feed carries power reactor and fuel cycle
+  facility events notified in the last 7 days; the other kinds (Agreement State, materials, research reactors, Part
+  21) stay in `data/nrc_events.json`. Elements keeps each event's facility, units, state, notification and event times
+  (Eastern time, US daylight rule; the event's own zone where it gives one), emergency class, 10 CFR sections, unit
+  power table and the text's first line (the NRC's headline), and two marks read from the text: a retraction
+  (`* * * RETRACTION`) and an emergency reported terminated. It keeps no personal names and not the rest of the text.
+- **Tiers for events.** The NRC's emergency classes are the baseline (`nrc-emergency-classes`, fixed): Non
+  Emergency 0, Unusual Event (Notification of Unusual Event) 1, Alert 2, Site Area Emergency 3, General Emergency 4.
+  An event at Unusual Event or above is an anomaly for 72 hours from its notification (the 2.1 hold for a notice),
+  unless its text carries a retraction; a Non Emergency report is routine. `last_change` is new at the notification
+  time, or raised at the run that read a later copy with a higher class. The signal is the class (0 to 4). The
+  classes are not a kit ladder yet, so these items carry no `response_stage`.
+- **Daily status** (`nrc-reactor-status`, EL-PIR-13). Each run reads the first 200 KB of the NRC's year file of daily
+  power (pipe-delimited, newest date first, about 45 days), drops the partial last line and the oldest date, and
+  keeps 31 report dates; in January it also reads the year before. A report date is a day, collected 4 to 8 a.m.
+  Eastern: `data_as_of` is that day at midnight UTC with `data_as_of_precision: day`.
+- **Items for status.** One item per unit below 100% or whose power changed on the newest report (a unit back at
+  100% gets one item that day), and one count for the US (units at 100%, below, at 0%). The title gives the NRC's
+  numbers only ("Waterford 3: 0% power on 25 Nov 2026, down from 100% the report before"). The signal is the unit's
+  latest change in reported power in percentage points (expected 0, tail low), with `event_start` the day of that
+  change (day precision) and `last_change: changed` on the day it happened; `baseline_n` is the unit's day pairs
+  before that change and `exceedance` the share of them with a change as low or lower, (k+1)/(n+1).
+- **Tiers for status.** A shutdown is a unit reported at 0% after a report of 20% or more (a drop from 100% to 0% day
+  over day is one). It is an anomaly while the unit is still at 0% and the day of the drop ended within 72 hours,
+  against the unit's own baseline (`nrc-unit-day-pairs:<unit>`, rolling): at least 7 earlier day pairs, with such
+  drops on 5% or fewer of them (`flag_rate`). A unit that shuts down often, or one with too short a record, stays
+  routine and says why. Everything else is routine.
+- **Places.** A unit is drawn at its own location from FEMA's Nuclear Plant Power Reactor Status service, kept in
+  `catalog/us_reactors.json` (99 units, by the NRC's unit names; `tools/build_reactors.py` rebuilds it), with its
+  state from the catalog. An event names its facility and units; Elements matches them to the catalog within the
+  event's state (names reduced to letters and digits, without words such as nuclear or station, with a few aliases
+  such as Cook for D.C. Cook). An event with no match is placed at its county's Census internal point when it names
+  a county (precision approximate), else by its state alone, with no point (precision admin1). FEMA states no
+  licence for the service; Elements credits it.
+- **Health.** A failed index, or every report page failing, keeps the last events and marks the lane not read; so
+  does a failed status file. The map's reactor layer and the Nuclear tab show what was last read, with the lane's
+  state.
+
 ## Not yet covered
-Weather warnings outside the US and Europe, volcanoes outside the US beyond GDACS's alerts, and radiation: EPA RadNet offers only whole-year CSV files per city
-(about 750 KB each, some 140 cities), and Elements will not pull that much every hour. A
-missing source turns its layer grey ("no data"), never quiet.
+Weather warnings outside the US and Europe, volcanoes outside the US beyond GDACS's alerts, and radiation dose-rate
+monitoring. EPA RadNet still offers only whole-year CSV files per city (about 750 KB each, some 140 cities; re-checked
+25 Nov 2026), and Elements will not pull that much every hour. EURDEP's European dose rates need each data provider's
+prior written agreement; IAEA PRIS gives no daily status and its database terms limit use to educational and
+informational; the IAEA's emergency systems are not public, and its Zaporizhzhya updates are Blackout's; Safecast's
+volunteer readings are not an authority's. A missing source turns its layer grey ("no data"), never quiet.

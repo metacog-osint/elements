@@ -70,9 +70,14 @@
   },
   {
    "id": "epa-radnet",
-   "name": "EPA RadNet near-real-time air monitoring",
-   "licence": "US public domain",
-   "use": "not used: only whole-year CSV files per city (about 750 KB each, ~140 cities); no latest-reading endpoint found (31 Oct 2026)"
+   "name": "EPA RadNet near-real-time air monitoring (gamma and beta, about 140 US cities)",
+   "licence": "US public domain (EPA data licence, no warranty)",
+   "use": "not used: re-checked 25 Nov 2026, as on 31 Oct 2026; about 140 whole-year files a run for the latest readings",
+   "url": "https://www.epa.gov/radnet/radnet-csv-file-downloads (per city: radnet.epa.gov/cdx-radnet-rest/api/rest/csv/{year}/fixed/{state}/{city})",
+   "format": "CSV, one year-to-date file per city, and multi-year ZIP files",
+   "updates": "\"updated several times daily from a mirrored server\" (EPA page last updated 26 Oct 2026)",
+   "automated": "only city by city: no latest-readings file or documented API (the CSV path is undocumented); the data.gov entry is stale (2014)",
+   "read": "2026-11-25"
   },
   {
    "id": "meteoalarm",
@@ -103,6 +108,83 @@
    "name": "NIFC WFIGS current wildfire incident locations",
    "licence": "No licence stated (not verified); US interagency incident data, credited",
    "use": "ingest"
+  },
+  {
+   "id": "nrc-events",
+   "name": "NRC Event Notification Reports (one page per business day; power reactor and fuel cycle facility events, with the emergency class declared)",
+   "licence": "US Government work, not subject to copyright; no restrictions on use; credit appreciated (nrc.gov/site-help/disclaimer, page reviewed 15 Sep 2026, read 25 Nov 2026)",
+   "use": "ingest",
+   "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/event-notification-reports/{year}/{YYYYMMDD}en (year index at .../event-notification-reports/{year})",
+   "format": "HTML, one block per event (facility, state, units, notification and event times, emergency class, 10 CFR sections, unit power table, event text)",
+   "updates": "each business day (an occasional Saturday; none on federal holidays), with later updates to an event re-published under its number",
+   "automated": "yes: plain pages, no key; the site states nothing on automated access (the first hourly run is the first automated read)",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "nrc-reactor-status",
+   "name": "NRC Power Reactor Status Report (daily power per unit, percent of full, 95 units)",
+   "licence": "US Government work, not subject to copyright; no restrictions on use; credit appreciated (nrc.gov/site-help/disclaimer, read 25 Nov 2026)",
+   "use": "ingest",
+   "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/{year}/{year}PowerStatus.txt (daily page .../{year}/{YYYYMMDD}ps)",
+   "format": "pipe-delimited text, ReportDt|Unit|Power, newest date first; the NRC's own data dictionary is Data_gov_PowerStatus_DataDictionary.xls",
+   "updates": "daily, every day: \"Reactor status data collected between 4 a.m. and 8 a.m. each day\" (Eastern); \"unevaluated information provided by the facility\"",
+   "automated": "yes: one file, no key; Elements reads its first 200 KB (about 45 days)",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "fema-nuclear-reactors",
+   "name": "FEMA Nuclear Plant Power Reactor Status feature service (reactor unit locations, used for catalog/us_reactors.json)",
+   "licence": "No licence stated (FEMA, a US Government work; not verified); credited",
+   "use": "catalog: unit locations for catalog/us_reactors.json, read by tools/build_reactors.py, not on each run",
+   "url": "https://gis.fema.gov/arcgis/rest/services/Partner/Nuclear_Plant_Power_Reactor_Status/FeatureServer/0",
+   "format": "ArcGIS feature service (JSON); 99 units with the NRC's unit names, latitude, longitude, state, county FIPS, EIA plant code",
+   "updates": "not stated; Elements reads it only to rebuild its catalog (tools/build_reactors.py)",
+   "automated": "yes (read 25 Nov 2026)",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "iaea-pris",
+   "name": "IAEA PRIS (Power Reactor Information System)",
+   "licence": "IAEA site terms: reuse with acknowledgement and no implied endorsement, but databases are \"provided free of charge for educational and informational use\" and specific conditions may apply (iaea.org/about/disclaimer, undated, read 25 Nov 2026)",
+   "use": "not used: no daily status, no download, and the database terms limit use to educational and informational; the NRC covers the US daily",
+   "url": "https://pris.iaea.org/pris/",
+   "format": "HTML pages: reactor specifications, monthly performance, outages",
+   "updates": "not stated; monthly performance, not daily status",
+   "automated": "no download or API offered",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "iaea-iec",
+   "name": "IAEA Incident and Emergency Centre (IRMIS, USIE) and the IAEA's public Ukraine updates",
+   "licence": "IRMIS and USIE are closed to the public; the IAEA's Ukraine updates are Blackout's (kit programs.json: Zaporizhzhya NPP off-site power, IAEA terms read 13 Nov 2026)",
+   "use": "not used: the emergency systems are not public, and the Zaporizhzhya lane is owned by Blackout, so Elements does not collect it again",
+   "url": "https://www.iaea.org/about/organizational-structure/department-of-nuclear-safety-and-security/incident-and-emergency-centre",
+   "format": "not public (IRMIS, USIE); numbered news updates (Ukraine)",
+   "updates": "not public; Ukraine updates as the IAEA issues them",
+   "automated": "no",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "eurdep",
+   "name": "EURDEP (European Radiological Data Exchange Platform, EC Joint Research Centre), ambient gamma dose rates",
+   "licence": "\"All data that is exchanged via EURDEP are subject to copyright of the original data provider\" and \"cannot be used for other purposes, including scientific research, without their prior written agreement\" (remap.jrc.ec.europa.eu/Consent/Simple.aspx, dated 3 Nov 2026, read 25 Nov 2026)",
+   "use": "not used: needs each data provider's prior written agreement, and \"no action may be taken based on this data without prior consultation with the data providers\"; permission not requested",
+   "url": "https://remap.jrc.ec.europa.eu/",
+   "format": "map service behind a consent page",
+   "updates": "hourly dose rates from national networks",
+   "automated": "not without accepting the consent terms",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "safecast",
+   "name": "Safecast radiation measurements (volunteer bGeigie and fixed sensors)",
+   "licence": "Data CC0 (\"Safecast data is published under a CC0 designation\"); the website CC BY-NC 4.0 (read 25 Nov 2026)",
+   "use": "not used: crowd-sourced, with uncalibrated and unattended placements and no authority behind a reading; it would grade C3 at best (F if its reliability cannot be judged), and Elements reports what authorities publish",
+   "url": "https://api.safecast.org/ (bulk: api.safecast.org/system/measurements.csv)",
+   "format": "JSON API and CSV",
+   "updates": "continuous, as volunteers upload",
+   "automated": "yes",
+   "read": "2026-11-25"
   }
  ],
  "extra": {
@@ -228,6 +310,20 @@
    "ease_of_faking": "low",
    "cadence_s": 3600,
    "descriptor": "US wildfire incidents: size and containment"
+  },
+  "nrc-events": {
+   "grade": "B2",
+   "independence_group": "nrc",
+   "ease_of_faking": "low",
+   "cadence_s": 86400,
+   "descriptor": "Licensee event reports to the NRC with the emergency class declared; published unevaluated"
+  },
+  "nrc-reactor-status": {
+   "grade": "B2",
+   "independence_group": "nrc",
+   "ease_of_faking": "low",
+   "cadence_s": 86400,
+   "descriptor": "Daily power per US reactor unit, as the licensees report it; unevaluated"
   }
  }
 }

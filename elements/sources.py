@@ -237,7 +237,7 @@ def collect_cems(old, fetch=fetch_or_none):
 
 def collect_all(prev: dict, when: str | None = None) -> dict:
     """{'usgs': (records, err), ...}; FIRMS gives one payload of cells rather than a list of records."""
-    from . import drought, emsc, firms, meteoalarm, nifc, tsunami, volcanoes, weather
+    from . import drought, emsc, firms, meteoalarm, nifc, nrc, tsunami, volcanoes, weather
     now = datetime.now(timezone.utc)
     return {"usgs": collect_usgs(prev.get("usgs")), "gdacs": collect_gdacs(prev.get("gdacs"), now),
             "nhc": collect_nhc(prev.get("nhc")), "cems": collect_cems(prev.get("cems")),
@@ -247,4 +247,6 @@ def collect_all(prev: dict, when: str | None = None) -> dict:
             "tsunami": tsunami.collect(prev.get("tsunami"), now), "usdm": drought.collect(prev.get("usdm"), now),
             "meteoalarm": meteoalarm.collect(prev.get("meteoalarm"), now),
             "emsc": emsc.collect(prev.get("emsc"), now), "nifc": nifc.collect(prev.get("nifc"), now),
+            "nrc_events": nrc.collect_events(prev.get("nrc_events"), now),
+            "nrc_status": nrc.collect_status(prev.get("nrc_status"), now),
             "when": when or now_utc()}

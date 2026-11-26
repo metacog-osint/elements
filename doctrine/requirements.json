@@ -144,6 +144,35 @@
    ]
   },
   {
+   "id": "EL-SQ-2",
+   "type": "standing",
+   "question": "Is a US nuclear power reactor or fuel facility reporting an emergency, or has a reactor stopped producing power, and where?"
+  },
+  {
+   "id": "EL-PIR-12",
+   "type": "pir",
+   "parent": "EL-SQ-2",
+   "question": "Which US power reactors and fuel cycle facilities reported an event to the NRC this week, and did any declare an emergency class (Unusual Event, Alert, Site Area Emergency, General Emergency)?",
+   "series": [
+    "NRC Event Notification Reports (power reactor and fuel cycle facility events, with the emergency class declared)"
+   ],
+   "warning_problems": [
+    "EL-WP-2"
+   ]
+  },
+  {
+   "id": "EL-PIR-13",
+   "type": "pir",
+   "parent": "EL-SQ-2",
+   "question": "Which US power reactor units are below full power on the NRC's daily status report, and which went to 0% from operation since the report before?",
+   "series": [
+    "NRC Power Reactor Status Report (daily power per unit, percent of full)"
+   ],
+   "warning_problems": [
+    "EL-WP-2"
+   ]
+  },
+  {
    "id": "EL-EEI-1",
    "type": "eei",
    "parent": "EL-PIR-1",

@@ -9,6 +9,7 @@
   --f1: #f06fa0; --f2: #d6338a; --f3: #a3136f; --f4: #5f0a4a;
   --wildfire: #9a3412;
   --cems: #0b7285; --nhc: #14181f; --mark-edge: rgba(20, 24, 31, .55); --bar: #3b5b85;
+  --nrc: #5f3dc4;
   --radius: 10px; --gap: 16px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color-scheme: light;
 }
@@ -19,7 +20,7 @@
     --on-green: #0f1318; --on-orange: #0f1318; --on-red: #0f1318;
     --f1: #a33a78; --f2: #cf4596; --f3: #f06cb4; --f4: #ffb3dd;
     --wildfire: #fdba74;
-    --cems: #3bc9db; --nhc: #f3f4f6; --mark-edge: rgba(0, 0, 0, .6); --bar: #7fa6d9; color-scheme: dark; }
+    --cems: #3bc9db; --nhc: #f3f4f6; --mark-edge: rgba(0, 0, 0, .6); --bar: #7fa6d9; --nrc: #b197fc; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.5; }
@@ -94,6 +95,11 @@ a { color: var(--link); }
   background: var(--ink); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
 .ts-icon.a-orange { background: var(--a-orange); color: var(--on-orange); } .ts-icon.a-red { background: var(--a-red); color: var(--on-red); }
 .legend .lg-ts { display: inline-block; width: 30px; margin-right: 4px; }
+.nrc-icon { border-radius: 3px; font-size: 9px; font-weight: 700; line-height: 16px; text-align: center; letter-spacing: .03em;
+  background: var(--nrc); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
+.nrc-icon.a-yellow { background: var(--a-yellow); color: var(--on-orange); }
+.nrc-icon.a-orange { background: var(--a-orange); color: var(--on-orange); } .nrc-icon.a-red { background: var(--a-red); color: var(--on-red); }
+.legend .lg-nrc { display: inline-block; width: 30px; margin-right: 4px; }
 .dmsw { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; border: 1px solid var(--mark-edge); }
 .nhc-icon { border-radius: 50%; background: var(--nhc); color: var(--panel); font-size: 10px; font-weight: 700;
   line-height: 26px; text-align: center; box-shadow: 0 0 0 2px var(--panel); }
