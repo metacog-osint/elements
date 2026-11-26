@@ -69,102 +69,6 @@
    ]
   },
   {
-   "id": "KPHI.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Ocean",
-    "Coastal Ocean",
-    "Kent",
-    "Cumberland",
-    "Middlesex",
-    "Western Monmouth",
-    "Eastern Monmouth",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "New Castle",
-    "Salem",
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "34001",
-    "34005",
-    "34009",
-    "34011",
-    "34023",
-    "34025",
-    "34029",
-    "34033"
-   ],
-   "sent": "2026-11-26T07:57:00Z",
-   "onset": "2026-11-26T11:00:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fbd7072619a3b3593b2468927a2e5b241dc6128.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -74.6338,
-     39.4694
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ]
-   ],
-   "lon": -74.902,
-   "lat": 39.57,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -209,9 +113,6 @@
    "certainty": "Likely",
    "sender": "NWS Upton NY",
    "areas": [
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -219,6 +120,9 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Northeast Suffolk",
     "Southwest Suffolk",
     "Southern Nassau",
@@ -248,7 +152,7 @@
    "sent": "2026-11-26T09:33:00Z",
    "onset": "2026-11-26T12:00:00Z",
    "ends": "2026-11-27T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -470,83 +374,6 @@
    ]
   },
   {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Charles",
-    "King George",
-    "District of Columbia",
-    "Arlington/Falls Church/Alexandria",
-    "Calvert",
-    "Anne Arundel",
-    "St. Marys"
-   ],
-   "counties": [
-    "11001",
-    "24003",
-    "24009",
-    "24017",
-    "24037",
-    "51013",
-    "51099",
-    "51510",
-    "51610"
-   ],
-   "sent": "2026-11-26T16:47:00Z",
-   "onset": "2026-11-26T16:47:00Z",
-   "ends": "2026-11-27T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ca23218fd576997986b5f9fed6fa09a4632188e.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -77.0165,
-     38.9042
-    ],
-    [
-     -76.5609,
-     38.9916
-    ],
-    [
-     -76.5298,
-     38.5227
-    ],
-    [
-     -77.0154,
-     38.4729
-    ],
-    [
-     -76.5345,
-     38.2231
-    ],
-    [
-     -77.1007,
-     38.8783
-    ],
-    [
-     -77.1626,
-     38.2772
-    ],
-    [
-     -77.0837,
-     38.8193
-    ],
-    [
-     -77.1756,
-     38.8847
-    ]
-   ],
-   "lon": -76.909,
-   "lat": 38.664,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -583,10 +410,10 @@
     "James City",
     "Newport News",
     "Isle of Wight",
-    "Eastern Currituck",
     "Dorchester",
     "Wicomico",
-    "Somerset"
+    "Somerset",
+    "Eastern Currituck"
    ],
    "counties": [
     "24019",
@@ -873,6 +700,185 @@
    ],
    "lon": -123.82,
    "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "District of Columbia",
+    "Arlington/Falls Church/Alexandria",
+    "St. Marys",
+    "Anne Arundel",
+    "Southeast Harford",
+    "Calvert",
+    "Charles",
+    "King George"
+   ],
+   "counties": [
+    "11001",
+    "24003",
+    "24009",
+    "24017",
+    "24025",
+    "24037",
+    "51013",
+    "51099",
+    "51510",
+    "51610"
+   ],
+   "sent": "2026-11-26T19:07:00Z",
+   "onset": "2026-11-26T20:00:00Z",
+   "ends": "2026-11-27T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4bc52c8813693be26dbf692f644cccbeada079c.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -77.0165,
+     38.9042
+    ],
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.5298,
+     38.5227
+    ],
+    [
+     -77.0154,
+     38.4729
+    ],
+    [
+     -76.2998,
+     39.5374
+    ],
+    [
+     -76.5345,
+     38.2231
+    ],
+    [
+     -77.1007,
+     38.8783
+    ],
+    [
+     -77.1626,
+     38.2772
+    ],
+    [
+     -77.0837,
+     38.8193
+    ],
+    [
+     -77.1756,
+     38.8847
+    ]
+   ],
+   "lon": -76.848,
+   "lat": 38.751,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Kent",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Southeastern Burlington",
+    "Middlesex",
+    "Western Monmouth",
+    "Eastern Monmouth",
+    "Ocean",
+    "Coastal Ocean",
+    "New Castle",
+    "Salem",
+    "Inland Sussex",
+    "Delaware Beaches"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "34001",
+    "34005",
+    "34009",
+    "34011",
+    "34023",
+    "34025",
+    "34029",
+    "34033"
+   ],
+   "sent": "2026-11-26T19:09:00Z",
+   "onset": "2026-11-26T19:09:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dd3ef97de70fe1be6339bd92457c1a19343f24f.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -74.6338,
+     39.4694
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ]
+   ],
+   "lon": -74.902,
+   "lat": 39.57,
    "countries": [
     "US"
    ]
@@ -2874,6 +2880,143 @@
    ]
   },
   {
+   "id": "KAKQ.FA.W.0008.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Dorchester, MD",
+    "Somerset, MD",
+    "Wicomico, MD",
+    "Worcester, MD",
+    "Accomack, VA"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "51001"
+   ],
+   "sent": "2026-11-26T19:21:00Z",
+   "onset": "2026-11-26T19:21:00Z",
+   "ends": "2026-11-27T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96e1c07d76c6c6e9ba479675469d67b2ac2a6aa5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.33,
+       38.49
+      ],
+      [
+       -75.84,
+       38.7
+      ],
+      [
+       -75.69,
+       38.46
+      ],
+      [
+       -75.03,
+       38.45
+      ],
+      [
+       -75.22,
+       37.99
+      ],
+      [
+       -75.8,
+       37.45
+      ],
+      [
+       -75.96,
+       37.56
+      ],
+      [
+       -75.74,
+       37.84
+      ],
+      [
+       -75.92,
+       37.89
+      ],
+      [
+       -75.78,
+       38.07
+      ],
+      [
+       -75.78,
+       38.08
+      ],
+      [
+       -75.8,
+       38.06
+      ],
+      [
+       -75.86,
+       38.36
+      ],
+      [
+       -76.03,
+       38.22
+      ],
+      [
+       -76.23,
+       38.39
+      ],
+      [
+       -76.23,
+       38.35
+      ],
+      [
+       -76.13,
+       38.23
+      ],
+      [
+       -76.15,
+       38.23
+      ],
+      [
+       -76.33,
+       38.49
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.7578,
+     37.7659
+    ]
+   ],
+   "lon": -75.887,
+   "lat": 38.174,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KAKQ.FA.A.0007.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -3904,37 +4047,6 @@
    ]
   },
   {
-   "id": "PHFO.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Honolulu HI",
-   "areas": [
-    "Big Island Summit"
-   ],
-   "counties": [
-    "15001"
-   ],
-   "sent": "2026-11-26T13:07:00Z",
-   "onset": "2026-11-26T13:07:00Z",
-   "ends": "2026-11-27T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c10c3267b08f237b44f8255f084614a064e26c41.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -155.5024,
-     19.5978
-    ]
-   ],
-   "lon": -155.502,
-   "lat": 19.598,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3968,12 +4080,12 @@
     "Carbon",
     "Monroe",
     "Morris",
-    "Delaware Beaches",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
     "Western Monmouth",
     "Ocean",
     "Southeastern Burlington",
+    "Delaware Beaches",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
     "Inland Sussex",
     "Cumberland",
     "Atlantic",
@@ -4216,10 +4328,10 @@
    "certainty": "Likely",
    "sender": "NWS Boston/Norton MA",
    "areas": [
-    "Block Island",
     "Barnstable",
     "Dukes",
-    "Nantucket"
+    "Nantucket",
+    "Block Island"
    ],
    "counties": [
     "25001",
@@ -4228,9 +4340,9 @@
     "44009"
    ],
    "sent": "2026-11-26T14:12:00Z",
-   "onset": "2026-11-26T15:00:00Z",
+   "onset": "2026-11-26T17:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4663,68 +4775,6 @@
    ]
   },
   {
-   "id": "KAKQ.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Accomack",
-    "Northampton"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "51001",
-    "51131"
-   ],
-   "sent": "2026-11-26T18:04:00Z",
-   "onset": "2026-11-26T18:04:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e5e30ea4c326e336c8a5b2f26dd3f75dc9f991b.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -75.924,
-     37.3028
-    ]
-   ],
-   "lon": -75.754,
-   "lat": 38.027,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBTV.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4765,9 +4815,9 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
-    "Judith Basin County and Judith Gap",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
+    "Southern High Plains",
+    "Judith Basin County and Judith Gap"
    ],
    "counties": [
     "30027",
@@ -4954,6 +5004,87 @@
    ]
   },
   {
+   "id": "KAKQ.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Inland Worcester",
+    "Maryland Beaches"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047"
+   ],
+   "sent": "2026-11-26T19:22:00Z",
+   "onset": "2026-11-26T19:22:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e472ff46ba34ddadce0509d9758d2bf8f261afe6.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ]
+   ],
+   "lon": -75.711,
+   "lat": 38.273,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PHFO.HW.W.0011.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Honolulu HI",
+   "areas": [
+    "Big Island Summit"
+   ],
+   "counties": [
+    "15001"
+   ],
+   "sent": "2026-11-26T19:31:00Z",
+   "onset": "2026-11-26T19:31:00Z",
+   "ends": "2026-11-27T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4ab6b397512efb13cd309e06040a727494e14bb.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -155.5024,
+     19.5978
+    ]
+   ],
+   "lon": -155.502,
+   "lat": 19.598,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KRIW.HW.A.0013.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5028,6 +5159,47 @@
    ]
   },
   {
+   "id": "KABQ.HW.A.0008.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Central Highlands"
+   ],
+   "counties": [
+    "35047",
+    "35049",
+    "35057"
+   ],
+   "sent": "2026-11-26T19:29:00Z",
+   "onset": "2026-11-28T18:00:00Z",
+   "ends": "2026-11-29T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f745ebb5084b4c4f82c2a49aef04286230f566e5.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.8035,
+     35.4769
+    ],
+    [
+     -105.964,
+     35.5145
+    ],
+    [
+     -105.8906,
+     34.555
+    ]
+   ],
+   "lon": -105.553,
+   "lat": 35.182,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCLE.LS.W.0001.2026",
    "event": "Lakeshore Flood Warning",
    "severity": "Severe",
@@ -5077,49 +5249,113 @@
    ]
   },
   {
-   "id": "KOKX.SR.W.0003.2026",
-   "event": "Storm Warning",
+   "id": "KSEW.MA.W.0003.2026",
+   "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Upton NY",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
    "areas": [
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
-    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
-    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
-    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
-    "Long Island Sound East of the Mouth of the Connecticut River",
-    "Long Island Sound West of New Haven CT/Port Jefferson NY",
-    "New York Harbor",
-    "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay"
+    "Puget Sound and Hood Canal"
    ],
    "counties": [
-    "73331",
-    "73332",
-    "73335",
-    "73338",
-    "73340",
-    "73345",
-    "73350",
-    "73353",
-    "73355",
-    "73380",
-    "73383",
-    "73385"
+    "57135"
    ],
-   "sent": "2026-11-26T07:36:00Z",
-   "onset": "2026-11-26T11:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca8c1b0325aef956858d1f98759721a618b323f7.001.2",
-   "geometry": null,
+   "sent": "2026-11-26T19:25:00Z",
+   "onset": "2026-11-26T19:25:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63a03d092a927b172b386627a7bf6c7d284ecd38.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -122.95,
+       47.13
+      ],
+      [
+       -122.93,
+       47.15
+      ],
+      [
+       -122.93,
+       47.17
+      ],
+      [
+       -123.02,
+       47.13
+      ],
+      [
+       -123.09,
+       47.21
+      ],
+      [
+       -123.02,
+       47.26
+      ],
+      [
+       -123.06,
+       47.21
+      ],
+      [
+       -122.94,
+       47.21
+      ],
+      [
+       -122.82,
+       47.41
+      ],
+      [
+       -122.79,
+       47.29
+      ],
+      [
+       -122.78,
+       47.34
+      ],
+      [
+       -122.63,
+       47.41
+      ],
+      [
+       -122.67,
+       47.34
+      ],
+      [
+       -122.58,
+       47.33
+      ],
+      [
+       -122.68,
+       47.33
+      ],
+      [
+       -122.56,
+       47.31
+      ],
+      [
+       -122.69,
+       47.3
+      ],
+      [
+       -122.68,
+       47.29
+      ],
+      [
+       -122.54,
+       47.27
+      ],
+      [
+       -122.95,
+       47.13
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [],
-   "lon": null,
-   "lat": null,
+   "lon": -122.816,
+   "lat": 47.261,
    "countries": [
     "US"
    ]
@@ -5311,121 +5547,49 @@
    ]
   },
   {
-   "id": "KSGF.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
+   "id": "KOKX.SR.W.0003.2026",
+   "event": "Storm Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Springfield MO",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Upton NY",
    "areas": [
-    "Maries",
-    "Phelps",
-    "Dent"
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
+    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
+    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
+    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
+    "Long Island Sound East of the Mouth of the Connecticut River",
+    "Long Island Sound West of New Haven CT/Port Jefferson NY",
+    "New York Harbor",
+    "Peconic and Gardiners Bays",
+    "South Shore Bays from Jones Inlet through Shinnecock Bay"
    ],
    "counties": [
-    "29065",
-    "29125",
-    "29161"
+    "73331",
+    "73332",
+    "73335",
+    "73338",
+    "73340",
+    "73345",
+    "73350",
+    "73353",
+    "73355",
+    "73380",
+    "73383",
+    "73385"
    ],
-   "sent": "2026-11-26T04:34:00Z",
-   "onset": "2026-11-26T04:34:00Z",
-   "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14a72e1be054e679e3b4d6de0efa1e56ed4dab5f.001.2",
+   "sent": "2026-11-26T19:16:00Z",
+   "onset": "2026-11-26T19:16:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.001.1",
    "geometry": null,
    "vtec": true,
-   "points": [
-    [
-     -91.4897,
-     37.6031
-    ],
-    [
-     -91.9236,
-     38.1626
-    ],
-    [
-     -91.7904,
-     37.8663
-    ]
-   ],
-   "lon": -91.735,
-   "lat": 37.877,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBYZ.WS.W.0011.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Absaroka/Beartooth Mountains"
-   ],
-   "counties": [
-    "30009",
-    "30067",
-    "30095",
-    "30097"
-   ],
-   "sent": "2026-11-26T06:23:00Z",
-   "onset": "2026-11-27T07:00:00Z",
-   "ends": "2026-11-28T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac8fada5649451f84541286d6a1b29dc85a646df.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.0286,
-     45.2245
-    ],
-    [
-     -110.5349,
-     45.4631
-    ],
-    [
-     -109.3817,
-     45.6589
-    ],
-    [
-     -109.9448,
-     45.8113
-    ]
-   ],
-   "lon": -109.722,
-   "lat": 45.539,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.WS.W.0029.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-26T06:54:00Z",
-   "onset": "2026-11-26T06:54:00Z",
-   "ends": "2026-11-28T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.432c597076dae8142c0f2ff63950523ea82f7383.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
+   "points": [],
+   "lon": null,
+   "lat": null,
    "countries": [
     "US"
    ]
@@ -5749,6 +5913,119 @@
    ],
    "lon": -90.438,
    "lat": 36.906,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCYS.WS.W.0008.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Cheyenne WY",
+   "areas": [
+    "Snowy Range"
+   ],
+   "counties": [
+    "56001",
+    "56007"
+   ],
+   "sent": "2026-11-26T19:30:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0d0ef3343e1cd8c4eb4661c72ebda9558a2eae9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.7219,
+     41.6655
+    ],
+    [
+     -106.9332,
+     41.7036
+    ]
+   ],
+   "lon": -106.328,
+   "lat": 41.685,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBYZ.WS.W.0011.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Absaroka/Beartooth Mountains"
+   ],
+   "counties": [
+    "30009",
+    "30067",
+    "30095",
+    "30097"
+   ],
+   "sent": "2026-11-26T19:32:00Z",
+   "onset": "2026-11-27T07:00:00Z",
+   "ends": "2026-11-28T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd52cbc77cb46a4c3ca4ecea1301e663b348bafe.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.0286,
+     45.2245
+    ],
+    [
+     -110.5349,
+     45.4631
+    ],
+    [
+     -109.3817,
+     45.6589
+    ],
+    [
+     -109.9448,
+     45.8113
+    ]
+   ],
+   "lon": -109.722,
+   "lat": 45.539,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.W.0029.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Eastern Beaufort Sea Coast"
+   ],
+   "counties": [
+    "02185"
+   ],
+   "sent": "2026-11-26T19:33:00Z",
+   "onset": "2026-11-26T19:33:00Z",
+   "ends": "2026-11-28T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d914e9d1eb1e5c56d7207b8c785d1e6c732c924e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -153.4728,
+     69.4493
+    ]
+   ],
+   "lon": -153.473,
+   "lat": 69.449,
    "countries": [
     "US"
    ]
