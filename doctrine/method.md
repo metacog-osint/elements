@@ -25,7 +25,9 @@ still asked, and shows as "no rows".
 These are detections, not fires. A fire is counted again on each overpass of each satellite, and FIRMS's
 near-real-time data does not separate fires from gas flares, volcanoes and industrial heat sources. Each cell is
 counted to the country at its centre of detections, so cells on a border all go to one side. The feed carries one
-item per country with at least 10 detections; the cells themselves are in `fires.json`, not the feed.
+item per country with at least 10 detections; an item already open stays while its country has at least 5, so a
+count near the floor does not end and reopen the item from one run to the next. The cells themselves are in
+`fires.json`, not the feed.
 
 Fire items carry no anomaly tier yet: there is no baseline. `data/firms_daily.json` records each country's detections
 per complete UTC day from 31 Oct 2026, so a baseline can be set once enough history exists. FIRMS's archive could

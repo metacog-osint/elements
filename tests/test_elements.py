@@ -468,6 +468,19 @@ class Firms(unittest.TestCase):
         self.assertEqual((p["precision_class"], p["tier"], p["countries"]), ("country", "routine", ["BR"]))
         self.assertEqual(p["data_as_of"], "2026-10-31T15:30:00Z")
 
+    def test_feed_floor_keeps_open_items(self):
+        # An open country item stays down to 5 detections; a new one still needs 10.
+        d = dataset()
+        cells = [[-50.0, -10.0, 6, 6, 30.0, 9.0, "2026-10-31T15:30Z", "BR"],
+                 [121.0, 23.7, 6, 6, 30.0, 9.0, "2026-10-31T15:30Z", "TW"],
+                 [30.0, 0.0, 4, 4, 10.0, 3.0, "2026-10-31T15:30Z", "UG"]]
+        d["firms"] = {"records": {"cells": cells, "window": [None, None], "cell_deg": 0.5}, "fetched_at": FETCHED}
+        ids = lambda fc: sorted(f["properties"]["id"] for f in fc["features"] if f["properties"]["id"].startswith("elements:firms:"))
+        self.assertEqual(ids(feed.build(d, NOW)), [])
+        held = {"elements:firms:BR", "elements:firms:UG"}
+        self.assertEqual(ids(feed.build(d, NOW, open_ids=held)), ["elements:firms:BR"])
+        self.assertEqual(ids(feed.build(d, NOW, state={"open": {k: {"first_seen": "2026-10-31T00:00:00Z"} for k in held}})), ["elements:firms:BR"])
+
     def test_country_names_and_taiwan(self):
         from elements.common import country_at, country_name
         self.assertEqual(country_at(23.7, 121.0), "TW")
