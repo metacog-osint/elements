@@ -11,7 +11,7 @@ from .common import ROOT  # noqa: F401  first: puts the doctrine kit on sys.path
 from tic_doctrine import history as _kit  # noqa: E402
 from tic_doctrine.history import (  # noqa: E402,F401
     ENDED_DAYS, FORMAT, RECENT_DAYS, STATUS_KEYS, TIER_RANK, VOLATILE, _line, _stamp, _t, append_log, close_days,
-    end_time, ended_ids_in, fingerprint, lane, lanes_ok, load_state, log_path, read_days, save_state, update)
+    end_time, ended_ids_in, fingerprint, key, lane, lanes_ok, load_state, log_path, read_days, save_state, update)
 
 
 def ended_collection(root, state, now, days: int = ENDED_DAYS) -> dict:

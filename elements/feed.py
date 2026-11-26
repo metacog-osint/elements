@@ -372,6 +372,35 @@ def _not_after(when: str, limit: str) -> str:
         return when
 
 
+GDACS_GRACE_DAYS = 7
+
+
+def gdacs_ended(e: dict, now: datetime) -> bool:
+    """GDACS marks an event that has ended `iscurrent` false; the 14-day query returns it until it ages out, so it is
+    not a current hazard. A current event whose latest report (its `to`) is more than GDACS_GRACE_DAYS old counts as
+    ended too: GDACS's current events are re-reported every day or so (measured 26 Nov 2026: the oldest `to` among the
+    11 current events was 3.9 days back, a cyclone's last advisory)."""
+    if not e.get("current"):
+        return True
+    try:
+        to = datetime.fromisoformat(str(e.get("to")).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return False
+    return to + timedelta(days=GDACS_GRACE_DAYS) < now
+
+
+def gdacs_valid_until(e: dict) -> str | None:
+    """An ended event is valid until GDACS's own `to`; a current one until `to` plus the grace, when Elements would
+    end it if GDACS sent no later report."""
+    try:
+        to = datetime.fromisoformat(str(e.get("to")).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    if e.get("current"):
+        to += timedelta(days=GDACS_GRACE_DAYS)
+    return to.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def _base(fetched):
     return {"contract": CONTRACT, "program": "elements", "kind": "observation", "status": "actual", "msg_type": "new",
             "human_review": "none", "us_person_data": "none", "status_class": "reported", "method_version": METHOD,
@@ -383,9 +412,12 @@ def _pt(lon, lat):
     return {"type": "Point", "coordinates": [lon, lat]} if lon is not None and lat is not None else None
 
 
-def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None) -> dict:
+def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None,
+          ended: list | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
-    state after this run's history step and the log's first run, to fill last_change (contract revision 2.1)."""
+    state after this run's history step and the log's first run, to fill last_change (contract revision 2.1).
+    ended: a list to receive the GDACS events that have ended (gdacs_ended), built like feed items; they are not in
+    the feed, and the history step keeps them as the last version of the items they end."""
     now = now or datetime.now(timezone.utc)
     feats = []
     from .emsc import match
@@ -432,8 +464,10 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         feats.append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
 
     f = d["gdacs"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    gone = []
     for e in d["gdacs"].get("records") or []:
-        hot = e["alert"] in ("orange", "red")
+        over = gdacs_ended(e, now)
+        hot = e["alert"] in ("orange", "red") and not over
         name = e["name"] or e["kind"]
         if len(name) > 90:  # drought names list every country; the full list stays in countries
             name = name[:87].rsplit(",", 1)[0] + ", and others"
@@ -454,12 +488,16 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
                                                    "severity": sev, "alert_score": e.get("score"),
                                                    "latest_alert": e.get("latest_alert"), "current": e.get("current"),
                                                    "from": e["from"], "to": e["to"]}}
+        if gdacs_valid_until(e):
+            p["valid_until"] = gdacs_valid_until(e)
         if e["alert"] in ("green", "orange", "red"):
             p["response_stage"] = f"gdacs:{e['alert']}"
         if hot:
             p["baseline_ref"] = {"id": "gdacs-green", "window": "GDACS alert scale (green: low humanitarian impact)",
                                  "type": "fixed", "version": "1"}
-        feats.append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
+        if over:
+            p["measures"]["current"] = False
+        (gone if over else feats).append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
 
     f = d["nhc"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     for s in d["nhc"].get("records") or []:
@@ -530,6 +568,10 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
 
     subdivide(feats)
     rev21.finish(feats, state, since)
+    if ended is not None and gone:
+        subdivide(gone)
+        rev21.finish(gone, state, since)
+        ended.extend(gone)
     regs = registers.ids(ROOT / "doctrine")
     kept, dropped = [], []
     for x in feats:

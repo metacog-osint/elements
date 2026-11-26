@@ -17,7 +17,7 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | US Drought Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) | Weekly share of the US in each drought category, and the map | No licence stated (not verified); credited |
 | EMSC event service (seismicportal.eu), M4.5+, past 7 days | A second, independent earthquake catalogue: corroborates USGS events and adds those USGS lists below 4.5 | CC BY 4.0 |
 | NIFC WFIGS current incident locations | US wildfires still being fought or found in the last 14 days: size, containment, county | No licence stated (not verified); credited |
-| GDACS event list (EC Joint Research Centre and UN OCHA), past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
+| GDACS event list (EC Joint Research Centre and UN OCHA), current events from the past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
 | NASA FIRMS (VIIRS on NOAA-20, NOAA-21 and Suomi-NPP), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
@@ -31,6 +31,10 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
   not collected. An empty answer means nothing matched, not a failure.
 - A GDACS alert is the highest the event has reached; the latest episode's alert is kept beside it. For cyclones,
   GDACS pairs the storm's latest stage with the event's maximum wind, so Elements gives the wind alone.
+- GDACS's list for the past 14 days includes events it has ended (`iscurrent` false). Those leave the feed and
+  the page and go to `data/ended.geojson` and the history log, with `valid_until` set to GDACS's own end date. A
+  current event whose latest report is more than 7 days old is treated as ended too, so a current event's
+  `valid_until` is 7 days after its latest report.
 - Copernicus activations are shown when open or less than 60 days old.
 - FIRMS gives detections, not fires: a fire is counted on every overpass, and gas flares, volcanoes and industrial
   heat are detected too. With the free key (`FIRMS_MAP_KEY`, an Actions secret) Elements uses the FIRMS API, which

@@ -102,12 +102,29 @@ def caught_items(d: dict, now: datetime) -> list:
     return [x for x in items if not any(sev == "error" for _, sev, _ in contract.check(x, regs))]
 
 
+def keep_ended_version(state: dict, gone: list) -> int:
+    """GDACS events that ended leave the feed, so the history step ends their open items. Give each open item the
+    version that says so (measures.current false, valid_until GDACS's `to`) first, so the log's ended line and
+    ended.geojson carry it rather than the last version that called the event current. Returns how many."""
+    open_ = (state or {}).get("open") or {}
+    n = 0
+    for f in gone:
+        e = open_.get(history.key(f)) or open_.get(f["properties"]["id"])
+        if e is not None:
+            e["item"] = f
+            n += 1
+    return n
+
+
 def log_history(now: datetime | None = None) -> list:
     """Compare the feed of this run's data with the items open after the last run; append the changes to the log."""
     now = now or datetime.now(timezone.utc)
     d = data()
-    fc = feed.build(d, now)
-    state, lines = history.update(history.load_state(HIST), fc, d["health"], now, caught_items(d, now))
+    gone = []
+    fc = feed.build(d, now, ended=gone)
+    state = history.load_state(HIST)
+    keep_ended_version(state, gone)
+    state, lines = history.update(state, fc, d["health"], now, caught_items(d, now))
     history.append_log(HIST, lines)
     history.close_days(HIST, now.strftime("%Y-%m-%d"))
     history.save_state(HIST, state)

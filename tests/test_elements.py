@@ -225,6 +225,55 @@ class Feed(unittest.TestCase):
         past = next(f["properties"] for f in self.fc["features"] if f["properties"]["id"] == f"elements:gdacs:{rec['id']}")
         self.assertEqual(past["data_as_of"], "2026-10-28T06:00:00Z", "an end date before the fetch is kept")
 
+    def test_an_ended_gdacs_event_leaves_the_feed_and_a_current_one_stays(self):
+        # 23 Nov 2026: 36 of 48 GDACS items carried GDACS's own iscurrent=false (four anomaly-tier droughts among
+        # them) and were shown as current. DR-1002 is an orange drought GDACS has ended; TC-1001 is current.
+        d = dataset()
+        dr = next(r for r in d["gdacs"]["records"] if r["id"] == "DR-1002")
+        dr["current"] = False
+        gone = []
+        fc = feed.build(d, NOW, ended=gone)
+        ids = {f["properties"]["id"] for f in fc["features"]}
+        self.assertNotIn("elements:gdacs:DR-1002", ids)
+        self.assertIn("elements:gdacs:TC-1001", ids)
+        self.assertEqual([f["properties"]["id"] for f in gone], ["elements:gdacs:DR-1002"])
+        g = gone[0]["properties"]
+        self.assertEqual((g["tier"], g["measures"]["current"], g["valid_until"]), ("routine", False, "2026-10-28T06:00:00Z"))
+        self.assertNotIn("baseline_ref", g)
+        self.assertEqual(g["event_end"], "2026-10-28T06:00:00Z")
+        regs = registers.ids(ROOT / "doctrine")
+        self.assertEqual([m for _, sev, m in contract.check(gone[0], regs) if sev == "error"], [])
+        tc = next(f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:gdacs:TC-1001")
+        self.assertEqual((tc["tier"], tc["valid_until"]), ("anomaly", "2026-11-04T06:00:00Z"))  # to + 7 days
+        self.assertNotIn("anomaly", [f["properties"]["tier"] for f in gone])
+
+    def test_a_current_gdacs_event_with_no_report_for_a_week_counts_as_ended(self):
+        e = {"current": True, "to": "2026-10-24T21:00:00Z"}
+        self.assertTrue(feed.gdacs_ended(e, NOW))
+        self.assertFalse(feed.gdacs_ended({**e, "to": "2026-10-25T00:00:00Z"}, NOW))
+        self.assertFalse(feed.gdacs_ended({"current": True, "to": None}, NOW))
+        self.assertTrue(feed.gdacs_ended({"current": False, "to": "2026-11-01T01:00:00Z"}, NOW))
+
+    def test_the_history_step_logs_the_ended_gdacs_version(self):
+        import importlib.util
+        from elements import history
+        spec = importlib.util.spec_from_file_location("elements_tool", ROOT / "tools" / "elements.py")
+        tool = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(tool)
+        before = feed.build(dataset(), NOW)                       # the run before: DR-1002 current
+        state, _ = history.update({}, before, None, NOW)
+        d = dataset()
+        next(r for r in d["gdacs"]["records"] if r["id"] == "DR-1002")["current"] = False
+        gone = []
+        fc = feed.build(d, NOW, ended=gone)
+        self.assertEqual(tool.keep_ended_version(state, gone), 1)
+        state, lines = history.update(state, fc, None, NOW)
+        end = [x for x in lines if x["change"] == "ended"]
+        self.assertEqual([x["id"] for x in end], ["elements:gdacs:DR-1002"])
+        self.assertIs(end[0]["item"]["properties"]["measures"]["current"], False)
+        self.assertEqual(end[0]["peak_tier"], "anomaly", "the record keeps the tier it reached")
+        self.assertNotIn("elements:gdacs:DR-1002", state["open"])
+
     def test_nothing_dropped_and_contract(self):
         self.assertEqual(self.fc["dropped"], [])
         regs = registers.ids(ROOT / "doctrine")
