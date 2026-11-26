@@ -659,20 +659,6 @@
    "lat": 34.7233
   },
   {
-   "id": "{1A2A5AF6-0500-47C9-8CA0-CBC4030B2835}",
-   "name": "Gorman Ave",
-   "acres": 0.7,
-   "contained": null,
-   "discovered": "2026-11-20T23:50:00Z",
-   "updated": "2026-11-23T20:02:05Z",
-   "state": "WI",
-   "county": "Clark",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -90.7524,
-   "lat": 44.4964
-  },
-  {
    "id": "{346EC53E-5424-4653-AB19-BC905DDFC367}",
    "name": "Bogue community pond",
    "acres": 0.7,
@@ -685,20 +671,6 @@
    "complexity": "Type 5 Incident",
    "lon": -88.9376,
    "lat": 32.8491
-  },
-  {
-   "id": "{5BCF9EA9-B838-4002-A537-33394842D1BA}",
-   "name": "North Shore",
-   "acres": 0.6,
-   "contained": null,
-   "discovered": "2026-11-19T16:30:00Z",
-   "updated": "2026-11-23T19:20:43Z",
-   "state": "WI",
-   "county": "Oneida",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.3437,
-   "lat": 45.6386
   },
   {
    "id": "{9BD7C484-C7A0-4298-98ED-EE23DB10F653}",
@@ -783,20 +755,6 @@
    "complexity": null,
    "lon": -92.0975,
    "lat": 35.9846
-  },
-  {
-   "id": "{5DAA2C67-144E-464D-920A-743909F1160C}",
-   "name": "Kearney Hill",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-19T10:38:09Z",
-   "updated": "2026-11-23T19:58:48Z",
-   "state": "PA",
-   "county": "Bedford",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -78.224,
-   "lat": 40.1405
   },
   {
    "id": "{598806C3-83A5-47F8-84CE-E8D71E53B63D}",
@@ -895,20 +853,6 @@
    "complexity": null,
    "lon": -81.7086,
    "lat": 29.1179
-  },
-  {
-   "id": "{FB06D7A7-AD9C-4C0D-AAA8-EA8BC0CD5434}",
-   "name": "Chantry",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-10-09T00:44:20Z",
-   "updated": "2026-11-23T19:15:29Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.0231,
-   "lat": 34.1796
   },
   {
    "id": "{A9CC18A4-226D-4A55-8662-6B5B0771FED2}",
@@ -1105,20 +1049,6 @@
    "complexity": null,
    "lon": -122.5198,
    "lat": 41.6816
-  },
-  {
-   "id": "{024A25D5-05F0-44AE-A33F-963663D9953D}",
-   "name": "Golden",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-08T23:07:04Z",
-   "updated": "2026-11-23T19:27:23Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.6868,
-   "lat": 34.5703
   },
   {
    "id": "{B10B69BF-00F9-48B0-BEAB-6B6F840AD5E5}",
@@ -1616,13 +1546,55 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-26T19:27:15Z",
-   "updated": "2026-11-26T19:35:49Z",
+   "updated": "2026-11-26T19:36:00Z",
    "state": "CA",
    "county": "Orange",
    "cause": "Undetermined",
    "complexity": null,
    "lon": -117.6135,
    "lat": 33.4444
+  },
+  {
+   "id": "{F125F685-2ED2-4F86-AA3B-41BFA69D44E6}",
+   "name": "Lac-428100",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T19:39:50Z",
+   "updated": "2026-11-26T19:40:42Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.3675,
+   "lat": 33.9454
+  },
+  {
+   "id": "{01FAA13D-F5ED-4B72-AEF3-B45445A094D7}",
+   "name": "Hunter",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T19:42:16Z",
+   "updated": "2026-11-26T19:43:17Z",
+   "state": "CA",
+   "county": "Mariposa",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -120.2254,
+   "lat": 37.6274
+  },
+  {
+   "id": "{E1F841AE-3BEA-4F63-A335-CAC1BFF4D54B}",
+   "name": "Lac-428124",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T20:01:01Z",
+   "updated": "2026-11-26T20:01:21Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -117.8562,
+   "lat": 34.6325
   }
  ]
 }
