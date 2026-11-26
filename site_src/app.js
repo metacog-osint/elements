@@ -598,10 +598,14 @@
     var fz = by.firms.slice().sort(function (x, y) { return y.measures.detections - x.measures.detections; });
     var fsum = document.getElementById("fires-sum");
     if (fires && fires.cells && fires.cells.length) {
-      var via = Object.keys(fires.via || {}).map(function (k) { return fires.via[k]; });
+      var SAT = { VIIRS_NOAA20_NRT: "NOAA-20", VIIRS_NOAA21_NRT: "NOAA-21", VIIRS_SNPP_NRT: "Suomi-NPP" };
+      var vk = Object.keys(fires.via || {});
+      var pub = vk.some(function (k) { return fires.via[k].indexOf("public files") === 0; });
+      var none = vk.filter(function (k) { return / \(no rows\)$/.test(fires.via[k]); }).map(function (k) { return SAT[k] || k; });
       fsum.replaceChildren(num(fires.detections) + " detections in " + num(fires.cells.length) + " half-degree cells, "
         + when(fires.window[0]) + " to " + when(fires.window[1]) + "; newest " + when(fires.newest)
-        + (via.indexOf("public files") >= 0 ? " (FIRMS public files, about three hours behind)" : " (FIRMS API)") + ".");
+        + (pub ? " (FIRMS public files, about three hours behind)" : " (FIRMS API)") + "."
+        + (none.length ? " No detections from " + none.join(" or ") + " in this read." : ""));
     } else {
       fsum.replaceChildren("No FIRMS data in this build.");
     }

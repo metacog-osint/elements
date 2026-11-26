@@ -411,6 +411,29 @@ class Firms(unittest.TestCase):
         self.assertFalse(any("/api/" in u for u in seen))
         self.assertIn("not a 32-character key", err)
 
+    def test_a_satellite_with_no_rows_is_named(self):
+        # Suomi-NPP's data delivery ended on 2 Nov 2026; its public files have been header-only (112 bytes) since 12 Nov.
+        seen = []
+        def fetch(url, timeout=40, max_bytes=None):
+            seen.append(url)
+            if "mapkey_status" in url:
+                return json.dumps({"transaction_limit": 5000, "current_transactions": 6}).encode(), None
+            return (FIRMS_HEAD.encode() if "VIIRS_SNPP_NRT" in url else firms_csv(FIRE_ROWS, "letter")), None
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": KEY}):
+            p, err = firms.collect_firms(None, NOW, fetch)
+        self.assertIsNone(err, "a header-only answer is a good read, not a failure")
+        self.assertEqual(p["via"], {"VIIRS_NOAA20_NRT": "api", "VIIRS_NOAA21_NRT": "api", "VIIRS_SNPP_NRT": "api (no rows)"})
+        self.assertEqual(p["rows"]["VIIRS_SNPP_NRT"], 0)
+        self.assertEqual(p["rows"]["VIIRS_NOAA20_NRT"], len(FIRE_ROWS))
+        s = firms.summary(p)
+        self.assertIn("cells via api; no rows from Suomi-NPP; key used 6 of 5000 transactions", s)
+        self.assertNotIn(KEY, s + json.dumps(p))
+        with patch.dict(os.environ, {"FIRMS_MAP_KEY": ""}):
+            p, _ = firms.collect_firms(None, NOW, lambda url, *a: ((FIRMS_HEAD.encode() if "SUOMI" in url
+                                                                     else firms_csv(FIRE_ROWS)), None))
+        self.assertEqual(p["via"]["VIIRS_SNPP_NRT"], "public files (no rows)")
+        self.assertIn("via public files; no rows from Suomi-NPP", firms.summary(p))
+
     def test_all_fail_keeps_old(self):
         with patch.dict(os.environ, {"FIRMS_MAP_KEY": ""}):
             p, err = firms.collect_firms({"cells": ["old"]}, NOW, firms_fetch({}, []))
