@@ -126,92 +126,6 @@
    ]
   },
   {
-   "id": "KSEW.CF.W.0008.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Eastern Strait of Juan de Fuca",
-    "Western Strait of Juan de Fuca",
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031"
-   ],
-   "sent": "2026-11-26T17:55:00Z",
-   "onset": "2026-11-26T18:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef6a3627f61e3579a73661cfbf41ff492282a55f.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ]
-   ],
-   "lon": -123.748,
-   "lat": 47.676,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-26T18:01:00Z",
-   "onset": "2026-11-26T18:01:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd94a18d5c39c2acc09e91cb6dee7040b699ac93.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -800,6 +714,92 @@
    ],
    "lon": -73.874,
    "lat": 40.787,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMFR.CF.W.0001.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Medford OR",
+   "areas": [
+    "South Central Oregon Coast",
+    "Curry County Coast"
+   ],
+   "counties": [
+    "41011",
+    "41015",
+    "41019"
+   ],
+   "sent": "2026-11-26T21:44:00Z",
+   "onset": "2026-11-26T21:44:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8db40f6cc3f6de89b1d21e02ef8fb7c8b884a6b7.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -124.0941,
+     43.1859
+    ],
+    [
+     -124.2109,
+     42.4664
+    ],
+    [
+     -123.1545,
+     43.2863
+    ]
+   ],
+   "lon": -123.82,
+   "lat": 42.98,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0008.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Eastern Strait of Juan de Fuca",
+    "Western Strait of Juan de Fuca",
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031"
+   ],
+   "sent": "2026-11-26T21:49:00Z",
+   "onset": "2026-11-26T21:49:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3eea70474b9c089dcb8d1b01b99f4ae1059cc267.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ]
+   ],
+   "lon": -123.748,
+   "lat": 47.676,
    "countries": [
     "US"
    ]
@@ -2590,71 +2590,6 @@
    ]
   },
   {
-   "id": "KMHX.FL.W.0002.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Pitt, NC"
-   ],
-   "counties": [
-    "37147"
-   ],
-   "sent": "2026-11-26T20:34:00Z",
-   "onset": "2026-11-26T20:34:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6a386fca6c687be7aca07cbe21f538ea1d0bc82.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.4,
-       35.59
-      ],
-      [
-       -77.37,
-       35.61
-      ],
-      [
-       -77.34,
-       35.61
-      ],
-      [
-       -77.34,
-       35.6
-      ],
-      [
-       -77.37,
-       35.58
-      ],
-      [
-       -77.4,
-       35.58
-      ],
-      [
-       -77.4,
-       35.59
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -77.3727,
-     35.5925
-    ]
-   ],
-   "lon": -77.374,
-   "lat": 35.594,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMHX.FL.W.0001.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -3632,10 +3567,10 @@
    "certainty": "Likely",
    "sender": "NWS Boston/Norton MA",
    "areas": [
+    "Block Island",
     "Barnstable",
     "Dukes",
-    "Nantucket",
-    "Block Island"
+    "Nantucket"
    ],
    "counties": [
     "25001",
@@ -3644,9 +3579,9 @@
     "44009"
    ],
    "sent": "2026-11-26T14:12:00Z",
-   "onset": "2026-11-26T17:00:00Z",
+   "onset": "2026-11-26T15:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3907,9 +3842,9 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
+    "Judith Basin County and Judith Gap",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "Judith Basin County and Judith Gap"
+    "Southern High Plains"
    ],
    "counties": [
     "30027",
@@ -4091,56 +4026,6 @@
    ],
    "lon": -73.867,
    "lat": 40.733,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Inland Worcester",
-    "Maryland Beaches"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047"
-   ],
-   "sent": "2026-11-26T19:22:00Z",
-   "onset": "2026-11-26T19:22:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e472ff46ba34ddadce0509d9758d2bf8f261afe6.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ]
-   ],
-   "lon": -75.711,
-   "lat": 38.273,
    "countries": [
     "US"
    ]
@@ -4397,49 +4282,6 @@
    ],
    "lon": -75.208,
    "lat": 39.939,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLWX.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Western Garrett",
-    "Western Grant",
-    "Western Pendleton"
-   ],
-   "counties": [
-    "24023",
-    "54023",
-    "54071"
-   ],
-   "sent": "2026-11-26T20:57:00Z",
-   "onset": "2026-11-26T20:57:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e296a037c9df0955d3822166de7a7e8c065c016.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -79.2746,
-     39.5473
-    ],
-    [
-     -79.1951,
-     39.106
-    ],
-    [
-     -79.3406,
-     38.6745
-    ]
-   ],
-   "lon": -79.27,
-   "lat": 39.109,
    "countries": [
     "US"
    ]
@@ -4707,18 +4549,18 @@
    "certainty": "Observed",
    "sender": "NWS Upton NY",
    "areas": [
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
-    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
-    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
     "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
     "Long Island Sound East of the Mouth of the Connecticut River",
     "Long Island Sound West of New Haven CT/Port Jefferson NY",
     "New York Harbor",
     "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay"
+    "South Shore Bays from Jones Inlet through Shinnecock Bay",
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
+    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
+    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM"
    ],
    "counties": [
     "73331",
@@ -4737,7 +4579,7 @@
    "sent": "2026-11-26T19:16:00Z",
    "onset": "2026-11-26T19:16:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4755,9 +4597,9 @@
    "certainty": "Observed",
    "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
@@ -4787,7 +4629,7 @@
    "sent": "2026-11-26T19:42:00Z",
    "onset": "2026-11-26T19:42:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.739bc6e11b5a5558baa0636440279595522246fa.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.739bc6e11b5a5558baa0636440279595522246fa.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
