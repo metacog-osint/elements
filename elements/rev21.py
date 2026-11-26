@@ -136,6 +136,8 @@ def _lane_fields(p: dict) -> None:
     elif kind == "firms":
         event(p, m.get("window_start"), m.get("window_end"))
         signal(p, "VIIRS fire and heat detections, past 24 hours", m.get("detections"), "detections")
+        if "signal" in p and m.get("baseline_median") is not None:   # the country's baseline (feed.fire_baseline)
+            p["signal"].update({"expected": m["baseline_median"], "tail": "high", "baseline_n": m["baseline_days"]})
 
 
 def regrade(p: dict) -> None:

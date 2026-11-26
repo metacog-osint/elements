@@ -11,7 +11,7 @@ from .common import ROOT, country_name, country_point  # first: puts the doctrin
 from tic_doctrine import CONTRACT, __version__ as KIT, contract, geo, registers, vocab  # noqa: E402
 from . import rev21  # noqa: E402
 
-METHOD = "elements-feed-1.1"
+METHOD = "elements-feed-1.2"
 CEMS_DAYS = 60
 SRC = {
     "usgs": {"id": "usgs-earthquakes", "publisher": "US Geological Survey", "licence": "US public domain", "grade": "A1",
@@ -63,6 +63,10 @@ SRC["nifc"] = {"id": "nifc-wfigs", "publisher": "National Interagency Fire Cente
 NEIC = "NEIC"        # USGS's National Earthquake Information Center: an EMSC event carrying its solution is not independent
 FIRE_ACRES_MIN = 100  # a wildfire needs this size to get a feed item (the map shows every one)
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
+FIRE_BASE_DAYS = 28  # a country's fire baseline: the median of its daily detections over the past 28 complete UTC days
+FIRE_BASE_MIN = 14   # routine until the baseline holds this many days
+FIRE_MULT = 3        # anomaly at 3 times the baseline median...
+FIRE_FLOOR = 50      # ...and at least this many detections in 24 hours
 FIRE_KEEP = 5  # a country item already open in the history state stays while it has this many, so it does not
                # end and reopen each time its count crosses FIRE_MIN
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
@@ -426,6 +430,19 @@ def _pt(lon, lat):
     return {"type": "Point", "coordinates": [lon, lat]} if lon is not None and lat is not None else None
 
 
+def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
+    """The country's baseline from data/firms_daily.json: the median of its detections over the past FIRE_BASE_DAYS
+    complete UTC days before today (a day the file holds without the country counts 0), or None under
+    FIRE_BASE_MIN days."""
+    prior = sorted(k for k in days if k < today)[-FIRE_BASE_DAYS:]
+    if len(prior) < FIRE_BASE_MIN:
+        return None
+    v = sorted((days[k] or {}).get(cc, 0) for k in prior)
+    m = len(v) // 2
+    med = v[m] if len(v) % 2 else (v[m - 1] + v[m]) / 2
+    return {"median": med, "n": len(prior), "start": prior[0], "end": prior[-1]}
+
+
 def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None,
           ended: list | None = None, open_ids: set | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
@@ -566,6 +583,8 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
     window = fp.get("window") or [None, None]
     if open_ids is None:
         open_ids = set((state or {}).get("open") or {})
+    fire_days = (d.get("firms_daily") or {}).get("days") or {}
+    today = now.strftime("%Y-%m-%d")
     for cc, a in sorted(by_cc.items()):
         if a["n"] < (FIRE_KEEP if f"elements:firms:{cc}" in open_ids else FIRE_MIN):
             continue
@@ -581,6 +600,16 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
                           "frp_sum_mw": round(a["frp"], 1), "frp_max_mw": round(a["max"], 1), "cells": a["cells"],
                           "cell_deg": fp.get("cell_deg"), "window_start": window[0], "window_end": window[1],
                           "note": "Detections, not fires: each overpass counts, and gas flares and other heat sources are included"}}
+        base = fire_baseline(fire_days, cc, today)
+        if base is not None:
+            med = base["median"]
+            p["measures"].update({"baseline_median": med, "baseline_days": base["n"]})
+            p["baseline_ref"] = {"id": "firms-country-median", "type": "rolling", "version": "1",
+                                 "window": f"median of daily detections, {base['start']} to {base['end']} "
+                                           f"({base['n']} complete UTC days); anomaly at {FIRE_MULT} times the median "
+                                           f"and at least {FIRE_FLOOR} detections"}
+            if a["n"] >= FIRE_FLOOR and a["n"] >= FIRE_MULT * med:
+                p["tier"] = "anomaly"
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
     subdivide(feats)

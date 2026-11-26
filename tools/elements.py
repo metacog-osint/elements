@@ -84,7 +84,7 @@ def collect() -> dict:
 def data() -> dict:
     h = load("health.json", {})
     return {k: {"records": (load(f"{k}.json", {}) or {}).get("records") or [], "fetched_at": (h.get(src) or {}).get("last_ok")}
-            for k, src in LANES.items()} | {"health": h}
+            for k, src in LANES.items()} | {"health": h, "firms_daily": load("firms_daily.json", {})}
 
 
 def caught_items(d: dict, now: datetime) -> list:

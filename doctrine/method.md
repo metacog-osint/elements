@@ -29,9 +29,14 @@ item per country with at least 10 detections; an item already open stays while i
 count near the floor does not end and reopen the item from one run to the next. The cells themselves are in
 `fires.json`, not the feed.
 
-Fire items carry no anomaly tier yet: there is no baseline. `data/firms_daily.json` records each country's detections
-per complete UTC day from 31 Oct 2026, so a baseline can be set once enough history exists. FIRMS's archive could
-supply a seasonal one sooner.
+`data/firms_daily.json` records each country's detections per complete UTC day from 30 Oct 2026. A country's
+baseline is the median of its daily detections over the past 28 complete UTC days (a day on file without the country
+counts as 0). A fire item is an anomaly when its 24-hour count is at least 3 times that median and at least 50
+detections; it stays routine until the file holds 14 days. The item carries the count as `signal`, the median as
+`signal.expected` and the window in `baseline_ref` (`firms-country-median`, rolling). On the 27 days on file
+(30 Oct to 25 Nov 2026), the rule would have flagged 63 of 2,005 country-days (3.1%), under the 5% flag rate the
+contract allows for a series. The baseline is not seasonal: a country entering its fire season rises against its own
+past four weeks and is flagged while the median catches up. Method elements-feed-1.2.
 
 ## Volcanoes
 USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
