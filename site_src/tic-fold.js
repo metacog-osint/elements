@@ -1,4 +1,4 @@
-/*! tic-fold.js v2.2 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
+/*! tic-fold.js v2.3 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
  *  tall, its header kept in view, with "Show all N" beside it ·
  *  canonical copy: the hub's site/shared/tic-fold.js (copy into each site with
  *  tic-fold.css; keep the version line).
@@ -38,6 +38,9 @@
  *  hiding or showing one re-applies the window.
  *  2.2 (21 Nov 2026): after a link lands on a row, the second landing a frame later runs only if the layout
  *  moved. It used to run regardless, and pulled back a reader who had scrolled in that frame.
+ *  2.3 (21 Nov 2026): a box that is not a window but scrolls sideways (a wide table on a phone) is focusable too,
+ *  a named region, so a keyboard reader can scroll it (axe scrollable-region-focusable). It is checked again when
+ *  the width changes or a tic-tabs group is shown.
  */
 (function () {
   "use strict";
@@ -178,10 +181,11 @@
       st.win = win;
       var boxed = win && !st.open;
       box.classList.toggle("tic-fold-win", boxed);
-      if (boxed) {
+      var wide = !boxed && box.scrollWidth > box.clientWidth + 1;
+      if (boxed || wide) {
         box.setAttribute("tabindex", "0");
         box.setAttribute("role", "region");
-        box.setAttribute("aria-label", nameOf(el, box) + ": " + matched + " " + word(el) + ", in a window that scrolls");
+        box.setAttribute("aria-label", nameOf(el, box) + ": " + matched + " " + word(el) + (boxed ? ", in a window that scrolls" : ", scrolls sideways"));
       } else {
         box.removeAttribute("tabindex");
         box.removeAttribute("role");
@@ -293,8 +297,17 @@
     if (mq.addEventListener) mq.addEventListener("change", onChange); else if (mq.addListener) mq.addListener(onChange);
     // Web fonts and images change row heights after the first measure.
     window.addEventListener("load", function () { all.forEach(function (s) { s.measure(); }); });
+    // A box's sideways overflow depends on the width and on its group being shown.
+    var again = false;
+    var recheck = function () {
+      if (again) return;
+      again = true;
+      requestAnimationFrame(function () { again = false; all.forEach(function (s) { s.apply(); }); });
+    };
+    window.addEventListener("resize", recheck);
+    document.addEventListener("tic-tabs:show", recheck);
   }
 
-  window.TicFold = { version: "2.2", setup: setup, scan: scanNew };
+  window.TicFold = { version: "2.3", setup: setup, scan: scanNew };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
 })();
