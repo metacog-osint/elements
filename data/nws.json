@@ -500,6 +500,9 @@
    "sender": "NWS Upton NY",
    "areas": [
     "Northeast Suffolk",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -507,9 +510,6 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Queens",
     "Southeast Suffolk",
     "Hudson",
@@ -1774,427 +1774,6 @@
    ]
   },
   {
-   "id": "KAKQ.FA.A.0007.2026",
-   "event": "Flood Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Fluvanna",
-    "Prince Edward",
-    "Cumberland",
-    "Goochland",
-    "Caroline",
-    "Mecklenburg",
-    "Lunenburg",
-    "Nottoway",
-    "Amelia",
-    "Powhatan",
-    "Western Louisa",
-    "Eastern Louisa",
-    "Western Hanover",
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Westmoreland",
-    "Richmond",
-    "Northumberland",
-    "Lancaster",
-    "Gloucester",
-    "Middlesex",
-    "Mathews",
-    "Accomack",
-    "Northampton",
-    "Western King William",
-    "Eastern King William",
-    "Western King and Queen",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex",
-    "Hertford",
-    "Gates",
-    "Pasquotank",
-    "Camden",
-    "Western Currituck",
-    "Bertie",
-    "Chowan",
-    "Perquimans",
-    "Eastern Currituck",
-    "Brunswick",
-    "Dinwiddie",
-    "Prince George",
-    "Charles City",
-    "New Kent",
-    "Greensville",
-    "Sussex",
-    "Surry",
-    "James City",
-    "Southampton",
-    "Chesapeake",
-    "Virginia Beach",
-    "Eastern Hanover",
-    "Western Chesterfield",
-    "Eastern Chesterfield (Including Col. Heights)",
-    "Western Henrico (Including the City of Richmond)",
-    "Eastern Henrico",
-    "York",
-    "Newport News",
-    "Hampton/Poquoson",
-    "Isle of Wight",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "37015",
-    "37029",
-    "37041",
-    "37053",
-    "37073",
-    "37091",
-    "37131",
-    "37139",
-    "37143",
-    "51001",
-    "51007",
-    "51025",
-    "51033",
-    "51036",
-    "51041",
-    "51049",
-    "51053",
-    "51057",
-    "51065",
-    "51073",
-    "51075",
-    "51081",
-    "51085",
-    "51087",
-    "51093",
-    "51095",
-    "51097",
-    "51101",
-    "51103",
-    "51109",
-    "51111",
-    "51115",
-    "51117",
-    "51119",
-    "51127",
-    "51131",
-    "51133",
-    "51135",
-    "51145",
-    "51147",
-    "51149",
-    "51159",
-    "51175",
-    "51181",
-    "51183",
-    "51193",
-    "51199",
-    "51550",
-    "51570",
-    "51595",
-    "51620",
-    "51650",
-    "51670",
-    "51700",
-    "51710",
-    "51730",
-    "51735",
-    "51740",
-    "51760",
-    "51800",
-    "51810",
-    "51830"
-   ],
-   "sent": "2026-11-25T16:20:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-26T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13b5db38e3e057a0549e02d0b8e05fc5699d4245.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -76.9624,
-     36.059
-    ],
-    [
-     -76.1625,
-     36.3423
-    ],
-    [
-     -76.6028,
-     36.129
-    ],
-    [
-     -75.9412,
-     36.3722
-    ],
-    [
-     -76.7024,
-     36.4421
-    ],
-    [
-     -76.9816,
-     36.3635
-    ],
-    [
-     -77.3984,
-     36.4218
-    ],
-    [
-     -76.2607,
-     36.2652
-    ],
-    [
-     -76.4032,
-     36.1809
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -77.9775,
-     37.3319
-    ],
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.3537,
-     38.028
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -77.5858,
-     37.3784
-    ],
-    [
-     -78.2528,
-     37.5202
-    ],
-    [
-     -77.6355,
-     37.0735
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -78.2835,
-     37.8306
-    ],
-    [
-     -76.5235,
-     37.4035
-    ],
-    [
-     -77.9176,
-     37.7188
-    ],
-    [
-     -77.5603,
-     36.6803
-    ],
-    [
-     -77.4913,
-     37.7602
-    ],
-    [
-     -77.3003,
-     37.4375
-    ],
-    [
-     -76.7076,
-     36.9014
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.4127,
-     37.7048
-    ],
-    [
-     -77.9598,
-     37.9727
-    ],
-    [
-     -78.2405,
-     36.9456
-    ],
-    [
-     -76.2688,
-     37.4253
-    ],
-    [
-     -78.369,
-     36.6873
-    ],
-    [
-     -76.5281,
-     37.607
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -75.924,
-     37.3028
-    ],
-    [
-     -76.3797,
-     37.857
-    ],
-    [
-     -78.0539,
-     37.1412
-    ],
-    [
-     -77.9129,
-     37.5494
-    ],
-    [
-     -78.433,
-     37.2249
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -77.1038,
-     36.7201
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -77.2597,
-     36.9266
-    ],
-    [
-     -76.8039,
-     38.1093
-    ],
-    [
-     -76.3955,
-     37.2209
-    ],
-    [
-     -76.3018,
-     36.6794
-    ],
-    [
-     -77.3968,
-     37.2617
-    ],
-    [
-     -77.536,
-     36.6962
-    ],
-    [
-     -76.9414,
-     36.684
-    ],
-    [
-     -76.2973,
-     37.048
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -76.522,
-     37.0761
-    ],
-    [
-     -76.2446,
-     36.923
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -76.3035,
-     37.1284
-    ],
-    [
-     -76.357,
-     36.8593
-    ],
-    [
-     -77.476,
-     37.5314
-    ],
-    [
-     -76.6348,
-     36.6972
-    ],
-    [
-     -76.0291,
-     36.7795
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -76.948,
-   "lat": 37.221,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMHX.FA.A.0005.2026",
    "event": "Flood Watch",
    "severity": "Severe",
@@ -2753,6 +2332,427 @@
    ],
    "lon": -79.954,
    "lat": 36.927,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.FA.A.0007.2026",
+   "event": "Flood Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Inland Worcester",
+    "Maryland Beaches",
+    "Westmoreland",
+    "Richmond",
+    "Northumberland",
+    "Lancaster",
+    "Gloucester",
+    "Middlesex",
+    "Mathews",
+    "Accomack",
+    "Northampton",
+    "Western King William",
+    "Eastern King William",
+    "Western King and Queen",
+    "Eastern King and Queen",
+    "Western Essex",
+    "Eastern Essex",
+    "Hertford",
+    "Gates",
+    "Pasquotank",
+    "Camden",
+    "Western Currituck",
+    "Bertie",
+    "Chowan",
+    "Perquimans",
+    "Eastern Currituck",
+    "Fluvanna",
+    "Prince Edward",
+    "Cumberland",
+    "Goochland",
+    "Caroline",
+    "Mecklenburg",
+    "Lunenburg",
+    "Nottoway",
+    "Amelia",
+    "Powhatan",
+    "Brunswick",
+    "Dinwiddie",
+    "Prince George",
+    "Charles City",
+    "New Kent",
+    "Greensville",
+    "Sussex",
+    "Surry",
+    "James City",
+    "Southampton",
+    "Chesapeake",
+    "Virginia Beach",
+    "Western Louisa",
+    "Eastern Louisa",
+    "Western Hanover",
+    "Eastern Hanover",
+    "Western Chesterfield",
+    "Eastern Chesterfield (Including Col. Heights)",
+    "Western Henrico (Including the City of Richmond)",
+    "Eastern Henrico",
+    "York",
+    "Newport News",
+    "Hampton/Poquoson",
+    "Isle of Wight",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "37015",
+    "37029",
+    "37041",
+    "37053",
+    "37073",
+    "37091",
+    "37131",
+    "37139",
+    "37143",
+    "51001",
+    "51007",
+    "51025",
+    "51033",
+    "51036",
+    "51041",
+    "51049",
+    "51053",
+    "51057",
+    "51065",
+    "51073",
+    "51075",
+    "51081",
+    "51085",
+    "51087",
+    "51093",
+    "51095",
+    "51097",
+    "51101",
+    "51103",
+    "51109",
+    "51111",
+    "51115",
+    "51117",
+    "51119",
+    "51127",
+    "51131",
+    "51133",
+    "51135",
+    "51145",
+    "51147",
+    "51149",
+    "51159",
+    "51175",
+    "51181",
+    "51183",
+    "51193",
+    "51199",
+    "51550",
+    "51570",
+    "51595",
+    "51620",
+    "51650",
+    "51670",
+    "51700",
+    "51710",
+    "51730",
+    "51735",
+    "51740",
+    "51760",
+    "51800",
+    "51810",
+    "51830"
+   ],
+   "sent": "2026-11-26T02:40:00Z",
+   "onset": "2026-11-26T03:00:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9f3d7f96b59b08a530ba5a239b1f2d85a2d34235.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -76.9624,
+     36.059
+    ],
+    [
+     -76.1625,
+     36.3423
+    ],
+    [
+     -76.6028,
+     36.129
+    ],
+    [
+     -75.9412,
+     36.3722
+    ],
+    [
+     -76.7024,
+     36.4421
+    ],
+    [
+     -76.9816,
+     36.3635
+    ],
+    [
+     -77.3984,
+     36.4218
+    ],
+    [
+     -76.2607,
+     36.2652
+    ],
+    [
+     -76.4032,
+     36.1809
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -77.9775,
+     37.3319
+    ],
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.3537,
+     38.028
+    ],
+    [
+     -77.0542,
+     37.3611
+    ],
+    [
+     -77.5858,
+     37.3784
+    ],
+    [
+     -78.2528,
+     37.5202
+    ],
+    [
+     -77.6355,
+     37.0735
+    ],
+    [
+     -76.9337,
+     37.9364
+    ],
+    [
+     -78.2835,
+     37.8306
+    ],
+    [
+     -76.5235,
+     37.4035
+    ],
+    [
+     -77.9176,
+     37.7188
+    ],
+    [
+     -77.5603,
+     36.6803
+    ],
+    [
+     -77.4913,
+     37.7602
+    ],
+    [
+     -77.3003,
+     37.4375
+    ],
+    [
+     -76.7076,
+     36.9014
+    ],
+    [
+     -76.7779,
+     37.3248
+    ],
+    [
+     -76.9056,
+     37.7178
+    ],
+    [
+     -77.0911,
+     37.7083
+    ],
+    [
+     -76.4127,
+     37.7048
+    ],
+    [
+     -77.9598,
+     37.9727
+    ],
+    [
+     -78.2405,
+     36.9456
+    ],
+    [
+     -76.2688,
+     37.4253
+    ],
+    [
+     -78.369,
+     36.6873
+    ],
+    [
+     -76.5281,
+     37.607
+    ],
+    [
+     -76.9993,
+     37.5102
+    ],
+    [
+     -75.924,
+     37.3028
+    ],
+    [
+     -76.3797,
+     37.857
+    ],
+    [
+     -78.0539,
+     37.1412
+    ],
+    [
+     -77.9129,
+     37.5494
+    ],
+    [
+     -78.433,
+     37.2249
+    ],
+    [
+     -77.221,
+     37.1873
+    ],
+    [
+     -76.7306,
+     37.9429
+    ],
+    [
+     -77.1038,
+     36.7201
+    ],
+    [
+     -76.8802,
+     37.1198
+    ],
+    [
+     -77.2597,
+     36.9266
+    ],
+    [
+     -76.8039,
+     38.1093
+    ],
+    [
+     -76.3955,
+     37.2209
+    ],
+    [
+     -76.3018,
+     36.6794
+    ],
+    [
+     -77.3968,
+     37.2617
+    ],
+    [
+     -77.536,
+     36.6962
+    ],
+    [
+     -76.9414,
+     36.684
+    ],
+    [
+     -76.2973,
+     37.048
+    ],
+    [
+     -77.2989,
+     37.291
+    ],
+    [
+     -76.522,
+     37.0761
+    ],
+    [
+     -76.2446,
+     36.923
+    ],
+    [
+     -77.3924,
+     37.2047
+    ],
+    [
+     -76.3035,
+     37.1284
+    ],
+    [
+     -76.357,
+     36.8593
+    ],
+    [
+     -77.476,
+     37.5314
+    ],
+    [
+     -76.6348,
+     36.6972
+    ],
+    [
+     -76.0291,
+     36.7795
+    ],
+    [
+     -76.7082,
+     37.2695
+    ]
+   ],
+   "lon": -76.948,
+   "lat": 37.221,
    "countries": [
     "US"
    ]
@@ -3713,6 +3713,55 @@
    ],
    "lon": -90.213,
    "lat": 30.798,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMOB.FZ.A.0002.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Perry",
+    "Greene",
+    "Stone",
+    "George"
+   ],
+   "counties": [
+    "28039",
+    "28041",
+    "28111",
+    "28131"
+   ],
+   "sent": "2026-11-26T02:44:00Z",
+   "onset": "2026-11-27T09:00:00Z",
+   "ends": "2026-11-27T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b730d9b599688b739ad39c8a7625e328964f9799.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -88.6423,
+     30.8554
+    ],
+    [
+     -88.6348,
+     31.2128
+    ],
+    [
+     -88.9888,
+     31.1693
+    ],
+    [
+     -89.1123,
+     30.7902
+    ]
+   ],
+   "lon": -88.845,
+   "lat": 31.007,
    "countries": [
     "US"
    ]
@@ -4773,6 +4822,15 @@
    "areas": [
     "Pasquotank",
     "Camden",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Surry",
+    "Chesapeake",
+    "Virginia Beach",
+    "Isle of Wight",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "Northumberland",
@@ -4786,15 +4844,6 @@
     "York",
     "Newport News",
     "Hampton/Poquoson",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Surry",
-    "Chesapeake",
-    "Virginia Beach",
-    "Isle of Wight",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
     "Dorchester",
     "Wicomico",
     "Somerset",
@@ -5129,18 +5178,18 @@
    "certainty": "Likely",
    "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
-    "St. Marys",
     "Western Garrett",
     "Western Highland",
     "Western Grant",
     "Western Pendleton",
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge",
     "Cecil",
     "Southern Baltimore",
     "Anne Arundel",
     "Calvert",
-    "Southeast Harford"
+    "Southeast Harford",
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
+    "St. Marys"
    ],
    "counties": [
     "24003",
@@ -5169,7 +5218,7 @@
    "sent": "2026-11-26T01:22:00Z",
    "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5414,60 +5463,6 @@
    ]
   },
   {
-   "id": "KKEY.MA.W.0425.2026",
-   "event": "Special Marine Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Likely",
-   "sender": "NWS Key West FL",
-   "areas": [
-    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
-    "Straits of Florida from Ocean Reef to Craig Key out 20 NM"
-   ],
-   "counties": [
-    "77042",
-    "77052"
-   ],
-   "sent": "2026-11-26T02:25:00Z",
-   "onset": "2026-11-26T02:25:00Z",
-   "ends": "2026-11-26T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40e16923d81360c49b310cde1d4fed7b019d6051.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.27,
-       24.81
-      ],
-      [
-       -80.55,
-       24.82
-      ],
-      [
-       -80.32,
-       25.22
-      ],
-      [
-       -80.05,
-       25.09
-      ],
-      [
-       -80.27,
-       24.81
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [],
-   "lon": -80.292,
-   "lat": 24.95,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBOX.SR.W.0006.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5662,9 +5657,9 @@
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
     "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
     "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
