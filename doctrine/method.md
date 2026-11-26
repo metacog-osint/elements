@@ -18,7 +18,9 @@ none). Cyclones, droughts and floods reach well beyond their point.
 VIIRS detections from NOAA-20, NOAA-21 and Suomi-NPP, nominal and high confidence, from the past 24 hours, gathered into
 half-degree cells. With the free FIRMS key Elements uses the FIRMS area API, which adds real-time and ultra-real-time
 detections; without it, or when the API fails for a satellite, it reads FIRMS's public files (near-real-time only,
-about three hours behind). The health line says which was used and how many of the key's transactions a run spent.
+about three hours behind). The health line says which was used and how many of the key's transactions a run spent,
+and names a satellite that answered with no rows. Suomi-NPP's data delivery ended on 2 Nov 2026 (NOAA NESDIS); it is
+still asked, and shows as "no rows".
 
 These are detections, not fires. A fire is counted again on each overpass of each satellite, and FIRMS's
 near-real-time data does not separate fires from gas flares, volcanoes and industrial heat sources. Each cell is

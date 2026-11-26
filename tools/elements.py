@@ -175,7 +175,7 @@ def build() -> dict:
     (OUT / "data" / "ended.geojson").write_text(json.dumps(ended, ensure_ascii=False, separators=(",", ":")) + "\n",
                                                 encoding="utf-8", newline="\n")
     fp = d["firms"]["records"] or {}
-    fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via")}
+    fires = {k: fp.get(k) for k in ("window", "detections", "newest", "cell_deg", "columns", "cells", "via", "rows")}
     fires["names"] = {cc: country_name(cc) for cc in sorted({c[7] for c in fp.get("cells") or [] if c[7]})}
     wildfires = {"fires": [{k: w.get(k) for k in ("name", "acres", "contained", "discovered", "updated", "state", "county", "lon", "lat")}
                            for w in d["nifc"]["records"] or []]}

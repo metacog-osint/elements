@@ -20,7 +20,7 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | GDACS event list (EC Joint Research Centre and UN OCHA), current events from the past 14 days | Alerts for cyclones, floods, droughts, volcanoes, earthquakes and wildfires | Reuse with attribution |
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
-| NASA FIRMS (VIIRS on NOAA-20, NOAA-21 and Suomi-NPP), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
+| NASA FIRMS (VIIRS on NOAA-20 and NOAA-21; Suomi-NPP still asked, its data delivery ended 2 Nov 2026), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
 
 ## How it reads the sources
 

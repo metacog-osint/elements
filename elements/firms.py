@@ -8,7 +8,12 @@ URL, and nothing FIRMS sends back is echoed.
 
 Detections are not fires. A fire is seen again on each overpass, and FIRMS's near-real-time data does not separate
 fires from gas flares, volcanoes and industrial heat sources. Low-confidence detections are left out of the cells, the
-page and the feed; they are aggregated apart under `low` and stored only in the monthly release (firms_store.py)."""
+page and the feed; they are aggregated apart under `low` and stored only in the monthly release (firms_store.py).
+
+A satellite that answers with a header and no rows is a good read with nothing in it, not a failure: `via` names it
+"api (no rows)" or "public files (no rows)", `rows` gives each satellite's row count, and the health line names it.
+Suomi-NPP's data delivery ended on 2 Nov 2026 (NOAA NESDIS, decommissioning); its public files have been header-only
+since 12 Nov 2026."""
 import csv
 import io
 import json
@@ -24,6 +29,8 @@ PUBLIC = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/{path}"
 SENSORS = {"VIIRS_NOAA20_NRT": "noaa-20-viirs-c2/csv/J1_VIIRS_C2_Global_24h.csv",
            "VIIRS_NOAA21_NRT": "noaa-21-viirs-c2/csv/J2_VIIRS_C2_Global_24h.csv",
            "VIIRS_SNPP_NRT": "suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_24h.csv"}
+NAMES = {"VIIRS_NOAA20_NRT": "NOAA-20", "VIIRS_NOAA21_NRT": "NOAA-21", "VIIRS_SNPP_NRT": "Suomi-NPP"}
+NO_ROWS = " (no rows)"
 CELL = 0.5                     # degrees
 MAX_BYTES = 48 * 1024 * 1024   # one satellite's two days is about 8 MB
 KEY_RE = re.compile(r"^[0-9a-z]{32}$")
@@ -121,7 +128,7 @@ def collect_firms(old, now: datetime | None = None, fetch=fetch_or_none):
     now = now or datetime.now(timezone.utc)
     key, problem = map_key()
     notes = [problem] if problem else []
-    via, dets, lows = {}, [], []
+    via, dets, lows, rows = {}, [], [], {}
     for sensor, path in SENSORS.items():
         body = None
         if key:
@@ -141,12 +148,16 @@ def collect_firms(old, now: datetime | None = None, fetch=fetch_or_none):
                 continue
             via[sensor] = "public files"
         kept, low = parse_split(body)
+        rows[sensor] = len(kept) + len(low)
+        if not rows[sensor]:
+            via[sensor] += NO_ROWS
         dets += kept
         lows += low
     if not via:
         return old or {}, "; ".join(notes) or "no satellite answered"
     payload = aggregate(dets, now)
     payload["via"] = via
+    payload["rows"] = rows
     payload["low"] = {k: v for k, v in aggregate(lows, now).items() if k != "daily"}
     if "api" in via.values():
         body, _ = fetch(STATUS.format(key=key), 30, 64 * 1024)
@@ -162,7 +173,8 @@ def update_history(history: dict, payload: dict, today: str) -> dict:
     for day, counts in (payload.get("daily") or {}).items():
         if day < today:
             days[day] = counts
-    return {"note": "VIIRS nominal and high-confidence detections (NOAA-20, NOAA-21, Suomi-NPP) per country per UTC day, "
+    return {"note": "VIIRS nominal and high-confidence detections (NOAA-20, NOAA-21, and Suomi-NPP until its data delivery "
+                    "ended on 2 Nov 2026) per country per UTC day, "
                     "counted to the country at each half-degree cell's centre of detections.",
             "days": {d: days[d] for d in sorted(days)}}
 
@@ -170,9 +182,12 @@ def update_history(history: dict, payload: dict, today: str) -> dict:
 def summary(payload: dict) -> str:
     if not payload or not payload.get("cells"):
         return "no detections"
-    via = sorted(set((payload.get("via") or {}).values()))
+    ways = payload.get("via") or {}
+    via = sorted({v.removesuffix(NO_ROWS) for v in ways.values()})
+    empty = [NAMES.get(k, k) for k, v in ways.items() if v.endswith(NO_ROWS)]
     st = payload.get("key_status") or {}
     used = next((v for k, v in st.items() if "current" in k.lower()), None)
     limit = next((v for k, v in st.items() if "limit" in k.lower()), None)
     return (f"{payload['detections']:,} detections in {len(payload['cells']):,} cells via {' and '.join(via)}"
+            + (f"; no rows from {' or '.join(empty)}" if empty else "")
             + (f"; key used {used} of {limit} transactions" if used is not None and limit is not None else ""))
