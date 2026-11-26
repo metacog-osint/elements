@@ -200,7 +200,25 @@ class Drought(unittest.TestCase):
             self.assertEqual([m for _, sev, m in contract.check(f, regs) if sev == "error"], [])
         p = [f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:usdm:us"][0]
         self.assertEqual(p["title"], "US Drought Monitor, week of 27 Oct 2026: 41.4% of the US in drought, 22.4% severe or worse")
-        self.assertEqual((p["measures"]["change_d2"], p["valid_until"]), (-1.62, "2026-11-02T12:00:00Z"))
+        # the map of 27 Oct (valid to 2 Nov) stands until the next release (5 Nov) plus two days
+        self.assertEqual((p["measures"]["change_d2"], p["valid_until"], p["measures"]["valid_end"]),
+                         (-1.62, "2026-11-07T12:00:00Z", "2026-11-02"))
+
+    def test_the_drought_item_is_never_on_the_feed_past_its_valid_until(self):
+        # 24 Nov 2026: valid_until 23 Nov 12:00Z (USDM's own valid period), still on the feed 16 h later
+        rec, _ = drought.collect({}, NOW, drought_fetch(STATS, MAP, []))
+        d = {k: {"records": [], "fetched_at": FETCHED} for k in ("usgs", "gdacs", "nhc", "cems")}
+        d["usdm"] = {"records": rec, "fetched_at": FETCHED}
+        def item(now):
+            fc = feed.build(d, now)
+            return [f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:usdm:us"]
+        monday_after = datetime(2026, 11, 3, 4, 0, tzinfo=timezone.utc)      # past USDM's own 2 Nov end
+        self.assertEqual(len(item(monday_after)), 1, "kept between its own end and the next release")
+        self.assertEqual(len(item(datetime(2026, 11, 7, 11, 59, tzinfo=timezone.utc))), 1)
+        self.assertEqual(item(datetime(2026, 11, 7, 12, 1, tzinfo=timezone.utc)), [], "no newer map by then: ended")
+        for now in (monday_after, datetime(2026, 11, 7, 11, 59, tzinfo=timezone.utc)):
+            for p in item(now):
+                self.assertGreaterEqual(p["valid_until"], now.strftime("%Y-%m-%dT%H:%M:%SZ"))
 
 
 if __name__ == "__main__":

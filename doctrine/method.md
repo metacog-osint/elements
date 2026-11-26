@@ -94,6 +94,9 @@ the centre's date may be wrong (PTWC's message for the 25 Oct 2026 Bonin Islands
 The US Drought Monitor's weekly statistics give one national item: the cumulative share of the US in each category.
 The map is fetched only when a new week appears and is snapped to a 0.05-degree grid for display. The Drought Monitor
 states no licence; Elements credits its three producers. No baseline yet: week-on-week change is reported, not judged.
+The item's `valid_until` is the next scheduled release (nine days after the map's date) plus two days, since the
+Drought Monitor's own valid period (kept as `measures.valid_end`) ends three days before the next map is out. With no
+newer map by then the item leaves the feed and the history log ends it.
 
 ## Earthquakes from two catalogues
 EMSC's catalogue is matched to USGS's: the same earthquake if the origin times are within 90 seconds and the epicentres
