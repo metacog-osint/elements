@@ -11,6 +11,19 @@
      "baseline": "none (an event)", "gentry": {"predictive": false, "diagnostic": true, "unambiguous": true, "collectable": true}},
     {"id": "EL-IND-4", "text": "An automated alert is lowered or withdrawn on revision", "series": "USGS and GDACS updates",
      "rule": "a later update lowers the alert", "baseline": "the first alert",
+     "gentry": {"predictive": false, "diagnostic": true, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-5", "text": "A US nuclear facility declares an NRC emergency class", "series": "NRC Event Notification Reports",
+     "rule": "emergency class Unusual Event, Alert, Site Area Emergency or General Emergency, not retracted",
+     "baseline": "Non Emergency (the NRC's emergency classes)",
+     "gentry": {"predictive": true, "diagnostic": true, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-6", "text": "A US power reactor unit reported at 0% after 20% or more the report before",
+     "series": "NRC Power Reactor Status Report",
+     "rule": "0% on the newest report after 20% or more, within 72 hours, on a unit whose earlier day pairs show such drops on 5% or fewer",
+     "baseline": "the unit's own earlier day pairs (rolling, up to 30)",
+     "gentry": {"predictive": false, "diagnostic": false, "unambiguous": true, "collectable": true}},
+    {"id": "EL-IND-7", "text": "An NRC event notification is retracted, or its emergency is reported terminated",
+     "series": "NRC Event Notification Reports", "rule": "the event's text carries a retraction or reports the emergency terminated",
+     "baseline": "the first report",
      "gentry": {"predictive": false, "diagnostic": true, "unambiguous": true, "collectable": true}}
   ],
   "warning_problems": [
@@ -24,6 +37,21 @@
        {"id": "EL-WP-1-H2", "statement": "A large hazard with limited impact (remote, prepared or offshore)",
         "emerging": ["EL-IND-2"], "not_emerging": ["EL-IND-3"]},
        {"id": "EL-WP-1-H3", "statement": "Artefact: an automated estimate later revised down", "emerging": ["EL-IND-4"], "not_emerging": []}
+     ]},
+    {"id": "EL-WP-2", "title": "A radiological emergency at a US nuclear facility", "frozen": "2026-11-26",
+     "proposed": "Drafted with the NRC lane (method elements-feed-1.2); for the program owner to confirm or change",
+     "watch_condition": {"current": "set per facility from EL-IND-5 and EL-IND-6", "levels": ["normal", "elevated", "emergency"]},
+     "issue_on_change": "Issue a notice when a facility declares an emergency class or a later report raises it; stay silent while it holds.",
+     "deactivation": "Back to normal when the report is retracted or the emergency reported terminated, and the 72-hour hold has passed.",
+     "hypotheses": [
+       {"id": "EL-WP-2-H1", "statement": "A threat off the site: a Site Area or General Emergency",
+        "emerging": ["EL-IND-5"], "not_emerging": ["EL-IND-7"]},
+       {"id": "EL-WP-2-H2", "statement": "An emergency declared and ended on the site (an Unusual Event or Alert, then terminated)",
+        "emerging": ["EL-IND-5", "EL-IND-7"], "not_emerging": []},
+       {"id": "EL-WP-2-H3", "statement": "A reactor stopped with no emergency declared",
+        "emerging": ["EL-IND-6"], "not_emerging": ["EL-IND-5"]},
+       {"id": "EL-WP-2-H4", "statement": "Artefact: a licensee's report later retracted, or a status figure corrected (the NRC publishes both unevaluated)",
+        "emerging": ["EL-IND-7"], "not_emerging": []}
      ]}
   ]
 }
