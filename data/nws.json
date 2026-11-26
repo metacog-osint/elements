@@ -5871,6 +5871,64 @@
    ]
   },
   {
+   "id": "KMHX.MA.W.0416.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75182",
+    "75184"
+   ],
+   "sent": "2026-11-26T11:42:00Z",
+   "onset": "2026-11-26T11:42:00Z",
+   "ends": "2026-11-26T12:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77fde02619c900ac083e3a913abc4824355f9d97.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.88,
+       34.58
+      ],
+      [
+       -75.1,
+       34.57
+      ],
+      [
+       -75.2,
+       35.16
+      ],
+      [
+       -75.19,
+       35.21
+      ],
+      [
+       -74.88,
+       35.23
+      ],
+      [
+       -74.88,
+       34.58
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -75.022,
+   "lat": 34.888,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KAKQ.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -6471,6 +6529,67 @@
    ]
   },
   {
+   "id": "KLSX.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Washington",
+    "Iron",
+    "Madison",
+    "Pike",
+    "Warren",
+    "Franklin"
+   ],
+   "counties": [
+    "29071",
+    "29093",
+    "29123",
+    "29163",
+    "29219",
+    "29221"
+   ],
+   "sent": "2026-11-26T12:02:00Z",
+   "onset": "2026-11-26T12:02:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bcd466135206f78f99b5c8a01c58d185ecc6900.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.0728,
+     38.413
+    ],
+    [
+     -90.6996,
+     37.626
+    ],
+    [
+     -90.3434,
+     37.4745
+    ],
+    [
+     -91.1716,
+     39.34
+    ],
+    [
+     -91.1593,
+     38.7619
+    ],
+    [
+     -90.897,
+     37.9426
+    ]
+   ],
+   "lon": -90.891,
+   "lat": 38.26,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLSX.WS.W.0002.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -6478,6 +6597,10 @@
    "certainty": "Likely",
    "sender": "NWS St Louis MO",
    "areas": [
+    "Audrain",
+    "Osage",
+    "Callaway",
+    "Montgomery",
     "Randolph",
     "St. Clair",
     "Monroe",
@@ -6487,10 +6610,6 @@
     "St. Louis",
     "St. Louis City",
     "Jefferson",
-    "Audrain",
-    "Osage",
-    "Callaway",
-    "Montgomery",
     "Crawford",
     "St. Francois",
     "Ste. Genevieve",
@@ -6515,10 +6634,10 @@
     "29189",
     "29510"
    ],
-   "sent": "2026-11-26T10:32:00Z",
-   "onset": "2026-11-26T10:32:00Z",
+   "sent": "2026-11-26T12:02:00Z",
+   "onset": "2026-11-26T12:02:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bcd466135206f78f99b5c8a01c58d185ecc6900.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -6593,67 +6712,6 @@
    ],
    "lon": -90.842,
    "lat": 38.418,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLSX.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS St Louis MO",
-   "areas": [
-    "Pike",
-    "Warren",
-    "Franklin",
-    "Washington",
-    "Iron",
-    "Madison"
-   ],
-   "counties": [
-    "29071",
-    "29093",
-    "29123",
-    "29163",
-    "29219",
-    "29221"
-   ],
-   "sent": "2026-11-26T10:32:00Z",
-   "onset": "2026-11-26T10:32:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c73faae4c650c872224319a6eae1df3a010e125.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.0728,
-     38.413
-    ],
-    [
-     -90.6996,
-     37.626
-    ],
-    [
-     -90.3434,
-     37.4745
-    ],
-    [
-     -91.1716,
-     39.34
-    ],
-    [
-     -91.1593,
-     38.7619
-    ],
-    [
-     -90.897,
-     37.9426
-    ]
-   ],
-   "lon": -90.891,
-   "lat": 38.26,
    "countries": [
     "US"
    ]
