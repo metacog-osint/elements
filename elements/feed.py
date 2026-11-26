@@ -11,7 +11,7 @@ from .common import ROOT, country_name, country_point  # first: puts the doctrin
 from tic_doctrine import CONTRACT, __version__ as KIT, contract, geo, registers, vocab  # noqa: E402
 from . import rev21  # noqa: E402
 
-METHOD = "elements-feed-1.1"
+METHOD = "elements-feed-1.2"
 CEMS_DAYS = 60
 SRC = {
     "usgs": {"id": "usgs-earthquakes", "publisher": "US Geological Survey", "licence": "US public domain", "grade": "A1",
@@ -60,6 +60,20 @@ SRC["nifc"] = {"id": "nifc-wfigs", "publisher": "National Interagency Fire Cente
                "licence": "No licence stated (not verified); US interagency incident data, credited", "grade": "A2",
                "independence_group": "nifc", "source_type": "official incident report",
                "descriptor": "Wildfire incident: size, containment, county and state"}
+SRC["nrc_events"] = {"id": "nrc-events", "publisher": "US Nuclear Regulatory Commission (NRC) Operations Center",
+                     "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/"
+                            "event-notification-reports",
+                     "licence": "US Government work, not subject to copyright (NRC site disclaimer, read 25 Nov 2026)",
+                     "grade": "B2", "independence_group": "nrc", "source_type": "regulator's record of licensee reports",
+                     "descriptor": "Event Notification Report: a licensee's report to the NRC Operations Center, with the "
+                                   "emergency class it declared (published unevaluated)"}
+SRC["nrc_status"] = {"id": "nrc-reactor-status", "publisher": "US Nuclear Regulatory Commission (NRC)",
+                     "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/"
+                            "power-reactor-status-reports",
+                     "licence": "US Government work, not subject to copyright (NRC site disclaimer, read 25 Nov 2026)",
+                     "grade": "B2", "independence_group": "nrc", "source_type": "regulator's record of licensee reports",
+                     "descriptor": "Power Reactor Status Report: each unit's power as a percentage of full, reported by "
+                                   "the licensee between 4 and 8 a.m. Eastern (unevaluated)"}
 NEIC = "NEIC"        # USGS's National Earthquake Information Center: an EMSC event carrying its solution is not independent
 FIRE_ACRES_MIN = 100  # a wildfire needs this size to get a feed item (the map shows every one)
 FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed item (the map shows every cell)
@@ -134,6 +148,164 @@ def _wildfire_items(d: dict, now: datetime) -> list[dict]:
                           "discovered": w.get("discovered"), "state": w.get("state"), "county": w.get("county"),
                           "cause": w.get("cause"), "complexity": w.get("complexity")}}
         out.append({"type": "Feature", "geometry": _pt(w["lon"], w["lat"]), "properties": p})
+    return out
+
+
+def _nrc_place(p: dict, row, county, state: str | None, page: str):
+    """A reactor's own point (FEMA's location of the unit), else the county's Census internal point, else the state
+    alone with no geometry."""
+    if row:
+        p["measures"]["placed"] = "the unit's location (FEMA, catalog/us_reactors.json)"
+        if row[2]:
+            p["subdivisions"] = [f"US-{row[2]}"]   # the catalog's state: a river-bank site can fall outside a 1:10m outline
+        return _pt(row[1], row[0])
+    if county:
+        p["precision_class"] = "approximate"
+        p["measures"]["placed"] = "the county's Census internal point"
+        return _pt(county[1], county[0])
+    p.update({"precision_class": "admin1" if state else "none", "visual": {"type": "page", "url": page}})
+    if state:
+        p["subdivisions"] = [f"US-{state}"]
+    p["measures"]["placed"] = None
+    return None
+
+
+def _nrc_event_items(d: dict, now: datetime) -> list[dict]:
+    """NRC event notifications for power reactors and fuel cycle facilities from the last 7 days. One declared
+    emergency class (Unusual Event, Alert, Site Area Emergency, General Emergency) is an anomaly against the NRC's own
+    scale for 72 hours from its notification (or from the run that saw a later report raise it), unless the report
+    was retracted; a Non Emergency report is routine. No kit ladder for the NRC's classes yet, so no response_stage."""
+    from . import nrc
+    out = []
+    f = (d.get("nrc_events") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    since = (now - timedelta(days=nrc.SHOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    hold = (now - timedelta(hours=nrc.HOLD_HOURS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for e in (d.get("nrc_events") or {}).get("records") or []:
+        if e.get("type") not in nrc.FEED_TYPES or (e.get("notified") or "") < since:
+            continue
+        level, cls, state = e.get("level"), e.get("emergency_class") or "emergency class not given", e.get("state")
+        changed = e.get("raised_at") or e.get("notified") or ""
+        hot = isinstance(level, int) and level >= 1 and not e.get("retracted") and changed >= hold
+        unit, row = nrc.place_unit(e.get("facility") or "", e.get("units") or [], state) \
+            if e.get("type") == "Power Reactor" else (None, None)
+        name = e.get("facility") or e.get("licensee") or "facility not named"
+        name = _tidy_place(name)
+        if unit and len(e.get("units") or []) > 1:
+            site = re.sub(r"\s+\d+$", "", unit)
+            where = f"{site} units {' and '.join(e['units'])}"
+        else:
+            where = unit or name
+        where = f"{where} ({state})" if state else where
+        head = nrc.sentence(e.get("headline")) or "no headline"
+        if isinstance(level, int) and level >= 1:
+            rest = re.sub(rf"^{re.escape(cls)}\s*(declared)?\s*[-:]?\s*", "", head, flags=re.I) or head
+            ended = ", since reported terminated" if e.get("terminated") else ""
+            title = f"{cls} declared at {where}: {rest[:1].upper() + rest[1:]} (NRC event {e['number']}{ended})"
+        else:
+            title = f"{where}: {head} (NRC event {e['number']}, {cls.lower().replace('non emergency', 'non-emergency')} report)"
+        if e.get("retracted"):
+            title += ", retracted"
+        asof = e.get("notified") or f
+        dap = None
+        if e.get("updated_on") and e["updated_on"] > asof[:10]:
+            asof, dap = f"{e['updated_on']}T00:00:00Z", "day"     # the NRC gives a later update's day, not its time
+        scrams = [u["unit"] for u in e.get("unit_info") or [] if (u.get("scram_code") or "N").upper() not in ("N", "")]
+        p = {**_base(f), "id": f"elements:nrc-event:{e['number']}", "title": title,
+             "tier": "anomaly" if hot else "routine", "data_as_of": _not_after(asof, f), "countries": ["US"],
+             "requirement_ids": ["EL-PIR-12"], "sources": [{**SRC["nrc_events"], "url": e["url"], "accessed_at": f}],
+             "link": e["url"],
+             "measures": {"event_number": e["number"], "facility_type": e.get("type"), "facility": e.get("facility"),
+                          "licensee": e.get("licensee"), "unit": unit, "units": e.get("units") or [], "state": state,
+                          "region": e.get("region"), "county": e.get("county"), "emergency_class": e.get("emergency_class"),
+                          "emergency_level": level, "class_code": e.get("class_code"), "cfr": e.get("cfr"),
+                          "notified": e.get("notified"), "event_time": e.get("event_time"),
+                          "last_update_date": e.get("updated_on"), "headline": head, "retracted": bool(e.get("retracted")),
+                          "text_reports_termination": bool(e.get("terminated")), "updates": e.get("updates") or 0,
+                          "scram_units": scrams, "unit_info": e.get("unit_info") or [], "raised_at": e.get("raised_at"),
+                          "report_date": e.get("report"),
+                          "note": "A licensee's report to the NRC, published unevaluated; the NRC's text is at the link"}}
+        if dap:
+            p["data_as_of_precision"] = dap
+        if hot:
+            p["baseline_ref"] = {"id": "nrc-emergency-classes", "type": "fixed", "version": "1",
+                                 "window": "NRC emergency classes: Non Emergency, Unusual Event, Alert, Site Area "
+                                           "Emergency, General Emergency"}
+        g = _nrc_place(p, row, None if row else nrc.county_point(e.get("county"), state), state, e["url"])
+        out.append({"type": "Feature", "geometry": g, "properties": p})
+    return out
+
+
+def _nrc_status_items(d: dict, now: datetime) -> list[dict]:
+    """The NRC's daily power reactor status: one item per unit below 100% or just changed, as the NRC's numbers, and
+    one count for the US. A unit reported at 0% after 20% or more is a shutdown; it is an anomaly while that report is
+    within 72 hours and the unit is still at 0%, against the unit's own earlier day pairs (at least 7, flagged on 5% or
+    fewer). No cause is given or implied: the report gives none."""
+    from . import nrc
+    recs = (d.get("nrc_status") or {}).get("records") or []
+    if not recs:
+        return []
+    f = (d.get("nrc_status") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    cat = nrc.catalog()["units"]
+    out = []
+    for a in nrc.assess(recs, now):
+        day = a["date"]
+        page = nrc.STATUS_PAGE.format(year=day[:4], ymd=day.replace("-", ""))
+        if a["changed_on"] == day:
+            how = "up" if a["change"] > 0 else "down"
+            title = f"{a['unit']}: {a['power']}% power on {_day(day)}, {how} from {a['power_before']}% the report before"
+        elif a["changed_on"]:
+            title = (f"{a['unit']}: {a['power']}% power on {_day(day)}, at that level since {_day(a['changed_on'])} "
+                     f"(from {a['power_before']}%)")
+        else:
+            title = f"{a['unit']}: {a['power']}% power on {_day(day)}, the same since at least {_day(a['at_power_since'])}"
+        note = None
+        if a["shutdown"] and not a["anomaly"]:
+            note = ("fewer than %d earlier day pairs to compare with" % nrc.BASELINE_MIN
+                    if a["baseline_pairs"] < nrc.BASELINE_MIN else
+                    "the unit's earlier day pairs show such drops on more than 5% of them"
+                    if (a["flag_rate"] or 0) > nrc.FLAG_RATE_CAP else "the drop was reported more than 72 hours ago")
+        row = cat.get(a["unit"])
+        p = {**_base(f), "id": f"elements:nrc-reactor:{_slug(a['unit'])}", "title": title + " (NRC daily status)",
+             "tier": "anomaly" if a["anomaly"] else "routine", "data_as_of": f"{day}T00:00:00Z",
+             "data_as_of_precision": "day", "countries": ["US"], "requirement_ids": ["EL-PIR-13"],
+             "sources": [{**SRC["nrc_status"], "url": page, "accessed_at": f}], "link": page,
+             "measures": {"unit": a["unit"], "plant": row[5] if row else None, "state": row[2] if row else None,
+                          "report_date": day, "power_percent": a["power"], "previous_report_date": a["previous_date"],
+                          "previous_power_percent": a["previous_power"], "changed_on": a["changed_on"],
+                          "power_before_change": a["power_before"], "change_points": a["change"],
+                          "at_this_power_since": a["at_power_since"], "reports_at_this_power": a["reports_at_power"],
+                          "shutdown": a["shutdown"], "baseline_pairs": a["baseline_pairs"],
+                          "baseline_shutdowns": a["baseline_shutdowns"], "baseline_at_or_below": a["baseline_at_or_below"],
+                          "not_an_anomaly_because": note,
+                          "note": "As the licensee reported it to the NRC, unevaluated; the report gives no reason for a "
+                                  "power level"}}
+        if a["anomaly"]:
+            p["baseline_ref"] = {"id": f"nrc-unit-day-pairs:{_slug(a['unit'])}", "type": "rolling", "version": "1",
+                                 "window": f"the unit's {a['baseline_pairs']} earlier day-over-day pairs of the NRC's daily "
+                                           f"status, a shutdown being 0% after {nrc.SHUTDOWN_FROM}% or more",
+                                 "flag_rate": a["flag_rate"]}
+        g = _nrc_place(p, row, None, row[2] if row else None, page)
+        if g is None:
+            p.update({"precision_class": "none", "visual": {"type": "page", "url": page}})
+            p.pop("subdivisions", None)
+        out.append({"type": "Feature", "geometry": g, "properties": p})
+    s = nrc.summary(recs)
+    day = s["date"]
+    page = nrc.STATUS_PAGE.format(year=day[:4], ymd=day.replace("-", ""))
+    lp = country_point("US")
+    below = {u: v for u, v in sorted(recs[0]["units"].items()) if v < 100}
+    p = {**_base(f), "id": "elements:nrc-reactor:us",
+         "title": (f"NRC power reactor status, {_day(day)}: {s['full']} of {s['units']} units at 100%, "
+                   f"{s['below']} below, {s['zero']} at 0%"),
+         "tier": "routine", "data_as_of": f"{day}T00:00:00Z", "data_as_of_precision": "day", "countries": ["US"],
+         "precision_class": "country", "requirement_ids": ["EL-PIR-13"],
+         "sources": [{**SRC["nrc_status"], "url": page, "accessed_at": f}], "link": page,
+         "measures": {"report_date": day, "units": s["units"], "at_100": s["full"], "below_100": s["below"], "at_0": s["zero"],
+                      "units_below_100": below,
+                      "note": "Every unit on the NRC's daily report, as the licensees reported them, unevaluated"}}
+    out.append({"type": "Feature", "geometry": _pt(lp[1], lp[0]) if lp else None, "properties": p})
+    if not lp:
+        p.update({"precision_class": "none", "visual": {"type": "page", "url": page}})
     return out
 
 
@@ -494,6 +666,8 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
     feats += _drought_item(d, now)
     feats += _meteoalarm_items(d, now)
     feats += _wildfire_items(d, now)
+    feats += _nrc_event_items(d, now)
+    feats += _nrc_status_items(d, now)
 
     fp = (d.get("firms") or {}).get("records") or {}
     f = (d.get("firms") or {}).get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -535,7 +709,7 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
     for x in feats:
         errs = [m for _, sev, m in contract.check(x, regs) if sev == "error"]
         (dropped.append({"id": x["properties"]["id"], "errors": errs}) if errs else kept.append(x))
-    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm", "emsc", "nifc")] + [""]) \
+    stamp = max([(d.get(k) or {}).get("fetched_at") or "" for k in ("usgs", "gdacs", "nhc", "cems", "firms", "usgs_volcano", "nws", "spc", "tsunami", "usdm", "meteoalarm", "emsc", "nifc", "nrc_events", "nrc_status")] + [""]) \
         or now.strftime("%Y-%m-%dT%H:%M:%SZ")
     newest = {}
     for x in kept:
@@ -546,14 +720,15 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
     return {"type": "FeatureCollection", "contract": CONTRACT, "contract_rev": contract.CONTRACT_REV, "kit": KIT,
             "program": "elements", "generated_at": stamp,
             "licence": "Elements code GNU AGPL-3.0; USGS, NOAA and NASA content US public domain or open; GDACS and Copernicus content "
-                       "with attribution; MeteoAlarm and EMSC content CC BY 4.0; US Drought Monitor and NIFC WFIGS state "
-                       "no licence and are credited",
+                       "with attribution; MeteoAlarm and EMSC content CC BY 4.0; NRC content a US Government work, not "
+                       "subject to copyright; US Drought Monitor, NIFC WFIGS and FEMA's reactor locations state no "
+                       "licence and are credited",
             "attribution": "Elements, The Intelligence Company. Sources: USGS, EMSC (European-Mediterranean Seismological Centre), "
                            "GDACS, NOAA NHC, Copernicus EMS (© European Union), "
                            "NASA FIRMS (LANCE, operated by NASA's Earth Science Data and Information System), "
                            "MeteoAlarm (EUMETNET) and the national weather services that issue its warnings, the US Drought "
-                           "Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA) and the National Interagency Fire "
-                           "Center (WFIGS).",
+                           "Monitor (NDMC University of Nebraska-Lincoln, USDA, NOAA), the National Interagency Fire "
+                           "Center (WFIGS), and the US Nuclear Regulatory Commission, with reactor locations from FEMA.",
             "language_key": "https://github.com/metacog-osint/tic-doctrine/blob/main/docs/language-key.md",
             # The kit's per-source health block, keyed by the source id each item carries (15 Nov 2026): COP's ledger
             # reads it so that a failed source's kept items neither end nor count as seen again.

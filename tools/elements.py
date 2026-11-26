@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from elements import feed, firms, firms_store, history, meteoalarm, meteoalarm_log, sources, weather, wider  # noqa: E402
+from elements import feed, firms, firms_store, history, meteoalarm, meteoalarm_log, nrc, sources, weather, wider  # noqa: E402
 from elements.common import country_name, health, load, now_utc, save  # noqa: E402
 from tic_doctrine import contract, geo, registers  # noqa: E402
 from tic_doctrine.history import first_run  # noqa: E402
@@ -22,13 +22,21 @@ from tic_doctrine.history import first_run  # noqa: E402
 SRC, OUT, HIST = ROOT / "site_src", ROOT / "site", ROOT / "history"
 LANES = {"usgs": "usgs-earthquakes", "gdacs": "gdacs", "nhc": "nhc", "cems": "copernicus-ems", "firms": "nasa-firms",
          "usgs_volcano": "usgs-volcanoes", "nws": "nws-alerts", "spc": "spc-outlook", "tsunami": "noaa-tsunami",
-         "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm", "emsc": "emsc", "nifc": "nifc-wfigs"}
+         "usdm": "us-drought-monitor", "meteoalarm": "meteoalarm", "emsc": "emsc", "nifc": "nifc-wfigs",
+         "nrc_events": "nrc-events", "nrc_status": "nrc-reactor-status"}
 COMPACT = {"usdm", "firms", "meteoalarm"}   # mostly coordinates: indenting them would triple their size
 
 
 def drought_summary(rec) -> str:
     w = (rec or {}).get("weeks") or [] if isinstance(rec, dict) else []
     return f"week of {w[0]['map_date']}: {w[0]['d1']}% in drought, map of {rec.get('map_date') or 'no week'}" if w else "no data"
+
+
+def status_summary(records) -> str:
+    """The NRC status lane's detail: its newest report and how many units it gives."""
+    s = nrc.summary(records or [])
+    return (f"{len(records)} report dates, newest {s['date']}: {s['units']} units, {s['zero']} at 0%" if s
+            else "no data")
 
 
 def read_this_run(records, err, prev_records) -> bool:
@@ -66,7 +74,8 @@ def collect() -> dict:
         if records is not prev[k]:
             save(f"{k}.json", {"records": records}, compact=k in COMPACT)
         detail = (firms.summary(records) if k == "firms" else drought_summary(records) if k == "usdm"
-                  else meteoalarm.summary(records) if k == "meteoalarm" else f"{len(records)} records")
+                  else meteoalarm.summary(records) if k == "meteoalarm"
+                  else status_summary(records) if k == "nrc_status" else f"{len(records)} records")
         if err:
             detail = f"{detail} ({err})" if records else err
         health(src, read_this_run(records, err, prev[k]), detail, when)
@@ -169,6 +178,9 @@ def build() -> dict:
                "polygons": dr.get("polygons") or [] if isinstance(dr, dict) else []}
     (OUT / "data" / "drought.json").write_text(json.dumps(drought, separators=(",", ":")) + "\n",
                                                encoding="utf-8", newline="\n")
+    (OUT / "data" / "reactors.json").write_text(json.dumps(nrc.reactors_map(d["nrc_status"]["records"] or []),
+                                                           ensure_ascii=False, separators=(",", ":")) + "\n",
+                                                encoding="utf-8", newline="\n")
     (OUT / "data" / "fires.json").write_text(json.dumps(fires, ensure_ascii=False, separators=(",", ":")) + "\n",
                                              encoding="utf-8", newline="\n")
     (OUT / "data" / "meteoalarm.json").write_text(json.dumps(warnings_map(d["meteoalarm"]), ensure_ascii=False,

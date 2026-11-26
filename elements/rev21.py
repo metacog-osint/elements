@@ -23,6 +23,7 @@ from tic_doctrine import contract, geo, history  # noqa: E402
 
 STALE_HOURS = 48      # a source with no good read for this long is stale (COP's stale_hours for Elements)
 USDM_POINTS = 1.0     # percentage points of US area in D2-D4 that make a weekly move raised or lowered
+LAND_LANES = ("nrc-event", "nrc-reactor")  # nuclear facilities, all on land (Hope Creek and Salem read as Delaware Bay)
 RULE = "corroborate-1: two independent origins, or one official source within its remit"
 
 ALERT_RANK = {"UNASSIGNED": 0, "NORMAL": 0, "ADVISORY": 1, "WATCH": 2, "WARNING": 3}
@@ -133,6 +134,28 @@ def _lane_fields(p: dict) -> None:
         signal(p, "MeteoAlarm awareness level", m.get("level"), "level (2 yellow to 4 red)")
     elif kind == "nifc":
         event(p, m.get("discovered"))
+    elif kind == "nrc-event":
+        event(p, m.get("event_time") or m.get("notified"))
+        signal(p, "NRC emergency class", m.get("emergency_level"), "level (0 non-emergency to 4 general emergency)")
+        if p.get("signal"):
+            p["signal"].update(expected=0, tail="high")
+        if m.get("raised_at"):
+            stamp(p, "raised", m["raised_at"])
+        else:
+            stamp(p, "new", m.get("notified"))
+    elif kind == "nrc-reactor":
+        if p["id"].endswith(":us"):
+            signal(p, "US power reactor units reported at 0% power", m.get("at_0"), "units")
+            return
+        if m.get("changed_on"):
+            event(p, _midnight(m["changed_on"]), None, "day")
+            signal(p, "Latest change in reported power", m.get("change_points"), "percentage points")
+            n = m.get("baseline_pairs") or 0
+            p["signal"].update(expected=0, tail="low", baseline_n=n)
+            if n:
+                p["signal"]["exceedance"] = (m.get("baseline_at_or_below", 0) + 1) / (n + 1)
+            if m["changed_on"] == m.get("report_date"):
+                stamp(p, "changed", _midnight(m["changed_on"]))
     elif kind == "firms":
         event(p, m.get("window_start"), m.get("window_end"))
         signal(p, "VIIRS fire and heat detections, past 24 hours", m.get("detections"), "detections")
@@ -181,6 +204,8 @@ def finish(feats: list[dict], state: dict | None = None, since: str | None = Non
         g = f.get("geometry")
         if g and p.get("precision_class") == "country":
             p["sea_areas"] = []                            # a country's label point stands for the country
+        elif g and lane(p) in LAND_LANES:
+            p["sea_areas"] = []                            # a facility on land: a shore site can fall in a bay at 1:10m
         elif g:
             key = repr(g)
             if key not in seas:
