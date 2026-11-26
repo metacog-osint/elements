@@ -137,6 +137,18 @@ def _wildfire_items(d: dict, now: datetime) -> list[dict]:
     return out
 
 
+USDM_NEXT_DAYS = 9     # a map dated Tuesday is released that Thursday; the next one, nine days after its date
+USDM_MARGIN_DAYS = 2   # a late release (a holiday week) before the reading counts as out of date
+
+
+def usdm_valid_until(map_date: str) -> str:
+    """The Drought Monitor's own valid period ends the Monday after its map date, three days before the next map is
+    released, so a reading valid only to then sat on the feed past its end every week (24 Nov 2026: valid_until
+    23 Nov, still current 16 h later). The reading stands until the next scheduled release plus a margin."""
+    day = datetime.strptime(map_date, "%Y-%m-%d").replace(hour=12, tzinfo=timezone.utc)
+    return (day + timedelta(days=USDM_NEXT_DAYS + USDM_MARGIN_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def _drought_item(d: dict, now: datetime) -> list[dict]:
     rec = (d.get("usdm") or {}).get("records") or {}
     weeks = rec.get("weeks") or [] if isinstance(rec, dict) else []
@@ -148,7 +160,7 @@ def _drought_item(d: dict, now: datetime) -> list[dict]:
     p = {**_base(f), "id": "elements:usdm:us",
          "title": (f"US Drought Monitor, week of {_day(w['map_date'])}: {w['d1']:.1f}% of the US in drought, "
                    f"{w['d2']:.1f}% severe or worse"),
-         "tier": "routine", "data_as_of": f"{w['map_date']}T12:00:00Z", "valid_until": f"{w['valid_end']}T12:00:00Z" if w.get("valid_end") else None,
+         "tier": "routine", "data_as_of": f"{w['map_date']}T12:00:00Z", "valid_until": usdm_valid_until(w["map_date"]),
          "countries": ["US"], "precision_class": "country", "requirement_ids": ["EL-PIR-9"],
          "sources": [{**SRC["usdm"], "accessed_at": f}], "link": SRC["usdm"]["url"],
          "measures": {"map_date": w["map_date"], "valid_end": w.get("valid_end"), "cumulative_percent_area": True,
@@ -156,8 +168,8 @@ def _drought_item(d: dict, now: datetime) -> list[dict]:
                       "previous_week": {k: prev[k] for k in ("map_date", "d0", "d1", "d2", "d3", "d4")} if prev else None,
                       "change_d1": round(w["d1"] - prev["d1"], 2) if prev else None,
                       "change_d2": round(w["d2"] - prev["d2"], 2) if prev else None}}
-    if p["valid_until"] is None:
-        p.pop("valid_until")
+    if p["valid_until"] < now.strftime("%Y-%m-%dT%H:%M:%SZ"):
+        return []   # no newer map by the next release and its margin: the reading has ended (the history keeps it)
     return [{"type": "Feature", "geometry": _pt(lp[1], lp[0]) if lp else None, "properties": p}]
 
 
