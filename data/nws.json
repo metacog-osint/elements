@@ -209,6 +209,9 @@
    "certainty": "Likely",
    "sender": "NWS Upton NY",
    "areas": [
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -216,9 +219,6 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Northeast Suffolk",
     "Southwest Suffolk",
     "Southern Nassau",
@@ -248,7 +248,7 @@
    "sent": "2026-11-26T09:33:00Z",
    "onset": "2026-11-26T12:00:00Z",
    "ends": "2026-11-27T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4073,71 +4073,6 @@
    ]
   },
   {
-   "id": "KTFX.HW.W.0038.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "Judith Basin County and Judith Gap",
-    "East Glacier Park Region",
-    "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
-   ],
-   "counties": [
-    "30027",
-    "30035",
-    "30045",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-26T07:23:00Z",
-   "onset": "2026-11-26T21:00:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfb80d0773efc3078002a6682bce5d6787e3e274.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.233,
-     47.2218
-    ],
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -110.3053,
-     47.0326
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -111.593,
-   "lat": 47.825,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KOKX.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4353,12 +4288,12 @@
     "Carbon",
     "Monroe",
     "Morris",
-    "Western Monmouth",
-    "Ocean",
-    "Southeastern Burlington",
     "Delaware Beaches",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
+    "Western Monmouth",
+    "Ocean",
+    "Southeastern Burlington",
     "Inland Sussex",
     "Cumberland",
     "Atlantic",
@@ -5110,6 +5045,102 @@
    ]
   },
   {
+   "id": "KBTV.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Burlington VT",
+   "areas": [
+    "Eastern Rutland"
+   ],
+   "counties": [
+    "50021"
+   ],
+   "sent": "2026-11-26T18:09:00Z",
+   "onset": "2026-11-26T21:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4dab54c733cc2d0d2beaf9c2de8a12746c1a647.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -73.0603,
+     43.6124
+    ]
+   ],
+   "lon": -73.06,
+   "lat": 43.612,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.W.0038.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "East Glacier Park Region",
+    "Northern High Plains",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "Judith Basin County and Judith Gap"
+   ],
+   "counties": [
+    "30027",
+    "30035",
+    "30045",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-26T18:12:00Z",
+   "onset": "2026-11-26T18:12:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c82d8561cbe95e4f528497d1e2ff3d3e004b4af1.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.233,
+     47.2218
+    ],
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -110.3053,
+     47.0326
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -111.593,
+   "lat": 47.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KRIW.HW.A.0013.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5271,32 +5302,6 @@
    "onset": "2026-11-26T11:00:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca8c1b0325aef956858d1f98759721a618b323f7.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.SR.W.0006.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "East Entrance U.S. Waters Strait Of Juan De Fuca"
-   ],
-   "counties": [
-    "57132"
-   ],
-   "sent": "2026-11-26T10:41:00Z",
-   "onset": "2026-11-26T10:41:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e14e289db0927882c25dc441187fc6304916d8c.003.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -5536,37 +5541,6 @@
    ]
   },
   {
-   "id": "KOTX.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Spokane WA",
-   "areas": [
-    "Western Okanogan County"
-   ],
-   "counties": [
-    "53047"
-   ],
-   "sent": "2026-11-26T05:42:00Z",
-   "onset": "2026-11-26T05:42:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b28b971fc9b6e2226c5eb269f1cd2c83413f790.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7422,
-     48.5485
-    ]
-   ],
-   "lon": -119.742,
-   "lat": 48.548,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.WS.W.0011.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -5706,98 +5680,6 @@
    ],
    "lon": -90.18,
    "lat": 37.148,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLSX.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS St Louis MO",
-   "areas": [
-    "Washington",
-    "Iron",
-    "Madison"
-   ],
-   "counties": [
-    "29093",
-    "29123",
-    "29221"
-   ],
-   "sent": "2026-11-26T15:52:00Z",
-   "onset": "2026-11-26T15:52:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78b0aa18ed8b5dafdcd2117924d2b30a86efe85b.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -90.6996,
-     37.626
-    ],
-    [
-     -90.3434,
-     37.4745
-    ],
-    [
-     -90.897,
-     37.9426
-    ]
-   ],
-   "lon": -90.647,
-   "lat": 37.681,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLSX.WS.W.0002.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS St Louis MO",
-   "areas": [
-    "Crawford",
-    "St. Francois",
-    "Ste. Genevieve",
-    "Reynolds"
-   ],
-   "counties": [
-    "29055",
-    "29179",
-    "29186",
-    "29187"
-   ],
-   "sent": "2026-11-26T15:52:00Z",
-   "onset": "2026-11-26T15:52:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78b0aa18ed8b5dafdcd2117924d2b30a86efe85b.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.3139,
-     37.9666
-    ],
-    [
-     -90.9723,
-     37.3665
-    ],
-    [
-     -90.1615,
-     37.8858
-    ],
-    [
-     -90.4739,
-     37.8107
-    ]
-   ],
-   "lon": -90.73,
-   "lat": 37.757,
    "countries": [
     "US"
    ]
@@ -5979,6 +5861,99 @@
    ],
    "lon": -121.826,
    "lat": 48.668,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOTX.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Spokane WA",
+   "areas": [
+    "Western Okanogan County"
+   ],
+   "counties": [
+    "53047"
+   ],
+   "sent": "2026-11-26T18:27:00Z",
+   "onset": "2026-11-26T18:27:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c00be75431751d5a206834ab16754602a8c0426.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7422,
+     48.5485
+    ]
+   ],
+   "lon": -119.742,
+   "lat": 48.548,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLSX.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Reynolds"
+   ],
+   "counties": [
+    "29179"
+   ],
+   "sent": "2026-11-26T18:33:00Z",
+   "onset": "2026-11-26T18:33:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c175a80dac99e92279d1d301810117af294b6b6.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.9723,
+     37.3665
+    ]
+   ],
+   "lon": -90.972,
+   "lat": 37.367,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLSX.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Iron"
+   ],
+   "counties": [
+    "29093"
+   ],
+   "sent": "2026-11-26T18:33:00Z",
+   "onset": "2026-11-26T18:33:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c175a80dac99e92279d1d301810117af294b6b6.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.6996,
+     37.626
+    ]
+   ],
+   "lon": -90.7,
+   "lat": 37.626,
    "countries": [
     "US"
    ]
