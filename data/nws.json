@@ -898,17 +898,17 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "San Diego County Coastal Areas",
-    "Orange County Coastal"
+    "Orange County Coastal",
+    "San Diego County Coastal Areas"
    ],
    "counties": [
     "06059",
     "06073"
    ],
-   "sent": "2026-11-26T05:28:00Z",
-   "onset": "2026-11-26T05:28:00Z",
+   "sent": "2026-11-26T05:48:00Z",
+   "onset": "2026-11-26T05:48:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d70232cf8addf6aac1a264dead117b0671b1f29f.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a11d47200f0fb1f0e42edea444ee7e84976edba.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1921,47 +1921,66 @@
    ]
   },
   {
-   "id": "KMFL.FA.A.0004.2026",
-   "event": "Flood Watch",
+   "id": "KMHX.FL.W.0001.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Miami FL",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Metro Palm Beach County",
-    "Metro Broward County",
-    "Metropolitan Miami Dade",
-    "Coastal Palm Beach County",
-    "Coastal Broward County",
-    "Coastal Miami Dade County"
+    "Jones, NC"
    ],
    "counties": [
-    "12011",
-    "12086",
-    "12099"
+    "37103"
    ],
-   "sent": "2026-11-25T19:49:00Z",
-   "onset": "2026-11-25T19:49:00Z",
-   "ends": "2026-11-26T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c673a9907be498dacf95faec2d917a8c2fc1beb4.001.1",
-   "geometry": null,
+   "sent": "2026-11-26T05:55:00Z",
+   "onset": "2026-11-26T05:55:00Z",
+   "ends": "2026-11-26T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f6cc19a3ebb9fee5a75468843b2a762106e7f6.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.28,
+       35.03
+      ],
+      [
+       -77.22,
+       35.03
+      ],
+      [
+       -77.17,
+       35.07
+      ],
+      [
+       -77.15,
+       35.04
+      ],
+      [
+       -77.19,
+       34.99
+      ],
+      [
+       -77.29,
+       35
+      ],
+      [
+       -77.28,
+       35.03
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [
     [
-     -80.4767,
-     26.1935
-    ],
-    [
-     -80.5037,
-     25.616
-    ],
-    [
-     -80.4484,
-     26.6491
+     -77.3562,
+     35.0323
     ]
    ],
-   "lon": -80.476,
-   "lat": 26.153,
+   "lon": -77.226,
+   "lat": 35.027,
    "countries": [
     "US"
    ]
@@ -4770,55 +4789,6 @@
    ]
   },
   {
-   "id": "KRLX.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Charleston WV",
-   "areas": [
-    "Southeast Nicholas",
-    "Southeast Webster",
-    "Northwest Pocahontas",
-    "Southeast Randolph"
-   ],
-   "counties": [
-    "54067",
-    "54075",
-    "54083",
-    "54101"
-   ],
-   "sent": "2026-11-25T20:50:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0573f04b5a8861a7811c239ca867a5f56d9cc996.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -80.7975,
-     38.2914
-    ],
-    [
-     -80.0101,
-     38.3326
-    ],
-    [
-     -79.8678,
-     38.7811
-    ],
-    [
-     -80.4491,
-     38.4835
-    ]
-   ],
-   "lon": -80.281,
-   "lat": 38.472,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCTP.HW.W.0002.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -5598,6 +5568,98 @@
    ]
   },
   {
+   "id": "KBGM.HW.W.0001.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Binghamton NY",
+   "areas": [
+    "Wyoming",
+    "Lackawanna",
+    "Luzerne"
+   ],
+   "counties": [
+    "42069",
+    "42079",
+    "42131"
+   ],
+   "sent": "2026-11-26T05:36:00Z",
+   "onset": "2026-11-26T12:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aed8fd7a1852bc544f6b1520cd95e38e6cc7e529.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.6088,
+     41.4366
+    ],
+    [
+     -75.9761,
+     41.1731
+    ],
+    [
+     -76.0087,
+     41.5252
+    ]
+   ],
+   "lon": -75.865,
+   "lat": 41.378,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRLX.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston WV",
+   "areas": [
+    "Southeast Nicholas",
+    "Southeast Webster",
+    "Northwest Pocahontas",
+    "Southeast Randolph"
+   ],
+   "counties": [
+    "54067",
+    "54075",
+    "54083",
+    "54101"
+   ],
+   "sent": "2026-11-26T06:03:00Z",
+   "onset": "2026-11-26T06:03:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd4a387f34d81c8ca373d311cedc25bf028bc91c.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -80.7975,
+     38.2914
+    ],
+    [
+     -80.0101,
+     38.3326
+    ],
+    [
+     -79.8678,
+     38.7811
+    ],
+    [
+     -80.4491,
+     38.4835
+    ]
+   ],
+   "lon": -80.281,
+   "lat": 38.472,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5696,98 +5758,6 @@
    ]
   },
   {
-   "id": "KBOX.SR.W.0006.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out 20 NM",
-    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
-    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
-    "Ocean Waters from Provincetown to Nantucket from 20 to 60 NM",
-    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
-    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM",
-    "Nantucket Sound",
-    "Vineyard Sound",
-    "Buzzards Bay",
-    "Rhode Island Sound",
-    "Block Island Sound",
-    "Cape Cod Bay"
-   ],
-   "counties": [
-    "73231",
-    "73232",
-    "73233",
-    "73234",
-    "73235",
-    "73237",
-    "73254",
-    "73255",
-    "73256",
-    "73281",
-    "73282",
-    "73283"
-   ],
-   "sent": "2026-11-25T13:44:00Z",
-   "onset": "2026-11-26T09:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72aad2f3a27fcd892aae7fbae31825290b3b3f5a.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
-    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
-    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
-    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
-    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
-    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM"
-   ],
-   "counties": [
-    "75150",
-    "75152",
-    "75154",
-    "75156",
-    "75158",
-    "75180",
-    "75182",
-    "75184",
-    "75186",
-    "75188"
-   ],
-   "sent": "2026-11-25T18:22:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-26T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.887b879a0b1a00bd9e1dd434b05ecb07e8fec08f.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5856,68 +5826,6 @@
    "onset": "2026-11-25T23:12:00Z",
    "ends": "2026-11-27T06:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df2daa4eefcaea83b206eb251e8ac9a975e7b518.004.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.SR.W.0005.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
-    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
-    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
-    "James River from JRB to HRBT, Including the Elizabeth River",
-    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
-    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
-    "Rappahannock River from Urbanna to Windmill Point",
-    "York River",
-    "James River from Jamestown to the James River Bridge",
-    "Chesapeake Bay from Smith Point to Windmill Point VA",
-    "Chesapeake Bay from Windmill Point to New Point Comfort VA",
-    "Currituck Sound",
-    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
-    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
-    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
-    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
-    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
-    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM"
-   ],
-   "counties": [
-    "73630",
-    "73631",
-    "73632",
-    "73633",
-    "73634",
-    "73635",
-    "73636",
-    "73637",
-    "73639",
-    "73650",
-    "73652",
-    "73654",
-    "73656",
-    "73658",
-    "73680",
-    "73682",
-    "73684",
-    "73686",
-    "73688"
-   ],
-   "sent": "2026-11-25T23:51:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.630c54cb9f6f1a537274b47a2f8301fe36b0038d.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6076,6 +5984,160 @@
    ]
   },
   {
+   "id": "KMHX.SR.W.0004.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
+    "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+    "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
+    "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
+    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
+    "S of Cape Lookout NC to Surf City NC out to 20 NM"
+   ],
+   "counties": [
+    "75150",
+    "75152",
+    "75154",
+    "75156",
+    "75158",
+    "75180",
+    "75182",
+    "75184",
+    "75186",
+    "75188"
+   ],
+   "sent": "2026-11-26T05:39:00Z",
+   "onset": "2026-11-26T05:39:00Z",
+   "ends": "2026-11-26T14:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.381615a44dd4e0d7c60e0683e5fce06cff696d08.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.SR.W.0005.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Chesapeake Bay from New Point Comfort to Little Creek VA",
+    "Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel",
+    "Chesapeake Bay from Smith Point to Windmill Point VA",
+    "Chesapeake Bay from Windmill Point to New Point Comfort VA",
+    "Rappahannock River from Urbanna to Windmill Point",
+    "York River",
+    "James River from Jamestown to the James River Bridge",
+    "Coastal waters from Parramore Island to Cape Charles Light VA out 20 NM",
+    "Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM",
+    "Coastal waters from NC VA border to Currituck Beach Light NC out 20 NM",
+    "Waters from Parramore Island VA to Cape Charles Light VA from 20 to 60 NM",
+    "Waters from Cape Charles Light to Virginia - North Carolina Border from 20 to 60 NM",
+    "Waters from NC VA border to Currituck Beach Light NC from 20 to 60 NM",
+    "Coastal waters from Fenwick Island DE to Chincoteague VA out 20 NM",
+    "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
+    "Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM",
+    "Waters from Chincoteague VA to Parramore Island VA from 20 to 60 NM",
+    "Currituck Sound",
+    "James River from JRB to HRBT, Including the Elizabeth River"
+   ],
+   "counties": [
+    "73630",
+    "73631",
+    "73632",
+    "73633",
+    "73634",
+    "73635",
+    "73636",
+    "73637",
+    "73639",
+    "73650",
+    "73652",
+    "73654",
+    "73656",
+    "73658",
+    "73680",
+    "73682",
+    "73684",
+    "73686",
+    "73688"
+   ],
+   "sent": "2026-11-26T05:51:00Z",
+   "onset": "2026-11-26T05:51:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0da7d076e9b3b1c81e428f9666f88c27d24751f.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOX.SR.W.0006.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Nantucket Sound",
+    "Vineyard Sound",
+    "Buzzards Bay",
+    "Rhode Island Sound",
+    "Block Island Sound",
+    "Cape Cod Bay",
+    "Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out 20 NM",
+    "Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket",
+    "Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island",
+    "Ocean Waters from Provincetown to Nantucket from 20 to 60 NM",
+    "Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM",
+    "Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM"
+   ],
+   "counties": [
+    "73231",
+    "73232",
+    "73233",
+    "73234",
+    "73235",
+    "73237",
+    "73254",
+    "73255",
+    "73256",
+    "73281",
+    "73282",
+    "73283"
+   ],
+   "sent": "2026-11-26T05:56:00Z",
+   "onset": "2026-11-26T09:00:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29267578007fb54310fb205314eba568fb135c8b.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.WS.W.0029.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -6185,37 +6247,6 @@
    ],
    "lon": -109.722,
    "lat": 45.539,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOTX.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Spokane WA",
-   "areas": [
-    "Western Okanogan County"
-   ],
-   "counties": [
-    "53047"
-   ],
-   "sent": "2026-11-25T18:15:00Z",
-   "onset": "2026-11-26T03:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.757b5208dcf6bbf75a796678c87a6f9bba88a8e8.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7422,
-     48.5485
-    ]
-   ],
-   "lon": -119.742,
-   "lat": 48.548,
    "countries": [
     "US"
    ]
@@ -6586,6 +6617,37 @@
    ],
    "lon": -91.735,
    "lat": 37.877,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOTX.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Spokane WA",
+   "areas": [
+    "Western Okanogan County"
+   ],
+   "counties": [
+    "53047"
+   ],
+   "sent": "2026-11-26T05:42:00Z",
+   "onset": "2026-11-26T05:42:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b28b971fc9b6e2226c5eb269f1cd2c83413f790.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -119.7422,
+     48.5485
+    ]
+   ],
+   "lon": -119.742,
+   "lat": 48.548,
    "countries": [
     "US"
    ]
