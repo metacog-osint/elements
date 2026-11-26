@@ -545,10 +545,10 @@
       var m = p.measures, a = (p.response_stage || ":").split(":")[1];
       return mark([link(p.link, (m.name || "").replace(/^Tropical Cyclone /, "")),
         h("span", null, [badge(a), m.latest_alert && m.latest_alert !== a ? h("span", { "class": "small muted" }, [" (latest: " + m.latest_alert + ")"]) : null]),
-        (m.severity || "").replace(/^maximum wind /, ""), when(m.to) + (m.current ? " (GDACS: current)" : "")], p);
+        (m.severity || "").replace(/^maximum wind /, ""), when(m.to)], p);
     }));
     document.getElementById("cyclones").replaceChildren(rows.length ? table(["Storm", "Alert", "Maximum wind", "Last report"], rows, { 2: 1 })
-      : empty("No tropical cyclones reported in the past 14 days."));
+      : empty("No current tropical cyclone from NHC or GDACS."));
 
     var cems = by.cems.slice().sort(function (x, y) { return (y.measures.activated || "").localeCompare(x.measures.activated || ""); });
     document.getElementById("cems").replaceChildren(cems.length ? table(["Code", "Event", "Activated", "Maps", "Status"], cems.map(function (p) {
@@ -566,7 +566,7 @@
       return (grid[b].red * 100 + grid[b].orange * 10 + grid[b].green) - (grid[a].red * 100 + grid[a].orange * 10 + grid[a].green); });
     document.getElementById("gdacs").replaceChildren(hz.length ? table(["Hazard", "Green", "Orange", "Red"], hz.map(function (k) {
       return [(HAZ[k] || [0, cap(k)])[1], grid[k].green || "—", grid[k].orange || "—", grid[k].red || "—"]; }), { 1: 1, 2: 1, 3: 1 })
-      : empty("GDACS listed no alerts in the past 14 days."));
+      : empty("GDACS lists no current alerts."));
 
     // Every GDACS alert beside the map, green included, strongest first and then newest.
     function showOnMap(id) {
@@ -590,7 +590,7 @@
         h("span", { "class": "sub" }, [when(m.from) + " to " + when(m.to)
           + (m.latest_alert && m.latest_alert !== a ? " · latest episode: " + m.latest_alert : "")])]), btn], p);
     });
-    var gdList = gdRows.length ? table(["Alert", "Event", "Map"], gdRows) : empty("GDACS listed no alerts in the past 14 days.");
+    var gdList = gdRows.length ? table(["Alert", "Event", "Map"], gdRows) : empty("GDACS lists no current alerts.");
     if (gdRows.length) gdList.id = "gd-list-table";
     document.getElementById("gd-count").textContent = gdRows.length ? " (" + gdRows.length + ")" : "";
     document.getElementById("gd-list").replaceChildren(gdList);
@@ -611,7 +611,7 @@
         return [m.country_name, num(m.detections), num(m.high_confidence), num(Math.round(m.frp_sum_mw))]; }), { 1: 1, 2: 1, 3: 1 })
       : empty("No country had 10 or more detections in the past 24 hours."));
 
-    var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (past 14 days)",
+    var names = { "usgs-earthquakes": "USGS earthquakes (M4.5+, past 7 days)", gdacs: "GDACS alerts (current events)",
       nhc: "NOAA National Hurricane Center", "copernicus-ems": "Copernicus EMS rapid mapping",
       "nasa-firms": "NASA FIRMS (VIIRS, past 24 hours)", "usgs-volcanoes": "USGS volcano alerts (US volcanoes)",
       "nws-alerts": "NWS alerts (Severe and Extreme)", "spc-outlook": "SPC Day 1 convective outlook",
