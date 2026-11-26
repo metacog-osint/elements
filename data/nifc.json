@@ -337,20 +337,6 @@
    "lat": 31.5467
   },
   {
-   "id": "{DA5D52F7-7412-494E-AE2A-2D42A63F8F99}",
-   "name": "clark 306",
-   "acres": 100.0,
-   "contained": null,
-   "discovered": "2026-11-25T16:16:32Z",
-   "updated": "2026-11-25T20:29:21Z",
-   "state": "AR",
-   "county": "Clark",
-   "cause": null,
-   "complexity": null,
-   "lon": -93.0628,
-   "lat": 33.8745
-  },
-  {
    "id": "{68283E6E-6298-4C38-9CF1-BEF4AD459031}",
    "name": "Horse",
    "acres": 97.0,
@@ -592,9 +578,9 @@
    "id": "{226BB9B7-E2F9-44F5-9FB8-238B028AA273}",
    "name": "Trace Branch",
    "acres": 10.0,
-   "contained": 75,
+   "contained": 90,
    "discovered": "2026-11-25T18:52:00Z",
-   "updated": "2026-11-25T22:06:18Z",
+   "updated": "2026-11-26T00:01:29Z",
    "state": "KY",
    "county": "Martin",
    "cause": "Human",
@@ -657,20 +643,6 @@
    "complexity": null,
    "lon": -92.6179,
    "lat": 45.8062
-  },
-  {
-   "id": "{3E9364C1-126D-4B76-8FFC-8C3951551EF3}",
-   "name": "Old 60",
-   "acres": 3.0,
-   "contained": 0,
-   "discovered": "2026-11-25T23:07:00Z",
-   "updated": "2026-11-25T23:24:38Z",
-   "state": "KY",
-   "county": "Carter",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -83.1587,
-   "lat": 38.3058
   },
   {
    "id": "{32A5FA3D-F63C-473F-8E7F-8D9D053D90BA}",
@@ -811,20 +783,6 @@
    "complexity": null,
    "lon": -72.6384,
    "lat": 44.9095
-  },
-  {
-   "id": "{B4E6A1AD-8B8A-4756-9561-B931AC81B1BC}",
-   "name": "Little River 185",
-   "acres": 1.0,
-   "contained": null,
-   "discovered": "2026-11-24T21:33:50Z",
-   "updated": "2026-11-24T21:40:31Z",
-   "state": "AR",
-   "county": "Little River",
-   "cause": null,
-   "complexity": null,
-   "lon": -94.4429,
-   "lat": 33.8327
   },
   {
    "id": "{455FF8DB-CD89-4336-BE17-435A0346A246}",
@@ -1513,20 +1471,6 @@
    "lat": 43.3436
   },
   {
-   "id": "{B0598C93-6ECE-4129-9D63-7D3E4FD90D82}",
-   "name": "Fd05047",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-22T21:34:00Z",
-   "updated": "2026-11-23T00:04:29Z",
-   "state": "MA",
-   "county": "Essex",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -71.0135,
-   "lat": 42.8224
-  },
-  {
    "id": "{D09F6379-6DF2-4F2F-8963-29723F2CF833}",
    "name": "Lac-423181",
    "acres": 0.0,
@@ -1854,7 +1798,7 @@
    "acres": 0.0,
    "contained": null,
    "discovered": "2026-11-25T23:23:37Z",
-   "updated": "2026-11-25T23:28:13Z",
+   "updated": "2026-11-25T23:57:12Z",
    "state": "CA",
    "county": "Los Angeles",
    "cause": "Undetermined",
@@ -1889,6 +1833,34 @@
    "complexity": null,
    "lon": -118.2252,
    "lat": 33.9322
+  },
+  {
+   "id": "{79279CA2-33C6-41E1-81A7-F61FDBB61915}",
+   "name": "Lac-427024",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-25T23:57:48Z",
+   "updated": "2026-11-25T23:58:09Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.3483,
+   "lat": 33.9309
+  },
+  {
+   "id": "{B00686A4-5499-4215-BE6F-93F205E2948E}",
+   "name": "Cindy",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T00:01:58Z",
+   "updated": "2026-11-26T00:03:59Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.4847,
+   "lat": 34.4206
   }
  ]
 }
