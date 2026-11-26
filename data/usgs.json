@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "id": "us6000udm8",
+   "mag": 5.5,
+   "place": "204 km S of Taliwang, Indonesia",
+   "time": "2026-11-26T09:08:40Z",
+   "updated": "2026-11-26T09:28:32Z",
+   "alert": "green",
+   "tsunami": false,
+   "sig": 465,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8",
+   "depth_km": 15.1,
+   "lon": 117.195,
+   "lat": -10.562,
+   "countries": []
+  },
+  {
    "id": "us6000udki",
    "mag": 4.6,
    "place": "97 km SW of Puerto Madero, Mexico",
@@ -1341,21 +1356,6 @@
    "countries": [
     "PG"
    ]
-  },
-  {
-   "id": "us6000ubyt",
-   "mag": 4.7,
-   "place": "92 km W of San Juan, Peru",
-   "time": "2026-11-19T09:08:13Z",
-   "updated": "2026-11-19T10:58:51Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubyt",
-   "depth_km": 10.0,
-   "lon": -76.025,
-   "lat": -15.384,
-   "countries": []
   }
  ]
 }
