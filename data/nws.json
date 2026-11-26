@@ -1,68 +1,6 @@
 {
  "records": [
   {
-   "id": "KMHX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Northern Outer Banks",
-    "East Carteret",
-    "Ocracoke Island",
-    "Hatteras Island",
-    "Beaufort",
-    "Pamlico",
-    "Southern Craven"
-   ],
-   "counties": [
-    "37013",
-    "37031",
-    "37049",
-    "37055",
-    "37095",
-    "37137"
-   ],
-   "sent": "2026-11-25T19:09:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec56afd10ad04521e76db334f4c102869ca86e14.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.842,
-     35.4823
-    ],
-    [
-     -76.5359,
-     34.8583
-    ],
-    [
-     -77.0813,
-     35.1168
-    ],
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ],
-    [
-     -76.6653,
-     35.1476
-    ]
-   ],
-   "lon": -76.508,
-   "lat": 35.27,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLOX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -169,8 +107,8 @@
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
     "Northern Washington Coast",
-    "San Juan County",
-    "Grays Harbor County Coast"
+    "Grays Harbor County Coast",
+    "San Juan County"
    ],
    "counties": [
     "53009",
@@ -829,9 +767,6 @@
    "certainty": "Likely",
    "sender": "NWS Upton NY",
    "areas": [
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -839,6 +774,9 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Northeast Suffolk",
     "Southwest Suffolk",
     "Southern Nassau",
@@ -868,7 +806,7 @@
    "sent": "2026-11-26T09:33:00Z",
    "onset": "2026-11-26T12:00:00Z",
    "ends": "2026-11-27T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -923,6 +861,68 @@
    ],
    "lon": -73.874,
    "lat": 40.787,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Beaufort",
+    "Pamlico",
+    "Southern Craven",
+    "Northern Outer Banks",
+    "East Carteret",
+    "Ocracoke Island",
+    "Hatteras Island"
+   ],
+   "counties": [
+    "37013",
+    "37031",
+    "37049",
+    "37055",
+    "37095",
+    "37137"
+   ],
+   "sent": "2026-11-26T09:49:00Z",
+   "onset": "2026-11-26T09:49:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b5d0ae1896ec2c82f220d877e12a871038457ad.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.842,
+     35.4823
+    ],
+    [
+     -76.5359,
+     34.8583
+    ],
+    [
+     -77.0813,
+     35.1168
+    ],
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
+    ],
+    [
+     -76.6653,
+     35.1476
+    ]
+   ],
+   "lon": -76.508,
+   "lat": 35.27,
    "countries": [
     "US"
    ]
@@ -1030,6 +1030,163 @@
    ],
    "lon": -78.695,
    "lat": 35.612,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FF.W.0044.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Edgecombe, NC",
+    "Franklin, NC",
+    "Halifax, NC",
+    "Johnston, NC",
+    "Nash, NC",
+    "Wayne, NC",
+    "Wilson, NC"
+   ],
+   "counties": [
+    "37065",
+    "37069",
+    "37083",
+    "37101",
+    "37127",
+    "37191",
+    "37195"
+   ],
+   "sent": "2026-11-26T09:40:00Z",
+   "onset": "2026-11-26T09:40:00Z",
+   "ends": "2026-11-26T14:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c99db392e05bdf086982a4b1f030d9239e53da24.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.31,
+       35.89
+      ],
+      [
+       -78.18,
+       36.04
+      ],
+      [
+       -78.02,
+       36.12
+      ],
+      [
+       -77.79,
+       36.16
+      ],
+      [
+       -77.5,
+       36.17
+      ],
+      [
+       -77.3,
+       36.09
+      ],
+      [
+       -77.41,
+       36
+      ],
+      [
+       -77.34,
+       35.91
+      ],
+      [
+       -77.35,
+       35.82
+      ],
+      [
+       -77.47,
+       35.8
+      ],
+      [
+       -77.82,
+       35.57
+      ],
+      [
+       -77.83,
+       35.43
+      ],
+      [
+       -77.8,
+       35.38
+      ],
+      [
+       -77.83,
+       35.18
+      ],
+      [
+       -77.89,
+       35.15
+      ],
+      [
+       -78.02,
+       35.19
+      ],
+      [
+       -78.12,
+       35.18
+      ],
+      [
+       -78.29,
+       35.51
+      ],
+      [
+       -78.34,
+       35.77
+      ],
+      [
+       -78.26,
+       35.82
+      ],
+      [
+       -78.31,
+       35.89
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -77.6027,
+     35.9171
+    ],
+    [
+     -78.2831,
+     36.0882
+    ],
+    [
+     -77.6448,
+     36.2514
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -77.9876,
+     35.9659
+    ],
+    [
+     -78.0087,
+     35.3542
+    ],
+    [
+     -77.9216,
+     35.7004
+    ]
+   ],
+   "lon": -77.866,
+   "lat": 35.718,
    "countries": [
     "US"
    ]
@@ -1961,6 +2118,71 @@
    ],
    "lon": -77.226,
    "lat": 35.027,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.FL.W.0002.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Pitt, NC"
+   ],
+   "counties": [
+    "37147"
+   ],
+   "sent": "2026-11-26T09:51:00Z",
+   "onset": "2026-11-26T09:51:00Z",
+   "ends": "2026-11-26T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ce809d2883d11d0a821d2cd3d9dd5342270fd8b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.4,
+       35.59
+      ],
+      [
+       -77.37,
+       35.61
+      ],
+      [
+       -77.34,
+       35.61
+      ],
+      [
+       -77.34,
+       35.6
+      ],
+      [
+       -77.37,
+       35.58
+      ],
+      [
+       -77.4,
+       35.58
+      ],
+      [
+       -77.4,
+       35.59
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -77.3727,
+     35.5925
+    ]
+   ],
+   "lon": -77.374,
+   "lat": 35.594,
    "countries": [
     "US"
    ]
@@ -3226,7 +3448,6 @@
    "certainty": "Likely",
    "sender": "NWS Austin/San Antonio TX",
    "areas": [
-    "Lee",
     "Williamson",
     "Bandera",
     "Hays",
@@ -3238,7 +3459,8 @@
     "Guadalupe",
     "Caldwell",
     "Atascosa",
-    "Wilson"
+    "Wilson",
+    "Lee"
    ],
    "counties": [
     "48013",
@@ -3258,7 +3480,7 @@
    "sent": "2026-11-26T04:15:00Z",
    "onset": "2026-11-26T09:00:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6c8783875c037d40339bdd760ce0b05f0302728.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6c8783875c037d40339bdd760ce0b05f0302728.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4388,67 +4610,6 @@
    ]
   },
   {
-   "id": "KCTP.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS State College PA",
-   "areas": [
-    "Dauphin",
-    "Cambria",
-    "Somerset",
-    "Schuylkill",
-    "Lebanon",
-    "Lancaster"
-   ],
-   "counties": [
-    "42021",
-    "42043",
-    "42071",
-    "42075",
-    "42107",
-    "42111"
-   ],
-   "sent": "2026-11-25T21:17:00Z",
-   "onset": "2026-11-26T09:00:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a3490828d200d27196dedeb0c5302168441e652.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -78.7105,
-     40.5102
-    ],
-    [
-     -76.7926,
-     40.4126
-    ],
-    [
-     -76.2502,
-     40.042
-    ],
-    [
-     -76.4648,
-     40.3714
-    ],
-    [
-     -76.2178,
-     40.7037
-    ],
-    [
-     -79.0285,
-     39.9813
-    ]
-   ],
-   "lon": -77.244,
-   "lat": 40.337,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PHFO.HW.W.0011.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4475,48 +4636,6 @@
    ],
    "lon": -155.502,
    "lat": 19.598,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031"
-   ],
-   "sent": "2026-11-26T04:09:00Z",
-   "onset": "2026-11-26T04:09:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44ee01b6be022882b2ae56329cc9d9c8b505d89b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ]
-   ],
-   "lon": -123.748,
-   "lat": 47.676,
    "countries": [
     "US"
    ]
@@ -4795,11 +4914,6 @@
     "Northampton",
     "Eastern Monmouth",
     "Coastal Ocean",
-    "Kent",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -4817,6 +4931,11 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
+    "Kent",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "Queen Anne's",
     "Talbot",
     "Caroline",
@@ -5637,6 +5756,67 @@
    ],
    "lon": -78.098,
    "lat": 38.643,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KCTP.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS State College PA",
+   "areas": [
+    "Cambria",
+    "Somerset",
+    "Dauphin",
+    "Schuylkill",
+    "Lebanon",
+    "Lancaster"
+   ],
+   "counties": [
+    "42021",
+    "42043",
+    "42071",
+    "42075",
+    "42107",
+    "42111"
+   ],
+   "sent": "2026-11-26T09:42:00Z",
+   "onset": "2026-11-26T09:42:00Z",
+   "ends": "2026-11-27T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11fdd4087fda74c125bc4808a683e2180286a497.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -78.7105,
+     40.5102
+    ],
+    [
+     -76.7926,
+     40.4126
+    ],
+    [
+     -76.2502,
+     40.042
+    ],
+    [
+     -76.4648,
+     40.3714
+    ],
+    [
+     -76.2178,
+     40.7037
+    ],
+    [
+     -79.0285,
+     39.9813
+    ]
+   ],
+   "lon": -77.244,
+   "lat": 40.337,
    "countries": [
     "US"
    ]

@@ -1,6 +1,21 @@
 {
  "records": [
   {
+   "code": "EMSR938",
+   "name": "Oil Spill in the Balearic Islands, Spain",
+   "category": "Other",
+   "event": "2026-11-25T23:00:00Z",
+   "activated": "2026-11-26T09:13:00Z",
+   "updated": "2026-11-26T09:37:15Z",
+   "closed": false,
+   "products": 0,
+   "countries": [
+    "ES"
+   ],
+   "lon": 1.134,
+   "lat": 39.251
+  },
+  {
    "code": "EMSR937",
    "name": "Mass Movement in Manteigas, Portugal",
    "category": "Mass movement",
@@ -738,21 +753,6 @@
    ],
    "lon": 7.826,
    "lat": 49.83
-  },
-  {
-   "code": "EMSR885",
-   "name": "Wildfire in Aragon, Spain",
-   "category": "Wildfire",
-   "event": "2026-06-25T13:10:00Z",
-   "activated": "2026-06-25T22:29:00Z",
-   "updated": "2026-07-17T07:27:45Z",
-   "closed": true,
-   "products": 1,
-   "countries": [
-    "ES"
-   ],
-   "lon": 0.327,
-   "lat": 41.968
   }
  ]
 }
