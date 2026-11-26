@@ -4923,42 +4923,6 @@
    ]
   },
   {
-   "id": "KSEW.WS.W.0005.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Cascades of Whatcom and Skagit Counties"
-   ],
-   "counties": [
-    "53057",
-    "53073"
-   ],
-   "sent": "2026-11-26T17:49:00Z",
-   "onset": "2026-11-26T17:49:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a035f0df6fbe02651462dd70a66682243b77ab2c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -121.8158,
-     48.4933
-    ],
-    [
-     -121.8364,
-     48.8427
-    ]
-   ],
-   "lon": -121.826,
-   "lat": 48.668,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KOTX.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -5098,6 +5062,42 @@
    ],
    "lon": -153.473,
    "lat": 69.449,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.WS.W.0005.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Cascades of Whatcom and Skagit Counties"
+   ],
+   "counties": [
+    "53057",
+    "53073"
+   ],
+   "sent": "2026-11-26T22:50:00Z",
+   "onset": "2026-11-26T22:50:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a827d8942911c505766cdee0bf43d6fe348686a.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -121.8158,
+     48.4933
+    ],
+    [
+     -121.8364,
+     48.8427
+    ]
+   ],
+   "lon": -121.826,
+   "lat": 48.668,
    "countries": [
     "US"
    ]
