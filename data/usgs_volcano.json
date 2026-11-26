@@ -1,6 +1,26 @@
 {
  "records": [
   {
+   "vnum": "284141",
+   "name": "Ahyi Seamount",
+   "observatory": "nmi",
+   "observatory_name": "USGS, Northern Mariana Islands",
+   "alert": "ADVISORY",
+   "color": "YELLOW",
+   "prev_alert": "UNASSIGNED",
+   "prev_color": "UNASSIGNED",
+   "sent": "2026-11-26T17:49:45Z",
+   "changed": "2026-07-16T00:13:50Z",
+   "synopsis": "NMI Ahyi Seamount YELLOW/ADVISORY - No evidence of activity observed in satellite or geophysical data.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-NMI-2026-11-26T17:46:28+00:00",
+   "threat": "Very Low Threat",
+   "lat": 20.437,
+   "lon": 145.03,
+   "countries": [
+    "MP"
+   ]
+  },
+  {
    "vnum": "332010",
    "name": "Kilauea",
    "observatory": "hvo",
@@ -9,10 +29,10 @@
    "color": "YELLOW",
    "prev_alert": "WATCH",
    "prev_color": "ORANGE",
-   "sent": "2026-11-25T19:21:02Z",
+   "sent": "2026-11-26T17:37:10Z",
    "changed": "2026-11-23T16:04:44Z",
-   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption at the summit of Kīlauea is paused following lava fountaining episode 57 on the morning of November 23. Preliminary forecast models suggest the next episode may occur sometime between December 3 and 17.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-25T16:56:33+00:00",
+   "synopsis": "HVO Kilauea YELLOW/ADVISORY - The Halema'uma'u eruption at the summit of Kīlauea is paused following lava fountaining episode 57 on the morning of November 23. Preliminary forecast models suggest the next episode may occur sometime between December 3 and 16.",
+   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-HVO-2026-11-26T16:53:51+00:00",
    "threat": "Very High Threat",
    "lat": 19.421,
    "lon": -155.287,
@@ -38,26 +58,6 @@
    "lon": -176.1109,
    "countries": [
     "US"
-   ]
-  },
-  {
-   "vnum": "284141",
-   "name": "Ahyi Seamount",
-   "observatory": "nmi",
-   "observatory_name": "USGS, Northern Mariana Islands",
-   "alert": "ADVISORY",
-   "color": "YELLOW",
-   "prev_alert": "UNASSIGNED",
-   "prev_color": "UNASSIGNED",
-   "sent": "2026-11-19T22:47:09Z",
-   "changed": "2026-07-16T00:13:50Z",
-   "synopsis": "NMI Ahyi Seamount YELLOW/ADVISORY - Underwater plume detected in satellite data; no significant geophysical signals.",
-   "url": "https://volcanoes.usgs.gov/hans2/view/notice/DOI-USGS-NMI-2026-11-19T22:45:26+00:00",
-   "threat": "Very Low Threat",
-   "lat": 20.437,
-   "lon": 145.03,
-   "countries": [
-    "MP"
    ]
   }
  ]
