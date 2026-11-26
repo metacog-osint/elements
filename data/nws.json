@@ -10,13 +10,13 @@
    "areas": [
     "New Castle",
     "Salem",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -166,8 +166,8 @@
    "certainty": "Likely",
    "sender": "NWS San Diego CA",
    "areas": [
-    "Orange County Coastal",
-    "San Diego County Coastal Areas"
+    "San Diego County Coastal Areas",
+    "Orange County Coastal"
    ],
    "counties": [
     "06059",
@@ -176,7 +176,7 @@
    "sent": "2026-11-25T22:08:00Z",
    "onset": "2026-11-25T22:08:00Z",
    "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cef5ffac0ee43cd529d7a7957cac5c63f1dddb93.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -339,8 +339,8 @@
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
     "Northern Washington Coast",
-    "San Juan County",
-    "Grays Harbor County Coast"
+    "Grays Harbor County Coast",
+    "San Juan County"
    ],
    "counties": [
     "53009",
@@ -500,9 +500,6 @@
    "sender": "NWS Upton NY",
    "areas": [
     "Northeast Suffolk",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -510,6 +507,9 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Queens",
     "Southeast Suffolk",
     "Hudson",
@@ -605,27 +605,27 @@
    "certainty": "Likely",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Eastern Currituck",
+    "Westmoreland",
+    "Northumberland",
     "Chesapeake",
     "Hampton/Poquoson",
     "Suffolk",
     "Norfolk",
     "Portsmouth",
+    "Inland Worcester",
+    "Virginia Beach",
+    "Maryland Beaches",
+    "Accomack",
+    "Eastern Currituck",
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
     "Prince George",
     "Charles City",
     "Surry",
     "James City",
     "Newport News",
     "Isle of Wight",
-    "Virginia Beach",
-    "Westmoreland",
-    "Northumberland",
-    "Inland Worcester",
-    "Maryland Beaches",
-    "Accomack",
     "Richmond",
     "Lancaster",
     "New Kent",
@@ -677,9 +677,9 @@
     "51830"
    ],
    "sent": "2026-11-26T01:46:00Z",
-   "onset": "2026-11-26T14:00:00Z",
+   "onset": "2026-11-26T01:46:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f630251a526c75f5034ca5dd90fce05e2b8b43b.009.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f630251a526c75f5034ca5dd90fce05e2b8b43b.008.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3157,6 +3157,43 @@
    ]
   },
   {
+   "id": "KLCH.FZ.W.0003.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Lake Charles LA",
+   "areas": [
+    "Rapides",
+    "Avoyelles"
+   ],
+   "counties": [
+    "22009",
+    "22079"
+   ],
+   "sent": "2026-11-26T00:07:00Z",
+   "onset": "2026-11-26T06:00:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0c551878f12211c7eb221ef1eabe43356247381.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.9833,
+     31.0885
+    ],
+    [
+     -92.536,
+     31.1932
+    ]
+   ],
+   "lon": -92.26,
+   "lat": 31.141,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KEWX.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3164,6 +3201,7 @@
    "certainty": "Likely",
    "sender": "NWS Austin/San Antonio TX",
    "areas": [
+    "Lee",
     "Williamson",
     "Bandera",
     "Hays",
@@ -3186,15 +3224,16 @@
     "48091",
     "48187",
     "48209",
+    "48287",
     "48325",
     "48453",
     "48491",
     "48493"
    ],
-   "sent": "2026-11-25T17:15:00Z",
+   "sent": "2026-11-26T04:15:00Z",
    "onset": "2026-11-26T09:00:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9db399288041ee6ed2a96bb6fa504ca09f90382.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6c8783875c037d40339bdd760ce0b05f0302728.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3231,6 +3270,10 @@
      30.0612
     ],
     [
+     -96.9768,
+     30.3215
+    ],
+    [
      -99.1111,
      29.3537
     ],
@@ -3247,45 +3290,8 @@
      29.1739
     ]
    ],
-   "lon": -98.164,
-   "lat": 29.742,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLCH.FZ.W.0003.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Lake Charles LA",
-   "areas": [
-    "Rapides",
-    "Avoyelles"
-   ],
-   "counties": [
-    "22009",
-    "22079"
-   ],
-   "sent": "2026-11-26T00:07:00Z",
-   "onset": "2026-11-26T06:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0c551878f12211c7eb221ef1eabe43356247381.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.9833,
-     31.0885
-    ],
-    [
-     -92.536,
-     31.1932
-    ]
-   ],
-   "lon": -92.26,
-   "lat": 31.141,
+   "lon": -98.073,
+   "lat": 29.786,
    "countries": [
     "US"
    ]
@@ -4607,48 +4613,6 @@
    ]
   },
   {
-   "id": "KSEW.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Northern Washington Coast",
-    "Grays Harbor County Coast"
-   ],
-   "counties": [
-    "53009",
-    "53027",
-    "53031"
-   ],
-   "sent": "2026-11-25T20:20:00Z",
-   "onset": "2026-11-26T00:00:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bffc4da7b3ef8d76663be8837eb9d19e1e7e9f53.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.8899,
-     48.1109
-    ],
-    [
-     -123.8267,
-     47.1121
-    ],
-    [
-     -123.5271,
-     47.8057
-    ]
-   ],
-   "lon": -123.748,
-   "lat": 47.676,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4822,15 +4786,6 @@
    "areas": [
     "Pasquotank",
     "Camden",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Surry",
-    "Chesapeake",
-    "Virginia Beach",
-    "Isle of Wight",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "Northumberland",
@@ -4844,6 +4799,15 @@
     "York",
     "Newport News",
     "Hampton/Poquoson",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Surry",
+    "Chesapeake",
+    "Virginia Beach",
+    "Isle of Wight",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
     "Dorchester",
     "Wicomico",
     "Somerset",
@@ -5178,18 +5142,18 @@
    "certainty": "Likely",
    "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
+    "St. Marys",
     "Western Garrett",
     "Western Highland",
     "Western Grant",
     "Western Pendleton",
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
     "Cecil",
     "Southern Baltimore",
     "Anne Arundel",
     "Calvert",
-    "Southeast Harford",
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge",
-    "St. Marys"
+    "Southeast Harford"
    ],
    "counties": [
     "24003",
@@ -5218,7 +5182,7 @@
    "sent": "2026-11-26T01:22:00Z",
    "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5414,6 +5378,48 @@
    ]
   },
   {
+   "id": "KSEW.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Northern Washington Coast",
+    "Grays Harbor County Coast"
+   ],
+   "counties": [
+    "53009",
+    "53027",
+    "53031"
+   ],
+   "sent": "2026-11-26T04:09:00Z",
+   "onset": "2026-11-26T04:09:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44ee01b6be022882b2ae56329cc9d9c8b505d89b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.8899,
+     48.1109
+    ],
+    [
+     -123.8267,
+     47.1121
+    ],
+    [
+     -123.5271,
+     47.8057
+    ]
+   ],
+   "lon": -123.748,
+   "lat": 47.676,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5458,6 +5464,62 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.MA.W.0415.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
+    "S of Cape Lookout NC to Surf City NC out to 20 NM",
+    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75156",
+    "75158",
+    "75188"
+   ],
+   "sent": "2026-11-26T04:29:00Z",
+   "onset": "2026-11-26T04:29:00Z",
+   "ends": "2026-11-26T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afd92ade86755d2f6b5c6630fca07b9f8cc6344e.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.26,
+       34.52
+      ],
+      [
+       -76.35,
+       34.28
+      ],
+      [
+       -76.57,
+       34.54
+      ],
+      [
+       -76.42,
+       34.75
+      ],
+      [
+       -76.26,
+       34.52
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -76.372,
+   "lat": 34.522,
    "countries": [
     "US"
    ]
@@ -5555,32 +5617,6 @@
    ]
   },
   {
-   "id": "KILM.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75280"
-   ],
-   "sent": "2026-11-25T18:28:00Z",
-   "onset": "2026-11-25T18:28:00Z",
-   "ends": "2026-11-26T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90fdaa292d983453d75acbf71a86b681d5f6f619.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPQR.SR.W.0005.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -5621,9 +5657,9 @@
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
     "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Little Egg Inlet NJ to Great Egg Inlet NJ from 20 to 60 NM",
     "Waters from Great Egg Inlet NJ to Cape May NJ from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
@@ -5843,6 +5879,32 @@
    "onset": "2026-11-26T03:26:00Z",
    "ends": "2026-11-26T18:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa53734a08903517c3bfa841e6c8e69775a3355a.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILM.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
+   ],
+   "counties": [
+    "75280"
+   ],
+   "sent": "2026-11-26T04:30:00Z",
+   "onset": "2026-11-26T04:30:00Z",
+   "ends": "2026-11-26T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bac7b62b4781607c3443aa4b2e58667a977ff657.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6101,6 +6163,169 @@
    ]
   },
   {
+   "id": "KLSX.WS.W.0002.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Greene",
+    "Randolph",
+    "Pike",
+    "Calhoun",
+    "Jersey",
+    "St. Clair",
+    "Monroe",
+    "Lincoln",
+    "Gasconade",
+    "St. Charles",
+    "St. Louis",
+    "St. Louis City",
+    "Jefferson",
+    "Macoupin",
+    "Madison",
+    "Audrain",
+    "Osage",
+    "Callaway",
+    "Montgomery",
+    "Crawford",
+    "St. Francois",
+    "Ste. Genevieve",
+    "Reynolds"
+   ],
+   "counties": [
+    "17013",
+    "17061",
+    "17083",
+    "17117",
+    "17119",
+    "17133",
+    "17149",
+    "17157",
+    "17163",
+    "29007",
+    "29027",
+    "29055",
+    "29073",
+    "29099",
+    "29113",
+    "29139",
+    "29151",
+    "29179",
+    "29183",
+    "29186",
+    "29187",
+    "29189",
+    "29510"
+   ],
+   "sent": "2026-11-26T04:27:00Z",
+   "onset": "2026-11-26T04:27:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -90.6663,
+     39.1643
+    ],
+    [
+     -90.3877,
+     39.3554
+    ],
+    [
+     -90.3614,
+     39.0802
+    ],
+    [
+     -89.9263,
+     39.2659
+    ],
+    [
+     -89.9002,
+     38.8271
+    ],
+    [
+     -90.1791,
+     38.278
+    ],
+    [
+     -90.889,
+     39.6251
+    ],
+    [
+     -89.8212,
+     38.0565
+    ],
+    [
+     -89.9285,
+     38.4702
+    ],
+    [
+     -91.8434,
+     39.2145
+    ],
+    [
+     -91.9234,
+     38.8355
+    ],
+    [
+     -91.3139,
+     37.9666
+    ],
+    [
+     -91.5058,
+     38.4412
+    ],
+    [
+     -90.5437,
+     38.2576
+    ],
+    [
+     -90.9629,
+     39.0623
+    ],
+    [
+     -91.4654,
+     38.9352
+    ],
+    [
+     -91.8595,
+     38.4643
+    ],
+    [
+     -90.9723,
+     37.3665
+    ],
+    [
+     -90.6749,
+     38.7811
+    ],
+    [
+     -90.1615,
+     37.8858
+    ],
+    [
+     -90.4739,
+     37.8107
+    ],
+    [
+     -90.4455,
+     38.6404
+    ],
+    [
+     -90.2446,
+     38.6357
+    ]
+   ],
+   "lon": -90.715,
+   "lat": 38.627,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLSX.WS.W.0003.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -6123,10 +6348,10 @@
     "29219",
     "29221"
    ],
-   "sent": "2026-11-26T00:25:00Z",
-   "onset": "2026-11-26T00:25:00Z",
+   "sent": "2026-11-26T04:27:00Z",
+   "onset": "2026-11-26T04:27:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.004.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -6162,128 +6387,44 @@
    ]
   },
   {
-   "id": "KLSX.WS.W.0002.2026",
+   "id": "KSGF.WS.W.0002.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
    "urgency": "Expected",
    "certainty": "Likely",
-   "sender": "NWS St Louis MO",
+   "sender": "NWS Springfield MO",
    "areas": [
-    "Greene",
-    "Randolph",
-    "Pike",
-    "Calhoun",
-    "Jersey",
-    "St. Clair",
-    "Monroe",
-    "Lincoln",
-    "Gasconade",
-    "St. Charles",
-    "St. Louis",
-    "St. Louis City",
-    "Jefferson",
-    "Crawford",
-    "St. Francois",
-    "Ste. Genevieve",
-    "Reynolds"
+    "Maries",
+    "Phelps",
+    "Dent"
    ],
    "counties": [
-    "17013",
-    "17061",
-    "17083",
-    "17133",
-    "17149",
-    "17157",
-    "17163",
-    "29055",
-    "29073",
-    "29099",
-    "29113",
-    "29179",
-    "29183",
-    "29186",
-    "29187",
-    "29189",
-    "29510"
+    "29065",
+    "29125",
+    "29161"
    ],
-   "sent": "2026-11-26T00:25:00Z",
-   "onset": "2026-11-26T00:25:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.001.1",
+   "sent": "2026-11-26T04:34:00Z",
+   "onset": "2026-11-26T04:34:00Z",
+   "ends": "2026-11-26T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14a72e1be054e679e3b4d6de0efa1e56ed4dab5f.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -90.6663,
-     39.1643
+     -91.4897,
+     37.6031
     ],
     [
-     -90.3877,
-     39.3554
+     -91.9236,
+     38.1626
     ],
     [
-     -90.3614,
-     39.0802
-    ],
-    [
-     -90.1791,
-     38.278
-    ],
-    [
-     -90.889,
-     39.6251
-    ],
-    [
-     -89.8212,
-     38.0565
-    ],
-    [
-     -89.9285,
-     38.4702
-    ],
-    [
-     -91.3139,
-     37.9666
-    ],
-    [
-     -91.5058,
-     38.4412
-    ],
-    [
-     -90.5437,
-     38.2576
-    ],
-    [
-     -90.9629,
-     39.0623
-    ],
-    [
-     -90.9723,
-     37.3665
-    ],
-    [
-     -90.6749,
-     38.7811
-    ],
-    [
-     -90.1615,
-     37.8858
-    ],
-    [
-     -90.4739,
-     37.8107
-    ],
-    [
-     -90.4455,
-     38.6404
-    ],
-    [
-     -90.2446,
-     38.6357
+     -91.7904,
+     37.8663
     ]
    ],
-   "lon": -90.561,
-   "lat": 38.522,
+   "lon": -91.735,
+   "lat": 37.877,
    "countries": [
     "US"
    ]
