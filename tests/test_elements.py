@@ -468,6 +468,35 @@ class Firms(unittest.TestCase):
         self.assertEqual((p["precision_class"], p["tier"], p["countries"]), ("country", "routine", ["BR"]))
         self.assertEqual(p["data_as_of"], "2026-10-31T15:30:00Z")
 
+    def test_feed_fire_baseline(self):
+        # 28-day median; anomaly at 3 times it and at least 50; routine under 14 days of history.
+        from datetime import date, timedelta
+        today = NOW.date()
+        days = {(today - timedelta(days=i)).isoformat(): {"BR": 100, "GR": 0} for i in range(1, 21)}
+        days[(today - timedelta(days=1)).isoformat()]["AR"] = 5
+        days[today.isoformat()] = {"BR": 9999}                  # today is still filling: not in the baseline
+        cell = lambda n, cc: [-50.0, -10.0, n, n, 30.0, 9.0, "2026-10-31T15:30Z", cc]
+        d = dataset()
+        d["firms_daily"] = {"days": days}
+        d["firms"] = {"records": {"cells": [cell(300, "BR"), cell(60, "GR"), cell(40, "AR")], "window": [None, None],
+                                  "cell_deg": 0.5}, "fetched_at": FETCHED}
+        fc = feed.build(d, NOW)
+        self.assertEqual(fc["dropped"], [])
+        fire = {f["properties"]["id"]: f["properties"] for f in fc["features"] if f["properties"]["id"].startswith("elements:firms:")}
+        br, gr, ar = fire["elements:firms:BR"], fire["elements:firms:GR"], fire["elements:firms:AR"]
+        self.assertEqual((br["tier"], br["signal"]["expected"], br["signal"]["baseline_n"]), ("anomaly", 100, 20))
+        self.assertEqual(br["baseline_ref"]["type"], "rolling")
+        self.assertEqual(gr["tier"], "anomaly")                  # median 0, 60 detections: over the floor of 50
+        self.assertEqual(ar["tier"], "routine")                  # under the floor of 50
+        d["firms"]["records"]["cells"][0] = cell(299, "BR")
+        self.assertEqual({f["properties"]["id"]: f["properties"]["tier"] for f in feed.build(d, NOW)["features"]}["elements:firms:BR"], "routine")
+        d["firms_daily"] = {"days": dict(sorted(days.items())[-14:])}   # 13 complete days and today
+        fc = feed.build(d, NOW)
+        br = [f["properties"] for f in fc["features"] if f["properties"]["id"] == "elements:firms:BR"][0]
+        self.assertEqual(br["tier"], "routine")
+        self.assertNotIn("expected", br["signal"])
+        self.assertNotIn("baseline_ref", br)
+
     def test_feed_floor_keeps_open_items(self):
         # An open country item stays down to 5 detections; a new one still needs 10.
         d = dataset()
