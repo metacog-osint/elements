@@ -713,7 +713,7 @@
    "id": "FL-1104220",
    "type": "FL",
    "kind": "flood",
-   "episode": 19,
+   "episode": 24,
    "name": "Flood in Italy",
    "alert": "green",
    "score": 1,
@@ -721,13 +721,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-07T01:00:00Z",
-   "to": "2026-11-21T01:00:00Z",
-   "current": false,
+   "to": "2026-11-27T01:00:00Z",
+   "current": true,
    "country": "Italy",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=19&eventtype=FL",
-   "lon": 11.139,
-   "lat": 43.459,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=24&eventtype=FL",
+   "lon": 9.098,
+   "lat": 40.062,
    "countries": [
     "IT"
    ]
@@ -759,7 +759,7 @@
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
-   "episode": 18,
+   "episode": 17,
    "name": "Flood in Ecuador",
    "alert": "green",
    "score": 1,
@@ -771,9 +771,9 @@
    "current": true,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=18&eventtype=FL",
-   "lon": -79.554,
-   "lat": -1.494,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=17&eventtype=FL",
+   "lon": -79.652,
+   "lat": 0.967,
    "countries": [
     "EC"
    ]
