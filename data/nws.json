@@ -1,49 +1,6 @@
 {
  "records": [
   {
-   "id": "KLOX.CF.W.0003.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Los Angeles/Oxnard CA",
-   "areas": [
-    "San Luis Obispo County Beaches",
-    "Santa Barbara County Central Coast Beaches",
-    "Ventura County Beaches"
-   ],
-   "counties": [
-    "06079",
-    "06083",
-    "06111"
-   ],
-   "sent": "2026-11-25T22:14:00Z",
-   "onset": "2026-11-25T22:14:00Z",
-   "ends": "2026-11-26T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65971275c6dac7a4ed5c1aba20f23eac97902e5c.002.3",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -120.4489,
-     35.3882
-    ],
-    [
-     -120.0384,
-     34.5367
-    ],
-    [
-     -119.1331,
-     34.3587
-    ]
-   ],
-   "lon": -119.873,
-   "lat": 34.761,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -928,6 +885,49 @@
    ]
   },
   {
+   "id": "KLOX.CF.W.0003.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Los Angeles/Oxnard CA",
+   "areas": [
+    "Ventura County Beaches",
+    "San Luis Obispo County Beaches",
+    "Santa Barbara County Central Coast Beaches"
+   ],
+   "counties": [
+    "06079",
+    "06083",
+    "06111"
+   ],
+   "sent": "2026-11-26T11:03:00Z",
+   "onset": "2026-11-26T11:03:00Z",
+   "ends": "2026-11-26T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0048f71bb4b034429323d20a27d0f1d65bf288f.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -120.4489,
+     35.3882
+    ],
+    [
+     -120.0384,
+     34.5367
+    ],
+    [
+     -119.1331,
+     34.3587
+    ]
+   ],
+   "lon": -119.873,
+   "lat": 34.761,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KRAH.FF.W.0043.2026",
    "event": "Flash Flood Warning",
    "severity": "Severe",
@@ -950,10 +950,10 @@
     "37135",
     "37183"
    ],
-   "sent": "2026-11-26T08:50:00Z",
-   "onset": "2026-11-26T08:50:00Z",
+   "sent": "2026-11-26T11:09:00Z",
+   "onset": "2026-11-26T11:09:00Z",
    "ends": "2026-11-26T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.404caa268444a8d96bd1cbc705bc51bc7ed5e1c2.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72a9bf1d3123cb65e3013196dd36771cb3c787b1.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -1059,10 +1059,10 @@
     "37191",
     "37195"
    ],
-   "sent": "2026-11-26T09:40:00Z",
-   "onset": "2026-11-26T09:40:00Z",
-   "ends": "2026-11-26T14:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c99db392e05bdf086982a4b1f030d9239e53da24.001.1",
+   "sent": "2026-11-26T11:16:00Z",
+   "onset": "2026-11-26T11:16:00Z",
+   "ends": "2026-11-26T15:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89f4d9b254d136fd17aafadeca90f6ed9ad9dd66.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -3362,85 +3362,6 @@
    ]
   },
   {
-   "id": "KFWD.FZ.W.0004.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fort Worth TX",
-   "areas": [
-    "Freestone",
-    "Anderson",
-    "Bell",
-    "McLennan",
-    "Falls",
-    "Limestone",
-    "Leon",
-    "Milam",
-    "Robertson"
-   ],
-   "counties": [
-    "48001",
-    "48027",
-    "48145",
-    "48161",
-    "48289",
-    "48293",
-    "48309",
-    "48331",
-    "48395"
-   ],
-   "sent": "2026-11-25T15:28:00Z",
-   "onset": "2026-11-26T05:00:00Z",
-   "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89d1ce9cc172b8be182a45207162b0a88c096587.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -95.6617,
-     31.8413
-    ],
-    [
-     -97.4796,
-     31.037
-    ],
-    [
-     -96.9341,
-     31.2519
-    ],
-    [
-     -96.145,
-     31.7017
-    ],
-    [
-     -95.9956,
-     31.3005
-    ],
-    [
-     -96.5936,
-     31.5475
-    ],
-    [
-     -97.2015,
-     31.5496
-    ],
-    [
-     -96.9844,
-     30.7912
-    ],
-    [
-     -96.5149,
-     31.0255
-    ]
-   ],
-   "lon": -96.612,
-   "lat": 31.338,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KEWX.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -3607,6 +3528,85 @@
    ],
    "lon": -92.26,
    "lat": 31.141,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KFWD.FZ.W.0004.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fort Worth TX",
+   "areas": [
+    "Freestone",
+    "Anderson",
+    "Bell",
+    "McLennan",
+    "Falls",
+    "Limestone",
+    "Leon",
+    "Milam",
+    "Robertson"
+   ],
+   "counties": [
+    "48001",
+    "48027",
+    "48145",
+    "48161",
+    "48289",
+    "48293",
+    "48309",
+    "48331",
+    "48395"
+   ],
+   "sent": "2026-11-26T11:19:00Z",
+   "onset": "2026-11-26T11:19:00Z",
+   "ends": "2026-11-26T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03d1932e99897a6928a41b34e27697a153dfedc7.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -95.6617,
+     31.8413
+    ],
+    [
+     -97.4796,
+     31.037
+    ],
+    [
+     -96.9341,
+     31.2519
+    ],
+    [
+     -96.145,
+     31.7017
+    ],
+    [
+     -95.9956,
+     31.3005
+    ],
+    [
+     -96.5936,
+     31.5475
+    ],
+    [
+     -97.2015,
+     31.5496
+    ],
+    [
+     -96.9844,
+     30.7912
+    ],
+    [
+     -96.5149,
+     31.0255
+    ]
+   ],
+   "lon": -96.612,
+   "lat": 31.338,
    "countries": [
     "US"
    ]
@@ -4870,11 +4870,6 @@
     "Northampton",
     "Eastern Monmouth",
     "Coastal Ocean",
-    "Kent",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
     "New Castle",
     "Hunterdon",
     "Somerset",
@@ -4892,6 +4887,11 @@
     "Eastern Montgomery",
     "Upper Bucks",
     "Lower Bucks",
+    "Kent",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
     "Queen Anne's",
     "Talbot",
     "Caroline",
@@ -5577,13 +5577,13 @@
    "certainty": "Likely",
    "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge",
     "Cecil",
     "Southern Baltimore",
     "Anne Arundel",
     "Calvert",
     "Southeast Harford",
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
     "Western Garrett",
     "Western Highland",
     "Western Grant",
@@ -5617,7 +5617,7 @@
    "sent": "2026-11-26T09:29:00Z",
    "onset": "2026-11-26T09:29:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643dfb66b98776d9cc519686c424070f1aa3a7a4.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -6188,33 +6188,25 @@
    "certainty": "Observed",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
-    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
-    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-    "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM",
-    "Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
     "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
     "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
     "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
-    "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
-    "S of Cape Lookout NC to Surf City NC out to 20 NM"
+    "Waters from Currituck Beach Light to Oregon Inlet NC from 20 to 60 NM",
+    "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM",
+    "Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM"
    ],
    "counties": [
     "75150",
     "75152",
     "75154",
-    "75156",
-    "75158",
     "75180",
     "75182",
-    "75184",
-    "75186",
-    "75188"
+    "75184"
    ],
-   "sent": "2026-11-26T10:59:00Z",
-   "onset": "2026-11-26T10:59:00Z",
+   "sent": "2026-11-26T11:08:00Z",
+   "onset": "2026-11-26T11:08:00Z",
    "ends": "2026-11-26T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d043b84fb407aa391910b6c5091ab03e41f0922.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8026cf952c6895dcba39e247e7155c6c1b929095.006.1",
    "geometry": null,
    "vtec": true,
    "points": [],
