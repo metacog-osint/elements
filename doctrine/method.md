@@ -113,6 +113,11 @@ NEIC), and then the match is recorded but not counted. An EMSC earthquake with n
 carrying NEIC's solution is left to USGS's feed. A missing match is not an error by either agency, since their
 magnitudes differ and the 4.5 cut-off splits events between them.
 
+An earthquake whose epicentre is in no country (most are at sea) keeps `countries` empty, so a join by country stays
+strict. When USGS's place text names a reference town ("85 km S of Gorontalo, Indonesia"), the item carries
+`measures.town_country`, the ISO code of the country named after the town (a US state counts as US). It is the town
+USGS chose to describe the location, not a measured nearest coast; a region name ("Fiji region") gives none.
+
 ## US wildfires
 NIFC's WFIGS service lists current incidents, including prescribed burns and fires contained months ago. Elements keeps
 wildfires not declared out that are either short of full containment or were discovered in the last 14 days. Fires of

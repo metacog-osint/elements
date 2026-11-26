@@ -537,5 +537,19 @@ class Registers(unittest.TestCase):
         self.assertTrue(all(len(b) == 4 for st in by.values() for b in st["boxes"]))
 
 
+class TownCountry(unittest.TestCase):
+    def test_place_text(self):
+        tc = feed.town_country
+        self.assertEqual(tc("85 km S of Gorontalo, Indonesia"), "ID")
+        self.assertEqual(tc("207 km ESE of Sarangani, Philippines"), "PH")
+        self.assertEqual(tc("74 km E of Petropavlovsk-Kamchatsky, Russia"), "RU")
+        self.assertEqual(tc("12 km SW of Adak, Alaska"), "US")
+        self.assertEqual(tc("5.3 km NNE of Ridgecrest, CA"), "US")
+        self.assertIsNone(tc("Fiji region"))
+        self.assertIsNone(tc("Volcano Islands, Japan region"))
+        self.assertIsNone(tc("south of the Fiji Islands"))
+        self.assertIsNone(tc(None))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

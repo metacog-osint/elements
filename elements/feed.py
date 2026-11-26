@@ -430,6 +430,39 @@ def _pt(lon, lat):
     return {"type": "Point", "coordinates": [lon, lat]} if lon is not None and lat is not None else None
 
 
+US_STATES = {"AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA",
+             "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK",
+             "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY",
+             "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida",
+             "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine",
+             "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska",
+             "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio",
+             "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas",
+             "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"}
+PLACE_ALIASES = {"Burma (Myanmar)": "MM", "Myanmar": "MM", "U.S. Virgin Islands": "VI", "Puerto Rico": "PR",
+                 "Congo": "CG", "Democratic Republic of the Congo": "CD", "Timor Leste": "TL", "Timor-Leste": "TL",
+                 "Turkey": "TR", "Türkiye": "TR", "Czech Republic": "CZ", "North Macedonia": "MK", "Eswatini": "SZ"}
+TOWN_PLACE = re.compile(r"^\d+(?:\.\d+)? km [NSEW]{1,3} of .+, ([^,]+)$")
+
+
+@cache
+def _name_codes() -> dict:
+    return {v: k for k, v in geo._names().items()} | {"United States": "US"}
+
+
+def town_country(place: str | None) -> str | None:
+    """The ISO code of the country USGS's place text names after its reference town ("85 km S of Gorontalo,
+    Indonesia" -> ID; a US state -> US), or None for a region name ("Fiji region") or a name not matched. The town is
+    the one USGS chose to describe the location, not a measured nearest coast."""
+    m = TOWN_PLACE.match((place or "").strip())
+    if not m:
+        return None
+    name = m.group(1).strip()
+    if name in US_STATES:
+        return "US"
+    return PLACE_ALIASES.get(name) or _name_codes().get(name)
+
+
 def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
     """The country's baseline from data/firms_daily.json: the median of its detections over the past FIRE_BASE_DAYS
     complete UTC days before today (a day the file holds without the country counts 0), or None under
@@ -467,6 +500,10 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
                                                 "tsunami_flag": q.get("tsunami"), "significance": q.get("sig")}}
         if alert:
             p["response_stage"] = f"pager:{alert}"
+        if not q["countries"]:
+            tc = town_country(q.get("place"))
+            if tc:
+                p["measures"]["town_country"] = tc       # a hint for an offshore quake; countries stays empty
         if hot:
             p["baseline_ref"] = {"id": "pager-green", "window": "USGS PAGER alert scale (green: little or no impact)",
                                  "type": "fixed", "version": "1"}
