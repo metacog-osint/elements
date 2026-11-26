@@ -22,6 +22,29 @@
    "countries": []
   },
   {
+   "id": "FL-1104297",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 2,
+   "name": "Flood in Thailand",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-22T01:00:00Z",
+   "to": "2026-11-25T01:00:00Z",
+   "current": true,
+   "country": "Thailand",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104297&episodeid=2&eventtype=FL",
+   "lon": 100.55,
+   "lat": 6.879,
+   "countries": [
+    "TH"
+   ]
+  },
+  {
    "id": "FL-1104295",
    "type": "FL",
    "kind": "flood",
@@ -42,29 +65,6 @@
    "lat": 51.68,
    "countries": [
     "IE"
-   ]
-  },
-  {
-   "id": "FL-1104297",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Thailand",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-22T01:00:00Z",
-   "to": "2026-11-24T01:00:00Z",
-   "current": true,
-   "country": "Thailand",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104297&episodeid=1&eventtype=FL",
-   "lon": 99.997,
-   "lat": 7.543,
-   "countries": [
-    "TH"
    ]
   },
   {
@@ -667,7 +667,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 66,
+   "episode": 6,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -679,9 +679,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=66&eventtype=FL",
-   "lon": 99.381,
-   "lat": 2.192,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
+   "lon": 97.025,
+   "lat": 4.369,
    "countries": [
     "ID"
    ]

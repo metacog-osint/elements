@@ -262,9 +262,6 @@
    "sender": "NWS Upton NY",
    "areas": [
     "Northeast Suffolk",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -272,6 +269,9 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Queens",
     "Southeast Suffolk",
     "Hudson",
@@ -923,6 +923,113 @@
    ],
    "lon": -76.491,
    "lat": 37.415,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FF.W.0043.2026",
+   "event": "Flash Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Chatham, NC",
+    "Durham, NC",
+    "Harnett, NC",
+    "Johnston, NC",
+    "Orange, NC",
+    "Wake, NC"
+   ],
+   "counties": [
+    "37037",
+    "37063",
+    "37085",
+    "37101",
+    "37135",
+    "37183"
+   ],
+   "sent": "2026-11-26T08:50:00Z",
+   "onset": "2026-11-26T08:50:00Z",
+   "ends": "2026-11-26T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.404caa268444a8d96bd1cbc705bc51bc7ed5e1c2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.92,
+       35.67
+      ],
+      [
+       -79.09,
+       36.04
+      ],
+      [
+       -78.86,
+       36.07
+      ],
+      [
+       -78.7,
+       35.98
+      ],
+      [
+       -78.22,
+       35.47
+      ],
+      [
+       -78.53,
+       35.31
+      ],
+      [
+       -78.56,
+       35.31
+      ],
+      [
+       -78.57,
+       35.3
+      ],
+      [
+       -78.58,
+       35.3
+      ],
+      [
+       -78.92,
+       35.67
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -79.2515,
+     35.705
+    ],
+    [
+     -78.8781,
+     36.0338
+    ],
+    [
+     -78.8717,
+     35.3687
+    ],
+    [
+     -78.3673,
+     35.5134
+    ],
+    [
+     -79.12,
+     36.0625
+    ],
+    [
+     -78.6506,
+     35.7898
+    ]
+   ],
+   "lon": -78.695,
+   "lat": 35.612,
    "countries": [
     "US"
    ]
@@ -4349,18 +4456,18 @@
    "certainty": "Likely",
    "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
-    "Cecil",
-    "Southern Baltimore",
-    "Anne Arundel",
-    "Calvert",
-    "Southeast Harford",
+    "St. Marys",
     "Western Garrett",
     "Western Highland",
     "Western Grant",
     "Western Pendleton",
     "Northern Virginia Blue Ridge",
     "Central Virginia Blue Ridge",
-    "St. Marys"
+    "Cecil",
+    "Southern Baltimore",
+    "Anne Arundel",
+    "Calvert",
+    "Southeast Harford"
    ],
    "counties": [
     "24003",
@@ -4387,9 +4494,9 @@
     "54071"
    ],
    "sent": "2026-11-26T01:22:00Z",
-   "onset": "2026-11-26T09:00:00Z",
+   "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.004.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
