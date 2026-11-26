@@ -10,13 +10,13 @@
    "areas": [
     "New Castle",
     "Salem",
-    "Inland Sussex",
-    "Delaware Beaches",
     "Atlantic",
     "Cape May",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
     "Southeastern Burlington",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Ocean",
     "Coastal Ocean",
     "Middlesex",
@@ -265,8 +265,8 @@
     "Eastern Strait of Juan de Fuca",
     "Western Strait of Juan de Fuca",
     "Northern Washington Coast",
-    "Grays Harbor County Coast",
-    "San Juan County"
+    "San Juan County",
+    "Grays Harbor County Coast"
    ],
    "counties": [
     "53009",
@@ -426,6 +426,9 @@
    "sender": "NWS Upton NY",
    "areas": [
     "Northeast Suffolk",
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -433,9 +436,6 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Southern Queens",
     "Southeast Suffolk",
     "Hudson",
@@ -531,27 +531,27 @@
    "certainty": "Likely",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Westmoreland",
-    "Northumberland",
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Eastern Currituck",
     "Chesapeake",
     "Hampton/Poquoson",
     "Suffolk",
     "Norfolk",
     "Portsmouth",
-    "Inland Worcester",
-    "Virginia Beach",
-    "Maryland Beaches",
-    "Accomack",
-    "Eastern Currituck",
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
     "Prince George",
     "Charles City",
     "Surry",
     "James City",
     "Newport News",
     "Isle of Wight",
+    "Virginia Beach",
+    "Westmoreland",
+    "Northumberland",
+    "Inland Worcester",
+    "Maryland Beaches",
+    "Accomack",
     "Richmond",
     "Lancaster",
     "New Kent",
@@ -603,9 +603,9 @@
     "51830"
    ],
    "sent": "2026-11-26T01:46:00Z",
-   "onset": "2026-11-26T01:46:00Z",
+   "onset": "2026-11-26T14:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f630251a526c75f5034ca5dd90fce05e2b8b43b.008.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f630251a526c75f5034ca5dd90fce05e2b8b43b.009.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -4407,225 +4407,6 @@
    ]
   },
   {
-   "id": "KPHI.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Warren",
-    "Berks",
-    "Lehigh",
-    "Northampton",
-    "Kent",
-    "Inland Sussex",
-    "Cumberland",
-    "Atlantic",
-    "Cape May",
-    "New Castle",
-    "Hunterdon",
-    "Somerset",
-    "Middlesex",
-    "Mercer",
-    "Salem",
-    "Gloucester",
-    "Camden",
-    "Northwestern Burlington",
-    "Delaware",
-    "Philadelphia",
-    "Western Chester",
-    "Eastern Chester",
-    "Western Montgomery",
-    "Eastern Montgomery",
-    "Upper Bucks",
-    "Lower Bucks",
-    "Delaware Beaches",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Carbon",
-    "Monroe",
-    "Western Monmouth",
-    "Ocean",
-    "Southeastern Burlington",
-    "Eastern Monmouth",
-    "Coastal Ocean",
-    "Queen Anne's",
-    "Talbot",
-    "Caroline"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "24011",
-    "24029",
-    "24035",
-    "24041",
-    "34001",
-    "34005",
-    "34007",
-    "34009",
-    "34011",
-    "34015",
-    "34019",
-    "34021",
-    "34023",
-    "34025",
-    "34029",
-    "34033",
-    "34035",
-    "34041",
-    "42011",
-    "42017",
-    "42025",
-    "42029",
-    "42045",
-    "42077",
-    "42089",
-    "42091",
-    "42095",
-    "42101"
-   ],
-   "sent": "2026-11-25T18:56:00Z",
-   "onset": "2026-11-26T09:00:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72db611fb1ac6c6abb5a5ea2ca58176f32478a05.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -75.8317,
-     38.8715
-    ],
-    [
-     -76.126,
-     39.2413
-    ],
-    [
-     -76.0858,
-     39.047
-    ],
-    [
-     -76.1785,
-     38.7483
-    ],
-    [
-     -74.6338,
-     39.4694
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -74.912,
-     40.5653
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -74.6199,
-     40.5655
-    ],
-    [
-     -75.0095,
-     40.8535
-    ],
-    [
-     -75.9269,
-     40.414
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.705,
-     40.9184
-    ],
-    [
-     -75.7498,
-     39.974
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.5906,
-     40.6142
-    ],
-    [
-     -75.3291,
-     41.0562
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.3074,
-     40.7528
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -75.23,
-   "lat": 39.909,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.W.0038.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -4815,6 +4596,15 @@
    "areas": [
     "Pasquotank",
     "Camden",
+    "Western Currituck",
+    "Eastern Currituck",
+    "Surry",
+    "Chesapeake",
+    "Virginia Beach",
+    "Isle of Wight",
+    "Suffolk",
+    "Norfolk",
+    "Portsmouth",
     "Westmoreland",
     "Richmond",
     "Northumberland",
@@ -4828,15 +4618,6 @@
     "York",
     "Newport News",
     "Hampton/Poquoson",
-    "Western Currituck",
-    "Eastern Currituck",
-    "Surry",
-    "Chesapeake",
-    "Virginia Beach",
-    "Isle of Wight",
-    "Suffolk",
-    "Norfolk",
-    "Portsmouth",
     "Dorchester",
     "Wicomico",
     "Somerset",
@@ -5171,18 +4952,18 @@
    "certainty": "Likely",
    "sender": "NWS Baltimore MD/Washington DC",
    "areas": [
-    "St. Marys",
     "Western Garrett",
     "Western Highland",
     "Western Grant",
     "Western Pendleton",
-    "Northern Virginia Blue Ridge",
-    "Central Virginia Blue Ridge",
     "Cecil",
     "Southern Baltimore",
     "Anne Arundel",
     "Calvert",
-    "Southeast Harford"
+    "Southeast Harford",
+    "Northern Virginia Blue Ridge",
+    "Central Virginia Blue Ridge",
+    "St. Marys"
    ],
    "counties": [
     "24003",
@@ -5211,7 +4992,7 @@
    "sent": "2026-11-26T01:22:00Z",
    "onset": "2026-11-26T06:00:00Z",
    "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58cd7f7e3ff093fffa4d87f43f7efdcee670c049.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -5709,6 +5490,231 @@
    ]
   },
   {
+   "id": "KPHI.HW.W.0003.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Warren",
+    "Berks",
+    "Lehigh",
+    "Northampton",
+    "Eastern Monmouth",
+    "Coastal Ocean",
+    "Kent",
+    "Inland Sussex",
+    "Cumberland",
+    "Atlantic",
+    "Cape May",
+    "New Castle",
+    "Hunterdon",
+    "Somerset",
+    "Middlesex",
+    "Mercer",
+    "Salem",
+    "Gloucester",
+    "Camden",
+    "Northwestern Burlington",
+    "Delaware",
+    "Philadelphia",
+    "Western Chester",
+    "Eastern Chester",
+    "Western Montgomery",
+    "Eastern Montgomery",
+    "Upper Bucks",
+    "Lower Bucks",
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Carbon",
+    "Monroe",
+    "Delaware Beaches",
+    "Atlantic Coastal Cape May",
+    "Coastal Atlantic",
+    "Morris",
+    "Western Monmouth",
+    "Ocean",
+    "Southeastern Burlington"
+   ],
+   "counties": [
+    "10001",
+    "10003",
+    "10005",
+    "24011",
+    "24029",
+    "24035",
+    "24041",
+    "34001",
+    "34005",
+    "34007",
+    "34009",
+    "34011",
+    "34015",
+    "34019",
+    "34021",
+    "34023",
+    "34025",
+    "34027",
+    "34029",
+    "34033",
+    "34035",
+    "34041",
+    "42011",
+    "42017",
+    "42025",
+    "42029",
+    "42045",
+    "42077",
+    "42089",
+    "42091",
+    "42095",
+    "42101"
+   ],
+   "sent": "2026-11-26T06:40:00Z",
+   "onset": "2026-11-26T09:00:00Z",
+   "ends": "2026-11-27T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0dddf53353960abbf22a6a80db6b8de54e65f77.006.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.503,
+     39.0971
+    ],
+    [
+     -75.6441,
+     39.5759
+    ],
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -75.8317,
+     38.8715
+    ],
+    [
+     -76.126,
+     39.2413
+    ],
+    [
+     -76.0858,
+     39.047
+    ],
+    [
+     -76.1785,
+     38.7483
+    ],
+    [
+     -74.6338,
+     39.4694
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -74.8464,
+     39.0858
+    ],
+    [
+     -75.1216,
+     39.3284
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -74.912,
+     40.5653
+    ],
+    [
+     -74.7037,
+     40.2825
+    ],
+    [
+     -74.4074,
+     40.4396
+    ],
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.5473,
+     40.8589
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.3574,
+     39.5738
+    ],
+    [
+     -74.6199,
+     40.5655
+    ],
+    [
+     -75.0095,
+     40.8535
+    ],
+    [
+     -75.9269,
+     40.414
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.705,
+     40.9184
+    ],
+    [
+     -75.7498,
+     39.974
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.5906,
+     40.6142
+    ],
+    [
+     -75.3291,
+     41.0562
+    ],
+    [
+     -75.3702,
+     40.21
+    ],
+    [
+     -75.3074,
+     40.7528
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.208,
+   "lat": 39.939,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCLE.LS.W.0001.2026",
    "event": "Lakeshore Flood Warning",
    "severity": "Severe",
@@ -5872,32 +5878,6 @@
    "onset": "2026-11-26T01:09:00Z",
    "ends": "2026-11-26T23:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ea93d88aa1df3227e54679716e6cec2c0d263a2.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILM.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM"
-   ],
-   "counties": [
-    "75280"
-   ],
-   "sent": "2026-11-26T04:30:00Z",
-   "onset": "2026-11-26T04:30:00Z",
-   "ends": "2026-11-26T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bac7b62b4781607c3443aa4b2e58667a977ff657.004.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6133,37 +6113,6 @@
    "points": [],
    "lon": null,
    "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.WS.W.0029.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-25T16:52:00Z",
-   "onset": "2026-11-25T16:52:00Z",
-   "ends": "2026-11-28T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2326d0b63b00a96b98808b0d5440bafb9c503e9d.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
    "countries": [
     "US"
    ]
@@ -6648,6 +6597,37 @@
    ],
    "lon": -109.722,
    "lat": 45.539,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.W.0029.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Eastern Beaufort Sea Coast"
+   ],
+   "counties": [
+    "02185"
+   ],
+   "sent": "2026-11-26T06:54:00Z",
+   "onset": "2026-11-26T06:54:00Z",
+   "ends": "2026-11-28T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.432c597076dae8142c0f2ff63950523ea82f7383.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -153.4728,
+     69.4493
+    ]
+   ],
+   "lon": -153.473,
+   "lat": 69.449,
    "countries": [
     "US"
    ]
