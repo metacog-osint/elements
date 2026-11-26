@@ -159,83 +159,6 @@
    ]
   },
   {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Anne Arundel",
-    "St. Marys",
-    "Calvert",
-    "Charles",
-    "King George",
-    "District of Columbia",
-    "Arlington/Falls Church/Alexandria"
-   ],
-   "counties": [
-    "11001",
-    "24003",
-    "24009",
-    "24017",
-    "24037",
-    "51013",
-    "51099",
-    "51510",
-    "51610"
-   ],
-   "sent": "2026-11-25T21:42:00Z",
-   "onset": "2026-11-26T18:00:00Z",
-   "ends": "2026-11-27T17:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93af67a6b48400767071393f670a25f948ba8ffc.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -77.0165,
-     38.9042
-    ],
-    [
-     -76.5609,
-     38.9916
-    ],
-    [
-     -76.5298,
-     38.5227
-    ],
-    [
-     -77.0154,
-     38.4729
-    ],
-    [
-     -76.5345,
-     38.2231
-    ],
-    [
-     -77.1007,
-     38.8783
-    ],
-    [
-     -77.1626,
-     38.2772
-    ],
-    [
-     -77.0837,
-     38.8193
-    ],
-    [
-     -77.1756,
-     38.8847
-    ]
-   ],
-   "lon": -76.909,
-   "lat": 38.664,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -903,6 +826,83 @@
    ],
    "lon": -76.491,
    "lat": 37.415,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Charles",
+    "King George",
+    "District of Columbia",
+    "Arlington/Falls Church/Alexandria",
+    "St. Marys",
+    "Anne Arundel",
+    "Calvert"
+   ],
+   "counties": [
+    "11001",
+    "24003",
+    "24009",
+    "24017",
+    "24037",
+    "51013",
+    "51099",
+    "51510",
+    "51610"
+   ],
+   "sent": "2026-11-26T02:12:00Z",
+   "onset": "2026-11-26T15:00:00Z",
+   "ends": "2026-11-27T17:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d48f29a4fa7b5630f3165279f0c6ecac61ad3571.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -77.0165,
+     38.9042
+    ],
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.5298,
+     38.5227
+    ],
+    [
+     -77.0154,
+     38.4729
+    ],
+    [
+     -76.5345,
+     38.2231
+    ],
+    [
+     -77.1007,
+     38.8783
+    ],
+    [
+     -77.1626,
+     38.2772
+    ],
+    [
+     -77.0837,
+     38.8193
+    ],
+    [
+     -77.1756,
+     38.8847
+    ]
+   ],
+   "lon": -76.909,
+   "lat": 38.664,
    "countries": [
     "US"
    ]
@@ -3605,6 +3605,119 @@
    ]
   },
   {
+   "id": "KLIX.FZ.A.0003.2026",
+   "event": "Freeze Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS New Orleans LA",
+   "areas": [
+    "West Feliciana",
+    "East Feliciana",
+    "St. Helena",
+    "Washington",
+    "Northern Tangipahoa",
+    "Southeast St. Tammany",
+    "Northern St. Tammany",
+    "Wilkinson",
+    "Amite",
+    "Pike",
+    "Walthall",
+    "Pearl River",
+    "Northern Hancock",
+    "Northern Harrison",
+    "Northern Jackson",
+    "Southern Hancock",
+    "Southern Harrison",
+    "Southern Jackson"
+   ],
+   "counties": [
+    "22037",
+    "22091",
+    "22103",
+    "22105",
+    "22117",
+    "22125",
+    "28005",
+    "28045",
+    "28047",
+    "28059",
+    "28109",
+    "28113",
+    "28147",
+    "28157"
+   ],
+   "sent": "2026-11-26T02:17:00Z",
+   "onset": "2026-11-27T09:00:00Z",
+   "ends": "2026-11-27T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06a7029d908be602676232418fbd150dd0980e3e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.0434,
+     30.8398
+    ],
+    [
+     -90.7083,
+     30.8225
+    ],
+    [
+     -89.952,
+     30.41
+    ],
+    [
+     -90.4065,
+     30.6213
+    ],
+    [
+     -90.0463,
+     30.8521
+    ],
+    [
+     -91.4218,
+     30.8734
+    ],
+    [
+     -90.7955,
+     31.2039
+    ],
+    [
+     -89.4828,
+     30.3916
+    ],
+    [
+     -89.0834,
+     30.4165
+    ],
+    [
+     -88.6251,
+     30.456
+    ],
+    [
+     -89.5869,
+     30.7748
+    ],
+    [
+     -90.3977,
+     31.1775
+    ],
+    [
+     -90.1034,
+     31.1645
+    ],
+    [
+     -91.3246,
+     31.1611
+    ]
+   ],
+   "lon": -90.213,
+   "lat": 30.798,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.2108.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -4445,37 +4558,6 @@
    ]
   },
   {
-   "id": "PHFO.HW.W.0011.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Honolulu HI",
-   "areas": [
-    "Big Island Summit"
-   ],
-   "counties": [
-    "15001"
-   ],
-   "sent": "2026-11-25T19:10:00Z",
-   "onset": "2026-11-26T07:00:00Z",
-   "ends": "2026-11-27T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b094f752b58e179e536885b6be6097ffef252655.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -155.5024,
-     19.5978
-    ]
-   ],
-   "lon": -155.502,
-   "lat": 19.598,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.HW.W.0003.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -5252,6 +5334,37 @@
    ]
   },
   {
+   "id": "PHFO.HW.W.0011.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Honolulu HI",
+   "areas": [
+    "Big Island Summit"
+   ],
+   "counties": [
+    "15001"
+   ],
+   "sent": "2026-11-26T02:15:00Z",
+   "onset": "2026-11-26T07:00:00Z",
+   "ends": "2026-11-27T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da1c00ca8b156043aee08d1907d35decdc9ceed8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -155.5024,
+     19.5978
+    ]
+   ],
+   "lon": -155.502,
+   "lat": 19.598,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KCYS.HW.A.0044.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -5296,6 +5409,60 @@
    ],
    "lon": -105.567,
    "lat": 41.698,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KKEY.MA.W.0425.2026",
+   "event": "Special Marine Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Likely",
+   "sender": "NWS Key West FL",
+   "areas": [
+    "Hawk Channel from Ocean Reef to Craig Key out to the reef",
+    "Straits of Florida from Ocean Reef to Craig Key out 20 NM"
+   ],
+   "counties": [
+    "77042",
+    "77052"
+   ],
+   "sent": "2026-11-26T02:25:00Z",
+   "onset": "2026-11-26T02:25:00Z",
+   "ends": "2026-11-26T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40e16923d81360c49b310cde1d4fed7b019d6051.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.27,
+       24.81
+      ],
+      [
+       -80.55,
+       24.82
+      ],
+      [
+       -80.32,
+       25.22
+      ],
+      [
+       -80.05,
+       25.09
+      ],
+      [
+       -80.27,
+       24.81
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [],
+   "lon": -80.292,
+   "lat": 24.95,
    "countries": [
     "US"
    ]
