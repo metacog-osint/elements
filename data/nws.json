@@ -2615,6 +2615,83 @@
    ]
   },
   {
+   "id": "KLWX.FA.W.0020.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Anne Arundel, MD",
+    "Baltimore, MD",
+    "Howard, MD"
+   ],
+   "counties": [
+    "24003",
+    "24005",
+    "24027"
+   ],
+   "sent": "2026-11-26T22:35:00Z",
+   "onset": "2026-11-26T22:35:00Z",
+   "ends": "2026-11-27T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ccf540093f5311deaaf4c583acf3b9135443355.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.73,
+       39.17
+      ],
+      [
+       -76.74,
+       39.24
+      ],
+      [
+       -76.69,
+       39.25
+      ],
+      [
+       -76.64,
+       39.23
+      ],
+      [
+       -76.63,
+       39.22
+      ],
+      [
+       -76.66,
+       39.21
+      ],
+      [
+       -76.73,
+       39.17
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.6166,
+     39.4432
+    ],
+    [
+     -76.9244,
+     39.2523
+    ]
+   ],
+   "lon": -76.689,
+   "lat": 39.213,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLIX.FZ.W.0008.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
