@@ -2692,6 +2692,79 @@
    ]
   },
   {
+   "id": "KLWX.FA.W.0021.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "St. Marys, MD"
+   ],
+   "counties": [
+    "24037"
+   ],
+   "sent": "2026-11-26T22:37:00Z",
+   "onset": "2026-11-26T22:37:00Z",
+   "ends": "2026-11-27T04:30:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98866329a0fd435d6c8305daefcab75fa79538c8.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -76.49,
+       38.21
+      ],
+      [
+       -76.52,
+       38.23
+      ],
+      [
+       -76.53,
+       38.25
+      ],
+      [
+       -76.54,
+       38.28
+      ],
+      [
+       -76.51,
+       38.29
+      ],
+      [
+       -76.49,
+       38.26
+      ],
+      [
+       -76.48,
+       38.25
+      ],
+      [
+       -76.47,
+       38.22
+      ],
+      [
+       -76.49,
+       38.21
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -76.5345,
+     38.2231
+    ]
+   ],
+   "lon": -76.502,
+   "lat": 38.244,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLIX.FZ.W.0008.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
