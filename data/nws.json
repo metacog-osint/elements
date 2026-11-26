@@ -1,103 +1,79 @@
 {
  "records": [
   {
-   "id": "KAKQ.TO.W.0020.2026",
+   "id": "KAKQ.TO.W.0021.2026",
    "event": "Tornado Warning",
    "severity": "Extreme",
    "urgency": "Immediate",
    "certainty": "Observed",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "City of Norfolk, VA",
-    "City of Virginia Beach, VA"
+    "York, VA",
+    "City of Poquoson, VA"
    ],
    "counties": [
-    "51710",
-    "51810"
+    "51199",
+    "51735"
    ],
-   "sent": "2026-11-26T14:57:00Z",
-   "onset": "2026-11-26T14:57:00Z",
-   "ends": "2026-11-26T15:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1eb687abf169bd0375ad106040dabd4ff055a63.001.1",
+   "sent": "2026-11-26T15:32:00Z",
+   "onset": "2026-11-26T15:32:00Z",
+   "ends": "2026-11-26T15:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a801e88a33ff9e3d5d900a01115b1926e42823a.002.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -76.35,
-       36.91
+       -76.54,
+       37.2
       ],
       [
-       -76.35,
-       36.97
+       -76.47,
+       37.24
       ],
       [
-       -76.34,
-       36.98
+       -76.44,
+       37.24
+      ],
+      [
+       -76.42,
+       37.25
+      ],
+      [
+       -76.41,
+       37.25
+      ],
+      [
+       -76.38,
+       37.21
+      ],
+      [
+       -76.37,
+       37.19
+      ],
+      [
+       -76.37,
+       37.18
+      ],
+      [
+       -76.36,
+       37.19
       ],
       [
        -76.33,
-       36.99
+       37.15
       ],
       [
-       -76.29,
-       37.01
+       -76.43,
+       37.1
       ],
       [
-       -76.28,
-       36.99
+       -76.44,
+       37.09
       ],
       [
-       -76.26,
-       36.99
-      ],
-      [
-       -76.23,
-       36.96
-      ],
-      [
-       -76.18,
-       36.95
-      ],
-      [
-       -76.16,
-       36.95
-      ],
-      [
-       -76.12,
-       36.82
-      ],
-      [
-       -76.2,
-       36.79
-      ],
-      [
-       -76.22,
-       36.8
-      ],
-      [
-       -76.23,
-       36.83
-      ],
-      [
-       -76.23,
-       36.84
-      ],
-      [
-       -76.24,
-       36.84
-      ],
-      [
-       -76.25,
-       36.83
-      ],
-      [
-       -76.34,
-       36.89
-      ],
-      [
-       -76.35,
-       36.91
+       -76.54,
+       37.2
       ]
      ]
     ]
@@ -105,16 +81,16 @@
    "vtec": true,
    "points": [
     [
-     -76.2446,
-     36.923
+     -76.3955,
+     37.2209
     ],
     [
-     -76.0291,
-     36.7795
+     -76.3035,
+     37.1284
     ]
    ],
-   "lon": -76.261,
-   "lat": 36.908,
+   "lon": -76.423,
+   "lat": 37.192,
    "countries": [
     "US"
    ]
@@ -385,6 +361,9 @@
    "certainty": "Likely",
    "sender": "NWS Upton NY",
    "areas": [
+    "New York (Manhattan)",
+    "Richmond (Staten Is.)",
+    "Kings (Brooklyn)",
     "Southern Fairfield",
     "Southern New Haven",
     "Southern Westchester",
@@ -392,9 +371,6 @@
     "Northwest Suffolk",
     "Northern Queens",
     "Northern Nassau",
-    "New York (Manhattan)",
-    "Richmond (Staten Is.)",
-    "Kings (Brooklyn)",
     "Northeast Suffolk",
     "Southwest Suffolk",
     "Southern Nassau",
@@ -424,7 +400,7 @@
    "sent": "2026-11-26T09:33:00Z",
    "onset": "2026-11-26T12:00:00Z",
    "ends": "2026-11-27T11:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4951226e15f213261de759eeab71abeb55482d2.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1108,10 +1084,10 @@
     "37191",
     "37195"
    ],
-   "sent": "2026-11-26T11:16:00Z",
-   "onset": "2026-11-26T11:16:00Z",
+   "sent": "2026-11-26T15:11:00Z",
+   "onset": "2026-11-26T15:11:00Z",
    "ends": "2026-11-26T15:45:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89f4d9b254d136fd17aafadeca90f6ed9ad9dd66.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a51aac18d6dbb88ead27586e9f89ef62b211cfb.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -2894,6 +2870,249 @@
    ],
    "lon": -77.876,
    "lat": 34.603,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRNK.FA.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Blacksburg VA",
+   "areas": [
+    "City of Roanoke, VA"
+   ],
+   "counties": [
+    "51770"
+   ],
+   "sent": "2026-11-26T15:09:00Z",
+   "onset": "2026-11-26T15:09:00Z",
+   "ends": "2026-11-26T21:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865b87d7c6806c1a8a3a3fc5484f9b9b67c847d5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.01,
+       37.27
+      ],
+      [
+       -80.02,
+       37.29
+      ],
+      [
+       -80.02,
+       37.31
+      ],
+      [
+       -79.97,
+       37.34
+      ],
+      [
+       -79.96,
+       37.32
+      ],
+      [
+       -79.95,
+       37.33
+      ],
+      [
+       -79.93,
+       37.32
+      ],
+      [
+       -79.92,
+       37.33
+      ],
+      [
+       -79.92,
+       37.32
+      ],
+      [
+       -79.88,
+       37.3
+      ],
+      [
+       -79.88,
+       37.28
+      ],
+      [
+       -79.92,
+       37.28
+      ],
+      [
+       -79.9,
+       37.26
+      ],
+      [
+       -79.9,
+       37.24
+      ],
+      [
+       -79.95,
+       37.21
+      ],
+      [
+       -79.99,
+       37.24
+      ],
+      [
+       -80,
+       37.25
+      ],
+      [
+       -80.03,
+       37.24
+      ],
+      [
+       -80.04,
+       37.25
+      ],
+      [
+       -80.01,
+       37.27
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -79.9582,
+     37.2785
+    ]
+   ],
+   "lon": -79.96,
+   "lat": 37.282,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FL.W.0002.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Johnston, NC"
+   ],
+   "counties": [
+    "37101"
+   ],
+   "sent": "2026-11-26T15:24:00Z",
+   "onset": "2026-11-26T22:41:00Z",
+   "ends": "2026-11-28T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf49241804786a37d19ed3746e3c57538d0db97a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.29,
+       35.54
+      ],
+      [
+       -78.34,
+       35.48
+      ],
+      [
+       -78.29,
+       35.44
+      ],
+      [
+       -78.33,
+       35.41
+      ],
+      [
+       -78.42,
+       35.47
+      ],
+      [
+       -78.35,
+       35.56
+      ],
+      [
+       -78.29,
+       35.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -78.3673,
+     35.5134
+    ]
+   ],
+   "lon": -78.33,
+   "lat": 35.491,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Johnston, NC"
+   ],
+   "counties": [
+    "37101"
+   ],
+   "sent": "2026-11-26T15:25:00Z",
+   "onset": "2026-11-26T21:00:00Z",
+   "ends": "2026-11-27T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0104dc32e1fa7e5de10cd23d94399aa9e4f187d5.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.43,
+       35.72
+      ],
+      [
+       -78.29,
+       35.58
+      ],
+      [
+       -78.29,
+       35.54
+      ],
+      [
+       -78.35,
+       35.56
+      ],
+      [
+       -78.49,
+       35.69
+      ],
+      [
+       -78.43,
+       35.72
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -78.3673,
+     35.5134
+    ]
+   ],
+   "lon": -78.38,
+   "lat": 35.635,
    "countries": [
     "US"
    ]
@@ -5181,12 +5400,12 @@
     "Carbon",
     "Monroe",
     "Morris",
-    "Western Monmouth",
-    "Ocean",
-    "Southeastern Burlington",
     "Delaware Beaches",
     "Atlantic Coastal Cape May",
     "Coastal Atlantic",
+    "Western Monmouth",
+    "Ocean",
+    "Southeastern Burlington",
     "Inland Sussex",
     "Cumberland",
     "Atlantic",
@@ -5585,7 +5804,7 @@
    ]
   },
   {
-   "id": "KAKQ.MA.W.0231.2026",
+   "id": "KAKQ.MA.W.0232.2026",
    "event": "Special Marine Warning",
    "severity": "Severe",
    "urgency": "Immediate",
@@ -5593,89 +5812,107 @@
    "sender": "NWS Wakefield VA",
    "areas": [
     "Chesapeake Bay from New Point Comfort to Little Creek VA",
-    "James River from Jamestown to the James River Bridge",
     "James River from JRB to HRBT, Including the Elizabeth River"
    ],
    "counties": [
     "73632",
-    "73637",
     "73639"
    ],
-   "sent": "2026-11-26T14:39:00Z",
-   "onset": "2026-11-26T14:39:00Z",
-   "ends": "2026-11-26T15:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.596539f5da747779d5d8704e8e88fbef733e4d8d.001.1",
+   "sent": "2026-11-26T15:11:00Z",
+   "onset": "2026-11-26T15:11:00Z",
+   "ends": "2026-11-26T15:45:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.875fadaa81a7915bb3230cca189354e5c4bbc4e9.001.1",
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       -76.52,
-       37.01
+       -76.45,
+       37.15
       ],
       [
-       -76.43,
-       37.04
+       -76.19,
+       37.17
       ],
       [
-       -76.44,
-       36.99
-      ],
-      [
-       -76.41,
-       36.96
-      ],
-      [
-       -76.32,
-       37.05
-      ],
-      [
-       -76.22,
+       -76.16,
        36.94
+      ],
+      [
+       -76.17,
+       36.93
+      ],
+      [
+       -76.16,
+       36.92
+      ],
+      [
+       -76.26,
+       36.92
       ],
       [
        -76.33,
        36.95
       ],
       [
-       -76.3,
-       36.9
-      ],
-      [
        -76.33,
-       36.88
-      ],
-      [
-       -76.29,
-       36.83
-      ],
-      [
-       -76.32,
-       36.86
-      ],
-      [
-       -76.36,
-       36.84
-      ],
-      [
-       -76.35,
        36.92
       ],
       [
-       -76.43,
-       36.91
+       -76.36,
+       36.92
       ],
       [
-       -76.52,
-       37.01
+       -76.4,
+       36.98
+      ],
+      [
+       -76.36,
+       37
+      ],
+      [
+       -76.35,
+       37.03
+      ],
+      [
+       -76.32,
+       37.06
+      ],
+      [
+       -76.31,
+       37.08
+      ],
+      [
+       -76.32,
+       37.1
+      ],
+      [
+       -76.36,
+       37.12
+      ],
+      [
+       -76.4,
+       37.11
+      ],
+      [
+       -76.43,
+       37.12
+      ],
+      [
+       -76.44,
+       37.13
+      ],
+      [
+       -76.45,
+       37.15
       ]
      ]
     ]
    },
    "vtec": true,
    "points": [],
-   "lon": -76.371,
-   "lat": 36.939,
+   "lon": -76.328,
+   "lat": 37.035,
    "countries": [
     "US"
    ]
@@ -5867,54 +6104,6 @@
    ]
   },
   {
-   "id": "KLWX.SR.W.0002.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Chesapeake Bay north of Pooles Island MD",
-    "Chesapeake Bay from Pooles Island to Sandy Point MD",
-    "Chesapeake Bay from Sandy Point to North Beach MD",
-    "Chesapeake Bay from North Beach to Drum Point MD",
-    "Chesapeake Bay from Drum Point MD to Smith Point VA",
-    "Tidal Potomac from Cobb Island MD to Smith Point VA",
-    "Patapsco River including Baltimore Harbor",
-    "Chester River to Queenstown MD",
-    "Eastern Bay",
-    "Choptank River to Cambridge MD and the Little Choptank River",
-    "Patuxent River to Broomes Island MD",
-    "Tangier Sound and the inland waters surrounding Bloodsworth Island"
-   ],
-   "counties": [
-    "73530",
-    "73531",
-    "73532",
-    "73533",
-    "73534",
-    "73537",
-    "73538",
-    "73539",
-    "73540",
-    "73541",
-    "73542",
-    "73543"
-   ],
-   "sent": "2026-11-26T09:25:00Z",
-   "onset": "2026-11-26T09:25:00Z",
-   "ends": "2026-11-26T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cc222e3c977e8cdf1825260bc4e250fabf69c53.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.SR.W.0006.2026",
    "event": "Storm Warning",
    "severity": "Severe",
@@ -6009,6 +6198,58 @@
    "onset": "2026-11-26T14:41:00Z",
    "ends": "2026-11-26T19:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c28625c60dec2423dba7ce9ff01c212692be145.004.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.SR.W.0002.2026",
+   "event": "Storm Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Chesapeake Bay north of Pooles Island MD",
+    "Chesapeake Bay from Pooles Island to Sandy Point MD",
+    "Chesapeake Bay from Sandy Point to North Beach MD",
+    "Chesapeake Bay from North Beach to Drum Point MD",
+    "Chesapeake Bay from Drum Point MD to Smith Point VA",
+    "Tidal Potomac from Cobb Island MD to Smith Point VA",
+    "Patapsco River including Baltimore Harbor",
+    "Chester River to Queenstown MD",
+    "Eastern Bay",
+    "Choptank River to Cambridge MD and the Little Choptank River",
+    "Patuxent River to Broomes Island MD",
+    "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+    "Tidal Potomac from Key Bridge to Indian Head MD",
+    "Tidal Potomac from Indian Head to Cobb Island MD"
+   ],
+   "counties": [
+    "73530",
+    "73531",
+    "73532",
+    "73533",
+    "73534",
+    "73535",
+    "73536",
+    "73537",
+    "73538",
+    "73539",
+    "73540",
+    "73541",
+    "73542",
+    "73543"
+   ],
+   "sent": "2026-11-26T15:05:00Z",
+   "onset": "2026-11-26T15:05:00Z",
+   "ends": "2026-11-26T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e64ff9d17666f53ba8770f8eadb627f0216a2170.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -6273,6 +6514,61 @@
    ]
   },
   {
+   "id": "KLSX.WS.W.0003.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS St Louis MO",
+   "areas": [
+    "Washington",
+    "Iron",
+    "Madison",
+    "Warren",
+    "Franklin"
+   ],
+   "counties": [
+    "29071",
+    "29093",
+    "29123",
+    "29219",
+    "29221"
+   ],
+   "sent": "2026-11-26T14:24:00Z",
+   "onset": "2026-11-26T14:24:00Z",
+   "ends": "2026-11-27T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb303905729db6daf3356722ee6cd7bc952aaf19.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -91.0728,
+     38.413
+    ],
+    [
+     -90.6996,
+     37.626
+    ],
+    [
+     -90.3434,
+     37.4745
+    ],
+    [
+     -91.1593,
+     38.7619
+    ],
+    [
+     -90.897,
+     37.9426
+    ]
+   ],
+   "lon": -90.834,
+   "lat": 38.044,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLSX.WS.W.0002.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -6353,61 +6649,6 @@
    ],
    "lon": -91.206,
    "lat": 38.318,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLSX.WS.W.0003.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS St Louis MO",
-   "areas": [
-    "Washington",
-    "Iron",
-    "Madison",
-    "Warren",
-    "Franklin"
-   ],
-   "counties": [
-    "29071",
-    "29093",
-    "29123",
-    "29219",
-    "29221"
-   ],
-   "sent": "2026-11-26T14:24:00Z",
-   "onset": "2026-11-26T14:24:00Z",
-   "ends": "2026-11-27T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb303905729db6daf3356722ee6cd7bc952aaf19.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -91.0728,
-     38.413
-    ],
-    [
-     -90.6996,
-     37.626
-    ],
-    [
-     -90.3434,
-     37.4745
-    ],
-    [
-     -91.1593,
-     38.7619
-    ],
-    [
-     -90.897,
-     37.9426
-    ]
-   ],
-   "lon": -90.834,
-   "lat": 38.044,
    "countries": [
     "US"
    ]
