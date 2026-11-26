@@ -116,9 +116,9 @@
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
    "name": "White Oak Flat",
    "acres": 2237.0,
-   "contained": 89,
+   "contained": 95,
    "discovered": "2026-11-20T16:47:00Z",
-   "updated": "2026-11-26T00:23:15Z",
+   "updated": "2026-11-26T21:25:38Z",
    "state": "VA",
    "county": "Alleghany",
    "cause": "Undetermined",
@@ -186,9 +186,9 @@
    "id": "{46C0D4FD-7178-4FDD-AEBC-C506A2779E33}",
    "name": "Dugger",
    "acres": 500.0,
-   "contained": 0,
+   "contained": 20,
    "discovered": "2026-11-24T22:45:23Z",
-   "updated": "2026-11-25T22:33:52Z",
+   "updated": "2026-11-26T21:17:47Z",
    "state": "AL",
    "county": "Cleburne",
    "cause": "Undetermined",
@@ -673,6 +673,20 @@
    "lat": 32.8491
   },
   {
+   "id": "{69A0AA33-4CF7-4972-85EF-2BCBC94A82A8}",
+   "name": "Maverick Gulch",
+   "acres": 0.7,
+   "contained": null,
+   "discovered": "2026-11-26T20:20:32Z",
+   "updated": "2026-11-26T21:12:51Z",
+   "state": "MT",
+   "county": "Carter",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -104.2455,
+   "lat": 45.6095
+  },
+  {
    "id": "{9BD7C484-C7A0-4298-98ED-EE23DB10F653}",
    "name": "Benson",
    "acres": 0.3,
@@ -981,6 +995,20 @@
    "lat": 41.6365
   },
   {
+   "id": "{ED8AB39C-DF78-4F1C-B8A2-B329CFF467FB}",
+   "name": "Carignan ST",
+   "acres": 0.1,
+   "contained": null,
+   "discovered": "2026-11-26T05:45:20Z",
+   "updated": "2026-11-26T21:12:01Z",
+   "state": "ND",
+   "county": "Sioux",
+   "cause": null,
+   "complexity": null,
+   "lon": -100.6296,
+   "lat": 46.0873
+  },
+  {
    "id": "{6E9962BC-47EC-4969-A27B-7BD48E40AFB7}",
    "name": "Long Pond",
    "acres": 0.1,
@@ -993,20 +1021,6 @@
    "complexity": null,
    "lon": -70.0781,
    "lat": 41.7152
-  },
-  {
-   "id": "{CF78A9D2-733F-4C61-9F7A-373F096BAF24}",
-   "name": "Upshur 0139",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-26T19:53:00Z",
-   "updated": "2026-11-26T20:50:43Z",
-   "state": "TX",
-   "county": "Upshur",
-   "cause": "Human",
-   "complexity": "Type 5 Incident",
-   "lon": -94.977,
-   "lat": 32.6862
   },
   {
    "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
@@ -1567,6 +1581,20 @@
    "complexity": null,
    "lon": -117.8562,
    "lat": 34.6325
+  },
+  {
+   "id": "{0E859457-5805-4BCB-97FF-BF75C0B1A413}",
+   "name": "Lac-428223",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-26T21:18:22Z",
+   "updated": "2026-11-26T21:18:52Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1294,
+   "lat": 34.5725
   }
  ]
 }

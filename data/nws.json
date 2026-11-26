@@ -3632,10 +3632,10 @@
    "certainty": "Likely",
    "sender": "NWS Boston/Norton MA",
    "areas": [
-    "Block Island",
     "Barnstable",
     "Dukes",
-    "Nantucket"
+    "Nantucket",
+    "Block Island"
    ],
    "counties": [
     "25001",
@@ -3644,9 +3644,9 @@
     "44009"
    ],
    "sent": "2026-11-26T14:12:00Z",
-   "onset": "2026-11-26T15:00:00Z",
+   "onset": "2026-11-26T17:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3907,9 +3907,9 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
-    "Judith Basin County and Judith Gap",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
+    "Southern High Plains",
+    "Judith Basin County and Judith Gap"
    ],
    "counties": [
     "30027",
@@ -4707,18 +4707,18 @@
    "certainty": "Observed",
    "sender": "NWS Upton NY",
    "areas": [
-    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
-    "Long Island Sound East of the Mouth of the Connecticut River",
-    "Long Island Sound West of New Haven CT/Port Jefferson NY",
-    "New York Harbor",
-    "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay",
     "Moriches Inlet NY to Montauk Point NY out 20 NM",
     "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
     "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
     "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
     "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM"
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
+    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
+    "Long Island Sound East of the Mouth of the Connecticut River",
+    "Long Island Sound West of New Haven CT/Port Jefferson NY",
+    "New York Harbor",
+    "Peconic and Gardiners Bays",
+    "South Shore Bays from Jones Inlet through Shinnecock Bay"
    ],
    "counties": [
     "73331",
@@ -4737,7 +4737,7 @@
    "sent": "2026-11-26T19:16:00Z",
    "onset": "2026-11-26T19:16:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -4755,9 +4755,9 @@
    "certainty": "Observed",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM",
     "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-    "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
     "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
     "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM",
     "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
@@ -4787,7 +4787,7 @@
    "sent": "2026-11-26T19:42:00Z",
    "onset": "2026-11-26T19:42:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.739bc6e11b5a5558baa0636440279595522246fa.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.739bc6e11b5a5558baa0636440279595522246fa.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
