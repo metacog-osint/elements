@@ -38,76 +38,6 @@
    ]
   },
   {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Southern Baltimore",
-    "Anne Arundel",
-    "Southeast Harford",
-    "District of Columbia",
-    "Arlington/Falls Church/Alexandria"
-   ],
-   "counties": [
-    "11001",
-    "24003",
-    "24005",
-    "24025",
-    "24510",
-    "51013",
-    "51510",
-    "51610"
-   ],
-   "sent": "2026-11-27T06:55:00Z",
-   "onset": "2026-11-27T06:55:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9422348a3268413afc73d429b33701a8005f656.006.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -77.0165,
-     38.9042
-    ],
-    [
-     -76.5609,
-     38.9916
-    ],
-    [
-     -76.6166,
-     39.4432
-    ],
-    [
-     -76.2998,
-     39.5374
-    ],
-    [
-     -76.6105,
-     39.3
-    ],
-    [
-     -77.1007,
-     38.8783
-    ],
-    [
-     -77.0837,
-     38.8193
-    ],
-    [
-     -77.1756,
-     38.8847
-    ]
-   ],
-   "lon": -76.808,
-   "lat": 39.095,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -369,6 +299,65 @@
    ],
    "lon": -117.277,
    "lat": 33.35,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "District of Columbia",
+    "Arlington/Falls Church/Alexandria",
+    "Southeast Harford",
+    "Anne Arundel"
+   ],
+   "counties": [
+    "11001",
+    "24003",
+    "24025",
+    "51013",
+    "51510",
+    "51610"
+   ],
+   "sent": "2026-11-27T13:48:00Z",
+   "onset": "2026-11-27T13:48:00Z",
+   "ends": "2026-11-28T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35cb311f186fda3bade0775a8d5be51a275b7f3f.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -77.0165,
+     38.9042
+    ],
+    [
+     -76.5609,
+     38.9916
+    ],
+    [
+     -76.2998,
+     39.5374
+    ],
+    [
+     -77.1007,
+     38.8783
+    ],
+    [
+     -77.0837,
+     38.8193
+    ],
+    [
+     -77.1756,
+     38.8847
+    ]
+   ],
+   "lon": -76.873,
+   "lat": 39.003,
    "countries": [
     "US"
    ]
@@ -682,303 +671,6 @@
    ],
    "lon": -123.183,
    "lat": 47.326,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Brevard, FL"
-   ],
-   "counties": [
-    "12009"
-   ],
-   "sent": "2026-11-27T01:38:00Z",
-   "onset": "2026-11-27T01:38:00Z",
-   "ends": "2026-11-27T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cbf06dd1b6b48c8ff11942c931be71c5d34b752.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -80.99,
-       28.54
-      ],
-      [
-       -80.9,
-       28.55
-      ],
-      [
-       -80.8,
-       28.35
-      ],
-      [
-       -80.72,
-       28.05
-      ],
-      [
-       -80.99,
-       28.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -80.7003,
-     28.2983
-    ]
-   ],
-   "lon": -80.88,
-   "lat": 28.406,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0007.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-27T01:43:00Z",
-   "onset": "2026-11-27T01:43:00Z",
-   "ends": "2026-11-27T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3f3332cba65145b6e3ee53d9f26493d8647e5d.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81,
-       28.73
-      ],
-      [
-       -80.9,
-       28.54
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.106,
-   "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0010.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Seminole, FL"
-   ],
-   "counties": [
-    "12117"
-   ],
-   "sent": "2026-11-27T01:47:00Z",
-   "onset": "2026-11-27T01:47:00Z",
-   "ends": "2026-11-27T16:15:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.160c8c8ffd425e02dc126832cf89e52b61e29dae.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.23,
-       28.7
-      ],
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.17,
-       28.79
-      ],
-      [
-       -81.23,
-       28.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.132,
-     28.6901
-    ]
-   ],
-   "lon": -81.266,
-   "lat": 28.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0009.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-27T01:53:00Z",
-   "onset": "2026-11-27T01:53:00Z",
-   "ends": "2026-11-27T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97326e6e11c3db87453add942e5c7353c9863bf0.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.39,
-       28.9
-      ],
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.31,
-       28.93
-      ],
-      [
-       -81.39,
-       28.9
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.402,
-   "lat": 28.982,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMLB.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Melbourne FL",
-   "areas": [
-    "Lake, FL",
-    "Volusia, FL"
-   ],
-   "counties": [
-    "12069",
-    "12127"
-   ],
-   "sent": "2026-11-27T01:58:00Z",
-   "onset": "2026-11-27T01:58:00Z",
-   "ends": "2026-11-27T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f537cd79827e4f5163a84d3c5aa2355c7be8a132.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -81.5,
-       29.08
-      ],
-      [
-       -81.69,
-       29.32
-      ],
-      [
-       -81.57,
-       29.35
-      ],
-      [
-       -81.42,
-       29.1
-      ],
-      [
-       -81.5,
-       29.08
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -81.7123,
-     28.7641
-    ],
-    [
-     -81.1618,
-     29.0578
-    ]
-   ],
-   "lon": -81.536,
-   "lat": 29.186,
    "countries": [
     "US"
    ]
@@ -1433,6 +1125,382 @@
    ]
   },
   {
+   "id": "KMLB.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-27T13:41:00Z",
+   "onset": "2026-11-27T13:41:00Z",
+   "ends": "2026-11-28T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cac35691580e4ec61cd7e1b2f407994064d1fcfd.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.69,
+       29.32
+      ],
+      [
+       -81.57,
+       29.35
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.5,
+       29.08
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.536,
+   "lat": 29.186,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Brevard, FL"
+   ],
+   "counties": [
+    "12009"
+   ],
+   "sent": "2026-11-27T13:45:00Z",
+   "onset": "2026-11-27T13:45:00Z",
+   "ends": "2026-11-28T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3878c7e5dfc91648ac84db49fef0a2c9b1aac48f.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.99,
+       28.54
+      ],
+      [
+       -80.9,
+       28.55
+      ],
+      [
+       -80.8,
+       28.35
+      ],
+      [
+       -80.72,
+       28.05
+      ],
+      [
+       -80.99,
+       28.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -80.7003,
+     28.2983
+    ]
+   ],
+   "lon": -80.88,
+   "lat": 28.406,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0007.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-27T13:50:00Z",
+   "onset": "2026-11-27T13:50:00Z",
+   "ends": "2026-11-28T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6af74ba5c327fd1160e38c240e3ec4dd4724b71.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81,
+       28.73
+      ],
+      [
+       -80.9,
+       28.54
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.106,
+   "lat": 28.692,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.FA.W.0030.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Monmouth, NJ",
+    "Ocean, NJ"
+   ],
+   "counties": [
+    "34025",
+    "34029"
+   ],
+   "sent": "2026-11-27T13:56:00Z",
+   "onset": "2026-11-27T13:56:00Z",
+   "ends": "2026-11-27T23:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18f9aa47adf20f74c0c74da6f13816d543c5d15a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.18,
+       40.07
+      ],
+      [
+       -74.22,
+       40.19
+      ],
+      [
+       -74.19,
+       40.2
+      ],
+      [
+       -74.1,
+       40.15
+      ],
+      [
+       -74.07,
+       40.12
+      ],
+      [
+       -74.07,
+       40.09
+      ],
+      [
+       -74.1,
+       40.07
+      ],
+      [
+       -74.13,
+       40.04
+      ],
+      [
+       -74.18,
+       40.07
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -74.1524,
+     40.287
+    ],
+    [
+     -74.2589,
+     39.8657
+    ]
+   ],
+   "lon": -74.138,
+   "lat": 40.111,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0010.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Seminole, FL"
+   ],
+   "counties": [
+    "12117"
+   ],
+   "sent": "2026-11-27T13:57:00Z",
+   "onset": "2026-11-27T13:57:00Z",
+   "ends": "2026-11-28T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bfa11dc453338513b85ad753a7562454ffcee9a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.23,
+       28.7
+      ],
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.17,
+       28.79
+      ],
+      [
+       -81.23,
+       28.7
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.132,
+     28.6901
+    ]
+   ],
+   "lon": -81.266,
+   "lat": 28.804,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMLB.FL.W.0009.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Melbourne FL",
+   "areas": [
+    "Lake, FL",
+    "Volusia, FL"
+   ],
+   "counties": [
+    "12069",
+    "12127"
+   ],
+   "sent": "2026-11-27T14:04:00Z",
+   "onset": "2026-11-27T14:04:00Z",
+   "ends": "2026-11-28T04:15:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56b12d0cc17ae3150726944a5758607b6fc145ed.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.39,
+       28.9
+      ],
+      [
+       -81.5,
+       29.08
+      ],
+      [
+       -81.42,
+       29.1
+      ],
+      [
+       -81.31,
+       28.93
+      ],
+      [
+       -81.39,
+       28.9
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.7123,
+     28.7641
+    ],
+    [
+     -81.1618,
+     29.0578
+    ]
+   ],
+   "lon": -81.402,
+   "lat": 28.982,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLCH.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -1570,266 +1638,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.5791.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Flaxman Island to Demarcation Point out to 15 NM"
-   ],
-   "counties": [
-    "58815"
-   ],
-   "sent": "2026-11-26T12:45:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c9faec58f328e896ef5ec16dfdb5c10ed343c5.005.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.5793.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-26T12:45:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c9faec58f328e896ef5ec16dfdb5c10ed343c5.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.5795.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-26T12:45:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c9faec58f328e896ef5ec16dfdb5c10ed343c5.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.5792.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Thompson to Cape Beaufort from 15 to 85 NM"
-   ],
-   "counties": [
-    "58857"
-   ],
-   "sent": "2026-11-26T12:45:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50c9faec58f328e896ef5ec16dfdb5c10ed343c5.006.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2768.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Norton Sound greater than 15 NM"
-   ],
-   "counties": [
-    "58852"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.015.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2758.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Dall Point to Kwikpak Pass out to 15 NM"
-   ],
-   "counties": [
-    "58802"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.002.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2764.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Motherwood Point to Cape Krusenstern out to 10 NM"
-   ],
-   "counties": [
-    "58809"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2761.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Moses Point to Sledge Island out to 15 NM"
-   ],
-   "counties": [
-    "58805"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2759.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Kwikpak Pass to Cape Stephens out to 15 NM"
-   ],
-   "counties": [
-    "58803"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.2763.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Espenberg to Motherwood Point out to 10 NM"
-   ],
-   "counties": [
-    "58808"
-   ],
-   "sent": "2026-11-26T12:46:00Z",
-   "onset": "2026-11-26T12:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3555198127251a9b670c7f2f3600c3b20fb5d30a.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.7916.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1882,32 +1690,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9180.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Thompson to Cape Beaufort from 15 to 85 NM"
-   ],
-   "counties": [
-    "58857"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.006.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9181.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1950,32 +1732,6 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.3922.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Dall Point to Kwikpak Pass out to 15 NM"
-   ],
-   "counties": [
-    "58802"
-   ],
-   "sent": "2026-11-27T00:49:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbe050bbeda141ea68dc4ce87ca93fc5330a12a.002.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2158,32 +1914,6 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbe050bbeda141ea68dc4ce87ca93fc5330a12a.004.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.UP.W.3927.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Moses Point to Sledge Island out to 15 NM"
-   ],
-   "counties": [
-    "58805"
-   ],
-   "sent": "2026-11-27T00:49:00Z",
-   "onset": "2026-11-27T02:00:00Z",
-   "ends": "2026-11-27T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbe050bbeda141ea68dc4ce87ca93fc5330a12a.005.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3187,37 +2917,6 @@
    ]
   },
   {
-   "id": "PAFG.WS.W.0029.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-27T12:08:00Z",
-   "onset": "2026-11-27T12:08:00Z",
-   "ends": "2026-11-28T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5636c76ec75ea270351228779dcc8975d9449a51.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.WS.W.0011.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -3259,6 +2958,37 @@
    ],
    "lon": -109.722,
    "lat": 45.539,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.WS.W.0029.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Eastern Beaufort Sea Coast"
+   ],
+   "counties": [
+    "02185"
+   ],
+   "sent": "2026-11-27T13:41:00Z",
+   "onset": "2026-11-27T13:41:00Z",
+   "ends": "2026-11-28T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a2ccda0a754f527b71d18a4851b536d5161b821.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -153.4728,
+     69.4493
+    ]
+   ],
+   "lon": -153.473,
+   "lat": 69.449,
    "countries": [
     "US"
    ]
