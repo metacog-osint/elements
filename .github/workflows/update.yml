@@ -5,6 +5,10 @@ name: update
 # and never ends an item; a failed history step or a failed push still lets the site deploy and then fails the run, so it is seen. Free: public repo. One optional secret,
 # FIRMS_MAP_KEY (a free NASA key).
 #
+# Private archive (the last step): every run's history/, data/ (with the files git does not keep), FIRMS cell files
+# and deployed site/ also go to the PRIVATE repo metacog-osint/tic-archive (tools/tic_archive.py), where nothing is
+# replaced or deleted. Secret TIC_ARCHIVE_TOKEN: contents read and write on tic-archive only.
+#
 # GitHub delays and drops scheduled runs under load: from 1 to 4 Nov 2026 a single hourly trigger ran about once every
 # six hours. So the schedule fires four times an hour and the gate job skips the run when the site was deployed less
 # than 45 minutes ago (a skipped run deploys nothing, so it can't hold the next one back).
@@ -57,6 +61,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Collect
+        id: collect
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}  # optional: without it, FIRMS's public files are read instead
         run: python tools/elements.py collect
@@ -140,3 +145,57 @@ jobs:
         run: |
           echo "::error::history step: ${{ steps.history.outcome }}; data push failed: ${{ steps.commit.outputs.unpushed == 'yes' }}. The site was still deployed; see the unpushed-data artifact and tools/history_backfill.py --continue."
           exit 1
+      # What this public repository replaces each run or never commits, to the PRIVATE repo metacog-osint/tic-archive,
+      # one lane each (release elements-<lane>-YYYY-MM; a snapshot per run, only changed files uploaded, nothing
+      # replaced or deleted):
+      #   history      history/ as the History step left it: the log, the open items (state.json, rewritten every
+      #                run) and the record-only lanes. Committed to main too. Only when that step succeeded, so a
+      #                failed or skipped step never archives a half-written history/ as the newest snapshot.
+      #   data         data/ after the collection, with the files git does not keep: firms.json (the whole FIRMS
+      #                read, low-confidence cells and daily counts included), meteoalarm.json (every warning in
+      #                force) and nws_recent.json (the NWS catch-up). Each run replaces them. Only when the collection
+      #                succeeded. Scanned for the FIRMS key, which never reaches these files: a copy would be REDACTED.
+      #   firms-cells  this run's FIRMS cell files from .firms-cells/, the same bytes the store step uploads to the
+      #                public release, and also the files the release does not take: a later run's file for an hour
+      #                the release already holds, and an hour whose upload failed. Only when the store wrote any.
+      #   site         site/ as deployed (feed.geojson, ended.geojson and the map's files), replaced by the next
+      #                deploy. Only when a deploy attempt succeeded.
+      # After the deploy and the step above, so it never holds the live site. Each lane is tried even if another
+      # failed; a missing token or any failed lane turns the run red.
+      - name: Private archive (history, data, FIRMS cells and site, to tic-archive)
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ secrets.TIC_ARCHIVE_TOKEN }}
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}   # only so the data lane can redact it
+          COLLECTED: ${{ steps.collect.outcome }}
+          HISTORY: ${{ steps.history.outcome }}
+          DEPLOYED: ${{ steps.deployment.outcome == 'success' || steps.deployment_retry.outcome == 'success' || steps.deployment_last.outcome == 'success' }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::secret TIC_ARCHIVE_TOKEN is not set, so nothing went to the private archive"; exit 1
+          fi
+          failed=0
+          if [ "$HISTORY" = "success" ]; then
+            python tools/tic_archive.py put --program elements --lane history --src history || failed=1
+          else
+            echo "history: the History step did not succeed, so history/ was not archived"
+          fi
+          if [ "$COLLECTED" = "success" ]; then
+            python tools/tic_archive.py put --program elements --lane data --src data \
+              --redact-env-if-set FIRMS_MAP_KEY || failed=1
+          else
+            echo "data: the collection did not succeed, so data/ was not archived"
+          fi
+          if [ -d .firms-cells ] && [ -n "$(ls -A .firms-cells)" ]; then
+            python tools/tic_archive.py put --program elements --lane firms-cells --src .firms-cells || failed=1
+          else
+            echo "firms-cells: the store wrote no FIRMS cell file this run"
+          fi
+          if [ "$DEPLOYED" = "true" ]; then
+            python tools/tic_archive.py put --program elements --lane site --src site || failed=1
+          else
+            echo "site: not deployed this run, so not archived"
+          fi
+          if [ "$failed" != 0 ]; then
+            echo "::error::a lane did not reach the private archive this run (see above)"; exit 1
+          fi
