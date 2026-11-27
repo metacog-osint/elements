@@ -130,9 +130,9 @@
    "id": "{A5E165B8-8BF1-41B0-B95A-5664E959FD3F}",
    "name": "Little Ridge",
    "acres": 1507.0,
-   "contained": 47,
+   "contained": 72,
    "discovered": "2026-11-22T01:14:40Z",
-   "updated": "2026-11-27T14:23:32Z",
+   "updated": "2026-11-27T22:49:48Z",
    "state": "VA",
    "county": "Highland",
    "cause": "Undetermined",
@@ -477,20 +477,6 @@
    "lat": 42.2359
   },
   {
-   "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
-   "name": "Cedar Point",
-   "acres": 1.6,
-   "contained": null,
-   "discovered": "2026-11-24T21:45:16Z",
-   "updated": "2026-11-24T22:56:29Z",
-   "state": "CO",
-   "county": "Larimer",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -105.3416,
-   "lat": 40.4645
-  },
-  {
    "id": "{FEA7F60C-F61D-46E3-84A0-C3F108C28BEE}",
    "name": "Fish Ct",
    "acres": 1.1,
@@ -533,18 +519,32 @@
    "lat": 44.9095
   },
   {
-   "id": "{93A9435F-7C47-4C82-919C-D85696F3C649}",
-   "name": "Yell 200186",
+   "id": "{590C273D-DB1A-42A1-980E-D13866B4E450}",
+   "name": "Anderson 0166",
+   "acres": 1.0,
+   "contained": 0,
+   "discovered": "2026-11-27T21:42:00Z",
+   "updated": "2026-11-27T23:03:35Z",
+   "state": "TX",
+   "county": "Anderson",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -95.5638,
+   "lat": 31.9088
+  },
+  {
+   "id": "{55170422-5E29-48BF-80BA-693A50DD4D59}",
+   "name": "Scott 187",
    "acres": 1.0,
    "contained": null,
-   "discovered": "2026-11-27T18:15:52Z",
-   "updated": "2026-11-27T18:25:41Z",
+   "discovered": "2026-11-27T21:56:32Z",
+   "updated": "2026-11-27T22:40:14Z",
    "state": "AR",
-   "county": "Yell",
+   "county": "Scott",
    "cause": null,
    "complexity": null,
-   "lon": -93.3426,
-   "lat": 34.9702
+   "lon": -93.974,
+   "lat": 34.8793
   },
   {
    "id": "{11FE92B5-7929-4D38-BF84-2E47BBDEF8DA}",
@@ -587,20 +587,6 @@
    "complexity": null,
    "lon": -72.3071,
    "lat": 43.6659
-  },
-  {
-   "id": "{ABBDBB71-DEBE-49B6-B09B-C8328B9F8D62}",
-   "name": "Cty D 3",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-23T15:02:00Z",
-   "updated": "2026-11-24T22:11:35Z",
-   "state": "WI",
-   "county": "Burnett",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -92.609,
-   "lat": 45.8085
   },
   {
    "id": "{A4AE1CBF-4705-40D7-80E3-B544FDFF87E0}",
@@ -657,20 +643,6 @@
    "complexity": null,
    "lon": -81.7086,
    "lat": 29.1179
-  },
-  {
-   "id": "{6594349E-82D8-4FA9-BE41-035FFB68C38D}",
-   "name": "3702 Grand Bature",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-20T14:30:53Z",
-   "updated": "2026-11-24T22:30:10Z",
-   "state": "MS",
-   "county": "Jackson",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -88.4398,
-   "lat": 30.3944
   },
   {
    "id": "{48248827-49A4-44D5-A8AA-E32C8DFA22F8}",
@@ -757,20 +729,6 @@
    "lat": 34.2133
   },
   {
-   "id": "{BBC71E5B-C2A1-4DE4-BE6F-8F90DCBD393B}",
-   "name": "Rusk 0162",
-   "acres": 0.1,
-   "contained": 0,
-   "discovered": "2026-11-27T20:25:00Z",
-   "updated": "2026-11-27T22:25:44Z",
-   "state": "TX",
-   "county": "Rusk",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.8371,
-   "lat": 32.3608
-  },
-  {
    "id": "{7434FAFD-BFD2-4DE9-A367-472C5E0E9CE6}",
    "name": "Ranch",
    "acres": 0.0,
@@ -783,34 +741,6 @@
    "complexity": null,
    "lon": -118.8701,
    "lat": 34.3984
-  },
-  {
-   "id": "{7ABAE2E9-7420-469B-8985-33269647B9FE}",
-   "name": "Green",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-05-13T20:25:03Z",
-   "updated": "2026-11-24T22:54:39Z",
-   "state": "CA",
-   "county": "Siskiyou",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.6377,
-   "lat": 41.722
-  },
-  {
-   "id": "{5C4D82D3-D90F-4D71-8932-C6181CD3BCA8}",
-   "name": "Freeman",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-05-18T19:18:46Z",
-   "updated": "2026-11-24T22:58:37Z",
-   "state": "CA",
-   "county": "Siskiyou",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -122.5198,
-   "lat": 41.6816
   },
   {
    "id": "{B10B69BF-00F9-48B0-BEAB-6B6F840AD5E5}",
@@ -839,20 +769,6 @@
    "complexity": null,
    "lon": -90.4506,
    "lat": 43.185
-  },
-  {
-   "id": "{CE602929-E064-4233-A0E3-90E051022469}",
-   "name": "Mtz/Bdc/82A",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-24T21:49:53Z",
-   "updated": "2026-11-24T22:09:29Z",
-   "state": "CA",
-   "county": "San Bernardino",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.3184,
-   "lat": 34.5661
   },
   {
    "id": "{9C15A523-87B0-4DC8-B619-862A54D0829F}",

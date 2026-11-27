@@ -69,61 +69,6 @@
    ]
   },
   {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Inland Worcester",
-    "Accomack",
-    "Dorchester",
-    "Wicomico",
-    "Somerset"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "51001"
-   ],
-   "sent": "2026-11-27T20:34:00Z",
-   "onset": "2026-11-27T20:34:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeeae6c9c9de67bfb574f706e90d2911f1b40abb.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.7578,
-     37.7659
-    ]
-   ],
-   "lon": -75.72,
-   "lat": 38.172,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -224,6 +169,61 @@
    ],
    "lon": -75.302,
    "lat": 39.569,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Inland Worcester",
+    "Accomack"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "51001"
+   ],
+   "sent": "2026-11-27T22:58:00Z",
+   "onset": "2026-11-27T22:58:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c7fc721a6efc06e158d573fcb50cdf553093c02.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.7578,
+     37.7659
+    ]
+   ],
+   "lon": -75.72,
+   "lat": 38.172,
    "countries": [
     "US"
    ]
@@ -649,85 +649,6 @@
    ],
    "lon": -81.106,
    "lat": 28.692,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.FA.W.0030.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Monmouth, NJ",
-    "Ocean, NJ"
-   ],
-   "counties": [
-    "34025",
-    "34029"
-   ],
-   "sent": "2026-11-27T13:56:00Z",
-   "onset": "2026-11-27T13:56:00Z",
-   "ends": "2026-11-27T23:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18f9aa47adf20f74c0c74da6f13816d543c5d15a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.18,
-       40.07
-      ],
-      [
-       -74.22,
-       40.19
-      ],
-      [
-       -74.19,
-       40.2
-      ],
-      [
-       -74.1,
-       40.15
-      ],
-      [
-       -74.07,
-       40.12
-      ],
-      [
-       -74.07,
-       40.09
-      ],
-      [
-       -74.1,
-       40.07
-      ],
-      [
-       -74.13,
-       40.04
-      ],
-      [
-       -74.18,
-       40.07
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ]
-   ],
-   "lon": -74.138,
-   "lat": 40.111,
    "countries": [
     "US"
    ]
