@@ -1014,63 +1014,6 @@
    ]
   },
   {
-   "id": "KAKQ.FL.W.0004.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Mecklenburg, VA"
-   ],
-   "counties": [
-    "51117"
-   ],
-   "sent": "2026-11-26T20:25:00Z",
-   "onset": "2026-11-26T20:25:00Z",
-   "ends": "2026-11-27T08:30:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba686d7d20b8778f91f7d97eea51ff4694c3fed4.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.42,
-       36.7
-      ],
-      [
-       -78.33,
-       36.75
-      ],
-      [
-       -78.26,
-       36.63
-      ],
-      [
-       -78.3,
-       36.61
-      ],
-      [
-       -78.42,
-       36.7
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -78.369,
-     36.6873
-    ]
-   ],
-   "lon": -78.346,
-   "lat": 36.678,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.FL.W.0039.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2765,32 +2708,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9181.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9183.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2807,6 +2724,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9181.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3143,145 +3086,6 @@
    ]
   },
   {
-   "id": "KALY.HW.W.0001.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albany NY",
-   "areas": [
-    "Northern Berkshire",
-    "Eastern Rensselaer",
-    "Bennington"
-   ],
-   "counties": [
-    "25003",
-    "36083",
-    "50003"
-   ],
-   "sent": "2026-11-26T17:49:00Z",
-   "onset": "2026-11-26T17:49:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e65f8c02fe622262b1a5209e94a776b023966037.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -73.2179,
-     42.3715
-    ],
-    [
-     -73.5138,
-     42.7104
-    ],
-    [
-     -73.1115,
-     43.0353
-    ]
-   ],
-   "lon": -73.281,
-   "lat": 42.706,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBTV.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Burlington VT",
-   "areas": [
-    "Eastern Rutland"
-   ],
-   "counties": [
-    "50021"
-   ],
-   "sent": "2026-11-26T18:09:00Z",
-   "onset": "2026-11-26T21:00:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4dab54c733cc2d0d2beaf9c2de8a12746c1a647.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -73.0603,
-     43.6124
-    ]
-   ],
-   "lon": -73.06,
-   "lat": 43.612,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTFX.HW.W.0038.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "East Glacier Park Region",
-    "Northern High Plains",
-    "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "Judith Basin County and Judith Gap"
-   ],
-   "counties": [
-    "30027",
-    "30035",
-    "30045",
-    "30049",
-    "30073",
-    "30099",
-    "30101"
-   ],
-   "sent": "2026-11-26T18:12:00Z",
-   "onset": "2026-11-26T18:12:00Z",
-   "ends": "2026-11-27T21:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c82d8561cbe95e4f528497d1e2ff3d3e004b4af1.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.233,
-     47.2218
-    ],
-    [
-     -112.9905,
-     48.7057
-    ],
-    [
-     -110.3053,
-     47.0326
-    ],
-    [
-     -112.3829,
-     47.1221
-    ],
-    [
-     -112.2208,
-     48.2286
-    ],
-    [
-     -112.2817,
-     47.819
-    ],
-    [
-     -111.7335,
-     48.6451
-    ]
-   ],
-   "lon": -111.593,
-   "lat": 47.825,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PHFO.HW.W.0011.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3352,6 +3156,145 @@
    ],
    "lon": -109.659,
    "lat": 46.23,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.HW.W.0038.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Judith Basin County and Judith Gap",
+    "Eastern Glacier, Western Toole, and Central Pondera",
+    "Southern High Plains",
+    "East Glacier Park Region",
+    "Northern High Plains"
+   ],
+   "counties": [
+    "30027",
+    "30035",
+    "30045",
+    "30049",
+    "30073",
+    "30099",
+    "30101"
+   ],
+   "sent": "2026-11-27T06:17:00Z",
+   "onset": "2026-11-27T06:17:00Z",
+   "ends": "2026-11-27T21:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.607b16f46005b22f0d415e52395bd525a0fd5937.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.233,
+     47.2218
+    ],
+    [
+     -112.9905,
+     48.7057
+    ],
+    [
+     -110.3053,
+     47.0326
+    ],
+    [
+     -112.3829,
+     47.1221
+    ],
+    [
+     -112.2208,
+     48.2286
+    ],
+    [
+     -112.2817,
+     47.819
+    ],
+    [
+     -111.7335,
+     48.6451
+    ]
+   ],
+   "lon": -111.593,
+   "lat": 47.825,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KALY.HW.W.0001.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Albany NY",
+   "areas": [
+    "Northern Berkshire",
+    "Eastern Rensselaer",
+    "Bennington"
+   ],
+   "counties": [
+    "25003",
+    "36083",
+    "50003"
+   ],
+   "sent": "2026-11-27T06:19:00Z",
+   "onset": "2026-11-27T06:19:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6770b4d5b0a773f930055af1e9314de7adeb71b4.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -73.2179,
+     42.3715
+    ],
+    [
+     -73.5138,
+     42.7104
+    ],
+    [
+     -73.1115,
+     43.0353
+    ]
+   ],
+   "lon": -73.281,
+   "lat": 42.706,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBTV.HW.W.0002.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Burlington VT",
+   "areas": [
+    "Eastern Rutland"
+   ],
+   "counties": [
+    "50021"
+   ],
+   "sent": "2026-11-27T06:31:00Z",
+   "onset": "2026-11-27T06:31:00Z",
+   "ends": "2026-11-27T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e37ab2b3e5739f02093801a6cbd8b1f11747e3bb.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -73.0603,
+     43.6124
+    ]
+   ],
+   "lon": -73.06,
+   "lat": 43.612,
    "countries": [
     "US"
    ]
@@ -3698,43 +3641,6 @@
    ]
   },
   {
-   "id": "KGLD.HW.A.0004.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Goodland KS",
-   "areas": [
-    "Greeley",
-    "Wichita"
-   ],
-   "counties": [
-    "20071",
-    "20203"
-   ],
-   "sent": "2026-11-27T06:00:00Z",
-   "onset": "2026-11-28T18:00:00Z",
-   "ends": "2026-11-29T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c930b8fbb6bc202328ab897a1f2d728d494a115d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -101.806,
-     38.4804
-    ],
-    [
-     -101.3474,
-     38.4819
-    ]
-   ],
-   "lon": -101.577,
-   "lat": 38.481,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMAF.HW.A.0017.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3773,50 +3679,38 @@
    ]
   },
   {
-   "id": "KCLE.LS.W.0001.2026",
-   "event": "Lakeshore Flood Warning",
+   "id": "KGLD.HW.A.0004.2026",
+   "event": "High Wind Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Cleveland OH",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Goodland KS",
    "areas": [
-    "Lucas",
-    "Ottawa",
-    "Sandusky",
-    "Erie"
+    "Greeley",
+    "Wichita"
    ],
    "counties": [
-    "39043",
-    "39095",
-    "39123",
-    "39143"
+    "20071",
+    "20203"
    ],
-   "sent": "2026-11-27T04:16:00Z",
-   "onset": "2026-11-27T04:16:00Z",
-   "ends": "2026-11-27T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7232996abcb1094761ab46f8f57a77eeaaf699dc.001.1",
+   "sent": "2026-11-27T06:32:00Z",
+   "onset": "2026-11-28T18:00:00Z",
+   "ends": "2026-11-29T00:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01c92a8bffe9b948cc24cd08a23e8f4db553452a.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -82.5868,
-     41.3941
+     -101.806,
+     38.4804
     ],
     [
-     -83.4689,
-     41.6823
-    ],
-    [
-     -83.0126,
-     41.5455
-    ],
-    [
-     -83.1428,
-     41.3553
+     -101.3474,
+     38.4819
     ]
    ],
-   "lon": -83.053,
-   "lat": 41.494,
+   "lon": -101.577,
+   "lat": 38.481,
    "countries": [
     "US"
    ]
@@ -3889,37 +3783,6 @@
    ],
    "lon": -110.039,
    "lat": 43.756,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KOTX.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Spokane WA",
-   "areas": [
-    "Western Okanogan County"
-   ],
-   "counties": [
-    "53047"
-   ],
-   "sent": "2026-11-26T18:27:00Z",
-   "onset": "2026-11-26T18:27:00Z",
-   "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c00be75431751d5a206834ab16754602a8c0426.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -119.7422,
-     48.5485
-    ]
-   ],
-   "lon": -119.742,
-   "lat": 48.548,
    "countries": [
     "US"
    ]
