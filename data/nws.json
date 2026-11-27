@@ -1,179 +1,6 @@
 {
  "records": [
   {
-   "id": "KJAX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Jacksonville FL",
-   "areas": [
-    "Inland Flagler",
-    "Eastern Putnam"
-   ],
-   "counties": [
-    "12035",
-    "12107"
-   ],
-   "sent": "2026-11-27T00:02:00Z",
-   "onset": "2026-11-27T00:02:00Z",
-   "ends": "2026-11-28T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e7911818a1fd623ea81ad8f3dc2682de47e23d4.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -81.2863,
-     29.4749
-    ],
-    [
-     -81.732,
-     29.5939
-    ]
-   ],
-   "lon": -81.509,
-   "lat": 29.534,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Kent",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "Mercer",
-    "Gloucester",
-    "Camden",
-    "Northwestern Burlington",
-    "Delaware",
-    "Philadelphia",
-    "Lower Bucks",
-    "Queen Anne's",
-    "Talbot",
-    "Caroline",
-    "Ocean",
-    "Coastal Ocean"
-   ],
-   "counties": [
-    "10005",
-    "24011",
-    "24029",
-    "24035",
-    "24041",
-    "34005",
-    "34007",
-    "34015",
-    "34021",
-    "34029",
-    "42017",
-    "42045",
-    "42101"
-   ],
-   "sent": "2026-11-27T07:50:00Z",
-   "onset": "2026-11-27T07:50:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2eb954e2d1e6def459c3e0a91443953d2e6e839.005.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -75.8317,
-     38.8715
-    ],
-    [
-     -76.126,
-     39.2413
-    ],
-    [
-     -76.0858,
-     39.047
-    ],
-    [
-     -76.1785,
-     38.7483
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -75.302,
-   "lat": 39.569,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.CF.W.0009.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "San Juan County"
-   ],
-   "counties": [
-    "53055"
-   ],
-   "sent": "2026-11-27T09:22:00Z",
-   "onset": "2026-11-27T13:00:00Z",
-   "ends": "2026-11-27T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71902bbada6c2bc4fcdf2fccebf6ffb67f89b736.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -123.1038,
-     48.5072
-    ]
-   ],
-   "lon": -123.104,
-   "lat": 48.507,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -342,6 +169,179 @@
    ],
    "lon": -76.43,
    "lat": 39.264,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.CF.W.0009.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "San Juan County"
+   ],
+   "counties": [
+    "53055"
+   ],
+   "sent": "2026-11-27T17:20:00Z",
+   "onset": "2026-11-27T17:20:00Z",
+   "ends": "2026-11-27T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84642e4a6cfdaa4308bdb6dafd8527d64c8d088e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -123.1038,
+     48.5072
+    ]
+   ],
+   "lon": -123.104,
+   "lat": 48.507,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KJAX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Jacksonville FL",
+   "areas": [
+    "Inland Flagler",
+    "Eastern Putnam"
+   ],
+   "counties": [
+    "12035",
+    "12107"
+   ],
+   "sent": "2026-11-27T17:29:00Z",
+   "onset": "2026-11-27T17:29:00Z",
+   "ends": "2026-11-28T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83f5acc18025c7265f20936f527f7ba627f75470.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -81.2863,
+     29.4749
+    ],
+    [
+     -81.732,
+     29.5939
+    ]
+   ],
+   "lon": -81.509,
+   "lat": 29.534,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Kent",
+    "Inland Sussex",
+    "Delaware Beaches",
+    "Ocean",
+    "Coastal Ocean",
+    "Mercer",
+    "Gloucester",
+    "Camden",
+    "Northwestern Burlington",
+    "Delaware",
+    "Philadelphia",
+    "Lower Bucks"
+   ],
+   "counties": [
+    "10005",
+    "24011",
+    "24029",
+    "24035",
+    "24041",
+    "34005",
+    "34007",
+    "34015",
+    "34021",
+    "34029",
+    "42017",
+    "42045",
+    "42101"
+   ],
+   "sent": "2026-11-27T17:33:00Z",
+   "onset": "2026-11-27T17:33:00Z",
+   "ends": "2026-11-28T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.175317b4c5dbb4dea22a10e808ae85ede5fc233c.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -75.8317,
+     38.8715
+    ],
+    [
+     -76.126,
+     39.2413
+    ],
+    [
+     -76.0858,
+     39.047
+    ],
+    [
+     -76.1785,
+     38.7483
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -74.7037,
+     40.2825
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.302,
+   "lat": 39.569,
    "countries": [
     "US"
    ]
@@ -590,71 +590,6 @@
    ],
    "lon": -114.099,
    "lat": 32.741,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.FL.W.0038.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-26T12:34:00Z",
-   "onset": "2026-11-26T12:34:00Z",
-   "ends": "2026-11-27T17:27:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8c32d5faa8740ff3b010f337311a4640607b521.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -123.1,
-       47.33
-      ],
-      [
-       -123.16,
-       47.28
-      ],
-      [
-       -123.33,
-       47.33
-      ],
-      [
-       -123.25,
-       47.34
-      ],
-      [
-       -123.19,
-       47.32
-      ],
-      [
-       -123.15,
-       47.35
-      ],
-      [
-       -123.1,
-       47.33
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.183,
-   "lat": 47.326,
    "countries": [
     "US"
    ]
@@ -2169,6 +2104,44 @@
    ]
   },
   {
+   "id": "KMAF.HW.W.0024.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Midland/Odessa TX",
+   "areas": [
+    "Guadalupe Mountains of Eddy County",
+    "Guadalupe Mountains Above 7000 Feet",
+    "Guadalupe and Delaware Mountains"
+   ],
+   "counties": [
+    "35015",
+    "48109"
+   ],
+   "sent": "2026-11-27T17:08:00Z",
+   "onset": "2026-11-28T19:00:00Z",
+   "ends": "2026-11-29T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0b0dbe51b9fa1b7bae0ddf20e2f2497c1740721.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.3064,
+     32.4578
+    ],
+    [
+     -104.5269,
+     31.4459
+    ]
+   ],
+   "lon": -104.417,
+   "lat": 31.952,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KABQ.HW.A.0008.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2211,44 +2184,6 @@
    ],
    "lon": -105.033,
    "lat": 35.509,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMAF.HW.A.0017.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Midland/Odessa TX",
-   "areas": [
-    "Guadalupe Mountains of Eddy County",
-    "Guadalupe Mountains Above 7000 Feet",
-    "Guadalupe and Delaware Mountains"
-   ],
-   "counties": [
-    "35015",
-    "48109"
-   ],
-   "sent": "2026-11-27T08:15:00Z",
-   "onset": "2026-11-28T19:00:00Z",
-   "ends": "2026-11-29T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e72e26b2f7a5ac43491865ee5befad43d502a29.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.3064,
-     32.4578
-    ],
-    [
-     -104.5269,
-     31.4459
-    ]
-   ],
-   "lon": -104.417,
-   "lat": 31.952,
    "countries": [
     "US"
    ]
@@ -2664,6 +2599,188 @@
    ],
    "lon": -105.191,
    "lat": 41.479,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLUB.HW.A.0003.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Lubbock TX",
+   "areas": [
+    "Briscoe",
+    "Hall",
+    "Childress",
+    "Floyd",
+    "Motley",
+    "Cottle"
+   ],
+   "counties": [
+    "48045",
+    "48075",
+    "48101",
+    "48153",
+    "48191",
+    "48345"
+   ],
+   "sent": "2026-11-27T17:30:00Z",
+   "onset": "2026-11-29T02:00:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16717c042704324324419c72ac9aa2b23e3c4a05.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -101.2059,
+     34.5252
+    ],
+    [
+     -100.2082,
+     34.5247
+    ],
+    [
+     -100.2764,
+     34.0919
+    ],
+    [
+     -101.3033,
+     34.0737
+    ],
+    [
+     -100.5763,
+     34.4532
+    ],
+    [
+     -100.7932,
+     34.0579
+    ]
+   ],
+   "lon": -100.727,
+   "lat": 34.288,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KOUN.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Harper",
+    "Woods",
+    "Ellis",
+    "Woodward",
+    "Roger Mills",
+    "Dewey",
+    "Custer",
+    "Beckham",
+    "Washita",
+    "Caddo",
+    "Harmon",
+    "Greer",
+    "Kiowa",
+    "Jackson",
+    "Tillman",
+    "Comanche"
+   ],
+   "counties": [
+    "40009",
+    "40015",
+    "40031",
+    "40039",
+    "40043",
+    "40045",
+    "40055",
+    "40057",
+    "40059",
+    "40065",
+    "40075",
+    "40129",
+    "40141",
+    "40149",
+    "40151",
+    "40153"
+   ],
+   "sent": "2026-11-27T17:34:00Z",
+   "onset": "2026-11-29T01:00:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db070626b8611e5ddd5e871e57002175448b6aba.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -99.6901,
+     35.2706
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -99.0144,
+     35.978
+    ],
+    [
+     -99.7501,
+     36.2243
+    ],
+    [
+     -99.553,
+     34.9339
+    ],
+    [
+     -99.8442,
+     34.746
+    ],
+    [
+     -99.6628,
+     36.8004
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -99.7416,
+     35.7086
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.9923,
+     35.2899
+    ],
+    [
+     -98.8636,
+     36.727
+    ],
+    [
+     -99.2737,
+     36.4256
+    ]
+   ],
+   "lon": -99.223,
+   "lat": 35.467,
    "countries": [
     "US"
    ]
