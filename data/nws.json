@@ -423,9 +423,9 @@
    "areas": [
     "Calvert",
     "Southern Baltimore",
-    "Southeast Harford",
     "District of Columbia",
     "Arlington/Falls Church/Alexandria",
+    "Southeast Harford",
     "Anne Arundel",
     "Fairfax",
     "Central and Southeast Prince William/Manassas/Manassas Park"
@@ -3584,6 +3584,97 @@
    ],
    "lon": -105.553,
    "lat": 35.182,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAMA.HW.A.0003.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Amarillo TX",
+   "areas": [
+    "Cimarron",
+    "Texas",
+    "Dallam",
+    "Sherman",
+    "Hansford",
+    "Ochiltree",
+    "Hartley",
+    "Moore",
+    "Hutchinson",
+    "Oldham",
+    "Potter"
+   ],
+   "counties": [
+    "40025",
+    "40139",
+    "48111",
+    "48195",
+    "48205",
+    "48233",
+    "48341",
+    "48357",
+    "48359",
+    "48375",
+    "48421"
+   ],
+   "sent": "2026-11-27T04:43:00Z",
+   "onset": "2026-11-28T21:00:00Z",
+   "ends": "2026-11-29T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1032e612c97d6a6135357f074df93bdaa4db6c8b.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -102.5177,
+     36.7484
+    ],
+    [
+     -101.4839,
+     36.7463
+    ],
+    [
+     -102.594,
+     36.2864
+    ],
+    [
+     -101.3569,
+     36.2728
+    ],
+    [
+     -102.61,
+     35.8402
+    ],
+    [
+     -101.3627,
+     35.837
+    ],
+    [
+     -101.8905,
+     35.8357
+    ],
+    [
+     -100.8159,
+     36.2787
+    ],
+    [
+     -102.5976,
+     35.4019
+    ],
+    [
+     -101.8938,
+     35.3987
+    ],
+    [
+     -101.8993,
+     36.2786
+    ]
+   ],
+   "lon": -101.911,
+   "lat": 36.084,
    "countries": [
     "US"
    ]
