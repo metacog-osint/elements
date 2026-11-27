@@ -682,71 +682,6 @@
    ]
   },
   {
-   "id": "KILM.FL.W.0001.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Pender, NC"
-   ],
-   "counties": [
-    "37141"
-   ],
-   "sent": "2026-11-27T02:40:00Z",
-   "onset": "2026-11-28T00:00:00Z",
-   "ends": "2026-12-01T16:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65facaaeda63d7caedc737253b218e783e13609c.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.98,
-       34.72
-      ],
-      [
-       -77.86,
-       34.72
-      ],
-      [
-       -77.76,
-       34.6
-      ],
-      [
-       -77.79,
-       34.45
-      ],
-      [
-       -77.88,
-       34.44
-      ],
-      [
-       -77.88,
-       34.57
-      ],
-      [
-       -77.98,
-       34.72
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -77.8881,
-     34.5126
-    ]
-   ],
-   "lon": -77.876,
-   "lat": 34.603,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KALY.FL.W.0024.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -805,69 +740,6 @@
    ],
    "lon": -73.96,
    "lat": 41.804,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBOX.FL.W.0011.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Kent, RI",
-    "Providence, RI"
-   ],
-   "counties": [
-    "44003",
-    "44007"
-   ],
-   "sent": "2026-11-27T03:25:00Z",
-   "onset": "2026-11-27T11:27:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8eb76e41b5ff5cf8a57eee2a62e0e0c67326f66.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -71.56,
-       41.78
-      ],
-      [
-       -71.41,
-       41.8
-      ],
-      [
-       -71.39,
-       41.72
-      ],
-      [
-       -71.55,
-       41.7
-      ],
-      [
-       -71.56,
-       41.78
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -71.5803,
-     41.6751
-    ],
-    [
-     -71.5786,
-     41.8698
-    ]
-   ],
-   "lon": -71.494,
-   "lat": 41.756,
    "countries": [
     "US"
    ]
@@ -1507,6 +1379,132 @@
    ]
   },
   {
+   "id": "KBOX.FL.W.0011.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Kent, RI",
+    "Providence, RI"
+   ],
+   "counties": [
+    "44003",
+    "44007"
+   ],
+   "sent": "2026-11-27T15:49:00Z",
+   "onset": "2026-11-27T15:49:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66f4d290241e01f8caf836fbd3b728f5a573d0cc.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -71.56,
+       41.78
+      ],
+      [
+       -71.41,
+       41.8
+      ],
+      [
+       -71.39,
+       41.72
+      ],
+      [
+       -71.55,
+       41.7
+      ],
+      [
+       -71.56,
+       41.78
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -71.5803,
+     41.6751
+    ],
+    [
+     -71.5786,
+     41.8698
+    ]
+   ],
+   "lon": -71.494,
+   "lat": 41.756,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOX.FL.W.0012.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Bristol, MA",
+    "Plymouth, MA"
+   ],
+   "counties": [
+    "25005",
+    "25023"
+   ],
+   "sent": "2026-11-27T15:50:00Z",
+   "onset": "2026-11-27T19:57:00Z",
+   "ends": "2026-11-30T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5abf6bef76738303db79a93b1d656fe39df1263.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -71.19,
+       41.82
+      ],
+      [
+       -70.97,
+       42.02
+      ],
+      [
+       -70.87,
+       41.94
+      ],
+      [
+       -71.1,
+       41.77
+      ],
+      [
+       -71.19,
+       41.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -71.0889,
+     41.7486
+    ],
+    [
+     -70.7419,
+     41.9872
+    ]
+   ],
+   "lon": -71.064,
+   "lat": 41.874,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "PAFG.UP.W.3597.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1611,32 +1609,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9183.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9181.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1653,6 +1625,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9183.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2199,158 +2197,6 @@
    ]
   },
   {
-   "id": "KAMA.HW.A.0003.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Amarillo TX",
-   "areas": [
-    "Cimarron",
-    "Texas",
-    "Dallam",
-    "Sherman",
-    "Hansford",
-    "Ochiltree",
-    "Hartley",
-    "Moore",
-    "Hutchinson",
-    "Oldham",
-    "Potter"
-   ],
-   "counties": [
-    "40025",
-    "40139",
-    "48111",
-    "48195",
-    "48205",
-    "48233",
-    "48341",
-    "48357",
-    "48359",
-    "48375",
-    "48421"
-   ],
-   "sent": "2026-11-27T04:43:00Z",
-   "onset": "2026-11-28T21:00:00Z",
-   "ends": "2026-11-29T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1032e612c97d6a6135357f074df93bdaa4db6c8b.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -102.5177,
-     36.7484
-    ],
-    [
-     -101.4839,
-     36.7463
-    ],
-    [
-     -102.594,
-     36.2864
-    ],
-    [
-     -101.3569,
-     36.2728
-    ],
-    [
-     -102.61,
-     35.8402
-    ],
-    [
-     -101.3627,
-     35.837
-    ],
-    [
-     -101.8905,
-     35.8357
-    ],
-    [
-     -100.8159,
-     36.2787
-    ],
-    [
-     -102.5976,
-     35.4019
-    ],
-    [
-     -101.8938,
-     35.3987
-    ],
-    [
-     -101.8993,
-     36.2786
-    ]
-   ],
-   "lon": -101.911,
-   "lat": 36.084,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KDDC.HW.A.0004.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Dodge City KS",
-   "areas": [
-    "Hamilton",
-    "Kearny",
-    "Stanton",
-    "Grant",
-    "Morton",
-    "Stevens"
-   ],
-   "counties": [
-    "20067",
-    "20075",
-    "20093",
-    "20129",
-    "20187",
-    "20189"
-   ],
-   "sent": "2026-11-27T04:57:00Z",
-   "onset": "2026-11-28T20:00:00Z",
-   "ends": "2026-11-29T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73c4b8e0a0a796cd01cbf3af99a684de6878acd8.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -101.2994,
-     37.5475
-    ],
-    [
-     -101.7937,
-     37.9952
-    ],
-    [
-     -101.3081,
-     37.9945
-    ],
-    [
-     -101.8095,
-     37.1852
-    ],
-    [
-     -101.7894,
-     37.5659
-    ],
-    [
-     -101.3173,
-     37.2017
-    ]
-   ],
-   "lon": -101.553,
-   "lat": 37.582,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KGLD.HW.A.0004.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2579,6 +2425,273 @@
    ],
    "lon": -103.41,
    "lat": 38.097,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAMA.HW.A.0003.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Amarillo TX",
+   "areas": [
+    "Beaver",
+    "Lipscomb",
+    "Roberts",
+    "Hemphill",
+    "Carson",
+    "Gray",
+    "Wheeler",
+    "Deaf Smith",
+    "Randall",
+    "Armstrong",
+    "Donley",
+    "Collingsworth",
+    "Palo Duro Canyon",
+    "Cimarron",
+    "Texas",
+    "Dallam",
+    "Sherman",
+    "Hansford",
+    "Ochiltree",
+    "Hartley",
+    "Moore",
+    "Hutchinson",
+    "Oldham",
+    "Potter"
+   ],
+   "counties": [
+    "40007",
+    "40025",
+    "40139",
+    "48011",
+    "48065",
+    "48087",
+    "48111",
+    "48117",
+    "48129",
+    "48179",
+    "48195",
+    "48205",
+    "48211",
+    "48233",
+    "48295",
+    "48341",
+    "48357",
+    "48359",
+    "48375",
+    "48381",
+    "48393",
+    "48421",
+    "48483"
+   ],
+   "sent": "2026-11-27T15:50:00Z",
+   "onset": "2026-11-28T20:00:00Z",
+   "ends": "2026-11-29T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f865f895beffd36c8d7064fedb9b7b0373c429c8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -100.4831,
+     36.7483
+    ],
+    [
+     -102.5177,
+     36.7484
+    ],
+    [
+     -101.4839,
+     36.7463
+    ],
+    [
+     -101.3566,
+     34.9642
+    ],
+    [
+     -101.3554,
+     35.4055
+    ],
+    [
+     -100.2721,
+     34.9634
+    ],
+    [
+     -102.594,
+     36.2864
+    ],
+    [
+     -102.6076,
+     34.9408
+    ],
+    [
+     -100.8158,
+     34.955
+    ],
+    [
+     -100.8124,
+     35.4025
+    ],
+    [
+     -101.3569,
+     36.2728
+    ],
+    [
+     -102.61,
+     35.8402
+    ],
+    [
+     -100.2792,
+     35.816
+    ],
+    [
+     -101.3627,
+     35.837
+    ],
+    [
+     -100.2727,
+     36.2802
+    ],
+    [
+     -101.8905,
+     35.8357
+    ],
+    [
+     -100.8159,
+     36.2787
+    ],
+    [
+     -102.5976,
+     35.4019
+    ],
+    [
+     -101.8938,
+     35.3987
+    ],
+    [
+     -101.8955,
+     34.9625
+    ],
+    [
+     -100.8367,
+     35.8386
+    ],
+    [
+     -101.8993,
+     36.2786
+    ],
+    [
+     -100.2531,
+     35.3926
+    ]
+   ],
+   "lon": -101.403,
+   "lat": 35.765,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KDDC.HW.A.0004.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Dodge City KS",
+   "areas": [
+    "Hamilton",
+    "Kearny",
+    "Stanton",
+    "Grant",
+    "Morton",
+    "Stevens",
+    "Scott",
+    "Lane",
+    "Finney",
+    "Haskell",
+    "Gray",
+    "Seward",
+    "Meade"
+   ],
+   "counties": [
+    "20055",
+    "20067",
+    "20069",
+    "20075",
+    "20081",
+    "20093",
+    "20101",
+    "20119",
+    "20129",
+    "20171",
+    "20175",
+    "20187",
+    "20189"
+   ],
+   "sent": "2026-11-27T15:55:00Z",
+   "onset": "2026-11-28T20:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b68bc6fe066d761d3330f904b260b3c5a3f96c27.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -100.74,
+     38.0498
+    ],
+    [
+     -101.2994,
+     37.5475
+    ],
+    [
+     -100.4517,
+     37.7445
+    ],
+    [
+     -101.7937,
+     37.9952
+    ],
+    [
+     -100.88,
+     37.555
+    ],
+    [
+     -101.3081,
+     37.9945
+    ],
+    [
+     -100.4662,
+     38.4813
+    ],
+    [
+     -100.3601,
+     37.2439
+    ],
+    [
+     -101.8095,
+     37.1852
+    ],
+    [
+     -100.9064,
+     38.4819
+    ],
+    [
+     -100.8553,
+     37.181
+    ],
+    [
+     -101.7894,
+     37.5659
+    ],
+    [
+     -101.3173,
+     37.2017
+    ]
+   ],
+   "lon": -101.075,
+   "lat": 37.71,
    "countries": [
     "US"
    ]
