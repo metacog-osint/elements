@@ -1,44 +1,6 @@
 {
  "records": [
   {
-   "id": "KMHX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Ocracoke Island",
-    "Hatteras Island",
-    "Northern Outer Banks"
-   ],
-   "counties": [
-    "37055",
-    "37095"
-   ],
-   "sent": "2026-11-26T20:02:00Z",
-   "onset": "2026-11-26T20:02:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38d611c89885f14f16fdf2699e75f02e51134a32.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ]
-   ],
-   "lon": -75.961,
-   "lat": 35.507,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSGX.CF.W.0003.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -787,6 +749,44 @@
    ],
    "lon": -123.104,
    "lat": 48.507,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KMHX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Newport/Morehead City NC",
+   "areas": [
+    "Ocracoke Island",
+    "Hatteras Island",
+    "Northern Outer Banks"
+   ],
+   "counties": [
+    "37055",
+    "37095"
+   ],
+   "sent": "2026-11-27T02:07:00Z",
+   "onset": "2026-11-27T02:07:00Z",
+   "ends": "2026-11-27T20:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.7675,
+     35.6063
+    ],
+    [
+     -76.1537,
+     35.4082
+    ]
+   ],
+   "lon": -75.961,
+   "lat": 35.507,
    "countries": [
     "US"
    ]
@@ -1916,6 +1916,63 @@
    ]
   },
   {
+   "id": "KAKQ.FL.W.0005.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Bertie, NC"
+   ],
+   "counties": [
+    "37015"
+   ],
+   "sent": "2026-11-27T02:11:00Z",
+   "onset": "2026-11-27T02:11:00Z",
+   "ends": "2026-11-28T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d58b9568f23f817eb7ca788c1f62ce0d22493469.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.12,
+       36.1
+      ],
+      [
+       -76.95,
+       36.1
+      ],
+      [
+       -76.84,
+       35.95
+      ],
+      [
+       -76.93,
+       35.93
+      ],
+      [
+       -77.12,
+       36.1
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -76.9624,
+     36.059
+    ]
+   ],
+   "lon": -76.992,
+   "lat": 36.036,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLIX.FZ.W.0008.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2080,10 +2137,10 @@
     "28111",
     "28131"
    ],
-   "sent": "2026-11-26T17:38:00Z",
+   "sent": "2026-11-27T02:08:00Z",
    "onset": "2026-11-27T09:00:00Z",
    "ends": "2026-11-27T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc29ee6a2bb746b235fda4bfecea8294c93546a1.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12e941e84bff81cea0880016ff98bf68eb177b9e.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
