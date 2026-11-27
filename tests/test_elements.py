@@ -550,6 +550,29 @@ class TownCountry(unittest.TestCase):
         self.assertIsNone(tc("south of the Fiji Islands"))
         self.assertIsNone(tc(None))
 
+    def test_georgia_by_hemisphere(self):
+        # "Georgia" names both a US state and a country: the epicentre's longitude decides which
+        tc = feed.town_country
+        self.assertEqual(tc("20 km W of Poti, Georgia", lon=41.4), "GE")          # Black Sea
+        self.assertEqual(tc("30 km SE of Savannah, Georgia", lon=-80.9), "US")    # off the US Atlantic coast
+        self.assertIsNone(tc("20 km W of Poti, Georgia"))                         # no longitude: no guess
+        self.assertEqual(tc("12 km SW of Adak, Alaska", lon=-176.7), "US")        # other states unchanged
+        self.assertEqual(tc("85 km S of Gorontalo, Indonesia", lon=123.0), "ID")
+
+    def test_offshore_georgia_in_the_feed(self):
+        def placed(eid, lon, lat, place):
+            q = quake(eid, 4.8, lon, lat)
+            q["properties"]["place"] = place
+            return q
+        recs = sources.parse_usgs({"type": "FeatureCollection", "features": [
+            placed("usge", 41.42, 42.15, "20 km W of Poti, Georgia"),            # Black Sea, in no country
+            placed("usga", -80.85, 31.9, "30 km SE of Savannah, Georgia")]})     # US Atlantic shelf, in no country
+        self.assertEqual([r["countries"] for r in recs], [[], []])
+        fc = feed.build({**dataset(), "usgs": {"records": recs, "fetched_at": FETCHED}}, NOW)
+        tc = {f["properties"]["id"]: f["properties"]["measures"].get("town_country") for f in fc["features"]}
+        self.assertEqual(tc["elements:usgs:usge"], "GE")
+        self.assertEqual(tc["elements:usgs:usga"], "US")
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=1)
