@@ -310,7 +310,7 @@
    "severity_unit": "km/h",
    "from": "2026-11-15T06:00:00Z",
    "to": "2026-11-23T00:00:00Z",
-   "current": true,
+   "current": false,
    "country": "Cook Islands",
    "severity": "Tropical Depression (maximum wind speed of 241 km/h)",
    "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=23&eventtype=TC",
@@ -436,29 +436,6 @@
    ]
   },
   {
-   "id": "FL-1104280",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Myanmar",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-10T01:00:00Z",
-   "to": "2026-11-12T01:00:00Z",
-   "current": false,
-   "country": "Myanmar",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104280&episodeid=1&eventtype=FL",
-   "lon": 98.01,
-   "lat": 21.512,
-   "countries": [
-    "MM"
-   ]
-  },
-  {
    "id": "FL-1104277",
    "type": "FL",
    "kind": "flood",
@@ -480,50 +457,6 @@
    "countries": [
     "AR"
    ]
-  },
-  {
-   "id": "FL-1104276",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 3,
-   "name": "Flood in Portugal",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-07T01:00:00Z",
-   "to": "2026-11-12T01:00:00Z",
-   "current": false,
-   "country": "Portugal",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=3&eventtype=FL",
-   "lon": -8.151,
-   "lat": 37.245,
-   "countries": [
-    "PT"
-   ]
-  },
-  {
-   "id": "TC-1001348",
-   "type": "TC",
-   "kind": "tropical cyclone",
-   "episode": 24,
-   "name": "Tropical Cyclone PENA-26",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 92.592,
-   "severity_unit": "km/h",
-   "from": "2026-11-06T21:00:00Z",
-   "to": "2026-11-12T15:00:00Z",
-   "current": false,
-   "country": null,
-   "severity": "Tropical Depression (maximum wind speed of 93 km/h)",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=24&eventtype=TC",
-   "lon": -173.4,
-   "lat": 9.8,
-   "countries": []
   },
   {
    "id": "FL-1104281",
