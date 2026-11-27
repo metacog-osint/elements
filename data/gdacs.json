@@ -91,6 +91,29 @@
    ]
   },
   {
+   "id": "FL-1104302",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Paraguay",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-21T01:00:00Z",
+   "to": "2026-11-23T01:00:00Z",
+   "current": false,
+   "country": "Paraguay",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=1&eventtype=FL",
+   "lon": -56.5,
+   "lat": -24.25,
+   "countries": [
+    "PY"
+   ]
+  },
+  {
    "id": "FL-1104298",
    "type": "FL",
    "kind": "flood",
@@ -600,7 +623,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 4,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -612,9 +635,9 @@
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=4&eventtype=FL",
+   "lon": 99.381,
+   "lat": 2.192,
    "countries": [
     "ID"
    ]
