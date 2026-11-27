@@ -195,7 +195,7 @@ def _county_states() -> dict:
 
 def subdivide(feats: list[dict]) -> None:
     """Add `subdivisions` (kit 0.5.7, ISO 3166-2 codes such as US-HI) to US items, so consumers can tell a hazard in
-    Hawaii from one for all of the US (Tom, 15 Nov 2026). From NWS's own county codes when the item lists them, else
+    Hawaii from one for all of the US (15 Nov 2026). From NWS's own county codes when the item lists them, else
     from the item's point or shape on the kit's 1:10m state outlines (right to about 1 km at a state line). An item
     for the whole country (precision country, at the label point) gets none."""
     states = _county_states()
@@ -212,7 +212,7 @@ def subdivide(feats: list[dict]) -> None:
 
 
 def _volcano_items(d: dict, now: datetime) -> list[dict]:
-    """USGS elevated volcanoes, each measured against NORMAL. An anomaly only when it matters as news (Tom, 15 Nov
+    """USGS elevated volcanoes, each measured against NORMAL. An anomaly only when it matters as news (15 Nov
     2026: a standing or lowered alert is not one): the alert was raised, it is newly elevated, USGS gives no earlier
     level to compare with, or it stands at WARNING or aviation code RED (an eruption under way). A re-sent or
     lowered alert below WARNING is routine. The response_stage needs the kit's usgs_volcano
