@@ -40,7 +40,7 @@ past four weeks and is flagged while the median catches up. Method elements-feed
 
 ## Volcanoes
 USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
-level and the responsible observatory's synopsis. Each is measured against Normal, and since 15 Nov 2026 (Tom: a
+level and the responsible observatory's synopsis. Each is measured against Normal, and since 15 Nov 2026 (a
 standing or lowered alert is not news) an item is an anomaly only when its alert was raised, it is newly elevated
 (from Normal or unassigned), USGS gives no earlier level, or it stands at Warning or aviation code Red; a re-sent or
 lowered alert below Warning is routine and still listed. The kit's `usgs_volcano` ladder (kit 0.3.1) gives the

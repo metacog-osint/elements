@@ -61,7 +61,7 @@
   var DM_NAMES = ["Abnormally dry", "Moderate drought", "Severe drought", "Extreme drought", "Exceptional drought"];
   var TSU = { information: "information statement", threat: "threat message", watch: "watch", advisory: "advisory", warning: "warning" };
 
-  // "My area" (tic-area.js; Tom, 16 Nov 2026, after Cordon): hazards outside the viewer's area are dimmed on the map
+  // "My area" (tic-area.js; 16 Nov 2026, after Cordon): hazards outside the viewer's area are dimmed on the map
   // and in the tables, never hidden. An item is judged by the state its feed item names (`subdivisions`), else by its
   // point or shape. Country tables (Europe by country, fires by country, GDACS by hazard, US drought) are not dimmed.
   var A = window.TicArea;

@@ -59,7 +59,7 @@ def _centre(geom, pts):
 
 def chain_key(p: dict) -> str:
     """The key of an alert without VTEC: the first message in its CAP chain (the earliest of its references, else
-    itself), so an update is the same alert (Tom, 19 Nov 2026; MeteoAlarm keys its warnings the same way)."""
+    itself), so an update is the same alert (19 Nov 2026; MeteoAlarm keys its warnings the same way)."""
     refs = [r for r in p.get("references") or [] if isinstance(r, dict) and (r.get("identifier") or r.get("@id"))]
     if not refs:
         return _oid_tail(p.get("id"))

@@ -4,7 +4,7 @@ signals and corroboration (feed-contract migration step 4.3, 19 Nov 2026).
 The builders in feed.py keep their items as before; finish() adds the 2.1 fields from what each item already carries
 (its lane, measures and data_as_of), then fills last_change from the history log where the item does not state it.
 
-Decisions (Tom, 19 Nov 2026, "Take the Elements defaults too"):
+Rules adopted 19 Nov 2026:
 - An NWS alert without VTEC is one subject along its CAP chain (weather.py keys it on the chain's first message, as
   MeteoAlarm does), so an update is a change, not a new alert and an end.
 - A USGS earthquake that EMSC also locates, from a solution that is not USGS's own (authority other than NEIC), is
