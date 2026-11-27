@@ -514,6 +514,35 @@ class Firms(unittest.TestCase):
         self.assertNotIn("expected", br["signal"])
         self.assertNotIn("baseline_ref", br)
 
+    def test_feed_fire_flag_rate_cap(self):
+        # Contract revision 2.1, rule for a series: an anomaly only while the country crossed its own threshold on
+        # no more than 5% of its baseline days; every item with a baseline carries that share as flag_rate.
+        from datetime import timedelta
+        today = NOW.date()
+        days = {(today - timedelta(days=i)).isoformat(): {"BR": 100, "AR": 20} for i in range(1, 26)}
+        for i in (2, 3):                                       # two days over 3 times the median of 100
+            days[(today - timedelta(days=i)).isoformat()]["BR"] = 400
+        cell = lambda n, cc: [-50.0, -10.0, n, n, 30.0, 9.0, "2026-10-31T15:30Z", cc]
+        d = dataset()
+        d["firms_daily"] = {"days": days}
+        d["firms"] = {"records": {"cells": [cell(300, "BR"), cell(30, "AR")], "window": [None, None], "cell_deg": 0.5},
+                      "fetched_at": FETCHED}
+        fire = lambda fc: {f["properties"]["id"]: f["properties"] for f in fc["features"]
+                           if f["properties"]["id"].startswith("elements:firms:")}
+        fc = feed.build(d, NOW)
+        self.assertEqual(fc["dropped"], [])
+        br, ar = fire(fc)["elements:firms:BR"], fire(fc)["elements:firms:AR"]
+        self.assertEqual(br["baseline_ref"]["flag_rate"], 0.08)  # 2 of 25 baseline days
+        self.assertEqual(br["measures"]["baseline_days_crossed"], 2)
+        self.assertEqual(br["tier"], "routine")                  # held: over the 5% cap
+        self.assertIn("held routine", br["measures"]["held_routine"])
+        self.assertEqual((ar["tier"], ar["baseline_ref"]["flag_rate"]), ("routine", 0))
+        days[(today - timedelta(days=3)).isoformat()]["BR"] = 100  # one crossing: 1 of 25 is 4%
+        br = fire(feed.build(d, NOW))["elements:firms:BR"]
+        self.assertEqual((br["tier"], br["baseline_ref"]["flag_rate"]), ("anomaly", 0.04))
+        self.assertNotIn("held_routine", br["measures"])
+        self.assertEqual(feed.fire_flag_rate(days, "BR", today.isoformat()), (1, 25))
+
     def test_feed_floor_keeps_open_items(self):
         # An open country item stays down to 5 detections; a new one still needs 10.
         d = dataset()

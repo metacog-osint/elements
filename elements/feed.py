@@ -11,7 +11,7 @@ from .common import ROOT, country_name, country_point  # first: puts the doctrin
 from tic_doctrine import CONTRACT, __version__ as KIT, contract, geo, registers, vocab  # noqa: E402
 from . import rev21  # noqa: E402
 
-METHOD = "elements-feed-1.2"
+METHOD = "elements-feed-1.3"
 CEMS_DAYS = 60
 SRC = {
     "usgs": {"id": "usgs-earthquakes", "publisher": "US Geological Survey", "licence": "US public domain", "grade": "A1",
@@ -67,6 +67,8 @@ FIRE_BASE_DAYS = 28  # a country's fire baseline: the median of its daily detect
 FIRE_BASE_MIN = 14   # routine until the baseline holds this many days
 FIRE_MULT = 3        # anomaly at 3 times the baseline median...
 FIRE_FLOOR = 50      # ...and at least this many detections in 24 hours
+FIRE_FLAG_CAP = 0.05  # ...while the country crossed that threshold on at most this share of its baseline days
+                      # (feed contract revision 2.1, rule for a series: baseline_ref.flag_rate)
 FIRE_KEEP = 5  # a country item already open in the history state stays while it has this many, so it does not
                # end and reopen each time its count crosses FIRE_MIN
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
@@ -484,6 +486,24 @@ def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
     return {"median": med, "n": len(prior), "start": prior[0], "end": prior[-1]}
 
 
+def fire_crossed(days: dict, cc: str, day: str) -> bool:
+    """True when the country's count on that complete UTC day met the anomaly threshold against its own baseline as it
+    stood that day (at least FIRE_MULT times the median and at least FIRE_FLOOR). A day without a baseline is not."""
+    b = fire_baseline(days, cc, day)
+    n = (days.get(day) or {}).get(cc, 0)
+    return b is not None and n >= FIRE_FLOOR and n >= FIRE_MULT * b["median"]
+
+
+def fire_flag_rate(days: dict, cc: str, today: str) -> tuple[int, int] | None:
+    """(days crossed, days in the baseline): how often the country crossed its threshold (fire_crossed) on the
+    complete UTC days of today's baseline window, or None under FIRE_BASE_MIN days. A crossing counts whether or not
+    it was published as an anomaly, so a country held routine by the cap does not drift back under it."""
+    prior = sorted(k for k in days if k < today)[-FIRE_BASE_DAYS:]
+    if len(prior) < FIRE_BASE_MIN:
+        return None
+    return sum(fire_crossed(days, cc, k) for k in prior), len(prior)
+
+
 def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None,
           ended: list | None = None, open_ids: set | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
@@ -652,13 +672,21 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         base = fire_baseline(fire_days, cc, today)
         if base is not None:
             med = base["median"]
-            p["measures"].update({"baseline_median": med, "baseline_days": base["n"]})
-            p["baseline_ref"] = {"id": "firms-country-median", "type": "rolling", "version": "1",
+            crossed, ndays = fire_flag_rate(fire_days, cc, today)
+            p["measures"].update({"baseline_median": med, "baseline_days": base["n"], "baseline_days_crossed": crossed})
+            p["baseline_ref"] = {"id": "firms-country-median", "type": "rolling", "version": "2",
                                  "window": f"median of daily detections, {base['start']} to {base['end']} "
                                            f"({base['n']} complete UTC days); anomaly at {FIRE_MULT} times the median "
-                                           f"and at least {FIRE_FLOOR} detections"}
+                                           f"and at least {FIRE_FLOOR} detections, while the country crossed that "
+                                           f"threshold on no more than {FIRE_FLAG_CAP:.0%} of those days",
+                                 "flag_rate": round(crossed / ndays, 4)}
             if a["n"] >= FIRE_FLOOR and a["n"] >= FIRE_MULT * med:
-                p["tier"] = "anomaly"
+                if crossed / ndays <= FIRE_FLAG_CAP:
+                    p["tier"] = "anomaly"
+                else:
+                    p["measures"]["held_routine"] = (f"over {FIRE_MULT} times the median, held routine: the country "
+                                                     f"crossed its threshold on {crossed} of {ndays} baseline days, "
+                                                     f"more than {FIRE_FLAG_CAP:.0%}")
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
     subdivide(feats)

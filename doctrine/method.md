@@ -33,10 +33,22 @@ count near the floor does not end and reopen the item from one run to the next. 
 baseline is the median of its daily detections over the past 28 complete UTC days (a day on file without the country
 counts as 0). A fire item is an anomaly when its 24-hour count is at least 3 times that median and at least 50
 detections; it stays routine until the file holds 14 days. The item carries the count as `signal`, the median as
-`signal.expected` and the window in `baseline_ref` (`firms-country-median`, rolling). On the 27 days on file
-(30 Oct to 25 Nov 2026), the rule would have flagged 63 of 2,005 country-days (3.1%), under the 5% flag rate the
-contract allows for a series. The baseline is not seasonal: a country entering its fire season rises against its own
-past four weeks and is flagged while the median catches up. Method elements-feed-1.2.
+`signal.expected`, and in `baseline_ref` (`firms-country-median`, rolling, version 2) the window and `flag_rate`:
+the share of the baseline's days on which the country itself crossed that threshold, judged against its baseline as
+it stood on each day. The contract's rule for a series allows an anomaly only while that share is 5% or less, so a
+country that crossed on 2 or more of its 28 baseline days stays routine, and `measures.held_routine` says why, until
+no more than one crossing is left in the window. The share is each country's own: a low rate over all countries pooled does not meet it.
+A crossing counts whether or not it was published, so a country held routine does not drift back under the cap.
+
+Back-test on the 28 days on file (30 Oct to 26 Nov 2026, UTC-day counts; days evaluated from 13 Nov, the first with
+14 days before it): of 1,365 country-days with a feed item, the rule without the cap (elements-feed-1.2) flagged 66
+(4.8% of them), and 36 of those fell on a day when the country's own share was already over 5%. Twenty-one countries
+were flagged on more than 5% of their own evaluated days, most in West Africa (Côte d'Ivoire 7 of 14 days, Togo,
+Ghana, Benin) and mainland Southeast Asia (Cambodia, Thailand, Vietnam), where the dry season and its burning begin
+about November, and in Colombia and Ecuador. With the cap, 30 flags remain (2.2%): each country's first one or two
+days over its threshold. Of the 37 runs of consecutive flagged days, 26 still open with an anomaly on their first day. The baseline is still not seasonal: a country entering its fire season rises against its own
+past four weeks, and the cap limits how often that reads as an anomaly; it does not make the baseline seasonal.
+Method elements-feed-1.3 (1.2 had no cap).
 
 ## Volcanoes
 USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
