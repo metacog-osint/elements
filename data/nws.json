@@ -38,67 +38,6 @@
    ]
   },
   {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Inland Worcester",
-    "Accomack",
-    "Northampton"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "51001",
-    "51131"
-   ],
-   "sent": "2026-11-27T14:29:00Z",
-   "onset": "2026-11-27T14:29:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01df62ec427a1e6973d10d86301748972cd47e6c.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -75.924,
-     37.3028
-    ]
-   ],
-   "lon": -75.754,
-   "lat": 38.027,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -267,6 +206,61 @@
    ],
    "lon": -75.302,
    "lat": 39.569,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Inland Worcester",
+    "Accomack",
+    "Dorchester",
+    "Wicomico",
+    "Somerset"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "51001"
+   ],
+   "sent": "2026-11-27T20:34:00Z",
+   "onset": "2026-11-27T20:34:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeeae6c9c9de67bfb574f706e90d2911f1b40abb.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.7578,
+     37.7659
+    ]
+   ],
+   "lon": -75.72,
+   "lat": 38.172,
    "countries": [
     "US"
    ]
@@ -2216,19 +2210,19 @@
    "certainty": "Possible",
    "sender": "NWS Dodge City KS",
    "areas": [
+    "Hamilton",
+    "Kearny",
+    "Stanton",
+    "Grant",
+    "Morton",
+    "Stevens",
     "Scott",
     "Lane",
     "Finney",
     "Haskell",
     "Gray",
     "Seward",
-    "Meade",
-    "Hamilton",
-    "Kearny",
-    "Stanton",
-    "Grant",
-    "Morton",
-    "Stevens"
+    "Meade"
    ],
    "counties": [
     "20055",
@@ -2248,7 +2242,7 @@
    "sent": "2026-11-27T15:55:00Z",
    "onset": "2026-11-28T20:00:00Z",
    "ends": "2026-11-29T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b68bc6fe066d761d3330f904b260b3c5a3f96c27.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b68bc6fe066d761d3330f904b260b3c5a3f96c27.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3030,10 +3024,10 @@
     "30031",
     "30057"
    ],
-   "sent": "2026-11-27T19:50:00Z",
+   "sent": "2026-11-27T20:15:00Z",
    "onset": "2026-11-28T03:00:00Z",
    "ends": "2026-11-28T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e9ac011455152aee013130e3194e9f1f340b727.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5e63013697044af818d84b4e45d1abc8171ef8.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
