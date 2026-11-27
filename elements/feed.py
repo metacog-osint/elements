@@ -450,17 +450,24 @@ def _name_codes() -> dict:
     return {v: k for k, v in geo._names().items()} | {"United States": "US"}
 
 
-def town_country(place: str | None) -> str | None:
+def town_country(place: str | None, lon: float | None = None) -> str | None:
     """The ISO code of the country USGS's place text names after its reference town ("85 km S of Gorontalo,
     Indonesia" -> ID; a US state -> US), or None for a region name ("Fiji region") or a name not matched. The town is
-    the one USGS chose to describe the location, not a measured nearest coast."""
+    the one USGS chose to describe the location, not a measured nearest coast. A name that is both a US state and a
+    country ("Georgia") is read by the epicentre's longitude: the state west of the prime meridian, the country east
+    of it, and None when lon is not given."""
     m = TOWN_PLACE.match((place or "").strip())
     if not m:
         return None
     name = m.group(1).strip()
+    country = PLACE_ALIASES.get(name) or _name_codes().get(name)
     if name in US_STATES:
-        return "US"
-    return PLACE_ALIASES.get(name) or _name_codes().get(name)
+        if not country:
+            return "US"
+        if lon is None:
+            return None
+        return "US" if lon < 0 else country
+    return country
 
 
 def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
@@ -501,7 +508,7 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         if alert:
             p["response_stage"] = f"pager:{alert}"
         if not q["countries"]:
-            tc = town_country(q.get("place"))
+            tc = town_country(q.get("place"), q.get("lon"))
             if tc:
                 p["measures"]["town_country"] = tc       # a hint for an offshore quake; countries stays empty
         if hot:

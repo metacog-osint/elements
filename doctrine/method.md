@@ -115,7 +115,8 @@ magnitudes differ and the 4.5 cut-off splits events between them.
 
 An earthquake whose epicentre is in no country (most are at sea) keeps `countries` empty, so a join by country stays
 strict. When USGS's place text names a reference town ("85 km S of Gorontalo, Indonesia"), the item carries
-`measures.town_country`, the ISO code of the country named after the town (a US state counts as US). It is the town
+`measures.town_country`, the ISO code of the country named after the town (a US state counts as US; "Georgia",
+which names both a state and a country, is read as the state west of the prime meridian and the country east of it). It is the town
 USGS chose to describe the location, not a measured nearest coast; a region name ("Fiji region") gives none.
 
 ## US wildfires
