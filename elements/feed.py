@@ -397,7 +397,8 @@ def gdacs_ended(e: dict, now: datetime) -> bool:
     """GDACS marks an event that has ended `iscurrent` false; the 14-day query returns it until it ages out, so it is
     not a current hazard. A current event whose latest report (its `to`) is more than GDACS_GRACE_DAYS old counts as
     ended too: GDACS's current events are re-reported every day or so (measured 26 Nov 2026: the oldest `to` among the
-    11 current events was 3.9 days back, a cyclone's last advisory)."""
+    11 current events was 3.9 days back, a cyclone's last advisory). `now` is the time of the read that returned the
+    event (build passes it): while the lane fails, the copy's events are not aged out on the clock alone."""
     if not e.get("current"):
         return True
     try:
@@ -450,17 +451,24 @@ def _name_codes() -> dict:
     return {v: k for k, v in geo._names().items()} | {"United States": "US"}
 
 
-def town_country(place: str | None) -> str | None:
+def town_country(place: str | None, lon: float | None = None) -> str | None:
     """The ISO code of the country USGS's place text names after its reference town ("85 km S of Gorontalo,
     Indonesia" -> ID; a US state -> US), or None for a region name ("Fiji region") or a name not matched. The town is
-    the one USGS chose to describe the location, not a measured nearest coast."""
+    the one USGS chose to describe the location, not a measured nearest coast. A name that is both a US state and a
+    country ("Georgia") is read by the epicentre's longitude: the state west of the prime meridian, the country east
+    of it, and None when lon is not given."""
     m = TOWN_PLACE.match((place or "").strip())
     if not m:
         return None
     name = m.group(1).strip()
+    country = PLACE_ALIASES.get(name) or _name_codes().get(name)
     if name in US_STATES:
-        return "US"
-    return PLACE_ALIASES.get(name) or _name_codes().get(name)
+        if not country:
+            return "US"
+        if lon is None:
+            return None
+        return "US" if lon < 0 else country
+    return country
 
 
 def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
@@ -501,7 +509,7 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         if alert:
             p["response_stage"] = f"pager:{alert}"
         if not q["countries"]:
-            tc = town_country(q.get("place"))
+            tc = town_country(q.get("place"), q.get("lon"))
             if tc:
                 p["measures"]["town_country"] = tc       # a hint for an offshore quake; countries stays empty
         if hot:
@@ -533,9 +541,13 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         feats.append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
 
     f = d["gdacs"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:   # ended-by-age is judged at the last good read: a failing lane's copy is not aged out on the clock alone
+        read_at = min(now, datetime.fromisoformat(f.replace("Z", "+00:00")))
+    except (TypeError, ValueError):
+        read_at = now
     gone = []
     for e in d["gdacs"].get("records") or []:
-        over = gdacs_ended(e, now)
+        over = gdacs_ended(e, read_at)
         hot = e["alert"] in ("orange", "red") and not over
         name = e["name"] or e["kind"]
         if len(name) > 90:  # drought names list every country; the full list stays in countries

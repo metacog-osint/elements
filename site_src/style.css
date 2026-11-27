@@ -85,15 +85,25 @@ a { color: var(--link); }
 .gd-icon.a-green { background: var(--a-green); color: var(--on-green); font-size: 9px; line-height: 14px; } /* solid, so its letters keep 4.5:1 (18 Nov 2026) */
 .gd-icon.a-orange { background: var(--a-orange); color: var(--on-orange); }
 .gd-icon.a-red { background: var(--a-red); color: var(--on-red); }
-.vo-icon { clip-path: polygon(50% 0, 100% 100%, 0 100%); background: var(--unrated);
+.vo-icon { --mk: var(--unrated); clip-path: polygon(50% 0, 100% 100%, 0 100%); background: var(--mk);
   filter: drop-shadow(0 0 1px var(--panel)) drop-shadow(0 0 1px var(--panel)); }
-.vo-icon.a-yellow { background: var(--a-yellow); } .vo-icon.a-orange { background: var(--a-orange); }
-.vo-icon.a-red { background: var(--a-red); }
+.vo-icon.a-yellow { --mk: var(--a-yellow); } .vo-icon.a-orange { --mk: var(--a-orange); }
+.vo-icon.a-red { --mk: var(--a-red); }
 .legend .lg-vo { display: inline-block; width: 13px; height: 11px; margin-right: 4px; vertical-align: -1px; }
-.ts-icon { border-radius: 9px; font-size: 10px; font-weight: 700; line-height: 18px; text-align: center; letter-spacing: .03em;
-  background: var(--ink); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
-.ts-icon.a-orange { background: var(--a-orange); color: var(--on-orange); } .ts-icon.a-red { background: var(--a-red); color: var(--on-red); }
+.ts-icon { --mk: var(--ink); border-radius: 9px; font-size: 10px; font-weight: 700; line-height: 18px; text-align: center;
+  letter-spacing: .03em; background: var(--mk); color: var(--panel); box-shadow: 0 0 0 1.5px var(--panel); }
+.ts-icon.a-orange { --mk: var(--a-orange); color: var(--on-orange); } .ts-icon.a-red { --mk: var(--a-red); color: var(--on-red); }
 .legend .lg-ts { display: inline-block; width: 30px; margin-right: 4px; }
+/* On the map, volcano and tsunami markers are focusable buttons, so each is a box at least 24 px each way (WCAG 2.2
+   target size, 2.5.8) with the same visible shape drawn inside it; the legend keeps the plain shape. */
+.leaflet-marker-icon.vo-icon, .leaflet-marker-icon.ts-icon { background: none; box-shadow: none; clip-path: none; filter: none; }
+.leaflet-marker-icon.vo-icon::before, .leaflet-marker-icon.ts-icon::before { content: ""; position: absolute; z-index: -1;
+  background: var(--mk); }
+.leaflet-marker-icon.vo-icon::before { left: 3px; top: 4px; width: 18px; height: 16px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%); filter: drop-shadow(0 0 1px var(--panel)) drop-shadow(0 0 1px var(--panel)); }
+.leaflet-marker-icon.ts-icon { line-height: 24px; }
+.leaflet-marker-icon.ts-icon::before { left: 0; right: 0; top: 3px; bottom: 3px; border-radius: 9px;
+  box-shadow: 0 0 0 1.5px var(--panel); }
 .dmsw { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; border: 1px solid var(--mark-edge); }
 .nhc-icon { border-radius: 50%; background: var(--nhc); color: var(--panel); font-size: 10px; font-weight: 700;
   line-height: 26px; text-align: center; box-shadow: 0 0 0 2px var(--panel); }

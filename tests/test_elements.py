@@ -254,6 +254,23 @@ class Feed(unittest.TestCase):
         self.assertFalse(feed.gdacs_ended({"current": True, "to": None}, NOW))
         self.assertTrue(feed.gdacs_ended({"current": False, "to": "2026-11-01T01:00:00Z"}, NOW))
 
+    def test_a_gdacs_event_does_not_age_out_while_gdacs_is_not_read(self):
+        # The lane last read GDACS on 31 Oct (FETCHED); the build runs on 5 Nov from that copy. TC-1001's latest report
+        # (28 Oct 06:00) is more than a week before the build but not before the read: no read has shown GDACS
+        # stopped reporting it, so it stays, as the copy's other events do. GDACS's own iscurrent=false still ends one.
+        later = datetime(2026, 11, 5, 0, 0, tzinfo=timezone.utc)
+        d = dataset()
+        next(r for r in d["gdacs"]["records"] if r["id"] == "DR-1002")["current"] = False
+        gone = []
+        ids = {f["properties"]["id"] for f in feed.build(d, later, ended=gone)["features"]}
+        self.assertIn("elements:gdacs:TC-1001", ids)
+        self.assertEqual([f["properties"]["id"] for f in gone], ["elements:gdacs:DR-1002"])
+        d["gdacs"]["fetched_at"] = "2026-11-04T23:56:00Z"          # a good read on 4-5 Nov with no later report
+        gone = []
+        ids = {f["properties"]["id"] for f in feed.build(d, later, ended=gone)["features"]}
+        self.assertNotIn("elements:gdacs:TC-1001", ids)
+        self.assertIn("elements:gdacs:TC-1001", [f["properties"]["id"] for f in gone])
+
     def test_the_history_step_logs_the_ended_gdacs_version(self):
         import importlib.util
         from elements import history
@@ -549,6 +566,29 @@ class TownCountry(unittest.TestCase):
         self.assertIsNone(tc("Volcano Islands, Japan region"))
         self.assertIsNone(tc("south of the Fiji Islands"))
         self.assertIsNone(tc(None))
+
+    def test_georgia_by_hemisphere(self):
+        # "Georgia" names both a US state and a country: the epicentre's longitude decides which
+        tc = feed.town_country
+        self.assertEqual(tc("20 km W of Poti, Georgia", lon=41.4), "GE")          # Black Sea
+        self.assertEqual(tc("30 km SE of Savannah, Georgia", lon=-80.9), "US")    # off the US Atlantic coast
+        self.assertIsNone(tc("20 km W of Poti, Georgia"))                         # no longitude: no guess
+        self.assertEqual(tc("12 km SW of Adak, Alaska", lon=-176.7), "US")        # other states unchanged
+        self.assertEqual(tc("85 km S of Gorontalo, Indonesia", lon=123.0), "ID")
+
+    def test_offshore_georgia_in_the_feed(self):
+        def placed(eid, lon, lat, place):
+            q = quake(eid, 4.8, lon, lat)
+            q["properties"]["place"] = place
+            return q
+        recs = sources.parse_usgs({"type": "FeatureCollection", "features": [
+            placed("usge", 41.42, 42.15, "20 km W of Poti, Georgia"),            # Black Sea, in no country
+            placed("usga", -80.85, 31.9, "30 km SE of Savannah, Georgia")]})     # US Atlantic shelf, in no country
+        self.assertEqual([r["countries"] for r in recs], [[], []])
+        fc = feed.build({**dataset(), "usgs": {"records": recs, "fetched_at": FETCHED}}, NOW)
+        tc = {f["properties"]["id"]: f["properties"]["measures"].get("town_country") for f in fc["features"]}
+        self.assertEqual(tc["elements:usgs:usge"], "GE")
+        self.assertEqual(tc["elements:usgs:usga"], "US")
 
 
 if __name__ == "__main__":
