@@ -144,139 +144,6 @@
    ]
   },
   {
-   "id": "KPHI.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Atlantic",
-    "Cape May",
-    "Atlantic Coastal Cape May",
-    "Coastal Atlantic",
-    "Southeastern Burlington",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "Kent",
-    "Cumberland",
-    "New Castle",
-    "Salem",
-    "Gloucester",
-    "Camden",
-    "Northwestern Burlington",
-    "Delaware",
-    "Philadelphia",
-    "Lower Bucks",
-    "Mercer",
-    "Ocean",
-    "Coastal Ocean",
-    "Middlesex",
-    "Western Monmouth",
-    "Eastern Monmouth"
-   ],
-   "counties": [
-    "10001",
-    "10003",
-    "10005",
-    "34001",
-    "34005",
-    "34007",
-    "34009",
-    "34011",
-    "34015",
-    "34021",
-    "34023",
-    "34025",
-    "34029",
-    "34033",
-    "42017",
-    "42045",
-    "42101"
-   ],
-   "sent": "2026-11-27T00:55:00Z",
-   "onset": "2026-11-27T00:55:00Z",
-   "ends": "2026-11-28T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28236d693f059955ce1f81a986d0a131de09c55e.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.503,
-     39.0971
-    ],
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -75.337,
-     38.6732
-    ],
-    [
-     -74.6338,
-     39.4694
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -74.8464,
-     39.0858
-    ],
-    [
-     -75.1216,
-     39.3284
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -74.963,
-   "lat": 39.726,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.CF.W.0009.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -315,9 +182,9 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Northern Outer Banks",
     "Ocracoke Island",
-    "Hatteras Island"
+    "Hatteras Island",
+    "Northern Outer Banks"
    ],
    "counties": [
     "37055",
@@ -326,7 +193,7 @@
    "sent": "2026-11-27T02:07:00Z",
    "onset": "2026-11-27T02:07:00Z",
    "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -669,6 +536,111 @@
    ],
    "lon": -76.534,
    "lat": 38.223,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPHI.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mount Holly NJ",
+   "areas": [
+    "Kent",
+    "Inland Sussex",
+    "Delaware Beaches",
+    "Mercer",
+    "Gloucester",
+    "Camden",
+    "Northwestern Burlington",
+    "Delaware",
+    "Philadelphia",
+    "Lower Bucks",
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Ocean",
+    "Coastal Ocean"
+   ],
+   "counties": [
+    "10005",
+    "24011",
+    "24029",
+    "24035",
+    "24041",
+    "34005",
+    "34007",
+    "34015",
+    "34021",
+    "34029",
+    "42017",
+    "42045",
+    "42101"
+   ],
+   "sent": "2026-11-27T07:50:00Z",
+   "onset": "2026-11-27T07:50:00Z",
+   "ends": "2026-11-28T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2eb954e2d1e6def459c3e0a91443953d2e6e839.005.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -75.337,
+     38.6732
+    ],
+    [
+     -75.8317,
+     38.8715
+    ],
+    [
+     -76.126,
+     39.2413
+    ],
+    [
+     -76.0858,
+     39.047
+    ],
+    [
+     -76.1785,
+     38.7483
+    ],
+    [
+     -74.663,
+     39.8758
+    ],
+    [
+     -74.9612,
+     39.8024
+    ],
+    [
+     -75.1457,
+     39.7229
+    ],
+    [
+     -74.7037,
+     40.2825
+    ],
+    [
+     -74.2589,
+     39.8657
+    ],
+    [
+     -75.1071,
+     40.3369
+    ],
+    [
+     -75.3988,
+     39.9167
+    ],
+    [
+     -75.1333,
+     40.0094
+    ]
+   ],
+   "lon": -75.302,
+   "lat": 39.569,
    "countries": [
     "US"
    ]
@@ -1993,6 +1965,103 @@
    ]
   },
   {
+   "id": "KRLX.FA.W.0162.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Charleston WV",
+   "areas": [
+    "Washington, OH"
+   ],
+   "counties": [
+    "39167"
+   ],
+   "sent": "2026-11-27T07:55:00Z",
+   "onset": "2026-11-27T07:55:00Z",
+   "ends": "2026-11-27T15:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e153920fc71bb9f0ebb9204e4a66c2defdd9728d.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.35,
+       39.59
+      ],
+      [
+       -81.35,
+       39.58
+      ],
+      [
+       -81.4,
+       39.54
+      ],
+      [
+       -81.44,
+       39.54
+      ],
+      [
+       -81.47,
+       39.65
+      ],
+      [
+       -81.46,
+       39.65
+      ],
+      [
+       -81.45,
+       39.64
+      ],
+      [
+       -81.45,
+       39.63
+      ],
+      [
+       -81.42,
+       39.63
+      ],
+      [
+       -81.41,
+       39.62
+      ],
+      [
+       -81.39,
+       39.61
+      ],
+      [
+       -81.39,
+       39.6
+      ],
+      [
+       -81.36,
+       39.6
+      ],
+      [
+       -81.36,
+       39.59
+      ],
+      [
+       -81.35,
+       39.59
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -81.4906,
+     39.4507
+    ]
+   ],
+   "lon": -81.403,
+   "lat": 39.604,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLCH.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2681,32 +2750,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9181.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9183.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2723,6 +2766,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9181.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3090,50 +3159,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0018.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Judith Gap",
-    "Northern Sweet Grass",
-    "Melville Foothills",
-    "Southern Wheatland"
-   ],
-   "counties": [
-    "30037",
-    "30097",
-    "30107"
-   ],
-   "sent": "2026-11-27T06:05:00Z",
-   "onset": "2026-11-27T06:05:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fad04fb855ddbe6c84282fb73f5d23510d404327.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.1746,
-     46.3806
-    ],
-    [
-     -109.9448,
-     45.8113
-    ],
-    [
-     -109.8577,
-     46.497
-    ]
-   ],
-   "lon": -109.659,
-   "lat": 46.23,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.W.0038.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -3273,6 +3298,50 @@
    ]
   },
   {
+   "id": "KBYZ.HW.W.0018.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Judith Gap",
+    "Northern Sweet Grass",
+    "Melville Foothills",
+    "Southern Wheatland"
+   ],
+   "counties": [
+    "30037",
+    "30097",
+    "30107"
+   ],
+   "sent": "2026-11-27T07:40:00Z",
+   "onset": "2026-11-27T07:40:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ce2b251fd8798e9f407805c572f4410537845cf.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.1746,
+     46.3806
+    ],
+    [
+     -109.9448,
+     45.8113
+    ],
+    [
+     -109.8577,
+     46.497
+    ]
+   ],
+   "lon": -109.659,
+   "lat": 46.23,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KRIW.HW.A.0013.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -3342,47 +3411,6 @@
    ],
    "lon": -106.933,
    "lat": 41.704,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KABQ.HW.A.0008.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Central Highlands"
-   ],
-   "counties": [
-    "35047",
-    "35049",
-    "35057"
-   ],
-   "sent": "2026-11-26T19:29:00Z",
-   "onset": "2026-11-28T18:00:00Z",
-   "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f745ebb5084b4c4f82c2a49aef04286230f566e5.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.8035,
-     35.4769
-    ],
-    [
-     -105.964,
-     35.5145
-    ],
-    [
-     -105.8906,
-     34.555
-    ]
-   ],
-   "lon": -105.553,
-   "lat": 35.182,
    "countries": [
     "US"
    ]
@@ -3684,6 +3712,53 @@
    ],
    "lon": -101.577,
    "lat": 38.481,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.HW.A.0008.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Union County",
+    "Central Highlands"
+   ],
+   "counties": [
+    "35047",
+    "35049",
+    "35057",
+    "35059"
+   ],
+   "sent": "2026-11-27T07:36:00Z",
+   "onset": "2026-11-28T21:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c6a2792166402ac96d1445d6cc8b8649a15ee36.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.8035,
+     35.4769
+    ],
+    [
+     -105.964,
+     35.5145
+    ],
+    [
+     -105.8906,
+     34.555
+    ],
+    [
+     -103.4757,
+     36.4881
+    ]
+   ],
+   "lon": -105.033,
+   "lat": 35.509,
    "countries": [
     "US"
    ]
