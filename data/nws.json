@@ -315,10 +315,10 @@
    "certainty": "Likely",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Inland Worcester",
     "Dorchester",
     "Wicomico",
     "Somerset",
+    "Inland Worcester",
     "Accomack",
     "Northampton"
    ],
@@ -333,7 +333,7 @@
    "sent": "2026-11-27T14:29:00Z",
    "onset": "2026-11-27T14:29:00Z",
    "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01df62ec427a1e6973d10d86301748972cd47e6c.004.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01df62ec427a1e6973d10d86301748972cd47e6c.005.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -868,77 +868,6 @@
    ],
    "lon": -71.494,
    "lat": 41.756,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Brunswick, VA",
-    "Greensville, VA"
-   ],
-   "counties": [
-    "51025",
-    "51081"
-   ],
-   "sent": "2026-11-27T08:55:00Z",
-   "onset": "2026-11-27T08:55:00Z",
-   "ends": "2026-11-29T08:36:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef3e0ba74039e064d3ce5bc2d5b9e3f487e3e9a2.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.02,
-       36.83
-      ],
-      [
-       -77.56,
-       36.76
-      ],
-      [
-       -77.57,
-       36.66
-      ],
-      [
-       -77.83,
-       36.68
-      ],
-      [
-       -77.93,
-       36.66
-      ],
-      [
-       -78.03,
-       36.72
-      ],
-      [
-       -78.02,
-       36.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.5603,
-     36.6803
-    ]
-   ],
-   "lon": -77.851,
-   "lat": 36.734,
    "countries": [
     "US"
    ]
@@ -1507,86 +1436,72 @@
    ]
   },
   {
-   "id": "KLCH.FZ.W.0004.2026",
-   "event": "Freeze Warning",
+   "id": "KAKQ.FL.W.0006.2026",
+   "event": "Flood Warning",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Lake Charles LA",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
    "areas": [
-    "Vernon",
-    "Rapides",
-    "Avoyelles",
-    "Beauregard",
-    "Allen",
-    "Evangeline",
-    "St. Landry",
-    "Tyler",
-    "Northern Jasper",
-    "Northern Newton"
+    "Brunswick, VA",
+    "Greensville, VA"
    ],
    "counties": [
-    "22003",
-    "22009",
-    "22011",
-    "22039",
-    "22079",
-    "22097",
-    "22115",
-    "48241",
-    "48351",
-    "48457"
+    "51025",
+    "51081"
    ],
-   "sent": "2026-11-27T14:33:00Z",
-   "onset": "2026-11-27T14:33:00Z",
-   "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ffe952b68cc295b76b5f3c89b9b86cb7174bd66.001.1",
-   "geometry": null,
+   "sent": "2026-11-27T14:45:00Z",
+   "onset": "2026-11-27T14:45:00Z",
+   "ends": "2026-11-29T00:22:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c957aa801ba9f35f3d197ce6a292a798ec3233c2.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.02,
+       36.83
+      ],
+      [
+       -77.56,
+       36.76
+      ],
+      [
+       -77.57,
+       36.66
+      ],
+      [
+       -77.83,
+       36.68
+      ],
+      [
+       -77.93,
+       36.66
+      ],
+      [
+       -78.03,
+       36.72
+      ],
+      [
+       -78.02,
+       36.83
+      ]
+     ]
+    ]
+   },
    "vtec": true,
    "points": [
     [
-     -92.8196,
-     30.6527
+     -77.8615,
+     36.7642
     ],
     [
-     -91.9833,
-     31.0885
-    ],
-    [
-     -93.3403,
-     30.645
-    ],
-    [
-     -92.4041,
-     30.7207
-    ],
-    [
-     -92.536,
-     31.1932
-    ],
-    [
-     -91.9893,
-     30.5834
-    ],
-    [
-     -93.1883,
-     31.1028
-    ],
-    [
-     -94.0223,
-     30.7529
-    ],
-    [
-     -93.7392,
-     30.7867
-    ],
-    [
-     -94.3757,
-     30.7693
+     -77.5603,
+     36.6803
     ]
    ],
-   "lon": -93.04,
-   "lat": 30.83,
+   "lon": -77.851,
+   "lat": 36.734,
    "countries": [
     "US"
    ]
