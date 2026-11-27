@@ -6,7 +6,7 @@
    "acres": 102007.0,
    "contained": 96,
    "discovered": "2026-06-29T12:04:46Z",
-   "updated": "2026-11-19T22:29:31Z",
+   "updated": "2026-11-27T19:57:05Z",
    "state": "CO",
    "county": "Custer",
    "cause": "Human",
@@ -97,20 +97,6 @@
    "complexity": "Type 3 Incident",
    "lon": -115.2167,
    "lat": 46.7749
-  },
-  {
-   "id": "{FCD25E2A-053E-46ED-85C1-BA967588B0EC}",
-   "name": "Range 47",
-   "acres": 2378.8,
-   "contained": 100,
-   "discovered": "2026-11-13T20:02:00Z",
-   "updated": "2026-11-19T21:16:32Z",
-   "state": "MS",
-   "county": "Forrest",
-   "cause": "Undetermined",
-   "complexity": "Type 4 Incident",
-   "lon": -89.1593,
-   "lat": 31.0998
   },
   {
    "id": "{3D698F01-48D2-465E-BF20-A291A3639D96}",
@@ -407,20 +393,6 @@
    "lat": 35.0874
   },
   {
-   "id": "{869D9E7C-DA4F-48A9-9DB5-35DBC4624D2C}",
-   "name": "Baby Bear",
-   "acres": 15.0,
-   "contained": null,
-   "discovered": "2026-04-09T21:00:00Z",
-   "updated": "2026-11-19T19:26:35Z",
-   "state": "OR",
-   "county": "Douglas",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -123.6383,
-   "lat": 43.3354
-  },
-  {
    "id": "{9AA07AA4-4456-484D-A14C-36F617F75669}",
    "name": "IDNR Possom Trot",
    "acres": 12.0,
@@ -489,6 +461,34 @@
    "complexity": null,
    "lon": -72.7632,
    "lat": 42.2359
+  },
+  {
+   "id": "{C6A37506-6B41-43D0-AC68-B62EF5B5B44E}",
+   "name": "Cass 0157",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-27T17:47:00Z",
+   "updated": "2026-11-27T19:48:35Z",
+   "state": "TX",
+   "county": "Cass",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -94.116,
+   "lat": 33.0441
+  },
+  {
+   "id": "{D6DC5097-CC87-4904-AE7B-96294DE6CB22}",
+   "name": "Harrison 0158",
+   "acres": 2.0,
+   "contained": 50,
+   "discovered": "2026-11-27T18:03:00Z",
+   "updated": "2026-11-27T19:53:11Z",
+   "state": "TX",
+   "county": "Harrison",
+   "cause": "Human",
+   "complexity": "Type 5 Incident",
+   "lon": -94.6474,
+   "lat": 32.5945
   },
   {
    "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
@@ -575,6 +575,20 @@
    "lat": 34.9702
   },
   {
+   "id": "{8961224C-4379-4D7E-89A0-E2B40DE9F569}",
+   "name": "Logan 600250",
+   "acres": 1.0,
+   "contained": null,
+   "discovered": "2026-11-27T19:42:22Z",
+   "updated": "2026-11-27T19:54:06Z",
+   "state": "AR",
+   "county": "Logan",
+   "cause": null,
+   "complexity": null,
+   "lon": -93.835,
+   "lat": 35.2836
+  },
+  {
    "id": "{9BD7C484-C7A0-4298-98ED-EE23DB10F653}",
    "name": "Benson",
    "acres": 0.3,
@@ -601,20 +615,6 @@
    "complexity": null,
    "lon": -72.3071,
    "lat": 43.6659
-  },
-  {
-   "id": "{1ADA2049-69DF-481A-BD9F-9CB28325AA04}",
-   "name": "Chicken",
-   "acres": 0.2,
-   "contained": null,
-   "discovered": "2026-11-20T23:30:00Z",
-   "updated": "2026-11-24T19:36:43Z",
-   "state": "WI",
-   "county": "Marquette",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.5834,
-   "lat": 43.9241
   },
   {
    "id": "{ABBDBB71-DEBE-49B6-B09B-C8328B9F8D62}",
@@ -659,20 +659,6 @@
    "lat": 35.2386
   },
   {
-   "id": "{11C542B6-DB3F-4924-A4FF-FB6EE423E624}",
-   "name": "Snowberry",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-02-27T23:59:01Z",
-   "updated": "2026-11-24T19:26:27Z",
-   "state": "CO",
-   "county": "Elbert",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -104.6183,
-   "lat": 39.3551
-  },
-  {
    "id": "{84A0BFBB-FDAB-4A08-A221-5D6A1D371F5E}",
    "name": "Bombing Range 9",
    "acres": 0.1,
@@ -685,20 +671,6 @@
    "complexity": null,
    "lon": -81.7086,
    "lat": 29.1179
-  },
-  {
-   "id": "{335927DD-066E-4A5D-8FD3-3B3EB1700EF5}",
-   "name": "Mm 215",
-   "acres": 0.1,
-   "contained": null,
-   "discovered": "2026-11-17T19:24:00Z",
-   "updated": "2026-11-24T19:55:29Z",
-   "state": "WI",
-   "county": "Sauk",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -89.7868,
-   "lat": 43.5257
   },
   {
    "id": "{6594349E-82D8-4FA9-BE41-035FFB68C38D}",

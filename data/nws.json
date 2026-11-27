@@ -136,6 +136,37 @@
    ]
   },
   {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Anne Arundel"
+   ],
+   "counties": [
+    "24003"
+   ],
+   "sent": "2026-11-27T18:39:00Z",
+   "onset": "2026-11-27T18:39:00Z",
+   "ends": "2026-11-28T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5f6afbc0ea743bced0f66e5f013343eba8a9c8d.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.5609,
+     38.9916
+    ]
+   ],
+   "lon": -76.561,
+   "lat": 38.992,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPHI.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -143,21 +174,21 @@
    "certainty": "Likely",
    "sender": "NWS Mount Holly NJ",
    "areas": [
-    "Queen Anne's",
-    "Talbot",
-    "Caroline",
     "Kent",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "Ocean",
-    "Coastal Ocean",
     "Mercer",
     "Gloucester",
     "Camden",
     "Northwestern Burlington",
     "Delaware",
     "Philadelphia",
-    "Lower Bucks"
+    "Lower Bucks",
+    "Ocean",
+    "Coastal Ocean",
+    "Inland Sussex",
+    "Delaware Beaches",
+    "Queen Anne's",
+    "Talbot",
+    "Caroline"
    ],
    "counties": [
     "10005",
@@ -174,10 +205,10 @@
     "42045",
     "42101"
    ],
-   "sent": "2026-11-27T17:33:00Z",
-   "onset": "2026-11-27T17:33:00Z",
+   "sent": "2026-11-27T19:52:00Z",
+   "onset": "2026-11-27T19:52:00Z",
    "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.175317b4c5dbb4dea22a10e808ae85ede5fc233c.005.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b8b8bf3605b83e37ebeea40c652e735ffb487c5.006.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -236,37 +267,6 @@
    ],
    "lon": -75.302,
    "lat": 39.569,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Anne Arundel"
-   ],
-   "counties": [
-    "24003"
-   ],
-   "sent": "2026-11-27T18:39:00Z",
-   "onset": "2026-11-27T18:39:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5f6afbc0ea743bced0f66e5f013343eba8a9c8d.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.5609,
-     38.9916
-    ]
-   ],
-   "lon": -76.561,
-   "lat": 38.992,
    "countries": [
     "US"
    ]
@@ -3011,6 +3011,47 @@
    ],
    "lon": -109.722,
    "lat": 45.539,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.WS.W.0009.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Gallatin and Madison County Mountains and Centennial Mountains"
+   ],
+   "counties": [
+    "30001",
+    "30031",
+    "30057"
+   ],
+   "sent": "2026-11-27T19:50:00Z",
+   "onset": "2026-11-28T03:00:00Z",
+   "ends": "2026-11-28T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e9ac011455152aee013130e3194e9f1f340b727.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.8929,
+     45.1339
+    ],
+    [
+     -111.1639,
+     45.5181
+    ],
+    [
+     -111.9138,
+     45.3253
+    ]
+   ],
+   "lon": -111.99,
+   "lat": 45.326,
    "countries": [
     "US"
    ]
