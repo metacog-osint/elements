@@ -91,29 +91,6 @@
    ]
   },
   {
-   "id": "FL-1104302",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Paraguay",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-21T01:00:00Z",
-   "to": "2026-11-23T01:00:00Z",
-   "current": false,
-   "country": "Paraguay",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=1&eventtype=FL",
-   "lon": -56.5,
-   "lat": -24.25,
-   "countries": [
-    "PY"
-   ]
-  },
-  {
    "id": "FL-1104298",
    "type": "FL",
    "kind": "flood",
@@ -180,6 +157,29 @@
    "lat": 48.295,
    "countries": [
     "UA"
+   ]
+  },
+  {
+   "id": "FL-1104302",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 3,
+   "name": "Flood in Paraguay",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-18T01:00:00Z",
+   "to": "2026-11-23T01:00:00Z",
+   "current": false,
+   "country": "Paraguay",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=3&eventtype=FL",
+   "lon": -59.167,
+   "lat": -20.5,
+   "countries": [
+    "PY"
    ]
   },
   {
@@ -600,7 +600,7 @@
    "id": "FL-1104259",
    "type": "FL",
    "kind": "flood",
-   "episode": 10,
+   "episode": 11,
    "name": "Flood in Peru",
    "alert": "green",
    "score": 1,
@@ -608,13 +608,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-26T01:00:00Z",
-   "to": "2026-11-18T01:00:00Z",
-   "current": false,
+   "to": "2026-11-24T01:00:00Z",
+   "current": true,
    "country": "Peru",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=10&eventtype=FL",
-   "lon": -77.674,
-   "lat": -9.291,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=11&eventtype=FL",
+   "lon": -80.333,
+   "lat": -5.0,
    "countries": [
     "PE"
    ]
