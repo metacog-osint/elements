@@ -423,9 +423,9 @@
    "areas": [
     "Calvert",
     "Southern Baltimore",
+    "Southeast Harford",
     "District of Columbia",
     "Arlington/Falls Church/Alexandria",
-    "Southeast Harford",
     "Anne Arundel",
     "Fairfax",
     "Central and Southeast Prince William/Manassas/Manassas Park"
@@ -2116,6 +2116,55 @@
    ]
   },
   {
+   "id": "KMOB.FZ.W.0005.2026",
+   "event": "Freeze Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Mobile AL",
+   "areas": [
+    "Perry",
+    "Greene",
+    "Stone",
+    "George"
+   ],
+   "counties": [
+    "28039",
+    "28041",
+    "28111",
+    "28131"
+   ],
+   "sent": "2026-11-27T02:08:00Z",
+   "onset": "2026-11-27T09:00:00Z",
+   "ends": "2026-11-27T13:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12e941e84bff81cea0880016ff98bf68eb177b9e.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -88.6423,
+     30.8554
+    ],
+    [
+     -88.6348,
+     31.2128
+    ],
+    [
+     -88.9888,
+     31.1693
+    ],
+    [
+     -89.1123,
+     30.7902
+    ]
+   ],
+   "lon": -88.845,
+   "lat": 31.007,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KLCH.FZ.W.0004.2026",
    "event": "Freeze Warning",
    "severity": "Severe",
@@ -2124,15 +2173,15 @@
    "sender": "NWS Lake Charles LA",
    "areas": [
     "Vernon",
+    "Rapides",
+    "Avoyelles",
     "Beauregard",
     "Allen",
     "Evangeline",
     "St. Landry",
     "Tyler",
     "Northern Jasper",
-    "Northern Newton",
-    "Rapides",
-    "Avoyelles"
+    "Northern Newton"
    ],
    "counties": [
     "22003",
@@ -2146,10 +2195,10 @@
     "48351",
     "48457"
    ],
-   "sent": "2026-11-26T15:59:00Z",
+   "sent": "2026-11-27T05:22:00Z",
    "onset": "2026-11-27T06:00:00Z",
    "ends": "2026-11-27T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12d1301a13a4c066a5701316775d1f92b129ba00.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d55f4bca6a065ec280db117e5dedb003060a90c.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2196,55 +2245,6 @@
    ],
    "lon": -93.04,
    "lat": 30.83,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMOB.FZ.W.0005.2026",
-   "event": "Freeze Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mobile AL",
-   "areas": [
-    "Perry",
-    "Greene",
-    "Stone",
-    "George"
-   ],
-   "counties": [
-    "28039",
-    "28041",
-    "28111",
-    "28131"
-   ],
-   "sent": "2026-11-27T02:08:00Z",
-   "onset": "2026-11-27T09:00:00Z",
-   "ends": "2026-11-27T13:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12e941e84bff81cea0880016ff98bf68eb177b9e.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -88.6423,
-     30.8554
-    ],
-    [
-     -88.6348,
-     31.2128
-    ],
-    [
-     -88.9888,
-     31.1693
-    ],
-    [
-     -89.1123,
-     30.7902
-    ]
-   ],
-   "lon": -88.845,
-   "lat": 31.007,
    "countries": [
     "US"
    ]
@@ -3431,49 +3431,6 @@
    ]
   },
   {
-   "id": "KBGM.HW.W.0001.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Binghamton NY",
-   "areas": [
-    "Wyoming",
-    "Lackawanna",
-    "Luzerne"
-   ],
-   "counties": [
-    "42069",
-    "42079",
-    "42131"
-   ],
-   "sent": "2026-11-27T01:14:00Z",
-   "onset": "2026-11-27T01:14:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f36190b5231034fcfb3b9e04b23c8423a9af484.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.6088,
-     41.4366
-    ],
-    [
-     -75.9761,
-     41.1731
-    ],
-    [
-     -76.0087,
-     41.5252
-    ]
-   ],
-   "lon": -75.865,
-   "lat": 41.378,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRIW.HW.A.0013.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -4242,6 +4199,42 @@
    ],
    "lon": -107.602,
    "lat": 40.547,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOU.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "West Jackson and West Grand Counties Above 9000 Feet"
+   ],
+   "counties": [
+    "08049",
+    "08057"
+   ],
+   "sent": "2026-11-27T05:05:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e874364c61a320d772afb6a80bca56fcaf87df.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -106.1108,
+     40.1131
+    ],
+    [
+     -106.3292,
+     40.6634
+    ]
+   ],
+   "lon": -106.22,
+   "lat": 40.388,
    "countries": [
     "US"
    ]
