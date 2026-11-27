@@ -1938,50 +1938,6 @@
    ]
   },
   {
-   "id": "KBYZ.HW.W.0018.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Judith Gap",
-    "Northern Sweet Grass",
-    "Melville Foothills",
-    "Southern Wheatland"
-   ],
-   "counties": [
-    "30037",
-    "30097",
-    "30107"
-   ],
-   "sent": "2026-11-27T07:40:00Z",
-   "onset": "2026-11-27T07:40:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ce2b251fd8798e9f407805c572f4410537845cf.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.1746,
-     46.3806
-    ],
-    [
-     -109.9448,
-     45.8113
-    ],
-    [
-     -109.8577,
-     46.497
-    ]
-   ],
-   "lon": -109.659,
-   "lat": 46.23,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KTFX.HW.W.0038.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -2142,6 +2098,50 @@
    ]
   },
   {
+   "id": "KBYZ.HW.W.0018.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Judith Gap",
+    "Northern Sweet Grass",
+    "Melville Foothills",
+    "Southern Wheatland"
+   ],
+   "counties": [
+    "30037",
+    "30097",
+    "30107"
+   ],
+   "sent": "2026-11-27T18:24:00Z",
+   "onset": "2026-11-27T18:24:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23faa365f89e03bba34d129bf8929f9d1dc7f315.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.1746,
+     46.3806
+    ],
+    [
+     -109.9448,
+     45.8113
+    ],
+    [
+     -109.8577,
+     46.497
+    ]
+   ],
+   "lon": -109.659,
+   "lat": 46.23,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KABQ.HW.A.0008.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2184,80 +2184,6 @@
    ],
    "lon": -105.033,
    "lat": 35.509,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.HW.A.0007.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
-    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
-    "Crowley County",
-    "La Junta Vicinity/Otero County",
-    "Western Kiowa County",
-    "Eastern Kiowa County",
-    "Las Animas Vicinity/Bent County",
-    "Lamar Vicinity/Prowers County",
-    "Springfield Vicinity/Baca County"
-   ],
-   "counties": [
-    "08009",
-    "08011",
-    "08025",
-    "08041",
-    "08061",
-    "08089",
-    "08099",
-    "08101"
-   ],
-   "sent": "2026-11-27T12:51:00Z",
-   "onset": "2026-11-28T19:00:00Z",
-   "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc06cd5682ddec04c34df39b1c5e9ff6a5a4b395.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -102.5437,
-     37.3098
-    ],
-    [
-     -103.0776,
-     37.9319
-    ],
-    [
-     -103.7727,
-     38.3062
-    ],
-    [
-     -104.5277,
-     38.8311
-    ],
-    [
-     -102.7568,
-     38.3877
-    ],
-    [
-     -103.7213,
-     37.8842
-    ],
-    [
-     -102.3918,
-     37.9584
-    ],
-    [
-     -104.4847,
-     38.1628
-    ]
-   ],
-   "lon": -103.41,
-   "lat": 38.097,
    "countries": [
     "US"
    ]
@@ -2786,37 +2712,81 @@
    ]
   },
   {
-   "id": "KBOU.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
+   "id": "KPUB.HW.A.0007.2026",
+   "event": "High Wind Watch",
    "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Denver CO",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Pueblo CO",
    "areas": [
-    "West Jackson and West Grand Counties Above 9000 Feet"
+    "Eastern Las Animas County",
+    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
+    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
+    "Crowley County",
+    "La Junta Vicinity/Otero County",
+    "Western Kiowa County",
+    "Eastern Kiowa County",
+    "Las Animas Vicinity/Bent County",
+    "Lamar Vicinity/Prowers County",
+    "Springfield Vicinity/Baca County"
    ],
    "counties": [
-    "08049",
-    "08057"
+    "08009",
+    "08011",
+    "08025",
+    "08041",
+    "08061",
+    "08071",
+    "08089",
+    "08099",
+    "08101"
    ],
-   "sent": "2026-11-27T05:05:00Z",
-   "onset": "2026-11-28T00:00:00Z",
-   "ends": "2026-11-29T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e874364c61a320d772afb6a80bca56fcaf87df.001.2",
+   "sent": "2026-11-27T18:06:00Z",
+   "onset": "2026-11-28T19:00:00Z",
+   "ends": "2026-11-29T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25737a63a6365c8524ac89e80d8e7a4332b78d5c.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -106.1108,
-     40.1131
+     -102.5437,
+     37.3098
     ],
     [
-     -106.3292,
-     40.6634
+     -103.0776,
+     37.9319
+    ],
+    [
+     -103.7727,
+     38.3062
+    ],
+    [
+     -104.5277,
+     38.8311
+    ],
+    [
+     -102.7568,
+     38.3877
+    ],
+    [
+     -104.0441,
+     37.3188
+    ],
+    [
+     -103.7213,
+     37.8842
+    ],
+    [
+     -102.3918,
+     37.9584
+    ],
+    [
+     -104.4847,
+     38.1628
     ]
    ],
-   "lon": -106.22,
-   "lat": 40.388,
+   "lon": -103.48,
+   "lat": 38.01,
    "countries": [
     "US"
    ]
@@ -3039,6 +3009,42 @@
    ],
    "lon": -106.328,
    "lat": 41.685,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOU.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "West Jackson and West Grand Counties Above 9000 Feet"
+   ],
+   "counties": [
+    "08049",
+    "08057"
+   ],
+   "sent": "2026-11-27T18:05:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03998a8ec0b9a19efcfdcabe8d50d8cf1b91a9c9.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -106.1108,
+     40.1131
+    ],
+    [
+     -106.3292,
+     40.6634
+    ]
+   ],
+   "lon": -106.22,
+   "lat": 40.388,
    "countries": [
     "US"
    ]
