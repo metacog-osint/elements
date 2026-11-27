@@ -2,16 +2,17 @@
 published, with its own alert ladder as response_stage (pager:*, gdacs:*, cems:*). An alert above the bottom rung
 (PAGER yellow or worse, GDACS orange or red) is an anomaly against that ladder's baseline. Each item passes the
 doctrine kit's linter or is dropped and listed."""
+import gzip
 import json
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from functools import cache
 
 from .common import ROOT, country_name, country_point  # first: puts the doctrine kit on sys.path
 from tic_doctrine import CONTRACT, __version__ as KIT, contract, geo, registers, vocab  # noqa: E402
 from . import rev21  # noqa: E402
 
-METHOD = "elements-feed-1.2"
+METHOD = "elements-feed-1.3"
 CEMS_DAYS = 60
 SRC = {
     "usgs": {"id": "usgs-earthquakes", "publisher": "US Geological Survey", "licence": "US public domain", "grade": "A1",
@@ -66,7 +67,11 @@ FIRE_MIN = 10  # a country needs this many detections in 24 hours to get a feed 
 FIRE_BASE_DAYS = 28  # a country's fire baseline: the median of its daily detections over the past 28 complete UTC days
 FIRE_BASE_MIN = 14   # routine until the baseline holds this many days
 FIRE_MULT = 3        # anomaly at 3 times the baseline median...
-FIRE_FLOOR = 50      # ...and at least this many detections in 24 hours
+FIRE_FLOOR = 50      # ...and at least this many detections in 24 hours...
+FIRE_CLIM_PCT = 95   # ...and above this percentile of the country's detections in the same calendar window of earlier
+FIRE_CLIM_WIN = 15   # years (this many days either side of the date) in catalog/firms_climatology.json.gz...
+FIRE_CLIM_YEARS = 3  # ...once at least this many earlier years hold that window
+FIRE_CLIM_SATS = 2   # the archive is NOAA-20 alone; the live count is NOAA-20 and NOAA-21
 FIRE_KEEP = 5  # a country item already open in the history state stays while it has this many, so it does not
                # end and reopen each time its count crosses FIRE_MIN
 TSUNAMI_WORDS = {"information": "information statement", "threat": "threat message", "watch": "watch",
@@ -484,6 +489,60 @@ def fire_baseline(days: dict, cc: str, today: str) -> dict | None:
     return {"median": med, "n": len(prior), "start": prior[0], "end": prior[-1]}
 
 
+@cache
+def fire_climatology() -> dict | None:
+    """catalog/firms_climatology.json.gz (tools/firms_climatology.py), or None when the file is absent."""
+    p = ROOT / "catalog" / "firms_climatology.json.gz"
+    if not p.exists():
+        return None
+    with gzip.open(p, "rt", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _percentile(v: list, q: float) -> float:
+    """The q-th percentile by nearest rank: the smallest reading with at least q% of the readings at or below it, so
+    no more than (100 - q)% are above it."""
+    v = sorted(v)
+    return v[max(0, -(-len(v) * q // 100) - 1)]
+
+
+def fire_seasonal(clim: dict | None, cc: str, today: str) -> dict | None:
+    """The country's seasonal baseline: the FIRE_CLIM_PCT percentile of its daily detections in the window of
+    FIRE_CLIM_WIN days either side of today's date in each earlier year of the climatology, times FIRE_CLIM_SATS.
+    A year counts when more than half its window is on file (the archive's gap days are null and left out; 29 Feb
+    is matched with 28 Feb in other years). flag_rate is the share of those readings above the threshold: at most
+    5% at the 95th percentile, by nearest rank. None without the file, without the country or under FIRE_CLIM_YEARS years."""
+    series = (clim or {}).get("countries", {}).get(cc)
+    if series is None:
+        return None
+    first, d = date.fromisoformat(clim["first"]), date.fromisoformat(today)
+    vals, years = [], []
+    for y in range(first.year, d.year):
+        anchor = date(y, d.month, min(d.day, 28) if (d.month, d.day) == (2, 29) else d.day)
+        w = [series[i] for k in range(-FIRE_CLIM_WIN, FIRE_CLIM_WIN + 1)
+             if 0 <= (i := (anchor - first).days + k) < len(series) and series[i] is not None]
+        if len(w) > FIRE_CLIM_WIN:
+            years.append(y)
+            vals += w
+    if len(years) < FIRE_CLIM_YEARS:
+        return None
+    thr = _percentile(vals, FIRE_CLIM_PCT) * FIRE_CLIM_SATS
+    return {"threshold": round(thr, 1), "first_year": years[0], "last_year": years[-1], "years": len(years),
+            "readings": len(vals), "flag_rate": round(sum(1 for v in vals if v * FIRE_CLIM_SATS > thr) / len(vals), 4)}
+
+
+def fire_rule(n: int, base: dict, seas: dict | None) -> tuple[bool, str | None]:
+    """(anomaly, why it is held routine): at least FIRE_FLOOR detections and FIRE_MULT times the 28-day median, and
+    above the seasonal threshold when the country has one."""
+    if n < FIRE_FLOOR or n < FIRE_MULT * base["median"]:
+        return False, None
+    if seas is not None and n <= seas["threshold"]:
+        return False, (f"over {FIRE_MULT} times the 28-day median, but not above the {FIRE_CLIM_PCT}th percentile of "
+                       f"the same calendar window in {seas['first_year']}-{seas['last_year']} "
+                       f"({seas['threshold']:,.0f} detections): usual for the season")
+    return True, None
+
+
 def build(d: dict, now: datetime | None = None, state: dict | None = None, since: str | None = None,
           ended: list | None = None, open_ids: set | None = None) -> dict:
     """d: {'usgs': {...records, fetched_at}, 'gdacs': ..., 'nhc': ..., 'cems': ...}. state and since: the history
@@ -633,6 +692,7 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
     if open_ids is None:
         open_ids = set((state or {}).get("open") or {})
     fire_days = (d.get("firms_daily") or {}).get("days") or {}
+    clim = d["firms_climatology"] if "firms_climatology" in d else fire_climatology()
     today = now.strftime("%Y-%m-%d")
     for cc, a in sorted(by_cc.items()):
         if a["n"] < (FIRE_KEEP if f"elements:firms:{cc}" in open_ids else FIRE_MIN):
@@ -652,13 +712,27 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         base = fire_baseline(fire_days, cc, today)
         if base is not None:
             med = base["median"]
+            seas = fire_seasonal(clim, cc, today)
             p["measures"].update({"baseline_median": med, "baseline_days": base["n"]})
-            p["baseline_ref"] = {"id": "firms-country-median", "type": "rolling", "version": "1",
-                                 "window": f"median of daily detections, {base['start']} to {base['end']} "
-                                           f"({base['n']} complete UTC days); anomaly at {FIRE_MULT} times the median "
-                                           f"and at least {FIRE_FLOOR} detections"}
-            if a["n"] >= FIRE_FLOOR and a["n"] >= FIRE_MULT * med:
+            window = (f"median of daily detections, {base['start']} to {base['end']} ({base['n']} complete UTC days); "
+                      f"anomaly at {FIRE_MULT} times the median and at least {FIRE_FLOOR} detections")
+            if seas is None:
+                p["baseline_ref"] = {"id": "firms-country-median", "type": "rolling", "version": "1",
+                                     "window": window + " (no seasonal record for this country)"}
+            else:
+                p["measures"].update({"seasonal_threshold": seas["threshold"], "seasonal_years": seas["years"],
+                                      "seasonal_readings": seas["readings"]})
+                p["baseline_ref"] = {"id": "firms-country-seasonal", "type": "both", "version": "1",
+                                     "window": window + f", and above the {FIRE_CLIM_PCT}th percentile of daily "
+                                               f"detections {FIRE_CLIM_WIN} days either side of this date in "
+                                               f"{seas['first_year']}-{seas['last_year']} ({seas['readings']} days; "
+                                               f"NOAA-20 archive, times {FIRE_CLIM_SATS} for two satellites)",
+                                     "flag_rate": seas["flag_rate"]}
+            flagged, held = fire_rule(a["n"], base, seas)
+            if flagged:
                 p["tier"] = "anomaly"
+            elif held:
+                p["measures"]["held_routine"] = held
         feats.append({"type": "Feature", "geometry": g, "properties": p})
 
     subdivide(feats)

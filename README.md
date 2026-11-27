@@ -21,6 +21,7 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
 | NOAA National Hurricane Center (CurrentStorms.json) | Active Atlantic and eastern Pacific storms | US public domain |
 | Copernicus EMS rapid-mapping activations | Disasters an authority asked the EU to map from satellite imagery | Free and open, © European Union |
 | NASA FIRMS (VIIRS on NOAA-20 and NOAA-21; Suomi-NPP still asked, its data delivery ended 2 Nov 2026), past 24 hours | Fire and heat detections, in half-degree cells and per country | NASA open data, with acknowledgement of LANCE FIRMS |
+| NASA FIRMS yearly country files (VIIRS NOAA-20, standard processing, from 1 Apr 2018), counted per country and day in `catalog/firms_climatology.json.gz` | The seasonal baseline for fire anomalies | NASA open data (CC0 for NASA-led missions), credited to NASA FIRMS |
 
 ## How it reads the sources
 
@@ -40,6 +41,9 @@ Elements collects natural-hazard alerts every hour, straight from the authoritie
   heat are detected too. With the free key (`FIRMS_MAP_KEY`, an Actions secret) Elements uses the FIRMS API, which
   adds real-time detections; without it, FIRMS's public files, about three hours behind. Each country's daily count
   is kept in `data/firms_daily.json` to build a baseline (kept without a time limit); the hourly cells are not committed.
+  A country's count is an anomaly only when it is high against both its past 28 days and the same weeks of earlier
+  years (`doctrine/method.md`, Fires); the seasonal record is rebuilt once a year with `tools/firms_climatology.py`,
+  when FIRMS publishes the last year's files.
 - MeteoAlarm warnings: orange and red are one feed item each (red is an anomaly, as NWS Extreme is); yellow, hundreds
   a day, are counted per country in the feed and drawn one by one on the map, and each is also logged once (and again
   when it changes) in `history/meteoalarm/`. Green messages and all-clears are dropped. A country whose file fails

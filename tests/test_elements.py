@@ -494,6 +494,7 @@ class Firms(unittest.TestCase):
         days[today.isoformat()] = {"BR": 9999}                  # today is still filling: not in the baseline
         cell = lambda n, cc: [-50.0, -10.0, n, n, 30.0, 9.0, "2026-10-31T15:30Z", cc]
         d = dataset()
+        d["firms_climatology"] = None                            # no seasonal record: the 28-day rule alone
         d["firms_daily"] = {"days": days}
         d["firms"] = {"records": {"cells": [cell(300, "BR"), cell(60, "GR"), cell(40, "AR")], "window": [None, None],
                                   "cell_deg": 0.5}, "fetched_at": FETCHED}
@@ -502,7 +503,7 @@ class Firms(unittest.TestCase):
         fire = {f["properties"]["id"]: f["properties"] for f in fc["features"] if f["properties"]["id"].startswith("elements:firms:")}
         br, gr, ar = fire["elements:firms:BR"], fire["elements:firms:GR"], fire["elements:firms:AR"]
         self.assertEqual((br["tier"], br["signal"]["expected"], br["signal"]["baseline_n"]), ("anomaly", 100, 20))
-        self.assertEqual(br["baseline_ref"]["type"], "rolling")
+        self.assertEqual((br["baseline_ref"]["id"], br["baseline_ref"]["type"]), ("firms-country-median", "rolling"))
         self.assertEqual(gr["tier"], "anomaly")                  # median 0, 60 detections: over the floor of 50
         self.assertEqual(ar["tier"], "routine")                  # under the floor of 50
         d["firms"]["records"]["cells"][0] = cell(299, "BR")
@@ -513,6 +514,93 @@ class Firms(unittest.TestCase):
         self.assertEqual(br["tier"], "routine")
         self.assertNotIn("expected", br["signal"])
         self.assertNotIn("baseline_ref", br)
+
+    @staticmethod
+    def clim(values, first="2020-01-01", last="2025-12-31", gaps=()):
+        """A climatology like catalog/firms_climatology.json.gz: values(day) is a country's NOAA-20 count."""
+        from datetime import date, timedelta
+        a, b = date.fromisoformat(first), date.fromisoformat(last)
+        days = [(a + timedelta(i)).isoformat() for i in range((b - a).days + 1)]
+        return {"first": first, "last": last, "gaps": list(gaps),
+                "countries": {cc: [None if d in gaps else f(d) for d in days] for cc, f in values.items()}}
+
+    def test_fire_percentile(self):
+        # Nearest rank: no more than 5% of the readings are above the 95th percentile.
+        self.assertEqual(feed._percentile([4, 1, 3, 2], 50), 2)
+        self.assertEqual(feed._percentile(list(range(1, 11)), 95), 10)
+        self.assertEqual(feed._percentile(list(range(1, 21)), 95), 19)
+        self.assertEqual(feed._percentile(list(range(1, 156)), 95), 148)   # 7 of 155 above: 4.5%
+        self.assertEqual(feed._percentile([7], 95), 7)
+
+    def test_fire_seasonal(self):
+        # 95th percentile of the same +-15-day window in each earlier year, times 2 for two satellites.
+        c = self.clim({"GH": lambda d: 100 if d[5:7] == "11" else 10})
+        s = feed.fire_seasonal(c, "GH", "2026-11-20")                # window 5 Nov-5 Dec: 26 days of 100, 5 of 10
+        self.assertEqual((s["threshold"], s["first_year"], s["last_year"], s["years"], s["readings"]),
+                         (200.0, 2020, 2025, 6, 186))
+        self.assertEqual(s["flag_rate"], 0.0)
+        self.assertEqual(feed.fire_seasonal(c, "GH", "2026-07-01")["threshold"], 20.0)
+        self.assertEqual(feed.fire_seasonal(c, "GH", "2023-11-20")["years"], 3)   # earlier years only
+        self.assertIsNone(feed.fire_seasonal(c, "GH", "2022-11-20"))             # 2 earlier years: too few
+        self.assertIsNone(feed.fire_seasonal(c, "BR", "2026-11-20"))             # no record for the country
+        self.assertIsNone(feed.fire_seasonal(None, "GH", "2026-11-20"))
+        self.assertEqual(feed.fire_seasonal(c, "GH", "2028-02-29")["years"], 6)  # 29 Feb matched with 28 Feb
+        gap = [f"2021-11-{k:02d}" for k in range(1, 31)]                         # most of 2021's window missing
+        g = self.clim({"GH": lambda d: 100 if d[5:7] == "11" else 10}, gaps=gap)
+        self.assertEqual(feed.fire_seasonal(g, "GH", "2026-11-20")["years"], 5)
+        r = self.clim({"GH": lambda d: int(d[8:10])})                            # 1..31: the top 5% are above
+        self.assertLessEqual(feed.fire_seasonal(r, "GH", "2026-11-20")["flag_rate"], 0.05)
+
+    def test_feed_fire_seasonal(self):
+        # elements-feed-1.3: 3 times the 28-day median and the floor, and above the seasonal threshold.
+        from datetime import timedelta
+        today = NOW.date()
+        days = {(today - timedelta(days=i)).isoformat(): {"GH": 30, "TG": 100, "BR": 30} for i in range(1, 21)}
+        cell = lambda n, cc: [-1.0, 7.0, n, n, 30.0, 9.0, "2026-10-31T15:30Z", cc]
+        d = dataset()
+        d["firms_climatology"] = self.clim({"GH": lambda x: 100 if x[5:7] in ("10", "11") else 10,
+                                            "TG": lambda x: 10})
+        d["firms_daily"] = {"days": days}
+
+        def tiers(cells):
+            d["firms"] = {"records": {"cells": cells, "window": [None, None], "cell_deg": 0.5}, "fetched_at": FETCHED}
+            fc = feed.build(d, NOW)
+            self.assertEqual(fc["dropped"], [])
+            return {f["properties"]["countries"][0]: f["properties"] for f in fc["features"]
+                    if f["properties"]["id"].startswith("elements:firms:")}
+
+        f = tiers([cell(150, "GH"), cell(250, "TG"), cell(150, "BR")])
+        gh, tg, br = f["GH"], f["TG"], f["BR"]
+        # The season's onset: 5 times its 28-day median, but usual for the season (threshold 2 x 100). Under
+        # elements-feed-1.2 this was an anomaly.
+        self.assertEqual(gh["tier"], "routine")
+        self.assertIn("usual for the season", gh["measures"]["held_routine"])
+        self.assertEqual((gh["measures"]["seasonal_threshold"], gh["measures"]["seasonal_years"]), (200.0, 6))
+        self.assertEqual((gh["baseline_ref"]["id"], gh["baseline_ref"]["type"], gh["baseline_ref"]["flag_rate"]),
+                         ("firms-country-seasonal", "both", 0.0))
+        self.assertIn("2020-2025", gh["baseline_ref"]["window"])
+        self.assertEqual(gh["signal"]["expected"], 30)
+        self.assertEqual(tg["tier"], "routine")          # above its season (20) but under 3 x its median of 100
+        self.assertNotIn("held_routine", tg["measures"])
+        self.assertEqual(br["tier"], "anomaly")          # no seasonal record: the 28-day rule alone
+        self.assertEqual(br["baseline_ref"]["id"], "firms-country-median")
+        self.assertEqual(tiers([cell(201, "GH")])["GH"]["tier"], "anomaly")   # above both
+        self.assertEqual(tiers([cell(200, "GH")])["GH"]["tier"], "routine")   # at the threshold is not above it
+        self.assertEqual(tiers([cell(49, "TG")])["TG"]["tier"], "routine")    # under the floor of 50
+
+    def test_fire_climatology_file(self):
+        # The committed record: NOAA-20 from 1 Apr 2018, the archive's gap days null, and the Evros fire of
+        # August 2023 above Greece's seasonal threshold.
+        c = feed.fire_climatology()
+        self.assertGreaterEqual(len(c["countries"]), 200)
+        self.assertEqual(c["first"], "2018-04-01")
+        self.assertTrue({"2023-07-19", "2023-07-22", "2023-09-30", "2024-02-04"} <= set(c["gaps"]))
+        from datetime import date
+        i = (date(2023, 8, 22) - date(2018, 4, 1)).days
+        self.assertIsNone(c["countries"]["GR"][(date(2023, 7, 20) - date(2018, 4, 1)).days])
+        s = feed.fire_seasonal(c, "GR", "2023-08-22")
+        self.assertGreater(c["countries"]["GR"][i] * feed.FIRE_CLIM_SATS, s["threshold"])
+        self.assertLessEqual(s["flag_rate"], 0.05)
 
     def test_feed_floor_keeps_open_items(self):
         # An open country item stays down to 5 detections; a new one still needs 10.

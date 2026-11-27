@@ -29,14 +29,61 @@ item per country with at least 10 detections; an item already open stays while i
 count near the floor does not end and reopen the item from one run to the next. The cells themselves are in
 `fires.json`, not the feed.
 
-`data/firms_daily.json` records each country's detections per complete UTC day from 30 Oct 2026. A country's
-baseline is the median of its daily detections over the past 28 complete UTC days (a day on file without the country
-counts as 0). A fire item is an anomaly when its 24-hour count is at least 3 times that median and at least 50
-detections; it stays routine until the file holds 14 days. The item carries the count as `signal`, the median as
-`signal.expected` and the window in `baseline_ref` (`firms-country-median`, rolling). On the 27 days on file
-(30 Oct to 25 Nov 2026), the rule would have flagged 63 of 2,005 country-days (3.1%), under the 5% flag rate the
-contract allows for a series. The baseline is not seasonal: a country entering its fire season rises against its own
-past four weeks and is flagged while the median catches up. Method elements-feed-1.2.
+`data/firms_daily.json` records each country's detections per complete UTC day from 30 Oct 2026. A country's count
+is judged against two baselines, and it is an anomaly only when it is high against both:
+- **Its past four weeks:** at least 3 times the median of its daily detections over the past 28 complete UTC days (a
+  day on file without the country counts as 0), and at least 50 detections. The item stays routine until the file
+  holds 14 days.
+- **The same weeks of earlier years:** above the 95th percentile (by nearest rank, so no more than 5% of the readings
+  are above it) of the country's daily detections from 15 days before to 15 days after the same date in each earlier
+  year of FIRMS's archive. The archive is FIRMS's yearly country files for VIIRS on NOAA-20, standard processing, from
+  1 Apr 2018 to the last complete year, counted per country and UTC day in `catalog/firms_climatology.json.gz` by
+  `tools/firms_climatology.py`. Each half-degree cell's detections on a day go to the country at that day's centre of
+  detections, with the same outlines as the live record. The archive holds one satellite and the live record two
+  (NOAA-20 and NOAA-21), so the archive's counts are doubled. A year counts when more than half its window is on file,
+  and the test applies once 3 earlier years count. Six days with no detection anywhere in the archive (19-22 Jul 2023,
+  30 Sep 2023, 4 Feb 2024) are gaps in the data, not days without fire, and are left out.
+
+A country with no seasonal record is judged on its past four weeks alone. The item carries the count as `signal`,
+the 28-day median as `signal.expected`, the seasonal threshold in `measures.seasonal_threshold`, and both windows in
+`baseline_ref` (`firms-country-seasonal`, type both; `firms-country-median`, rolling, for a country without a seasonal
+record). A count over 3 times the median but not above the seasonal threshold stays routine, and
+`measures.held_routine` says so: that is how the start of a dry season reads, when burning rises against the past four
+weeks as it does every year. `baseline_ref.flag_rate` is the share of the seasonal window's readings above the
+threshold, at most 5%. The seasonal record is rebuilt once a year: FIRMS publishes a year's country files months after
+it ends (the 2025 files were last modified on 10 Oct 2026).
+
+Back-test (`tools/firms_backtest.py`), 2022 to 2025, on the archive's own counts. It covers 29 countries: the 21 that
+the 28-day rule alone flagged on more than 5% of their days in November 2026, and 8 controls. A country-day is judged
+when it has at least 10 detections, the days that would have had a feed item (33,277 country-days):
+- The 28-day rule alone (elements-feed-1.2) flagged 4,125 (12.4%), and 26 of the 29 countries on more than 5% of
+  their own days. In the onset months of the West African and mainland Southeast Asian dry seasons it flagged 14% to
+  44% of days (Ghana 43% in October to December; Cambodia 44% in November to January).
+- Both rules together (elements-feed-1.3) flagged 1,046 (3.1%); the same onset months fell to 0% to 5.1%, except
+  Burkina Faso (9.0%), where the season's start moves from year to year by more than the window absorbs.
+- Six of the 29 countries were still flagged on more than 5% of their own days over the four years: Portugal 13.0%,
+  Greece 7.7%, Nicaragua 5.9%, Chile 5.9%, the United Kingdom 5.5% and Papua New Guinea 5.1% (Gabon 4.96%). Sixteen
+  were over 5% in at least one year. These are countries whose large fires come in episodes, and a year of large fires
+  is above its own earlier years.
+- Of 14 large fire episodes named in public reports, both rules together flagged 10 and the 28-day rule alone 12:
+  for example the Evros fire in Greece (from 19 Aug 2023) on 10 days, with its peak, and Bolivia's 2024 season on 9.
+  They missed the Valparaiso fires (Chile, Feb 2024; the archive's largest Chilean days, Feb 2023, set February's
+  threshold), Honduras (Apr-May 2024) and Peru (Sep 2024), whose 28-day medians had already risen with the season, and
+  Cambodia (Mar 2023), within its usual peak, which neither rule flags.
+- Over all 187 countries with a judged day, the 28-day rule alone flagged 9.5% of country-days and 125 countries on
+  more than 5% of their own days; both rules together flagged 2.8%, and 46 countries, among them most of the Balkans
+  and the Caucasus, Ireland and Iceland.
+
+On the live record, 13 to 26 Nov 2026, the 28-day rule alone flagged 67 country-days in 21 countries; both rules
+together flag 11 in 7 (Colombia 16-19 Nov, Vietnam 16-17 Nov, Gabon, Honduras, South Africa, Greece and Papua New
+Guinea). The earlier note on this page set a pooled rate (3.1% of all country-days) against the contract's 5% cap,
+which applies to each subject: by the subject's own days the 28-day rule alone was well over it.
+
+Limits. The archive is standard processing and the live record near-real-time; the difference between them is not
+measured. The live ratio of two satellites to NOAA-20 alone was 1.98 worldwide over 21-26 Nov 2026, but 1.77 to 2.53
+by country, so a country's threshold may sit a little high or low. The climatology is short (7 years and 9 months,
+including the 2023-24 El Niño) and adjusts for nothing: a trend or a change in land use reads as a departure until the
+years catch up. Method elements-feed-1.3 (1.2 had the 28-day rule alone).
 
 ## Volcanoes
 USGS volcano alert levels and aviation colour codes for every US volcano above Normal or Green, with the previous
