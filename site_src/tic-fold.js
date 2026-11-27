@@ -1,4 +1,4 @@
-/*! tic-fold.js v2.3 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
+/*! tic-fold.js v2.4 · The Intelligence Company: a long table or list opens in a scrolling window about ten rows
  *  tall, its header kept in view, with "Show all N" beside it ·
  *  canonical copy: the hub's site/shared/tic-fold.js (copy into each site with
  *  tic-fold.css; keep the version line).
@@ -41,6 +41,8 @@
  *  2.3 (21 Nov 2026): a box that is not a window but scrolls sideways (a wide table on a phone) is focusable too,
  *  a named region, so a keyboard reader can scroll it (axe scrollable-region-focusable). It is checked again when
  *  the width changes or a tic-tabs group is shown.
+ *  2.4: the same check runs when the box is first drawn, so a wide table in a tab the site hides and shows itself
+ *  (not a tic-tabs group) is focusable at once, not only after the window is resized.
  */
 (function () {
   "use strict";
@@ -165,6 +167,10 @@
       if (head !== st.head) { st.head = head; box.style.setProperty("--tic-fold-head", head + "px"); }
     }
 
+    // Whether a box that is not a window scrolls sideways now. A box that is not drawn (a hidden tab) measures no
+    // overflow, so this is read again once its size changes.
+    function sideways() { return box.scrollWidth > box.clientWidth + 1; }
+
     function apply() {
       var list = items(el);
       var n = list.length;
@@ -181,7 +187,8 @@
       st.win = win;
       var boxed = win && !st.open;
       box.classList.toggle("tic-fold-win", boxed);
-      var wide = !boxed && box.scrollWidth > box.clientWidth + 1;
+      var wide = !boxed && sideways();
+      st.wide = wide;
       if (boxed || wide) {
         box.setAttribute("tabindex", "0");
         box.setAttribute("role", "region");
@@ -225,7 +232,12 @@
       new ResizeObserver(function () {
         if (rq) return;
         rq = true;
-        requestAnimationFrame(function () { rq = false; measure(); });
+        requestAnimationFrame(function () {
+          rq = false;
+          measure();
+          // A box drawn for the first time (a tab of the site's own, with no tic-tabs event) may now scroll sideways.
+          if (!(st.win && !st.open) && sideways() !== !!st.wide) apply();
+        });
       }).observe(box);
     }
 
@@ -308,6 +320,6 @@
     document.addEventListener("tic-tabs:show", recheck);
   }
 
-  window.TicFold = { version: "2.3", setup: setup, scan: scanNew };
+  window.TicFold = { version: "2.4", setup: setup, scan: scanNew };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
 })();
