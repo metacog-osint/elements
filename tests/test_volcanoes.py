@@ -83,7 +83,7 @@ class Feed(unittest.TestCase):
         self.assertEqual(it["Great Sitkin"]["title"], "Great Sitkin: USGS volcano alert Watch, aviation code Orange (raised from Advisory/Yellow)")
         self.assertEqual(it["Ahyi Seamount"]["title"], "Ahyi Seamount: USGS volcano alert Advisory, aviation code Yellow (previously unassigned)")
         self.assertTrue(all(p["baseline_ref"]["id"] == "usgs-volcano-normal" for p in it.values()))
-        # Tom, 15 Nov 2026: raised or newly elevated is news; lowered (Kilauea, Watch to Advisory) is routine.
+        # 15 Nov 2026 rule: raised or newly elevated is news; lowered (Kilauea, Watch to Advisory) is routine.
         self.assertEqual({k: p["tier"] for k, p in it.items()},
                          {"Kilauea": "routine", "Great Sitkin": "anomaly", "Shishaldin": "anomaly", "Ahyi Seamount": "anomaly"})
         self.assertEqual((it["Kilauea"]["subdivisions"], it["Great Sitkin"]["subdivisions"]), (["US-HI"], ["US-AK"]))

@@ -628,7 +628,7 @@ class Registers(unittest.TestCase):
         self.assertEqual(registers.check(ROOT / "doctrine"), [])
 
     def test_area_menu_states(self):
-        # The Area menu (tic-area.js; Tom, 16 Nov 2026): every state with a name and boxes; Alaska gets one box per
+        # The Area menu (tic-area.js; 16 Nov 2026): every state with a name and boxes; Alaska gets one box per
         # side of 180 degrees, so its Aleutians do not make a box around the world.
         import importlib.util
         spec = importlib.util.spec_from_file_location("elements_tool", ROOT / "tools" / "elements.py")
