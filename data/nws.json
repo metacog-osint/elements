@@ -377,48 +377,6 @@
    ]
   },
   {
-   "id": "KMFR.CF.W.0001.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Medford OR",
-   "areas": [
-    "South Central Oregon Coast",
-    "Curry County Coast"
-   ],
-   "counties": [
-    "41011",
-    "41015",
-    "41019"
-   ],
-   "sent": "2026-11-26T21:44:00Z",
-   "onset": "2026-11-26T21:44:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8db40f6cc3f6de89b1d21e02ef8fb7c8b884a6b7.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -124.0941,
-     43.1859
-    ],
-    [
-     -124.2109,
-     42.4664
-    ],
-    [
-     -123.1545,
-     43.2863
-    ]
-   ],
-   "lon": -123.82,
-   "lat": 42.98,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KJAX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -761,9 +719,9 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
+    "Northern Outer Banks",
     "Ocracoke Island",
-    "Hatteras Island",
-    "Northern Outer Banks"
+    "Hatteras Island"
    ],
    "counties": [
     "37055",
@@ -772,7 +730,7 @@
    "sent": "2026-11-27T02:07:00Z",
    "onset": "2026-11-27T02:07:00Z",
    "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1100,260 +1058,6 @@
    ],
    "lon": -123.183,
    "lat": 47.326,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KILM.FL.W.0001.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wilmington NC",
-   "areas": [
-    "Pender, NC"
-   ],
-   "counties": [
-    "37141"
-   ],
-   "sent": "2026-11-26T14:47:00Z",
-   "onset": "2026-11-27T16:30:00Z",
-   "ends": "2026-12-01T10:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd6c781e012980abab21434b833108527b35b7bc.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.98,
-       34.72
-      ],
-      [
-       -77.86,
-       34.72
-      ],
-      [
-       -77.76,
-       34.6
-      ],
-      [
-       -77.79,
-       34.45
-      ],
-      [
-       -77.88,
-       34.44
-      ],
-      [
-       -77.88,
-       34.57
-      ],
-      [
-       -77.98,
-       34.72
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -77.8881,
-     34.5126
-    ]
-   ],
-   "lon": -77.876,
-   "lat": 34.603,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FL.W.0002.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Johnston, NC"
-   ],
-   "counties": [
-    "37101"
-   ],
-   "sent": "2026-11-26T15:24:00Z",
-   "onset": "2026-11-26T22:41:00Z",
-   "ends": "2026-11-28T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf49241804786a37d19ed3746e3c57538d0db97a.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.29,
-       35.54
-      ],
-      [
-       -78.34,
-       35.48
-      ],
-      [
-       -78.29,
-       35.44
-      ],
-      [
-       -78.33,
-       35.41
-      ],
-      [
-       -78.42,
-       35.47
-      ],
-      [
-       -78.35,
-       35.56
-      ],
-      [
-       -78.29,
-       35.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -78.3673,
-     35.5134
-    ]
-   ],
-   "lon": -78.33,
-   "lat": 35.491,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KRAH.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Johnston, NC"
-   ],
-   "counties": [
-    "37101"
-   ],
-   "sent": "2026-11-26T15:25:00Z",
-   "onset": "2026-11-26T21:00:00Z",
-   "ends": "2026-11-27T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0104dc32e1fa7e5de10cd23d94399aa9e4f187d5.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.43,
-       35.72
-      ],
-      [
-       -78.29,
-       35.58
-      ],
-      [
-       -78.29,
-       35.54
-      ],
-      [
-       -78.35,
-       35.56
-      ],
-      [
-       -78.49,
-       35.69
-      ],
-      [
-       -78.43,
-       35.72
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -78.3673,
-     35.5134
-    ]
-   ],
-   "lon": -78.38,
-   "lat": 35.635,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KALY.FL.W.0024.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albany NY",
-   "areas": [
-    "Dutchess, NY",
-    "Ulster, NY"
-   ],
-   "counties": [
-    "36027",
-    "36111"
-   ],
-   "sent": "2026-11-26T16:14:00Z",
-   "onset": "2026-11-26T19:00:00Z",
-   "ends": "2026-11-28T01:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd5fea7bd93b335c5cc58e024c85a8a225a76713.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -74.02,
-       41.94
-      ],
-      [
-       -73.85,
-       41.95
-      ],
-      [
-       -73.88,
-       41.59
-      ],
-      [
-       -74.03,
-       41.6
-      ],
-      [
-       -74.02,
-       41.94
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -73.74,
-     41.7548
-    ],
-    [
-     -74.2655,
-     41.9472
-    ]
-   ],
-   "lon": -73.96,
-   "lat": 41.804,
    "countries": [
     "US"
    ]
@@ -1968,6 +1672,260 @@
    ],
    "lon": -76.992,
    "lat": 36.036,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KILM.FL.W.0001.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wilmington NC",
+   "areas": [
+    "Pender, NC"
+   ],
+   "counties": [
+    "37141"
+   ],
+   "sent": "2026-11-27T02:40:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-12-01T16:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65facaaeda63d7caedc737253b218e783e13609c.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -77.98,
+       34.72
+      ],
+      [
+       -77.86,
+       34.72
+      ],
+      [
+       -77.76,
+       34.6
+      ],
+      [
+       -77.79,
+       34.45
+      ],
+      [
+       -77.88,
+       34.44
+      ],
+      [
+       -77.88,
+       34.57
+      ],
+      [
+       -77.98,
+       34.72
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -77.8881,
+     34.5126
+    ]
+   ],
+   "lon": -77.876,
+   "lat": 34.603,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FL.W.0003.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Johnston, NC"
+   ],
+   "counties": [
+    "37101"
+   ],
+   "sent": "2026-11-27T02:57:00Z",
+   "onset": "2026-11-27T02:57:00Z",
+   "ends": "2026-11-28T01:53:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18db0ea615fb83aa0132ab3612301f6c3e8d74b0.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.43,
+       35.72
+      ],
+      [
+       -78.29,
+       35.58
+      ],
+      [
+       -78.29,
+       35.54
+      ],
+      [
+       -78.35,
+       35.56
+      ],
+      [
+       -78.49,
+       35.69
+      ],
+      [
+       -78.43,
+       35.72
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -78.3673,
+     35.5134
+    ]
+   ],
+   "lon": -78.38,
+   "lat": 35.635,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KRAH.FL.W.0002.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Raleigh NC",
+   "areas": [
+    "Johnston, NC"
+   ],
+   "counties": [
+    "37101"
+   ],
+   "sent": "2026-11-27T02:57:00Z",
+   "onset": "2026-11-27T02:57:00Z",
+   "ends": "2026-11-29T00:18:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18db0ea615fb83aa0132ab3612301f6c3e8d74b0.002.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.29,
+       35.54
+      ],
+      [
+       -78.34,
+       35.48
+      ],
+      [
+       -78.29,
+       35.44
+      ],
+      [
+       -78.33,
+       35.41
+      ],
+      [
+       -78.42,
+       35.47
+      ],
+      [
+       -78.35,
+       35.56
+      ],
+      [
+       -78.29,
+       35.54
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -78.3673,
+     35.5134
+    ]
+   ],
+   "lon": -78.33,
+   "lat": 35.491,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KALY.FL.W.0024.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Albany NY",
+   "areas": [
+    "Dutchess, NY",
+    "Ulster, NY"
+   ],
+   "counties": [
+    "36027",
+    "36111"
+   ],
+   "sent": "2026-11-27T02:57:00Z",
+   "onset": "2026-11-27T02:57:00Z",
+   "ends": "2026-11-28T01:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0aeafa4aa84d35825450be6d9aaaf3bab93b076.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -74.02,
+       41.94
+      ],
+      [
+       -73.85,
+       41.95
+      ],
+      [
+       -73.88,
+       41.59
+      ],
+      [
+       -74.03,
+       41.6
+      ],
+      [
+       -74.02,
+       41.94
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -73.74,
+     41.7548
+    ],
+    [
+     -74.2655,
+     41.9472
+    ]
+   ],
+   "lon": -73.96,
+   "lat": 41.804,
    "countries": [
     "US"
    ]
@@ -2954,10 +2912,10 @@
    "certainty": "Likely",
    "sender": "NWS Boston/Norton MA",
    "areas": [
-    "Block Island",
     "Barnstable",
     "Dukes",
-    "Nantucket"
+    "Nantucket",
+    "Block Island"
    ],
    "counties": [
     "25001",
@@ -2966,9 +2924,9 @@
     "44009"
    ],
    "sent": "2026-11-26T14:12:00Z",
-   "onset": "2026-11-26T15:00:00Z",
+   "onset": "2026-11-26T17:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3172,9 +3130,9 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
-    "Judith Basin County and Judith Gap",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains"
+    "Southern High Plains",
+    "Judith Basin County and Judith Gap"
    ],
    "counties": [
     "30027",
@@ -3313,224 +3271,6 @@
    ],
    "lon": -73.867,
    "lat": 40.733,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KCTP.HW.W.0002.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS State College PA",
-   "areas": [
-    "Dauphin",
-    "Schuylkill",
-    "Lebanon",
-    "Lancaster"
-   ],
-   "counties": [
-    "42043",
-    "42071",
-    "42075",
-    "42107"
-   ],
-   "sent": "2026-11-26T23:52:00Z",
-   "onset": "2026-11-26T23:52:00Z",
-   "ends": "2026-11-27T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35162c004ed7d70b8e7a05d86efb692fecb2b0b3.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.7926,
-     40.4126
-    ],
-    [
-     -76.2502,
-     40.042
-    ],
-    [
-     -76.4648,
-     40.3714
-    ],
-    [
-     -76.2178,
-     40.7037
-    ]
-   ],
-   "lon": -76.431,
-   "lat": 40.382,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.HW.W.0003.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Carbon",
-    "Monroe",
-    "New Castle",
-    "Hunterdon",
-    "Somerset",
-    "Middlesex",
-    "Mercer",
-    "Salem",
-    "Gloucester",
-    "Camden",
-    "Northwestern Burlington",
-    "Delaware",
-    "Philadelphia",
-    "Western Chester",
-    "Eastern Chester",
-    "Western Montgomery",
-    "Eastern Montgomery",
-    "Upper Bucks",
-    "Lower Bucks",
-    "Western Monmouth",
-    "Ocean",
-    "Southeastern Burlington",
-    "Warren",
-    "Berks",
-    "Lehigh",
-    "Northampton",
-    "Morris",
-    "Eastern Monmouth",
-    "Coastal Ocean"
-   ],
-   "counties": [
-    "10003",
-    "34005",
-    "34007",
-    "34015",
-    "34019",
-    "34021",
-    "34023",
-    "34025",
-    "34027",
-    "34029",
-    "34033",
-    "34035",
-    "34041",
-    "42011",
-    "42017",
-    "42025",
-    "42029",
-    "42045",
-    "42077",
-    "42089",
-    "42091",
-    "42095",
-    "42101"
-   ],
-   "sent": "2026-11-27T00:03:00Z",
-   "onset": "2026-11-27T00:03:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.628ae796f9ef276479a70bd2629261d6a4b417c2.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.6441,
-     39.5759
-    ],
-    [
-     -74.663,
-     39.8758
-    ],
-    [
-     -74.9612,
-     39.8024
-    ],
-    [
-     -75.1457,
-     39.7229
-    ],
-    [
-     -74.912,
-     40.5653
-    ],
-    [
-     -74.7037,
-     40.2825
-    ],
-    [
-     -74.4074,
-     40.4396
-    ],
-    [
-     -74.1524,
-     40.287
-    ],
-    [
-     -74.5473,
-     40.8589
-    ],
-    [
-     -74.2589,
-     39.8657
-    ],
-    [
-     -75.3574,
-     39.5738
-    ],
-    [
-     -74.6199,
-     40.5655
-    ],
-    [
-     -75.0095,
-     40.8535
-    ],
-    [
-     -75.9269,
-     40.414
-    ],
-    [
-     -75.1071,
-     40.3369
-    ],
-    [
-     -75.705,
-     40.9184
-    ],
-    [
-     -75.7498,
-     39.974
-    ],
-    [
-     -75.3988,
-     39.9167
-    ],
-    [
-     -75.5906,
-     40.6142
-    ],
-    [
-     -75.3291,
-     41.0562
-    ],
-    [
-     -75.3702,
-     40.21
-    ],
-    [
-     -75.3074,
-     40.7528
-    ],
-    [
-     -75.1333,
-     40.0094
-    ]
-   ],
-   "lon": -75.087,
-   "lat": 40.281,
    "countries": [
     "US"
    ]
@@ -3829,18 +3569,18 @@
    "certainty": "Observed",
    "sender": "NWS Upton NY",
    "areas": [
-    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
-    "Long Island Sound East of the Mouth of the Connecticut River",
-    "Long Island Sound West of New Haven CT/Port Jefferson NY",
-    "New York Harbor",
-    "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay",
     "Moriches Inlet NY to Montauk Point NY out 20 NM",
     "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
     "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
     "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
     "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM"
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
+    "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
+    "Long Island Sound East of the Mouth of the Connecticut River",
+    "Long Island Sound West of New Haven CT/Port Jefferson NY",
+    "New York Harbor",
+    "Peconic and Gardiners Bays",
+    "South Shore Bays from Jones Inlet through Shinnecock Bay"
    ],
    "counties": [
     "73331",
@@ -3859,39 +3599,7 @@
    "sent": "2026-11-26T19:16:00Z",
    "onset": "2026-11-26T19:16:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPHI.SR.W.0004.2026",
-   "event": "Storm Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Mount Holly NJ",
-   "areas": [
-    "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM",
-    "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
-    "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-    "Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60 NM"
-   ],
-   "counties": [
-    "73450",
-    "73451",
-    "73480",
-    "73481"
-   ],
-   "sent": "2026-11-27T00:04:00Z",
-   "onset": "2026-11-27T00:04:00Z",
-   "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d6bb6efee26e0c12f287829aa9d6be759156c21.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.001.1",
    "geometry": null,
    "vtec": true,
    "points": [],
