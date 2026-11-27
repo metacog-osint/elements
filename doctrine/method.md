@@ -138,7 +138,8 @@ hazard from a new or a changed one:
   standing for items already open on the log's first run (13 Nov 2026). No change is dated after publication.
 - **Event times.** From the sources' own fields: an earthquake's or tsunami message's origin time, a warning's onset
   and end, an outlook's valid period, GDACS's event start (and end once it is no longer current; an event GDACS no longer marks current, or whose
-  latest report is more than 7 days old, has ended and leaves the feed for the history log), a Copernicus EMS
+  latest report is more than 7 days before Elements' last good read of GDACS, has ended and leaves the feed for the
+  history log; while GDACS cannot be read, its last good copy is not aged out on the clock alone), a Copernicus EMS
   event date, a wildfire's discovery, the FIRMS window, the drought map's week (day precision). Volcano notices give
   none, and a country's count of warnings in force is no one event.
 - **Place.** Every hazard is where it names (`place_basis: location`); `sea_areas` from the kit's sea gazetteer, empty

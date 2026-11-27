@@ -397,7 +397,8 @@ def gdacs_ended(e: dict, now: datetime) -> bool:
     """GDACS marks an event that has ended `iscurrent` false; the 14-day query returns it until it ages out, so it is
     not a current hazard. A current event whose latest report (its `to`) is more than GDACS_GRACE_DAYS old counts as
     ended too: GDACS's current events are re-reported every day or so (measured 26 Nov 2026: the oldest `to` among the
-    11 current events was 3.9 days back, a cyclone's last advisory)."""
+    11 current events was 3.9 days back, a cyclone's last advisory). `now` is the time of the read that returned the
+    event (build passes it): while the lane fails, the copy's events are not aged out on the clock alone."""
     if not e.get("current"):
         return True
     try:
@@ -540,9 +541,13 @@ def build(d: dict, now: datetime | None = None, state: dict | None = None, since
         feats.append({"type": "Feature", "geometry": _pt(e["lon"], e["lat"]), "properties": p})
 
     f = d["gdacs"].get("fetched_at") or now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:   # ended-by-age is judged at the last good read: a failing lane's copy is not aged out on the clock alone
+        read_at = min(now, datetime.fromisoformat(f.replace("Z", "+00:00")))
+    except (TypeError, ValueError):
+        read_at = now
     gone = []
     for e in d["gdacs"].get("records") or []:
-        over = gdacs_ended(e, now)
+        over = gdacs_ended(e, read_at)
         hot = e["alert"] in ("orange", "red") and not over
         name = e["name"] or e["kind"]
         if len(name) > 90:  # drought names list every country; the full list stays in countries

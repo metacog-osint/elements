@@ -254,6 +254,23 @@ class Feed(unittest.TestCase):
         self.assertFalse(feed.gdacs_ended({"current": True, "to": None}, NOW))
         self.assertTrue(feed.gdacs_ended({"current": False, "to": "2026-11-01T01:00:00Z"}, NOW))
 
+    def test_a_gdacs_event_does_not_age_out_while_gdacs_is_not_read(self):
+        # The lane last read GDACS on 31 Oct (FETCHED); the build runs on 5 Nov from that copy. TC-1001's latest report
+        # (28 Oct 06:00) is more than a week before the build but not before the read: no read has shown GDACS
+        # stopped reporting it, so it stays, as the copy's other events do. GDACS's own iscurrent=false still ends one.
+        later = datetime(2026, 11, 5, 0, 0, tzinfo=timezone.utc)
+        d = dataset()
+        next(r for r in d["gdacs"]["records"] if r["id"] == "DR-1002")["current"] = False
+        gone = []
+        ids = {f["properties"]["id"] for f in feed.build(d, later, ended=gone)["features"]}
+        self.assertIn("elements:gdacs:TC-1001", ids)
+        self.assertEqual([f["properties"]["id"] for f in gone], ["elements:gdacs:DR-1002"])
+        d["gdacs"]["fetched_at"] = "2026-11-04T23:56:00Z"          # a good read on 4-5 Nov with no later report
+        gone = []
+        ids = {f["properties"]["id"] for f in feed.build(d, later, ended=gone)["features"]}
+        self.assertNotIn("elements:gdacs:TC-1001", ids)
+        self.assertIn("elements:gdacs:TC-1001", [f["properties"]["id"] for f in gone])
+
     def test_the_history_step_logs_the_ended_gdacs_version(self):
         import importlib.util
         from elements import history
