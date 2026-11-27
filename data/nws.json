@@ -719,9 +719,9 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Northern Outer Banks",
     "Ocracoke Island",
-    "Hatteras Island"
+    "Hatteras Island",
+    "Northern Outer Banks"
    ],
    "counties": [
     "37055",
@@ -730,7 +730,7 @@
    "sent": "2026-11-27T02:07:00Z",
    "onset": "2026-11-27T02:07:00Z",
    "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7668eef9f37da704bfcab9221476e56ff3ed4bd.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3101,10 +3101,10 @@
    "certainty": "Likely",
    "sender": "NWS Boston/Norton MA",
    "areas": [
+    "Block Island",
     "Barnstable",
     "Dukes",
-    "Nantucket",
-    "Block Island"
+    "Nantucket"
    ],
    "counties": [
     "25001",
@@ -3113,9 +3113,9 @@
     "44009"
    ],
    "sent": "2026-11-26T14:12:00Z",
-   "onset": "2026-11-26T17:00:00Z",
+   "onset": "2026-11-26T15:00:00Z",
    "ends": "2026-11-27T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea6666da7703dd102344378f1096479afa6d1d4.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -3319,9 +3319,9 @@
    "areas": [
     "East Glacier Park Region",
     "Northern High Plains",
+    "Judith Basin County and Judith Gap",
     "Eastern Glacier, Western Toole, and Central Pondera",
-    "Southern High Plains",
-    "Judith Basin County and Judith Gap"
+    "Southern High Plains"
    ],
    "counties": [
     "30027",
@@ -3758,18 +3758,18 @@
    "certainty": "Observed",
    "sender": "NWS Upton NY",
    "areas": [
-    "Moriches Inlet NY to Montauk Point NY out 20 NM",
-    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
-    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
-    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
-    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
-    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
     "Long Island Sound East of New Haven CT/Port Jefferson NY to the Mouth of the Connecticut River",
     "Long Island Sound East of the Mouth of the Connecticut River",
     "Long Island Sound West of New Haven CT/Port Jefferson NY",
     "New York Harbor",
     "Peconic and Gardiners Bays",
-    "South Shore Bays from Jones Inlet through Shinnecock Bay"
+    "South Shore Bays from Jones Inlet through Shinnecock Bay",
+    "Moriches Inlet NY to Montauk Point NY out 20 NM",
+    "Fire Island Inlet NY to Moriches Inlet NY out 20 NM",
+    "Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
+    "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM",
+    "Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM",
+    "Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM"
    ],
    "counties": [
     "73331",
@@ -3788,7 +3788,7 @@
    "sent": "2026-11-26T19:16:00Z",
    "onset": "2026-11-26T19:16:00Z",
    "ends": "2026-11-27T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8b644479c82e6d5b4df56656924b1e58b158946.002.1",
    "geometry": null,
    "vtec": true,
    "points": [],
