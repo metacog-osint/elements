@@ -463,20 +463,6 @@
    "lat": 38.092
   },
   {
-   "id": "{A7C2B47B-366B-43EF-AD54-819A16A8056E}",
-   "name": "North Pond Fire",
-   "acres": 6.0,
-   "contained": null,
-   "discovered": "2026-11-20T18:20:00Z",
-   "updated": "2026-11-25T14:00:13Z",
-   "state": "ME",
-   "county": "Oxford",
-   "cause": "Human",
-   "complexity": null,
-   "lon": -70.6726,
-   "lat": 44.4062
-  },
-  {
    "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
    "name": "Cty D",
    "acres": 3.2,
@@ -503,6 +489,20 @@
    "complexity": null,
    "lon": -72.7632,
    "lat": 42.2359
+  },
+  {
+   "id": "{0464AEE7-B0D9-4336-8357-7DB2ED0A193F}",
+   "name": "Newton 0155",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-27T17:37:00Z",
+   "updated": "2026-11-27T18:44:01Z",
+   "state": "TX",
+   "county": "Newton",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -93.7438,
+   "lat": 30.625
   },
   {
    "id": "{E12A3392-D46B-4E65-940C-C87114640B58}",
@@ -1399,20 +1399,6 @@
    "complexity": null,
    "lon": -118.0942,
    "lat": 33.846
-  },
-  {
-   "id": "{833A8906-4FF4-48F3-92FE-7064AE2ACDC3}",
-   "name": "Taboose 2",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-27T18:15:40Z",
-   "updated": "2026-11-27T18:19:20Z",
-   "state": "CA",
-   "county": "Inyo",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.2333,
-   "lat": 36.9908
   }
  ]
 }
