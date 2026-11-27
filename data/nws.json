@@ -45,10 +45,10 @@
    "certainty": "Likely",
    "sender": "NWS Wakefield VA",
    "areas": [
-    "Inland Worcester",
     "Dorchester",
     "Wicomico",
     "Somerset",
+    "Inland Worcester",
     "Accomack",
     "Northampton"
    ],
@@ -63,7 +63,7 @@
    "sent": "2026-11-27T14:29:00Z",
    "onset": "2026-11-27T14:29:00Z",
    "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01df62ec427a1e6973d10d86301748972cd47e6c.004.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01df62ec427a1e6973d10d86301748972cd47e6c.005.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -94,44 +94,6 @@
    ],
    "lon": -75.754,
    "lat": 38.027,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KMHX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Newport/Morehead City NC",
-   "areas": [
-    "Northern Outer Banks",
-    "Ocracoke Island",
-    "Hatteras Island"
-   ],
-   "counties": [
-    "37055",
-    "37095"
-   ],
-   "sent": "2026-11-27T15:09:00Z",
-   "onset": "2026-11-27T15:09:00Z",
-   "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ae82f8293ebae1d5be25888287a36dd1f746666.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -75.7675,
-     35.6063
-    ],
-    [
-     -76.1537,
-     35.4082
-    ]
-   ],
-   "lon": -75.961,
-   "lat": 35.507,
    "countries": [
     "US"
    ]
@@ -1422,32 +1384,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9183.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Point Franklin to Cape Halkett from 15 to 75 NM"
-   ],
-   "counties": [
-    "58859"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9181.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1464,6 +1400,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9183.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Point Franklin to Cape Halkett from 15 to 75 NM"
+   ],
+   "counties": [
+    "58859"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2090,17 +2052,6 @@
    "certainty": "Possible",
    "sender": "NWS Amarillo TX",
    "areas": [
-    "Cimarron",
-    "Texas",
-    "Dallam",
-    "Sherman",
-    "Hansford",
-    "Ochiltree",
-    "Hartley",
-    "Moore",
-    "Hutchinson",
-    "Oldham",
-    "Potter",
     "Beaver",
     "Lipscomb",
     "Roberts",
@@ -2113,7 +2064,18 @@
     "Armstrong",
     "Donley",
     "Collingsworth",
-    "Palo Duro Canyon"
+    "Palo Duro Canyon",
+    "Cimarron",
+    "Texas",
+    "Dallam",
+    "Sherman",
+    "Hansford",
+    "Ochiltree",
+    "Hartley",
+    "Moore",
+    "Hutchinson",
+    "Oldham",
+    "Potter"
    ],
    "counties": [
     "40007",
@@ -2143,7 +2105,7 @@
    "sent": "2026-11-27T15:50:00Z",
    "onset": "2026-11-28T20:00:00Z",
    "ends": "2026-11-29T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f865f895beffd36c8d7064fedb9b7b0373c429c8.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f865f895beffd36c8d7064fedb9b7b0373c429c8.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -2254,19 +2216,19 @@
    "certainty": "Possible",
    "sender": "NWS Dodge City KS",
    "areas": [
-    "Hamilton",
-    "Kearny",
-    "Stanton",
-    "Grant",
-    "Morton",
-    "Stevens",
     "Scott",
     "Lane",
     "Finney",
     "Haskell",
     "Gray",
     "Seward",
-    "Meade"
+    "Meade",
+    "Hamilton",
+    "Kearny",
+    "Stanton",
+    "Grant",
+    "Morton",
+    "Stevens"
    ],
    "counties": [
     "20055",
@@ -2286,7 +2248,7 @@
    "sent": "2026-11-27T15:55:00Z",
    "onset": "2026-11-28T20:00:00Z",
    "ends": "2026-11-29T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b68bc6fe066d761d3330f904b260b3c5a3f96c27.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b68bc6fe066d761d3330f904b260b3c5a3f96c27.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
