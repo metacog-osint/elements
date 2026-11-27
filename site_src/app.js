@@ -297,8 +297,11 @@
       if (!f.geometry) return;
       var p = f.properties, m = p.measures, c = f.geometry.coordinates;
       var cls = m.level === "warning" ? "a-red" : m.level === "information" ? "a-none" : "a-orange";
-      tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 500,
-        icon: L.divIcon({ className: "ts-icon " + cls, html: "", iconSize: [30, 18] }) }), f)
+      // Not a tab stop, like the GDACS icons: messages for one earthquake from both centres share a point and
+      // neighbouring ones overlap, so the tsunami table below is the keyboard and touch route to each message
+      // (WCAG 2.5.8's equivalent control). The icon's 24 px box still gives pointers a full-size target.
+      tag(L.marker([c[1], c[0]], { keyboard: false, title: p.title, zIndexOffset: 500,
+        icon: L.divIcon({ className: "ts-icon " + cls, html: "", iconSize: [30, 24] }) }), f)
         .bindTooltip(tip(p.title + "\n" + m.centre + ", " + when(p.data_as_of) + (m.headline ? "\n" + m.headline : "")
           + (m.origin_note ? "\n" + m.origin_note : "")))
         .on("add", function (ev) { ev.target.getElement().textContent = "TSU"; })
@@ -311,8 +314,10 @@
       if (!f.geometry) return;
       var p = f.properties, m = p.measures, c = f.geometry.coordinates;
       var col = (m.aviation_color || "").toLowerCase();
-      tag(L.marker([c[1], c[0]], { keyboard: true, title: p.title, zIndexOffset: 400,
-        icon: L.divIcon({ className: "vo-icon a-" + (col || "none"), html: "", iconSize: [18, 16] }) }), f)
+      // Not a tab stop either: volcanoes in one arc sit closer than 24 px at the map's zoom, so the US volcanoes table
+      // is the keyboard and touch route to each one (WCAG 2.5.8's equivalent control).
+      tag(L.marker([c[1], c[0]], { keyboard: false, title: p.title, zIndexOffset: 400,
+        icon: L.divIcon({ className: "vo-icon a-" + (col || "none"), html: "", iconSize: [24, 24] }) }), f)
         .bindTooltip(tip(p.title + "\n" + (m.synopsis || "") + "\n" + (m.observatory || "USGS") + ", " + when(p.data_as_of)
           + (m.nvews_threat ? "\nUSGS threat ranking: " + m.nvews_threat : "")))
         .addTo(layers.volcano);
