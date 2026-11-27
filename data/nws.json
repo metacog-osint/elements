@@ -69,6 +69,61 @@
    ]
   },
   {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Inland Worcester",
+    "Accomack",
+    "Dorchester",
+    "Wicomico",
+    "Somerset"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "24047",
+    "51001"
+   ],
+   "sent": "2026-11-27T20:34:00Z",
+   "onset": "2026-11-27T20:34:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeeae6c9c9de67bfb574f706e90d2911f1b40abb.003.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.3099,
+     38.2221
+    ],
+    [
+     -75.7578,
+     37.7659
+    ]
+   ],
+   "lon": -75.72,
+   "lat": 38.172,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KPHI.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -76,6 +131,11 @@
    "certainty": "Likely",
    "sender": "NWS Mount Holly NJ",
    "areas": [
+    "Queen Anne's",
+    "Talbot",
+    "Caroline",
+    "Inland Sussex",
+    "Delaware Beaches",
     "Kent",
     "Mercer",
     "Gloucester",
@@ -85,12 +145,7 @@
     "Philadelphia",
     "Lower Bucks",
     "Ocean",
-    "Coastal Ocean",
-    "Inland Sussex",
-    "Delaware Beaches",
-    "Queen Anne's",
-    "Talbot",
-    "Caroline"
+    "Coastal Ocean"
    ],
    "counties": [
     "10005",
@@ -107,10 +162,10 @@
     "42045",
     "42101"
    ],
-   "sent": "2026-11-27T19:52:00Z",
-   "onset": "2026-11-27T19:52:00Z",
+   "sent": "2026-11-27T21:06:00Z",
+   "onset": "2026-11-27T21:06:00Z",
    "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b8b8bf3605b83e37ebeea40c652e735ffb487c5.006.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8170ebb9abc94db918456b36aa1235aa8a6bf620.007.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -169,61 +224,6 @@
    ],
    "lon": -75.302,
    "lat": 39.569,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Inland Worcester",
-    "Accomack",
-    "Dorchester",
-    "Wicomico",
-    "Somerset"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "24047",
-    "51001"
-   ],
-   "sent": "2026-11-27T20:34:00Z",
-   "onset": "2026-11-27T20:34:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeeae6c9c9de67bfb574f706e90d2911f1b40abb.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.3099,
-     38.2221
-    ],
-    [
-     -75.7578,
-     37.7659
-    ]
-   ],
-   "lon": -75.72,
-   "lat": 38.172,
    "countries": [
     "US"
    ]
@@ -472,71 +472,6 @@
    ],
    "lon": -114.099,
    "lat": 32.741,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KSEW.FL.W.0039.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Seattle WA",
-   "areas": [
-    "Mason, WA"
-   ],
-   "counties": [
-    "53045"
-   ],
-   "sent": "2026-11-27T13:23:00Z",
-   "onset": "2026-11-27T13:23:00Z",
-   "ends": "2026-11-28T09:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f56b79fb1b1816e84b158339481a49dea4c2a15e.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -123.1,
-       47.33
-      ],
-      [
-       -123.16,
-       47.28
-      ],
-      [
-       -123.33,
-       47.33
-      ],
-      [
-       -123.25,
-       47.34
-      ],
-      [
-       -123.19,
-       47.32
-      ],
-      [
-       -123.15,
-       47.35
-      ],
-      [
-       -123.1,
-       47.33
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -123.1731,
-     47.3508
-    ]
-   ],
-   "lon": -123.183,
-   "lat": 47.326,
    "countries": [
     "US"
    ]
@@ -1169,6 +1104,71 @@
    ],
    "lon": -71.064,
    "lat": 41.874,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSEW.FL.W.0039.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Seattle WA",
+   "areas": [
+    "Mason, WA"
+   ],
+   "counties": [
+    "53045"
+   ],
+   "sent": "2026-11-27T21:14:00Z",
+   "onset": "2026-11-27T21:14:00Z",
+   "ends": "2026-11-29T06:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8442d3e0a74c53c9419e8a296caf97258442f49a.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -123.1,
+       47.33
+      ],
+      [
+       -123.16,
+       47.28
+      ],
+      [
+       -123.33,
+       47.33
+      ],
+      [
+       -123.25,
+       47.34
+      ],
+      [
+       -123.19,
+       47.32
+      ],
+      [
+       -123.15,
+       47.35
+      ],
+      [
+       -123.1,
+       47.33
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -123.1731,
+     47.3508
+    ]
+   ],
+   "lon": -123.183,
+   "lat": 47.326,
    "countries": [
     "US"
    ]

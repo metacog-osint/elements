@@ -300,10 +300,10 @@
    "acres": 50.0,
    "contained": null,
    "discovered": "2026-11-27T19:23:15Z",
-   "updated": "2026-11-27T20:59:58Z",
+   "updated": "2026-11-27T21:13:51Z",
    "state": "FL",
    "county": "Liberty",
-   "cause": "Undetermined",
+   "cause": "Human",
    "complexity": null,
    "lon": -84.9648,
    "lat": 30.217
@@ -748,7 +748,7 @@
    "acres": 0.1,
    "contained": null,
    "discovered": "2026-11-27T00:15:09Z",
-   "updated": "2026-11-27T00:30:12Z",
+   "updated": "2026-11-27T21:11:52Z",
    "state": "CA",
    "county": "Los Angeles",
    "cause": "Undetermined",
@@ -1135,20 +1135,6 @@
    "lat": 34.2361
   },
   {
-   "id": "{B2814F29-0F05-4F23-A9C0-7170B5EB2790}",
-   "name": "Glendora",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-26T09:16:48Z",
-   "updated": "2026-11-26T12:10:32Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -117.66,
-   "lat": 34.2361
-  },
-  {
    "id": "{7ABD9A9C-D286-4BC5-9EC1-BE4BE6185F8C}",
    "name": "Lac-427735",
    "acres": 0.0,
@@ -1315,6 +1301,48 @@
    "complexity": null,
    "lon": -118.0942,
    "lat": 33.846
+  },
+  {
+   "id": "{5EC9EA58-D6DA-482F-A2E9-B0EA8595ECE2}",
+   "name": "Turkey 26",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-27T18:30:00Z",
+   "updated": "2026-11-27T21:26:47Z",
+   "state": "SD",
+   "county": "Dewey",
+   "cause": null,
+   "complexity": null,
+   "lon": -100.5192,
+   "lat": 44.9416
+  },
+  {
+   "id": "{7379E573-8C53-44D4-87E6-C40C4527654D}",
+   "name": "Lac-429544",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-27T21:05:55Z",
+   "updated": "2026-11-27T21:06:26Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.1123,
+   "lat": 34.7188
+  },
+  {
+   "id": "{B1FF73A0-6F2C-4153-85D6-C538E3971571}",
+   "name": "Lac-429578",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-27T21:33:19Z",
+   "updated": "2026-11-27T21:34:46Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.793,
+   "lat": 34.7002
   }
  ]
 }
