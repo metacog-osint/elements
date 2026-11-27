@@ -38,190 +38,6 @@
    ]
   },
   {
-   "id": "KAKQ.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Westmoreland",
-    "Northumberland",
-    "Prince George",
-    "Charles City",
-    "Surry",
-    "James City",
-    "Newport News",
-    "Isle of Wight",
-    "Dorchester",
-    "Wicomico",
-    "Somerset",
-    "Richmond",
-    "Lancaster",
-    "New Kent",
-    "Gloucester",
-    "Middlesex",
-    "Mathews",
-    "Eastern King William",
-    "Eastern King and Queen",
-    "Western Essex",
-    "Eastern Essex",
-    "York",
-    "Accomack",
-    "Northampton"
-   ],
-   "counties": [
-    "24019",
-    "24039",
-    "24045",
-    "51001",
-    "51036",
-    "51057",
-    "51073",
-    "51093",
-    "51095",
-    "51097",
-    "51101",
-    "51103",
-    "51115",
-    "51119",
-    "51127",
-    "51131",
-    "51133",
-    "51149",
-    "51159",
-    "51181",
-    "51193",
-    "51199",
-    "51670",
-    "51700",
-    "51730",
-    "51735",
-    "51830"
-   ],
-   "sent": "2026-11-27T06:12:00Z",
-   "onset": "2026-11-27T06:12:00Z",
-   "ends": "2026-11-28T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a140e64d10925804bea2bb05b622b07bfbcd180.009.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.0474,
-     38.4292
-    ],
-    [
-     -75.8533,
-     38.0744
-    ],
-    [
-     -75.6321,
-     38.3674
-    ],
-    [
-     -75.7578,
-     37.7659
-    ],
-    [
-     -77.0542,
-     37.3611
-    ],
-    [
-     -76.9337,
-     37.9364
-    ],
-    [
-     -76.5235,
-     37.4035
-    ],
-    [
-     -76.7076,
-     36.9014
-    ],
-    [
-     -76.7779,
-     37.3248
-    ],
-    [
-     -76.9056,
-     37.7178
-    ],
-    [
-     -77.0911,
-     37.7083
-    ],
-    [
-     -76.4127,
-     37.7048
-    ],
-    [
-     -76.2688,
-     37.4253
-    ],
-    [
-     -76.5281,
-     37.607
-    ],
-    [
-     -76.9993,
-     37.5102
-    ],
-    [
-     -75.924,
-     37.3028
-    ],
-    [
-     -76.3797,
-     37.857
-    ],
-    [
-     -77.221,
-     37.1873
-    ],
-    [
-     -76.7306,
-     37.9429
-    ],
-    [
-     -76.8802,
-     37.1198
-    ],
-    [
-     -76.8039,
-     38.1093
-    ],
-    [
-     -76.3955,
-     37.2209
-    ],
-    [
-     -77.2989,
-     37.291
-    ],
-    [
-     -76.522,
-     37.0761
-    ],
-    [
-     -77.3924,
-     37.2047
-    ],
-    [
-     -76.3035,
-     37.1284
-    ],
-    [
-     -76.7082,
-     37.2695
-    ]
-   ],
-   "lon": -76.595,
-   "lat": 37.554,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KLWX.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -441,9 +257,9 @@
    "certainty": "Likely",
    "sender": "NWS Newport/Morehead City NC",
    "areas": [
-    "Northern Outer Banks",
     "Ocracoke Island",
-    "Hatteras Island"
+    "Hatteras Island",
+    "Northern Outer Banks"
    ],
    "counties": [
     "37055",
@@ -452,7 +268,7 @@
    "sent": "2026-11-27T09:21:00Z",
    "onset": "2026-11-27T09:21:00Z",
    "ends": "2026-11-27T20:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3de368ae7932857f88124dd1136fa8f8bca11c53.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3de368ae7932857f88124dd1136fa8f8bca11c53.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -498,6 +314,61 @@
    ],
    "lon": -123.104,
    "lat": 48.507,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Dorchester",
+    "Wicomico",
+    "Somerset",
+    "Accomack",
+    "Northampton"
+   ],
+   "counties": [
+    "24019",
+    "24039",
+    "24045",
+    "51001",
+    "51131"
+   ],
+   "sent": "2026-11-27T11:32:00Z",
+   "onset": "2026-11-27T11:32:00Z",
+   "ends": "2026-11-28T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9380edeb0917abbc993adb7dc3da733e2881463.005.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.0474,
+     38.4292
+    ],
+    [
+     -75.8533,
+     38.0744
+    ],
+    [
+     -75.6321,
+     38.3674
+    ],
+    [
+     -75.7578,
+     37.7659
+    ],
+    [
+     -75.924,
+     37.3028
+    ]
+   ],
+   "lon": -75.843,
+   "lat": 37.988,
    "countries": [
     "US"
    ]
@@ -1491,67 +1362,6 @@
    ]
   },
   {
-   "id": "KRAH.FL.W.0003.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Johnston, NC"
-   ],
-   "counties": [
-    "37101"
-   ],
-   "sent": "2026-11-27T08:35:00Z",
-   "onset": "2026-11-27T08:35:00Z",
-   "ends": "2026-11-28T01:53:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.614cb0020c9eebc4b53604fabbc137dd00868b18.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.43,
-       35.72
-      ],
-      [
-       -78.29,
-       35.58
-      ],
-      [
-       -78.29,
-       35.54
-      ],
-      [
-       -78.35,
-       35.56
-      ],
-      [
-       -78.49,
-       35.69
-      ],
-      [
-       -78.43,
-       35.72
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -78.3673,
-     35.5134
-    ]
-   ],
-   "lon": -78.38,
-   "lat": 35.635,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KAKQ.FL.W.0006.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2437,32 +2247,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9181.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9183.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -2479,6 +2263,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9181.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -3343,42 +3153,6 @@
    ]
   },
   {
-   "id": "KGJT.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Elkhead and Park Mountains"
-   ],
-   "counties": [
-    "08081",
-    "08107"
-   ],
-   "sent": "2026-11-27T05:01:00Z",
-   "onset": "2026-11-28T00:00:00Z",
-   "ends": "2026-11-29T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba5bc8c0da22189f061e21466f49f8c9c887daf1.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -108.2172,
-     40.6109
-    ],
-    [
-     -106.9877,
-     40.4837
-    ]
-   ],
-   "lon": -107.602,
-   "lat": 40.547,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBOU.WS.W.0007.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -3637,6 +3411,42 @@
    ],
    "lon": -110.039,
    "lat": 43.756,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KGJT.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Grand Junction CO",
+   "areas": [
+    "Elkhead and Park Mountains"
+   ],
+   "counties": [
+    "08081",
+    "08107"
+   ],
+   "sent": "2026-11-27T11:23:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.134077e7a90264d940bf0b4808840bb1a6704dee.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -108.2172,
+     40.6109
+    ],
+    [
+     -106.9877,
+     40.4837
+    ]
+   ],
+   "lon": -107.602,
+   "lat": 40.547,
    "countries": [
     "US"
    ]
