@@ -297,6 +297,27 @@ class Workflow(unittest.TestCase):
         self.assertNotIn("continue-on-error", wf[last:wf.index("Fail the run if history or the push failed")])
         self.assertIn("steps.deployment_retry.outputs.page_url", wf)
 
+    def test_each_deploy_retry_runs_only_when_the_attempts_before_it_failed(self):
+        wf = (ROOT / ".github/workflows/update.yml").read_text(encoding="utf-8")
+
+        def step_if(marker):
+            """The `if:` lines of the one step that starts with `marker` (an id or a name), up to the next step."""
+            start = wf.index(f"      - {marker}\n")
+            self.assertEqual(wf.count(f"      - {marker}\n"), 1, marker)
+            end = wf.find("\n      - ", start + 1)
+            block = wf[start:end if end != -1 else len(wf)]
+            return [ln.strip()[len("if:"):].strip() for ln in block.splitlines()[1:] if ln.strip().startswith("if:")]
+
+        once = "steps.deployment.outcome == 'failure'"
+        twice = "steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'"
+        # the first attempt always runs; each later step only after every attempt before it failed, so a deploy that
+        # worked is never sent again and the job waits no longer than it must
+        self.assertEqual(step_if("id: deployment"), [])
+        self.assertEqual(step_if("name: Wait before the second deploy attempt"), [once])
+        self.assertEqual(step_if("id: deployment_retry"), [once])
+        self.assertEqual(step_if("name: Wait before the last deploy attempt"), [twice])
+        self.assertEqual(step_if("id: deployment_last"), [twice])
+
 
 class BackfillForce(unittest.TestCase):
     """E6: --force moves history/ aside instead of deleting it, and refuses on a dirty tree."""
