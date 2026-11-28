@@ -1,93 +1,93 @@
 {
  "usgs-earthquakes": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "77 records"
  },
  "gdacs": {
   "last_ok": "2026-11-28T08:35:28Z",
-  "last_error": "2026-11-28T10:05:37Z",
-  "failures": 3,
-  "checked_at": "2026-11-28T10:05:37Z",
-  "detail": "43 records (TimeoutError: The read operation timed out; TimeoutError: The read operation timed out)"
+  "last_error": "2026-11-28T10:35:30Z",
+  "failures": 4,
+  "checked_at": "2026-11-28T10:35:30Z",
+  "detail": "43 records (TimeoutError: The read operation timed out; HTTP 400)"
  },
  "nhc": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "0 records"
  },
  "copernicus-ems": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "50 records"
  },
  "nasa-firms": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": "2026-11-24T05:05:31Z",
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
-  "detail": "69,642 detections in 6,027 cells via api; no rows from Suomi-NPP; key used 144 of 5000 transactions"
+  "checked_at": "2026-11-28T10:35:30Z",
+  "detail": "71,803 detections in 6,397 cells via api; no rows from Suomi-NPP; key used 144 of 5000 transactions"
  },
  "usgs-volcanoes": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": "2026-11-24T15:35:34Z",
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "3 records"
  },
  "nws-alerts": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": "2026-11-17T16:35:34Z",
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "44 records"
  },
  "spc-outlook": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "0 records"
  },
  "noaa-tsunami": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "19 records"
  },
  "us-drought-monitor": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "week of 2026-11-24: 33.61% in drought, map of 2026-11-24"
  },
  "meteoalarm": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
-  "detail": "347 warnings in force in 24 countries (yellow 311, orange 27, red 9)"
+  "checked_at": "2026-11-28T10:35:30Z",
+  "detail": "371 warnings in force in 25 countries (yellow 335, orange 27, red 9)"
  },
  "emsc": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
-  "detail": "85 records"
+  "checked_at": "2026-11-28T10:35:30Z",
+  "detail": "84 records"
  },
  "nifc-wfigs": {
-  "last_ok": "2026-11-28T10:05:37Z",
+  "last_ok": "2026-11-28T10:35:30Z",
   "last_error": null,
   "failures": 0,
-  "checked_at": "2026-11-28T10:05:37Z",
+  "checked_at": "2026-11-28T10:35:30Z",
   "detail": "80 records"
  }
 }
