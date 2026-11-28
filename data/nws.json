@@ -1139,6 +1139,7 @@
    "certainty": "Likely",
    "sender": "NWS Dodge City KS",
    "areas": [
+    "Rush",
     "Scott",
     "Lane",
     "Ness",
@@ -1162,8 +1163,7 @@
     "Meade",
     "Clark",
     "Comanche",
-    "Barber",
-    "Rush"
+    "Barber"
    ],
    "counties": [
     "20007",
@@ -1195,7 +1195,7 @@
    "sent": "2026-11-28T05:00:00Z",
    "onset": "2026-11-28T21:00:00Z",
    "ends": "2026-11-29T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1787,11 +1787,11 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "Ferris/Seminoe/Shirley Mountains",
-    "Central Carbon County",
     "North Snowy Range Foothills",
     "South Laramie Range",
-    "South Laramie Range Foothills"
+    "South Laramie Range Foothills",
+    "Ferris/Seminoe/Shirley Mountains",
+    "Central Carbon County"
    ],
    "counties": [
     "56001",
@@ -1801,7 +1801,7 @@
    "sent": "2026-11-28T07:26:00Z",
    "onset": "2026-11-28T07:26:00Z",
    "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.001.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
