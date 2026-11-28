@@ -1139,7 +1139,6 @@
    "certainty": "Likely",
    "sender": "NWS Dodge City KS",
    "areas": [
-    "Rush",
     "Scott",
     "Lane",
     "Ness",
@@ -1163,7 +1162,8 @@
     "Meade",
     "Clark",
     "Comanche",
-    "Barber"
+    "Barber",
+    "Rush"
    ],
    "counties": [
     "20007",
@@ -1195,7 +1195,7 @@
    "sent": "2026-11-28T05:00:00Z",
    "onset": "2026-11-28T21:00:00Z",
    "ends": "2026-11-29T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1787,11 +1787,11 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "South Laramie Range",
-    "South Laramie Range Foothills",
-    "North Snowy Range Foothills",
     "Ferris/Seminoe/Shirley Mountains",
-    "Central Carbon County"
+    "Central Carbon County",
+    "North Snowy Range Foothills",
+    "South Laramie Range",
+    "South Laramie Range Foothills"
    ],
    "counties": [
     "56001",
@@ -1801,7 +1801,7 @@
    "sent": "2026-11-28T07:26:00Z",
    "onset": "2026-11-28T07:26:00Z",
    "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.003.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1820,6 +1820,47 @@
    ],
    "lon": -105.772,
    "lat": 41.554,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KSLC.HW.W.0006.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Salt Lake City UT",
+   "areas": [
+    "Castle Country"
+   ],
+   "counties": [
+    "49007",
+    "49015",
+    "49041"
+   ],
+   "sent": "2026-11-28T08:23:00Z",
+   "onset": "2026-11-28T16:00:00Z",
+   "ends": "2026-11-28T22:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7560cd34bd8ca6812a3eb6d3b4653ea6974cb70a.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -110.5885,
+     39.6733
+    ],
+    [
+     -110.7211,
+     39.009
+    ],
+    [
+     -111.8119,
+     38.7468
+    ]
+   ],
+   "lon": -111.04,
+   "lat": 39.143,
    "countries": [
     "US"
    ]
@@ -2210,52 +2251,6 @@
    ]
   },
   {
-   "id": "KBYZ.WS.W.0011.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Absaroka/Beartooth Mountains"
-   ],
-   "counties": [
-    "30009",
-    "30067",
-    "30095",
-    "30097"
-   ],
-   "sent": "2026-11-28T06:05:00Z",
-   "onset": "2026-11-28T06:05:00Z",
-   "ends": "2026-11-28T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b51b9265645b7b219067577a6aa2f463c99d10d.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.0286,
-     45.2245
-    ],
-    [
-     -110.5349,
-     45.4631
-    ],
-    [
-     -109.3817,
-     45.6589
-    ],
-    [
-     -109.9448,
-     45.8113
-    ]
-   ],
-   "lon": -109.722,
-   "lat": 45.539,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRIW.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2360,6 +2355,52 @@
    ],
    "lon": -106.328,
    "lat": 41.685,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBYZ.WS.W.0011.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Absaroka/Beartooth Mountains"
+   ],
+   "counties": [
+    "30009",
+    "30067",
+    "30095",
+    "30097"
+   ],
+   "sent": "2026-11-28T08:33:00Z",
+   "onset": "2026-11-28T08:33:00Z",
+   "ends": "2026-11-28T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b000af86ded0906195d8c638d2564da88fbdadd8.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.0286,
+     45.2245
+    ],
+    [
+     -110.5349,
+     45.4631
+    ],
+    [
+     -109.3817,
+     45.6589
+    ],
+    [
+     -109.9448,
+     45.8113
+    ]
+   ],
+   "lon": -109.722,
+   "lat": 45.539,
    "countries": [
     "US"
    ]
