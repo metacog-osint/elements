@@ -646,134 +646,6 @@
    ]
   },
   {
-   "id": "KAKQ.FL.W.0006.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Brunswick, VA",
-    "Greensville, VA"
-   ],
-   "counties": [
-    "51025",
-    "51081"
-   ],
-   "sent": "2026-11-28T02:04:00Z",
-   "onset": "2026-11-28T02:04:00Z",
-   "ends": "2026-11-28T18:46:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.016325d5b61d6d27cd53938800e01c2d036882a9.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.02,
-       36.83
-      ],
-      [
-       -77.56,
-       36.76
-      ],
-      [
-       -77.57,
-       36.66
-      ],
-      [
-       -77.83,
-       36.68
-      ],
-      [
-       -77.93,
-       36.66
-      ],
-      [
-       -78.03,
-       36.72
-      ],
-      [
-       -78.02,
-       36.83
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -77.8615,
-     36.7642
-    ],
-    [
-     -77.5603,
-     36.6803
-    ]
-   ],
-   "lon": -77.851,
-   "lat": 36.734,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KAKQ.FL.W.0005.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Wakefield VA",
-   "areas": [
-    "Bertie, NC"
-   ],
-   "counties": [
-    "37015"
-   ],
-   "sent": "2026-11-28T02:04:00Z",
-   "onset": "2026-11-28T02:04:00Z",
-   "ends": "2026-11-28T08:02:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.016325d5b61d6d27cd53938800e01c2d036882a9.002.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -77.12,
-       36.1
-      ],
-      [
-       -76.95,
-       36.1
-      ],
-      [
-       -76.84,
-       35.95
-      ],
-      [
-       -76.93,
-       35.93
-      ],
-      [
-       -77.12,
-       36.1
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -76.9624,
-     36.059
-    ]
-   ],
-   "lon": -76.992,
-   "lat": 36.036,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KRAH.FL.W.0002.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -899,6 +771,77 @@
    ],
    "lon": -123.183,
    "lat": 47.326,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAKQ.FL.W.0006.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Wakefield VA",
+   "areas": [
+    "Brunswick, VA",
+    "Greensville, VA"
+   ],
+   "counties": [
+    "51025",
+    "51081"
+   ],
+   "sent": "2026-11-28T05:30:00Z",
+   "onset": "2026-11-28T05:30:00Z",
+   "ends": "2026-11-28T18:46:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4dc0f2aee19e768003cb05c85cb529d89807569b.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -78.02,
+       36.83
+      ],
+      [
+       -77.56,
+       36.76
+      ],
+      [
+       -77.57,
+       36.66
+      ],
+      [
+       -77.83,
+       36.68
+      ],
+      [
+       -77.93,
+       36.66
+      ],
+      [
+       -78.03,
+       36.72
+      ],
+      [
+       -78.02,
+       36.83
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -77.8615,
+     36.7642
+    ],
+    [
+     -77.5603,
+     36.6803
+    ]
+   ],
+   "lon": -77.851,
+   "lat": 36.734,
    "countries": [
     "US"
    ]
@@ -1388,7 +1331,6 @@
    "certainty": "Likely",
    "sender": "NWS Dodge City KS",
    "areas": [
-    "Rush",
     "Scott",
     "Lane",
     "Ness",
@@ -1412,7 +1354,8 @@
     "Meade",
     "Clark",
     "Comanche",
-    "Barber"
+    "Barber",
+    "Rush"
    ],
    "counties": [
     "20007",
@@ -1444,7 +1387,7 @@
    "sent": "2026-11-28T05:00:00Z",
    "onset": "2026-11-28T21:00:00Z",
    "ends": "2026-11-29T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.001.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1556,38 +1499,50 @@
    ]
   },
   {
-   "id": "KGLD.HW.A.0004.2026",
-   "event": "High Wind Watch",
+   "id": "KGLD.HW.W.0004.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Goodland KS",
    "areas": [
+    "Cheyenne County",
+    "Wallace",
     "Greeley",
     "Wichita"
    ],
    "counties": [
+    "08017",
     "20071",
+    "20199",
     "20203"
    ],
-   "sent": "2026-11-27T16:25:00Z",
-   "onset": "2026-11-28T18:00:00Z",
-   "ends": "2026-11-29T00:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c7b9259403d98084af32c47d7fdf18f1fe38fdc.001.1",
+   "sent": "2026-11-28T05:07:00Z",
+   "onset": "2026-11-28T21:00:00Z",
+   "ends": "2026-11-29T04:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e562900552122665ecf2a4f09586201c65c935c.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
+     -102.6018,
+     38.8356
+    ],
+    [
      -101.806,
      38.4804
+    ],
+    [
+     -101.7711,
+     38.9266
     ],
     [
      -101.3474,
      38.4819
     ]
    ],
-   "lon": -101.577,
-   "lat": 38.481,
+   "lon": -101.882,
+   "lat": 38.681,
    "countries": [
     "US"
    ]
@@ -2356,42 +2311,6 @@
    ]
   },
   {
-   "id": "KBOU.WS.W.0007.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Denver CO",
-   "areas": [
-    "West Jackson and West Grand Counties Above 9000 Feet"
-   ],
-   "counties": [
-    "08049",
-    "08057"
-   ],
-   "sent": "2026-11-27T21:54:00Z",
-   "onset": "2026-11-28T00:00:00Z",
-   "ends": "2026-11-29T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce570c425ba5651fa9d54ed7311f41bcb923fd64.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -106.1108,
-     40.1131
-    ],
-    [
-     -106.3292,
-     40.6634
-    ]
-   ],
-   "lon": -106.22,
-   "lat": 40.388,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KGJT.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2423,6 +2342,53 @@
    ],
    "lon": -107.602,
    "lat": 40.547,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOU.WS.W.0007.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
+   "areas": [
+    "South and East Jackson/Larimer/North and Northeast Grand/Northwest Boulder Counties Above 9000 Feet",
+    "West Jackson and West Grand Counties Above 9000 Feet"
+   ],
+   "counties": [
+    "08013",
+    "08049",
+    "08057",
+    "08069"
+   ],
+   "sent": "2026-11-28T05:35:00Z",
+   "onset": "2026-11-28T07:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73d81f24e8ce6e2fc076c9e1e53f05747e90444c.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -105.3977,
+     40.095
+    ],
+    [
+     -106.1108,
+     40.1131
+    ],
+    [
+     -106.3292,
+     40.6634
+    ],
+    [
+     -105.4868,
+     40.6581
+    ]
+   ],
+   "lon": -105.831,
+   "lat": 40.382,
    "countries": [
     "US"
    ]
