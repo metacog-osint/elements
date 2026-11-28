@@ -163,7 +163,7 @@
    "id": "FL-1104302",
    "type": "FL",
    "kind": "flood",
-   "episode": 3,
+   "episode": 4,
    "name": "Flood in Paraguay",
    "alert": "green",
    "score": 1,
@@ -171,13 +171,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-18T01:00:00Z",
-   "to": "2026-11-23T01:00:00Z",
-   "current": false,
+   "to": "2026-11-25T01:00:00Z",
+   "current": true,
    "country": "Paraguay",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=3&eventtype=FL",
-   "lon": -59.167,
-   "lat": -20.5,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=4&eventtype=FL",
+   "lon": -56.0,
+   "lat": -23.0,
    "countries": [
     "PY"
    ]
@@ -505,52 +505,6 @@
    ]
   },
   {
-   "id": "FL-1104271",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 6,
-   "name": "Flood in Vietnam",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-06T01:00:00Z",
-   "to": "2026-11-13T01:00:00Z",
-   "current": false,
-   "country": "Vietnam",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104271&episodeid=6&eventtype=FL",
-   "lon": 105.853,
-   "lat": 21.011,
-   "countries": [
-    "VN"
-   ]
-  },
-  {
-   "id": "FL-1104283",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 2,
-   "name": "Flood in Thailand",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-06T01:00:00Z",
-   "to": "2026-11-13T01:00:00Z",
-   "current": false,
-   "country": "Thailand",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104283&episodeid=2&eventtype=FL",
-   "lon": 99.008,
-   "lat": 10.378,
-   "countries": [
-    "TH"
-   ]
-  },
-  {
    "id": "FL-1104270",
    "type": "FL",
    "kind": "flood",
@@ -715,7 +669,7 @@
    "id": "FL-1104167",
    "type": "FL",
    "kind": "flood",
-   "episode": 17,
+   "episode": 18,
    "name": "Flood in Ecuador",
    "alert": "green",
    "score": 1,
@@ -727,9 +681,9 @@
    "current": false,
    "country": "Ecuador",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=17&eventtype=FL",
-   "lon": -79.652,
-   "lat": 0.967,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=18&eventtype=FL",
+   "lon": -79.554,
+   "lat": -1.494,
    "countries": [
     "EC"
    ]
