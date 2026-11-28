@@ -38,37 +38,6 @@
    ]
   },
   {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Anne Arundel"
-   ],
-   "counties": [
-    "24003"
-   ],
-   "sent": "2026-11-27T18:39:00Z",
-   "onset": "2026-11-27T18:39:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5f6afbc0ea743bced0f66e5f013343eba8a9c8d.003.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.5609,
-     38.9916
-    ]
-   ],
-   "lon": -76.561,
-   "lat": 38.992,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPHI.CF.W.0004.2026",
    "event": "Coastal Flood Warning",
    "severity": "Severe",
@@ -170,6 +139,37 @@
    ],
    "lon": -75.844,
    "lat": 38.29,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KLWX.CF.W.0004.2026",
+   "event": "Coastal Flood Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Baltimore MD/Washington DC",
+   "areas": [
+    "Anne Arundel"
+   ],
+   "counties": [
+    "24003"
+   ],
+   "sent": "2026-11-28T00:36:00Z",
+   "onset": "2026-11-28T00:36:00Z",
+   "ends": "2026-11-28T05:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30484c5ef1345a0f0dfbeb0fbc35c0ed185710f3.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -76.5609,
+     38.9916
+    ]
+   ],
+   "lon": -76.561,
+   "lat": 38.992,
    "countries": [
     "US"
    ]
@@ -1041,32 +1041,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.3597.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Western US Arctic Offshore"
-   ],
-   "counties": [
-    "58500"
-   ],
-   "sent": "2026-11-21T00:45:00Z",
-   "onset": "2026-11-28T02:00:00Z",
-   "ends": "2026-11-28T14:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e223157a6e1ae839a3129fb0c0c2be643bcde0fa.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.1125.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1145,32 +1119,6 @@
    ]
   },
   {
-   "id": "PAFG.UP.W.9181.2026",
-   "event": "Heavy Freezing Spray Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Cape Beaufort to Point Franklin from 15 to 85 NM"
-   ],
-   "counties": [
-    "58858"
-   ],
-   "sent": "2026-11-27T00:48:00Z",
-   "onset": "2026-11-27T00:00:00Z",
-   "ends": "2026-11-28T02:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [],
-   "lon": null,
-   "lat": null,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "PAFG.UP.W.9183.2026",
    "event": "Heavy Freezing Spray Warning",
    "severity": "Severe",
@@ -1187,6 +1135,32 @@
    "onset": "2026-11-27T00:00:00Z",
    "ends": "2026-11-28T02:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.008.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.9181.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-27T00:48:00Z",
+   "onset": "2026-11-27T00:00:00Z",
+   "ends": "2026-11-28T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eed42829ecae461e778743911c88fb372b6357bd.007.1",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -1551,6 +1525,136 @@
    "onset": "2026-11-27T12:00:00Z",
    "ends": "2026-11-28T14:00:00Z",
    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.770a49974ddf195367a34d23f8e2515df2d537a5.010.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.2590.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Western US Arctic Offshore"
+   ],
+   "counties": [
+    "58500"
+   ],
+   "sent": "2026-11-28T00:45:00Z",
+   "onset": "2026-11-28T01:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4d9d806664bee5f5bf4ef69c5e2cca2e52288aa.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7857.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Beaufort to Point Franklin from 15 to 85 NM"
+   ],
+   "counties": [
+    "58858"
+   ],
+   "sent": "2026-11-28T00:48:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d772774064d7a98cb6a4e28b25aec732e258cc0c.007.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7860.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point from 15 to 75 NM"
+   ],
+   "counties": [
+    "58861"
+   ],
+   "sent": "2026-11-28T00:48:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d772774064d7a98cb6a4e28b25aec732e258cc0c.010.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7858.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Cape Halkett to Flaxman Island from 15 to 80 NM"
+   ],
+   "counties": [
+    "58860"
+   ],
+   "sent": "2026-11-28T00:48:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d772774064d7a98cb6a4e28b25aec732e258cc0c.009.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [],
+   "lon": null,
+   "lat": null,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "PAFG.UP.W.7854.2026",
+   "event": "Heavy Freezing Spray Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Fairbanks AK",
+   "areas": [
+    "Flaxman Island to Demarcation Point out to 15 NM"
+   ],
+   "counties": [
+    "58815"
+   ],
+   "sent": "2026-11-28T00:48:00Z",
+   "onset": "2026-11-28T00:00:00Z",
+   "ends": "2026-11-29T02:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d772774064d7a98cb6a4e28b25aec732e258cc0c.005.2",
    "geometry": null,
    "vtec": true,
    "points": [],
@@ -2109,86 +2213,6 @@
    ]
   },
   {
-   "id": "KPUB.HW.A.0007.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Eastern Las Animas County",
-    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
-    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
-    "Crowley County",
-    "La Junta Vicinity/Otero County",
-    "Western Kiowa County",
-    "Eastern Kiowa County",
-    "Las Animas Vicinity/Bent County",
-    "Lamar Vicinity/Prowers County",
-    "Springfield Vicinity/Baca County"
-   ],
-   "counties": [
-    "08009",
-    "08011",
-    "08025",
-    "08041",
-    "08061",
-    "08071",
-    "08089",
-    "08099",
-    "08101"
-   ],
-   "sent": "2026-11-27T18:06:00Z",
-   "onset": "2026-11-28T19:00:00Z",
-   "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25737a63a6365c8524ac89e80d8e7a4332b78d5c.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -102.5437,
-     37.3098
-    ],
-    [
-     -103.0776,
-     37.9319
-    ],
-    [
-     -103.7727,
-     38.3062
-    ],
-    [
-     -104.5277,
-     38.8311
-    ],
-    [
-     -102.7568,
-     38.3877
-    ],
-    [
-     -104.0441,
-     37.3188
-    ],
-    [
-     -103.7213,
-     37.8842
-    ],
-    [
-     -102.3918,
-     37.9584
-    ],
-    [
-     -104.4847,
-     38.1628
-    ]
-   ],
-   "lon": -103.48,
-   "lat": 38.01,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMRX.HW.A.0003.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -2463,6 +2487,86 @@
    ],
    "lon": -100.279,
    "lat": 37.726,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.HW.A.0007.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
+    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
+    "Crowley County",
+    "La Junta Vicinity/Otero County",
+    "Eastern Las Animas County",
+    "Western Kiowa County",
+    "Eastern Kiowa County",
+    "Las Animas Vicinity/Bent County",
+    "Lamar Vicinity/Prowers County",
+    "Springfield Vicinity/Baca County"
+   ],
+   "counties": [
+    "08009",
+    "08011",
+    "08025",
+    "08041",
+    "08061",
+    "08071",
+    "08089",
+    "08099",
+    "08101"
+   ],
+   "sent": "2026-11-28T00:47:00Z",
+   "onset": "2026-11-28T19:00:00Z",
+   "ends": "2026-11-29T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6432703fe4f9cd55e6132618b28691005d244f51.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -102.5437,
+     37.3098
+    ],
+    [
+     -103.0776,
+     37.9319
+    ],
+    [
+     -103.7727,
+     38.3062
+    ],
+    [
+     -104.5277,
+     38.8311
+    ],
+    [
+     -102.7568,
+     38.3877
+    ],
+    [
+     -104.0441,
+     37.3188
+    ],
+    [
+     -103.7213,
+     37.8842
+    ],
+    [
+     -102.3918,
+     37.9584
+    ],
+    [
+     -104.4847,
+     38.1628
+    ]
+   ],
+   "lon": -103.48,
+   "lat": 38.01,
    "countries": [
     "US"
    ]
