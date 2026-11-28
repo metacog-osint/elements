@@ -38,37 +38,6 @@
    ]
   },
   {
-   "id": "KLWX.CF.W.0004.2026",
-   "event": "Coastal Flood Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Baltimore MD/Washington DC",
-   "areas": [
-    "Anne Arundel"
-   ],
-   "counties": [
-    "24003"
-   ],
-   "sent": "2026-11-28T00:36:00Z",
-   "onset": "2026-11-28T00:36:00Z",
-   "ends": "2026-11-28T05:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30484c5ef1345a0f0dfbeb0fbc35c0ed185710f3.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -76.5609,
-     38.9916
-    ]
-   ],
-   "lon": -76.561,
-   "lat": 38.992,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KPSR.FA.W.0044.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -2226,42 +2195,6 @@
    ]
   },
   {
-   "id": "KGJT.WS.W.0006.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Grand Junction CO",
-   "areas": [
-    "Elkhead and Park Mountains"
-   ],
-   "counties": [
-    "08081",
-    "08107"
-   ],
-   "sent": "2026-11-27T16:54:00Z",
-   "onset": "2026-11-28T00:00:00Z",
-   "ends": "2026-11-29T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dd7136f3f915e8b520681f90dea0864c6159c38.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -108.2172,
-     40.6109
-    ],
-    [
-     -106.9877,
-     40.4837
-    ]
-   ],
-   "lon": -107.602,
-   "lat": 40.547,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KBYZ.WS.W.0011.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2448,6 +2381,42 @@
    ],
    "lon": -106.22,
    "lat": 40.388,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KGJT.WS.W.0006.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Grand Junction CO",
+   "areas": [
+    "Elkhead and Park Mountains"
+   ],
+   "counties": [
+    "08081",
+    "08107"
+   ],
+   "sent": "2026-11-28T03:34:00Z",
+   "onset": "2026-11-28T03:34:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.173f478ec3cc87d99138e29125a27ab62e2153da.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -108.2172,
+     40.6109
+    ],
+    [
+     -106.9877,
+     40.4837
+    ]
+   ],
+   "lon": -107.602,
+   "lat": 40.547,
    "countries": [
     "US"
    ]
