@@ -1200,47 +1200,6 @@
    ]
   },
   {
-   "id": "KABQ.HW.W.0013.2026",
-   "event": "High Wind Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Central Highlands"
-   ],
-   "counties": [
-    "35047",
-    "35049",
-    "35057"
-   ],
-   "sent": "2026-11-27T18:43:00Z",
-   "onset": "2026-11-28T18:00:00Z",
-   "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b89ffa1d5509e4d765aee145d473f64a93c81c89.001.2",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.8035,
-     35.4769
-    ],
-    [
-     -105.964,
-     35.5145
-    ],
-    [
-     -105.8906,
-     34.555
-    ]
-   ],
-   "lon": -105.553,
-   "lat": 35.182,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KCYS.HW.W.0044.2026",
    "event": "High Wind Warning",
    "severity": "Severe",
@@ -1331,6 +1290,7 @@
    "certainty": "Likely",
    "sender": "NWS Dodge City KS",
    "areas": [
+    "Rush",
     "Scott",
     "Lane",
     "Ness",
@@ -1354,8 +1314,7 @@
     "Meade",
     "Clark",
     "Comanche",
-    "Barber",
-    "Rush"
+    "Barber"
    ],
    "counties": [
     "20007",
@@ -1387,7 +1346,7 @@
    "sent": "2026-11-28T05:00:00Z",
    "onset": "2026-11-28T21:00:00Z",
    "ends": "2026-11-29T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.001.2",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bda78b7fd52d8db65e0c5c18ce1b21a5c55593b.002.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1548,62 +1507,322 @@
    ]
   },
   {
-   "id": "KLUB.HW.A.0003.2026",
-   "event": "High Wind Watch",
+   "id": "KBOU.HW.W.0009.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Lubbock TX",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Denver CO",
    "areas": [
-    "Briscoe",
-    "Hall",
-    "Childress",
-    "Floyd",
-    "Motley",
-    "Cottle"
+    "Southeast Elbert County Below 6000 Feet/South Lincoln County"
    ],
    "counties": [
-    "48045",
-    "48075",
-    "48101",
-    "48153",
-    "48191",
-    "48345"
+    "08039",
+    "08073"
    ],
-   "sent": "2026-11-27T17:30:00Z",
-   "onset": "2026-11-29T02:00:00Z",
-   "ends": "2026-11-29T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16717c042704324324419c72ac9aa2b23e3c4a05.003.1",
+   "sent": "2026-11-28T05:39:00Z",
+   "onset": "2026-11-28T21:00:00Z",
+   "ends": "2026-11-29T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb50871f9565825de170ac804b5b4bf776d727af.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -101.2059,
-     34.5252
+     -104.1141,
+     39.3152
     ],
     [
-     -100.2082,
-     34.5247
-    ],
-    [
-     -100.2764,
-     34.0919
-    ],
-    [
-     -101.3033,
-     34.0737
-    ],
-    [
-     -100.5763,
-     34.4532
-    ],
-    [
-     -100.7932,
-     34.0579
+     -103.5076,
+     38.9937
     ]
    ],
-   "lon": -100.727,
-   "lat": 34.288,
+   "lon": -103.811,
+   "lat": 39.154,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KPUB.HW.W.0009.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Pueblo CO",
+   "areas": [
+    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
+    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
+    "Crowley County",
+    "La Junta Vicinity/Otero County",
+    "Eastern Las Animas County",
+    "Western Kiowa County",
+    "Eastern Kiowa County",
+    "Las Animas Vicinity/Bent County",
+    "Lamar Vicinity/Prowers County",
+    "Springfield Vicinity/Baca County"
+   ],
+   "counties": [
+    "08009",
+    "08011",
+    "08025",
+    "08041",
+    "08061",
+    "08071",
+    "08089",
+    "08099",
+    "08101"
+   ],
+   "sent": "2026-11-28T05:39:00Z",
+   "onset": "2026-11-28T19:00:00Z",
+   "ends": "2026-11-29T03:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d707eb6580080c97d5d527d6a5d8f1bb18eba065.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -102.5437,
+     37.3098
+    ],
+    [
+     -103.0776,
+     37.9319
+    ],
+    [
+     -103.7727,
+     38.3062
+    ],
+    [
+     -104.5277,
+     38.8311
+    ],
+    [
+     -102.7568,
+     38.3877
+    ],
+    [
+     -104.0441,
+     37.3188
+    ],
+    [
+     -103.7213,
+     37.8842
+    ],
+    [
+     -102.3918,
+     37.9584
+    ],
+    [
+     -104.4847,
+     38.1628
+    ]
+   ],
+   "lon": -103.48,
+   "lat": 38.01,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KAMA.HW.W.0006.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Amarillo TX",
+   "areas": [
+    "Cimarron",
+    "Texas",
+    "Beaver",
+    "Dallam",
+    "Sherman",
+    "Hansford",
+    "Ochiltree",
+    "Lipscomb",
+    "Hartley",
+    "Moore",
+    "Hutchinson",
+    "Roberts",
+    "Hemphill",
+    "Potter",
+    "Carson",
+    "Gray",
+    "Wheeler",
+    "Randall",
+    "Armstrong",
+    "Donley",
+    "Collingsworth",
+    "Palo Duro Canyon"
+   ],
+   "counties": [
+    "40007",
+    "40025",
+    "40139",
+    "48011",
+    "48065",
+    "48087",
+    "48111",
+    "48129",
+    "48179",
+    "48195",
+    "48205",
+    "48211",
+    "48233",
+    "48295",
+    "48341",
+    "48357",
+    "48375",
+    "48381",
+    "48393",
+    "48421",
+    "48483"
+   ],
+   "sent": "2026-11-28T05:41:00Z",
+   "onset": "2026-11-28T21:00:00Z",
+   "ends": "2026-11-29T09:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9eadb9bf41625d90a54751b5b6c3ffc402b8a1fc.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -100.4831,
+     36.7483
+    ],
+    [
+     -102.5177,
+     36.7484
+    ],
+    [
+     -101.4839,
+     36.7463
+    ],
+    [
+     -101.3566,
+     34.9642
+    ],
+    [
+     -101.3554,
+     35.4055
+    ],
+    [
+     -100.2721,
+     34.9634
+    ],
+    [
+     -102.594,
+     36.2864
+    ],
+    [
+     -100.8158,
+     34.955
+    ],
+    [
+     -100.8124,
+     35.4025
+    ],
+    [
+     -101.3569,
+     36.2728
+    ],
+    [
+     -102.61,
+     35.8402
+    ],
+    [
+     -100.2792,
+     35.816
+    ],
+    [
+     -101.3627,
+     35.837
+    ],
+    [
+     -100.2727,
+     36.2802
+    ],
+    [
+     -101.8905,
+     35.8357
+    ],
+    [
+     -100.8159,
+     36.2787
+    ],
+    [
+     -101.8938,
+     35.3987
+    ],
+    [
+     -101.8955,
+     34.9625
+    ],
+    [
+     -100.8367,
+     35.8386
+    ],
+    [
+     -101.8993,
+     36.2786
+    ],
+    [
+     -100.2531,
+     35.3926
+    ]
+   ],
+   "lon": -101.288,
+   "lat": 35.822,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KABQ.HW.W.0013.2026",
+   "event": "High Wind Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Albuquerque NM",
+   "areas": [
+    "Central Highlands",
+    "Johnson and Bartlett Mesas Including Raton Pass",
+    "Union County"
+   ],
+   "counties": [
+    "35007",
+    "35047",
+    "35049",
+    "35057",
+    "35059"
+   ],
+   "sent": "2026-11-28T05:55:00Z",
+   "onset": "2026-11-28T18:00:00Z",
+   "ends": "2026-11-29T07:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df62a848c69f0ebadf61d4fc74d03fa4a5ff6af2.002.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -104.6401,
+     36.613
+    ],
+    [
+     -104.8035,
+     35.4769
+    ],
+    [
+     -105.964,
+     35.5145
+    ],
+    [
+     -105.8906,
+     34.555
+    ],
+    [
+     -103.4757,
+     36.4881
+    ]
+   ],
+   "lon": -104.955,
+   "lat": 35.73,
    "countries": [
     "US"
    ]
@@ -1730,123 +1949,6 @@
    ]
   },
   {
-   "id": "KABQ.HW.A.0008.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Albuquerque NM",
-   "areas": [
-    "Johnson and Bartlett Mesas Including Raton Pass",
-    "Union County"
-   ],
-   "counties": [
-    "35007",
-    "35059"
-   ],
-   "sent": "2026-11-27T18:43:00Z",
-   "onset": "2026-11-28T21:00:00Z",
-   "ends": "2026-11-29T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b89ffa1d5509e4d765aee145d473f64a93c81c89.005.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -104.6401,
-     36.613
-    ],
-    [
-     -103.4757,
-     36.4881
-    ]
-   ],
-   "lon": -104.058,
-   "lat": 36.551,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KPUB.HW.A.0007.2026",
-   "event": "High Wind Watch",
-   "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
-   "sender": "NWS Pueblo CO",
-   "areas": [
-    "Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",
-    "Pueblo Vicinity/Pueblo County Below 6300 Feet",
-    "Crowley County",
-    "La Junta Vicinity/Otero County",
-    "Eastern Las Animas County",
-    "Western Kiowa County",
-    "Eastern Kiowa County",
-    "Las Animas Vicinity/Bent County",
-    "Lamar Vicinity/Prowers County",
-    "Springfield Vicinity/Baca County"
-   ],
-   "counties": [
-    "08009",
-    "08011",
-    "08025",
-    "08041",
-    "08061",
-    "08071",
-    "08089",
-    "08099",
-    "08101"
-   ],
-   "sent": "2026-11-28T00:47:00Z",
-   "onset": "2026-11-28T19:00:00Z",
-   "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6432703fe4f9cd55e6132618b28691005d244f51.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -102.5437,
-     37.3098
-    ],
-    [
-     -103.0776,
-     37.9319
-    ],
-    [
-     -103.7727,
-     38.3062
-    ],
-    [
-     -104.5277,
-     38.8311
-    ],
-    [
-     -102.7568,
-     38.3877
-    ],
-    [
-     -104.0441,
-     37.3188
-    ],
-    [
-     -103.7213,
-     37.8842
-    ],
-    [
-     -102.3918,
-     37.9584
-    ],
-    [
-     -104.4847,
-     38.1628
-    ]
-   ],
-   "lon": -103.48,
-   "lat": 38.01,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMRX.HW.A.0003.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
@@ -1920,165 +2022,62 @@
    ]
   },
   {
-   "id": "KAMA.HW.A.0003.2026",
+   "id": "KLUB.HW.A.0003.2026",
    "event": "High Wind Watch",
    "severity": "Severe",
    "urgency": "Future",
    "certainty": "Possible",
-   "sender": "NWS Amarillo TX",
+   "sender": "NWS Lubbock TX",
    "areas": [
-    "Cimarron",
-    "Texas",
-    "Beaver",
-    "Dallam",
-    "Sherman",
-    "Hansford",
-    "Ochiltree",
-    "Lipscomb",
-    "Hartley",
-    "Moore",
-    "Hutchinson",
-    "Roberts",
-    "Hemphill",
-    "Oldham",
-    "Potter",
-    "Carson",
-    "Gray",
-    "Wheeler",
-    "Deaf Smith",
-    "Randall",
-    "Armstrong",
-    "Donley",
-    "Collingsworth",
-    "Palo Duro Canyon"
+    "Briscoe",
+    "Hall",
+    "Childress",
+    "Floyd",
+    "Motley",
+    "Cottle"
    ],
    "counties": [
-    "40007",
-    "40025",
-    "40139",
-    "48011",
-    "48065",
-    "48087",
-    "48111",
-    "48117",
-    "48129",
-    "48179",
-    "48195",
-    "48205",
-    "48211",
-    "48233",
-    "48295",
-    "48341",
-    "48357",
-    "48359",
-    "48375",
-    "48381",
-    "48393",
-    "48421",
-    "48483"
+    "48045",
+    "48075",
+    "48101",
+    "48153",
+    "48191",
+    "48345"
    ],
-   "sent": "2026-11-28T05:05:00Z",
-   "onset": "2026-11-28T20:00:00Z",
-   "ends": "2026-11-29T06:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ab011a3dd7be3c6c00e25523140072d9c453b36.001.1",
+   "sent": "2026-11-28T05:54:00Z",
+   "onset": "2026-11-29T02:00:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a65545a98a85d7eac8ee0f82b12536b24f730a5.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
     [
-     -100.4831,
-     36.7483
+     -101.2059,
+     34.5252
     ],
     [
-     -102.5177,
-     36.7484
+     -100.2082,
+     34.5247
     ],
     [
-     -101.4839,
-     36.7463
+     -100.2764,
+     34.0919
     ],
     [
-     -101.3566,
-     34.9642
+     -101.3033,
+     34.0737
     ],
     [
-     -101.3554,
-     35.4055
+     -100.5763,
+     34.4532
     ],
     [
-     -100.2721,
-     34.9634
-    ],
-    [
-     -102.594,
-     36.2864
-    ],
-    [
-     -102.6076,
-     34.9408
-    ],
-    [
-     -100.8158,
-     34.955
-    ],
-    [
-     -100.8124,
-     35.4025
-    ],
-    [
-     -101.3569,
-     36.2728
-    ],
-    [
-     -102.61,
-     35.8402
-    ],
-    [
-     -100.2792,
-     35.816
-    ],
-    [
-     -101.3627,
-     35.837
-    ],
-    [
-     -100.2727,
-     36.2802
-    ],
-    [
-     -101.8905,
-     35.8357
-    ],
-    [
-     -100.8159,
-     36.2787
-    ],
-    [
-     -102.5976,
-     35.4019
-    ],
-    [
-     -101.8938,
-     35.3987
-    ],
-    [
-     -101.8955,
-     34.9625
-    ],
-    [
-     -100.8367,
-     35.8386
-    ],
-    [
-     -101.8993,
-     36.2786
-    ],
-    [
-     -100.2531,
-     35.3926
+     -100.7932,
+     34.0579
     ]
    ],
-   "lon": -101.403,
-   "lat": 35.765,
+   "lon": -100.727,
+   "lat": 34.288,
    "countries": [
     "US"
    ]
@@ -2151,93 +2150,6 @@
    ],
    "lon": -110.039,
    "lat": 43.756,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KBYZ.WS.W.0011.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Billings MT",
-   "areas": [
-    "Absaroka/Beartooth Mountains"
-   ],
-   "counties": [
-    "30009",
-    "30067",
-    "30095",
-    "30097"
-   ],
-   "sent": "2026-11-27T18:36:00Z",
-   "onset": "2026-11-27T18:36:00Z",
-   "ends": "2026-11-28T19:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99422fe67ce0ece9011fd711175440fc0f0e8b13.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -109.0286,
-     45.2245
-    ],
-    [
-     -110.5349,
-     45.4631
-    ],
-    [
-     -109.3817,
-     45.6589
-    ],
-    [
-     -109.9448,
-     45.8113
-    ]
-   ],
-   "lon": -109.722,
-   "lat": 45.539,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "KTFX.WS.W.0009.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Great Falls MT",
-   "areas": [
-    "Gallatin and Madison County Mountains and Centennial Mountains"
-   ],
-   "counties": [
-    "30001",
-    "30031",
-    "30057"
-   ],
-   "sent": "2026-11-27T20:15:00Z",
-   "onset": "2026-11-28T03:00:00Z",
-   "ends": "2026-11-28T18:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c5e63013697044af818d84b4e45d1abc8171ef8.001.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -112.8929,
-     45.1339
-    ],
-    [
-     -111.1639,
-     45.5181
-    ],
-    [
-     -111.9138,
-     45.3253
-    ]
-   ],
-   "lon": -111.99,
-   "lat": 45.326,
    "countries": [
     "US"
    ]
@@ -2389,6 +2301,93 @@
    ],
    "lon": -105.831,
    "lat": 40.382,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KTFX.WS.W.0009.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Great Falls MT",
+   "areas": [
+    "Gallatin and Madison County Mountains and Centennial Mountains"
+   ],
+   "counties": [
+    "30001",
+    "30031",
+    "30057"
+   ],
+   "sent": "2026-11-28T06:02:00Z",
+   "onset": "2026-11-28T06:02:00Z",
+   "ends": "2026-11-28T18:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b0a83d23dfed0bf147e6b9be3bc4d5d765cb671.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -112.8929,
+     45.1339
+    ],
+    [
+     -111.1639,
+     45.5181
+    ],
+    [
+     -111.9138,
+     45.3253
+    ]
+   ],
+   "lon": -111.99,
+   "lat": 45.326,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBYZ.WS.W.0011.2026",
+   "event": "Winter Storm Warning",
+   "severity": "Severe",
+   "urgency": "Expected",
+   "certainty": "Likely",
+   "sender": "NWS Billings MT",
+   "areas": [
+    "Absaroka/Beartooth Mountains"
+   ],
+   "counties": [
+    "30009",
+    "30067",
+    "30095",
+    "30097"
+   ],
+   "sent": "2026-11-28T06:05:00Z",
+   "onset": "2026-11-28T06:05:00Z",
+   "ends": "2026-11-28T19:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b51b9265645b7b219067577a6aa2f463c99d10d.001.1",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -109.0286,
+     45.2245
+    ],
+    [
+     -110.5349,
+     45.4631
+    ],
+    [
+     -109.3817,
+     45.6589
+    ],
+    [
+     -109.9448,
+     45.8113
+    ]
+   ],
+   "lon": -109.722,
+   "lat": 45.539,
    "countries": [
     "US"
    ]
