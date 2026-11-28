@@ -15,10 +15,10 @@
     "12035",
     "12107"
    ],
-   "sent": "2026-11-27T17:29:00Z",
-   "onset": "2026-11-27T17:29:00Z",
-   "ends": "2026-11-28T15:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83f5acc18025c7265f20936f527f7ba627f75470.002.1",
+   "sent": "2026-11-28T06:35:00Z",
+   "onset": "2026-11-28T06:35:00Z",
+   "ends": "2026-11-29T10:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f2485e325bbfaf95e323bcbe96dc3965253b385.001.1",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -646,71 +646,6 @@
    ]
   },
   {
-   "id": "KRAH.FL.W.0002.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Raleigh NC",
-   "areas": [
-    "Johnston, NC"
-   ],
-   "counties": [
-    "37101"
-   ],
-   "sent": "2026-11-28T02:26:00Z",
-   "onset": "2026-11-28T02:26:00Z",
-   "ends": "2026-11-28T16:22:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5fc2711a93c5ccee640594832f964bfa8d67b2f.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -78.29,
-       35.54
-      ],
-      [
-       -78.34,
-       35.48
-      ],
-      [
-       -78.29,
-       35.44
-      ],
-      [
-       -78.33,
-       35.41
-      ],
-      [
-       -78.42,
-       35.47
-      ],
-      [
-       -78.35,
-       35.56
-      ],
-      [
-       -78.29,
-       35.54
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -78.3673,
-     35.5134
-    ]
-   ],
-   "lon": -78.33,
-   "lat": 35.491,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KSEW.FL.W.0039.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -1209,9 +1144,9 @@
    "areas": [
     "Ferris/Seminoe/Shirley Mountains",
     "Central Carbon County",
-    "North Snowy Range Foothills",
     "South Laramie Range",
-    "South Laramie Range Foothills"
+    "South Laramie Range Foothills",
+    "North Snowy Range Foothills"
    ],
    "counties": [
     "56001",
@@ -1828,11 +1763,11 @@
    ]
   },
   {
-   "id": "KOUN.HW.A.0002.2026",
-   "event": "High Wind Watch",
+   "id": "KOUN.HW.W.0003.2026",
+   "event": "High Wind Warning",
    "severity": "Severe",
-   "urgency": "Future",
-   "certainty": "Possible",
+   "urgency": "Expected",
+   "certainty": "Likely",
    "sender": "NWS Norman OK",
    "areas": [
     "Harper",
@@ -1840,40 +1775,20 @@
     "Ellis",
     "Woodward",
     "Roger Mills",
-    "Dewey",
-    "Custer",
-    "Beckham",
-    "Washita",
-    "Caddo",
-    "Harmon",
-    "Greer",
-    "Kiowa",
-    "Jackson",
-    "Tillman",
-    "Comanche"
+    "Beckham"
    ],
    "counties": [
     "40009",
-    "40015",
-    "40031",
-    "40039",
-    "40043",
     "40045",
-    "40055",
-    "40057",
     "40059",
-    "40065",
-    "40075",
     "40129",
-    "40141",
-    "40149",
     "40151",
     "40153"
    ],
-   "sent": "2026-11-27T17:55:00Z",
+   "sent": "2026-11-28T06:35:00Z",
    "onset": "2026-11-29T01:00:00Z",
    "ends": "2026-11-29T12:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1bb3586a8c658febbc8a686da397cc29b223f35.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d2bd12eaf10683c97c0c14791eb8b8a09421871.002.2",
    "geometry": null,
    "vtec": true,
    "points": [
@@ -1882,56 +1797,16 @@
      35.2706
     ],
     [
-     -98.381,
-     35.1679
-    ],
-    [
-     -98.4766,
-     34.6626
-    ],
-    [
-     -98.9974,
-     35.6456
-    ],
-    [
-     -99.0144,
-     35.978
-    ],
-    [
      -99.7501,
      36.2243
-    ],
-    [
-     -99.553,
-     34.9339
-    ],
-    [
-     -99.8442,
-     34.746
     ],
     [
      -99.6628,
      36.8004
     ],
     [
-     -99.4122,
-     34.594
-    ],
-    [
-     -98.9816,
-     34.9215
-    ],
-    [
      -99.7416,
      35.7086
-    ],
-    [
-     -98.9317,
-     34.3711
-    ],
-    [
-     -98.9923,
-     35.2899
     ],
     [
      -98.8636,
@@ -1942,8 +1817,8 @@
      36.4256
     ]
    ],
-   "lon": -99.223,
-   "lat": 35.467,
+   "lon": -99.497,
+   "lat": 36.193,
    "countries": [
     "US"
    ]
@@ -2083,6 +1958,133 @@
    ]
   },
   {
+   "id": "KOUN.HW.A.0002.2026",
+   "event": "High Wind Watch",
+   "severity": "Severe",
+   "urgency": "Future",
+   "certainty": "Possible",
+   "sender": "NWS Norman OK",
+   "areas": [
+    "Alfalfa",
+    "Major",
+    "Blaine",
+    "Hardeman",
+    "Foard",
+    "Wilbarger",
+    "Knox",
+    "Dewey",
+    "Custer",
+    "Washita",
+    "Caddo",
+    "Harmon",
+    "Greer",
+    "Kiowa",
+    "Jackson",
+    "Tillman",
+    "Comanche"
+   ],
+   "counties": [
+    "40003",
+    "40011",
+    "40015",
+    "40031",
+    "40039",
+    "40043",
+    "40055",
+    "40057",
+    "40065",
+    "40075",
+    "40093",
+    "40141",
+    "40149",
+    "48155",
+    "48197",
+    "48275",
+    "48487"
+   ],
+   "sent": "2026-11-28T06:35:00Z",
+   "onset": "2026-11-29T01:00:00Z",
+   "ends": "2026-11-29T12:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d2bd12eaf10683c97c0c14791eb8b8a09421871.001.2",
+   "geometry": null,
+   "vtec": true,
+   "points": [
+    [
+     -98.3234,
+     36.7297
+    ],
+    [
+     -98.429,
+     35.8778
+    ],
+    [
+     -98.381,
+     35.1679
+    ],
+    [
+     -98.4766,
+     34.6626
+    ],
+    [
+     -98.9974,
+     35.6456
+    ],
+    [
+     -99.0144,
+     35.978
+    ],
+    [
+     -99.553,
+     34.9339
+    ],
+    [
+     -99.8442,
+     34.746
+    ],
+    [
+     -99.4122,
+     34.594
+    ],
+    [
+     -98.9816,
+     34.9215
+    ],
+    [
+     -98.542,
+     36.3131
+    ],
+    [
+     -98.9317,
+     34.3711
+    ],
+    [
+     -98.9923,
+     35.2899
+    ],
+    [
+     -99.8168,
+     33.9633
+    ],
+    [
+     -99.7457,
+     34.2899
+    ],
+    [
+     -99.7304,
+     33.6119
+    ],
+    [
+     -99.2424,
+     34.0849
+    ]
+   ],
+   "lon": -99.083,
+   "lat": 35.011,
+   "countries": [
+    "US"
+   ]
+  },
+  {
    "id": "KRIW.WS.W.0006.2026",
    "event": "Winter Storm Warning",
    "severity": "Severe",
@@ -2150,37 +2152,6 @@
    ],
    "lon": -110.039,
    "lat": 43.756,
-   "countries": [
-    "US"
-   ]
-  },
-  {
-   "id": "PAFG.WS.W.0029.2026",
-   "event": "Winter Storm Warning",
-   "severity": "Severe",
-   "urgency": "Expected",
-   "certainty": "Likely",
-   "sender": "NWS Fairbanks AK",
-   "areas": [
-    "Eastern Beaufort Sea Coast"
-   ],
-   "counties": [
-    "02185"
-   ],
-   "sent": "2026-11-27T21:01:00Z",
-   "onset": "2026-11-27T21:01:00Z",
-   "ends": "2026-11-28T07:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8421bd3889b0f2640a3468361145b0816523565.002.1",
-   "geometry": null,
-   "vtec": true,
-   "points": [
-    [
-     -153.4728,
-     69.4493
-    ]
-   ],
-   "lon": -153.473,
-   "lat": 69.449,
    "countries": [
     "US"
    ]
