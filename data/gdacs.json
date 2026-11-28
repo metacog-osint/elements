@@ -1,6 +1,29 @@
 {
  "records": [
   {
+   "id": "FL-1104303",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 2,
+   "name": "Flood in Bolivia",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-25T01:00:00Z",
+   "to": "2026-11-27T01:00:00Z",
+   "current": true,
+   "country": "Bolivia",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104303&episodeid=2&eventtype=FL",
+   "lon": -66.168,
+   "lat": -17.401,
+   "countries": [
+    "BO"
+   ]
+  },
+  {
    "id": "TC-1001352",
    "type": "TC",
    "kind": "tropical cyclone",
@@ -45,29 +68,6 @@
    ]
   },
   {
-   "id": "FL-1104295",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Ireland",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-22T01:00:00Z",
-   "to": "2026-11-24T01:00:00Z",
-   "current": false,
-   "country": "Ireland",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104295&episodeid=1&eventtype=FL",
-   "lon": -9.452,
-   "lat": 51.68,
-   "countries": [
-    "IE"
-   ]
-  },
-  {
    "id": "FL-1104299",
    "type": "FL",
    "kind": "flood",
@@ -88,6 +88,29 @@
    "lat": 0.131,
    "countries": [
     "UG"
+   ]
+  },
+  {
+   "id": "FL-1104295",
+   "type": "FL",
+   "kind": "flood",
+   "episode": 1,
+   "name": "Flood in Ireland",
+   "alert": "green",
+   "score": 1,
+   "latest_alert": "green",
+   "severity_value": 0.0,
+   "severity_unit": "",
+   "from": "2026-11-22T01:00:00Z",
+   "to": "2026-11-24T01:00:00Z",
+   "current": false,
+   "country": "Ireland",
+   "severity": "Magnitude 0 ",
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104295&episodeid=1&eventtype=FL",
+   "lon": -9.452,
+   "lat": 51.68,
+   "countries": [
+    "IE"
    ]
   },
   {
@@ -114,29 +137,6 @@
    ]
   },
   {
-   "id": "FL-1104293",
-   "type": "FL",
-   "kind": "flood",
-   "episode": 1,
-   "name": "Flood in Chile",
-   "alert": "green",
-   "score": 1,
-   "latest_alert": "green",
-   "severity_value": 0.0,
-   "severity_unit": "",
-   "from": "2026-11-20T01:00:00Z",
-   "to": "2026-11-22T01:00:00Z",
-   "current": false,
-   "country": "Chile",
-   "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104293&episodeid=1&eventtype=FL",
-   "lon": -71.668,
-   "lat": -33.105,
-   "countries": [
-    "CL"
-   ]
-  },
-  {
    "id": "FL-1104300",
    "type": "FL",
    "kind": "flood",
@@ -160,26 +160,26 @@
    ]
   },
   {
-   "id": "FL-1104302",
+   "id": "FL-1104293",
    "type": "FL",
    "kind": "flood",
-   "episode": 5,
-   "name": "Flood in Paraguay",
+   "episode": 1,
+   "name": "Flood in Chile",
    "alert": "green",
    "score": 1,
    "latest_alert": "green",
    "severity_value": 0.0,
    "severity_unit": "",
-   "from": "2026-11-18T01:00:00Z",
-   "to": "2026-11-25T01:00:00Z",
-   "current": true,
-   "country": "Paraguay",
+   "from": "2026-11-20T01:00:00Z",
+   "to": "2026-11-22T01:00:00Z",
+   "current": false,
+   "country": "Chile",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104302&episodeid=5&eventtype=FL",
-   "lon": -58.833,
-   "lat": -23.5,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104293&episodeid=1&eventtype=FL",
+   "lon": -71.668,
+   "lat": -33.105,
    "countries": [
-    "PY"
+    "CL"
    ]
   },
   {
@@ -209,7 +209,7 @@
    "id": "FL-1104290",
    "type": "FL",
    "kind": "flood",
-   "episode": 2,
+   "episode": 4,
    "name": "Flood in United States",
    "alert": "green",
    "score": 1,
@@ -217,13 +217,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-11-17T01:00:00Z",
-   "to": "2026-11-21T01:00:00Z",
-   "current": false,
+   "to": "2026-11-28T01:00:00Z",
+   "current": true,
    "country": "United States",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104290&episodeid=2&eventtype=FL",
-   "lon": -117.76,
-   "lat": 33.993,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104290&episodeid=4&eventtype=FL",
+   "lon": -124.218,
+   "lat": 40.739,
    "countries": [
     "US"
    ]
@@ -577,7 +577,7 @@
    "id": "FL-1104253",
    "type": "FL",
    "kind": "flood",
-   "episode": 6,
+   "episode": 70,
    "name": "Flood in Indonesia",
    "alert": "green",
    "score": 1,
@@ -585,13 +585,13 @@
    "severity_value": 0.0,
    "severity_unit": "",
    "from": "2026-10-24T01:00:00Z",
-   "to": "2026-11-25T01:00:00Z",
+   "to": "2026-11-27T01:00:00Z",
    "current": true,
    "country": "Indonesia",
    "severity": "Magnitude 0 ",
-   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL",
-   "lon": 97.025,
-   "lat": 4.369,
+   "report": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=70&eventtype=FL",
+   "lon": 102.11,
+   "lat": 1.477,
    "countries": [
     "ID"
    ]

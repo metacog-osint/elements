@@ -457,69 +457,6 @@
    ]
   },
   {
-   "id": "KBOX.FL.W.0012.2026",
-   "event": "Flood Warning",
-   "severity": "Severe",
-   "urgency": "Immediate",
-   "certainty": "Observed",
-   "sender": "NWS Boston/Norton MA",
-   "areas": [
-    "Bristol, MA",
-    "Plymouth, MA"
-   ],
-   "counties": [
-    "25005",
-    "25023"
-   ],
-   "sent": "2026-11-28T01:51:00Z",
-   "onset": "2026-11-28T01:51:00Z",
-   "ends": "2026-11-30T08:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c38be00bbe36b50705688c81dc1b824af62755ab.001.1",
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -71.19,
-       41.82
-      ],
-      [
-       -70.97,
-       42.02
-      ],
-      [
-       -70.87,
-       41.94
-      ],
-      [
-       -71.1,
-       41.77
-      ],
-      [
-       -71.19,
-       41.82
-      ]
-     ]
-    ]
-   },
-   "vtec": true,
-   "points": [
-    [
-     -71.0889,
-     41.7486
-    ],
-    [
-     -70.7419,
-     41.9872
-    ]
-   ],
-   "lon": -71.064,
-   "lat": 41.874,
-   "countries": [
-    "US"
-   ]
-  },
-  {
    "id": "KMLB.FL.W.0009.2026",
    "event": "Flood Warning",
    "severity": "Severe",
@@ -777,6 +714,69 @@
    ],
    "lon": -123.183,
    "lat": 47.326,
+   "countries": [
+    "US"
+   ]
+  },
+  {
+   "id": "KBOX.FL.W.0012.2026",
+   "event": "Flood Warning",
+   "severity": "Severe",
+   "urgency": "Immediate",
+   "certainty": "Observed",
+   "sender": "NWS Boston/Norton MA",
+   "areas": [
+    "Bristol, MA",
+    "Plymouth, MA"
+   ],
+   "counties": [
+    "25005",
+    "25023"
+   ],
+   "sent": "2026-11-28T10:50:00Z",
+   "onset": "2026-11-28T10:50:00Z",
+   "ends": "2026-11-30T08:00:00Z",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06beb1337194a5957f0017dbb3dc4ece4a103a21.001.1",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -71.19,
+       41.82
+      ],
+      [
+       -70.97,
+       42.02
+      ],
+      [
+       -70.87,
+       41.94
+      ],
+      [
+       -71.1,
+       41.77
+      ],
+      [
+       -71.19,
+       41.82
+      ]
+     ]
+    ]
+   },
+   "vtec": true,
+   "points": [
+    [
+     -71.0889,
+     41.7486
+    ],
+    [
+     -70.7419,
+     41.9872
+    ]
+   ],
+   "lon": -71.064,
+   "lat": 41.874,
    "countries": [
     "US"
    ]
@@ -1738,9 +1738,9 @@
    "certainty": "Likely",
    "sender": "NWS Cheyenne WY",
    "areas": [
-    "North Snowy Range Foothills",
     "South Laramie Range",
     "South Laramie Range Foothills",
+    "North Snowy Range Foothills",
     "Ferris/Seminoe/Shirley Mountains",
     "Central Carbon County"
    ],
@@ -1752,7 +1752,7 @@
    "sent": "2026-11-28T07:26:00Z",
    "onset": "2026-11-28T07:26:00Z",
    "ends": "2026-11-29T03:00:00Z",
-   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.002.1",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.711df73b76a81d5548c7636716c871c455531991.003.1",
    "geometry": null,
    "vtec": true,
    "points": [
