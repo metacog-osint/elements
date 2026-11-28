@@ -463,20 +463,6 @@
    "lat": 39.6982
   },
   {
-   "id": "{CF3A98B8-226D-4A2A-B8EE-781B934C3BC6}",
-   "name": "Marion 0172",
-   "acres": 4.0,
-   "contained": 0,
-   "discovered": "2026-11-28T05:39:32Z",
-   "updated": "2026-11-28T07:28:46Z",
-   "state": "TX",
-   "county": "Marion",
-   "cause": "Undetermined",
-   "complexity": "Type 5 Incident",
-   "lon": -94.2281,
-   "lat": 32.7522
-  },
-  {
    "id": "{02B0F9BC-90AB-4BC2-8C4B-B3A6612FAA49}",
    "name": "Cty D",
    "acres": 3.2,
@@ -489,6 +475,20 @@
    "complexity": null,
    "lon": -92.6179,
    "lat": 45.8062
+  },
+  {
+   "id": "{CF3A98B8-226D-4A2A-B8EE-781B934C3BC6}",
+   "name": "Marion 0172",
+   "acres": 2.0,
+   "contained": 0,
+   "discovered": "2026-11-28T05:39:32Z",
+   "updated": "2026-11-28T07:46:19Z",
+   "state": "TX",
+   "county": "Marion",
+   "cause": "Undetermined",
+   "complexity": "Type 5 Incident",
+   "lon": -94.2232,
+   "lat": 32.76
   },
   {
    "id": "{B78CDDDA-FB54-404B-A358-66A400AD9632}",
@@ -713,20 +713,6 @@
    "complexity": null,
    "lon": -90.4506,
    "lat": 43.185
-  },
-  {
-   "id": "{02F702B1-EB6A-492C-B416-A9F270D4E46E}",
-   "name": "Lac-426137",
-   "acres": 0.0,
-   "contained": null,
-   "discovered": "2026-11-25T07:28:35Z",
-   "updated": "2026-11-25T07:29:02Z",
-   "state": "CA",
-   "county": "Los Angeles",
-   "cause": "Undetermined",
-   "complexity": null,
-   "lon": -118.1356,
-   "lat": 34.6894
   },
   {
    "id": "{187771D1-A95A-43B3-9D12-70B6C69D535A}",
@@ -1161,6 +1147,20 @@
    "complexity": null,
    "lon": -118.0583,
    "lat": 34.591
+  },
+  {
+   "id": "{5484B27B-E0D9-470D-84FE-05BD4A586E1D}",
+   "name": "Lac-430251",
+   "acres": 0.0,
+   "contained": null,
+   "discovered": "2026-11-28T08:02:00Z",
+   "updated": "2026-11-28T08:02:21Z",
+   "state": "CA",
+   "county": "Los Angeles",
+   "cause": "Undetermined",
+   "complexity": null,
+   "lon": -118.3608,
+   "lat": 33.9315
   }
  ]
 }
