@@ -1,6 +1,23 @@
 {
  "records": [
   {
+   "id": "us6000ue1b",
+   "mag": 5.1,
+   "place": "73 km NNW of Phôngsali, Laos",
+   "time": "2026-11-28T01:17:42Z",
+   "updated": "2026-11-28T01:32:03Z",
+   "alert": null,
+   "tsunami": false,
+   "sig": 400,
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b",
+   "depth_km": 10.0,
+   "lon": 101.746,
+   "lat": 22.255,
+   "countries": [
+    "LA"
+   ]
+  },
+  {
    "id": "us6000ue0a",
    "mag": 4.5,
    "place": "Izu Islands, Japan region",
@@ -1162,38 +1179,6 @@
    "lon": -31.857,
    "lat": 58.546,
    "countries": []
-  },
-  {
-   "id": "us6000ucga",
-   "mag": 4.9,
-   "place": "Reykjanes Ridge",
-   "time": "2026-11-21T01:26:19Z",
-   "updated": "2026-11-21T01:46:29Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 369,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucga",
-   "depth_km": 10.0,
-   "lon": -31.761,
-   "lat": 58.302,
-   "countries": []
-  },
-  {
-   "id": "us6000ucg8",
-   "mag": 4.7,
-   "place": "38 km NE of Calama, Chile",
-   "time": "2026-11-21T01:24:09Z",
-   "updated": "2026-11-21T01:34:16Z",
-   "alert": null,
-   "tsunami": false,
-   "sig": 340,
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucg8",
-   "depth_km": 120.0,
-   "lon": -68.641,
-   "lat": -22.231,
-   "countries": [
-    "CL"
-   ]
   }
  ]
 }
